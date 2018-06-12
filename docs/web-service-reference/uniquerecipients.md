@@ -1,0 +1,86 @@
+---
+title: UniqueRecipients
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- UniqueRecipients
+api_type:
+- schema
+ms.assetid: 9f46ed05-5370-46ee-80f5-83f97224c76e
+description: L'élément UniqueRecipients contient la liste des destinataires d'une conversation dans un dossier spécifique. Cet élément est en lecture seule.
+ms.openlocfilehash: 710559e599c6cec1db371165f01187f8960024f6
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19838830"
+---
+# <a name="uniquerecipients"></a>UniqueRecipients
+
+Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. L'élément **UniqueRecipients** contient la liste des destinataires d'une conversation dans un dossier spécifique. Cet élément est en lecture seule. 
+  
+[FindConversationResponse](findconversationresponse.md)
+  
+[Conversations](conversations-ex15websvcsotherref.md)
+  
+[Conversation (ConversationType)](conversation-conversationtype.md)
+  
+[UniqueRecipients](uniquerecipients.md)
+  
+```XML
+<UniqueRecpients>
+   <String/>
+</UniqueRecpients>
+```
+
+ **ArrayOfStringsType**
+## <a name="attributes-and-elements"></a>Attributs et éléments
+
+Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+  
+### <a name="attributes"></a>Attributs
+
+Aucun.
+  
+### <a name="child-elements"></a>Éléments enfants
+
+|**Élément**|**Description**|
+|:-----|:-----|
+|[String](string.md) <br/> |Représente un destinataire unique d'une conversation. Cet élément est en lecture seule.  <br/> |
+   
+### <a name="parent-elements"></a>Éléments parents
+
+|**Élément**|**Description**|
+|:-----|:-----|
+|[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
+   
+## <a name="text-value"></a>Valeur de texte
+
+Aucun.
+  
+## <a name="remarks"></a>Remarques
+
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 1 (SP1).
+  
+## <a name="element-information"></a>Informations sur l'élément
+
+|||
+|:-----|:-----|
+|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma Messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Peut être vide  <br/> |False  <br/> |
+   
+## <a name="see-also"></a>Voir aussi
+
+
+
+[FindConversation Operation](findconversation-operation.md)
+
+
+[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+

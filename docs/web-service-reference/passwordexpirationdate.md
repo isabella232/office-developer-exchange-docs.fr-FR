@@ -1,33 +1,29 @@
 ---
-title: UmEnabled
+title: PasswordExpirationDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
-api_name:
-- UmEnabled
-api_type:
-- schema
-ms.assetid: 87382d9b-0c02-49ec-85dc-3f5918df3195
-description: L’élément UmEnabled indique si la messagerie unifiée est activée pour un compte.
-ms.openlocfilehash: 8324e02136adc6704bc0badb77131e9671ee569f
+ms.assetid: 57fa2599-8629-438a-85a7-dd3d54cfb8da
+description: L’élément PasswordExpirationDate fournit la date d’expiration de mot de passe d’un compte de boîte aux lettres.
+ms.openlocfilehash: 5fbe807ce30971e181db3db01a51f8b3e24dfd18
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19838793"
+ms.locfileid: "19828699"
 ---
-# <a name="umenabled"></a>UmEnabled
+# <a name="passwordexpirationdate"></a>PasswordExpirationDate
 
-L’élément **UmEnabled** indique si la messagerie unifiée est activée pour un compte. 
+L’élément **PasswordExpirationDate** fournit la date d’expiration de mot de passe d’un compte de boîte aux lettres. 
   
 ```XML
-<UmEnabled>true | false</UmEnabled>
+<PasswordExpirationDate
 ```
 
- **Boolean**
+ **string**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -42,19 +38,19 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Description**|
+|**Nom de l'élément**|**Description**|
 |:-----|:-----|
-|[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |Contient des informations de configuration de service pour le service de messagerie unifiée.  <br/> |
+|[Opération GetPasswordExpirationDate](getpasswordexpirationdate-operation.md) <br/> |Définit une demande pour obtenir la date d’expiration de mot de passe pour un compte de messagerie.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
-La valeur de texte de l’élément **UmEnabled** a la **valeur true** si la messagerie unifiée est activée pour le compte. dans le cas contraire, la valeur est **false**.
+Aucun.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Cet élément est obligatoire.
-  
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
+  
+Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -63,10 +59,13 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
-|Peut être vide  <br/> |False  <br/> |
+|Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
+
+
+[Opération GetPasswordExpirationDate](getpasswordexpirationdate-operation.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

@@ -1,0 +1,50 @@
+---
+title: Gestion des erreurs liées aux notifications dans EWS dans Exchange
+manager: sethgros
+ms.date: 09/17/2015
+ms.audience: Developer
+localization_priority: Normal
+ms.assetid: 519e1e52-5f1f-4f06-931e-8c20a586a563
+description: Découvrez comment gérer les erreurs liées aux notifications dans les applications que vous développez à l’aide de l’API managée EWS ou EWS dans Exchange.
+ms.openlocfilehash: cb0c16a74e68b5a16ef0f2011f65b22675950f58
+ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19754781"
+---
+# <a name="handling-notification-related-errors-in-ews-in-exchange"></a>Gestion des erreurs liées aux notifications dans EWS dans Exchange
+
+Découvrez comment gérer les erreurs liées aux notifications dans les applications que vous développez à l’aide de l’API managée EWS ou EWS dans Exchange.
+  
+Si votre application s’abonne à et obtient les notifications, vous devrez peut-être gérer les erreurs liées à la notification. Vous pouvez gérer ces erreurs en cours d'exécution, ou lorsque vous développez votre application EWS.
+  
+**Le tableau 1. Erreurs liées aux notifications et comment les gérer**
+
+|Erreur|Cet événement se produit lorsque vous essayez de...|Traiter par...|
+|:-----|:-----|:-----|
+|**ErrorExceededConnectionCount** |Ouvrir une connexion pour obtenir les événements lorsque le compte a atteint sa limite de connexion d’ouvrir des connexions de diffusion en continu. | <ul><li>Utilisation de l' [emprunt d’identité](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx) pour [Ouvrir des connexions](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).</li><li>À l’aide de moins de connexions pour obtenir les événements. Augmenter le nombre d’abonnements de chaque connexion à [l’aide de l’affinité](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md) et [placer un maximum de 200 ID dans le même groupe d’abonnement](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_howdoimaintain). Vous pouvez ensuite utiliser la même connexion à récupérer des événements pour le groupe entier, réduisant le nombre de connexions requis.</li><li>  Modification de la valeur de la HangingConnectionLimit dans le fichier web.config pour Exchange local pour remplacer la valeur par défaut de trois connexions ouvertes. Exchange Online a une valeur par défaut HangingConnectionLimit 10, qui n’est pas configurable.</li></ul> |
+|**ErrorExceededSubscriptionCount** |Créer un trop grand nombre d’abonnements. [EwsMaxSubscriptions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.throttlingpolicy.ewsmaxsubscriptions%28v=exchg.150%29.aspx) la limitation du paramètre de stratégie détermine le nombre maximal d’abonnements qu’un compte peut créer. | <ul><li>Utilisation de l' [emprunt d’identité](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx) à [créer des abonnements](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).</li><li>Réduction du nombre d’abonnements.</li></ul> |
+|**ErrorInvalidSubscriptionRequest** |Créer des abonnements pour plusieurs boîtes aux lettres ou à plusieurs dossiers à partir d’une demande unique.  |Création d’un abonnement pour un dossier public ou une boîte aux lettres unique dans une demande unique.| 
+|**ErrorInvalidWatermark** |Obtenir les événements à l’aide d’un filigrane non valide.| <ul><li>Vérification de l’ID d’abonnement retournés dans la réponse précédente.</li><li>En vous assurant que vous envoyez l’ID d’abonnement pour l’objet **ExchangeService** correct.</li><li>[Création d’un nouvel abonnement](handling-notification-related-errors-in-ews-in-exchange.md#bk_recover).</li></ul> |
+|**ErrorMissedNotificationEvents** |Obtenir les événements lorsque des événements précédents ont été manquées.   |Comparer les propriétés du dossier étendu **PR_LOCAL_COMMIT_TIME_MAX** (0x670a) et **PR_DELETED_COUNT_TOTAL** (0x670b) pour déterminer les modifications qui ont été manquées et la [Création d’un nouvel abonnement](handling-notification-related-errors-in-ews-in-exchange.md#bk_recover).  |
+|**ErrorProxyRequestNotAllowed** |S’abonner à des événements pour un utilisateur dans une requête par lot dont boîte aux lettres est déplacée vers un autre site.   |À l’aide de la [découverte automatique](autodiscover-for-exchange.md) ré le ExternalEwsUrl ou EwsPartnerUrl et en créant un nouvel abonnement.  |
+|**ErrorReadEventsFailed** |Obtenir les événements à partir d’un abonnement est introuvable.  |À l’aide de la [découverte automatique](autodiscover-for-exchange.md) ré le ExternalEwsUrl ou EwsPartnerUrl et en créant un nouvel abonnement.  |
+|**ErrorServerBusy** | Dépasse les limites de [limitation](ews-throttling-in-exchange.md#bk_ThrottlingNotifications) . N’oubliez pas de limitation relatives aux suivantes :<ul><li>[EwsMaxSubscriptions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.throttlingpolicy.ewsmaxsubscriptions%28v=exchg.150%29.aspx) limitation identifie le nombre maximal de push, pull ou transmettre en continu des abonnements à des notifications qui peuvent être actifs en même temps. Il s’agit de la valeur d’abonnements de la boîte aux lettres, pas le nombre d’abonnements de dossier individuels dans un abonnement de boîte aux lettres. À partir de versions de boîte aux lettres service 14.16.0135 et 14.15.0057.000, une boîte aux lettres hébergée par Exchange Online ou Exchange Online dans le cadre d’Office 365 peut avoir jusqu'à 20 abonnements, et une cible de Exchange 2013 locaux boîte aux lettres peut avoir jusqu'à 5 000 abonnements.</li><li>[EwsMaxConcurrency](http://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.throttlingpolicy.ewsmaxconcurrency%28v=exchg.150%29.aspx) limitation identifie le nombre maximal de demandes actives pour les connexions non-diffusion en continu et a la valeur par défaut 27.</li><li>La limite par défaut pour les connexions de diffusion en continu open est 10.</li></ul> |<ul><li>[Compte tenu des implications des stratégies de limitation de la notification](ews-throttling-in-exchange.md#bk_ThrottlingNotifications) et en limitant le nombre d’abonnements actifs et les connexions actives afin que l’application n’est pas limitée.</li><li>À l’aide de moins de connexions pour obtenir les événements. Augmenter le nombre d’abonnements dans chaque connexion en [plaçant un maximum de 200 ID dans le même groupe d’abonnement](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md). Vous pouvez ensuite utiliser la même connexion à récupérer des événements pour le groupe entier, réduisant le nombre de connexions requis.</li><li>Modification de la valeur de la HangingConnectionLimit dans le fichier web.config pour remplacer la valeur par défaut de 10 connexions diffusion en continu ouvertes.</li></ul>|
+|**ErrorSubscriptionNotFound** |Obtenir les événements d’un abonnement est introuvable. L’abonnement a expiré, le processus EWS ont été redémarré ou un abonnement non valide a été passé. | <ul><li>Vérifier que vous utilisez le même ID d’abonnement qui a été retourné dans la réponse précédente.</li><li>En vous assurant que vous envoyez l’ID d’abonnement pour l’objet **ExchangeService** correct.</li><li> [Création d’un nouvel abonnement](handling-notification-related-errors-in-ews-in-exchange.md#bk_recover).</li></ul> |
+|**[ServiceLocalException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponseexception%28v=exchg.80%29.aspx)** |Ajout d’un abonnement à un nouveau dossier lorsqu’une connexion de l’abonnement est ouverte sur un autre dossier.  |Modification de votre abonnement pour vous abonner à tous les dossiers dans la boîte aux lettres, au lieu d’un dossier spécifique.  |
+|**[ServiceResponseException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponseexception%28v=exchg.80%29.aspx)** |Obtenir les événements pour un abonnement ne peut pas être situé dans la banque d’informations Exchange.  | <ul><li>Vérifier que vous utilisez le même ID d’abonnement qui a été retourné dans la réponse précédente.</li><li>En vous assurant que vous envoyez l’ID d’abonnement pour l’objet **ExchangeService** correct.</li></ul> |
+   
+## <a name="recovering-from-lost-subscriptions"></a>Récupération à partir d’abonnements perdues
+<a name="bk_recover"> </a>
+
+Lorsqu’un abonnement est perdu, ou n’est plus accessible, il est préférable de créer un nouvel abonnement et pas inclure l’anciens filigrane dans le nouvel abonnement. Resubscribing avec l’ancien filigrane provoque une analyse linéaire pour les événements, qui est coûteux. Au lieu de cela, de créer un nouvel abonnement et de comparer les propriétés de dossier pour rechercher les modifications de contenu s’est produite entre l’abonnement perdue et le nouvel abonnement. Les propriétés du dossier étendu que nous vous recommandons de vérifier sont **PR_LOCAL_COMMIT_TIME_MAX** (0x670a0040) et **PR_DELETED_COUNT_TOTAL** (0x670b0003). Pour cela, [Création d’une définition de la propriété étendue](properties-and-extended-properties-in-ews-in-exchange.md).
+  
+## <a name="see-also"></a>Voir aussi
+
+- [Abonnements à des notifications, événements de boîte aux lettres et EWS dans Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
+- [Notifications de flux de données sur les événements de boîte aux lettres à l’aide de EWS dans Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)    
+- [Extraction des notifications concernant les événements de boîte aux lettres à l’aide de EWS dans Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)    
+- [Conserve les affinités entre un groupe d’abonnements et le serveur de boîtes aux lettres dans Exchange](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md)
+    
+

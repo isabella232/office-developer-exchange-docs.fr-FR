@@ -1,5 +1,5 @@
 ---
-title: DelegateUserResponseMessageType
+title: AddDelegateResponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,34 +7,33 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- DelegateUserResponseMessageType
+- AddDelegateResponse
 api_type:
 - schema
-ms.assetid: 3dc9552c-1e2d-40ac-a137-827883c2bb88
-description: L’élément DelegateUserResponseMessageType contient le message de réponse pour un utilisateur délégué unique.
-ms.openlocfilehash: ac99e0ca219fc1f1e117f9288d895e27a1df4700
+ms.assetid: d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429
+description: L’élément AddDelegateResponse contient l’état et les résultats d’une requête d’opération AddDelegate.
+ms.openlocfilehash: a1d56e9994b3a7916fe0fbe40be1e6d8ff473730
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19755842"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19755160"
 ---
-# <a name="delegateuserresponsemessagetype"></a>DelegateUserResponseMessageType
+# <a name="adddelegateresponse"></a>AddDelegateResponse
 
-L’élément **DelegateUserResponseMessageType** contient le message de réponse pour un utilisateur délégué unique. 
+L’élément **AddDelegateResponse** contient l’état et les résultats d’une requête [d’opération AddDelegate](adddelegate-operation.md) . 
   
 ```xml
-<DelegateUserResponseMessageType>
+<AddDelegateResponse>
+   <ResponseMessages/>
    <MessageText/>
    <ResponseCode/>
    <DescriptiveLinkKey/>
    <MessageXml/>
-   <DelegateUser/>
-</DelegateUserResponseMessageType>
+</AddDelegateResponse>
 ```
 
-**DelegateUserResponseMessageType**
-
+ **AddDelegateResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -47,21 +46,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
+|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contient les messages de réponse pour une demande de gestion des Services Web Exchange délégué.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique qui a rencontré la demande.  <br/> |
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisés et est réservé à un usage ultérieur. Il contient une valeur de 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Fournit des informations de réponse d’erreur.  <br/> |
-|[Utilisateur_délégué](delegateuser.md) <br/> |Identifie un délégué unique qui est retourné dans une réponse de gestion de délégué.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Description**|
-|:-----|:-----|
-|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contient les messages de réponse pour une demande de gestion des Services Web Exchange délégué.  <br/> |
-   
+Aucun.
+  
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server avec le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -74,9 +71,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Opération AddDelegate](adddelegate-operation.md)  
-- [Opération GetDelegate](getdelegate-operation.md) 
-- [Opération UpdateDelegate](updatedelegate-operation.md)  
-- [Opération RemoveDelegate](removedelegate-operation.md)
+- [Opération AddDelegate](adddelegate-operation.md)
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

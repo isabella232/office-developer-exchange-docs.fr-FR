@@ -57,7 +57,7 @@ Aucun.
 |:-----|:-----|
 |[Modifications (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau de types de modification qui représente le type des différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007 séquencé.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur Exchange 2007 ayant le rôle de serveur d’accès au Client est installé.
   

@@ -1,32 +1,31 @@
 ---
-title: BusinessPhoneNumbers2
+title: FileAses
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
-ms.assetid: f335ea74-9b5b-4224-9475-40ef33fe76bd
-description: L’élément BusinessPhoneNumbers2 spécifie un tableau d’éléments BusinessPhoneNumber2 et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 8a03e102223e5542d6a672c4f47305cef84b850b
+ms.assetid: f81efc37-bb70-4d52-a614-cec87d1b0f04
+description: L’élément FileAses spécifie un tableau d’éléments StringAttributedValue et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: e660c74135dca9a2eb58b3486e0d2e19f85e012f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/21/2018
-ms.locfileid: "19755466"
+ms.locfileid: "19756358"
 ---
-# <a name="businessphonenumbers2"></a>BusinessPhoneNumbers2
+# <a name="fileases"></a>FileAses
 
-L’élément **BusinessPhoneNumbers2** spécifie un tableau d’éléments **BusinessPhoneNumber2** et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **FileAses** spécifie un tableau d’éléments **StringAttributedValue** et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
-<BusinessPhoneNumbers2>
-    <Value></Value>
-    <Attributions></Attributions>
-</BusinessPhoneNumbers2>
+<FileAses>
+    <StringAttributedValue/>
+</FileAses>
 ```
 
- **ArrayOfPhoneNumberAttributedValuesType**
+ **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -39,8 +38,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un nombre et le type d’informations téléphoniques et est associé à un ensemble d’attributions.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des affectations pour sa **valeur** de l’élément associé.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’attributs associés à un élément personnage.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

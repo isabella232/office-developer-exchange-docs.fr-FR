@@ -16,7 +16,7 @@ ms.openlocfilehash: a7afb0aeb650284739d559164f06590fc5266c57
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19755830"
 ---
 # <a name="daysofweek-dayofweektype"></a>DaysOfWeek (DayOfWeekType)
@@ -63,7 +63,7 @@ Une valeur texte est requise. Les valeurs possibles sont les suivantes :
 - WeekDay (non utilisé dans le TimeChangePatternTypes)    
 - WeekendDay (non utilisé dans le TimeChangePatternTypes)
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
   

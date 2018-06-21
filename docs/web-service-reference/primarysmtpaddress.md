@@ -16,7 +16,7 @@ ms.openlocfilehash: d33bf22af4ddf6b2f6d8d8d434168264acfaea7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19828881"
 ---
 # <a name="primarysmtpaddress"></a>PrimarySmtpAddress
@@ -52,7 +52,7 @@ Aucun.
 
 Une valeur de texte qui représente une adresse SMTP est requise.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Services Web Exchange nécessite que les boîtes aux lettres être identifié par l’adresse SMTP principale de la boîte aux lettres. Proxy ou les adresses de remplacement ne sont pas acceptés.
   

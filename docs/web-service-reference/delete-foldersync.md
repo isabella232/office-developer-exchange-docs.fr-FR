@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cad36c6fcff782195fdb285e2d3c4f3c5ec0f1e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19755841"
 ---
 # <a name="delete-foldersync"></a>Supprimer (FolderSync)

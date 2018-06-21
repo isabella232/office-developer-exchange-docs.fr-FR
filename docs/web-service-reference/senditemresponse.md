@@ -16,12 +16,12 @@ ms.openlocfilehash: 41f450e1d4c95f7ba389adcaa2ed7e18ea74d61c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19829339"
 ---
-# <a name="senditemresponse"></a><span data-ttu-id="e5fc5-103">SendItemResponse</span><span class="sxs-lookup"><span data-stu-id="e5fc5-103">SendItemResponse</span></span>
+# <a name="senditemresponse"></a><span data-ttu-id="facba-103">SendItemResponse</span><span class="sxs-lookup"><span data-stu-id="facba-103">SendItemResponse</span></span>
 
-<span data-ttu-id="e5fc5-104">L’élément **SendItemResponse** définit une réponse à une demande SendItem.</span><span class="sxs-lookup"><span data-stu-id="e5fc5-104">The **SendItemResponse** element defines a response to a SendItem request.</span></span> 
+<span data-ttu-id="facba-104">L’élément **SendItemResponse** définit une réponse à une demande SendItem.</span><span class="sxs-lookup"><span data-stu-id="facba-104">The **SendItemResponse** element defines a response to a SendItem request.</span></span> 
   
 ```xml
 <SendItemResponse>
@@ -29,46 +29,46 @@ ms.locfileid: "19829339"
 </SendItemResponse>
 ```
 
- <span data-ttu-id="e5fc5-105">**SendItemResponseType**</span><span class="sxs-lookup"><span data-stu-id="e5fc5-105">**SendItemResponseType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e5fc5-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="e5fc5-106">Attributes and elements</span></span>
+ <span data-ttu-id="facba-105">**SendItemResponseType**</span><span class="sxs-lookup"><span data-stu-id="facba-105">**SendItemResponseType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="facba-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="facba-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e5fc5-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="e5fc5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="facba-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="facba-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e5fc5-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="e5fc5-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="facba-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="facba-108">Attributes</span></span>
 
-<span data-ttu-id="e5fc5-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="e5fc5-109">None.</span></span>
+<span data-ttu-id="facba-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="facba-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e5fc5-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="e5fc5-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="facba-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="facba-110">Child elements</span></span>
 
-|<span data-ttu-id="e5fc5-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="e5fc5-111">**Element**</span></span>|<span data-ttu-id="e5fc5-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="e5fc5-112">**Description**</span></span>|
+|<span data-ttu-id="facba-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="facba-111">**Element**</span></span>|<span data-ttu-id="facba-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="facba-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e5fc5-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="e5fc5-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="e5fc5-114">Contient les messages de réponse pour une demande de Services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="e5fc5-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
+|[<span data-ttu-id="facba-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="facba-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="facba-114">Contient les messages de réponse pour une demande de Services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="facba-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="e5fc5-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="e5fc5-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="facba-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="facba-115">Parent elements</span></span>
 
-<span data-ttu-id="e5fc5-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="e5fc5-116">None.</span></span>
+<span data-ttu-id="facba-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="facba-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e5fc5-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="e5fc5-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="facba-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="facba-117">Remarks</span></span>
 
-<span data-ttu-id="e5fc5-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="e5fc5-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="facba-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="facba-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e5fc5-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="e5fc5-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="facba-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="facba-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e5fc5-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="e5fc5-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="e5fc5-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="e5fc5-121">Schema name</span></span>  <br/> |<span data-ttu-id="e5fc5-122">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="e5fc5-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="e5fc5-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="e5fc5-123">Validation file</span></span>  <br/> |<span data-ttu-id="e5fc5-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="e5fc5-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="e5fc5-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="e5fc5-125">Can be empty</span></span>  <br/> |<span data-ttu-id="e5fc5-126">False</span><span class="sxs-lookup"><span data-stu-id="e5fc5-126">False</span></span>  <br/> |
+|<span data-ttu-id="facba-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="facba-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="facba-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="facba-121">Schema name</span></span>  <br/> |<span data-ttu-id="facba-122">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="facba-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="facba-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="facba-123">Validation file</span></span>  <br/> |<span data-ttu-id="facba-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="facba-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="facba-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="facba-125">Can be empty</span></span>  <br/> |<span data-ttu-id="facba-126">False</span><span class="sxs-lookup"><span data-stu-id="facba-126">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e5fc5-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e5fc5-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="facba-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="facba-127">See also</span></span>
 
 
 
-[<span data-ttu-id="e5fc5-128">Opération SendItem</span><span class="sxs-lookup"><span data-stu-id="e5fc5-128">SendItem operation</span></span>](senditem-operation.md)
+[<span data-ttu-id="facba-128">Opération SendItem</span><span class="sxs-lookup"><span data-stu-id="facba-128">SendItem operation</span></span>](senditem-operation.md)
   
-[<span data-ttu-id="e5fc5-129">SendItem</span><span class="sxs-lookup"><span data-stu-id="e5fc5-129">SendItem</span></span>](senditem.md)
+[<span data-ttu-id="facba-129">SendItem</span><span class="sxs-lookup"><span data-stu-id="facba-129">SendItem</span></span>](senditem.md)
 
 
-- [<span data-ttu-id="e5fc5-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="e5fc5-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="facba-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="facba-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

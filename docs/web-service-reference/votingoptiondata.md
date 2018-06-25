@@ -12,12 +12,12 @@ ms.openlocfilehash: 743ddd7b2a7e8a0e86ab5973c71801b1ec19df19
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839021"
 ---
-# <a name="votingoptiondata"></a><span data-ttu-id="99201-103">VotingOptionData</span><span class="sxs-lookup"><span data-stu-id="99201-103">VotingOptionData</span></span>
+# <a name="votingoptiondata"></a><span data-ttu-id="d8912-103">VotingOptionData</span><span class="sxs-lookup"><span data-stu-id="d8912-103">VotingOptionData</span></span>
 
-<span data-ttu-id="99201-104">L’élément **VotingOptionData** spécifie des informations sur chaque option de vote.</span><span class="sxs-lookup"><span data-stu-id="99201-104">The **VotingOptionData** element specifies information about each voting option.</span></span> 
+<span data-ttu-id="d8912-104">L’élément **VotingOptionData** spécifie des informations sur chaque option de vote.</span><span class="sxs-lookup"><span data-stu-id="d8912-104">The **VotingOptionData** element specifies information about each voting option.</span></span> 
   
 ```XML
 <VotingOptionData>
@@ -26,44 +26,44 @@ ms.locfileid: "19839021"
 </VotingOptionData>
 ```
 
- <span data-ttu-id="99201-105">**VotingOptionDataType**</span><span class="sxs-lookup"><span data-stu-id="99201-105">**VotingOptionDataType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="99201-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="99201-106">Attributes and elements</span></span>
+ <span data-ttu-id="d8912-105">**VotingOptionDataType**</span><span class="sxs-lookup"><span data-stu-id="d8912-105">**VotingOptionDataType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="d8912-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="d8912-106">Attributes and elements</span></span>
 
-<span data-ttu-id="99201-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="99201-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="d8912-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="d8912-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="99201-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="99201-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="d8912-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="d8912-108">Attributes</span></span>
 
-<span data-ttu-id="99201-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="99201-109">None.</span></span>
+<span data-ttu-id="d8912-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="d8912-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="99201-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="99201-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="d8912-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="d8912-110">Child elements</span></span>
 
-<span data-ttu-id="99201-111">[DisplayName (VotingOptionDataType)](displayname-votingoptiondatatype.md) | [SendPrompt](sendprompt.md)</span><span class="sxs-lookup"><span data-stu-id="99201-111">[DisplayName (VotingOptionDataType)](displayname-votingoptiondatatype.md) | [SendPrompt](sendprompt.md)</span></span>
+<span data-ttu-id="d8912-111">[DisplayName (VotingOptionDataType)](displayname-votingoptiondatatype.md) | [SendPrompt](sendprompt.md)</span><span class="sxs-lookup"><span data-stu-id="d8912-111">[DisplayName (VotingOptionDataType)](displayname-votingoptiondatatype.md) | [SendPrompt](sendprompt.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="99201-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="99201-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="d8912-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="d8912-112">Parent elements</span></span>
 
-[<span data-ttu-id="99201-113">UserOptions</span><span class="sxs-lookup"><span data-stu-id="99201-113">UserOptions</span></span>](useroptions.md)
+[<span data-ttu-id="d8912-113">UserOptions</span><span class="sxs-lookup"><span data-stu-id="d8912-113">UserOptions</span></span>](useroptions.md)
   
-## <a name="remarks"></a><span data-ttu-id="99201-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="99201-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d8912-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="d8912-114">Remarks</span></span>
 
-<span data-ttu-id="99201-115">Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="99201-115">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="d8912-115">Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="d8912-115">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="99201-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="99201-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="d8912-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="d8912-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="99201-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="99201-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d8912-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="d8912-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="99201-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="99201-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="99201-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="99201-119">Schema Name</span></span>  <br/> |<span data-ttu-id="99201-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="99201-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="99201-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="99201-121">Validation File</span></span>  <br/> |<span data-ttu-id="99201-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="99201-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="99201-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="99201-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="99201-124">True</span><span class="sxs-lookup"><span data-stu-id="99201-124">True</span></span>  <br/> |
+|<span data-ttu-id="d8912-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="d8912-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="d8912-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="d8912-119">Schema Name</span></span>  <br/> |<span data-ttu-id="d8912-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="d8912-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="d8912-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="d8912-121">Validation File</span></span>  <br/> |<span data-ttu-id="d8912-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="d8912-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="d8912-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="d8912-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="d8912-124">True</span><span class="sxs-lookup"><span data-stu-id="d8912-124">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="99201-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="99201-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8912-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d8912-125">See also</span></span>
 
 
 
-[<span data-ttu-id="99201-126">UserOptions</span><span class="sxs-lookup"><span data-stu-id="99201-126">UserOptions</span></span>](useroptions.md)
+[<span data-ttu-id="d8912-126">UserOptions</span><span class="sxs-lookup"><span data-stu-id="d8912-126">UserOptions</span></span>](useroptions.md)
 
 
-- [<span data-ttu-id="99201-127">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="99201-127">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="d8912-127">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="d8912-127">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

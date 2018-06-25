@@ -12,12 +12,12 @@ ms.openlocfilehash: 055d737ed5f7cd08f16d40366e76dcb5573fa3a7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838987"
 ---
-# <a name="value-bodycontenttype"></a><span data-ttu-id="8aade-103">Valeur (BodyContentType)</span><span class="sxs-lookup"><span data-stu-id="8aade-103">Value (BodyContentType)</span></span>
+# <a name="value-bodycontenttype"></a><span data-ttu-id="2c30b-103">Valeur (BodyContentType)</span><span class="sxs-lookup"><span data-stu-id="2c30b-103">Value (BodyContentType)</span></span>
 
-<span data-ttu-id="8aade-104">L’élément **Value** spécifie la valeur d’un élément **BodyContentAttributedValue** .</span><span class="sxs-lookup"><span data-stu-id="8aade-104">The **Value** element specifies the value of a **BodyContentAttributedValue** element.</span></span> 
+<span data-ttu-id="2c30b-104">L’élément **Value** spécifie la valeur d’un élément **BodyContentAttributedValue** .</span><span class="sxs-lookup"><span data-stu-id="2c30b-104">The **Value** element specifies the value of a **BodyContentAttributedValue** element.</span></span> 
   
 ```XML
 <Value>
@@ -26,37 +26,37 @@ ms.locfileid: "19838987"
 </Value>
 ```
 
-<span data-ttu-id="8aade-105">**BodyContentType**</span><span class="sxs-lookup"><span data-stu-id="8aade-105">**BodyContentType**</span></span>
+<span data-ttu-id="2c30b-105">**BodyContentType**</span><span class="sxs-lookup"><span data-stu-id="2c30b-105">**BodyContentType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="8aade-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="8aade-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="2c30b-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="2c30b-106">Attributes and elements</span></span>
 
-<span data-ttu-id="8aade-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="8aade-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="2c30b-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="2c30b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="8aade-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="8aade-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="2c30b-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="2c30b-108">Attributes</span></span>
 
-<span data-ttu-id="8aade-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8aade-109">None.</span></span>
+<span data-ttu-id="2c30b-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="2c30b-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="8aade-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="8aade-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="2c30b-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="2c30b-110">Child elements</span></span>
 
-<span data-ttu-id="8aade-111">[Valeur](value.md) | [BodyType](bodytype.md)</span><span class="sxs-lookup"><span data-stu-id="8aade-111">[Value](value.md) | [BodyType](bodytype.md)</span></span>
+<span data-ttu-id="2c30b-111">[Valeur](value.md) | [BodyType](bodytype.md)</span><span class="sxs-lookup"><span data-stu-id="2c30b-111">[Value](value.md) | [BodyType](bodytype.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="8aade-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="8aade-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="2c30b-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="2c30b-112">Parent elements</span></span>
 
-[<span data-ttu-id="8aade-113">BodyContentAttributedValue</span><span class="sxs-lookup"><span data-stu-id="8aade-113">BodyContentAttributedValue</span></span>](bodycontentattributedvalue.md)
+[<span data-ttu-id="2c30b-113">BodyContentAttributedValue</span><span class="sxs-lookup"><span data-stu-id="2c30b-113">BodyContentAttributedValue</span></span>](bodycontentattributedvalue.md)
   
-## <a name="remarks"></a><span data-ttu-id="8aade-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="8aade-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2c30b-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="2c30b-114">Remarks</span></span>
 
-<span data-ttu-id="8aade-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8aade-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="2c30b-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2c30b-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="8aade-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="8aade-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="2c30b-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="2c30b-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="8aade-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="8aade-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="2c30b-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="2c30b-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="8aade-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="8aade-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="8aade-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="8aade-119">Schema name</span></span>  <br/> |<span data-ttu-id="8aade-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="8aade-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="8aade-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="8aade-121">Validation file</span></span>  <br/> |<span data-ttu-id="8aade-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="8aade-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="8aade-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="8aade-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="2c30b-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="2c30b-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="2c30b-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="2c30b-119">Schema name</span></span>  <br/> |<span data-ttu-id="2c30b-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="2c30b-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="2c30b-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="2c30b-121">Validation file</span></span>  <br/> |<span data-ttu-id="2c30b-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="2c30b-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="2c30b-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="2c30b-123">Can be empty</span></span>  <br/> ||
    
 

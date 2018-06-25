@@ -16,7 +16,7 @@ ms.openlocfilehash: 1867aa781bc24f5eb3bdb4648fa494a2a7ea396a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839023"
 ---
 # <a name="watermark"></a>Filigrane

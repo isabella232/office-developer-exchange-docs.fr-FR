@@ -16,7 +16,7 @@ ms.openlocfilehash: 152e4fe61a4cff8013ae02900bd84bf244ae84a9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838996"
 ---
 # <a name="value-message-tracking"></a>Valeur (le suivi des messages)
@@ -51,7 +51,7 @@ Aucun.
 
 La valeur de texte est facultative.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément peut se produire au maximum une seule fois dans l’élément [TrackingPropertyType](trackingpropertytype.md) . 
   

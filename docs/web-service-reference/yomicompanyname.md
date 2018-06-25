@@ -12,7 +12,7 @@ ms.openlocfilehash: 9369567a7610ac2f576f8d02fbf230f06c6a9d27
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839075"
 ---
 # <a name="yomicompanyname"></a>YomiCompanyName

@@ -16,7 +16,7 @@ ms.openlocfilehash: 4b8674d267b78f0384f9457e794e88ace8234826
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839008"
 ---
 # <a name="value"></a>Valeur
@@ -52,7 +52,7 @@ Aucun.
 
 La valeur de texte doit être compatible avec le type est indiqué par l’attribut PropertyType de la ExtendedFieldURI.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Un élément de la **valeur** peut se produire dans les deux instances de la propriété étendue unique et à valeurs multiples. Pour les instances à valeur unique, il existe en tant qu’enfant de l’élément [ExtendedProperty](extendedproperty.md) direct. Pour l’instance à valeurs multiples, il existe en tant qu’un enfant direct de la collection de **valeurs** . 
   

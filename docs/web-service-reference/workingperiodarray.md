@@ -16,7 +16,7 @@ ms.openlocfilehash: 02712f05dc3373a532d769f476341b78ad25a79c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839067"
 ---
 # <a name="workingperiodarray"></a>WorkingPeriodArray
@@ -62,7 +62,7 @@ Aucun.
 |:-----|:-----|
 |[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Représente les paramètres de fuseau horaire et les heures de travail pour l’utilisateur de boîte aux lettres demandée.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément est obligatoire si l’élément [WorkingHours](workinghours-ex15websvcsotherref.md) est utilisé. Tous les éléments enfants sont répertoriés dans l’ordre dans lequel elles se produisent. 
   

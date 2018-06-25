@@ -16,7 +16,7 @@ ms.openlocfilehash: 6173f94dcfb83eafd62e35f185a5e8c669d50f6c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838999"
 ---
 # <a name="value-protectionrulevaluetype"></a>Valeur (ProtectionRuleValueType)

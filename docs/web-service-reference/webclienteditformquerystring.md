@@ -16,7 +16,7 @@ ms.openlocfilehash: a7503c3896899e8d2da6aced7b8d259f9b8aaceb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839029"
 ---
 # <a name="webclienteditformquerystring"></a>WebClientEditFormQueryString
@@ -60,7 +60,7 @@ Aucun.
 
 Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Pour les versions d’Exchange commençant par Exchange Server 2013, notamment Exchange Online, utilisez les informations de l’élément [WebClientReadFormQueryString](webclientreadformquerystring.md) pour ouvrir un élément de brouillon dans Outlook Web App, puis utiliser l’interface utilisateur pour modifier l’élément de projet. L’élément **WebClientEditFormQueryString** n’est pas applicable aux versions d’Exchange commençant par Exchange Server 2013, notamment Exchange Online. 
   

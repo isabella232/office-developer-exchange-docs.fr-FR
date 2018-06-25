@@ -16,7 +16,7 @@ ms.openlocfilehash: 6d4e1b027760d0f8f6da16f97cdb45f0c7c4bc88
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19839003"
 ---
 # <a name="value-userconfiguration"></a>Valeur (UserConfiguration)

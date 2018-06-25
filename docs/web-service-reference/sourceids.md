@@ -16,7 +16,7 @@ ms.openlocfilehash: c9ee9fd01367f714e1cb3770e2be5161cb45d98f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829522"
 ---
 # <a name="sourceids"></a>SourceIds

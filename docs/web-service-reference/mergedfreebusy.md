@@ -16,7 +16,7 @@ ms.openlocfilehash: 542b9fae0c36b0236bd806e8a9117753968e812c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828449"
 ---
 # <a name="mergedfreebusy"></a>MergedFreeBusy

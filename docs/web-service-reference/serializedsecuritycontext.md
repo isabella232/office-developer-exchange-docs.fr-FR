@@ -16,7 +16,7 @@ ms.openlocfilehash: c5590551dc0780d918b05902e4f48fb9d1390b59
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829363"
 ---
 # <a name="serializedsecuritycontext"></a>SerializedSecurityContext

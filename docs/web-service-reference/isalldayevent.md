@@ -16,7 +16,7 @@ ms.openlocfilehash: 81cf1e7d8338275540f264de7cbf194005e7770c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827983"
 ---
 # <a name="isalldayevent"></a>IsAllDayEvent
@@ -51,7 +51,7 @@ Aucun.
 
 Une valeur de texte qui représente une valeur Boolean est requise si cet élément est inclus. La valeur **true** indique que l’élément représente une journée entière. La valeur **false** indique que l’élément s’étend sur moins d’heures de travail d’un utilisateur. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Un événement d’une journée entière s’étend sur la durée des heures de travail qui est définie pour une boîte aux lettres.
   

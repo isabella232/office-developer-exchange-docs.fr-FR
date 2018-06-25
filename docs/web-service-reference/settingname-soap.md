@@ -13,7 +13,7 @@ ms.openlocfilehash: 9bf7c8197693bc6887a99ffcbeb2240e1f4c3b20
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829468"
 ---
 # <a name="settingname-soap"></a>Nom du paramètre (SOAP)

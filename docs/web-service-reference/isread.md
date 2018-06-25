@@ -16,7 +16,7 @@ ms.openlocfilehash: bfa44eab1831b519aa7b515aaad456683e580299
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828096"
 ---
 # <a name="isread"></a>Estlu
@@ -57,7 +57,7 @@ Aucun.
 
 Une valeur de texte de **la valeur true** indique que le message a été lu. Texte la valeur **false** indique que le message n’a pas été lu. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Si [IsReadReceiptRequested](isreadreceiptrequested.md) a la **valeur true**, la définition de **estlu** sur **true** envoie une confirmation de lecture. Le destinataire peut supprimer des confirmations de lecture par envoi de l’objet de réponse [SuppressReadReceipt](suppressreadreceipt.md) avant de définir la propriété **estlu** . 
   

@@ -15,7 +15,7 @@ ms.openlocfilehash: b55bb45d6654f57503879f33e1cd5013ddb69a2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828818"
 ---
 # <a name="playonphone-operation-um-web-service"></a>Opération PlayOnPhone (service web de messagerie unifiée)

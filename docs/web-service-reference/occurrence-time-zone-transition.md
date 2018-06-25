@@ -16,7 +16,7 @@ ms.openlocfilehash: bc5160480cc6881bb9d724aa61323f5717d1f2fa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828636"
 ---
 # <a name="occurrence-time-zone-transition"></a>Occurrence (Transition fuseau horaire)

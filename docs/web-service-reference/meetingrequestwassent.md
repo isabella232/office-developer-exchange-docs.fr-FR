@@ -16,7 +16,7 @@ ms.openlocfilehash: 0a87b1d773997e08ab96726375e4c8ce010faaf7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828438"
 ---
 # <a name="meetingrequestwassent"></a>MeetingRequestWasSent
@@ -51,7 +51,7 @@ Aucun.
 
 Une valeur de texte qui représente une valeur Boolean est requise si cet élément est inclus. La valeur **true** indique qu’une demande de réunion a été envoyée. La valeur **false** indique qu’une demande de réunion n’a pas été envoyée. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

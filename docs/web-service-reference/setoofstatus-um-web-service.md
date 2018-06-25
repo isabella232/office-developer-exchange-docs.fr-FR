@@ -15,7 +15,7 @@ ms.openlocfilehash: df28c98013e1d5c00ea120ce1aa342e9fc2c6f31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829447"
 ---
 # <a name="setoofstatus-um-web-service"></a>SetOofStatus (service web de messagerie unifiée)

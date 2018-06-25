@@ -16,7 +16,7 @@ ms.openlocfilehash: 561828ba05f79979be9e0747a87c47cc9f874c7c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828108"
 ---
 # <a name="issubmitted"></a>IsSubmitted
@@ -60,7 +60,7 @@ Aucun.
 
 Une valeur de texte de **la valeur true** indique que l’élément a été soumis dans le dossier boîte d’envoi. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

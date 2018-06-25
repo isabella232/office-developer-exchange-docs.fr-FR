@@ -16,7 +16,7 @@ ms.openlocfilehash: f1743e22087158c1889977f03774fccbc5577390
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827919"
 ---
 # <a name="indexedpageitemview"></a>IndexedPageItemView

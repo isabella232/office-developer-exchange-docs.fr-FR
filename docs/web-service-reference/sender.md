@@ -16,7 +16,7 @@ ms.openlocfilehash: a7b06543fadd7cf7ae05f7ae8f86122138e11076
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829323"
 ---
 # <a name="sender"></a>Expéditeur
@@ -63,7 +63,7 @@ Aucun.
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l’objet réponse utilisé pour annuler une réunion.  <br/> |
 |[Objet postItem](postitem.md) <br/> |Représente un élément de publication dans la banque d’informations Exchange. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

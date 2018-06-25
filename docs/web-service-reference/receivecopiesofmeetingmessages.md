@@ -16,7 +16,7 @@ ms.openlocfilehash: e39a5d3255268b418fa956959da5ae0ea062d831
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828967"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>ReceiveCopiesOfMeetingMessages
@@ -50,7 +50,7 @@ Aucun.
 
 Une valeur de texte de **la valeur true** indique qu’un délégué reçoit une copie des messages de la réunion. Texte la valeur **false** indique qu’un délégué ne reçoit pas d’une copie des messages de la réunion. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Lorsque **ReceiveCopiesOfMeetingMessages** est défini sur **false**, le délégué peut encore envoyer des messages au nom de l’entité de sécurité, mais il ne recevra pas tous les messages liés à la réunion.
   

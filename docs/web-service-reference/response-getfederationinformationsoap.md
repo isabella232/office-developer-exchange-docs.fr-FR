@@ -13,7 +13,7 @@ ms.openlocfilehash: 946cba56d7503a0e20ec59640f4f1258c00a844e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829171"
 ---
 # <a name="response-getfederationinformation-soap"></a>Réponse (GetFederationInformation) (SOAP)

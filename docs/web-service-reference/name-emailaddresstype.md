@@ -16,7 +16,7 @@ ms.openlocfilehash: b140fd46608a04f9aaba17f917cc4171c056dcf2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828504"
 ---
 # <a name="name-emailaddresstype"></a>Nom (EmailAddressType)
@@ -52,7 +52,7 @@ Aucun.
 
 Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément est facultatif. **Nom** de l’élément existe dans les types **AttachmentType**, **EmailAddressType**et **EmailAddress** . L’élément **Name** dans le type **EmailAddress** est décrit dans la rubrique élément [nom (EmailAddress)](name-emailaddress.md) . 
   

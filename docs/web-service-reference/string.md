@@ -1,5 +1,5 @@
 ---
-title: Chaîne
+title: String
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,10 +16,10 @@ ms.openlocfilehash: 66260c7ebcb56049a78c5eddbe057dfa8d61f193
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829607"
 ---
-# <a name="string"></a>Chaîne
+# <a name="string"></a>String
 
 L’élément **chaîne** représente une chaîne qui est utilisée par les éléments, des contacts, des tâches et des conversations. 
   

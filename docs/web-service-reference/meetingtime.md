@@ -16,7 +16,7 @@ ms.openlocfilehash: 1ea79be394124431aa1279ee94d5e5c6331d377b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828435"
 ---
 # <a name="meetingtime"></a>MeetingTime
@@ -64,7 +64,7 @@ Aucun.
 
 Une valeur de texte qui représente une valeur **dateTime** est requise. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 L’élément [MeetingTime](meetingtime.md) est un élément enfant requis de l’élément de [Suggestion](suggestion.md) . 
   

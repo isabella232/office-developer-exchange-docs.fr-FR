@@ -16,7 +16,7 @@ ms.openlocfilehash: 8b6d201fe35c99a65f920ed7f60c33a2271fbd2e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828470"
 ---
 # <a name="messagexml"></a>MessageXml

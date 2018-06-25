@@ -16,7 +16,7 @@ ms.openlocfilehash: e3db685fc4e72e4332eab4a95afb5f844d04c35e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828097"
 ---
 # <a name="isreadreceiptrequested"></a>IsReadReceiptRequested
@@ -62,7 +62,7 @@ Aucun.
 
 Une valeur de texte de **la valeur true** indique que le destinataire de l’élément est demandée une confirmation de lecture. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Si **IsReadReceiptRequested** a la **valeur true**, la définition de [estlu](isread.md) sur **true** envoie une confirmation de lecture. Le destinataire peut supprimer des confirmations de lecture par envoi de l’objet de réponse [SuppressReadReceipt](suppressreadreceipt.md) avant de définir la propriété **estlu** . 
   

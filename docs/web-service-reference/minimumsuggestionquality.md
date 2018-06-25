@@ -16,7 +16,7 @@ ms.openlocfilehash: ac79682bd761f678f23fc2d698a50fd7704f6fab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828468"
 ---
 # <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality

@@ -16,7 +16,7 @@ ms.openlocfilehash: 5da6929f11ce9ba74db190db6d799f25974d2192
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828490"
 ---
 # <a name="movefolder-operation"></a>Opération MoveFolder

@@ -16,7 +16,7 @@ ms.openlocfilehash: 70aab69f4d20ad9fd7e878c7fccd16e261c9b94c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829118"
 ---
 # <a name="reporttemplate"></a>Modèle d’état

@@ -13,7 +13,7 @@ ms.openlocfilehash: 4689c306bb805a40fea0d58c9e04a5a47d3bb14d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828506"
 ---
 # <a name="name-soap"></a>Nom (SOAP)

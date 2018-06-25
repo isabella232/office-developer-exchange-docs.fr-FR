@@ -13,7 +13,7 @@ ms.openlocfilehash: d2b9ce663d8245a78acd088b0622406c0dfcb4da
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829374"
 ---
 # <a name="serverdn-pox"></a>ServerDN (POX)

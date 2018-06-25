@@ -16,7 +16,7 @@ ms.openlocfilehash: 7d84547eafe4e77fb23a792fbf15633dbf93d775
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828436"
 ---
 # <a name="meetingworkspaceurl"></a>MeetingWorkspaceUrl
@@ -51,7 +51,7 @@ Aucun.
 
 Une valeur de texte qui représente une URL est requise si cet élément est utilisé.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 MeetingWorkspaceURL, de la propriété est en lecture-écriture pour l’élément de calendrier de l’organisateur de la. Il est en lecture seule pour les demandes de réunion et des éléments de calendrier des participants.
   

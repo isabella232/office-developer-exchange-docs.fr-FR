@@ -16,7 +16,7 @@ ms.openlocfilehash: 96a4d57432b15aa54fff2618df458fc75cb227f3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829139"
 ---
 # <a name="requesttype"></a>RequestType

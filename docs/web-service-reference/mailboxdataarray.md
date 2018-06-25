@@ -16,7 +16,7 @@ ms.openlocfilehash: b76e71ee9127dc2221e0065a27d3c781f8b5786a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828283"
 ---
 # <a name="mailboxdataarray"></a>MailboxDataArray

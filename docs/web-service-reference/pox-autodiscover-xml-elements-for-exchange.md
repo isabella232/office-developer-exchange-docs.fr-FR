@@ -13,7 +13,7 @@ ms.openlocfilehash: 6fb7b34d366e2d1d72c32d4c3e76f4b19266a6c5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828864"
 ---
 # <a name="pox-autodiscover-xml-elements-for-exchange"></a>Éléments du fichier XML Autodiscover variole pour Exchange

@@ -11,7 +11,7 @@ ms.openlocfilehash: 4c82c7b61752cf7d91287a3968f6c642f4943855
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828301"
 ---
 # <a name="mailstore-pox"></a>Magasin de courrier électronique (POX)

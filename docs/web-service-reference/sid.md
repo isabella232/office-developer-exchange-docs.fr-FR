@@ -16,7 +16,7 @@ ms.openlocfilehash: efcea42c12ec1d26ea31fdb8de337c37a2338a96
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829492"
 ---
 # <a name="sid"></a>SID

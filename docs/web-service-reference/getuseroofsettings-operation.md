@@ -16,7 +16,7 @@ ms.openlocfilehash: 75a734999842cc33c213e02dc114f23372ae51fd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827691"
 ---
 # <a name="getuseroofsettings-operation"></a>Opération GetUserOofSettings

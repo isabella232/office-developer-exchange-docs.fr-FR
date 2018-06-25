@@ -16,7 +16,7 @@ ms.openlocfilehash: 1cd79d5fa34318e7fe29606df84cbf0ef0520b93
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829253"
 ---
 # <a name="rootfolder-findfolderresponsemessage"></a>RootFolder (FindFolderResponseMessage)

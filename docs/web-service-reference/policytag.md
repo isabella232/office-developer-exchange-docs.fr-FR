@@ -12,7 +12,7 @@ ms.openlocfilehash: d6cd5aab1145f6006912541c8f8c1d0a91d1e17e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828835"
 ---
 # <a name="policytag"></a>PolicyTag

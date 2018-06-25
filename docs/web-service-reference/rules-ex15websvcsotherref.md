@@ -16,7 +16,7 @@ ms.openlocfilehash: 5d511f977f3eb3273dc43f56356a059985b2a929
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829269"
 ---
 # <a name="rules"></a>Règles

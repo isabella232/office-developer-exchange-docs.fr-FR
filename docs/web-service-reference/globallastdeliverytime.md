@@ -16,7 +16,7 @@ ms.openlocfilehash: fded5cd1891a406f0979cf4bec7321779d70ab3a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19827733"
 ---
 # <a name="globallastdeliverytime"></a>GlobalLastDeliveryTime

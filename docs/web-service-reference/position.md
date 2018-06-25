@@ -12,7 +12,7 @@ ms.openlocfilehash: 4bd8f3088891e918e13d5ef1ec8e3e5217cb3fa1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828853"
 ---
 # <a name="position"></a>Position

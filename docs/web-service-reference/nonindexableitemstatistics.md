@@ -12,7 +12,7 @@ ms.openlocfilehash: 1414053b6d39f4cd08ccfd1a11faaf1b13c2052b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828544"
 ---
 # <a name="nonindexableitemstatistics"></a>NonIndexableItemStatistics

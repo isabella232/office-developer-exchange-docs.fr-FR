@@ -16,7 +16,7 @@ ms.openlocfilehash: 3484a3fef56545a9a8d56af65f56f75205918ec7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828044"
 ---
 # <a name="ismanagedfoldersroot"></a>IsManagedFoldersRoot
@@ -50,7 +50,7 @@ Aucun.
 
 Une valeur de texte qui représente une valeur Boolean est requise si cet élément est présent. La valeur **true** indique que le dossier est le dossier racine du dossier géré. la valeur **false** indique que le dossier n’est pas le dossier racine du dossier géré. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

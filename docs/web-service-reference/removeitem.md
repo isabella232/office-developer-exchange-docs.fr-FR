@@ -16,7 +16,7 @@ ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19829108"
 ---
 # <a name="removeitem"></a>RemoveItem
@@ -53,7 +53,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 |[Éléments (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contient un tableau d'éléments à créer dans le dossier qui est identifié par l'élément [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md).  <br/> |
 |[ResponseObjects](responseobjects.md) <br/> |Contient une collection de tous les objets de réponse associés à un élément dans la banque d'informations Exchange.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
  **RemoveItem** est valide uniquement pour un [MeetingCancellation](meetingcancellation.md). Dans le cas contraire, une erreur est générée.
   

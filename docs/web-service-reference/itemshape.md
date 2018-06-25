@@ -16,7 +16,7 @@ ms.openlocfilehash: 95174a85a8fa05cb2612e1289d46c8db32b6e052
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828191"
 ---
 # <a name="itemshape"></a>ItemShape

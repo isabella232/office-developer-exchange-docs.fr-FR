@@ -16,7 +16,7 @@ ms.openlocfilehash: 3b1ce7092bb6d37f23792fbf1ecb1f77b63f2afd
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828160"
 ---
 # <a name="items-nonemptyarrayofallitemstype"></a>Éléments (NonEmptyArrayOfAllItemsType)

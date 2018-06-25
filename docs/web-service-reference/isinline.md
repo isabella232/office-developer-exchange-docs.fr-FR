@@ -16,7 +16,7 @@ ms.openlocfilehash: f2f9093777a3914de067ef63827de6cf354fc12d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828042"
 ---
 # <a name="isinline"></a>IsInline
@@ -51,7 +51,7 @@ Aucun.
 
 Cet élément peut être **true** ou **false**. La valeur par défaut est **false**.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
   

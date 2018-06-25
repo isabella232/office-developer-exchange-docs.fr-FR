@@ -16,7 +16,7 @@ ms.openlocfilehash: 009ba16315017c4418fbd71d49744015c4d6d1b1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838889"
 ---
 # <a name="updateitem-operation"></a>UpdateItem Operation

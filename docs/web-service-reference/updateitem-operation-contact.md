@@ -16,7 +16,7 @@ ms.openlocfilehash: f2a501ce8e69068cd30b58011adf4defc68ce365
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838884"
 ---
 # <a name="updateitem-operation-contact"></a>Opération UpdateItem (contacts)

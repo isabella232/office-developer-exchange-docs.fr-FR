@@ -16,7 +16,7 @@ ms.openlocfilehash: 1137368d13cb5b88fd2a7866cadc6d69b783c75b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838764"
 ---
 # <a name="toobiggroupattendeeconflictdata"></a>TooBigGroupAttendeeConflictData
@@ -62,7 +62,7 @@ Aucun.
 |:-----|:-----|
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données de conflit des participants identifiés dans le [GetUserAvailabilityRequest](getuseravailabilityrequest.md).  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Impossible de développer des listes de distribution contenant plus de 100 membres.
   

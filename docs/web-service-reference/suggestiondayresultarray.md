@@ -16,7 +16,7 @@ ms.openlocfilehash: c208104356606a5d9961461ad8743a772d2410d8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838649"
 ---
 # <a name="suggestiondayresultarray"></a>SuggestionDayResultArray
@@ -56,7 +56,7 @@ Aucun.
 |:-----|:-----|
 |[SuggestionsResponse](suggestionsresponse.md) <br/> |Contient des données de suggestion et les informations de réponse pour la demande de suggestions de réunion  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

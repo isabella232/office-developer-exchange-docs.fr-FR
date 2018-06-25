@@ -16,7 +16,7 @@ ms.openlocfilehash: 9f69d784617d10d8902a260bbf6639703dd33b6d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838853"
 ---
 # <a name="updatedelegate-operation"></a>Opération UpdateDelegate

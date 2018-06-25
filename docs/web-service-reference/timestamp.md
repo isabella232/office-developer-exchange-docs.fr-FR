@@ -16,7 +16,7 @@ ms.openlocfilehash: d020d9a4cf3a128d26e0ff2b83be9f3deb024339
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838767"
 ---
 # <a name="timestamp"></a>Horodatage
@@ -55,7 +55,7 @@ Aucun.
 
 Cette propriété est en lecture seule.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément est principalement disponible pour une utilisation dans la détermination de client de la fréquence des événements. Il n’est pas présent dans [StatusEvent](statusevent.md).
   

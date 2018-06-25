@@ -12,7 +12,7 @@ ms.openlocfilehash: eb451e611c4922fa3b9cff7edec54dfb8260f5f5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838642"
 ---
 # <a name="subscriptionid-getstreamingevents"></a>SubscriptionId (GetStreamingEvents)
@@ -46,7 +46,7 @@ Aucun.
 
 Une valeur texte est requise. La valeur de texte est un GUID.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le GUID qui représente l’identificateur d’abonnement est généré par le serveur d’accès au Client lors de la création de l’abonnement.
   

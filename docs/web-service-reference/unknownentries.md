@@ -16,7 +16,7 @@ ms.openlocfilehash: 306e5f226a56694bb1ff32362f77e7dff80865ad
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838832"
 ---
 # <a name="unknownentries"></a>UnknownEntries
@@ -51,7 +51,7 @@ Aucun.
 |[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Contient toutes les autorisations qui sont configurées pour un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[PermissionSet (CalendarPermissionSetType)](permissionset-calendarpermissionsettype.md) <br/> |Contient toutes les autorisations qui sont configurées pour un dossier de calendrier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Vous pouvez supprimer des entrées inconnues dans un dossier à l’aide de l’opération UpdateFolder avec l’élément [SetFolderField](setfolderfield.md) . Les entrées inconnues sont supprimées lorsque vous réinitialisez le jeu d’autorisations à l’aide de l’option SetFolderField de l’opération UpdateFolder. Services Web Exchange ne gère pas la suppression des entrées individuelles. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: d595ae77de293a1975e15102f3f2c3395e6da633
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838646"
 ---
 # <a name="suggestionarray"></a>SuggestionArray
@@ -60,7 +60,7 @@ Aucun.
 |:-----|:-----|
 |[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un seul jour qui contient les heures de réunion proposée.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

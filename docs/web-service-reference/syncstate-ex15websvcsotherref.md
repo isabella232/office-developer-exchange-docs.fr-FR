@@ -16,7 +16,7 @@ ms.openlocfilehash: 3c600dde09fd813dcfb1f6e74671ebe9004701a1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838667"
 ---
 # <a name="syncstate"></a>SyncState
@@ -53,7 +53,7 @@ Aucun.
 
 Une valeur de texte est requise lorsque cet élément est utilisé.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

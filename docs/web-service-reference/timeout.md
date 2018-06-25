@@ -16,7 +16,7 @@ ms.openlocfilehash: 0a26002689e131959f09318b01d97ffb73b605f9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838722"
 ---
 # <a name="timeout"></a>Timeout
@@ -50,7 +50,7 @@ Aucun.
 
 Une valeur de texte qui représente un entier est obligatoire si cet élément est utilisé. Les valeurs possibles de cet élément sont 1 et 1440 (inclus). Cet élément est obligatoire.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le délai d’expiration de l’abonnement est réinitialisé par une demande GetEvents réussie.
   

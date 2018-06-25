@@ -11,7 +11,7 @@ ms.openlocfilehash: 272133d4d8f6db260f37e2c6977be20f81fdc535
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838671"
 ---
 # <a name="targetsharingepr-soap"></a>TargetSharingEpr (SOAP)

@@ -12,7 +12,7 @@ ms.openlocfilehash: f679a9237a577d26d4b28e1b25f3e135f7193903
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838780"
 ---
 # <a name="type-elcfoldertype"></a>Type (ElcFolderType)

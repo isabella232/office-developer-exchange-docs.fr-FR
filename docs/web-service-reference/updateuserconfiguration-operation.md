@@ -16,20 +16,20 @@ ms.openlocfilehash: 9da7c7ba15b3cf6b35f0489db539660aefa2e40a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19838913"
 ---
-# <a name="updateuserconfiguration-operation"></a><span data-ttu-id="ceacb-103">Opération UpdateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="ceacb-103">UpdateUserConfiguration operation</span></span>
+# <a name="updateuserconfiguration-operation"></a><span data-ttu-id="833db-103">Opération UpdateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="833db-103">UpdateUserConfiguration operation</span></span>
 
-<span data-ttu-id="ceacb-104">L’opération **UpdateUserConfiguration** met à jour un objet de configuration utilisateur dans un dossier.</span><span class="sxs-lookup"><span data-stu-id="ceacb-104">The **UpdateUserConfiguration** operation updates a user configuration object on a folder.</span></span> 
+<span data-ttu-id="833db-104">L’opération **UpdateUserConfiguration** met à jour un objet de configuration utilisateur dans un dossier.</span><span class="sxs-lookup"><span data-stu-id="833db-104">The **UpdateUserConfiguration** operation updates a user configuration object on a folder.</span></span> 
   
-## <a name="updateuserconfiguration-request-example"></a><span data-ttu-id="ceacb-105">Exemple de requête UpdateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="ceacb-105">UpdateUserConfiguration request example</span></span>
+## <a name="updateuserconfiguration-request-example"></a><span data-ttu-id="833db-105">Exemple de requête UpdateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="833db-105">UpdateUserConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="ceacb-106">Description</span><span class="sxs-lookup"><span data-stu-id="ceacb-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="833db-106">Description</span><span class="sxs-lookup"><span data-stu-id="833db-106">Description</span></span>
 
-<span data-ttu-id="ceacb-107">L’exemple suivant d’une demande **UpdateUserConfiguration** montre comment former une demande de mise à jour d’un objet de configuration utilisateur dans le dossier Brouillons.</span><span class="sxs-lookup"><span data-stu-id="ceacb-107">The following example of an **UpdateUserConfiguration** request shows how to form a request to update a user configuration object on the Drafts folder.</span></span> 
+<span data-ttu-id="833db-107">L’exemple suivant d’une demande **UpdateUserConfiguration** montre comment former une demande de mise à jour d’un objet de configuration utilisateur dans le dossier Brouillons.</span><span class="sxs-lookup"><span data-stu-id="833db-107">The following example of an **UpdateUserConfiguration** request shows how to form a request to update a user configuration object on the Drafts folder.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="ceacb-108">Code</span><span class="sxs-lookup"><span data-stu-id="ceacb-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="833db-108">Code</span><span class="sxs-lookup"><span data-stu-id="833db-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -65,13 +65,13 @@ ms.locfileid: "19838913"
 </soap:Envelope>
 ```
 
-## <a name="updateuserconfiguration-response-example"></a><span data-ttu-id="ceacb-109">Exemple de réponse UpdateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="ceacb-109">UpdateUserConfiguration response example</span></span>
+## <a name="updateuserconfiguration-response-example"></a><span data-ttu-id="833db-109">Exemple de réponse UpdateUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="833db-109">UpdateUserConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="ceacb-110">Description</span><span class="sxs-lookup"><span data-stu-id="ceacb-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="833db-110">Description</span><span class="sxs-lookup"><span data-stu-id="833db-110">Description</span></span>
 
-<span data-ttu-id="ceacb-111">L’exemple suivant montre une réponse positive à la demande **UpdateUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="ceacb-111">The following example shows a successful response to the **UpdateUserConfiguration** request.</span></span> 
+<span data-ttu-id="833db-111">L’exemple suivant montre une réponse positive à la demande **UpdateUserConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="833db-111">The following example shows a successful response to the **UpdateUserConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="ceacb-112">Code</span><span class="sxs-lookup"><span data-stu-id="ceacb-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="833db-112">Code</span><span class="sxs-lookup"><span data-stu-id="833db-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,11 +101,11 @@ ms.locfileid: "19838913"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ceacb-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ceacb-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="833db-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="833db-113">See also</span></span>
 
 
 
-[<span data-ttu-id="ceacb-114">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="ceacb-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="833db-114">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="833db-114">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="ceacb-115">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="ceacb-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="833db-115">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="833db-115">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -12,12 +12,12 @@ ms.openlocfilehash: 4d65296e181b6e97e2209a9f6accc7fa5f401b5a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19828294"
 ---
-# <a name="mailboxsearchscopes"></a><span data-ttu-id="9a813-103">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="9a813-103">MailboxSearchScopes</span></span>
+# <a name="mailboxsearchscopes"></a><span data-ttu-id="56fce-103">MailboxSearchScopes</span><span class="sxs-lookup"><span data-stu-id="56fce-103">MailboxSearchScopes</span></span>
 
-<span data-ttu-id="9a813-104">L’élément **MailboxSearchScopes** spécifie une liste d’une ou plusieurs boîtes aux lettres et les étendues de recherche associée pour une recherche de découverte.</span><span class="sxs-lookup"><span data-stu-id="9a813-104">The **MailboxSearchScopes** element specifies a list of one or more mailboxes and associated search scopes for a discovery search.</span></span> 
+<span data-ttu-id="56fce-104">L’élément **MailboxSearchScopes** spécifie une liste d’une ou plusieurs boîtes aux lettres et les étendues de recherche associée pour une recherche de découverte.</span><span class="sxs-lookup"><span data-stu-id="56fce-104">The **MailboxSearchScopes** element specifies a list of one or more mailboxes and associated search scopes for a discovery search.</span></span> 
   
 ```XML
 <MailboxSearchScopes>
@@ -25,37 +25,37 @@ ms.locfileid: "19828294"
 <MailboxSearchScope>
 ```
 
-<span data-ttu-id="9a813-105">**MailboxSearchScopeType**</span><span class="sxs-lookup"><span data-stu-id="9a813-105">**MailboxSearchScopeType**</span></span>
+<span data-ttu-id="56fce-105">**MailboxSearchScopeType**</span><span class="sxs-lookup"><span data-stu-id="56fce-105">**MailboxSearchScopeType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="9a813-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="9a813-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="56fce-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="56fce-106">Attributes and elements</span></span>
 
-<span data-ttu-id="9a813-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="9a813-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="56fce-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="56fce-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9a813-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="9a813-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="56fce-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="56fce-108">Attributes</span></span>
 
-<span data-ttu-id="9a813-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9a813-109">None.</span></span>
+<span data-ttu-id="56fce-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="56fce-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="9a813-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="9a813-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="56fce-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="56fce-110">Child elements</span></span>
 
-[<span data-ttu-id="9a813-111">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="9a813-111">MailboxSearchScope</span></span>](mailboxsearchscope.md)
+[<span data-ttu-id="56fce-111">MailboxSearchScope</span><span class="sxs-lookup"><span data-stu-id="56fce-111">MailboxSearchScope</span></span>](mailboxsearchscope.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="9a813-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="9a813-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="56fce-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="56fce-112">Parent elements</span></span>
 
-[<span data-ttu-id="9a813-113">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="9a813-113">MailboxQuery</span></span>](mailboxquery.md)
+[<span data-ttu-id="56fce-113">MailboxQuery</span><span class="sxs-lookup"><span data-stu-id="56fce-113">MailboxQuery</span></span>](mailboxquery.md)
   
-## <a name="remarks"></a><span data-ttu-id="9a813-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="9a813-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="56fce-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="56fce-114">Remarks</span></span>
 
-<span data-ttu-id="9a813-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9a813-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="56fce-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="56fce-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="9a813-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="9a813-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="56fce-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="56fce-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="9a813-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="9a813-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="56fce-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="56fce-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="9a813-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="9a813-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="9a813-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="9a813-119">Schema name</span></span>  <br/> |<span data-ttu-id="9a813-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="9a813-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="9a813-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="9a813-121">Validation file</span></span>  <br/> |<span data-ttu-id="9a813-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="9a813-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="9a813-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="9a813-123">Can be empty</span></span>  <br/> |<span data-ttu-id="9a813-124">false</span><span class="sxs-lookup"><span data-stu-id="9a813-124">false</span></span>  <br/> |
+|<span data-ttu-id="56fce-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="56fce-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="56fce-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="56fce-119">Schema name</span></span>  <br/> |<span data-ttu-id="56fce-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="56fce-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="56fce-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="56fce-121">Validation file</span></span>  <br/> |<span data-ttu-id="56fce-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="56fce-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="56fce-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="56fce-123">Can be empty</span></span>  <br/> |<span data-ttu-id="56fce-124">false</span><span class="sxs-lookup"><span data-stu-id="56fce-124">false</span></span>  <br/> |
    
 

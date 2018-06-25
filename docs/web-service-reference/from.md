@@ -16,7 +16,7 @@ ms.openlocfilehash: 39c8c8ef84ff445e8f44ebb9f2285ccfc42353a7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756496"
 ---
 # <a name="from"></a>De
@@ -63,7 +63,7 @@ Aucun.
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l'objet de réponse qui est utilisé pour annuler une réunion.  <br/> |
 |[Objet postItem](postitem.md) <br/> |Représente un élément de publication dans la banque d’informations Exchange. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément est utilisé pour « envoyer de la part de » des messages électroniques.
   

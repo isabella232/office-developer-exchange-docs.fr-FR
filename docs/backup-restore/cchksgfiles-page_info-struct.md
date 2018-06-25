@@ -16,7 +16,7 @@ ms.openlocfilehash: fa66d253b4fc6bd5c29a39c5323f59bf323a906f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755685"
 ---
 # <a name="cchksgfilespageinfo-struct"></a>Struct CChkSGFiles.PAGE_INFO

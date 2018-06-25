@@ -10,7 +10,7 @@ ms.openlocfilehash: d19ab062c8d418e373e8268b1ab039e5436e71bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755076"
 ---
 # <a name="web-service-api-feature-availability-in-exchange-and-the-ews-managed-api"></a>Disponibilité des fonctionnalités Web service API dans Exchange et de l’API managée EWS

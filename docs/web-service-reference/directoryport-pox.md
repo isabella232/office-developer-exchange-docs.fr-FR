@@ -13,7 +13,7 @@ ms.openlocfilehash: 1b73b9cd1d21c73f4e897684371993312f741322
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755935"
 ---
 # <a name="directoryport-pox"></a>DirectoryPort (POX)

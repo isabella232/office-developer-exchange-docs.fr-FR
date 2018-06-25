@@ -16,7 +16,7 @@ ms.openlocfilehash: bc186170ccca06669ea7d20cea06c542f9ce274a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755304"
 ---
 # <a name="appointmentsequencenumber"></a>AppointmentSequenceNumber
@@ -51,7 +51,7 @@ Aucun.
 
 La valeur de texte représente un numéro de version.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette valeur est mis à jour lorsque le rendez-vous est mis à jour avec de nouvelles informations. 
   

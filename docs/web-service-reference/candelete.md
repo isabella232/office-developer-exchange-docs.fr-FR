@@ -16,7 +16,7 @@ ms.openlocfilehash: b70b28bd6b3c9452f5d7f249f453218d555754da
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755491"
 ---
 # <a name="candelete"></a>CanDelete
@@ -50,7 +50,7 @@ Aucun.
 
 Une valeur de texte qui représente une valeur Boolean est requise si cet élément est présent. La valeur **true** indique que le dossier peut être supprimé ; la valeur **false** signifie que le dossier ne peut pas être supprimé. 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Pour supprimer un dossier géré, utilisez l' [opération DeleteFolder](deletefolder-operation.md).
   

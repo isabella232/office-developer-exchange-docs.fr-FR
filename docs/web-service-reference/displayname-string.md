@@ -16,7 +16,7 @@ ms.openlocfilehash: 53f4e083d9e6617206e383d4408e08ed7ea0fe08
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755990"
 ---
 # <a name="displayname-string"></a>DisplayName (chaîne)

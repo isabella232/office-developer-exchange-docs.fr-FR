@@ -12,7 +12,7 @@ ms.openlocfilehash: 1a28ae79e2a7e338ddd6cb1f6961dd14a980b56e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755145"
 ---
 # <a name="transport-agents-in-exchange"></a>Agents de transport dans Exchange

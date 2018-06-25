@@ -16,7 +16,7 @@ ms.openlocfilehash: 3dee635e4449cbb3717f5d2fab8838f3e43102a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755479"
 ---
 # <a name="calendarpermissions"></a>CalendarPermissions

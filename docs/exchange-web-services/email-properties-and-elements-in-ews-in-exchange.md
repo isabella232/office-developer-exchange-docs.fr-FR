@@ -10,7 +10,7 @@ ms.openlocfilehash: 4866c69213eb8b11c785ab14f0595c45448834d8
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754792"
 ---
 # <a name="email-properties-and-elements-in-ews-in-exchange"></a>Propriétés et éléments dans les services EWS de messagerie dans Exchange

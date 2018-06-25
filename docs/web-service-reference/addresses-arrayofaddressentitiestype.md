@@ -12,7 +12,7 @@ ms.openlocfilehash: b6fbcc54a016e698bccbe075fd340c0c784f121a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755182"
 ---
 # <a name="addresses-arrayofaddressentitiestype"></a>Adresses (ArrayOfAddressEntitiesType)

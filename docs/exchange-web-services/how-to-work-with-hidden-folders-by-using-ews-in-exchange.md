@@ -10,7 +10,7 @@ ms.openlocfilehash: 72efc16ecc247d307b7300526e7d345fe6bdd3ac
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754962"
 ---
 # <a name="work-with-hidden-folders-by-using-ews-in-exchange"></a>Utilisation de dossiers cachés à l’aide de EWS dans Exchange

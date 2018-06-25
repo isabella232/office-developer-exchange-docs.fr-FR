@@ -16,7 +16,7 @@ ms.openlocfilehash: 5cfd4e73295bc6823e76d901a21f4745c5fda977
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755805"
 ---
 # <a name="datetimecreated"></a>DateTimeCreated
@@ -61,7 +61,7 @@ Aucun.
 
 La valeur de texte représente la date et l’heure de création d’un élément dans la boîte aux lettres.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 À l’aide des objets de réponse calendrier met à jour la propriété [DateTimeCreated](datetimecreated.md) sur l’élément de calendrier associé. Le comportement attendu est la propriété **DateTimeCreated** restent inchangés. Par exemple, l’utilisateur A envoie une demande de réunion à l’utilisateur B de l’utilisateur accepte la demande de réunion avec l’identificateur de la demande de réunion. La propriété **DateTimeCreated** de l’élément de calendrier associée est modifiée. 
   

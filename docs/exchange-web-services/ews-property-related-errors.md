@@ -10,7 +10,7 @@ ms.openlocfilehash: f214ab40c3717178c6957a9da93bdf89999fc1d3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754776"
 ---
 # <a name="ews-property-related-errors"></a>Erreurs liées à la propriété EWS

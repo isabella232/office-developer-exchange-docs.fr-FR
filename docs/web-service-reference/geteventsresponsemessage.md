@@ -16,7 +16,7 @@ ms.openlocfilehash: 90e79194182f61ba7298ef67b1070b1aa239073d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756599"
 ---
 # <a name="geteventsresponsemessage"></a>GetEventsResponseMessage

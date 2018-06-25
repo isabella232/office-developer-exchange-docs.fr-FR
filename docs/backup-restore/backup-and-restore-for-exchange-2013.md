@@ -12,7 +12,7 @@ ms.openlocfilehash: 9eceb3d512a73ad9cb07a01864fb8b029d5b5772
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754743"
 ---
 # <a name="backup-and-restore-for-exchange"></a>Sauvegarde et restauration pour Exchange

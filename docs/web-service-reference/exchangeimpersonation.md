@@ -16,7 +16,7 @@ ms.openlocfilehash: aedeff22cda865ce1eec80dab9760d49fdc178f7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756241"
 ---
 # <a name="exchangeimpersonation"></a>ExchangeImpersonation

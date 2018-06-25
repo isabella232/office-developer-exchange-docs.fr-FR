@@ -16,7 +16,7 @@ ms.openlocfilehash: d14cafb08297e5be3c8620c441f8b84b46ffe53e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755244"
 ---
 # <a name="absolutedate"></a>AbsoluteDate
@@ -52,7 +52,7 @@ Aucun.
 
 La valeur de texte représente la date quand l’équipe de travail entre standard ou l’heure d’été se produit.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

@@ -13,7 +13,7 @@ ms.openlocfilehash: f2f6f14df180a68b9e68b10e8f88e44a0bc24c6d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756314"
 ---
 # <a name="accounttype-pox"></a>AccountType (POX)

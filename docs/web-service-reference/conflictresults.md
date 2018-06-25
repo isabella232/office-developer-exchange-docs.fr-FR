@@ -16,7 +16,7 @@ ms.openlocfilehash: faa6dc6c5fbbe874438a89c810a12fa675e8a1c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755541"
 ---
 # <a name="conflictresults"></a>ConflictResults

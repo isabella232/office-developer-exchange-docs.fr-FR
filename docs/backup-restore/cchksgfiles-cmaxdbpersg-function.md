@@ -16,7 +16,7 @@ ms.openlocfilehash: bf09074bab6dee13e97e8a59a22ae1b19522a5e5
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755708"
 ---
 # <a name="cchksgfilescmaxdbpersg-function"></a>Fonction CChkSGFiles.CMaxDbPerSG

@@ -16,7 +16,7 @@ ms.openlocfilehash: 18b7ae2f97db2de64896680c3aa76f2590c03177
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755849"
 ---
 # <a name="delete-itemsync"></a>Supprimer (ItemSync)
@@ -57,7 +57,7 @@ Aucun.
 |:-----|:-----|
 |[Modifications (éléments)](changes-items.md) <br/> |Contient un tableau de séquence de types de modification qui représente le type des différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

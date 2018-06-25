@@ -10,7 +10,7 @@ ms.openlocfilehash: 0dd990cc82762936e7827115685ce0178eafb5ae
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754838"
 ---
 # <a name="get-domain-settings-from-an-exchange-server"></a>Obtenir les paramètres de domaine à partir d’un serveur Exchange

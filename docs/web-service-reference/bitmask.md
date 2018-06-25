@@ -16,7 +16,7 @@ ms.openlocfilehash: 86c8c61f22d8d620a9139280b2a43ed7fec4727d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755401"
 ---
 # <a name="bitmask"></a>Masque de bits

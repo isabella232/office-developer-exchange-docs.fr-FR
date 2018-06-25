@@ -12,7 +12,7 @@ ms.openlocfilehash: 997319193311ef9267d8f6ff14c70bfe40e2634b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756559"
 ---
 # <a name="getconversationitemsresponsemessage"></a>GetConversationItemsResponseMessage

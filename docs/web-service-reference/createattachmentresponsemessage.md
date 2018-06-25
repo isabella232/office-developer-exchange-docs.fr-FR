@@ -16,7 +16,7 @@ ms.openlocfilehash: a6d3adde07dedb7a2533d6e9c7fc6ff0497792bf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755692"
 ---
 # <a name="createattachmentresponsemessage"></a>CreateAttachmentResponseMessage

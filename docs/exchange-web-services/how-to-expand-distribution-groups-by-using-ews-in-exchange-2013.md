@@ -10,7 +10,7 @@ ms.openlocfilehash: 0f9186fb71b3005c71a70e89aafb674ae15e4814
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754826"
 ---
 # <a name="expand-distribution-groups-by-using-ews-in-exchange-2013"></a>Développez les groupes de distribution à l’aide EWS dans Exchange 2013

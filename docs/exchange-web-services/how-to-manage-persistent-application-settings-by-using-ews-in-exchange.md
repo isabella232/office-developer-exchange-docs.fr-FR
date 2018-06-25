@@ -10,7 +10,7 @@ ms.openlocfilehash: ab5a9cc927bd0a6c4efacce622cc71db1a9b02a3
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754870"
 ---
 # <a name="manage-persistent-application-settings-by-using-ews-in-exchange"></a>Gérer les paramètres de l’application permanente à l’aide de EWS dans Exchange

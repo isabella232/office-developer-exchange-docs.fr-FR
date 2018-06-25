@@ -16,7 +16,7 @@ ms.openlocfilehash: 54b4f5b89efdb42ef82dbef8f1af14a39c0ccc6a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755542"
 ---
 # <a name="connectionfailurecause"></a>ConnectionFailureCause

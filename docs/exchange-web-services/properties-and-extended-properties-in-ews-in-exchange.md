@@ -10,7 +10,7 @@ ms.openlocfilehash: 0c01d9bd21cbef0a3536c8dbd85e192199b7b8ab
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755066"
 ---
 # <a name="properties-and-extended-properties-in-ews-in-exchange"></a>Les propriétés et les propriétés étendues dans EWS dans Exchange

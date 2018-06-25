@@ -13,7 +13,7 @@ ms.openlocfilehash: fd765049aaccd93f2d6269375420f571108825a2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755333"
 ---
 # <a name="asurl-pox"></a>ASUrl (POX)

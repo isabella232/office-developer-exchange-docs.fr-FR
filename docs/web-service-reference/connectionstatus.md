@@ -16,7 +16,7 @@ ms.openlocfilehash: 567308d79eaccba24230deddf5d78a724b8746af
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755544"
 ---
 # <a name="connectionstatus"></a>ConnectionStatus

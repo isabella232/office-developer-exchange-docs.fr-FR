@@ -16,7 +16,7 @@ ms.openlocfilehash: 099ec33663baa2414a0c28b90364523b6191c697
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754750"
 ---
 # <a name="cchksgfileserrterm-function"></a>Fonction CChkSGFiles.ErrTerm

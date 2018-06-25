@@ -12,7 +12,7 @@ ms.openlocfilehash: ed1c1e3db4edd2cf4de032dc61abd73e863d4f1d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755309"
 ---
 # <a name="approvalrequestdata"></a>ApprovalRequestData

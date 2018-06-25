@@ -10,7 +10,7 @@ ms.openlocfilehash: 30ebbdf4c92111df629c7662987e301d167336e2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754947"
 ---
 # <a name="process-email-messages-in-batches-by-using-ews-in-exchange"></a>Traiter les messages électroniques par lots à l’aide de EWS dans Exchange

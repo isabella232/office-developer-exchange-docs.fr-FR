@@ -10,7 +10,7 @@ ms.openlocfilehash: 29a640178afc9814a0b2232225ae4307e49afed2
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754764"
 ---
 # <a name="controlling-client-application-access-to-ews-in-exchange"></a>Contrôle de l’accès aux applications de client pour EWS dans Exchange

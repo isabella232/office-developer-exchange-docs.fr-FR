@@ -10,7 +10,7 @@ ms.openlocfilehash: e70ac499da57faa60b4bcb6082648b23d1a7e791
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754966"
 ---
 # <a name="work-with-exchange-mailbox-items-by-using-ews-in-exchange"></a>Travailler avec des éléments de boîte aux lettres Exchange à l’aide de EWS dans Exchange

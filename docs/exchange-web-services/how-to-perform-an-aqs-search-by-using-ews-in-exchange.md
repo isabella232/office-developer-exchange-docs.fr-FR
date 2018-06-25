@@ -10,7 +10,7 @@ ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754939"
 ---
 # <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Effectuer une recherche AQS à l’aide de EWS dans Exchange
@@ -40,16 +40,16 @@ Lorsqu’une valeur est spécifiée sans un mot clé, la valeur sont recherchée
 
 |**Mot clé**|**Type de valeur**|**Exemple**|
 |:-----|:-----|:-----|
-|subject  <br/> |Chaîne  <br/> |objet : project  <br/> |
-|body  <br/> |Chaîne  <br/> |illustrations de corps : ventes  <br/> |
-|pièce jointe  <br/> |Chaîne  <br/> |pièce jointe : état  <br/> |
-|et utilisez à la place  <br/> |Chaîne  <br/> |à : « Sadie danield »  <br/> |
-|from  <br/> |Chaîne  <br/> |à partir de : espère que  <br/> |
-|cc  <br/> |Chaîne  <br/> |cc : « Ronnie Sturgis »  <br/> |
-|bcc  <br/> |Chaîne  <br/> |Bcc:Mack  <br/> |
-|participants  <br/> |Chaîne  <br/> |participants : sadie  <br/> |
+|subject  <br/> |String  <br/> |objet : project  <br/> |
+|body  <br/> |String  <br/> |illustrations de corps : ventes  <br/> |
+|pièce jointe  <br/> |String  <br/> |pièce jointe : état  <br/> |
+|et utilisez à la place  <br/> |String  <br/> |à : « Sadie danield »  <br/> |
+|from  <br/> |String  <br/> |à partir de : espère que  <br/> |
+|cc  <br/> |String  <br/> |cc : « Ronnie Sturgis »  <br/> |
+|bcc  <br/> |String  <br/> |Bcc:Mack  <br/> |
+|participants  <br/> |String  <br/> |participants : sadie  <br/> |
 |catégorie  <br/> |String  <br/> |catégorie : projet  <br/> |
-|importance  <br/> |Chaîne  <br/> |importance : haute  <br/> |
+|importance  <br/> |String  <br/> |importance : haute  <br/> |
 |type  <br/> |Type d’élément  <br/> |type : réunions  <br/> |
 |envoyé  <br/> |Date  <br/> |envoyés : 10/12/2013  <br/> |
 |reçus  <br/> |Date  <br/> |reçus : hier  <br/> |

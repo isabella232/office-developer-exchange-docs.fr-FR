@@ -16,7 +16,7 @@ ms.openlocfilehash: 20f10c43e3b92604bb51e1aa5f896a8bd7c4b335
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755691"
 ---
 # <a name="cchksgfileserr-enumeration"></a>Énumération CChkSGFiles.ERR 

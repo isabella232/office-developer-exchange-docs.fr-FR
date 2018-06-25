@@ -16,7 +16,7 @@ ms.openlocfilehash: 73912bc1981c5d54040f7c4a563ad805916fe721
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755547"
 ---
 # <a name="constant"></a>Constante
@@ -49,7 +49,7 @@ Aucun.
 |[Contient](contains.md) <br/> |Représente une expression de recherche qui détermine si une propriété donnée contient la valeur de chaîne constante fournie.  <br/> |
 |[FieldURIOrConstant](fielduriorconstant.md) <br/> |Représente une propriété ou une constante à utiliser lors de la comparaison avec une autre propriété.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La valeur de chaîne dans l’attribut **Value** doit être convertie dans le type que vous essayez de comparer. Par exemple, si vous comparez une propriété de date/heure par rapport à une valeur constante, la valeur de chaîne doit représenter une date/heure. 
   

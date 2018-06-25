@@ -16,7 +16,7 @@ ms.openlocfilehash: 2910503d1661ca3aaeeb4e319deb39f6b57c5c0a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755335"
 ---
 # <a name="attachmentid"></a>AttachmentId
@@ -52,7 +52,7 @@ Aucun.
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[FileAttachment](fileattachment.md) <br/> |Représente un fichier qui est attaché à un élément dans la banque d’informations Exchange.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Il est important de noter que lorsqu’une pièce jointe est créée, la modifier la clé de l’élément racine est modifiée.
   

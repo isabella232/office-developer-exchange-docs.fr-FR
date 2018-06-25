@@ -12,7 +12,7 @@ ms.openlocfilehash: 954943acefef8da61e92de5f8857ca023ca4fc9f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755317"
 ---
 # <a name="archiveitem-operation"></a>Opération ArchiveItem

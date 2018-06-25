@@ -12,7 +12,7 @@ ms.openlocfilehash: 4670f1fa59fec4cf1e2b35a1380f6205677ce5af
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755342"
 ---
 # <a name="attendeelocation"></a>AttendeeLocation

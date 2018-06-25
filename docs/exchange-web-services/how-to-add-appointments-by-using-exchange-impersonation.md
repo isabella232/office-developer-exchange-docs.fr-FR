@@ -10,7 +10,7 @@ ms.openlocfilehash: fe737658b88aca66d8b4c2860245db000888ba17
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754823"
 ---
 # <a name="add-appointments-by-using-exchange-impersonation"></a>Ajouter des rendez-vous à l’aide de l’emprunt d’identité Exchange

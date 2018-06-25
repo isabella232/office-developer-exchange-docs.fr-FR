@@ -16,7 +16,7 @@ ms.openlocfilehash: a6b67907dba311a3ce482ff8f524378fb4be9694
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756624"
 ---
 # <a name="getfolderresponsemessage"></a>GetFolderResponseMessage

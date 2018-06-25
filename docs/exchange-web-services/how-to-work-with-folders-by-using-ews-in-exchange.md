@@ -10,7 +10,7 @@ ms.openlocfilehash: a9a9e5974b2751268f37a1c9faacce43a333bcdb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754975"
 ---
 # <a name="work-with-folders-by-using-ews-in-exchange"></a>Utilisation de dossiers à l’aide de EWS dans Exchange

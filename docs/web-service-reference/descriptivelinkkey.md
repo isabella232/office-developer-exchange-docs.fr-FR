@@ -16,7 +16,7 @@ ms.openlocfilehash: c917f401c0954a68ddce1226b522d54c87502462
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755910"
 ---
 # <a name="descriptivelinkkey"></a>DescriptiveLinkKey

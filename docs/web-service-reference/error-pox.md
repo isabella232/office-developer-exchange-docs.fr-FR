@@ -13,7 +13,7 @@ ms.openlocfilehash: 3135a352365fe3000ce2d202ad78452d5c8ccc7f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756202"
 ---
 # <a name="error-pox"></a>Erreur (POX)

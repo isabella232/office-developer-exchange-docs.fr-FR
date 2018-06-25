@@ -12,7 +12,7 @@ ms.openlocfilehash: 9ddee0d68c9104357f84322b2cce7c5f2576d871
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755147"
 ---
 # <a name="transport-agent-concepts-in-exchange-2013"></a>Concepts sur les agents de transport dans Exchange 2013

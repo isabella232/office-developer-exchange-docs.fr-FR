@@ -16,7 +16,7 @@ ms.openlocfilehash: 4cf62b96418de3d5175b9cd43209e5b0e0fa4675
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756504"
 ---
 # <a name="fullname"></a>FullName
@@ -46,7 +46,7 @@ Aucun.
 |:-----|:-----|
 |[CompleteName](completename.md) <br/> |Représente le nom complet d'un contact.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

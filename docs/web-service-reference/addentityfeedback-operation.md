@@ -12,7 +12,7 @@ ms.openlocfilehash: b695806f543827d78aea139ffcbd7e4af58b9fef
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755169"
 ---
 # <a name="addentityfeedback-operation"></a>Opération AddEntityFeedback
@@ -68,13 +68,13 @@ La demande soap contient un élément unique **EntityFeedbackEntries**. À son t
 |**ClientEventTimeLocal** <br/> |Oui  <br/> |L’heure locale de l’événement côté client.  <br/> |Date/heure  <br/> |
 |**ClientId** <br/> |Oui  <br/> |Type de Client (par exemple, Outlook, OWA, etc.).  <br/> |Énumération ClientIDType  <br/> |
 |**ClientSessionId** <br/> |Oui  <br/> |GUID qui identifie l’ID de session. Généré sur le client.  <br/> |GUID  <br/> |
-|**ClientVersion** <br/> |Oui  <br/> |Version du client (par exemple, 15.01.0101.000).  <br/> |Chaîne  <br/> |
+|**ClientVersion** <br/> |Oui  <br/> |Version du client (par exemple, 15.01.0101.000).  <br/> |String  <br/> |
 |**EntityAddSource** <br/> |Non  <br/> |Source de EntityAded (par exemple, EntityRelevanceAPI, types, collés).  <br/> |Énumération EntityAddSource  <br/> |
 |**EntrySequenceNumber** <br/> |Oui  <br/> |Un entier incrémenté par session client. Utilisé pour détecter la perte de données.  <br/> |Int  <br/> |
-|**EventType** <br/> |Oui  <br/> |Type d’événement (par exemple, ajout de l’entité, entité supprimée).  <br/> |Chaîne  <br/> |
+|**EventType** <br/> |Oui  <br/> |Type d’événement (par exemple, ajout de l’entité, entité supprimée).  <br/> |String  <br/> |
 |**JSONPropertyBag** <br/> |Non  <br/> |Propriétés supplémentaires associées à l’événement (blob JSON de paires clé/valeur).  <br/> |Blob JSON  <br/> |
 |**TargetEntityList** <br/> |Non  <br/> |Liste des entités associées à l’événement.  <br/> |Chaîne JSON  <br/> |
-|**TransactionId** <br/> |Non  <br/> |ID (GUID) corrélation l’ID dans les journaux de requête.  <br/> |Chaîne  <br/> |
+|**TransactionId** <br/> |Non  <br/> |ID (GUID) corrélation l’ID dans les journaux de requête.  <br/> |String  <br/> |
    
 ### <a name="successful-addentityfeedback-operation-response"></a>Réponse d’opération AddEntityFeedback réussie
 

@@ -12,7 +12,7 @@ ms.openlocfilehash: 6fbe24d5d3e41f2ba9c81657b2c38240d10eefed
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755173"
 ---
 # <a name="additionalinfo"></a>AdditionalInfo
@@ -47,7 +47,7 @@ Aucun.
 
 La valeur de texte de l’élément AdditionalInfo est plus d’informations sur l’état de conservation d’une boîte aux lettres.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément est facultatif.
   

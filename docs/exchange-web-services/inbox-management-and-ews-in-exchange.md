@@ -10,7 +10,7 @@ ms.openlocfilehash: fe06c5ee87e2679506ca7247c5fc2c96912dee86
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754961"
 ---
 # <a name="inbox-management-and-ews-in-exchange"></a>Gestion de la boîte de réception et les services EWS d’Exchange

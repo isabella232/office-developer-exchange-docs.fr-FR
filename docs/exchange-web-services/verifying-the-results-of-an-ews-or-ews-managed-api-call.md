@@ -10,7 +10,7 @@ ms.openlocfilehash: 077dd923710a1a7f5cad4c822cbbd58ab3603661
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755077"
 ---
 # <a name="verifying-the-results-of-an-ews-or-ews-managed-api-call"></a>Vérification des résultats d’un appel EWS ou API managées

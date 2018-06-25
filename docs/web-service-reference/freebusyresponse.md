@@ -16,7 +16,7 @@ ms.openlocfilehash: 73e3972bb53d6bf59e5156098bad06bcde5f0155
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756481"
 ---
 # <a name="freebusyresponse"></a>FreeBusyResponse
@@ -58,7 +58,7 @@ Aucun.
 |:-----|:-----|
 |[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contient des informations de disponibilité de l’utilisateur demandé et l’état de réponse.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cet élément n’est pas inclus dans une réponse GetUserAvailability si les informations de disponibilité ne sont pas demandées.
   

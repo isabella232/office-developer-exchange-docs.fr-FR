@@ -16,7 +16,7 @@ ms.openlocfilehash: 8d946aec8ae2c5e6bb4ca3f1d8ee74250262d373
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756287"
 ---
 # <a name="extendedfielduri"></a>ExtendedFieldURI
@@ -85,7 +85,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 |ShortArray  <br/> |Tableau d’entiers 16 bits signés.  <br/> |
 |SystemTime  <br/> |Entier 64 bits et l’heure valeur sous la forme d’une structure FILETIME.  <br/> |
 |SystemTimeArray  <br/> |Un tableau de valeurs de date et heure 64 bits entier sous la forme d’une structure FILETIME.  <br/> |
-|Chaîne  <br/> |Une chaîne Unicode.  <br/> |
+|String  <br/> |Une chaîne Unicode.  <br/> |
 |StringArray  <br/> |Tableau de chaînes Unicode.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants

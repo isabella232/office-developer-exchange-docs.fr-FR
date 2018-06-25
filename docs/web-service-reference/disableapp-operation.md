@@ -12,7 +12,7 @@ ms.openlocfilehash: be9e124d7464012ffa797a69192893d85804a004
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755940"
 ---
 # <a name="disableapp-operation"></a>Opération DisableApp

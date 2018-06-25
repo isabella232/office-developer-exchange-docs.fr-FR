@@ -16,7 +16,7 @@ ms.openlocfilehash: 5b1070de73bc23ae09ddb7835bd72c8e8a71a95f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754748"
 ---
 # <a name="cchksgfileserrchecklogs-function"></a>Fonction CChkSGFiles.ErrCheckLogs

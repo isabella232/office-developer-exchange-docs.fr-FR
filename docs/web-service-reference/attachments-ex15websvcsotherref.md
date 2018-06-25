@@ -16,7 +16,7 @@ ms.openlocfilehash: 8aa5c0849122f5ca83485459fce5d0fea449c974
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755340"
 ---
 # <a name="attachments"></a>Pièces jointes
@@ -68,7 +68,7 @@ Aucun.
 |[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande CreateAttachment.  <br/> |
 |[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande GetAttachment.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Les éléments de **pièces jointes** ont les mêmes éléments enfants mais sont basées sur différents types : **ArrayOfAttachmentsType** et **NonEmptyArrayOfAttachmentsType**. Les types de définissent si un élément enfant est nécessaire. **ArrayOfAttachmentsType** est utilisé uniquement dans le message de réponse. Il est également important de noter que ces éléments se produisent dans les messages et les types d’espaces de noms. 
   

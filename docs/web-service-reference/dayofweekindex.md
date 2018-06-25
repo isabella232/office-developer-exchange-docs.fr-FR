@@ -16,7 +16,7 @@ ms.openlocfilehash: 4987685d0c3cefdfad4f5be1368776a5b859bf94
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755825"
 ---
 # <a name="dayofweekindex"></a>DayOfWeekIndex
@@ -58,7 +58,7 @@ Une valeur texte est requise. Les valeurs possibles sont les suivantes :
 - Quatrième    
 - Last
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Par exemple, le deuxième lundi du mois peut se produire dans la troisième semaine du mois. Si un mois commence un vendredi, la première semaine du mois contient quelques jours uniquement et ne contient-elle pas un lundi. Par conséquent, le premier lundi doit se produire dans la deuxième semaine.
   

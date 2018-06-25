@@ -16,7 +16,7 @@ ms.openlocfilehash: 803bd2da72bdb21b507a59cc11635a40d4431acf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755889"
 ---
 # <a name="delivermeetingrequests"></a>DeliverMeetingRequests

@@ -12,7 +12,7 @@ ms.openlocfilehash: 7541fa6330ee96f7791febfabc672dbcf0e95b54
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756303"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty (PathToExtendedFieldType)
@@ -85,7 +85,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 |ShortArray  <br/> |Indique un tableau de valeurs **courtes** .  <br/> |
 |SystemTime  <br/> |Indique une valeur d’heure système.  <br/> |
 |SystemTimeArray  <br/> |Indique un tableau de valeurs d’heure système.  <br/> |
-|Chaîne  <br/> |Indique une chaîne.  <br/> |
+|String  <br/> |Indique une chaîne.  <br/> |
 |StringArray  <br/> |Indique un tableau de chaînes.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants

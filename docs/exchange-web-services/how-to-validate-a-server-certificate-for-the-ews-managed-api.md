@@ -10,7 +10,7 @@ ms.openlocfilehash: 13d7c51e55308b9e9997697a075c8a9e6b4f10d0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754951"
 ---
 # <a name="validate-a-server-certificate-for-the-ews-managed-api"></a>Valider un certificat de serveur pour l’API managée EWS

@@ -12,7 +12,7 @@ ms.openlocfilehash: 7c98e7cb96cecad0d1b5122236b6cd0947c6b3d6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755505"
 ---
 # <a name="children-arrayofstringarrayattributedvaluestype"></a>Enfants (ArrayOfStringArrayAttributedValuesType)

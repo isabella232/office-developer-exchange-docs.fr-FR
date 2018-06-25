@@ -10,7 +10,7 @@ ms.openlocfilehash: 404a31fb6c8d98bdbba4c79ed6912c333a44d04b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754837"
 ---
 # <a name="get-room-lists-by-using-ews-in-exchange"></a>Obtenir les listes de salle à l’aide de EWS dans Exchange

@@ -12,7 +12,7 @@ ms.openlocfilehash: e85a5364c40c472c9e1ea9d1d3b4e89329b1676f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754754"
 ---
 # <a name="build-backup-and-restore-applications-for-exchange-2013"></a>Créer la sauvegarde et de restaurer des applications pour Exchange 2013

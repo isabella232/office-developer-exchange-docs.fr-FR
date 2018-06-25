@@ -16,7 +16,7 @@ ms.openlocfilehash: 30b919dec3e65ca1961aac3f9c11c72cf97d707f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755655"
 ---
 # <a name="conversationtopic"></a>ConversationTopic
@@ -64,7 +64,7 @@ Aucun.
 
 La valeur de texte représente la rubrique relative à la conversation.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le sujet de conversation est généralement le sujet du premier message électronique dans un thread.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 35a671cd534d1b48b29ef836c24d97d7cbd52401
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756740"
 ---
 # <a name="getsearchablemailboxesresponse"></a>GetSearchableMailboxesResponse

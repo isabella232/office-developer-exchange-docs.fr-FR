@@ -10,7 +10,7 @@ ms.openlocfilehash: a4265a14a46c146c584a3daa61cef5486958e14e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754945"
 ---
 # <a name="update-appointments-and-meetings-by-using-ews-in-exchange"></a>Mettre à jour vos rendez-vous et réunions à l’aide de EWS dans Exchange

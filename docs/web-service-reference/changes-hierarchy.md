@@ -16,7 +16,7 @@ ms.openlocfilehash: 15e4f9f37c5e4a4083260dcf379a49beb2260030
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755507"
 ---
 # <a name="changes-hierarchy"></a>Modifications (hiérarchie)

@@ -11,7 +11,7 @@ ms.openlocfilehash: 7021ce7129db87d85a35b8274ead9e94f5a59e1a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756066"
 ---
 # <a name="ecpurl-pox"></a>EcpUrl (POX)

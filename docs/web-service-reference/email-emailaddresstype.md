@@ -16,7 +16,7 @@ ms.openlocfilehash: 0e7848d7c4f5001ed86b06d11af1d7623b4bf1f0
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756095"
 ---
 # <a name="email-emailaddresstype"></a>Courrier électronique (EmailAddressType)

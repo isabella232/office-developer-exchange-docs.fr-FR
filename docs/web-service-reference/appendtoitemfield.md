@@ -16,7 +16,7 @@ ms.openlocfilehash: b432399e84ee4a3fd7edc5d3f803079435c79143
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755222"
 ---
 # <a name="appendtoitemfield"></a>AppendToItemField
@@ -73,7 +73,7 @@ Aucun.
 |:-----|:-----|
 |[Mises à jour (élément)](updates-item.md) <br/> |Contient un tableau qui définit append, définir et supprimer les modifications apportées aux propriétés de l’élément.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Opérations d’ajout sont uniquement certain prennent en charge les propriétés. Une tentative d’ajouter à une propriété qui ne prend pas en charge l’ajout d’entraîne une erreur.
   

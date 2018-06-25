@@ -16,7 +16,7 @@ ms.openlocfilehash: 00b0e41ae223f1c70f9a3a21662e8858f8690a86
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755840"
 ---
 # <a name="delegationstate"></a>DelegationState
@@ -63,7 +63,7 @@ Il s’agit d’une propriété en lecture seule. Les valeurs possibles sont les
     
 - Max
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Exchange Web Services dans Microsoft Exchange Server 2007 ne prend pas en charge les affectations de tâches.
   

@@ -12,7 +12,7 @@ ms.openlocfilehash: 513fc21be52a90698f1c292d6d20d7cdaab07371
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755530"
 ---
 # <a name="condition-restrictiontype"></a>Condition (RestrictionType)

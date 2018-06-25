@@ -16,7 +16,7 @@ ms.openlocfilehash: d312420606c5e1914fe321ae7c7c512f0833199c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755532"
 ---
 # <a name="conferencetype"></a>ConferenceType
@@ -57,7 +57,7 @@ Une valeur de texte qui représente une valeur entière est requise si cet élé
     
 - 2 = conversation
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 **MeetingWorkspaceURL,** de la propriété est en lecture-écriture pour l’élément de calendrier de l’organisateur de la. Il est en lecture seule pour les demandes de réunion et des éléments de calendrier du participant. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: 05e92a3fea10a84518b0680c425011a91bc43d93
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755306"
 ---
 # <a name="appointmentstate"></a>AppointmentState
@@ -51,7 +51,7 @@ Aucun.
 
 Cet élément contient une valeur de texte que représente la valeur bits. Il s’agit de formulaire entier. Cet élément est en lecture seule. Il sera renvoyée uniquement dans une réponse.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Valeur entière qui est renvoyée représente le masque de bits état rendez-vous. Le tableau suivant décrit chaque bit.
   

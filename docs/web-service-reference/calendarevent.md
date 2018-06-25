@@ -16,7 +16,7 @@ ms.openlocfilehash: f7fff7ba511ca12813dd4c2d694e89c97589ba31
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755463"
 ---
 # <a name="calendarevent"></a>CalendarEvent

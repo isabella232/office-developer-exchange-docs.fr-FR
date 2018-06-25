@@ -12,7 +12,7 @@ ms.openlocfilehash: d1683f99fbd233c1b878eb86d529b58ea1ebd8c9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755075"
 ---
 # <a name="exchange-management-shell-namespaces"></a>Espaces de noms Exchange Management Shell

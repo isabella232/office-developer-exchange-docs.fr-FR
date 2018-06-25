@@ -11,7 +11,7 @@ ms.openlocfilehash: 29b27ffe9ef3c18a3b6471ca4a42956a43a5aaa6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756072"
 ---
 # <a name="ecpurl-tmediting-pox"></a>EcpUrl-tmEditing (POX)

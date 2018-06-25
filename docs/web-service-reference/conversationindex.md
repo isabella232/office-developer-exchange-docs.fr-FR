@@ -16,7 +16,7 @@ ms.openlocfilehash: 3f4f72224269717325d2fbf56f0a25fab20352a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755639"
 ---
 # <a name="conversationindex"></a>ConversationIndex
@@ -63,7 +63,7 @@ Aucun.
 
 La valeur de texte représente un identificateur binaires au format **Base64Binary** . 
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS du serveur Exchange qui a le rôle de serveur d’accès au Client est installé.
   

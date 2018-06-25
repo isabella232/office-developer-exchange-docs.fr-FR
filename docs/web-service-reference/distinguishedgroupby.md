@@ -16,7 +16,7 @@ ms.openlocfilehash: 0635366447675bf28dedf3af4f7d76094ee5e0a4
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756013"
 ---
 # <a name="distinguishedgroupby"></a>DistinguishedGroupBy
@@ -53,7 +53,7 @@ Aucun.
 |:-----|:-----|
 |[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.<br/><br/>Vous trouverez ci-dessous l’expression XPath pour cet élément :`/FindItem` <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 L’élément **DistinguishedGroupBy** peut être ajouté à une opération FindItem lorsque les résultats doivent provenir sauvegardées regroupées et lorsque un des groupes standards remplit les conditions de regroupement. Si l’élément [GroupBy](groupby.md) ni l’élément **DistinguishedGroupBy** est spécifié, FindItem résultats seront reviendrons dissociées. 
   

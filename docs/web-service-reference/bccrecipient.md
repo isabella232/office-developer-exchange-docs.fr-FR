@@ -16,7 +16,7 @@ ms.openlocfilehash: bed58536263196a61651493e92a4dcd1df3f5ec9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755376"
 ---
 # <a name="bccrecipient"></a>BccRecipient

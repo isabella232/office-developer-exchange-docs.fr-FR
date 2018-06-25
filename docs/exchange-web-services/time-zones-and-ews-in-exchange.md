@@ -10,7 +10,7 @@ ms.openlocfilehash: fcc8b00acf2b63de04718e13b82191de95bbf2b7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755079"
 ---
 # <a name="time-zones-and-ews-in-exchange"></a>Fuseaux horaires et les services EWS d’Exchange

@@ -16,7 +16,7 @@ ms.openlocfilehash: 8a82ff28ad1d0dc965a3284c1d0eac9b2fa38301
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756468"
 ---
 # <a name="forwarditem"></a>ForwardItem

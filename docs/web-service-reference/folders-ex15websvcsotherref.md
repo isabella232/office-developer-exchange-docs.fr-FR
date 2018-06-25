@@ -16,7 +16,7 @@ ms.openlocfilehash: e1b9e337f633dbf6fda159c28725d3fb8dcd55a6
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756454"
 ---
 # <a name="folders"></a>Dossiers

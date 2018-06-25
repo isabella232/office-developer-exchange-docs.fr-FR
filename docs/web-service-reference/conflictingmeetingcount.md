@@ -16,7 +16,7 @@ ms.openlocfilehash: ace800982c284cf65ff22d92c711197ee5ee1d06
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755536"
 ---
 # <a name="conflictingmeetingcount"></a>ConflictingMeetingCount
@@ -51,7 +51,7 @@ Aucun.
 
 La valeur de texte représente un entier. Cette propriété est en lecture seule.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Un élément de calendrier est considéré comme en conflit si elle a lieu, au moins en partie, en même temps en tant qu’un autre élément de calendrier dans le même dossier de calendrier. Si un élément de calendrier se trouve dans un dossier noncalendar, il est comparé aux éléments de calendrier dans le dossier calendrier par défaut. Demandes de réunion sont comparées avec les éléments de calendrier dans le dossier calendrier par défaut.
   

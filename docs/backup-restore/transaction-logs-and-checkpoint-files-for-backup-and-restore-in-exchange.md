@@ -12,7 +12,7 @@ ms.openlocfilehash: 53f128348bb2e8895bc1eefaf62402fa348c81ea
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754772"
 ---
 # <a name="transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange"></a>Les journaux de transactions et des fichiers de point de contrôle pour la sauvegarde et de restauration dans Exchange

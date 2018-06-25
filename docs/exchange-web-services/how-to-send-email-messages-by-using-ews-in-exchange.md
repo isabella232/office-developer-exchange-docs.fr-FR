@@ -10,7 +10,7 @@ ms.openlocfilehash: f09babfcc420d4cbc563ed6605ba555fd9f8c7e9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754934"
 ---
 # <a name="send-email-messages-by-using-ews-in-exchange"></a>Envoyer des messages électroniques à l’aide de EWS dans Exchange

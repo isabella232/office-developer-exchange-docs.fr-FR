@@ -15,7 +15,7 @@ ms.openlocfilehash: fcf2839c1e2e40a22d6b6a856608f52f2c9c2a1a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756107"
 ---
 # <a name="emailaddress-nonemptystringtype"></a>EmailAddress (NonEmptyStringType)

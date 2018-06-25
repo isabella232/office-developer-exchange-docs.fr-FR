@@ -15,7 +15,7 @@ ms.openlocfilehash: 2bd9499a1be3935e10f9e2953a52cc8ffc18ade9
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756199"
 ---
 # <a name="entryid-um-web-service"></a>propriété entryId (service web de messagerie unifiée)

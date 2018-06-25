@@ -10,7 +10,7 @@ ms.openlocfilehash: d55ef6c5c4e434603d293dbe30c6147ceb73b08b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754796"
 ---
 # <a name="add-and-remove-delegates-by-using-ews-in-exchange"></a>Ajouter et supprimer des délégués à l’aide de EWS dans Exchange

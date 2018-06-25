@@ -16,7 +16,7 @@ ms.openlocfilehash: e561cac949ebebc647b16578c6acbcd6132eeef7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755740"
 ---
 # <a name="createmanagedfolderresponsemessage"></a>CreateManagedFolderResponseMessage

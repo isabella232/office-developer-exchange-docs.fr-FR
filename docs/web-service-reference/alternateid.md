@@ -16,7 +16,7 @@ ms.openlocfilehash: e4d29087b63b52638dd93e4e3b643cdee39a5b97
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755196"
 ---
 # <a name="alternateid"></a>AlternateId

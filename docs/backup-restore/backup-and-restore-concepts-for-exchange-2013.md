@@ -12,7 +12,7 @@ ms.openlocfilehash: 5fa62c3d34ffbe8f0bab852c6d41c49220e2883a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754751"
 ---
 # <a name="backup-and-restore-concepts-for-exchange-2013"></a>Concepts de sauvegarde et de restauration pour Exchange 2013

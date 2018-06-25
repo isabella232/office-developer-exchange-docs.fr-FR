@@ -12,7 +12,7 @@ ms.openlocfilehash: 5edf75afd556f67e815bc519c87586f2f62f057b
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755078"
 ---
 # <a name="use-the-exchange-management-shell-cmdlet-response"></a>Utilisation de la réponse d’applet de commande Exchange Management Shell

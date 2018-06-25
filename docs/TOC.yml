@@ -3495,7 +3495,7 @@
                       href: web-service-reference/streamingsubscriptionrequest.md
                     - name: Rue
                       href: web-service-reference/street.md
-                    - name: Chaîne
+                    - name: String
                       href: web-service-reference/string.md
                     - name: StringArrayAttributedValue
                       href: web-service-reference/stringarrayattributedvalue.md

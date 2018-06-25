@@ -12,7 +12,7 @@ ms.openlocfilehash: 6582447cc858e1808b32770d5a752b772d1ea9cb
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756174"
 ---
 # <a name="enddate-remindertype"></a>Date de fin (ReminderType)

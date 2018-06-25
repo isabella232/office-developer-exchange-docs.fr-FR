@@ -12,7 +12,7 @@ ms.openlocfilehash: f5b8f0a19b77ce550b1d7f1c415cc8ee4340863a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755424"
 ---
 # <a name="bodycontentattributedvalue"></a>BodyContentAttributedValue

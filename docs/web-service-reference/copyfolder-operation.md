@@ -16,7 +16,7 @@ ms.openlocfilehash: a83444ff0927a3c8fe075c79d44d02357a737773
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755661"
 ---
 # <a name="copyfolder-operation"></a>Opération CopyFolder

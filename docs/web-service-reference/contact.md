@@ -16,7 +16,7 @@ ms.openlocfilehash: 7b2e7c0197914c2a0a0ba3815dd05fca52a5f872
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755557"
 ---
 # <a name="contact"></a>Contact

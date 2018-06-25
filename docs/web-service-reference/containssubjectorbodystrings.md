@@ -16,7 +16,7 @@ ms.openlocfilehash: f577e7d26bb7d82ea1017f720e1d3a30892e2ef1
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755601"
 ---
 # <a name="containssubjectorbodystrings"></a>ContainsSubjectOrBodyStrings

@@ -10,7 +10,7 @@ ms.openlocfilehash: 0652c36fd610c2f9dfe22b55323b368997137e0c
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754965"
 ---
 # <a name="use-search-filters-with-ews-in-exchange"></a>Utiliser des filtres de recherche avec EWS dans Exchange

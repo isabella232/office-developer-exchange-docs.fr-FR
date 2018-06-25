@@ -16,7 +16,7 @@ ms.openlocfilehash: 591209165cfbafc2d5f4036dd8fab6659523a044
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755719"
 ---
 # <a name="createitem-operation-email-message"></a>Opération CreateItem (e-mail)

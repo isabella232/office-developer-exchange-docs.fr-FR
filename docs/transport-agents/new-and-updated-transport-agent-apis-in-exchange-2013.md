@@ -12,7 +12,7 @@ ms.openlocfilehash: 0caafaf9629da1066d14357416862a7d67b961aa
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755141"
 ---
 # <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>Agent de transport nouveaux et mis à jour l’API d’Exchange 2013

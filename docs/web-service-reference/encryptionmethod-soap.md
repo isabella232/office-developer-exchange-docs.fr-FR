@@ -13,7 +13,7 @@ ms.openlocfilehash: 5062d357a54019a576e391e1be4d4e8dfcc6e38d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756158"
 ---
 # <a name="encryptionmethod-soap"></a>EncryptionMethod (SOAP)

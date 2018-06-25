@@ -16,7 +16,7 @@ ms.openlocfilehash: 87d7853daa5db0cd87b3f6469c228a584b4d9caf
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755869"
 ---
 # <a name="deleteitem-operation"></a>Opération DeleteItem

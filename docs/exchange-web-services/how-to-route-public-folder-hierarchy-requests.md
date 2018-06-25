@@ -10,7 +10,7 @@ ms.openlocfilehash: 983431864729edbb040a7206dae416d10bfb2b7a
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754942"
 ---
 # <a name="route-public-folder-hierarchy-requests"></a>Acheminer les requêtes de hiérarchie de dossiers publics

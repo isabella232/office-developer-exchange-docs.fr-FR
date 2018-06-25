@@ -12,7 +12,7 @@ ms.openlocfilehash: 52a6c3ca158827b81141e3e174ef79dc511babd7
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755450"
 ---
 # <a name="businesshomepages"></a>BusinessHomePages

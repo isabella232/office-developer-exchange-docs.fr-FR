@@ -16,7 +16,7 @@ ms.openlocfilehash: a407019063b34970e883a00ca4f4d730935d7cba
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754752"
 ---
 # <a name="cchksgfileserrcheckdbheaders-function"></a>Fonction CChkSGFiles.ErrCheckDbHeaders

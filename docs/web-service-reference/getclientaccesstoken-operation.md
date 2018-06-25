@@ -12,33 +12,33 @@ ms.openlocfilehash: afa9a315a8421f31c345c9547a5d80bed41e9fbc
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19756539"
 ---
-# <a name="getclientaccesstoken-operation"></a><span data-ttu-id="8941a-103">Opération GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="8941a-103">GetClientAccessToken operation</span></span>
+# <a name="getclientaccesstoken-operation"></a><span data-ttu-id="e5226-103">Opération GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="e5226-103">GetClientAccessToken operation</span></span>
 
-<span data-ttu-id="8941a-104">Trouvez des informations sur l’opération EWS **GetClientAccessToken** .</span><span class="sxs-lookup"><span data-stu-id="8941a-104">Find information about the **GetClientAccessToken** EWS operation.</span></span> 
+<span data-ttu-id="e5226-104">Trouvez des informations sur l’opération EWS **GetClientAccessToken** .</span><span class="sxs-lookup"><span data-stu-id="e5226-104">Find information about the **GetClientAccessToken** EWS operation.</span></span> 
   
-<span data-ttu-id="8941a-105">L’opération **GetClientAccessToken** Obtient un accès au client jeton pour une application de messagerie pour Outlook.</span><span class="sxs-lookup"><span data-stu-id="8941a-105">The **GetClientAccessToken** operation gets a client access token for a mail app for Outlook.</span></span> 
+<span data-ttu-id="e5226-105">L’opération **GetClientAccessToken** Obtient un accès au client jeton pour une application de messagerie pour Outlook.</span><span class="sxs-lookup"><span data-stu-id="e5226-105">The **GetClientAccessToken** operation gets a client access token for a mail app for Outlook.</span></span> 
   
-<span data-ttu-id="8941a-106">Cette opération est une nouveauté d’Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8941a-106">This operation was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="e5226-106">Cette opération est une nouveauté d’Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e5226-106">This operation was introduced in Exchange Server 2013.</span></span>
   
-## <a name="using-the-getclientaccesstoken-operation"></a><span data-ttu-id="8941a-107">Utilisation de l’opération GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="8941a-107">Using the GetClientAccessToken operation</span></span>
+## <a name="using-the-getclientaccesstoken-operation"></a><span data-ttu-id="e5226-107">Utilisation de l’opération GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="e5226-107">Using the GetClientAccessToken operation</span></span>
 
-<span data-ttu-id="8941a-108">La requête d’opération **GetClientAccessToken** accepte deux arguments requis : l’identificateur de l’application et le type de jeton.</span><span class="sxs-lookup"><span data-stu-id="8941a-108">The **GetClientAccessToken** operation request takes two required arguments: the identifier of the app, and the token type.</span></span> <span data-ttu-id="8941a-109">Vous pouvez utiliser l' [opération GetAppManifests](getappmanifests-operation.md) pour demander l’identificateur de l’application.</span><span class="sxs-lookup"><span data-stu-id="8941a-109">You can use the [GetAppManifests operation](getappmanifests-operation.md) to request the app identifier.</span></span> 
+<span data-ttu-id="e5226-108">La requête d’opération **GetClientAccessToken** accepte deux arguments requis : l’identificateur de l’application et le type de jeton.</span><span class="sxs-lookup"><span data-stu-id="e5226-108">The **GetClientAccessToken** operation request takes two required arguments: the identifier of the app, and the token type.</span></span> <span data-ttu-id="e5226-109">Vous pouvez utiliser l' [opération GetAppManifests](getappmanifests-operation.md) pour demander l’identificateur de l’application.</span><span class="sxs-lookup"><span data-stu-id="e5226-109">You can use the [GetAppManifests operation](getappmanifests-operation.md) to request the app identifier.</span></span> 
   
-### <a name="getclientaccesstoken-operation-soap-headers"></a><span data-ttu-id="8941a-110">En-têtes SOAP GetClientAccessToken opération</span><span class="sxs-lookup"><span data-stu-id="8941a-110">GetClientAccessToken operation SOAP headers</span></span>
+### <a name="getclientaccesstoken-operation-soap-headers"></a><span data-ttu-id="e5226-110">En-têtes SOAP GetClientAccessToken opération</span><span class="sxs-lookup"><span data-stu-id="e5226-110">GetClientAccessToken operation SOAP headers</span></span>
 
-<span data-ttu-id="8941a-111">L’opération **GetClientAccessToken** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="8941a-111">The **GetClientAccessToken** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="e5226-111">L’opération **GetClientAccessToken** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="e5226-111">The **GetClientAccessToken** operation can use the SOAP headers that are listed in the following table.</span></span> 
   
-|<span data-ttu-id="8941a-112">**Nom de l'en-tête**</span><span class="sxs-lookup"><span data-stu-id="8941a-112">**Header name**</span></span>|<span data-ttu-id="8941a-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="8941a-113">**Element**</span></span>|<span data-ttu-id="8941a-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="8941a-114">**Description**</span></span>|
+|<span data-ttu-id="e5226-112">**Nom de l'en-tête**</span><span class="sxs-lookup"><span data-stu-id="e5226-112">**Header name**</span></span>|<span data-ttu-id="e5226-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="e5226-113">**Element**</span></span>|<span data-ttu-id="e5226-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="e5226-114">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="8941a-115">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="8941a-115">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="8941a-116">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="8941a-116">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="8941a-117">Identifie la version du schéma pour la requête d’opération.</span><span class="sxs-lookup"><span data-stu-id="8941a-117">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="8941a-118">Cet en-tête est applicable à une demande.</span><span class="sxs-lookup"><span data-stu-id="8941a-118">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="8941a-119">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="8941a-119">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="8941a-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="8941a-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="8941a-121">Identifie la version du serveur qui a répondu à la demande.</span><span class="sxs-lookup"><span data-stu-id="8941a-121">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="8941a-122">Cet en-tête est applicable à une réponse.</span><span class="sxs-lookup"><span data-stu-id="8941a-122">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="e5226-115">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="e5226-115">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="e5226-116">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="e5226-116">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="e5226-117">Identifie la version du schéma pour la requête d’opération.</span><span class="sxs-lookup"><span data-stu-id="e5226-117">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="e5226-118">Cet en-tête est applicable à une demande.</span><span class="sxs-lookup"><span data-stu-id="e5226-118">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="e5226-119">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="e5226-119">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="e5226-120">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="e5226-120">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="e5226-121">Identifie la version du serveur qui a répondu à la demande.</span><span class="sxs-lookup"><span data-stu-id="e5226-121">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="e5226-122">Cet en-tête est applicable à une réponse.</span><span class="sxs-lookup"><span data-stu-id="e5226-122">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a><span data-ttu-id="8941a-123">Exemple de requête d’opération GetClientAccessToken : obtenir le jeton une identité de l’appelant</span><span class="sxs-lookup"><span data-stu-id="8941a-123">GetClientAccessToken operation request example: Get a caller identity token</span></span>
+## <a name="getclientaccesstoken-operation-request-example-get-a-caller-identity-token"></a><span data-ttu-id="e5226-123">Exemple de requête d’opération GetClientAccessToken : obtenir le jeton une identité de l’appelant</span><span class="sxs-lookup"><span data-stu-id="e5226-123">GetClientAccessToken operation request example: Get a caller identity token</span></span>
 
-<span data-ttu-id="8941a-124">Une demande d’opération **GetClientAccessToken** l’exemple suivant montre comment obtenir une identité de l’appelant jeton pour une application.</span><span class="sxs-lookup"><span data-stu-id="8941a-124">The following example of a **GetClientAccessToken** operation request shows how to get a caller identity token for an app.</span></span> 
+<span data-ttu-id="e5226-124">Une demande d’opération **GetClientAccessToken** l’exemple suivant montre comment obtenir une identité de l’appelant jeton pour une application.</span><span class="sxs-lookup"><span data-stu-id="e5226-124">The following example of a **GetClientAccessToken** operation request shows how to get a caller identity token for an app.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,24 +62,24 @@ ms.locfileid: "19756539"
 
 ```
 
-<span data-ttu-id="8941a-125">La demande SOAP body contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="8941a-125">The request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="e5226-125">La demande SOAP body contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="e5226-125">The request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="8941a-126">GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="8941a-126">GetClientAccessToken</span></span>](getclientaccesstoken.md)
+- [<span data-ttu-id="e5226-126">GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="e5226-126">GetClientAccessToken</span></span>](getclientaccesstoken.md)
     
-- [<span data-ttu-id="8941a-127">TokenRequests</span><span class="sxs-lookup"><span data-stu-id="8941a-127">TokenRequests</span></span>](tokenrequests.md)
+- [<span data-ttu-id="e5226-127">TokenRequests</span><span class="sxs-lookup"><span data-stu-id="e5226-127">TokenRequests</span></span>](tokenrequests.md)
     
-- [<span data-ttu-id="8941a-128">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="8941a-128">TokenRequest</span></span>](tokenrequest.md)
+- [<span data-ttu-id="e5226-128">TokenRequest</span><span class="sxs-lookup"><span data-stu-id="e5226-128">TokenRequest</span></span>](tokenrequest.md)
     
-- [<span data-ttu-id="8941a-129">ID (chaîne)</span><span class="sxs-lookup"><span data-stu-id="8941a-129">ID (String)</span></span>](id-string.md)
+- [<span data-ttu-id="e5226-129">ID (chaîne)</span><span class="sxs-lookup"><span data-stu-id="e5226-129">ID (String)</span></span>](id-string.md)
     
-- [<span data-ttu-id="8941a-130">TokenType</span><span class="sxs-lookup"><span data-stu-id="8941a-130">TokenType</span></span>](tokentype.md)
+- [<span data-ttu-id="e5226-130">TokenType</span><span class="sxs-lookup"><span data-stu-id="e5226-130">TokenType</span></span>](tokentype.md)
     
-## <a name="successful-getclientaccesstoken-operation-response"></a><span data-ttu-id="8941a-131">Réponse d’opération GetClientAccessToken réussie</span><span class="sxs-lookup"><span data-stu-id="8941a-131">Successful GetClientAccessToken operation response</span></span>
+## <a name="successful-getclientaccesstoken-operation-response"></a><span data-ttu-id="e5226-131">Réponse d’opération GetClientAccessToken réussie</span><span class="sxs-lookup"><span data-stu-id="e5226-131">Successful GetClientAccessToken operation response</span></span>
 
-<span data-ttu-id="8941a-132">L’exemple suivant montre une réponse positive à une demande d’opération **GetClientAccessToken** pour obtenir une identité de l’appelant jeton pour une application.</span><span class="sxs-lookup"><span data-stu-id="8941a-132">The following example shows a successful response to a **GetClientAccessToken** operation request to get a caller identity token for an app.</span></span> 
+<span data-ttu-id="e5226-132">L’exemple suivant montre une réponse positive à une demande d’opération **GetClientAccessToken** pour obtenir une identité de l’appelant jeton pour une application.</span><span class="sxs-lookup"><span data-stu-id="e5226-132">The following example shows a successful response to a **GetClientAccessToken** operation request to get a caller identity token for an app.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="8941a-133">Les valeurs de jeton dans cet article ont été réduits afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="8941a-133">The token values in this article have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="e5226-133">Les valeurs de jeton dans cet article ont été réduits afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="e5226-133">The token values in this article have been shortened to preserve readability.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -116,29 +116,29 @@ ms.locfileid: "19756539"
 
 ```
 
-<span data-ttu-id="8941a-134">La réponse SOAP body contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="8941a-134">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="e5226-134">La réponse SOAP body contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="e5226-134">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="8941a-135">GetClientAccessTokenResponse</span><span class="sxs-lookup"><span data-stu-id="8941a-135">GetClientAccessTokenResponse</span></span>](getclientaccesstokenresponse.md)
+- [<span data-ttu-id="e5226-135">GetClientAccessTokenResponse</span><span class="sxs-lookup"><span data-stu-id="e5226-135">GetClientAccessTokenResponse</span></span>](getclientaccesstokenresponse.md)
     
-- [<span data-ttu-id="8941a-136">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="8941a-136">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="e5226-136">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="e5226-136">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="8941a-137">GetClientAccessTokenResponseMessage</span><span class="sxs-lookup"><span data-stu-id="8941a-137">GetClientAccessTokenResponseMessage</span></span>](getclientaccesstokenresponsemessage.md)
+- [<span data-ttu-id="e5226-137">GetClientAccessTokenResponseMessage</span><span class="sxs-lookup"><span data-stu-id="e5226-137">GetClientAccessTokenResponseMessage</span></span>](getclientaccesstokenresponsemessage.md)
     
-- [<span data-ttu-id="8941a-138">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="8941a-138">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="e5226-138">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="e5226-138">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="8941a-139">Jeton (ClientAccessTokenType)</span><span class="sxs-lookup"><span data-stu-id="8941a-139">Token (ClientAccessTokenType)</span></span>](token-clientaccesstokentype.md)
+- [<span data-ttu-id="e5226-139">Jeton (ClientAccessTokenType)</span><span class="sxs-lookup"><span data-stu-id="e5226-139">Token (ClientAccessTokenType)</span></span>](token-clientaccesstokentype.md)
     
-- [<span data-ttu-id="8941a-140">ID (chaîne)</span><span class="sxs-lookup"><span data-stu-id="8941a-140">ID (String)</span></span>](id-string.md)
+- [<span data-ttu-id="e5226-140">ID (chaîne)</span><span class="sxs-lookup"><span data-stu-id="e5226-140">ID (String)</span></span>](id-string.md)
     
-- [<span data-ttu-id="8941a-141">TokenType (ClientAccessTokenType)</span><span class="sxs-lookup"><span data-stu-id="8941a-141">TokenType (ClientAccessTokenType)</span></span>](tokentype-clientaccesstokentype.md)
+- [<span data-ttu-id="e5226-141">TokenType (ClientAccessTokenType)</span><span class="sxs-lookup"><span data-stu-id="e5226-141">TokenType (ClientAccessTokenType)</span></span>](tokentype-clientaccesstokentype.md)
     
-- [<span data-ttu-id="8941a-142">TokenValue</span><span class="sxs-lookup"><span data-stu-id="8941a-142">TokenValue</span></span>](tokenvalue.md)
+- [<span data-ttu-id="e5226-142">TokenValue</span><span class="sxs-lookup"><span data-stu-id="e5226-142">TokenValue</span></span>](tokenvalue.md)
     
-- [<span data-ttu-id="8941a-143">TTL (ClientAccessTokenTypeType)</span><span class="sxs-lookup"><span data-stu-id="8941a-143">TTL (ClientAccessTokenTypeType)</span></span>](ttl-clientaccesstokentypetype.md)
+- [<span data-ttu-id="e5226-143">TTL (ClientAccessTokenTypeType)</span><span class="sxs-lookup"><span data-stu-id="e5226-143">TTL (ClientAccessTokenTypeType)</span></span>](ttl-clientaccesstokentypetype.md)
     
-## <a name="getclientaccesstoken-operation-error-response"></a><span data-ttu-id="8941a-144">Réponse d’erreur d’opération GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="8941a-144">GetClientAccessToken operation error response</span></span>
+## <a name="getclientaccesstoken-operation-error-response"></a><span data-ttu-id="e5226-144">Réponse d’erreur d’opération GetClientAccessToken</span><span class="sxs-lookup"><span data-stu-id="e5226-144">GetClientAccessToken operation error response</span></span>
 
-<span data-ttu-id="8941a-145">L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetClientAccessToken** .</span><span class="sxs-lookup"><span data-stu-id="8941a-145">The following example shows an error response to a **GetClientAccessToken** operation request.</span></span> <span data-ttu-id="8941a-146">Il s’agit d’une réponse à une demande pour obtenir un rappel d’extension jeton sans les autorisations appropriées.</span><span class="sxs-lookup"><span data-stu-id="8941a-146">This is a response to a request to get an extension callback token without the appropriate permissions.</span></span> 
+<span data-ttu-id="e5226-145">L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetClientAccessToken** .</span><span class="sxs-lookup"><span data-stu-id="e5226-145">The following example shows an error response to a **GetClientAccessToken** operation request.</span></span> <span data-ttu-id="e5226-146">Il s’agit d’une réponse à une demande pour obtenir un rappel d’extension jeton sans les autorisations appropriées.</span><span class="sxs-lookup"><span data-stu-id="e5226-146">This is a response to a request to get an extension callback token without the appropriate permissions.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -170,28 +170,28 @@ ms.locfileid: "19756539"
 </s:Envelope>
 ```
 
-<span data-ttu-id="8941a-147">La réponse d’erreur corps SOAP contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="8941a-147">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="e5226-147">La réponse d’erreur corps SOAP contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="e5226-147">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="8941a-148">GetClientAccessTokenResponse</span><span class="sxs-lookup"><span data-stu-id="8941a-148">GetClientAccessTokenResponse</span></span>](getclientaccesstokenresponse.md)
+- [<span data-ttu-id="e5226-148">GetClientAccessTokenResponse</span><span class="sxs-lookup"><span data-stu-id="e5226-148">GetClientAccessTokenResponse</span></span>](getclientaccesstokenresponse.md)
     
-- [<span data-ttu-id="8941a-149">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="8941a-149">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="e5226-149">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="e5226-149">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="8941a-150">GetClientAccessTokenResponseMessage</span><span class="sxs-lookup"><span data-stu-id="8941a-150">GetClientAccessTokenResponseMessage</span></span>](getclientaccesstokenresponsemessage.md)
+- [<span data-ttu-id="e5226-150">GetClientAccessTokenResponseMessage</span><span class="sxs-lookup"><span data-stu-id="e5226-150">GetClientAccessTokenResponseMessage</span></span>](getclientaccesstokenresponsemessage.md)
     
-- [<span data-ttu-id="8941a-151">MessageText</span><span class="sxs-lookup"><span data-stu-id="8941a-151">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="e5226-151">MessageText</span><span class="sxs-lookup"><span data-stu-id="e5226-151">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="8941a-152">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="8941a-152">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="e5226-152">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="e5226-152">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="8941a-153">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="8941a-153">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="e5226-153">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="e5226-153">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="8941a-154">Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="8941a-154">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="e5226-154">Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="e5226-154">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8941a-155">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8941a-155">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e5226-155">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e5226-155">See also</span></span>
 
-- [<span data-ttu-id="8941a-156">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="8941a-156">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="e5226-156">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="e5226-156">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
     
-- [<span data-ttu-id="8941a-157">Opération GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="8941a-157">GetAppManifests operation</span></span>](getappmanifests-operation.md)
+- [<span data-ttu-id="e5226-157">Opération GetAppManifests</span><span class="sxs-lookup"><span data-stu-id="e5226-157">GetAppManifests operation</span></span>](getappmanifests-operation.md)
     
-- [<span data-ttu-id="8941a-158">Compléments Outlook</span><span class="sxs-lookup"><span data-stu-id="8941a-158">Outlook add-ins</span></span>](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)
+- [<span data-ttu-id="e5226-158">Compléments Outlook</span><span class="sxs-lookup"><span data-stu-id="e5226-158">Outlook add-ins</span></span>](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)
     
 

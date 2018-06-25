@@ -16,12 +16,12 @@ ms.openlocfilehash: d1cb0ff3ea68904bf88e346f68afe7c349ae4394
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/25/2018
 ms.locfileid: "19755168"
 ---
-# <a name="adddelegate"></a><span data-ttu-id="c60e0-104">AddDelegate</span><span class="sxs-lookup"><span data-stu-id="c60e0-104">AddDelegate</span></span>
+# <a name="adddelegate"></a><span data-ttu-id="80135-104">AddDelegate</span><span class="sxs-lookup"><span data-stu-id="80135-104">AddDelegate</span></span>
 
-<span data-ttu-id="c60e0-105">L’élément **AddDelegate** définit une demande pour ajouter des délégués à une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c60e0-105">The **AddDelegate** element defines a request to add delegates to a mailbox.</span></span> <span data-ttu-id="c60e0-106">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="c60e0-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
+<span data-ttu-id="80135-105">L’élément **AddDelegate** définit une demande pour ajouter des délégués à une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="80135-105">The **AddDelegate** element defines a request to add delegates to a mailbox.</span></span> <span data-ttu-id="80135-106">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="80135-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
   
 ```xml
 <AddDelegate>
@@ -31,43 +31,43 @@ ms.locfileid: "19755168"
 </AddDelegate>
 ```
 
- <span data-ttu-id="c60e0-107">**AddDelegateType**</span><span class="sxs-lookup"><span data-stu-id="c60e0-107">**AddDelegateType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c60e0-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c60e0-108">Attributes and elements</span></span>
+ <span data-ttu-id="80135-107">**AddDelegateType**</span><span class="sxs-lookup"><span data-stu-id="80135-107">**AddDelegateType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="80135-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="80135-108">Attributes and elements</span></span>
 
-<span data-ttu-id="c60e0-109">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c60e0-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="80135-109">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="80135-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c60e0-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="c60e0-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="80135-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="80135-110">Attributes</span></span>
 
-<span data-ttu-id="c60e0-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c60e0-111">None.</span></span>
+<span data-ttu-id="80135-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="80135-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c60e0-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c60e0-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="80135-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="80135-112">Child elements</span></span>
 
-|<span data-ttu-id="c60e0-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c60e0-113">**Element**</span></span>|<span data-ttu-id="c60e0-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="c60e0-114">**Description**</span></span>|
+|<span data-ttu-id="80135-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="80135-113">**Element**</span></span>|<span data-ttu-id="80135-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="80135-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c60e0-115">DelegateUsers</span><span class="sxs-lookup"><span data-stu-id="c60e0-115">DelegateUsers</span></span>](delegateusers.md) <br/> |<span data-ttu-id="c60e0-116">Contient les identités de délégués à ajouter ou mettre à jour dans une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c60e0-116">Contains the identities of delegates to add to or update in a mailbox.</span></span> <span data-ttu-id="c60e0-117">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="c60e0-117">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span>  <br/> |
-|[<span data-ttu-id="c60e0-118">DeliverMeetingRequests</span><span class="sxs-lookup"><span data-stu-id="c60e0-118">DeliverMeetingRequests</span></span>](delivermeetingrequests.md) <br/> |<span data-ttu-id="c60e0-119">Définit la gestion des demandes de réunion entre le délégué et l’entité de sécurité.</span><span class="sxs-lookup"><span data-stu-id="c60e0-119">Defines how meeting requests are handled between the delegate and the principal.</span></span> <span data-ttu-id="c60e0-120">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="c60e0-120">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span>  <br/> |
-|[<span data-ttu-id="c60e0-121">Boîte aux lettres</span><span class="sxs-lookup"><span data-stu-id="c60e0-121">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="c60e0-122">Identifie un objet de service d'annuaire à extension messagerie Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c60e0-122">Identifies a mail-enabled Active Directory directory service object.</span></span>  <br/> |
+|[<span data-ttu-id="80135-115">DelegateUsers</span><span class="sxs-lookup"><span data-stu-id="80135-115">DelegateUsers</span></span>](delegateusers.md) <br/> |<span data-ttu-id="80135-116">Contient les identités de délégués à ajouter ou mettre à jour dans une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="80135-116">Contains the identities of delegates to add to or update in a mailbox.</span></span> <span data-ttu-id="80135-117">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="80135-117">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span>  <br/> |
+|[<span data-ttu-id="80135-118">DeliverMeetingRequests</span><span class="sxs-lookup"><span data-stu-id="80135-118">DeliverMeetingRequests</span></span>](delivermeetingrequests.md) <br/> |<span data-ttu-id="80135-119">Définit la gestion des demandes de réunion entre le délégué et l’entité de sécurité.</span><span class="sxs-lookup"><span data-stu-id="80135-119">Defines how meeting requests are handled between the delegate and the principal.</span></span> <span data-ttu-id="80135-120">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="80135-120">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span>  <br/> |
+|[<span data-ttu-id="80135-121">Boîte aux lettres</span><span class="sxs-lookup"><span data-stu-id="80135-121">Mailbox</span></span>](mailbox.md) <br/> |<span data-ttu-id="80135-122">Identifie un objet de service d'annuaire à extension messagerie Active Directory.</span><span class="sxs-lookup"><span data-stu-id="80135-122">Identifies a mail-enabled Active Directory directory service object.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="c60e0-123">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c60e0-123">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="80135-123">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="80135-123">Parent elements</span></span>
 
-<span data-ttu-id="c60e0-124">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c60e0-124">None.</span></span>
+<span data-ttu-id="80135-124">Aucun.</span><span class="sxs-lookup"><span data-stu-id="80135-124">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c60e0-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="c60e0-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="80135-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="80135-125">Remarks</span></span>
 
-<span data-ttu-id="c60e0-126">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="c60e0-126">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="80135-126">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="80135-126">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c60e0-127">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c60e0-127">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="80135-127">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="80135-127">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c60e0-128">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c60e0-128">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="c60e0-129">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c60e0-129">Schema Name</span></span>  <br/> |<span data-ttu-id="c60e0-130">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="c60e0-130">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="c60e0-131">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="c60e0-131">Validation File</span></span>  <br/> |<span data-ttu-id="c60e0-132">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="c60e0-132">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="c60e0-133">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c60e0-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="c60e0-134">False</span><span class="sxs-lookup"><span data-stu-id="c60e0-134">False</span></span>  <br/> |
+|<span data-ttu-id="80135-128">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="80135-128">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="80135-129">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="80135-129">Schema Name</span></span>  <br/> |<span data-ttu-id="80135-130">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="80135-130">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="80135-131">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="80135-131">Validation File</span></span>  <br/> |<span data-ttu-id="80135-132">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="80135-132">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="80135-133">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="80135-133">Can be Empty</span></span>  <br/> |<span data-ttu-id="80135-134">False</span><span class="sxs-lookup"><span data-stu-id="80135-134">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c60e0-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c60e0-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80135-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="80135-135">See also</span></span>
 
-- [<span data-ttu-id="c60e0-136">Opération AddDelegate</span><span class="sxs-lookup"><span data-stu-id="c60e0-136">AddDelegate operation</span></span>](adddelegate-operation.md)
-- [<span data-ttu-id="c60e0-137">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c60e0-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="c60e0-138">Ajout de délégués</span><span class="sxs-lookup"><span data-stu-id="c60e0-138">Adding Delegates</span></span>](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [<span data-ttu-id="80135-136">Opération AddDelegate</span><span class="sxs-lookup"><span data-stu-id="80135-136">AddDelegate operation</span></span>](adddelegate-operation.md)
+- [<span data-ttu-id="80135-137">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="80135-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="80135-138">Ajout de délégués</span><span class="sxs-lookup"><span data-stu-id="80135-138">Adding Delegates</span></span>](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

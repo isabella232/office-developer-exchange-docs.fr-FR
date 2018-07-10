@@ -734,6 +734,6 @@ ms.locfileid: "19755124"
 
 - [<span data-ttu-id="e73c2-463">Entrée d’applet de commande Management Shell et types de sortie</span><span class="sxs-lookup"><span data-stu-id="e73c2-463">Exchange Management Shell cmdlet input and output types</span></span>](exchange-management-shell-cmdlet-input-and-output-types.md)    
 - [<span data-ttu-id="e73c2-464">Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement Exchange Management Shell</span><span class="sxs-lookup"><span data-stu-id="e73c2-464">Get a list of mail users by using the Exchange Management Shell</span></span>](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
-- [<span data-ttu-id="e73c2-465">Applets de commande Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="e73c2-465">Exchange 2013 cmdlets</span></span>](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="e73c2-465">Applets de commande Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="e73c2-465">Exchange 2013 cmdlets</span></span>](http://technet.microsoft.com/fr-fr/library/bb124413%28v=exchg.150%29.aspx)
     
 

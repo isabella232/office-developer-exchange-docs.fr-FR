@@ -54,7 +54,7 @@ ms.locfileid: "19756658"
 <span data-ttu-id="714a7-p101">La demande pour obtenir un élément à partir de la banque d'informations Exchange prend la même forme pour tous les types d'élément. Les réponses aux demandes de différents éléments sera différents, car les différents éléments renvoient des informations différentes selon les formes de la réponse.</span><span class="sxs-lookup"><span data-stu-id="714a7-p101">The request to get an item from the Exchange store takes the same form for all item types. The responses to requests for different items will be different because different items return different information based on the response shapes.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="714a7-112">[!REMARQUE] Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="714a7-112">The item identifier has been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="714a7-112">Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="714a7-112">The item identifier has been shortened to preserve readability.</span></span> 
   
 ### <a name="request-elements"></a><span data-ttu-id="714a7-113">Éléments de la demande</span><span class="sxs-lookup"><span data-stu-id="714a7-113">Request elements</span></span>
 

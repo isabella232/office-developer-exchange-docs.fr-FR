@@ -76,6 +76,6 @@ ms.locfileid: "19754747"
 ## <a name="see-also"></a><span data-ttu-id="c252b-140">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c252b-140">See also</span></span>
 
 - [<span data-ttu-id="c252b-141">Exchange Online et développement Exchange</span><span class="sxs-lookup"><span data-stu-id="c252b-141">Exchange Online and Exchange development</span></span>](../exchange-server-development.md)
-- [<span data-ttu-id="c252b-142">Sauvegarde, restauration et récupération d’urgence</span><span class="sxs-lookup"><span data-stu-id="c252b-142">Backup, Restore, and Disaster Recovery</span></span>](http://technet.microsoft.com/en-us/library/dd876874)
+- [<span data-ttu-id="c252b-142">Sauvegarde, restauration et récupération d’urgence</span><span class="sxs-lookup"><span data-stu-id="c252b-142">Backup, Restore, and Disaster Recovery</span></span>](http://technet.microsoft.com/fr-fr/library/dd876874)
     
 

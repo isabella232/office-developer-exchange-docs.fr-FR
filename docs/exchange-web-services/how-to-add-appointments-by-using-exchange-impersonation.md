@@ -191,7 +191,7 @@ class AppointmentFactory : IAppointmentFactory
 
 - [<span data-ttu-id="fd039-140">Emprunt d'identité et EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="fd039-140">Impersonation and EWS in Exchange</span></span>](impersonation-and-ews-in-exchange.md)
     
-- [<span data-ttu-id="fd039-141">Rôle ApplicationImpersonation</span><span class="sxs-lookup"><span data-stu-id="fd039-141">ApplicationImpersonation role</span></span>](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)
+- [<span data-ttu-id="fd039-141">Rôle ApplicationImpersonation</span><span class="sxs-lookup"><span data-stu-id="fd039-141">ApplicationImpersonation role</span></span>](http://technet.microsoft.com/fr-fr/library/dd776119%28v=exchg.150%29.aspx)
     
 - [<span data-ttu-id="fd039-142">Configurer l’emprunt d’identité</span><span class="sxs-lookup"><span data-stu-id="fd039-142">Configure impersonation</span></span>](how-to-configure-impersonation.md)
     

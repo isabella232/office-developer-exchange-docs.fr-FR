@@ -1,9 +1,9 @@
-- name: "Exchange\_Server"
+- name: Exchange Server
   href: exchange-server-development.md
   items:
     - name: Migration
       href: migrating-to-exchange-online-and-exchange-2013-technologies.md
-    - name: Services web
+    - name: Services Web
       href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
       items:
         - name: Nouveautés
@@ -13,132 +13,132 @@
           items:
             - name: Architecture
               href: exchange-web-services/ews-applications-and-the-exchange-architecture.md
-            - name: Types d’application
+            - name: "Types d’application\_:"
               href: exchange-web-services/ews-application-types.md
-            - name: Prise en main des applications clientes d'API managée EWS
+            - name: Prise en main des applications clientes d’API managée EWS
               href: exchange-web-services/get-started-with-ews-managed-api-client-applications.md
               items:
-                - name: Référence de l’assembly
+                - name: Référencer l’assembly
                   href: exchange-web-services/how-to-reference-the-ews-managed-api-assembly.md
                 - name: Définir l’URL du service EWS
                   href: exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md
                 - name: Communiquer avec EWS
                   href: exchange-web-services/how-to-communicate-with-ews-by-using-the-ews-managed-api.md
-                - name: Suivi des demandes et réponses
+                - name: Suivi des demandes et des réponses
                   href: exchange-web-services/how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md
             - name: Prise en main des applications clientes EWS
               href: exchange-web-services/get-started-with-ews-client-applications.md
-            - name: Fonctionnalité EWS dans les versions de produit Exchange
+            - name: Fonctionnalités EWS dans les versions de produit Exchange
               href: exchange-web-services/ews-functionality-in-exchange-product-versions.md
-            - name: La configuration de votre application EWS
+            - name: Configuration de votre application EWS
               href: exchange-web-services/setting-up-your-ews-application.md
               items:
-                - name: La configuration de votre environnement de développement
+                - name: Configuration de votre environnement de développement
                   href: exchange-web-services/setting-up-your-exchange-application-development-environment.md
-                - name: Contrôler l’accès client application
+                - name: Contrôle de l’accès aux applications clientes
                   href: exchange-web-services/controlling-client-application-access-to-ews-in-exchange.md
                   items:
                     - name: Contrôler l’accès à EWS
                       href: exchange-web-services/how-to-control-access-to-ews-in-exchange.md
-                - name: Gestion de l’accès utilisateur
+                - name: Gestion de l’accès des utilisateurs
                   href: exchange-web-services/managing-user-access-by-using-ews-in-exchange.md
                 - name: Valider un certificat de serveur
                   href: exchange-web-services/how-to-validate-a-server-certificate-for-the-ews-managed-api.md
             - name: Authentification
               href: exchange-web-services/authentication-and-ews-in-exchange.md
               items:
-                - name: Authentifier une demande EWS à l’aide d’OAuth
+                - name: Authentifier une application EWS à l’aide d’OAuth
                   href: exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md
             - name: Découverte automatique
               href: exchange-web-services/autodiscover-for-exchange.md
               items:
-                - name: Rechercher les points de terminaison de découverte automatique à l’aide de recherche SCP
+                - name: "Trouver des points de terminaison de découverte automatique à l’aide de la recherche\_SCP"
                   href: exchange-web-services/how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md
-                - name: Générer une liste des points de terminaison de découverte automatique
+                - name: Générer une liste de points de terminaison de découverte automatique
                   href: exchange-web-services/how-to-generate-a-list-of-autodiscover-endpoints.md
-                - name: Utiliser la découverte automatique pour rechercher les points de connexion
+                - name: Utilisation de la découverte automatique pour rechercher des points de connexion
                   href: exchange-web-services/how-to-use-autodiscover-to-find-connection-points.md
-                - name: Obtenir les paramètres utilisateur
+                - name: Obtention des paramètres utilisateur
                   href: exchange-web-services/how-to-get-user-settings-from-exchange-by-using-autodiscover.md
-                - name: Obtenir les paramètres de domaine
+                - name: Obtention des paramètres du domaine
                   href: exchange-web-services/how-to-get-domain-settings-from-an-exchange-server.md
-                - name: Actualiser les informations de configuration à l’aide de découverte automatique
+                - name: Actualiser les informations de configuration à l’aide de la découverte automatique
                   href: exchange-web-services/how-to-refresh-configuration-information-by-using-autodiscover.md
-                - name: Gérer les messages d’erreur de découverte automatique
+                - name: Gestion des messages d’erreur de la découverte automatique
                   href: exchange-web-services/handling-autodiscover-error-messages.md
-                - name: Améliorer les performances de la découverte automatique
+                - name: Améliorer les performances de découverte automatique
                   href: exchange-web-services/improving-performance-when-using-autodiscover-for-exchange.md
             - name: Applications de messagerie pour Outlook et EWS
               href: exchange-web-services/mail-apps-for-outlook-and-ews-in-exchange.md
             - name: "API REST Office\_365"
               href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
-            - name: Informations de licence
+            - name: Informations sur la licence
               href: exchange-web-services/license-information.md
         - name: Conception
           href: exchange-web-services/ews-client-design-overview-for-exchange.md
           items:
-            - name: Disponibilité des fonctionnalités Web service API
+            - name: Disponibilité des fonctionnalités d’API de service web
               href: exchange-web-services/web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md
             - name: Versions de schéma EWS
               href: exchange-web-services/ews-schema-versions-in-exchange.md
             - name: Options de configuration
               href: exchange-web-services/configuration-options-for-ews-in-exchange.md
               items:
-                - name: Obtenir des informations de configuration de service
+                - name: Obtenir les informations de configuration de service
                   href: exchange-web-services/how-to-get-service-configuration-information-by-using-ews-in-exchange.md
-            - name: Comparaison d’Exchange Online et programmation du client Exchange sur site
+            - name: "Comparaison de programmation du client Exchange local et d’Exchange\_Online"
               href: exchange-web-services/comparing-exchange-online-and-exchange-on-premises-client-programming.md
             - name: Limitation
               href: exchange-web-services/ews-throttling-in-exchange.md
-            - name: Configuration requise de redistribution pour l’API managée EWS
+            - name: Configuration requise de redistribution pour l’API gérée EWS
               href: exchange-web-services/redistribution-requirements-for-the-ews-managed-api.md
-            - name: L’instrumentation demandes des clients
+            - name: Instrumentation des demandes de client
               href: exchange-web-services/instrumenting-client-requests-for-ews-and-rest-in-exchange.md
         - name: Développer
           href: exchange-web-services/develop-web-service-clients-for-exchange.md
           items:
-            - name: L’archivage
+            - name: Archivage
               href: exchange-web-services/archiving-in-ews-in-exchange.md
             - name: Pièces jointes
               href: exchange-web-services/attachments-and-ews-in-exchange.md
               items:
-                - name: Ajouter des pièces jointes
+                - name: Ajout de pièces jointes
                   href: exchange-web-services/how-to-add-attachments-by-using-ews-in-exchange.md
                 - name: Obtention de pièces jointes
                   href: exchange-web-services/how-to-get-attachments-by-using-ews-in-exchange.md
-                - name: Supprimez les pièces jointes
+                - name: Suppression de pièces jointes
                   href: exchange-web-services/how-to-delete-attachments-by-using-ews-in-exchange.md
             - name: Calendriers
               href: exchange-web-services/calendars-and-ews-in-exchange.md
               items:
-                - name: Créer des rendez-vous et réunions
+                - name: Créer des rendez-vous et des réunions
                   href: exchange-web-services/how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md
-                - name: Créer des événements sur une journée entière
+                - name: Créer des événements d’une journée entière
                   href: exchange-web-services/how-to-create-all-day-events-by-using-ews-in-exchange.md
-                - name: Obtenir des rendez-vous et réunions
+                - name: Obtenir des rendez-vous et des réunions
                   href: exchange-web-services/how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md
-                - name: Mise à jour rendez-vous et réunions
+                - name: Mettre à jour des rendez-vous et des réunions
                   href: exchange-web-services/how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md
                 - name: Supprimer des rendez-vous et annuler des réunions
                   href: exchange-web-services/how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md
-                - name: Obtenir les listes de salle
+                - name: Obtenir les listes de salles
                   href: exchange-web-services/how-to-get-room-lists-by-using-ews-in-exchange.md
-                - name: Obtenir des informations de disponibilité
+                - name: Obtenir les informations sur la disponibilité
                   href: exchange-web-services/how-to-get-free-busy-information-by-using-ews-in-exchange.md
                 - name: Proposer une nouvelle heure de réunion
                   href: exchange-web-services/how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md
-                - name: Éléments de calendrier de traitement par lots
+                - name: Traiter les éléments de calendrier par lots
                   href: exchange-web-services/how-to-process-calendar-items-in-batches-in-exchange.md
-                - name: Rendez-vous périodiques et EWS
+                - name: Éléments de calendrier périodiques et EWS
                   href: exchange-web-services/recurrence-patterns-and-ews.md
                   items:
                     - name: Accéder à une série périodique
                       href: exchange-web-services/how-to-access-a-recurring-series-by-using-ews-in-exchange.md
                     - name: Créer une série périodique
                       href: exchange-web-services/how-to-create-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: Supprimer un rendez-vous périodique
+                    - name: Supprimer les rendez-vous dans une série périodique
                       href: exchange-web-services/how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: Modifier un rendez-vous périodique
+                    - name: Modifier les rendez-vous dans une série périodique
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews.md
                     - name: Mise à jour d’une série périodique
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews-in-exchange.md
@@ -149,11 +149,11 @@
                   href: exchange-web-services/how-to-add-and-remove-delegates-by-using-ews-in-exchange.md
                 - name: Accéder à un calendrier en tant que délégué
                   href: exchange-web-services/how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md
-                - name: Contacts Access en tant que délégué
+                - name: Accéder aux contacts en tant que délégué
                   href: exchange-web-services/how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md
                 - name: Accéder à la messagerie en tant que délégué
                   href: exchange-web-services/how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md
-                - name: Définir des autorisations de dossier
+                - name: Définir les autorisations de dossiers
                   href: exchange-web-services/how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md
                 - name: Gérer les erreurs liées à la délégation
                   href: exchange-web-services/handling-delegation-related-errors-in-ews-in-exchange.md
@@ -162,47 +162,47 @@
               items:
                 - name: Créer des groupes de contacts
                   href: exchange-web-services/how-to-create-contact-groups-by-using-ews-in-exchange.md
-                - name: Développer des groupes de distribution
+                - name: Développer les groupes de distribution
                   href: exchange-web-services/how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md
             - name: eDiscovery
               href: exchange-web-services/ediscovery-in-ews-in-exchange.md
-            - name: Courier électronique
+            - name: E-mail
               href: exchange-web-services/email-and-ews-in-exchange.md
               items:
-                - name: Éléments et les propriétés de messagerie
+                - name: Éléments et propriétés de messagerie
                   href: exchange-web-services/email-properties-and-elements-in-ews-in-exchange.md
                 - name: Envoyer des messages électroniques
                   href: exchange-web-services/how-to-send-email-messages-by-using-ews-in-exchange.md
-                - name: Répondre aux messages électroniques
+                - name: Répondre à des messages électroniques
                   href: exchange-web-services/how-to-respond-to-email-messages-by-using-ews-in-exchange.md
                 - name: Déplacer et copier des messages électroniques
                   href: exchange-web-services/how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md
-                - name: Travailler avec des conversations
+                - name: Utiliser les conversations
                   href: exchange-web-services/how-to-work-with-conversations-by-using-ews-in-exchange.md
-                - name: Extraire une entité d’un message électronique
+                - name: Extraire une entité à partir d’un courrier électronique
                   href: exchange-web-services/how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md
-                - name: Traiter les messages électroniques par lots
+                - name: Traiter les courriers électroniques par lots
                   href: exchange-web-services/how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md
             - name: Dossiers et éléments
               href: exchange-web-services/folders-and-items-in-ews-in-exchange.md
               items:
-                - name: Travailler avec des dossiers
+                - name: Utiliser les dossiers
                   href: exchange-web-services/how-to-work-with-folders-by-using-ews-in-exchange.md
-                - name: Travailler avec des dossiers cachés
+                - name: Utiliser les dossiers masqués
                   href: exchange-web-services/how-to-work-with-hidden-folders-by-using-ews-in-exchange.md
-                - name: Travailler avec des éléments
+                - name: Utiliser les éléments
                   href: exchange-web-services/how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md
                 - name: Supprimer des éléments
                   href: exchange-web-services/deleting-items-by-using-ews-in-exchange.md
                   items:
-                    - name: Extraction des notifications pour les événements liés à la suppression de boîte aux lettres
+                    - name: Notifications pull pour les événements de boîte aux lettres liés à la suppression
                       href: exchange-web-services/pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md
                     - name: Gestion des erreurs liées à la suppression
                       href: exchange-web-services/handling-deletion-related-errors-in-ews-in-exchange.md
                 - name: Exportation et importation d’éléments
                   href: exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange.md
                   items:
-                    - name: Exporter les éléments
+                    - name: Exporter des éléments
                       href: exchange-web-services/how-to-export-items-by-using-ews-in-exchange.md
                     - name: Importer des éléments
                       href: exchange-web-services/how-to-import-items-by-using-ews-in-exchange.md
@@ -213,7 +213,7 @@
               items:
                 - name: Configurer l’emprunt d’identité
                   href: exchange-web-services/how-to-configure-impersonation.md
-                - name: Identifier le compte pour emprunter l’identité
+                - name: Identifier le compte d’emprunt d’identité
                   href: exchange-web-services/how-to-identify-the-account-to-impersonate.md
                 - name: Ajouter des rendez-vous à l’aide de l’emprunt d’identité Exchange
                   href: exchange-web-services/how-to-add-appointments-by-using-exchange-impersonation.md
@@ -222,7 +222,7 @@
               items:
                 - name: Gérer les règles de boîte de réception
                   href: exchange-web-services/how-to-manage-inbox-rules-by-using-ews-in-exchange.md
-                - name: Ajouter et supprimer des adresses de messagerie à partir de la liste des expéditeurs bloqués
+                - name: Ajouter et supprimer des adresses électroniques à partir de la liste des expéditeurs bloqués
                   href: exchange-web-services/how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md
             - name: Notifications et événements
               href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md
@@ -231,53 +231,53 @@
                   href: exchange-web-services/how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md
                 - name: Notifications de type pull
                   href: exchange-web-services/how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md
-                - name: Conserve les affinités
+                - name: Conserver l’affinité
                   href: exchange-web-services/how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md
-                - name: Gérer les erreurs liées aux notifications
+                - name: Gérer les erreurs liées à la notification
                   href: exchange-web-services/handling-notification-related-errors-in-ews-in-exchange.md
             - name: Synchronisation de la boîte aux lettres
               href: exchange-web-services/mailbox-synchronization-and-ews-in-exchange.md
               items:
-                - name: Synchroniser les dossiers
+                - name: Synchroniser des dossiers
                   href: exchange-web-services/how-to-synchronize-folders-by-using-ews-in-exchange.md
                 - name: Synchroniser des éléments
                   href: exchange-web-services/how-to-synchronize-items-by-using-ews-in-exchange.md
-                - name: Gestion des erreurs liées à la synchronisation
+                - name: Gérer les erreurs liées à la synchronisation
                   href: exchange-web-services/handling-synchronization-related-errors-in-ews-in-exchange.md
-            - name: Paramètres de l’application persistant
+            - name: Paramètres d’application permanente
               href: exchange-web-services/persistent-application-settings-in-ews-in-exchange.md
               items:
-                - name: Gérer les paramètres de l’application persistant
+                - name: Gérer les paramètres d’application permanente
                   href: exchange-web-services/how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md
-            - name: Personnes et des contacts
+            - name: Personnes et contacts
               href: exchange-web-services/people-and-contacts-in-ews-in-exchange.md
               items:
-                - name: Processus contacts par lots
+                - name: Traiter les contacts par lots
                   href: exchange-web-services/how-to-process-contacts-in-batches-by-using-ews-in-exchange.md
-                - name: Résoudre des noms ambigus
+                - name: Résoudre les noms ambigus
                   href: exchange-web-services/how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md
-                - name: Obtenir les photos de l’utilisateur
+                - name: Obtenir des photos de l’utilisateur
                   href: exchange-web-services/how-to-get-user-photos-by-using-ews-in-exchange.md
-            - name: Les propriétés et les propriétés étendues
+            - name: Propriétés et propriétés étendues
               href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md
               items:
-                - name: Mettre en service les en-têtes x
+                - name: "Mise en service des en-têtes\_X"
                   href: exchange-web-services/how-to-provision-x-headers-by-using-ews-in-exchange.md
-                - name: Erreurs liées à la propriété EWS
+                - name: Erreurs liées aux propriétés EWS
                   href: exchange-web-services/ews-property-related-errors.md
-            - name: Jeux de propriétés et les formes de réponse
+            - name: Jeux de propriétés et formes de réponse
               href: exchange-web-services/property-sets-and-response-shapes-in-ews-in-exchange.md
             - name: Dossiers publics
               href: exchange-web-services/public-folder-access-with-ews-in-exchange.md
               items:
-                - name: Acheminer les requêtes de hiérarchie de dossiers publics
+                - name: Acheminer les demandes de hiérarchie de dossier public
                   href: exchange-web-services/how-to-route-public-folder-hierarchy-requests.md
-                - name: Router les demandes de contenu de dossier public
+                - name: Acheminer les demandes de contenu de dossier public
                   href: exchange-web-services/how-to-route-public-folder-content-requests.md
-            - name: Search
+            - name: Recherche
               href: exchange-web-services/search-and-ews-in-exchange.md
               items:
-                - name: Utiliser les filtres de recherche
+                - name: Utiliser des filtres de recherche
                   href: exchange-web-services/how-to-use-search-filters-with-ews-in-exchange.md
                 - name: Effectuer une recherche AQS
                   href: exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange.md
@@ -285,9 +285,9 @@
                   href: exchange-web-services/how-to-perform-paged-searches-by-using-ews-in-exchange.md
                 - name: Effectuer des recherches groupées
                   href: exchange-web-services/how-to-perform-grouped-searches-by-using-ews-in-exchange.md
-                - name: Utilisation de dossiers de recherche
+                - name: Utiliser des dossiers de recherche
                   href: exchange-web-services/how-to-work-with-search-folders-by-using-ews-in-exchange.md
-            - name: Fuseaux horaires et les services EWS d’Exchange
+            - name: Fuseaux horaires et EWS dans Exchange
               href: exchange-web-services/time-zones-and-ews-in-exchange.md
               items:
                 - name: Créer des rendez-vous dans un fuseau horaire spécifique
@@ -296,9 +296,9 @@
                   href: exchange-web-services/how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md
             - name: Dépannage des applications EWS
               href: exchange-web-services/tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md
-            - name: Vérification des résultats d’un appel EWS ou API managées
+            - name: Vérification des résultats d’un appel EWS ou API managée EWS
               href: exchange-web-services/verifying-the-results-of-an-ews-or-ews-managed-api-call.md
-        - name: Référence des services Web
+        - name: Référence des services web
           href: web-service-reference/web-services-reference-for-exchange.md
           items:
             - name: Référence EWS
@@ -321,7 +321,7 @@
                       href: web-service-reference/addnewimcontacttogroup-operation.md
                     - name: Opération AddNewTelUriContactToGroup
                       href: web-service-reference/addnewteluricontacttogroup-operation.md
-                    - name: Opération ApplyConversationAction
+                    - name: Opération de ApplyConversationAction
                       href: web-service-reference/applyconversationaction-operation.md
                     - name: Opération ArchiveItem
                       href: web-service-reference/archiveitem-operation.md
@@ -329,18 +329,18 @@
                       href: web-service-reference/convertid-operation.md
                     - name: Opération CopyFolder
                       href: web-service-reference/copyfolder-operation.md
-                    - name: CopyItem Operation
+                    - name: Opération CopyItem
                       href: web-service-reference/copyitem-operation.md
                     - name: Opération CreateAttachment
                       href: web-service-reference/createattachment-operation.md
-                    - name: CreateFolder Operation
+                    - name: Opération CreateFolder
                       href: web-service-reference/createfolder-operation.md
                     - name: Opération CreateFolderPath
                       href: web-service-reference/createfolderpath-operation.md
-                    - name: CreateItem Operation
+                    - name: Opération CreateItem
                       href: web-service-reference/createitem-operation.md
                       items:
-                        - name: Opération CreateItem (e-mail)
+                        - name: Opération CreateItem (courrier électronique)
                           href: web-service-reference/createitem-operation-email-message.md
                         - name: Opération CreateItem (élément de calendrier)
                           href: web-service-reference/createitem-operation-calendar-item.md
@@ -348,7 +348,7 @@
                           href: web-service-reference/createitem-operation-meeting-request.md
                         - name: Opération CreateItem (tâche)
                           href: web-service-reference/createitem-operation-task.md
-                        - name: Opération CreateItem (contacts)
+                        - name: Opération CreateItem (Contact)
                           href: web-service-reference/createitem-operation-contact.md
                         - name: CreateItem (AcceptSharingInvitation)
                           href: web-service-reference/createitem-acceptsharinginvitation.md
@@ -374,11 +374,11 @@
                       href: web-service-reference/expanddl-operation.md
                     - name: Opération ExportItems
                       href: web-service-reference/exportitems-operation.md
-                    - name: FindConversation Operation
+                    - name: Opération FindConversation
                       href: web-service-reference/findconversation-operation.md
-                    - name: FindFolder Operation
+                    - name: Opération FindFolder
                       href: web-service-reference/findfolder-operation.md
-                    - name: FindItem Operation
+                    - name: Opération FindItem
                       href: web-service-reference/finditem-operation.md
                     - name: Opération FindMessageTrackingReport
                       href: web-service-reference/findmessagetrackingreport-operation.md
@@ -392,7 +392,7 @@
                       href: web-service-reference/getattachment-operation.md
                     - name: Opération GetClientAccessToken
                       href: web-service-reference/getclientaccesstoken-operation.md
-                    - name: GetConversationItems operation
+                    - name: Opération GetConversationItems
                       href: web-service-reference/getconversationitems-operation.md
                     - name: Opération GetDelegate
                       href: web-service-reference/getdelegate-operation.md
@@ -400,7 +400,7 @@
                       href: web-service-reference/getdiscoverysearchconfiguration-operation.md
                     - name: Opération GetEvents
                       href: web-service-reference/getevents-operation.md
-                    - name: GetFolder Operation
+                    - name: Opération GetFolder
                       href: web-service-reference/getfolder-operation.md
                     - name: Opération GetHoldOnMailboxes
                       href: web-service-reference/getholdonmailboxes-operation.md
@@ -408,18 +408,18 @@
                       href: web-service-reference/getimitemlist-operation.md
                     - name: Opération GetImItems
                       href: web-service-reference/getimitems-operation.md
-                    - name: Opération GetInboxRules
+                    - name: Opération de GetInboxRules
                       href: web-service-reference/getinboxrules-operation.md
-                    - name: GetItem Operation
+                    - name: Opération GetItem
                       href: web-service-reference/getitem-operation.md
                       items:
-                        - name: Opération de GetItem (e-mail)
+                        - name: Opération GetItem (courrier électronique)
                           href: web-service-reference/getitem-operation-email-message.md
-                        - name: Opération de GetItem (élément de calendrier)
+                        - name: Opération GetItem (élément de calendrier)
                           href: web-service-reference/getitem-operation-calendar-item.md
-                        - name: Opération de GetItem (tâche)
+                        - name: Opération GetItem (tâche)
                           href: web-service-reference/getitem-operation-task.md
-                        - name: Opération de GetItem (contacts)
+                        - name: Opération GetItem (Contact)
                           href: web-service-reference/getitem-operation-contact.md
                     - name: Opération GetMailTips
                       href: web-service-reference/getmailtips-operation.md
@@ -467,11 +467,11 @@
                       href: web-service-reference/installapp-operation.md
                     - name: Opération MarkAllItemsAsRead
                       href: web-service-reference/markallitemsasread-operation.md
-                    - name: MarkAsJunk Operation
+                    - name: Opération MarkAsJunk
                       href: web-service-reference/markasjunk-operation.md
                     - name: Opération MoveFolder
                       href: web-service-reference/movefolder-operation.md
-                    - name: MoveItem Operation
+                    - name: Opération MoveItem
                       href: web-service-reference/moveitem-operation.md
                     - name: Opération PerformReminderAction
                       href: web-service-reference/performreminderaction-operation.md
@@ -493,7 +493,7 @@
                       href: web-service-reference/resolvenames-operation.md
                     - name: Opération SearchMailboxes
                       href: web-service-reference/searchmailboxes-operation.md
-                    - name: SendItem Operation
+                    - name: Opération SendItem
                       href: web-service-reference/senditem-operation.md
                     - name: Opération SetHoldOnMailboxes
                       href: web-service-reference/setholdonmailboxes-operation.md
@@ -511,7 +511,7 @@
                       href: web-service-reference/syncfolderitems-operation.md
                     - name: Opération UninstallApp
                       href: web-service-reference/uninstallapp-operation.md
-                    - name: Annuler l’opération
+                    - name: Opération de résiliation d’abonnement
                       href: web-service-reference/unsubscribe-operation.md
                     - name: Opération UpdateDelegate
                       href: web-service-reference/updatedelegate-operation.md
@@ -519,18 +519,18 @@
                       href: web-service-reference/updatefolder-operation.md
                     - name: Opération UpdateInboxRules
                       href: web-service-reference/updateinboxrules-operation.md
-                    - name: UpdateItem Operation
+                    - name: Opération UpdateItem
                       href: web-service-reference/updateitem-operation.md
                       items:
                         - name: Opération UpdateItem (tâche)
                           href: web-service-reference/updateitem-operation-task.md
-                        - name: Opération UpdateItem (contacts)
+                        - name: Opération UpdateItem (Contact)
                           href: web-service-reference/updateitem-operation-contact.md
                     - name: Opération UpdateUserConfiguration
                       href: web-service-reference/updateuserconfiguration-operation.md
                     - name: Opération UploadItems
                       href: web-service-reference/uploaditems-operation.md
-                - name: Éléments XML EWS
+                - name: Éléments EWS XML
                   href: web-service-reference/ews-xml-elements-in-exchange.md
                   items:
                     - name: AbsoluteDate
@@ -547,7 +547,7 @@
                       href: web-service-reference/acceptsharinginvitation.md
                     - name: AccessLevel
                       href: web-service-reference/accesslevel.md
-                    - name: Précision
+                    - name: Accuracy
                       href: web-service-reference/accuracy.md
                     - name: ActingAs
                       href: web-service-reference/actingas.md
@@ -603,17 +603,17 @@
                       href: web-service-reference/addnewteluricontacttogroup.md
                     - name: AddNewTelUriContactToGroupResponse
                       href: web-service-reference/addnewteluricontacttogroupresponse.md
-                    - name: Adresse (TypeContact)
+                    - name: Address (ContactType)
                       href: web-service-reference/address-contacttype.md
-                    - name: Adresse (EmailAddressType)
+                    - name: Address (EmailAddressType)
                       href: web-service-reference/address-emailaddresstype.md
-                    - name: Adresse (chaîne)
+                    - name: Address (String)
                       href: web-service-reference/address-string.md
                     - name: AddressEntity
                       href: web-service-reference/addressentity.md
-                    - name: Adresses (ArrayOfAddressEntitiesType)
+                    - name: Addresses (ArrayOfAddressEntitiesType)
                       href: web-service-reference/addresses-arrayofaddressentitiestype.md
-                    - name: Adresses (ArrayOfAddressesType)
+                    - name: Addresses (ArrayOfAddressesType)
                       href: web-service-reference/addresses-arrayofaddressestype.md
                     - name: AddressListId
                       href: web-service-reference/addresslistid.md
@@ -649,13 +649,13 @@
                       href: web-service-reference/altitudeaccuracy.md
                     - name: And
                       href: web-service-reference/and.md
-                    - name: Et (ProtectionRuleAndType)
+                    - name: And (ProtectionRuleAndType)
                       href: web-service-reference/and-protectionruleandtype.md
                     - name: Annotation
                       href: web-service-reference/annotation.md
                     - name: ApiVersionSupported
                       href: web-service-reference/apiversionsupported.md
-                    - name: Application
+                    - name: App
                       href: web-service-reference/app.md
                     - name: AppendToFolderField
                       href: web-service-reference/appendtofolderfield.md
@@ -685,7 +685,7 @@
                       href: web-service-reference/approvaldecisiontime.md
                     - name: ApprovalRequestData
                       href: web-service-reference/approvalrequestdata.md
-                    - name: Applications
+                    - name: Apps
                       href: web-service-reference/apps.md
                     - name: AppStatus
                       href: web-service-reference/appstatus-ex15websvcsotherref.md
@@ -705,7 +705,7 @@
                       href: web-service-reference/assigncategories.md
                     - name: AssignedTime
                       href: web-service-reference/assignedtime.md
-                    - name: Intervenants
+                    - name: Participants
                       href: web-service-reference/assignees.md
                     - name: AssistantName
                       href: web-service-reference/assistantname.md
@@ -725,25 +725,25 @@
                       href: web-service-reference/attachmentid-getattachment-and-deleteattachment.md
                     - name: AttachmentIds
                       href: web-service-reference/attachmentids.md
-                    - name: Pièces jointes
+                    - name: Attachments
                       href: web-service-reference/attachments-ex15websvcsotherref.md
                     - name: AttachmentShape
                       href: web-service-reference/attachmentshape.md
                     - name: AttemptCount
                       href: web-service-reference/attemptcount.md
-                    - name: Participant
+                    - name: Attendee
                       href: web-service-reference/attendee.md
                     - name: AttendeeConflictDataArray
                       href: web-service-reference/attendeeconflictdataarray.md
                     - name: AttendeeLocation
                       href: web-service-reference/attendeelocation.md
-                    - name: Participants
+                    - name: Attendees
                       href: web-service-reference/attendees.md
                     - name: AttendeeType
                       href: web-service-reference/attendeetype.md
                     - name: Attribution (PersonaAttributionType)
                       href: web-service-reference/attribution-personaattributiontype.md
-                    - name: Attribution (chaîne)
+                    - name: Attribution (String)
                       href: web-service-reference/attribution-string.md
                     - name: Attributions (ArrayOfPersonaAttributionsType)
                       href: web-service-reference/attributions-arrayofpersonaattributionstype.md
@@ -777,19 +777,19 @@
                       href: web-service-reference/billinginformation.md
                     - name: BinaryData
                       href: web-service-reference/binarydata.md
-                    - name: Anniversaire
+                    - name: Birthday
                       href: web-service-reference/birthday.md
-                    - name: Anniversaires
+                    - name: Birthdays
                       href: web-service-reference/birthdays.md
-                    - name: Masque de bits
+                    - name: Bitmask
                       href: web-service-reference/bitmask.md
                     - name: BlockExternalImages
                       href: web-service-reference/blockexternalimages.md
                     - name: BlockStatus
                       href: web-service-reference/blockstatus.md
-                    - name: Corps
+                    - name: Bodies
                       href: web-service-reference/bodies.md
-                    - name: Corps
+                    - name: Body
                       href: web-service-reference/body.md
                     - name: BodyContentAttributedValue
                       href: web-service-reference/bodycontentattributedvalue.md
@@ -853,7 +853,7 @@
                       href: web-service-reference/canrenameormove.md
                     - name: CarPhones
                       href: web-service-reference/carphones.md
-                    - name: Catégories
+                    - name: Categories
                       href: web-service-reference/categories-ex15websvcsotherref.md
                     - name: CcRecipients
                       href: web-service-reference/ccrecipients.md
@@ -867,11 +867,11 @@
                       href: web-service-reference/changes-items.md
                     - name: ChildFolderCount
                       href: web-service-reference/childfoldercount.md
-                    - name: Enfants
+                    - name: Children
                       href: web-service-reference/children.md
-                    - name: Enfants (ArrayOfStringArrayAttributedValuesType)
+                    - name: Children (ArrayOfStringArrayAttributedValuesType)
                       href: web-service-reference/children-arrayofstringarrayattributedvaluestype.md
-                    - name: Ville
+                    - name: City
                       href: web-service-reference/city.md
                     - name: ClientExtension
                       href: web-service-reference/clientextension.md
@@ -879,9 +879,9 @@
                       href: web-service-reference/clientextensions.md
                     - name: ClientIntent
                       href: web-service-reference/clientintent.md
-                    - name: Commentaires
+                    - name: Commentaire
                       href: web-service-reference/comment.md
-                    - name: Companies
+                    - name: Sociétés
                       href: web-service-reference/companies.md
                     - name: CompanyName
                       href: web-service-reference/companyname.md
@@ -905,7 +905,7 @@
                       href: web-service-reference/conditions.md
                     - name: ConferenceType
                       href: web-service-reference/conferencetype.md
-                    - name: Nom de configuration
+                    - name: ConfigurationName
                       href: web-service-reference/configurationname.md
                     - name: ConfigurationRequestDetails
                       href: web-service-reference/configurationrequestdetails.md
@@ -923,11 +923,11 @@
                       href: web-service-reference/connectionstatus.md
                     - name: ConnectionTimeout
                       href: web-service-reference/connectiontimeout.md
-                    - name: Constante
+                    - name: Constant
                       href: web-service-reference/constant.md
                     - name: Contact
                       href: web-service-reference/contact.md
-                    - name: Contact (TypeContact)
+                    - name: Contact (ContactType)
                       href: web-service-reference/contact-contacttype.md
                     - name: ContactId
                       href: web-service-reference/contactid.md
@@ -989,7 +989,7 @@
                       href: web-service-reference/conversationid.md
                     - name: ConversationIndex
                       href: web-service-reference/conversationindex.md
-                    - name: ConversationIndex (chaîne)
+                    - name: ConversationIndex (String)
                       href: web-service-reference/conversationindex-string.md
                     - name: ConversationLastSyncTime
                       href: web-service-reference/conversationlastsynctime.md
@@ -1029,13 +1029,13 @@
                       href: web-service-reference/copytofolder.md
                     - name: Count
                       href: web-service-reference/count.md
-                    - name: Pays
+                    - name: Country
                       href: web-service-reference/country.md
-                    - name: Countryorregion définit
+                    - name: CountryOrRegion
                       href: web-service-reference/countryorregion.md
-                    - name: Créer (FolderSync)
+                    - name: Create (FolderSync)
                       href: web-service-reference/create-foldersync.md
-                    - name: Créer (ItemSync)
+                    - name: Create (ItemSync)
                       href: web-service-reference/create-itemsync.md
                     - name: CreateAssociated
                       href: web-service-reference/createassociated.md
@@ -1097,17 +1097,17 @@
                       href: web-service-reference/dailyrecurrence.md
                     - name: DailyRegeneration
                       href: web-service-reference/dailyregeneration.md
-                    - name: Données
+                    - name: Data
                       href: web-service-reference/data.md
-                    - name: Données (base64Binary)
+                    - name: Data (base64Binary)
                       href: web-service-reference/data-base64binary.md
-                    - name: Type de données
+                    - name: DataType
                       href: web-service-reference/datatype.md
                     - name: Date
                       href: web-service-reference/date.md
                     - name: Date (MessageTracking)
                       href: web-service-reference/date-messagetracking.md
-                    - name: Date/heure
+                    - name: DateTime
                       href: web-service-reference/datetime.md
                     - name: DateTimeCreated
                       href: web-service-reference/datetimecreated.md
@@ -1119,15 +1119,15 @@
                       href: web-service-reference/datetimesent.md
                     - name: DateTimeStamp
                       href: web-service-reference/datetimestamp.md
-                    - name: Jour
+                    - name: Day
                       href: web-service-reference/day.md
-                    - name: Heure d’été
+                    - name: Daylight
                       href: web-service-reference/daylight.md
                     - name: DaylightTime
                       href: web-service-reference/daylighttime.md
                     - name: DayOfMonth
                       href: web-service-reference/dayofmonth.md
-                    - name: DayOfWeek (fuseau horaire)
+                    - name: DayOfWeek (TimeZone)
                       href: web-service-reference/dayofweek-timezone.md
                     - name: DayOfWeek (WorkingPeriod)
                       href: web-service-reference/dayofweek-workingperiod.md
@@ -1147,7 +1147,7 @@
                       href: web-service-reference/deduplication.md
                     - name: DelegatePermissions
                       href: web-service-reference/delegatepermissions.md
-                    - name: Utilisateur_délégué
+                    - name: DelegateUser
                       href: web-service-reference/delegateuser.md
                     - name: DelegateUserResponseMessageType
                       href: web-service-reference/delegateuserresponsemessagetype.md
@@ -1155,13 +1155,13 @@
                       href: web-service-reference/delegateusers.md
                     - name: DelegationState
                       href: web-service-reference/delegationstate.md
-                    - name: Personne
+                    - name: Delegator
                       href: web-service-reference/delegator.md
-                    - name: Suppression
+                    - name: Delete
                       href: web-service-reference/delete.md
-                    - name: Supprimer (FolderSync)
+                    - name: Delete (FolderSync)
                       href: web-service-reference/delete-foldersync.md
-                    - name: Supprimer (ItemSync)
+                    - name: Delete (ItemSync)
                       href: web-service-reference/delete-itemsync.md
                     - name: DeleteAttachment
                       href: web-service-reference/deleteattachment.md
@@ -1199,7 +1199,7 @@
                       href: web-service-reference/deleteitems.md
                     - name: DeleteRuleOperation
                       href: web-service-reference/deleteruleoperation.md
-                    - name: DeleType
+                    - name: DeleteType
                       href: web-service-reference/deletetype.md
                     - name: DeleteUserConfiguration
                       href: web-service-reference/deleteuserconfiguration.md
@@ -1231,7 +1231,7 @@
                       href: web-service-reference/diagnostics.md
                     - name: DiagnosticsLevel
                       href: web-service-reference/diagnosticslevel.md
-                    - name: DialString (services web de Exchange)
+                    - name: DialString (services web Exchange)
                       href: web-service-reference/dialstring-exchange-web-services.md
                     - name: Dictionary
                       href: web-service-reference/dictionary.md
@@ -1271,7 +1271,7 @@
                       href: web-service-reference/displayname-mastermailboxtype.md
                     - name: DisplayName (NonEmptyStringType)
                       href: web-service-reference/displayname-nonemptystringtype.md
-                    - name: DisplayName (chaîne)
+                    - name: DisplayName (String)
                       href: web-service-reference/displayname-string.md
                     - name: DisplayName (VotingOptionDataType)
                       href: web-service-reference/displayname-votingoptiondatatype.md
@@ -1307,9 +1307,9 @@
                       href: web-service-reference/distributionlist.md
                     - name: DLExpansion
                       href: web-service-reference/dlexpansion.md
-                    - name: Domaine
+                    - name: Domain
                       href: web-service-reference/domain.md
-                    - name: Domaine (le suivi des messages)
+                    - name: Domain (Message Tracking)
                       href: web-service-reference/domain-message-tracking.md
                     - name: DomainController (MasterMailboxType)
                       href: web-service-reference/domaincontroller-mastermailboxtype.md
@@ -1323,15 +1323,15 @@
                       href: web-service-reference/duration-useroofsettings.md
                     - name: EditAllowed
                       href: web-service-reference/editallowed.md
-                    - name: Modifier les éléments
+                    - name: EditItems
                       href: web-service-reference/edititems.md
                     - name: EffectiveRights
                       href: web-service-reference/effectiverights.md
-                    - name: Courrier électronique (EmailAddress)
+                    - name: Email (EmailAddress)
                       href: web-service-reference/email-emailaddress.md
-                    - name: Courrier électronique (EmailAddressType)
+                    - name: Email (EmailAddressType)
                       href: web-service-reference/email-emailaddresstype.md
-                    - name: Courrier électronique (chaîne)
+                    - name: Email (String)
                       href: web-service-reference/email-string.md
                     - name: EmailAddress (EmailAddress)
                       href: web-service-reference/emailaddress-emailaddress.md
@@ -1341,7 +1341,7 @@
                       href: web-service-reference/emailaddress-getpersonatype.md
                     - name: EmailAddress (NonEmptyStringType)
                       href: web-service-reference/emailaddress-nonemptystringtype.md
-                    - name: EmailAddress (chaîne)
+                    - name: EmailAddress (String)
                       href: web-service-reference/emailaddress-string.md
                     - name: EmailAddressAttributedValue
                       href: web-service-reference/emailaddressattributedvalue.md
@@ -1381,11 +1381,11 @@
                       href: web-service-reference/encryptedsharedfolderdatacollection.md
                     - name: 'End '
                       href: web-service-reference/end-ex15websvcsotherref.md
-                    - name: Fin (ChangeHighlightsType)
+                    - name: End (ChangeHighlightsType)
                       href: web-service-reference/end-changehighlightstype.md
-                    - name: EndDate (périodicité)
+                    - name: EndDate (Recurrence)
                       href: web-service-reference/enddate-recurrence.md
-                    - name: Date de fin (ReminderType)
+                    - name: EndDate (ReminderType)
                       href: web-service-reference/enddate-remindertype.md
                     - name: EndDateRecurrence
                       href: web-service-reference/enddaterecurrence.md
@@ -1393,9 +1393,9 @@
                       href: web-service-reference/enddatetime.md
                     - name: EndNodeUrl
                       href: web-service-reference/endnodeurl.md
-                    - name: Heure de fin
+                    - name: EndTime
                       href: web-service-reference/endtime.md
-                    - name: Heure de fin (ReminderMessageDataType)
+                    - name: EndTime (ReminderMessageDataType)
                       href: web-service-reference/endtime-remindermessagedatatype.md
                     - name: EndTimeInMinutes
                       href: web-service-reference/endtimeinminutes.md
@@ -1417,11 +1417,11 @@
                       href: web-service-reference/entry-phonenumber.md
                     - name: Entrée (PhysicalAddress)
                       href: web-service-reference/entry-physicaladdress.md
-                    - name: Erreur
+                    - name: Error
                       href: web-service-reference/error.md
-                    - name: Erreurs
+                    - name: Errors
                       href: web-service-reference/errors-ex15websvcsotherref.md
-                    - name: Code d’erreur
+                    - name: ErrorCode
                       href: web-service-reference/errorcode.md
                     - name: ErrorCode (int)
                       href: web-service-reference/errorcode-int.md
@@ -1453,7 +1453,7 @@
                       href: web-service-reference/exchangestoreid.md
                     - name: ExcludeConflicts
                       href: web-service-reference/excludeconflicts.md
-                    - name: Exclut
+                    - name: Excludes
                       href: web-service-reference/excludes.md
                     - name: ExecutedSearchScope
                       href: web-service-reference/executedsearchscope.md
@@ -1523,13 +1523,13 @@
                       href: web-service-reference/fieldorder.md
                     - name: FieldURI
                       href: web-service-reference/fielduri.md
-                    - name: FieldUri (règle)
+                    - name: FieldUri (Rule)
                       href: web-service-reference/fielduri-rule.md
                     - name: FieldURIOrConstant
                       href: web-service-reference/fielduriorconstant.md
                     - name: FieldValue
                       href: web-service-reference/fieldvalue.md
-                    - name: Classer sous
+                    - name: FileAs
                       href: web-service-reference/fileas.md
                     - name: FileAses
                       href: web-service-reference/fileases.md
@@ -1589,7 +1589,7 @@
                       href: web-service-reference/firstname.md
                     - name: FirstOccurrence
                       href: web-service-reference/firstoccurrence.md
-                    - name: Indicateur
+                    - name: Flag
                       href: web-service-reference/flag.md
                     - name: FlaggedForAction
                       href: web-service-reference/flaggedforaction.md
@@ -1601,7 +1601,7 @@
                       href: web-service-reference/folderchange.md
                     - name: FolderChanges
                       href: web-service-reference/folderchanges.md
-                    - name: Classe FolderClass
+                    - name: FolderClass
                       href: web-service-reference/folderclass.md
                     - name: FolderId
                       href: web-service-reference/folderid.md
@@ -1611,7 +1611,7 @@
                       href: web-service-reference/folderids-arrayoffolderidtype.md
                     - name: FolderName
                       href: web-service-reference/foldername.md
-                    - name: Noms de dossier
+                    - name: FolderNames
                       href: web-service-reference/foldernames.md
                     - name: Dossiers
                       href: web-service-reference/folders-ex15websvcsotherref.md
@@ -1647,7 +1647,7 @@
                       href: web-service-reference/freebusyviewoptions.md
                     - name: FreeBusyViewType
                       href: web-service-reference/freebusyviewtype.md
-                    - name: De
+                    - name: From
                       href: web-service-reference/from.md
                     - name: FromAddresses
                       href: web-service-reference/fromaddresses.md
@@ -1657,9 +1657,9 @@
                       href: web-service-reference/fromdate.md
                     - name: FullName
                       href: web-service-reference/fullname.md
-                    - name: Génération
+                    - name: Generation
                       href: web-service-reference/generation.md
-                    - name: Générations
+                    - name: Generations
                       href: web-service-reference/generations.md
                     - name: GetAppManifests
                       href: web-service-reference/getappmanifests.md
@@ -1861,7 +1861,7 @@
                       href: web-service-reference/getuserretentionpolicytagsresponse.md
                     - name: GetUserRetentionPolicyTagsResponseMessage
                       href: web-service-reference/getuserretentionpolicytagsresponsemessage.md
-                    - name: Prénom
+                    - name: GivenName
                       href: web-service-reference/givenname.md
                     - name: GivenNames
                       href: web-service-reference/givennames.md
@@ -1903,9 +1903,9 @@
                       href: web-service-reference/globalunreadcount.md
                     - name: GoodThreshold
                       href: web-service-reference/goodthreshold.md
-                    - name: Groupe (ArrayOfFederatedDirectoryGroupsType)
+                    - name: Group (ArrayOfFederatedDirectoryGroupsType)
                       href: web-service-reference/group-arrayoffederateddirectorygroupstype.md
-                    - name: Groupe (MailboxAssociationType)
+                    - name: Group (MailboxAssociationType)
                       href: web-service-reference/group-mailboxassociationtype.md
                     - name: GroupAttendeeConflictData
                       href: web-service-reference/groupattendeeconflictdata.md
@@ -1917,7 +1917,7 @@
                       href: web-service-reference/groupid.md
                     - name: GroupIdentifier
                       href: web-service-reference/groupidentifier.md
-                    - name: GroupID
+                    - name: GroupIds
                       href: web-service-reference/groupids.md
                     - name: GroupIndex
                       href: web-service-reference/groupindex.md
@@ -1925,11 +1925,11 @@
                       href: web-service-reference/groupingaction.md
                     - name: GroupingAction (ItemType)
                       href: web-service-reference/groupingaction-itemtype.md
-                    - name: Groupes
+                    - name: Groups
                       href: web-service-reference/groups.md
-                    - name: Groupes (ArrayOfFederatedDirectoryGroupsType)
+                    - name: Groups (ArrayOfFederatedDirectoryGroupsType)
                       href: web-service-reference/groups-arrayoffederateddirectorygroupstype.md
-                    - name: Groupes (ArrayOfImGroupType)
+                    - name: Groups (ArrayOfImGroupType)
                       href: web-service-reference/groups-arrayofimgrouptype.md
                     - name: GroupSids
                       href: web-service-reference/groupsids.md
@@ -1967,7 +1967,7 @@
                       href: web-service-reference/hiddenrecipient.md
                     - name: HighlightTerms
                       href: web-service-reference/highlightterms.md
-                    - name: Passe-temps
+                    - name: Hobbies
                       href: web-service-reference/hobbies.md
                     - name: HoldId
                       href: web-service-reference/holdid.md
@@ -1979,7 +1979,7 @@
                       href: web-service-reference/homecitysortkey.md
                     - name: HomeFaxes
                       href: web-service-reference/homefaxes.md
-                    - name: Page d’accueil
+                    - name: HomePage
                       href: web-service-reference/homepage.md
                     - name: HomePhones
                       href: web-service-reference/homephones.md
@@ -1989,13 +1989,13 @@
                       href: web-service-reference/iconindex.md
                     - name: ID
                       href: web-service-reference/id.md
-                    - name: ID (chaîne)
+                    - name: ID (String)
                       href: web-service-reference/id-string.md
-                    - name: ID (EmailAddressType)
+                    - name: Id (EmailAddressType)
                       href: web-service-reference/id-emailaddresstype.md
                     - name: ID (ItemIdType)
                       href: web-service-reference/id-itemidtype.md
-                    - name: ID (fuseau horaire)
+                    - name: Id (TimeZone)
                       href: web-service-reference/id-timezone.md
                     - name: Identity
                       href: web-service-reference/identity.md
@@ -2003,13 +2003,13 @@
                       href: web-service-reference/identitydetails.md
                     - name: IdOfFolderToShare
                       href: web-service-reference/idoffoldertoshare.md
-                    - name: ID
+                    - name: Ids
                       href: web-service-reference/ids.md
-                    - name: Ignorer
+                    - name: Ignore
                       href: web-service-reference/ignore.md
                     - name: ImAddress (NonEmptyStringType)
                       href: web-service-reference/imaddress-nonemptystringtype.md
-                    - name: ImAddress (chaîne)
+                    - name: ImAddress (String)
                       href: web-service-reference/imaddress-string.md
                     - name: ImAddresses
                       href: web-service-reference/imaddresses.md
@@ -2065,7 +2065,7 @@
                       href: web-service-reference/indexedpageitemview.md
                     - name: IndividualAttendeeConflictData
                       href: web-service-reference/individualattendeeconflictdata.md
-                    - name: Initiales
+                    - name: Initials
                       href: web-service-reference/initials.md
                     - name: Initiales (ArrayOfStringAttributedValuesType)
                       href: web-service-reference/initials-arrayofstringattributedvaluestype.md
@@ -2085,7 +2085,7 @@
                       href: web-service-reference/instancekey.md
                     - name: IntendedFreeBusyStatus
                       href: web-service-reference/intendedfreebusystatus.md
-                    - name: Objectif
+                    - name: Intent
                       href: web-service-reference/intent.md
                     - name: InternalDomains (SmtpDomainList)
                       href: web-service-reference/internaldomains-smtpdomainlist.md
@@ -2099,11 +2099,11 @@
                       href: web-service-reference/internetmessageheaders.md
                     - name: InternetMessageId
                       href: web-service-reference/internetmessageid.md
-                    - name: Intervalle
+                    - name: Interval
                       href: web-service-reference/interval.md
                     - name: InvalidRecipient
                       href: web-service-reference/invalidrecipient.md
-                    - name: InvalidRecipient (Infos-courrier)
+                    - name: InvalidRecipient (MailTips)
                       href: web-service-reference/invalidrecipient-mailtips.md
                     - name: InvalidRecipients
                       href: web-service-reference/invalidrecipients.md
@@ -2125,7 +2125,7 @@
                       href: web-service-reference/iscancelled.md
                     - name: IsClutter
                       href: web-service-reference/isclutter.md
-                    - name: Avertisse
+                    - name: IsComplete
                       href: web-service-reference/iscomplete.md
                     - name: IsContactPhoto
                       href: web-service-reference/iscontactphoto.md
@@ -2141,7 +2141,7 @@
                       href: web-service-reference/isenabled.md
                     - name: IsEncrypted
                       href: web-service-reference/isencrypted.md
-                    - name: Plutôt IsEqualTo
+                    - name: IsEqualTo
                       href: web-service-reference/isequalto.md
                     - name: IsException
                       href: web-service-reference/isexception.md
@@ -2205,7 +2205,7 @@
                       href: web-service-reference/isowner.md
                     - name: IsPartiallyIndexed
                       href: web-service-reference/ispartiallyindexed.md
-                    - name: IsPermanentFailure
+                    - name: Ispermanentfailure
                       href: web-service-reference/ispermanentfailure.md
                     - name: IsPermissionControlled
                       href: web-service-reference/ispermissioncontrolled.md
@@ -2217,7 +2217,7 @@
                       href: web-service-reference/isprivate.md
                     - name: IsQuickContact
                       href: web-service-reference/isquickcontact.md
-                    - name: Estlu
+                    - name: IsRead
                       href: web-service-reference/isread.md
                     - name: IsReadReceipt
                       href: web-service-reference/isreadreceipt.md
@@ -2253,9 +2253,9 @@
                       href: web-service-reference/isworktime.md
                     - name: IsWritable
                       href: web-service-reference/iswritable.md
-                    - name: Élément
+                    - name: Item
                       href: web-service-reference/item.md
-                    - name: Élément (UploadItemType)
+                    - name: Item (UploadItemType)
                       href: web-service-reference/item-uploaditemtype.md
                     - name: ItemAttachment
                       href: web-service-reference/itemattachment.md
@@ -2279,17 +2279,17 @@
                       href: web-service-reference/itemid.md
                     - name: ItemIds
                       href: web-service-reference/itemids.md
-                    - name: ItemId (NonEmptyArrayOfItemIdsType)
+                    - name: ItemIds (NonEmptyArrayOfItemIdsType)
                       href: web-service-reference/itemids-nonemptyarrayofitemidstype.md
-                    - name: Éléments
+                    - name: Items
                       href: web-service-reference/items.md
-                    - name: Éléments (ArrayOfNonIndexableItemDetailsType)
+                    - name: Items (ArrayOfNonIndexableItemDetailsType)
                       href: web-service-reference/items-arrayofnonindexableitemdetailstype.md
-                    - name: Éléments (ArrayOfSearchPreviewItemsType)
+                    - name: Items (ArrayOfSearchPreviewItemsType)
                       href: web-service-reference/items-arrayofsearchpreviewitemstype.md
-                    - name: Éléments (NonEmptyArrayOfAllItemsType)
+                    - name: Items (NonEmptyArrayOfAllItemsType)
                       href: web-service-reference/items-nonemptyarrayofallitemstype.md
-                    - name: Éléments (NonEmptyArrayOfUploadItemsType)
+                    - name: Items (NonEmptyArrayOfUploadItemsType)
                       href: web-service-reference/items-nonemptyarrayofuploaditemstype.md
                     - name: ItemShape
                       href: web-service-reference/itemshape.md
@@ -2309,9 +2309,9 @@
                       href: web-service-reference/journalfolderpermissionlevel.md
                     - name: KeepProperties
                       href: web-service-reference/keepproperties.md
-                    - name: Mot clé
+                    - name: Keyword
                       href: web-service-reference/keyword.md
-                    - name: Mots clés
+                    - name: Keywords
                       href: web-service-reference/keywords-ex15websvcsotherref.md
                     - name: KeywordStat
                       href: web-service-reference/keywordstat.md
@@ -2321,7 +2321,7 @@
                       href: web-service-reference/keywordstats.md
                     - name: Language
                       href: web-service-reference/language.md
-                    - name: Langue (DiscoverySearchConfigurationType)
+                    - name: Language (DiscoverySearchConfigurationType)
                       href: web-service-reference/language-discoverysearchconfigurationtype.md
                     - name: LargeAudienceCap
                       href: web-service-reference/largeaudiencecap.md
@@ -2333,7 +2333,7 @@
                       href: web-service-reference/lastdeliverytime.md
                     - name: LastModifiedName
                       href: web-service-reference/lastmodifiedname.md
-                    - name: Heure de dernière modification
+                    - name: LastModifiedTime
                       href: web-service-reference/lastmodifiedtime.md
                     - name: LastName
                       href: web-service-reference/lastname.md
@@ -2353,15 +2353,15 @@
                       href: web-service-reference/legacyfreebusystatus.md
                     - name: LobbyBypass
                       href: web-service-reference/lobbybypass.md
-                    - name: Emplacement
+                    - name: Location
                       href: web-service-reference/location.md
-                    - name: Emplacement (CalendarEventDetails)
+                    - name: Location (CalendarEventDetails)
                       href: web-service-reference/location-calendareventdetails.md
-                    - name: Emplacement (ReminderMessageDataType)
+                    - name: Location (ReminderMessageDataType)
                       href: web-service-reference/location-remindermessagedatatype.md
                     - name: LocationBasedStateDefinition
                       href: web-service-reference/locationbasedstatedefinition.md
-                    - name: Emplacements
+                    - name: Locations
                       href: web-service-reference/locations.md
                     - name: LocationSource
                       href: web-service-reference/locationsource.md
@@ -2369,13 +2369,13 @@
                       href: web-service-reference/locationuri.md
                     - name: Longitude
                       href: web-service-reference/longitude.md
-                    - name: Boîte aux lettres
+                    - name: Mailbox
                       href: web-service-reference/mailbox.md
-                    - name: Boîte aux lettres (chaîne)
+                    - name: Mailbox (String)
                       href: web-service-reference/mailbox-string.md
-                    - name: Boîte aux lettres (disponibilité)
+                    - name: Mailbox (Availability)
                       href: web-service-reference/mailbox-availability.md
-                    - name: Boîte aux lettres (PreviewItemMailboxType)
+                    - name: Mailbox (PreviewItemMailboxType)
                       href: web-service-reference/mailbox-previewitemmailboxtype.md
                     - name: MailboxCulture
                       href: web-service-reference/mailboxculture.md
@@ -2419,7 +2419,7 @@
                       href: web-service-reference/mailboxtype.md
                     - name: MailboxType (MasterMailboxType)
                       href: web-service-reference/mailboxtype-mastermailboxtype.md
-                    - name: Les infos-courrier
+                    - name: MailTips
                       href: web-service-reference/mailtips.md
                     - name: MailTipsConfiguration (MailTipsServiceConfiguration)
                       href: web-service-reference/mailtipsconfiguration-mailtipsserviceconfiguration.md
@@ -2445,9 +2445,9 @@
                       href: web-service-reference/managers.md
                     - name: ManagerMailbox
                       href: web-service-reference/managermailbox.md
-                    - name: manifeste
+                    - name: Manifest
                       href: web-service-reference/manifest.md
-                    - name: Manifestes
+                    - name: Manifests
                       href: web-service-reference/manifests.md
                     - name: MarkAllItemsAsRead
                       href: web-service-reference/markallitemsasread.md
@@ -2509,13 +2509,13 @@
                       href: web-service-reference/meetingtime.md
                     - name: MeetingTimeZone
                       href: web-service-reference/meetingtimezone.md
-                    - name: MeetingWorkspaceUrl
+                    - name: MeetingWorkspaceURL
                       href: web-service-reference/meetingworkspaceurl.md
-                    - name: Membre
+                    - name: Member
                       href: web-service-reference/member-ex15websvcsotherref.md
-                    - name: Membres
+                    - name: Members
                       href: web-service-reference/members.md
-                    - name: Membres (MemberListType)
+                    - name: Members (MemberListType)
                       href: web-service-reference/members-memberlisttype.md
                     - name: MemberCorrelationKey
                       href: web-service-reference/membercorrelationkey.md
@@ -2525,7 +2525,7 @@
                       href: web-service-reference/mergedfreebusyintervalinminutes.md
                     - name: Message
                       href: web-service-reference/message-ex15websvcsotherref.md
-                    - name: Message (disponibilité)
+                    - name: Message (Availability)
                       href: web-service-reference/message-availability.md
                     - name: MessageClassifications
                       href: web-service-reference/messageclassifications.md
@@ -2547,13 +2547,13 @@
                       href: web-service-reference/messagetypes.md
                     - name: MessageXml
                       href: web-service-reference/messagexml.md
-                    - name: Métadonnées
+                    - name: Metadata
                       href: web-service-reference/metadata-ex15websvcsotherref.md
                     - name: MiddleName
                       href: web-service-reference/middlename.md
                     - name: MiddleNames
                       href: web-service-reference/middlenames.md
-                    - name: Kilométrage
+                    - name: Mileage
                       href: web-service-reference/mileage.md
                     - name: MimeContent
                       href: web-service-reference/mimecontent.md
@@ -2571,15 +2571,15 @@
                       href: web-service-reference/modifiedevent.md
                     - name: ModifiedOccurrences
                       href: web-service-reference/modifiedoccurrences.md
-                    - name: Modifier
+                    - name: Modify
                       href: web-service-reference/modify.md
                     - name: ModifyRecipientsAllowed
                       href: web-service-reference/modifyrecipientsallowed.md
-                    - name: Mois
+                    - name: Month
                       href: web-service-reference/month.md
-                    - name: Mois (Transition fuseau horaire)
+                    - name: Month (transition de fuseau horaire)
                       href: web-service-reference/month-time-zone-transition.md
-                    - name: Mois (élément périodicité)
+                    - name: Month (périodicité d’élément)
                       href: web-service-reference/month-item-recurrence.md
                     - name: MonthlyRegeneration
                       href: web-service-reference/monthlyregeneration.md
@@ -2609,17 +2609,17 @@
                       href: web-service-reference/mustdisplaycomment.md
                     - name: MyResponseType
                       href: web-service-reference/myresponsetype.md
-                    - name: Nom (AttachmentType)
+                    - name: Name (AttachmentType)
                       href: web-service-reference/name-attachmenttype.md
-                    - name: Nom (EmailAddressType)
+                    - name: Name (EmailAddressType)
                       href: web-service-reference/name-emailaddresstype.md
-                    - name: Nom (EmailAddress)
+                    - name: Name (EmailAddress)
                       href: web-service-reference/name-emailaddress.md
-                    - name: Nom (ExtendedAttributeType)
+                    - name: Name (ExtendedAttributeType)
                       href: web-service-reference/name-extendedattributetype.md
-                    - name: Nom (le suivi des messages)
+                    - name: Name (MessageTracking)
                       href: web-service-reference/name-message-tracking.md
-                    - name: Name (chaîne)
+                    - name: Name (String)
                       href: web-service-reference/name-string.md
                     - name: NetShowUrl
                       href: web-service-reference/netshowurl.md
@@ -2635,9 +2635,9 @@
                       href: web-service-reference/nextpredictedaction.md
                     - name: NextPredictedAction (ItemType)
                       href: web-service-reference/nextpredictedaction-itemtype.md
-                    - name: Surnom
+                    - name: Nickname
                       href: web-service-reference/nickname.md
-                    - name: Surnoms
+                    - name: Nicknames
                       href: web-service-reference/nicknames.md
                     - name: NoEndRecurrence
                       href: web-service-reference/noendrecurrence.md
@@ -2653,9 +2653,9 @@
                       href: web-service-reference/normalizedbody.md
                     - name: NormalizedBodyType
                       href: web-service-reference/normalizedbodytype.md
-                    - name: Pas
+                    - name: Not
                       href: web-service-reference/not.md
-                    - name: Notes (contacts)
+                    - name: Notes (Contact)
                       href: web-service-reference/notes-contact.md
                     - name: NotesFolderPermissionLevel
                       href: web-service-reference/notesfolderpermissionlevel.md
@@ -2665,7 +2665,7 @@
                       href: web-service-reference/notifications.md
                     - name: NotSentToMe
                       href: web-service-reference/notsenttome.md
-                    - name: Nombre
+                    - name: Number
                       href: web-service-reference/number.md
                     - name: NumberedRecurrence
                       href: web-service-reference/numberedrecurrence.md
@@ -2681,7 +2681,7 @@
                       href: web-service-reference/numberofoccurrences.md
                     - name: Occurrence
                       href: web-service-reference/occurrence.md
-                    - name: Occurrence (Transition fuseau horaire)
+                    - name: Occurrence (transition de fuseau horaire)
                       href: web-service-reference/occurrence-time-zone-transition.md
                     - name: OccurrenceDate
                       href: web-service-reference/occurrencedate.md
@@ -2691,7 +2691,7 @@
                       href: web-service-reference/officelocation.md
                     - name: OfficeLocations
                       href: web-service-reference/officelocations.md
-                    - name: Décalage
+                    - name: Offset
                       href: web-service-reference/offset.md
                     - name: OldFolderId
                       href: web-service-reference/oldfolderid.md
@@ -2707,7 +2707,7 @@
                       href: web-service-reference/oofstate.md
                     - name: OpenAsAdminOrSystemService
                       href: web-service-reference/openasadminorsystemservice.md
-                    - name: Opérations
+                    - name: Operations
                       href: web-service-reference/operations.md
                     - name: OperationIndex
                       href: web-service-reference/operationindex.md
@@ -2719,7 +2719,7 @@
                       href: web-service-reference/or.md
                     - name: OrganizationMainPhones
                       href: web-service-reference/organizationmainphones.md
-                    - name: Organisateur
+                    - name: Organizer
                       href: web-service-reference/organizer.md
                     - name: OrganizerLocation
                       href: web-service-reference/organizerlocation.md
@@ -2747,7 +2747,7 @@
                       href: web-service-reference/owalink.md
                     - name: Owner
                       href: web-service-reference/owner.md
-                    - name: Propriétaires
+                    - name: Owners
                       href: web-service-reference/owners.md
                     - name: PageDirection
                       href: web-service-reference/pagedirection.md
@@ -2757,7 +2757,7 @@
                       href: web-service-reference/pageitemreference.md
                     - name: PageItemSize
                       href: web-service-reference/pageitemsize.md
-                    - name: Récepteurs de radiomessagerie
+                    - name: Récepteur de radiomessagerie
                       href: web-service-reference/pagers.md
                     - name: PageSize
                       href: web-service-reference/pagesize.md
@@ -2777,7 +2777,7 @@
                       href: web-service-reference/parentitemid.md
                     - name: PasswordExpirationDate
                       href: web-service-reference/passwordexpirationdate.md
-                    - name: Chemin
+                    - name: Path
                       href: web-service-reference/path.md
                     - name: PendingMailTips
                       href: web-service-reference/pendingmailtips.md
@@ -2791,23 +2791,23 @@
                       href: web-service-reference/performreminderaction.md
                     - name: PerformReminderActionResponse
                       href: web-service-reference/performreminderactionresponse.md
-                    - name: Point
+                    - name: Period
                       href: web-service-reference/period.md
-                    - name: Périodes
+                    - name: Periods
                       href: web-service-reference/periods.md
                     - name: PermanentDelete
                       href: web-service-reference/permanentdelete.md
-                    - name: Autorisation
+                    - name: Permission
                       href: web-service-reference/permission.md
                     - name: PermissionLevel
                       href: web-service-reference/permissionlevel.md
-                    - name: Autorisations
+                    - name: Permissions
                       href: web-service-reference/permissions.md
                     - name: PermissionSet (PermissionSetType)
                       href: web-service-reference/permissionset-permissionsettype.md
                     - name: PermissionSet (CalendarPermissionSetType)
                       href: web-service-reference/permissionset-calendarpermissionsettype.md
-                    - name: Personnage
+                    - name: Persona
                       href: web-service-reference/persona.md
                     - name: PersonaId
                       href: web-service-reference/personaid.md
@@ -2815,7 +2815,7 @@
                       href: web-service-reference/personalhomepages.md
                     - name: PersonaObjectStatus
                       href: web-service-reference/personaobjectstatus.md
-                    - name: Personnage
+                    - name: Personas
                       href: web-service-reference/personas-ex15websvcsotherref.md
                     - name: PersonaShape
                       href: web-service-reference/personashape.md
@@ -2823,9 +2823,9 @@
                       href: web-service-reference/personatype.md
                     - name: PersonName
                       href: web-service-reference/personname.md
-                    - name: Téléphone
+                    - name: Phone
                       href: web-service-reference/phone.md
-                    - name: Téléphone (PhoneEntityType)
+                    - name: Phone (PhoneEntityType)
                       href: web-service-reference/phone-phoneentitytype.md
                     - name: PhoneCallId
                       href: web-service-reference/phonecallid.md
@@ -2863,13 +2863,13 @@
                       href: web-service-reference/physicaladdresses.md
                     - name: PictureData
                       href: web-service-reference/picturedata.md
-                    - name: PlayOnPhone (services web de Exchange)
+                    - name: PlayOnPhone (services web Exchange)
                       href: web-service-reference/playonphone-exchange-web-services.md
                     - name: PlayOnPhoneDialString
                       href: web-service-reference/playonphonedialstring-exchange-web-services.md
                     - name: PlayOnPhoneEnabled
                       href: web-service-reference/playonphoneenabled.md
-                    - name: PlayOnPhoneResponse (services web de Exchange)
+                    - name: PlayOnPhoneResponse (services web Exchange)
                       href: web-service-reference/playonphoneresponse-exchange-web-services.md
                     - name: PolicyNudgeRulesConfiguration
                       href: web-service-reference/policynudgerulesconfiguration.md
@@ -2889,11 +2889,11 @@
                       href: web-service-reference/postaladdressattributedvalue.md
                     - name: PostalAddressIndex
                       href: web-service-reference/postaladdressindex.md
-                    - name: Code postal
+                    - name: PostalCode
                       href: web-service-reference/postalcode.md
                     - name: PostedTime
                       href: web-service-reference/postedtime.md
-                    - name: Objet postItem
+                    - name: PostItem
                       href: web-service-reference/postitem.md
                     - name: PostOfficeBox
                       href: web-service-reference/postofficebox.md
@@ -2907,7 +2907,7 @@
                       href: web-service-reference/predictedactionreasons.md
                     - name: Présentateurs
                       href: web-service-reference/presenters.md
-                    - name: Aperçu
+                    - name: Preview
                       href: web-service-reference/preview-ex15websvcsotherref.md
                     - name: PreviewItemResponseShape
                       href: web-service-reference/previewitemresponseshape.md
@@ -2917,9 +2917,9 @@
                       href: web-service-reference/previouswatermark.md
                     - name: PrimarySmtpAddress
                       href: web-service-reference/primarysmtpaddress.md
-                    - name: PrimarySmtpAddress (chaîne)
+                    - name: PrimarySmtpAddress (String)
                       href: web-service-reference/primarysmtpaddress-string.md
-                    - name: Au PrincipalName
+                    - name: PrincipalName
                       href: web-service-reference/principalname.md
                     - name: PrintAllowed
                       href: web-service-reference/printallowed.md
@@ -2933,9 +2933,9 @@
                       href: web-service-reference/professions.md
                     - name: ProgrammaticAccessAllowed
                       href: web-service-reference/programmaticaccessallowed.md
-                    - name: Propriétés (ArrayOfStringsType)
+                    - name: Properties (ArrayOfStringsType)
                       href: web-service-reference/properties-arrayofstringstype.md
-                    - name: Propriétés (ArrayOfTrackingPropertiesType)
+                    - name: Properties (ArrayOfTrackingPropertiesType)
                       href: web-service-reference/properties-arrayoftrackingpropertiestype.md
                     - name: ProposedEnd
                       href: web-service-reference/proposedend.md
@@ -2965,21 +2965,21 @@
                       href: web-service-reference/purportedsender.md
                     - name: PushSubscriptionRequest
                       href: web-service-reference/pushsubscriptionrequest.md
-                    - name: Requête
+                    - name: Query
                       href: web-service-reference/query.md
                     - name: QueryString (QueryStringType)
                       href: web-service-reference/querystring-querystringtype.md
-                    - name: QueryString (chaîne)
+                    - name: QueryString (String)
                       href: web-service-reference/querystring-string.md
                     - name: RadioPhones
                       href: web-service-reference/radiophones.md
-                    - name: Plage
+                    - name: Range
                       href: web-service-reference/range.md
-                    - name: Plages
+                    - name: Ranges
                       href: web-service-reference/ranges.md
                     - name: RawMasterTableXml
                       href: web-service-reference/rawmastertablexml.md
-                    - name: Lire
+                    - name: Read
                       href: web-service-reference/read.md
                     - name: ReadFlag
                       href: web-service-reference/readflag.md
@@ -2991,13 +2991,13 @@
                       href: web-service-reference/readitems-permissiontype.md
                     - name: ReceiveCopiesOfMeetingMessages
                       href: web-service-reference/receivecopiesofmeetingmessages.md
-                    - name: Reçu par
+                    - name: ReceivedBy
                       href: web-service-reference/receivedby.md
                     - name: ReceivedRepresenting
                       href: web-service-reference/receivedrepresenting.md
                     - name: ReceivedTime
                       href: web-service-reference/receivedtime.md
-                    - name: Destinataire
+                    - name: Recipient
                       href: web-service-reference/recipient.md
                     - name: RecipientAddress
                       href: web-service-reference/recipientaddress.md
@@ -3005,9 +3005,9 @@
                       href: web-service-reference/recipientfilter.md
                     - name: RecipientIs
                       href: web-service-reference/recipientis.md
-                    - name: Destinataires (ArrayOfRecipientsType)
+                    - name: Recipients (ArrayOfRecipientsType)
                       href: web-service-reference/recipients-arrayofrecipientstype.md
-                    - name: Destinataires (ArrayOfSmtpAddressType)
+                    - name: Recipients (ArrayOfSmtpAddressType)
                       href: web-service-reference/recipients-arrayofsmtpaddresstype.md
                     - name: RecipientTrackingEvent
                       href: web-service-reference/recipienttrackingevent.md
@@ -3017,9 +3017,9 @@
                       href: web-service-reference/recognitionid.md
                     - name: RecognitionResult
                       href: web-service-reference/recognitionresult.md
-                    - name: Périodicité (RecurrenceType)
+                    - name: Recurrence (RecurrenceType)
                       href: web-service-reference/recurrence-recurrencetype.md
-                    - name: Périodicité (TaskRecurrenceType)
+                    - name: Recurrence (TaskRecurrenceType)
                       href: web-service-reference/recurrence-taskrecurrencetype.md
                     - name: RecurrenceId
                       href: web-service-reference/recurrenceid.md
@@ -3035,7 +3035,7 @@
                       href: web-service-reference/recurringmasteritemidranges.md
                     - name: ReferenceAttachment
                       href: web-service-reference/referenceattachment.md
-                    - name: Type complexe ReferenceAttachmentType
+                    - name: ReferenceAttachmentType complexType
                       href: web-service-reference/referenceattachmenttype-complextype-ews.md
                     - name: RedirectToRecipients
                       href: web-service-reference/redirecttorecipients.md
@@ -3043,11 +3043,11 @@
                       href: web-service-reference/referenceid.md
                     - name: ReferenceItemId
                       href: web-service-reference/referenceitemid.md
-                    - name: Références
+                    - name: References
                       href: web-service-reference/references.md
-                    - name: Affinement
+                    - name: Refiner
                       href: web-service-reference/refiner.md
-                    - name: Affinements
+                    - name: Refiners
                       href: web-service-reference/refiners.md
                     - name: RefreshSharingFolder
                       href: web-service-reference/refreshsharingfolder.md
@@ -3063,7 +3063,7 @@
                       href: web-service-reference/relativeyearlyrecurrence.md
                     - name: RelevanceScore
                       href: web-service-reference/relevancescore.md
-                    - name: Rappel
+                    - name: Reminder
                       href: web-service-reference/reminder.md
                     - name: ReminderDueBy
                       href: web-service-reference/reminderdueby.md
@@ -3081,7 +3081,7 @@
                       href: web-service-reference/reminderminutesbeforestart.md
                     - name: ReminderNextTime
                       href: web-service-reference/remindernexttime.md
-                    - name: Rappels
+                    - name: Reminders
                       href: web-service-reference/reminders.md
                     - name: ReminderText
                       href: web-service-reference/remindertext.md
@@ -3125,7 +3125,7 @@
                       href: web-service-reference/replyto.md
                     - name: ReplyToItem
                       href: web-service-reference/replytoitem.md
-                    - name: Modèle d’état
+                    - name: ReportTemplate
                       href: web-service-reference/reporttemplate.md
                     - name: RequestedConfiguration
                       href: web-service-reference/requestedconfiguration.md
@@ -3139,7 +3139,7 @@
                       href: web-service-reference/requesttype.md
                     - name: RequiredAttendees
                       href: web-service-reference/requiredattendees.md
-                    - name: Résolution
+                    - name: Resolution
                       href: web-service-reference/resolution.md
                     - name: ResolutionSet
                       href: web-service-reference/resolutionset.md
@@ -3149,7 +3149,7 @@
                       href: web-service-reference/resolvenamesresponse.md
                     - name: ResolveNamesResponseMessage
                       href: web-service-reference/resolvenamesresponsemessage.md
-                    - name: Ressources
+                    - name: Resources
                       href: web-service-reference/resources.md
                     - name: ResponseCode
                       href: web-service-reference/responsecode.md
@@ -3203,15 +3203,15 @@
                       href: web-service-reference/rightsmanagementlicensedata.md
                     - name: RMSTemplateId
                       href: web-service-reference/rmstemplateid.md
-                    - name: Rôle
+                    - name: Role
                       href: web-service-reference/role.md
-                    - name: Salle
+                    - name: Room
                       href: web-service-reference/room.md
                     - name: RoomList
                       href: web-service-reference/roomlist.md
                     - name: RoomLists
                       href: web-service-reference/roomlists.md
-                    - name: Salles
+                    - name: Rooms
                       href: web-service-reference/rooms.md
                     - name: RootAddress
                       href: web-service-reference/rootaddress.md
@@ -3225,23 +3225,23 @@
                       href: web-service-reference/routingtype-emailaddresstype.md
                     - name: RoutingType (EmailAddress)
                       href: web-service-reference/routingtype-emailaddress.md
-                    - name: Règle
+                    - name: Rule
                       href: web-service-reference/rule.md
                     - name: Règle (RuleType)
                       href: web-service-reference/rule-ruletype.md
-                    - name: ID de la règle
+                    - name: RuleId
                       href: web-service-reference/ruleid.md
                     - name: RuleOperationError
                       href: web-service-reference/ruleoperationerror.md
                     - name: RuleOperationErrors
                       href: web-service-reference/ruleoperationerrors.md
-                    - name: 'Règles '
+                    - name: 'Rules '
                       href: web-service-reference/rules-ex15websvcsotherref.md
                     - name: SavedItemFolderId
                       href: web-service-reference/saveditemfolderid.md
                     - name: SchemaVersionSupported
                       href: web-service-reference/schemaversionsupported.md
-                    - name: Écoles
+                    - name: Schools
                       href: web-service-reference/schools.md
                     - name: Étendue (ClientAccessTokenRequestType)
                       href: web-service-reference/scope-clientaccesstokenrequesttype.md
@@ -3263,7 +3263,7 @@
                       href: web-service-reference/searchfilter.md
                     - name: SearchFolder
                       href: web-service-reference/searchfolder.md
-                    - name: Valeur SearchId
+                    - name: SearchId
                       href: web-service-reference/searchid.md
                     - name: SearchItemKind
                       href: web-service-reference/searchitemkind.md
@@ -3289,15 +3289,15 @@
                       href: web-service-reference/securityidentifier.md
                     - name: SeekToConditionPageItemView
                       href: web-service-reference/seektoconditionpageitemview.md
-                    - name: Expéditeur
+                    - name: Sender
                       href: web-service-reference/sender.md
-                    - name: Expéditeur (EmailAddressType)
+                    - name: Sender (EmailAddressType)
                       href: web-service-reference/sender-emailaddresstype.md
-                    - name: Expéditeur (chaîne)
+                    - name: Sender (String)
                       href: web-service-reference/sender-string.md
                     - name: SenderDepartments
                       href: web-service-reference/senderdepartments.md
-                    - name: Expéditeurs
+                    - name: Senders
                       href: web-service-reference/senders.md
                     - name: SenderSmtpAddress
                       href: web-service-reference/sendersmtpaddress.md
@@ -3317,7 +3317,7 @@
                       href: web-service-reference/sendnotificationresult.md
                     - name: SendPrompt
                       href: web-service-reference/sendprompt.md
-                    - name: Critère de diffusion
+                    - name: Sensitivity
                       href: web-service-reference/sensitivity.md
                     - name: SendSMSAlertToRecipients
                       href: web-service-reference/sendsmsalerttorecipients.md
@@ -3325,7 +3325,7 @@
                       href: web-service-reference/sentccme.md
                     - name: SentOnlyToMe
                       href: web-service-reference/sentonlytome.md
-                    - name: Heure d’envoi
+                    - name: SentTime
                       href: web-service-reference/senttime.md
                     - name: SentToAddresses
                       href: web-service-reference/senttoaddresses.md
@@ -3335,7 +3335,7 @@
                       href: web-service-reference/senttoorccme.md
                     - name: SerializedSecurityContext
                       href: web-service-reference/serializedsecuritycontext.md
-                    - name: Serveur (MessageTracking)
+                    - name: Server (MessageTracking)
                       href: web-service-reference/server-messagetracking.md
                     - name: ServerHint
                       href: web-service-reference/serverhint.md
@@ -3409,7 +3409,7 @@
                       href: web-service-reference/sipresponsetext.md
                     - name: Size
                       href: web-service-reference/size.md
-                    - name: Taille (long)
+                    - name: Size (long)
                       href: web-service-reference/size-long.md
                     - name: SizeRequested
                       href: web-service-reference/sizerequested.md
@@ -3433,7 +3433,7 @@
                       href: web-service-reference/sourceids.md
                     - name: SpecificUsers
                       href: web-service-reference/specificusers.md
-                    - name: NomEpoux
+                    - name: SpouseName
                       href: web-service-reference/spousename.md
                     - name: SpouseNames
                       href: web-service-reference/spousenames.md
@@ -3443,9 +3443,9 @@
                       href: web-service-reference/standardgroupby.md
                     - name: StandardTime
                       href: web-service-reference/standardtime.md
-                    - name: Démarrer
+                    - name: Start
                       href: web-service-reference/start.md
-                    - name: Date de début
+                    - name: StartDate
                       href: web-service-reference/startdate.md
                     - name: StartDate (périodicité)
                       href: web-service-reference/startdate-recurrence.md
@@ -3455,9 +3455,9 @@
                       href: web-service-reference/startfindingalspeechrecognition.md
                     - name: StartFindInGALSpeechRecognitionResponse
                       href: web-service-reference/startfindingalspeechrecognitionresponse.md
-                    - name: Heure de début
+                    - name: StartTime
                       href: web-service-reference/starttime.md
-                    - name: Heure de début (ReminderMessageDataType)
+                    - name: StartTime (ReminderMessageDataType)
                       href: web-service-reference/starttime-remindermessagedatatype.md
                     - name: StartTimeInMinutes
                       href: web-service-reference/starttimeinminutes.md
@@ -3467,17 +3467,17 @@
                       href: web-service-reference/starttimezoneid.md
                     - name: StartWallClock
                       href: web-service-reference/startwallclock.md
-                    - name: État
+                    - name: State
                       href: web-service-reference/state-ex15websvcsotherref.md
-                    - name: État (TeamMailboxLifecycleStateType)
+                    - name: State (TeamMailboxLifecycleStateType)
                       href: web-service-reference/state-teammailboxlifecyclestatetype.md
                     - name: StateDefinition
                       href: web-service-reference/statedefinition.md
-                    - name: État
+                    - name: Status
                       href: web-service-reference/status.md
-                    - name: État (HoldStatusType)
+                    - name: Status (HoldStatusType)
                       href: web-service-reference/status-holdstatustype.md
-                    - name: État (MemberStatusType)
+                    - name: Status (MemberStatusType)
                       href: web-service-reference/status-memberstatustype.md
                     - name: StatusDescription
                       href: web-service-reference/statusdescription.md
@@ -3493,7 +3493,7 @@
                       href: web-service-reference/storeentryid.md
                     - name: StreamingSubscriptionRequest
                       href: web-service-reference/streamingsubscriptionrequest.md
-                    - name: Rue
+                    - name: Street
                       href: web-service-reference/street.md
                     - name: String
                       href: web-service-reference/string.md
@@ -3501,15 +3501,15 @@
                       href: web-service-reference/stringarrayattributedvalue.md
                     - name: StringAttributedValue
                       href: web-service-reference/stringattributedvalue.md
-                    - name: Sujet (CalendarEventDetails)
+                    - name: Subject (CalendarEventDetails)
                       href: web-service-reference/subject-calendareventdetails.md
-                    - name: Objet
+                    - name: Subject
                       href: web-service-reference/subject.md
                     - name: SubmittedTime
                       href: web-service-reference/submittedtime.md
                     - name: SubmitTime
                       href: web-service-reference/submittime.md
-                    - name: S’abonner
+                    - name: Subscribe
                       href: web-service-reference/subscribe.md
                     - name: SubscribeResponse
                       href: web-service-reference/subscriberesponse.md
@@ -3521,7 +3521,7 @@
                       href: web-service-reference/subscriptionid-getstreamingevents.md
                     - name: SubscriptionStatus
                       href: web-service-reference/subscriptionstatus.md
-                    - name: Suffixe
+                    - name: Suffix
                       href: web-service-reference/suffix.md
                     - name: Suggestion
                       href: web-service-reference/suggestion.md
@@ -3541,9 +3541,9 @@
                       href: web-service-reference/suppressreadreceipt.md
                     - name: SuppressReadReceipts
                       href: web-service-reference/suppressreadreceipts.md
-                    - name: Nom de famille
+                    - name: Surname
                       href: web-service-reference/surname.md
-                    - name: Prénoms
+                    - name: Surnames
                       href: web-service-reference/surnames.md
                     - name: SyncFolderHierarchy
                       href: web-service-reference/syncfolderhierarchy.md
@@ -3565,9 +3565,9 @@
                       href: web-service-reference/syncstate-ex15websvcsotherref.md
                     - name: SyncState (base64Binary)
                       href: web-service-reference/syncstate-base64binary.md
-                    - name: Tâche
+                    - name: Task
                       href: web-service-reference/task.md
-                    - name: Dossier tâches
+                    - name: TasksFolder
                       href: web-service-reference/tasksfolder.md
                     - name: TasksFolderPermissionLevel
                       href: web-service-reference/tasksfolderpermissionlevel.md
@@ -3589,49 +3589,49 @@
                       href: web-service-reference/templatename.md
                     - name: TentativelyAcceptItem
                       href: web-service-reference/tentativelyacceptitem.md
-                    - name: Terme
+                    - name: Term
                       href: web-service-reference/term.md
                     - name: TextBody
                       href: web-service-reference/textbody.md
-                    - name: Heure
+                    - name: Time
                       href: web-service-reference/time.md
-                    - name: Heure (TimeChangeType)
+                    - name: Time (TimeChangeType)
                       href: web-service-reference/time-timechangetype.md
                     - name: TimeOffset
                       href: web-service-reference/timeoffset.md
                     - name: Timeout
                       href: web-service-reference/timeout.md
-                    - name: Délai d’expiration (durée)
+                    - name: Timeout (Duration)
                       href: web-service-reference/timeout-duration.md
-                    - name: Horodatage
+                    - name: TimeStamp
                       href: web-service-reference/timestamp.md
-                    - name: Durée
+                    - name: TimeWindow
                       href: web-service-reference/timewindow.md
-                    - name: Fuseau horaire (disponibilité)
+                    - name: TimeZone (Availability)
                       href: web-service-reference/timezone-availability.md
-                    - name: Fuseau horaire (élément)
+                    - name: TimeZone (Item)
                       href: web-service-reference/timezone-item.md
                     - name: TimeZoneContext
                       href: web-service-reference/timezonecontext.md
-                    - name: Définition de fuseau horaire
+                    - name: TimeZoneDefinition
                       href: web-service-reference/timezonedefinition.md
                     - name: TimeZoneDefinitions
                       href: web-service-reference/timezonedefinitions.md
-                    - name: Titre
+                    - name: Title
                       href: web-service-reference/title.md
-                    - name: Titres
+                    - name: Titles
                       href: web-service-reference/titles.md
-                    - name: Action
+                    - name: To
                       href: web-service-reference/to.md
                     - name: ToDate
                       href: web-service-reference/todate.md
                     - name: ToFolderId
                       href: web-service-reference/tofolderid.md
-                    - name: Émission de jeton
+                    - name: Token
                       href: web-service-reference/token.md
-                    - name: Jeton (ClientAccessTokenType)
+                    - name: Token (ClientAccessTokenType)
                       href: web-service-reference/token-clientaccesstokentype.md
-                    - name: Jeton (chaîne)
+                    - name: Token (String)
                       href: web-service-reference/token-string.md
                     - name: TokenRequest
                       href: web-service-reference/tokenrequest.md
@@ -3671,7 +3671,7 @@
                       href: web-service-reference/transitionsgroups.md
                     - name: 'True'
                       href: web-service-reference/true.md
-                    - name: DURÉE DE VIE
+                    - name: TTL
                       href: web-service-reference/ttl.md
                     - name: TTL (ClientAccessTokenTypeType)
                       href: web-service-reference/ttl-clientaccesstokentypetype.md
@@ -3679,7 +3679,7 @@
                       href: web-service-reference/ttytddphonenumbers.md
                     - name: Type (ElcFolderType)
                       href: web-service-reference/type-elcfoldertype.md
-                    - name: Type (chaîne)
+                    - name: Type (String)
                       href: web-service-reference/type-string.md
                     - name: Type (UserConfiguration)
                       href: web-service-reference/type-userconfiguration.md
@@ -3687,7 +3687,7 @@
                       href: web-service-reference/uid.md
                     - name: UID (ReminderType)
                       href: web-service-reference/uid-remindertype.md
-                    - name: UmEnabled
+                    - name: UMEnabled
                       href: web-service-reference/umenabled.md
                     - name: UnifiedMessagingConfiguration
                       href: web-service-reference/unifiedmessagingconfiguration.md
@@ -3723,15 +3723,15 @@
                       href: web-service-reference/unreadcount.md
                     - name: UnresolvedEntry
                       href: web-service-reference/unresolvedentry.md
-                    - name: Se désabonner
+                    - name: Unsubscribe
                       href: web-service-reference/unsubscribe.md
                     - name: UnsubscribeResponse
                       href: web-service-reference/unsubscriberesponse.md
                     - name: UnsubscribeResponseMessage
                       href: web-service-reference/unsubscriberesponsemessage.md
-                    - name: Mise à jour (FolderSync)
+                    - name: Update (FolderSync)
                       href: web-service-reference/update-foldersync.md
-                    - name: Mise à jour (ItemSync)
+                    - name: Update (ItemSync)
                       href: web-service-reference/update-itemsync.md
                     - name: UpdateDelegate
                       href: web-service-reference/updatedelegate.md
@@ -3767,9 +3767,9 @@
                       href: web-service-reference/updatemailboxassociationresponse.md
                     - name: UpdateMailboxAssociationResponseMessage
                       href: web-service-reference/updatemailboxassociationresponsemessage.md
-                    - name: Mises à jour (dossier)
+                    - name: Updates (Folder)
                       href: web-service-reference/updates-folder.md
-                    - name: Mises à jour (élément)
+                    - name: Updates (Item)
                       href: web-service-reference/updates-item.md
                     - name: UpdateUserConfiguration
                       href: web-service-reference/updateuserconfiguration.md
@@ -3787,11 +3787,11 @@
                       href: web-service-reference/url-ex15websvcsotherref.md
                     - name: UrlEntity
                       href: web-service-reference/urlentity.md
-                    - name: URL
+                    - name: Urls
                       href: web-service-reference/urls.md
                     - name: URL (ArrayOfUrlEntitiesType)
                       href: web-service-reference/urls-arrayofurlentitiestype.md
-                    - name: Utilisateur (MailboxAssociationType)
+                    - name: User (MailboxAssociationType)
                       href: web-service-reference/user-mailboxassociationtype.md
                     - name: UserConfiguration
                       href: web-service-reference/userconfiguration.md
@@ -3805,9 +3805,9 @@
                       href: web-service-reference/userenabledextensions.md
                     - name: UserId
                       href: web-service-reference/userid.md
-                    - name: Nom d’utilisateur (chaîne)
+                    - name: UserId (String)
                       href: web-service-reference/userid-string.md
-                    - name: ID utilisateur
+                    - name: UserIds
                       href: web-service-reference/userids.md
                     - name: UserMailbox
                       href: web-service-reference/usermailbox.md
@@ -3825,31 +3825,31 @@
                       href: web-service-reference/usersmimecertificate.md
                     - name: ValidationErrors
                       href: web-service-reference/validationerrors.md
-                    - name: Valeur
+                    - name: Value
                       href: web-service-reference/value.md
-                    - name: Valeur (ArrayOfStringValueType)
+                    - name: Value (ArrayOfStringValueType)
                       href: web-service-reference/value-arrayofstringvaluetype.md
-                    - name: Valeur (BodyContentType)
+                    - name: Value (BodyContentType)
                       href: web-service-reference/value-bodycontenttype.md
-                    - name: Valeur (EmailAddressType)
+                    - name: Value (EmailAddressType)
                       href: web-service-reference/value-emailaddresstype.md
-                    - name: Valeur (ExtendedAttributeType)
+                    - name: Value (ExtendedAttributeType)
                       href: web-service-reference/value-extendedattributetype.md
-                    - name: Valeur (ExtendedPropertyType)
+                    - name: Value (ExtendedPropertyType)
                       href: web-service-reference/value-extendedpropertytype.md
-                    - name: Valeur (le suivi des messages)
+                    - name: Value (MessageTracking)
                       href: web-service-reference/value-message-tracking.md
-                    - name: Valeur (PersonaPhoneNumberType)
+                    - name: Value (PersonaPhoneNumberType)
                       href: web-service-reference/value-personaphonenumbertype.md
-                    - name: Valeur (PersonaPostalAddressType)
+                    - name: Value (PersonaPostalAddressType)
                       href: web-service-reference/value-personapostaladdresstype.md
-                    - name: Valeur (ProtectionRuleValueType)
+                    - name: Value (ProtectionRuleValueType)
                       href: web-service-reference/value-protectionrulevaluetype.md
-                    - name: Valeur (UserConfiguration)
+                    - name: Value (UserConfiguration)
                       href: web-service-reference/value-userconfiguration.md
-                    - name: Valeurs
+                    - name: Values
                       href: web-service-reference/values.md
-                    - name: Valeurs (ArrayOfStringValueType)
+                    - name: Values (ArrayOfStringValueType)
                       href: web-service-reference/values-arrayofstringvaluetype.md
                     - name: ViewPrivateItems
                       href: web-service-reference/viewprivateitems.md
@@ -3859,7 +3859,7 @@
                       href: web-service-reference/votingoptiondata.md
                     - name: VotingResponse
                       href: web-service-reference/votingresponse.md
-                    - name: Filigrane
+                    - name: Watermark
                       href: web-service-reference/watermark.md
                     - name: WebClientEditFormQueryString
                       href: web-service-reference/webclienteditformquerystring.md
@@ -3873,7 +3873,7 @@
                       href: web-service-reference/weeklyrecurrence.md
                     - name: WeeklyRegeneration
                       href: web-service-reference/weeklyregeneration.md
-                    - name: Lors de l'exécution de
+                    - name: When
                       href: web-service-reference/when.md
                     - name: WithinDateRange
                       href: web-service-reference/withindaterange.md
@@ -3895,7 +3895,7 @@
                       href: web-service-reference/wouldrepair.md
                     - name: XmlData
                       href: web-service-reference/xmldata.md
-                    - name: Année
+                    - name: Year
                       href: web-service-reference/year.md
                     - name: YearlyRegeneration
                       href: web-service-reference/yearlyregeneration.md
@@ -3911,12 +3911,12 @@
                       href: web-service-reference/yomilastname.md
                     - name: YomiLastNames
                       href: web-service-reference/yomilastnames.md
-            - name: Référence d’API managées
+            - name: Référence d’API managée EWS
               href: 'https://msdn.microsoft.com/EN-US/library/jj220535(v=exchg.80).aspx'
             - name: Référence de service web de découverte automatique
               href: web-service-reference/autodiscover-web-service-reference-for-exchange.md
               items:
-                - name: Référence de service web SOAP découverte automatique
+                - name: Référence de service web de découverte automatique SOAP
                   href: web-service-reference/soap-autodiscover-web-service-reference-for-exchange.md
                   items:
                     - name: Opération GetDomainSettings (SOAP)
@@ -3927,7 +3927,7 @@
                       href: web-service-reference/getusersettings-operation-soap.md
                     - name: Opération GetOrganizationRelationshipSettings (SOAP)
                       href: web-service-reference/getorganizationrelationshipsettings-operation-soap.md
-                    - name: Éléments du fichier XML Autodiscover SOAP
+                    - name: Éléments XML de découverte automatique SOAP
                       href: web-service-reference/soap-autodiscover-xml-elements-for-exchange-2013.md
                       items:
                         - name: AlternateMailbox (SOAP)
@@ -3984,7 +3984,7 @@
                           href: web-service-reference/domainsettings-soap.md
                         - name: DomainStringSetting (SOAP)
                           href: web-service-reference/domainstringsetting-soap.md
-                        - name: EncryptionMethod (SOAP)
+                        - name: EncryptionMethod
                           href: web-service-reference/encryptionmethod-soap.md
                         - name: Point de terminaison (SOAP)
                           href: web-service-reference/endpoint-soap.md
@@ -4032,7 +4032,7 @@
                           href: web-service-reference/getusersettingsresponse-soap.md
                         - name: GetUserSettingsResponseMessage (SOAP)
                           href: web-service-reference/getusersettingsresponsemessage-soap.md
-                        - name: Nom d’hôte (SOAP)
+                        - name: Hostname (SOAP)
                           href: web-service-reference/hostname-soap.md
                         - name: IsDefault (SOAP)
                           href: web-service-reference/isdefault-soap.md
@@ -4040,7 +4040,7 @@
                           href: web-service-reference/legacydn-soap.md
                         - name: LocationUrl (SOAP)
                           href: web-service-reference/locationurl-soap.md
-                        - name: Boîte aux lettres (SOAP)
+                        - name: Mailbox (SOAP)
                           href: web-service-reference/mailbox-soap.md
                         - name: MailTipsAccessEnabled (SOAP)
                           href: web-service-reference/mailtipsaccessenabled-soap.md
@@ -4056,7 +4056,7 @@
                           href: web-service-reference/minorbuildnumber-soap.md
                         - name: MinorVersion (SOAP)
                           href: web-service-reference/minorversion-soap.md
-                        - name: Nom (SOAP)
+                        - name: Name (SOAP)
                           href: web-service-reference/name-soap.md
                         - name: OrganizationRelationshipSettingsCollection (SOAP)
                           href: web-service-reference/organizationrelationshipsettingscollection-soap.md
@@ -4072,13 +4072,13 @@
                           href: web-service-reference/protocolconnections-soap.md
                         - name: RedirectTarget (SOAP)
                           href: web-service-reference/redirecttarget-soap.md
-                        - name: Demande (SOAP)
+                        - name: Request (SOAP)
                           href: web-service-reference/request-soap.md
-                        - name: Demande (GetDomainSettings) (SOAP)
+                        - name: Request (GetDomainSettings) (SOAP)
                           href: web-service-reference/request-getdomainsettingssoap.md
-                        - name: Demande (GetFederationInformation) (SOAP)
+                        - name: Request (GetFederationInformation) (SOAP)
                           href: web-service-reference/request-getfederationinformationsoap.md
-                        - name: Demande (GetOrganizationRelationship) (SOAP)
+                        - name: Request (GetOrganizationRelationship) (SOAP)
                           href: web-service-reference/request-getorganizationrelationshipsoap.md
                         - name: RequestedVersion (SOAP)
                           href: web-service-reference/requestedversion-soap.md
@@ -4086,23 +4086,23 @@
                           href: web-service-reference/requestedserverversion-soap.md
                         - name: RequestedSettings (SOAP)
                           href: web-service-reference/requestedsettings-soap.md
-                        - name: Réponse (SOAP)
+                        - name: Response (SOAP)
                           href: web-service-reference/response-soap.md
-                        - name: Réponse (GetDomainSettings) (SOAP)
+                        - name: Response (GetDomainSettings) (SOAP)
                           href: web-service-reference/response-getdomainsettingssoap.md
-                        - name: Réponse (GetFederationInformation) (SOAP)
+                        - name: Response (GetFederationInformation) (SOAP)
                           href: web-service-reference/response-getfederationinformationsoap.md
-                        - name: Réponse (GetOrganizationRelationship) (SOAP)
+                        - name: Response (GetOrganizationRelationship) (SOAP)
                           href: web-service-reference/response-getorganizationrelationshipsoap.md
-                        - name: Serveur (SOAP)
+                        - name: Server (SOAP)
                           href: web-service-reference/server-soap.md
                         - name: ServerVersionInfo (SOAP)
                           href: web-service-reference/serverversioninfo-soap.md
                         - name: ServiceUrl (SOAP)
                           href: web-service-reference/serviceurl-soap.md
-                        - name: Paramètre (SOAP)
+                        - name: Setting (SOAP)
                           href: web-service-reference/setting-soap.md
-                        - name: Nom du paramètre (SOAP)
+                        - name: SettingName (SOAP)
                           href: web-service-reference/settingname-soap.md
                         - name: SmtpAddress (SOAP)
                           href: web-service-reference/smtpaddress-soap.md
@@ -4122,17 +4122,17 @@
                           href: web-service-reference/tokenissuers-soap.md
                         - name: Type (SOAP)
                           href: web-service-reference/type-soap.md
-                        - name: URI (SOAP)
+                        - name: Uri (SOAP)
                           href: web-service-reference/uri-soap.md
-                        - name: URL (SOAP)
+                        - name: Url (SOAP)
                           href: web-service-reference/url-soap.md
-                        - name: Utilisateur (SOAP)
+                        - name: User (SOAP)
                           href: web-service-reference/user-soap.md
-                        - name: Réponse de l’utilisateur (SOAP)
+                        - name: UserResponse (SOAP)
                           href: web-service-reference/userresponse-soap.md
                         - name: UserResponses (SOAP)
                           href: web-service-reference/userresponses-soap.md
-                        - name: Utilisateurs (SOAP)
+                        - name: Users (SOAP)
                           href: web-service-reference/users-soap.md
                         - name: UserSetting (SOAP)
                           href: web-service-reference/usersetting-soap.md
@@ -4142,7 +4142,7 @@
                           href: web-service-reference/usersettingerrors-soap.md
                         - name: UserSettings (SOAP)
                           href: web-service-reference/usersettings-soap.md
-                        - name: Valeur (SOAP)
+                        - name: Value (SOAP)
                           href: web-service-reference/value-soap.md
                         - name: Version (SOAP)
                           href: web-service-reference/version-soap.md
@@ -4152,25 +4152,25 @@
                           href: web-service-reference/webclienturlcollectionsetting-soap.md
                         - name: WebClientUrls (SOAP)
                           href: web-service-reference/webclienturls-soap.md
-                - name: Référence de service web variole découverte automatique
+                - name: Référence de service web de découverte automatique POX
                   href: web-service-reference/pox-autodiscover-web-service-reference-for-exchange.md
                   items:
                     - name: Demande de découverte automatique POX
                       href: web-service-reference/pox-autodiscover-request-for-exchange.md
                     - name: Réponse de découverte automatique POX
                       href: web-service-reference/pox-autodiscover-response-for-exchange.md
-                    - name: Éléments du fichier XML Autodiscover POX
+                    - name: Éléments XML de découverte automatique POX
                       href: web-service-reference/pox-autodiscover-xml-elements-for-exchange.md
                       items:
                         - name: AcceptableResponseSchema (POX)
                           href: web-service-reference/acceptableresponseschema-pox.md
-                        - name: Compte (POX)
+                        - name: Account (POX)
                           href: web-service-reference/account-pox.md
                         - name: AccountType (POX)
                           href: web-service-reference/accounttype-pox.md
                         - name: Action (POX)
                           href: web-service-reference/action-pox.md
-                        - name: Carnet d’adresses (POX)
+                        - name: AddressBook (POX)
                           href: web-service-reference/addressbook-pox.md
                         - name: ASUrl (POX)
                           href: web-service-reference/asurl-pox.md
@@ -4178,7 +4178,7 @@
                           href: web-service-reference/authpackage-pox.md
                         - name: AuthRequired (POX)
                           href: web-service-reference/authrequired-pox.md
-                        - name: Découverte automatique (POX)
+                        - name: AutoDiscover (POX)
                           href: web-service-reference/autodiscover-pox.md
                         - name: AutoDiscoverSMTPAddress (POX)
                           href: web-service-reference/autodiscoversmtpaddress-pox.md
@@ -4206,7 +4206,7 @@
                           href: web-service-reference/ecpurl-mt-pox.md
                         - name: EcpUrl-photo (POX)
                           href: web-service-reference/ecpurl-photo-pox.md
-                        - name: Publication EcpUrl (POX)
+                        - name: EcpUrl-publish (POX)
                           href: web-service-reference/ecpurl-publish-pox.md
                         - name: EcpUrl-ret (POX)
                           href: web-service-reference/ecpurl-ret-pox.md
@@ -4220,7 +4220,7 @@
                           href: web-service-reference/ecpurl-tmediting-pox.md
                         - name: EcpUrl-tmHiding (POX)
                           href: web-service-reference/ecpurl-tmhiding-pox.md
-                        - name: EcpUrl-MU POX)
+                        - name: EcpUrl-um (POX)
                           href: web-service-reference/ecpurl-um-pox.md
                         - name: EMailAddress (POX)
                           href: web-service-reference/emailaddress-pox.md
@@ -4234,7 +4234,7 @@
                           href: web-service-reference/ewspartnerurl-pox.md
                         - name: EwsUrl (POX)
                           href: web-service-reference/ewsurl-pox.md
-                        - name: Externe (POX)
+                        - name: External (POX)
                           href: web-service-reference/external-pox.md
                         - name: ExternalUrl (POX)
                           href: web-service-reference/externalurl-pox.md
@@ -4242,7 +4242,7 @@
                           href: web-service-reference/groupinginformation-pox.md
                         - name: Image (POX)
                           href: web-service-reference/image-pox.md
-                        - name: Interne (POX)
+                        - name: Internal (POX)
                           href: web-service-reference/internal-pox.md
                         - name: InternalUrl (POX)
                           href: web-service-reference/internalurl-pox.md
@@ -4258,7 +4258,7 @@
                           href: web-service-reference/legacydn-pox.md
                         - name: LoginName (POX)
                           href: web-service-reference/loginname-pox.md
-                        - name: Magasin de courrier électronique (POX)
+                        - name: MailStore (POX)
                           href: web-service-reference/mailstore-pox.md
                         - name: MdbDN (POX)
                           href: web-service-reference/mdbdn-pox.md
@@ -4276,7 +4276,7 @@
                           href: web-service-reference/owaurl-pox.md
                         - name: Port (POX)
                           href: web-service-reference/port-pox.md
-                        - name: Protocole (POX)
+                        - name: Protocol (POX)
                           href: web-service-reference/protocol-pox.md
                         - name: PublicFolderInformation (POX)
                           href: web-service-reference/publicfolderinformation-pox.md
@@ -4288,11 +4288,11 @@
                           href: web-service-reference/redirecturl-pox.md
                         - name: ReferralPort (POX)
                           href: web-service-reference/referralport-pox.md
-                        - name: Demande (POX)
+                        - name: Request (POX)
                           href: web-service-reference/request-pox.md
-                        - name: Réponse (POX)
+                        - name: Response (POX)
                           href: web-service-reference/response-pox.md
-                        - name: Serveur (POX)
+                        - name: Server (POX)
                           href: web-service-reference/server-pox.md
                         - name: ServerDN (POX)
                           href: web-service-reference/serverdn-pox.md
@@ -4318,15 +4318,15 @@
                           href: web-service-reference/umurl-pox.md
                         - name: UsePOPAuth (POX)
                           href: web-service-reference/usepopauth-pox.md
-                        - name: Utilisateur (POX)
+                        - name: User (POX)
                           href: web-service-reference/user-pox.md
-            - name: Référence de service web messagerie unifiée
+            - name: Référence du service web de messagerie unifiée
               href: web-service-reference/unified-messaging-web-service-reference-for-exchange.md
               items:
-                - name: Opérations de service web messagerie unifiées
+                - name: Opérations du service web de messagerie unifiée
                   href: web-service-reference/unified-messaging-web-service-operations-for-exchange.md
                   items:
-                    - name: (Service web de messagerie unifiée) de l’opération de déconnexion
+                    - name: Opération de déconnexion (service web de messagerie unifiée)
                       href: web-service-reference/disconnect-operation-um-web-service.md
                     - name: Opération GetCallInfo (service web de messagerie unifiée)
                       href: web-service-reference/getcallinfo-operation-um-web-service.md
@@ -4348,22 +4348,22 @@
                       href: web-service-reference/setplayonphonedialstring-operation-um-web-service.md
                     - name: Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)
                       href: web-service-reference/settelephoneaccessfolderemail-operation-um-web-service.md
-                - name: Éléments XML de Unified Messaging web service
+                - name: Éléments XML du service web de messagerie unifiée
                   href: web-service-reference/unified-messaging-web-service-xml-elements-for-exchange.md
                   items:
                     - name: base64FolderId (service web de messagerie unifiée)
                       href: web-service-reference/base64folderid-um-web-service.md
-                    - name: ID d’appel (service web de messagerie unifiée)
+                    - name: CallId (service web de messagerie unifiée)
                       href: web-service-reference/callid-um-web-service.md
                     - name: CallState (service web de messagerie unifiée)
                       href: web-service-reference/callstate-um-web-service.md
                     - name: dialString (service web de messagerie unifiée)
                       href: web-service-reference/dialstring-um-web-service.md
-                    - name: Déconnecter (service web de messagerie unifiée)
+                    - name: Disconnect (service web de messagerie unifiée)
                       href: web-service-reference/disconnect-um-web-service.md
                     - name: DisconnectResponse (service web de messagerie unifiée)
                       href: web-service-reference/disconnectresponse-um-web-service.md
-                    - name: propriété entryId (service web de messagerie unifiée)
+                    - name: entryId (service web de messagerie unifiée)
                       href: web-service-reference/entryid-um-web-service.md
                     - name: EventCause (service web de messagerie unifiée)
                       href: web-service-reference/eventcause-um-web-service.md
@@ -4411,9 +4411,9 @@
                       href: web-service-reference/settelephoneaccessfolderemail-um-web-service.md
                     - name: SetTelephoneAccessFolderEmailResponse (service web de messagerie unifiée)
                       href: web-service-reference/settelephoneaccessfolderemailresponse-um-web-service.md
-                    - name: État (service web de messagerie unifiée - SetMissedCallNotificationEnabled)
+                    - name: Statut (service web de messagerie unifiée - SetMissedCallNotificationEnabled)
                       href: web-service-reference/status-um-web-servicesetmissedcallnotificationenabled.md
-                    - name: État (service web de messagerie unifiée - SetOofStatus)
+                    - name: Statut (service web de messagerie unifiée - SetOofStatus)
                       href: web-service-reference/status-um-web-servicesetoofstatus.md
                     - name: MissedCallNotificationEnabled (service web de messagerie unifiée)
                       href: web-service-reference/missedcallnotificationenabled-um-web-service.md
@@ -4423,34 +4423,34 @@
                       href: web-service-reference/telephoneaccessnumbers-um-web-service.md
                     - name: TelephoneAccessFolderEmail (service web de messagerie unifiée)
                       href: web-service-reference/telephoneaccessfolderemail-um-web-service.md
-            - name: Référence de proxy généré automatiquement EWS
+            - name: Référence au proxy auto-généré EWS
               href: 'https://msdn.microsoft.com/EN-US/library/jj190899(v=exchg.150).aspx'
-    - name: "Exchange\_Management\_Shell"
+    - name: Environnement de ligne de commande Exchange Management Shell
       href: management/exchange-management-shell.md
       items:
-        - name: Créer des outils Exchange Management Shell
+        - name: "Créer des outils d’environnement de ligne de commande Exchange\_Management\_Shell"
           href: management/create-exchange-management-shell-tools.md
           items:
-            - name: Applets de commande nouveaux et mis à jour
+            - name: Nouvelles cmdlets et cmdlets mises à jour
               href: management/new-and-updated-exchange-management-shell-cmdlets.md
-            - name: Types d’entrée et de sortie de la cmdlet
+            - name: Types d’entrée et de sortie de cmdlet
               href: management/exchange-management-shell-cmdlet-input-and-output-types.md
-            - name: Obtenir la liste des utilisateurs de messagerie
+            - name: Obtenir une liste d’utilisateurs de messagerie
               href: management/how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md
-            - name: Utilisation de la réponse de l’applet de commande
+            - name: Utiliser la réponse de cmdlet
               href: management/how-to-use-the-exchange-management-shell-cmdlet-response.md
-        - name: Espaces de noms Exchange Management Shell
+        - name: Espaces de noms de l’environnement de ligne de commande Exchange Management Shell
           href: management/exchange-management-shell-namespaces.md
     - name: Agents de transport
       href: transport-agents/transport-agents-in-exchange-2013.md
       items:
-        - name: API agents de transport nouveaux et mis à jour
+        - name: Nouvelles API d’agent de transport et API mises à jour
           href: transport-agents/new-and-updated-transport-agent-apis-in-exchange-2013.md
         - name: Exemples de code
           href: transport-agents/transport-agent-code-samples-for-exchange-2013.md
         - name: Concepts sur les agents de transport
           href: transport-agents/transport-agent-concepts-in-exchange-2013.md
-        - name: Lecture et de modification des messages dans le pipeline de transport
+        - name: Lecture et modification des messages dans le pipeline de transport
           href: transport-agents/reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md
         - name: Création d’agents de transport
           href: transport-agents/creating-transport-agents-for-exchange-2013.md
@@ -4461,10 +4461,10 @@
               href: transport-agents/how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md
             - name: Créer un agent de transport DeliveryAgent
               href: transport-agents/how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md
-        - name: Référence de l’agent de transport
+        - name: Référence à un agent de transport
           href: transport-agents/transport-agent-reference-for-exchange-2013.md
           items:
-            - name: Éléments du fichier configuration agents
+            - name: Éléments de fichier de configuration des agents
               href: transport-agents/agents-configuration-file-elements-for-exchange-2013.md
               items:
                 - name: agent
@@ -4479,7 +4479,7 @@
                   href: transport-agents/messagesnapshot.md
                 - name: mexRuntime
                   href: transport-agents/mexruntime.md
-                - name: surveillance
+                - name: monitoring
                   href: transport-agents/monitoring.md
             - name: Espaces de noms de l’agent de transport
               href: transport-agents/transport-agent-namespaces-in-exchange-2013.md
@@ -4489,20 +4489,20 @@
         - name: Concepts de sauvegarde et de restauration
           href: backup-restore/backup-and-restore-concepts-for-exchange-2013.md
           items:
-            - name: Les journaux de transactions et des fichiers de point de contrôle
+            - name: Journaux de transaction et fichiers de point de contrôle
               href: backup-restore/transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md
             - name: Enregistreur d’Exchange
               href: backup-restore/exchange-writer-in-exchange-2013.md
-        - name: Créer la sauvegarde et de restauration des applications
+        - name: Créer des applications de sauvegarde et de restauration
           href: backup-restore/build-backup-and-restore-applications-for-exchange-2013.md
           items:
             - name: Types d’opérations de sauvegarde
               href: backup-restore/types-of-backup-operations-for-exchange-2013.md
-            - name: Restaurer les bases de données Exchange 2013
+            - name: "Restauration des bases de données Exchange\_2013"
               href: backup-restore/restoring-exchange-2013-databases.md
-            - name: Valider l’intégrité des sauvegardes à l’aide de l’API CHKSGFILES
+            - name: Vérifier l’intégrité de la sauvegarde à l’aide de l’API CHKSGFILES
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md
-            - name: Valider l’intégrité des sauvegardes à l’aide de l’outil Eseutil
+            - name: Vérifier l’intégrité de la sauvegarde à l’aide de l’outil Eseutil
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
         - name: Référence de classe CChkSGFiles
           href: backup-restore/cchksgfiles-class-reference.md
@@ -4519,7 +4519,7 @@
               href: backup-restore/cchksgfiles-errcheckdbpages-function.md
             - name: Fonction CChkSGFiles.ErrCheckLogs
               href: backup-restore/cchksgfiles-errchecklogs-function.md
-            - name: Fonction CChkSGFiles.ErrGetHeader (réservée)
+            - name: Fonction CChkSGFiles.ErrGetHeader (réservé)
               href: backup-restore/cchksgfiles-errgetheader-function-reserved.md
             - name: Fonction CChkSGFiles.ErrInit
               href: backup-restore/cchksgfiles-errinit-function.md
@@ -4531,9 +4531,9 @@
               href: backup-restore/cchksgfiles-new-function.md
             - name: Énumération CChkSGFiles.NO_FLAGS
               href: backup-restore/cchksgfiles-no_flags-enumeration.md
-            - name: Struct CChkSGFiles.PAGE_INFO
+            - name: Structure CChkSGFiles.PAGE_INFO
               href: backup-restore/cchksgfiles-page_info-struct.md
             - name: Fonction CChkSGFiles.PgnoFromFileOffset
               href: backup-restore/cchksgfiles-pgnofromfileoffset-function.md
-    - name: Référence des API du serveur
+    - name: Référence de l’API serveur
       href: 'https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx'

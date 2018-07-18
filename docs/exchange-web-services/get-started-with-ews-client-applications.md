@@ -8,14 +8,14 @@ ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: Créez votre première application en utilisant Exchange Web Services (EWS) dans Exchange.
 ms.openlocfilehash: 911495c74f4c74114a86b1a3a98c9200db338b34
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754791"
 ---
 # <a name="get-started-with-ews-client-applications"></a>Prise en main des applications clientes EWS
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Créez votre première application en utilisant Exchange Web Services (EWS) dans Exchange.
+Créez votre première application en utilisant Exchange Web Services (EWS) dans Exchange.
   
 EWS est un service complet que vos applications peuvent utiliser pour accéder à presque toutes les informations stockées dans une boîte aux lettres Exchange Online, Exchange Online dans le cadre d'Office 365 ou Exchange en local. EWS utilise les protocoles web standard pour fournir un accès à un serveur Exchange ; les bibliothèques telles que l'[API managée EWS](get-started-with-ews-managed-api-client-applications.md) encapsulent les opérations EWS pour fournir une interface orientée objet. Une fois que vous aurez exécuté les exemples de cet article, vous maîtriserez les concepts de base d'EWS. 
   
@@ -23,9 +23,9 @@ Vous pouvez appeler les opérations EWS à partir de n'importe quel système d'e
   
 ## <a name="youll-need-an-exchange-server"></a>Besoin d'un serveur Exchange
 
-Si vous avez déjà un compte de boîte aux lettres Exchange, vous pouvez ignorer cette étape. Dans le cas contraire, vous pouvez configurer une boîte aux lettres Exchange pour votre première application EWS par le biais des méthodes suivantes :
+Si vous avez déjà un compte de boîte aux lettres Exchange, vous pouvez ignorer cette étape. Dans le cas contraire, vous pouvez configurer une boîte aux lettres Exchange pour votre première application EWS par le biais des méthodes suivantes :
   
-- En obtenant un [site de développement Office 365](http://msdn.microsoft.com/en-us/library/office/fp179924.aspx) (recommandé). Il s'agit de la manière la plus rapide d'obtenir une boîte aux lettres Exchange.
+- En obtenant un [site de développement Office 365](http://msdn.microsoft.com/fr-FR/library/office/fp179924.aspx) (recommandé). Il s'agit de la manière la plus rapide d'obtenir une boîte aux lettres Exchange.
     
 - En téléchargeant [Exchange Server](http://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
     
@@ -39,23 +39,23 @@ Si vous testez votre application à l'aide d'un serveur Exchange qui comporte le
 
 Les outils que vous utilisez pour créer votre première application EWS dépendent de votre système d'exploitation et de votre langage, selon vos goûts personnels principalement. Si vous voulez suivre les exemples C# de cet article, vous avez besoin des éléments suivants : 
   
-- Toute version de Visual Studio qui prend en charge .NET Framework 4.0. 
+- Toute version de Visual Studio qui prend en charge .NET Framework 4.0. 
     
-- Une connexion Internet que votre ordinateur de développement peut utiliser pour contacter votre serveur Exchange. Si vous pouvez utiliser Outlook Web App avec un nom DNS plutôt qu'avec une adresse IP pour vous connecter à votre serveur Exchange, la configuration est opérationnelle.
+- Une connexion Internet que votre ordinateur de développement peut utiliser pour contacter votre serveur Exchange. Si vous pouvez utiliser Outlook Web App avec un nom DNS plutôt qu’avec une adresse IP pour vous connecter à votre serveur Exchange, la configuration est opérationnelle.
     
 ## <a name="create-your-first-ews-application"></a>Création de votre première application EWS
 
-L'application EWS que vous allez créer illustre deux scénarios courants d'utilisation d'EWS :
+L’application EWS que vous allez créer illustre deux scénarios courants d’utilisation d’EWS :
   
-1. Obtenir des informations à partir d'une boîte aux lettres Exchange et afficher ces informations à l'utilisateur.
+1. Obtenir des informations à partir d’une boîte aux lettres Exchange et afficher ces informations à l’utilisateur.
     
-2. Effectuer une action, comme envoyer un courrier électronique et vérifier la réponse pour voir si l'action a réussi.
+2. Effectuer une action, comme envoyer un courrier électronique et vérifier la réponse pour voir si l’action a réussi.
     
 Nous allons commencer.
   
 ### <a name="set-up-the-solution"></a>Configurer la solution
 
-Commencez par créer une solution d'application console à l'aide de Visual Studio. Lorsque la solution est prête, créez un objet nommé Tracing.cs. Utilisez cet objet pour écrire des informations sur la console et un fichier journal afin de pouvoir consulter les résultats après l'exécution de votre code. Collez le code suivant dans le fichier Tracing.cs.
+Commencez par créer une solution d’application console à l’aide de Visual Studio. Lorsque la solution est prête, créez un objet nommé Tracing.cs. Utilisez cet objet pour écrire des informations sur la console et un fichier journal afin de pouvoir consulter les résultats après l’exécution de votre code. Collez le code suivant dans le fichier Tracing.cs.
   
 ```cs
 using System;
@@ -94,15 +94,15 @@ namespace Microsoft.Exchange.Samples.EWS
 }
 ```
 
-Ouvrez ensuite le fichier Program.cs. Copiez le reste du code de l'exemple dans ce fichier.
+Ouvrez ensuite le fichier Program.cs. Copiez le reste du code de l’exemple dans ce fichier.
   
-Tout d'abord, configurez le shell du programme. Le programme : 
+Tout d’abord, configurez le shell du programme. Le programme : 
   
 1. Crée un fichier journal afin que la demande et la réponse puissent être écrites sur le disque pour consultation ultérieure.
     
 2. Obtient l'adresse de messagerie et le mot de passe du compte auquel vous accédez.
     
-3. Appelle les méthodes de l'échantillon.
+3. Appelle les méthodes de l’échantillon.
     
 Remplacez la méthode  `Main` dans Program.cs par le code suivant. 
   
@@ -198,7 +198,7 @@ Parmi les opérations courantes qu'une application EWS peut effectuer, on peut c
     
 - Analyse de la réponse XML renvoyée pour les informations demandées.
     
-- Gestion des exceptions et messages d'erreur courants.
+- Gestion des exceptions et messages d’erreur courants.
     
 Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a été générée après la méthode principale. Lorsque vous exécutez l'application, elle imprime le nombre de messages dans la boîte de réception du compte et le nombre de messages non lus dans la boîte de réception. Après avoir exécuté l'application, vous pouvez ouvrir le fichier GetStartedWithEWS.log pour afficher la requête XML qui a été envoyée au serveur Exchange et la réponse que le serveur a renvoyée. 
   
@@ -315,15 +315,15 @@ Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a ét�
 
 ### <a name="send-an-email-message"></a>Envoyer un message électronique
 
-Une autre opération courante pour une application EWS consiste à envoyer des messages électroniques ou des demandes de réunion. Cet exemple crée et envoie un message électronique à l'aide les informations d'identification utilisateur qui ont été entrées précédemment. Il illustre ces tâches d'application EWS courantes :
+Une autre opération courante pour une application EWS consiste à envoyer des messages électroniques ou des demandes de réunion. Cet exemple crée et envoie un message électronique à l’aide les informations d’identification utilisateur qui ont été entrées précédemment. Il illustre ces tâches d’application EWS courantes :
   
-- Création et envoi d'un courrier électronique.
+- Création et envoi d’un courrier électronique.
     
 - Analyse de la réponse XML renvoyée pour déterminer si le message a été envoyé correctement.
     
-- Gestion des exceptions et messages d'erreur courants.
+- Gestion des exceptions et messages d’erreur courants.
     
-Ajoutez le code suivant à la méthode SendTestEmail qui a été générée après la méthode principale. Après avoir exécuté l'application, vous pouvez ouvrir le fichier GetStartedWithEWS.log pour afficher la requête XML qui a été envoyée au serveur Exchange et la réponse que le serveur a renvoyée.
+Ajoutez le code suivant à la méthode SendTestEmail qui a été générée après la méthode principale. Après avoir exécuté l’application, vous pouvez ouvrir le fichier GetStartedWithEWS.log pour afficher la requête XML qui a été envoyée au serveur Exchange et la réponse que le serveur a renvoyée.
   
 ```cs
 var createItemSOAPRequest =

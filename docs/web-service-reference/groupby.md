@@ -12,19 +12,19 @@ api_type:
 - schema
 ms.assetid: 9728619b-4674-4b9d-9f6c-e75c6165966c
 description: L’élément GroupBy spécifie un regroupement pour les requêtes FindItem arbitraire.
-ms.openlocfilehash: d85c0fddec244c99dfbea1f85da331fc5319536d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cdf9b9906025bc91768bb4a14acb2573801c4e12
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827753"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353216"
 ---
-# <a name="groupby"></a><span data-ttu-id="b3ccd-103">GroupBy</span><span class="sxs-lookup"><span data-stu-id="b3ccd-103">GroupBy</span></span>
+# <a name="groupby"></a><span data-ttu-id="0a86a-103">GroupBy</span><span class="sxs-lookup"><span data-stu-id="0a86a-103">GroupBy</span></span>
 
-<span data-ttu-id="b3ccd-104">L’élément **GroupBy** spécifie un regroupement pour les requêtes FindItem arbitraire.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-104">The **GroupBy** element specifies an arbitrary grouping for FindItem queries.</span></span> 
+<span data-ttu-id="0a86a-104">L’élément **GroupBy** spécifie un regroupement pour les requêtes FindItem arbitraire.</span><span class="sxs-lookup"><span data-stu-id="0a86a-104">The **GroupBy** element specifies an arbitrary grouping for FindItem queries.</span></span> 
   
-- [<span data-ttu-id="b3ccd-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="b3ccd-105">FindItem</span></span>](finditem.md)
-- [<span data-ttu-id="b3ccd-106">GroupBy</span><span class="sxs-lookup"><span data-stu-id="b3ccd-106">GroupBy</span></span>](groupby.md)
+- [<span data-ttu-id="0a86a-105">FindItem</span><span class="sxs-lookup"><span data-stu-id="0a86a-105">FindItem</span></span>](finditem.md)
+- [<span data-ttu-id="0a86a-106">GroupBy</span><span class="sxs-lookup"><span data-stu-id="0a86a-106">GroupBy</span></span>](groupby.md)
   
 ```xml
 <GroupBy Order="">
@@ -33,57 +33,72 @@ ms.locfileid: "19827753"
 </GroupBy>
 ```
 
- <span data-ttu-id="b3ccd-107">**GroupByType**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-107">**GroupByType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="b3ccd-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="b3ccd-108">Attributes and elements</span></span>
+```xml
+<GroupBy Order="">
+   <ExtendededFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
 
-<span data-ttu-id="b3ccd-109">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+```xml
+<GroupBy Order="">
+   <IndexedFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+<span data-ttu-id="0a86a-107">**GroupByType**</span><span class="sxs-lookup"><span data-stu-id="0a86a-107">**GroupByType**</span></span>
+
+## <a name="attributes-and-elements"></a><span data-ttu-id="0a86a-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="0a86a-108">Attributes and elements</span></span>
+
+<span data-ttu-id="0a86a-109">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="0a86a-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b3ccd-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="b3ccd-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0a86a-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="0a86a-110">Attributes</span></span>
 
-|<span data-ttu-id="b3ccd-111">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-111">**Attribute**</span></span>|<span data-ttu-id="b3ccd-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-112">**Description**</span></span>|
+|<span data-ttu-id="0a86a-111">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="0a86a-111">**Attribute**</span></span>|<span data-ttu-id="0a86a-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="0a86a-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b3ccd-113">**Order**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-113">**Order**</span></span> <br/> | <span data-ttu-id="b3ccd-114">Détermine l’ordre des groupes dans le tableau élément groupé qui est renvoyé dans la réponse.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-114">Determines the order of the groups in the grouped item array that is returned in the response.</span></span> <span data-ttu-id="b3ccd-115">Cet attribut est de type SortDirectionType.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-115">This attribute is of type SortDirectionType.</span></span>  <br/> |
+|<span data-ttu-id="0a86a-113">**Order**</span><span class="sxs-lookup"><span data-stu-id="0a86a-113">**Order**</span></span> <br/> | <span data-ttu-id="0a86a-114">Détermine l’ordre des groupes dans le tableau élément groupé qui est renvoyé dans la réponse.</span><span class="sxs-lookup"><span data-stu-id="0a86a-114">Determines the order of the groups in the grouped item array that is returned in the response.</span></span> <span data-ttu-id="0a86a-115">Cet attribut est de type SortDirectionType.</span><span class="sxs-lookup"><span data-stu-id="0a86a-115">This attribute is of type SortDirectionType.</span></span>  <br/> |
    
-#### <a name="order-attribute-values"></a><span data-ttu-id="b3ccd-116">Valeurs d’attribut ordre</span><span class="sxs-lookup"><span data-stu-id="b3ccd-116">Order attribute values</span></span>
+#### <a name="order-attribute-values"></a><span data-ttu-id="0a86a-116">Valeurs d’attribut ordre</span><span class="sxs-lookup"><span data-stu-id="0a86a-116">Order attribute values</span></span>
 
-|<span data-ttu-id="b3ccd-117">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-117">**Value**</span></span>|<span data-ttu-id="b3ccd-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-118">**Description**</span></span>|
+|<span data-ttu-id="0a86a-117">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="0a86a-117">**Value**</span></span>|<span data-ttu-id="0a86a-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="0a86a-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b3ccd-119">Croissant</span><span class="sxs-lookup"><span data-stu-id="b3ccd-119">Ascending</span></span>  <br/> |<span data-ttu-id="b3ccd-120">Les groupes sont triés par ordre croissant.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-120">The groups are ordered in ascending order.</span></span>  <br/> |
-|<span data-ttu-id="b3ccd-121">Décroissant</span><span class="sxs-lookup"><span data-stu-id="b3ccd-121">Descending</span></span>  <br/> |<span data-ttu-id="b3ccd-122">Les groupes sont triés par ordre décroissant.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-122">The groups are ordered in descending order.</span></span>  <br/> |
+|<span data-ttu-id="0a86a-119">Croissant</span><span class="sxs-lookup"><span data-stu-id="0a86a-119">Ascending</span></span>  <br/> |<span data-ttu-id="0a86a-120">Les groupes sont triés par ordre croissant.</span><span class="sxs-lookup"><span data-stu-id="0a86a-120">The groups are ordered in ascending order.</span></span>  <br/> |
+|<span data-ttu-id="0a86a-121">Décroissant</span><span class="sxs-lookup"><span data-stu-id="0a86a-121">Descending</span></span>  <br/> |<span data-ttu-id="0a86a-122">Les groupes sont triés par ordre décroissant.</span><span class="sxs-lookup"><span data-stu-id="0a86a-122">The groups are ordered in descending order.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="b3ccd-123">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="b3ccd-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0a86a-123">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="0a86a-123">Child elements</span></span>
 
-|<span data-ttu-id="b3ccd-124">**Élément**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-124">**Element**</span></span>|<span data-ttu-id="b3ccd-125">**Description**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-125">**Description**</span></span>|
+|<span data-ttu-id="0a86a-124">**Élément**</span><span class="sxs-lookup"><span data-stu-id="0a86a-124">**Element**</span></span>|<span data-ttu-id="0a86a-125">**Description**</span><span class="sxs-lookup"><span data-stu-id="0a86a-125">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b3ccd-126">FieldURI</span><span class="sxs-lookup"><span data-stu-id="b3ccd-126">FieldURI</span></span>](fielduri.md) <br/> |<span data-ttu-id="b3ccd-127">Identifie les propriétés fréquemment référencées par un URI.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-127">Identifies frequently referenced properties by URI.</span></span>  <br/> |
-|[<span data-ttu-id="b3ccd-128">IndexedFieldURI</span><span class="sxs-lookup"><span data-stu-id="b3ccd-128">IndexedFieldURI</span></span>](indexedfielduri.md) <br/> |<span data-ttu-id="b3ccd-129">Identifie les membres individuels d’un dictionnaire.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-129">Identifies individual members of a dictionary.</span></span>  <br/> |
-|[<span data-ttu-id="b3ccd-130">ExtendedFieldURI</span><span class="sxs-lookup"><span data-stu-id="b3ccd-130">ExtendedFieldURI</span></span>](extendedfielduri.md) <br/> |<span data-ttu-id="b3ccd-131">Identifie les propriétés MAPI étendues pour obtenir, définir ou créer.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-131">Identifies extended MAPI properties to get, set, or create.</span></span>  <br/> |
-|[<span data-ttu-id="b3ccd-132">AggregateOn</span><span class="sxs-lookup"><span data-stu-id="b3ccd-132">AggregateOn</span></span>](aggregateon.md) <br/> |<span data-ttu-id="b3ccd-133">Représente le champ qui est utilisé pour déterminer l’ordre des groupes dans une réponse.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-133">Represents the field that is used to determine the order of groups in a response.</span></span>  <br/> |
+|[<span data-ttu-id="0a86a-126">FieldURI</span><span class="sxs-lookup"><span data-stu-id="0a86a-126">FieldURI</span></span>](fielduri.md) <br/> |<span data-ttu-id="0a86a-127">Identifie les propriétés fréquemment référencées par un URI.</span><span class="sxs-lookup"><span data-stu-id="0a86a-127">Identifies frequently referenced properties by URI.</span></span>  <br/> |
+|[<span data-ttu-id="0a86a-128">IndexedFieldURI</span><span class="sxs-lookup"><span data-stu-id="0a86a-128">IndexedFieldURI</span></span>](indexedfielduri.md) <br/> |<span data-ttu-id="0a86a-129">Identifie les membres individuels d’un dictionnaire.</span><span class="sxs-lookup"><span data-stu-id="0a86a-129">Identifies individual members of a dictionary.</span></span>  <br/> |
+|[<span data-ttu-id="0a86a-130">ExtendedFieldURI</span><span class="sxs-lookup"><span data-stu-id="0a86a-130">ExtendedFieldURI</span></span>](extendedfielduri.md) <br/> |<span data-ttu-id="0a86a-131">Identifie les propriétés MAPI étendues pour obtenir, définir ou créer.</span><span class="sxs-lookup"><span data-stu-id="0a86a-131">Identifies extended MAPI properties to get, set, or create.</span></span>  <br/> |
+|[<span data-ttu-id="0a86a-132">AggregateOn</span><span class="sxs-lookup"><span data-stu-id="0a86a-132">AggregateOn</span></span>](aggregateon.md) <br/> |<span data-ttu-id="0a86a-133">Représente le champ qui est utilisé pour déterminer l’ordre des groupes dans une réponse.</span><span class="sxs-lookup"><span data-stu-id="0a86a-133">Represents the field that is used to determine the order of groups in a response.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="b3ccd-134">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="b3ccd-134">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0a86a-134">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="0a86a-134">Parent elements</span></span>
 
-|<span data-ttu-id="b3ccd-135">**Élément**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-135">**Element**</span></span>|<span data-ttu-id="b3ccd-136">**Description**</span><span class="sxs-lookup"><span data-stu-id="b3ccd-136">**Description**</span></span>|
+|<span data-ttu-id="0a86a-135">**Élément**</span><span class="sxs-lookup"><span data-stu-id="0a86a-135">**Element**</span></span>|<span data-ttu-id="0a86a-136">**Description**</span><span class="sxs-lookup"><span data-stu-id="0a86a-136">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b3ccd-137">FindItem</span><span class="sxs-lookup"><span data-stu-id="b3ccd-137">FindItem</span></span>](finditem.md) <br/> |<span data-ttu-id="b3ccd-138">Définit une requête pour rechercher des éléments dans une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-138">Defines a request to find items in a mailbox.</span></span>  <br/><br/> <span data-ttu-id="b3ccd-139">Vous trouverez ci-dessous l’expression XPath pour cet élément :`/FindItem`</span><span class="sxs-lookup"><span data-stu-id="b3ccd-139">The following is the XPath expression to this element:  `/FindItem`</span></span> <br/> |
+|[<span data-ttu-id="0a86a-137">FindItem</span><span class="sxs-lookup"><span data-stu-id="0a86a-137">FindItem</span></span>](finditem.md) <br/> |<span data-ttu-id="0a86a-138">Définit une requête pour rechercher des éléments dans une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="0a86a-138">Defines a request to find items in a mailbox.</span></span>  <br/><br/> <span data-ttu-id="0a86a-139">Vous trouverez ci-dessous l’expression XPath pour cet élément :`/FindItem`</span><span class="sxs-lookup"><span data-stu-id="0a86a-139">The following is the XPath expression to this element:  `/FindItem`</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b3ccd-140">Remarques</span><span class="sxs-lookup"><span data-stu-id="b3ccd-140">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0a86a-140">Remarques</span><span class="sxs-lookup"><span data-stu-id="0a86a-140">Remarks</span></span>
 
-<span data-ttu-id="b3ccd-141">La réponse FindItem contient une collection de groupes.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-141">The FindItem response will contain a collection of groups.</span></span> <span data-ttu-id="b3ccd-142">Chaque groupe contiendra tous les éléments ayant des valeurs de la propriété **GroupBy** correspondantes.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-142">Each group will contain all items that had matching values for the **GroupBy** property.</span></span> <span data-ttu-id="b3ccd-143">La propriété qui détermine le groupement est identifiée dans l’élément [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI](extendedfielduri.md) .</span><span class="sxs-lookup"><span data-stu-id="b3ccd-143">The property that determines the grouping is identified in the [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md), or [ExtendedFieldURI](extendedfielduri.md) element.</span></span> 
+<span data-ttu-id="0a86a-141">La réponse FindItem contient une collection de groupes.</span><span class="sxs-lookup"><span data-stu-id="0a86a-141">The FindItem response will contain a collection of groups.</span></span> <span data-ttu-id="0a86a-142">Chaque groupe contiendra tous les éléments ayant des valeurs de la propriété **GroupBy** correspondantes.</span><span class="sxs-lookup"><span data-stu-id="0a86a-142">Each group will contain all items that had matching values for the **GroupBy** property.</span></span> <span data-ttu-id="0a86a-143">La propriété qui détermine le groupement est identifiée dans l’élément [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI](extendedfielduri.md) .</span><span class="sxs-lookup"><span data-stu-id="0a86a-143">The property that determines the grouping is identified in the [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md), or [ExtendedFieldURI](extendedfielduri.md) element.</span></span> 
   
-<span data-ttu-id="b3ccd-144">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="b3ccd-144">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="0a86a-144">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="0a86a-144">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="b3ccd-145">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="b3ccd-145">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0a86a-145">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="0a86a-145">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b3ccd-146">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="b3ccd-146">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="b3ccd-147">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="b3ccd-147">Schema Name</span></span>  <br/> |<span data-ttu-id="b3ccd-148">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="b3ccd-148">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="b3ccd-149">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="b3ccd-149">Validation File</span></span>  <br/> |<span data-ttu-id="b3ccd-150">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="b3ccd-150">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="b3ccd-151">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="b3ccd-151">Can be Empty</span></span>  <br/> |<span data-ttu-id="b3ccd-152">False</span><span class="sxs-lookup"><span data-stu-id="b3ccd-152">False</span></span>  <br/> |
+|<span data-ttu-id="0a86a-146">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="0a86a-146">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="0a86a-147">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="0a86a-147">Schema Name</span></span>  <br/> |<span data-ttu-id="0a86a-148">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="0a86a-148">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="0a86a-149">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="0a86a-149">Validation File</span></span>  <br/> |<span data-ttu-id="0a86a-150">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="0a86a-150">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="0a86a-151">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="0a86a-151">Can be Empty</span></span>  <br/> |<span data-ttu-id="0a86a-152">False</span><span class="sxs-lookup"><span data-stu-id="0a86a-152">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b3ccd-153">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b3ccd-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a86a-153">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0a86a-153">See also</span></span>
 
-- [<span data-ttu-id="b3ccd-154">Opération FindItem</span><span class="sxs-lookup"><span data-stu-id="b3ccd-154">FindItem operation</span></span>](finditem-operation.md)
-- [<span data-ttu-id="b3ccd-155">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="b3ccd-155">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="b3ccd-156">Recherche d’éléments</span><span class="sxs-lookup"><span data-stu-id="b3ccd-156">Finding Items</span></span>](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [<span data-ttu-id="0a86a-154">Opération FindItem</span><span class="sxs-lookup"><span data-stu-id="0a86a-154">FindItem operation</span></span>](finditem-operation.md)
+- [<span data-ttu-id="0a86a-155">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="0a86a-155">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="0a86a-156">Recherche d’éléments</span><span class="sxs-lookup"><span data-stu-id="0a86a-156">Finding Items</span></span>](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

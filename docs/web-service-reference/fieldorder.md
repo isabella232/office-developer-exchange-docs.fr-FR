@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
 description: L’élément FieldOrder représente un seul champ à utiliser pour trier les résultats et indique le sens du tri.
-ms.openlocfilehash: 10e28f066f7fa6799bf6b03b694d98825f95626d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 320a7b821cc593e7dd60a8f8adb23bcd600f71f8
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756355"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353300"
 ---
 # <a name="fieldorder"></a>FieldOrder
 
@@ -29,7 +29,20 @@ L’élément **FieldOrder** représente un seul champ à utiliser pour trier le
 </FieldOrder>
 ```
 
- **FieldOrderType**
+```xml
+<FieldOrder Order="">
+   <ExtendedFieldURI/> 
+</FieldOrder>
+```
+
+```xml
+<FieldOrder Order="">
+   <IndexedFieldURI/>
+</FieldOrder>
+```
+
+**FieldOrderType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f0e53a53-c352-42a5-8280-cd808b0e961b
 description: L’élément CreatedEvent représente un événement dans lequel un élément ou un dossier est créé.
-ms.openlocfilehash: f52516090d0789b4dd9fc1ced824786ce000e885
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 791b8af87c0cc8ae7f07850e3a6fedd9975a251e
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755690"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353174"
 ---
 # <a name="createdevent"></a>CreatedEvent
 
@@ -32,7 +32,17 @@ L’élément **CreatedEvent** représente un événement dans lequel un éléme
 </CreatedEvent>
 ```
 
- **BaseObjectChangedEventType**
+```xml
+<CreatedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+</CreatedEvent>
+```
+
+**BaseObjectChangedEventType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -45,8 +55,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[Horodatage](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres élément ou le dossier créé.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres élément ou le dossier créé.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier créé.  <br/> |
 |[ID d’élément](itemid.md) <br/> |Représente l’identificateur de l’élément créé.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément ou d’un dossier.  <br/> |
@@ -72,16 +82,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération d'abonnement](subscribe-operation.md)
-  
-[Opération de GetEvents](getevents-operation.md)
-  
-[Opération de résiliation d'abonnement](unsubscribe-operation.md)
-
-
-[À l’aide d’abonnement](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
-  
-[Notifications d’événement dans EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
+- [Opération d'abonnement](subscribe-operation.md)  
+- [Opération de GetEvents](getevents-operation.md)  
+- [Opération de résiliation d'abonnement](unsubscribe-operation.md)
+- [À l’aide d’abonnement](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
+- [Notifications d’événement dans EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
 

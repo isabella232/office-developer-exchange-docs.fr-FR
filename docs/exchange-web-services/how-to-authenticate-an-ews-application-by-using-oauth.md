@@ -1,19 +1,19 @@
 ---
-title: Authentifier une demande EWS à l’aide d’OAuth
+title: Authentifier une application EWS à l’aide d’OAuth
 manager: sethgros
-ms.date: 1/15/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managées.
-ms.openlocfilehash: 66bbc0525ecf78407e853da0c8dcdec92791ca56
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8b6a3fd72e42a36e31f261205292de28ef341270
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754803"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353580"
 ---
-# <a name="authenticate-an-ews-application-by-using-oauth"></a>Authentifier une demande EWS à l’aide d’OAuth
+# <a name="authenticate-an-ews-application-by-using-oauth"></a>Authentifier une application EWS à l’aide d’OAuth
 
 Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managées.
   
@@ -30,9 +30,9 @@ Vous pouvez utiliser le service d’authentification OAuth fourni par Azure Acti
   
 Pour utiliser le code dans cet article, vous devez avoir accès à ce qui suit :
   
-- Un [compte de développeur Office 365](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx). Vous pouvez utiliser un compte d’évaluation pour tester votre application
+- Un [compte de développeur Office 365](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program). Vous pouvez utiliser un compte d’évaluation pour tester votre application.
     
-- La [bibliothèque d’authentification Azure AD pour .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).
+- La [bibliothèque d’authentification Azure AD pour .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries).
     
 - [L’API managée](https://github.com/officedev/ews-managed-api.aspx).
 
@@ -40,7 +40,7 @@ Pour utiliser le code dans cet article, vous devez avoir accès à ce qui suit 
 
 ## <a name="register-your-application"></a>Inscrire votre application
 
-Pour utiliser OAuth, une application doit avoir un identificateur de client et une application URI qui identifie l’application. Si vous n’avez pas encore inscrit votre application avec les Services Azure Active Directory, vous devez ajouter manuellement l’application en suivant les étapes indiquées sous [Enregistrer vous application](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx).
+Pour utiliser OAuth, une application doit avoir un identificateur de client et une application URI qui identifie l’application. Si vous n’avez pas encore inscrit votre application avec les Services Azure Active Directory, vous devez ajouter manuellement l’application en suivant les étapes indiquées à [inscrire votre application](https://apps.dev.microsoft.com/#/appList).
 
 <a name="bk_getToken"> </a>
 
@@ -177,7 +177,7 @@ L’exemple de code requiert un fichier App.config avec les entrées suivantes 
 
 ## <a name="see-also"></a>Voir aussi
 
-- [L’authentification et les services EWS d’Exchange](authentication-and-ews-in-exchange.md)    
-- [Tester et déployer des applications Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx)
+- [Authentification et EWS dans Exchange](authentication-and-ews-in-exchange.md)    
+
     
 

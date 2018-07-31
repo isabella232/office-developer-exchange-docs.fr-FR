@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 22d30d1f-a84d-48bb-ad8f-ce13f8e76604
 description: L’élément CompleteName représente le nom complet d’un contact.
-ms.openlocfilehash: 1f6c9ba68fe941f848d0e250a39aea6894fca61e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bca6f7e0eb915841673d00b5485da2f0f9794e80
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755522"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354259"
 ---
 # <a name="completename"></a>CompleteName
 
@@ -52,7 +52,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Title](title.md) <br/> |Représente le titre d’un contact.  <br/> |
-|[Prénom](firstname.md) <br/> |Représente le prénom du contact.  <br/> |
+|[FirstName](firstname.md) <br/> |Représente le prénom du contact.  <br/> |
 |[MiddleName](middlename.md) <br/> |Représente le deuxième prénom d'un contact.  <br/> |
 |[LastName](lastname.md) <br/> |Représente le nom d’un contact.  <br/> |
 |[Suffix](suffix.md) <br/> |Représente un suffixe de nom d’un contact.  <br/> |
@@ -70,7 +70,7 @@ Aucun.
    
 ## <a name="remarks"></a>Remarques
 
-La propriété [CompleteName](completename.md) fait partie de la forme [par défaut](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Dans la version initiale de Microsoft Exchange Server 2007, la propriété [CompleteName](completename.md) est retournée par l' [opération GetItem](getitem-operation.md), mais pas l' [opération FindItem](finditem-operation.md). Démarrage avec Exchange Server 2007 Service Pack 1 (SP1), l' [opération FindItem](finditem-operation.md) renvoie la propriété [CompleteName](completename.md) avec la forme [par défaut](https://msdn.microsoft.com/library/ExchangeWebServices.DefaultShapeNamesType.Default.aspx) . Cette modification n’affecte pas le schéma. 
+La propriété CompleteName fait partie de la forme [par défaut](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Dans la version initiale de Microsoft Exchange Server 2007, la propriété CompleteName est retournée par l' [opération GetItem](getitem-operation.md), mais pas l' [opération FindItem](finditem-operation.md). Démarrage avec Exchange Server 2007 Service Pack 1 (SP1), l' [opération FindItem](finditem-operation.md) renvoie la propriété CompleteName avec la forme [par défaut](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Cette modification n’affecte pas le schéma. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -85,17 +85,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
-  
-[CompleteName](https://msdn.microsoft.com/library/ExchangeWebServices.ContactItemType.CompleteName.aspx)
-  
-[contactsCompleteName](https://msdn.microsoft.com/library/ExchangeWebServices.UnindexedFieldURIType.contactsCompleteName.aspx)
-
-
+- [CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

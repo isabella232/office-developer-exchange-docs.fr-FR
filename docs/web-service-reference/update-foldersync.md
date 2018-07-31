@@ -1,5 +1,5 @@
 ---
-title: Mise à jour (FolderSync)
+title: Update (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,26 +12,22 @@ api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
 description: L’élément de mise à jour identifie un seul dossier pour mettre à jour dans le magasin de client local.
-ms.openlocfilehash: 6d4a6233df41ea95e1fd9b394502bfb2728bddb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: bf49741b2478edff450f114dc1464a0528072bea
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838849"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353503"
 ---
-# <a name="update-foldersync"></a>Mise à jour (FolderSync)
+# <a name="update-foldersync"></a>Update (FolderSync)
 
 L’élément de **mise à jour** identifie un seul dossier pour mettre à jour dans le magasin de client local. 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
-  
-[Modifications (hiérarchie)](changes-hierarchy.md)
-  
-[Mise à jour (FolderSync)](update-foldersync.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
+- [Modifications (hiérarchie)](changes-hierarchy.md) 
+- [Update (FolderSync)](update-foldersync.md)
   
 ```xml
 <Update>
@@ -39,7 +35,32 @@ L’élément de **mise à jour** identifie un seul dossier pour mettre à jour 
 </Update>
 ```
 
- **SyncFolderHierarchyCreateOrUpdateType**
+```xml
+<Update>
+   <CalendarFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <ContactsFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <TasksFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <SearchFolder/>
+</Update>
+```
+
+**SyncFolderHierarchyCreateOrUpdateType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -56,7 +77,7 @@ Aucun.
 |[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier contenant principalement des éléments de calendrier.  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche qui se trouve dans une boîte aux lettres.  <br/> |
-|[Dossier tâches](tasksfolder.md) <br/> |Représente une tâche du dossier t est thcontained dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente une tâche du dossier t est thcontained dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -79,10 +100,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération SyncFolderItems](syncfolderitems-operation.md)
-
-
+- [Opération SyncFolderItems](syncfolderitems-operation.md)
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

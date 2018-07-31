@@ -1,19 +1,19 @@
 ---
-title: Courrier électronique et les services EWS d’Exchange
+title: Courrier électronique et les services EWS d'Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d7bdb37-f7f1-409f-9749-f8bcde7dc52a
 description: Découvrez comment travailler avec les messages électroniques, y compris comment créer un message électronique et comment effectuer d’autres tâches liées à la messagerie à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: d222be7409a3c3f4613a2be39b83b977fabb09e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2cd4613635bd2a5ecc061b50b0aecbdde1d32d46
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754770"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353671"
 ---
-# <a name="email-and-ews-in-exchange"></a>Courrier électronique et les services EWS d’Exchange
+# <a name="email-and-ews-in-exchange"></a>Courrier électronique et les services EWS d'Exchange
 
 Découvrez comment travailler avec les messages électroniques, y compris comment créer un message électronique et comment effectuer d’autres tâches liées à la messagerie à l’aide de l’API managée EWS ou EWS dans Exchange.
   
@@ -28,9 +28,9 @@ De même, dans les services EWS, utilisez l’opération [CreateItem](http://msd
 |**Tâche**|**Méthode d'API managée EWS**|**Opération EWS**|
 |:-----|:-----|:-----|
 |Créer  <br/> |[EmailMessage.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|Télécharger  <br/> |[EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
-|Mise à jour  <br/> |[Item.Update](http://msdn.microsoft.com/en-us/library/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Suppression  <br/> |[Item.Delete](http://msdn.microsoft.com/en-us/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Obtenir  <br/> |[EmailMessage.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|Update  <br/> |[Item.Update](http://msdn.microsoft.com/en-us/library/dd635915%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Delete  <br/> |[Item.Delete](http://msdn.microsoft.com/en-us/library/dd635072%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Étant donné que les messages électroniques sont simplement [fortement typées éléments](folders-and-items-in-ews-in-exchange.md#bk_item), dans certains cas, vous travaillez avec eux de la même manière que vous [travailler avec des éléments génériques](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md). 
   

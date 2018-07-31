@@ -8,25 +8,33 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 86cf88f4-09c4-436a-a100-ac5cba0c4388
 description: L’élément GetAppManifestsResponse définit la réponse à une demande d’opération GetAppManifests.
-ms.openlocfilehash: b5eac7c06c39c0ed80a362080db6b0cb37f8f4ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ae9d1d853023a5b42db2e8fee2ed57f585433f69
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756514"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354147"
 ---
 # <a name="getappmanifestsresponse"></a>GetAppManifestsResponse
 
 L’élément **GetAppManifestsResponse** définit la réponse à une demande d’opération **GetAppManifests** . 
   
-```XML
+```xml
 <GetAppManifestsResponse>
     <ResponseCode/>
     <Manifests/>
 </GetAppManifestsResponse>
 ```
 
- **GetAppManifestsResponseType**
+```xml
+<GetAppManifestsResponse>
+    <ResponseCode/>
+    <Apps/>
+</GetAppManifestsResponse>
+```
+
+**GetAppManifestsResponseType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -59,8 +67,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

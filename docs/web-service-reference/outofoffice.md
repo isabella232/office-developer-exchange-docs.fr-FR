@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: fe1256ab-5c0f-467d-abb3-b38a2dc312ae
 description: L’élément OutOfOffice représente le message de réponse et un délai d’expiration pour l’envoi du message de réponse.
-ms.openlocfilehash: 4e1e06ee332c44aeba03e1343c8c3258a2c9631e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f35b84d7a8a37c7a57b58c97fd0d37318bb50a33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828675"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354266"
 ---
 # <a name="outofoffice"></a>OutOfOffice
 
@@ -30,7 +30,14 @@ L’élément **OutOfOffice** représente le message de réponse et un délai d�
 </OutOfOffice>
 ```
 
- **OutOfOfficeMailTip**
+```XML
+<OutOfOffice>
+   <ReplyBody/>
+</OutOfOffice>
+```
+
+**OutOfOfficeMailTip**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -50,7 +57,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Les infos-courrier](mailtips.md) <br/> |Représente les valeurs pour les différents types d’astuces de la messagerie.  <br/> |
+|[MailTips](mailtips.md) <br/> |Représente les valeurs pour les différents types d’astuces de la messagerie.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -70,8 +77,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

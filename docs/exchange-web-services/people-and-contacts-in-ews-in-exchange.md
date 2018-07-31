@@ -1,19 +1,19 @@
 ---
-title: Personnes et des contacts dans EWS dans Exchange
+title: Personnes et contacts dans EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 043c33be-a0d1-4bad-a840-85715eda4813
 description: Découvrez les personnages, le magasin de contacts unifié et comment travailler avec des contacts à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: fe11c6247cade8e78610d953088f6d593bdb560c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7cdb2360c86c42829602d9d75fbff5c9d383f6fd
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755060"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354063"
 ---
-# <a name="people-and-contacts-in-ews-in-exchange"></a>Personnes et des contacts dans EWS dans Exchange
+# <a name="people-and-contacts-in-ews-in-exchange"></a>Personnes et contacts dans EWS dans Exchange
 
 Découvrez les personnages, le magasin de contacts unifié et comment travailler avec des contacts à l’aide de l’API managée EWS ou EWS dans Exchange. 
   
@@ -39,7 +39,7 @@ Plusieurs éléments de contact peuvent représenter une seule personne. Exchang
 |Copier un contact  <br/> |[Contact.Copy](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.copy%28v=exchg.80%29.aspx) <br/> |[CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> |
 |Déplacer un contact  <br/> |[Contact.Move](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.move%28v=exchg.80%29.aspx) <br/> |[MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> |
 |Mettre à jour un contact existant  <br/> |[Contact.Bind](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) et [Contact.Update](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/298fdd71-a83d-4407-9728-4f0a8e2d857c%28Office.15%29.aspx) <br/> |
-|Supprimer un contact  <br/> |[Contact.Bind](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) et [Contact.Delete](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Supprimer un contact  <br/> |[Contact.Bind](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.bind%28v=exchg.80%29.aspx) et [Contact.Delete](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
 |Rechercher un contact  <br/> |[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
 |Rechercher des personnes  <br/> |S/O  <br/> |[FindPeople](http://msdn.microsoft.com/library/446106b7-ff2d-4107-90c1-29f4d38ba128%28Office.15%29.aspx) <br/> |
 |Développez un groupe de distribution  <br/> |[ExchangeService.ExpandGroup](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) <br/> |[ExpandDL](http://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) <br/> |
@@ -47,7 +47,7 @@ Plusieurs éléments de contact peuvent représenter une seule personne. Exchang
 |Obtenir un personnage  <br/> |S/O  <br/> |[GetPersona](http://msdn.microsoft.com/library/e2146df0-53d0-4caf-9758-b600bbc14b6a%28Office.15%29.aspx) <br/> |
 |Utilisation de photos des contacts  <br/> |[Contact.SetContactPicture](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.setcontactpicture%28v=exchg.80%29.aspx), [Contact.GetContactPictureAttachment](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.getcontactpictureattachment%28v=exchg.80%29.aspx)ou [Contact.RemoveContactPicture](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contact.setcontactpicture%28v=exchg.80%29.aspx) <br/> |[GetUserPhoto](http://msdn.microsoft.com/library/f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e%28Office.15%29.aspx) ou [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
    
-## <a name="personas"></a>Personnage
+## <a name="personas"></a>Personas
 <a name="PEOPLESEARCH"> </a>
 
 Jusqu'à récemment, contacts ont été généralement stockées dans un seul emplacement : en règle générale, sur un client de messagerie. Aujourd'hui, il devient plus courant de stocker des contacts à de nombreux emplacements différents, comme un téléphone, sur un site de réseau social, dans un dossier Contacts dans une boîte aux lettres Exchange, ou dans le service d’annuaire d’une organisation. Avec la prolifération des informations de contact, il est possible que plusieurs contacts qui représentent la même personne contiennent des informations différentes ; par exemple, un contact peut inclure un numéro de téléphone professionnel et un autre un numéro de téléphone personnel ou un contact stocké dans un dossier de Contacts peut avoir un nom différent de celui du contact pour la personne qui est stocké sur votre téléphone.

@@ -1,19 +1,19 @@
 ---
-title: Utiliser la découverte automatique pour rechercher les points de connexion
+title: Utilisation de la découverte automatique pour rechercher des points de connexion
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03896542-549b-4c45-973c-98f9025ea26c
 description: Découvrez comment utiliser le service de découverte automatique pour diriger votre application cliente vers le serveur Exchange approprié.
-ms.openlocfilehash: 653fcd1c094c23c3e89e903b7194b96720802b51
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: eb3fb3664e5789638c097a43cf48f757bb0713ae
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754953"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353979"
 ---
-# <a name="use-autodiscover-to-find-connection-points"></a>Utiliser la découverte automatique pour rechercher les points de connexion
+# <a name="use-autodiscover-to-find-connection-points"></a>Utilisation de la découverte automatique pour rechercher des points de connexion
 
 Découvrez comment utiliser le service de découverte automatique pour diriger votre application cliente vers le serveur Exchange approprié.
   
@@ -25,24 +25,23 @@ Pour plus d’informations sur la façon d’obtenir des paramètres de configur
 > Le processus pour rechercher le point de terminaison correct fait partie de la demande de l’utilisateur ou les paramètres de domaine. Le service de découverte automatique utilise une série de réponses de redirection pour envoyer l’application cliente au point de terminaison correct pour une adresse de messagerie. 
   
 Vous pouvez utiliser une des technologies de développement Exchange suivantes pour accéder au service de découverte automatique :
-  
-> [!NOTE]
-> Pour plus d’informations sur ces technologies de développement Exchange, voir [Explorer l’API managée EWS, EWS et des services web Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md). 
-  
+
 - API managée des services web Exchange (EWS)
     
 - EWS
     
-    Si vous utilisez EWS, recourez aux méthodes suivantes pour extraire des paramètres utilisateur :
+Si vous utilisez EWS, recourez aux méthodes suivantes pour extraire des paramètres utilisateur :
     
-  - Service de découverte automatique basé sur SOAP
+- Service de découverte automatique basé sur SOAP
     
-  - Service de découverte automatique XML (POX)
+- Service de découverte automatique XML (POX)
     
-  - Proxy généré automatiquement à partir du service de détection automatique SOAP ou XML
+- Proxy généré automatiquement à partir du service de détection automatique SOAP ou XML
     
-    Pour plus d'informations sur ces méthodes, reportez-vous à la section [Découverte automatique pour Exchange](autodiscover-for-exchange.md).
-    
+Pour plus d'informations sur ces méthodes, reportez-vous à la section [Découverte automatique pour Exchange](autodiscover-for-exchange.md).
+
+Pour plus d’informations sur ces technologies de développement Exchange, voir [Explorer l’API managée EWS, EWS et des services web Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md). 
+
 L'API managée EWS fournit une interface basée sur des objets pour récupérer les paramètres de l'utilisateur. Si votre application cliente utilise du code managé, nous vous recommandons de choisir l'API managée EWS. L'interface API managée EWS optimisée pour un modèle d'objet simple présente des performances supérieures au proxy de service web généré automatiquement par défaut. 
   
 Si vous utilisez EWS, nous vous conseillons d'opter pour le service de découverte automatique SOAP, car il prend en charge un ensemble de fonctionnalités plus riche que le service de découverte automatique POX.
@@ -131,7 +130,8 @@ L’exemple suivant montre une requête XML qui est envoyée au service de déco
 
 Le service de découverte automatique peut répondre avec une des deux réponses de redirection : une redirection HTTP 302, ou une réponse de redirection SOAP. Si la réponse du serveur Exchange est une redirection HTTP 302, l’application cliente doit valider que l’adresse de la redirection est acceptable et suivez la réponse de redirection.
   
-> [! Remarque sur la sécurité] pour les critères de validation d’une réponse de redirection, voir [découverte automatique pour Exchange](autodiscover-for-exchange.md). 
+> [!IMPORTANT]
+> D’après les critères de validation d’une réponse de redirection, voir [service de découverte automatique pour Exchange](autodiscover-for-exchange.md). 
   
 Si le service de découverte automatique renvoie une réponse de redirection indiquée par l’élément [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) de l’élément de **réponse utilisateur** , votre application cliente doit utiliser l’élément **RedirectTarget** pour construire une nouvelle demande de paramètres qui est envoyé au serveur spécifié dans la réponse de redirection. L’exemple suivant montre une réponse de redirection à partir du serveur. 
   
@@ -254,19 +254,14 @@ Lors de l’application cliente a été demandée au point de terminaison correc
 
 Recherche le point de terminaison en suivant le processus de découverte automatique renvoie le domaine demandé ou les paramètres utilisateur. Pour plus d’informations sur la création d’une demande pour des paramètres spécifiques, consultez les articles suivants :
   
-- [Obtenir les paramètres de domaine à partir d’un serveur Exchange](how-to-get-domain-settings-from-an-exchange-server.md)
-    
+- [Obtenir les paramètres de domaine à partir d’un serveur Exchange](how-to-get-domain-settings-from-an-exchange-server.md)    
 - [Obtenir les paramètres de l’utilisateur Exchange à l’aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 ## <a name="see-also"></a>Voir aussi
 
-
-- [La configuration de vos applications EWS](setting-up-your-ews-application.md)
-    
-- [Découverte automatique pour Exchange](autodiscover-for-exchange.md)
-    
-- [Référence de service web de découverte automatique pour Exchange](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)
-    
+- [La configuration de vos applications EWS](setting-up-your-ews-application.md)   
+- [Découverte automatique pour Exchange](autodiscover-for-exchange.md)    
+- [Référence de service web de découverte automatique pour Exchange](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
 - [Référence EWS pour Exchange](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
     
 

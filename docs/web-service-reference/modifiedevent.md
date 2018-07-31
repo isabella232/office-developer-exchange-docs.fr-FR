@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ca1309f4-2df7-4289-811c-75c3db0e7072
 description: L’élément ModifiedEvent représente un événement auquel un élément ou un dossier est modifiée.
-ms.openlocfilehash: fb464fb0a270d8ca7d33d40e5425e260970b2f1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2e9fb870396d49efb5cdf307a502b4111c2e507e
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828482"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353811"
 ---
 # <a name="modifiedevent"></a>ModifiedEvent
 
@@ -33,7 +33,18 @@ L’élément **ModifiedEvent** représente un événement auquel un élément o
 </ModifiedEvent>
 ```
 
- **ModifiedEventType**
+```xml
+<ModifiedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <ItemId/> 
+   <ParentFolderId/>
+   <UnreadCount/>
+</ModifiedEvent>
+```
+
+**ModifiedEventType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -46,8 +57,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[Horodatage](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres élément ou le dossier modifié.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres élément ou le dossier modifié.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier modifié.  <br/> |
 |[ID d’élément](itemid.md) <br/> |Représente l’identificateur de l’élément modifié.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément modifié ou d’un dossier.  <br/> |
@@ -76,11 +87,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération d'abonnement](subscribe-operation.md)
-  
-[Opération de GetEvents](getevents-operation.md)
-  
-[Opération de résiliation d'abonnement](unsubscribe-operation.md)
+- [Opération d'abonnement](subscribe-operation.md)  
+- [Opération de GetEvents](getevents-operation.md)  
+- [Opération de résiliation d'abonnement](unsubscribe-operation.md)
 

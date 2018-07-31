@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
 description: Découvrez comment supprimer des rendez-vous et réunions à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: bd7eac803fedffc51133324259f68fd25652fcff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c71272bf753432a9f343adc917b444424fe3ba33
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754828"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354077"
 ---
 # <a name="delete-appointments-and-cancel-meetings-by-using-ews-in-exchange"></a>Supprimer des rendez-vous et annuler des réunions à l’aide de EWS dans Exchange
 
@@ -23,13 +23,14 @@ La principale différence entre les réunions et les rendez-vous réside dans la
 
 |**Méthode d'API managée EWS**|**Opération EWS**|**Fonction**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |Supprime un rendez-vous.  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (élément de calendrier)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |Supprime une réunion.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |Supprime un rendez-vous.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (élément de calendrier)](../web-service-reference/createitem-operation-calendar-item.md) <br/> |Supprime une réunion.  <br/> |
    
-Notez que lorsque vous supprimez un rendez-vous à l’aide de EWS, vous utilisez l’opération [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , mais lorsque vous supprimez une réunion, vous utilisez l’opération [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) . Cela peut sembler intuitive, mais c’est parce que vous devez créer une réunion des messages d’objet response pour envoyer l’annulation de réunion aux participants. 
-  
-## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Supprimer un rendez-vous à l’aide de l’API managée EWS
+Notez que lorsque vous supprimez un rendez-vous à l’aide de EWS, vous utilisez l’opération [DeleteItem](../web-service-reference/deleteitem-operation.md) , mais lorsque vous supprimez une réunion, vous utilisez l’opération [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) . Cela peut sembler intuitive, mais c’est parce que vous devez créer une réunion des messages d’objet response pour envoyer l’annulation de réunion aux participants. 
+
 <a name="bk_DeleteApptEWSMA"> </a>
+
+## <a name="delete-an-appointment-by-using-the-ews-managed-api"></a>Supprimer un rendez-vous à l’aide de l’API managée EWS
 
 L’exemple de code suivant montre comment utiliser la méthode [Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) pour supprimer un rendez-vous de votre dossier de calendrier et la méthode [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) pour vérifier que le rendez-vous a été supprimé en recherchant dans le dossier éléments supprimés. 
   
@@ -63,7 +64,7 @@ Comme vous pouvez le constater, la suppression d’un rendez-vous est simple et 
 
 La demande et la réponse XML dans les exemples suivants correspondent aux appels effectués par le code d’API managées de [Supprimer un rendez-vous à l’aide de l’API managée EWS](#bk_DeleteApptEWSMA). La demande et la réponse XML qui vérifie que l’élément de rendez-vous dans le dossier éléments supprimés est également affiché.
   
-L’exemple suivant montre la requête XML pour l’opération [DeleteItem](http://msdn.microsoft.com/library/e2152410-41ce-1fe7-8169-f206d5081ebc%28Office.15%29.aspx) supprimer un rendez-vous. 
+L’exemple suivant montre la requête XML pour l’opération [DeleteItem](../web-service-reference/deleteitem-operation.md) supprimer un rendez-vous. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,7 +87,7 @@ L’exemple suivant montre la requête XML pour l’opération [DeleteItem](http
 
 ```
 
-L’exemple suivant montre la réponse XML renvoyée par l' [opération DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx). Les attributs **ItemId** et **ChangeKey** sont limitent pour une meilleure lisibilité. 
+L’exemple suivant montre la réponse XML renvoyée par l’opération [DeleteItem](../web-service-reference/deleteitem-operation.md) . Les attributs **ItemId** et **ChangeKey** sont limitent pour une meilleure lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

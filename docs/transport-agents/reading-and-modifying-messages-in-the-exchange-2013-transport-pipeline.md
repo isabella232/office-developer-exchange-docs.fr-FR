@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: En savoir plus sur les classes .NET Framework que vous pouvez utiliser dans Exchange 2013 agents de transport pour lire, écrire et modifier les messages.
-ms.openlocfilehash: c2a5d764140b86ddec49d51ec969aab63eb34f19
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a39d6ecaeb837ce2760d762107e78aa8d4f09f7c
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755148"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354007"
 ---
 # <a name="reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline"></a>Lecture et de modification des messages dans le pipeline de transport Exchange 2013
 
@@ -89,7 +89,7 @@ L’espace de noms iCalendar fournit un lecteur avant uniquement rédacteur pour
   
 Les classes [CalendarReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.aspx) et [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) sont utilisées pour lire et écrire des données de flux de fichier iCalendar. 
   
-Le CalendarReader prend un [flux](https://msdn.microsoft.com/library/System.IO.Stream.aspx) lisible en tant qu’argument à ses constructeurs. Vous pouvez ensuite utiliser les méthodes [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx) , [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx) et [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) à accès séquentiel les composants iCalendar dans le flux de données. Selon la valeur que vous avez définies pour la propriété [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , erreurs dans le flux de fichier iCalendar provoquent une exception est levée ou entraînera la propriété [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) être définie sur une valeur autre que [conforme](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarComplianceStatus.Compliant.aspx) . Vous pouvez vérifier cette propriété pour découvrir des problèmes avec les données entrantes iCalendar. 
+Le CalendarReader prend un [flux](https://msdn.microsoft.com/library/System.IO.Stream.aspx) lisible en tant qu’argument à ses constructeurs. Vous pouvez ensuite utiliser les méthodes [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx), [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx)et [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) à accès séquentiel les composants iCalendar dans le flux de données. Selon la valeur que vous avez définies pour la propriété [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) , erreurs dans le flux de fichier iCalendar provoquent une exception est levée ou entraînera la propriété [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) être définie sur une valeur autre que [conforme](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx). Vous pouvez vérifier cette propriété pour découvrir des problèmes avec les données entrantes iCalendar. 
   
 La classe [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) prend un [flux de données](https://msdn.microsoft.com/library/System.IO.Stream.aspx) accessible en écriture en tant qu’argument à ses constructeurs. 
   
@@ -116,7 +116,7 @@ Les classes [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.D
   
 La classe [MimeDocument](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeDocument.aspx) encapsule un modèle DOM. Les classes [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) et [MimeWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeWriter.aspx) représentent les ordinateurs de l’état. Leur modification de l’état en fonction de l’entrée reçu et les méthodes appelées. Les figures 2 à 5 sont les diagrammes de transition d’état simplifiée qui montrent, pour l’objet [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) , les méthodes sont valides pour appeler à partir de chaque état et l’état qui provoquera. 
   
-Pour utiliser ces diagrammes, suivez les flèches d’un état à l’autre, en notant les appels de méthode ou renvoyer les valeurs qui provoquent l’état à modifier. Par exemple, dans le premier schéma, supposons que vous êtes au début de l’objet stream qui appartient à la MimeReader que vous avez créée. Pour obtenir l’état des en-têtes de composant, appelez [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) ou [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx) , dans cet ordre. Si les en-têtes (autrement dit, si le MIME est correct), vous entrez dans l’état d’en-têtes de composant. Dans le cas contraire, une exception est levée. 
+Pour utiliser ces diagrammes, suivez les flèches d’un état à l’autre, en notant les appels de méthode ou renvoyer les valeurs qui provoquent l’état à modifier. Par exemple, dans le premier schéma, supposons que vous êtes au début de l’objet stream qui appartient à la MimeReader que vous avez créée. Pour obtenir l’état des en-têtes de composant, appelez [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) ou [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx), dans cet ordre. Si les en-têtes (autrement dit, si le MIME est correct), vous entrez dans l’état d’en-têtes de composant. Dans le cas contraire, une exception est levée. 
   
 **La figure 2. Diagramme de transition d’état simplifié pour les objets MimeReader**
 
@@ -219,7 +219,7 @@ L’espace de noms vCard contient les classes, les structures et énumérations 
 ## <a name="see-also"></a>Voir aussi
 
 - [Agents de transport dans Exchange](transport-agents-in-exchange-2013.md)  
-- [Concepts de l’agent d’Exchange 2013 de transport](transport-agent-concepts-in-exchange-2013.md) 
+- [Concepts sur les agents de transport dans Exchange 2013](transport-agent-concepts-in-exchange-2013.md) 
 - [Référence de l’agent de transport pour Exchange 2013](transport-agent-reference-for-exchange-2013.md)
 - [Types de média MIME](http://www.iana.org/assignments/media-types)
     

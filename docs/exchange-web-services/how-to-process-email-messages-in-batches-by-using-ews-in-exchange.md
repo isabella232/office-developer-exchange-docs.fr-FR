@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 96390f92-cab1-4de6-9ec2-a55678fc20af
 description: Découvrez comment créer, obtenir, mettre à jour et supprimer des lots de messages électroniques dans un seul appel à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 30ebbdf4c92111df629c7662987e301d167336e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b7dcc8f0961a34061b0476e2136193bf21731d99
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754947"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354042"
 ---
 # <a name="process-email-messages-in-batches-by-using-ews-in-exchange"></a>Traiter les messages électroniques par lots à l’aide de EWS dans Exchange
 
@@ -26,7 +26,7 @@ Vous pouvez utiliser l’API managée EWS ou EWS pour travailler avec des lots d
 |Créer des messages électroniques par lots  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Obtenir des messages électroniques par lots  <br/> |[ExchangeService.BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Mettre à jour des messages électroniques par lots  <br/> |[ExchangeService.UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Supprimer des messages électroniques par lots  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Supprimer des messages électroniques par lots  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Dans cet article, vous allez apprendre à effectuer les tâches de base pour les lots de messages électroniques à l’aide de l’API managée EWS ou EWS.
   
@@ -419,7 +419,7 @@ public static void BatchDeleteEmailItems(ExchangeService service, Collection<Ite
 ## <a name="delete-email-messages-in-batches-by-using-ews"></a>Supprimer des messages électroniques par lots à l’aide de EWS
 <a name="bk_deleteews"> </a>
 
-Vous pouvez supprimer des messages électroniques par lots à l’aide de l’opération EWS [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , comme illustré dans l’exemple de code suivant. C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez l’API managée EWS pour [Supprimer des messages électroniques par lots](#bk_deleteewsma).
+Vous pouvez supprimer des messages électroniques par lots à l’aide de l’opération EWS [DeleteItem](../web-service-reference/deleteitem-operation.md) , comme illustré dans l’exemple de code suivant. C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez l’API managée EWS pour [Supprimer des messages électroniques par lots](#bk_deleteewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -455,7 +455,7 @@ Lorsqu’un ou plusieurs messages électroniques dans une requête par lot ne pe
   
 Pour vérifier la réussite d’un processus de traitement par lots à l’aide de l’API managée EWS, vous pouvez vérifier que la propriété [OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) de la [ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) est égale à [ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Dans ce cas, tous les messages électroniques les traitement a réussi. Si **OverallResult** n’est pas égale à **ServiceResult.Success**, un ou plusieurs des e-mails qui n’ont pas été traités avec succès. Chacun des objets retournés dans le **ServiceResponseCollection** contient les propriétés suivantes : 
   
-- [Code d’erreur](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+- [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
 - [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     
@@ -491,6 +491,6 @@ L’attribut **ResponseClass** est défini sur **Réussite** si le message élec
     
 - [Déplacer et copier des messages électroniques à l’aide de EWS dans Exchange](how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md)
     
-- [Limitation des implications en matière de requêtes de lots EWS](ews-throttling-in-exchange.md#bk_ThrottlingBatch)
+- [Implications de la limitation pour les demandes de lot EWS](ews-throttling-in-exchange.md#bk_ThrottlingBatch)
     
 

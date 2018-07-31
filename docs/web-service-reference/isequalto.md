@@ -1,5 +1,5 @@
 ---
-title: Plutôt IsEqualTo
+title: IsEqualTo
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 48e7e067-049c-4184-8026-071e6f558e8a
 description: L’élément plutôt IsEqualTo représente une expression de recherche qui compare une propriété avec une valeur constante ou une autre propriété et donne la valeur true si elles sont égales.
-ms.openlocfilehash: a7a7deed79c271be74bb2ff16dd86605d468721b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 733032819e6875fa878c1cd631d173a1c48ecdfe
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828013"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353160"
 ---
-# <a name="isequalto"></a>Plutôt IsEqualTo
+# <a name="isequalto"></a>IsEqualTo
 
 L’élément **plutôt IsEqualTo** représente une expression de recherche qui compare une propriété avec une valeur constante ou une autre propriété et donne la valeur true si elles sont égales. 
   
@@ -30,7 +30,22 @@ L’élément **plutôt IsEqualTo** représente une expression de recherche qui 
 </IsEqualTo>
 ```
 
- **IsEqualToType**
+```xml
+<IsEqualTo>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsEqualTo>
+```
+
+```xml
+<IsEqualTo>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsEqualTo>
+```
+
+**IsEqualToType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -73,8 +88,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

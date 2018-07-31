@@ -12,20 +12,19 @@ api_type:
 - schema
 ms.assetid: 56d6aa52-8fa6-4773-9046-44a6f4f5d97c
 description: L’élément ConnectingSID représente un compte pour emprunter l’identité lorsque vous utilisez l’en-tête SOAP ExchangeImpersonation.
-ms.openlocfilehash: 6e0bb90e197ce22bcd982a6d51954a88f3a2cf03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a30f11721506989a84f52dd04c328974f4483956
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755546"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354336"
 ---
 # <a name="connectingsid"></a>ConnectingSID
 
 L’élément **ConnectingSID** représente un compte pour emprunter l’identité lorsque vous utilisez l’en-tête SOAP ExchangeImpersonation. 
   
-[ExchangeImpersonation](exchangeimpersonation.md)
-  
-[ConnectingSID](connectingsid.md)
+- [ExchangeImpersonation](exchangeimpersonation.md) 
+- [ConnectingSID](connectingsid.md)
   
 ```xml
 <ConnectingSID>
@@ -33,7 +32,26 @@ L’élément **ConnectingSID** représente un compte pour emprunter l’identit
 </ConnectingSID>
 ```
 
- **ConnectingSIDType**
+```xml
+<ConnectingSID>
+   <SmtpAddress/>
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+    <SID/> 
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+   <PrimarySmtpAddress/>
+</ConnectingSID>
+```
+
+**ConnectingSIDType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -46,7 +64,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Au PrincipalName](principalname.md) <br/> |Représente le nom d’utilisateur principal (UPN) du compte à utiliser pour l’emprunt d’identité. Il doit s’agir de l’UPN pour le domaine où le compte d’utilisateur existe.  <br/> |
+|[PrincipalName](principalname.md) <br/> |Représente le nom d’utilisateur principal (UPN) du compte à utiliser pour l’emprunt d’identité. Il doit s’agir de l’UPN pour le domaine où le compte d’utilisateur existe.  <br/> |
 |[SID](sid.md) <br/> |Représente le formulaire sécurité descripteur definition language (SDDL) de l’identificateur de sécurité (SID) pour le compte à utiliser pour l’emprunt d’identité.  <br/> |
 |[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Représente l’adresse SMTP Simple Mail Transfer Protocol () principal du compte à utiliser pour l’emprunt d’identité Exchange. Si l’adresse SMTP principale est fourni, une recherche de service d’annuaire Active Directory supplémentaire seront coût afin d’obtenir le SID de l’utilisateur. Nous vous recommandons d’utiliser le SID ou UPN si elles sont disponibles.  <br/> |
 |[SmtpAddress](smtpaddress.md) <br/> |Représente l’adresse SMTP Simple Mail Transfer Protocol () du compte à utiliser pour l’emprunt d’identité Exchange. Si l’adresse SMTP est fourni, une recherche Active Directory supplémentaire seront coût afin d’obtenir le SID de l’utilisateur. Nous vous recommandons d’utiliser le SID ou UPN si elles sont disponibles.  <br/> |
@@ -74,7 +92,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Autorisation de serveur à serveur dans EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [Autorisation de serveur à serveur dans EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

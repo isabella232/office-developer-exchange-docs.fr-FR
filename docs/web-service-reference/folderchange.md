@@ -12,22 +12,20 @@ api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
 description: L’élément FolderChange représente une collection des modifications à effectuer sur un seul dossier.
-ms.openlocfilehash: 3f8b42ff4ac88eaef53d1d4ec1d61212bc14b8c7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756447"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354329"
 ---
 # <a name="folderchange"></a>FolderChange
 
 L’élément **FolderChange** représente une collection des modifications à effectuer sur un seul dossier. 
   
-[UpdateFolder](updatefolder.md)
-  
-[FolderChanges](folderchanges.md)
-  
-[FolderChange](folderchange.md)
+- [UpdateFolder](updatefolder.md) 
+- [FolderChanges](folderchanges.md) 
+- [FolderChange](folderchange.md)
   
 ```xml
 <FolderChange>
@@ -36,7 +34,15 @@ L’élément **FolderChange** représente une collection des modifications à e
 </FolderChange>
 ```
 
- **FolderChangeType**
+```xml
+<FolderChange>
+   <DistinguishedFolderId/>
+   <Updates/>
+</FolderChange>
+```
+
+**FolderChangeType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -51,7 +57,7 @@ Aucun.
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier à mettre à jour.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par son nom.  <br/> |
-|[Mises à jour (dossier)](updates-folder.md) <br/> |Définit le type de mise à jour est effectuée sur un dossier identifié par [l’ID FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) élément.  <br/> |
+|[Updates (Folder)](updates-folder.md) <br/> |Définit le type de mise à jour est effectuée sur un dossier identifié par [l’ID FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) élément.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -74,7 +80,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération UpdateFolder](updatefolder-operation.md)
+- [Opération UpdateFolder](updatefolder-operation.md)
 

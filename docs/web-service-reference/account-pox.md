@@ -1,5 +1,5 @@
 ---
-title: Compte (POX)
+title: Account (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,22 +9,20 @@ api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
 description: L’élément compte Spécifie les paramètres de compte pour l’utilisateur ou contient des réponses d’erreur.
-ms.openlocfilehash: 88911aad41816f7cefbffef151e066fe5d4da192
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6cd87e678b3a524a69f6dca4d6999a3cff22fa57
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756321"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353342"
 ---
-# <a name="account-pox"></a>Compte (POX)
+# <a name="account-pox"></a>Account (POX)
 
 L’élément **compte** spécifie les paramètres de compte pour l’utilisateur ou contient des réponses d’erreur. 
   
-- [Découverte automatique (POX)](autodiscover-pox.md)
-  
-- [Réponse (POX)](response-pox.md)
-  
-- [Compte (POX)](account-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
   
 ```XML
 <Account>
@@ -37,6 +35,14 @@ L’élément **compte** spécifie les paramètres de compte pour l’utilisateu
    <ServiceHome/>
    <Protocol/>
    <PublicFolderInformation/>
+</Account>
+```
+
+<br/>
+
+```XML
+<Account> 
+    <Error/> 
 </Account>
 ```
 
@@ -59,7 +65,7 @@ Aucun.
 |[RedirectAddr (POX)](redirectaddr-pox.md) <br/> |Spécifie l’adresse de messagerie qui doit être utilisé pour une requête de découverte automatique suivante.  <br/> |
 |[Image (POX)](image-pox.md) <br/> |Contient le chemin d’accès d’une image qui est utilisée pour personnaliser l’expérience de configuration.  <br/> |
 |[ServiceHome (POX)](servicehome-pox.md) <br/> |Contient l’URL de la page d’accueil du fournisseur de services Internet (fournisseur de services Internet).  <br/> |
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour la connexion d’un client vers le serveur d’accès au Client.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications pour la connexion d’un client vers le serveur d’accès au Client.  <br/> |
 |[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contient des informations que les clients peuvent utiliser pour envoyer une demande de découverte automatique pour découvrir les informations de dossier public pour l’utilisateur.  <br/> |
 |[Erreur (POX)](error-pox.md) <br/> |Contient une réponse d’erreur de découverte automatique.  <br/> |
    
@@ -67,7 +73,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Réponse (POX)](response-pox.md) <br/> |Contient la réponse du service de découverte automatique.  <br/> |
+|[Response (POX)](response-pox.md) <br/> |Contient la réponse du service de découverte automatique.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

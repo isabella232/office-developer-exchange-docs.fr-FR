@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 373cc954-314d-40e2-be03-cc08aefc0d5b
 description: L’élément IsGreaterThanOrEqualTo représente une expression de recherche qui compare une propriété avec une valeur constante ou une autre propriété et renvoie la valeur true si la première propriété est supérieure ou égale à la seconde.
-ms.openlocfilehash: 81df79d15e6c5c8d301e69a822d038588ce42325
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c469f2535ab717e7bc09b6317e01f0f8b3be8170
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828030"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354371"
 ---
 # <a name="isgreaterthanorequalto"></a>IsGreaterThanOrEqualTo
 
@@ -30,7 +30,22 @@ L’élément **IsGreaterThanOrEqualTo** représente une expression de recherche
 </IsGreaterThanOrEqualTo>
 ```
 
- **IsGreaterThanOrEqualToType**
+```xml
+<IsGreaterThanOrEqualTo>
+   <IndexedFieldURI/>
+   <FieldURIOrConstant/>
+</IsGreaterThanOrEqualTo>
+```
+
+```xml
+<IsGreaterThanOrEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsGreaterThanOrEqualTo>
+```
+
+**IsGreaterThanOrEqualToType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -71,8 +86,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

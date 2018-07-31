@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4b8b475c-9ca5-48c9-acb0-8848b53be1ce
 description: L’élément SavedItemFolderId identifie le dossier cible pour les opérations de mise à jour, d’envoyer et de créer des éléments dans une boîte aux lettres.
-ms.openlocfilehash: c57a7fb4abc2f7ee7b599f56f016811d6ff2c21c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3f46070a538f5e03007925565a8888efe06b62b7
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829277"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354161"
 ---
 # <a name="saveditemfolderid"></a>SavedItemFolderId
 
@@ -29,7 +29,14 @@ L’élément **SavedItemFolderId** identifie le dossier cible pour les opérati
 </SavedItemFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<SavedItemFolderId>
+   <DistinguishedFolderId/>
+</SavedItemFolderId>
+```
+
+**TargetFolderIdType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.

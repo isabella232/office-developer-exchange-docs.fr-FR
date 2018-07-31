@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4771668f-5623-4397-a5c0-b75a7ba01698
 description: Découvrez comment déplacer et copier des messages électroniques à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 16f0604a16785c34dd04bdabedeedd331668a479
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 44d5834176b55ad041befbad2230b8b507a12ecc
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754908"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353468"
 ---
 # <a name="move-and-copy-email-messages-by-using-ews-in-exchange"></a>Déplacer et copier des messages électroniques à l’aide de EWS dans Exchange
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser l’API managée EWS ou EWS pour déplacer et copier les me
    
 Il est important de noter que lorsque vous déplacez ou copiez un message électronique dans un autre dossier, un nouvel élément est créé dans le nouveau dossier avec un ID d’élément unique et le message d’origine est supprimé. Si vous êtes en déplacement ou copie d’un message électronique entre deux dossiers dans la même boîte aux lettres, le nouvel élément est retourné dans la réponse, qui vous permet d’accéder à l’ID d’élément nouveau. Toutefois, si vous êtes déplacement ou la copie d’un message électronique entre deux boîtes aux lettres ou une boîte aux lettres et d’un dossier public, le nouvel élément n’est pas retourné dans la réponse. Pour accéder au message déplacé dans ce scénario, utilisez la méthode de l' API managée EWS [FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) ou d’une opération EWS [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) , [créer une définition de la propriété étendue](properties-and-extended-properties-in-ews-in-exchange.md) de la propriété [PidTagSearchKey](http://msdn.microsoft.com/en-us/library/cc839918.aspx) (0x300B0102), ou créer et définir une personnalisé étendu propriété et recherchez la propriété étendue personnalisée dans le nouveau dossier. 
   
-Suppression d’un message électronique est différente de celui de déplacement d’un élément dans le dossier éléments supprimés. Si vous utilisez la méthode API managées [Item.Delete](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx) ou l’opération EWS [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , l’élément spécifié dans la demande est supprimée à partir du dossier d’origine, et une copie est placée dans le dossier éléments supprimés avec un nouvel ID d’élément. Contrairement à lorsque vous déplacez ou copiez n’importe quel élément, le nouvel élément n’est pas retourné dans la réponse d’opération **DeleteItem** ou de la méthode **Delete** . Les étapes nécessaires lors de la [suppression d’un message électronique à l’aide de l’API managée EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) ou [EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) sont les mêmes que celles permettant de supprimer n’importe quel élément générique de la banque d’informations Exchange. 
+Suppression d’un message électronique est différente de celui de déplacement d’un élément dans le dossier éléments supprimés. Si vous utilisez la méthode API managées [Item.Delete](http://msdn.microsoft.com/en-us/library/office/dd635072%28v=exchg.80%29.aspx) ou l’opération EWS [DeleteItem](../web-service-reference/deleteitem-operation.md) , l’élément spécifié dans la demande est supprimée à partir du dossier d’origine, et une copie est placée dans le dossier éléments supprimés avec un nouvel ID d’élément. Contrairement à lorsque vous déplacez ou copiez n’importe quel élément, le nouvel élément n’est pas retourné dans la réponse d’opération **DeleteItem** ou de la méthode **Delete** . Les étapes nécessaires lors de la [suppression d’un message électronique à l’aide de l’API managée EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) ou [EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) sont les mêmes que celles permettant de supprimer n’importe quel élément générique de la banque d’informations Exchange. 
   
 ## <a name="move-an-email-message-by-using-the-ews-managed-api"></a>Déplacer un message électronique à l’aide de l’API managée EWS
 <a name="bk_moveewsma"> </a>

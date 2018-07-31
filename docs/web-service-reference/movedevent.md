@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
 description: L’élément MovedEvent représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent à un autre dossier parent.
-ms.openlocfilehash: a375f421ca9159103e47b515729316b21149c68a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 07f9c02ea194187a9fdfb1e27b19eb311392f51f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828479"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353258"
 ---
 # <a name="movedevent"></a>MovedEvent
 
@@ -34,7 +34,20 @@ L’élément **MovedEvent** représente un événement dans lequel un élément
 </MovedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<MovedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</MovedEvent>
+```
+
+
+**MovedCopiedEventType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -47,8 +60,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[Horodatage](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres de dossier d’éléments de déplacement.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres de dossier d’éléments de déplacement.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier déplacé.  <br/> |
 |[ID d’élément](itemid.md) <br/> |Représente l’identificateur de l’élément déplacé.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier qui contient l’élément déplacé ou un dossier.  <br/> |
@@ -77,11 +90,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération d'abonnement](subscribe-operation.md)
-  
-[Opération de GetEvents](getevents-operation.md)
-  
-[Opération de résiliation d'abonnement](unsubscribe-operation.md)
+- [Opération d'abonnement](subscribe-operation.md) 
+- [Opération de GetEvents](getevents-operation.md) 
+- [Opération de résiliation d'abonnement](unsubscribe-operation.md)
 

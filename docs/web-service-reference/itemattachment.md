@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 089ee599-f45e-46f5-a18a-5cfb3d2851ff
 description: L’élément ItemAttachment représente un élément Exchange qui est attaché à un autre élément Exchange.
-ms.openlocfilehash: 87e0331664f1fdf8857afc78500014d138f05401
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7bd3d22430fe04f1b28ae240102500609fe8d703
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828137"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353146"
 ---
 # <a name="itemattachment"></a>ItemAttachment
 
@@ -37,7 +37,120 @@ L’élément **ItemAttachment** représente un élément Exchange qui est attac
 </ItemAttachment>
 ```
 
- **ItemAttachmentType**
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Message/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <CalendarItem/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Contact/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Task/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingMessage/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingRequest/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingResponse/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingCancellation/>
+</ItemAttachment>
+```
+
+**ItemAttachmentType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -51,12 +164,12 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AttachmentId](attachmentid.md) <br/> |Identifie la pièce jointe.  <br/> |
-|[Nom (AttachmentType)](name-attachmenttype.md) <br/> |Représente le nom de la pièce jointe.  <br/> |
+|[Name (AttachmentType)](name-attachmenttype.md) <br/> |Représente le nom de la pièce jointe.  <br/> |
 |[ContentType](contenttype.md) <br/> |Décrit le type Multipurpose Internet Mail Extensions (MIME) du contenu des pièces jointes.  <br/> |
 |[ContentId](contentid.md) <br/> |Représente un identificateur pour le contenu de la pièce jointe. [ContentId](contentid.md) peut être définie à n’importe quelle valeur de chaîne. Applications peuvent utiliser [ContentId](contentid.md) pour implémenter leurs propres mécanismes d’identification.  <br/> |
 |[ContentLocation](contentlocation.md) <br/> |Contient l’identificateur de ressource uniforme (URI) qui correspond à l’emplacement du contenu de la pièce jointe.  <br/> |
 |[Size](size.md) <br/> |Représente la taille en octets de la pièce jointe.  <br/> |
-|[Heure de dernière modification](lastmodifiedtime.md) <br/> |Représente la dernière modification de la pièce jointe.  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |Représente la dernière modification de la pièce jointe.  <br/> |
 |[IsInline](isinline.md) <br/> |Indique si la pièce jointe apparaît en ligne au sein d’un élément.  <br/> |
 |[Item](item.md) <br/> |Représente une pièce jointe d’élément Exchange générique.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente une pièce jointe du message électronique Exchange.  <br/> |
@@ -92,8 +205,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

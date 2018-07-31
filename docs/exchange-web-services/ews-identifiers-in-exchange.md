@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 39b6b20b-e081-4347-9e15-9b8cf829fdf0
 description: Découvrez les identificateurs dans Exchange et comment vous pouvez les utiliser dans votre API managées et des applications EWS.
-ms.openlocfilehash: c09b54c8ec4f443a64f8222094ccf0a5e1f750e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fbf6d7756f73b1c5d345f3b34deeb7ea8a347986
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754795"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353972"
 ---
 # <a name="ews-identifiers-in-exchange"></a>Identificateurs EWS dans Exchange
 
@@ -34,7 +34,7 @@ Les identificateurs dans EWS sont applicables à l’API managées également. D
   
 **Le tableau 1. Identificateurs d’objets dans les services EWS**
 
-|**Objet**|**Identificateur**|**Comment le liés à EwsId ?**|
+|**Objet**|**Identifier**|**Comment le liés à EwsId ?**|
 |:-----|:-----|:-----|
 |[CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) <br/> |L’élément enfant [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) contient l’identificateur unique de l’élément de calendrier.  <br/> |L’élément enfant [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) est identique à la EwsId de cet élément.  <br/> |
 |[ConversationId](http://msdn.microsoft.com/library/d5f1ddb3-9af3-4677-a6ba-111b304a951e%28Office.15%29.aspx) <br/> |L’attribut **Id** contient l’identificateur de la conversation faisant partie de cet élément.  <br/> |L’attribut **Id** est identique à la EwsId de cet élément.  <br/> |
@@ -121,19 +121,15 @@ Vous pouvez utiliser la méthode ou l’opération **ConvertId** pour convertir 
 |EwsLegacyId  <br/> |EwsId qui s’applique à Exchange 2007.  <br/> |
 |EwsId  <br/> |EwsId qui s’applique à Exchange Online et versions d’Exchange commençant par Exchange 2007 SP1.  <br/> |
 |StoreId  <br/> |Identificateur de la banque Exchange où sont stockés les dossiers et éléments.  <br/> |
-|OwaId  <br/> |L’identificateur d’Outlook Web App utilisé avec Outlook Web App dans Exchange 2007 et Exchange 2010.  <br/> > [!NOTE]> Exchange Online et les versions d’Exchange commençant par Exchange 2013 utilisent le EwsId pour Outlook Web App.           |
+|OwaId  <br/> |L’identificateur d’Outlook Web App utilisé avec Outlook Web App dans Exchange 2007 et Exchange 2010. <br/><br/>**Remarque**: Exchange Online et versions d’Exchange commençant par Exchange 2013 utilisent le EwsId pour Outlook Web App.           |
 |Propriété EntryId  <br/> |Un identificateur MAPI est connu en tant que la propriété **PR_ENTRYID** d’un message MAPI.  <br/> |
 |HexEntryId  <br/> |Représentation de la propriété **PR_ENTRYID** qui est utilisée pour l’identificateur d’événement disponibilité calendrier codé en hexadécimal. C’est également le format d’identificateur qui utilise Outlook.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-
-- [Développer des clients de service web pour Exchange](develop-web-service-clients-for-exchange.md)
-    
-- [Opération ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)
-    
-- [Énumération constatez](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx)
-    
+- [Développer des clients de service web pour Exchange](develop-web-service-clients-for-exchange.md)  
+- [Opération ConvertId](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)  
+- [Énumération constatez](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) 
 - [Suppression d’éléments à l’aide de EWS dans Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 

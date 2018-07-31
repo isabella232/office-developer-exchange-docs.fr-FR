@@ -1,19 +1,19 @@
 ---
-title: Contrôle de l’accès aux applications de client pour EWS dans Exchange
+title: Contrôle de l'accès aux applications de client pour EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: Découvrez les options de gestion des accès aux applications de client à EWS.
-ms.openlocfilehash: 29a640178afc9814a0b2232225ae4307e49afed2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e3a0e07b733b4ebc070ab6b3fc73c8aec4b62785
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754764"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353062"
 ---
-# <a name="controlling-client-application-access-to-ews-in-exchange"></a>Contrôle de l’accès aux applications de client pour EWS dans Exchange
+# <a name="controlling-client-application-access-to-ews-in-exchange"></a>Contrôle de l'accès aux applications de client pour EWS dans Exchange
 
 Découvrez les options de gestion des accès aux applications de client à EWS.
   
@@ -34,7 +34,8 @@ Votre administrateur de serveur de test ou de production permettre configurer le
     
 Les applications sont identifiées par la chaîne d’agent utilisateur qu’ils envoient dans la requête web HTTP.
   
-> [! Remarque sur la sécurité] niveau Application blocage n’est pas une fonctionnalité de sécurité. La chaîne d’agent utilisateur est facilement usurpée. Si une application est autorisée à accéder à EWS, l’application doit toujours présenter des informations d’identification que le serveur authentifie avant de l’application peut se connecter à EWS. 
+> [!IMPORTANT]
+> Blocage de niveau application n’est pas une fonctionnalité de sécurité. La chaîne d’agent utilisateur est facilement usurpée. Si une application est autorisée à accéder à EWS, l’application doit toujours présenter des informations d’identification que le serveur authentifie avant de l’application peut se connecter à EWS. 
   
 Les administrateurs peuvent configurer également le contrôle d’accès pour les propriétaires de boîte aux lettres qui se connectent à EWS comme suit : 
   
@@ -69,12 +70,9 @@ Pour activer des comptes d’emprunt d’identité, votre administrateur de serv
 
 Les administrateurs utiliser les applets de commande Exchange Management Shell suivante pour configurer les contrôles d’accès EWS : 
   
-- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)
-    
-- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)
-    
-- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)
-    
+- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)   
+- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)   
+- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)   
 - [Set-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
 ## <a name="see-also"></a>Voir aussi

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0e3e6e5f-06d0-499b-8ca4-d36036521658
 description: L’élément ParentFolderId identifie le dossier dans lequel un nouveau dossier est créé ou du dossier de recherche pour l’opération FindConversation.
-ms.openlocfilehash: 61072e1dd3321beb5f3b76d9accf20530b443796
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8e80b9b342274a8b2004838ebd16f8425a2d3fa3
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828686"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353825"
 ---
 # <a name="parentfolderid-targetfolderidtype"></a>ParentFolderId (TargetFolderIdType)
 
@@ -26,6 +26,12 @@ L’élément **ParentFolderId** identifie le dossier dans lequel un nouveau dos
 ```xml
 <ParentFolderId>
    <DistinguishedFolderId/>
+</ParentFolderId>
+```
+
+```xml
+<ParentFolderId>
+   <FolderId/> 
 </ParentFolderId>
 ```
 
@@ -77,6 +83,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 ## <a name="see-also"></a>Voir aussi
 
 - [Opération CreateFolder](createfolder-operation.md)
-- [FindConversation Operation](findconversation-operation.md)
+- [Opération FindConversation](findconversation-operation.md)
 - [Création de dossiers (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

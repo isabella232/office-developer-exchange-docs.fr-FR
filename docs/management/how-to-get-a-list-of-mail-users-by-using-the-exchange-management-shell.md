@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: Découvrez comment utiliser les applets de commande Exchange Management Shell pour créer un outil qui renvoie la liste des utilisateurs de boîte aux lettres Exchange.
-ms.openlocfilehash: 6f64330a11e372bffbea2fcd88bcfa0231ec0f28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9493571e98760e5a11674db9a552111c1ec29b2
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755082"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354000"
 ---
 # <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement Exchange Management Shell
 
@@ -53,21 +53,21 @@ La méthode que vous utilisez pour vous connecter à une instance d’exécution
   
 |**Méthode d’authentification**|**S'applique à**|**URI**|
 |:-----|:-----|:-----|
-|[Se connecter à une instance d’exécution à distance dans Exchange Online à l’aide de l’authentification de base](#bk_basic) <br/> |Serveurs Exchange Online  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/><br/>`https://<server>/PowerShell-LiveID`  <br/> |
-|[Se connecter à une instance d’exécution à distance à l’aide de l’authentification par certificat](#bk_cert) <br/> |Exchange Online et serveurs locaux Exchange  <br/> |`https://outlook.office365.com/PowerShell`<br/><br/>`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
-|[Se connecter à une instance d’exécution à distance sur un serveur Exchange à l’aide de l’authentification Kerberos](#bk_Kerberos) <br/> |Exchange Online et serveurs locaux Exchange  <br/> |`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
+|[Se connecter à une instance d’exécution distante sur Exchange Online à l’aide de l’authentification de base](#bk_basic) <br/> |Serveurs Exchange Online  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/><br/>`https://<server>/PowerShell-LiveID`  <br/> |
+|[Se connecter à une instance d’exécution distante à l’aide de l’authentification des certificats](#bk_cert) <br/> |Exchange Online et serveurs locaux Exchange  <br/> |`https://outlook.office365.com/PowerShell`<br/><br/>`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
+|[Se connecter à un espace d’exécution à distance sur un serveur Exchange à l’aide de l’authentification Kerberos](#bk_Kerberos) <br/> |Exchange Online et serveurs locaux Exchange  <br/> |`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
 
 <a name="bk_basic"> </a>
 
 ### <a name="connect-to-a-remote-runspace-on-exchange-online-by-using-basic-authentication"></a>Se connecter à une instance d’exécution distante sur Exchange Online à l’aide de l’authentification de base
 
-L’exemple de code suivant définit la méthode **GetUsersUsingBasicAuth** , qui crée une instance d’exécution Exchange Management Shell sur un serveur Exchange Online à l’aide de l’authentification de base. La méthode appelle ensuite la méthode **GetUserInformation** , telle que définie dans la section [obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution à distance](#bk_remote), pour renvoyer une liste d’utilisateurs sur le serveur distant.
+L’exemple suivant définit la méthode **GetUsersUsingBasicAuth**, qui crée une instance d’exécution Exchange Management Shell sur un serveur Exchange Online à l’aide de l’authentification de base. La méthode appelle ensuite la méthode **GetUserInformation** comme décrit à la section [Obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution distante](#bk_remote) pour renvoyer la liste des utilisateurs du serveur distant.
   
 Cette méthode requiert les paramètres suivants :
   
--  **liveIDConnectionUri** &ndash; Une chaîne qui contient l’URI du serveur Exchange Online qui authentifie l’application. Si Exchange Online est en cours d’exécution dans Office 365, l’URI est https://outlook.office365.com/PowerShell-LiveID; Sinon, l’URI est https://\<nom_serveur\>/PowerShell-LiveID. 
+-  **liveIDConnectionUri** &ndash; Une chaîne qui contient l’URI du serveur Exchange Online qui authentifie l’application. Si Exchange Online est en cours d’exécution dans Office 365, l’URI est `https://outlook.office365.com/PowerShell-LiveID`; Sinon, l’URI est `https://<servername>/PowerShell-LiveID`. 
     
--  **schemaUri** &ndash; Une chaîne qui contient l’URI du document de schéma qui définit le schéma Exchange Management Shell. Le schéma de l’URI est http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+-  **schemaUri** &ndash; Une chaîne qui contient l’URI du document de schéma qui définit le schéma Exchange Management Shell. Le schéma de l’URI est `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
     
 -  **informations d’identification** &ndash; Un objet [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) qui contient les informations d’identification de l’utilisateur qui exécute l’application. 
     
@@ -107,7 +107,7 @@ public Collection<PSObject> GetUsersUsingBasicAuth(
 
 ### <a name="connect-to-a-remote-runspace-by-using-certificate-authentication"></a>Se connecter à une instance d’exécution distante à l’aide de l’authentification des certificats
 
-L’exemple de code suivant définit la méthode **GetUsersUsingCertificate** , qui crée une instance d’exécution Exchange Management Shell sur un serveur distant à l’aide d’un certificat. La méthode appelle ensuite la méthode **GetUserInformation** , telle que définie dans la section [obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution à distance](#bk_remote), pour renvoyer une liste d’utilisateurs sur le serveur distant.
+L’exemple suivant définit la méthode **GetUsersUsingCertificate**, qui crée une instance d’exécution Exchange Management Shell sur un serveur distant à l’aide d’un certificat. La méthode appelle ensuite la méthode **GetUserInformation** comme décrit à la section [Obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution distante](#bk_remote) pour renvoyer la liste des utilisateurs du serveur distant.
   
 Cette méthode requiert les paramètres suivants :
   
@@ -160,7 +160,7 @@ public Collection<PSObject> GetUsersUsingCertificate(
 
 ### <a name="connect-to-a-remote-runspace-on-an-exchange-server-by-using-kerberos-authentication"></a>Se connecter à un espace d’exécution à distance sur un serveur Exchange à l’aide de l’authentification Kerberos
 
-L’exemple de code suivant définit la méthode **GetUsersUsingKerberos** , qui crée une instance d’exécution Exchange Management Shell sur un serveur distant à l’aide de l’authentification Kerberos. La méthode appelle ensuite la méthode **GetUserInformation** , telle que définie dans la section [obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution à distance](#bk_remote), pour renvoyer une liste d’utilisateurs sur le serveur distant.
+L’exemple suivant définit la méthode **GetUsersUsingKerberos**, qui crée une instance d’exécution Exchange Management Shell sur un serveur distant à l’aide de l’authentification Kerberos. La méthode appelle ensuite la méthode **GetUserInformation** comme décrit à la section [Obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution distante](#bk_remote) pour renvoyer la liste des utilisateurs du serveur distant.
   
 Cette méthode requiert les paramètres suivants :
   
@@ -253,7 +253,7 @@ La méthode **GetUserInformation** ne retournera aucuns plus que le _nombre de_ 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Créer des outils Exchange Management Shell](create-exchange-management-shell-tools.md)   
+- [Créer des outils d’environnement de ligne de commande Exchange Management Shell](create-exchange-management-shell-tools.md)   
 - [Utilisation de la réponse d’applet de commande Exchange Management Shell](how-to-use-the-exchange-management-shell-cmdlet-response.md)
     
 

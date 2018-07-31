@@ -1,19 +1,19 @@
 ---
-title: Identifier le compte pour emprunter l’identité
+title: Identifier le compte d’emprunt d’identité
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c7749f12-b97f-48d9-88e5-a545e108efb0
 description: Découvrez comment votre application de service utilise EWS pour identifier l’utilisateur pour emprunter l’identité.
-ms.openlocfilehash: 78df4b511a9947d4d815b2802a53ab178b14622b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 01c6ee797359c38c8539257003a2f110fdf253cf
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754841"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354294"
 ---
-# <a name="identify-the-account-to-impersonate"></a>Identifier le compte pour emprunter l’identité
+# <a name="identify-the-account-to-impersonate"></a>Identifier le compte d’emprunt d’identité
 
 Découvrez comment votre application de service utilise EWS pour identifier l’utilisateur pour emprunter l’identité.
   
@@ -75,7 +75,7 @@ Dans une application d’API managées, vous spécifiez l’UPN ainsi que la val
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
 ```
 
-Dans une demande SOAP EWS, le [au PrincipalName, élément (ConnectingSIDType, complexType) (EWS)](http://msdn.microsoft.com/library/6aac5388-c971-817b-b0bb-095a2639c6de%28Office.15%29.aspx) élément contient l’UPN du compte d’utilisateur. 
+Dans une demande SOAP EWS, le [au PrincipalName, élément (ConnectingSIDType, complexType) (EWS)](../web-service-reference/principalname.md) élément contient l’UPN du compte d’utilisateur. 
   
 ```XML
 <soap:Header>

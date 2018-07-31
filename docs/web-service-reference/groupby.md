@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9728619b-4674-4b9d-9f6c-e75c6165966c
 description: L’élément GroupBy spécifie un regroupement pour les requêtes FindItem arbitraire.
-ms.openlocfilehash: d85c0fddec244c99dfbea1f85da331fc5319536d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cdf9b9906025bc91768bb4a14acb2573801c4e12
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827753"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353216"
 ---
 # <a name="groupby"></a>GroupBy
 
@@ -33,7 +33,22 @@ L’élément **GroupBy** spécifie un regroupement pour les requêtes FindItem 
 </GroupBy>
 ```
 
- **GroupByType**
+```xml
+<GroupBy Order="">
+   <ExtendededFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+```xml
+<GroupBy Order="">
+   <IndexedFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+**GroupByType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.

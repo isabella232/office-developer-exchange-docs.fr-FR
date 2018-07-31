@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
 description: Découvrez comment créer, obtenir, mettre à jour ou supprimer des lots des éléments de calendrier dans un seul appel à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 2c92b492d9b51d0a5ac3140af22e5527e7bf19be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e18e74490b536c07e90c64f76f81c98b4eab6024
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754943"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353846"
 ---
 # <a name="process-calendar-items-in-batches-in-exchange"></a>Traitement par lots des éléments de calendrier dans Exchange
 
@@ -26,7 +26,7 @@ Vous pouvez utiliser l’API managée EWS ou EWS pour travailler avec des lots d
 |Créer des éléments de calendrier par lots  <br/> |[CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Obtenir des éléments de calendrier par lots  <br/> |[BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Éléments de calendrier de mise à jour par lots  <br/> |[UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Supprimer des éléments de calendrier par lots  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |
+|Supprimer des éléments de calendrier par lots  <br/> |[DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 Dans cet article, vous allez apprendre à effectuer des tâches de lots des éléments de calendrier de base à l’aide de l’API managée EWS ou EWS.
   
@@ -698,7 +698,7 @@ Lors du deuxième appel de la méthode **DeleteItems** , aucune exception n’es
 ## <a name="delete-calendar-items-in-batches-by-using-ews"></a>Supprimer des éléments de calendrier par lots à l’aide de EWS
 <a name="bk_deleteews"> </a>
 
-Vous pouvez supprimer des éléments de calendrier par lots à l’aide de l’opération EWS [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) , comme illustré dans l’exemple de code suivant. C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez l’API managée EWS pour [Supprimer des éléments de calendrier par lots](#bk_deleteewsma). 
+Vous pouvez supprimer des éléments de calendrier par lots à l’aide de l’opération EWS [DeleteItem](../web-service-reference/deleteitem-operation.md) , comme illustré dans l’exemple de code suivant. C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez l’API managée EWS pour [Supprimer des éléments de calendrier par lots](#bk_deleteewsma). 
   
 Les attributs **ItemId** et **ChangeKey** sont limitent pour une meilleure lisibilité. 
   
@@ -806,7 +806,7 @@ Lorsqu’un ou plusieurs éléments de calendrier dans une requête par lot ne p
   
 Pour vérifier la réussite d’un processus de traitement par lots à l’aide de l’API managée EWS, vous pouvez vérifier que la propriété [OverallResult](http://msdn.microsoft.com/en-us/library/dd634515%28v=exchg.80%29.aspx) de la [ServiceResponseCollection](http://msdn.microsoft.com/en-us/library/dd633715%28v=exchg.80%29.aspx) est égale à [ServiceResult.Success](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Dans ce cas, tous les éléments de calendrier ont été correctement traités. Si **OverallResult** n’est pas égale à **ServiceResult.Success**, un ou plusieurs des éléments du calendrier qui n’ont pas été traités avec succès. Chacun des objets retournés dans le **ServiceResponseCollection** contient les propriétés suivantes : 
   
-- [Code d’erreur](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
+- [ErrorCode](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
 - [ErrorDetails](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponse.errordetails%28v=exchg.80%29.aspx)
     
@@ -844,6 +844,6 @@ L’attribut **ResponseClass** est défini sur **succès** si l’élément de c
     
 - [Traitement par lots des éléments de calendrier dans Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
     
-- [Limitation des implications en matière de requêtes de lots EWS](ews-throttling-in-exchange.md#bk_ThrottlingBatch)
+- [Implications de la limitation pour les demandes de lot EWS](ews-throttling-in-exchange.md#bk_ThrottlingBatch)
     
 

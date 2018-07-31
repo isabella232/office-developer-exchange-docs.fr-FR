@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: L’élément DeletedEvent représente un événement dans lequel un élément ou un dossier est supprimé.
-ms.openlocfilehash: f06ca0727916f415c648e876f88bf7eacef5a5ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755853"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354406"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
@@ -28,6 +28,15 @@ L’élément **DeletedEvent** représente un événement dans lequel un éléme
    <Watermark/>
    <TimeStamp/>
    <ItemId/>
+   <ParentFolderId/>
+</DeletedEvent>
+```
+
+```xml
+<DeletedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
    <ParentFolderId/>
 </DeletedEvent>
 ```
@@ -46,8 +55,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[Horodatage](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres supprimé élément ou un dossier.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres supprimé élément ou un dossier.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier supprimé.  <br/> |
 |[ID d’élément](itemid.md) <br/> |Représente l’identificateur de l’élément supprimé.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément supprimé ou du dossier avant la suppression.  <br/> |

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: Créez votre première application en utilisant Exchange Web Services (EWS) dans Exchange.
-ms.openlocfilehash: 911495c74f4c74114a86b1a3a98c9200db338b34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 06606bdc2b37c8bf65b8b10dc7a516bdc911b256
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754791"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353776"
 ---
 # <a name="get-started-with-ews-client-applications"></a>Prise en main des applications clientes EWS
 
@@ -31,7 +31,7 @@ Si vous avez déjà un compte de boîte aux lettres Exchange, vous pouvez ignore
     
 Après avoir vérifié que vous pouvez envoyer et recevoir des messages électroniques à partir de votre serveur Exchange, vous êtes prêt à configurer votre environnement de développement. Vous pouvez utiliser l'application web Outlook pour vérifier que vous pouvez envoyer des messages électroniques.
   
-Vous devez également connaître l'URL du point de terminaison EWS du serveur. Dans une application de production, vous devez utiliser la [découverte automatique](autodiscover-for-exchange.md) pour déterminer l'URL EWS. Les exemples de cet article utilisent l'URL du point de terminaison Office 365 EWS, https://outlook.office365.com/EWS/Exchange.asmx. La section [Étapes suivantes](#bk_next) comporte des liens vers des informations complémentaires sur la découverte automatique que vous pouvez consulter lorsque vous êtes prêt. 
+Vous devez également connaître l'URL du point de terminaison EWS du serveur. Dans une application de production, vous devez utiliser la [découverte automatique](autodiscover-for-exchange.md) pour déterminer l'URL EWS. Les exemples de cet article utilisent l'URL du point de terminaison Office 365 EWS, `https://outlook.office365.com/EWS/Exchange.asmx`. La section [Étapes suivantes](#bk_next) comporte des liens vers des informations complémentaires sur la découverte automatique que vous pouvez consulter lorsque vous êtes prêt. 
   
 Si vous testez votre application à l'aide d'un serveur Exchange qui comporte le certificat auto-signé par défaut, vous devez créer une [méthode de validation de certificats](how-to-validate-a-server-certificate-for-the-ews-managed-api.md) répondant aux exigences de sécurité de votre organisation. 
   

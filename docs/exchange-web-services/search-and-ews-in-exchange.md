@@ -1,19 +1,19 @@
 ---
-title: Recherche et les services EWS d’Exchange
+title: Recherche et EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9fa5b836-857e-401d-9450-51e7dbc69104
 description: Découvrez comment rechercher des éléments dans Exchange à l’aide de l’API managée EWS ou EWS.
-ms.openlocfilehash: da24258ba94b842fa97fff92148620344c939f05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 1a8ed6be71d88a02c4ef935864ca15888df90a38
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755072"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354056"
 ---
-# <a name="search-and-ews-in-exchange"></a>Recherche et les services EWS d’Exchange
+# <a name="search-and-ews-in-exchange"></a>Recherche et EWS dans Exchange
 
 Découvrez comment rechercher des éléments dans Exchange à l’aide de l’API managée EWS ou EWS.
   
@@ -115,8 +115,8 @@ Définition du parcours sur l’affichage de contrôle la profondeur et la port�
 |:-----|:-----|:-----|
 |Peu profond  <br/> |Éléments et les dossiers  <br/> |Recherches superficielles sont limitées à diriger les enfants du dossier en cours de recherche.  <br/> |
 |Profond  <br/> |Éléments (uniquement avec les dossiers de recherche) et les dossiers  <br/> |Le dossier en cours de recherche et les sous-dossiers de recherche récursive recherche approfondie.  <br/> |
-|Associé  <br/> |Éléments  <br/> |Recherches associées incluent uniquement les éléments associés à partir du dossier en cours de recherche. Éléments associés sont des éléments masqués dans le dossier.  <br/> |
-|SoftDeleted  <br/> |Éléments et les dossiers  <br/> |Ce type de parcours est déconseillé. Recherches SoftDeleted incluent uniquement les éléments qui se trouvent dans la benne. La benne a été remplacée par le [dossier éléments récupérables](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx) dans Exchange Online, Exchange Online dans le cadre d’Office 365 et les versions d’Exchange commençant par Exchange 2010.  <br/> |
+|Associé  <br/> |Items  <br/> |Recherches associées incluent uniquement les éléments associés à partir du dossier en cours de recherche. Éléments associés sont des éléments masqués dans le dossier.  <br/> |
+|SoftDeleted  <br/> |Éléments et les dossiers  <br/> |Ce type de parcours est déconseillé. Recherches SoftDeleted incluent uniquement les éléments qui se trouvent dans la benne. La benne a été remplacée par le [dossier éléments récupérables](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) dans Exchange Online, Exchange Online dans le cadre d’Office 365 et les versions d’Exchange commençant par Exchange 2010.  <br/> |
    
 ## <a name="managing-search-results"></a>Gestion des résultats de la recherche
 <a name="bk_ManageSearchResults"> </a>
@@ -188,10 +188,10 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Développer des clients de service web pour Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Dossier éléments récupérables](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx)
+- [Dossier éléments récupérables](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     
-- [Paramètres de stratégie de limitation EWS d’affecter les opérations de recherche](ews-throttling-in-exchange.md#bk_ThrottlingSearch)
+- [Paramètres de stratégie de limitation qui affectent les opérations de recherche EWS](ews-throttling-in-exchange.md#bk_ThrottlingSearch)
     
 

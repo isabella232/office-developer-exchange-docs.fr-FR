@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
 description: L’élément FindFolder définit une requête pour rechercher les dossiers dans une boîte aux lettres.
-ms.openlocfilehash: d41283547c443e38e2e87379a7224df9c89f901d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756385"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353531"
 ---
 # <a name="findfolder"></a>FindFolder
 
@@ -32,7 +32,17 @@ L’élément **FindFolder** définit une requête pour rechercher les dossiers 
 </FindFolder>
 ```
 
- **FindFolderType**
+```xml
+<FindFolder Traversal="Shallow/Deep/SoftDeleted">
+   <FolderShape/>
+   <FractionalPageFolderView/>
+   <Restriction/>
+   <ParentFolderIds/>
+</FindFolder>
+```
+
+**FindFolderType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -73,7 +83,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 L’exemple suivant d’une demande FindFolder indique comment former une requête pour rechercher tous les dossiers situés dans une boîte de réception.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -101,7 +111,5 @@ L’exemple suivant d’une demande FindFolder indique comment former une requê
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération FindFolder](findfolder-operation.md)
+- [Opération FindFolder](findfolder-operation.md)
 

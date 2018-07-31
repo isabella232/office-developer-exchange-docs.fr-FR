@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c700af8-2792-4d3f-8571-8860e0550d8e
 description: Trouvez des informations sur l’architecture de rôle transport agent pipeline et le serveur Exchange 2013 influence développement d’agent de transport et les classes que vous pouvez utiliser pour développer des agents de transport.
-ms.openlocfilehash: 9ddee0d68c9104357f84322b2cce7c5f2576d871
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6f7a03e16b260117c6ee27b86ec0e55b5346e301
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755147"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353706"
 ---
 # <a name="transport-agent-concepts-in-exchange-2013"></a>Concepts sur les agents de transport dans Exchange 2013
 
@@ -23,7 +23,7 @@ Trouvez des informations sur l’architecture de rôle transport agent pipeline 
   
 Vous pouvez utiliser la bibliothèque de classes fournie dans Exchange Server 2013 pour implémenter des agents de transport s’inscrire pour les événements et effectuer des actions sur les messages transitant via le pipeline de transport. Vous pouvez également utiliser des agents de transport pour modifier les messages et convertir le contenu. 
   
-Cet article fournit des informations sur les agents de transport et l’architecture de pipeline de transport. Il est important de comprendre l’architecture du pipeline de transport de sorte que vous pouvez modifier le comportement de transport pour répondre aux besoins de votre organisation. Cet article fournit également des informations sur les modifications dans l’architecture Exchange 2013 qui affectent les agents de transport et les classes que vous pouvez utiliser pour développer des agents de transport. 
+Cet article fournit des informations sur les agents de transport et l’architecture de pipeline de transport. Il est important de comprendre l’architecture du pipeline de transport pour pouvoir modifier le comportement de transport de manière adaptée aux besoins de votre organisation. Cet article fournit également des informations sur les modifications apportées à l’architecture d’Exchange 2013 qui ont des répercussions sur les agents de transport et les classe que vous pouvez utiliser pour développer des agents de transport.  
   
 ## <a name="transport-agents-in-the-transport-pipeline"></a>Agents de transport dans le pipeline de transport
 <a name="Pipeline"> </a>
@@ -62,15 +62,15 @@ Lorsqu’un message entre dans le pipeline de transport, un agent de transport d
 
 Modifications apportées à l’architecture du rôle serveur dans Exchange 2013 affectent ce que peuvent faire les agents de transport et les agents de transport. Exchange 2013 comprend les rôles de serveur suivants :
   
-- Serveur de boîtes aux lettres — protocoles inclut l’accès au Client, le service de Transport, bases de données de boîtes aux lettres et composants de messagerie unifiée. Le serveur de boîtes aux lettres communique directement avec les Services de domaine Active Directory (AD DS), les serveurs d’accès Client et les clients de messagerie comme Outlook.
+- Serveur de boîtes aux lettres : inclut des protocoles d’accès au client, le service de transport, des bases de données de boîtes aux lettres et des composants de messagerie unifiée. Le serveur de boîtes aux lettres communique directement avec les services de domaine Active Directory (AD DS), les serveurs d’accès au client et des clients de messagerie comme Outlook.
     
 - Serveur d’accès au client : fournit des services d’authentification, de redirection limitée et de proxy, ainsi que des protocoles d’accès au client comme HTTP, POP, IMAP et SMTP.
     
 - Serveur de transport Edge : route les e-mails en direction et à partir d’une organisation. En règle générale, les serveurs de transport Edge se trouvent au niveau du périmètre d’une topologie Exchange.
     
-Cette structure consolidée réduit le nombre de serveurs qui doivent être déployés dans un environnement Exchange 2013. Les administrateurs n’ont plus à déployer des serveurs de Transport Hub et d’accès au Client dans chaque site Active Directory qui comprend un serveur de boîtes aux lettres, et ils n’avez plus besoin mettre à jour tous les rôles de serveur afin de tirer parti des nouvelles fonctionnalités.
+Cette structure consolidée permet de réduire le nombre de serveurs qui doivent être déployés dans un environnement Exchange 2013. Les administrateurs n’ont plus à déployer des serveurs de transport Hub et d’accès au client dans chaque site Active Directory qui comprend un serveur de boîtes aux lettres, et ils n’ont plus besoin de mettre à jour tous les rôles serveur afin de bénéficier des nouvelles fonctionnalités.
   
-Ces modifications à l’architecture du rôle serveur peuvent affecter potentiellement où dans le pipeline de l’agent peut répondre aux événements. Si vous avez créé des agents de transport pour les versions d’Exchange antérieures à Exchange 2013, veillez à consulter les modifications architecturales pour déterminer si vous devez apporter des modifications à vos agents.
+Ces modifications apportées à l’architecture des rôles serveur peuvent potentiellement modifier l’emplacement du pipeline où votre agent peut répondre aux événements. Si vous avez créé des agents de transport pour des versions d’Exchange antérieures à Exchange 2013, passez en revue les modifications apportées à l’architecture pour déterminer si vous devez apporter des modifications à vos agents.
   
 La figure suivante indique en quoi les changements d’architecture d’Exchange 2013 offrent un pipeline de transport simplifié et consolidé. Dans cette illustration, les serveurs d’accès au client sont représentés par les vignettes CAS. Les serveurs de boîtes aux lettres sont eux représentés par les vignettes MBX.
   
@@ -78,7 +78,7 @@ La figure suivante indique en quoi les changements d’architecture d’Exchange
 
 ![Image illustrant le trafic client via un pare-feu externe et le transport Edge sur la gauche qui transmet le trafic par le biais d’un équilibrage de charge de couche 4 vers un tableau CAS consolidé et un ensemble de serveurs de boîtes aux lettres dans un groupe d’accessibilité de base de données sur la droite.](media/Transport_Agent_Concepts_Fig_3.png)
   
-La figure suivante illustre les interactions entre les rôles de serveur Exchange 2013.
+La figure suivante illustre les interactions entre les rôles serveur Exchange 2013.
   
 **La figure 3. Interactions de serveur de boîtes aux lettres et accès au Client**
 
@@ -100,9 +100,9 @@ Le tableau suivant indique les classes à partir desquelles chaque type d’agen
 |Type d’agent  <br/> |Classe de base de fabrique  <br/> |Classe de base d’agent  <br/> |
 |Réception SMTP  <br/> |[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
 |Routage  <br/> |[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) <br/> |[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> |
-|Remise  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
+|Remise  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
    
-Ces classes de base en usine et agent fournissent des propriétés et méthodes que vous pouvez utiliser pour accéder aux événements de transport et des messages. Implémenter les classes dans l’agent qui héritent de ces classes. Dans la classe dérivée de fabrique agent, substituez la méthode de **CreateAgent** afin qu’elle retourne une nouvelle instance de votre classe de l’agent. 
+Ces classes de base de fabrique et d’agent fournissent des propriétés et les méthodes que vous pouvez utiliser pour accéder à des messages et à des événements de transport. Mettez en œuvre des classes qui héritent de celles-ci dans votre agent. Dans la classe dérivée de la fabrique d’agent, remplacez la méthode **CreateAgent** afin qu’elle renvoie une nouvelle instance de votre classe d’agent. 
   
 Les arguments transmis aux événements peuvent contenir une instance de la classe [EmailMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Email.EmailMessage.aspx) , que vous pouvez utiliser pour modifier les propriétés et le contenu du message sous-jacent. Toutes les informations de message sont disponibles dans chaque événement. Vous devez déterminer de l’agent et l’événement qui convient le mieux à la tâche que vous souhaitez effectuer. 
   

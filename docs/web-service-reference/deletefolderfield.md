@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
 description: L’élément DeleteFolderField représente une opération de suppression d’une propriété donnée d’un dossier pendant un appel UpdateFolder.
-ms.openlocfilehash: d0a5fb18c5f3445982a6417007ad6af9b1b365af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 60d4a5c19d89c109913e83fea99c2f7910566c72
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755860"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354091"
 ---
 # <a name="deletefolderfield"></a>DeleteFolderField
 
@@ -26,7 +26,7 @@ L’élément **DeleteFolderField** représente une opération de suppression d�
 - [UpdateFolder](updatefolder.md) 
 - [FolderChanges](folderchanges.md)  
 - [FolderChange](folderchange.md)  
-- [Mises à jour (dossier)](updates-folder.md) 
+- [Updates (Folder)](updates-folder.md) 
 - [DeleteFolderField](deletefolderfield.md)
   
 ```xml
@@ -35,7 +35,20 @@ L’élément **DeleteFolderField** représente une opération de suppression d�
 </DeleteFolderField>
 ```
 
- **DeleteFolderFieldType**
+```xml
+<DeleteFolderField>
+   <ExtendedFieldURI/>
+</DeleteFolderField>
+```
+
+```xml
+<DeleteFolderField>
+   <IndexedFieldURI/>
+</DeleteFolderField>
+```
+
+**DeleteFolderFieldType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -56,7 +69,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Mises à jour (dossier)](updates-folder.md) <br/> |Contient un ensemble d’éléments qui définissent append, définir et supprimer les modifications apportées aux propriétés d’un dossier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
+|[Updates (Folder)](updates-folder.md) <br/> |Contient un ensemble d’éléments qui définissent append, définir et supprimer les modifications apportées aux propriétés d’un dossier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

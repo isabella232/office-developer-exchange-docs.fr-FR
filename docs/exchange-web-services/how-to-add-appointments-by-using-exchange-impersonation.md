@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: Découvrez comment utiliser l’emprunt d’identité avec les API managées EWS dans Exchange pour ajouter des rendez-vous dans les calendriers des utilisateurs.
-ms.openlocfilehash: fe737658b88aca66d8b4c2860245db000888ba17
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ab10a7d65a5603a84e12d918dd54198927d88b8a
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754823"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353454"
 ---
 # <a name="add-appointments-by-using-exchange-impersonation"></a>Ajouter des rendez-vous à l’aide de l’emprunt d’identité Exchange
 
@@ -195,12 +195,12 @@ Là encore, il s’agit du même fichier XML qui est renvoyé lorsque vous utili
     
 - [Configurer l’emprunt d’identité](how-to-configure-impersonation.md)
     
-- [Identifier le compte pour emprunter l’identité](how-to-identify-the-account-to-impersonate.md)
+- [Identifier le compte d’emprunt d’identité](how-to-identify-the-account-to-impersonate.md)
     
 - [Créer des rendez-vous et réunions à l’aide de EWS dans Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [Opération CreateItem (élément de calendrier)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)
+- [Opération CreateItem (élément de calendrier)](../web-service-reference/createitem-operation-calendar-item.md)
     
-- [Propriété ExchangeService.ImpersonatedUserId](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx.aspx)
+- [Propriété ExchangeService.ImpersonatedUserId](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     
 

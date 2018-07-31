@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: d598f0a6-e296-423f-8ce5-3da57cfd8189
 description: L’élément Standard représente la date et l’heure de l’heure de modification de l’heure à l’heure standard.
-ms.openlocfilehash: 1c9be4cf35773583078bc8e16ddf44433d3ad98c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c121e959f243d982cfe50ed6b4ef39a82dae2cc8
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829536"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353433"
 ---
 # <a name="standard"></a>Standard
 
@@ -31,7 +31,16 @@ L’élément **Standard** représente la date et l’heure de l’heure de modi
 </Standard>
 ```
 
- **TimeChangeType**
+```xml
+<Standard TimeZoneName="">
+   <Offset/>
+   <AbsoluteDate/>
+   <Time/>
+</Standard>
+```
+
+**TimeChangeType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -49,7 +58,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 |[Offset](offset.md) <br/> |Indique le décalage à partir de la [BaseOffset](baseoffset.md). Avec l’élément **BaseOffset** , l’élément **décalée** identifie si le temps est l’heure standard ou l’heure d’été.  <br/> |
 |[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Décrit une périodicité annuelle relative à une date de transition de fuseau horaire.  <br/> |
 |[AbsoluteDate](absolutedate.md) <br/> |Représente la date à laquelle l’heure passe d’heure standard ou l’heure d’été.  <br/> |
-|[Heure (TimeChangeType)](time-timechangetype.md) <br/> |Indique l’heure de l’heure de modification entre heure standard et l’heure d’été.  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |Indique l’heure de l’heure de modification entre heure standard et l’heure d’été.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -71,8 +80,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

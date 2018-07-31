@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9701409-b620-4afe-b9ee-4c1e95507af7
 description: L’élément ExtendedProperty identifie les propriétés MAPI étendues sur les dossiers et éléments.
-ms.openlocfilehash: 6a0aecc732ef634c2258127fca89b19461e25762
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9a6c44e953cab4900e4b75eb42bdf4d8633e58f9
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756293"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353727"
 ---
 # <a name="extendedproperty"></a>ExtendedProperty
 
@@ -30,7 +30,15 @@ L’élément **ExtendedProperty** identifie les propriétés MAPI étendues sur
 </ExtendedProperty>
 ```
 
- **ExtendedPropertyType**
+```xml
+<ExtendedProperty>
+   <ExtendedFieldURI/>
+   <Value/>
+</ExtendedProperty>
+```
+
+**ExtendedPropertyType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -66,7 +74,7 @@ Aucun.
 |[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier contacts dans une boîte aux lettres.  <br/> |
 |[Folder](folder.md) <br/> |Représente un dossier à créer, obtenir, recherchez, synchroniser ou mettre à jour.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche qui se trouve dans une boîte aux lettres.  <br/> |
-|[Dossier tâches](tasksfolder.md) <br/> |Représente un dossier de tâches qui se trouve dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches qui se trouve dans une boîte aux lettres.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -82,8 +90,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

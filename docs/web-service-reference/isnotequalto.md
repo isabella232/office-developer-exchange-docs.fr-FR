@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e2eff26c-3403-45cd-bb74-1eb98c7dbfcd
 description: L’élément IsNotEqualTo représente une expression de recherche qui compare une propriété avec une valeur constante ou une autre propriété et renvoie la valeur true si les valeurs ne sont pas identiques.
-ms.openlocfilehash: c11f5ba5b8c0672bba0b9ae2a76211ac7d5d94ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 75b580d97fbadbf3aa28c29159973f53768df624
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828059"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353251"
 ---
 # <a name="isnotequalto"></a>IsNotEqualTo
 
@@ -30,7 +30,22 @@ L’élément **IsNotEqualTo** représente une expression de recherche qui compa
 </IsNotEqualTo>
 ```
 
- **IsNotEqualToType**
+```xml
+<IsNotEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsNotEqualTo>
+```
+
+```xml
+<IsNotEqualTo>
+   <IndexedFieldURI/>
+   <FieldURIOrConstant/>
+</IsNotEqualTo>
+```
+
+**IsNotEqualToType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -73,8 +88,6 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
-
-
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

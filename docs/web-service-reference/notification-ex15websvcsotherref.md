@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
 description: L’élément de Notification contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.
-ms.openlocfilehash: a769d8988eb68d0fa0b02f3838cd891e714571b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828547"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21354350"
 ---
 # <a name="notification"></a>Notification
 
@@ -32,7 +32,71 @@ L’élément de **Notification** contient des informations sur l’abonnement e
 </Notification>
 ```
 
- **NotificationType**
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <CreatedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <DeletedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <ModifiedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <MovedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <NewMailEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <StatusEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <FreeBusyChangedEvent/>
+</Notification>
+```
+
+**NotificationType**
+
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
@@ -83,13 +147,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Opération d'abonnement](subscribe-operation.md)
-  
-[Opération de GetEvents](getevents-operation.md)
-  
-[Opération de GetStreamingEvents](getstreamingevents-operation.md)
-  
-[Opération de résiliation d'abonnement](unsubscribe-operation.md)
+- [Opération d'abonnement](subscribe-operation.md) 
+- [Opération de GetEvents](getevents-operation.md) 
+- [Opération de GetStreamingEvents](getstreamingevents-operation.md) 
+- [Opération de résiliation d'abonnement](unsubscribe-operation.md)
 

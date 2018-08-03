@@ -13,7 +13,7 @@
           items:
             - name: Architecture
               href: exchange-web-services/ews-applications-and-the-exchange-architecture.md
-            - name: "Types d’application\_:"
+            - name: 'Types d’application :'
               href: exchange-web-services/ews-application-types.md
             - name: Prise en main des applications clientes d’API managée EWS
               href: exchange-web-services/get-started-with-ews-managed-api-client-applications.md
@@ -52,7 +52,7 @@
             - name: Découverte automatique
               href: exchange-web-services/autodiscover-for-exchange.md
               items:
-                - name: "Trouver des points de terminaison de découverte automatique à l’aide de la recherche\_SCP"
+                - name: Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP
                   href: exchange-web-services/how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md
                 - name: Générer une liste de points de terminaison de découverte automatique
                   href: exchange-web-services/how-to-generate-a-list-of-autodiscover-endpoints.md
@@ -86,7 +86,7 @@
               items:
                 - name: Obtenir les informations de configuration de service
                   href: exchange-web-services/how-to-get-service-configuration-information-by-using-ews-in-exchange.md
-            - name: "Comparaison de programmation du client Exchange local et d’Exchange\_Online"
+            - name: Comparaison de programmation du client Exchange local et d’Exchange Online
               href: exchange-web-services/comparing-exchange-online-and-exchange-on-premises-client-programming.md
             - name: Limitation
               href: exchange-web-services/ews-throttling-in-exchange.md
@@ -261,7 +261,7 @@
             - name: Propriétés et propriétés étendues
               href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md
               items:
-                - name: "Mise en service des en-têtes\_X"
+                - name: Mise en service des en-têtes X
                   href: exchange-web-services/how-to-provision-x-headers-by-using-ews-in-exchange.md
                 - name: Erreurs liées aux propriétés EWS
                   href: exchange-web-services/ews-property-related-errors.md
@@ -4428,7 +4428,7 @@
     - name: Environnement de ligne de commande Exchange Management Shell
       href: management/exchange-management-shell.md
       items:
-        - name: "Créer des outils d’environnement de ligne de commande Exchange\_Management\_Shell"
+        - name: Créer des outils d’environnement de ligne de commande Exchange Management Shell
           href: management/create-exchange-management-shell-tools.md
           items:
             - name: Nouvelles cmdlets et cmdlets mises à jour
@@ -4498,7 +4498,7 @@
           items:
             - name: Types d’opérations de sauvegarde
               href: backup-restore/types-of-backup-operations-for-exchange-2013.md
-            - name: "Restauration des bases de données Exchange\_2013"
+            - name: Restauration des bases de données Exchange 2013
               href: backup-restore/restoring-exchange-2013-databases.md
             - name: Vérifier l’intégrité de la sauvegarde à l’aide de l’API CHKSGFILES
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md

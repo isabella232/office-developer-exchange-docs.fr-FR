@@ -8,16 +8,16 @@ ms.assetid: 899ba15b-336d-4f9b-8563-318c61e43713
 description: Recherchez des informations pour vous aider à développer des applications EWS et des applications clientes de service web pour Exchange.
 ms.openlocfilehash: 2b8b032124e45dda7c83932d519ffb87bcdb5514
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754759"
 ---
 # <a name="develop-web-service-clients-for-exchange"></a>Développer des clients de service web pour Exchange
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Recherchez des informations pour vous aider à développer des applications EWS et des applications clientes de service web pour Exchange.
+Recherchez des informations pour vous aider à développer des applications EWS et des applications clientes de service web pour Exchange.
   
-Les articles de cette section expliquent comment utiliser les services web et EWS dans vos applications clientes Exchange pour Exchange Online, Exchange Online dans le cadre d'Office 365 et les versions locales d'Exchange en commençant par Exchange 2013. Ils fournissent également des exemples qui vous montrent comment effectuer des tâches spécifiques. 
+Les articles de cette section expliquent comment utiliser les services web et EWS dans vos applications clientes Exchange pour Exchange Online, Exchange Online dans le cadre d’Office 365 et les versions locales d’Exchange en commençant par Exchange 2013. Ils fournissent également des exemples qui vous montrent comment effectuer des tâches spécifiques. 
   
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -63,11 +63,11 @@ Les articles de cette section expliquent comment utiliser les services web et EW
     
 - [Outils et ressources pour la résolution des applications EWS pour Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     
-- [Vérification des résultats d'un appel EWS ou EWS Managed API](verifying-the-results-of-an-ews-or-ews-managed-api-call.md)
+- [Vérification des résultats d’un appel EWS ou API managée EWS](verifying-the-results-of-an-ews-or-ews-managed-api-call.md)
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Explorer l'API managée EWS, EWS et les services web dans Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)     
+- [Explorer l'API managée EWS, l’EWS et les services web dans Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)     
 - [Commencer à utiliser les services web dans Exchange](start-using-web-services-in-exchange.md)  
 - [Vue d'ensemble de la conception client EWS pour Exchange](ews-client-design-overview-for-exchange.md)  
 - [Référence des services web pour Exchange](../web-service-reference/web-services-reference-for-exchange.md)

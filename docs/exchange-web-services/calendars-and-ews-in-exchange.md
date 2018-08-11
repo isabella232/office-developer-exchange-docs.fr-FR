@@ -8,16 +8,16 @@ ms.assetid: b87b0180-f5b5-44e4-b6ac-4f23e476b03b
 description: Découvrez les calendriers, les dossiers et les éléments de calendrier, les rendez-vous et les réunions dans Exchange.
 ms.openlocfilehash: bb9702118ff1db66862a5788c2d8f58dd55c4d09
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754760"
 ---
 # <a name="calendars-and-ews-in-exchange"></a>Calendriers et EWS dans Exchange
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez les calendriers, les dossiers et les éléments de calendrier, les rendez-vous et les réunions dans Exchange.
+Découvrez les calendriers, les dossiers et les éléments de calendrier, les rendez-vous et les réunions dans Exchange.
   
-Vous êtes probablement familiarisé avec de nombreuses fonctionnalités de calendrier des clients de messagerie comme Outlook, qui vous permettent d'effectuer le suivi de rendez-vous, de planifier des réunions, de vérifier la disponibilité de personnes, d'inviter des participants et de modifier ou d'annuler les réunions.
+Vous êtes probablement familiarisé avec de nombreuses fonctionnalités de calendrier des clients de messagerie comme Outlook, qui vous permettent d’effectuer le suivi de rendez-vous, de planifier des réunions, de vérifier la disponibilité de personnes, d’inviter des participants et de modifier ou d’annuler les réunions.
   
 Les fonctionnalités de calendrier dans Exchange sont légèrement différentes de celles que vous voyez dans un client comme Outlook. Au lieu d'afficher des informations, EWS dans Exchange vous permet d'effectuer des actions comme créer, stocker, envoyer ou modifier des informations. Pour utiliser EWS avec des calendriers, vous devez être familiarisé avec des concepts tels que le stockage d'informations, l'heure, la périodicité et le flux de messages. Plus spécifiquement, vous devez être familiarisé avec les éléments suivants :
   
@@ -51,22 +51,22 @@ Heureusement, EWS et l'API managée EWS fournissent un large éventail d'opérat
 ## <a name="calendar-folders-and-calendar-items"></a>Dossiers de calendrier et éléments de calendrier
 <a name="bk_CalendarFolder"> </a>
 
-Les dossiers de calendrier contiennent des éléments de calendrier. Les dossiers de calendrier ont une [classe de dossier](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) de **IPF.Appointment**, et peuvent inclure uniquement les éléments définis par la propriété de l'API managée EWS [ItemClass](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.itemclass%28v=exchg.80%29.aspx), qui est associée à un objet de [classe de rendez-vous](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx), ou à l'élément [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) EWS. 
+Les dossiers de calendrier contiennent des éléments de calendrier. Les dossiers de calendrier ont une [classe de dossier](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) de **IPF.Appointment**, et peuvent inclure uniquement les éléments définis par la propriété de l'API managée EWS [ItemClass](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.itemclass%28v=exchg.80%29.aspx), qui est associée à un objet de [classe de rendez-vous](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx), ou à l'élément [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) EWS. 
   
-Éléments d’un dossier de calendrier sont un peu différents des éléments dans les autres dossiers dans une boîte aux lettres car occurrences dans une série périodique et les exceptions à une série périodique ne sont pas des éléments réels dans la boîte aux lettres, mais plutôt sont stockées en interne en tant que pièces jointes à un abonnement forme de base. Par conséquent, afin de récupérer tous les rendez-vous dans une plage de dates donnée, vous devez utiliser un affichage Calendrier. Pour plus d’informations sur l’extraction des rendez-vous et des affichages de calendrier, voir [obtenir des rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
+Les éléments d’un dossier de Calendrier sont légèrement différents des éléments d’autres dossiers dans une boîte aux lettres car les occurrences d’une série périodique et les exceptions à une série périodique ne sont pas des éléments réels dans la boîte aux lettres. Elles sont plutôt stockées en interne sous forme de pièces jointes à un rendez-vous périodique important. Par conséquent, pour récupérer tous les rendez-vous sur une plage de dates donnée, vous devez utiliser un affichage calendrier. Pour en savoir plus sur la récupération des rendez-vous et des affichages de calendrier, voir[Créer des rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md). 
   
 ## <a name="meetings-and-appointments"></a>Réunions et rendez-vous
 <a name="bk_meetings"> </a>
 
-La principale différence entre les réunions et les rendez-vous réside dans la présence de participants aux réunions, mais pas aux rendez-vous. En interne, Exchange utilise le même objet pour les réunions et pour les rendez-vous. Pour utiliser les réunions et les rendez-vous, vous devez utiliser la [classe de rendez-vous](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) de l'API managée EWS ou l'élément [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) d'EWS. 
+La principale différence entre les réunions et les rendez-vous réside dans la présence de participants aux réunions, mais pas aux rendez-vous. En interne, Exchange utilise le même objet pour les réunions et pour les rendez-vous. Pour utiliser les réunions et les rendez-vous, vous devez utiliser la [classe de rendez-vous](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) de l'API managée EWS ou l'élément [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) d'EWS. 
   
 Les rendez-vous et les réunions peuvent être des instances uniques ou faire partie d'une [série périodique](recurrence-patterns-and-ews.md). Cependant, les rendez-vous n'incluant ni participants, ni salles, ni ressources, ne nécessitent pas l'envoi d'un message.
   
 Étant donné que les réunions incluent l'envoi et la réponse à des demandes et des mises à jour, elles impliquent plus que le simple accès à des éléments dans un dossier de calendrier. Elles ont également un flux de travail associé. Les réunions doivent être planifiées lorsque les participants sont disponibles et peuvent également impliquer la réservation d'une salle de réunion ou de ressources comme un projecteur ou d'autres appareils.
   
-Le flux de travail d'une réunion comprend généralement les étapes suivantes :
+Le flux de travail d’une réunion comprend généralement les étapes suivantes :
   
-1. Une réunion est créée et renseignée avec des informations telles que l'heure de début et de fin, l'emplacement et un corps de message.
+1. Une réunion est créée et renseignée avec des informations telles que l’heure de début et de fin, l’emplacement et un corps de message.
     
 2. Une liste de participants, ressources et salles potentiels est créée.
     
@@ -76,7 +76,7 @@ Le flux de travail d'une réunion comprend généralement les étapes suivantes 
     
 5. Les participantes répondent à la réunion avec leur intention de participer ou non. Les participants peuvent également proposer une nouvelle heure pour la réunion.
     
-6. Les réunions peuvent être annulées ou mises à jour, ce qui déclenche généralement l'envoi de nouveaux messages aux participants.
+6. Les réunions peuvent être annulées ou mises à jour, ce qui déclenche généralement l’envoi de nouveaux messages aux participants.
     
 ## <a name="calendars-and-time"></a>Calendriers et heure
 <a name="bk_Time"> </a>
@@ -88,30 +88,30 @@ Les heures sont stockées en interne sur un serveur Exchange en Temps universel 
 ## <a name="recurring-series"></a>Séries périodiques
 <a name="bk_recurrence"> </a>
 
-Une série périodique de réunions ou de rendez-vous est constituée d'un rendez-vous ou réunion périodique important(e), d'un ensemble d'éléments d'occurrence et, éventuellement, d'un ensemble d'éléments d'exception. Les informations de périodicité sont stockées sur l'élément de rendez-vous périodique important. L'élément EWS [RecurringMasterItemId](http://msdn.microsoft.com/library/5800b58c-f3d7-4d8f-acc0-d13e02f4e258%28Office.15%29.aspx) est associé à des occurrences et des exceptions dans une série, ou vous pouvez utiliser la méthode d'API managée EWS [Appointment.BindToRecurringMaster](http://msdn.microsoft.com/en-us/library/dd635978%28v=EXCHG.80%29.aspx) pour récupérer le rendez-vous périodique important. À l'aide d'une instance d'une série, vous pouvez trouver tous les éléments et les informations associés à la série. 
+Une série périodique de réunions ou de rendez-vous est constituée d'un rendez-vous ou réunion périodique important(e), d'un ensemble d'éléments d'occurrence et, éventuellement, d'un ensemble d'éléments d'exception. Les informations de périodicité sont stockées sur l'élément de rendez-vous périodique important. L'élément EWS [RecurringMasterItemId](http://msdn.microsoft.com/library/5800b58c-f3d7-4d8f-acc0-d13e02f4e258%28Office.15%29.aspx) est associé à des occurrences et des exceptions dans une série, ou vous pouvez utiliser la méthode d'API managée EWS [Appointment.BindToRecurringMaster](http://msdn.microsoft.com/fr-FR/library/dd635978%28v=EXCHG.80%29.aspx) pour récupérer le rendez-vous périodique important. À l'aide d'une instance d'une série, vous pouvez trouver tous les éléments et les informations associés à la série. 
   
 Notez que les propriétés de périodicité existent sur tous les éléments de calendrier, mais elles sont renseignées uniquement sur les éléments de rendez-vous périodiques importants. Outre un index de toutes les occurrences d'une série, le rendez-vous périodique important a une référence à des occurrences modifiées et supprimées et à la périodicité d'une série (par exemple, quotidien, hebdomadaire, mensuel ou annuel).
   
 ## <a name="in-this-section"></a>Dans cette section
 <a name="bk_inthissection"> </a>
 
-- [Créer des rendez-vous et réunions à l’aide de EWS dans Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Créer des rendez-vous et des réunions à l’aide d’EWS dans Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [Créer des événements à l’aide de EWS dans Exchange](how-to-create-all-day-events-by-using-ews-in-exchange.md)
+- [Créer des événements sur une journée entière à l'aide d’EWS dans Exchange](how-to-create-all-day-events-by-using-ews-in-exchange.md)
     
-- [Obtenir des rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Créer des rendez-vous et des réunions à l’aide d’EWS dans Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [Mettre à jour vos rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Mettre à jour des rendez-vous et des réunions à l’aide d’EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [Supprimer des rendez-vous et annuler des réunions à l’aide de EWS dans Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Supprimer des rendez-vous et annuler des réunions à l'aide d’EWS dans Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
-- [Obtenir les listes de salle à l’aide de EWS dans Exchange](how-to-get-room-lists-by-using-ews-in-exchange.md)
+- [Obtenir les listes de salle à l'aide d’EWS dans Exchange](how-to-get-room-lists-by-using-ews-in-exchange.md)
     
-- [Obtenir des informations de disponibilité à l’aide de EWS dans Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
+- [Obtenir des informations de disponibilité à l'aide d’EWS dans Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
     
-- [Proposer une nouvelle heure de réunion à l’aide de EWS dans Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Proposer une nouvelle heure de réunion à l'aide d’EWS dans Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
-- [Traitement par lots des éléments de calendrier dans Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
+- [Traiter les éléments de calendrier par lots dans Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
     
 - [Périodicités et EWS](recurrence-patterns-and-ews.md)
     

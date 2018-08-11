@@ -1,21 +1,21 @@
 ---
-title: Obtenir des pièces jointes à l’aide de EWS dans Exchange
+title: Récupérer des pièces jointes à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 12ce3cc0-a201-42e4-93e1-1f57961ff711
-description: Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment obtenir des pièces jointes à partir d'éléments EWS à l'aide de l'API managée EWS ou d'EWS dans Exchange.
+description: Découvrez comment accéder aux pièces jointes à partir d’éléments EWS à l’aide de l’API managée EWS ou d’EWS dans Exchange.
 ms.openlocfilehash: 2e1b3cfb346abd068695f66b01f9e34f1f5ff03f
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754839"
 ---
-# <a name="get-attachments-by-using-ews-in-exchange"></a>Obtenir des pièces jointes à l’aide de EWS dans Exchange
+# <a name="get-attachments-by-using-ews-in-exchange"></a>Récupérer des pièces jointes à l’aide d’EWS dans Exchange
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment obtenir des pièces jointes à partir d'éléments EWS à l'aide de l'API managée EWS ou d'EWS dans Exchange.
+Découvrez comment accéder aux pièces jointes à partir d’éléments EWS à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
 Vous pouvez obtenir des pièces jointes à partir d'un élément à l'aide de l'API managée EWS ou d'EWS. Étant donné que l'appel initial pour obtenir un élément inclut uniquement les métadonnées de la collection de pièces jointes associée à cet élément, la récupération de pièces jointes est toujours un processus en deux étapes. Vous devez d'abord récupérer l'élément, puis sa pièce jointe.
   
@@ -23,15 +23,15 @@ Vous pouvez obtenir des pièces jointes à partir d'un élément à l'aide de l'
 
 |**Tâche**|**Méthode d'API managée EWS**|**Opération EWS**|
 |:-----|:-----|:-----|
-|Récupérer des pièces jointes (élément)  <br/> |[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) suivi de [ItemAttachment.Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) suivi de [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
-|Récupérer des pièces jointes (fichier)  <br/> |[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) suivi de [FileAttachment.Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) suivi de [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
+|Récupérer des pièces jointes (élément)  <br/> |[Item.Bind](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) suivi de [ItemAttachment.Load](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.itemattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) suivi de [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
+|Récupérer des pièces jointes (fichier)  <br/> |[Item.Bind](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) suivi de [FileAttachment.Load](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.fileattachment.load%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) suivi de [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) <br/> |
    
-## <a name="get-attachments-from-an-email-by-using-the-ews-managed-api"></a>Récupérer des pièces jointes à partir d'un e-mail à partir de l'API managée EWS
+## <a name="get-attachments-from-an-email-by-using-the-ews-managed-api"></a>Récupérer des pièces jointes à partir d’un e-mail à partir de l’API managée EWS
 <a name="bk_getattachewsma"> </a>
 
-L'exemple de code suivant permet d'obtenir un objet [EmailMessage](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) à l'aide la méthode **Bind**, puis d'itérer la collection de pièces jointes et d'appeler la méthode **FileAttachment.Load** ou **ItemAttachment.Load** sur chaque pièce jointe, comme requis. Chaque pièce jointe est enregistrée dans le dossier C:\temp\ et chaque pièce jointe est chargée en mémoire. Pour plus d'informations sur l'enregistrement d'une pièce jointe, voir [Enregistrer un e-mail mis en pièce jointe à l'aide de l'API managée EWS](#bk_saveitemattach).
+L'exemple de code suivant permet d'obtenir un objet [EmailMessage](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx) à l'aide la méthode **Bind**, puis d'itérer la collection de pièces jointes et d'appeler la méthode **FileAttachment.Load** ou **ItemAttachment.Load** sur chaque pièce jointe, comme requis. Chaque pièce jointe est enregistrée dans le dossier C:\temp\ et chaque pièce jointe est chargée en mémoire. Pour plus d'informations sur l'enregistrement d'une pièce jointe, voir [Enregistrer un e-mail mis en pièce jointe à l'aide de l'API managée EWS](#bk_saveitemattach).
   
-L'exemple ci-dessous suppose que le **service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide, que **itemId** correspond à la valeur [ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) du message dont les pièces jointes seront extraites et que l'utilisateur a été authentifié auprès d'un serveur Exchange. 
+L'exemple ci-dessous suppose que le **service** est un objet [ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide, que **itemId** correspond à la valeur [ItemId](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.itemid%28v=exchg.80%29.aspx) du message dont les pièces jointes seront extraites et que l'utilisateur a été authentifié auprès d'un serveur Exchange. 
   
 ```cs
 public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemId)
@@ -64,7 +64,7 @@ public static void GetAttachmentsFromEmail(ExchangeService service, ItemId itemI
 }
 ```
 
-## <a name="get-an-attachment-from-an-email-by-using-ews"></a>Récupérer une pièce jointe à partir d'un e-mail à l'aide d'EWS
+## <a name="get-an-attachment-from-an-email-by-using-ews"></a>Récupérer une pièce jointe à partir d’un e-mail à l’aide d’EWS
 <a name="bk_getattachewsma"> </a>
 
 Pour obtenir des pièces jointes à l'aide d'EWS, vous devez tout d'abord récupérer le message et la collection de pièces jointes pour obtenir l'ID ([AttachmentId (GetAttachment et DeleteAttachment)](http://msdn.microsoft.com/library/4bea1cb5-0a0f-4e14-9b09-f91af8cf9899%28Office.15%29.aspx)) de la pièce jointe à récupérer. Une fois que vous avez une ou plusieurs valeurs **AttachmentId** à récupérer, appelez l'opération [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) pour charger toutes les propriétés associées à la pièce jointe. 
@@ -96,7 +96,7 @@ L'exemple de code suivant montre comment utiliser l'opération [GetItem](http://
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **GetItem** par un message [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) où [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) renvoie la valeur **NoError**, ce qui indique que le message a bien été récupéré, et où apparaissent les valeurs [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) des pièces jointes existantes. 
+Le serveur répond à la demande **GetItem** par un message [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) où [ResponseCode](http://msdn.microsoft.com/fr-FR/library/aa580757%28v=exchg.150%29.aspx) renvoie la valeur **NoError**, ce qui indique que le message a bien été récupéré, et où apparaissent les valeurs [AttachmentId](http://msdn.microsoft.com/library/55a5fd77-60d1-40fa-8144-770600cedc6a%28Office.15%29.aspx) des pièces jointes existantes. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -171,7 +171,7 @@ Maintenant que vous disposez des valeurs [AttachmentId](http://msdn.microsoft.co
 </soap:Envelope>
 ```
 
-Lorsque vous récupérez une pièce jointe, le serveur répond à la demande **GetAttachment** par un message [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) où [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) a la valeur **NoError**, ce qui indique que la pièce jointe a bien été récupérée, et où apparaissent tous les éléments associés à l'élément mis en pièce jointe, à savoir ici un message électronique.
+Lorsque vous récupérez une pièce jointe, le serveur répond à la demande **GetAttachment** par un message [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) où [ResponseCode](http://msdn.microsoft.com/fr-FR/library/aa580757%28v=exchg.150%29.aspx) a la valeur **NoError**, ce qui indique que la pièce jointe a bien été récupérée, et où apparaissent tous les éléments associés à l'élément mis en pièce jointe, à savoir ici un message électronique.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -259,7 +259,7 @@ Lorsque vous récupérez une pièce jointe, le serveur répond à la demande **G
 </s:Envelope>
 ```
 
-Lorsque vous récupérez une pièce jointe, le serveur répond à la demande **GetAttachment** par un message [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) où [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) a la valeur **NoError**, ce qui indique que la pièce jointe a bien été récupérée, et où apparaissent tous les éléments associés au fichier de la pièce jointe.
+Lorsque vous récupérez une pièce jointe, le serveur répond à la demande **GetAttachment** par un message [GetAttachmentResponse](http://msdn.microsoft.com/library/cb65f449-309b-4b6e-8d22-d1967135490c%28Office.15%29.aspx) où [ResponseCode](http://msdn.microsoft.com/fr-FR/library/aa580757%28v=exchg.150%29.aspx) a la valeur **NoError**, ce qui indique que la pièce jointe a bien été récupérée, et où apparaissent tous les éléments associés au fichier de la pièce jointe.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -296,10 +296,10 @@ Lorsque vous récupérez une pièce jointe, le serveur répond à la demande **G
 </s:Envelope>
 ```
 
-## <a name="save-an-attached-email-by-using-the-ews-managed-api"></a>Enregistrer un e-mail mis en pièce jointe à l'aide de l'API managée EWS
+## <a name="save-an-attached-email-by-using-the-ews-managed-api"></a>Enregistrer un e-mail mis en pièce jointe à l’aide de l’API managée EWS
 <a name="bk_saveitemattach"> </a>
 
-Pour enregistrer le contenu d’une pièce jointe à l’aide de l’API managée EWS, vous devez enregistrer le [MimeContent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) dans un fichier. Ce faisant, vous perdrez toutes les propriétés étendues définies sur l’élément, telles que les indicateurs de suivi et des catégories. Cet exemple montre comment enregistrer la pièce jointe à le dans le dossier C:\temp\. 
+Afin d’enregistrer le contenu d’une pièce jointe à l’aide de l’API EWS managée, vous devez enregistrer la[MimeContent](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.mimecontent%28v=exchg.80%29.aspx) vers un fichier. Notez que vous perdrez les propriétés étendues définies concernant l’élément, telles que les catégories et les indicateurs de suivi. Cet exemple enregistre l’e-mail transmis en pièce jointe dans le dossier C:\temp\. 
   
 Vous ne pouvez pas déplacer ou copier la pièce jointe vers un autre dossier, car la pièce jointe n'est pas un élément fortement typé. Aussi, si vous essayez de déplacer une pièce jointe vers un autre dossier, utilisez l'exemple de code suivant, puis [importez le fichier](how-to-import-items-by-using-ews-in-exchange.md) dans un autre dossier. 
   
@@ -330,8 +330,8 @@ public static void SaveEmailAttachment(ExchangeService service, ItemId itemId)
 
 - [Pièces jointes et EWS dans Exchange](attachments-and-ews-in-exchange.md)
     
-- [Ajouter des pièces jointes à l’aide de EWS dans Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [Récupérer des pièces jointes à l’aide d’EWS dans Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [Supprimez les pièces jointes à l’aide de EWS dans Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [Supprimer des pièces jointes à l'aide de EWS dans Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Rechercher des points de terminaison de découverte automatique à l’aide de recherche SCP dans Exchange
+title: Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP dans Exchange
 manager: kelbow
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,12 +8,12 @@ ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
 description: Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment trouver des objets SCP de découverte automatique dans les services de domaine Active Directory (AD DS) et les utiliser pour rechercher des URL de point de terminaison de découverte automatique à utiliser avec le service de découverte automatique Exchange.
 ms.openlocfilehash: 59fd316d0aa0feea81b60c279040da018c51b47d
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754827"
 ---
-# <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Rechercher des points de terminaison de découverte automatique à l’aide de recherche SCP dans Exchange
+# <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP dans Exchange
 
 Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment trouver des objets SCP de découverte automatique dans les services de domaine Active Directory (AD DS) et les utiliser pour rechercher des URL de point de terminaison de découverte automatique à utiliser avec le service de découverte automatique Exchange.
   
@@ -50,11 +50,11 @@ La première étape de la recherche de points de terminaison de découverte auto
     
 ### <a name="to-locate-autodiscover-scp-objects"></a>Pour localiser des objets SCP de découverte automatique
 
-1. Lisez la propriété **configurationNamingContext** de l'entrée DSE racine dans AD DS pour obtenir le chemin d'accès au contexte d'appellation de configuration pour le domaine. Pour ce faire, utilisez la classe [DirectoryEntry](http://msdn2.microsoft.com/EN-US/library/z9cddzaa) ou toute autre API qui peut accéder à AD DS. 
+1. Lisez la propriété **configurationNamingContext** de l'entrée DSE racine dans AD DS pour obtenir le chemin d'accès au contexte d'appellation de configuration pour le domaine. Pour ce faire, utilisez la classe [DirectoryEntry](http://msdn2.microsoft.com/fr-FR/library/z9cddzaa) ou toute autre API qui peut accéder à AD DS. 
     
 2. Recherchez dans le contexte d'appellation de configuration des objets SCP qui ont soit le GUID de pointeur SCP ou le GUID d'URL SCP dans la propriété **keywords**. 
     
-3. Vérifier les objets SCP vous trouvé pour un pointeur SCP qui porte sur le domaine de l’utilisateur en vérifiant la propriété **mots clés** pour une entrée égale à `"Domain=<domain>"`. Par exemple, si l’adresse de messagerie de l’utilisateur est elvin@contoso.com, vous se présente un pointeur SCP ayant une entrée dans la propriété **keywords** est égale à `"Domain=contoso.com"`. Si un pointeur SCP correspondant est trouvé, abandonnez le jeu d'objets SCP et recommencez à l'étape 1 en utilisant la valeur de la propriété **serviceBindingInformation** comme serveur pour se connecter à l'entrée DSE racine. 
+3. Vérifiez les objets SCP que vous avez trouvés pour un pointeur SCP inclus dans le domaine de l'utilisateur en vérifiant la propriété **keywords** d'une entrée égale à`"Domain=<domain>"`. Par exemple, si l'adresse e-mail de l'utilisateur est elvin@contoso.com, vous rechercherez un pointeur SCP avec une entrée dans la propriété** keywords**qui est égale à`"Domain=contoso.com"`. Si un pointeur SCP correspondant est trouvé, abandonnez le jeu d'objets SCP et recommencez à l'étape 1 en utilisant la valeur de la propriété **serviceBindingInformation** comme serveur pour se connecter à l'entrée DSE racine. 
     
 4. Si vous ne trouvez pas de pointeurs SCP inclus dans le domaine de l'utilisateur, recherchez des pointeurs SCP qui ne sont pas inclus dans un domaine, puis enregistrez la valeur de la propriété **serviceBindingInformation** comme serveur « de secours », au cas où le serveur actuel ne donne pas de résultats. 
     
@@ -69,13 +69,13 @@ Vous pouvez générer une liste d'URL de point de terminaison de découverte aut
     
 2. Vérifiez la propriété **keywords** sur chaque URL SCP dans le jeu d'objets SCP que vous avez trouvé, et attribuez une priorité à l'URL en fonction des règles suivantes : 
     
-  - Si la propriété **keywords** contient une valeur de `"Site=<site name>"`, où `<site name>` égal de sites vous récupérée à l’étape précédente, le nom de l’annuaire Active Directory pour assigner l’URL une priorité de 1. 
+  - Si la propriété **keywords** contient la valeur du`"Site=<site name>"`, où `<site name>` est égal au nom du site Active Directory que vous avez récupéré à l'étape précédente, attribuez à l'URL une priorité de 1. 
     
-  - Si la propriété **keywords** ne contient pas d’entrée avec une valeur qui commence par `"Site="`, lui attribuer l’URL à une priorité 2. 
+  - Si la propriété **keywords** ne contient pas d'entrée avec une valeur qui commence par`"Site="`, attribuez à l'URL une priorité de 2. 
     
-  - Si la propriété **keywords** contient une valeur de `"Site=<site name>`, où `<site name>` n’a pas été égale au nom du site Active Directory que vous avez extrait à l’étape précédente, pour assigner une priorité 3 l’URL. 
+  - Si la propriété **keywords** contient la valeur de`"Site=<site name>`, où `<site name>` n'est pas égal au nom du site Active Directory que vous avez récupéré à l'étape précédente, attribuez à l'URL une priorité de 3. 
     
-## <a name="code-example-performing-an-scp-lookup"></a>Exemple de code : exécution d'une recherche SCP
+## <a name="code-example-performing-an-scp-lookup"></a>Exemple de code : Exécution une recherche CSP
 <a name="bk_CodeExample"> </a>
 
 Dans l'exemple de code suivant, vous verrez comment localiser des objets SCP de découverte automatique et générer une liste de points de terminaison de découverte automatique triés par priorité.
@@ -325,7 +325,7 @@ namespace ScpLookup
 
 L'étape suivante du processus de découverte automatique consiste à envoyer des demandes de découverte automatique aux URL que vous avez trouvées, en commençant par les URL de priorité 1, puis en passant aux URL de priorité 2 et en finissant par les URL de priorité 3. Pour savoir comment envoyer des demandes de découverte automatique et gérer les réponses, lisez les articles suivants :
   
-- [Obtenir les paramètres de l’utilisateur Exchange à l’aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Obtenir les paramètres de l'utilisateur Exchange à l'aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 - [Gestion des messages d'erreur de découverte automatique](handling-autodiscover-error-messages.md)
     

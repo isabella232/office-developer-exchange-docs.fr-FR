@@ -8,7 +8,7 @@ ms.assetid: da0f9402-4e35-42c7-a15e-1e9e4e966e8b
 description: En savoir plus sur le service de découverte automatique dans Exchange.
 ms.openlocfilehash: f56717eaced5db9028c556c6c2d9aa7794f4988e
 ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/25/2018
 ms.locfileid: "19754787"
@@ -24,11 +24,11 @@ Le service de découverte automatique d'Exchange offre un moyen facile pour votr
 
 Le processus de découverte automatique est essentiellement constitué de trois phases. Dans la première phase, vous générez une liste de serveurs de découverte automatique potentiels et au cours de la deuxième phase, vous essayez chaque serveur de votre liste jusqu'à obtenir une réponse positive (espérons-le). Si aucun de vos candidats ne fonctionne, vous passez à la troisième phase, qui représente une tentative de « dernière minute » pour trouver un point de terminaison de découverte automatique.
   
-La méthode [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) dans l'API managée par EWS implémente les trois phases de ce processus. Ainsi, si vous utilisez l'API managée par EWS, vous n'avez pas à vous soucier de l'implémentation de la découverte automatique. La figure suivante illustre les trois phases du processus de découverte automatique. 
+La méthode [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) dans l'API managée par EWS implémente les trois phases de ce processus. Ainsi, si vous utilisez l'API managée par EWS, vous n'avez pas à vous soucier de l'implémentation de la découverte automatique. La figure suivante illustre les trois phases du processus de découverte automatique. 
   
 **Figure 1. Les trois phases du processus de découverte automatique**
 
-![Illustration du processus de découverte automatique affichant trois phases : définition du pool de candidats, test des points de terminaison et test d'autres alternatives.](media/Ex15_Autodiscover_Overview.png)
+![Illustration du processus de découverte automatique affichant trois phases : définition du pool de candidats, test des points de terminaison et test d’autres alternatives.](media/Ex15_Autodiscover_Overview.png)
   
 ### <a name="phase-1-defining-the-candidate-pool"></a>Phase 1 : Définition du pool de candidats
 <a name="bk_Phase1"> </a>
@@ -39,14 +39,14 @@ Avant de pouvoir utiliser la découverte automatique, vous devez localiser le se
 
 |**Emplacements de recherche**|**Résultats de la recherche**|
 |:-----|:-----|
-|Services de domaine Active Directory (AD DS)  <br/> |Pour les clients joints à un domaine, il s'agit du premier emplacement de recherche. Exchange publie des objets de point de connexion de service (SCP) dans AD DS, ce qui permet aux demandes de découverte automatique d'être acheminées vers les serveurs en fonction des sites Active Directory. Les résultats d'une [recherche de SCP](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md) doivent être situés en haut de votre liste de candidats.  <br/><br/>**Remarque**: recherche SCP n’est pas disponible pour les clients qui ne sont pas liés à un domaine ou qui n’ont pas accès aux serveurs Active Directory. Dans ce cas, vous devez ignorer la recherche SCP. <br/>|
-|Domaine d'adresse de messagerie de l'utilisateur  <br/> | La découverte automatique définit deux formes d'URL de point de terminaison standard dérivées de la partie domaine de l'adresse de messagerie de l'utilisateur :  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  La valeur de  *fileExtension*  dépend de la méthode d'accès de découverte automatique que vous utilisez, [SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) ou [POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx). Le service SOAP utilise une extension de fichier « .svc » ; POX utilise une extension « .xml ».  <br/> |
+|Services de domaine Active Directory (AD DS) ;  <br/> |Pour les clients joints à un domaine, il s'agit du premier emplacement de recherche. Exchange publie des objets de point de connexion de service (SCP) dans AD DS, ce qui permet aux demandes de découverte automatique d'être acheminées vers les serveurs en fonction des sites Active Directory. Les résultats d'une [recherche de SCP](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md) doivent être situés en haut de votre liste de candidats.  <br/><br/>**NOTE**: la recherche SCP n’est pas disponible pour les clients qui ne sont pas associés à un domaine ou qui n’ont pas accès aux serveurs Active Directory. Dans ce cas, vous devez ignorer la recherche SCP. <br/>|
+|Domaine d'adresse de messagerie de l'utilisateur  <br/> | La découverte automatique définit deux formulaires URL de point de terminaison standards qui proviennent de la partie domaine de l’adresse de messagerie de l’utilisateur :  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  La valeur de  *fileExtension*  dépend de la méthode d'accès de découverte automatique que vous utilisez, [SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) ou [POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx). Le service SOAP utilise une extension de fichier « .svc » ; POX utilise une extension « .xml ».  <br/> |
    
 La figure suivante illustre comment générer une liste de points de terminaison pour la découverte automatique.
   
 **Figure 2. Processus de génération d'une liste de points de terminaison pour la découverte automatique**
 
-![Illustration décrivant le processus de génération d'une liste de points de terminaison de découverte automatique. Les flèches indiquent que la liste des points de terminaison est dérivée de la recherche SCP ou de l'adresse de messagerie de l'utilisateur.](media/Ex15_Autodiscover_Overview_Phase1.png)
+![Illustration décrivant le processus de génération d’une liste de points de terminaison de découverte automatique. Les flèches indiquent que la liste des points de terminaison est dérivée de la recherche SCP ou de l’adresse de messagerie de l’utilisateur.](media/Ex15_Autodiscover_Overview_Phase1.png)
   
 ### <a name="phase-2-trying-each-candidate"></a>Phase 2 : Une tentative pour chaque candidat
 <a name="bk_Phase2"> </a>
@@ -55,7 +55,7 @@ Après avoir généré une liste ordonnée de candidats potentiels, l'étape sui
   
 **Figure 3. Une tentative pour chaque candidat de point de terminaison, dans l'ordre**
 
-![Illustration montrant que le serveur recherche chaque point de terminaison selon l'ordre de priorité, jusqu'à ce qu'il reçoive une réponse positive.](media/Ex15_Autodiscover_Overview_Phase2.png)
+![Illustration montrant que le serveur recherche chaque point de terminaison selon l’ordre de priorité, jusqu’à ce qu’il reçoive une réponse positive.](media/Ex15_Autodiscover_Overview_Phase2.png)
   
 Avant d'envoyer une demande à un candidat, assurez-vous de sa fiabilité. N'oubliez pas que vous envoyez les informations d'identification de l'utilisateur, il est donc important de vérifier que vous les partagez uniquement avec un serveur fiable. Vous devez vérifier au moins les éléments suivants :
   
@@ -64,7 +64,7 @@ Avant d'envoyer une demande à un candidat, assurez-vous de sa fiabilité. N'oub
 - Le certificat SSL envoyé par le serveur est valide et provient d'une autorité approuvée.
     
 > [!NOTE]
-> [!REMARQUE] Il s'agit uniquement de consignes de sécurité de base. Lorsque vous utilisez une authentification, assurez-vous que le code répond aux exigences de sécurité de votre organisation. 
+> Il s'agit uniquement de consignes de sécurité de base. Lorsque vous utilisez une authentification, assurez-vous que le code répond aux exigences de sécurité de votre organisation. 
   
 Le type de demande que vous envoyez dépend de la manière dont vous accédez au service de découverte automatique.
   
@@ -72,7 +72,7 @@ Le type de demande que vous envoyez dépend de la manière dont vous accédez au
 
 |**Si vous utilisez...**|**Envoyez une demande à l'aide de...**|
 |:-----|:-----|
-|L'API managée par EWS  <br/> |La méthode [GetUserSettings](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx).  <br/> |
+|API managée EWS  <br/> |La méthode [GetUserSettings](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx).  <br/> |
 |Le service de découverte automatique SOAP  <br/> |L'opération [GetUserSettings ](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).  <br/> |
 |Le service de découverte automatique POX  <br/> |Une demande POST HTTP avec un [corps de demande de service de découverte automatique](http://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx).  <br/> |
    
@@ -102,27 +102,27 @@ Vous pouvez accéder à la découverte automatique à l'aide du service web POX 
 
 |**Option**|**Avantages**|**Inconvénients**|
 |:-----|:-----|:-----|
-|[API managée par EWS](get-started-with-ews-managed-api-client-applications.md) <br/> | Implémente le traitement de découverte automatique pour vous.<br/><br/>Utilise les services de découverte automatique SOAP et POX.<br/><br/>Fonctionne avec Exchange Online, Exchange Online dans le cadre d'Office 365 ou Exchange 2007 SP1, ou une version ultérieure.<br/><br/>Facile à utiliser.  <br/> | Limité au niveau des paramètres utilisateur disponibles dans l'énumération [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx).<br/><br/>Disponible uniquement pour les applications .NET Framework.  <br/> |
+|[API managée par EWS](get-started-with-ews-managed-api-client-applications.md) <br/> | Implémente le traitement de découverte automatique pour vous.<br/><br/>Utilise les services de découverte automatique SOAP et POX.<br/><br/>Fonctionne avec Exchange Online, Exchange Online dans le cadre d'Office 365 ou Exchange 2007 SP1, ou une version ultérieure.<br/><br/>Facile à utiliser.  <br/> | Limité au niveau des paramètres utilisateur disponibles dans l'énumération [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx).<br/><br/>Disponible uniquement pour les applications .NET Framework.  <br/> |
 |[Découverte automatique SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | Indépendante de la plateforme.<br/><br/>Permet de demander uniquement les paramètres qui vous intéressent.  <br/> | Non disponible dans Exchange 2007.  <br/> |
 |[Découverte automatique POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | Indépendante de la plateforme.<br/><br/>Prise en charge dans Exchange Online et dans Exchange 2007 SP1, ou une version ultérieure.  <br/> | Ne permet pas de demander des paramètres spécifiques.  <br/> |
    
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Rechercher des points de terminaison de découverte automatique à l’aide de recherche SCP dans Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP dans Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
-- [Générer une liste des points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md)
+- [Générer une liste de points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md)
     
-- [Utiliser la découverte automatique pour rechercher les points de connexion](how-to-use-autodiscover-to-find-connection-points.md)
+- [Utiliser la découverte automatique pour trouver des points de connexion](how-to-use-autodiscover-to-find-connection-points.md)
     
-- [Obtenir les paramètres de l’utilisateur Exchange à l’aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Obtenir les paramètres de l'utilisateur Exchange à l'aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-- [Obtenir les paramètres de domaine à partir d’un serveur Exchange](how-to-get-domain-settings-from-an-exchange-server.md)
+- [Obtenir des paramètres de domaine à partir d’un serveur Exchange](how-to-get-domain-settings-from-an-exchange-server.md)
     
-- [Actualiser les informations de configuration à l’aide de découverte automatique](how-to-refresh-configuration-information-by-using-autodiscover.md)
+- [Actualiser les informations de configuration à l’aide de la découverte automatique](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
 - [Gestion des messages d'erreur de découverte automatique](handling-autodiscover-error-messages.md)
     
-- [Amélioration des performances lors de l'utilisation de la fonctionnalité de découverte automatique pour Exchange](improving-performance-when-using-autodiscover-for-exchange.md)
+- [Optimisation des performances lors de l’utilisation de découverte automatique pour Exchange](improving-performance-when-using-autodiscover-for-exchange.md)
     
 ## <a name="see-also"></a>Voir aussi
 

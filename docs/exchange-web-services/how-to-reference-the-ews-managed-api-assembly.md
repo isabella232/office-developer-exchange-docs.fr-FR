@@ -1,28 +1,33 @@
 ---
-title: Référence de l’assembly de l’API managée EWS
+title: Référencer l'assembly d'API managée EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
-description: Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment référencer l'assembly API managée EWS.
-ms.openlocfilehash: af7b1ec449c24e7fa4db89abb30e5ebc9f8d329e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
-ms.translationtype: MT
+description: Découvrez comment référencer l'assembly d'API managée EWS.
+ms.openlocfilehash: a08ce43d139440186f611049fa1e457ea44f0362
+ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754929"
+ms.lasthandoff: 07/28/2018
+ms.locfileid: "21353685"
 ---
-# <a name="reference-the-ews-managed-api-assembly"></a>Référence de l’assembly de l’API managée EWS
+# <a name="reference-the-ews-managed-api-assembly"></a>Référencer l'assembly d'API managée EWS
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment référencer l'assembly API managée EWS.
+Découvrez comment référencer l'assembly d'API managée EWS.
   
 L'API managée EWS fournit une interface simple et complète pour développer et étendre les applications qui utilisent les services web Exchange (EWS). Que vous utilisiez Visual Studio ou un autre éditeur de code pour développer votre application API managée EWS, vous aurez besoin de faire référence à l'assembly API managée EWS. Si vous n'avez pas encore installé l'API managée EWS, [téléchargez-la](http://aka.ms/ews-managed-api-readme).
   
 > [!NOTE]
->  [!REMARQUE]  L'API managée EWS est maintenant disponible en tant que projet open source sur [GitHub](https://github.com/officedev/ews-managed-api). Vous pouvez utiliser la bibliothèque open source afin de : >  participer aux résolutions de bogues et aux améliorations apportées à l'API ; >  obtenir des correctifs et des améliorations avant qu'ils soient disponibles dans une version officielle ; >  accéder à l'implémentation la plus complète et la plus à jour de l'API, afin de l'utiliser comme référence ou pour créer des bibliothèques sur de nouvelles plateformes. >  Vos [contributions](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub sont les bienvenues. 
+> L’API managée EWS est désormais disponible comme projet open source sur [GitHub](https://github.com/officedev/ews-managed-api). Vous pouvez utiliser la bibliothèque open source pour : 
+> - Participer aux résolutions de bogues et aux améliorations de l’API. 
+> - obtenir des correctifs et des améliorations avant qu’ils soient disponibles dans une version officielle ; 
+> - Accéder à l’implémentation la plus complète et la plus à jour de l’API afin de l’utiliser comme référence ou pour créer des bibliothèques sur de nouvelles plateformes.
+> 
+>  Vos [contributions](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) sont les bienvenues via GitHub. 
   
-## <a name="referencing-the-assembly"></a>Référencement de l'assembly
+## <a name="referencing-the-assembly"></a>Référencer l’assembly
 
 La façon la plus courante d'ajouter une référence est d'utiliser Visual Studio. Nous savons que certains développeurs préfèrent utiliser d'autres éditeurs, donc nous allons vous donner des instructions pour utiliser le compilateur de ligne de commande, ainsi que des instructions pour l'utilisation de Visual Studio. Vous remarquerez que les exemples de code qui suivent présentent les mêmes instructions **using**. La différence entre les deux méthodes est que le compilateur de ligne de commande a besoin de l'emplacement du fichier d'assembly. La référence Visual Studio s'occupe de cela pour vous en arrière-plan. 
   
@@ -59,7 +64,7 @@ La façon la plus courante d'ajouter une référence est d'utiliser Visual Studi
 ## <a name="see-also"></a>Voir aussi
 
 - [Prise en main des applications clientes d'API managée EWS](get-started-with-ews-managed-api-client-applications.md)    
-- [La configuration de votre environnement de développement d'applications Exchange](setting-up-your-exchange-application-development-environment.md)   
-- [Communiquer avec EWS à l’aide de l’API managée EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Configuration de votre environnement de développement d’application Exchange](setting-up-your-exchange-application-development-environment.md)   
+- [Communiquer avec EWS à l'aide de l'API managée EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

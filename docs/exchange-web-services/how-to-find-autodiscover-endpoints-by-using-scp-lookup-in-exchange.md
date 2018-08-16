@@ -75,7 +75,7 @@ Vous pouvez générer une liste d'URL de point de terminaison de découverte aut
     
   - Si la propriété **keywords** contient la valeur de`"Site=<site name>`, où `<site name>` n'est pas égal au nom du site Active Directory que vous avez récupéré à l'étape précédente, attribuez à l'URL une priorité de 3. 
     
-## <a name="code-example-performing-an-scp-lookup"></a>Exemple de code : Exécution une recherche CSP
+## <a name="code-example-performing-an-scp-lookup"></a>Exemple de code : Exécution d’une recherche CSP
 <a name="bk_CodeExample"> </a>
 
 Dans l'exemple de code suivant, vous verrez comment localiser des objets SCP de découverte automatique et générer une liste de points de terminaison de découverte automatique triés par priorité.

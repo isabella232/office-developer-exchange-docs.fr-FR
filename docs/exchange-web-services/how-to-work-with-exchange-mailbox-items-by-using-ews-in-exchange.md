@@ -39,7 +39,7 @@ L’API managée EWS ne possède pas de constructeur publiquement disponible p
   
 Lorsque vous connaissez le type d’élément à créer, vous pouvez effectuer la tâche en quelques étapes seulement. Les étapes sont similaires pour tous les types d’éléments :
   
-1. Initialiser une nouvelle instance de l’un des classes[d’élément](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx)avec l’objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)en tant que paramètre. 
+1. Initialiser une nouvelle instance de l’une des classes[d’élément](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx)avec l’objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)en tant que paramètre. 
     
 2. Les schémas sont différents pour chaque type d’élément, c’est pourquoi plusieurs propriétés sont disponibles pour ces derniers.
     
@@ -112,9 +112,9 @@ Pour découvrir comment créer un élément de réunion ou de rendez-vous à l�
 ## <a name="get-an-item-by-using-the-ews-managed-api"></a>Obtention d’un élément à l’aide de l’API managée EWS
 <a name="bk_getewsma"> </a>
 
-Pour utiliser l’API Managée EWS afin de récupérer un élément si vous connaissez l’[Item.Id](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de l’élément à récupérer, vous appelez simplement une des méthodes[Bind](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)sur l’élément et l’élément est récupéré. Pour une expérience optimale, nous vous recommandons de limiter les propriétés renvoyées à celles qui sont requises. Cet exemple renvoie la propriété **Id**de l’élément et la propriété** de l’objet**. 
+Pour utiliser l’API Managée EWS afin de récupérer un élément dont vous connaissez l’[Item.Id](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx), il vous suffit d’appeler simplement une des méthodes[Bind](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx)sur l’élément et l’élément est récupéré. Pour une expérience optimale, nous vous recommandons de limiter les propriétés renvoyées à celles qui sont requises. Cet exemple renvoie la propriété **Id**de l’élément et la propriété** de l’objet**. 
   
-Cet exemple suppose que le **service** est un valide objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) et que l’utilisateur a bien été authentifié pour un serveur Exchange. La variable locale*itemId* est la[Id](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de l’élément à mettre à jour. 
+Cet exemple suppose que le **service** est un objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. La variable localeitemId est l’[Id de l’élément à mettre à jour. 
   
 ```cs
 // As a best practice, limit the properties returned to only those that are required.
@@ -131,11 +131,11 @@ Si vous recherchez un élément qui répond à des critères spécifiques, proc�
     
 2. Instanciez un[SearchFilter.SearchFilterCollection](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.searchfilter.searchfiltercollection%28v=exchg.80%29.aspx) ou un [PropertySet](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) pour filtrer les éléments à retenir. 
     
-3. Instanciez un objet[ItemView](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.itemview%28v=EXCHG.80%29.aspx) ou d’un[CalendarView](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx)afin de spécifier le nombre d’éléments à retenir. 
+3. Instanciez un objet[ItemView](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.itemview%28v=EXCHG.80%29.aspx) ou [CalendarView](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx)afin de spécifier le nombre d’éléments à retenir. 
     
 4. Appelez la méthode[ExchangeService.FindItems](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) ou [ExchangeService.FindAppointments](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx). 
     
-Par exemple, si vous souhaitez récupérer des messages électroniques non lus dans la boîte de réception, vous pouvez utiliser le code de l’exemple suivant. Cet exemple utilise un élément **SearchFilterCollection**pour limiter les résultats de la méthode**FindItems aux messages** aux messages non lus et limite l’élément**ItemView** afin de réduire les résultats à un seul élément. Ce code particulier fonctionne uniquement sur les objets[EmailMessage](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx), car la valeur [EmailMessageSchema.IsRead](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.emailmessageschema.isread%28v=exchg.80%29.aspx) fait partie de la **SearchFilter**. 
+Par exemple, si vous souhaitez récupérer des messages électroniques non lus dans la boîte de réception, vous pouvez utiliser le code de l’exemple suivant. Cet exemple utilise un élément **SearchFilterCollection**pour limiter les résultats de la méthode**FindItems aux messages** non lus et limite l’élément**ItemView** afin de réduire les résultats à un seul élément. Ce code particulier fonctionne uniquement sur les objets[EmailMessage](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.emailmessage%28v=exchg.80%29.aspx), car la valeur [EmailMessageSchema.IsRead](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.emailmessageschema.isread%28v=exchg.80%29.aspx) fait partie de la **SearchFilter**. 
   
 ```cs
 // Bind the Inbox folder to the service object.
@@ -282,7 +282,7 @@ Pour découvrir comment obtenir un élément de réunion ou de rendez-vous à l�
 
 Les étapes pour mettre à jour un élément à l’aide de l’API managée EWS sont similaires pour tous les types d’éléments. Toutefois, les propriétés sont différentes pour chaque type d’élément et la méthode [de Mise à jour](http://msdn.microsoft.com/fr-FR/library/office/dd635915%28v=exchg.80%29.aspx)présente de nombreuses méthodes surchargées parmi lesquelles faire votre choix. Pour mettre à jour un élément, procédez comme suit : 
   
-1. Utilisez la méthode[Bind](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) pour obtenir la dernière version de l’élément, sauf si vous la possédez déjà. Pour mettre à jour des propriétés propres à un élément fortement identifié, vous devez établir une liaison avec ce type d’élément. Pour mettre à jour des propriétés disponibles sur le type d’élément générique, vous pouvez lier à l’objet de l’[élément](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx). 
+1. Utilisez la méthode[Bind](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) pour obtenir la dernière version de l’élément, sauf si vous la possédez déjà. Pour mettre à jour des propriétés propres à un élément fortement identifié, vous devez établir une liaison avec ce type d’élément. Pour mettre à jour des propriétés disponibles sur le type d’élément générique, vous pouvez établir une liaison avec l’objet de l’[élément](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx). 
     
 2. Mettez à jour les propriétés sur l’élément.
     
@@ -290,7 +290,7 @@ Les étapes pour mettre à jour un élément à l’aide de l’API managée E
     
 Par exemple, vous pouvez mettre à jour l’objet d’un message électronique à l’aide du type d’élément générique, comme illustré dans le code de l’exemple suivant.
   
-Cet exemple suppose que le **service** est un valide objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) et que l’utilisateur a bien été authentifié pour un serveur Exchange. La variable locale*itemId* est la[Id](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de l’élément à mettre à jour. 
+Cet exemple suppose que le **service** est un objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. La variable localeitemId est l’[Id de l’élément à mettre à jour. 
   
 ```cs
 // Bind to the existing item, using the ItemId.
@@ -363,7 +363,7 @@ Si vous devez rechercher l’élément avant de le supprimer, procédez comme su
     
 Par exemple, le code suivant indique comment déplacer un message électronique vers le dossier Éléments supprimés.
   
-Cet exemple suppose que le **service** est un valide objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) et que l’utilisateur a bien été authentifié pour un serveur Exchange. La variable locale*itemId* est la[Id](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) de l’élément à mettre à jour. 
+Cet exemple suppose que le **service** est un objet[ExchangeService](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. La variable localeitemId est l’[Id de l’élément à mettre à jour. 
   
 ```cs
 // Bind to the existing item, using the ItemId.
@@ -374,7 +374,7 @@ Item item = Item.Bind(service, itemId);
 item.Delete(DeleteMode.MoveToDeletedItems);
 ```
 
-Pour plus d’informations sur la suppression d’éléments, voir [supprime les éléments à l’aide d’EWS dans Exchange](deleting-items-by-using-ews-in-exchange.md). Pour découvrir comment supprimer un élément de réunion ou de rendez-vous à l’aide de l’API managée EWS, voir [ Supprimer des rendez-vous et annuler des réunions à l’aide d’EWS dans Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
+Pour plus d’informations sur la suppression d’éléments, voir [Supprimer les éléments à l’aide d’EWS dans Exchange](deleting-items-by-using-ews-in-exchange.md). Pour découvrir comment supprimer un élément de réunion ou de rendez-vous à l’aide de l’API managée EWS, voir [ Supprimer des rendez-vous et annuler des réunions à l’aide d’EWS dans Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
   
 ## <a name="delete-an-item-by-using-ews"></a>Suppression d’un élément à l’aide d’EWS
 <a name="bk_deleteews"> </a>
@@ -401,7 +401,7 @@ L’exemple suivant présente la demande XML qui est envoyée au serveur pour d
 
 Le serveur répond à la requête **UpdateItem** par un message [UpdateItemResponse](http://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) comprenant la valeur [ResponseCode](http://msdn.microsoft.com/fr-FR/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, qui indique que l’élément a été supprimé avec succès.
   
-Pour plus d’informations sur la suppression d’éléments, voir [supprime les éléments à l’aide d’EWS dans Exchange](deleting-items-by-using-ews-in-exchange.md). Pour découvrir comment supprimer un élément de réunion ou de rendez-vous à l’aide d’EWS, voir [ Supprimer des rendez-vous et annuler des réunions à l’aide d’EWS dans Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
+Pour plus d’informations sur la suppression d’éléments, voir [Supprimer les éléments à l’aide d’EWS dans Exchange](deleting-items-by-using-ews-in-exchange.md). Pour découvrir comment supprimer un élément de réunion ou de rendez-vous à l’aide d’EWS, voir [ Supprimer des rendez-vous et annuler des réunions à l’aide d’EWS dans Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
   
 ## <a name="move-or-copy-items-to-another-mailbox"></a>Déplacement ou copie d’éléments vers une autre boîte aux lettres
 <a name="bk_movecopybtnmailboxes"> </a>

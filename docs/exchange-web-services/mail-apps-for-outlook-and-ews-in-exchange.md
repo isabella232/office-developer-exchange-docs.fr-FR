@@ -1,19 +1,19 @@
 ---
-title: Compléments Outlook et les services EWS d’Exchange
+title: Compléments Outlook et EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 821c8eb9-bb58-42e8-9a3a-61ca635cba59
 description: Trouvez des informations sur les compléments Outlook et leur fonctionnement avec EWS dans Exchange.
-ms.openlocfilehash: fc004108c7f31ea6475d61f4e2cd2289b13d27f5
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 7eae834fe0bb93e2e94f094e811ab6cf002fc71b
+ms.sourcegitcommit: 42eecc78e7aed7e95f73370d6c39ab8f4e96bf68
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353636"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25541637"
 ---
-# <a name="outlook-add-ins-and-ews-in-exchange"></a>Compléments Outlook et les services EWS d’Exchange
+# <a name="outlook-add-ins-and-ews-in-exchange"></a>Compléments Outlook et EWS dans Exchange
 
 Trouvez des informations sur les compléments Outlook et leur fonctionnement avec EWS dans Exchange.
 
@@ -42,7 +42,7 @@ Vous pouvez utiliser les applications de messagerie pour personnaliser l’expé
 
 Votre organisation permettre installer des applications de messagerie sur un serveur interne pour limiter l’accès aux utilisateurs autorisés, ou vous et autres développeurs d’application de messagerie peuvent mettre des applications de messagerie sur l' [Office Store](http://office.microsoft.com/store/) pour la vente au grand public. Toute personne exécute Outlook peut télécharger, installer et utiliser les applications de messagerie Marketplace.
 
-Si vous souhaitez en savoir plus sur la création d’applications de messagerie, consultez la [documentation de compléments Outlook](/outlook/add-ins/index.md) ou l’exemple [effectuer une demande EWS](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) .
+Si vous souhaitez en savoir plus sur la création d’applications de messagerie, consultez la [documentation de compléments Outlook](/outlook/add-ins) ou l’exemple [effectuer une demande EWS](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) .
 
 ## <a name="ews-and-outlook-add-ins"></a>Compléments EWS et Outlook
 
@@ -75,11 +75,11 @@ Le jeton de rappel de service est un jeton opaque qui le service tiers joint à 
 ## <a name="see-also"></a>Voir aussi
 
 
-- [Contrôle de l'accès aux applications de client pour EWS dans Exchange](controlling-client-application-access-to-ews-in-exchange.md)
+- [Contrôler l’accès des applications clientes à EWS dans Exchange](controlling-client-application-access-to-ews-in-exchange.md)
 
 - [Méthode Mailbox.makeEwsRequestAsync (interface API JavaScript pour Office)](http://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
-- [Compléments Outlook](https://docs.microsoft.com/en-us/outlook/add-ins/)
+- [Compléments Outlook](https://docs.microsoft.com/outlook/add-ins)
 
 - [Méthode Mailbox.getUserIdentityTokenAsync (interface API JavaScript pour Office)](http://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 

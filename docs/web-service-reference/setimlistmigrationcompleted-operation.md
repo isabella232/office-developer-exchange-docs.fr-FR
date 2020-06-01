@@ -7,16 +7,16 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5c0875b-b941-46a8-8297-1ba397e38442
-description: L’opération SetImListMigrationCompleted n’est pas destinée au public.
-ms.openlocfilehash: eca1e3670b554ab5d07d6dcdbe16bfc7e7461f53
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération SetImListMigrationCompleted n’est pas destinée à un usage public.
+ms.openlocfilehash: 793859d33e3582a5d5a20f57ba1c1e62da0f95bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829423"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44438039"
 ---
-# <a name="setimlistmigrationcompleted-operation"></a><span data-ttu-id="c7ef9-103">Opération SetImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="c7ef9-103">SetImListMigrationCompleted operation</span></span>
+# <a name="setimlistmigrationcompleted-operation"></a><span data-ttu-id="6786f-103">Opération SetImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="6786f-103">SetImListMigrationCompleted operation</span></span>
 
-<span data-ttu-id="c7ef9-104">L’opération SetImListMigrationCompleted n’est pas destinée au public.</span><span class="sxs-lookup"><span data-stu-id="c7ef9-104">The SetImListMigrationCompleted operation is not intended for public use.</span></span>
+<span data-ttu-id="6786f-104">L’opération SetImListMigrationCompleted n’est pas destinée à un usage public.</span><span class="sxs-lookup"><span data-stu-id="6786f-104">The SetImListMigrationCompleted operation is not intended for public use.</span></span>
   
 

@@ -8,37 +8,37 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bdc36e39-56ec-4a52-b4c2-614487a5fb84
 description: L'élément AddItemToMyCalendar est destiné uniquement à un usage interne.
-ms.openlocfilehash: c48c1b417a7bc592778db1e5101042a99fff38ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 310842eca68fc3987e0a0374c6b7bd5bc686c6d8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755170"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435036"
 ---
-# <a name="additemtomycalendar"></a><span data-ttu-id="9ee24-103">AddItemToMyCalendar</span><span class="sxs-lookup"><span data-stu-id="9ee24-103">AddItemToMyCalendar</span></span>
+# <a name="additemtomycalendar"></a><span data-ttu-id="51247-103">AddItemToMyCalendar</span><span class="sxs-lookup"><span data-stu-id="51247-103">AddItemToMyCalendar</span></span>
 
-<span data-ttu-id="9ee24-104">Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. L'élément **AddItemToMyCalendar** est destiné uniquement à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="9ee24-104">The **AddItemToMyCalendar** element is intended for internal use only.</span></span> 
+<span data-ttu-id="51247-104">Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. L'élément **AddItemToMyCalendar** est destiné uniquement à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="51247-104">The **AddItemToMyCalendar** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="9ee24-105">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="9ee24-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="51247-105">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="51247-105">Attributes and elements</span></span>
 
-<span data-ttu-id="9ee24-106">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="9ee24-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="51247-106">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="51247-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9ee24-107">Attributs</span><span class="sxs-lookup"><span data-stu-id="9ee24-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="51247-107">Attributs</span><span class="sxs-lookup"><span data-stu-id="51247-107">Attributes</span></span>
 
-<span data-ttu-id="9ee24-108">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9ee24-108">None.</span></span>
+<span data-ttu-id="51247-108">Aucune.</span><span class="sxs-lookup"><span data-stu-id="51247-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="9ee24-109">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="9ee24-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="51247-109">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="51247-109">Child elements</span></span>
 
-<span data-ttu-id="9ee24-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9ee24-110">None.</span></span>
+<span data-ttu-id="51247-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="51247-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="9ee24-111">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="9ee24-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="51247-111">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="51247-111">Parent elements</span></span>
 
-<span data-ttu-id="9ee24-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9ee24-112">None.</span></span>
+<span data-ttu-id="51247-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="51247-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9ee24-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="9ee24-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="51247-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="51247-113">Remarks</span></span>
 
-<span data-ttu-id="9ee24-114">Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="9ee24-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="51247-114">Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="51247-114">This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).</span></span>
   
-<span data-ttu-id="9ee24-115">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="9ee24-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="51247-115">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="51247-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

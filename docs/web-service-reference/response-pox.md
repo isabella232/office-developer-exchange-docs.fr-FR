@@ -9,18 +9,18 @@ api_type:
 - schema
 ms.assetid: 002b72f2-f94d-467c-8e6c-b3818f7e51dc
 description: 'S’applique à :'
-ms.openlocfilehash: 0e8775c895f1b6d674b9a0141d55c64f57d236b0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 30f6a5c2c6e3034fde8849ab1fced3519029b1f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448974"
 ---
 # <a name="response-pox"></a>Réponse (POX)
 
 
   
-L’élément de **réponse** contient la réponse du service de découverte automatique. 
+L’élément **Response** contient la réponse du service de découverte automatique. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -35,28 +35,28 @@ L’élément de **réponse** contient la réponse du service de découverte aut
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Utilisateur (POX)](user-pox.md) <br/> |Fournit des informations spécifiques à l’utilisateur. Cet élément est facultatif.  <br/> |
-|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte pour l’utilisateur.  <br/> |
+|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte de l’utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Découverte automatique (POX)](autodiscover-pox.md) <br/> |L’élément racine dans une réponse de découverte automatique.  <br/> |
+|[Découverte automatique (POX)](autodiscover-pox.md) <br/> |Élément racine dans une réponse de découverte automatique.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

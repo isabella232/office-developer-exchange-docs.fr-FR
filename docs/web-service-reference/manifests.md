@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 650d9fc0-1504-4db4-95d6-d3ba86df66ca
-description: L’élément manifestes contient une collection des manifestes d’application codée en base64 qui sont installés pour le compte de messagerie.
-ms.openlocfilehash: 3877841c097e6b968d0af51ae5261e5b4336c7ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Manifests contient une collection de manifestes d’application codés en base64 qui sont installés pour le compte de messagerie.
+ms.openlocfilehash: 91239e2337f7a1886d8947f558a86110755a93df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828362"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44450815"
 ---
 # <a name="manifests"></a>Manifestes
 
-L’élément **manifestes** contient une collection des manifestes d’application codée en base64 qui sont installés pour le compte de messagerie. 
+L’élément **Manifests** contient une collection de manifestes d’application codés en base64 qui sont installés pour le compte de messagerie. 
   
 ```XML
 <Manifests>
@@ -28,11 +28,11 @@ L’élément **manifestes** contient une collection des manifestes d’applicat
  **ArrayOfAppManifestsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

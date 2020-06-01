@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f041c15c-1a96-4a6f-9d21-0536936a5484
-description: L’élément OccurrenceDate est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 20f6a65337ff81573ca0fa1c74757da0968b1292
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément OccurrenceDate est destiné uniquement à un usage interne.
+ms.openlocfilehash: 76f1410251ae4c3f8b82873894d97e94d66098af
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828638"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44450717"
 ---
 # <a name="occurrencedate"></a>OccurrenceDate
 
-L’élément **OccurrenceDate** est destiné à une utilisation interne uniquement. 
+L’élément **OccurrenceDate** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
-description: L’élément GetRemindersResponse spécifie la réponse à une demande de GetReminders.
-ms.openlocfilehash: 1882ab377365908c0bc272059ab4e007c43d788c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetRemindersResponse spécifie la réponse à une demande GetReminders.
+ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756726"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458291"
 ---
 # <a name="getremindersresponse"></a>GetRemindersResponse
 
-L’élément **GetRemindersResponse** spécifie la réponse à une demande de **GetReminders** . 
+L’élément **GetRemindersResponse** spécifie la réponse à une demande **GetReminders** . 
   
 ```XML
 <GetRemindersResponse>
@@ -29,15 +29,15 @@ L’élément **GetRemindersResponse** spécifie la réponse à une demande de *
  **GetRemindersResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Rappels](reminders.md)
+[Reminders](reminders.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

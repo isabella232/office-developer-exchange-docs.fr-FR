@@ -1,5 +1,5 @@
 ---
-title: Personne
+title: Delegator
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: d359f7e8-765f-40ba-a7a0-9ce428f84523
-description: L’élément de la personne qui a délégué contient le nom de la personne qui a attribué la tâche.
-ms.openlocfilehash: 00d9c24e71037c10d7093883491242e665305295
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément de délégation contient le nom de la personne qui a affecté la tâche.
+ms.openlocfilehash: 63f97838d732c29e1e434783e7a12cf45e195e76
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755839"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457360"
 ---
-# <a name="delegator"></a>Personne
+# <a name="delegator"></a>Delegator
 
-L’élément de la **personne qui a délégué** contient le nom de la personne qui a attribué la tâche. 
+L’élément de **délégation** contient le nom de la personne qui a affecté la tâche. 
   
 ```xml
 <Delegator/>
 ```
 
-**Chaîne**
+**String**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,9 +47,9 @@ Aucun.
 |:-----|:-----|
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le nom de la personne.
+La valeur de texte représente le nom de la personne qui délègue.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 393c3d7e-7416-458a-b976-270b88eaaa03
-description: L’élément Attendee représente les participants et les ressources pour une réunion.
-ms.openlocfilehash: 60cb0839c2f6de69b833c11f4594d40c14cd8887
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément participant représente les participants et les ressources d’une réunion.
+ms.openlocfilehash: f376e59b27017e0a9d27692cb1a4ae759cd1af0e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755341"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457647"
 ---
 # <a name="attendee"></a>Participant
 
-L’élément **Attendee** représente les participants et les ressources pour une réunion. 
+L’élément **participant** représente les participants et les ressources d’une réunion. 
   
 ```xml
 <Attendee>
@@ -34,27 +34,29 @@ L’élément **Attendee** représente les participants et les ressources pour u
  **AttendeeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Boîte aux lettres](mailbox.md) <br/> |Identifie une adresse de messagerie entièrement résolu.  <br/> |
-|[ResponseType](responsetype.md) <br/> |Représente le type de destinataire réponse reçue pour une réunion. Cette propriété n’est pas pertinente pour l’élément de calendrier de l’organisateur d’une réunion.  <br/> |
+|[Boîte aux lettres](mailbox.md) <br/> |Identifie une adresse de messagerie entièrement résolue.  <br/> |
+|[ResponseType](responsetype.md) <br/> |Représente le type de réponse de destinataire reçue pour une réunion. Cette propriété s’applique uniquement à l’élément de calendrier d’un organisateur de réunion.  <br/> |
 |[LastResponseTime](lastresponsetime.md) <br/> |Représente la date et l’heure de la dernière réponse reçue.  <br/> |
+|[ProposedStart](proposedstart-attendeetype.md) <br/> |Représente l’heure de début proposée par un participant à une réunion. <br/> |
+|[ProposedEnd](proposedend-attendeetype.md) <br/> |Représente l’heure de fin proposée par un participant à une réunion. <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RequiredAttendees](requiredattendees.md) <br/> |Représente les participants qui sont nécessaires pour participer à une réunion.  <br/> |
-|[OptionalAttendees](optionalattendees.md) <br/> |Représente les participants qui ne sont pas indispensables à participer à une réunion.  <br/> |
-|[Ressources](resources.md) <br/> |Représente une ressource pour une réunion planifiée.  <br/> |
+|[RequiredAttendees](requiredattendees.md) <br/> |Représente les participants qui sont requis pour participer à une réunion.  <br/> |
+|[OptionalAttendees](optionalattendees.md) <br/> |Représente les participants qui ne sont pas tenus de participer à une réunion.  <br/> |
+|[Resources](resources.md) <br/> |Représente une ressource planifiée pour une réunion.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

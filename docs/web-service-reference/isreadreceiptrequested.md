@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7ab6edd5-c7ed-4701-8de3-d7dc7ecfa9c2
 description: L’élément IsReadReceiptRequested indique si l’expéditeur d’un élément demande une confirmation de lecture.
-ms.openlocfilehash: e3db685fc4e72e4332eab4a95afb5f844d04c35e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ff0c512ef23b315d4de1194432408f5b408029d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828097"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457787"
 ---
 # <a name="isreadreceiptrequested"></a>IsReadReceiptRequested
 
@@ -30,11 +30,11 @@ L’élément **IsReadReceiptRequested** indique si l’expéditeur d’un élé
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,7 +47,7 @@ Aucun.
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
@@ -56,15 +56,15 @@ Aucun.
 |[ReplyToItem](replytoitem.md) <br/> |Contient une réponse à l'auteur d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |Contient une réponse destinée à tous les destinataires identifiés d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |Contient un élément de la banque Exchange pour transférer à des destinataires.  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l’objet de réponse attentivement ce utilisé pour annuler une réunion.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l’objet de réponse utilisé pour annuler une réunion.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le destinataire de l’élément est demandée une confirmation de lecture. 
+Une valeur de texte **true** indique qu’une confirmation de lecture est demandée par le destinataire de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 
-Si **IsReadReceiptRequested** a la **valeur true**, la définition de [estlu](isread.md) sur **true** envoie une confirmation de lecture. Le destinataire peut supprimer des confirmations de lecture par envoi de l’objet de réponse [SuppressReadReceipt](suppressreadreceipt.md) avant de définir la propriété **estlu** . 
+Si **IsReadReceiptRequested** est défini sur **true**, la définition de [IsRead](isread.md) sur **true** envoie une confirmation de lecture. Le destinataire peut supprimer les accusés de lecture en soumettant l’objet Response [SuppressReadReceipt](suppressreadreceipt.md) avant de définir la propriété **IsRead** . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: e066db95-6963-4507-a8d0-8efad287f550
-description: L’opération CreateAttachment crée un élément ou un fichier de pièce jointe et l’attache à l’élément spécifié.
-ms.openlocfilehash: fed60275a007f2796c60d936def7a937e4982f29
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération CreateAttachment crée un élément ou une pièce jointe et l’attache à l’élément spécifié.
+ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755681"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456569"
 ---
 # <a name="createattachment-operation"></a>Opération CreateAttachment
 
-L’opération CreateAttachment crée un élément ou un fichier de pièce jointe et l’attache à l’élément spécifié.
+L’opération CreateAttachment crée un élément ou une pièce jointe et l’attache à l’élément spécifié.
   
-## <a name="file-createattachment-request-example"></a>Exemple de fichier de demande CreateAttachment
+## <a name="file-createattachment-request-example"></a>Exemple de requête CreateAttachment de fichier
 
 ### <a name="description"></a>Description
 
-Une demande CreateAttachment l’exemple suivant montre comment créer un fichier joint.
+L’exemple de requête CreateAttachment suivant montre comment créer une pièce jointe.
   
 ### <a name="code"></a>Code
 
@@ -36,10 +36,10 @@ Une demande CreateAttachment l’exemple suivant montre comment créer un fichie
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 <soap:Body>
-  <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     <ParentItemId Id="AAAtAE..." ChangeKey="CQAAABYA..."/>
     <Attachments>
       <t:FileAttachment>
@@ -52,14 +52,14 @@ Une demande CreateAttachment l’exemple suivant montre comment créer un fichie
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-Nom de la pièce jointe doit être fourni.
+Un nom pour la pièce jointe doit être fourni.
   
 > [!NOTE]
-> L’identificateur de l’élément parent et modifier la clé ont été réduits afin de préserver la lisibilité. 
+> L’identificateur de l’élément parent et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -67,7 +67,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ParentItemId](parentitemid.md)
     
-- [Pièces jointes](attachments-ex15websvcsotherref.md)
+- [Attachments](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     
@@ -75,11 +75,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [Content](content.md)
     
-## <a name="successful-file-createattachment-response-example"></a>Exemple de réponse CreateAttachment fichier réussie
+## <a name="successful-file-createattachment-response-example"></a>Exemple de réponse de CreateAttachment de fichier réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande CreateAttachment.
+L’exemple suivant montre une réponse réussie à la demande CreateAttachment.
   
 ### <a name="code"></a>Code
 
@@ -90,12 +90,12 @@ L’exemple suivant montre une réponse positive à la demande CreateAttachment.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="653" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -111,11 +111,11 @@ L’exemple suivant montre une réponse positive à la demande CreateAttachment.
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-La réponse contient l’identificateur du fichier joint. Il contient également la clé d’identificateur et modification de l’élément racine. Les identificateurs d’élément et modifier la clé ont été réduits afin de préserver la lisibilité.
+La réponse contient l’identificateur du fichier joint. Il contient également l’identificateur et la clé de modification de l’élément racine. Les identificateurs d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -129,17 +129,17 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [Pièces jointes](attachments-ex15websvcsotherref.md)
+- [Attachments](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     
 - [AttachmentId](attachmentid.md)
     
-## <a name="item-createattachment-request-example"></a>Exemple de requête CreateAttachment élément
+## <a name="item-createattachment-request-example"></a>Exemple de requête CreateAttachment Item
 
 ### <a name="description"></a>Description
 
-Une demande CreateAttachment l’exemple suivant montre comment créer une pièce jointe d’élément.
+L’exemple de requête CreateAttachment suivant montre comment créer une pièce jointe d’un élément.
   
 ### <a name="code"></a>Code
 
@@ -148,10 +148,10 @@ Une demande CreateAttachment l’exemple suivant montre comment créer une pièc
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ParentItemId Id="AAAtAE=" ChangeKey="CQAAABYA"/>
       <Attachments>
         <t:ItemAttachment>
@@ -166,13 +166,13 @@ Une demande CreateAttachment l’exemple suivant montre comment créer une pièc
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-Nom de la pièce jointe doit être fourni.
+Un nom pour la pièce jointe doit être fourni.
   
- **Remarque** L’identificateur de l’élément parent et modifier la clé ont été réduits afin de préserver la lisibilité. 
+ **Note** L’identificateur de l’élément parent et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -180,7 +180,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ParentItemId](parentitemid.md)
     
-- [Pièces jointes](attachments-ex15websvcsotherref.md)
+- [Attachments](attachments-ex15websvcsotherref.md)
     
 - [ItemAttachment](itemattachment.md)
     
@@ -188,13 +188,13 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [Message](message-ex15websvcsotherref.md)
     
-- [Objet](subject.md)
+- [Subject](subject.md)
     
-## <a name="successful-item-createattachment-response-example"></a>Exemple de réponse élément CreateAttachment réussie
+## <a name="successful-item-createattachment-response-example"></a>Exemple de réponse de CreateAttachment d’élément réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande CreateAttachment.
+L’exemple suivant montre une réponse réussie à la demande CreateAttachment.
   
 ### <a name="code"></a>Code
 
@@ -205,12 +205,12 @@ L’exemple suivant montre une réponse positive à la demande CreateAttachment.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="653" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -226,11 +226,11 @@ L’exemple suivant montre une réponse positive à la demande CreateAttachment.
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-La réponse contient l’identificateur de la nouvelle pièce jointe. Il contient également la clé d’identificateur et modification de l’élément racine. L’élément racine est l’élément qui contient la pièce jointe. Les identificateurs d’élément et modifier la clé ont été réduits afin de préserver la lisibilité.
+La réponse contient l’identificateur de la nouvelle pièce jointe. Il contient également l’identificateur et la clé de modification de l’élément racine. L’élément racine est l’élément qui contient la pièce jointe. Les identificateurs d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -244,7 +244,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [Pièces jointes](attachments-ex15websvcsotherref.md)
+- [Attachments](attachments-ex15websvcsotherref.md)
     
 - [ItemAttachment](itemattachment.md)
     
@@ -265,12 +265,12 @@ L’exemple suivant montre une réponse d’erreur à la demande CreateAttachmen
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="653" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateAttachmentResponseMessage ResponseClass="Error">
           <m:MessageText>Required property is missing.</m:MessageText>
@@ -309,11 +309,11 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [ExceptionFieldURI](exceptionfielduri.md)
     
-- [Pièces jointes](attachments-ex15websvcsotherref.md)
+- [Attachments](attachments-ex15websvcsotherref.md)
     
 ## <a name="remarks"></a>Remarques
 
-Si plusieurs pièces jointes sont associés à un élément dans une seule boucle, le RootItemChangeKey du dernier message de réponse est celui qui représente la nouvelle clé de modification de l’élément qui a les pièces jointes.
+Si plusieurs pièces jointes sont attachées à un élément en un seul aller-retour, le RootItemChangeKey dans le dernier message de réponse est celui qui représente la nouvelle clé de modification de l’élément qui contient les pièces jointes.
   
 ## <a name="see-also"></a>Voir aussi
 

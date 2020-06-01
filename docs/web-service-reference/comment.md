@@ -1,5 +1,5 @@
 ---
-title: Commentaires
+title: Commentaire
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: be7f4b56-a741-46b7-9d72-3604514baac6
-description: L’élément de commentaire contient le commentaire qui est associé à un dossier géré.
-ms.openlocfilehash: 02f077c6320acc989bbbd29f7563cdca9e57425e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément comment contient le commentaire associé à un dossier géré.
+ms.openlocfilehash: 5c13b4085f856dd9a689ec4d6acc89b39e482663
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755515"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457388"
 ---
-# <a name="comment"></a>Commentaires
+# <a name="comment"></a>Commentaire
 
-L’élément de **commentaire** contient le commentaire qui est associé à un dossier géré. 
+L’élément **Comment** contient le commentaire associé à un dossier géré. 
   
 ```xml
 <Comment/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,7 +46,7 @@ Aucun.
 |:-----|:-----|
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte représente le commentaire associé à un dossier géré.
   
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

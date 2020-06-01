@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: da554a97-ab87-4950-9fc4-26b1972381bb
-description: L’élément OldFolderId contient l’identificateur d’origine d’un dossier qui a été déplacé ou copié.
-ms.openlocfilehash: ef73cad73213a1e8b5341907cd22177d8e1ba628
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément OldFolderId contient l’identificateur d’origine d’un dossier déplacé ou copié.
+ms.openlocfilehash: a6713b9e0c47d68480724c3902086da6a8647dd7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828645"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458060"
 ---
 # <a name="oldfolderid"></a>OldFolderId
 
-L’élément **OldFolderId** contient l’identificateur d’origine d’un dossier qui a été déplacé ou copié. 
+L’élément **OldFolderId** contient l’identificateur d’origine d’un dossier déplacé ou copié. 
   
 ```xml
 <OldFolderId Id="" ChangeKey=""/>
@@ -30,15 +30,14 @@ L’élément **OldFolderId** contient l’identificateur d’origine d’un dos
  **FolderIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|
-  **Id** <br/> |Contient une chaîne qui identifie un dossier dans la banque d’informations Exchange. Cet attribut est requis.  <br/> |
-|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un dossier qui est identifié par l’attribut Id. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,7 +48,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CopiedEvent](copiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est copié.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent à un autre dossier parent.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

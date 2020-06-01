@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 194f5836-7793-463a-a090-4386d1c2487a
-description: L’élément IsNDR indique si les messages entrants doivent être des rapports de non remise (NDR) afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 651590d055a0532c904dbf6c481dca2f899d673f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsNDR indique si les messages entrants doivent être des notifications d’échec de remise (NDR) afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 3476331ccece347686b7f98edf49df5d48b8562e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828056"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458158"
 ---
 # <a name="isndr"></a>IsNDR
 
-L’élément **IsNDR** indique si les messages entrants doivent être des rapports de non remise (NDR) afin que l’exception ou la condition à appliquer. 
+L’élément **IsNDR** indique si les messages entrants doivent être des notifications d’échec de remise (NDR) afin que la condition ou l’exception s’applique. 
   
 ```XML
 <IsNDR>true | false</IsNDR>
@@ -30,11 +30,11 @@ L’élément **IsNDR** indique si les messages entrants doivent être des rappo
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,9 +47,9 @@ Aucun.
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente toutes les conditions d’exception de règle disponibles pour une règle de boîte de réception.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Texte la valeur **true** indique que le message doit être un rapport de non-remise afin que l’exception ou la condition à appliquer. La valeur **false** indique que le message ne doit pas être un rapport de non-remise afin que l’exception ou la condition à appliquer. 
+Une valeur de texte **true** indique que le message doit être un rapport de non-remise afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être un rapport de non-remise afin que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3f3c2300-55cd-41c0-900e-b470b290d52f
-description: L’élément IncludeMimeContent Spécifie si le contenu Multipurpose Internet Mail Extensions (MIME) d’un élément ou d’une pièce jointe est retourné dans la réponse.
-ms.openlocfilehash: ddd6988be93231ac7c574a2e19c9ba4b562c7d0e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IncludeMimeContent spécifie si le contenu MIME (Multipurpose Internet Mail Extensions) d’un élément ou d’une pièce jointe est renvoyé dans la réponse.
+ms.openlocfilehash: 6198e4bef2dc59e6e56a8d3cbe463dad13e544e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827903"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457192"
 ---
 # <a name="includemimecontent"></a>IncludeMimeContent
 
-L’élément **IncludeMimeContent** Spécifie si le contenu Multipurpose Internet Mail Extensions (MIME) d’un élément ou d’une pièce jointe est retourné dans la réponse. 
+L’élément **IncludeMimeContent** spécifie si le contenu MIME (Multipurpose Internet Mail Extensions) d’un élément ou d’une pièce jointe est renvoyé dans la réponse. 
   
 ```xml
 <IncludeMimeContent>true or false</IncludeMimeContent>
@@ -30,11 +30,11 @@ L’élément **IncludeMimeContent** Spécifie si le contenu Multipurpose Intern
  **boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> | Identifie les propriétés supplémentaires pour retourner une réponse à une demande [GetAttachment](getattachment.md) .  <br/> <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifie les propriétés de l’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> <br/> Les expressions XPath pour cet élément sont les suivantes :<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | Identifie les propriétés supplémentaires à renvoyer dans une réponse à une demande [GetAttachment](getattachment.md) .  <br/> <br/> Voici l’expression XPath de cet élément :  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifie les propriétés d’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> <br/> Voici les expressions XPath de cet élément :<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Cet élément peut être **true** ou **false**. La valeur par défaut est **false**. Il s’agit d’un type de données Boolean.
+Cet élément peut avoir la **valeur true** ou **false**. La valeur par défaut est **false**. Il s’agit d’un type de données booléen.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,17 +59,17 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-Une demande de l’exemple suivant montre une procédure pour définir l’élément **IncludeMimeContent** . 
+L’exemple de requête suivant illustre une procédure de définition de l’élément **IncludeMimeContent** . 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
         <t:BodyType>Best</t:BodyType>
@@ -82,13 +82,13 @@ Une demande de l’exemple suivant montre une procédure pour définir l’élé
 </soap:Envelope>
 ```
 
-L’attribut Id de pièce jointe est tronqué afin de préserver la lisibilité.
+L’attribut ID de pièce jointe est tronqué pour conserver la lisibilité.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

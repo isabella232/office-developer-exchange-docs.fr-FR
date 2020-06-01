@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 455e5709-6c06-49fd-bfb2-403fc912287c
-description: L’élément de demande GetImItems définit une requête pour obtenir des informations sur les groupes de messagerie instantanées spécifiés et les personnages contacts de messagerie instantanée.
-ms.openlocfilehash: ff7d520dde44fac6e9278633c1ad46b07b38d6c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément de requête GetImItems définit une demande pour obtenir des informations sur les groupes de messagerie instantanée et les personnes de contacts de messagerie instantanée spécifiés.
+ms.openlocfilehash: e3973cbbf800ffe91472b9c733c4d4a927b91c9f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756639"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456450"
 ---
 # <a name="getimitems"></a>GetImItems
 
-L’élément de demande **GetImItems** définit une requête pour obtenir des informations sur les groupes de messagerie instantanées spécifiés et les personnages contacts de messagerie instantanée. 
+L’élément de requête **GetImItems** définit une demande pour obtenir des informations sur les groupes de messagerie instantanée et les personnes de contacts de messagerie instantanée spécifiés. 
   
 ```XML
 <GetImItems>
@@ -30,15 +30,15 @@ L’élément de demande **GetImItems** définit une requête pour obtenir des i
  **GetImItemsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ContactIds](contactids.md) | [les GroupID](groupids.md) | [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
+[ContactIds](contactids.md)  |  [ID](groupids.md)  |  [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dc8133ff-c34e-4921-bb56-06e79aee0a8a
 description: L’élément EmailUser spécifie un destinataire de courrier électronique.
-ms.openlocfilehash: e724b3996d37a42527ec1183cef9bb6b312b8c93
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c090106a536f4f40908d364cc3c9c43f6fe42beb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756150"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456534"
 ---
 # <a name="emailuser"></a>EmailUser
 
@@ -29,18 +29,18 @@ L’élément **EmailUser** spécifie un destinataire de courrier électronique.
  **EmailUserType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Name (chaîne)](name-string.md) <br/> |Spécifie un nom d’affinement de recherche ou la clé ou le nom d’un utilisateur de messagerie.  <br/> |
-|[Nom d’utilisateur (chaîne)](userid-string.md) <br/> |Spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie.  <br/> |
+|[Nom (chaîne)](name-string.md) <br/> |Spécifie un nom de l’affinement de recherche ou une clé ou le nom d’un utilisateur de messagerie.  <br/> |
+|[UserId (String)](userid-string.md) <br/> |Spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

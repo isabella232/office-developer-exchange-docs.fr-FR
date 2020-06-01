@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c414af9-34d0-41ce-bda9-0d4ca3f3be79
-description: L’élément YomiCompanyNames spécifie un tableau de noms de société phonétique et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 6c8ea8e8887a58e082d8a14a635ae59c6b4622b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément YomiCompanyNames spécifie un tableau de noms de société phonétiques japonaises et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: 41b97998425926750a3ecc7e17233f2066759689
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839080"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457864"
 ---
 # <a name="yomicompanynames"></a>YomiCompanyNames
 
-L’élément **YomiCompanyNames** spécifie un tableau de noms de société phonétique et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **YomiCompanyNames** spécifie un tableau de noms de société phonétiques japonaises et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <YomiCompanyNames>
@@ -28,11 +28,11 @@ L’élément **YomiCompanyNames** spécifie un tableau de noms de société pho
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

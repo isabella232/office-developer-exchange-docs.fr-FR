@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 58a67f8a-c4dc-42dc-97ae-a9e5cc672d2d
 description: L’élément PercentComplete décrit l’état d’achèvement d’une tâche.
-ms.openlocfilehash: 18e53221ecdf60df195445ed7692c03795bdcc1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b7dd2f18bd3ef6addeb6d3a7b004510f35b9cb3d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828717"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456884"
 ---
 # <a name="percentcomplete"></a>PercentComplete
 
@@ -27,14 +27,14 @@ L’élément **PercentComplete** décrit l’état d’achèvement d’une tâc
 <PercentComplete/>
 ```
 
- **Double**
+ **fois**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,13 +46,13 @@ Aucun.
 |:-----|:-----|
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Une valeur de texte qui représente un entier compris entre 0 et 100 est requise.
   
 ## <a name="remarks"></a>Remarques
 
-Paramètre **PercentComplete** à 100 a le même effet que la définition de l’élément [CompleteDate](completedate.md) ou la définition de l’élément [d’état](status.md) sur **terminée**. Dans une demande qu’au moins deux jeux de ces propriétés, la dernière propriété traitée détermine la valeur est définie pour ces éléments. Par exemple, si **PercentComplete** est 100, [CompleteDate](completedate.md) est le 1er janvier 2007, [l’état](status.md) est NotStarted et les propriétés sont transmises dans cet ordre, l’effet sera pour définir l' [état](status.md) de la tâche est NotStarted, le [ CompleteDate](completedate.md) **null**et le **PercentComplete** à 0. 
+La définition de **PercentComplete** sur 100 a le même effet que la définition de l’élément [Completed](completedate.md) , ou la définition de l’élément [Status](status.md) sur **Completed**. Dans une demande qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si **PercentComplete** a la valeur 100, [recompleted](completedate.md) est le 1er janvier 2007 et [Status](status.md) is NotStarted, et que les propriétés sont diffusées dans cet ordre, l’effet est de définir l' [État](status.md) de la tâche sur NotStarted, le paramètre [Completed](completedate.md) sur **null**et le **PourcentageAchevé** sur 0. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -69,10 +69,10 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Création de tâches](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Création de tâches](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Suppression de tâches](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Suppression de tâches](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

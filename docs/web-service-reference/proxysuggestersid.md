@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e1229cf4-8957-4b4a-8b9d-3e956ff9fd7b
-description: L’élément ProxySuggesterSid est utilisée par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 qui dispose d’un accès Client le rôle serveur installé et n’est pas utilisé par les opérations des Services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 380729bf13e2a30572e85a86c93530c02965a987
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProxySuggesterSid est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 9aebb2a90a34745c2184c89b84f7378f1d4be406
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828919"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457738"
 ---
 # <a name="proxysuggestersid"></a>ProxySuggesterSid
 
-L’élément **ProxySuggesterSid** est utilisée par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 qui dispose d’un accès Client le rôle serveur installé et n’est pas utilisé par les opérations des Services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **ProxySuggesterSid** est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ProxySuggesterSid/>
@@ -30,11 +30,11 @@ L’élément **ProxySuggesterSid** est utilisée par le proxy HTTP de l’ordin
  **ProxySecurityContextType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

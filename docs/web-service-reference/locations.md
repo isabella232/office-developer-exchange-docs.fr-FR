@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 764d6a6e-e13b-4cd5-ad68-60bb422eebce
-description: L’élément emplacements spécifie un tableau de valeurs de l’emplacement et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 308fbdda4062b418a8925aa99d025b96e096778d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément locations spécifie un tableau de valeurs d’emplacement et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: d72371a6ee05b395142abca164c4fa2cc5757611
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828249"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458081"
 ---
 # <a name="locations"></a>Emplacements
 
-L’élément **emplacements** spécifie un tableau de valeurs de l’emplacement et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **locations** spécifie un tableau de valeurs d’emplacement et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <Locations>
@@ -28,11 +28,11 @@ L’élément **emplacements** spécifie un tableau de valeurs de l’emplacemen
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 

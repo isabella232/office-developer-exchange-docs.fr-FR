@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bbbc56e4-8cc1-43ae-b70a-9a8d6bb0f399
-description: L’élément ExportItems représente une demande pour exporter les éléments à partir d’une boîte aux lettres.
-ms.openlocfilehash: 055012166bb125dfcf86070f2e23496bf0209b51
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ExportItems représente une demande d’exportation d’éléments à partir d’une boîte aux lettres.
+ms.openlocfilehash: 6e4996f62ea5051e6dc235ee7255057f16b3855b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756261"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457269"
 ---
 # <a name="exportitems"></a>ExportItems
 
-L’élément **ExportItems** représente une demande pour exporter les éléments à partir d’une boîte aux lettres. 
+L’élément **ExportItems** représente une demande d’exportation d’éléments à partir d’une boîte aux lettres. 
   
 [ExportItems](exportitems.md)
   
@@ -34,17 +34,17 @@ L’élément **ExportItems** représente une demande pour exporter les élémen
  **ExportItemsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ItemId (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Contient un tableau d’identificateurs d’élément qui identifient les éléments à exporter à partir d’une boîte aux lettres.  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Contient un tableau d’identificateurs d’élément qui identifient les éléments à exporter à partir d’une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

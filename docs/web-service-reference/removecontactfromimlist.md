@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 41a7c520-a9ce-4548-9ff7-0ac756523d65
-description: L’élément RemoveContactFromImList représente une demande pour supprimer un contact à partir de tous les groupes de messagerie instantanées de la messagerie instantanée.
-ms.openlocfilehash: c98b44ba829137006c9aeb231e3f3439deec4687
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RemoveContactFromImList représente une demande de suppression d’un contact de messagerie instantanée de tous les groupes de messagerie instantanée.
+ms.openlocfilehash: 192f3d28f5f5004300b6b3f2dfcaebf1f3225e76
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829078"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458459"
 ---
 # <a name="removecontactfromimlist"></a>RemoveContactFromImList
 
-L’élément **RemoveContactFromImList** représente une demande pour supprimer un contact à partir de tous les groupes de messagerie instantanées de la messagerie instantanée. 
+L’élément **RemoveContactFromImList** représente une demande de suppression d’un contact de messagerie instantanée de tous les groupes de messagerie instantanée. 
   
 ```XML
 <RemoveContactFromImList>
@@ -28,15 +28,15 @@ L’élément **RemoveContactFromImList** représente une demande pour supprimer
  **RemoveContactFromImListType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ContactId](contactid.md)
+[Mettez](contactid.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

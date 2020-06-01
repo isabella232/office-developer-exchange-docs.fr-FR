@@ -1,5 +1,5 @@
 ---
-title: Professions
+title: Carrière
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d82d0d47-6bc2-4bc8-a796-b770adfdfeb6
-description: L’élément Professions spécifie un tableau de valeurs Profession et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 9aae3deb03b48b2aefe10886a8faa911ff01ff0f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément professions spécifie un tableau de valeurs de profession et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: b9e3c4d112bad610641585024ea9282d835b3bd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828894"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458011"
 ---
-# <a name="professions"></a>Professions
+# <a name="professions"></a>Carrière
 
-L’élément **Professions** spécifie un tableau de valeurs **Profession** et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **professions** spécifie un tableau de valeurs de **profession** et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <Professions>
@@ -28,11 +28,11 @@ L’élément **Professions** spécifie un tableau de valeurs **Profession** et 
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-Personnage
+Persona
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

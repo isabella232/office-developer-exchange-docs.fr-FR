@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1712bc94-9789-4507-8521-bde1be51e331
 description: L’élément IsPrivate indique si l’élément de calendrier est privé.
-ms.openlocfilehash: 37c0357b3eab2314ee74e1c98287b3dc05a3bf26
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c36c659414700439436cd2ca903e443164c1473b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828095"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457801"
 ---
 # <a name="isprivate"></a>IsPrivate
 
@@ -46,11 +46,11 @@ L’élément **IsPrivate** indique si l’élément de calendrier est privé.
  **boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,15 +60,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires sur un événement de calendrier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires sur un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Une valeur de texte qui représente une valeur Boolean est requise.
   
 ## <a name="remarks"></a>Remarques
 
-Si cet élément est utilisé, les autres éléments dans l’élément [CalendarEventDetails](calendareventdetails.md) ne seront pas être incluses dans la réponse. 
+Si cet élément est utilisé, les autres éléments de l’élément [CalendarEventDetails](calendareventdetails.md) ne seront pas inclus dans la réponse. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -76,7 +76,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

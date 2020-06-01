@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f45865fd-4626-4d80-84f6-7989339fdd85
-description: L’élément GetSearchableMailboxesResponseMessage Spécifie le message de réponse pour une demande GetSearchableMailboxes.
-ms.openlocfilehash: 2a4d1fe357656fe29d8572e7f32a4bc2e4a6131e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetSearchableMailboxesResponseMessage spécifie le message de réponse pour une demande GetSearchableMailboxes.
+ms.openlocfilehash: 69f45d87cfbd398013d021cdd39b55497d78ae04
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756742"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458256"
 ---
 # <a name="getsearchablemailboxesresponsemessage"></a>GetSearchableMailboxesResponseMessage
 
-L’élément **GetSearchableMailboxesResponseMessage** Spécifie le message de réponse pour une demande **GetSearchableMailboxes** . 
+L’élément **GetSearchableMailboxesResponseMessage** spécifie le message de réponse pour une demande **GetSearchableMailboxes** . 
   
 ```XML
 <GetSearchableMailboxesResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -32,7 +32,7 @@ L’élément **GetSearchableMailboxesResponseMessage** Spécifie le message de 
  **GetSearchableMailboxesResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -52,17 +52,17 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SearchableMailboxes](searchablemailboxes.md) <br/> |Contient un tableau de boîtes aux lettres renvoyé à partir d’une demande **GetSearchableMailboxes** .  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisée et réservée à un usage ultérieur.  <br/> |
+|[SearchableMailboxes](searchablemailboxes.md) <br/> |Contient un tableau des boîtes aux lettres retournées à partir d’une demande **GetSearchableMailboxes** .  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fournit des informations de réponse d’erreur.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit des informations d’état sur la demande.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit des informations sur l’état de la demande.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,9 +74,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ff24ea15-0cd7-407d-a378-73ec16451870
-description: L’élément DeletedOccurrence représente une occurrence d’un élément de calendrier périodique supprimée.
-ms.openlocfilehash: f12a2ba20f87f7803e492d8422b68c8ecdf9d797
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeletedOccurrence représente une occurrence supprimée d’un élément de calendrier périodique.
+ms.openlocfilehash: 814a81934786963ae5e7ea3a40406834c27b64ce
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755852"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457836"
 ---
 # <a name="deletedoccurrence"></a>DeletedOccurrence
 
-L’élément **DeletedOccurrence** représente une occurrence d’un élément de calendrier périodique supprimée. 
+L’élément **DeletedOccurrence** représente une occurrence supprimée d’un élément de calendrier périodique. 
   
 ```xml
 <DeletedOccurrence>
@@ -32,23 +32,23 @@ L’élément **DeletedOccurrence** représente une occurrence d’un élément 
  **DeletedOccurrenceInfoType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Début](start.md) <br/> |Représente l’heure de début d’une occurrence d’un élément de calendrier périodique supprimée.  <br/> |
+|[Start](start.md) <br/> |Représente l’heure de début d’une occurrence supprimée d’un élément de calendrier périodique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DeletedOccurrences](deletedoccurrences.md) <br/> |Contient un tableau d’occurrences supprimés d’un élément de calendrier périodique.  <br/> |
+|[DeletedOccurrences](deletedoccurrences.md) <br/> |Contient un tableau d’occurrences supprimées d’un élément de calendrier périodique.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: L’opération CreateItem sert à accepter une invitation à partager le calendrier d’un autre utilisateur ou des données de contacts.
-ms.openlocfilehash: 993ef0402e624af69f632af5bdce4c02bd9d41f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération CreateItem permet d’accepter une invitation pour partager le calendrier ou les données de contacts d’un autre utilisateur.
+ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755712"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457514"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
-L’opération **CreateItem** sert à accepter une invitation à partager le calendrier d’un autre utilisateur ou des données de contacts. 
+L’opération **CreateItem** permet d’accepter une invitation pour partager le calendrier ou les données de contacts d’un autre utilisateur. 
   
-## <a name="accept-sharing-invitation-request-example"></a>Accepter l’exemple de requête d’Invitation de partage
+## <a name="accept-sharing-invitation-request-example"></a>Exemple de demande d’acceptation de partage
 
 ### <a name="description"></a>Description
 
@@ -34,11 +34,11 @@ L’exemple suivant montre comment accepter une invitation de partage.
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <AcceptSharingInvitation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <AcceptSharingInvitation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ" ChangeKey="CwAAABYAA" />
         </AcceptSharingInvitation>
       </Items>
@@ -47,7 +47,7 @@ L’exemple suivant montre comment accepter une invitation de partage.
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -61,13 +61,13 @@ Les éléments suivants sont utilisés dans la demande :
     
 ### <a name="comments"></a>Commentaires
 
-L’identificateur d’élément et modifier la clé ont été réduits afin de préserver la lisibilité.
+L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>Exemple de réponse Invitation de partage accepter réussie
+## <a name="successful-accept-sharing-invitation-response-example"></a>Exemple de réponse d’acceptation de partage réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande **CreateItem** . 
+L’exemple suivant montre une réponse réussie à une demande **CreateItem** . 
   
 ### <a name="code"></a>Code
 
@@ -82,12 +82,12 @@ L’exemple suivant montre une réponse positive à une demande **CreateItem** .
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -99,7 +99,7 @@ L’exemple suivant montre une réponse positive à une demande **CreateItem** .
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -115,11 +115,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Items](items.md)
     
-## <a name="accept-sharing-invitation-error-response-example"></a>Accepter l’exemple de réponse d’erreur dans l’Invitation de partage
+## <a name="accept-sharing-invitation-error-response-example"></a>Exemple de réponse d’erreur d’acceptation de partage
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande **CreateItem** . L’erreur est provoquée par une tentative d’accepter une invitation de partage qui ne figurent pas dans la banque d’informations Exchange. 
+L’exemple suivant montre une réponse d’erreur à une demande **CreateItem** . L’erreur est causée par une tentative d’acceptation d’une invitation de partage introuvable dans la Banque d’aide Exchange. 
   
 ### <a name="code"></a>Code
 
@@ -134,12 +134,12 @@ L’exemple suivant montre une réponse d’erreur à une demande **CreateItem**
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>

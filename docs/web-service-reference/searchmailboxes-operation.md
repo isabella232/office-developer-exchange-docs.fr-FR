@@ -7,48 +7,51 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a67c1d8-d021-4e68-aa62-35f7d9c2edc7
-description: Opération de recherche plus d’informations sur la SearchMailboxes EWS.
-ms.openlocfilehash: 141ea466a24f3cb400a8e0b63e2162c1eae5d7f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS SearchMailboxes.
+ms.openlocfilehash: 9ec7e9dd4ef17f22f236e64ca1fdbeb65e6e56fe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829296"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456763"
 ---
 # <a name="searchmailboxes-operation"></a>Opération SearchMailboxes
 
+> [!NOTE]
+> Cette opération est déconseillée et n’est plus prise en charge par Microsoft.  Pour remplacer, utilisez l’opération [FindItem](finditem-operation.md) .
+
 Trouvez des informations sur l’opération EWS **SearchMailboxes** . 
   
-L’opération **SearchMailboxes** recherche des boîtes aux lettres des occurrences des termes dans les éléments de boîte aux lettres. 
+L’opération **SearchMailboxes** recherche des occurrences de termes dans des éléments de boîte aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-searchmailboxes-operation"></a>Utilisation de l’opération SearchMailboxes
 
-L’opération **SearchMailboxes** permettre utiliser le nombre de requêtes simultanées recherche pour effectuer une recherche de découverte sur plusieurs boîtes aux lettres. Les résultats peuvent être soit des informations statistiques sur le nombre de termes de recherche se produisent, ou un aperçu des éléments qui contiennent les termes de recherche. 
+L’opération **SearchMailboxes** peut utiliser plusieurs requêtes de recherche simultanées pour effectuer une recherche de découverte sur plusieurs boîtes aux lettres. Les résultats peuvent être des informations statistiques sur le nombre de termes de recherche, ou un aperçu des éléments qui contiennent les termes de recherche. 
   
-### <a name="searchmailboxes-operation-soap-headers"></a>En-têtes SOAP SearchMailboxes opération
+### <a name="searchmailboxes-operation-soap-headers"></a>En-têtes SOAP d’opération SearchMailboxes
 
-L’opération **SearchMailboxes** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant. 
+L’opération **SearchMailboxes** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles de serveur qui sont nécessaires pour l’appelant effectuer la demande. Cet en-tête est applicable à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération. Cet en-tête est applicable à une demande.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête est applicable à une réponse.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a>Exemple de requête d’opération SearchMailboxes : boîtes aux lettres pour le nombre de résultats de la recherche de termes de recherche
+## <a name="searchmailboxes-operation-request-example-search-mailboxes-for-number-of-search-term-hits"></a>Exemple de requête d’opération SearchMailboxes : boîtes aux lettres de recherche pour le nombre d’accès aux termes de recherche
 
-Une demande d’opération **SearchMailboxes** l’exemple suivant montre comment utiliser deux requêtes différentes pour rechercher les trois boîtes aux lettres pour des informations statistiques sur le nombre de fois un terme apparaît dans chaque boîte aux lettres. 
+L’exemple suivant de demande d’opération **SearchMailboxes** montre comment utiliser deux requêtes différentes pour effectuer une recherche dans trois boîtes aux lettres différentes pour obtenir des informations statistiques sur le nombre de fois qu’un terme est affiché dans chaque boîte aux lettres. 
   
 > [!NOTE]
-> Dans cet exemple, l’élément [Query](query.md) est intentionaly vide. Indique comment une demande réussie peut contenir des conditions d’erreur dans une base de recherche de boîte aux lettres. 
+> Dans cet exemple, l’élément [query](query.md) est intentionnellement laissé vide. Cela indique comment une demande réussie peut contenir des conditions d’erreur en fonction de la recherche par boîte aux lettres. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -85,7 +88,7 @@ Une demande d’opération **SearchMailboxes** l’exemple suivant montre commen
 
 ```
 
-La demande SOAP body contient les éléments suivants :
+Le corps SOAP de la demande contient les éléments suivants :
   
 - [SearchMailboxes](searchmailboxes.md)
     
@@ -99,15 +102,15 @@ La demande SOAP body contient les éléments suivants :
     
 - [MailboxSearchScope](mailboxsearchscope.md)
     
-- [Boîte aux lettres (chaîne)](mailbox-string.md)
+- [Mailbox (String)](mailbox-string.md)
     
 - [SearchScope](searchscope.md)
     
 - [ResultType](resulttype.md)
     
-## <a name="successful-searchmailboxes-operation-response"></a>Réponse d’opération SearchMailboxes réussie
+## <a name="successful-searchmailboxes-operation-response"></a>Réponse de l’opération SearchMailboxes réussie
 
-L’exemple suivant montre une réponse positive à une demande d’opération **SearchMailboxes** pour obtenir des informations statistiques sur le nombre de termes de recherche figurent dans les boîtes aux lettres cible. La dernière requête contient un élément de **requête** vide, ce qui indique une recherche de boîte aux lettres ayant échoué. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **SearchMailboxes** afin d’obtenir des informations statistiques sur le nombre de termes de recherche trouvés dans les boîtes aux lettres cibles. La dernière requête contient un élément de **requête** vide, qui affiche une recherche de boîte aux lettres ayant échoué. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -118,15 +121,15 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:SearchMailboxesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:SearchMailboxesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:SearchMailboxesResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -175,7 +178,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
 
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [SearchMailboxesResponse](searchmailboxesresponse.md)
     
@@ -197,7 +200,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [MailboxSearchScope](mailboxsearchscope.md)
     
-- [Boîte aux lettres (chaîne)](mailbox-string.md)
+- [Mailbox (String)](mailbox-string.md)
     
 - [SearchScope](searchscope.md)
     
@@ -221,7 +224,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [FailedMailbox](failedmailbox.md)
     
-- [Boîte aux lettres (chaîne)](mailbox-string.md)
+- [Mailbox (String)](mailbox-string.md)
     
 - [ErrorCode (int)](errorcode-int.md)
     
@@ -231,7 +234,7 @@ La réponse SOAP body contient les éléments suivants :
     
 ## <a name="searchmailboxes-operation-error-response"></a>Réponse d’erreur d’opération SearchMailboxes
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **SearchMailboxes** . Il s’agit d’une réponse à une demande de recherche dans une boîte aux lettres lors de l’identificateur de la boîte aux lettres est incorrect. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **SearchMailboxes** . Il s’agit d’une réponse à une demande de recherche dans une boîte aux lettres lorsque l’identificateur de la boîte aux lettres est incorrect. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -242,15 +245,15 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:SearchMailboxesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:SearchMailboxesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:SearchMailboxesResponseMessage ResponseClass="Error">
                <m:MessageText>No mailbox is specified for search operation. If specified in the request, 
@@ -292,7 +295,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-La réponse d’erreur corps SOAP contient les éléments suivants :
+Le corps SOAP de la réponse d’erreur contient les éléments suivants :
   
 - [SearchMailboxesResponse](searchmailboxesresponse.md)
     
@@ -314,7 +317,7 @@ La réponse d’erreur corps SOAP contient les éléments suivants :
     
 - [MailboxSearchScope](mailboxsearchscope.md)
     
-- [Boîte aux lettres (chaîne)](mailbox-string.md)
+- [Mailbox (String)](mailbox-string.md)
     
 - [SearchScope](searchscope.md)
     
@@ -332,7 +335,7 @@ La réponse d’erreur corps SOAP contient les éléments suivants :
     
 - [FailedMailbox](failedmailbox.md)
     
-- [Boîte aux lettres (chaîne)](mailbox-string.md)
+- [Mailbox (String)](mailbox-string.md)
     
 - [ErrorCode (int)](errorcode-int.md)
     
@@ -340,7 +343,7 @@ La réponse d’erreur corps SOAP contient les éléments suivants :
     
 - [IsArchive](isarchive.md)
     
-Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).
+Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

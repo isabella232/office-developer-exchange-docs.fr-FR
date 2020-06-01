@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 43d0c1cb-92ca-4399-9b3a-acb2b5c22624
-description: L’élément DeleteAttachment est l’élément racine dans une requête de suppression d’une pièce jointe à partir de la banque d’informations Exchange.
-ms.openlocfilehash: 2beedd647febf025f6e3140ec37b196c9aeb7611
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeleteAttachment est l’élément racine dans une demande de suppression d’une pièce jointe de la Banque d’Exchange.
+ms.openlocfilehash: ae8dd5abc1dced2645e579a62f1f57a66cbc9877
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755844"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457346"
 ---
 # <a name="deleteattachment"></a>DeleteAttachment
 
-L’élément **DeleteAttachment** est l’élément racine dans une requête de suppression d’une pièce jointe à partir de la banque d’informations Exchange. 
+L’élément **DeleteAttachment** est l’élément racine dans une demande de suppression d’une pièce jointe de la Banque d’Exchange. 
   
 ```xml
 <DeleteAttachment>
@@ -33,17 +33,17 @@ L’élément **DeleteAttachment** est l’élément racine dans une requête de
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttachmentIds](attachmentids.md) <br/> |Contient un tableau d’identificateurs de pièce jointe qui sont utilisées pour supprimer les pièces jointes.  <br/> |
+|[AttachmentIds](attachmentids.md) <br/> |Contient un tableau d’identificateurs de pièces jointes qui sont utilisés pour supprimer les pièces jointes.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

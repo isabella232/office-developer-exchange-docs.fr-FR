@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 90841617-3b83-4124-8125-0293c9470f4a
-description: L’élément IsUndecidedApprovalRequest Spécifie si un message de demande d’approbation a été effectuée.
-ms.openlocfilehash: 82b4624df5b2fe7ca212fdf76248e1ccfa3a081f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsUndecidedApprovalRequest spécifie si un message de demande d’approbation a été traité.
+ms.openlocfilehash: 0949cf64b8583c4b3fa5a1700475f01cc480f69f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828127"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458172"
 ---
 # <a name="isundecidedapprovalrequest"></a>IsUndecidedApprovalRequest
 
-L’élément **IsUndecidedApprovalRequest** Spécifie si un message de demande d’approbation a été effectuée. 
+L’élément **IsUndecidedApprovalRequest** spécifie si un message de demande d’approbation a été traité. 
   
 ```XML
 <IsUndecidedApprovalRequest> true | false </IsUndecidedApprovalRequest>
@@ -26,11 +26,11 @@ L’élément **IsUndecidedApprovalRequest** Spécifie si un message de demande 
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [ApprovalRequestData](approvalrequestdata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **IsUndecidedApprovalRequest** est **la valeur true** si un message de demande d’approbation n’a pas été effectuée. La valeur **false** indique que la demande d’approbation a été décidée. 
+La valeur de texte de l’élément **IsUndecidedApprovalRequest** est **true** si aucun message de demande d’approbation n’a été traité. La valeur **false** indique que la demande d’approbation a été décidée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

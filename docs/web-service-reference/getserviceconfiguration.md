@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: acbb29e4-d853-4302-8e32-7018775d54e4
 description: L’élément GetServiceConfiguration définit une demande GetServiceConfiguration.
-ms.openlocfilehash: 7ff7124ff062f21a02fc69b86b7cc7367ba3fcb6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9357a9e3be22e129c4910c01231f9dbd22a2dbe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827666"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457871"
 ---
 # <a name="getserviceconfiguration"></a>GetServiceConfiguration
 
@@ -33,18 +33,18 @@ L’élément **GetServiceConfiguration** définit une demande GetServiceConfigu
  **GetServiceConfigurationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |Identifie les personnes envoie par l’appelant. Cet élément est facultatif. Si cet élément n’est pas présent, l’utilisateur authentifié est supposé être l’expéditeur. L’élément **ActingAs** doit être inclus pour demander des conseils de l’expéditeur. Une erreur ErrorInvalidArgument peut être renvoyée dans une réponse si l’élément **ActingAs** est manquant, n’inclut pas un type de routage, n’inclut pas une adresse de messagerie, contient une adresse de messagerie non valides, ne résout pas à un utilisateur de domaine Active Directory Services (AD DS), ou résout à plusieurs utilisateurs dans AD DS.  <br/> |
-|[RequestedConfiguration](requestedconfiguration.md) <br/> |Contient les configurations de service demandé. Cet élément est obligatoire.  <br/> |
+|[Actionas](actingas.md) <br/> |Identifie les personnes qui envoient l’appelant. Cet élément est facultatif. Si cet élément n’est pas présent, l’utilisateur authentifié est supposé être l’expéditeur. L’élément **actionas** doit être inclus pour la demande d’indications de l’expéditeur. Une erreur ErrorInvalidArgument peut être renvoyée dans une réponse si l’élément **actionas** est manquant, qu’il n’inclut pas de type de routage, qu’il n’inclut pas d’adresse de messagerie, qu’il contient une adresse de messagerie non valide, qu’il n’est pas résolu en utilisateur dans les services de domaine Active Directory (AD DS) ou qu’il est résolu en plusieurs utilisateurs dans AD DS.  <br/> |
+|[RequestedConfiguration](requestedconfiguration.md) <br/> |Contient les configurations de service demandées. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

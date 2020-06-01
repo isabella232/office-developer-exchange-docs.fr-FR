@@ -1,5 +1,5 @@
 ---
-title: Nouveaux et mis à jour des applets de commande Exchange Management Shell
+title: Cmdlets Exchange Management Shell nouvelles et mises à jour
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,47 +7,47 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5941a439-94d2-4133-81fc-7240863a13df
-description: Trouvez des informations sur les nouveautés dans Exchange Management Shell dans Exchange.
-ms.openlocfilehash: 906e078ab6d500a2cb3d364957ffc2fee67a06b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur les nouveautés de l’environnement de commande Exchange Management Shell dans Exchange.
+ms.openlocfilehash: bda6607be20f2a21bc22d472d63615d46634d8ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755124"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457143"
 ---
-# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Nouveaux et mis à jour des applets de commande Exchange Management Shell
+# <a name="new-and-updated-exchange-management-shell-cmdlets"></a>Cmdlets Exchange Management Shell nouvelles et mises à jour
 
-Trouvez des informations sur les nouveautés dans Exchange Management Shell dans Exchange.
+Trouvez des informations sur les nouveautés de l’environnement de commande Exchange Management Shell dans Exchange.
   
 **S’applique à :** Exchange Online | Exchange Server 2013 | Office 365
   
-Cet article fournit des informations sur les nouvelles applets de commande Exchange Management shell, les applets de commande qui ont été modifiés dans et les applets de commande qui ont été supprimées d’Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange.
+Cet article fournit des informations sur les nouvelles cmdlets de l’environnement de ligne de commande Exchange Management Shell, sur les cmdlets qui ont été modifiées dans et sur les cmdlets qui ont été supprimées d’Exchange Online, Exchange Online dans le cadre d’Office 365 ou d’une version locale d’Exchange.
   
-## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Applets de commande nouveaux et mis à jour dans Exchange 2013 SP1
+## <a name="new-and-updated-cmdlets-in-exchange-2013-sp1"></a>Applets de commande nouvelles et mises à jour dans Exchange 2013 SP1
 
 ### <a name="new-cmdlets"></a>Nouvelles applets de commande
 
-Les applets de commande suivantes ont été introduites dans la version 15.00.0847.032 (Exchange Server 2013 SP1) :
+Les applets de commande suivantes ont été introduites dans Build 15.00.0847.032 (Exchange Server 2013 SP1) :
   
-- **Get-AuthRedirect**
+- **Get-Authredirect permet**
     
-- **Nouvelle-AuthRedirect**
+- **New-Authredirect permet**
     
-- **Remove-AuthRedirect**
+- **Remove-Authredirect permet**
     
-- **Set-AuthRedirect**
+- **Set-Authredirect permet**
     
-- **Nouvelle-DataClassification**
+- **New-DataClassification**
     
 - **Remove-DataClassification**
     
 - **Set-DataClassification**
     
-- **Nouvelle empreinte**
+- **New-FingerPrint**
     
 - **Get-MapiVirtualDirectory\***
     
-- **Nouvelle MapiVirtualDirectory\***
+- **New-MapiVirtualDirectory\***
     
 - **Remove-MapiVirtualDirectory\***
     
@@ -61,11 +61,11 @@ Les applets de commande suivantes ont été introduites dans la version 15.00.08
     
 - **Set-SmimeConfig**
     
-- **Get-IntraOrganizationConfiguration**
+- **Get-Intraorganizationconfiguration pour vos**
     
 - **Get-IntraOrganizationConnector**
     
-- **Nouvelle-IntraOrganizationConnector**
+- **New-IntraOrganizationConnector**
     
 - **Remove-IntraOrganizationConnector**
     
@@ -77,23 +77,23 @@ Les applets de commande suivantes ont été introduites dans la version 15.00.08
     
 - **Stop-HistoricalSearch**
     
-- **Nouvelle-SearchDocumentFormat**
+- **New-Searchdocumentformat permet**
     
-- **Remove-SearchDocumentFormat**
+- **Remove-Searchdocumentformat permet**
     
-### <a name="updated-cmdlets"></a>Mise à jour des applets de commande
+### <a name="updated-cmdlets"></a>Applets de commande mises à jour
 
-Les applets de commande suivantes ont été mis à jour dans la version 15.00.0847.032 (Exchange 2013 SP1) :
+Les applets de commande suivantes ont été mises à jour dans Build 15.00.0847.032 (Exchange 2013 SP1) :
   
 - **Get-AuditLogSearch**
     
 - **Get-QuarantineMessage**
     
-- **Nouvelle-InboundConnector**
+- **New-InboundConnector**
     
-- **Nouvelle-MailboxDatabase**
+- **New-MailboxDatabase**
     
-- **Nouvelle-PublicFolderMoveRequest**
+- **New-PublicFolderMoveRequest**
     
 - **New-TransportRule**
     
@@ -111,7 +111,7 @@ Les applets de commande suivantes ont été mis à jour dans la version 15.00.08
     
 - **Set-OwaMailboxPolicy**
     
-- **Set-OwaVirtualDirectory.**
+- **Set-OwaVirtualDirectory**
     
 - **Set-TransportConfig**
     
@@ -125,28 +125,28 @@ Les applets de commande suivantes ont été mis à jour dans la version 15.00.08
     
 - **Test-OAuthConnectivity**
     
-### <a name="removed-cmdlets"></a>Applets de commande supprimée
+### <a name="removed-cmdlets"></a>Applets de commande supprimées
 
-Les applets de commande suivantes ont été supprimées à partir de la version 15.00.0847.032 (Exchange 2013 SP1) :
+Les applets de commande suivantes ont été supprimées de la génération 15.00.0847.032 (Exchange 2013 SP1) :
   
-- **Get-AvailabilityReportOutage**
+- **Get-AvailabilityReportOutage permet**
     
-- **Nouvelle AvailabilityReportOutage**
+- **New-AvailabilityReportOutage permet**
     
-- **Remove-AvailabilityReportOutage**
+- **Remove-AvailabilityReportOutage permet**
     
-- **Set-AvailabilityReportOutage**
+- **Set-AvailabilityReportOutage permet**
     
-## <a name="new-and-updated-cmdlets-in-exchange-2013"></a>Applets de commande nouveaux et mis à jour dans Exchange 2013
+## <a name="new-and-updated-cmdlets-in-exchange-2013"></a>Applets de commande nouvelles et mises à jour dans Exchange 2013
 
 ### <a name="new-cmdlets"></a>Nouvelles applets de commande
 <a name="bk_new"> </a>
 
 Les applets de commande suivantes ont été introduites dans Exchange 2013 :
   
-- **Get-ActiveSyncDeviceAutoblockThreshold**
+- **Get-Activesyncdeviceautoblockthreshold permet**
     
-- **Set-ActiveSyncDeviceAutoblockThreshold**
+- **Set-Activesyncdeviceautoblockthreshold permet**
     
 - **Disable-App**
     
@@ -154,7 +154,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-App**
     
-- **Nouvelle application**
+- **New-App**
     
 - **Remove-App**
     
@@ -166,13 +166,13 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-AuthServer**
     
-- **Nouvelle-AuthServer**
+- **New-AuthServer**
     
 - **Remove-AuthServer**
     
 - **Set-AuthServer**
     
-- **Nouvelle-AvailabilityConfig**
+- **New-AvailabilityConfig**
     
 - **Remove-AvailabilityConfig**
     
@@ -180,7 +180,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-ClassificationRuleCollection**
     
-- **Nouvelle-ClassificationRuleCollection**
+- **New-ClassificationRuleCollection**
     
 - **Remove-ClassificationRuleCollection**
     
@@ -188,7 +188,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-ConnectSubscription**
     
-- **Nouvelle ConnectSubscription**
+- **New-ConnectSubscription**
     
 - **Remove-ConnectSubscription**
     
@@ -196,11 +196,11 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-DataClassification**
     
-- **Get-DataClassificationConfig**
+- **Get-Dataclassificationconfig permet**
     
 - **Get-DlpPolicy**
     
-- **Nouvelle-DlpPolicy**
+- **New-DlpPolicy**
     
 - **Remove-DlpPolicy**
     
@@ -226,7 +226,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Set-FrontendTransportService**
     
-- **Ajouter-GlobalMonitoringOverride**
+- **Add-GlobalMonitoringOverride**
     
 - **Get-GlobalMonitoringOverride**
     
@@ -238,7 +238,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-HostedConnectionFilterPolicy**
     
-- **Nouvelle-HostedConnectionFilterPolicy**
+- **New-HostedConnectionFilterPolicy**
     
 - **Remove-HostedConnectionFilterPolicy**
     
@@ -266,7 +266,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-InboundConnector**
     
-- **Nouvelle-InboundConnector**
+- **New-InboundConnector**
     
 - **Remove-InboundConnector**
     
@@ -318,9 +318,9 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Remove-MalwareFilterRecoveryItem**
     
-- **Resume-MalwareFilterRecoveryItem**
+- **RESUME-MalwareFilterRecoveryItem**
     
-- **Envoi-MapiSubmitSystemProbe**
+- **Send-MapiSubmitSystemProbe**
     
 - **Redirect-Message**
     
@@ -328,17 +328,17 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-MessageTraceDetail**
     
-- **Terminer-MigrationBatch**
+- **Complete-MigrationBatch**
     
 - **Remove-MigrationBatch**
     
-- **Get-MigrationConfig**
+- **Get-Migrationconfig permet**
     
-- **Set-MigrationConfig**
+- **Set-Migrationconfig permet**
     
 - **Get-MigrationEndpoint**
     
-- **Nouvelle-MigrationEndpoint**
+- **New-MigrationEndpoint**
     
 - **Remove-MigrationEndpoint**
     
@@ -350,7 +350,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Remove-MigrationUser**
     
-- **Get-migrationuserstatistics vous**
+- **Get-MigrationUserStatistics**
     
 - **Clear-MobileDevice**
     
@@ -360,7 +360,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-MobileDeviceMailboxPolicy**
     
-- **Nouvelle-MobileDeviceMailboxPolicy**
+- **New-MobileDeviceMailboxPolicy**
     
 - **Remove-MobileDeviceMailboxPolicy**
     
@@ -374,15 +374,15 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Invoke-MonitoringProbe**
     
-- **Get-Notification**
+- **Get-notification**
     
-- **Set-Notification**
+- **Set-notification**
     
 - **Test-OAuthConnectivity**
     
 - **Get-OnPremisesOrganization**
     
-- **Nouvelle-OnPremisesOrganization**
+- **New-OnPremisesOrganization**
     
 - **Remove-OnPremisesOrganization**
     
@@ -392,7 +392,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-OutboundConnector**
     
-- **Nouvelle-OutboundConnector**
+- **New-OutboundConnector**
     
 - **Remove-OutboundConnector**
     
@@ -400,7 +400,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-PartnerApplication**
     
-- **Nouvelle-PartnerApplication**
+- **New-PartnerApplication**
     
 - **Remove-PartnerApplication**
     
@@ -410,13 +410,13 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Set-PendingFederatedDomain**
     
-- **Get-PolicyTipConfig**
+- **Get-Policytipconfig permet**
     
-- **Nouvelle-PolicyTipConfig**
+- **New-Policytipconfig permet**
     
-- **Remove-PolicyTipConfig**
+- **Remove-Policytipconfig permet**
     
-- **Set-PolicyTipConfig**
+- **Set-Policytipconfig permet**
     
 - **Dump-ProvisioningCache**
     
@@ -428,11 +428,11 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-PublicFolderMigrationRequest**
     
-- **Nouvelle-PublicFolderMigrationRequest**
+- **New-PublicFolderMigrationRequest**
     
 - **Remove-PublicFolderMigrationRequest**
     
-- **Resume-PublicFolderMigrationRequest**
+- **RESUME-PublicFolderMigrationRequest**
     
 - **Set-PublicFolderMigrationRequest**
     
@@ -442,19 +442,19 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-QuarantineMessage**
     
-- **Version-QuarantineMessage**
+- **Release-QuarantineMessage**
     
 - **Get-QueueDigest**
     
 - **Get-ResourcePolicy**
     
-- **Nouvelle-ResourcePolicy**
+- **New-ResourcePolicy**
     
 - **Remove-ResourcePolicy**
     
 - **Set-ResourcePolicy**
     
-- **Ajouter-ResubmitRequest**
+- **Add-ResubmitRequest**
     
 - **Get-ResubmitRequest**
     
@@ -470,31 +470,31 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Set-ServerMonitor**
     
-- **Ajouter-ServerMonitoringOverride**
+- **Add-ServerMonitoringOverride**
     
 - **Get-ServerMonitoringOverride**
     
 - **Get-SiteMailbox**
     
-- **Nouvelle SiteMailbox**
+- **New-SiteMailbox**
     
 - **Set-SiteMailbox**
     
 - **Test-SiteMailbox**
     
-- **Mise à jour-SiteMailbox**
+- **Update-SiteMailbox**
     
 - **Get-SiteMailboxDiagnostics**
     
-- **Get-SiteMailboxProvisioningPolicy**
+- **Get-Sitemailboxprovisioningpolicy permet**
     
-- **Nouvelle-SiteMailboxProvisioningPolicy**
+- **New-Sitemailboxprovisioningpolicy permet**
     
-- **Remove-SiteMailboxProvisioningPolicy**
+- **Remove-Sitemailboxprovisioningpolicy permet**
     
-- **Set-SiteMailboxProvisioningPolicy**
+- **Set-Sitemailboxprovisioningpolicy permet**
     
-- **Annulation-SoftDeletedMailbox**
+- **Undo-SoftDeletedMailbox**
     
 - **Get-StaleMailboxDetailReport**
     
@@ -502,7 +502,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Update-StoreMailboxState**
     
-- **Nouvelle SyncMailPublicFolder**
+- **New-SyncMailPublicFolder**
     
 - **Get-TransportService**
     
@@ -514,7 +514,7 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Get-UMCallAnsweringRule**
     
-- **Nouvelle-UMCallAnsweringRule**
+- **New-UMCallAnsweringRule**
     
 - **Remove-UMCallAnsweringRule**
     
@@ -524,50 +524,50 @@ Les applets de commande suivantes ont été introduites dans Exchange 2013 :
     
 - **Set-UMCallRouterSettings**
     
-- **Disable-UMService**
+- **Désactivé-UMService**
     
-- **Enable-UMService**
+- **Activé-UMService**
     
-- **Get-UMService**
+- **Obtenir-UMService**
     
 - **Set-UMService**
     
-- **Get-UserPhoto**
+- **Get-applet userphoto**
     
-- **Remove-UserPhoto**
+- **Remove-applet userphoto**
     
-- **Set-UserPhoto**
+- **Set-applet userphoto**
     
 - **Get-WorkloadManagementPolicy**
     
-- **Nouvelle-WorkloadManagementPolicy**
+- **New-WorkloadManagementPolicy**
     
 - **Remove-WorkloadManagementPolicy**
     
 - **Get-WorkloadPolicy**
     
-- **Nouvelle-WorkloadPolicy**
+- **New-WorkloadPolicy**
     
 - **Remove-WorkloadPolicy**
     
 - **Set-WorkloadPolicy**
     
-### <a name="modified-cmdlets"></a>Applets de commande modifié
+### <a name="modified-cmdlets"></a>Applets de commande modifiées
 <a name="bk_update"> </a>
 
-Les types d’entrée ou de sortie pour les applets de commande suivantes ont été modifiés dans Exchange 2013 :
+Les types d’entrée ou de sortie des applets de commande suivantes ont été modifiés dans Exchange 2013 :
   
-- **Clear-ActiveSyncDevice**
+- **Clear-ActiveSyncDevice permet**
     
-- **Remove-ActiveSyncDevice**
+- **Remove-ActiveSyncDevice permet**
     
 - **Get-ActiveSyncMailboxPolicy**
     
-- **Nouvelle-ActiveSyncMailboxPolicy**
+- **New-ActiveSyncMailboxPolicy**
     
-- **Nouvelle-ActiveSyncVirtualDirectory**
+- **New-ActiveSyncVirtualDirectory**
     
-- **Nouvelle-AutodiscoverVirtualDirectory**
+- **New-AutodiscoverVirtualDirectory permet**
     
 - **Set-AvailabilityConfig**
     
@@ -583,13 +583,13 @@ Les types d’entrée ou de sortie pour les applets de commande suivantes ont é
     
 - **Get-FederationInformation**
     
-- **Nouvelle-HybridConfiguration**
+- **New-HybridConfiguration**
     
 - **Set-HybridConfiguration**
     
-- **Nouvelle boîte aux lettres**
+- **New-Mailbox**
     
-- **Resume-MailboxDatabaseCopy**
+- **RESUME-MailboxDatabaseCopy**
     
 - **Set-MailboxDatabaseCopy**
     
@@ -601,11 +601,11 @@ Les types d’entrée ou de sortie pour les applets de commande suivantes ont é
     
 - **Set-MailboxExportRequest**
     
-- **Ajouter-MailboxFolderPermission**
+- **Add-MailboxFolderPermission permet**
     
-- **Remove-MailboxFolderPermission**
+- **Remove-MailboxFolderPermission permet**
     
-- **Set-MailboxFolderPermission**
+- **Set-MailboxFolderPermission permet**
     
 - **Get-MailboxImportRequest**
     
@@ -633,7 +633,7 @@ Les types d’entrée ou de sortie pour les applets de commande suivantes ont é
     
 - **Get-MigrationBatch**
     
-- **Nouvelle-MigrationBatch**
+- **New-MigrationBatch**
     
 - **Set-MigrationBatch**
     
@@ -641,7 +641,7 @@ Les types d’entrée ou de sortie pour les applets de commande suivantes ont é
     
 - **Get-MoveRequest**
     
-- **Nouvelle-OfflineAddressBook**
+- **New-OfflineAddressBook**
     
 - **Get-OrganizationConfig**
     
@@ -653,17 +653,17 @@ Les types d’entrée ou de sortie pour les applets de commande suivantes ont é
     
 - **Get-OwaMailboxPolicy**
     
-- **Nouvelle-OwaVirtualDirectory.**
+- **New-OwaVirtualDirectory**
     
-- **Nouvelle-PowerShellVirtualDirectory**
+- **New-PowerShellVirtualDirectory permet**
     
 - **Get-PublicFolder**
     
-- **Nouvelle-PublicFolder**
+- **New-PublicFolder**
     
 - **Set-PublicFolder**
     
-- **Ajouter-PublicFolderClientPermission**
+- **Add-PublicFolderClientPermission**
     
 - **Get-PublicFolderClientPermission**
     
@@ -677,46 +677,46 @@ Les types d’entrée ou de sortie pour les applets de commande suivantes ont é
     
 - **Set-ResourceConfig**
     
-- **Test-WebServicesConnectivity**
+- **Test-WebServicesConnectivity permet**
     
-- **Nouvelle-WebServicesVirtualDirectory**
+- **New-WebServicesVirtualDirectory**
     
-### <a name="removed-cmdlets"></a>Applets de commande supprimée
+### <a name="removed-cmdlets"></a>Applets de commande supprimées
 <a name="bk_removed"> </a>
 
 Les applets de commande suivantes ont été supprimées d’Exchange 2013 :
   
-- **Mise à jour-FileDistributionService**
+- **Update-FileDistributionService**
     
-- **Restauration-boîte aux lettres**
+- **Restore-Mailbox**
     
-- **Nettoyer-MailboxDatabase**
+- **Clean-MailboxDatabase**
     
-- **Migration terminer**
+- **Fin de la migration**
     
 - **Get-MigrationStatus**
     
-- **Mise à jour-PublicFolder**
+- **Update-PublicFolder**
     
-- **PublicFolderAdministrativePermission ajouter**
+- **Add-PublicFolderAdministrativePermission**
     
 - **Get-PublicFolderAdministrativePermission**
     
 - **Remove-PublicFolderAdministrativePermission**
     
-- **Nouvelle-PublicFolderDatabase**
+- **New-PublicFolderDatabase**
     
 - **Remove-PublicFolderDatabase**
     
 - **Set-PublicFolderDatabase**
     
-- **Nouvelle PublicFolderDatabaseRepairRequest**
+- **New-PublicFolderDatabaseRepairRequest**
     
-- **Mise à jour-PublicFolderHierarchy**
+- **Update-PublicFolderHierarchy**
     
 - **Resume-PublicFolderReplication**
     
-- **PublicFolderReplication suspendre**
+- **Suspend-PublicFolderReplication**
     
 - **Start-RetentionAutoTagLearning**
     
@@ -728,12 +728,12 @@ Les applets de commande suivantes ont été supprimées d’Exchange 2013 :
     
 - **Get-UMServer**
     
-- **Set-UMServer :**
+- **Set-UMServer**
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Entrée d’applet de commande Management Shell et types de sortie](exchange-management-shell-cmdlet-input-and-output-types.md)    
-- [Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
-- [Applets de commande Exchange 2013](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx)
+- [Types d’entrée et de sortie de la cmdlet d’Exchange Management Shell](exchange-management-shell-cmdlet-input-and-output-types.md)    
+- [Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement de commande Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
+- [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx)
     
 

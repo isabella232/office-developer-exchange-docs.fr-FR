@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3ab9bcf-7dab-44f0-9ab6-b06543c0fdc2
-description: L’élément PostOfficeBox spécifie thepost office boxportion d’une adresse postale.
-ms.openlocfilehash: e2ec105accac380d27ebb4e7fc636cc538cad57f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PostOfficeBox spécifie thepost Office boxportion d’une adresse postale.
+ms.openlocfilehash: dede39a7b053172157858686f8287466f982c4ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828861"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458025"
 ---
 # <a name="postofficebox"></a>PostOfficeBox
 
@@ -23,14 +23,14 @@ L’élément **PostOfficeBox** spécifie la partie « boîte postale » d’u
 <PostOfficeBox></PostOfficeBox>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) | [valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md)
+[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)  |  [Valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PostOfficeBox** est un identificateur de boîte postale. 
+La valeur de texte de l’élément **PostOfficeBox** est un identificateur de boîte de message Post Office. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e65ff6b2-3810-43ad-9728-27308891b193
 description: Découvrez comment améliorer les performances du processus de découverte automatique dans votre application.
-ms.openlocfilehash: d9eef3bdc76c16cf92bdbb39b36be067f0c06215
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 844b56084b4f0b5e49b4ee095688d58ce469baca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755004"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456331"
 ---
 # <a name="improving-performance-when-using-autodiscover-for-exchange"></a>Amélioration des performances lors de l'utilisation de la fonctionnalité de découverte automatique pour Exchange
 
@@ -33,7 +33,7 @@ Sur la surface cela ne semble pas beaucoup. Toutefois, imaginons un scénario o�
 
 Lorsque les objets SCP sont présentes et correctement configurés, ils peuvent accélérer le processus de découverte automatique. Dans d'autres cas, toutefois, elles peuvent ralentir il. Si SCP n'est pas utilisée dans votre environnement, passez à la partie de recherche SCP entière du processus de découverte automatique pour économiser du temps.
   
-L'API managée EWS facilite cette tâche : définissez simplement la propriété [ExchangeService.EnableScpLookup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx) à **false** avant d'appeler la méthode [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) . Si vous utilisez la classe [AutodiscoverService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx) , définissez la propriété [AutodiscoverService.EnableScpLookup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx) à **false** avant d'appeler une de ses méthodes. 
+L'API managée EWS facilite cette tâche : définissez simplement la propriété [ExchangeService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx) à **false** avant d'appeler la méthode [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) . Si vous utilisez la classe [AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx) , définissez la propriété [AutodiscoverService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx) à **false** avant d'appeler une de ses méthodes. 
   
 ## <a name="use-autodiscover-less-often"></a>Utiliser la découverte automatique moins souvent
 
@@ -43,9 +43,9 @@ Même si vous mettez en cache déjà, évaluez la durée pendant laquelle vous m
   
 ## <a name="minimize-requested-data"></a>Réduire les données demandées
 
-Si vous utilisez la classe **AutodiscoverService** dans l'API managée EWS, ou de l'opération [Opération GetUserSettings (SOAP)](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) via SOAP, vous disposez d'un contrôle direct sur les paramètres sont retournés dans la réponse. Bien que vous pouvez demander un certain paramètres, sans doute que votre application doit uniquement un petit nombre d'entre eux. Tous les paramètres que vous demandez nécessitent plus de traitement sur le serveur, ce qui signifie davantage de temps en attente d'une réponse. Évaluer les paramètres que vous demandez et d'éliminer celles que vous n'avez pas besoin. 
+Si vous utilisez la classe **AutodiscoverService** dans l'API managée EWS, ou de l'opération [Opération GetUserSettings (SOAP)](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) via SOAP, vous disposez d'un contrôle direct sur les paramètres sont retournés dans la réponse. Bien que vous pouvez demander un certain paramètres, sans doute que votre application doit uniquement un petit nombre d'entre eux. Tous les paramètres que vous demandez nécessitent plus de traitement sur le serveur, ce qui signifie davantage de temps en attente d'une réponse. Évaluer les paramètres que vous demandez et d'éliminer celles que vous n'avez pas besoin. 
   
-Si vous utilisez la méthode **ExchangeService.AutodiscoverUrl** dans l'API managée EWS, vous ne pouvez pas modifier les paramètres que vous demandez. Toutefois, cette méthode est déjà assez efficace ; il demande uniquement les paramètres **ExternalEwsUrl** et **InternalEwsUrl** à partir de l' [énumération de UserSettingName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx).
+Si vous utilisez la méthode **ExchangeService.AutodiscoverUrl** dans l'API managée EWS, vous ne pouvez pas modifier les paramètres que vous demandez. Toutefois, cette méthode est déjà assez efficace ; il demande uniquement les paramètres **ExternalEwsUrl** et **InternalEwsUrl** à partir de l' [énumération de UserSettingName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx).
   
 Si vous utilisez le service de découverte automatique POX, [vous ne pouvez pas demander des propriétés spécifiques](autodiscover-for-exchange.md#bk_Options).
   
@@ -54,12 +54,12 @@ Si vous utilisez le service de découverte automatique POX, [vous ne pouvez pas 
 
 - [Découverte automatique pour Exchange](autodiscover-for-exchange.md)
     
-- [Rechercher des points de terminaison de découverte automatique à l’aide de recherche SCP dans Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP dans Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
-- [Actualiser les informations de configuration à l’aide de découverte automatique](how-to-refresh-configuration-information-by-using-autodiscover.md)
+- [Actualiser les informations de configuration à l’aide de la découverte automatique](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
-- [Classe de ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
+- [Classe de ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
     
-- [Classe de AutodiscoverService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)
+- [Classe de AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)
     
 

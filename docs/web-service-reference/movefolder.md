@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f2bb0a73-94d7-4bc7-8902-bd9c69120221
-description: L’élément MoveFolder définit une demande de déplacement d’un dossier dans la banque d’informations Exchange.
-ms.openlocfilehash: 42a990ced18cc13c7694042df786d33c018f346c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MoveFolder définit une demande de déplacement d’un dossier dans la Banque d’Exchange.
+ms.openlocfilehash: d2fe33a6d7893d45fa116a1516fcc6ab2dea3bcf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828485"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457290"
 ---
 # <a name="movefolder"></a>MoveFolder
 
-L’élément **MoveFolder** définit une demande de déplacement d’un dossier dans la banque d’informations Exchange. 
+L’élément **MoveFolder** définit une demande de déplacement d’un dossier dans la Banque d’Exchange. 
   
 ```xml
 <MoveFolder>
@@ -33,17 +33,17 @@ L’élément **MoveFolder** définit une demande de déplacement d’un dossier
  **MoveFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |Représente le dossier de destination pour un dossier déplacé.  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |Représente le dossier de destination d’un dossier déplacé.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contient un tableau de dossiers à déplacer vers le dossier identifié par l’élément [ToFolderId](tofolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

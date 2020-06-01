@@ -1,5 +1,5 @@
 ---
-title: Déconnecter (service web de messagerie unifiée)
+title: Disconnect (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2f8c1e8c-3bd4-4988-96b9-735c347b29f7
-description: L’élément de déconnexion définit une demande de déconnexion d’un appel.
-ms.openlocfilehash: 764532bdadd69caaa68406c84277197def3160af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Disconnect définit une demande de déconnexion d’un appel.
+ms.openlocfilehash: a00d957927a7a97d12c0d8c0c662956a18529cde
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755977"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458452"
 ---
-# <a name="disconnect-um-web-service"></a>Déconnecter (service web de messagerie unifiée)
+# <a name="disconnect-um-web-service"></a>Disconnect (service Web de messagerie unifiée)
 
-L’élément de **déconnexion** définit une demande de déconnexion d’un appel. 
+L’élément **Disconnect** définit une demande de déconnexion d’un appel. 
   
-- [Déconnecter (service web de messagerie unifiée)](disconnect-um-web-service.md)
+- [Disconnect (service Web de messagerie unifiée)](disconnect-um-web-service.md)
   
 ```xml
 <Disconnect>
@@ -33,17 +33,17 @@ L’élément de **déconnexion** définit une demande de déconnexion d’un ap
  **complexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID d’appel (service web de messagerie unifiée)](callid-um-web-service.md) <br/> |L’identificateur de l’appel pour déconnecter la session.  <br/> |
+|[CallId (service Web de messagerie unifiée)](callid-um-web-service.md) <br/> |Identificateur de l’appel à déconnecter.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -51,21 +51,21 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [(Service web de messagerie unifiée) de l’opération de déconnexion](disconnect-operation-um-web-service.md)  
-- [Opération PlayOnPhone (service web de messagerie unifiée)](playonphone-operation-um-web-service.md) 
-- [Opération PlayOnPhoneGreeting (service web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md)  
-- [ID d’appel (service web de messagerie unifiée)](callid-um-web-service.md)
+- [Opération de déconnexion (service Web de messagerie unifiée)](disconnect-operation-um-web-service.md)  
+- [Opération PlayOnPhone (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md) 
+- [Opération PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md)  
+- [CallId (service Web de messagerie unifiée)](callid-um-web-service.md)
 

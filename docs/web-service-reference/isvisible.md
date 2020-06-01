@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 403acdd5-3b79-46f4-9894-ba57e10085e4
-description: L’élément IsVisible indique si la stratégie de rétention est visible pour les utilisateurs.
-ms.openlocfilehash: c08b8a3d537c062d3a1a8ed59823bc0f74eea426
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsVisible indique si la stratégie de rétention est visible aux utilisateurs.
+ms.openlocfilehash: 8cb8e99cef0f89d7ba6435690bd6d57b79a45bc8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828133"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458144"
 ---
 # <a name="isvisible"></a>IsVisible
 
-L’élément **IsVisible** indique si la stratégie de rétention est visible pour les utilisateurs. 
+L’élément **IsVisible** indique si la stratégie de rétention est visible aux utilisateurs. 
   
 ```XML
 <IsVisible> true | false</IsVisible>
@@ -26,11 +26,11 @@ L’élément **IsVisible** indique si la stratégie de rétention est visible p
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IsVisible** indique que la stratégie de rétention est visible par un utilisateur. La valeur **false** indique que la stratégie de rétention n’est pas visible pour les utilisateurs. 
+Une valeur de texte **true** pour l’élément **IsVisible** indique que la stratégie de rétention est visible par un utilisateur. La valeur **false** indique que la stratégie de rétention n’est pas visible par les utilisateurs. 
   
 ## <a name="remarks"></a>Remarques
 

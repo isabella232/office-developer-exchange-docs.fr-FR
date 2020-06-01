@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: L’élément GoodThreshold indique le pourcentage des participants qui doivent ouvrir la période de temps afin que la période de temps être considérée comme une heure de réunion proposée bonne.
-ms.openlocfilehash: 8044cb2b52cb572fad8731253dffa34de9d097fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GoodThreshold spécifie le pourcentage de participants qui doivent avoir la période de temps ouverte pour que la période puisse être considérée comme une heure de réunion recommandée.
+ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827746"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457311"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
 
-L’élément **GoodThreshold** indique le pourcentage des participants qui doivent ouvrir la période de temps afin que la période de temps être considérée comme une heure de réunion proposée bonne. 
+L’élément **GoodThreshold** spécifie le pourcentage de participants qui doivent avoir la période de temps ouverte pour que la période puisse être considérée comme une heure de réunion recommandée. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -36,11 +36,11 @@ L’élément **GoodThreshold** indique le pourcentage des participants qui doiv
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations de suggestion de réunion.  <br/> Vous trouverez ci-dessous le XPath pour cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs entières attendue sont compris entre 0 et 50.
+Une valeur de texte est requise. Les valeurs d’entier attendues sont comprises entre 0 et 50.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est obligatoire si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. L’élément **GoodThreshold** détermine également les réunions sont considérés comme étant correcte. Il est que le pourcentage des participants présentant des conflits est qu'inférieure supérieur au seuil d’une bonne et supérieure à 50 %, l’heure de réunion proposée qualifiant aussi juste. Le seuil en plus de 50 désigne le pourcentage qui définit le seuil du bon/équitable. 
+Cet élément est requis si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. L’élément **GoodThreshold** détermine également les réunions considérées comme équitable. Si le pourcentage de participants avec des conflits est inférieur au seuil de bonne qualité et supérieur à 50%, la durée de réunion suggérée est considérée comme équitable. Le seuil de qualité plus 50 est égal au pourcentage qui définit le seuil correct/équitable. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 
@@ -67,7 +67,7 @@ Cet élément est obligatoire si l’élément [SuggestionsViewOptions](suggesti
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ Cet élément est obligatoire si l’élément [SuggestionsViewOptions](suggesti
 [Opération GetUserAvailability](getuseravailability-operation.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: ID
+title: Codes
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c54cdeaf-6761-4d1a-a329-fb279f0e2a64
-description: L’élément ID contient un tableau d’identificateurs de définition de fuseau horaire.
-ms.openlocfilehash: e4f8afb1292b3cb9f3990d4613b7461050976a59
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IDS contient un tableau d’identificateurs de définition de fuseau horaire.
+ms.openlocfilehash: 1c5a6974c8d3abc318ff122f3db09d8c3472dc65
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827856"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457619"
 ---
-# <a name="ids"></a>ID
+# <a name="ids"></a>Codes
 
-L’élément **ID** contient un tableau d’identificateurs de définition de fuseau horaire. 
+L’élément **IDS** contient un tableau d’identificateurs de définition de fuseau horaire. 
   
 ```XML
 <Ids>
@@ -32,31 +32,31 @@ L’élément **ID** contient un tableau d’identificateurs de définition de f
  **NonEmptyArrayOfTimeZoneIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID (fuseau horaire)](id-timezone.md) <br/> |L’élément qui identifie une définition de fuseau horaire.  <br/> |
+|[ID (TimeZone)](id-timezone.md) <br/> |Élément qui identifie une définition de fuseau horaire unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetServerTimeZones](getservertimezones.md) <br/> |Définit une requête pour récupérer les définitions de fuseau horaire à partir du serveur Exchange.  <br/> |
+|[GetServerTimeZones](getservertimezones.md) <br/> |Définit une demande de récupération des définitions de fuseau horaire à partir du serveur Exchange.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

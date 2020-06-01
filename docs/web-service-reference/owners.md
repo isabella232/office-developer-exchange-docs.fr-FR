@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 53b6befb-a1b7-4f56-904a-9a32306570e3
-description: L’élément propriétaires est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 492125a80079350a88d8a4182e101b6cbd12c8f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Owners est destiné uniquement à un usage interne.
+ms.openlocfilehash: 299871843a3755d98ac3658767bce1c13dfa5129
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828678"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457255"
 ---
 # <a name="owners"></a>Propriétaires
 
-L’élément **propriétaires** est destiné à usage interne uniquement. 
+L’élément **Owners** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

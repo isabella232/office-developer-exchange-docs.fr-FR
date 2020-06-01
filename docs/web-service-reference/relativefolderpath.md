@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54e3ba52-08a6-4d48-8a44-6fd5fdbffb25
-description: L’élément RelativeFolderPath contient un tableau des dossiers qui indiquent le chemin d’accès de dossier relatif du chemin du dossier à créer.
-ms.openlocfilehash: f568d282e47a41c0aaf6d70ef383e5ef3e2b54bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RelativeFolderPath contient un tableau de dossiers qui indiquent le chemin d’accès au dossier relatif du chemin d’accès au dossier à créer.
+ms.openlocfilehash: 8a0fc0020943afdbe6cd4c79d51d61337f8dd329
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829051"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457157"
 ---
 # <a name="relativefolderpath"></a>RelativeFolderPath
 
-L’élément **RelativeFolderPath** contient un tableau des dossiers qui indiquent le chemin d’accès de dossier relatif du chemin du dossier à créer. 
+L’élément **RelativeFolderPath** contient un tableau de dossiers qui indiquent le chemin d’accès au dossier relatif du chemin d’accès au dossier à créer. 
   
 ```XML
 <RelativeFolderPath>
@@ -32,15 +32,15 @@ L’élément **RelativeFolderPath** contient un tableau des dossiers qui indiqu
  **NonEmptyArrayOfFoldersType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Dossier](folder.md) | [CalendarFolder](calendarfolder.md) | [ContactsFolder](contactsfolder.md) | [SearchFolder](searchfolder.md) | [dossier tâches](tasksfolder.md)
+[Folder (dossier](folder.md)  |  ) [CalendarFolder](calendarfolder.md)  |  [ContactsFolder](contactsfolder.md)  |  [SearchFolder](searchfolder.md)  |  [TasksFolder](tasksfolder.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

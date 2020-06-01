@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: dd58fd72-591d-4891-b226-465bcf12c19b
 description: L'élément ForwardToRecipients indique les adresses de messagerie à laquelle les messages doivent être transférés.
-ms.openlocfilehash: f2538f62bb9d837ef64bdc742b01d26d3d7d77f5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d565fa9f59794a4e10e91b05a507354a2f6ef0c9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756469"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458319"
 ---
 # <a name="forwardtorecipients"></a>ForwardToRecipients
 
@@ -32,11 +32,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **ArrayOfEmailAddressesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

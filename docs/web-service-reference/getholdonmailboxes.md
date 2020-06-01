@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4c94cfb7-42e2-42e4-9c6d-a1b0f4747f83
 description: L’élément GetHoldOnMailboxes indique le début de la demande GetHoldOnMailboxes.
-ms.openlocfilehash: 844fe18e983223a014fed2043452c18b1e5ac465
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f3f2cb5a83a662fc83c0a861f740571f089c10d8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756629"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458349"
 ---
 # <a name="getholdonmailboxes"></a>GetHoldOnMailboxes
 
@@ -28,11 +28,11 @@ L’élément **GetHoldOnMailboxes** indique le début de la demande **GetHoldOn
  **GetHoldOnMailboxesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

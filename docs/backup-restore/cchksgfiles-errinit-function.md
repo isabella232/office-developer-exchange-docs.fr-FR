@@ -1,5 +1,5 @@
 ---
-title: Fonction CChkSGFiles.ErrInit
+title: Fonction fonction cchksgfiles. ErrInit
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 61bb3af1-8b51-4bae-8e25-90a4dc1226c5
-description: 'Dernière modification : 03 mars 2013'
-ms.openlocfilehash: d4b76933a747fe4bf084061cf080bc68264132ed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Dernière modification : 1er mars 2013'
+ms.openlocfilehash: c881691e7c1ba83a396e659f6aac0328625e49a5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754744"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457010"
 ---
-# <a name="cchksgfileserrinit-function"></a>Fonction CChkSGFiles.ErrInit
+# <a name="cchksgfileserrinit-function"></a>Fonction fonction cchksgfiles. ErrInit
   
 **S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Initialise l’objet **CChkSGFiles** en spécifiant les bases de données à vérifier et le chemin d’accès et nom de base des fichiers journaux des transactions à vérifier. Applications doivent appeler cette fonction immédiatement après l’appel avec succès la fonction **New** . 
+Initialise l’objet **fonction cchksgfiles** en spécifiant les bases de données à vérifier et le chemin d’accès et le nom de base des fichiers journaux de transactions à vérifier. Les applications doivent appeler cette fonction immédiatement après avoir réussi à appeler la **nouvelle** fonction. 
   
 ```cs
 Vitual ERRErrInit  
@@ -39,48 +39,48 @@ Vitual ERRErrInit
 
 ## <a name="parameters"></a>Paramètres
 
-### <a name="rgwszdb"></a>[] rgwszDb
+### <a name="rgwszdb"></a>rgwszDb[]
   
-Paramètre d’entrée. Tableau qui spécifie les bases de données à vérifier. Chaque élément de tableau est une chaîne Unicode terminée par le caractère null qui contient le chemin d’accès et le nom de base de données à vérifier.
+Paramètre d’entrée. Tableau qui spécifie les bases de données à vérifier. Chaque élément de tableau est une chaîne Unicode terminée par un caractère null qui contient le chemin d’accès et le nom de fichier d’une base de données à vérifier.
     
 ### <a name="cdb"></a>cDB
   
-Paramètre d’entrée. Le nombre d’éléments de chemin d’accès valide de la base de données dans le tableau **rgwszDb** . 
+Paramètre d’entrée. Nombre d’éléments de chemin d’accès de base de données valides dans le tableau **rgwszDb** . 
     
 #### <a name="wszlogpath"></a>wszLogPath
   
-Paramètre d’entrée. Chemin d’accès complet des fichiers journaux des transactions à vérifier, sous la forme d’une chaîne Unicode terminée par null.
+Paramètre d’entrée. Chemin d’accès complet des fichiers du journal des transactions à vérifier, sous la forme d’une chaîne Unicode terminée par un caractère null.
     
 ### <a name="wszbasename"></a>wszBaseName
   
-Paramètre d’entrée. Le trois lettres nom de base les fichiers journaux des transactions, sous la forme d’une chaîne Unicode terminée par null.
+Paramètre d’entrée. Nom de base à trois lettres des fichiers journaux de transactions Exchange, sous la forme d’une chaîne Unicode terminée par un caractère null.
     
 ### <a name="ulflags"></a>ulFlags
   
-Paramètre d’entrée facultatif. Cette valeur est réservée pour une utilisation future. La valeur transmise à ce paramètre doit être 0 (zéro).
+Paramètre d’entrée facultatif. Cette valeur est réservée à un usage ultérieur. La valeur passée par ce paramètre doit être 0 (zéro).
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Code d’erreur à partir de l’énumération [ERR](cchksgfiles-err-enumeration.md) . 
+Un code d’erreur à partir de l’énumération [Err](cchksgfiles-err-enumeration.md) . 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **ErrInit** enregistre les bases de données et les fichiers journaux qui doivent être vérifiées. Cette fonction doit être appelée après la fonction **New** est appelée, mais avant toute autre **ChkSGFiles** l’appel de fonction. 
+La fonction **ErrInit** enregistre les bases de données et les fichiers journaux qui doivent être vérifiés. Cette fonction doit être appelée après l’appel de la fonction **New** , mais avant l’appel de toute autre fonction **ChkSGFiles** . 
   
-Vous devez fournir le nom de base, le chemin d’accès du fichier journal et tous les noms de base de données en tant que chaînes Unicode.
+Vous devez fournir tous les noms de base de données, le chemin d’accès au fichier journal et le nom de base comme chaînes Unicode terminées par un caractère null.
   
-Vous pouvez vérifier que les fichiers de base de données, seuls les fichiers journaux ou les fichiers journaux et de base de données. Toutefois, lorsque vous appelez cette fonction, l’application doit spécifier au moins une entité à vérifier. Passer la valeur 0 (zéro) pour **cDB** et NULL pour **wszLogPath** renvoie une erreur. 
+Vous pouvez vérifier uniquement les fichiers de base de données, uniquement les fichiers journaux, ou les fichiers de base de données et les fichiers journaux. Toutefois, lors de l’appel de cette fonction, l’application doit spécifier au moins une entité à vérifier. Le passage de la valeur 0 (zéro) pour **CDB** et null pour **wszLogPath** renvoie une erreur. 
   
-Si la valeur de **cDB** est différente de 0 (zéro), en passant NULL pour **rgwszDb** provoquera une erreur. Pour vérifier les fichiers de base de données, l’application doit fournir les noms de base de données. 
+Si la valeur de **CDB** est différente de 0 (zéro), le fait de transmettre null pour **rgwszDb** génère une erreur. Pour vérifier les fichiers de base de données, l’application doit fournir les noms de base de données. 
   
-Si NULL est passé pour **wszBaseName** mais **wszLogPath** n’est pas NULL, une erreur sera renvoyée. Un nom de base du fichier journal est toujours requis lors de la vérification des fichiers journaux. 
+Si NULL est passé pour **wszBaseName** mais **wszLogPath** n’est pas null, une erreur est renvoyée. Un nom de base de fichier journal est toujours requis lors de la vérification des fichiers journaux. 
   
-Si vous utilisez CHKSGFILES dans une application multithread, vous devez appeler la fonction **ErrInit** dans la partie d’un seul thread de l’application, et vous pouvez l’appeler qu’une seule fois pour chaque objet **CCheckSGFiles** . 
+Si vous utilisez CHKSGFILES dans une application multithread, vous devez appeler la fonction **ErrInit** dans la partie à thread unique de l’application, et vous ne pouvez l’appeler qu’une seule fois pour chaque objet **CCheckSGFiles** . 
   
 ## <a name="requirements"></a>Configuration requise
 
 Exchange 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.
   
-Le compte que l’application s’exécute sous doit disposer des autorisations d’accès en lecture aux base de données et les fichiers journaux qui doivent être vérifiées.
+Le compte sous lequel l’application s’exécute doit disposer d’autorisations d’accès en lecture à la base de données et des fichiers journaux à vérifier.
   
 

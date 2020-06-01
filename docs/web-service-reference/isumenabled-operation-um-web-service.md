@@ -1,5 +1,5 @@
 ---
-title: Opération IsUMEnabled (service web de messagerie unifiée)
+title: Opération IsUMEnabled (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,23 +10,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
-description: L’opération IsUMEnabled détermine si une boîte aux lettres est activé pour la messagerie unifiée.
-ms.openlocfilehash: 9d94a359d6b11e41762d21aa2fe5501bd9f7b577
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération IsUMEnabled détermine si une boîte aux lettres est activée pour la messagerie unifiée.
+ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828107"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458235"
 ---
-# <a name="isumenabled-operation-um-web-service"></a>Opération IsUMEnabled (service web de messagerie unifiée)
+# <a name="isumenabled-operation-um-web-service"></a>Opération IsUMEnabled (service Web de messagerie unifiée)
 
-L’opération IsUMEnabled détermine si une boîte aux lettres est activé pour la messagerie unifiée.
+L’opération IsUMEnabled détermine si une boîte aux lettres est activée pour la messagerie unifiée.
   
 ## <a name="isumenabled-request-example"></a>Exemple de requête IsUMEnabled
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande IsUMEnabled montre comment former une demande pour déterminer si une boîte aux lettres est activée pour la messagerie unifiée.
+L’exemple de requête IsUMEnabled suivant montre comment créer une demande pour déterminer si une boîte aux lettres est activée pour la messagerie unifiée.
   
 ### <a name="code"></a>Code
 
@@ -34,16 +34,16 @@ L’exemple suivant d’une demande IsUMEnabled montre comment former une demand
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <IsUMEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <IsUMEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="successful-isumenabled-response-example"></a>Exemple de réponse IsUMEnabled réussie
+## <a name="successful-isumenabled-response-example"></a>Exemple de réponse IsUMEnabled réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande de IsUMEnabled.
+L’exemple suivant montre une réponse réussie à une demande IsUMEnabled.
   
 ### <a name="code"></a>Code
 
@@ -51,7 +51,7 @@ L’exemple suivant montre une réponse positive à une demande de IsUMEnabled.
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <IsUMEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <IsUMEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <IsUMEnabledResponse>true</IsUMEnabledResponse> 
     </IsUMEnabledResponse>
   </soap:Body>
@@ -62,10 +62,10 @@ L’exemple suivant montre une réponse positive à une demande de IsUMEnabled.
 
 
 
-[IsUMEnabled (service web de messagerie unifiée)](isumenabled-um-web-service.md)
+[IsUMEnabled (service Web de messagerie unifiée)](isumenabled-um-web-service.md)
   
-[IsUMEnabledResponse (service web de messagerie unifiée)](isumenabledresponse-um-web-service.md)
+[IsUMEnabledResponse (service Web de messagerie unifiée)](isumenabledresponse-um-web-service.md)
 
 
-[Unified Messaging service XML des éléments web pour Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
+[Éléments XML de service Web de messagerie unifiée pour Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

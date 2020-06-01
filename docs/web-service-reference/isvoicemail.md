@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 96d81d6e-4b75-43ad-b151-2dd4fd57db94
 description: L'élément IsVoicemail indique si les messages entrants doivent être des messages vocaux afin que l'exception ou la condition à appliquer.
-ms.openlocfilehash: 513498301aa65eaf0cac5769c940eeedf5c9e629
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8c60513a54cbf2398fde4b71ab1fbcf8a5efb608
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828136"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458137"
 ---
 # <a name="isvoicemail"></a>IsVoicemail
 
@@ -30,11 +30,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,7 +47,7 @@ Aucun.
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente les exceptions qui représentent toutes les conditions d'exception de règle disponibles pour une règle de boîte de réception.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Une valeur texte **true** indique que le message doit être un message vocal afin que l'exception ou la condition à appliquer. La valeur **false** indique que le message ne doit pas être un message vocal afin que l'exception ou la condition à appliquer. 
   
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

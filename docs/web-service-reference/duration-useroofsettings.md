@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: L’élément de durée Spécifie la durée de l’extérieur de l’état du bureau (OOF) est activé si l’élément OofState est défini sur planifiée.
-ms.openlocfilehash: 62a5492372fd80173d58e965376b7c8c466825a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Duration spécifie la durée pendant laquelle l’État absent (absent du bureau) est activé si l’élément OofState est défini sur planifié.
+ms.openlocfilehash: 0ba0f1ea7498781c0cccb072c7ea0fa05414764c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756061"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457297"
 ---
 # <a name="duration-useroofsettings"></a>Durée (UserOofSettings)
 
-L’élément de **durée** spécifie la durée de l’extérieur de l’état du bureau (OOF) est activé si l’élément [OofState](oofstate.md) est défini sur **planifiées**.
+L’élément **Duration** spécifie la durée pendant laquelle l’État absent (absent du bureau) est activé si l’élément [OofState](oofstate.md) est défini sur **planifié**.
   
 ```XML
 <Duration>
@@ -30,51 +30,51 @@ L’élément de **durée** spécifie la durée de l’extérieur de l’état d
 </Duration>
 ```
 
- **Durée**
+ **Duration**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Heure de début](starttime.md) <br/> |Représente le début de la période définie avec un statut d’absence du bureau. Cet élément est obligatoire.  <br/> |
-|[Heure de fin](endtime.md) <br/> |Représente la fin de la période définie avec un statut d’absence du bureau. Cet élément est obligatoire.  <br/> |
+|[StartTime](starttime.md) <br/> |Représente le début de l’intervalle de temps défini avec un statut OOF. Cet élément est obligatoire.  <br/> |
+|[EndTime](endtime.md) <br/> |Représente la fin de l’intervalle de temps défini avec un statut OOF. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du bureau.  <br/><br/>Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contient les paramètres d’absence du bureau.<br/><br/>Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[OutOfOffice](outofoffice.md) <br/> |Définit le message de réponse d’absence du bureau (OOF) et un délai d’expiration pour l’envoi du message de réponse pour une boîte aux lettres.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contient les paramètres OOF.<br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[OutOfOffice](outofoffice.md) <br/> |Définit le message de réponse d’absence du bureau et une durée d’envoi du message de réponse pour une boîte aux lettres.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le type de **durée** est également le type des éléments [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [durée](timewindow.md)et [OutOfOffice](outofoffice.md) . 
+Le type de **durée** est également le type des éléments [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [TimeWindow](timewindow.md)et [OutOfOffice](outofoffice.md) . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande [d’opération SetUserOofSettings](setuseroofsettings-operation.md) définit [OofState](oofstate.md) sur **activé**, les messages d’absence du bureau internes et externes et définit la durée d’absence du bureau pour 10 jours.
+L’exemple suivant de demande d' [opération SetUserOofSettings](setuseroofsettings-operation.md) définit le [OofState](oofstate.md) sur **Enabled**, les messages OOF internes et externes, et définit la durée du OOF pendant 10 jours.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -98,7 +98,7 @@ L’exemple suivant d’une demande [d’opération SetUserOofSettings](setusero
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 086130d2-93b1-4de1-9553-10ec10322a0c
-description: L’élément SentToAddresses indique les adresses de messagerie dont les messages entrants ont été envoyées aux afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: c5a4770ff22e08713e5cf40b9a81191d50a2f437
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SentToAddresses indique les adresses de messagerie auxquelles les messages entrants doivent avoir été envoyés pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 9a901a93b666144092bf9cc8ebbf03222ac7bf6b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829358"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457416"
 ---
 # <a name="senttoaddresses"></a>SentToAddresses
 
-L’élément **SentToAddresses** indique les adresses de messagerie dont les messages entrants ont été envoyées aux afin que l’exception ou la condition à appliquer. 
+L’élément **SentToAddresses** indique les adresses de messagerie auxquelles les messages entrants doivent avoir été envoyés pour que la condition ou l’exception s’applique. 
   
 ```XML
 <SentToAddresses>
@@ -32,11 +32,11 @@ L’élément **SentToAddresses** indique les adresses de messagerie dont les me
  **ArrayOfEmailAddressesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -63,9 +63,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

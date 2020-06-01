@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5e57ce96-895d-40c5-a670-19f3bc610dbd
-description: L’élément EndNodeUrl Spécifie l’URL de l’application de messagerie dans l’Office Store.
-ms.openlocfilehash: 96569bed513de136dbe975879ba41e33d99d5693
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EndNodeUrl spécifie l’URL de l’application de messagerie dans l’Office Store.
+ms.openlocfilehash: 0ace98bd41c49a31d528b08d0d0f4011d783866c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756178"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458403"
 ---
 # <a name="endnodeurl"></a>EndNodeUrl
 
-L’élément **EndNodeUrl** Spécifie l’URL de l’application de messagerie dans l’Office Store. 
+L’élément **EndNodeUrl** spécifie l’URL de l’application de messagerie dans l’Office Store. 
   
 ```XML
 <EndNodeUrl/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 [Métadonnées](metadata-ex15websvcsotherref.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **EndNodeUrl** est l’URL de l’application de messagerie dans l’Office Store. 
   
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> | http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> | https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |Not applicable  <br/> |
+|Fichier de validation  <br/> |Non applicable  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

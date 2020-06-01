@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17c7af54-aa44-4065-86ce-ac9f2edbf464
-description: L’élément RightsManagedMessageDecryptionStatus Spécifie l’état de déchiffrement de gestion des droits d’un élément.
-ms.openlocfilehash: f01ecfbd467765c556250718bf93304d843facd6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RightsManagedMessageDecryptionStatus spécifie l’état de déchiffrement de la gestion des droits d’un élément.
+ms.openlocfilehash: 2d10a78b18b977518ee6c8301da40d2bd5a58900
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829235"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457423"
 ---
 # <a name="rightsmanagedmessagedecryptionstatus"></a>RightsManagedMessageDecryptionStatus
 
-L’élément **RightsManagedMessageDecryptionStatus** Spécifie l’état de déchiffrement de gestion des droits d’un élément. 
+L’élément **RightsManagedMessageDecryptionStatus** spécifie l’état de déchiffrement de la gestion des droits d’un élément. 
   
 ```XML
 <RightsManagedMessageDecryptionStatus></RightsManagedMessageDecryptionStatus>
@@ -26,11 +26,11 @@ L’élément **RightsManagedMessageDecryptionStatus** Spécifie l’état de d�
  **entier**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RightsManagedMessageDecryptionStatus** est l’état de déchiffrement d’un droits protégés par élément. 
+La valeur de texte de l’élément **RightsManagedMessageDecryptionStatus** est l’état de déchiffrement d’un élément protégé par des droits. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

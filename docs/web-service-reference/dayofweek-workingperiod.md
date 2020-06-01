@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7a8a8cc1-392b-4db5-bb76-710477e31396
-description: L’élément DayOfWeek contient la liste des jours de travail planifié pour l’utilisateur de boîte aux lettres.
-ms.openlocfilehash: a6a68017291ba13f45b3970307669222d583fcbb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DayOfWeek contient la liste des jours ouvrés planifiés pour l’utilisateur de la boîte aux lettres.
+ms.openlocfilehash: 06d4a7d5541b3b71fcbf9be9beb7512d06853283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755826"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457444"
 ---
 # <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
 
-L’élément **DayOfWeek** contient la liste des jours de travail planifié pour l’utilisateur de boîte aux lettres. 
+L’élément **DayOfWeek** contient la liste des jours ouvrés planifiés pour l’utilisateur de la boîte aux lettres. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [FreeBusyResponseArray](freebusyresponsearray.md)  
@@ -40,11 +40,11 @@ L’élément **DayOfWeek** contient la liste des jours de travail planifié pou
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,13 +54,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contient la semaine de travail les jours et les heures de l’utilisateur de boîte aux lettres.<br/><br/>Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et les heures de travail de la boîte aux lettres.<br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est renvoyée si l’utilisateur de boîte aux lettres a jours définissez pour représenter la semaine de travail. Les valeurs possibles de cet élément sont les suivantes :
+Une valeur de texte est renvoyée si l’utilisateur de la boîte aux lettres a défini des jours pour représenter la semaine de travail. Les valeurs possibles pour cet élément sont les suivantes :
   
-- Dimanche    
+- Warm    
 - Lundi    
 - Mardi    
 - Mercredi    
@@ -68,11 +68,11 @@ Une valeur de texte est renvoyée si l’utilisateur de boîte aux lettres a jou
 - Vendredi    
 - Samedi 
     
-Les valeurs de texte seront afficheront dans l’ordre.
+Les valeurs de texte sont renvoyées dans cet ordre.
   
 ## <a name="remarks"></a>Remarques
 
-Il est important de noter que la différence entre cet élément et l’élément disponibilité [DayOfWeek (fuseau horaire)](dayofweek-timezone.md) est le type. 
+Il est important de noter que la différence entre cet élément et l’élément Availability [DayOfWeek (TimeZone)](dayofweek-timezone.md) est le type. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -80,7 +80,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -89,5 +89,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 - [Opération GetUserAvailability](getuseravailability-operation.md)  
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-- [Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

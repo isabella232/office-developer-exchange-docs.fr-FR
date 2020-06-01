@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88d35c05-21fc-4576-b785-c4ba7b6f8d5b
-description: L’élément ProxyPartnerToken est utilisée par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé. Cet élément n’est pas utilisé par les opérations Exchange Web Services (EWS).
-ms.openlocfilehash: d21f7ab57b9abd5521a9e7551f317be41a937e12
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProxyPartnerToken est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé. Cet élément n’est pas utilisé par les opérations des services Web Exchange (EWS).
+ms.openlocfilehash: 40716d31a26bd885553daec59ea48f90e3c57bfe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828916"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457752"
 ---
 # <a name="proxypartnertoken"></a>ProxyPartnerToken
 
-L’élément **ProxyPartnerToken** est utilisée par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé. Cet élément n’est pas utilisé par les opérations Exchange Web Services (EWS). 
+L’élément **ProxyPartnerToken** est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé. Cet élément n’est pas utilisé par les opérations des services Web Exchange (EWS). 
   
 ```XML
 <ProxyPartnerToken/>
@@ -26,11 +26,11 @@ L’élément **ProxyPartnerToken** est utilisée par le proxy HTTP de l’ordin
  **ProxySecurityContextType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,7 +50,7 @@ Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

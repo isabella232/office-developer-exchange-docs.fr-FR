@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4044c0a1-cd88-41ae-9cc4-a7cf2b279094
-description: L’élément GetUserConfiguration représentent une demande pour obtenir un objet de configuration utilisateur.
-ms.openlocfilehash: 81f2ca4995de69d6547412ec699a2ceaddcce385
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetUserConfiguration représente une demande d’obtention d’un objet de configuration utilisateur.
+ms.openlocfilehash: 46a2a5ebbabfc038692a5de83e0a960e05295061
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457710"
 ---
 # <a name="getuserconfiguration"></a>GetUserConfiguration
 
-L’élément **GetUserConfiguration** représentent une demande pour obtenir un objet de configuration utilisateur. 
+L’élément **GetUserConfiguration** représente une demande d’obtention d’un objet de configuration utilisateur. 
   
 ```XML
 <GetUserConfiguration>
@@ -33,18 +33,18 @@ L’élément **GetUserConfiguration** représentent une demande pour obtenir un
  **GetUserConfigurationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[UserConfigurationName](userconfigurationname.md) <br/> |Représente le nom d’un objet de configuration utilisateur. Cet élément doit être présent dans une requête GetUserConfiguration.  <br/> |
-|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |Spécifie les types de propriétés de configuration utilisateur à renvoyer. Cet élément doit être présent dans une requête GetUserConfiguration.  <br/> |
+|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |Spécifie les types de propriétés de configuration de l’utilisateur à renvoyer. Cet élément doit être présent dans une requête GetUserConfiguration.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

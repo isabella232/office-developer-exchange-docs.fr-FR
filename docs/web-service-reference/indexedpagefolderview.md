@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c6dac232-244b-4db0-9a15-5e01b8aa7a7d
-description: L’élément IndexedPageFolderView décrit comment paginé informations sont retournées dans une réponse FindFolder.
-ms.openlocfilehash: f32f778daa6fa3fea93ab2bc1951f2407dcf7f80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IndexedPageFolderView décrit comment les informations d’élément paginé sont renvoyées dans une réponse FindFolder.
+ms.openlocfilehash: 6e9e2796c0bdcd9a15487f0e1bc7cbdf09d0a492
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827910"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457199"
 ---
 # <a name="indexedpagefolderview"></a>IndexedPageFolderView
 
-L’élément **IndexedPageFolderView** décrit comment paginé informations sont retournées dans une réponse [FindFolder](findfolder.md) . 
+L’élément **IndexedPageFolderView** décrit comment les informations d’élément paginé sont renvoyées dans une réponse [FindFolder](findfolder.md) . 
   
 [FindFolder](findfolder.md)
   
@@ -34,22 +34,22 @@ L’élément **IndexedPageFolderView** décrit comment paginé informations son
  **IndexedPageViewType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |Indique le nombre maximal de dossiers à renvoyer dans la réponse. Cet attribut est facultatif.  <br/> |
-|**Offset** <br/> |Indique le décalage à partir du **point de base**. Offset doit être supérieure ou égale à zéro. Si le **point de base** est égal au début, le décalage est positif. Si le **point de base** est égal à End, le décalage est géré comme s’il s’agissait négatif.  <br/> Identifie le dossier qui sera le premier dossier fourni dans la réponse. Cet attribut est requis.  <br/> |
-|**Point de base** <br/> |Indique si la page des dossiers démarre au début ou à la fin de l’ensemble des dossiers se trouvant avec les critères de recherche. Recherche toujours à partir de la fin de recherche vers l’arrière. Cet attribut est requis.  <br/> |
+|**MaxEntriesReturned** <br/> |Décrit le nombre maximal de dossiers à renvoyer dans la réponse. Cet attribut est facultatif.  <br/> |
+|**Offset** <br/> |Décrit le décalage par rapport à l' **BasePoint**. Offset doit être supérieur ou égal à zéro. Si **BasePoint** est égal à début, le décalage est positif. Si **BasePoint** est égal à fin, le décalage est géré comme s’il était négatif.  <br/> Cela identifie le dossier qui sera le premier dossier remis dans la réponse. Cet attribut est obligatoire.  <br/> |
+|**BasePoint** <br/> |Indique si la page de dossiers commence à partir du début ou de la fin de l’ensemble des dossiers trouvés avec les critères de recherche. La recherche à partir de la fin effectue toujours des recherches vers l’arrière. Cet attribut est obligatoire.  <br/> |
    
-#### <a name="basepoint-attribute"></a>Attribut de point de base
+#### <a name="basepoint-attribute"></a>Attribut BasePoint
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Début  <br/> |L’affichage paginé commence au début de l’ensemble du dossier trouvé.  <br/> |
-|End  <br/> |L’affichage paginé commence à la fin de l’ensemble du dossier trouvé.  <br/> |
+|Entam  <br/> |L’affichage paginé commence au début de l’ensemble de dossiers trouvé.  <br/> |
+|End  <br/> |La vue paginée commence à la fin de l’ensemble de dossiers trouvé.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,11 +59,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindFolder](findfolder.md) <br/> |Définit une requête pour rechercher les dossiers dans une boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/FindFolder` <br/> |
+|[FindFolder](findfolder.md) <br/> |Définit une demande de recherche de dossiers dans une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/FindFolder` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Recherche à partir de fin consiste à déplacer à l’origine identifié par le décalage. En outre, le pointeur est ramené par le nombre d’enregistrements demandés. Par exemple, si 100 enregistrements et le décalage est de 25 à partir de la fin, la recherche démarre 75. Si 10 enregistrements sont renvoyés, le pointeur est déplacé vers l’arrière 10 supplémentaires à 65 des enregistrements et retourne les enregistrements de 65 à 75. L’index suivant est de 64. Le prochain offset à partir de la fin d’une page est de 100 moins 64 qui est égale à 36. La valeur de décalage suivant à partir de la fin pour récupérer la page suivante indexée est 36.
+La recherche de end implique le passage à l’origine identifiée par le décalage. De plus, le pointeur est ramené par le nombre d’enregistrements demandés. Par exemple, s’il y a 100 enregistrements et que le décalage est de 25 à partir de la fin, la recherche commence à partir de 75. Si 10 enregistrements sont renvoyés, le pointeur de la souris recule de 10 enregistrements supplémentaires sur 65 et renvoie les enregistrements 65 à 75. L’index suivant est 64. Le prochain décalage par rapport à la fin d’une page est de 100 moins 64, ce qui équivaut à 36. La valeur du décalage suivant à partir de la fin pour obtenir la page indexée suivante est 36.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -71,9 +71,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ad29e064-3f3d-4b7b-aa4c-9ec27326381d
-description: L’élément ResponseObjects contient une collection de tous les objets de réponse qui sont associés à un élément dans la banque d’informations Exchange.
-ms.openlocfilehash: b1d95063439f5089665d2aad97d747665caef0ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ResponseObjects contient une collection de tous les objets Response associés à un élément dans la Banque d’aide Exchange.
+ms.openlocfilehash: 675bfda4addb38535736efc0c790577ff4739108
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829197"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457437"
 ---
 # <a name="responseobjects"></a>ResponseObjects
 
-L’élément **ResponseObjects** contient une collection de tous les objets de réponse qui sont associés à un élément dans la banque d’informations Exchange. 
+L’élément **ResponseObjects** contient une collection de tous les objets Response associés à un élément dans la Banque d’aide Exchange. 
   
 ```XML
 <ResponseObjects>
@@ -42,11 +42,11 @@ L’élément **ResponseObjects** contient une collection de tous les objets de 
  **NonEmptyArrayOfResponseObjectsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -58,11 +58,11 @@ Aucun.
 |[ReplyToItem](replytoitem.md) <br/> |Contient une réponse à l'auteur d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |Contient un élément de la banque Exchange pour transférer à des destinataires.  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |Contient une réponse destinée à tous les destinataires identifiés d'un élément dans la banque d'informations Exchange.  <br/> |
-|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l’objet réponse utilisé pour annuler une réunion.  <br/> |
+|[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l’objet de réponse utilisé pour annuler une réunion.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[PostReplyItem](postreplyitem.md) <br/> |Contient une réponse à un élément de publication. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Permet de supprimer les demandes de confirmation de lecture.  <br/> |
-|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Utilisé pour accepter une invitation qui permet d’accéder aux données de contacts ou de calendrier d’un autre utilisateur.  <br/> |
+|[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Permet d’accepter une invitation qui autorise l’accès au calendrier ou aux données de contacts d’un autre utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -74,7 +74,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -88,7 +88,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

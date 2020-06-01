@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 412d0683-2819-40c5-a0ae-f613499a7b66
-description: L’élément UpdateFolder représente l’opération qui sert à mettre à jour les propriétés d’un dossier spécifié.
-ms.openlocfilehash: 9a86bf6b3b5917600b3b09f23b3ee4e9cdc0364f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UpdateFolder représente l’opération qui est utilisée pour mettre à jour les propriétés d’un dossier spécifié.
+ms.openlocfilehash: 124ffd02a5ea2e7bf6f21cc7009dde08837906f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838861"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457045"
 ---
 # <a name="updatefolder"></a>UpdateFolder
 
-L’élément **UpdateFolder** représente l’opération qui sert à mettre à jour les propriétés d’un dossier spécifié. 
+L’élément **UpdateFolder** représente l’opération qui est utilisée pour mettre à jour les propriétés d’un dossier spécifié. 
   
 ```xml
 <UpdateFolder>
@@ -32,17 +32,17 @@ L’élément **UpdateFolder** représente l’opération qui sert à mettre à 
  **UpdateFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderChanges](folderchanges.md) <br/> |Contient une collection des modifications pour un dossier spécifié.  <br/> |
+|[FolderChanges](folderchanges.md) <br/> |Contient une collection de modifications pour un dossier spécifié.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

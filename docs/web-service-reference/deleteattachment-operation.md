@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
-description: L’opération DeleteAttachment est utilisée pour supprimer le fichier et élément de pièces jointes à partir d’un élément existant dans la banque d’informations Exchange.
-ms.openlocfilehash: 4b94bfd8d6333c1f52be8ad7d0d111ab2a0552b3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération DeleteAttachment est utilisée pour supprimer les pièces jointes d’un fichier et d’un élément d’un élément existant dans la Banque d’Exchange.
+ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755848"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457332"
 ---
 # <a name="deleteattachment-operation"></a>Opération DeleteAttachment
 
-L’opération DeleteAttachment est utilisée pour supprimer le fichier et élément de pièces jointes à partir d’un élément existant dans la banque d’informations Exchange.
+L’opération DeleteAttachment est utilisée pour supprimer les pièces jointes d’un fichier et d’un élément d’un élément existant dans la Banque d’Exchange.
   
 ## <a name="remarks"></a>Remarques
 
@@ -31,7 +31,7 @@ Cette opération vous permet de supprimer une ou plusieurs pièces jointes par I
 
 ### <a name="description"></a>Description
 
-Une demande DeleteAttachment l’exemple suivant montre comment supprimer la pièce jointe d’un élément.
+L’exemple de requête DeleteAttachment suivant montre comment supprimer une pièce jointe d’un élément.
   
 ### <a name="code"></a>Code
 
@@ -40,10 +40,10 @@ Une demande DeleteAttachment l’exemple suivant montre comment supprimer la pi�
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <DeleteAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX"/>
       </AttachmentIds>
@@ -54,9 +54,9 @@ Une demande DeleteAttachment l’exemple suivant montre comment supprimer la pi�
 
 ### <a name="comments"></a>Commentaires
 
-Identificateur de pièce jointe a été raccourcie afin de préserver la lisibilité.
+L’identificateur de pièce jointe a été raccourcie afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -70,7 +70,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande DeleteAttachment.
+L’exemple suivant montre une réponse réussie à une demande DeleteAttachment.
   
 ### <a name="code"></a>Code
 
@@ -81,12 +81,12 @@ L’exemple suivant montre une réponse positive à une demande DeleteAttachment
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <DeleteAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteAttachmentResponseMessage xsi:type="m:DeleteAttachmentResponseMessageType" ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -100,14 +100,14 @@ L’exemple suivant montre une réponse positive à une demande DeleteAttachment
 
 ### <a name="comments"></a>Commentaires
 
-L’opération CreateAttachment renvoie un élément de type AttachmentIdType qui inclut un **RootItemId** et le **RootItemChangeKey**. Ces attributs ne sont pas autorisés pour les identificateurs dans une demande DeleteAttachment. DeleteAttachment utilise des éléments de type RequestAttachmentIdType, qui n’inclut pas ces attributs.
+L’opération CreateAttachment renvoie un élément de type AttachmentIdType qui inclut un **RootItemId** et **RootItemChangeKey**. Ces attributs ne sont pas autorisés pour les identificateurs dans une demande DeleteAttachment. DeleteAttachment utilise des éléments de type RequestAttachmentIdType, qui n’incluent pas ces attributs.
   
-La réponse DeleteAttachment inclut l’ID de l’élément parent. Lorsque les pièces jointes sont supprimés d’un élément, modifier la clé de l’élément est modifiée. La nouvelle clé de modification d’élément peut être obtenue à partir de la réponse DeleteAttachment.
+La réponse DeleteAttachment inclut l’ID de l’élément parent. Lorsque des pièces jointes sont supprimées d’un élément, la clé de modification de l’élément est modifiée. La nouvelle clé de modification d’élément peut être obtenue à partir de la réponse DeleteAttachment.
   
 > [!NOTE]
-> L’identificateur [RootItemId](rootitemid.md) et ChangeKey ont été réduite afin de préserver la lisibilité. 
+> L’identificateur [RootItemId](rootitemid.md) et ChangeKey ont été raccourcies afin de préserver la lisibilité. 
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   

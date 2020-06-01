@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
 description: L’élément affinements spécifie une liste d’un ou plusieurs éléments d’affinement.
-ms.openlocfilehash: c08925f5e1b251967141a7391381239f495e5fb1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829039"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457220"
 ---
 # <a name="refiners"></a>Affinements
 
-L’élément **affinements** spécifie une liste d’un ou plusieurs éléments **d’affinement** . 
+L’élément **affinements** spécifie une liste d’un ou plusieurs éléments d' **affinement** . 
   
 ```XML
 <Refiners>
@@ -28,11 +28,11 @@ L’élément **affinements** spécifie une liste d’un ou plusieurs éléments
  **ArrayOfSearchRefinerItemsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

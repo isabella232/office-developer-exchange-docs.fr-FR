@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: afcacecd-f081-4419-a6d5-e45070839f9a
 description: L’élément ProtocolConnections contient zéro ou plusieurs connexions de protocole.
-ms.openlocfilehash: 9938669bc62d5554338e48ce59ca92755ba13d64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6272bdf3aec8ba6572b07659416413c393954d93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828921"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457759"
 ---
 # <a name="protocolconnections-soap"></a>ProtocolConnections (SOAP)
 
@@ -29,11 +29,11 @@ L’élément **ProtocolConnections** contient zéro ou plusieurs connexions de 
  **ProtocolConnections**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,15 +49,15 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

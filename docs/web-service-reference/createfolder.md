@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 110bada1-517b-4bd6-870d-7086dc879e5d
-description: L’élément CreateFolder définit une demande pour créer un dossier dans la banque d’informations Exchange.
-ms.openlocfilehash: e30af23b8ed8669053b94be460d62fbf7abf24c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateFolder définit une demande de création d’un dossier dans la Banque d’Exchange.
+ms.openlocfilehash: c2a971a6b827553a1632c2a86e4d36e3b83a2de3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755695"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457542"
 ---
 # <a name="createfolder"></a>CreateFolder
 
-L’élément **CreateFolder** définit une demande pour créer un dossier dans la banque d’informations Exchange. 
+L’élément **CreateFolder** définit une demande de création d’un dossier dans la Banque d’Exchange. 
   
 ```xml
 <CreateFolder>
@@ -33,18 +33,18 @@ L’élément **CreateFolder** définit une demande pour créer un dossier dans 
  **CreateFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |L’élément qui identifie l’emplacement où le nouveau dossier est créé.  <br/> |
-|[Dossiers](folders-ex15websvcsotherref.md) <br/> |L’élément qui contient tous les dossiers à créer.  <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Élément qui identifie l’emplacement où le nouveau dossier est créé.  <br/> |
+|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Élément qui contient tous les dossiers à créer.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -70,5 +70,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [Opération CreateFolder](createfolder-operation.md)
 
 
-[Création de dossiers (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Création de dossiers (services Web Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

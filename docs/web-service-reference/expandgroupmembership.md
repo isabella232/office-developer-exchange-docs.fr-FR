@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8989e96b-8fa1-4858-93b2-2cbdb30b9ca9
 description: L’élément ExpandGroupMembership indique s’il faut développer l’appartenance au groupe renvoyé à partir d’une demande GetSearchableMailboxes.
-ms.openlocfilehash: 11bfcf6893a147c726c94df77f7d9a9dfbaa773e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8a94aa3da165ecc13282127e75c8d166f3972ead
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756259"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456905"
 ---
 # <a name="expandgroupmembership"></a>ExpandGroupMembership
 
@@ -26,11 +26,11 @@ L’élément **ExpandGroupMembership** indique s’il faut développer l’appa
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md) | [GetSearchableMailboxes](getsearchablemailboxes.md)
+[GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md)  |  [GetSearchableMailboxes](getsearchablemailboxes.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **ExpandGroupElement** indique que l’appartenance au groupe est développé. La valeur **false** indique que l’appartenance au groupe n’est pas développé pour afficher les membres du groupe. 
+Une valeur de texte de **true** pour l’élément **ExpandGroupElement** indique que l’appartenance au groupe est étendue. La valeur **false** indique que l’appartenance au groupe n’est pas développée pour afficher les membres du groupe. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

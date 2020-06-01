@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 15dea99c-7f5d-4af1-82ff-4255127fe567
-description: L’élément GetUserOofSettingsRequest est l’élément racine qui contient les arguments utilisés pour obtenir des paramètres d’absence du bureau (OOF) de l’utilisateur une boîte aux lettres.
-ms.openlocfilehash: e64818961283f90e447e2044cf7f918eccd21f06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetUserOofSettingsRequest est l’élément racine qui contient les arguments utilisés pour obtenir les paramètres d’absence du Bureau d’un utilisateur de boîte aux lettres.
+ms.openlocfilehash: f515e8cf016d3aff6c652ae92a0da71a8f0a5f6b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827692"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457829"
 ---
 # <a name="getuseroofsettingsrequest"></a>GetUserOofSettingsRequest
 
-L’élément **GetUserOofSettingsRequest** est l’élément racine qui contient les arguments utilisés pour obtenir des paramètres d’absence du bureau (OOF) de l’utilisateur une boîte aux lettres. 
+L’élément **GetUserOofSettingsRequest** est l’élément racine qui contient les arguments utilisés pour obtenir les paramètres d’absence du Bureau d’un utilisateur de boîte aux lettres. 
   
 ```xml
 <GetUserOofSettingsRequest>
@@ -32,11 +32,11 @@ L’élément **GetUserOofSettingsRequest** est l’élément racine qui contien
  **GetUserOofSettingsRequest**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,14 +54,14 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-Voici un exemple d’une demande GetUserOofSettings qui obtient des informations d’absence du bureau d’un utilisateur unique.
+Voici un exemple de requête GetUserOofSettings qui récupère les informations du Bureau d’veille d’un utilisateur unique.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
@@ -75,9 +75,9 @@ Voici un exemple d’une demande GetUserOofSettings qui obtient des informations
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

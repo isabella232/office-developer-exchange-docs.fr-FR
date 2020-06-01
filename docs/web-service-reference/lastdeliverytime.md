@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: L’élément LastDeliveryTime contient l’heure de remise du message a été reçu dernière part à cette conversation dans le dossier actif.
-ms.openlocfilehash: 240f6acaf3e5249686ab26501a26ee3e0f337b0f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément LastDeliveryTime contient le délai de remise du message qui a été reçu en dernier dans cette conversation dans le dossier actif.
+ms.openlocfilehash: 77147693a9394e983575afa6fcfda242f8f76ae3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828198"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458109"
 ---
 # <a name="lastdeliverytime"></a>LastDeliveryTime
 
-L’élément **LastDeliveryTime** contient l’heure de remise du message a été reçu dernière part à cette conversation dans le dossier actif. 
+L’élément **LastDeliveryTime** contient le délai de remise du message qui a été reçu en dernier dans cette conversation dans le dossier actif. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,14 +35,14 @@ L’élément **LastDeliveryTime** contient l’heure de remise du message a ét
 <LastDeliveryTime/>
 ```
 
- **xs : DateTime**
+ **XS : dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,9 +54,9 @@ Aucun.
 |:-----|:-----|
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LastDeliveryTime** est la date et l’heure du message que vous avez reçu dernière part à cette conversation dans le dossier actif. 
+La valeur de texte de l’élément **LastDeliveryTime** est la date et l’heure du dernier message reçu dans cette conversation dans le dossier actif. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -83,5 +83,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

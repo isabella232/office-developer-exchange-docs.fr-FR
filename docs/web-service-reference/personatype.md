@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 81c157f0-16ae-4cd5-abf3-6aaf22ca8c70
-description: L’élément PersonaType Spécifie le type du personnage, par exemple, une personne ou une liste de distribution.
-ms.openlocfilehash: 409339857b727144226f4ca233075196eef4308a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PersonaType spécifie le type du personnage, par exemple, une personne ou une liste de distribution.
+ms.openlocfilehash: 9b62d2b8f1545e84a5b726fec0085dd7c9c898f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828748"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457563"
 ---
 # <a name="personatype"></a>PersonaType
 
-L’élément **PersonaType** Spécifie le type du personnage, par exemple, une personne ou une liste de distribution. 
+L’élément **PersonaType** spécifie le type du personnage, par exemple, une personne ou une liste de distribution. 
   
 ```XML
 <PersonaType></PersonaType>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PersonaType** est le type du personnage. 
+La valeur de texte de l’élément **PersonaType** est le type de Persona. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

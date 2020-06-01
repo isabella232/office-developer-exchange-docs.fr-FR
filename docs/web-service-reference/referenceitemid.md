@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8fd4bb12-a94b-43f5-be3b-f435684e311d
-description: L’élément ReferenceItemId identifie l’élément auquel fait référence l’objet de réponse.
-ms.openlocfilehash: d29f2dfec8f2c23fe0ac8c84d2bb9029fce613d2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReferenceItemId identifie l’élément auquel l’objet Response fait référence.
+ms.openlocfilehash: 3b77d75de91af8ec8fb7ae2d507377d1d976febf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829032"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457227"
 ---
 # <a name="referenceitemid"></a>ReferenceItemId
 
-L’élément **ReferenceItemId** identifie l’élément auquel fait référence l’objet de réponse. 
+L’élément **ReferenceItemId** identifie l’élément auquel l’objet Response fait référence. 
   
 ```xml
 <ReferenceItemId Id="" ChangeKey="" />
@@ -30,14 +30,13 @@ L’élément **ReferenceItemId** identifie l’élément auquel fait référenc
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|
-  **Id** <br/> |Identifie un élément spécifique dans la banque d’informations Exchange.  <br/> |
+|**Id** <br/> |Identifie un élément spécifique dans la Banque d’informations Exchange.  <br/> |
 |**ChangeKey** <br/> |Identifie une version spécifique d’un élément.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -61,13 +60,13 @@ Aucun.
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS que héberge Exchange Web Services de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

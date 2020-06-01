@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 502b2841-103d-4340-97d5-51a1db813fb2
-description: L’élément EmptyFolder définit une demande pour vider un dossier dans une boîte aux lettres dans la banque d’informations Exchange. Si vous le souhaitez, sous-dossiers peuvent également être supprimés lorsque le dossier est vidé.
-ms.openlocfilehash: c72e11cea29e2e55c9c29754eec60e73bd1e4d9c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EmptyFolder définit une demande de vidage d’un dossier dans une boîte aux lettres dans la Banque d’Exchange. Vous pouvez également supprimer des sous-dossiers lorsque le dossier est vidé.
+ms.openlocfilehash: a42e4e3f25741a96ee65fe6f87fc3236b68f4dc9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756153"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457276"
 ---
 # <a name="emptyfolder"></a>EmptyFolder
 
-L’élément **EmptyFolder** définit une demande pour vider un dossier dans une boîte aux lettres dans la banque d’informations Exchange. Si vous le souhaitez, sous-dossiers peuvent également être supprimés lorsque le dossier est vidé. 
+L’élément **EmptyFolder** définit une demande de vidage d’un dossier dans une boîte aux lettres dans la Banque d’Exchange. Vous pouvez également supprimer des sous-dossiers lorsque le dossier est vidé. 
   
 ```XML
 <EmptyFolder>
@@ -28,28 +28,28 @@ L’élément **EmptyFolder** définit une demande pour vider un dossier dans un
  **EmptyFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**DeleType** <br/> |Spécifie comment un dossier est vidé. Cet attribut est requis.  <br/> |
-|**DeleteSubFolders** <br/> |Spécifie si les sous-dossiers doivent être supprimés. Cet attribut est requis.  <br/> |
+|**DeleteType** <br/> |Spécifie le mode de vidage d’un dossier. Cet attribut est obligatoire.  <br/> |
+|**DeleteSubFolders** <br/> |Indique si les sous-dossiers doivent être supprimés. Cet attribut est obligatoire.  <br/> |
    
-#### <a name="deletetype-attribute"></a>Attribut DeleType
+#### <a name="deletetype-attribute"></a>Attribut DeleteType
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|HardDelete  <br/> |A les messages et les dossiers sont définitivement supprimés de la banque.  <br/> |
-|SoftDelete  <br/> |A les messages et les dossiers sont déplacés vers la benne si la benne est activé.  <br/> |
-|MoveToDeletedItems  <br/> |A les messages et les dossiers sont déplacés vers le dossier éléments supprimés.  <br/> |
+|HardDelete  <br/> |Les messages et les dossiers sont définitivement supprimés de la Banque.  <br/> |
+|SoftDelete  <br/> |Les messages et les dossiers sont déplacés vers la benne si la benne est activée.  <br/> |
+|MoveToDeletedItems  <br/> |Les messages et les dossiers sont déplacés vers le dossier éléments supprimés.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contient un tableau d’identificateurs de dossier qui sont utilisés pour identifier les dossiers à supprimer.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contient un tableau des identificateurs de dossier qui sont utilisés pour identifier les dossiers à supprimer.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -67,9 +67,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

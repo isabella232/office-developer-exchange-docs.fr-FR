@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5592a37e-cf4b-4643-8a2a-fa58c40345b9
-description: L’élément FreeBusyResponseArray contient des informations de disponibilité de l’utilisateur demandé et l’état de réponse.
-ms.openlocfilehash: cc6022c28213667c40dc00b5627ed88c4f78e2f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FreeBusyResponseArray contient les informations de disponibilité des utilisateurs demandés et l’état de la réponse.
+ms.openlocfilehash: b45938c19b76a377fca125fb6a19f9d712718db6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756484"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457808"
 ---
 # <a name="freebusyresponsearray"></a>FreeBusyResponseArray
 
-L’élément **FreeBusyResponseArray** contient des informations de disponibilité de l’utilisateur demandé et l’état de réponse. 
+L’élément **FreeBusyResponseArray** contient les informations de disponibilité des utilisateurs demandés et l’état de la réponse. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -36,11 +36,11 @@ L’élément **FreeBusyResponseArray** contient des informations de disponibili
  **ArrayOfFreeBusyResponse**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contient les propriétés qui définissent les informations de disponibilité utilisateur ou suggérés informations d’heure de la réunion.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse` <br/> |
+|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contient les propriétés qui définissent les informations de disponibilité de l’utilisateur ou les informations sur les heures de réunion suggérées.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,9 +64,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -78,5 +78,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

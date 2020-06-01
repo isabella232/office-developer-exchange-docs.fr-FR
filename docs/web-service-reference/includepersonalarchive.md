@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b373bb1a-6b1d-4959-98a1-4c4ea62973bc
-description: L’élément IncludePersonalArchive Spécifie s’il faut inclure l’archive personnelle dans la recherche.
-ms.openlocfilehash: ba2dcaae3befd3595815c7281858e4fa8a738e0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IncludePersonalArchive spécifie s’il faut inclure l’archive personnelle dans la recherche.
+ms.openlocfilehash: a25dd45bc0717af8f949d14b88793af3821ca69f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827905"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458249"
 ---
 # <a name="includepersonalarchive"></a>IncludePersonalArchive
 
-L’élément **IncludePersonalArchive** Spécifie s’il faut inclure l’archive personnelle dans la recherche. 
+L’élément **IncludePersonalArchive** spécifie s’il faut inclure l’archive personnelle dans la recherche. 
   
 ```XML
 <IncludePersonalArchive>true | false</IncludePersonalArchive>
@@ -26,11 +26,11 @@ L’élément **IncludePersonalArchive** Spécifie s’il faut inclure l’archi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Spécifie une requête pour rechercher des statistiques de boîtes aux lettres par mot clé.  <br/> |
+|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Spécifie une demande de recherche de statistiques de boîte aux lettres par mot clé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IncludePersonalArchive** indique que l’archive personnelle est inclus dans la recherche. La valeur **false** indique que l’archive personnelle n’est pas inclus dans la recherche. 
+Une valeur de texte de **true** pour l’élément **IncludePersonalArchive** indique que l’archive personnelle est incluse dans la recherche. La valeur **false** indique que l’archive personnelle n’est pas incluse dans la recherche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

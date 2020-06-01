@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f7fc08e6-a906-4a18-93cd-56a5b8d460b0
 description: L’élément ExternalEmailAddress contient l’adresse de messagerie externe de la boîte aux lettres.
-ms.openlocfilehash: 0c1498ad5130d32526757fab9abf21fc03975bae
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c530e0c1a9efb5da3a0e147de3a3ec6e0d7569fc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756320"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456926"
 ---
 # <a name="externalemailaddress"></a>ExternalEmailAddress
 
@@ -23,15 +23,15 @@ L’élément **ExternalEmailAddress** contient l’adresse de messagerie extern
 <ExternalEmailAddress></ExternalEmailAddress>
 ```
 
-**string**
+**chaîne**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,7 +41,7 @@ Aucun.
 
 [SearchableMailbox](searchablemailbox.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **ExternalEmailAddress** est l’adresse de messagerie externe de la boîte aux lettres. 
   
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

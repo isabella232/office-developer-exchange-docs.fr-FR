@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5e418c91-c836-4de0-a80d-f0dad0c684d7
-description: L’élément GetUserConfigurationResponse définit une réponse à une demande GetUserConfiguration unique.
-ms.openlocfilehash: b720809a66c75dbf75f6e597a0064992b9f741e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetUserConfigurationResponse définit une réponse à une requête GetUserConfiguration unique.
+ms.openlocfilehash: d80f281f8dc02f911281959b8629b0d8908f4e97
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827689"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457703"
 ---
 # <a name="getuserconfigurationresponse"></a>GetUserConfigurationResponse
 
-L’élément **GetUserConfigurationResponse** définit une réponse à une demande GetUserConfiguration unique. 
+L’élément **GetUserConfigurationResponse** définit une réponse à une requête GetUserConfiguration unique. 
   
 ```xml
 <GetUserConfigurationResponse>   <ResponseMessages/></GetUserConfigurationResponse>
@@ -30,17 +30,17 @@ L’élément **GetUserConfigurationResponse** définit une réponse à une dema
  **GetUserConfigurationResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -48,15 +48,15 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

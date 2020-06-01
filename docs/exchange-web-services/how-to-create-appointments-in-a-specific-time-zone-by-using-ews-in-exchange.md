@@ -1,38 +1,38 @@
 ---
-title: Créer des rendez-vous dans un fuseau horaire spécifique à l’aide de EWS dans Exchange
+title: Créer des rendez-vous dans un fuseau horaire spécifique à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e68aaa27-250e-4170-b099-077a979c127c
-description: Découvrez comment créer des rendez-vous dans des fuseaux horaires spécifiques à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 1725498847f89a417b62a06fb8a3109af5c4deb0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment créer des rendez-vous dans des fuseaux horaires spécifiques à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: 9b1160a9d62ab092d1b60265eba1ad953be0032b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754825"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456856"
 ---
-# <a name="create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange"></a>Créer des rendez-vous dans un fuseau horaire spécifique à l’aide de EWS dans Exchange
+# <a name="create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange"></a>Créer des rendez-vous dans un fuseau horaire spécifique à l’aide d’EWS dans Exchange
 
-Découvrez comment créer des rendez-vous dans des fuseaux horaires spécifiques à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment créer des rendez-vous dans des fuseaux horaires spécifiques à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Création d’un rendez-vous ou une réunion dans un calendrier Exchange, le fuseau horaire permet de spécifier les heures de début et de fin est enregistré en tant que le fuseau horaire de création pour le rendez-vous. Ce fuseau horaire est également utilisé pour [interpréter les valeurs de date et heure qui n’ont pas un indication de fuseau horaire explicit](time-zones-and-ews-in-exchange.md), il est important de comprendre les options pour spécifier le fuseau horaire.
+Lorsqu’un rendez-vous ou une réunion est créé dans un calendrier Exchange, le fuseau horaire utilisé pour spécifier les heures de début et de fin est enregistré comme fuseau horaire de création pour le rendez-vous. Ce fuseau horaire est également utilisé pour [interpréter les valeurs de date et d’heure qui n’ont pas de fuseau horaire explicite spécifié](time-zones-and-ews-in-exchange.md), c’est pourquoi il est important de comprendre les options permettant de spécifier le fuseau horaire.
   
 ## <a name="creating-appointments-in-different-time-zones-by-using-the-ews-managed-api"></a>Création de rendez-vous dans différents fuseaux horaires à l’aide de l’API managée EWS
 
 Lorsque vous créez des rendez-vous ou des réunions à l’aide de l’API managée EWS, vous disposez de trois options pour spécifier le fuseau horaire :
   
-- Pour utiliser le fuseau horaire de l’ordinateur où s’exécute votre API managées, ne spécifiez pas un fuseau horaire lors de la création de l’objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
+- Pour utiliser le fuseau horaire de l’ordinateur sur lequel votre API managée EWS est en cours d’exécution, ne spécifiez pas de fuseau horaire lors de la création de l’objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) . 
     
-- Pour utiliser un fuseau horaire spécifique pour toutes les propriétés de date/heure, y compris les propriétés lors de la création d’un nouveau rendez-vous ou une réunion, spécifiez un fuseau horaire dans le constructeur de l’objet **ExchangeService** . 
+- Pour utiliser un fuseau horaire spécifique pour toutes les propriétés de date/heure, y compris les propriétés lors de la création d’un rendez-vous ou d’une réunion, spécifiez un fuseau horaire dans le constructeur pour l’objet **ExchangeService** . 
     
-- Pour utiliser un fuseau horaire différent de celui spécifié dans la propriété [ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) , utilisez les propriétés [Appointment.StartTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx) et [Appointment.EndTimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx) . 
+- Pour utiliser un autre fuseau horaire que celui spécifié dans la propriété [ExchangeService. TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) , utilisez les propriétés appointment. [StartTimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx) et appointment [. EndTimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx) . 
     
     > [!NOTE]
-    > La propriété **EndTimeZone** est disponible uniquement lorsque la propriété [ExchangeService.RequestedServerVersion](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) est définie sur **Exchange2010** ou version ultérieure. S’il n’est pas disponible, définition **StartTimeZone** s’applique aux heures de début et de fin du rendez-vous. 
+    > La propriété **EndTimeZone** est disponible uniquement lorsque la propriété [ExchangeService. RequestedServerVersion](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) est définie sur **Exchange2010** ou une version ultérieure. Si elle n’est pas disponible, la définition de **StartTimeZone** s’applique aux heures de début et de fin du rendez-vous. 
   
-Dans l’exemple suivant, l’API managée EWS est utilisée pour créer des trois rendez-vous. Chaque rendez-vous est configuré pour démarrer à 1 h 00 deux jours à partir de maintenant, dans un fuseau horaire non spécifié et de fin, une heure plus tard. Le premier rendez-vous est créé dans le fuseau horaire de l’ordinateur client à l’aide de comportement d’API managées par défaut. Le second est créé dans le fuseau horaire Central en utilisant les propriétés **Appointment.StartTimeZone** et **Appointment.EndTimeZone** . La troisième est créée dans Paris à l’aide de la propriété **ExchangeService.TimeZone** . 
+Dans l’exemple suivant, l’API managée EWS est utilisée pour créer trois rendez-vous. Chaque rendez-vous est défini pour démarrer à 1:00 à partir de deux jours, dans un fuseau horaire non spécifié et se terminer une heure plus tard. Le premier rendez-vous est créé dans le fuseau horaire de l’ordinateur client en utilisant le comportement par défaut de l’API managée EWS. La deuxième est créée dans le fuseau horaire central à l’aide des propriétés appointment **. StartTimeZone** et appointment **. EndTimeZone** . Le troisième est créé dans le fuseau horaire montagnes à l’aide de la propriété **ExchangeService. TimeZone** . 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -124,26 +124,26 @@ static void CreateAppointments(string userEmail, SecureString userPass)
 }
 ```
 
-Lorsque cet exemple est exécuté sur un ordinateur client configuré dans le fuseau horaire, et il crée trois rendez-vous sont affichés à partir d’un client configuré dans le fuseau horaire, ils apparaissent à 1:00 PM, 2 h 00 et 3 h 00, respectivement.
+Lorsque cet exemple est exécuté sur un ordinateur client configuré dans le fuseau horaire est et que les trois rendez-vous qu’il crée sont affichés à partir d’un client configuré dans le fuseau horaire est, ils apparaissent à 1:00 PM, 2:00 PM et 3:00 PM, respectivement.
   
-## <a name="creating-appointments-in-different-time-zones-by-using-ews"></a>Création de rendez-vous dans différents fuseaux horaires à l’aide de EWS
+## <a name="creating-appointments-in-different-time-zones-by-using-ews"></a>Création de rendez-vous dans différents fuseaux horaires à l’aide d’EWS
 
-Lorsque vous créez des rendez-vous ou des réunions à l’aide de EWS, vous disposez de trois options pour spécifier le fuseau horaire :
+Lorsque vous créez des rendez-vous ou des réunions à l’aide d’EWS, vous disposez de trois options pour spécifier le fuseau horaire :
   
-- Pour utiliser le temps universel coordonné (UTC), ne pas inclure un élément [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , [MeetingTimeZone](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) , élément (Exchange 2007 uniquement), ou [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) et éléments [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) (Exchange 2010 et versions ultérieur) dans le [ Opération CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) demande. 
+- Pour utiliser le temps universel coordonné (UTC), n’incluez pas un élément [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , un élément [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) (Exchange 2007 uniquement) ou des éléments [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) et [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) (Exchange 2010 et versions ultérieures) dans la demande d' [opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
     
-- Pour utiliser un fuseau horaire spécifique pour toutes les propriétés de date/heure, y compris les propriétés lors de la création d’un nouveau rendez-vous ou une réunion, spécifiez un fuseau horaire dans l’élément [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) dans la requête [d’opération CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
+- Pour utiliser un fuseau horaire spécifique pour toutes les propriétés de date/heure, y compris les propriétés lors de la création d’un rendez-vous ou d’une réunion, spécifiez un fuseau horaire dans l’élément [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) de la demande de l' [opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
     
-- Pour utiliser un fuseau horaire différent de celui spécifié dans l’élément [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , incluez un élément [TimeZoneContext](http://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , [MeetingTimeZone](http://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) , élément (Exchange 2007 uniquement) ou (éléments) [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) et [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) Exchange 2010 et versions ultérieur) dans la requête [d’opération CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
+- Pour utiliser un fuseau horaire différent de celui spécifié dans l’élément [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , incluez un élément [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) , un élément [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) (Exchange 2007 uniquement) ou des éléments [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) et [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) (Exchange 2010 et versions ultérieures) dans la demande d' [opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
     
-L’exemple de requête [CreateItem operation](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) suivant crée un rendez-vous à l’aide au format UTC. Notez que l’élément **TimeZoneContext** , l’élément **StartTimeZone** et l’élément **EndTimeZone** sont absents. Les valeurs d’élément **Start** et **End** sont exprimés au format UTC. 
+L’exemple suivant de demande d' [opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) crée un rendez-vous à l’aide de l’UTC. Notez que l’élément **TimeZoneContext** , l’élément **StartTimeZone** et l’élément **EndTimeZone** sont absents. Les valeurs des éléments **Start** et **end** sont exprimées au format UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -162,14 +162,14 @@ L’exemple de requête [CreateItem operation](http://msdn.microsoft.com/library
 </soap:Envelope>
 ```
 
-L’exemple de requête [CreateItem operation](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) suivant utilise les éléments **StartTimeZone** et **EndTimeZone** pour spécifier le fuseau horaire Central pour le rendez-vous. Notez que l’élément **TimeZoneContext** est absent. Toutefois, s’il s’agissait il est présent, les valeurs des éléments **StartTimeZone** et **EndTimeZone** seraient remplacer sa valeur. Encore une fois, les valeurs d’élément **Start** et **End** sont exprimés au format UTC. 
+L’exemple suivant de demande d' [opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) utilise les éléments **StartTimeZone** et **EndTimeZone** pour spécifier le fuseau horaire central pour le rendez-vous. Notez que l’élément **TimeZoneContext** est absent. Toutefois, s’il était présent, les valeurs des éléments **StartTimeZone** et **EndTimeZone** substitueront sa valeur. Encore une fois, les valeurs des éléments **Start** et **end** sont exprimées au format UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -190,14 +190,14 @@ L’exemple de requête [CreateItem operation](http://msdn.microsoft.com/library
 </soap:Envelope>
 ```
 
-L’exemple de requête [CreateItem operation](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) suivant définit l’élément **TimeZoneContext** Paris. Notez que les éléments **StartTimeZone** et **EndTimeZone** absents. Encore une fois, les valeurs d’élément **Start** et **End** sont exprimés au format UTC. 
+Dans l’exemple suivant, la demande de l' [opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) définit l’élément **TimeZoneContext** sur le fuseau horaire montagnes Rocheuses. Notez que les éléments **StartTimeZone** et **EndTimeZone** sont absents. Encore une fois, les valeurs des éléments **Start** et **end** sont exprimées au format UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
     <t:TimeZoneContext>
@@ -219,19 +219,19 @@ L’exemple de requête [CreateItem operation](http://msdn.microsoft.com/library
 </soap:Envelope>
 ```
 
-Lorsque les trois rendez-vous créés par les demandes d’exemple EWS précédentes sont affichés à partir d’un client configuré dans le fuseau horaire, elles apparaissent à 13 h 00, 2 h 00 et 3 h 00, respectivement.
+Lorsque les trois rendez-vous créés par les requêtes d’exemple EWS précédentes sont visualisés à partir d’un client configuré dans le fuseau horaire est, ils apparaissent respectivement à 1:00 PM, 2:00 PM et 3:00 PM.
   
 ## 
 
-Maintenant que vous savez comment créer un rendez-vous dans des fuseaux horaires spécifiques, vous souhaiterez [mettre à jour les fuseaux horaires dans les rendez-vous existants](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) vers un autre. 
+Maintenant que vous saurez comment créer des rendez-vous dans des fuseaux horaires spécifiques, vous souhaiterez peut-être [mettre à jour les fuseaux horaires des rendez-vous existants](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 - [Fuseaux horaires et EWS dans Exchange](time-zones-and-ews-in-exchange.md)
     
-- [Mettre à jour le fuseau horaire pour un rendez-vous à l’aide de EWS dans Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
+- [Mettre à jour le fuseau horaire pour un rendez-vous à l’aide d’EWS dans Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
     
-- [Créer des rendez-vous et réunions à l’aide de EWS dans Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Créer des rendez-vous et des réunions à l’aide d’EWS dans Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 

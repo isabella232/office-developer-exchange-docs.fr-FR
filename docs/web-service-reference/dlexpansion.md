@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9e50278d-fe6a-45e2-a72b-0fb06809e128
-description: L’élément DLExpansion contient un tableau de boîtes aux lettres qui sont contenus dans une liste de distribution.
-ms.openlocfilehash: 06081b4aba761a7137f921b3bc1c8d6b2afab88c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DLExpansion contient un tableau de boîtes aux lettres contenues dans une liste de distribution.
+ms.openlocfilehash: 079ad1c0f114d201f5d1b91c3fd9bb45b943cc1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756025"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456996"
 ---
 # <a name="dlexpansion"></a>DLExpansion
 
-L’élément **DLExpansion** contient un tableau de boîtes aux lettres qui sont contenus dans une liste de distribution. 
+L’élément **DLExpansion** contient un tableau de boîtes aux lettres contenues dans une liste de distribution. 
   
 - [ExpandDLResponse](expanddlresponse.md) 
 - [ResponseMessages](responsemessages.md) 
@@ -37,16 +37,16 @@ L’élément **DLExpansion** contient un tableau de boîtes aux lettres qui son
  **ArrayOfDLExpansionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Représente l’index suivant doit être utilisé pour la requête suivante lorsque vous utilisez un affichage de page indexés.  <br/> |
-|**NumeratorOffset** <br/> |Représente la nouvelle valeur numérateur à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fraction.  <br/> |
-|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fraction.  <br/> |
-|**IncludesLastItemInRange** <br/> |Indique si les résultats actuels contient le dernier élément dans la requête afin que le fichier d’échange supplémentaire n’est pas nécessaire.  <br/> |
+|**IndexedPagingOffset** <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lorsque vous utilisez une vue de page indexée.  <br/> |
+|**NumeratorOffset** <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
+|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
+|**IncludesLastItemInRange** <br/> |Indique si les résultats actuels contiennent le dernier élément de la requête afin de ne pas avoir besoin d’une pagination supplémentaire.  <br/> |
 |**TotalItemsInView** <br/> |Représente le nombre total d’éléments dans l’affichage.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -59,7 +59,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande ExpandDL.  <br/> |
+|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande ExpandDL.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

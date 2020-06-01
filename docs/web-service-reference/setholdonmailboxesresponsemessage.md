@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d61de0f3-24e0-434a-946a-c53d393b7d04
-description: L’élément SetHoldOnMailboxesResponseMessage Spécifie le message de réponse pour une demande SetHoldOnMailboxes.
-ms.openlocfilehash: b7cb890a71d27340e328e39c1c463fefa080b8cb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetHoldOnMailboxesResponseMessage spécifie le message de réponse pour une demande SetHoldOnMailboxes.
+ms.openlocfilehash: a6af4181218391bc9d3c177467295d771cce4c89
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829420"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456408"
 ---
 # <a name="setholdonmailboxesresponsemessage"></a>SetHoldOnMailboxesResponseMessage
 
-L’élément **SetHoldOnMailboxesResponseMessage** Spécifie le message de réponse pour une demande **SetHoldOnMailboxes** . 
+L’élément **SetHoldOnMailboxesResponseMessage** spécifie le message de réponse pour une demande **SetHoldOnMailboxes** . 
   
 ```XML
 <SetHoldOnMailboxesResponseMessage>
@@ -32,15 +32,15 @@ L’élément **SetHoldOnMailboxesResponseMessage** Spécifie le message de rép
  **SetHoldOnMailboxesResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MailboxHoldResult](mailboxholdresult.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [MailboxHoldResult](mailboxholdresult.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

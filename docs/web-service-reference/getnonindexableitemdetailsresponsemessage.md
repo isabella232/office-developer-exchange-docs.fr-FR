@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 00566965-6cbd-4f31-9fa9-85b3e5559c0c
-description: L’élément GetNonIndexableItemDetailsResponseMessage Spécifie le message de réponse pour une demande GetNonIndexableItemDetails.
-ms.openlocfilehash: 8df67294c17f9c9b786e73647878ad5b3586d788
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetNonIndexableItemDetailsResponseMessage spécifie le message de réponse pour une demande GetNonIndexableItemDetails.
+ms.openlocfilehash: 4cf6b422cc29b20b09d05ea45628fa7133b437b2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756681"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456520"
 ---
 # <a name="getnonindexableitemdetailsresponsemessage"></a>GetNonIndexableItemDetailsResponseMessage
 
-L’élément **GetNonIndexableItemDetailsResponseMessage** Spécifie le message de réponse pour une demande **GetNonIndexableItemDetails** . 
+L’élément **GetNonIndexableItemDetailsResponseMessage** spécifie le message de réponse pour une demande **GetNonIndexableItemDetails** . 
   
 ```XML
 <GetNonIndexableItemDetailsResponseMessage>
@@ -32,15 +32,15 @@ L’élément **GetNonIndexableItemDetailsResponseMessage** Spécifie le message
  **GetNonIndexableItemDetailsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [NonIndexableItemDetailsResult](nonindexableitemdetailsresult.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [NonIndexableItemDetailsResult](nonindexableitemdetailsresult.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

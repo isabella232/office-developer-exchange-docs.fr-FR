@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3f611ed-56a4-43f8-aa65-cbd7844b827f
-description: L’élément FolderChanges représente une collection des modifications pour un dossier.
-ms.openlocfilehash: 7ab89e79f6babb5e93863974835685c6975d96dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FolderChanges représente une collection de modifications apportées à un dossier.
+ms.openlocfilehash: 5481496100512584fd0b9745ee42d5b9516bd7fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756437"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458382"
 ---
 # <a name="folderchanges"></a>FolderChanges
 
-L’élément **FolderChanges** représente une collection des modifications pour un dossier. 
+L’élément **FolderChanges** représente une collection de modifications apportées à un dossier. 
   
 [UpdateFolder](updatefolder.md)
   
@@ -36,23 +36,23 @@ L’élément **FolderChanges** représente une collection des modifications pou
  **NonEmptyArrayOfFolderChangesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderChange](folderchange.md) <br/> |Représente une modification à effectuer sur un seul dossier unique.  <br/> |
+|[FolderChange](folderchange.md) <br/> |Représente une modification unique à effectuer sur un seul dossier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UpdateFolder](updatefolder.md) <br/> |Représente l’opération qui sert à mettre à jour les propriétés d’un dossier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/UpdateFolder` <br/> |
+|[UpdateFolder](updatefolder.md) <br/> |Représente l’opération utilisée pour mettre à jour les propriétés d’un dossier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/UpdateFolder` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

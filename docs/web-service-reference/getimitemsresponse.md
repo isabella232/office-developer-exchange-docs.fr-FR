@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b340fef-61cd-4a56-bb69-d935f7f7f552
-description: L’élément GetImItemsResponse définit une réponse à une demande de GetImItems.
-ms.openlocfilehash: d1a4684504e8b88222615962816da3df761579c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetImItemsResponse définit une réponse à une demande GetImItems.
+ms.openlocfilehash: 71547834243a7d377a8b1de527b6db78280c7530
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756638"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456436"
 ---
 # <a name="getimitemsresponse"></a>GetImItemsResponse
 
-L’élément **GetImItemsResponse** définit une réponse à une demande de **GetImItems** . 
+L’élément **GetImItemsResponse** définit une réponse à une demande **GetImItems** . 
   
 ```XML
 <GetImItemsResponse>
@@ -32,15 +32,15 @@ L’élément **GetImItemsResponse** définit une réponse à une demande de **G
  **GetImItemsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ImItemList](imitemlist.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [ImItemList](imitemlist.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

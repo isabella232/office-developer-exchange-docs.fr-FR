@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3fcf7133-ae1c-47b4-a187-660045f71df0
-description: L’élément Location représente l’emplacement d’une réunion, un rendez-vous ou un personnage.
-ms.openlocfilehash: 0d2bc131763c4ffa399fe9397d247d89a84e0d1b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément location représente l’emplacement d’une réunion, d’un rendez-vous ou d’un personnage.
+ms.openlocfilehash: 0063d5da23eb731835599f3e931e3c0cb2843ab7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828241"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458088"
 ---
 # <a name="location"></a>Emplacement
 
-L’élément **Location** représente l’emplacement d’une réunion, un rendez-vous ou un personnage. 
+L’élément **location** représente l’emplacement d’une réunion, d’un rendez-vous ou d’un personnage. 
   
 ```xml
 <Location/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente l’emplacement d’une réunion ou un rendez-vous est requise.
+Une valeur de texte qui représente l’emplacement d’une réunion ou d’un rendez-vous est requise.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

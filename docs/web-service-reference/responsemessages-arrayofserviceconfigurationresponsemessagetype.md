@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c7cfa0d1-fcb2-441f-8489-3a549da33b34
 description: L’élément ResponseMessages contient un tableau de messages de réponse de configuration de service.
-ms.openlocfilehash: af8a6db8d6e9d3ec76b532a81ef2a7392dcfde7a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cf271224141ffeb6dc00069abf430ab33d3ca2fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829194"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457451"
 ---
 # <a name="responsemessages-arrayofserviceconfigurationresponsemessagetype"></a>ResponseMessages (ArrayOfServiceConfigurationResponseMessageType)
 
@@ -32,23 +32,23 @@ L’élément **ResponseMessages** contient un tableau de messages de réponse d
  **ArrayOfServiceConfigurationResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contient les paramètres de configuration de service. Cet élément est obligatoire.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contient les paramètres de configuration du service. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |Définit une réponse à une demande de GetServiceConfiguration.  <br/> |
+|[GetServiceConfigurationResponse](getserviceconfigurationresponse.md) <br/> |Définit une réponse à une demande GetServiceConfiguration.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,5 +1,5 @@
 ---
-title: Base64Binary
+title: Au base64Binary
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 37f0c542-7e4c-41b6-8629-537ef11b610b
-description: L’élément Base64Binary contient une valeur codée en Base64.
-ms.openlocfilehash: 570161ba222e148b8a9488c9e12c7c50403a685a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Base64Binary contient une valeur encodée en base64.
+ms.openlocfilehash: e3ccda98d23b05349a27711b5bff6b68744c9269
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755370"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458053"
 ---
-# <a name="base64binary"></a>Base64Binary
+# <a name="base64binary"></a>Au base64Binary
 
-L’élément **Base64Binary** contient une valeur codée en Base64. 
+L’élément **base64Binary** contient une valeur encodée en base64. 
   
 ```XML
 <Base64Binary/>
 ```
 
- **Base64Binary**
+ **Au base64Binary**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -57,7 +57,7 @@ Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -66,8 +66,8 @@ Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Creating Contacts (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 7bb9896c-bd12-49ae-842a-a10b5f9a2ef6
 description: L'élément InboxRules représente un tableau de règles de boîte aux lettres de l'utilisateur.
-ms.openlocfilehash: 47fcad5dde06f3af9fbae7e70adbfd8b225081c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a3107c3c317a912d0bd3e60d03da4168f2f3a0a9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827899"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458270"
 ---
 # <a name="inboxrules"></a>InboxRules
 
@@ -36,11 +36,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **ArrayOfRulesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

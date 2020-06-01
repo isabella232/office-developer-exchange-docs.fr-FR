@@ -12,30 +12,30 @@ api_type:
 - schema
 ms.assetid: e47f1d32-3ee3-4a1d-b7f9-80973ed57bd4
 description: L’élément XmlData contient le contenu de propriété de données XML pour un objet de configuration utilisateur.
-ms.openlocfilehash: 6cd14d9e3873dd3aac352dce82afb2c309477214
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2fb3e2ccbb6e9ccc409a5d0cfdd895b2a63214ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839072"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457017"
 ---
 # <a name="xmldata"></a>XmlData
 
-L’élément **XmlData** contient le contenu de propriété de données XML pour un objet de configuration utilisateur. 
+L’élément **XMLDATA** contient le contenu de propriété de données XML pour un objet de configuration utilisateur. 
   
 ```XML
 <XmlData/>
 ```
 
-**Base64Binary**
+**Au base64Binary**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

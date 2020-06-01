@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bd65ac06-b3ac-4c9b-9568-3e4dc94378e7
-description: L’élément StartDate représente la date de début d’une tâche périodique ou d’un élément de calendrier.
-ms.openlocfilehash: 6a38e63bbcf010ab6dca8f66440a2b0a559cf88d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément StartDate représente la date de début d’une tâche ou d’un élément de calendrier périodique.
+ms.openlocfilehash: 4514f126b1de31c64a2650b9e7cb6b7412a726c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829551"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457206"
 ---
 # <a name="startdate-recurrence"></a>StartDate (périodicité)
 
-L’élément **StartDate** représente la date de début d’une tâche périodique ou d’un élément de calendrier. 
+L’élément **StartDate** représente la date de début d’une tâche ou d’un élément de calendrier périodique. 
   
 ```xml
 <StartDate/>
@@ -31,11 +31,11 @@ L’élément **StartDate** représente la date de début d’une tâche périod
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,13 +45,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |Décrit la date de début et date de fin de périodicité d’un élément.  <br/> |
-|[NoEndRecurrence](noendrecurrence.md) <br/> |Indique la date de début d’une périodicité d’élément qui n’a pas une date de fin définie.  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |Décrit la date de début et la date de fin d’une périodicité d’élément.  <br/> |
+|[NoEndRecurrence](noendrecurrence.md) <br/> |Décrit la date de début d’un critère de périodicité d’élément qui n’a pas de date de fin définie.  <br/> |
 |[NumberedRecurrence](numberedrecurrence.md) <br/> |Décrit la date de début et le nombre d’occurrences d’un élément périodique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une date est obligatoire si cet élément est utilisé. La valeur ne peut pas être inférieure à avr 1, 1601 00:00:00.
+Une valeur de texte qui représente une date est requise si cet élément est utilisé. La valeur ne peut pas être inférieure à la valeur Apr, 1, 1601 00:00:00.
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

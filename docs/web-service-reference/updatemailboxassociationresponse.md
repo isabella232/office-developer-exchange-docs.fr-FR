@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c037de3d-7881-4de4-8f52-68d4878155eb
-description: L’élément UpdateMailboxAssociationResponse est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: f2be330ccd78c1e2765e0854d1f8f461e0bea8f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UpdateMailboxAssociationResponse est destiné uniquement à un usage interne.
+ms.openlocfilehash: e4c511d75ef91f0919d5fe182e85070bdc9aae9c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838906"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457906"
 ---
 # <a name="updatemailboxassociationresponse"></a>UpdateMailboxAssociationResponse
 
-L’élément **UpdateMailboxAssociationResponse** est destiné à une utilisation interne uniquement. 
+L’élément **UpdateMailboxAssociationResponse** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: eb57dc71-96e5-4718-a51a-a1b9c62abd6f
-description: L’élément CustomMailTip représente un message d’info-bulle personnalisée.
-ms.openlocfilehash: 5f4d41334213f69e8154892231ab954f166d5bef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CustomMailTip représente un message personnalisé de Conseil de messagerie.
+ms.openlocfilehash: 70810b9c2a73703586d06a4141d31c0fd39abb5d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755773"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458333"
 ---
 # <a name="custommailtip"></a>CustomMailTip
 
-L’élément **CustomMailTip** représente un message d’info-bulle personnalisée. 
+L’élément **CustomMailTip** représente un message personnalisé de Conseil de messagerie. 
   
 ```XML
 <CustomMailTip/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Les infos-courrier](mailtips.md) <br/> |Représente les valeurs pour les différents types d’astuces de la messagerie.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs des différents types de conseils de courrier.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

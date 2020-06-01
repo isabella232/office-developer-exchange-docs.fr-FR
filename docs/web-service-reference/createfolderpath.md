@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 282576cb-a921-49f7-8748-64158fd50c41
-description: L’élément CreateFolderPath est utilisé pour créer un chemin d’accès du dossier et inclut un Id du dossier parent et un chemin d’accès relatif.
-ms.openlocfilehash: bfe31d894cfaa0f36da2d1d0045f723e0d261759
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateFolderPath est utilisé pour créer un chemin d’accès de dossier et inclut un ID de dossier parent et un chemin d’accès de dossier relatif.
+ms.openlocfilehash: e6ce6c9b6e12a6a0fb6792b63368a79c87d06f07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755701"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457535"
 ---
 # <a name="createfolderpath"></a>CreateFolderPath
 
-L’élément **CreateFolderPath** est utilisé pour créer un chemin d’accès du dossier et inclut un Id du dossier parent et un chemin d’accès relatif. 
+L’élément **CreateFolderPath** est utilisé pour créer un chemin d’accès de dossier et inclut un ID de dossier parent et un chemin d’accès de dossier relatif. 
   
 ```XML
 <CreateFolderPath>
@@ -29,15 +29,15 @@ L’élément **CreateFolderPath** est utilisé pour créer un chemin d’accès
  **CreateFolderPathType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) | [RelativeFolderPath](relativefolderpath.md)
+[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)  |  [RelativeFolderPath](relativefolderpath.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

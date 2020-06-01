@@ -12,18 +12,18 @@ api_type:
 - schema
 ms.assetid: e877b7ef-e303-4270-964d-8d116ff2a865
 description: 'Dernière modification : 17 septembre 2015'
-ms.openlocfilehash: 7dd9d48356932c82dbc048a85b9f02437c6366de
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 99e4e24c3bca77c7e7d5f2c59bb21cee1317fed2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755111"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44446391"
 ---
 # <a name="agentlist"></a>agentList
   
 **S’applique à :** Exchange Server 2013
   
-L’élément **agentList** contient un élément de [l’agent](agent.md) pour chaque agent installé. 
+L’élément **agentList** contient un élément [agent](agent.md) pour chaque agent installé. 
   
 - [configuration](configuration.md)
 - [mexRuntime](mexruntime.md)
@@ -35,15 +35,15 @@ L’élément **agentList** contient un élément de [l’agent](agent.md) pour 
 </agentList>
 ```
 
-**agentListType (type complexe)**
+**agentListType (complexType)**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -55,18 +55,18 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contient des éléments qui définissent les informations de configuration pour l’agent de surveillance et les informations de configuration sur les agents installés.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contient des éléments qui définissent les informations de configuration des informations de configuration et de surveillance de l’agent sur les agents installés.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |Ce fichier ne définit pas un espace de noms.  <br/> |
-|Nom du schéma  <br/> |N’est pas disponible.  <br/> |
-|Fichier de validation  <br/> |N’est pas disponible.  <br/> |
-|Peut être vide  <br/> |Faux  <br/> |
+|Espace de noms  <br/> |Ce fichier ne définit pas d’espace de noms.  <br/> |
+|Nom du schéma  <br/> |Non disponible.  <br/> |
+|Fichier de validation  <br/> |Non disponible.  <br/> |
+|Peut être vide  <br/> |Faux.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier de configuration agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Éléments du fichier de configuration des agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

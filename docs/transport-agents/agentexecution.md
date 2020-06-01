@@ -12,18 +12,18 @@ api_type:
 - schema
 ms.assetid: 600c4690-941c-45af-a906-5528748d09cd
 description: 'Dernière modification : 17 septembre 2015'
-ms.openlocfilehash: 5848d52a68c8c3f747614015e49becb34bc4cfd8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 457257e59fb37659daf2f91b0fa5dfced5c48c03
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755109"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44446489"
 ---
 # <a name="agentexecution"></a>agentExecution
   
 **S’applique à :** Exchange Server 2013 
   
-L’élément **agentExecution** définit la durée, en millisecondes, pour le serveur d’accès au Client ou de la boîte aux lettres doit attendre un agent renvoyer à partir d’un événement avant de les écrire dans le journal des événements. 
+L’élément **agentExecution** définit le temps, en millisecondes, pendant lequel le serveur d’accès au client ou de boîtes aux lettres doit attendre qu’un agent renvoie à partir d’un événement avant d’écrire dans le journal des événements. 
   
 - [configuration](configuration.md)  
 - [surveillance](monitoring.md)
@@ -33,17 +33,17 @@ L’élément **agentExecution** définit la durée, en millisecondes, pour le s
 <agentExecution timeLimitInMilliseconds="" />
 ```
 
-**agentExecutionType (type complexe)**
+**agentExecutionType (complexType)**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**timeLimitInMilliseconds** <br/> |Une valeur entière positive qui spécifie la durée, en millisecondes, pour le serveur doit attendre pour un agent renvoyer à partir d’un événement avant qu’il écrit un message d’avertissement dans le journal des événements. Performances peuvent diminuer si cette valeur est trop petite. La valeur suggérée pour cet attribut est 300 000, ce qui équivaut à 5 minutes.  <br/> |
+|**timeLimitInMilliseconds** <br/> |Valeur entière positive qui spécifie le temps, en millisecondes, pendant lequel le serveur doit attendre qu’un agent renvoie à partir d’un événement avant d’écrire un avertissement dans le journal des événements. Les performances peuvent diminuer si cette valeur est trop petite. La valeur suggérée pour cet attribut est 300 000, ce qui équivaut à 5 minutes.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,18 +53,18 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[surveillance](monitoring.md) <br/> |Contient des informations de configuration qui définit comment et quand le service de Transport frontal ou le service de Transport analyse les agents qui sont installés.  <br/> |
+|[surveillance](monitoring.md) <br/> |Contient des informations de configuration qui définissent comment et quand le service de transport frontal ou le service de transport surveille les agents installés.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |Ce fichier ne définit pas un espace de noms.  <br/> |
-|Nom du schéma  <br/> |N’est pas disponible.  <br/> |
-|Fichier de validation  <br/> |N’est pas disponible.  <br/> |
-|Peut être vide  <br/> |Faux  <br/> |
+|Espace de noms  <br/> |Ce fichier ne définit pas d’espace de noms.  <br/> |
+|Nom du schéma  <br/> |Non disponible.  <br/> |
+|Fichier de validation  <br/> |Non disponible.  <br/> |
+|Peut être vide  <br/> |Faux.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier de configuration agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Éléments du fichier de configuration des agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

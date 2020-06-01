@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fd5b9f0e-23e8-428c-8168-2d6b4ecd6beb
-description: L’élément SetHoldOnMailboxes contient une demande SetHoldOnMailboxes.
-ms.openlocfilehash: 7d226de908c4d5a474129e3e1f2344ec1318f538
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetHoldOnMailboxes contient une requête SetHoldOnMailboxes.
+ms.openlocfilehash: c96ff50cb1204d86abc66829e1c5da7124f407f1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829413"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448351"
 ---
 # <a name="setholdonmailboxes"></a>SetHoldOnMailboxes
 
-L’élément **SetHoldOnMailboxes** contient une demande **SetHoldOnMailboxes** . 
+L’élément **SetHoldOnMailboxes** contient une requête **SetHoldOnMailboxes** . 
   
 ```XML
 <SetHoldOnMailboxes>
@@ -35,15 +35,15 @@ L’élément **SetHoldOnMailboxes** contient une demande **SetHoldOnMailboxes**
  **SetHoldOnMailboxesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ActionType (HoldActionType)](actiontype-holdactiontype.md) | [HoldId](holdid.md) | [requête](query.md) | [boîtes aux lettres (ArrayOfStringsType)](mailboxes-arrayofstringstype.md) | [langue](language.md) | [IncludeNonIndexableItems](includenonindexableitems.md) | [déduplication ](deduplication.md)  |  [InPlaceHoldIdentity](inplaceholdidentity.md)
+[ActionType (HoldActionType)](actiontype-holdactiontype.md)  |  [HoldId](holdid.md)  |  [Requête](query.md)  |  [Boîtes aux lettres (ArrayOfStringsType)](mailboxes-arrayofstringstype.md)  |  [Langue](language.md)  |  [IncludeNonIndexableItems](includenonindexableitems.md)  |  [Déduplication](deduplication.md)  |  [InPlaceHoldIdentity](inplaceholdidentity.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

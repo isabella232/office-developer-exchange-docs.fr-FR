@@ -9,49 +9,49 @@ api_type:
 - schema
 ms.assetid: dab23ed1-7fcf-4870-a634-f39d0742923a
 description: L’élément DisplayName représente le nom complet de l’utilisateur.
-ms.openlocfilehash: 7e4e5b1a97b8e627454a192a3fec2b8a02520a66
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 14522080a519d12a05567e4a65cba8ea00098b7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755995"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463656"
 ---
-# <a name="displayname-pox"></a><span data-ttu-id="9c47a-103">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="9c47a-103">DisplayName (POX)</span></span>
+# <a name="displayname-pox"></a><span data-ttu-id="f5494-103">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="f5494-103">DisplayName (POX)</span></span>
 
-<span data-ttu-id="9c47a-104">L’élément **DisplayName** représente le nom complet de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9c47a-104">The **DisplayName** element represents the user's display name.</span></span> 
+<span data-ttu-id="f5494-104">L’élément **DisplayName** représente le nom complet de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f5494-104">The **DisplayName** element represents the user's display name.</span></span> 
   
-- [<span data-ttu-id="9c47a-105">Découverte automatique (POX)</span><span class="sxs-lookup"><span data-stu-id="9c47a-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
-- [<span data-ttu-id="9c47a-106">Réponse (POX)</span><span class="sxs-lookup"><span data-stu-id="9c47a-106">Response (POX)</span></span>](response-pox.md) 
-- [<span data-ttu-id="9c47a-107">Utilisateur (POX)</span><span class="sxs-lookup"><span data-stu-id="9c47a-107">User (POX)</span></span>](user-pox.md) 
-- [<span data-ttu-id="9c47a-108">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="9c47a-108">DisplayName (POX)</span></span>](displayname-pox.md)
+- [<span data-ttu-id="f5494-105">Découverte automatique (POX)</span><span class="sxs-lookup"><span data-stu-id="f5494-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
+- [<span data-ttu-id="f5494-106">Réponse (POX)</span><span class="sxs-lookup"><span data-stu-id="f5494-106">Response (POX)</span></span>](response-pox.md) 
+- [<span data-ttu-id="f5494-107">Utilisateur (POX)</span><span class="sxs-lookup"><span data-stu-id="f5494-107">User (POX)</span></span>](user-pox.md) 
+- [<span data-ttu-id="f5494-108">DisplayName (POX)</span><span class="sxs-lookup"><span data-stu-id="f5494-108">DisplayName (POX)</span></span>](displayname-pox.md)
   
 ```xml
 <DisplayName/>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="9c47a-109">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="9c47a-109">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="f5494-109">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="f5494-109">Attributes and elements</span></span>
 
-<span data-ttu-id="9c47a-110">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="9c47a-110">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="f5494-110">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="f5494-110">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9c47a-111">Attributs</span><span class="sxs-lookup"><span data-stu-id="9c47a-111">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f5494-111">Attributs</span><span class="sxs-lookup"><span data-stu-id="f5494-111">Attributes</span></span>
 
-<span data-ttu-id="9c47a-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9c47a-112">None.</span></span>
+<span data-ttu-id="f5494-112">Aucune.</span><span class="sxs-lookup"><span data-stu-id="f5494-112">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="9c47a-113">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="9c47a-113">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f5494-113">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="f5494-113">Child elements</span></span>
 
-<span data-ttu-id="9c47a-114">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9c47a-114">None.</span></span>
+<span data-ttu-id="f5494-114">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f5494-114">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="9c47a-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="9c47a-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="f5494-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="f5494-115">Parent elements</span></span>
 
-|<span data-ttu-id="9c47a-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="9c47a-116">**Element**</span></span>|<span data-ttu-id="9c47a-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="9c47a-117">**Description**</span></span>|
+|<span data-ttu-id="f5494-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="f5494-116">**Element**</span></span>|<span data-ttu-id="f5494-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="f5494-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="9c47a-118">Utilisateur (POX)</span><span class="sxs-lookup"><span data-stu-id="9c47a-118">User (POX)</span></span>](user-pox.md) <br/> |<span data-ttu-id="9c47a-119">Fournit des informations spécifiques à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9c47a-119">Provides user-specific information.</span></span>  <br/> |
+|[<span data-ttu-id="f5494-118">Utilisateur (POX)</span><span class="sxs-lookup"><span data-stu-id="f5494-118">User (POX)</span></span>](user-pox.md) <br/> |<span data-ttu-id="f5494-119">Fournit des informations spécifiques à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f5494-119">Provides user-specific information.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="9c47a-120">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="9c47a-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="f5494-120">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="f5494-120">Text value</span></span>
 
-<span data-ttu-id="9c47a-121">La valeur de texte représente le nom complet de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9c47a-121">The text value represents the user's display name.</span></span>
+<span data-ttu-id="f5494-121">La valeur texte représente le nom complet de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f5494-121">The text value represents the user's display name.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="9c47a-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9c47a-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f5494-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f5494-122">See also</span></span>
 
-- [<span data-ttu-id="9c47a-123">Éléments du fichier XML Autodiscover variole pour Exchange</span><span class="sxs-lookup"><span data-stu-id="9c47a-123">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+- [<span data-ttu-id="f5494-123">Éléments XML de découverte automatique de la VARIOle pour Exchange</span><span class="sxs-lookup"><span data-stu-id="f5494-123">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 

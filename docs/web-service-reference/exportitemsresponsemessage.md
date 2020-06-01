@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 830fb008-3c45-4988-9041-91a3da3fe689
-description: L’élément ExportItemsResponseMessage contient l’état et les résultats d’une demande pour exporter un élément de boîte aux lettres unique.
-ms.openlocfilehash: 99c2ca3f95efff6562ff95350b30fc79c5fb51e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ExportItemsResponseMessage contient l’État et les résultats d’une demande d’exportation d’un seul élément de boîte aux lettres.
+ms.openlocfilehash: 3265836ce6d9d6ef97a4e598bbb3f50e7c5047c6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756269"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468945"
 ---
 # <a name="exportitemsresponsemessage"></a>ExportItemsResponseMessage
 
-L’élément **ExportItemsResponseMessage** contient l’état et les résultats d’une demande pour exporter un élément de boîte aux lettres unique. 
+L’élément **ExportItemsResponseMessage** contient l’État et les résultats d’une demande d’exportation d’un seul élément de boîte aux lettres. 
   
 - [ExportItemsResponse](exportitemsresponse.md)  
 - [ResponseMessages](responsemessages.md) 
@@ -42,38 +42,38 @@ L’élément **ExportItemsResponseMessage** contient l’état et les résultat
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Décrit l’état de la réponse.<br/><br/> Les valeurs suivantes sont valides pour cet attribut : <br/> <br/>-Réussite  <br/>-Avertissement  <br/>-Erreur  <br/> |
+|**ResponseClass** <br/> | Décrit l’état de la réponse.<br/><br/> Les valeurs suivantes sont valides pour cet attribut : <br/> <br/>-Réussite  <br/>-AVERTISSEMENT  <br/>-Erreur  <br/> |
    
-#### <a name="responseclass-attribute-values"></a>Valeurs des attributs ResponseClass
+#### <a name="responseclass-attribute-values"></a>Valeurs d’attribut ResponseClass
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**Opération réussie** <br/> |Décrit une demande est remplie.  <br/> |
-|**Avertissement** <br/> | Décrit une demande qui n’a pas aboutie. Un message d’avertissement peut être renvoyée si une erreur s’est produite pendant le traite d’un élément dans la demande et les éléments suivants n’ont pas peuvent être traités.<br/><br/> Voici des exemples de sources d’avertissements :  <br/><br/>-La banque d’informations Exchange est en mode hors connexion pendant le traitement par lots.  <br/>-Services de domaine actives Directory (AD DS) est en mode hors connexion.  <br/>-Boîtes aux lettres ont été déplacés.  <br/>-La base de données de message (MDB) est en mode hors connexion.  <br/>-Un mot de passe a expiré.  <br/>-Un quota a été dépassé.  <br/> |
-|**Erreur** <br/> | Décrit une demande ne peut pas être traitée. <br/><br/>Voici des exemples de sources d’erreurs :  <br/><br/>-Non valide attributs ou éléments  <br/>-Attributs ou éléments qui se trouvent en dehors des limites  <br/>-Une balise inconnue  <br/>-Un attribut ou un élément qui n’est pas valide dans le contexte  <br/>-Une tentative d’accès non autorisés par n’importe quel client  <br/>-Une panne côté serveur en réponse à un appel côté client valid  <br/><br/>  Vous trouverez plus d’informations sur l’erreur dans les éléments [ResponseCode](responsecode.md) et [MessageText](messagetext.md) .  <br/> |
+|**Success** <br/> |Décrit une demande qui est satisfaite.  <br/> |
+|**Warning** <br/> | Décrit une demande qui n’a pas été traitée. Un avertissement peut être renvoyé si une erreur s’est produite lors du traitement d’un élément dans la demande et que les éléments suivants n’ont pas pu être traités.<br/><br/> Voici des exemples de sources d’avertissements :  <br/><br/>-La banque Exchange est hors connexion pendant le traitement par lots.  <br/>-Les services de domaine Active Directory (AD DS) sont hors connexion.  <br/>-Les boîtes aux lettres ont été déplacées.  <br/>-La base de données de messages (MDB) est hors connexion.  <br/>-Un mot de passe a expiré.  <br/>-Un quota a été dépassé.  <br/> |
+|**Error** <br/> | Décrit une demande qui ne peut pas être satisfaite. <br/><br/>Voici des exemples de sources d’erreurs :  <br/><br/>-Attributs ou éléments non valides  <br/>-Les attributs ou les éléments qui sont en dehors de la plage  <br/>-Balise inconnue  <br/>-Un attribut ou un élément qui n’est pas valide dans le contexte  <br/>-Une tentative d’accès non autorisée par un client  <br/>-Un échec côté serveur en réponse à un appel côté client valide  <br/><br/>  Vous trouverez des informations sur l’erreur dans les éléments [ResponseCode](responsecode.md) et [MessageText](messagetext.md) .  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique qui a rencontré la demande.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisée et réservée à un usage ultérieur. Cet élément contient une valeur de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fournit des informations de réponse d’erreur.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Contient l’identificateur d’élément d’un élément exporté.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique rencontrée par la demande.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure. Cet élément contient une valeur de 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
+|[ItemId](itemid.md) <br/> |Contient l’identificateur d’élément d’un élément exporté.  <br/> |
 |[Données (base64Binary)](data-base64binary.md) <br/> |Contient le contenu d’un élément exporté.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -87,9 +87,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

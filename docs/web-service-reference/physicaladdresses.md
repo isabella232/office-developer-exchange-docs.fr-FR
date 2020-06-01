@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5276c5f2-9e08-43af-a0b2-da4ff1dcae2d
-description: L’élément PhysicalAddresses contient une collection d’adresses physiques qui sont associés à un contact.
-ms.openlocfilehash: d4d5232312c735e389e9f5b0dbcb74f8614b6906
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PhysicalAddresses contient une collection d’adresses physiques associées à un contact.
+ms.openlocfilehash: b609abed481359fa6562f41a551645eb613ddfa0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828814"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468879"
 ---
 # <a name="physicaladdresses"></a>PhysicalAddresses
 
-L’élément **PhysicalAddresses** contient une collection d’adresses physiques qui sont associés à un contact. 
+L’élément **PhysicalAddresses** contient une collection d’adresses physiques associées à un contact. 
   
 ```xml
 <PhysicalAddresses>
@@ -32,17 +32,17 @@ L’élément **PhysicalAddresses** contient une collection d’adresses physiqu
  **PhysicalAddressDictionaryType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Entrée (PhysicalAddress)](entry-physicaladdress.md) <br/> |Décrit une seule adresse physique pour un élément de contact.  <br/> |
+|[Entrée (PhysicalAddress)](entry-physicaladdress.md) <br/> |Décrit une adresse physique unique pour un élément de contact.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -67,12 +67,12 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Création de Contacts (Services Web Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
-[Updating Contacts](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[Updating Contacts](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[Deleting Contacts](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+[Deleting Contacts](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

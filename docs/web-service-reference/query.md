@@ -8,29 +8,29 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ccb4cd62-9779-4ca7-a4fe-5a96e6af8f48
 description: L’élément Query contient la requête de recherche pour la suspension.
-ms.openlocfilehash: bbbbd1f6645b0a594c452a4de5e37a0496b53837
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 52b7f58ee0304621d37fc592a0377f5fd82cea29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828934"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468858"
 ---
 # <a name="query"></a>Requête
 
-L’élément **Query** contient la requête de recherche pour la suspension. 
+L’élément **query** contient la requête de recherche pour la suspension. 
   
 ```XML
 <Query></Query>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[SetHoldOnMailboxes](setholdonmailboxes.md) | [MailboxHoldResult](mailboxholdresult.md) | [MailboxQuery](mailboxquery.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [MailboxHoldResult](mailboxholdresult.md)  |  [MailboxQuery](mailboxquery.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Query** est la chaîne de requête de recherche pour une recherche de découverte. 
+La valeur de texte de l’élément **query** est la chaîne de requête de recherche pour une recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

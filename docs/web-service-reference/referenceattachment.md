@@ -7,16 +7,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b9bde862-6b75-4a81-8033-00a47be4dc2f
 description: L’élément ReferenceAttachment spécifie XXX.
-ms.openlocfilehash: 10f6cd1e007514300eeefaf5cc9f212cee32f516
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a5e4445b24395f1530e072f8aa9b5a9eed02f671
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829029"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468739"
 ---
 # <a name="referenceattachment"></a>ReferenceAttachment
 
-L’élément **ReferenceAttachment** spécifie XXX. 
+L’élément **ReferenceAttachment** spécifie xxx. 
   
 ```XML
 <RecurringMasterItemIdRanges Id="" ChangeKey="">
@@ -27,15 +27,14 @@ L’élément **ReferenceAttachment** spécifie XXX.
  **ReferenceAttachmen**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|
-  **Id** <br/> |La valeur de texte de l’attribut **Id** est l’identificateur unique d’un rendez-vous périodique. Il s’agit d’une valeur de **type string** .  <br/> |
-|**ChangeKey** <br/> |La valeur de texte de l’attribut **ChangeKey** est modifier la clé de l’élément maître périodique. Il s’agit d’une valeur de **type string** .  <br/> |
+|**Id** <br/> |La valeur de texte de l’attribut **ID** est l’identificateur unique de l’élément principal périodique. Il s’agit d’une valeur de **chaîne** .  <br/> |
+|**ChangeKey** <br/> |La valeur de texte de l’attribut **ChangeKey** est la clé de modification de l’élément principal périodique. Il s’agit d’une valeur de **chaîne** .  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,7 +42,7 @@ Plages
   
 ### <a name="parent-elements"></a>Éléments parents
 
-ItemId | GlobalItemIds | DraftItemIds | ContactIds | GroupID
+ItemIds | GlobalItemIds | DraftItemIds | ContactIds | ID
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

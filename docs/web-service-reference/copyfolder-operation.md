@@ -1,5 +1,5 @@
 ---
-title: Opération CopyFolder
+title: CopyFolder, opération
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,39 +11,39 @@ api_name:
 api_type:
 - schema
 ms.assetid: c7ea0d68-9793-4144-b378-d99536776db9
-description: L’opération CopyFolder copie les dossiers dans une boîte aux lettres.
-ms.openlocfilehash: a83444ff0927a3c8fe075c79d44d02357a737773
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération CopyFolder copie les dossiers d’une boîte aux lettres.
+ms.openlocfilehash: 1f9a7a3f3ede2d3cf8f9d41677d8ce0487266f17
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755661"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468893"
 ---
-# <a name="copyfolder-operation"></a>Opération CopyFolder
+# <a name="copyfolder-operation"></a>CopyFolder, opération
 
-L’opération CopyFolder copie les dossiers dans une boîte aux lettres.
+L’opération CopyFolder copie les dossiers d’une boîte aux lettres.
   
 ## <a name="using-the-copyfolder-operation"></a>Utilisation de l’opération CopyFolder
 
-L’opération CopyFolder est similaire à l' [opération MoveFolder](movefolder-operation.md). Il copie les dossiers identifiés et retourne **l’Id** et **ChangeKey** des dossiers copiés. 
+L’opération CopyFolder est semblable à l' [opération MoveFolder](movefolder-operation.md). Il copie les dossiers identifiés et renvoie l' **ID** et **ChangeKey** des dossiers copiés. 
   
 ## <a name="copyfolder-request-example"></a>Exemple de requête CopyFolder
 
 ### <a name="description"></a>Description
 
-Une demande CopyFolder l’exemple suivant montre comment copier des dossiers dans le dossier boîte de réception.
+L’exemple de requête CopyFolder suivant montre comment copier des dossiers dans le dossier boîte de réception.
   
 > [!NOTE]
-> La valeur de l’attribut **Id** de l’élément [FolderId](folderid.md) a été raccourcie pour des raisons de lisibilité. 
+> La valeur de l’attribut **ID** de l’élément [FolderId](folderid.md) a été raccourcie pour des raisons de lisibilité. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CopyFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
       </ToFolderId>
@@ -58,9 +58,9 @@ Une demande CopyFolder l’exemple suivant montre comment copier des dossiers da
 
 ### <a name="comments"></a>Commentaires
 
-Dossiers peuvent être identifiés par l’élément [DistinguishedFolderId](distinguishedfolderid.md) ou l’élément [FolderId](folderid.md) pour une utilisation dans soit la [ToFolderId](tofolderid.md) ou les éléments [FolderIds](folderids.md) . 
+Les dossiers peuvent être identifiés par l’élément [DistinguishedFolderId](distinguishedfolderid.md) ou l’élément [FolderId](folderid.md) pour une utilisation dans les éléments [ToFolderId](tofolderid.md) ou [FolderIds](folderids.md) . 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -77,16 +77,16 @@ Les éléments suivants sont utilisés dans la demande :
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 
   
-Pour trouver d’autres options pour le message de demande de l’opération CopyFolder, explorez la hiérarchie de schéma. Commencer à l’élément [CopyFolder](copyfolder.md) . 
+Pour rechercher d’autres options pour le message de demande de l’opération CopyFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CopyFolder](copyfolder.md) . 
   
 ## <a name="successful-copyfolder-response"></a>Réponse CopyFolder réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande CopyFolder. 
+L’exemple suivant montre une réponse réussie à la demande CopyFolder. 
   
 > [!NOTE]
-> L’ID de dossier et la clé de modification ont été réduits afin de préserver la lisibilité. 
+> L’ID de dossier et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -97,12 +97,12 @@ L’exemple suivant montre une réponse positive à la demande CopyFolder.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -118,11 +118,11 @@ L’exemple suivant montre une réponse positive à la demande CopyFolder.
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-L’élément [FolderId](folderid.md) qui est renvoyé dans la réponse représente le dossier qui a été copié dans le nouvel emplacement. 
+L’élément [FolderId](folderid.md) renvoyé dans la réponse représente le dossier qui a été copié dans le nouvel emplacement de dossier. 
   
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -142,13 +142,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [FolderId](folderid.md)
     
-Pour trouver d’autres options pour le message de réponse de l’opération CopyFolder, explorez la hiérarchie de schéma. Démarrez au niveau de l’élément [CopyFolderResponse](copyfolderresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse de l’opération CopyFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CopyFolderResponse](copyfolderresponse.md) . 
   
 ## <a name="copyfolder-error-response"></a>Réponse d’erreur CopyFolder
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande de CopyFolder. L’erreur s’est produite, car il existe déjà un dossier portant le même nom d’affichage.
+L’exemple suivant montre une réponse d’erreur à une demande CopyFolder. L’erreur s’est produite car un dossier portant le même nom d’affichage existe déjà.
   
 ### <a name="code"></a>Code
 
@@ -159,12 +159,12 @@ L’exemple suivant montre une réponse d’erreur à une demande de CopyFolder.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The move or copy operation failed.</m:MessageText>
@@ -196,7 +196,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [Dossiers](folders-ex15websvcsotherref.md)
     
-Pour trouver d’autres options pour le message de réponse de l’opération CopyFolder, explorez la hiérarchie de schéma. Démarrez au niveau de l’élément [CopyFolderResponse](copyfolderresponse.md) . 
+Pour rechercher d’autres options pour le message d’erreur de l’opération CopyFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CopyFolderResponse](copyfolderresponse.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

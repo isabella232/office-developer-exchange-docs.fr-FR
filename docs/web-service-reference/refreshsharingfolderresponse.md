@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 951ab681-f2d5-4f10-933e-ff199685ff8e
 description: L’élément RefreshSharingFolderResponse définit une réponse à une demande d’opération RefreshSharingFolder.
-ms.openlocfilehash: 4ef7a63b2153c6106dae988439f499046689c2b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f37dd4d31546169391305936167143ff5ebd5f91
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829048"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468928"
 ---
 # <a name="refreshsharingfolderresponse"></a>RefreshSharingFolderResponse
 
-L’élément **RefreshSharingFolderResponse** définit une réponse à une demande [d’opération RefreshSharingFolder](refreshsharingfolder-operation.md) . 
+L’élément **RefreshSharingFolderResponse** définit une réponse à une demande d' [opération RefreshSharingFolder](refreshsharingfolder-operation.md) . 
   
 ```xml
 <RefreshSharingFolderResponse ResponseClass="">
@@ -35,30 +35,30 @@ L’élément **RefreshSharingFolderResponse** définit une réponse à une dema
  **RefreshSharingFolderResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Décrit l’état de la réponse. <br/><br/>Les valeurs suivantes sont valides pour cet attribut :  <br/><br/>-Réussite  <br/>-Avertissement  <br/>-Erreur  <br/>- |
+|**ResponseClass** <br/> | Décrit l’état de la réponse. <br/><br/>Les valeurs suivantes sont valides pour cet attribut :  <br/><br/>-Réussite  <br/>-AVERTISSEMENT  <br/>-Erreur  <br/>- |
    
-#### <a name="responseclass-attribute-values"></a>Valeurs des attributs ResponseClass
+#### <a name="responseclass-attribute-values"></a>Valeurs d’attribut ResponseClass
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**Opération réussie** <br/> |Décrit une demande est remplie.  <br/> |
-|**Avertissement** <br/> | Décrit une demande qui n’a pas aboutie. Un message d’avertissement peut être renvoyée si une erreur s’est produite pendant le traite d’un élément dans la demande et les éléments suivants n’ont pas peuvent être traités. <br/><br/>Voici des exemples de sources d’avertissements : <br/> <br/>-La banque d’informations Exchange est en mode hors connexion pendant le traitement par lots.  <br/>-Le service d’annuaire Active Directory est en mode hors connexion.  <br/>-Boîtes aux lettres ont été déplacés.  <br/>-La base de données de message (MDB) est en mode hors connexion.  <br/>-Un mot de passe a expiré.  <br/>-Un quota a été dépassé.  <br/> |
-|**Erreur** <br/> | Décrit une demande ne peut pas être traitée.<br/><br/> Voici des exemples de sources d’erreurs :  <br/><br/>-Non valide attributs ou éléments  <br/>-Attributs ou éléments hors limites  <br/>-Balise inconnue  <br/>-Attribut ou un élément non valide dans le contexte  <br/>-Tentative d’accès non autorisé par n’importe quel client  <br/>Échec du côté serveur en réponse à un appel côté client valid  <br/>  <br/>Vous trouverez plus d’informations sur l’erreur dans les éléments [ResponseCode](responsecode.md) et [MessageText](messagetext.md) .  <br/> |
+|**Success** <br/> |Décrit une demande qui est satisfaite.  <br/> |
+|**Warning** <br/> | Décrit une demande qui n’a pas été traitée. Un avertissement peut être renvoyé si une erreur s’est produite lors du traitement d’un élément dans la demande et que les éléments suivants n’ont pas pu être traités. <br/><br/>Voici des exemples de sources d’avertissements : <br/> <br/>-La banque Exchange est hors connexion pendant le traitement par lots.  <br/>-Le service d’annuaire Active Directory est hors connexion.  <br/>-Les boîtes aux lettres ont été déplacées.  <br/>-La base de données de messages (MDB) est hors connexion.  <br/>-Un mot de passe a expiré.  <br/>-Un quota a été dépassé.  <br/> |
+|**Error** <br/> | Décrit une demande qui ne peut pas être satisfaite.<br/><br/> Voici des exemples de sources d’erreurs :  <br/><br/>-Attributs ou éléments non valides  <br/>-Les attributs ou les éléments sont en dehors de la plage  <br/>-Balise inconnue  <br/>-Attribut ou élément non valide dans le contexte  <br/>-Tentative d’accès non autorisée par un client  <br/>-Échec côté serveur en réponse à un appel côté client valide  <br/>  <br/>Vous trouverez des informations sur l’erreur dans les éléments [ResponseCode](responsecode.md) et [MessageText](messagetext.md) .  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique qui a rencontré la demande.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisée et réservée à un usage ultérieur. Cet élément contient une valeur de 0.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fournit des informations de réponse d’erreur.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique rencontrée par la demande.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure. Cet élément contient une valeur de 0.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -66,15 +66,15 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS que héberge Exchange Web Services de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

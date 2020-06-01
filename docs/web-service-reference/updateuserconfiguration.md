@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ccf7c577-f882-477e-9f6f-2f56729f7d77
-description: L’élément UpdateUserConfiguration représente une demande pour mettre à jour un objet de configuration utilisateur.
-ms.openlocfilehash: 54415677786d8d5b6579f42e6d384c087099ce03
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UpdateUserConfiguration représente une demande de mise à jour d’un objet de configuration utilisateur.
+ms.openlocfilehash: b46552dc93523340b04f4abfb07dc4fca7dd7898
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838912"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468830"
 ---
 # <a name="updateuserconfiguration"></a>UpdateUserConfiguration
 
-L’élément **UpdateUserConfiguration** représente une demande pour mettre à jour un objet de configuration utilisateur. 
+L’élément **UpdateUserConfiguration** représente une demande de mise à jour d’un objet de configuration utilisateur. 
   
 ```XML
 <UpdateUserConfiguration>
@@ -32,11 +32,11 @@ L’élément **UpdateUserConfiguration** représente une demande pour mettre à
  **UpdateUserConfigurationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

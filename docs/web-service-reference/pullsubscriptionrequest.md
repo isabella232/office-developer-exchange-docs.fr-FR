@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 145c5cc7-a894-4f0b-a6ea-358cddfb5c33
-description: L’élément PullSubscriptionRequest représente un abonnement à un abonnement de notification d’événement de type pull.
-ms.openlocfilehash: 5f757bf1f79f7e2a00fb886db50e6ea0eaed1a4a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PullSubscriptionRequest représente un abonnement à un abonnement de notification d’événement basé sur l’extraction.
+ms.openlocfilehash: fb9712c9e1481678c2821ee344052783d5c25bf9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828932"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468865"
 ---
 # <a name="pullsubscriptionrequest"></a>PullSubscriptionRequest
 
-L’élément **PullSubscriptionRequest** représente un abonnement à un abonnement de notification d’événement de type pull. 
+L’élément **PullSubscriptionRequest** représente un abonnement à un abonnement de notification d’événement basé sur l’extraction. 
   
 [S’abonner](subscribe.md)
   
@@ -39,28 +39,28 @@ L’élément **PullSubscriptionRequest** représente un abonnement à un abonne
  **PullSubscriptionRequestType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**SubscribeToAllFolders** <br/> |Indique s’il s’abonner à tous les dossiers disponibles. Cet attribut est facultatif.  <br/> |
+|**SubscribeToAllFolders** <br/> |Indique s’il faut s’abonner à tous les dossiers disponibles. Cet attribut est facultatif.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contient un tableau d’identificateurs de dossier qui sont utilisés pour identifier les dossiers à analyser pour les notifications d’événement.  <br/> |
-|[EventTypes](eventtypes.md) <br/> |Contient une collection de notifications d’événements qui sont utilisés pour créer un abonnement.  <br/> |
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres. Cela permet de créer un abonnement démarre à un événement qui est représenté par le filigrane. Si la limite d’une demande Subscribe n’est trouvée, une réponse d’erreur est retournée au client. Cette erreur peut se produire si celui-ci est antérieure à 30 jours ou si celui-ci n’a jamais été présent dans la boîte aux lettres.  <br/> |
-|[Timeout](timeout.md) <br/> |Représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactive sans GetEvents demande à partir du client.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contient un tableau des identificateurs de dossier qui sont utilisés pour identifier les dossiers à surveiller pour les notifications d’événement.  <br/> |
+|[EventTypes](eventtypes.md) <br/> |Contient une collection de notifications d’événements qui sont utilisées pour créer un abonnement.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres. Cette opération permet de créer un abonnement qui commence au niveau d’un événement représenté par le filigrane. Si le filigrane d’une demande subscribe est introuvable, une réponse d’erreur est renvoyée au client. Cette erreur peut se produire si le filigrane est âgé de plus de 30 jours ou si le filigrane n’a jamais été présent dans la boîte aux lettres.  <br/> |
+|[Timeout](timeout.md) <br/> |Représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactif sans demande GetEvents du client.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[S’abonner](subscribe.md) <br/> |Contient les propriétés qui sont utilisées pour créer des abonnements.  <br/> |
+|[S’abonner](subscribe.md) <br/> |Contient les propriétés utilisées pour créer des abonnements.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -74,9 +74,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7232505a-bab0-4d78-87bc-6cc4b568937a
-description: L’élément PrintAllowed indique si l’impression est activée.
-ms.openlocfilehash: 85c18f3a6bd8f1705d0e21b99bae15484348f777
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PrintAllowed spécifie si l’impression est activée.
+ms.openlocfilehash: ac38491d563916160b4d00165b743c51cb29fe00
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828880"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468746"
 ---
 # <a name="printallowed"></a>PrintAllowed
 
-L’élément **PrintAllowed** indique si l’impression est activée. 
+L’élément **PrintAllowed** spécifie si l’impression est activée. 
   
 ```XML
 <PrintAllowed> true | false </PrintAllowed>
@@ -26,11 +26,11 @@ L’élément **PrintAllowed** indique si l’impression est activée.
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **PrintAllowed** indique que l’impression du contenu est autorisée pour un élément géré par des droits. La valeur **false** indique que l’impression n’est pas autorisée. 
+Une valeur de texte de **true** pour l’élément **PrintAllowed** indique que l’impression du contenu est autorisée pour un élément géré par des droits. La valeur **false** indique que l’impression n’est pas autorisée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

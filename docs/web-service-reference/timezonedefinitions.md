@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9ca1584e-65b8-49ba-a408-e3e8597e6607
-description: L’élément TimeZoneDefinitions représente un tableau des définitions de fuseau horaire.
-ms.openlocfilehash: 0bc1b69ef564bb4e239d9845a4b1a0133292ff12
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TimeZoneDefinitions représente un tableau de définitions de fuseau horaire.
+ms.openlocfilehash: 16a25eb4fdcad2554ebd19626d0a0bc7f6391ac5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838726"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468760"
 ---
 # <a name="timezonedefinitions"></a>TimeZoneDefinitions
 
-L’élément **TimeZoneDefinitions** représente un tableau des définitions de fuseau horaire. 
+L’élément **TimeZoneDefinitions** représente un tableau de définitions de fuseau horaire. 
   
 ```XML
 <TimeZoneDefinitions>
@@ -32,23 +32,23 @@ L’élément **TimeZoneDefinitions** représente un tableau des définitions de
  **ArrayOfTimeZoneDefinitionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Définition de fuseau horaire](timezonedefinition.md) <br/> |Spécifie les périodes et les transitions qui définissent un fuseau horaire.  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Spécifie les périodes et les transitions qui définissent un fuseau horaire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande [d’opération GetServerTimeZones](getservertimezones-operation.md) .  <br/> |
+|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande d' [opération GetServerTimeZones](getservertimezones-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

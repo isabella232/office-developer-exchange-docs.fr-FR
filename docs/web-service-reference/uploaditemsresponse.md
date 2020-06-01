@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 93044d39-4489-456a-8cce-b6d69873348f
-description: L’élément UploadItemsResponse représente une réponse à une demande UploadItems unique.
-ms.openlocfilehash: 67b8f9aa7741c66ff792a036f8c18e8c1ae57b8f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UploadItemsResponse représente une réponse à une requête UploadItems unique.
+ms.openlocfilehash: 8f83c8239709052fe84d80834333d18bea51e489
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838926"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468816"
 ---
 # <a name="uploaditemsresponse"></a>UploadItemsResponse
 
-L’élément **UploadItemsResponse** représente une réponse à une demande UploadItems unique. 
+L’élément **UploadItemsResponse** représente une réponse à une requête UploadItems unique. 
   
 [UploadItemsResponse](uploaditemsresponse.md)
   
@@ -34,17 +34,17 @@ L’élément **UploadItemsResponse** représente une réponse à une demande Up
  **UploadItemsResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

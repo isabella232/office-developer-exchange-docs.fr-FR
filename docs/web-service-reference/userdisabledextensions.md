@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c8294eee-6588-4e42-965d-c8261a4770c9
 description: L’élément UserDisabledExtensions répertorie les applications désactivées.
-ms.openlocfilehash: 4d2935779626337c2b5132fe0556a6d707516223
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 42fd16f342e8c5a4f7a5526cb7513cf77ba8246f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838950"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44433678"
 ---
 # <a name="userdisabledextensions"></a>UserDisabledExtensions
 
@@ -28,15 +28,15 @@ L’élément **UserDisabledExtensions** répertorie les applications désactiv�
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Chaîne](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

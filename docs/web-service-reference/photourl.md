@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0d6d1709-01b2-4599-8145-47f51da4bb26
-description: L’élément PhotoUrl est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 153a1d054043fc91dbd6bd5c42f0d749523261f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PhotoUrl est destiné uniquement à un usage interne.
+ms.openlocfilehash: f14b62da13ba407355b5422bc61b3cefc869fa96
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828815"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44434063"
 ---
 # <a name="photourl"></a>PhotoUrl
 
-L’élément **PhotoUrl** est destiné à une utilisation interne uniquement. 
+L’élément **PhotoUrl** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 909194d6-e2b1-4774-bf29-04ed4318df1d
-description: L’élément SetHoldOnMailboxesResponse représente une réponse à une demande de SetHoldOnMailboxes.
-ms.openlocfilehash: bb1d64b98f5e1ab4cdbe4a297ded46d00b27b364
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetHoldOnMailboxesResponse représente une réponse à une demande SetHoldOnMailboxes.
+ms.openlocfilehash: 37ad5c6e8f880831a98ff2e649a92cee99930889
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829418"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44438081"
 ---
 # <a name="setholdonmailboxesresponse"></a>SetHoldOnMailboxesResponse
 
-L’élément **SetHoldOnMailboxesResponse** représente une réponse à une demande de **SetHoldOnMailboxes** . 
+L’élément **SetHoldOnMailboxesResponse** représente une réponse à une demande **SetHoldOnMailboxes** . 
   
 ```XML
 <SetHoldOnMailboxesResponse>
@@ -32,15 +32,15 @@ L’élément **SetHoldOnMailboxesResponse** représente une réponse à une dem
  **SetHoldOnMailboxesResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MailboxHoldResult](mailboxholdresult.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [MailboxHoldResult](mailboxholdresult.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

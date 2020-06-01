@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f6bba68b-ae4f-41c1-b3e7-c8a31cdb1b0c
-description: L’élément ProcessRightAway indique si la réponse est envoyée dès que l’action démarre le traitement sur le serveur ou si la réponse est envoyée une fois l’action terminée. Cet élément doit être présent pour la réponse à envoyer asynchrone à l’action demandée.
-ms.openlocfilehash: 940f8e8fa0a53801ce1c3a45c3aecf1bdb6f519d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProcessRightAway indique si la réponse est envoyée dès que l’action commence le traitement sur le serveur ou si la réponse est envoyée une fois l’action terminée. Cet élément doit être présent pour que la réponse soit envoyée de manière asynchrone à l’action demandée.
+ms.openlocfilehash: 58d2b926c48db5e7395df64e1f8ee9d6a8f0e73c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828898"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44434070"
 ---
 # <a name="processrightaway"></a>ProcessRightAway
 
-L’élément **ProcessRightAway** indique si la réponse est envoyée dès que l’action démarre le traitement sur le serveur ou si la réponse est envoyée une fois l’action terminée. Cet élément doit être présent pour la réponse à envoyer asynchrone à l’action demandée. 
+L’élément **ProcessRightAway** indique si la réponse est envoyée dès que l’action commence le traitement sur le serveur ou si la réponse est envoyée une fois l’action terminée. Cet élément doit être présent pour que la réponse soit envoyée de manière asynchrone à l’action demandée. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,14 +35,14 @@ L’élément **ProcessRightAway** indique si la réponse est envoyée dès que 
 <ProcessRightAway/>
 ```
 
- **xs : Boolean**
+ **XS : Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,11 +52,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que la réponse est envoyée dès que l’action lance le traitement sur le serveur. Texte la valeur **false** indique que la réponse est envoyée une fois l’action terminée. 
+Une valeur de texte **true** indique que la réponse est envoyée dès que l’action commence le traitement sur le serveur. Une valeur de texte **false** indique que la réponse est envoyée une fois l’action terminée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

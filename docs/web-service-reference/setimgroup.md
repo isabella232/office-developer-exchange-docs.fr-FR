@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c107b8d-714b-4cd5-ad1b-97b7cbcb90d6
-description: L’élément SetImGroup représente une demande pour modifier le nom complet d’un groupe de messagerie instantané.
-ms.openlocfilehash: 67fd8188e3436d5042a2867fe54e673348cba807
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetImGroup représente une demande pour modifier le nom d’affichage d’un groupe de messagerie instantanée.
+ms.openlocfilehash: 96e93ef595720325448c343c193f25b846ba415e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829422"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44438067"
 ---
 # <a name="setimgroup"></a>SetImGroup
 
-L’élément **SetImGroup** représente une demande pour modifier le nom complet d’un groupe de messagerie instantané. 
+L’élément **SetImGroup** représente une demande pour modifier le nom d’affichage d’un groupe de messagerie instantanée. 
   
 ```XML
 <SetImGroup>
@@ -29,15 +29,15 @@ L’élément **SetImGroup** représente une demande pour modifier le nom comple
  **SetImGroupType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[GroupId](groupid.md) | [NewDisplayName](newdisplayname.md)
+[GroupID](groupid.md)  |  [NewDisplayName](newdisplayname.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

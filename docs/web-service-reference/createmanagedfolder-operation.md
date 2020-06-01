@@ -11,52 +11,52 @@ api_name:
 api_type:
 - schema
 ms.assetid: 60a668a2-b4e9-4db9-ac76-9b181e47b302
-description: L’opération CreateManagedFolder crée un dossier géré dans la banque d’informations Exchange.
-ms.openlocfilehash: 2c2af53dc5dbe1e6fcbc7f3b1174a856e51e4905
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération CreateManagedFolder crée un dossier géré dans la Banque d’Exchange.
+ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755735"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44444592"
 ---
-# <a name="createmanagedfolder-operation"></a><span data-ttu-id="f3279-103">Opération CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-103">CreateManagedFolder operation</span></span>
+# <a name="createmanagedfolder-operation"></a><span data-ttu-id="c1cf1-103">Opération CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-103">CreateManagedFolder operation</span></span>
 
-<span data-ttu-id="f3279-104">L’opération CreateManagedFolder crée un dossier géré dans la banque d’informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="f3279-104">The CreateManagedFolder operation creates a managed folder in the Exchange store.</span></span>
+<span data-ttu-id="c1cf1-104">L’opération CreateManagedFolder crée un dossier géré dans la Banque d’Exchange.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-104">The CreateManagedFolder operation creates a managed folder in the Exchange store.</span></span>
   
-## <a name="using-the-createmanagedfolder-operation"></a><span data-ttu-id="f3279-105">Utilisation de l’opération CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-105">Using the CreateManagedFolder Operation</span></span>
+## <a name="using-the-createmanagedfolder-operation"></a><span data-ttu-id="c1cf1-105">Utilisation de l’opération CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-105">Using the CreateManagedFolder Operation</span></span>
 
-<span data-ttu-id="f3279-106">L’opération CreateManagedFolder ajoute un dossier personnalisé géré à la boîte aux lettres d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f3279-106">The CreateManagedFolder operation adds a managed custom folder to a user's mailbox.</span></span> <span data-ttu-id="f3279-107">Vous pouvez utiliser l’applet de commande Exchange Management Shell, **Get-ManagedFolder** pour rechercher les dossiers gérés disponibles à ajouter.</span><span class="sxs-lookup"><span data-stu-id="f3279-107">You can use the Exchange Management Shell **Get-ManagedFolder** cmdlet to find available managed folders to add.</span></span> <span data-ttu-id="f3279-108">Bien que cette applet de commande renvoie les dossiers personnalisés gérés et les dossiers gérés par défaut uniquement gérés personnalisés dossiers peuvent être ajoutés.</span><span class="sxs-lookup"><span data-stu-id="f3279-108">Although this cmdlet returns both managed custom folders and managed default folders, only managed custom folders can be added.</span></span> <span data-ttu-id="f3279-109">Dossiers personnalisés gérés sont identifiés par le type de dossier ManagedCustomFolder.</span><span class="sxs-lookup"><span data-stu-id="f3279-109">Managed custom folders are identified by the ManagedCustomFolder folder type.</span></span> <span data-ttu-id="f3279-110">L’espace de noms System.DirectoryServices inclut également les types qui peuvent être utilisés pour découvrir les noms des dossiers gérés disponibles.</span><span class="sxs-lookup"><span data-stu-id="f3279-110">The System.DirectoryServices namespace also includes types that can be used to discover the names of available managed folders.</span></span> 
+<span data-ttu-id="c1cf1-106">L’opération CreateManagedFolder ajoute un dossier personnalisé géré à la boîte aux lettres d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-106">The CreateManagedFolder operation adds a managed custom folder to a user's mailbox.</span></span> <span data-ttu-id="c1cf1-107">Vous pouvez utiliser la cmdlet **Get-ManagedFolder** de l’environnement de commande Exchange Management Shell pour rechercher les dossiers gérés à ajouter.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-107">You can use the Exchange Management Shell **Get-ManagedFolder** cmdlet to find available managed folders to add.</span></span> <span data-ttu-id="c1cf1-108">Bien que cette applet de commande renvoie les dossiers personnalisés gérés et les dossiers par défaut gérés, seuls les dossiers personnalisés gérés peuvent être ajoutés.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-108">Although this cmdlet returns both managed custom folders and managed default folders, only managed custom folders can be added.</span></span> <span data-ttu-id="c1cf1-109">Les dossiers personnalisés gérés sont identifiés par le type de dossier ManagedCustomFolder.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-109">Managed custom folders are identified by the ManagedCustomFolder folder type.</span></span> <span data-ttu-id="c1cf1-110">L’espace de noms System. DirectoryServices inclut également des types qui peuvent être utilisés pour découvrir les noms des dossiers gérés disponibles.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-110">The System.DirectoryServices namespace also includes types that can be used to discover the names of available managed folders.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="f3279-111">Vous ne pouvez pas utiliser les Services Web Exchange pour rechercher les noms de dossiers gérés disponibles à ajouter à une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="f3279-111">You cannot use Exchange Web Services to find the names of available managed folders to add to a mailbox.</span></span> 
+> <span data-ttu-id="c1cf1-111">Vous ne pouvez pas utiliser les services Web Exchange pour rechercher les noms des dossiers gérés disponibles à ajouter à une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-111">You cannot use Exchange Web Services to find the names of available managed folders to add to a mailbox.</span></span> 
   
-<span data-ttu-id="f3279-112">Vous pouvez utiliser les opérations FindFolder et GetFolder pour accéder aux dossiers gérés.</span><span class="sxs-lookup"><span data-stu-id="f3279-112">You can use the FindFolder and GetFolder operations to access managed folders.</span></span> <span data-ttu-id="f3279-113">FindFolder est utilisé pour rechercher des dossiers dans un dossier parent spécifié.</span><span class="sxs-lookup"><span data-stu-id="f3279-113">FindFolder is used to search for folders in a specified parent folder.</span></span> <span data-ttu-id="f3279-114">Cela peut être utilisé pour que les dossiers gérés peuvent être découverts dans un dossier avant la tentative d’ajout de qu'un dossier personnalisé dans le même répertoire géré par un double.</span><span class="sxs-lookup"><span data-stu-id="f3279-114">This can be used so that managed folders can be discovered in a folder before trying to add a duplicate managed custom folder to the same directory.</span></span> <span data-ttu-id="f3279-115">GetFolder est utilisée après l’opération FindFolder pour obtenir plus d’informations sur un dossier personnalisé géré.</span><span class="sxs-lookup"><span data-stu-id="f3279-115">GetFolder is used after the FindFolder operation to get more information about a managed custom folder.</span></span>
+<span data-ttu-id="c1cf1-112">Vous pouvez utiliser les opérations FindFolder et GetFolder pour accéder aux dossiers gérés.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-112">You can use the FindFolder and GetFolder operations to access managed folders.</span></span> <span data-ttu-id="c1cf1-113">FindFolder permet de rechercher des dossiers dans un dossier parent spécifié.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-113">FindFolder is used to search for folders in a specified parent folder.</span></span> <span data-ttu-id="c1cf1-114">Cela peut être utilisé afin que les dossiers gérés puissent être découverts dans un dossier avant d’essayer d’ajouter un dossier personnalisé géré en double dans le même répertoire.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-114">This can be used so that managed folders can be discovered in a folder before trying to add a duplicate managed custom folder to the same directory.</span></span> <span data-ttu-id="c1cf1-115">GetFolder est utilisé après l’opération FindFolder pour obtenir plus d’informations sur un dossier personnalisé géré.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-115">GetFolder is used after the FindFolder operation to get more information about a managed custom folder.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f3279-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="f3279-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c1cf1-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c1cf1-116">Remarks</span></span>
 
-<span data-ttu-id="f3279-117">Pour plus d’informations sur la façon de configurer la stratégie de gestion (MRM) des enregistrements de messagerie, voir [comment créer une stratégie de boîte aux lettres de dossier géré](http://go.microsoft.com/fwlink/?LinkId=100975).</span><span class="sxs-lookup"><span data-stu-id="f3279-117">For information about how to set up messaging records management (MRM) policy, see [How to Create a Managed Folder Mailbox Policy](http://go.microsoft.com/fwlink/?LinkId=100975).</span></span>
+<span data-ttu-id="c1cf1-117">Pour plus d’informations sur la configuration de la stratégie de gestion des enregistrements de messagerie (MRM), voir [comment créer une stratégie de boîte aux lettres de dossier géré](https://go.microsoft.com/fwlink/?LinkId=100975).</span><span class="sxs-lookup"><span data-stu-id="c1cf1-117">For information about how to set up messaging records management (MRM) policy, see [How to Create a Managed Folder Mailbox Policy](https://go.microsoft.com/fwlink/?LinkId=100975).</span></span>
   
-<span data-ttu-id="f3279-118">Pour plus d’informations sur la suppression des dossiers personnalisés gérés à partir d’une boîte aux lettres, voir [Remove-ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).</span><span class="sxs-lookup"><span data-stu-id="f3279-118">For information about how to remove managed custom folders from a mailbox, see [Remove-ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).</span></span>
+<span data-ttu-id="c1cf1-118">Pour plus d’informations sur la suppression de dossiers personnalisés gérés d’une boîte aux lettres, consultez la rubrique [Remove-ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976).</span><span class="sxs-lookup"><span data-stu-id="c1cf1-118">For information about how to remove managed custom folders from a mailbox, see [Remove-ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976).</span></span>
   
-## <a name="createmanagedfolder-request-example"></a><span data-ttu-id="f3279-119">Exemple de requête CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-119">CreateManagedFolder request example</span></span>
+## <a name="createmanagedfolder-request-example"></a><span data-ttu-id="c1cf1-119">Exemple de requête CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-119">CreateManagedFolder request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="f3279-120">Description</span><span class="sxs-lookup"><span data-stu-id="f3279-120">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c1cf1-120">Description</span><span class="sxs-lookup"><span data-stu-id="c1cf1-120">Description</span></span>
 
-<span data-ttu-id="f3279-121">Une demande CreateManagedFolder l’exemple suivant montre comment ajouter un dossier géré nommé dossier géré de Test pour une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="f3279-121">The following example of a CreateManagedFolder request shows how to add a managed folder named Test Managed Folder to a mailbox.</span></span>
+<span data-ttu-id="c1cf1-121">L’exemple de requête CreateManagedFolder suivant montre comment ajouter un dossier géré nommé test du dossier géré à une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-121">The following example of a CreateManagedFolder request shows how to add a managed folder named Test Managed Folder to a mailbox.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="f3279-122">Vous pouvez également utiliser l’accès délégué pour ajouter des dossiers personnalisés gérés.</span><span class="sxs-lookup"><span data-stu-id="f3279-122">You can also use delegate access to add managed custom folders.</span></span> 
+> <span data-ttu-id="c1cf1-122">Vous pouvez également utiliser l’accès délégué pour ajouter des dossiers personnalisés gérés.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-122">You can also use delegate access to add managed custom folders.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="f3279-123">Code</span><span class="sxs-lookup"><span data-stu-id="f3279-123">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c1cf1-123">Code</span><span class="sxs-lookup"><span data-stu-id="c1cf1-123">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateManagedFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderNames>
         <t:FolderName>Test Managed Folder</t:FolderName>
       </FolderNames>
@@ -65,28 +65,28 @@ ms.locfileid: "19755735"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="f3279-124">Éléments de la demande</span><span class="sxs-lookup"><span data-stu-id="f3279-124">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="c1cf1-124">Demander des éléments</span><span class="sxs-lookup"><span data-stu-id="c1cf1-124">Request elements</span></span>
 
-<span data-ttu-id="f3279-125">Les éléments suivants sont utilisés dans la demande :</span><span class="sxs-lookup"><span data-stu-id="f3279-125">The following elements are used in the request:</span></span>
+<span data-ttu-id="c1cf1-125">Les éléments suivants sont utilisés dans la demande :</span><span class="sxs-lookup"><span data-stu-id="c1cf1-125">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="f3279-126">CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-126">CreateManagedFolder</span></span>](createmanagedfolder.md)
+- [<span data-ttu-id="c1cf1-126">CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-126">CreateManagedFolder</span></span>](createmanagedfolder.md)
     
-- [<span data-ttu-id="f3279-127">Noms de dossier</span><span class="sxs-lookup"><span data-stu-id="f3279-127">FolderNames</span></span>](foldernames.md)
+- [<span data-ttu-id="c1cf1-127">FolderNames</span><span class="sxs-lookup"><span data-stu-id="c1cf1-127">FolderNames</span></span>](foldernames.md)
     
-- [<span data-ttu-id="f3279-128">FolderName</span><span class="sxs-lookup"><span data-stu-id="f3279-128">FolderName</span></span>](foldername.md)
+- [<span data-ttu-id="c1cf1-128">FolderName</span><span class="sxs-lookup"><span data-stu-id="c1cf1-128">FolderName</span></span>](foldername.md)
     
-<span data-ttu-id="f3279-129">Pour trouver d’autres options pour le message de demande de l’opération CreateManagedFolder, explorez la hiérarchie de schéma.</span><span class="sxs-lookup"><span data-stu-id="f3279-129">To find other options for the request message of the CreateManagedFolder operation, explore the schema hierarchy.</span></span> <span data-ttu-id="f3279-130">Commencer à l’élément [CreateManagedFolder](createmanagedfolder.md) .</span><span class="sxs-lookup"><span data-stu-id="f3279-130">Start at the [CreateManagedFolder](createmanagedfolder.md) element.</span></span> 
+<span data-ttu-id="c1cf1-129">Pour trouver d’autres options pour le message de demande de l’opération CreateManagedFolder, explorez la hiérarchie du schéma.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-129">To find other options for the request message of the CreateManagedFolder operation, explore the schema hierarchy.</span></span> <span data-ttu-id="c1cf1-130">Commencez par l’élément [CreateManagedFolder](createmanagedfolder.md) .</span><span class="sxs-lookup"><span data-stu-id="c1cf1-130">Start at the [CreateManagedFolder](createmanagedfolder.md) element.</span></span> 
   
-## <a name="successful-createmanagedfolder-response"></a><span data-ttu-id="f3279-131">Réponse CreateManagedFolder réussie</span><span class="sxs-lookup"><span data-stu-id="f3279-131">Successful CreateManagedFolder Response</span></span>
+## <a name="successful-createmanagedfolder-response"></a><span data-ttu-id="c1cf1-131">Réponse CreateManagedFolder réussie</span><span class="sxs-lookup"><span data-stu-id="c1cf1-131">Successful CreateManagedFolder Response</span></span>
 
-### <a name="description"></a><span data-ttu-id="f3279-132">Description</span><span class="sxs-lookup"><span data-stu-id="f3279-132">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c1cf1-132">Description</span><span class="sxs-lookup"><span data-stu-id="c1cf1-132">Description</span></span>
 
-<span data-ttu-id="f3279-133">L’exemple de code suivant montre une réponse positive à une demande CreateManagedFolder.</span><span class="sxs-lookup"><span data-stu-id="f3279-133">The following code example shows a successful response to a CreateManagedFolder request.</span></span>
+<span data-ttu-id="c1cf1-133">L’exemple de code suivant montre une réponse réussie à une demande CreateManagedFolder.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-133">The following code example shows a successful response to a CreateManagedFolder request.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="f3279-134">Les valeurs d’attribut **Id** et **ChangeKey** ont été réduits afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="f3279-134">The **Id** and **ChangeKey** attribute values have been shortened to preserve readability.</span></span> 
+> <span data-ttu-id="c1cf1-134">Les valeurs d’attribut **ID** et **ChangeKey** ont été raccourcies afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-134">The **Id** and **ChangeKey** attribute values have been shortened to preserve readability.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="f3279-135">Code</span><span class="sxs-lookup"><span data-stu-id="f3279-135">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c1cf1-135">Code</span><span class="sxs-lookup"><span data-stu-id="c1cf1-135">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -95,12 +95,12 @@ ms.locfileid: "19755735"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="598" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateManagedFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateManagedFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -116,33 +116,33 @@ ms.locfileid: "19755735"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a><span data-ttu-id="f3279-136">Éléments de réponse réussie</span><span class="sxs-lookup"><span data-stu-id="f3279-136">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="c1cf1-136">Éléments de réponse réussis</span><span class="sxs-lookup"><span data-stu-id="c1cf1-136">Successful response elements</span></span>
 
-<span data-ttu-id="f3279-137">Les éléments suivants sont utilisés dans la réponse :</span><span class="sxs-lookup"><span data-stu-id="f3279-137">The following elements are used in the response:</span></span> 
+<span data-ttu-id="c1cf1-137">Les éléments suivants sont utilisés dans la réponse :</span><span class="sxs-lookup"><span data-stu-id="c1cf1-137">The following elements are used in the response:</span></span> 
   
-- [<span data-ttu-id="f3279-138">CreateManagedFolderResponse</span><span class="sxs-lookup"><span data-stu-id="f3279-138">CreateManagedFolderResponse</span></span>](createmanagedfolderresponse.md)
+- [<span data-ttu-id="c1cf1-138">CreateManagedFolderResponse</span><span class="sxs-lookup"><span data-stu-id="c1cf1-138">CreateManagedFolderResponse</span></span>](createmanagedfolderresponse.md)
     
-- [<span data-ttu-id="f3279-139">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="f3279-139">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="c1cf1-139">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c1cf1-139">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="f3279-140">CreateManagedFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="f3279-140">CreateManagedFolderResponseMessage</span></span>](createmanagedfolderresponsemessage.md)
+- [<span data-ttu-id="c1cf1-140">CreateManagedFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c1cf1-140">CreateManagedFolderResponseMessage</span></span>](createmanagedfolderresponsemessage.md)
     
-- [<span data-ttu-id="f3279-141">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="f3279-141">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="c1cf1-141">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c1cf1-141">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="f3279-142">Dossiers</span><span class="sxs-lookup"><span data-stu-id="f3279-142">Folders</span></span>](folders-ex15websvcsotherref.md)
+- [<span data-ttu-id="c1cf1-142">Dossiers</span><span class="sxs-lookup"><span data-stu-id="c1cf1-142">Folders</span></span>](folders-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="f3279-143">Folder</span><span class="sxs-lookup"><span data-stu-id="f3279-143">Folder</span></span>](folder.md)
+- [<span data-ttu-id="c1cf1-143">Folder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-143">Folder</span></span>](folder.md)
     
-- [<span data-ttu-id="f3279-144">FolderId</span><span class="sxs-lookup"><span data-stu-id="f3279-144">FolderId</span></span>](folderid.md)
+- [<span data-ttu-id="c1cf1-144">FolderId</span><span class="sxs-lookup"><span data-stu-id="c1cf1-144">FolderId</span></span>](folderid.md)
     
-<span data-ttu-id="f3279-145">Pour trouver d’autres options pour les messages de réponse de l’opération CreateManagedFolder, explorez la hiérarchie de schéma.</span><span class="sxs-lookup"><span data-stu-id="f3279-145">To find other options for the response messages of the CreateManagedFolder operation, explore the schema hierarchy.</span></span> <span data-ttu-id="f3279-146">Démarrez au niveau de l’élément [CreateManagedFolderResponse](createmanagedfolderresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="f3279-146">Start at the [CreateManagedFolderResponse](createmanagedfolderresponse.md) element.</span></span> 
+<span data-ttu-id="c1cf1-145">Pour rechercher d’autres options pour les messages de réponse de l’opération CreateManagedFolder, explorez la hiérarchie du schéma.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-145">To find other options for the response messages of the CreateManagedFolder operation, explore the schema hierarchy.</span></span> <span data-ttu-id="c1cf1-146">Commencez par l’élément [CreateManagedFolderResponse](createmanagedfolderresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="c1cf1-146">Start at the [CreateManagedFolderResponse](createmanagedfolderresponse.md) element.</span></span> 
   
-## <a name="createmanagedfolder-error-response"></a><span data-ttu-id="f3279-147">Réponse d’erreur CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-147">CreateManagedFolder error response</span></span>
+## <a name="createmanagedfolder-error-response"></a><span data-ttu-id="c1cf1-147">Réponse d’erreur CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-147">CreateManagedFolder error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="f3279-148">Description</span><span class="sxs-lookup"><span data-stu-id="f3279-148">Description</span></span>
+### <a name="description"></a><span data-ttu-id="c1cf1-148">Description</span><span class="sxs-lookup"><span data-stu-id="c1cf1-148">Description</span></span>
 
-<span data-ttu-id="f3279-149">L’exemple de code suivant montre une réponse d’erreur à une demande CreateManagedFolder.</span><span class="sxs-lookup"><span data-stu-id="f3279-149">The following code example shows an error response to a CreateManagedFolder request.</span></span>
+<span data-ttu-id="c1cf1-149">L’exemple de code suivant montre une réponse d’erreur à une demande CreateManagedFolder.</span><span class="sxs-lookup"><span data-stu-id="c1cf1-149">The following code example shows an error response to a CreateManagedFolder request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="f3279-150">Code</span><span class="sxs-lookup"><span data-stu-id="f3279-150">Code</span></span>
+### <a name="code"></a><span data-ttu-id="c1cf1-150">Code</span><span class="sxs-lookup"><span data-stu-id="c1cf1-150">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -151,12 +151,12 @@ ms.locfileid: "19755735"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="598" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateManagedFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateManagedFolderResponseMessage ResponseClass="Error">
           <m:MessageText>A specified managed folder already exists in the mailbox.</m:MessageText>
@@ -170,34 +170,34 @@ ms.locfileid: "19755735"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="f3279-151">Éléments de réponse d’erreur</span><span class="sxs-lookup"><span data-stu-id="f3279-151">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="c1cf1-151">Éléments de réponse d’erreur</span><span class="sxs-lookup"><span data-stu-id="c1cf1-151">Error response elements</span></span>
 
-<span data-ttu-id="f3279-152">Les éléments suivants sont utilisés dans la réponse d'erreur :</span><span class="sxs-lookup"><span data-stu-id="f3279-152">The following elements are used in the error response:</span></span>
+<span data-ttu-id="c1cf1-152">Les éléments suivants sont utilisés dans la réponse d'erreur :</span><span class="sxs-lookup"><span data-stu-id="c1cf1-152">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="f3279-153">CreateManagedFolderResponse</span><span class="sxs-lookup"><span data-stu-id="f3279-153">CreateManagedFolderResponse</span></span>](createmanagedfolderresponse.md)
+- [<span data-ttu-id="c1cf1-153">CreateManagedFolderResponse</span><span class="sxs-lookup"><span data-stu-id="c1cf1-153">CreateManagedFolderResponse</span></span>](createmanagedfolderresponse.md)
     
-- [<span data-ttu-id="f3279-154">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="f3279-154">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="c1cf1-154">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c1cf1-154">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="f3279-155">CreateManagedFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="f3279-155">CreateManagedFolderResponseMessage</span></span>](createmanagedfolderresponsemessage.md)
+- [<span data-ttu-id="c1cf1-155">CreateManagedFolderResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c1cf1-155">CreateManagedFolderResponseMessage</span></span>](createmanagedfolderresponsemessage.md)
     
-- [<span data-ttu-id="f3279-156">MessageText</span><span class="sxs-lookup"><span data-stu-id="f3279-156">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="c1cf1-156">MessageText</span><span class="sxs-lookup"><span data-stu-id="c1cf1-156">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="f3279-157">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="f3279-157">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="c1cf1-157">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c1cf1-157">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="f3279-158">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="f3279-158">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="c1cf1-158">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="c1cf1-158">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="f3279-159">Dossiers</span><span class="sxs-lookup"><span data-stu-id="f3279-159">Folders</span></span>](folders-ex15websvcsotherref.md)
+- [<span data-ttu-id="c1cf1-159">Dossiers</span><span class="sxs-lookup"><span data-stu-id="c1cf1-159">Folders</span></span>](folders-ex15websvcsotherref.md)
     
-## <a name="see-also"></a><span data-ttu-id="f3279-160">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f3279-160">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c1cf1-160">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c1cf1-160">See also</span></span>
 
 
 
-[<span data-ttu-id="f3279-161">Opération GetFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-161">GetFolder operation</span></span>](getfolder-operation.md)
+[<span data-ttu-id="c1cf1-161">Opération GetFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-161">GetFolder operation</span></span>](getfolder-operation.md)
   
-[<span data-ttu-id="f3279-162">Opération FindFolder</span><span class="sxs-lookup"><span data-stu-id="f3279-162">FindFolder operation</span></span>](findfolder-operation.md)
+[<span data-ttu-id="c1cf1-162">Opération FindFolder</span><span class="sxs-lookup"><span data-stu-id="c1cf1-162">FindFolder operation</span></span>](findfolder-operation.md)
 
 
-[<span data-ttu-id="f3279-163">Recherche de dossiers</span><span class="sxs-lookup"><span data-stu-id="f3279-163">Finding Folders</span></span>](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[<span data-ttu-id="c1cf1-163">Recherche de dossiers</span><span class="sxs-lookup"><span data-stu-id="c1cf1-163">Finding Folders</span></span>](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[<span data-ttu-id="f3279-164">Ajout de dossiers gérés</span><span class="sxs-lookup"><span data-stu-id="f3279-164">Adding Managed Folders</span></span>](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[<span data-ttu-id="c1cf1-164">Ajout de dossiers gérés</span><span class="sxs-lookup"><span data-stu-id="c1cf1-164">Adding Managed Folders</span></span>](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

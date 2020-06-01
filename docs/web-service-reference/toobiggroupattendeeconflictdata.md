@@ -11,80 +11,80 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1512428d-ce22-4da9-b1c1-446b4bcd0a21
-description: L’élément TooBigGroupAttendeeConflictData représente un participant qui a été résolu comme une liste de distribution, mais la liste de distribution est trop volumineuse pour la développer.
-ms.openlocfilehash: 1137368d13cb5b88fd2a7866cadc6d69b783c75b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TooBigGroupAttendeeConflictData représente un participant qui a été résolu en tant que liste de distribution, mais dont la liste de distribution était trop volumineuse pour être développée.
+ms.openlocfilehash: 407a4a49e5f32c81439063f47df2e131dd663a4f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838764"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468599"
 ---
-# <a name="toobiggroupattendeeconflictdata"></a><span data-ttu-id="be4d1-103">TooBigGroupAttendeeConflictData</span><span class="sxs-lookup"><span data-stu-id="be4d1-103">TooBigGroupAttendeeConflictData</span></span>
+# <a name="toobiggroupattendeeconflictdata"></a><span data-ttu-id="64b29-103">TooBigGroupAttendeeConflictData</span><span class="sxs-lookup"><span data-stu-id="64b29-103">TooBigGroupAttendeeConflictData</span></span>
 
-<span data-ttu-id="be4d1-104">L’élément **TooBigGroupAttendeeConflictData** représente un participant qui a été résolu comme une liste de distribution, mais la liste de distribution est trop volumineuse pour la développer.</span><span class="sxs-lookup"><span data-stu-id="be4d1-104">The **TooBigGroupAttendeeConflictData** element represents an attendee that was resolved as a distribution list but the distribution list was too large to expand.</span></span> 
+<span data-ttu-id="64b29-104">L’élément **TooBigGroupAttendeeConflictData** représente un participant qui a été résolu en tant que liste de distribution, mais dont la liste de distribution était trop volumineuse pour être développée.</span><span class="sxs-lookup"><span data-stu-id="64b29-104">The **TooBigGroupAttendeeConflictData** element represents an attendee that was resolved as a distribution list but the distribution list was too large to expand.</span></span> 
   
-[<span data-ttu-id="be4d1-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="be4d1-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+[<span data-ttu-id="64b29-105">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="64b29-105">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
   
-[<span data-ttu-id="be4d1-106">SuggestionsResponse</span><span class="sxs-lookup"><span data-stu-id="be4d1-106">SuggestionsResponse</span></span>](suggestionsresponse.md)
+[<span data-ttu-id="64b29-106">SuggestionsResponse</span><span class="sxs-lookup"><span data-stu-id="64b29-106">SuggestionsResponse</span></span>](suggestionsresponse.md)
   
-[<span data-ttu-id="be4d1-107">SuggestionDayResultArray</span><span class="sxs-lookup"><span data-stu-id="be4d1-107">SuggestionDayResultArray</span></span>](suggestiondayresultarray.md)
+[<span data-ttu-id="64b29-107">SuggestionDayResultArray</span><span class="sxs-lookup"><span data-stu-id="64b29-107">SuggestionDayResultArray</span></span>](suggestiondayresultarray.md)
   
-[<span data-ttu-id="be4d1-108">SuggestionDayResult</span><span class="sxs-lookup"><span data-stu-id="be4d1-108">SuggestionDayResult</span></span>](suggestiondayresult.md)
+[<span data-ttu-id="64b29-108">SuggestionDayResult</span><span class="sxs-lookup"><span data-stu-id="64b29-108">SuggestionDayResult</span></span>](suggestiondayresult.md)
   
-[<span data-ttu-id="be4d1-109">SuggestionArray</span><span class="sxs-lookup"><span data-stu-id="be4d1-109">SuggestionArray</span></span>](suggestionarray.md)
+[<span data-ttu-id="64b29-109">SuggestionArray</span><span class="sxs-lookup"><span data-stu-id="64b29-109">SuggestionArray</span></span>](suggestionarray.md)
   
-[<span data-ttu-id="be4d1-110">Suggestion</span><span class="sxs-lookup"><span data-stu-id="be4d1-110">Suggestion</span></span>](suggestion.md)
+[<span data-ttu-id="64b29-110">Suggérer</span><span class="sxs-lookup"><span data-stu-id="64b29-110">Suggestion</span></span>](suggestion.md)
   
-[<span data-ttu-id="be4d1-111">AttendeeConflictDataArray</span><span class="sxs-lookup"><span data-stu-id="be4d1-111">AttendeeConflictDataArray</span></span>](attendeeconflictdataarray.md)
+[<span data-ttu-id="64b29-111">AttendeeConflictDataArray</span><span class="sxs-lookup"><span data-stu-id="64b29-111">AttendeeConflictDataArray</span></span>](attendeeconflictdataarray.md)
   
-[<span data-ttu-id="be4d1-112">TooBigGroupAttendeeConflictData</span><span class="sxs-lookup"><span data-stu-id="be4d1-112">TooBigGroupAttendeeConflictData</span></span>](toobiggroupattendeeconflictdata.md)
+[<span data-ttu-id="64b29-112">TooBigGroupAttendeeConflictData</span><span class="sxs-lookup"><span data-stu-id="64b29-112">TooBigGroupAttendeeConflictData</span></span>](toobiggroupattendeeconflictdata.md)
   
 ```xml
 <TooBigGroupAttendeeConflictData/>
 ```
 
- <span data-ttu-id="be4d1-113">**TooBigGroupAttendeeConflictData**</span><span class="sxs-lookup"><span data-stu-id="be4d1-113">**TooBigGroupAttendeeConflictData**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="be4d1-114">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="be4d1-114">Attributes and elements</span></span>
+ <span data-ttu-id="64b29-113">**TooBigGroupAttendeeConflictData**</span><span class="sxs-lookup"><span data-stu-id="64b29-113">**TooBigGroupAttendeeConflictData**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="64b29-114">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="64b29-114">Attributes and elements</span></span>
 
-<span data-ttu-id="be4d1-115">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="be4d1-115">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="64b29-115">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="64b29-115">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="be4d1-116">Attributs</span><span class="sxs-lookup"><span data-stu-id="be4d1-116">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="64b29-116">Attributs</span><span class="sxs-lookup"><span data-stu-id="64b29-116">Attributes</span></span>
 
-<span data-ttu-id="be4d1-117">Aucun.</span><span class="sxs-lookup"><span data-stu-id="be4d1-117">None.</span></span>
+<span data-ttu-id="64b29-117">Aucune.</span><span class="sxs-lookup"><span data-stu-id="64b29-117">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="be4d1-118">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="be4d1-118">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="64b29-118">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="64b29-118">Child elements</span></span>
 
-<span data-ttu-id="be4d1-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="be4d1-119">None.</span></span>
+<span data-ttu-id="64b29-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="64b29-119">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="be4d1-120">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="be4d1-120">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="64b29-120">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="64b29-120">Parent elements</span></span>
 
-|<span data-ttu-id="be4d1-121">**Élément**</span><span class="sxs-lookup"><span data-stu-id="be4d1-121">**Element**</span></span>|<span data-ttu-id="be4d1-122">**Description**</span><span class="sxs-lookup"><span data-stu-id="be4d1-122">**Description**</span></span>|
+|<span data-ttu-id="64b29-121">**Élément**</span><span class="sxs-lookup"><span data-stu-id="64b29-121">**Element**</span></span>|<span data-ttu-id="64b29-122">**Description**</span><span class="sxs-lookup"><span data-stu-id="64b29-122">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="be4d1-123">AttendeeConflictDataArray</span><span class="sxs-lookup"><span data-stu-id="be4d1-123">AttendeeConflictDataArray</span></span>](attendeeconflictdataarray.md) <br/> |<span data-ttu-id="be4d1-124">Contient un tableau de données de conflit des participants identifiés dans le [GetUserAvailabilityRequest](getuseravailabilityrequest.md).</span><span class="sxs-lookup"><span data-stu-id="be4d1-124">Contains an array of conflict data for attendees identified in the [GetUserAvailabilityRequest](getuseravailabilityrequest.md).</span></span>  <br/> <span data-ttu-id="be4d1-125">Vous trouverez ci-dessous l’expression XPath pour cet élément :</span><span class="sxs-lookup"><span data-stu-id="be4d1-125">The following is the XPath expression to this element:</span></span>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[<span data-ttu-id="64b29-123">AttendeeConflictDataArray</span><span class="sxs-lookup"><span data-stu-id="64b29-123">AttendeeConflictDataArray</span></span>](attendeeconflictdataarray.md) <br/> |<span data-ttu-id="64b29-124">Contient un tableau de données en conflit pour les participants identifiés dans le [GetUserAvailabilityRequest](getuseravailabilityrequest.md).</span><span class="sxs-lookup"><span data-stu-id="64b29-124">Contains an array of conflict data for attendees identified in the [GetUserAvailabilityRequest](getuseravailabilityrequest.md).</span></span>  <br/> <span data-ttu-id="64b29-125">Voici l’expression XPath de cet élément :</span><span class="sxs-lookup"><span data-stu-id="64b29-125">The following is the XPath expression to this element:</span></span>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="be4d1-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="be4d1-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64b29-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="64b29-126">Remarks</span></span>
 
-<span data-ttu-id="be4d1-127">Impossible de développer des listes de distribution contenant plus de 100 membres.</span><span class="sxs-lookup"><span data-stu-id="be4d1-127">Distribution lists that contain more than 100 members cannot be expanded.</span></span>
+<span data-ttu-id="64b29-127">Les listes de distribution contenant plus de 100 membres ne peuvent pas être développées.</span><span class="sxs-lookup"><span data-stu-id="64b29-127">Distribution lists that contain more than 100 members cannot be expanded.</span></span>
   
-<span data-ttu-id="be4d1-128">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="be4d1-128">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="64b29-128">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="64b29-128">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="be4d1-129">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="be4d1-129">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="64b29-129">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="64b29-129">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="be4d1-130">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="be4d1-130">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="be4d1-131">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="be4d1-131">Schema Name</span></span>  <br/> |<span data-ttu-id="be4d1-132">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="be4d1-132">Types schema</span></span>  <br/> |
-|<span data-ttu-id="be4d1-133">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="be4d1-133">Validation File</span></span>  <br/> |<span data-ttu-id="be4d1-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="be4d1-134">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="be4d1-135">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="be4d1-135">Can be Empty</span></span>  <br/> |<span data-ttu-id="be4d1-136">False</span><span class="sxs-lookup"><span data-stu-id="be4d1-136">False</span></span>  <br/> |
+|<span data-ttu-id="64b29-130">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="64b29-130">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="64b29-131">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="64b29-131">Schema Name</span></span>  <br/> |<span data-ttu-id="64b29-132">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="64b29-132">Types schema</span></span>  <br/> |
+|<span data-ttu-id="64b29-133">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="64b29-133">Validation File</span></span>  <br/> |<span data-ttu-id="64b29-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="64b29-134">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="64b29-135">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="64b29-135">Can be Empty</span></span>  <br/> |<span data-ttu-id="64b29-136">False</span><span class="sxs-lookup"><span data-stu-id="64b29-136">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="be4d1-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="be4d1-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="64b29-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="64b29-137">See also</span></span>
 
 
 
-[<span data-ttu-id="be4d1-138">Opération GetUserAvailability</span><span class="sxs-lookup"><span data-stu-id="be4d1-138">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
+[<span data-ttu-id="64b29-138">Opération GetUserAvailability</span><span class="sxs-lookup"><span data-stu-id="64b29-138">GetUserAvailability operation</span></span>](getuseravailability-operation.md)
   
-[<span data-ttu-id="be4d1-139">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="be4d1-139">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
+[<span data-ttu-id="64b29-139">GetUserAvailabilityResponse</span><span class="sxs-lookup"><span data-stu-id="64b29-139">GetUserAvailabilityResponse</span></span>](getuseravailabilityresponse.md)
 
 
-[<span data-ttu-id="be4d1-140">Obtention de disponibilité de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="be4d1-140">Getting User Availability</span></span>](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[<span data-ttu-id="64b29-140">Obtention de la disponibilité des utilisateurs</span><span class="sxs-lookup"><span data-stu-id="64b29-140">Getting User Availability</span></span>](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

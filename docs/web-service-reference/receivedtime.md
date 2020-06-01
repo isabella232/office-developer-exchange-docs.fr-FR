@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f348e832-47a7-4c14-a5b9-2fc9b47d01e9
-description: L’élément ReceivedTime Spécifie l’heure à laquelle un élément a été reçu.
-ms.openlocfilehash: 677f51ada34cbcc8d050abb92c8eefdec89adfcd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReceivedTime spécifie l’heure à laquelle un élément a été reçu.
+ms.openlocfilehash: 32f7148f8d717a51f831aa13d740f1342c943912
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828976"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468214"
 ---
-# <a name="receivedtime"></a><span data-ttu-id="f97dc-103">ReceivedTime</span><span class="sxs-lookup"><span data-stu-id="f97dc-103">ReceivedTime</span></span>
+# <a name="receivedtime"></a><span data-ttu-id="92ab4-103">ReceivedTime</span><span class="sxs-lookup"><span data-stu-id="92ab4-103">ReceivedTime</span></span>
 
-<span data-ttu-id="f97dc-104">L’élément **ReceivedTime** Spécifie l’heure à laquelle un élément a été reçu.</span><span class="sxs-lookup"><span data-stu-id="f97dc-104">The **ReceivedTime** element specifies the time at which an item was received.</span></span> 
+<span data-ttu-id="92ab4-104">L’élément **ReceivedTime** spécifie l’heure à laquelle un élément a été reçu.</span><span class="sxs-lookup"><span data-stu-id="92ab4-104">The **ReceivedTime** element specifies the time at which an item was received.</span></span> 
   
 ```XML
 <ReceivedTime></ReceivedTime>
 ```
 
- <span data-ttu-id="f97dc-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="f97dc-105">**dateTime**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="f97dc-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="f97dc-106">Attributes and elements</span></span>
+ <span data-ttu-id="92ab4-105">**dateTime**</span><span class="sxs-lookup"><span data-stu-id="92ab4-105">**dateTime**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="92ab4-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="92ab4-106">Attributes and elements</span></span>
 
-<span data-ttu-id="f97dc-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="f97dc-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="92ab4-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="92ab4-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f97dc-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="f97dc-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="92ab4-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="92ab4-108">Attributes</span></span>
 
-<span data-ttu-id="f97dc-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f97dc-109">None.</span></span>
+<span data-ttu-id="92ab4-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="92ab4-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="f97dc-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="f97dc-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="92ab4-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="92ab4-110">Child elements</span></span>
 
-<span data-ttu-id="f97dc-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f97dc-111">None.</span></span>
+<span data-ttu-id="92ab4-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="92ab4-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="f97dc-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="f97dc-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="92ab4-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="92ab4-112">Parent elements</span></span>
 
-[<span data-ttu-id="f97dc-113">SearchPreviewItem</span><span class="sxs-lookup"><span data-stu-id="f97dc-113">SearchPreviewItem</span></span>](searchpreviewitem.md)
+[<span data-ttu-id="92ab4-113">SearchPreviewItem</span><span class="sxs-lookup"><span data-stu-id="92ab4-113">SearchPreviewItem</span></span>](searchpreviewitem.md)
   
-## <a name="text-value"></a><span data-ttu-id="f97dc-114">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="f97dc-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="92ab4-114">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="92ab4-114">Text value</span></span>
 
-<span data-ttu-id="f97dc-115">La valeur de texte de l’élément **ReceivedTime** est la date et l’heure à laquelle un élément a été reçu.</span><span class="sxs-lookup"><span data-stu-id="f97dc-115">The text value of the **ReceivedTime** element is the date and time that an item was received.</span></span> 
+<span data-ttu-id="92ab4-115">La valeur de texte de l’élément **ReceivedTime** est la date et l’heure auxquelles un élément a été reçu.</span><span class="sxs-lookup"><span data-stu-id="92ab4-115">The text value of the **ReceivedTime** element is the date and time that an item was received.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f97dc-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="f97dc-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="92ab4-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="92ab4-116">Remarks</span></span>
 
-<span data-ttu-id="f97dc-117">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f97dc-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="92ab4-117">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="92ab4-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="f97dc-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="f97dc-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="92ab4-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="92ab4-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f97dc-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="f97dc-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="92ab4-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="92ab4-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f97dc-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="f97dc-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="f97dc-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="f97dc-121">Schema name</span></span>  <br/> |<span data-ttu-id="f97dc-122">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="f97dc-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="f97dc-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="f97dc-123">Validation file</span></span>  <br/> |<span data-ttu-id="f97dc-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="f97dc-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="f97dc-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="f97dc-125">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="92ab4-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="92ab4-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="92ab4-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="92ab4-121">Schema name</span></span>  <br/> |<span data-ttu-id="92ab4-122">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="92ab4-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="92ab4-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="92ab4-123">Validation file</span></span>  <br/> |<span data-ttu-id="92ab4-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="92ab4-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="92ab4-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="92ab4-125">Can be empty</span></span>  <br/> ||
    
 

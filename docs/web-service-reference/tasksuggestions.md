@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3
-description: L’élément TaskSuggestions spécifie un tableau de suggestions de tâche extraites d’un élément.
-ms.openlocfilehash: 9ddddb088450e234c0c206db58db3db1534a29d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TaskSuggestions spécifie un tableau de suggestions de tâches extraites d’un élément.
+ms.openlocfilehash: 024f8daff6dd61d6563fff4849ed09602c95efb5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838676"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468116"
 ---
-# <a name="tasksuggestions"></a><span data-ttu-id="afc7a-103">TaskSuggestions</span><span class="sxs-lookup"><span data-stu-id="afc7a-103">TaskSuggestions</span></span>
+# <a name="tasksuggestions"></a><span data-ttu-id="ace1c-103">TaskSuggestions</span><span class="sxs-lookup"><span data-stu-id="ace1c-103">TaskSuggestions</span></span>
 
-<span data-ttu-id="afc7a-104">L’élément **TaskSuggestions** spécifie un tableau de suggestions de tâche extraites d’un élément.</span><span class="sxs-lookup"><span data-stu-id="afc7a-104">The **TaskSuggestions** element specifies an array of task suggestions extracted from an item.</span></span> 
+<span data-ttu-id="ace1c-104">L’élément **TaskSuggestions** spécifie un tableau de suggestions de tâches extraites d’un élément.</span><span class="sxs-lookup"><span data-stu-id="ace1c-104">The **TaskSuggestions** element specifies an array of task suggestions extracted from an item.</span></span> 
   
 ```XML
 <TaskSuggestions>
@@ -25,37 +25,37 @@ ms.locfileid: "19838676"
 </TaskSuggestions>
 ```
 
-<span data-ttu-id="afc7a-105">**ArrayOfTaskSuggestionsType**</span><span class="sxs-lookup"><span data-stu-id="afc7a-105">**ArrayOfTaskSuggestionsType**</span></span>
+<span data-ttu-id="ace1c-105">**ArrayOfTaskSuggestionsType**</span><span class="sxs-lookup"><span data-stu-id="ace1c-105">**ArrayOfTaskSuggestionsType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="afc7a-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="afc7a-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ace1c-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="ace1c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="afc7a-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="afc7a-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ace1c-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="ace1c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="afc7a-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="afc7a-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ace1c-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="ace1c-108">Attributes</span></span>
 
-<span data-ttu-id="afc7a-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="afc7a-109">None.</span></span>
+<span data-ttu-id="ace1c-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="ace1c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="afc7a-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="afc7a-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ace1c-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="ace1c-110">Child elements</span></span>
 
-[<span data-ttu-id="afc7a-111">TaskSuggestion</span><span class="sxs-lookup"><span data-stu-id="afc7a-111">TaskSuggestion</span></span>](tasksuggestion.md)
+[<span data-ttu-id="ace1c-111">TaskSuggestion</span><span class="sxs-lookup"><span data-stu-id="ace1c-111">TaskSuggestion</span></span>](tasksuggestion.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="afc7a-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="afc7a-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ace1c-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="ace1c-112">Parent elements</span></span>
 
-[<span data-ttu-id="afc7a-113">EntityExtractionResult</span><span class="sxs-lookup"><span data-stu-id="afc7a-113">EntityExtractionResult</span></span>](entityextractionresult.md)
+[<span data-ttu-id="ace1c-113">EntityExtractionResult</span><span class="sxs-lookup"><span data-stu-id="ace1c-113">EntityExtractionResult</span></span>](entityextractionresult.md)
   
-## <a name="remarks"></a><span data-ttu-id="afc7a-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="afc7a-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ace1c-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="ace1c-114">Remarks</span></span>
 
-<span data-ttu-id="afc7a-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afc7a-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="ace1c-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ace1c-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="afc7a-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="afc7a-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ace1c-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="ace1c-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="afc7a-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="afc7a-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ace1c-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="ace1c-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="afc7a-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="afc7a-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="afc7a-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="afc7a-119">Schema name</span></span>  <br/> |<span data-ttu-id="afc7a-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="afc7a-120">Types schema</span></span>  <br/> |
-|<span data-ttu-id="afc7a-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="afc7a-121">Validation file</span></span>  <br/> |<span data-ttu-id="afc7a-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="afc7a-122">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="afc7a-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="afc7a-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="ace1c-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="ace1c-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="ace1c-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="ace1c-119">Schema name</span></span>  <br/> |<span data-ttu-id="ace1c-120">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="ace1c-120">Types schema</span></span>  <br/> |
+|<span data-ttu-id="ace1c-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="ace1c-121">Validation file</span></span>  <br/> |<span data-ttu-id="ace1c-122">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ace1c-122">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="ace1c-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="ace1c-123">Can be empty</span></span>  <br/> ||
    
 

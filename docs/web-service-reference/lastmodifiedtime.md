@@ -1,5 +1,5 @@
 ---
-title: Heure de dernière modification
+title: LastModifiedTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6db2cabc-e7f4-4d71-962b-789de6a192a4
-description: L’élément heure de dernière modification indique quand un élément a été modifié. Cet élément est en lecture seule.
-ms.openlocfilehash: c410481af62ba3016d6d0855ed76598849eeaa77
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément LastModifiedTime indique quand un élément a été modifié pour la dernière fois. Cet élément est en lecture seule.
+ms.openlocfilehash: 82130cbf211d5e8ac63ae8c290ea7a539582ccb7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828203"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459832"
 ---
-# <a name="lastmodifiedtime"></a>Heure de dernière modification
+# <a name="lastmodifiedtime"></a>LastModifiedTime
 
-L’élément **heure de dernière modification** indique quand un élément a été modifié. Cet élément est en lecture seule. 
+L’élément **LastModifiedTime** indique quand un élément a été modifié pour la dernière fois. Cet élément est en lecture seule. 
   
 ```xml
 <LastModifiedTime/>
@@ -30,11 +30,11 @@ L’élément **heure de dernière modification** indique quand un élément a �
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,21 +47,21 @@ Aucun.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier qui est attaché à un élément dans la banque d’informations Exchange.  <br/> |
-|[Item](item.md) <br/> |Représente un élément Exchange générique.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[Élément](item.md) <br/> |Représente un élément Exchange générique.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
-|[Objet postItem](postitem.md) <br/> |Représente un élément de publication dans la banque d’informations Exchange. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de text représente l’heure à laquelle le dernier utilisateur a modifié l’élément.
+La valeur de texte représente l’heure à laquelle le dernier utilisateur a modifié l’élément.
   
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

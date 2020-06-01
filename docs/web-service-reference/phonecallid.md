@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 79e31a4c-fc84-4802-8761-470df8d63694
-description: L’élément PhoneCallId Spécifie l’identificateur d’un appel téléphonique. Cet élément est obligatoire.
-ms.openlocfilehash: 1886d9510fe254c016779166efccc9882fd77d2c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PhoneCallId spécifie l’identificateur d’un appel téléphonique. Cet élément est obligatoire.
+ms.openlocfilehash: 3e4b9dba5e8be6e45a0c16508531fbc6cf91c170
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828757"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459699"
 ---
 # <a name="phonecallid"></a>PhoneCallId
 
-L’élément **PhoneCallId** Spécifie l’identificateur d’un appel téléphonique. Cet élément est obligatoire. 
+L’élément **PhoneCallId** spécifie l’identificateur d’un appel téléphonique. Cet élément est obligatoire. 
   
 ```xml
 <PhoneCallId Id="" />
@@ -30,13 +30,13 @@ L’élément **PhoneCallId** Spécifie l’identificateur d’un appel téléph
  **PhoneCallIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |Identifie l’appel téléphonique pour déconnecter la session. Cet attribut est requis.  <br/> |
+|ID  <br/> |Identifie l’appel téléphonique à déconnecter. Cet attribut est obligatoire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,20 +47,20 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[DisconnectPhoneCall](disconnectphonecall.md) <br/> |Représente une demande de déconnexion d’un appel.  <br/> |
-|[GetPhoneCallInformation](getphonecallinformation.md) <br/> |Représente une demande pour obtenir des informations d’appel téléphonique.  <br/> |
-|[PlayOnPhoneResponse (Exchange Web Services)](playonphoneresponse-exchange-web-services.md) <br/> |Définit une réponse à une demande de PlayOnPhone.  <br/> |
+|[GetPhoneCallInformation](getphonecallinformation.md) <br/> |Représente une demande d’obtention d’informations sur les appels téléphoniques.  <br/> |
+|[PlayOnPhoneResponse (services Web Exchange)](playonphoneresponse-exchange-web-services.md) <br/> |Définit une réponse à une demande PlayOnPhone.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

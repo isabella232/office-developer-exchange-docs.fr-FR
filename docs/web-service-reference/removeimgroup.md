@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7121ba52-726f-48c1-9b32-8c8a4468d9f0
-description: L’élément RemoveImGroup représente une demande pour supprimer un groupe de messagerie instantané.
-ms.openlocfilehash: d60460c05ed0bbbc4864c4f806d90e7a887fb254
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RemoveImGroup représente une demande de suppression d’un groupe de messagerie instantanée.
+ms.openlocfilehash: 08b13d5474b2da52f8a56a2c2ee4434462a17dbd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829098"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460014"
 ---
 # <a name="removeimgroup"></a>RemoveImGroup
 
-L’élément **RemoveImGroup** représente une demande pour supprimer un groupe de messagerie instantané. 
+L’élément **RemoveImGroup** représente une demande de suppression d’un groupe de messagerie instantanée. 
   
 ```XML
 <RemoveImGroup>
@@ -28,11 +28,11 @@ L’élément **RemoveImGroup** représente une demande pour supprimer un groupe
  **RemoveImGroupType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

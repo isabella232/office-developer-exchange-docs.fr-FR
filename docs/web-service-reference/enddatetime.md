@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 54d14e47-a8f7-400b-a859-c7ea7ce4c6a4
-description: L’élément EndDateTime spécifie la date de fin et l’heure pour une règle ou d’une recherche.
-ms.openlocfilehash: ad596c6441e7bdb10b4e886a8d0f3ba183c43c3e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EndDateTime spécifie la date et l’heure de fin d’une règle ou d’une recherche.
+ms.openlocfilehash: 9556e4c1ef405ae66a71d19d99d9a71a61f54efc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460133"
 ---
 # <a name="enddatetime"></a>EndDateTime
 
-L’élément **EndDateTime** spécifie la date de fin et l’heure pour une règle ou d’une recherche. 
+L’élément **EndDateTime** spécifie la date et l’heure de fin d’une règle ou d’une recherche. 
   
 ```XML
 <EndDateTime/>
@@ -30,11 +30,11 @@ L’élément **EndDateTime** spécifie la date de fin et l’heure pour une rè
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contient des critères pour les types de messages.  <br/> |
-|[WithinDateRange](withindaterange.md) <br/> |Spécifie la plage de dates dans laquelle les messages entrants ont reçue dans l’ordre de l’exception ou la condition à appliquer.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contient des critères pour les types de messages à rechercher.  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |Spécifie la plage de dates au cours de laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une date/heure est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente une date/heure est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

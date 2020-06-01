@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 96f53e2c-3893-4f6e-a78a-ac179f45c5db
 description: L’élément AbsoluteYearlyRecurrence représente une périodicité annuelle.
-ms.openlocfilehash: 205da336a6a6ca4fd39120e83ab264e1543354e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 19b617dfd5c0a3d206d62439c880da084fd5f5f0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756294"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460413"
 ---
 # <a name="absoluteyearlyrecurrence"></a>AbsoluteYearlyRecurrence
 
@@ -33,25 +33,25 @@ L’élément **AbsoluteYearlyRecurrence** représente une périodicité annuell
  **AbsoluteYearlyRecurrencePatternType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DayOfMonth](dayofmonth.md) <br/> |Décrit le jour du mois à laquelle un élément périodique se produit. La plage de valeurs de cette propriété est 1 et 31. Si pour un mois donné, cette valeur est supérieure au nombre de jours dans le mois, le dernier jour du mois est supposé pour cette propriété.  <br/> |
-|[Mois (élément périodicité)](month-item-recurrence.md) <br/> |Décrit le mois dans lequel un élément périodique annuel se produit.  <br/> |
+|[DayOfMonth](dayofmonth.md) <br/> |Décrit le jour d’un mois sur lequel un élément périodique se produit. La plage de valeurs de cette propriété est comprise entre 1 et 31. Si, pour un mois donné, cette valeur est supérieure au nombre de jours du mois, le dernier jour du mois est supposé pour cette propriété.  <br/> |
+|[Month (périodicité de l’élément)](month-item-recurrence.md) <br/> |Décrit le mois au cours duquel un élément périodique périodique se produit.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de périodicité pour les tâches répétitives.  <br/> |
-|[Périodicité (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité pour les éléments de calendrier et les demandes de réunion.  <br/> |
+|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Récurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité des éléments de calendrier et des demandes de réunion.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Utilisateur_délégué
+title: DelegateUser
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: aac4e74e-f69b-4c41-a0c9-489610330fbf
-description: L’élément Utilisateur_délégué identifie un seul délégué pour ajouter ou mettre à jour dans une boîte aux lettres ou un délégué renvoyés dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 72ddc313a5a76cd0345918cad63b7775ff85026b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DelegateUser identifie un délégué unique à ajouter ou mettre à jour dans une boîte aux lettres ou un délégué renvoyé dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 40d9dacbd544436a3edf3213cf078cd33f961a74
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755838"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458802"
 ---
-# <a name="delegateuser"></a>Utilisateur_délégué
+# <a name="delegateuser"></a>DelegateUser
 
-L’élément **Utilisateur_délégué** identifie un seul délégué pour ajouter ou mettre à jour dans une boîte aux lettres ou un délégué renvoyés dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **DelegateUser** identifie un délégué unique à ajouter ou mettre à jour dans une boîte aux lettres ou un délégué renvoyé dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DelegateUser>
@@ -36,27 +36,27 @@ L’élément **Utilisateur_délégué** identifie un seul délégué pour ajout
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom d’utilisateur](userid.md) <br/> |Identifie le délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indique si un délégué reçoive des copies de messages adressés à l’entité de sécurité liées à la réunion. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[ViewPrivateItems](viewprivateitems.md) <br/> |Indique si un délégué a l’autorisation d’afficher des éléments de calendrier privés de boîte aux lettres de l’entité de sécurité. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[UserId](userid.md) <br/> |Identifie le délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indique si un délégué reçoit des copies des messages relatifs à la réunion adressés au principal. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[ViewPrivateItems](viewprivateitems.md) <br/> |Indique si un délégué dispose de l’autorisation d’afficher des éléments de calendrier privés dans la boîte aux lettres de l’entité de sécurité. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegateUsers](delegateusers.md) <br/> |Contient les identités des délégués pour ajouter ou mettre à jour dans une boîte aux lettres.  <br/> |
-|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contient des messages de réponse pour les opérations de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[DelegateUsers](delegateusers.md) <br/> |Contient les identités des délégués à ajouter ou mettre à jour dans une boîte aux lettres.  <br/> |
+|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contient des messages de réponse pour les opérations de gestion de délégués. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Opération AddDelegate](adddelegate-operation.md) 
 - [Opération UpdateDelegate](updatedelegate-operation.md)
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
-- [Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Ajout de délégués](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

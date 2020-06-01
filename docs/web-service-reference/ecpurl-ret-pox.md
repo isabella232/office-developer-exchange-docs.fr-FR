@@ -1,22 +1,22 @@
 ---
-title: EcpUrl-ret (POX)
+title: EcpUrl-RET (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5f090fd2-b0c4-4ca0-a959-1433d73a2069
-description: L’élément EcpUrl-ret spécifie une URL partielle peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour accéder aux paramètres de balises de rétention pour un utilisateur à extension messagerie.
-ms.openlocfilehash: 366a7a79c0f3c19b2cfef21c01826e62b0e95793
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl-RET spécifie une URL partielle pouvant être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour accéder aux paramètres de balise de rétention pour un utilisateur à extension messagerie.
+ms.openlocfilehash: 1f6878dc58bb01fca6a56fdd645efd3363a3d442
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756075"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458690"
 ---
-# <a name="ecpurl-ret-pox"></a>EcpUrl-ret (POX)
+# <a name="ecpurl-ret-pox"></a>EcpUrl-RET (POX)
 
-L’élément **EcpUrl-ret** spécifie une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres de balises de rétention pour un utilisateur à extension messagerie. 
+L’élément **EcpUrl-RET** spécifie une URL partielle pouvant être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres de balise de rétention pour un utilisateur à extension messagerie. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,9 +24,9 @@ L’élément **EcpUrl-ret** spécifie une URL partielle peut être combinée av
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-ret (POX)](ecpurl-ret-pox.md)
+[EcpUrl-RET (POX)](ecpurl-ret-pox.md)
   
 ```XML
 <EcpUrl-ret/>
@@ -34,11 +34,11 @@ L’élément **EcpUrl-ret** spécifie une URL partielle peut être combinée av
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres de balises de rétention pour l’utilisateur. 
+La valeur de texte représente une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres de balise de rétention de l’utilisateur. 
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl-ret** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl-RET** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

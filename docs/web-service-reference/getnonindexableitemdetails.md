@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ce3994c1-3bb4-4571-b026-34a6c5705410
-description: L’élément GetNonIndexableItemDetails spécifie une requête pour récupérer les détails de l’élément nonindexable.
-ms.openlocfilehash: 0aeda85973aa78eff240a017db58ffb57fc0de06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetNonIndexableItemDetails spécifie une demande de récupération des détails d’élément non indexable.
+ms.openlocfilehash: 1c04b4cd7a86183210be869973c9779188fa0adf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756676"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458599"
 ---
 # <a name="getnonindexableitemdetails"></a>GetNonIndexableItemDetails
 
-L’élément **GetNonIndexableItemDetails** spécifie une requête pour récupérer les détails de l’élément nonindexable. 
+L’élément **GetNonIndexableItemDetails** spécifie une demande de récupération des détails d’élément non indexable. 
   
 ```XML
 <GetNonIndexableItemDetails>
@@ -31,11 +31,11 @@ L’élément **GetNonIndexableItemDetails** spécifie une requête pour récup�
  **GetNonIndexableItemDetailsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,8 +43,8 @@ Aucun.
 |:-----|:-----|
 |[Boîtes aux lettres (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Spécifie un tableau d’éléments de **boîte aux lettres** .  <br/> |
 |[PageSize](pagesize.md) <br/> |Contient le nombre d’éléments à renvoyer dans une seule page pour un résultat de recherche.  <br/> |
-|[PageItemReference](pageitemreference.md) <br/> |Spécifie la référence pour un élément de page.  <br/> |
-|[PageDirection](pagedirection.md) <br/> |Indique la direction de la pagination dans le résultat de recherche.  <br/> |
+|[PageItemReference](pageitemreference.md) <br/> |Spécifie la référence d’un élément de page.  <br/> |
+|[PageDirection](pagedirection.md) <br/> |Contient le sens de pagination dans le résultat de la recherche.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,5 +1,5 @@
 ---
-title: SetPlayOnPhoneDialStringResponse (service web de messagerie unifiée)
+title: SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 88c1960a-0b9e-405d-a634-0d6a66524c1e
-description: L’élément SetPlayOnPhoneDialStringResponse définit une réponse à une demande de (service web de messagerie unifiée) opération SetPlayOnPhoneDialString.
-ms.openlocfilehash: ebc64d8f5e565e5efc91b4ecc52f73339aacb281
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetPlayOnPhoneDialStringResponse définit une réponse à une opération SetPlayOnPhoneDialString (service Web de messagerie unifiée).
+ms.openlocfilehash: f0395945927fa99c03278ee965e8d423bcb64360
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829449"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458620"
 ---
-# <a name="setplayonphonedialstringresponse-um-web-service"></a>SetPlayOnPhoneDialStringResponse (service web de messagerie unifiée)
+# <a name="setplayonphonedialstringresponse-um-web-service"></a>SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)
 
-L’élément **SetPlayOnPhoneDialStringResponse** définit une réponse à une demande de [l’opération SetPlayOnPhoneDialString (service web de messagerie unifiée)](setplayonphonedialstring-operation-um-web-service.md) . 
+L’élément **SetPlayOnPhoneDialStringResponse** définit une réponse à une [opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)](setplayonphonedialstring-operation-um-web-service.md) . 
   
-[SetPlayOnPhoneDialStringResponse (service web de messagerie unifiée)](setplayonphonedialstringresponse-um-web-service.md)
+[SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)](setplayonphonedialstringresponse-um-web-service.md)
   
 ```xml
 <SetPlayOnPhoneDialStringResponse />
@@ -31,11 +31,11 @@ L’élément **SetPlayOnPhoneDialStringResponse** définit une réponse à une 
  **complexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,20 +47,20 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetPlayOnPhoneDialString (service web de messagerie unifiée)](setplayonphonedialstring-operation-um-web-service.md)
+[Opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)](setplayonphonedialstring-operation-um-web-service.md)
 

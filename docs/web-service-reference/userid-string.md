@@ -1,5 +1,5 @@
 ---
-title: Nom d’utilisateur (chaîne)
+title: UserId (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1796c2f2-5248-4a07-9aa0-0ca7453d7217
 description: L’élément UserId spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie.
-ms.openlocfilehash: a9abec54445c21a900a34641d5483aeda6f074ed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 45edcf9215ca3e63f43ff75c2e9deb24c953ac09
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838955"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459383"
 ---
-# <a name="userid-string"></a>Nom d’utilisateur (chaîne)
+# <a name="userid-string"></a>UserId (String)
 
-L’élément **UserId** Spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie. 
+L’élément **userid** spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie. 
   
 ```XML
 <UserId></UserId>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [EmailUser](emailuser.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **UserId** est un identificateur pour un utilisateur de messagerie. 
+La valeur de texte de l’élément **userid** est un identificateur d’un utilisateur de messagerie. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

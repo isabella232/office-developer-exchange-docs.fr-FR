@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0e3f13cc-e3b3-4eea-9128-12c98b5197f4
-description: L’élément UninstallAppResponse spécifie la réponse à une demande de UninstallApp.
-ms.openlocfilehash: 9675b72b36fd1ac5e298b2998ed683a1ba6452f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UninstallAppResponse spécifie la réponse à une demande UninstallApp.
+ms.openlocfilehash: 12d74669aed0c380e32dd568bb99b88c30fdb22d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838815"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459453"
 ---
 # <a name="uninstallappresponse"></a>UninstallAppResponse
 
-L’élément **UninstallAppResponse** spécifie la réponse à une demande de **UninstallApp** . 
+L’élément **UninstallAppResponse** spécifie la réponse à une demande **UninstallApp** . 
   
 ```XML
 <UninstallAppResponse>
@@ -31,15 +31,15 @@ L’élément **UninstallAppResponse** spécifie la réponse à une demande de *
  **UninstallAppResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageXml](messagexml.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[Messagexml](messagexml.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

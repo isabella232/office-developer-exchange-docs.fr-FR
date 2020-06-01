@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 65ea14bc-5f19-48cc-aef1-46227e06f5f5
-description: L’élément ReminderMinutesBeforeStart représente le nombre de minutes avant un événement se produit lorsqu’un rappel.
-ms.openlocfilehash: 038d655423bee64d9386d691018bc12a1ac10ffa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReminderMinutesBeforeStart représente le nombre de minutes avant qu’un événement se produise lors de l’affichage d’un rappel.
+ms.openlocfilehash: 056ba06c5d8f878e13c72859746242f1694528e9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829068"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458543"
 ---
 # <a name="reminderminutesbeforestart"></a>ReminderMinutesBeforeStart
 
-L’élément **ReminderMinutesBeforeStart** représente le nombre de minutes avant un événement se produit lorsqu’un rappel. 
+L’élément **ReminderMinutesBeforeStart** représente le nombre de minutes avant qu’un événement se produise lors de l’affichage d’un rappel. 
   
 ```xml
 <ReminderMinutesBeforeStart/>
@@ -30,11 +30,11 @@ L’élément **ReminderMinutesBeforeStart** représente le nombre de minutes av
  **ReminderMinutesBeforeStartType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,15 +50,15 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Représente la valeur de texte, en minutes, le délai avant qu’un événement se produit lorsqu’un rappel.
+La valeur de texte représente, en minutes, l’heure avant laquelle un événement se produit lors de l’affichage d’un rappel.
   
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

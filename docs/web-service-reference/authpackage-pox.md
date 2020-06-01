@@ -1,5 +1,5 @@
 ---
-title: AuthPackage (POX)
+title: Package (POX)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
-description: L’élément AuthPackage Spécifie le schéma d’authentification utilisé lors de l’authentification auprès du serveur Exchange qui a le rôle serveur de boîtes aux lettres.
-ms.openlocfilehash: 120ec00ac82166ae2002a8fbac0edf9a1e23afc7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément package spécifie le modèle d’authentification utilisé lors de l’authentification auprès du serveur Exchange sur lequel le rôle serveur de boîtes aux lettres est installé.
+ms.openlocfilehash: 5317cf49d354a558417829e1d1b5b67cd6874309
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755352"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459103"
 ---
-# <a name="authpackage-pox"></a>AuthPackage (POX)
+# <a name="authpackage-pox"></a>Package (POX)
 
-L’élément **AuthPackage** Spécifie le schéma d’authentification utilisé lors de l’authentification auprès du serveur Exchange qui a le rôle serveur de boîtes aux lettres. 
+L’élément **package** spécifie le modèle d’authentification utilisé lors de l’authentification auprès du serveur Exchange sur lequel le rôle serveur de boîtes aux lettres est installé. 
   
 - [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,9 +26,9 @@ L’élément **AuthPackage** Spécifie le schéma d’authentification utilisé
   
 - [Compte (POX)](account-pox.md)
   
-- [Protocole (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
-- [AuthPackage (POX)](authpackage-pox.md)
+- [Package (POX)](authpackage-pox.md)
   
 ```xml
 <AuthPackage>basic or kerb or kerbntlm or ntlm or certificate or negotiate or nego2</AuthPackage>
@@ -36,11 +36,11 @@ L’élément **AuthPackage** Spécifie le schéma d’authentification utilisé
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,29 +50,29 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour la connexion d’un client vers le serveur d’accès au Client.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client au serveur d’accès au client.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie le schéma d’authentification utilisé lors de l’authentification auprès du serveur de boîtes aux lettres. Les valeurs possibles sont les suivantes :
+La valeur texte spécifie le modèle d’authentification utilisé lors de l’authentification auprès du serveur de boîtes aux lettres. Les valeurs possibles sont les suivantes :
   
-- base
-- marche
+- Basic
+- kerb
 - kerbntlm
-- NTLM
+- négociation
 - certificat
-- négocier
+- poursuivre
 - nego2
     
 ## <a name="remarks"></a>Remarques
 
-L’élément **AuthPackage** est uniquement utilisé lorsque l’élément de [Type (POX)](type-pox.md) a pour valeur texte EXCH ou EXPR. 
+L’élément **package** est utilisé uniquement lorsque l’élément [type (POX)](type-pox.md) a une valeur de texte Exch ou Expr. 
   
 ### <a name="version-differences"></a>Différences entre les versions
 
-Office 365, Exchange Online et les versions locales d’Exchange commençant par créer 15.00.0995.014 retour une valeur de « négocier » uniquement si le serveur est configuré pour utiliser l’authentification par négociation et le client inclut un en-tête [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) qui contient « Négocier ». 
+Office 365, Exchange Online et les versions locales d’Exchange commençant par Build 15.00.0995.014 renvoient la valeur « Negotiate » uniquement si le serveur est configuré pour utiliser l’authentification par négociation et si le client inclut un en-tête [X-ClientCanHandle](pox-autodiscover-request-for-exchange.md) contenant « Negotiate ». 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

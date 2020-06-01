@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 359a9085-50c0-4c94-8a12-216339ba2018
-description: L’élément SIPResponseText Spécifie le texte de réponse SIP.
-ms.openlocfilehash: 3856275c74b51e29db5884ed490715e9f286eb8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SIPResponseText spécifie le texte de la réponse SIP.
+ms.openlocfilehash: 6249e4bb651ba62eb99537d0cdec5bea60670f61
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829502"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460462"
 ---
 # <a name="sipresponsetext"></a>SIPResponseText
 
-L’élément **SIPResponseText** Spécifie le texte de réponse SIP. 
+L’élément **SIPResponseText** spécifie le texte de la réponse SIP. 
   
 ```xml
 <SIPResponseText/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,21 +44,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’état pour un appel téléphonique.  <br/> |
+|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’État pour un appel téléphonique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Le texte de réponse SIP.
+Texte de la réponse SIP.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire /ews/ de l’ordinateur qui exécute Exchange Server avec le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur qui exécute Exchange Server et sur lequel le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

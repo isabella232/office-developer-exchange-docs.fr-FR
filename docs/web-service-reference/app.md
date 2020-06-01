@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92b776b5-fec6-4443-a606-51ccb06f7afd
-description: L’élément application contient des informations sur un fichier manifeste XML pour une application de messagerie qui est installé dans une boîte aux lettres.
-ms.openlocfilehash: c63bbbf6eb3bf718b2cf81e67d9ec978b3bc5f8d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément App contient des informations sur un fichier manifeste XML pour une application de messagerie installée dans une boîte aux lettres.
+ms.openlocfilehash: b5870164b059d2e50930ee33c09cbd030501f171
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755214"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460357"
 ---
 # <a name="app"></a>Application
 
-L’élément **application** contient des informations sur un fichier manifeste XML pour une application de messagerie qui est installé dans une boîte aux lettres. 
+L’élément **app** contient des informations sur un fichier manifeste XML pour une application de messagerie installée dans une boîte aux lettres. 
   
 ```XML
 <App>
@@ -28,15 +28,15 @@ L’élément **application** contient des informations sur un fichier manifeste
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Métadonnées](metadata-ex15websvcsotherref.md) | [manifeste](manifest.md)
+[Métadonnées](metadata-ex15websvcsotherref.md)  |  [Manifeste](manifest.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |Not applicable  <br/> |
+|Fichier de validation  <br/> |Non applicable  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

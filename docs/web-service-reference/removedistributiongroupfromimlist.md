@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 35d2e592-38c1-4861-8293-f7fba3328f4e
-description: L’élément RemoveDistributionGroupFromImList représente une demande pour supprimer un groupe de liste de distribution messagerie instantanée spécifique.
-ms.openlocfilehash: 550cf984bf3df8334909dc6206799d6cf36f46c9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RemoveDistributionGroupFromImList représente une demande de suppression d’un groupe de listes de distribution de messagerie instantanée spécifique.
+ms.openlocfilehash: 0dff549c62c305a86464eaeac165d5f5bc01c9f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829089"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459594"
 ---
 # <a name="removedistributiongroupfromimlist"></a>RemoveDistributionGroupFromImList
 
-L’élément **RemoveDistributionGroupFromImList** représente une demande pour supprimer un groupe de liste de distribution messagerie instantanée spécifique. 
+L’élément **RemoveDistributionGroupFromImList** représente une demande de suppression d’un groupe de listes de distribution de messagerie instantanée spécifique. 
   
 ```XML
 <RemoveDistributionGroupFromImList>
@@ -28,11 +28,11 @@ L’élément **RemoveDistributionGroupFromImList** représente une demande pour
  **RemoveDistributionGroupFromImListType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

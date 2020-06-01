@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: adbffbfc-e436-4620-acfc-5dfd41a88cb8
-description: L’élément AddDistributionGroupToImList définit une demande pour ajouter une liste de distribution à une liste de message instantané.
-ms.openlocfilehash: b63daeb8b1d60123215bfcdec307f2f948d2ec39
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AddDistributionGroupToImList définit une demande d’ajout d’une liste de distribution à une liste de messages instantanés.
+ms.openlocfilehash: 90a84b23678fb0740158f601967905a8847286fd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755164"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460378"
 ---
 # <a name="adddistributiongrouptoimlist"></a>AddDistributionGroupToImList
 
-L’élément **AddDistributionGroupToImList** définit une demande pour ajouter une liste de distribution à une liste de message instantané. 
+L’élément **AddDistributionGroupToImList** définit une demande d’ajout d’une liste de distribution à une liste de messages instantanés. 
   
 ```XML
 <AddDistributionGroupToImList>
@@ -29,15 +29,15 @@ L’élément **AddDistributionGroupToImList** définit une demande pour ajouter
  **AddDistributionGroupToImListType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[SmtpAddress](smtpaddress.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)
+[SmtpAddress](smtpaddress.md)  |  [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

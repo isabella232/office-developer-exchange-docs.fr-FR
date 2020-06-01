@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 655175bd-8a3b-4dfc-8881-84e4927c1df1
-description: L’élément GroupingAction (ItemType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: aa252ad41f933eeb05b722d3143b680bc3910985
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GroupingAction (ItemType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: a442800f98ca3f7691d801d33e5d28d706a34b26
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827759"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460476"
 ---
 # <a name="groupingaction-itemtype"></a>GroupingAction (ItemType)
 
-L’élément **GroupingAction (ItemType)** est destiné à une utilisation interne uniquement. 
+L’élément **GroupingAction (ItemType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

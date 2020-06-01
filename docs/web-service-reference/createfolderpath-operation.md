@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a10aa5e-3f25-4ec3-a0b9-284c30918a1f
-description: Opération de recherche plus d’informations sur la CreateFolderPath EWS.
-ms.openlocfilehash: 22561e5086c144e25d7e04b68ec6674b87c4718d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS CreateFolderPath.
+ms.openlocfilehash: a8d42cbef854d900c5fb6b72c730dd1e2b903aec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755703"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458900"
 ---
 # <a name="createfolderpath-operation"></a>Opération CreateFolderPath
 
@@ -25,32 +25,32 @@ Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-createfolderpath-operation"></a>Utilisation de l’opération CreateFolderPath
 
-La requête d’opération **CreateFolderPath** prend un tableau de dossiers et un identificateur de dossier parent et crée une hiérarchie de dossiers selon l’ordre des dossiers dans le tableau. 
+La demande d’opération **CreateFolderPath** prend un tableau de dossiers et un identificateur de dossier parent et crée une hiérarchie de dossiers basée sur l’ordre des dossiers dans le tableau. 
   
-### <a name="createfolderpath-operation-soap-headers"></a>En-têtes SOAP CreateFolderPath opération
+### <a name="createfolderpath-operation-soap-headers"></a>En-têtes SOAP d’opération CreateFolderPath
 
-L’opération **CreateFolderPath** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant. 
+L’opération **CreateFolderPath** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur emprunte l’identité de l’application cliente. Cet en-tête est applicable à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, comme défini dans RFC 3066, « Balises pour l’Identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête est applicable à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération. Cet en-tête est applicable à une demande.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête est applicable à une réponse.  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Identifie l’étendue de fuseau horaire pour les propriétés de **DateTime** . Cet en-tête est applicable à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
+|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Identifie l’étendue du fuseau horaire pour les propriétés **DateTime** . Cet en-tête s’applique à une demande.  <br/> |
    
 ## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>Exemple de requête d’opération CreateFolderPath : créer une hiérarchie de dossiers
 
-Une demande d’opération **CreateFolderPath** l’exemple suivant montre comment créer une hiérarchie de dossiers est trois dossiers dans le dossier boîte de réception par défaut. 
+L’exemple suivant de demande d’opération **CreateFolderPath** montre comment créer une hiérarchie de dossiers de trois dossiers dans le dossier boîte de réception par défaut. 
   
 > [!NOTE]
-> Tous les identificateurs d’article et modifier des clés dans cet article ont été réduits afin de préserver la lisibilité. 
+> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -80,7 +80,7 @@ Une demande d’opération **CreateFolderPath** l’exemple suivant montre comme
 
 ```
 
-La demande SOAP body contient les éléments suivants :
+Le corps SOAP de la demande contient les éléments suivants :
   
 - [CreateFolderPath](createfolderpath.md)
     
@@ -94,9 +94,9 @@ La demande SOAP body contient les éléments suivants :
     
 - [DisplayName (chaîne)](displayname-string.md)
     
-## <a name="successful-createfolderpath-operation-response"></a>Réponse d’opération CreateFolderPath réussie
+## <a name="successful-createfolderpath-operation-response"></a>Réponse de l’opération CreateFolderPath réussie
 
-L’exemple suivant montre une réponse positive à une demande d’opération **CreateFolderPath** pour créer un dossier dossiers hiérarchie trois profondeur dans le dossier boîte de réception par défaut. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **CreateFolderPath** pour créer une hiérarchie de dossiers de trois dossiers en profondeur dans le dossier boîte de réception par défaut. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,14 +107,14 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:CreateFolderPathResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:CreateFolderPathResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:CreateFolderPathResponseMessage ResponseClass="Success">
                <m:ResponseCode>NoError</m:ResponseCode>
@@ -159,7 +159,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
 
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [CreateFolderPathResponse](createfolderpathresponse.md)
     
@@ -185,7 +185,7 @@ La réponse SOAP body contient les éléments suivants :
     
 ## <a name="createfolderpath-operation-error-response"></a>Réponse d’erreur d’opération CreateFolderPath
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **CreateFolderPath** . Il s’agit d’une réponse à une demande de créer deux dossiers, le premier d'entre eux n’est pas une propriété de nom d’affichage définie. Le premier dossier de la hiérarchie ne peut pas être créé sans une propriété de nom d’affichage et le dossier deuxième ne peut pas être créé, car le dossier parent dans la hiérarchie n’a pas été créé. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **CreateFolderPath** . Il s’agit d’une réponse à une demande de création de deux dossiers, dont le premier n’a pas de propriété de nom d’affichage définie. Le premier dossier de la hiérarchie ne peut pas être créé sans une propriété de nom d’affichage et le deuxième dossier ne peut pas être créé car le dossier parent dans la hiérarchie n’a pas été créé. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -195,15 +195,15 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
                            MajorBuildNumber="556" 
                            MinorBuildNumber="14" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:CreateFolderPathResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:CreateFolderPathResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
          <m:ResponseMessages>
             <m:CreateFolderPathResponseMessage ResponseClass="Error">
                <m:MessageText>The folder save operation failed due to invalid property values.</m:MessageText>
@@ -227,7 +227,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-La réponse d’erreur corps SOAP contient les éléments suivants :
+Le corps SOAP de la réponse d’erreur contient les éléments suivants :
   
 - [CreateFolderPathResponse](createfolderpathresponse.md)
     
@@ -247,7 +247,7 @@ La réponse d’erreur corps SOAP contient les éléments suivants :
     
 - [Dossiers](folders-ex15websvcsotherref.md)
     
-Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).
+Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

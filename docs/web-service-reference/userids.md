@@ -1,5 +1,5 @@
 ---
-title: ID utilisateur
+title: UserIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 78a09c3a-1646-4c55-95a2-1109fb11e1c6
-description: Les ID utilisateur élément contient un tableau de déléguer aux utilisateurs d’obtenir ou de supprimer la boîte aux lettres d’un utilisateur principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 277ae96fdbc30f1b39ef20553e10ff1de3ff7a8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UserIds contient un tableau d’utilisateurs délégués à récupérer ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: de4661226c154ef0d2d5ac55c57405e20c4d2aee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838960"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459776"
 ---
-# <a name="userids"></a>ID utilisateur
+# <a name="userids"></a>UserIds
 
-L’élément **UserIds** contient un tableau de déléguer aux utilisateurs d’obtenir ou de supprimer la boîte aux lettres d’un utilisateur principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **userids** contient un tableau d’utilisateurs délégués à récupérer ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <UserIds>
@@ -32,24 +32,24 @@ L’élément **UserIds** contient un tableau de déléguer aux utilisateurs d�
  **ArrayOfUserIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom d’utilisateur](userid.md) <br/> |Identifie un délégué d’obtenir ou de supprimer la boîte aux lettres d’un utilisateur principal. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[UserId](userid.md) <br/> |Identifie un délégué à obtenir ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[GetDelegate](getdelegate.md) <br/> |Définit une demande pour obtenir des informations sur les délégués à une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[RemoveDelegate](removedelegate.md) <br/> |Définit une demande pour supprimer des délégués d’une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[RemoveDelegate](removedelegate.md) <br/> |Définit une demande de suppression de délégués d’une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

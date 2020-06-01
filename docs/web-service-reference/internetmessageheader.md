@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c70675f8-6feb-4c89-ba48-bce0479b308b
-description: L’élément InternetMessageHeader représente l’en-tête de message Internet pour un en-tête donné dans la collection d’en-têtes. Pour obtenir l’ensemble des en-têtes de message Internet, utilisez la propriété PR_TRANSPORT_MESSAGE_HEADERS. Pour plus d’informations sur les en-têtes de message Internet et EWS, en-têtes de message Internet seeGetting dans EWS, MIME et les en-têtes de message Internet manquants.
-ms.openlocfilehash: 9457cdabe99c0adcb8183cbc039cc86db881fec7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément InternetMessageHeader représente l’en-tête de message Internet d’un en-tête donné dans la collection headers. Pour obtenir la collection entière des en-têtes de message Internet, utilisez la propriété PR_TRANSPORT_MESSAGE_HEADERS. Pour plus d’informations sur EWS et les en-têtes de message Internet, obtention les en-têtes de message Internet dans EWS, MIME et les en-têtes de message Internet manquants.
+ms.openlocfilehash: 7b662617e0b1a1fcdcce3449b729485ba6e0956b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827952"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459306"
 ---
 # <a name="internetmessageheader"></a>InternetMessageHeader
 
-L’élément **InternetMessageHeader** représente l’en-tête de message Internet pour un en-tête donné dans la collection d’en-têtes. Pour obtenir l’ensemble des en-têtes de message Internet, utilisez la propriété **PR_TRANSPORT_MESSAGE_HEADERS** . Pour plus d’informations à propos des en-têtes de message Internet et EWS, voir « en-têtes de message Internet mise en route dans [EWS, MIME et les en-têtes de message Internet manquants](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx).
+L’élément **InternetMessageHeader** représente l’en-tête de message Internet d’un en-tête donné dans la collection headers. Pour obtenir la collection entière des en-têtes de message Internet, utilisez la propriété **PR_TRANSPORT_MESSAGE_HEADERS** . Pour plus d’informations sur EWS et les en-têtes de message Internet, consultez les rubriques «obtenir des en-têtes de message Internet dans [EWS, MIME et les en-têtes de messages Internet manquants](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx).
   
 ```XML
 <InternetMessageHeader HeaderName=""/>
@@ -30,13 +30,13 @@ L’élément **InternetMessageHeader** représente l’en-tête de message Inte
  **InternetHeaderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**HeaderName** <br/> |Identifie le nom d’en-tête.  <br/> |
+|**HeaderName** <br/> |Identifie le nom de l’en-tête.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,13 +48,13 @@ Aucun.
 |:-----|:-----|
 |[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente la collection de tous les en-têtes de message Internet contenus dans un élément de boîte aux lettres.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte représente la valeur de l’en-tête.
   
 ## <a name="remarks"></a>Remarques
 
-Vous trouverez ci-dessous l’API managée EWS étendu de définition de la propriété pour la propriété **PR_TRANSPORT_MESSAGE_HEADERS** . 
+Voici la définition de la propriété étendue de l’API managée EWS pour la propriété **PR_TRANSPORT_MESSAGE_HEADERS** . 
   
 ```cs
 ExtendedPropertyDefinition transportMsgHdr = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -75,8 +75,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[EWS, MIME et les en-têtes de message Internet manquants](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)
+[EWS, MIME et les en-têtes de message Internet manquants](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)
 

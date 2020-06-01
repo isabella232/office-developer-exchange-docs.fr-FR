@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7497777e-4e0a-4d1d-9ea7-caf63ec415da
-description: L’élément ville représente le nom de la ville qui est associé à un contact.
-ms.openlocfilehash: fa298af7cbafc031b6ba1294c8077c3d5c1a3ceb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément City représente le nom de la ville qui est associé à un contact.
+ms.openlocfilehash: 59d8dd44bbad055afb1ae973ae64313e8ed5cbfb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755513"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460203"
 ---
 # <a name="city"></a>Ville
 
-L’élément **Ville** représente le nom de la ville qui est associé à un contact. 
+L’élément **City** représente le nom de la ville qui est associé à un contact. 
   
 ```xml
 <City/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Entrée (PhysicalAddress)](entry-physicaladdress.md) <br/> |Décrit une seule adresse physique pour un élément de contact.  <br/> |
+|[Entrée (PhysicalAddress)](entry-physicaladdress.md) <br/> |Décrit une adresse physique unique pour un élément de contact.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur de type string qui représente le nom d’une ville.
+La valeur de texte est une valeur de chaîne qui représente le nom d’une ville.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

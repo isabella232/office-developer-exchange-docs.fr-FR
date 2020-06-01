@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ce6f50ef-ad8a-47e4-915a-487b2ef7a2e0
-description: L’element TentativelyAcceptItem représente un provisoire répondre à une demande de réunion.
-ms.openlocfilehash: 203028aae2ec972e36209b2a97420e83d61ddd81
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TentativelyAcceptItem représente une réponse provisoire à une demande de réunion.
+ms.openlocfilehash: 6d20ec2964c41dcbb786b1209b4597999e025609
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838695"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459496"
 ---
 # <a name="tentativelyacceptitem"></a>TentativelyAcceptItem
 
-L’element **TentativelyAcceptItem** représente un provisoire répondre à une demande de réunion. 
+L’élément **TentativelyAcceptItem** représente une réponse provisoire à une demande de réunion. 
   
 ```xml
 <TentativelyAcceptItem>
@@ -47,11 +47,11 @@ L’element **TentativelyAcceptItem** représente un provisoire répondre à une
  **TentativelyAcceptItemType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,17 +59,17 @@ Aucun.
 |:-----|:-----|
 |[ItemClass](itemclass.md) <br/> |Représente la classe de message d'un élément.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Identifie la sensibilité d’un élément.  <br/> |
-|[Corps](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
-|[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient l’élément ou un fichier joint à un élément dans la banque d’informations Exchange.  <br/> |
-|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente le nom d’en-tête de message Internet pour un en-tête donné dans la collection d’en-têtes.  <br/> |
+|[Body](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
+|[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient l’élément ou le fichier qui est associé à un élément dans la Banque d’Exchange.  <br/> |
+|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente le nom de l’en-tête de message Internet d’un en-tête donné dans la collection headers.  <br/> |
 |[Sender](sender.md) <br/> |Identifie l’expéditeur d’un élément.  <br/> |
 |[ToRecipients](torecipients.md) <br/> |Contient un ensemble de destinataires d’un élément. Voici les principaux destinataires d'un élément.  <br/> |
-|[CcRecipients](ccrecipients.md) <br/> |Représente une collection de destinataires qui reçoivent une copie du message.  <br/> |
-|[BccRecipients](bccrecipients.md) <br/> |Représente une collection de destinataires pour recevoir une copie carbone invisible (Cci) d’un message électronique.  <br/> |
+|[CcRecipients](ccrecipients.md) <br/> |Représente une collection de destinataires qui recevront une copie du message.  <br/> |
+|[BccRecipients](bccrecipients.md) <br/> |Représente une collection de destinataires qui reçoit une copie carbone invisible (CCI) d’un message électronique.  <br/> |
 |[IsReadReceiptRequested](isreadreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande une confirmation de lecture.  <br/> |
 |[IsDeliveryReceiptRequested](isdeliveryreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande un accusé de réception.  <br/> |
-|[ReferenceItemId](referenceitemid.md) <br/> |Identifie l’élément auquel fait référence l’objet de réponse.  <br/> |
-|[Reçu par](receivedby.md) <br/> |Identifie le délégué dans un scénario d’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[ReferenceItemId](referenceitemid.md) <br/> |Identifie l’élément auquel l’objet de réponse fait référence.  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |Identifie le délégué dans un scénario d’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifie le principal dans un scénario d’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[ProposedStart](proposedstart.md) <br/> |Spécifie l’heure de début proposée de la demande de réunion.  <br/> |
 |[ProposedEnd](proposedend.md) <br/> |Spécifie l’heure de fin proposée de la demande de réunion.  <br/> |
@@ -78,8 +78,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AdjacentMeetings](adjacentmeetings.md) <br/> | Décrit tous les éléments qui sont adjacentes à une heure de réunion.  <br/> <br/> Voici quelques-unes des expressions XPath pour cet élément :  <br/><br/>  `/CalendarItem/AdjacentMeetings` <br/>  `/MeetingRequest/AdjacentMeetings` <br/>  `/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/> |
-|[ConflictingMeetings](conflictingmeetings.md) <br/> | Décrit tous les éléments qui sont en conflit avec une heure de réunion. <br/> <br/>  Voici quelques-unes des expressions XPath pour cet élément : <br/> <br/>  `/CalendarItem/ConflictingMeetings` <br/>  `/MeetingRequest/ConflictingMeetings` <br/>  `/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/> |
+|[AdjacentMeetings](adjacentmeetings.md) <br/> | Décrit tous les éléments adjacents à une heure de réunion.  <br/> <br/> Voici quelques-unes des expressions XPath de cet élément :  <br/><br/>  `/CalendarItem/AdjacentMeetings` <br/>  `/MeetingRequest/AdjacentMeetings` <br/>  `/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/> |
+|[ConflictingMeetings](conflictingmeetings.md) <br/> | Décrit tous les éléments qui sont en conflit avec une heure de réunion. <br/> <br/>  Voici quelques-unes des expressions XPath de cet élément : <br/> <br/>  `/CalendarItem/ConflictingMeetings` <br/>  `/MeetingRequest/ConflictingMeetings` <br/>  `/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/> |
 |[ResponseObjects](responseobjects.md) <br/> |Contient une collection de tous les objets de réponse associés à un élément dans la banque d'informations Exchange.  <br/> |
 |[Éléments (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contient un tableau d’éléments à créer dans le dossier identifié par l’élément [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) .  <br/> |
    
@@ -91,7 +91,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
-description: L’élément PolicyNudgeRulesConfiguration contient les données de configuration de la protection contre la perte données.
-ms.openlocfilehash: ecea1dac44526fee7c439cd5e1eb318c38d274f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PolicyNudgeRulesConfiguration contient les données de configuration de la protection contre la perte de données.
+ms.openlocfilehash: dd801fe140dee66d153e388781f97254d1a2f2ef
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828833"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459608"
 ---
 # <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
 
-L’élément **PolicyNudgeRulesConfiguration** contient les données de configuration de la protection contre la perte données. 
+L’élément **PolicyNudgeRulesConfiguration** contient les données de configuration de la protection contre la perte de données. 
   
 ```XML
 <PolicyNudgeRulesConfiguration></PolicyNudgeRulesConfiguration>
@@ -26,11 +26,11 @@ L’élément **PolicyNudgeRulesConfiguration** contient les données de configu
  **PolicyNudgeRulesServiceConfiguration**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **PolicyNudgeRulesConfiguration** contenu n’est pas défini le schéma des Services Web Exchange. 
+Le contenu de l’élément **PolicyNudgeRulesConfiguration** n’est pas défini dans le schéma des services Web Exchange. 
   
 Cet élément est une nouveauté d'Exchange Server 2013.
   
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

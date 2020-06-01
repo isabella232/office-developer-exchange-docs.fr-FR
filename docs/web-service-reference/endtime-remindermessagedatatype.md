@@ -1,5 +1,5 @@
 ---
-title: Heure de fin (ReminderMessageDataType)
+title: EndTime (ReminderMessageDataType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 771dce9c-17a7-4c1d-aab2-47b6dd48d795
-description: L’élément EndTime représente la fin de la période à interroger les rappels.
-ms.openlocfilehash: 4e46f328789aca24b6d7dd86b939fefe95968a1a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EndTime correspond à la fin de l’intervalle de temps nécessaire aux requêtes de rappels.
+ms.openlocfilehash: 7a9eac48970d193a1a55a9e4c7934aad56058190
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756180"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459657"
 ---
-# <a name="endtime-remindermessagedatatype"></a>Heure de fin (ReminderMessageDataType)
+# <a name="endtime-remindermessagedatatype"></a>EndTime (ReminderMessageDataType)
 
-L’élément **EndTime** représente la fin de la période à interroger les rappels. 
+L’élément **EndTime** correspond à la fin de l’intervalle de temps nécessaire aux requêtes de rappels. 
   
 ```XML
 <EndTime/>
@@ -26,11 +26,11 @@ L’élément **EndTime** représente la fin de la période à interroger les ra
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [ReminderMessageData](remindermessagedata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EndTime** représente la fin de la période à interroger les rappels. 
+La valeur de texte de l’élément **EndTime** représente la fin de la période de requête pour les rappels. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

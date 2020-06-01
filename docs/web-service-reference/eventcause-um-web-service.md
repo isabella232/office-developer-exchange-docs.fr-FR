@@ -1,5 +1,5 @@
 ---
-title: EventCause (service web de messagerie unifiée)
+title: EventCause (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,21 +10,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7b3c1db8-cad4-4050-a50d-b06f065db530
-description: L’élément EventCause contient une valeur qui indique la cause d’un événement d’appel dans une réponse à une demande de (service web de messagerie unifiée) opération GetCallInfo.
-ms.openlocfilehash: dd73d93527bebb3b522ad0a6cdae5b9faee1a6a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EventCause contient une valeur qui indique la cause d’un événement d’appel dans une réponse à une opération GetCallInfo (service Web de messagerie unifiée).
+ms.openlocfilehash: 9d49fd4b16236d0dd87889fbbd039f2e271a5968
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756219"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458676"
 ---
-# <a name="eventcause-um-web-service"></a>EventCause (service web de messagerie unifiée)
+# <a name="eventcause-um-web-service"></a>EventCause (service Web de messagerie unifiée)
 
-L’élément **EventCause** contient une valeur qui indique la cause d’un événement d’appel dans une réponse à une demande de [l’opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md) . 
+L’élément **EventCause** contient une valeur qui indique la cause d’un événement d’appel dans une réponse à une [opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md) . 
   
-[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
   
-[EventCause (service web de messagerie unifiée)](eventcause-um-web-service.md)
+[EventCause (service Web de messagerie unifiée)](eventcause-um-web-service.md)
   
 ```xml
 <GetCallInfoResponse>
@@ -35,11 +35,11 @@ L’élément **EventCause** contient une valeur qui indique la cause d’un év
  **UMEventCause**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,34 +49,34 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md) <br/> |Définit une réponse à une demande de [l’opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md) .  <br/> |
+|[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md) <br/> |Définit une réponse à une [opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md) .  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
   
 - Aucun
     
 - UserBusy
     
-- NoAnswer
+- Noanswer
     
-- Other
+- Autres
     
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
+[Opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
   
-[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
 

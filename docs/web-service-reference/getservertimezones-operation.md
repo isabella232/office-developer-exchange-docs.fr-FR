@@ -11,33 +11,33 @@ api_name:
 api_type:
 - schema
 ms.assetid: 680173e1-e916-466b-b573-5a3182316345
-description: L’opération GetServerTimeZones retourne des informations à partir des définitions de fuseau horaire sont disponibles sur un serveur Exchange.
-ms.openlocfilehash: 9b202d510a599c9082d075228be4c479a2086753
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetServerTimeZones retourne des informations à partir des définitions de fuseau horaire qui sont disponibles sur un serveur Exchange.
+ms.openlocfilehash: 1afe7fe13501af4a14f72c731703fe41e1f33049
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756744"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460539"
 ---
 # <a name="getservertimezones-operation"></a>Opération GetServerTimeZones
 
-L’opération **GetServerTimeZones** retourne des informations à partir des définitions de fuseau horaire sont disponibles sur un serveur Exchange. 
+L’opération **GetServerTimeZones** retourne des informations à partir des définitions de fuseau horaire qui sont disponibles sur un serveur Exchange. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetServerTimeZones** permettre utiliser les en-têtes SOAP qui sont répertoriés et décrits dans le tableau suivant. 
+L’opération **GetServerTimeZones** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
-## <a name="getservertimezones-request-examples"></a>Exemples de requêtes GetServerTimeZones
+## <a name="getservertimezones-request-examples"></a>Exemples de requête GetServerTimeZones
 
-### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>Obtenir le nom et l’identificateur de chaque fuseau horaire
+### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>Obtention du nom et de l’identificateur de chaque fuseau horaire
 
-L’exemple de code suivant montre comment récupérer le nom et l’identificateur pour le fuseau horaire Pacifique l’heure.
+L’exemple de code suivant montre comment récupérer le nom et l’identificateur pour les fuseaux horaires standard est et Pacifique.
   
 ### <a name="code"></a>Code
 
@@ -45,8 +45,8 @@ L’exemple de code suivant montre comment récupérer le nom et l’identificat
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -63,11 +63,11 @@ L’exemple de code suivant montre comment récupérer le nom et l’identificat
 
 ### <a name="comments"></a>Commentaires
 
-Chaque élément [Id (fuseau horaire)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire est demandée. Pour obtenir des informations pour tous les fuseaux horaires, omettez l’élément [ID](ids.md) à partir de la demande. 
+Chaque élément [ID (TimeZone)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire demandée. Pour demander des informations pour tous les fuseaux horaires, omettez l’élément [IDS](ids.md) de la demande. 
   
 ### <a name="getting-the-full-definition-of-each-time-zone"></a>Obtention de la définition complète de chaque fuseau horaire
 
-L’exemple de code suivant montre comment récupérer la définition de la zone à plein temps pour le fuseau horaire de l’heure.
+L’exemple de code suivant montre comment récupérer la définition de fuseau horaire complète pour le fuseau horaire de l’est.
   
 ### <a name="code"></a>Code
 
@@ -75,8 +75,8 @@ L’exemple de code suivant montre comment récupérer la définition de la zone
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -92,13 +92,13 @@ L’exemple de code suivant montre comment récupérer la définition de la zone
 
 ### <a name="comments"></a>Commentaires
 
-Chaque élément [Id (fuseau horaire)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire est demandée. Pour obtenir des informations pour tous les fuseaux horaires, omettez l’élément [ID](ids.md) à partir de la demande. 
+Chaque élément [ID (TimeZone)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire demandée. Pour demander des informations pour tous les fuseaux horaires, omettez l’élément [IDS](ids.md) de la demande. 
   
 ## <a name="getservertimezones-response-examples"></a>Exemples de réponse GetServerTimeZones
 
-### <a name="receiving-the-time-zone-name-and-identifier-only"></a>Reçoit le nom du fuseau horaire et l’identificateur uniquement
+### <a name="receiving-the-time-zone-name-and-identifier-only"></a>Réception du nom et de l’identificateur du fuseau horaire uniquement
 
-Une réponse **GetServerTimeZones** l’exemple suivant montre une réponse positive à une demande de **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été défini sur **false**. La réponse contient le nom et l’identificateur pour le fuseau horaire Pacifique l’heure.
+L’exemple suivant de réponse **GetServerTimeZones** indique une réponse réussie à une requête **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été défini sur **false**. La réponse contient le nom et l’identificateur pour les fuseaux horaires standard est et Pacifique.
   
 ### <a name="code"></a>Code
 
@@ -113,11 +113,11 @@ Une réponse **GetServerTimeZones** l’exemple suivant montre une réponse posi
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetServerTimeZonesResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetServerTimeZonesResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetServerTimeZonesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</ResponseCode>
@@ -132,9 +132,9 @@ Une réponse **GetServerTimeZones** l’exemple suivant montre une réponse posi
 </soap:Envelope>
 ```
 
-### <a name="receiving-a-full-time-zone-definition"></a>Réception d’une définition de fuseau horaire à temps plein
+### <a name="receiving-a-full-time-zone-definition"></a>Réception d’une définition de fuseau horaire complète
 
-Une réponse **GetServerTimeZones** l’exemple suivant montre une réponse positive à une demande de **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été défini sur **true**. La réponse contient la définition de la zone à plein temps pour le fuseau horaire de l’heure.
+L’exemple suivant de réponse **GetServerTimeZones** indique une réponse réussie à une requête **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été défini sur **true**. La réponse contient la définition de fuseau horaire complète pour le fuseau horaire de l’est.
   
 ### <a name="code"></a>Code
 
@@ -149,11 +149,11 @@ Une réponse **GetServerTimeZones** l’exemple suivant montre une réponse posi
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetServerTimeZonesResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetServerTimeZonesResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetServerTimeZonesResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</ResponseCode>

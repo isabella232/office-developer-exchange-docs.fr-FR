@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ef05bdda-7a66-44db-bb73-a2ce8316c257
 description: L’élément EndTimeInMinutes représente la fin de la journée de travail pour un utilisateur de boîte aux lettres.
-ms.openlocfilehash: 2885d810512eb0e575aa25b4f38d28332a10b8f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756198"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459650"
 ---
 # <a name="endtimeinminutes"></a>EndTimeInMinutes
 
@@ -46,11 +46,11 @@ L’élément **EndTimeInMinutes** représente la fin de la journée de travail 
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,13 +60,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contient la semaine de travail les jours et les heures de l’utilisateur de boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et les heures de travail de la boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. La valeur de texte représente la fin de la journée de travail par le nombre de minutes se sont écoulées depuis le début de la journée. Par exemple, une heure de fin à 18 : 00 est représenté par 1 080 minutes.
+Une valeur de texte est requise. La valeur de texte représente la fin du jour ouvré en nombre de minutes écoulées depuis le début du jour. Par exemple, une heure de fin de 18 heures. est représenté par 1080 minutes.
   
-La plage de valeurs possibles pour cet élément est 0 et 1440.
+La plage de valeurs possibles pour cet élément est comprise entre 0 et 1440.
   
 ## <a name="remarks"></a>Remarques
 
@@ -76,7 +76,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

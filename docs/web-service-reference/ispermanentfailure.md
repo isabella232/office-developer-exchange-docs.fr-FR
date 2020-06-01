@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 18dc3a97-cc0a-4092-934e-a6e86f52e668
-description: L’élément IsPermanentFailure indique si une tentative précédente d’index de l’élément a échoué.
-ms.openlocfilehash: 39592c15394a57e1c6aa1183ed0ccedeb085e6ea
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsPermanentFailure indique si une précédente tentative d’indexation de l’élément a échoué.
+ms.openlocfilehash: 48a13eebfa16c538c1b10d92f080d51f1b318d12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828085"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460392"
 ---
 # <a name="ispermanentfailure"></a>IsPermanentFailure
 
-L’élément **IsPermanentFailure** indique si une tentative précédente d’index de l’élément a échoué. 
+L’élément **IsPermanentFailure** indique si une précédente tentative d’indexation de l’élément a échoué. 
   
 ```XML
 <IsPermanentFailure>true | false</IsPermanentFailure>
@@ -26,11 +26,11 @@ L’élément **IsPermanentFailure** indique si une tentative précédente d’i
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IsPermanentFailure** indique qu’une tentative précédente d’index de l’élément de boîte aux lettres a échoué. La valeur **false** indique qu’une tentative précédente d’index de l’élément de boîte aux lettres a réussi. 
+Une valeur de texte de **true** pour l’élément **IsPermanentFailure** indique qu’une tentative précédente d’indexation de l’élément de boîte aux lettres a échoué. La valeur **false** indique qu’une précédente tentative d’indexation de l’élément de boîte aux lettres a réussi. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

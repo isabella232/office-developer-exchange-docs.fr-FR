@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0dc3e285-8f49-48ad-b844-37041c0d782b
-description: L’élément IsMembershipGroup spécifie une valeur de type Boolean qui indique si l’entité est un groupe de distribution ou une boîte aux lettres.
-ms.openlocfilehash: 03ab0dc75d2c798b7f2afeef85aa45f0349be70a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsMembershipGroup spécifie une valeur booléenne qui indique si l’entité est un groupe de distribution ou une boîte aux lettres.
+ms.openlocfilehash: ed79961c6d13ab226c0b489103ef3d2c4a08668d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828050"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459285"
 ---
 # <a name="ismembershipgroup"></a>IsMembershipGroup
 
-L’élément **IsMembershipGroup** spécifie une valeur de type Boolean qui indique si l’entité est un groupe de distribution ou une boîte aux lettres. 
+L’élément **IsMembershipGroup** spécifie une valeur booléenne qui indique si l’entité est un groupe de distribution ou une boîte aux lettres. 
   
 ```XML
 <IsMembershipGroup>true | false</IsMembershipGroup>
@@ -26,11 +26,11 @@ L’élément **IsMembershipGroup** spécifie une valeur de type Boolean qui ind
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SearchableMailbox](searchablemailbox.md) <br/> |Spécifie une boîte aux lettres renvoyé à partir d’une demande **GetSearchableMailboxes** .  <br/> |
+|[SearchableMailbox](searchablemailbox.md) <br/> |Spécifie une boîte aux lettres renvoyée à partir d’une demande **GetSearchableMailboxes** .  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IsMembershipGroup** indique que l’entité est un groupe de distribution ou une boîte aux lettres. La valeur false indique que l’entité n’est pas un groupe de distribution ou une boîte aux lettres. 
+Une valeur de texte de **true** pour l’élément **IsMembershipGroup** indique que l’entité est un groupe de distribution ou une boîte aux lettres. La valeur false indique que l’entité n’est pas un groupe de distribution ou une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

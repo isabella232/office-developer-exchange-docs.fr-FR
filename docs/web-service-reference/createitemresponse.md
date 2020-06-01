@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 742a46a0-2475-45a0-b44f-90639a3f5a43
 description: L’élément CreateItemResponse définit une réponse à une demande CreateItem.
-ms.openlocfilehash: a05f222721e5b16695415e74a8e77e0fec495ef5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: af7349888a2f194a8f4ff1043ec8c38a90b3dfff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755725"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458844"
 ---
 # <a name="createitemresponse"></a>CreateItemResponse
 
@@ -32,17 +32,17 @@ L’élément **CreateItemResponse** définit une réponse à une demande Create
  **CreateItemResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,16 +56,16 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[CreateItem Operation](createitem-operation.md)
+[Opération CreateItem](createitem-operation.md)
   
 [CreateItem](createitem.md)
 

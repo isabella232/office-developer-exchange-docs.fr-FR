@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f7276aa-e354-40e4-b9cb-950fad46ac93
-description: L’élément UniqueBodyType Spécifie si le corps unique est retourné dans le format texte ou HTML.
-ms.openlocfilehash: c6eb4ec4e39a0c5355775a635db4c63efc666820
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UniqueBodyType spécifie si le corps unique est renvoyé au format texte ou HTML.
+ms.openlocfilehash: 7e6c4631ef589555ce4d5da747c200ffe956f3a1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838820"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459439"
 ---
 # <a name="uniquebodytype"></a>UniqueBodyType
 
-L’élément **UniqueBodyType** Spécifie si le corps unique est retourné dans le format texte ou HTML. 
+L’élément **UniqueBodyType** spécifie si le corps unique est renvoyé au format texte ou html. 
   
 ```XML
 <UniqueBodyType> Best | HTML | Text </UniqueBodyType>
@@ -26,11 +26,11 @@ L’élément **UniqueBodyType** Spécifie si le corps unique est retourné dans
  **BodyTypeResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,17 +40,17 @@ Aucun.
 
 [ItemShape](itemshape.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **UniqueBodyType** indique le format du corps unique est retournée dans. Le tableau suivant répertorie les valeurs possibles de cet élément. 
+La valeur de texte de l’élément **UniqueBodyType** indique le format dans lequel le corps unique est renvoyé. Le tableau suivant répertorie les valeurs possibles pour cet élément. 
   
 ****
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Recommandé  <br/> |La réponse renvoie le contenu disponible plus riche du corps de texte. Cela est utile si elle est inconnue ou non le contenu est texte ou HTML.  <br/> Le corps retourné sera texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renverra HTML si le corps stocké est au format HTML ou RTF.  <br/> Il s'agit de la valeur par défaut.  <br/> |
-|HTML  <br/> |La réponse renvoie un corps unique au format HTML.  <br/> |
-|Texte  <br/> |La réponse renvoie un corps unique en tant que texte brut.  <br/> |
+|Idéale  <br/> |La réponse renverra le contenu disponible le plus riche du corps de texte. Ceci est utile s’il n’est pas connu si le contenu est du texte ou du code HTML.  <br/> Le corps renvoyé sera du texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renvoie HTML si le corps stocké est au format HTML ou RTF.  <br/> Il s’agit de la valeur par défaut.  <br/> |
+|HTML  <br/> |La réponse renverra un corps unique au format HTML.  <br/> |
+|Texte  <br/> |La réponse renverra un corps unique en tant que texte brut.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

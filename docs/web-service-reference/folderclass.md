@@ -1,5 +1,5 @@
 ---
-title: Classe FolderClass
+title: FolderClass
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0041d135-2869-4612-89a5-d1aa86aa1093
-description: L’élément de la classe FolderClass représente la classe de dossier pour un dossier.
-ms.openlocfilehash: 87be00563d0375abebf32159ff38d62d03112b95
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FolderClass représente la classe de dossier d’un dossier.
+ms.openlocfilehash: ee5d382251a66ab5fbcd8054e6b5cfac82b5f994
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756442"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460056"
 ---
-# <a name="folderclass"></a>Classe FolderClass
+# <a name="folderclass"></a>FolderClass
 
-L’élément de la **classe FolderClass** représente la classe de dossier pour un dossier. 
+L’élément **FolderClass** représente la classe de dossier d’un dossier. 
   
 ```xml
 <FolderClass/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,13 +46,13 @@ Aucun.
 |:-----|:-----|
 |[Folder](folder.md) <br/> |Représente un dossier dans une boîte aux lettres.  <br/> |
 |[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier de calendrier dans une boîte aux lettres.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier contacts dans une boîte aux lettres.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche dans une boîte aux lettres.  <br/> |
-|[Dossier tâches](tasksfolder.md) <br/> |Représente un dossier de tâches dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches dans une boîte aux lettres.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Classes de dossier généralement commencent par « Erreur ».
+Une valeur de texte est requise. Les classes de dossier commencent généralement par « IPF ».
   
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

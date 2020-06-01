@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
-description: L’élément AcceptableResponseSchema identifie le schéma d’une réponse de découverte automatique.
-ms.openlocfilehash: 16444b6b3e17c6774416f90a5a056d0e8025287d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AcceptableResponseSchema identifie le schéma pour une réponse de découverte automatique.
+ms.openlocfilehash: ffc06f33144af7c8f06e81a12bcb5077719b15b8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756308"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460406"
 ---
 # <a name="acceptableresponseschema-pox"></a>AcceptableResponseSchema (POX)
 
-L’élément **AcceptableResponseSchema** identifie le schéma d’une réponse de découverte automatique. 
+L’élément **AcceptableResponseSchema** identifie le schéma pour une réponse de découverte automatique. 
   
 - [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -32,11 +32,11 @@ L’élément **AcceptableResponseSchema** identifie le schéma d’une réponse
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,11 +48,11 @@ Aucun.
 |:-----|:-----|
 |[Demande (POX)](request-pox.md) <br/> |Contient la demande au service de découverte automatique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte identifie l’emplacement du schéma de réponse de découverte automatique.
+La valeur texte identifie l’emplacement du schéma de réponse de découverte automatique.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

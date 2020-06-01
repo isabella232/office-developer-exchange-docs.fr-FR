@@ -1,22 +1,22 @@
 ---
-title: Demande (GetOrganizationRelationship) (SOAP)
+title: Request (GetOrganizationRelationship) (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85dc155c-fad0-4756-b9a8-dedf5040a7c6
-description: L’élément de demande représente une demande de GetOrganizationRelationshipSettingsRequest (SOAP). L’élément de demande est à usage interne uniquement. Cet élément n’est pas utilisé par les clients.
-ms.openlocfilehash: d3ae48ca403398288b8399ede82b98322a1b3260
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Request représente une demande GetOrganizationRelationshipSettingsRequest (SOAP). L’élément Request est réservé à un usage interne. Cet élément n’est pas utilisé par les clients.
+ms.openlocfilehash: 90ccd3579c91c916ea645e6a3b466c9de4706421
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829122"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459559"
 ---
-# <a name="request-getorganizationrelationship-soap"></a>Demande (GetOrganizationRelationship) (SOAP)
+# <a name="request-getorganizationrelationship-soap"></a>Request (GetOrganizationRelationship) (SOAP)
 
-L’élément de **demande** représente une demande de [GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) . L’élément **demande** est à usage interne uniquement. Cet élément n’est pas utilisé par les clients. 
+L’élément **Request** représente une demande [GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) . L’élément **Request** est réservé à un usage interne. Cet élément n’est pas utilisé par les clients. 
   
 ```XML
 <Request>
@@ -27,35 +27,35 @@ L’élément de **demande** représente une demande de [GetOrganizationRelation
  **GetOrganizationRelationshipSettingsRequest**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Domaines (SOAP)](domains-soap.md) <br/> |Représente les domaines pour le service de découverte automatique doit être exécutée et qui doivent être utilisées dans une requête.  <br/> |
+|[Domaines (SOAP)](domains-soap.md) <br/> |Représente les domaines pour lesquels la découverte automatique doit être exécutée et qui doivent être utilisés dans une requête.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetOrganizationRelationshipSettingsRequestMessage (SOAP)](getorganizationrelationshipsettingsrequestmessage-soap.md) <br/> |Représente une demande d’opération [GetOrganizationRelationshipSettings opération (SOAP)](getorganizationrelationshipsettings-operation-soap.md) .  <br/> |
+|[GetOrganizationRelationshipSettingsRequestMessage (SOAP)](getorganizationrelationshipsettingsrequestmessage-soap.md) <br/> |Représente une demande d’opération [GetOrganizationRelationshipSettings Operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md) .  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -65,5 +65,5 @@ Aucun.
 [GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md)
 
 
-[Utilisation de découverte automatique](http://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx)
+[Utilisation de la découverte automatique](https://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx)
 

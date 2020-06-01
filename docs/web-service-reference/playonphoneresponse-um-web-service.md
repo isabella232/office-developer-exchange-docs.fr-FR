@@ -1,5 +1,5 @@
 ---
-title: PlayOnPhoneResponse (service web de messagerie unifiée)
+title: PlayOnPhoneResponse (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,32 +10,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: 42b16880-1271-4690-abd0-0072d95b04b7
-description: L’élément PlayOnPhoneResponse définit une réponse à une demande de (service web de messagerie unifiée) opération PlayOnPhone.
-ms.openlocfilehash: 482739d924bbac1d58624e50596af48cc405a3ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PlayOnPhoneResponse définit une réponse à une opération PlayOnPhone (service Web de messagerie unifiée).
+ms.openlocfilehash: ddb9cc9a8feaeb476e6502339fdc74d024797b9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828832"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459615"
 ---
-# <a name="playonphoneresponse-um-web-service"></a>PlayOnPhoneResponse (service web de messagerie unifiée)
+# <a name="playonphoneresponse-um-web-service"></a>PlayOnPhoneResponse (service Web de messagerie unifiée)
 
-L’élément **PlayOnPhoneResponse** définit une réponse à une demande de [l’opération PlayOnPhone (service web de messagerie unifiée)](playonphone-operation-um-web-service.md) . 
+L’élément **PlayOnPhoneResponse** définit une réponse à une [opération PlayOnPhone (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md) . 
   
-[PlayOnPhoneResponse (service web de messagerie unifiée)](playonphoneresponse-um-web-service.md)
+[PlayOnPhoneResponse (service Web de messagerie unifiée)](playonphoneresponse-um-web-service.md)
   
 ```xml
 <PlayOnPhoneResponse />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,22 +45,22 @@ Aucun.
 
 Aucun.
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. La valeur de text est l’identificateur d’appel à utiliser pour la valeur de [l’ID d’appel (service web de messagerie unifiée)](callid-um-web-service.md) dans une requête [d’opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md) ou une [opération de déconnexion (service web de messagerie unifiée)](disconnect-operation-um-web-service.md) . 
+Une valeur de texte est requise. La valeur de texte est l’identificateur d’appel à utiliser pour la valeur de [CallId (service Web de messagerie unifiée)](callid-um-web-service.md) dans une demande [GetCallInfo Operation (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md) ou une [opération de déconnexion (service Web de messagerie unifiée](disconnect-operation-um-web-service.md) ). 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération PlayOnPhone (service web de messagerie unifiée)](playonphone-operation-um-web-service.md)
+[Opération PlayOnPhone (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md)
 

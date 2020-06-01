@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c444f818-412b-41ac-9523-50246e50eae0
-description: Les ContactIds élément contient un tableau de contacter identificateurs d’élément.
-ms.openlocfilehash: 8580a1aca908f0b116ef8011a8d81e6c967fc3b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContactIds contient un tableau d’identificateurs d’élément de contact.
+ms.openlocfilehash: 5c3b5621808a6931760433148e0cfe3239cd75f1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755555"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460189"
 ---
 # <a name="contactids"></a>ContactIds
 
-L’élément **ContactIds** contient un tableau d’identificateurs de l’élément de contact. 
+L’élément **ContactIds** contient un tableau d’identificateurs d’élément de contact. 
   
 ```XML
 <ContactIds>
@@ -31,15 +31,15 @@ L’élément **ContactIds** contient un tableau d’identificateurs de l’él�
  **NonEmptyArrayOfBaseItemIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
+[ItemId](itemid.md)  |  [OccurrenceItemId](occurrenceitemid.md)  |  [RecurringMasterItemId](recurringmasteritemid.md)  |  [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types.xsd  <br/> |
+|Fichier de validation  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

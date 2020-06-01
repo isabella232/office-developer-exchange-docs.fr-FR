@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ef4b1aba-a55d-4d64-ac80-5d4e6c4e72bd
-description: L’élément GetClientExtensionResponse contient la réponse pour obtenir des informations de configuration d’une application.
-ms.openlocfilehash: 523a103ec9397b0dce08aa47b074303c9e6ac897
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetClientExtensionResponse contient la réponse pour obtenir les informations de configuration d’une application.
+ms.openlocfilehash: 65c1995fe75b3894607d27ed65548fbbdce0664a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756542"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459517"
 ---
 # <a name="getclientextensionresponse"></a>GetClientExtensionResponse
 
-L’élément **GetClientExtensionResponse** contient la réponse pour obtenir des informations de configuration d’une application. 
+L’élément **GetClientExtensionResponse** contient la réponse pour obtenir les informations de configuration d’une application. 
   
 ```XML
 <GetClientExtensionResponse>
@@ -33,15 +33,15 @@ L’élément **GetClientExtensionResponse** contient la réponse pour obtenir d
  **ClientExtensionResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ClientExtensions](clientextensions.md) | [RawMasterTableXml](rawmastertablexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [ClientExtensions](clientextensions.md)  |  [RawMasterTableXml](rawmastertablexml.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e8b3813c-fc7e-4674-a4c6-6818c13d2bcf
-description: L’élément PostedTime représente l’heure à laquelle un objet PostItem a été validée. Cet élément est en lecture seule. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 8280fc26c534b280d0f30f663b6cc3a3958036c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PostedTime représente l’heure à laquelle un PostItem a été publié. Cet élément est en lecture seule. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 5fc670bfee97a46700bc4442d489696a4489f88a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828860"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459194"
 ---
 # <a name="postedtime"></a>PostedTime
 
-L’élément **PostedTime** représente l’heure à laquelle un [objet PostItem](postitem.md) a été validée. Cet élément est en lecture seule. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **PostedTime** représente l’heure à laquelle un [PostItem](postitem.md) a été publié. Cet élément est en lecture seule. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <PostedTime/>
@@ -30,11 +30,11 @@ L’élément **PostedTime** représente l’heure à laquelle un [objet PostIte
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Objet postItem](postitem.md) <br/> |Représente un objet PostItem dans la banque d’informations Exchange. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un PostItem dans la Banque d’Exchange. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur dateTime qui représente un **objet PostItem** a été validée. Cette propriété est en lecture seule. 
+La valeur de texte est un dateTime qui représente le moment où un **PostItem** a été publié. Cette propriété est en lecture seule. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

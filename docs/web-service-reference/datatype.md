@@ -1,5 +1,5 @@
 ---
-title: Type de données
+title: DataType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 267fe5aa-f9b1-4d4c-ac11-0f2e50ec2627
-description: L’élément de type de données décrit le type de données qui sont partagés par un dossier partagé.
-ms.openlocfilehash: b1adac8e3029abd64df96ab1560706babe4b12f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DataType décrit le type de données partagées par un dossier partagé.
+ms.openlocfilehash: a7df8d38e10f0ab31038d790d8f35208d1be66d5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755804"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458830"
 ---
-# <a name="datatype"></a>Type de données
+# <a name="datatype"></a>DataType
 
-L’élément de **type de données** décrit le type de données qui sont partagés par un dossier partagé. 
+L’élément **DataType** décrit le type de données partagées par un dossier partagé. 
   
 ```xml
 <DataType>Calendar or Contacts</DataType>
@@ -31,11 +31,11 @@ L’élément de **type de données** décrit le type de données qui sont parta
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,16 +47,16 @@ Aucun.
 |:-----|:-----|
 |[GetSharingFolder](getsharingfolder.md) <br/> |Définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément de **type de données** . 
+Le tableau suivant répertorie les valeurs possibles pour l’élément **DataType** . 
   
-**Valeurs des éléments de type de données**
+**Valeurs des éléments DataType**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Calendrier  <br/> |Indique que le dossier partagé contienne des informations de calendrier.  <br/> |
-|Contacts  <br/> |Indique que le dossier partagé contienne des informations de contact.  <br/> |
+|Calendrier  <br/> |Indique que le dossier partagé contient des informations de calendrier.  <br/> |
+|Contacts  <br/> |Indique que le dossier partagé contient des informations de contact.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f128fdaa-ca3d-4614-8e55-f25e76a67b6c
-description: L’élément WeeklyRegeneration décrit la fréquence, en semaines, dans lequel une tâche est régénérée.
-ms.openlocfilehash: 36cd3cc5c180f2b2cf53708e7787d0595f518def
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément WeeklyRegeneration décrit la fréquence, en semaines, de régénération d’une tâche.
+ms.openlocfilehash: dc333e051fd2213942e629a3f2764c72abfaeba5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839047"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459748"
 ---
 # <a name="weeklyregeneration"></a>WeeklyRegeneration
 
-L’élément **WeeklyRegeneration** décrit la fréquence, en semaines, dans lequel une tâche est régénérée. 
+L’élément **WeeklyRegeneration** décrit la fréquence, en semaines, de régénération d’une tâche. 
   
 ```xml
 <WeeklyRegeneration>
@@ -32,23 +32,23 @@ L’élément **WeeklyRegeneration** décrit la fréquence, en semaines, dans le
  **WeeklyRegeneratingPatternType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Intervalle](interval.md) <br/> |Définit l’intervalle, en semaines, dans la mesure où la tâche est terminée, après lequel une tâche est régénérée.  <br/> |
+|[Interval](interval.md) <br/> |Définit l’intervalle, en semaines, depuis la fin de la tâche, après lequel une nouvelle tâche est régénérée.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de périodicité pour les tâches répétitives.  <br/> |
+|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

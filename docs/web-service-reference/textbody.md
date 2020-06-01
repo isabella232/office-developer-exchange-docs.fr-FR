@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bd0c0bce-3e7c-47c7-af7f-5ee5f5ad9820
-description: L’élément TextBody Spécifie le corps du texte.
-ms.openlocfilehash: 78b18b27891d571605d2eeeeffb5c252cc790c11
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TextBody spécifie le corps du texte.
+ms.openlocfilehash: c0002785fb990a251267218f7a5f232e521db41a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838688"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459482"
 ---
 # <a name="textbody"></a>TextBody
 
-L’élément **TextBody** Spécifie le corps du texte. 
+L’élément **TextBody** spécifie le corps du texte. 
   
 ```XML
 <TextBody BodyTypeType=" HTML | Text" IsTruncated=" true | false"></TextBody>
@@ -26,14 +26,14 @@ L’élément **TextBody** Spécifie le corps du texte.
  **BodyType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|BodyTypeType  <br/> |Indique le type de corps. La valeur de **texte** pour l’attribut **BodyTypeType** indique que le corps est au format texte brut. La valeur de **code HTML** pour l’attribut **BodyTypeType** indique que le corps est au format HTML. L’attribut **BodyTypeType** est requis.  <br/> |
-|IsTruncated  <br/> |Indique que le contenu du corps a été tronqué. Texte la valeur **false** pour l’attribut **IsTruncated** indique que le contenu du corps n’a pas été tronqué. Si la longueur du corps du texte est supérieure à la valeur définie dans l’élément [MaximumBodySize](maximumbodysize.md) le corps normalisé sera tronqué.  <br/> |
+|BodyTypeType  <br/> |Indique le type de corps. La valeur de **Text** pour l’attribut **BodyTypeType** indique que le corps est en texte brut. La valeur de **HTML** pour l’attribut **BodyTypeType** indique que le corps est au format html. L’attribut **BodyTypeType** est obligatoire.  <br/> |
+|IsTruncated  <br/> |Indique que le contenu du corps a été tronqué. Une valeur de texte **false** pour l’attribut **IsTruncated** indique que le contenu du corps n’a pas été tronqué. Le corps normalisé est tronqué si la longueur du corps du texte est supérieure à la valeur définie dans l’élément [MaximumBodySize](maximumbodysize.md) .  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,11 +41,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Élément](item.md) | [Contact](contact.md) | [Message](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [CalendarItem](calendaritem.md) | [PostItem](postitem.md) | [tâche](task.md)
+[Élément](item.md)  |  [Contact](contact.md)  |  [Message](message-ex15websvcsotherref.md)  |  [DistributionList](distributionlist.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Tâche](task.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TextBody** est le corps du texte de l’élément. 
+La valeur de texte de l’élément **TextBody** est le corps de texte de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

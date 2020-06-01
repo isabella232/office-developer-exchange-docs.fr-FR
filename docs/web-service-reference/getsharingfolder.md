@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: ed5bb61f-89c7-4baa-83ee-30f06a49ff9b
 description: L’élément GetSharingFolder définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié. Il s’agit de l’élément de base pour l’opération GetSharingFolder.
-ms.openlocfilehash: 7c2f31aa27c1cbde6cdad2b41a341916b4bed2ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cb76c534d9b30d0a9d1b267396551eb2871e638a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827669"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460504"
 ---
 # <a name="getsharingfolder"></a>GetSharingFolder
 
@@ -30,19 +30,19 @@ L’élément **GetSharingFolder** définit une demande pour obtenir l’identif
  **GetSharingFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SmtpAddress](smtpaddress.md) <br/> |Représente l’adresse de messagerie SMTP de l’autre partie de la relation de partage. Cet élément est obligatoire.  <br/> |
-|[DataType](datatype.md) <br/> |Décrit le type de données qui sont partagés par un dossier partagé. Cet élément est facultatif.  <br/> |
-|[SharedFolderId](sharedfolderid.md) <br/> |Représente l’identificateur du dossier partagé dont l’identificateur de dossier local doit être retourné. Cet élément est facultatif.  <br/> |
+|[SmtpAddress](smtpaddress.md) <br/> |Représente l’adresse de messagerie SMTP de l’autre partie dans la relation de partage. Cet élément est obligatoire.  <br/> |
+|[DataType](datatype.md) <br/> |Décrit le type de données partagées par un dossier partagé. Cet élément est facultatif.  <br/> |
+|[SharedFolderId](sharedfolderid.md) <br/> |Représente l’identificateur du dossier partagé dont l’identificateur de dossier local doit être renvoyé. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -50,17 +50,17 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Un élément GetSharingFolder doit contenir un élément de [SmtpAddress](smtpaddress.md) . Un élément GetSharingFolder doit également contenir un élément de [type de données](datatype.md) ou un élément [SharedFolderId](sharedfolderid.md) , mais ne peut pas contenir à la fois. 
+Un élément GetSharingFolder doit contenir un élément [SmtpAddress](smtpaddress.md) . Un élément GetSharingFolder doit également contenir un élément [DataType](datatype.md) ou un élément [SharedFolderId](sharedfolderid.md) , mais ne peut pas contenir les deux. 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS que héberge Exchange Web Services de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

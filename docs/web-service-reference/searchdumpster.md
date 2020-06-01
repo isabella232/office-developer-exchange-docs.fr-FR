@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddb62dce-c87a-4714-8023-a6b697a29699
-description: L’élément SearchDumpster Spécifie s’il faut rechercher dans la benne de Exchange.
-ms.openlocfilehash: 4a40ee2da7fdaa4eaa3f5349545a0bfd3e13ba73
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SearchDumpster spécifie s’il faut effectuer une recherche dans la benne Exchange.
+ms.openlocfilehash: 067bf8ea3e589aa392c6b8ba6d4dc10b430c1f28
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829283"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460490"
 ---
 # <a name="searchdumpster"></a>SearchDumpster
 
-L’élément **SearchDumpster** Spécifie s’il faut rechercher dans la benne de Exchange. 
+L’élément **SearchDumpster** spécifie s’il faut effectuer une recherche dans la benne Exchange. 
   
 ```XML
 <SearchDumpster> true | false </SearchDumpster>
@@ -26,11 +26,11 @@ L’élément **SearchDumpster** Spécifie s’il faut rechercher dans la benne 
  ****
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **SearchDumpster** indique que la recherche de statistiques de boîtes aux lettres inclut la benne Exchange. La valeur **false** indique que la benne Exchange n’est pas recherchée. 
+Une valeur de texte de **true** pour l’élément **SearchDumpster** indique que la recherche de statistiques de boîte aux lettres inclut la benne Exchange. La valeur **false** indique que la benne Exchange n’est pas recherchée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

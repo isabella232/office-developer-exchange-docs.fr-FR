@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 409c7893-7b69-4b0b-9d5b-112a0dfacde7
-description: L’élément ErrorDescription décrit l’erreur qui est renvoyé dans les informations relatives à un élément qui ne peuvent pas être indexé.
-ms.openlocfilehash: 458604282942472d83c2794bd0b7403284ac1df1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ErrorDescription décrit l’erreur qui est renvoyée dans les informations relatives à un élément qui ne peut pas être indexé.
+ms.openlocfilehash: d12e8b3dfc377097f649ef6f863bc59c1a59df9a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756207"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460070"
 ---
 # <a name="errordescription"></a>ErrorDescription
 
-L’élément **ErrorDescription** décrit l’erreur qui est renvoyé dans les informations relatives à un élément qui ne peuvent pas être indexé. 
+L’élément **ErrorDescription** décrit l’erreur qui est renvoyée dans les informations relatives à un élément qui ne peut pas être indexé. 
   
 ```XML
 <ErrorDescription></ErrorDescription>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ErrorDescription** contient une description d’une erreur de niveau élément. 
+La valeur de texte de l’élément **ErrorDescription** contient une description d’une erreur au niveau de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

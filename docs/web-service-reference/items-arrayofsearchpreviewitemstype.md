@@ -1,5 +1,5 @@
 ---
-title: Éléments (ArrayOfSearchPreviewItemsType)
+title: Items (ArrayOfSearchPreviewItemsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: L’élément Items spécifie une liste d’éléments disponibles pour visualisation comme les résultats d’une opération SearchMailboxes.
-ms.openlocfilehash: 6c6b4410ec4f6fa3d7c49d43b515908353233794
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ITEMS spécifie une liste d’éléments disponibles pour l’aperçu comme résultats d’une opération SearchMailboxes.
+ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828153"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459860"
 ---
-# <a name="items-arrayofsearchpreviewitemstype"></a>Éléments (ArrayOfSearchPreviewItemsType)
+# <a name="items-arrayofsearchpreviewitemstype"></a>Items (ArrayOfSearchPreviewItemsType)
 
-L’élément **Items** spécifie une liste d’éléments disponibles pour visualisation comme les résultats d’une opération **SearchMailboxes** . 
+L’élément **Items** spécifie une liste d’éléments disponibles pour l’aperçu comme résultats d’une opération **SearchMailboxes** . 
   
 ```XML
 <Items>
@@ -28,11 +28,11 @@ L’élément **Items** spécifie une liste d’éléments disponibles pour visu
  **ArrayOfSearchPreviewItemsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

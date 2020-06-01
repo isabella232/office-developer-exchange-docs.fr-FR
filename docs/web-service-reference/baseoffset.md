@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0ffad7a6-8e1b-452b-9d87-8e0f6c77f0a6
-description: L’élément BaseOffset représente la toutes les heures de décalage du temps universel coordonné (UTC) pour le fuseau horaire actuel.
-ms.openlocfilehash: 56fc136537b7d5370074a0e6d492f214da3fd960
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BaseOffset représente le décalage horaire par rapport au temps universel coordonné (UTC) pour le fuseau horaire actuel.
+ms.openlocfilehash: 1e29f123dfac2e29807e0a2077d47adb14844f4e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755377"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460259"
 ---
 # <a name="baseoffset"></a>BaseOffset
 
-L’élément **BaseOffset** représente la toutes les heures de décalage du temps universel coordonné (UTC) pour le fuseau horaire actuel. 
+L’élément **BaseOffset** représente le décalage horaire par rapport au temps universel coordonné (UTC) pour le fuseau horaire actuel. 
   
 ```xml
 <BaseOffset/>
@@ -30,7 +30,7 @@ L’élément **BaseOffset** représente la toutes les heures de décalage du te
  **duration**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MeetingTimeZone](meetingtimezone.md) <br/> |Représente le fuseau horaire de l’emplacement où se trouve la réunion.  <br/> |
+|[MeetingTimeZone](meetingtimezone.md) <br/> |Représente le fuseau horaire de l’emplacement où la réunion est hébergée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

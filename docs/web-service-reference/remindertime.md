@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6081777a-ae91-43d2-bf83-f3742030aa70
-description: L’élément ReminderTime Spécifie l’heure du rappel se produise.
-ms.openlocfilehash: b72dd8d6252f41268263579d867a03e460c4ed6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReminderTime spécifie l’heure à laquelle le rappel doit avoir lieu.
+ms.openlocfilehash: e5a1194af43e038a608bf928313909519e7d44e7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829075"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460028"
 ---
 # <a name="remindertime"></a>ReminderTime
 
-L’élément **ReminderTime** Spécifie l’heure du rappel se produise. 
+L’élément **ReminderTime** spécifie l’heure à laquelle le rappel doit avoir lieu. 
   
 ```XML
 <ReminderTime/>
@@ -26,11 +26,11 @@ L’élément **ReminderTime** Spécifie l’heure du rappel se produise.
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Rappel](reminder.md)
+[Reminder](reminder.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ReminderTime** est l’heure du rappel se produise. 
+La valeur de texte de l’élément **ReminderTime** est l’heure à laquelle le rappel doit avoir lieu. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-[Rappel](reminder.md)
+[Reminder](reminder.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

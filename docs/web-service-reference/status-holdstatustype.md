@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fee3f1f9-e868-49fa-a554-7ff096964718
-description: L’élément Status spécifie l’état de conservation pour une boîte aux lettres.
-ms.openlocfilehash: c40dc865d2b305ac86fa40d536e2d516a14260ab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Status spécifie l’état de conservation d’une boîte aux lettres.
+ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829579"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459986"
 ---
 # <a name="status-holdstatustype"></a>État (HoldStatusType)
 
-L’élément **Status** Spécifie l’état de conservation pour une boîte aux lettres. 
+L’élément **Status** spécifie l’état de conservation d’une boîte aux lettres. 
   
 ```XML
 <Status> NotOnHold | Pending | OnHold | PartialHold | Failed </Status>
@@ -26,11 +26,11 @@ L’élément **Status** Spécifie l’état de conservation pour une boîte aux
  **HoldStatusType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,19 +40,19 @@ Aucun.
 
 [MailboxHoldStatus](mailboxholdstatus.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Status** est l’état de conservation d’une boîte aux lettres. L’élément **Status** peut avoir les valeurs dans la liste suivante. 
+La valeur de texte de l’élément **Status** est l’état de conservation d’une boîte aux lettres. L’élément **Status** peut avoir les valeurs répertoriées dans la liste suivante. 
   
-> NotOnHold - la boîte aux lettres n’est pas en attente.
+> NotOnHold-la boîte aux lettres n’est pas en attente.
     
-> En attente - la boîte aux lettres est en attente d’être placé soit publié en attente. 
+> En attente : la boîte aux lettres est en attente d’être placée ou libérée en conservation. 
     
-> En attente - la suspension a été appliqué à la boîte aux lettres. 
+> OnHold-la suspension a été appliquée à la boîte aux lettres. 
     
-> PartialHold - la suspension a été appliqué à des boîtes aux lettres, mais pas pour toutes les boîtes aux lettres.
+> PartialHold-la conservation a été appliquée avec succès à certaines boîtes aux lettres, mais pas à toutes les boîtes aux lettres.
     
-> Échec - Échec de la suspension à appliquer à la boîte aux lettres.
+> Failed : la conservation n’a pas pu s’appliquer à la boîte aux lettres.
     
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

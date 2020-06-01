@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cd307892-2f69-4494-8325-219bdb5c3ad5
-description: L’élément ItemChanges contient un tableau d’éléments ItemChange qui identifient les éléments et les mises à jour à appliquer aux éléments.
-ms.openlocfilehash: 38fe112441a8773a2d6b494ed57c63341cab2b58
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ItemChanges contient un tableau d’éléments ItemChange, qui identifient les éléments et les mises à jour à appliquer aux éléments.
+ms.openlocfilehash: ea6fb2023b88360f9558057e80c7fe0d855173b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828141"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459909"
 ---
 # <a name="itemchanges"></a>ItemChanges
 
-L’élément **ItemChanges** contient un tableau d’éléments [ItemChange](itemchange.md) qui identifient les éléments et les mises à jour à appliquer aux éléments. 
+L’élément **itemChanges** contient un tableau d’éléments [ItemChange,](itemchange.md) qui identifient les éléments et les mises à jour à appliquer aux éléments. 
   
 [UpdateItem](updateitem.md)
   
@@ -36,11 +36,11 @@ L’élément **ItemChanges** contient un tableau d’éléments [ItemChange](it
  **NonEmptyArrayOfItemChangesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UpdateItem](updateitem.md) <br/> |Définit une demande de mise à jour des éléments dans une boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/UpdateItem` <br/> |
+|[UpdateItem](updateitem.md) <br/> |Définit une demande de mise à jour des éléments dans une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/UpdateItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

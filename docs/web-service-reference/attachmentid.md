@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 55a5fd77-60d1-40fa-8144-770600cedc6a
-description: L’élément AttachmentId identifie un élément ou fichier des pièces jointes. Cet élément est utilisé dans les réponses CreateAttachment.
-ms.openlocfilehash: 2910503d1661ca3aaeeb4e319deb39f6b57c5c0a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AttachmentId identifie un élément ou une pièce jointe. Cet élément est utilisé dans les réponses CreateAttachment.
+ms.openlocfilehash: b5dc9299b615f0fc01b8afcbaabf0ec7996e53d1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755335"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459110"
 ---
 # <a name="attachmentid"></a>AttachmentId
 
-L’élément **AttachmentId** identifie un élément ou fichier des pièces jointes. Cet élément est utilisé dans les réponses CreateAttachment. 
+L’élément **attachmentid** identifie un élément ou une pièce jointe. Cet élément est utilisé dans les réponses CreateAttachment. 
   
 ```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
@@ -30,16 +30,15 @@ L’élément **AttachmentId** identifie un élément ou fichier des pièces joi
  **AttachmentIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|
-  **Id** <br/> |Identifie l’identificateur unique de la pièce jointe.  <br/> |
-|**RootItemId** <br/> |Identifie l’identificateur unique de l’élément racine du magasin à laquelle la pièce jointe est associée.  <br/> |
-|**RootItemChangeKey** <br/> |Identifie la touche de modification de l’élément racine du magasin à laquelle la pièce jointe est associée.  <br/> |
+|**Id** <br/> |Identifie l’identificateur unique de la pièce jointe.  <br/> |
+|**RootItemId** <br/> |Identifie l’identificateur unique de l’élément de magasin racine auquel la pièce jointe est attachée.  <br/> |
+|**RootItemChangeKey** <br/> |Identifie la clé de modification de l’élément de magasin racine auquel la pièce jointe est attachée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,13 +49,13 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier qui est attaché à un élément dans la banque d’informations Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il est important de noter que lorsqu’une pièce jointe est créée, la modifier la clé de l’élément racine est modifiée.
+Il est important de noter que lors de la création d’une pièce jointe, la clé de modification de l’élément racine est modifiée.
   
-L’élément [AttachmentId (GetAttachment et DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) est utilisé dans les requêtes DeleteAttachment et GetAttachment. 
+L’élément [attachmentid (GetAttachment et DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) est utilisé dans les requêtes DeleteAttachment et GetAttachment. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -64,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

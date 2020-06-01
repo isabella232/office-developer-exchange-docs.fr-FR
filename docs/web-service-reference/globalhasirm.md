@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 425272b2-7a4e-4376-aea9-d9b10c1ad6ee
-description: L’élément GlobalHasIrm indique si au moins un message dans la conversation et sur tous les dossiers est un message protégé IRM.
-ms.openlocfilehash: ad3eafcb38829e7ea57cbc7535b0f5411ad595d2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GlobalHasIrm spécifie si au moins un message de la conversation et de tous les dossiers est un message protégé par IRM.
+ms.openlocfilehash: 10b99c9a6421a89a549b69e918087f3e542ffa09
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827717"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459468"
 ---
 # <a name="globalhasirm"></a>GlobalHasIrm
 
-L’élément **GlobalHasIrm** indique si au moins un message dans la conversation et sur tous les dossiers est un message protégé IRM. 
+L’élément **GlobalHasIrm** spécifie si au moins un message de la conversation et de tous les dossiers est un message protégé par IRM. 
   
 ```XML
 <GlobalHasIrm> true | false </GlobalHasIrm>
@@ -26,11 +26,11 @@ L’élément **GlobalHasIrm** indique si au moins un message dans la conversati
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [Conversation (ConversationType)](conversation-conversationtype.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GlobalHasIrm** est **la valeur true** si au moins un message dans la conversation et sur tous les dossiers est un message protégé IRM. Dans le cas contraire, la valeur est **false**.
+La valeur de texte de l’élément **GlobalHasIrm** est **true** si au moins un message dans la conversation et tous les dossiers est un message protégé par IRM. Sinon, la valeur est **false**.
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61d843c-bca5-4c88-9667-fd03d2a963a1
-description: L’élément Attributions spécifie un tableau des informations d’attribution pour une ou plusieurs contacts ou les destinataires Active Directory dans le personnage associé.
-ms.openlocfilehash: 52fecb4e4381d5e9dbbaf7134fa18068ba15f6ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément adments indique un tableau d’informations d’attribution pour un ou plusieurs contacts ou destinataires Active Directory agrégés dans le personnage associé.
+ms.openlocfilehash: a9883e06a8adbd5c9d3bc7e1edd28c62418df653
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755348"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460322"
 ---
 # <a name="attributions-arrayofpersonaattributionstype"></a>Attributions (ArrayOfPersonaAttributionsType)
 
-L’élément **Attributions** spécifie un tableau des informations d’attribution pour une ou plusieurs contacts ou les destinataires Active Directory dans le personnage associé. 
+L’élément adments indique un tableau d’informations **d’attribution pour** un ou plusieurs contacts ou destinataires Active Directory agrégés dans le personnage associé. 
   
 ```XML
 <Attributions>
@@ -28,23 +28,23 @@ L’élément **Attributions** spécifie un tableau des informations d’attribu
  **ArrayOfPersonaAttributionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Spécifie une instance d’un tableau d’attributs pour un élément **PersonaType** .  <br/> |
+|[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Spécifie une instance dans un tableau d’attributs pour un élément **PersonaType** .  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

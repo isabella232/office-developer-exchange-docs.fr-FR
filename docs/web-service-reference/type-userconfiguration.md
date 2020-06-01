@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d09a9621-6950-451a-90dc-920af9cab35c
-description: L’élément de Type spécifie un type d’objet dictionary.
-ms.openlocfilehash: 01729f0b5cb71989aef550abb08346cfe9a35789
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément type spécifie un type d’objet Dictionary.
+ms.openlocfilehash: ea196e070279bb809cc2e4c2a51dd2453dd9b331
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838785"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458872"
 ---
 # <a name="type-userconfiguration"></a>Type (UserConfiguration)
 
-L’élément de **Type** spécifie un type d’objet dictionary. 
+L’élément **type** spécifie un type d’objet Dictionary. 
   
 ```xml
 <Type>DateTime or Boolean or Byte or String or Integer32 or UnsignedInteger32 or Integer64 or UnsignedInteger64 or StringArray or ByteArray</Type> 
@@ -30,11 +30,11 @@ L’élément de **Type** spécifie un type d’objet dictionary.
  **UserConfigurationDictionaryObjectTypesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,18 +47,19 @@ Aucun.
 |[DictionaryKey](dictionarykey.md) <br/> |Spécifie la clé de dictionnaire pour une propriété de dictionnaire.  <br/> |
 |[DictionaryValue](dictionaryvalue.md) <br/> |Spécifie la valeur de dictionnaire pour une propriété de dictionnaire.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour le **Type** d’élément. 
+Le tableau suivant répertorie les valeurs possibles pour l’élément **type** . 
   
-**Valeurs de type d’élément**
+**Valeurs des éléments de type**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Date/heure  <br/> ||
-|Bool�en  <br/> ||
+|DateTime
+  <br/> ||
+|Boolean  <br/> ||
 |Octet  <br/> ||
-|String  <br/> ||
+|Chaîne  <br/> ||
 |Integer32  <br/> ||
 |UnsignedInteger32  <br/> ||
 |Integer64  <br/> ||
@@ -68,13 +69,13 @@ Le tableau suivant répertorie les valeurs possibles pour le **Type** d’élém
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

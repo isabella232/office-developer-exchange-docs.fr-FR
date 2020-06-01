@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2f9cf6af-c531-4d7d-90c9-1a1db504d890
-description: L’élément Period définit le nom, le décalage et l’identificateur unique pour une étape spécifique du fuseau horaire.
-ms.openlocfilehash: 3b5d5877e6d9baffdfe536a0feec3b25b6d2883f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément period définit le nom, le décalage temporel et l’identificateur unique pour une étape spécifique du fuseau horaire.
+ms.openlocfilehash: a7c36a9de01fd0484a7df75de3b5525992ef7ee7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828726"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459720"
 ---
 # <a name="period"></a>Point
 
-L’élément **Period** définit le nom, le décalage et l’identificateur unique pour une étape spécifique du fuseau horaire. 
+L’élément **period** définit le nom, le décalage temporel et l’identificateur unique pour une étape spécifique du fuseau horaire. 
   
 ```xml
 <Period Bias="" Name="" Id=""/>
@@ -30,15 +30,15 @@ L’élément **Period** définit le nom, le décalage et l’identificateur uni
  **PeriodType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Bias  <br/> |Une valeur xs qui représente le décalage du temps universel coordonné (UTC) pour la période.  <br/> |
-|Nom  <br/> |Une valeur de type string qui représente le nom descriptif de la période.  <br/> |
-|ID  <br/> |Une valeur de type string qui représente l’identificateur pour la période.  <br/> |
+|Bias  <br/> |Valeur XS : Duration qui représente le décalage horaire par rapport au temps universel coordonné (UTC) pour la période.  <br/> |
+|Nom  <br/> |Valeur de type String qui représente le nom descriptif de la période.  <br/> |
+|ID  <br/> |Valeur de type String qui représente l’identificateur de la période.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,7 +48,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodes](periods.md) <br/> |Représente un tableau de points qui définissent le décalage de temps à différents stades du fuseau horaire.  <br/> |
+|[Periods](periods.md) <br/> |Représente un tableau de périodes qui définissent le décalage temporel à différentes étapes du fuseau horaire.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

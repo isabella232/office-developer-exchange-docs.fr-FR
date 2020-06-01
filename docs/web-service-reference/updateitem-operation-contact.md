@@ -12,18 +12,18 @@ api_type:
 - schema
 ms.assetid: 298fdd71-a83d-4407-9728-4f0a8e2d857c
 description: L'opération UpdateItem sert à mettre à jour les propriétés de l'élément de contact dans la banque d'informations Exchange.
-ms.openlocfilehash: f2a501ce8e69068cd30b58011adf4defc68ce365
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 66e1b91ea3154d8a501339aed7b398970e8f5392
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838884"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459825"
 ---
 # <a name="updateitem-operation-contact"></a>Opération UpdateItem (contacts)
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. L'opération UpdateItem sert à mettre à jour les propriétés de l'élément de contact dans la banque d'informations Exchange.
+L'opération UpdateItem sert à mettre à jour les propriétés de l'élément de contact dans la banque d'informations Exchange.
   
-## <a name="updateitem-contact-request-example"></a>Exemple de requête UpdateItem (contacts)
+## <a name="updateitem-contact-request-example"></a>Exemple de requête UpdateItem (contact)
 
 ### <a name="description"></a>Description
 
@@ -36,9 +36,9 @@ L'exemple de code suivant montre comment mettre à jour l'adresse de messagerie 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <UpdateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 ConflictResolution="AlwaysOverwrite">
       <ItemChanges>
         <t:ItemChange>
@@ -64,7 +64,7 @@ L'exemple de code suivant montre comment mettre à jour l'adresse de messagerie 
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -74,7 +74,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ItemChange](itemchange.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [Mises à jour (élément)](updates-item.md)
     
@@ -103,12 +103,12 @@ L'exemple de code suivant montre une réponse UpdateItem réussie.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -128,7 +128,7 @@ L'exemple de code suivant montre une réponse UpdateItem réussie.
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -146,9 +146,9 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Contact](contact.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="invalid-updateitem-contact-request-example"></a>Exemple de requête non valide UpdateItem (contacts)
+## <a name="invalid-updateitem-contact-request-example"></a>Exemple de requête UpdateItem (contact) non valide
 
 ### <a name="description"></a>Description
 
@@ -161,9 +161,9 @@ L'exemple de code suivant illustre une demande non valide.
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <UpdateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 ConflictResolution="AlwaysOverwrite">
       <ItemChanges>
         <t:ItemChange>
@@ -189,7 +189,7 @@ L'exemple de code suivant illustre une demande non valide.
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-## <a name="updateitem-contact-error-response"></a>Réponse d’erreur UpdateItem (contacts)
+## <a name="updateitem-contact-error-response"></a>Réponse d’erreur UpdateItem (contact)
 
 ### <a name="description"></a>Description
 
@@ -201,17 +201,17 @@ L'exemple de code suivant montre une réponse d'erreur à une demande de UpdateI
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
       <soap:faultcode>Client</soap:faultcode>
       <soap:faultstring>The request failed schema validation.</soap:faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The 'Key' attribute is invalid - The value 'EmailAddress4' is invalid according to its data type 'http://schemas.microsoft.com/exchange/services/2006/types:EmailAddressKeyType' - The Enumeration constraint failed.</e:Message>
-        <e:Line xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">17</e:Line>
-        <e:Position xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">19</e:Position>
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The 'Key' attribute is invalid - The value 'EmailAddress4' is invalid according to its data type 'https://schemas.microsoft.com/exchange/services/2006/types:EmailAddressKeyType' - The Enumeration constraint failed.</e:Message>
+        <e:Line xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">17</e:Line>
+        <e:Position xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">19</e:Position>
       </detail>
     </soap:Fault>
   </soap:Body>

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3e16163f-cffe-4c4e-9a2a-00245d25ba96
-description: L’élément ContainsSenderStrings indique les chaînes qui doivent apparaître dans la propriété From des messages entrants afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: d174c0d7e2cbfd5b671a825a867d3ee7e24c2f2a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContainsSenderStrings indique les chaînes qui doivent apparaître dans la propriété from des messages entrants pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: e7b78f1311d288db7969a0024bde84433e18d37f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755597"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458977"
 ---
 # <a name="containssenderstrings"></a>ContainsSenderStrings
 
-L’élément **ContainsSenderStrings** indique les chaînes qui doivent apparaître dans la propriété **From** des messages entrants afin que l’exception ou la condition à appliquer. 
+L’élément **ContainsSenderStrings** indique les chaînes qui doivent apparaître dans la propriété **from** des messages entrants pour que la condition ou l’exception s’applique. 
   
 ```XML
 <ContainsSenderStrings>
@@ -32,17 +32,17 @@ L’élément **ContainsSenderStrings** indique les chaînes qui doivent appara�
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans la propriété **From** des messages entrants afin que l’exception ou la condition à appliquer.  <br/> |
+|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans la propriété **from** des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -63,9 +63,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

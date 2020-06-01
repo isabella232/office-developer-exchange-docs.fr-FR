@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: a2cde8b8-2d31-4ebf-8171-f4dfd650d079
-description: L’élément salle représente une salle de réunion.
-ms.openlocfilehash: e064a458b5a9265fc9dad63c87c641eaf47d7062
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Room représente une salle de réunion.
+ms.openlocfilehash: 3d5d587853e435016fdff6b9d268892a35fea825
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829242"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460532"
 ---
 # <a name="room"></a>Salle
 
-L’élément **salle** représente une salle de réunion. 
+L’élément **Room** représente une salle de réunion. 
   
-[Salles](rooms.md)
+[Salons](rooms.md)
   
 [Salle](room.md)
   
@@ -36,23 +36,23 @@ L’élément **salle** représente une salle de réunion.
  **RoomType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID (EmailAddressType)](id-emailaddresstype.md) <br/> |Un identificateur qui contient une adresse de messagerie et le nom complet qui représente la salle de réunion.  <br/> |
+|[ID (EmailAddressType)](id-emailaddresstype.md) <br/> |Identificateur qui contient une adresse de messagerie et un nom d’affichage qui représente la salle de réunion.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Salles](rooms.md) <br/> |Définit une liste de salles associés à une fonctionnalité commune, comme étant situé dans le même bâtiment de réunion.  <br/> |
+|[Salons](rooms.md) <br/> |Définit une liste des salles de réunion associées à une fonctionnalité commune, par exemple se situer dans le même bâtiment.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -1,22 +1,22 @@
 ---
-title: EcpUrl-sms (POX)
+title: EcpUrl-SMS (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5e5e589-ee16-42a8-9cd4-ae3909fc869b
-description: L’élément EcpUrl-sms spécifie une URL partielle peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour accéder aux paramètres du Service SMS (Short Message) pour un utilisateur à extension messagerie.
-ms.openlocfilehash: 38471db7b7e046e43425b132b1716033c1c96afd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl-SMS spécifie une URL partielle qui peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour accéder aux paramètres SMS (Short Message Service) pour un utilisateur à extension messagerie.
+ms.openlocfilehash: 24f475e7f2d54fa565cc90796a983c0bd842e4da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756068"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458683"
 ---
-# <a name="ecpurl-sms-pox"></a>EcpUrl-sms (POX)
+# <a name="ecpurl-sms-pox"></a>EcpUrl-SMS (POX)
 
-L’élément **EcpUrl-sms** spécifie une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres du Service SMS (Short Message) pour un utilisateur à extension messagerie. 
+L’élément **EcpUrl-SMS** spécifie une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres SMS (Short Message Service) pour un utilisateur à extension messagerie. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,9 +24,9 @@ L’élément **EcpUrl-sms** spécifie une URL partielle peut être combinée av
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-sms (POX)](ecpurl-sms-pox.md)
+[EcpUrl-SMS (POX)](ecpurl-sms-pox.md)
   
 ```XML
 <EcpUrl-sms/>
@@ -34,11 +34,11 @@ L’élément **EcpUrl-sms** spécifie une URL partielle peut être combinée av
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres de SMS pour l’utilisateur. 
+La valeur de texte représente une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder aux paramètres SMS pour l’utilisateur. 
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl-sms** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl-SMS** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

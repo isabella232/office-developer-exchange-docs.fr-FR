@@ -1,5 +1,5 @@
 ---
-title: Altitude
+title: Latitude
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 14c2c8bd-db54-4b03-9a97-190ff9e908b3
-description: L’élément Altitude Spécifie l’altitude d’une adresse postale.
-ms.openlocfilehash: 03517dd3ffa38e435da8f4f5f3aae23f276411bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément altitude indique l’altitude d’une adresse postale.
+ms.openlocfilehash: 7cbb3872cd0ad53b1617f9f712633e19e6fe397d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458837"
 ---
-# <a name="altitude"></a>Altitude
+# <a name="altitude"></a>Latitude
 
-L’élément **Altitude** Spécifie l’altitude d’une adresse postale. 
+L’élément **altitude** indique l’altitude d’une adresse postale. 
   
 ```XML
 <Altitude></Altitude>
 ```
 
- **xs : double**
+ **XS : double**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,9 +42,9 @@ Aucun.
 |:-----|:-----|
 |[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Spécifie l’adresse postale de l’emplacement.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément Altitude est l’altitude d’une adresse postale.
+La valeur de texte de l’élément altitude est l’altitude d’une adresse postale.
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

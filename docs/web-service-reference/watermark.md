@@ -1,5 +1,5 @@
 ---
-title: Filigrane
+title: Watermark
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e1545046-94f9-4ac7-af1c-ea81dfb6822c
-description: L’élément filigrane représente un signet d’événements dans la file d’attente des événements de boîte aux lettres.
-ms.openlocfilehash: 1867aa781bc24f5eb3bdb4648fa494a2a7ea396a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Watermark représente un signet d’événement dans la file d’attente d’événements de boîte aux lettres.
+ms.openlocfilehash: a717196101fea698b0b8c66f92a3d420fda9a421
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839023"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459762"
 ---
-# <a name="watermark"></a>Filigrane
+# <a name="watermark"></a>Watermark
 
-L’élément **filigrane** représente un signet d’événements dans la file d’attente des événements de boîte aux lettres. 
+L’élément **Watermark** représente un signet d’événement dans la file d’attente d’événements de boîte aux lettres. 
   
 ```xml
 <Watermark/>
@@ -30,11 +30,11 @@ L’élément **filigrane** représente un signet d’événements dans la file 
  **WatermarkType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,25 +44,25 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement de type pull.  <br/> |
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification push d’événements.  <br/> |
-|[GetEvents](getevents.md) <br/> |Représente l’opération utilisée par les clients de l’extraction pour demander des notifications à partir du serveur.  <br/> |
-|[CopiedEvent](copiedevent.md) <br/> |Représente un événement où un élément ou un dossier est copié.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur l’extraction.  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur un type de message.  <br/> |
+|[GetEvents](getevents.md) <br/> |Représente l’opération utilisée par les clients de type pull pour demander des notifications à partir du serveur.  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est copié.  <br/> |
 |[CreatedEvent](createdevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est créé.  <br/> |
-|[DeletedEvent](deletedevent.md) <br/> |Représente un événement de suppression d’un élément ou un dossier.  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement où un élément ou un dossier est modifié.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Représente un événement où un élément ou un dossier est déplacé à partir du dossier parent d’un vers un autre dossier parent.  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |Représente un événement déclenché par un nouvel élément de messagerie dans une boîte aux lettres.  <br/> |
-|[StatusEvent](statusevent.md) <br/> |Représente une notification qu’aucune nouvelle activité se n’est produite dans la boîte aux lettres.  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Contient l’état et les résultats d’une demande Subscribe.  <br/> |
+|[DeletedEvent](deletedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est supprimé.  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est modifié.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |Représente un événement déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
+|[StatusEvent](statusevent.md) <br/> |Représente une notification indiquant qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres.  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Contient l’État et le résultat d’une demande subscribe.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte peut être obligatoire ou facultatif selon la façon dont cet élément est utilisé.
+Une valeur de texte peut être obligatoire ou facultative en fonction de la façon dont cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
-Si une demande Subscribe contient un filigrane, l’abonnement est créé à partir de la limite de transférer. Si la demande Subscribe contient un filigrane qui ne figure pas dans la table d’événements de boîte aux lettres, un `ErrorInvalidWatermark` erreur est renvoyée à l’application cliente. Cela peut se produire si le filigrane est obsolète et a été supprimé de la fenêtre de 30 jours de la table d’événements ou si celui-ci n’a pas déjà présents dans la table des événements. Cela peut se produire, par exemple, si un filigrane est obtenu à partir d’un autre abonnement pour une boîte aux lettres dans une autre base de données. 
+Si une demande subscribe contient un filigrane, l’abonnement est créé à partir du filigrane avant. Si la demande subscribe contient un filigrane qui est introuvable dans la table des événements de boîte aux lettres, une `ErrorInvalidWatermark` erreur est renvoyée à l’application cliente. Cela peut se produire si le filigrane est trop ancien et a été supprimé de la fenêtre de 30 jours de la table des événements ou si le filigrane n’était jamais présent dans la table des événements. Cela peut se produire, par exemple, si un filigrane est obtenu à partir d’un autre abonnement pour une boîte aux lettres dans une autre base de données. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

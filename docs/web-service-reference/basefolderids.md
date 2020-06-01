@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bdaa6093-f960-469a-b338-0e75aaa536c6
-description: L’élément BaseFolderIds représente la collection de dossiers qui seront être interrogées pour déterminer le contenu d’un dossier de recherche.
-ms.openlocfilehash: 960e4d9c1d6eb37bf988bf163e696cbba3e1ef6f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BaseFolderIds représente la collection de dossiers qui seront extraites pour déterminer le contenu d’un dossier de recherche.
+ms.openlocfilehash: 97159ec1ded685e63aafedfaf90a06eff39adaab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755366"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460266"
 ---
 # <a name="basefolderids"></a>BaseFolderIds
 
-L’élément **BaseFolderIds** représente la collection de dossiers qui seront être interrogées pour déterminer le contenu d’un dossier de recherche. 
+L’élément **BaseFolderIds** représente la collection de dossiers qui seront extraites pour déterminer le contenu d’un dossier de recherche. 
   
 ```xml
 <BaseFolderIds>
@@ -33,18 +33,18 @@ L’élément **BaseFolderIds** représente la collection de dossiers qui seront
  **NonEmptyArrayOfBaseFolderIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par son nom.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par nom.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,13 +56,13 @@ Aucun.
 
 L’élément **BaseFolderIds** doit contenir au moins un élément [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) . 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

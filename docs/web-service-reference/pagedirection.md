@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 013947f3-cf3c-40b1-baf6-405f26bd375e
-description: L’élément PageDirection indique la direction de la pagination dans le résultat de recherche. La valeur est précédent ou suivant.
-ms.openlocfilehash: de9773407294bcc51fb7b3dab2e1dce0996e6edb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PageDirection contient la direction de pagination dans le résultat de la recherche. La valeur est précédent ou suivant.
+ms.openlocfilehash: 22816ff73af49e0f029b5618fa3d45f8880d0f82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828677"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459727"
 ---
 # <a name="pagedirection"></a>PageDirection
 
-L’élément **PageDirection** indique la direction de la pagination dans le résultat de recherche. La valeur est précédent ou suivant. 
+L’élément **PageDirection** contient la direction de pagination dans le résultat de la recherche. La valeur est précédent ou suivant. 
   
 ```XML
 <PageDirection> Previous | Next </PageDirection>
@@ -26,11 +26,11 @@ L’élément **PageDirection** indique la direction de la pagination dans le r�
  **SearchPageDirectionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[SearchMailboxes](searchmailboxes.md) | [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
+[SearchMailboxes](searchmailboxes.md)  |  [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PageDirection** est la direction de la pagination les résultats de recherche. 
+La valeur de texte de l’élément **PageDirection** est la direction de la pagination des résultats de la recherche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

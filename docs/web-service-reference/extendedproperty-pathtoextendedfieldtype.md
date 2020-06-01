@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fa620b48-2ce3-437d-b51e-541247eea1d9
 description: L’élément ExtendedProperty spécifie une propriété étendue pour le magasin de contacts unifié.
-ms.openlocfilehash: 7541fa6330ee96f7791febfabc672dbcf0e95b54
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f6c283d5cce3bc927662ad0d9c796c0589e7054c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756303"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460140"
 ---
 # <a name="extendedproperty-pathtoextendedfieldtype"></a>ExtendedProperty (PathToExtendedFieldType)
 
@@ -28,64 +28,64 @@ L’élément **ExtendedProperty** spécifie une propriété étendue pour le ma
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|DistinguishedPropertySetId  <br/> |Indique l’identificateur unique de propriété. Cet attribut est facultatif.  <br/> |
-|PropertySetId  <br/> |Indique l’identificateur GUID propriété. Cet attribut est facultatif.  <br/> |
-|PropertyTag  <br/> | Représente la balise de propriété moins le composant de type.<br/><br/>Il existe deux options pour la représentation sous forme de :  <br/><br/>-Hexadécimal : 0x3fa4  <br/>-Décimale : 0-65535<br/><br/>  Cet attribut est facultatif.  <br/> |
-|PropertyName  <br/> |Chaîne qui indique le nom de propriété. Cet attribut est facultatif.  <br/> |
-|PropertyId  <br/> |Entier qui indique l’identificateur de propriété. Cet attribut est facultatif.  <br/> |
-|PropertyType  <br/> |Indique le type de propriété. Cet attribut est requis.  <br/> |
-|FieldURI  <br/> |Indique le champ identificateur URI (Uniform Resource). Cet attribut est requis. Pour les valeurs possibles, voir l’élément [FieldURI](fielduri.md) .  <br/> |
+|DistinguishedPropertySetId  <br/> |Indique l’identificateur du jeu de propriétés distingué. Cet attribut est facultatif.  <br/> |
+|PropertySetId  <br/> |Indique l’identificateur du jeu de propriétés GUID. Cet attribut est facultatif.  <br/> |
+|PropertyTag  <br/> | Représente la balise de propriété moins la partie de type.<br/><br/>Il existe deux options pour la représentation :  <br/><br/>-Hexadécimal : 0x3fa4  <br/>-Décimale : 0-65535<br/><br/>  Cet attribut est facultatif.  <br/> |
+|PropertyName  <br/> |Chaîne qui indique le nom de la propriété. Cet attribut est facultatif.  <br/> |
+|PropertyId  <br/> |Entier qui indique l’identificateur de la propriété. Cet attribut est facultatif.  <br/> |
+|PropertyType  <br/> |Indique le type de propriété. Cet attribut est obligatoire.  <br/> |
+|FieldURI  <br/> |Indique l’URI (Uniform Resource Identifier) de champ. Cet attribut est obligatoire. Pour connaître les valeurs possibles, reportez-vous à l’élément [FieldURI](fielduri.md) .  <br/> |
    
 #### <a name="distinguishedpropertysetid"></a>DistinguishedPropertySetId
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Réunion  <br/> |Indique une réunion.  <br/> |
+|Satisfaire  <br/> |Indique une réunion.  <br/> |
 |Rendez-vous  <br/> |Indique un rendez-vous.  <br/> |
-|Common  <br/> |Indique le jeu de propriétés courantes.  <br/> |
-|PublicStrings  <br/> |Indique les chaînes publics.  <br/> |
-|Address  <br/> |Indique une adresse.  <br/> |
+|Courant  <br/> |Indique le jeu de propriétés communes.  <br/> |
+|PublicStrings  <br/> |Indique les chaînes publiques.  <br/> |
+|Adresse  <br/> |Indique une adresse.  <br/> |
 |InternetHeaders  <br/> |Indique les en-têtes Internet.  <br/> |
-|CalendarAssistant  <br/> |Indique l’Assistant Calendrier.  <br/> |
-|UnifiedMessaging  <br/> |Indique que la messagerie unifiée.  <br/> |
+|CalendarAssistant  <br/> |Indique l’Assistant calendrier.  <br/> |
+|UnifiedMessaging  <br/> |Indique la messagerie unifiée.  <br/> |
 |Tâche  <br/> |Indique une tâche.  <br/> |
    
 #### <a name="propertytype"></a>PropertyType
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|ApplicationTime  <br/> |Indique l’heure de l’application.  <br/> |
-|ApplicationTimeArray  <br/> |Indique un tableau de temps de l’application.  <br/> |
+|ApplicationTime  <br/> |Indique le temps d’application.  <br/> |
+|ApplicationTimeArray  <br/> |Indique un tableau des temps d’application.  <br/> |
 |Binaire  <br/> |Indique une valeur binaire.  <br/> |
 |BinaryArray  <br/> |Indique un tableau de valeurs binaires.  <br/> |
-|Bool�en  <br/> |Indique une valeur de type Boolean.  <br/> |
+|Valeur booléenne  <br/> |Indique une valeur de type Boolean.  <br/> |
 |CLSID  <br/> |Indique un CLSID.  <br/> |
 |CLSIDArray  <br/> |Indique un tableau de CLSID.  <br/> |
-|Monnaie  <br/> |Indique une valeur monétaire.  <br/> |
+|Devise  <br/> |Indique une valeur monétaire.  <br/> |
 |CurrencyArray  <br/> |Indique un tableau de valeurs monétaires.  <br/> |
 |Double  <br/> |Indique un **double**.  <br/> |
 |DoubleArray  <br/> |Indique un tableau de valeurs de **type double** .  <br/> |
-|Erreur  <br/> |Indique une erreur. Il s’agit à des fins de rapport d’erreurs. Il ne peut pas être utilisé dans les restrictions pour l’obtention ou la définition des valeurs.  <br/> |
-|Virgule flottante  <br/> |Indique un **float**.  <br/> |
-|FloatArray  <br/> |Indique un tableau de valeurs **float** .  <br/> |
-|Entier  <br/> |Indique un nombre entier.  <br/> |
+|Erreur  <br/> |Indique une erreur. Ceci est destiné à des fins de création de rapports d’erreurs. Il ne peut pas être utilisé dans les restrictions ou pour obtenir ou définir des valeurs.  <br/> |
+|Flottant  <br/> |Indique un **type float**.  <br/> |
+|FloatArray  <br/> |Indique un tableau de valeurs de **type float** .  <br/> |
+|Entier  <br/> |Indique un entier.  <br/> |
 |IntegerArray  <br/> |Indique un tableau d’entiers.  <br/> |
-|Long  <br/> |Indique un **type long**.  <br/> |
+|Entier long  <br/> |Indique un **type long**.  <br/> |
 |LongArray  <br/> |Indique un tableau de valeurs de **type long** .  <br/> |
-|Null  <br/> |Indique une valeur nulle. Il s’agit à des fins de rapport d’erreurs. Il ne peut pas être utilisé dans les restrictions pour l’obtention ou la définition des valeurs.  <br/> |
-|Objet  <br/> |Indique un objet. Il s’agit à des fins de rapport d’erreurs. Il ne peut pas être utilisé dans les restrictions pour l’obtention ou la définition des valeurs.  <br/> |
-|ObjectArray  <br/> |Indique un tableau d’objets. Il s’agit à des fins de rapport d’erreurs. Il ne peut pas être utilisé dans les restrictions pour l’obtention ou la définition des valeurs.  <br/> |
+|Null  <br/> |Indique une valeur null. Ceci est destiné à des fins de création de rapports d’erreurs. Il ne peut pas être utilisé dans les restrictions ou pour obtenir ou définir des valeurs.  <br/> |
+|Objet  <br/> |Indique un objet. Ceci est destiné à des fins de création de rapports d’erreurs. Il ne peut pas être utilisé dans les restrictions ou pour obtenir ou définir des valeurs.  <br/> |
+|ObjectArray  <br/> |Indique un tableau d’objets. Ceci est destiné à des fins de création de rapports d’erreurs. Il ne peut pas être utilisé dans les restrictions ou pour obtenir ou définir des valeurs.  <br/> |
 |Nom court  <br/> |Indique un **court**.  <br/> |
 |ShortArray  <br/> |Indique un tableau de valeurs **courtes** .  <br/> |
 |SystemTime  <br/> |Indique une valeur d’heure système.  <br/> |
 |SystemTimeArray  <br/> |Indique un tableau de valeurs d’heure système.  <br/> |
-|String  <br/> |Indique une chaîne.  <br/> |
+|Chaîne  <br/> |Indique une chaîne.  <br/> |
 |StringArray  <br/> |Indique un tableau de chaînes.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -108,9 +108,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

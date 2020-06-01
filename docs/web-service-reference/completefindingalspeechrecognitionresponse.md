@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 74c4b9d8-d336-4954-b9c2-7563bc7740fa
-description: L’élément CompleteFindInGALSpeechRecognitionResponse est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 36ce4de04082af59fe2e41fe642875adb2f993d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CompleteFindInGALSpeechRecognitionResponse est destiné uniquement à un usage interne.
+ms.openlocfilehash: 659a4b6357c1095dc076e1103e91c322ca47a4c5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755521"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459026"
 ---
 # <a name="completefindingalspeechrecognitionresponse"></a>CompleteFindInGALSpeechRecognitionResponse
 
-L’élément **CompleteFindInGALSpeechRecognitionResponse** est destiné à une utilisation interne uniquement. 
+L’élément **CompleteFindInGALSpeechRecognitionResponse** est destiné uniquement à un usage interne. 
   
 ```XML
 <CompleteFindInGALSpeechRecognitionResponse />
@@ -25,11 +25,11 @@ L’élément **CompleteFindInGALSpeechRecognitionResponse** est destiné à une
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,9 +49,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

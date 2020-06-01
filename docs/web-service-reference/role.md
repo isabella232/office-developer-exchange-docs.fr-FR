@@ -1,5 +1,5 @@
 ---
-title: Rôle
+title: Role
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0718d2cc-8b70-4569-9008-b3e19857327e
 description: L’élément Role spécifie une chaîne qui représente un rôle de gestion.
-ms.openlocfilehash: 1796403b8e4e97a137f1c545a97d2c8e0d9cae54
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d7649d5b885d4d36ea0ee36dd3b17598e305c35f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829239"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460560"
 ---
-# <a name="role"></a>Rôle
+# <a name="role"></a>Role
 
-L’élément **Role** spécifie une chaîne qui représente un rôle de gestion. 
+L’élément **role** spécifie une chaîne qui représente un rôle de gestion. 
   
 ```XML
 <Role></Role>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[UserRoles](userroles.md) | [ApplicationRoles](applicationroles.md)
+[UserRoles](userroles.md)  |  [ApplicationRoles](applicationroles.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **rôle** est le nom du rôle. 
+La valeur de texte de l’élément **role** est le nom du rôle. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

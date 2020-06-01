@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f471db84-a666-4dfa-9993-8ca9113a0384
-description: L’élément MaxChangesReturned décrit le nombre maximal de modifications pouvant être renvoyés dans une réponse de la synchronisation.
-ms.openlocfilehash: c3719b12b7e3e2f83a9454c7b68432b375d78614
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MaxChangesReturned décrit le nombre maximal de modifications pouvant être renvoyées dans une réponse de synchronisation.
+ms.openlocfilehash: caf96b6e95f2e63d0e544ead26fbea18cd637861
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828395"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460084"
 ---
 # <a name="maxchangesreturned"></a>MaxChangesReturned
 
-L’élément **MaxChangesReturned** décrit le nombre maximal de modifications pouvant être renvoyés dans une réponse de la synchronisation. 
+L’élément **MaxChangesReturned** décrit le nombre maximal de modifications pouvant être renvoyées dans une réponse de synchronisation. 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -34,11 +34,11 @@ L’élément **MaxChangesReturned** décrit le nombre maximal de modifications 
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,11 +48,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Définit une demande pour synchroniser des éléments dans un dossier de la banque Exchange.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Définit une demande de synchronisation des éléments dans un dossier de la Banque d’Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente un entier qui décrit le nombre maximal d’éléments qui sont retournés dans un appel de synchronisation. La valeur doit être comprise entre 1 et 512, inclus.
+La valeur de texte représente un entier qui décrit le nombre maximal d’éléments qui sont renvoyés dans un appel de synchronisation unique. La valeur doit être comprise entre 1 et 512 inclus.
   
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

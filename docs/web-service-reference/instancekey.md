@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bb4dbe9b-aea0-4527-b7d6-e928066caf38
-description: L’élément InstanceKey spécifie une clé d’instance d’un élément ou d’une conversation.
-ms.openlocfilehash: a0e4f9390d5dc368388b5a20e38796c6c0157a40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément InstanceKey spécifie une clé d’instance pour un élément ou une conversation.
+ms.openlocfilehash: a6b55b9021fe63be7f678f0a1bcb24e88aeba005
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827943"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459972"
 ---
 # <a name="instancekey"></a>InstanceKey
 
-L’élément **InstanceKey** spécifie une clé d’instance d’un élément ou d’une conversation. 
+L’élément **InstanceKey** spécifie une clé d’instance pour un élément ou une conversation. 
   
 ```XML
 <InstanceKey></InstanceKey>
 ```
 
- **base64Binary**
+ **Au base64Binary**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,11 +41,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
-|[Item](item.md) <br/> |Représente un élément générique dans la banque d’informations Exchange.  <br/> |
+|[Élément](item.md) <br/> |Représente un élément générique dans la Banque d’Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **InstanceKey** est la clé de l’instance d’un élément ou d’une conversation. 
+La valeur de texte de l’élément **InstanceKey** est la clé d’instance d’un élément ou d’une conversation. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

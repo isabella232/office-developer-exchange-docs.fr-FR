@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65554e4c-c0d9-485e-9f01-ed1baa8280ab
-description: L’élément AddImContactToGroup définit une demande pour ajouter un contact de messagerie instantanée existant à un groupe de messagerie instantané.
-ms.openlocfilehash: 71c841ce6df2ed7dcbbf77597b26f3e3e742a7fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AddImContactToGroup définit une demande d’ajout d’un contact de messagerie instantanée existant à un groupe de messagerie instantanée.
+ms.openlocfilehash: b86b1cb69a1ebc7034e5a27047c14efbab7236ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755246"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459664"
 ---
 # <a name="addimcontacttogroup"></a>AddImContactToGroup
 
-L’élément **AddImContactToGroup** définit une demande pour ajouter un contact de messagerie instantanée existant à un groupe de messagerie instantané. 
+L’élément **AddImContactToGroup** définit une demande d’ajout d’un contact de messagerie instantanée existant à un groupe de messagerie instantanée. 
   
 ```XML
 <AddImContactToGroup>
@@ -29,15 +29,15 @@ L’élément **AddImContactToGroup** définit une demande pour ajouter un conta
  **AddImContactToGroupType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ContactId](contactid.md) | [GroupId](groupid.md)
+[ContactID](contactid.md)  |  [GroupID](groupid.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

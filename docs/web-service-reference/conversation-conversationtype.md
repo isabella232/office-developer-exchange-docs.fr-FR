@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 59d014cd-5886-49ea-8d36-ba5de7e675de
-description: L’élément de Conversation représente une conversation unique.
-ms.openlocfilehash: e1ae055d6a77fc5a9b483341830b978e0c1a5b5a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément conversation représente une seule conversation.
+ms.openlocfilehash: 9969a6cfe1f977b1c24e03771f231f4eb03d1ac6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755638"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458935"
 ---
 # <a name="conversation-conversationtype"></a>Conversation (ConversationType)
 
-L’élément de **Conversation** représente une conversation unique. 
+L’élément **conversation** représente une seule conversation. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -64,50 +64,50 @@ L’élément de **Conversation** représente une conversation unique.
  **ConversationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ConversationId](conversationid.md) <br/> |Représente l’identificateur d’une conversation.  <br/> |
-|[ConversationTopic](conversationtopic.md) <br/> |Représente le sujet de conversation. Cet élément est en lecture seule.  <br/> |
-|[UniqueRecipients](uniquerecipients.md) <br/> |Contient la liste des destinataires d’une conversation agrégée à partir d’un dossier spécifique. Cet élément est en lecture seule.  <br/> |
-|[GlobalUniqueRecipients](globaluniquerecipients.md) <br/> |Contient la liste des destinataires d’une conversation regroupée sur une boîte aux lettres. Cet élément est en lecture seule.  <br/> |
-|[UniqueUnreadSenders](uniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé les messages qui sont actuellement non lus dans cette conversation dans le dossier actif. Cet élément est en lecture seule.  <br/> |
-|[GlobalUniqueUnreadSenders](globaluniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé les messages qui sont actuellement non lus dans cette conversation entre tous les dossiers dans la boîte aux lettres.  <br/> |
-|[UniqueSenders](uniquesenders.md) <br/> |Contient une liste de tous les expéditeurs des éléments de conversation dans le dossier actif. Cet élément est en lecture seule.  <br/> |
-|[GlobalUniqueSenders](globaluniquesenders.md) <br/> |Contient une liste de tous les expéditeurs des éléments de conversation dans la boîte aux lettres.  <br/> |
-|[LastDeliveryTime](lastdeliverytime.md) <br/> |Contient l’heure de remise du message a été reçu dernière part à cette conversation dans le dossier actif.  <br/> |
-|[GlobalLastDeliveryTime](globallastdeliverytime.md) <br/> |Contient l’heure de remise du message que vous avez reçu dernière part à cette conversation sur tous les dossiers dans la boîte aux lettres.  <br/> |
-|[Categories](categories-ex15websvcsotherref.md) <br/> |Contient une collection de chaînes qui identifient les catégories qui sont appliqués à tous les éléments de conversation dans le dossier actif.  <br/> |
-|[GlobalCategories](globalcategories.md) <br/> |Contient la liste des catégories pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
-|[FlagStatus](flagstatus.md) <br/> |Contient l’état de l’indicateur agrégées pour les éléments de conversation dans le dossier actif.  <br/> |
-|[GlobalFlagStatus](globalflagstatus.md) <br/> |Contient l’état de l’indicateur agrégées pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
-|[HasAttachments](hasattachments.md) <br/> |Contient une valeur qui indique si les éléments d’au moins une conversation dans le dossier actif a une pièce jointe.  <br/> |
-|[GlobalHasAttachments](globalhasattachments.md) <br/> |Contient une valeur qui indique si les éléments d’au moins une conversation dans une boîte aux lettres a une pièce jointe.  <br/> |
+|[ConversationTopic](conversationtopic.md) <br/> |Représente la rubrique de conversation. Cet élément est en lecture seule.  <br/> |
+|[UniqueRecipients](uniquerecipients.md) <br/> |Contient la liste des destinataires d’une conversation qui a été regroupée à partir d’un dossier particulier. Cet élément est en lecture seule.  <br/> |
+|[GlobalUniqueRecipients](globaluniquerecipients.md) <br/> |Contient la liste des destinataires d’une conversation qui est agrégée dans une boîte aux lettres. Cet élément est en lecture seule.  <br/> |
+|[UniqueUnreadSenders](uniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation dans le dossier actif. Cet élément est en lecture seule.  <br/> |
+|[GlobalUniqueUnreadSenders](globaluniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation sur tous les dossiers de la boîte aux lettres.  <br/> |
+|[UniqueSenders](uniquesenders.md) <br/> |Contient une liste de tous les expéditeurs d’éléments de conversation dans le dossier actif. Cet élément est en lecture seule.  <br/> |
+|[GlobalUniqueSenders](globaluniquesenders.md) <br/> |Contient une liste de tous les expéditeurs d’éléments de conversation dans la boîte aux lettres.  <br/> |
+|[LastDeliveryTime](lastdeliverytime.md) <br/> |Contient le délai de remise du message qui a été reçu en dernier dans cette conversation dans le dossier actif.  <br/> |
+|[GlobalLastDeliveryTime](globallastdeliverytime.md) <br/> |Contient le délai de remise du message qui a été reçu en dernier dans cette conversation sur tous les dossiers de la boîte aux lettres.  <br/> |
+|[Catégories](categories-ex15websvcsotherref.md) <br/> |Contient une collection de chaînes qui identifient les catégories qui sont appliquées à tous les éléments de conversation dans le dossier actif.  <br/> |
+|[GlobalCategories](globalcategories.md) <br/> |Contient la liste des catégories pour tous les éléments de conversation d’une boîte aux lettres.  <br/> |
+|[FlagStatus](flagstatus.md) <br/> |Contient l’état de l’indicateur agrégé pour les éléments de conversation dans le dossier actif.  <br/> |
+|[GlobalFlagStatus](globalflagstatus.md) <br/> |Contient l’état de l’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
+|[HasAttachments](hasattachments.md) <br/> |Contient une valeur qui indique si au moins un élément de conversation dans le dossier actif a une pièce jointe.  <br/> |
+|[GlobalHasAttachments](globalhasattachments.md) <br/> |Contient une valeur qui indique si au moins un élément de conversation dans une boîte aux lettres a une pièce jointe.  <br/> |
 |[MessageCount](messagecount.md) <br/> |Contient le nombre total d’éléments de conversation dans le dossier actif.  <br/> |
 |[GlobalMessageCount](globalmessagecount.md) <br/> |Contient le nombre total d’éléments de conversation dans la boîte aux lettres.  <br/> |
 |[UnreadCount](unreadcount.md) <br/> |Contient le nombre d’éléments de conversation non lus dans un dossier.  <br/> |
-|[GlobalUnreadCount](globalunreadcount.md) <br/> |Contient un nombre de tous les éléments non lus de conversation dans la boîte aux lettres.  <br/> |
-|[Size](size.md) <br/> |Contient la taille de la conversation calculée à partir de la taille de tous les éléments de conversation dans le dossier actif.  <br/> |
+|[GlobalUnreadCount](globalunreadcount.md) <br/> |Contient le décompte de tous les éléments de conversation non lus dans la boîte aux lettres.  <br/> |
+|[Taille](size.md) <br/> |Contient la taille de la conversation calculée à partir de la taille de tous les éléments de conversation dans le dossier actif.  <br/> |
 |[GlobalSize](globalsize.md) <br/> |Contient la taille de la conversation calculée à partir de la taille de tous les éléments de conversation dans la boîte aux lettres.  <br/> |
-|[ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md) <br/> |Contient une liste des classes d’élément qui représente toutes les classes d’élément des éléments de conversation dans le dossier actif.  <br/> |
-|[GlobalItemClasses](globalitemclasses.md) <br/> |Contient une liste des classes d’élément qui représente toutes les classes d’élément des éléments de conversation dans une boîte aux lettres.  <br/> |
-|[Importance](importance.md) <br/> |Contient l’importance agrégée pour tous les éléments de conversation dans le dossier actif.  <br/> |
-|[GlobalImportance](globalimportance.md) <br/> |Contient l’importance agrégée pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
-|[ItemId](itemids.md) <br/> |Contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans le dossier actif.  <br/> |
+|[ItemClasses (ArrayOfItemClassType)](itemclasses-arrayofitemclasstype.md) <br/> |Contient une liste de classes d’éléments qui représente toutes les classes d’éléments des éléments de conversation dans le dossier actif.  <br/> |
+|[GlobalItemClasses](globalitemclasses.md) <br/> |Contient une liste de classes d’éléments qui représente toutes les classes d’éléments des éléments de conversation dans une boîte aux lettres.  <br/> |
+|[Importance](importance.md) <br/> |Contient l’importance regroupée pour tous les éléments de conversation dans le dossier actif.  <br/> |
+|[GlobalImportance](globalimportance.md) <br/> |Contient l’importance regroupée pour tous les éléments de conversation d’une boîte aux lettres.  <br/> |
+|[ItemIds](itemids.md) <br/> |Contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans le dossier actif.  <br/> |
 |[GlobalItemIds](globalitemids.md) <br/> |Contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Conversations](conversations-ex15websvcsotherref.md) <br/> |Contient un tableau des conversations qui sont retournés dans la réponse **FindConversation** .  <br/> |
+|[Conversations](conversations-ex15websvcsotherref.md) <br/> |Contient un tableau des conversations qui sont renvoyées dans la réponse **FindConversation** .  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -121,7 +121,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -135,5 +135,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 [Opération de ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

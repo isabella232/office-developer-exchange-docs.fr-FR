@@ -1,5 +1,5 @@
 ---
-title: Horodatage
+title: Dates
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5eae859a-5a74-4bf6-b196-d1b2fd38501a
-description: L’élément d’horodatage représente l’horodatage d’un événement de boîte aux lettres.
-ms.openlocfilehash: d020d9a4cf3a128d26e0ff2b83be9f3deb024339
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément timestamp représente l’horodatage d’un événement de boîte aux lettres.
+ms.openlocfilehash: f2280d4eab67b603963c4f0a7468bf35a2b63a88
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838767"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459888"
 ---
-# <a name="timestamp"></a>Horodatage
+# <a name="timestamp"></a>Dates
 
-L’élément **d’horodatage** représente l’horodatage d’un événement de boîte aux lettres. 
+L’élément **timestamp** représente l’horodatage d’un événement de boîte aux lettres. 
   
 ```xml
 <TimeStamp/>
@@ -30,11 +30,11 @@ L’élément **d’horodatage** représente l’horodatage d’un événement d
  **DateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,20 +44,20 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CopiedEvent](copiedevent.md) <br/> |Représente un événement où un élément ou un dossier est copié.  <br/> |
+|[CopiedEvent](copiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est copié.  <br/> |
 |[CreatedEvent](createdevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est créé.  <br/> |
-|[DeletedEvent](deletedevent.md) <br/> |Représente un événement de suppression d’un élément ou un dossier.  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement où un élément ou un dossier est modifié.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Représente un événement où un élément ou un dossier est déplacé à partir du dossier parent d’un vers un autre dossier parent.  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |Représente un événement déclenché par un nouvel élément de messagerie dans une boîte aux lettres.  <br/> |
+|[DeletedEvent](deletedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est supprimé.  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est modifié.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |Représente un événement déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Cette propriété est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est principalement disponible pour une utilisation dans la détermination de client de la fréquence des événements. Il n’est pas présent dans [StatusEvent](statusevent.md).
+Cet élément est principalement disponible pour être utilisé dans la détermination du client de la fréquence des événements. Cela n’est pas présent dans [StatusEvent](statusevent.md).
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

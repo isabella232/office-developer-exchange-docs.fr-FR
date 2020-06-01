@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 696e5fdb-d8c5-40f0-9e79-885eae65dfa4
-description: L’élément MailboxType représente le type de boîte aux lettres qui est représenté par l’adresse de messagerie.
-ms.openlocfilehash: d7232377951e8d9c8f191ac856058bc28467cadd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MailboxType représente le type de boîte aux lettres représenté par l’adresse de messagerie.
+ms.openlocfilehash: 8c322ab8a87730832f5d199698a369656b058a9a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828305"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459797"
 ---
 # <a name="mailboxtype"></a>MailboxType
 
-L’élément **MailboxType** représente le type de boîte aux lettres qui est représenté par l’adresse de messagerie. 
+L’élément **MailboxType** représente le type de boîte aux lettres représenté par l’adresse de messagerie. 
   
 ```XML
 <MailboxType>Mailbox | PublicDL | PrivateDL | Contact | PublicFolder | Unknown | OneOff | GroupMailbox</MailboxType>
@@ -31,11 +31,11 @@ L’élément **MailboxType** représente le type de boîte aux lettres qui est 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,10 +45,10 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Boîte aux lettres](mailbox.md) <br/> |Identifie une adresse de messagerie entièrement résolu.  <br/> |
+|[Boîte aux lettres](mailbox.md) <br/> |Identifie une adresse de messagerie entièrement résolue.  <br/> |
 |[RoomList](roomlist.md) <br/> |Identifie une liste de salles de réunion.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **MailboxType** . 
   
@@ -58,7 +58,7 @@ Le tableau suivant répertorie les valeurs possibles pour l’élément **Mailbo
 |PublicDL  <br/> |Représente une liste de distribution publique.  <br/> |
 |PrivateDL  <br/> |Représente une liste de distribution privée dans la boîte aux lettres d’un utilisateur.  <br/> |
 |Contact  <br/> |Représente un contact dans la boîte aux lettres d’un utilisateur.  <br/> |
-|Dossier public  <br/> |Représente un dossier public.  <br/> |
+|PublicFolder  <br/> |Représente un dossier public.  <br/> |
 |Inconnu  <br/> |Représente un type inconnu de boîte aux lettres.  <br/> |
 |OneOff  <br/> |Représente un membre unique d’une liste de distribution personnelle.  <br/> |
 |GroupMailbox  <br/> |Représente une boîte aux lettres de groupe.  <br/> |
@@ -71,7 +71,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

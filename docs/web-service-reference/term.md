@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a796535-7e83-4aa8-850a-d217059050f8
-description: Le terme élément spécifie un terme en surbrillance dans une réponse FindConversation ou FindItem.
-ms.openlocfilehash: cef2ecd7c51b61ccff2c7261a7a612095047956c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément term spécifie un terme mis en surbrillance dans une réponse FindConversation ou FindItem.
+ms.openlocfilehash: fb102e21d6e7866110735cacd60cd2c3c68a9675
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838689"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459489"
 ---
 # <a name="term"></a>Terme
 
-Le **terme** élément spécifie un terme en surbrillance dans une réponse **FindConversation** ou **FindItem** . 
+L’élément **term** spécifie un terme mis en surbrillance dans une réponse **FindConversation** ou **FindItem** . 
   
 ```XML
 <Term>
@@ -29,15 +29,15 @@ Le **terme** élément spécifie un terme en surbrillance dans une réponse **Fi
  **HighlightTermType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Étendue (HighlightTermType)](scope-highlighttermtype.md) | [valeur](value.md)
+[Étendue (HighlightTermType)](scope-highlighttermtype.md)  |  [Value (valeur](value.md) )
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b219f315-c20a-4633-af3e-94bd3e4526b6
-description: L’élément FromAddresses indique les adresses de messagerie à partir de laquelle les messages entrants doivent être envoyés afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 40ecb1f3e16ad961b8e4c38d5aa9d15f4f74469a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FromAddresses indique les adresses de messagerie à partir desquelles les messages entrants doivent être envoyés afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 4fbb44d02f5010c4395cf691cb6160da4dbb6930
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756490"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459538"
 ---
 # <a name="fromaddresses"></a>FromAddresses
 
-L’élément **FromAddresses** indique les adresses de messagerie à partir de laquelle les messages entrants doivent être envoyés afin que l’exception ou la condition à appliquer. 
+L’élément **FromAddresses** indique les adresses de messagerie à partir desquelles les messages entrants doivent être envoyés afin que la condition ou l’exception s’applique. 
   
 ```XML
 <FromAddresses>
@@ -32,11 +32,11 @@ L’élément **FromAddresses** indique les adresses de messagerie à partir de 
  **ArrayOfEmailAddressesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -63,9 +63,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

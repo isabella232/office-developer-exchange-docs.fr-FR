@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3e2b7b53-ef3c-438e-93df-b08409dbab46
-description: L’élément MarkAsJunkResponseMessage Spécifie le message de réponse pour une demande MarkAsJunk.
-ms.openlocfilehash: 146ece430436c60fced53d4dfbfd7d92c0e42e98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MarkAsJunkResponseMessage spécifie le message de réponse pour une demande MarkAsJunk.
+ms.openlocfilehash: be03fc964b56c463320f09e68d143a0377300f5c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828352"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460098"
 ---
 # <a name="markasjunkresponsemessage"></a>MarkAsJunkResponseMessage
 
-L’élément **MarkAsJunkResponseMessage** Spécifie le message de réponse pour une demande **MarkAsJunk** . 
+L’élément **MarkAsJunkResponseMessage** spécifie le message de réponse pour une demande **MarkAsJunk** . 
   
 ```XML
 <MarkAsJunkResponseMessage>
@@ -32,15 +32,15 @@ L’élément **MarkAsJunkResponseMessage** Spécifie le message de réponse pou
  **MarkAsJunkResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MovedItemId](moveditemid.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [MovedItemId](moveditemid.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

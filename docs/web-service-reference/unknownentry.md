@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3cb4c62e-052a-4326-8639-8c41dfd047b2
-description: L’élément UnknownEntry représente une entrée d’autorisation inconnu unique qui ne peut pas être résolue en fonction du service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 11939ad39c83ac2d15ec7fface6f530d3f60e12a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UnknownEntry représente une entrée d’autorisation inconnue unique qui ne peut pas être résolue par rapport au service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 452857690f719ba3ee9dffa29e576ca4f3b2b945
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838834"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459397"
 ---
 # <a name="unknownentry"></a>UnknownEntry
 
-L’élément **UnknownEntry** représente une entrée d’autorisation inconnu unique qui ne peut pas être résolue en fonction du service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **UnknownEntry** représente une entrée d’autorisation inconnue unique qui ne peut pas être résolue par rapport au service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <UnknownEntry/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UnknownEntries](unknownentries.md) <br/> |Contient un tableau d’entrées d’autorisation inconnu qui ne peut pas être résolu par rapport à Active Directory. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[UnknownEntries](unknownentries.md) <br/> |Contient un tableau d’entrées d’autorisation inconnues qui ne peuvent pas être résolues par rapport à Active Directory. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une entrée d’autorisation ne peut pas être résolue par rapport à Active Directory. La valeur de texte représente un identificateur de sécurité (SID).
+La valeur de texte représente une entrée d’autorisation qui ne peut pas être résolue par rapport à Active Directory. La valeur texte représente un identificateur de sécurité (SID).
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -67,8 +67,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b0f03ce0-a4c3-47de-9360-a880a3606e42
 description: L’élément GlobalItemIds contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans une boîte aux lettres.
-ms.openlocfilehash: 064ebc4c612aaf569eafa56e57a27cf7153f2130
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: aa656e7f2fb78dafe5bf6013c1f7ad14e2372ba1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827737"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459425"
 ---
 # <a name="globalitemids"></a>GlobalItemIds
 
@@ -42,19 +42,19 @@ L’élément **GlobalItemIds** contient la collection d’identificateurs d’�
  **NonEmptyArrayOfBaseItemIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID d’élément](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
+|[ItemId](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
 |[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifie une seule occurrence d’un élément périodique.  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifie un élément de gabarit périodicité en identifiant un des identificateurs des éléments de son occurrence connexes.  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifie un élément de la forme de base de récurrence en identifiant l’un de ses éléments d’occurrences associés.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -74,7 +74,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -88,5 +88,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 [Opération de ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

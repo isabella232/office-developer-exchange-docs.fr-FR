@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c9850a25-1560-4ed8-969c-dc3e59dde207
-description: L’élément WorkCity spécifie la ville où travaille le personnage associé.
-ms.openlocfilehash: 31737c4fbdd4a2e292b650f70b46a163ce11393a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément WorkCity spécifie la ville où fonctionne le personnage associé.
+ms.openlocfilehash: 712544d60fde15b3d630ecd00b9b5dfbb16a7dd5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839058"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459713"
 ---
 # <a name="workcity"></a>WorkCity
 
-L’élément **WorkCity** spécifie la ville où travaille le personnage associé. 
+L’élément **WorkCity** spécifie la ville où fonctionne le personnage associé. 
   
 ```XML
 <WorkCity></WorkCity>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **WorkCity** est la ville dans laquelle fonctionne le personnage associé. 
+La valeur de texte de l’élément **WorkCity** est la ville dans laquelle le personnage associé travaille. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

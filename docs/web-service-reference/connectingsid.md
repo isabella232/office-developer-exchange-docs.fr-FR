@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 56d6aa52-8fa6-4773-9046-44a6f4f5d97c
-description: L’élément ConnectingSID représente un compte pour emprunter l’identité lorsque vous utilisez l’en-tête SOAP ExchangeImpersonation.
-ms.openlocfilehash: a30f11721506989a84f52dd04c328974f4483956
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément ConnectingSID représente un compte dont l’identité est empruntée lorsque vous utilisez l’en-tête SOAP ExchangeImpersonation.
+ms.openlocfilehash: f4edf63f129fc769f4a2d710a505b40da4057fab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354336"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459278"
 ---
 # <a name="connectingsid"></a>ConnectingSID
 
-L’élément **ConnectingSID** représente un compte pour emprunter l’identité lorsque vous utilisez l’en-tête SOAP ExchangeImpersonation. 
+L’élément **ConnectingSID** représente un compte dont l’identité est empruntée lorsque vous utilisez l’en-tête SOAP ExchangeImpersonation. 
   
 - [ExchangeImpersonation](exchangeimpersonation.md) 
 - [ConnectingSID](connectingsid.md)
@@ -54,30 +54,30 @@ L’élément **ConnectingSID** représente un compte pour emprunter l’identit
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PrincipalName](principalname.md) <br/> |Représente le nom d’utilisateur principal (UPN) du compte à utiliser pour l’emprunt d’identité. Il doit s’agir de l’UPN pour le domaine où le compte d’utilisateur existe.  <br/> |
-|[SID](sid.md) <br/> |Représente le formulaire sécurité descripteur definition language (SDDL) de l’identificateur de sécurité (SID) pour le compte à utiliser pour l’emprunt d’identité.  <br/> |
-|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Représente l’adresse SMTP Simple Mail Transfer Protocol () principal du compte à utiliser pour l’emprunt d’identité Exchange. Si l’adresse SMTP principale est fourni, une recherche de service d’annuaire Active Directory supplémentaire seront coût afin d’obtenir le SID de l’utilisateur. Nous vous recommandons d’utiliser le SID ou UPN si elles sont disponibles.  <br/> |
-|[SmtpAddress](smtpaddress.md) <br/> |Représente l’adresse SMTP Simple Mail Transfer Protocol () du compte à utiliser pour l’emprunt d’identité Exchange. Si l’adresse SMTP est fourni, une recherche Active Directory supplémentaire seront coût afin d’obtenir le SID de l’utilisateur. Nous vous recommandons d’utiliser le SID ou UPN si elles sont disponibles.  <br/> |
+|[PrincipalName](principalname.md) <br/> |Représente le nom d’utilisateur principal (UPN) du compte à utiliser pour l’emprunt d’identité. Il doit s’agir de l’UPN du domaine dans lequel le compte d’utilisateur existe.  <br/> |
+|[SID](sid.md) <br/> |Représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité.  <br/> |
+|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Représente l’adresse SMTP (Simple Mail Transfer Protocol) principale du compte à utiliser pour l’emprunt d’identité Exchange. Si l’adresse SMTP principale est fournie, elle coûte une recherche de service d’annuaire Active Directory supplémentaire afin d’obtenir le SID de l’utilisateur. Nous vous recommandons d’utiliser le SID ou le nom UPN s’ils sont disponibles.  <br/> |
+|[SmtpAddress](smtpaddress.md) <br/> |Représente l’adresse SMTP (Simple Mail Transfer Protocol) du compte à utiliser pour l’emprunt d’identité Exchange. Si l’adresse SMTP est fournie, elle va coûter une recherche Active Directory supplémentaire afin d’obtenir le SID de l’utilisateur. Nous vous recommandons d’utiliser le SID ou le nom UPN s’ils sont disponibles.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Utilisé dans l’en-tête SOAP d’une demande. Lorsque cet élément est présent, l’appelant essaie d’emprunter l’identité du compte qui est contenu dans l’élément **ExchangeImpersonation** .  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/ExchangeImpersonation` <br/> |
+|[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Utilisé dans l’en-tête SOAP d’une demande. Lorsque cet élément est présent, l’appelant tente d’emprunter l’identité du compte qui est contenu dans l’élément **ExchangeImpersonation** .  <br/> Voici l’expression XPath de cet élément :  <br/>  `/ExchangeImpersonation` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le compte d’appel doit avoir **ms-exch-l’emprunt d’identité** sur le serveur d’accès au Client et le **ms-exch-MayImpersonate** droite sur soit la base de données de boîtes aux lettres contenant la boîte aux lettres pour emprunter l’identité ou l’utilisateur Active Directory ou un contact objet. 
+Le compte d’appel doit posséder le droit **ms-Exch-emprunt d’identité** sur le serveur d’accès au client et le droit **ms-Exch-MayImpersonate** sur la base de données de boîtes aux lettres qui contient la boîte aux lettres pour emprunter l’identité ou l’objet utilisateur ou contact Active Directory. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -85,12 +85,12 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Autorisation de serveur à serveur dans EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [Autorisation de serveur à serveur dans EWS](https://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

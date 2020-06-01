@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b4ffdf0f-1210-429d-8eea-665db2aad3bb
-description: L’élément LastAttemptTime contient l’heure et la date à laquelle la dernière tentative d’index de l’élément a été effectuée.
-ms.openlocfilehash: 735be6a0f6ec53bd0e270fa7a4d5dc43af926b88
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément LastAttemptTime contient l’heure et la date de la dernière tentative d’indexation de l’élément.
+ms.openlocfilehash: 8ef7d8d436f7e12a5c1e6a1d0762fcf777a95d05
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828200"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459846"
 ---
 # <a name="lastattempttime"></a>LastAttemptTime
 
-L’élément **LastAttemptTime** contient l’heure et la date à laquelle la dernière tentative d’index de l’élément a été effectuée. 
+L’élément **LastAttemptTime** contient l’heure et la date de la dernière tentative d’indexation de l’élément. 
   
 ```XML
 <LastAttemptTime></LastAttemptTime>
@@ -26,11 +26,11 @@ L’élément **LastAttemptTime** contient l’heure et la date à laquelle la d
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LastAttemptTime** représente une heure et la date à laquelle la dernière tentative d’index de l’élément a été effectuée. 
+La valeur de texte de l’élément **LastAttemptTime** représente une heure et une date de la dernière tentative d’indexation de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 962036c9-9b13-4669-bed2-2502c0f5aabe
-description: L’élément RequestedVersion spécifie la version minimale de service que le client souhaite le traitement sur la demande.
-ms.openlocfilehash: 0d8682c33790d2d26001512ad9e2191ae52074d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RequestedVersion spécifie la version de service minimale sur laquelle le client souhaite que la demande soit traitée.
+ms.openlocfilehash: ded276b3eb2c70b6edd39ca12289098de2b3faea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829134"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459166"
 ---
 # <a name="requestedversion-soap"></a>RequestedVersion (SOAP)
 
-L’élément **RequestedVersion** spécifie la version minimale de service que le client souhaite le traitement sur la demande. 
+L’élément **RequestedVersion** spécifie la version de service minimale sur laquelle le client souhaite que la demande soit traitée. 
   
 ```XML
 <RequestedVersion/>
@@ -27,11 +27,11 @@ L’élément **RequestedVersion** spécifie la version minimale de service que 
  **ExchangeVersion**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,24 +41,24 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Demande (SOAP)](request-soap.md) <br/> |Contient les paramètres de configuration requise et les utilisateurs cibles.  <br/> |
-|[Demande (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Représente une demande pour obtenir les paramètres de domaine.  <br/> |
+|[Demande (SOAP)](request-soap.md) <br/> |Contient les paramètres de configuration demandés et les utilisateurs cibles.  <br/> |
+|[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Représente une demande d’obtention des paramètres de domaine.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte pour l’élément **RequestedVersion** peut être Exchange2010, Exchange2010_SP1, Exchange2010_SP2 ou Exchange2013.
+La valeur de texte de l’élément **RequestedVersion** peut être Exchange2010, Exchange2010_SP1, Exchange2010_SP2 ou Exchange2013.
   
 ## <a name="remarks"></a>Remarques
 
-Si cet élément n’est pas présent, la dernière version de service est utilisée.
+Si cet élément n’est pas présent, la version de service la plus récente est utilisée.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

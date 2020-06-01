@@ -1,5 +1,5 @@
 ---
-title: ImAddresses
+title: Adresses
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 29f614a7-7fe6-47fa-b5f2-8feff106aa99
-description: L’élément ImAddresses représente une collection d’adresses de messagerie instantanées pour un contact.
-ms.openlocfilehash: e8c7a22e8537a4526594042905f7bb8454238bf1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément imaddresss représente une collection d’adresses de messagerie instantanée pour un contact.
+ms.openlocfilehash: 24ff74d29c918d71116e25e097878b6e4e0a8ead
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827861"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460427"
 ---
-# <a name="imaddresses"></a>ImAddresses
+# <a name="imaddresses"></a>Adresses
 
-L’élément **ImAddresses** représente une collection d’adresses de messagerie instantanées pour un contact. 
+L’élément **Imaddresss** représente une collection d’adresses de messagerie instantanée pour un contact. 
   
 ```xml
 <ImAddresses>
@@ -32,17 +32,17 @@ L’élément **ImAddresses** représente une collection d’adresses de message
  **ImAddressDictionaryType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Entrée (IMAddress)](entry-imaddress.md) <br/> |Représente une adresse d’un contact de messagerie instantanée.  <br/> |
+|[Entrée (IMAddress)](entry-imaddress.md) <br/> |Représente une adresse de messagerie instantanée pour un contact.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

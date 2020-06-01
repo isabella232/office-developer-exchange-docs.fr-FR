@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e86f98b6-83b5-4530-80eb-dc5df42e2c62
-description: L’élément SizeRequested contient la taille de photo demandé pour une opération GetUserPhoto.
-ms.openlocfilehash: 43e422512b1e8f06e410e533e9ae1dc49283d5f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SizeRequested contient la taille de photo demandée pour une opération GetUserPhoto.
+ms.openlocfilehash: 2e79bbb158fa9a22cbd3ec08fcd6e60429e113b4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829504"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460455"
 ---
 # <a name="sizerequested"></a>SizeRequested
 
-L’élément **SizeRequested** contient la taille de photo demandé pour une opération **GetUserPhoto** . 
+L’élément **SizeRequested** contient la taille de photo demandée pour une opération **GetUserPhoto** . 
   
 ```XML
 <SizeRequested>HR48x48 | HR64x64 | HR96X96 | HR120X120 | HR240X240 | HR360X360 | HR432X432 | HR504X504 | HR648X648</SizeRequested>
@@ -26,11 +26,11 @@ L’élément **SizeRequested** contient la taille de photo demandé pour une op
  **UserPhotoSizeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,21 +40,21 @@ Aucun.
 
 [GetUserPhoto](getuserphoto.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SizeRequested** est la taille de photo demandé d’une image numérique renvoyée à partir du serveur. Le tableau suivant identifie les valeurs de texte de l’élément **SizeRequested** . 
+La valeur de texte de l’élément **SizeRequested** est la taille de photo demandée d’une image numérique renvoyée à partir du serveur. Le tableau suivant identifie les valeurs de texte de l’élément **SizeRequested** . 
   
 |**Valeur**|**Signification**|
 |:-----|:-----|
-|HR48x48  <br/> |L’image est 48 pixels et 48 pixels de large.  <br/> |
-|HR64x64  <br/> |L’image est de 64 pixels et 64 pixels de large.  <br/> |
-|HR96x96  <br/> |L’image est 96 pixels et 96 pixels de large.  <br/> |
-|HR120x120  <br/> |L’image est 120 pixels de haut et 120 pixels de large.  <br/> |
-|HR240x240  <br/> |L’image est de 240 pixels et 240 pixels de large.  <br/> |
-|HR360x360  <br/> |L’image est 360 pixels de haut et 360 pixels de large.  <br/> |
-|HR432x432  <br/> |L’image est 432 pixels de haut et 432 pixels de large.  <br/> |
-|HR504x504  <br/> |L’image est 504 pixels de haut et 504 pixels de large.  <br/> |
-|HR648x648  <br/> |L’image est 648 pixels de haut et 648 pixels de large.  <br/> |
+|HR48x48  <br/> |La hauteur de l’image est de 48 pixels et de 48 pixels.  <br/> |
+|HR64x64  <br/> |La hauteur de l’image est de 64 pixels et de 64 pixels.  <br/> |
+|HR96x96  <br/> |La hauteur de l’image est de 96 pixels et de 96 pixels.  <br/> |
+|HR120x120  <br/> |La hauteur de l’image est de 120 pixels et de 120 pixels.  <br/> |
+|HR240x240  <br/> |La hauteur de l’image est de 240 pixels et de 240 pixels.  <br/> |
+|HR360x360  <br/> |La hauteur de l’image est de 360 pixels et de 360 pixels.  <br/> |
+|HR432x432  <br/> |La hauteur de l’image est de 432 pixels et de 432 pixels.  <br/> |
+|HR504x504  <br/> |La hauteur de l’image est de 504 pixels et de 504 pixels.  <br/> |
+|HR648x648  <br/> |La hauteur de l’image est de 648 pixels et de 648 pixels.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

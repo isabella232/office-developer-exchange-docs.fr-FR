@@ -1,5 +1,5 @@
 ---
-title: État
+title: Statut
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 80121e41-291b-4fc0-a55e-6f677d4b5fb5
 description: L’élément Status représente l’état d’un élément de tâche.
-ms.openlocfilehash: 224b61913a5ae8e5b4aa0d756a9f2488df2741bd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5d022827990b96fd8790ae9566ef49028ebe404c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829584"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459958"
 ---
-# <a name="status"></a>État
+# <a name="status"></a>Statut
 
 L’élément **Status** représente l’état d’un élément de tâche. 
   
@@ -30,11 +30,11 @@ L’élément **Status** représente l’état d’un élément de tâche.
  **TaskStatusType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs de texte possibles de cet élément sont les suivantes :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - NotStarted
     
@@ -62,7 +62,7 @@ Une valeur texte est requise. Les valeurs de texte possibles de cet élément so
     
 ## <a name="remarks"></a>Remarques
 
-Définition de [CompleteDate](completedate.md) a le même effet que la définition [PercentComplete](percentcomplete.md) à 100 ou **état** sur **terminée**. Dans une demande qu’au moins deux jeux de ces propriétés, la dernière propriété traitée détermine la valeur est définie pour ces éléments. Par exemple, si **PercentComplete** est 100, **CompleteDate** est 1/1/2007 et **l’état** est NotStarted et les propriétés sont transmises dans l’ordre suivant, l’effet sera pour définir l' **état** de la tâche est NotStarted, la **CompleteDate ** **null**et le **PercentComplete** à 0. 
+La définition de l’option [Completed](completedate.md) a le même effet que celle de la valeur de [PourcentageAchevé](percentcomplete.md) sur 100 ou l' **État** **terminé**. Dans une demande qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si **le PourcentageAchevé** est 100 **, si** la valeur de l' **État** est 1/1/2007, si l’État est NotStarted et si les propriétés sont diffusées en continu dans cet ordre, l’effet est de définir l’état de la tâche sur NotStarted, l' **État** **terminé** sur **null**et le **PourcentageAchevé** sur 0. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -79,10 +79,10 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Création de tâches](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Création de tâches](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Suppression de tâches](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Suppression de tâches](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

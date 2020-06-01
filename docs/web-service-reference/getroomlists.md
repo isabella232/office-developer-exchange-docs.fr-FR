@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: adfa95f8-0e92-4d21-b94f-94fac7117ece
-description: L’élément GetRoomLists est l’élément racine dans une requête pour obtenir la liste des adresses de messagerie qui représentent une liste de salles disponibles.
-ms.openlocfilehash: 4dfcdcdf8841a6127ea0777514b5d619da56a63f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetRoomLists est l’élément racine dans une demande de liste d’adresses de messagerie qui représentent une liste des salles disponibles.
+ms.openlocfilehash: 681a59131306506d31ee753467483e67b59a3de4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756729"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460553"
 ---
 # <a name="getroomlists"></a>GetRoomLists
 
-L’élément **GetRoomLists** est l’élément racine dans une requête pour obtenir la liste des adresses de messagerie qui représentent une liste de salles disponibles. 
+L’élément **GetRoomLists** est l’élément racine dans une demande de liste d’adresses de messagerie qui représentent une liste des salles disponibles. 
   
 ```XML
 <GetRoomLists/>
@@ -30,11 +30,11 @@ L’élément **GetRoomLists** est l’élément racine dans une requête pour o
  **GetRoomListsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |true  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

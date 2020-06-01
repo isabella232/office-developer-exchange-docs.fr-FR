@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2bb2cb78-e168-414e-8d07-414ab5c69185
-description: L’élément LocationBasedStateDefinition est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 378d57418156e09ab0ce0bb33d4dc8e6cfdb53b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément LocationBasedStateDefinition est destiné uniquement à un usage interne.
+ms.openlocfilehash: dd1e97b2071eeb82f7c9032b83ea52f83ee4a1ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828240"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460301"
 ---
 # <a name="locationbasedstatedefinition"></a>LocationBasedStateDefinition
 
-L’élément **LocationBasedStateDefinition** est destiné à une utilisation interne uniquement. 
+L’élément **LocationBasedStateDefinition** est destiné uniquement à un usage interne. 
   
 ```XML
 <LocationBasedStateDefinition />
@@ -25,11 +25,11 @@ L’élément **LocationBasedStateDefinition** est destiné à une utilisation i
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

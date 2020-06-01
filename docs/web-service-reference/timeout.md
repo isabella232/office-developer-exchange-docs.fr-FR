@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c2e1ca5a-6667-4f6f-aac4-89de33bddc54
-description: L’élément de délai d’expiration représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactive sans GetEvents demande à partir du client.
-ms.openlocfilehash: 0a26002689e131959f09318b01d97ffb73b605f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Timeout représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactif sans demande GetEvents du client.
+ms.openlocfilehash: 6f3228cd480bf0eaf259c4f321bc74d0845b9bba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838722"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459895"
 ---
 # <a name="timeout"></a>Timeout
 
-L’élément de **délai d’expiration** représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactive sans GetEvents demande à partir du client. 
+L’élément **timeout** représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactif sans demande GetEvents du client. 
   
 ```xml
 <Timeout/>
@@ -30,11 +30,11 @@ L’élément de **délai d’expiration** représente la durée, en minutes, pe
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement de type pull.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur l’extraction.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un entier est obligatoire si cet élément est utilisé. Les valeurs possibles de cet élément sont 1 et 1440 (inclus). Cet élément est obligatoire.
+Une valeur de texte qui représente un entier est requise si cet élément est utilisé. Les valeurs possibles de cet élément sont comprises entre 1 et 1440 inclus. Cet élément est obligatoire.
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

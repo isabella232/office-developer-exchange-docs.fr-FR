@@ -11,35 +11,35 @@ api_name:
 api_type:
 - schema
 ms.assetid: b0a7f114-d040-40eb-a8f3-05ea6489e472
-description: L’opération UpdateItem est utilisée pour mettre à jour les propriétés d’élément de tâche dans la banque d’informations Exchange.
-ms.openlocfilehash: d6f966fa663300b476383a136d30cf611d6bfb9b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération UpdateItem est utilisée pour mettre à jour les propriétés d’élément de tâche dans la Banque d’Exchange.
+ms.openlocfilehash: 0041af114d11fd9577037dd154e40b84e8483c35
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838888"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459804"
 ---
 # <a name="updateitem-operation-task"></a>Opération UpdateItem (tâche)
 
-L’opération UpdateItem est utilisée pour mettre à jour les propriétés d’élément de tâche dans la banque d’informations Exchange.
+L’opération UpdateItem est utilisée pour mettre à jour les propriétés d’élément de tâche dans la Banque d’Exchange.
   
 ## <a name="remarks"></a>Remarques
 
-Vous ne pouvez pas utiliser les Services Web Exchange pour envoyer les demandes de tâche. Services Web Exchange peut renvoyer des demandes de tâches qui sont créés par MicrosoftOfficeOutlook. Si une demande de tâche a déjà été envoyée, une demande de mise à jour de la tâche renverra une erreur.
+Vous ne pouvez pas utiliser les services Web Exchange pour envoyer des demandes de tâches. Les services Web Exchange peuvent renvoyer des demandes de tâche créées par MicrosoftOfficeOutlook. Si une demande de tâche a déjà été envoyée, une demande de mise à jour de la tâche renverra une erreur.
   
-## <a name="updating-the-current-occurrence-of-a-recurring-task"></a>Mise à jour de l’Occurrence en cours d’une tâche périodique
+## <a name="updating-the-current-occurrence-of-a-recurring-task"></a>Mise à jour de l’occurrence actuelle d’une tâche périodique
 
-Le résultat d’une opération UpdateItem sur les tâches récurrentes diffère le résultat de l’opération UpdateItem sur une seule tâche non périodique. Modifications apportées à une occurrence d’une tâche périodique entraînent des tâches uniques à être généré lorsque les mises à jour suivantes sont apportées :
+Le résultat d’une opération UpdateItem sur les tâches récurrentes diffère du résultat de l’opération UpdateItem sur une tâche unique, non périodique. Les modifications apportées à une occurrence d’une tâche périodique entraînent la génération de tâches ponctuelles lorsque les mises à jour suivantes sont effectuées :
   
-1. La propriété status d’une tâche périodique régénération ou nonregenerating est définie sur **terminée**.
+1. La propriété Status d’une tâche récurrente de régénération ou nonregenerating est définie sur **terminé**.
     
-2. La date de début ou date de fin d’une tâche périodique nonregenerating est modifiée.
+2. La date de début ou la date de fin d’une tâche récurrente nonregenerating est modifiée.
     
-Par exemple, si **une demande **UpdateItem** affecte la valeur d’une tâche périodique,** **UpdateItemResponse** inclut un nouvel Id et ChangeKey qui représentent une tâche unique nouvellement créée. L’Id qui a été inclus dans la demande est toujours valide et la tâche périodique qui est représentée par cet Id a été mis à jour pour représenter l’occurrence suivante. Le ChangeKey qui a été inclus dans la demande n’est plus valide car la tâche périodique a été mis à jour. 
+Par exemple, si une requête **UpdateItem** définit la valeur achevée d’une tâche périodique sur **true**, le **UpdateItemResponse** inclut un nouvel ID et ChangeKey qui représentent une nouvelle tâche ponctuelle. L’ID qui a été inclus dans la demande est toujours valide et la tâche périodique représentée par cet ID a été mise à jour pour représenter l’occurrence suivante. Le ChangeKey qui a été inclus dans la demande n’est plus valide car la tâche périodique a été mise à jour. 
   
-Vous pouvez utiliser l' [opération GetItem](getitem-operation.md) pour obtenir les dernières **ChangeKey** pour la tâche périodique. 
+Vous pouvez utiliser l' [opération GetItem](getitem-operation.md) pour obtenir la dernière **ChangeKey** de la tâche périodique. 
   
-Pour les tâches non récurrentes ou la dernière occurrence d’une tâche périodique, la réponse UpdateItem renvoie le même **Id** qui a été passé et qu’elle renvoie qu'associé **ChangeKey**mis à jour.
+Pour les tâches non périodiques ou pour la dernière occurrence d’une tâche périodique, la réponse UpdateItem renvoie le même **ID** qui lui a été passé et renvoie la **ChangeKey**mise à jour associée.
   
 ## <a name="see-also"></a>Voir aussi
 

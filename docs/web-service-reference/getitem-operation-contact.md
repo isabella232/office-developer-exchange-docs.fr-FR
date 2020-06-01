@@ -12,18 +12,18 @@ api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
 description: L'opération GetItem est utilisée pour obtenir des éléments de contact à partir de la banque d'informations Exchange.
-ms.openlocfilehash: 8d7436421f0c54a49345e8ef6b37cb442bca4277
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756658"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460021"
 ---
 # <a name="getitem-operation-contact"></a>Opération de GetItem (contacts)
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. L'opération GetItem est utilisée pour obtenir des éléments de contact à partir de la banque d'informations Exchange.
+L'opération GetItem est utilisée pour obtenir des éléments de contact à partir de la banque d'informations Exchange.
   
-## <a name="getitem-contact-request-example"></a>Exemple de requête GetItem (contacts)
+## <a name="getitem-contact-request-example"></a>Exemple de requête GetItem (contact)
 
 ### <a name="description"></a>Description
 
@@ -35,9 +35,9 @@ L'exemple suivant montre comment obtenir un élément à partir de la banque d'i
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -56,7 +56,7 @@ La demande pour obtenir un élément à partir de la banque d'informations Excha
 > [!NOTE]
 > [!REMARQUE] Identificateur de l'élément a été raccourcie afin de préserver la lisibilité. 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -66,9 +66,9 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [BaseShape](baseshape.md)
     
-- [ItemId](itemids.md)
+- [ItemIds](itemids.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 ## <a name="successful-getitem-contact-response"></a>Réponse de réussite GetItem (contacts)
 
@@ -85,12 +85,12 @@ L'exemple de code suivant montre une réponse positive de GetItem pour l' **AllP
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -155,7 +155,7 @@ L'exemple de code suivant montre une réponse positive de GetItem pour l' **AllP
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse à une demande de GetItem avec une forme de réponse de **AllProperties** pour un élément de contact. 
   
@@ -173,7 +173,7 @@ Les éléments suivants sont utilisés dans la réponse à une demande de GetIte
     
 - [Contact](contact.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
@@ -207,19 +207,19 @@ Les éléments suivants sont utilisés dans la réponse à une demande de GetIte
     
 - [Culture](culture.md)
     
-- [Classer sous](fileas.md)
+- [FileAs](fileas.md)
     
 - [FileAsMapping](fileasmapping.md)
     
 - [DisplayName (chaîne)](displayname-string.md)
     
-- [Prénom](givenname.md)
+- [GivenName](givenname.md)
     
 - [Initials](initials.md)
     
 - [CompleteName](completename.md)
     
-- [Prénom](firstname.md)
+- [FirstName](firstname.md)
     
 - [LastName](lastname.md)
     
@@ -241,7 +241,7 @@ Les éléments suivants sont utilisés dans la réponse à une demande de GetIte
     
 - [State](state-ex15websvcsotherref.md)
     
-- [Countryorregion définit](countryorregion.md)
+- [CountryOrRegion](countryorregion.md)
     
 - [PhoneNumbers](phonenumbers.md)
     
@@ -251,7 +251,7 @@ Les éléments suivants sont utilisés dans la réponse à une demande de GetIte
     
 - [Surname](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>Exemple de requête non valide GetItem (contacts)
+## <a name="invalid-getitem-contact-request-example"></a>Exemple de requête GetItem (contact) non valide
 
 ### <a name="description"></a>Description
 
@@ -263,9 +263,9 @@ L'exemple de code suivant illustre une demande non valide.
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns='http://schemas.microsoft.com/exchange/services/2006/messages'>
+    <GetItem xmlns='https://schemas.microsoft.com/exchange/services/2006/messages'>
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
         <t:IncludeMimeContent>true</t:IncludeMimeContent>
@@ -282,7 +282,7 @@ L'exemple de code suivant illustre une demande non valide.
 
 Identificateurs d'éléments ont été raccourcies afin de préserver la lisibilité.
   
-## <a name="getitem-contact-error-response"></a>Réponse d’erreur GetItem (contacts)
+## <a name="getitem-contact-error-response"></a>Réponse d’erreur GetItem (contact)
 
 ### <a name="description"></a>Description
 
@@ -297,12 +297,12 @@ L'exemple de code suivant montre une réponse d'erreur à une demande de GetItem
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Error">
           <m:MessageText>Mime conversion is not supported for this item type.</m:MessageText>
@@ -340,7 +340,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
 
 
 
-[GetItem Operation](getitem-operation.md)
+[Opération GetItem](getitem-operation.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

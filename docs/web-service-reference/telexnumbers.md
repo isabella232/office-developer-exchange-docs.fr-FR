@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51992f35-54be-4424-8d3f-c3a3a1d05a4d
-description: L’élément TelexNumbers spécifie un tableau de nombres télex et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 8aaaf0db542db36b06631690937b794374036a28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TelexNumbers spécifie un tableau de numéros de télex et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: fc236fe9b1f0229dd2de687e9f2967eefcbf928b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838684"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459951"
 ---
 # <a name="telexnumbers"></a>TelexNumbers
 
-L’élément **TelexNumbers** spécifie un tableau de nombres télex et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **TelexNumbers** spécifie un tableau de numéros de télex et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <TelexNumbers>
@@ -28,11 +28,11 @@ L’élément **TelexNumbers** spécifie un tableau de nombres télex et les ide
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

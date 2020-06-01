@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
-description: L’élément ShowExternalRecipientCount indique si les consommateurs de l’opération GetMailTips ont afficher les astuces de messagerie qui indiquent le nombre de destinataires externes à laquelle un message est adressé.
-ms.openlocfilehash: 1fd3ceb629689c560dc60afe01f0413602f79a0d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ShowExternalRecipientCount indique si les consommateurs de l’opération GetMailTips doivent afficher des conseils de courrier électronique qui indiquent le nombre de destinataires externes auxquels un message est adressé.
+ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460469"
 ---
 # <a name="showexternalrecipientcount"></a>ShowExternalRecipientCount
 
-L’élément **ShowExternalRecipientCount** indique si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) ont afficher les astuces de messagerie qui indiquent le nombre de destinataires externes à laquelle un message est adressé. 
+L’élément **ShowExternalRecipientCount** indique si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) doivent afficher des conseils de courrier électronique qui indiquent le nombre de destinataires externes auxquels un message est adressé. 
   
 ```XML
 <ShowExternalRecipientCount>true | false</ShowExternalRecipientCount>
@@ -30,11 +30,11 @@ L’élément **ShowExternalRecipientCount** indique si les consommateurs de l' 
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est **la valeur true** si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) doivent afficher les astuces de messagerie qui indiquent le nombre de destinataires externes à laquelle un message est adressé. La valeur est **false** si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) n’ont pas à afficher les astuces de messagerie qui indiquent le nombre de destinataires externes à laquelle un message est adressé. 
+La valeur texte de cet élément est **true** si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) doivent afficher des conseils de courrier électronique qui indiquent le nombre de destinataires externes auxquels un message est adressé. La valeur est **false** si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) n’ont pas besoin d’afficher des conseils de courrier qui indiquent le nombre de destinataires externes auxquels un message est adressé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: DialString (Exchange Web Services)
+title: DialString (services Web Exchange)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 077501f6-b3a8-4799-8c37-09e77af49ddb
-description: L’élément DialString représente la chaîne de numérotation du numéro de téléphone qui est appelée pour lire un élément par téléphone. Cet élément est obligatoire.
-ms.openlocfilehash: a2b9a12e714d29923402e4d5563c26b6b2d5f632
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DialString représente la chaîne de numérotation du numéro de téléphone qui est appelé pour lire un élément par téléphone. Cet élément est obligatoire.
+ms.openlocfilehash: c944c9f6b99f7f8d45f7e08442a7dfb55a5fe9f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755916"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44458746"
 ---
-# <a name="dialstring-exchange-web-services"></a>DialString (Exchange Web Services)
+# <a name="dialstring-exchange-web-services"></a>DialString (services Web Exchange)
 
-L’élément **DialString** représente la chaîne de numérotation du numéro de téléphone qui est appelée pour lire un élément par téléphone. Cet élément est obligatoire. 
+L’élément **DialString** représente la chaîne de numérotation du numéro de téléphone qui est appelé pour lire un élément par téléphone. Cet élément est obligatoire. 
   
 ```xml
 <DialString/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PlayOnPhone (Exchange Web Services)](playonphone-exchange-web-services.md) <br/> |Représente une demande de lecture d’un élément sur un téléphone.  <br/> |
+|[PlayOnPhone (services Web Exchange)](playonphone-exchange-web-services.md) <br/> |Représente une demande de lecture d’un élément sur un téléphone.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

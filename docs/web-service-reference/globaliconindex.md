@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3d28ed70-4cfe-46e4-8d15-593c6e355bcf
-description: L’élément GlobalIconIndex identifie l’index de l’icône global pour tous les éléments dans une conversation.
-ms.openlocfilehash: e8d78bfcfc0e57df9230db86e080d1ee29878094
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GlobalIconIndex identifie l’index global des icônes pour tous les éléments d’une conversation.
+ms.openlocfilehash: 9900a80136a1a7eaae4634afd31568679f6dba1b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827727"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459460"
 ---
 # <a name="globaliconindex"></a>GlobalIconIndex
 
-L’élément **GlobalIconIndex** identifie l’index de l’icône global pour tous les éléments dans une conversation. 
+L’élément **GlobalIconIndex** identifie l’index global des icônes pour tous les éléments d’une conversation. 
   
 ```XML
 <IconIndex>Default | PostItem | MailRead | MailUnread | MailReplied | MailForwarded | MailEncrypted | MailSmimeSigned | MailEncrytedReplied | MailSmimeSignedReplied | MailEncryptedForwarded | MailSmimeSignedForwarded | MailEncryptedRead | MailSmimeSignedRead | MailIrm | MaillrmForwarded | MaillrmReplied | SmsSubmitted | SmsRoutedToDeliveryPoint | SmsRoutedToExternalMessagingSystem | SmsDelivered | OutlookDefaultForContacts | AppointmentItem | AppointmentRecur | AppointmentMeet | AppointmentMeetRecur | AppointmentMeetNY | AppointmentMeetYes | AppointmentMeetNo | AppointmentMeetMaybe | AppointmentMeetCancel | AppointmentMeetInfo | TaskItem | TaskRecur | TaskOwned | TaskDelegated</IconIndex>
@@ -26,11 +26,11 @@ L’élément **GlobalIconIndex** identifie l’index de l’icône global pour 
  **IconIndexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,51 +38,51 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Conversation (ConversationType)](conversation-conversationtype.md) | [élément](item.md) | [Contact](contact.md) | [DistributionList](distributionlist.md) | [Message](message-ex15websvcsotherref.md) | [CalendarItem](calendaritem.md) | [PostItem](postitem.md) | [tâche ](task.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)  |  [Élément](item.md)  |  [Contact](contact.md)  |  [DistributionList](distributionlist.md)  |  [Message](message-ex15websvcsotherref.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Tâche](task.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant contient les valeurs de texte possibles pour l’élément **GlobalIconIndex** . 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
 |||
-|Default (Défaut)  <br/> |Spécifie l’icône par défaut.  <br/> |
-|Objet postItem  <br/> |Spécifie l’icône pour un élément de publication.  <br/> |
-|MailRead  <br/> |Spécifie que le message lu icône.  <br/> |
-|MailUnread  <br/> |Spécifie l’icône Courrier non lu.  <br/> |
-|MailReplied  <br/> |Spécifie la réponse à l’icône Courrier.  <br/> |
-|MailForwarded  <br/> |Spécifie l’icône Courrier transféré.  <br/> |
-|MailEncrypted  <br/> |Spécifie l’icône message chiffré.  <br/> |
-|MailSmimeSigned  <br/> |Spécifie l’icône de messages électroniques signés Secure/Multipurpose Internet Mail Extensions (S/MIME).  <br/> |
-|MailEncryptedReplied  <br/> |Spécifie qu'une réponse chiffrés à l’icône Courrier.  <br/> |
-|MailSmimeSignedReplied  <br/> |Spécifie que le S/MIME signés répondu à l’icône Courrier.  <br/> |
-|MailEncryptedForwarded  <br/> |Spécifie l’icône Courrier transféré chiffré.  <br/> |
-|MailSmimeSignedForwarded  <br/> |Spécifie le S/MIME signé transféré icône Courrier.  <br/> |
-|MailEncryptedRead  <br/> |Spécifie l’icône message lecture chiffré.  <br/> |
-|MailSmimeSignedRead  <br/> |Spécifie le S/MIME signé lire l’icône Courrier.  <br/> |
-|MailIrm  <br/> |Spécifie l’icône Courrier protégés par IRM Information Rights Management.  <br/> |
-|MailIrmForwarded  <br/> |Spécifie le-protégé par IRM transféré icône Courrier.  <br/> |
-|MailIrmReplied  <br/> |Spécifie que le-protégé par IRM a répondu à l’icône Courrier.  <br/> |
-|SmsSubmitted  <br/> |Spécifie l’icône pour le courrier électronique envoyé pour le routage du Service SMS (Short Message).  <br/> |
-|SmsRoutedToDeliveryPoint  <br/> |Spécifie l’icône pour le routage de SMS vers un point de remise externe.  <br/> |
-|SmsRoutedToExternalMessagingSystem  <br/> |Spécifie l’icône pour le routage de SMS vers un système de messagerie externe.  <br/> |
-|SmsDelivered  <br/> |Spécifie l’icône de courrier remis SMS.  <br/> |
-|OutlookDefaultForContacts  <br/> |Spécifie l’icône par défaut pour les contacts.  <br/> |
-|Objet AppointmentItem  <br/> |Spécifie l’icône de l’élément de rendez-vous.  <br/> |
-|AppointmentRecur  <br/> |Spécifie l’icône de rendez-vous périodiques.  <br/> |
-|AppointmentMeet  <br/> |Spécifie l’icône de réunion.  <br/> |
-|AppointmentMeetRecur  <br/> |Spécifie l’icône réunion périodique.  <br/> |
+|Par défaut  <br/> |Spécifie l’icône par défaut.  <br/> |
+|PostItem  <br/> |Spécifie l’icône d’un élément de publication.  <br/> |
+|MailRead  <br/> |Spécifie l’icône de lecture du courrier.  <br/> |
+|MailUnread  <br/> |Spécifie l’icône courrier non lu.  <br/> |
+|MailReplied  <br/> |Spécifie l’icône réponse à un message.  <br/> |
+|MailForwarded  <br/> |Spécifie l’icône de courrier transféré.  <br/> |
+|MailEncrypted  <br/> |Spécifie l’icône de messagerie chiffrée.  <br/> |
+|MailSmimeSigned  <br/> |Spécifie l’icône de courrier signé S/MIME (Secure/Multipurpose Internet Mail Extensions).  <br/> |
+|MailEncryptedReplied  <br/> |Spécifie l’icône réponse chiffrée à un message.  <br/> |
+|MailSmimeSignedReplied  <br/> |Indique que la signature S/MIME a répondu à l’icône courrier.  <br/> |
+|MailEncryptedForwarded  <br/> |Spécifie l’icône du message transféré chiffré.  <br/> |
+|MailSmimeSignedForwarded  <br/> |Spécifie l’icône du message signé S/MIME.  <br/> |
+|MailEncryptedRead  <br/> |Spécifie l’icône de lecture de message chiffrée.  <br/> |
+|MailSmimeSignedRead  <br/> |Spécifie l’icône de courrier lu signé S/MIME.  <br/> |
+|MailIrm  <br/> |Spécifie l’icône de messagerie protégée par la gestion des droits relatifs à l’information (IRM).  <br/> |
+|MailIrmForwarded  <br/> |Spécifie l’icône de courrier transféré par IRM.  <br/> |
+|MailIrmReplied  <br/> |Spécifie l’icône réponse protégée par IRM au courrier.  <br/> |
+|SmsSubmitted  <br/> |Spécifie l’icône du message envoyé pour le routage SMS (Short Message Service).  <br/> |
+|SmsRoutedToDeliveryPoint  <br/> |Spécifie l’icône du routage SMS vers un point de remise externe.  <br/> |
+|SmsRoutedToExternalMessagingSystem  <br/> |Spécifie l’icône du routage SMS vers un système de messagerie externe.  <br/> |
+|SmsDelivered  <br/> |Spécifie l’icône courrier SMS remis.  <br/> |
+|OutlookDefaultForContacts  <br/> |Spécifie l’icône par défaut des contacts.  <br/> |
+|AppointmentItem  <br/> |Spécifie l’icône de l’élément de rendez-vous.  <br/> |
+|AppointmentRecur  <br/> |Spécifie l’icône de rendez-vous périodique.  <br/> |
+|AppointmentMeet  <br/> |Spécifie l’icône de la réunion.  <br/> |
+|AppointmentMeetRecur  <br/> |Spécifie l’icône de réunion périodique.  <br/> |
 |AppointmentMeetNY  <br/> |Spécifie l’icône d’une réponse provisoire à la réunion.  <br/> |
-|AppointmentMeetYes  <br/> |Spécifie la réunion icône acceptation.  <br/> |
+|AppointmentMeetYes  <br/> |Spécifie l’icône d’acceptation de la réunion.  <br/> |
 |AppointmentMeetNo  <br/> |Spécifie l’icône de réunion refusée.  <br/> |
-|AppointmentMeetMaybe  <br/> |Spécifie l’icône d’une réponse peut-être à la réunion.  <br/> |
-|AppointmentMeetCancel  <br/> |Spécifie la réunion annuler l’icône.  <br/> |
-|AppointmentMeetInfo  <br/> |Spécifie la réunion icône d’information.  <br/> |
-|Objet TaskItem  <br/> |Spécifie l’icône de l’élément de tâche.  <br/> |
-|TaskRecur  <br/> |Spécifie l’icône de la tâche périodique.  <br/> |
-|TaskOwned  <br/> |Spécifie la tâche propriétée d’icône.  <br/> |
-|TaskDelegated  <br/> |Spécifie l’icône déléguées à ces tâches.  <br/> |
+|AppointmentMeetMaybe  <br/> |Spécifie l’icône d’une réponse possible à la réunion.  <br/> |
+|AppointmentMeetCancel  <br/> |Spécifie l’icône d’annulation de réunion.  <br/> |
+|AppointmentMeetInfo  <br/> |Spécifie l’icône des informations sur la réunion.  <br/> |
+|TaskItem  <br/> |Spécifie l’icône de l’élément de tâche.  <br/> |
+|TaskRecur  <br/> |Spécifie l’icône de tâche périodique.  <br/> |
+|TaskOwned  <br/> |Spécifie l’icône de la tâche.  <br/> |
+|TaskDelegated  <br/> |Spécifie l’icône de la tâche déléguée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -94,7 +94,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

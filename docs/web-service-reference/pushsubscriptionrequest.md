@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 70caa0ca-40a1-421f-b4e6-0658f22d0b8e
-description: L’élément PushSubscriptionRequest représente un abonnement à un abonnement de notification push d’événements.
-ms.openlocfilehash: 34717d37b8e5bb50c927e57088299fbcb18a2514
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PushSubscriptionRequest représente un abonnement à un abonnement de notification d’événement basé sur un type de message.
+ms.openlocfilehash: dcdb767ed175468aa4ec940f3147c164e4707e40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828929"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465512"
 ---
-# <a name="pushsubscriptionrequest"></a><span data-ttu-id="da9a2-103">PushSubscriptionRequest</span><span class="sxs-lookup"><span data-stu-id="da9a2-103">PushSubscriptionRequest</span></span>
+# <a name="pushsubscriptionrequest"></a><span data-ttu-id="c6255-103">PushSubscriptionRequest</span><span class="sxs-lookup"><span data-stu-id="c6255-103">PushSubscriptionRequest</span></span>
 
-<span data-ttu-id="da9a2-104">L’élément **PushSubscriptionRequest** représente un abonnement à un abonnement de notification push d’événements.</span><span class="sxs-lookup"><span data-stu-id="da9a2-104">The **PushSubscriptionRequest** element represents a subscription to a push-based event notification subscription.</span></span> 
+<span data-ttu-id="c6255-104">L’élément **PushSubscriptionRequest** représente un abonnement à un abonnement de notification d’événement basé sur un type de message.</span><span class="sxs-lookup"><span data-stu-id="c6255-104">The **PushSubscriptionRequest** element represents a subscription to a push-based event notification subscription.</span></span> 
   
-[<span data-ttu-id="da9a2-105">S’abonner</span><span class="sxs-lookup"><span data-stu-id="da9a2-105">Subscribe</span></span>](subscribe.md)
+[<span data-ttu-id="c6255-105">S’abonner</span><span class="sxs-lookup"><span data-stu-id="c6255-105">Subscribe</span></span>](subscribe.md)
   
-[<span data-ttu-id="da9a2-106">PushSubscriptionRequest</span><span class="sxs-lookup"><span data-stu-id="da9a2-106">PushSubscriptionRequest</span></span>](pushsubscriptionrequest.md)
+[<span data-ttu-id="c6255-106">PushSubscriptionRequest</span><span class="sxs-lookup"><span data-stu-id="c6255-106">PushSubscriptionRequest</span></span>](pushsubscriptionrequest.md)
   
 ```XML
 <PushSubscriptionRequest SubscribeToAllFolders="">
@@ -37,57 +37,57 @@ ms.locfileid: "19828929"
 </PushSubscriptionRequest>
 ```
 
- <span data-ttu-id="da9a2-107">**PushSubscriptionRequestType**</span><span class="sxs-lookup"><span data-stu-id="da9a2-107">**PushSubscriptionRequestType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="da9a2-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="da9a2-108">Attributes and elements</span></span>
+ <span data-ttu-id="c6255-107">**PushSubscriptionRequestType**</span><span class="sxs-lookup"><span data-stu-id="c6255-107">**PushSubscriptionRequestType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c6255-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c6255-108">Attributes and elements</span></span>
 
-<span data-ttu-id="da9a2-109">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="da9a2-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c6255-109">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c6255-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="da9a2-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="da9a2-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c6255-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="c6255-110">Attributes</span></span>
 
-|<span data-ttu-id="da9a2-111">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="da9a2-111">**Attribute**</span></span>|<span data-ttu-id="da9a2-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="da9a2-112">**Description**</span></span>|
+|<span data-ttu-id="c6255-111">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="c6255-111">**Attribute**</span></span>|<span data-ttu-id="c6255-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="c6255-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="da9a2-113">**SubscribeToAllFolders**</span><span class="sxs-lookup"><span data-stu-id="da9a2-113">**SubscribeToAllFolders**</span></span> <br/> |<span data-ttu-id="da9a2-114">Indique s’il s’abonner à tous les dossiers disponibles.</span><span class="sxs-lookup"><span data-stu-id="da9a2-114">Indicates whether to subscribe to all available folders.</span></span> <span data-ttu-id="da9a2-115">Cet attribut est facultatif.</span><span class="sxs-lookup"><span data-stu-id="da9a2-115">This attribute is optional.</span></span>  <br/> |
+|<span data-ttu-id="c6255-113">**SubscribeToAllFolders**</span><span class="sxs-lookup"><span data-stu-id="c6255-113">**SubscribeToAllFolders**</span></span> <br/> |<span data-ttu-id="c6255-114">Indique s’il faut s’abonner à tous les dossiers disponibles.</span><span class="sxs-lookup"><span data-stu-id="c6255-114">Indicates whether to subscribe to all available folders.</span></span> <span data-ttu-id="c6255-115">Cet attribut est facultatif.</span><span class="sxs-lookup"><span data-stu-id="c6255-115">This attribute is optional.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="da9a2-116">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="da9a2-116">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c6255-116">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c6255-116">Child elements</span></span>
 
-|<span data-ttu-id="da9a2-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="da9a2-117">**Element**</span></span>|<span data-ttu-id="da9a2-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="da9a2-118">**Description**</span></span>|
+|<span data-ttu-id="c6255-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c6255-117">**Element**</span></span>|<span data-ttu-id="c6255-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="c6255-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="da9a2-119">FolderIds</span><span class="sxs-lookup"><span data-stu-id="da9a2-119">FolderIds</span></span>](folderids.md) <br/> |<span data-ttu-id="da9a2-120">Contient un tableau d’identificateurs de dossier qui sont utilisés pour identifier les dossiers à analyser pour les notifications d’événement.</span><span class="sxs-lookup"><span data-stu-id="da9a2-120">Contains an array of folder identifiers that are used to identify folders to monitor for event notifications.</span></span>  <br/> |
-|[<span data-ttu-id="da9a2-121">EventTypes</span><span class="sxs-lookup"><span data-stu-id="da9a2-121">EventTypes</span></span>](eventtypes.md) <br/> |<span data-ttu-id="da9a2-122">Contient une collection de notifications d’événements qui sont utilisés pour créer un abonnement.</span><span class="sxs-lookup"><span data-stu-id="da9a2-122">Contains a collection of event notifications that are used to create a subscription.</span></span>  <br/> |
-|[<span data-ttu-id="da9a2-123">Filigrane</span><span class="sxs-lookup"><span data-stu-id="da9a2-123">Watermark</span></span>](watermark.md) <br/> |<span data-ttu-id="da9a2-124">Représente un signet d’événements dans la table d’événements de boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="da9a2-124">Represents an event bookmark in the mailbox events table.</span></span> <span data-ttu-id="da9a2-125">Cela permet de créer un abonnement commençant à un événement représenté par le filigrane.</span><span class="sxs-lookup"><span data-stu-id="da9a2-125">This is used to create a subscription starting at an event represented by the watermark.</span></span> <span data-ttu-id="da9a2-126">Si la limite d’une demande Subscribe n’est trouvée, une réponse d’erreur est retournée au client.</span><span class="sxs-lookup"><span data-stu-id="da9a2-126">If the watermark from a Subscribe request is not found, an error response will be returned to the client.</span></span> <span data-ttu-id="da9a2-127">Cela peut se produire si celui-ci est antérieure à 30 jours ou si celui-ci n’a jamais été présent dans la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="da9a2-127">This may occur if the watermark is older than 30 days or if the watermark was never present in the mailbox.</span></span>  <br/> |
-|[<span data-ttu-id="da9a2-128">StatusFrequency</span><span class="sxs-lookup"><span data-stu-id="da9a2-128">StatusFrequency</span></span>](statusfrequency.md) <br/> |<span data-ttu-id="da9a2-129">Représente la fréquence, en minutes, à la notification messages sont envoyées au client lorsqu’aucun événement ne se sont produites.</span><span class="sxs-lookup"><span data-stu-id="da9a2-129">Represents the frequency, specified in minutes, at which notification messages will be sent to the client when no events have occurred.</span></span>  <br/> |
-|[<span data-ttu-id="da9a2-130">URL</span><span class="sxs-lookup"><span data-stu-id="da9a2-130">Url </span></span>](url-ex15websvcsotherref.md) <br/> |<span data-ttu-id="da9a2-131">Représente l’emplacement du client de service Web pour les notifications push.</span><span class="sxs-lookup"><span data-stu-id="da9a2-131">Represents the location of the client Web service for push notifications.</span></span>  <br/> |
+|[<span data-ttu-id="c6255-119">FolderIds</span><span class="sxs-lookup"><span data-stu-id="c6255-119">FolderIds</span></span>](folderids.md) <br/> |<span data-ttu-id="c6255-120">Contient un tableau des identificateurs de dossier qui sont utilisés pour identifier les dossiers à surveiller pour les notifications d’événement.</span><span class="sxs-lookup"><span data-stu-id="c6255-120">Contains an array of folder identifiers that are used to identify folders to monitor for event notifications.</span></span>  <br/> |
+|[<span data-ttu-id="c6255-121">EventTypes</span><span class="sxs-lookup"><span data-stu-id="c6255-121">EventTypes</span></span>](eventtypes.md) <br/> |<span data-ttu-id="c6255-122">Contient une collection de notifications d’événements qui sont utilisées pour créer un abonnement.</span><span class="sxs-lookup"><span data-stu-id="c6255-122">Contains a collection of event notifications that are used to create a subscription.</span></span>  <br/> |
+|[<span data-ttu-id="c6255-123">Watermark</span><span class="sxs-lookup"><span data-stu-id="c6255-123">Watermark</span></span>](watermark.md) <br/> |<span data-ttu-id="c6255-124">Représente un signet d’événement dans la table des événements de boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c6255-124">Represents an event bookmark in the mailbox events table.</span></span> <span data-ttu-id="c6255-125">Cela permet de créer un abonnement à partir d’un événement représenté par le filigrane.</span><span class="sxs-lookup"><span data-stu-id="c6255-125">This is used to create a subscription starting at an event represented by the watermark.</span></span> <span data-ttu-id="c6255-126">Si le filigrane d’une demande subscribe est introuvable, une réponse d’erreur est renvoyée au client.</span><span class="sxs-lookup"><span data-stu-id="c6255-126">If the watermark from a Subscribe request is not found, an error response will be returned to the client.</span></span> <span data-ttu-id="c6255-127">Cela peut se produire si le filigrane est âgé de plus de 30 jours ou si le filigrane n’a jamais été présent dans la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c6255-127">This may occur if the watermark is older than 30 days or if the watermark was never present in the mailbox.</span></span>  <br/> |
+|[<span data-ttu-id="c6255-128">StatusFrequency</span><span class="sxs-lookup"><span data-stu-id="c6255-128">StatusFrequency</span></span>](statusfrequency.md) <br/> |<span data-ttu-id="c6255-129">Représente la fréquence, spécifiée en minutes, à laquelle les messages de notification sont envoyés au client lorsqu’aucun événement n’a eu lieu.</span><span class="sxs-lookup"><span data-stu-id="c6255-129">Represents the frequency, specified in minutes, at which notification messages will be sent to the client when no events have occurred.</span></span>  <br/> |
+|[<span data-ttu-id="c6255-130">Adresse</span><span class="sxs-lookup"><span data-stu-id="c6255-130">Url </span></span>](url-ex15websvcsotherref.md) <br/> |<span data-ttu-id="c6255-131">Représente l’emplacement du service Web client pour les notifications de type transmission.</span><span class="sxs-lookup"><span data-stu-id="c6255-131">Represents the location of the client Web service for push notifications.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="da9a2-132">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="da9a2-132">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c6255-132">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c6255-132">Parent elements</span></span>
 
-|<span data-ttu-id="da9a2-133">**Élément**</span><span class="sxs-lookup"><span data-stu-id="da9a2-133">**Element**</span></span>|<span data-ttu-id="da9a2-134">**Description**</span><span class="sxs-lookup"><span data-stu-id="da9a2-134">**Description**</span></span>|
+|<span data-ttu-id="c6255-133">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c6255-133">**Element**</span></span>|<span data-ttu-id="c6255-134">**Description**</span><span class="sxs-lookup"><span data-stu-id="c6255-134">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="da9a2-135">S’abonner</span><span class="sxs-lookup"><span data-stu-id="da9a2-135">Subscribe</span></span>](subscribe.md) <br/> |<span data-ttu-id="da9a2-136">Contient les propriétés utilisées pour créer des abonnements.</span><span class="sxs-lookup"><span data-stu-id="da9a2-136">Contains the properties used to create subscriptions.</span></span>  <br/> |
+|[<span data-ttu-id="c6255-135">S’abonner</span><span class="sxs-lookup"><span data-stu-id="c6255-135">Subscribe</span></span>](subscribe.md) <br/> |<span data-ttu-id="c6255-136">Contient les propriétés utilisées pour créer des abonnements.</span><span class="sxs-lookup"><span data-stu-id="c6255-136">Contains the properties used to create subscriptions.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="da9a2-137">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="da9a2-137">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="c6255-137">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="c6255-137">Text value</span></span>
 
-<span data-ttu-id="da9a2-138">Aucun.</span><span class="sxs-lookup"><span data-stu-id="da9a2-138">None.</span></span>
+<span data-ttu-id="c6255-138">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c6255-138">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="da9a2-139">Remarques</span><span class="sxs-lookup"><span data-stu-id="da9a2-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6255-139">Remarques</span><span class="sxs-lookup"><span data-stu-id="c6255-139">Remarks</span></span>
 
-<span data-ttu-id="da9a2-140">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="da9a2-140">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c6255-140">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="c6255-140">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="da9a2-141">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="da9a2-141">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c6255-141">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c6255-141">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="da9a2-142">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="da9a2-142">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="da9a2-143">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="da9a2-143">Schema name</span></span>  <br/> |<span data-ttu-id="da9a2-144">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="da9a2-144">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="da9a2-145">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="da9a2-145">Validation file</span></span>  <br/> |<span data-ttu-id="da9a2-146">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="da9a2-146">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="da9a2-147">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="da9a2-147">Can be empty</span></span>  <br/> |<span data-ttu-id="da9a2-148">False</span><span class="sxs-lookup"><span data-stu-id="da9a2-148">False</span></span>  <br/> |
+|<span data-ttu-id="c6255-142">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c6255-142">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="c6255-143">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c6255-143">Schema name</span></span>  <br/> |<span data-ttu-id="c6255-144">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="c6255-144">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="c6255-145">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="c6255-145">Validation file</span></span>  <br/> |<span data-ttu-id="c6255-146">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="c6255-146">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="c6255-147">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c6255-147">Can be empty</span></span>  <br/> |<span data-ttu-id="c6255-148">False</span><span class="sxs-lookup"><span data-stu-id="c6255-148">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="da9a2-149">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="da9a2-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c6255-149">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c6255-149">See also</span></span>
 
 
 
-[<span data-ttu-id="da9a2-150">Opération d'abonnement</span><span class="sxs-lookup"><span data-stu-id="da9a2-150">Subscribe operation</span></span>](subscribe-operation.md)
+[<span data-ttu-id="c6255-150">Opération d'abonnement</span><span class="sxs-lookup"><span data-stu-id="c6255-150">Subscribe operation</span></span>](subscribe-operation.md)
   
-[<span data-ttu-id="da9a2-151">Opération de GetEvents</span><span class="sxs-lookup"><span data-stu-id="da9a2-151">GetEvents operation</span></span>](getevents-operation.md)
+[<span data-ttu-id="c6255-151">Opération de GetEvents</span><span class="sxs-lookup"><span data-stu-id="c6255-151">GetEvents operation</span></span>](getevents-operation.md)
   
-[<span data-ttu-id="da9a2-152">Opération de résiliation d'abonnement</span><span class="sxs-lookup"><span data-stu-id="da9a2-152">Unsubscribe operation</span></span>](unsubscribe-operation.md)
+[<span data-ttu-id="c6255-152">Opération de résiliation d'abonnement</span><span class="sxs-lookup"><span data-stu-id="c6255-152">Unsubscribe operation</span></span>](unsubscribe-operation.md)
 

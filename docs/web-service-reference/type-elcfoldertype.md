@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6faad98f-1a92-4373-bde5-dd12af61765f
-description: L’élément de Type spécifie le type de dossier utilisé dans une stratégie de rétention.
-ms.openlocfilehash: f679a9237a577d26d4b28e1b25f3e135f7193903
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément type spécifie le type de dossier utilisé dans une stratégie de rétention.
+ms.openlocfilehash: f6fcc7942a530ada2d6e72c3e38286a7595b09ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838780"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465106"
 ---
-# <a name="type-elcfoldertype"></a><span data-ttu-id="ad4b7-103">Type (ElcFolderType)</span><span class="sxs-lookup"><span data-stu-id="ad4b7-103">Type (ElcFolderType)</span></span>
+# <a name="type-elcfoldertype"></a><span data-ttu-id="eedd8-103">Type (ElcFolderType)</span><span class="sxs-lookup"><span data-stu-id="eedd8-103">Type (ElcFolderType)</span></span>
 
-<span data-ttu-id="ad4b7-104">L’élément de **Type** Spécifie le type de dossier utilisé dans une stratégie de rétention.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-104">The **Type** element specifies the type of folder used in a retention policy.</span></span> 
+<span data-ttu-id="eedd8-104">L’élément **type** spécifie le type de dossier utilisé dans une stratégie de rétention.</span><span class="sxs-lookup"><span data-stu-id="eedd8-104">The **Type** element specifies the type of folder used in a retention policy.</span></span> 
   
 ```XML
 <Type> Calendar | Contacts | DeletedItems | Drafts | Inbox | JunkEmail | Journal | Notes | Outbox | SentItems | Tasks | All | ManagedCustomFolder | RssSubscriptions | SyncIssues | ConversationHistory | Personal | RecoverableItems | NonIpmRoot <Type>
 ```
 
- <span data-ttu-id="ad4b7-105">**ElcFolderType**</span><span class="sxs-lookup"><span data-stu-id="ad4b7-105">**ElcFolderType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="ad4b7-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="ad4b7-106">Attributes and elements</span></span>
+ <span data-ttu-id="eedd8-105">**ElcFolderType**</span><span class="sxs-lookup"><span data-stu-id="eedd8-105">**ElcFolderType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="eedd8-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="eedd8-106">Attributes and elements</span></span>
 
-<span data-ttu-id="ad4b7-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="eedd8-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="eedd8-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="ad4b7-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="ad4b7-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="eedd8-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="eedd8-108">Attributes</span></span>
 
-<span data-ttu-id="ad4b7-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-109">None.</span></span>
+<span data-ttu-id="eedd8-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="eedd8-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="ad4b7-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="ad4b7-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="eedd8-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="eedd8-110">Child elements</span></span>
 
-<span data-ttu-id="ad4b7-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-111">None.</span></span>
+<span data-ttu-id="eedd8-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="eedd8-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="ad4b7-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="ad4b7-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="eedd8-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="eedd8-112">Parent elements</span></span>
 
-[<span data-ttu-id="ad4b7-113">RetentionPolicyTag</span><span class="sxs-lookup"><span data-stu-id="ad4b7-113">RetentionPolicyTag</span></span>](retentionpolicytag.md)
+[<span data-ttu-id="eedd8-113">RetentionPolicyTag</span><span class="sxs-lookup"><span data-stu-id="eedd8-113">RetentionPolicyTag</span></span>](retentionpolicytag.md)
   
-## <a name="text-value"></a><span data-ttu-id="ad4b7-114">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="ad4b7-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="eedd8-114">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="eedd8-114">Text value</span></span>
 
-<span data-ttu-id="ad4b7-115">La valeur de texte de l’élément **Type** est le type de dossier utilisé dans une stratégie de rétention.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-115">The text value of the **Type** element is the folder type used in a retention policy.</span></span> <span data-ttu-id="ad4b7-116">La valeur de texte peut être une des valeurs suivantes qui représentent un type de dossier par défaut : calendrier, Contacts, DeletedItems, Brouillons, boîte de réception, JunkEmail, Journal, Notes, boîte d’envoi, éléments envoyés, tâches, All, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, personnel, RecoverableItems ou NonIpmRoot</span><span class="sxs-lookup"><span data-stu-id="ad4b7-116">The text value can be one of the following values that represent a default folder type: Calendar, Contacts, DeletedItems, Drafts, Inbox, JunkEmail, Journal, Notes, Outbox, SentItems, Tasks, All, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, Personal, RecoverableItems, or NonIpmRoot</span></span> 
+<span data-ttu-id="eedd8-115">La valeur de texte de l’élément **type** est le type de dossier utilisé dans une stratégie de rétention.</span><span class="sxs-lookup"><span data-stu-id="eedd8-115">The text value of the **Type** element is the folder type used in a retention policy.</span></span> <span data-ttu-id="eedd8-116">La valeur de texte peut être une des valeurs suivantes qui représentent un type de dossier par défaut : calendrier, contacts, DeletedItems, brouillons, boîte de réception, JunkEmail, Journal, notes, boîte d’envoi, éléments envoyés, tâches, tout, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, personnel, RecoverableItems ou NonIpmRoot</span><span class="sxs-lookup"><span data-stu-id="eedd8-116">The text value can be one of the following values that represent a default folder type: Calendar, Contacts, DeletedItems, Drafts, Inbox, JunkEmail, Journal, Notes, Outbox, SentItems, Tasks, All, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, Personal, RecoverableItems, or NonIpmRoot</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="ad4b7-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="ad4b7-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="eedd8-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="eedd8-117">Remarks</span></span>
 
-<span data-ttu-id="ad4b7-118">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-118">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="eedd8-118">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="eedd8-118">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="ad4b7-119">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="ad4b7-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="eedd8-119">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="eedd8-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="ad4b7-120">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="ad4b7-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="eedd8-120">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="eedd8-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="ad4b7-121">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="ad4b7-121">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="ad4b7-122">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="ad4b7-122">Schema name</span></span>  <br/> |<span data-ttu-id="ad4b7-123">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="ad4b7-123">Types schema</span></span>  <br/> |
-|<span data-ttu-id="ad4b7-124">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="ad4b7-124">Validation file</span></span>  <br/> |<span data-ttu-id="ad4b7-125">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ad4b7-125">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="ad4b7-126">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="ad4b7-126">Can be empty</span></span>  <br/> |<span data-ttu-id="ad4b7-127">false</span><span class="sxs-lookup"><span data-stu-id="ad4b7-127">false</span></span>  <br/> |
+|<span data-ttu-id="eedd8-121">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="eedd8-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="eedd8-122">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="eedd8-122">Schema name</span></span>  <br/> |<span data-ttu-id="eedd8-123">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="eedd8-123">Types schema</span></span>  <br/> |
+|<span data-ttu-id="eedd8-124">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="eedd8-124">Validation file</span></span>  <br/> |<span data-ttu-id="eedd8-125">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="eedd8-125">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="eedd8-126">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="eedd8-126">Can be empty</span></span>  <br/> |<span data-ttu-id="eedd8-127">false</span><span class="sxs-lookup"><span data-stu-id="eedd8-127">false</span></span>  <br/> |
    
 

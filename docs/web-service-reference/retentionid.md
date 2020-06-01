@@ -7,56 +7,56 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 07be3c51-6537-49b5-b25d-ff51759aba1f
-description: L’élément RetentionId Spécifie l’identificateur de balise de rétention.
-ms.openlocfilehash: fdbf263288c7909a73616b81a92632bd8c097111
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RetentionId spécifie l’identificateur de la balise de rétention.
+ms.openlocfilehash: f32fa0ceb301fca88cb0275e99ee9417dea87d2e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829219"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465218"
 ---
-# <a name="retentionid"></a><span data-ttu-id="4a1cb-103">RetentionId</span><span class="sxs-lookup"><span data-stu-id="4a1cb-103">RetentionId</span></span>
+# <a name="retentionid"></a><span data-ttu-id="a1e3d-103">RetentionId</span><span class="sxs-lookup"><span data-stu-id="a1e3d-103">RetentionId</span></span>
 
-<span data-ttu-id="4a1cb-104">L’élément **RetentionId** Spécifie l’identificateur de balise de rétention.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-104">The **RetentionId** element specifies the retention tag identifier.</span></span> 
+<span data-ttu-id="a1e3d-104">L’élément **RetentionId** spécifie l’identificateur de la balise de rétention.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-104">The **RetentionId** element specifies the retention tag identifier.</span></span> 
   
 ```XML
 <RetentionId></RetentionId>
 ```
 
- <span data-ttu-id="4a1cb-105">**GuidType**</span><span class="sxs-lookup"><span data-stu-id="4a1cb-105">**GuidType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="4a1cb-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="4a1cb-106">Attributes and elements</span></span>
+ <span data-ttu-id="a1e3d-105">**GuidType**</span><span class="sxs-lookup"><span data-stu-id="a1e3d-105">**GuidType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="a1e3d-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="a1e3d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="4a1cb-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="a1e3d-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="4a1cb-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="4a1cb-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="a1e3d-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="a1e3d-108">Attributes</span></span>
 
-<span data-ttu-id="4a1cb-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-109">None.</span></span>
+<span data-ttu-id="a1e3d-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="4a1cb-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="4a1cb-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="a1e3d-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="a1e3d-110">Child elements</span></span>
 
-<span data-ttu-id="4a1cb-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-111">None.</span></span>
+<span data-ttu-id="a1e3d-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="4a1cb-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="4a1cb-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="a1e3d-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="a1e3d-112">Parent elements</span></span>
 
-[<span data-ttu-id="4a1cb-113">RetentionPolicyTag</span><span class="sxs-lookup"><span data-stu-id="4a1cb-113">RetentionPolicyTag</span></span>](retentionpolicytag.md)
+[<span data-ttu-id="a1e3d-113">RetentionPolicyTag</span><span class="sxs-lookup"><span data-stu-id="a1e3d-113">RetentionPolicyTag</span></span>](retentionpolicytag.md)
   
-## <a name="text-value"></a><span data-ttu-id="4a1cb-114">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="4a1cb-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="a1e3d-114">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="a1e3d-114">Text value</span></span>
 
-<span data-ttu-id="4a1cb-115">La valeur de texte de l’élément **RetentionId** est l’identificateur de balise de rétention sous forme de GUID.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-115">The text value of the **RetentionId** element is the retention tag identifier in GUID form.</span></span> 
+<span data-ttu-id="a1e3d-115">La valeur de texte de l’élément **RetentionId** est l’identificateur de la balise de rétention sous forme de GUID.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-115">The text value of the **RetentionId** element is the retention tag identifier in GUID form.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="4a1cb-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="4a1cb-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a1e3d-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="a1e3d-116">Remarks</span></span>
 
-<span data-ttu-id="4a1cb-117">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="a1e3d-117">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="4a1cb-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="4a1cb-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="a1e3d-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="a1e3d-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="4a1cb-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="4a1cb-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="a1e3d-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="a1e3d-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="4a1cb-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="4a1cb-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="4a1cb-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="4a1cb-121">Schema name</span></span>  <br/> |<span data-ttu-id="4a1cb-122">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="4a1cb-122">Types schema</span></span>  <br/> |
-|<span data-ttu-id="4a1cb-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="4a1cb-123">Validation file</span></span>  <br/> |<span data-ttu-id="4a1cb-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="4a1cb-124">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="4a1cb-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="4a1cb-125">Can be empty</span></span>  <br/> |<span data-ttu-id="4a1cb-126">false</span><span class="sxs-lookup"><span data-stu-id="4a1cb-126">false</span></span>  <br/> |
+|<span data-ttu-id="a1e3d-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="a1e3d-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="a1e3d-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="a1e3d-121">Schema name</span></span>  <br/> |<span data-ttu-id="a1e3d-122">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="a1e3d-122">Types schema</span></span>  <br/> |
+|<span data-ttu-id="a1e3d-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="a1e3d-123">Validation file</span></span>  <br/> |<span data-ttu-id="a1e3d-124">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="a1e3d-124">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="a1e3d-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="a1e3d-125">Can be empty</span></span>  <br/> |<span data-ttu-id="a1e3d-126">false</span><span class="sxs-lookup"><span data-stu-id="a1e3d-126">false</span></span>  <br/> |
    
 

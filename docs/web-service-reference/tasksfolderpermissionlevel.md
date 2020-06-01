@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 0f70b79b-3443-4048-b410-692d4e2464fc
 description: L’élément TasksFolderPermissionLevel contient les autorisations pour le dossier tâches par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 49807896f9175bafbef106c41d1c9dff8f6178c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6e3988698575f0c1f935922d1642829a1f1addf9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838673"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465330"
 ---
-# <a name="tasksfolderpermissionlevel"></a><span data-ttu-id="87dca-104">TasksFolderPermissionLevel</span><span class="sxs-lookup"><span data-stu-id="87dca-104">TasksFolderPermissionLevel</span></span>
+# <a name="tasksfolderpermissionlevel"></a><span data-ttu-id="21d5a-104">TasksFolderPermissionLevel</span><span class="sxs-lookup"><span data-stu-id="21d5a-104">TasksFolderPermissionLevel</span></span>
 
-<span data-ttu-id="87dca-105">L’élément **TasksFolderPermissionLevel** contient les autorisations pour le dossier tâches par défaut.</span><span class="sxs-lookup"><span data-stu-id="87dca-105">The **TasksFolderPermissionLevel** element contains the permissions for the default Tasks folder.</span></span> <span data-ttu-id="87dca-106">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="87dca-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
+<span data-ttu-id="21d5a-105">L’élément **TasksFolderPermissionLevel** contient les autorisations pour le dossier tâches par défaut.</span><span class="sxs-lookup"><span data-stu-id="21d5a-105">The **TasksFolderPermissionLevel** element contains the permissions for the default Tasks folder.</span></span> <span data-ttu-id="21d5a-106">Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="21d5a-106">This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</span></span> 
   
 ```xml
 <TasksFolderPermissionLevel>
@@ -29,57 +29,57 @@ ms.locfileid: "19838673"
 </TasksFolderPermissionLevel>
 ```
 
-<span data-ttu-id="87dca-107">**DelegateFolderPermissionLevelType**</span><span class="sxs-lookup"><span data-stu-id="87dca-107">**DelegateFolderPermissionLevelType**</span></span>
+<span data-ttu-id="21d5a-107">**DelegateFolderPermissionLevelType**</span><span class="sxs-lookup"><span data-stu-id="21d5a-107">**DelegateFolderPermissionLevelType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="87dca-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="87dca-108">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="21d5a-108">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="21d5a-108">Attributes and elements</span></span>
 
-<span data-ttu-id="87dca-109">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="87dca-109">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="21d5a-109">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="21d5a-109">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="87dca-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="87dca-110">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="21d5a-110">Attributs</span><span class="sxs-lookup"><span data-stu-id="21d5a-110">Attributes</span></span>
 
-<span data-ttu-id="87dca-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="87dca-111">None.</span></span>
+<span data-ttu-id="21d5a-111">Aucune.</span><span class="sxs-lookup"><span data-stu-id="21d5a-111">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="87dca-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="87dca-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="21d5a-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="21d5a-112">Child elements</span></span>
 
-<span data-ttu-id="87dca-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="87dca-113">None.</span></span>
+<span data-ttu-id="21d5a-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="21d5a-113">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="87dca-114">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="87dca-114">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="21d5a-114">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="21d5a-114">Parent elements</span></span>
 
-|<span data-ttu-id="87dca-115">**Élément**</span><span class="sxs-lookup"><span data-stu-id="87dca-115">**Element**</span></span>|<span data-ttu-id="87dca-116">**Description**</span><span class="sxs-lookup"><span data-stu-id="87dca-116">**Description**</span></span>|
+|<span data-ttu-id="21d5a-115">**Élément**</span><span class="sxs-lookup"><span data-stu-id="21d5a-115">**Element**</span></span>|<span data-ttu-id="21d5a-116">**Description**</span><span class="sxs-lookup"><span data-stu-id="21d5a-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="87dca-117">DelegatePermissions</span><span class="sxs-lookup"><span data-stu-id="87dca-117">DelegatePermissions</span></span>](delegatepermissions.md) <br/> |<span data-ttu-id="87dca-118">Contient les paramètres au niveau d’autorisation délégué pour un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="87dca-118">Contains the delegate permission level settings for a user.</span></span> <span data-ttu-id="87dca-119">Cet élément a été introduit dans Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="87dca-119">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
+|[<span data-ttu-id="21d5a-117">DelegatePermissions</span><span class="sxs-lookup"><span data-stu-id="21d5a-117">DelegatePermissions</span></span>](delegatepermissions.md) <br/> |<span data-ttu-id="21d5a-118">Contient les paramètres de niveau d’autorisation de délégué pour un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="21d5a-118">Contains the delegate permission level settings for a user.</span></span> <span data-ttu-id="21d5a-119">Cet élément a été introduit dans Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="21d5a-119">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="87dca-120">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="87dca-120">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="21d5a-120">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="21d5a-120">Text value</span></span>
 
-<span data-ttu-id="87dca-121">Le tableau suivant répertorie les valeurs de texte qui représentent les niveaux d’autorisation.</span><span class="sxs-lookup"><span data-stu-id="87dca-121">The following table lists the text values that represent the permission levels.</span></span>
+<span data-ttu-id="21d5a-121">Le tableau suivant répertorie les valeurs de texte qui représentent les niveaux d’autorisation.</span><span class="sxs-lookup"><span data-stu-id="21d5a-121">The following table lists the text values that represent the permission levels.</span></span>
   
-<span data-ttu-id="87dca-122">**Valeurs de texte de niveau d’autorisation**</span><span class="sxs-lookup"><span data-stu-id="87dca-122">**Permission level text values**</span></span>
+<span data-ttu-id="21d5a-122">**Valeurs de texte de niveau d’autorisation**</span><span class="sxs-lookup"><span data-stu-id="21d5a-122">**Permission level text values**</span></span>
 
-|<span data-ttu-id="87dca-123">**Niveau d’autorisation**</span><span class="sxs-lookup"><span data-stu-id="87dca-123">**Permission level**</span></span>|<span data-ttu-id="87dca-124">**Description**</span><span class="sxs-lookup"><span data-stu-id="87dca-124">**Description**</span></span>|
+|<span data-ttu-id="21d5a-123">**Niveau d’autorisation**</span><span class="sxs-lookup"><span data-stu-id="21d5a-123">**Permission level**</span></span>|<span data-ttu-id="21d5a-124">**Description**</span><span class="sxs-lookup"><span data-stu-id="21d5a-124">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="87dca-125">None</span><span class="sxs-lookup"><span data-stu-id="87dca-125">None</span></span>  <br/> |<span data-ttu-id="87dca-126">L’utilisateur délégué a des autorisations d’accès au dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="87dca-126">The delegate user has no access permissions to the Tasks folder.</span></span>  <br/> |
-|<span data-ttu-id="87dca-127">Reviewer</span><span class="sxs-lookup"><span data-stu-id="87dca-127">Reviewer</span></span>  <br/> |<span data-ttu-id="87dca-128">L’utilisateur délégué peut lire des éléments dans le dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="87dca-128">The delegate user can read items in the Tasks folder.</span></span>  <br/> |
-|<span data-ttu-id="87dca-129">Auteur</span><span class="sxs-lookup"><span data-stu-id="87dca-129">Author</span></span>  <br/> |<span data-ttu-id="87dca-130">L’utilisateur délégué pouvant lire et créer des éléments dans le dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="87dca-130">The delegate user can read and create items in the Tasks folder.</span></span>  <br/> |
-|<span data-ttu-id="87dca-131">Editor</span><span class="sxs-lookup"><span data-stu-id="87dca-131">Editor</span></span>  <br/> |<span data-ttu-id="87dca-132">L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="87dca-132">The delegate user can read, create, and modify items in the Tasks folder.</span></span>  <br/> |
-|<span data-ttu-id="87dca-133">Personnalisé</span><span class="sxs-lookup"><span data-stu-id="87dca-133">Custom</span></span>  <br/> |<span data-ttu-id="87dca-134">L’utilisateur délégué dispose des autorisations d’accès personnalisé au dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="87dca-134">The delegate user has custom access permissions to the Tasks folder.</span></span>  <br/> |
+|<span data-ttu-id="21d5a-125">Aucun</span><span class="sxs-lookup"><span data-stu-id="21d5a-125">None</span></span>  <br/> |<span data-ttu-id="21d5a-126">L’utilisateur délégué ne dispose pas des autorisations d’accès au dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="21d5a-126">The delegate user has no access permissions to the Tasks folder.</span></span>  <br/> |
+|<span data-ttu-id="21d5a-127">Relecteur</span><span class="sxs-lookup"><span data-stu-id="21d5a-127">Reviewer</span></span>  <br/> |<span data-ttu-id="21d5a-128">L’utilisateur délégué peut lire les éléments dans le dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="21d5a-128">The delegate user can read items in the Tasks folder.</span></span>  <br/> |
+|<span data-ttu-id="21d5a-129">Auteur</span><span class="sxs-lookup"><span data-stu-id="21d5a-129">Author</span></span>  <br/> |<span data-ttu-id="21d5a-130">L’utilisateur délégué peut lire et créer des éléments dans le dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="21d5a-130">The delegate user can read and create items in the Tasks folder.</span></span>  <br/> |
+|<span data-ttu-id="21d5a-131">Éditeur</span><span class="sxs-lookup"><span data-stu-id="21d5a-131">Editor</span></span>  <br/> |<span data-ttu-id="21d5a-132">L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="21d5a-132">The delegate user can read, create, and modify items in the Tasks folder.</span></span>  <br/> |
+|<span data-ttu-id="21d5a-133">Personnalisé</span><span class="sxs-lookup"><span data-stu-id="21d5a-133">Custom</span></span>  <br/> |<span data-ttu-id="21d5a-134">L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier tâches.</span><span class="sxs-lookup"><span data-stu-id="21d5a-134">The delegate user has custom access permissions to the Tasks folder.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="87dca-135">Remarques</span><span class="sxs-lookup"><span data-stu-id="87dca-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="21d5a-135">Remarques</span><span class="sxs-lookup"><span data-stu-id="21d5a-135">Remarks</span></span>
 
-<span data-ttu-id="87dca-136">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="87dca-136">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="21d5a-136">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="21d5a-136">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="87dca-137">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="87dca-137">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="21d5a-137">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="21d5a-137">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="87dca-138">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="87dca-138">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="87dca-139">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="87dca-139">Schema Name</span></span>  <br/> |<span data-ttu-id="87dca-140">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="87dca-140">Types schema</span></span>  <br/> |
-|<span data-ttu-id="87dca-141">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="87dca-141">Validation File</span></span>  <br/> |<span data-ttu-id="87dca-142">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="87dca-142">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="87dca-143">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="87dca-143">Can be Empty</span></span>  <br/> |<span data-ttu-id="87dca-144">False</span><span class="sxs-lookup"><span data-stu-id="87dca-144">False</span></span>  <br/> |
+|<span data-ttu-id="21d5a-138">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="21d5a-138">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="21d5a-139">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="21d5a-139">Schema Name</span></span>  <br/> |<span data-ttu-id="21d5a-140">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="21d5a-140">Types schema</span></span>  <br/> |
+|<span data-ttu-id="21d5a-141">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="21d5a-141">Validation File</span></span>  <br/> |<span data-ttu-id="21d5a-142">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="21d5a-142">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="21d5a-143">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="21d5a-143">Can be Empty</span></span>  <br/> |<span data-ttu-id="21d5a-144">False</span><span class="sxs-lookup"><span data-stu-id="21d5a-144">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="87dca-145">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="87dca-145">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="21d5a-145">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="21d5a-145">See also</span></span>
 
-- [<span data-ttu-id="87dca-146">Opération AddDelegate</span><span class="sxs-lookup"><span data-stu-id="87dca-146">AddDelegate operation</span></span>](adddelegate-operation.md)
-- [<span data-ttu-id="87dca-147">Opération UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="87dca-147">UpdateDelegate operation</span></span>](updatedelegate-operation.md)
-- [<span data-ttu-id="87dca-148">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="87dca-148">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
-- [<span data-ttu-id="87dca-149">Ajout de délégués</span><span class="sxs-lookup"><span data-stu-id="87dca-149">Adding Delegates</span></span>](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [<span data-ttu-id="21d5a-146">Opération AddDelegate</span><span class="sxs-lookup"><span data-stu-id="21d5a-146">AddDelegate operation</span></span>](adddelegate-operation.md)
+- [<span data-ttu-id="21d5a-147">Opération UpdateDelegate</span><span class="sxs-lookup"><span data-stu-id="21d5a-147">UpdateDelegate operation</span></span>](updatedelegate-operation.md)
+- [<span data-ttu-id="21d5a-148">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="21d5a-148">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="21d5a-149">Ajout de délégués</span><span class="sxs-lookup"><span data-stu-id="21d5a-149">Adding Delegates</span></span>](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

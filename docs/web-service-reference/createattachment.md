@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e33b403a-b7d3-48ee-8d24-6b7abf0d70bc
-description: L’élément CreateAttachment définit une demande pour créer une pièce jointe à un élément dans la banque d’informations Exchange.
-ms.openlocfilehash: d403eb5ca15623d3a973f7b224dbcde5529cf1bc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateAttachment définit une demande de création d’une pièce jointe à un élément dans la Banque d’Exchange.
+ms.openlocfilehash: 4cba1b8865dae5da58b9617b249a29314c67331a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466436"
 ---
-# <a name="createattachment"></a><span data-ttu-id="7dbe7-103">CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="7dbe7-103">CreateAttachment</span></span>
+# <a name="createattachment"></a><span data-ttu-id="797a5-103">CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="797a5-103">CreateAttachment</span></span>
 
-<span data-ttu-id="7dbe7-104">L’élément **CreateAttachment** définit une demande pour créer une pièce jointe à un élément dans la banque d’informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-104">The **CreateAttachment** element defines a request to create an attachment to an item in the Exchange store.</span></span> 
+<span data-ttu-id="797a5-104">L’élément **CreateAttachment** définit une demande de création d’une pièce jointe à un élément dans la Banque d’Exchange.</span><span class="sxs-lookup"><span data-stu-id="797a5-104">The **CreateAttachment** element defines a request to create an attachment to an item in the Exchange store.</span></span> 
   
 ```xml
 <CreateAttachment>
@@ -30,61 +30,61 @@ ms.locfileid: "19755683"
 </CreateAttachment>
 ```
 
- <span data-ttu-id="7dbe7-105">**CreateAttachmentType**</span><span class="sxs-lookup"><span data-stu-id="7dbe7-105">**CreateAttachmentType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="7dbe7-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="7dbe7-106">Attributes and elements</span></span>
+ <span data-ttu-id="797a5-105">**CreateAttachmentType**</span><span class="sxs-lookup"><span data-stu-id="797a5-105">**CreateAttachmentType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="797a5-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="797a5-106">Attributes and elements</span></span>
 
-<span data-ttu-id="7dbe7-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="797a5-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="797a5-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="7dbe7-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="7dbe7-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="797a5-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="797a5-108">Attributes</span></span>
 
-<span data-ttu-id="7dbe7-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-109">None.</span></span>
+<span data-ttu-id="797a5-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="797a5-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="7dbe7-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="7dbe7-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="797a5-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="797a5-110">Child elements</span></span>
 
-|<span data-ttu-id="7dbe7-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="7dbe7-111">**Element**</span></span>|<span data-ttu-id="7dbe7-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="7dbe7-112">**Description**</span></span>|
+|<span data-ttu-id="797a5-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="797a5-111">**Element**</span></span>|<span data-ttu-id="797a5-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="797a5-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7dbe7-113">ParentItemId</span><span class="sxs-lookup"><span data-stu-id="7dbe7-113">ParentItemId</span></span>](parentitemid.md) <br/> |<span data-ttu-id="7dbe7-114">Identifie l’élément de magasin Exchange parent qui contient la pièce jointe créée.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-114">Identifies the parent Exchange store item that contains the created attachment.</span></span> <span data-ttu-id="7dbe7-115">L’élément [ParentItemId](parentitemid.md) doit fournir l’élément de magasin de l’ID d’un véritable Exchange.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-115">The [ParentItemId](parentitemid.md) element must provide the ID of a real Exchange store item.</span></span> <span data-ttu-id="7dbe7-116">Éléments de la banque réel peuvent être récupérés à l’aide de l' [opération GetItem](getitem-operation.md); pièces jointes sont récupérées à l’aide de l' [opération GetAttachment](getattachment-operation.md).</span><span class="sxs-lookup"><span data-stu-id="7dbe7-116">Real store items can be retrieved by using the [GetItem operation](getitem-operation.md); attachments are retrieved by using the [GetAttachment operation](getattachment-operation.md).</span></span> <span data-ttu-id="7dbe7-117">Une erreur se produit si le [ParentItemId](parentitemid.md) est transmis à l’ID d’une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-117">An error occurs if the [ParentItemId](parentitemid.md) is passed the ID of a file attachment.</span></span> <span data-ttu-id="7dbe7-118">Si le [ParentItemId](parentitemid.md) représente l’ID de pièce jointe d’élément existant, l' [opération CreateAttachment](createattachment-operation.md) ajoute la nouvelle pièce jointe à la pièce jointe existante.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-118">If the [ParentItemId](parentitemid.md) represents the ID of an existing item attachment, the [CreateAttachment operation](createattachment-operation.md) adds the new attachment to the existing attachment.</span></span>  <br/> <span data-ttu-id="7dbe7-119">Cet élément est requis pour l' [opération CreateAttachment](createattachment-operation.md).</span><span class="sxs-lookup"><span data-stu-id="7dbe7-119">This element is required for the [CreateAttachment operation](createattachment-operation.md).</span></span>  <br/> |
-|[<span data-ttu-id="7dbe7-120">Pièces jointes</span><span class="sxs-lookup"><span data-stu-id="7dbe7-120">Attachments</span></span>](attachments-ex15websvcsotherref.md) <br/> |<span data-ttu-id="7dbe7-121">Contient les éléments ou les fichiers pour attacher à un élément dans la banque d’informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-121">Contains the items or files to attach to an item in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="797a5-113">ParentItemId</span><span class="sxs-lookup"><span data-stu-id="797a5-113">ParentItemId</span></span>](parentitemid.md) <br/> |<span data-ttu-id="797a5-114">Identifie l’élément de la banque Exchange parente qui contient la pièce jointe créée.</span><span class="sxs-lookup"><span data-stu-id="797a5-114">Identifies the parent Exchange store item that contains the created attachment.</span></span> <span data-ttu-id="797a5-115">L’élément [parentItemId](parentitemid.md) doit fournir l’ID d’un élément réel de la Banque d’identités Exchange.</span><span class="sxs-lookup"><span data-stu-id="797a5-115">The [ParentItemId](parentitemid.md) element must provide the ID of a real Exchange store item.</span></span> <span data-ttu-id="797a5-116">Les éléments de magasin réel peuvent être récupérés à l’aide de l' [opération GetItem](getitem-operation.md); les pièces jointes sont récupérées à l’aide de l' [opération GetAttachment](getattachment-operation.md).</span><span class="sxs-lookup"><span data-stu-id="797a5-116">Real store items can be retrieved by using the [GetItem operation](getitem-operation.md); attachments are retrieved by using the [GetAttachment operation](getattachment-operation.md).</span></span> <span data-ttu-id="797a5-117">Une erreur se produit si l’ID d’une pièce jointe est transmis à [parentItemId](parentitemid.md) .</span><span class="sxs-lookup"><span data-stu-id="797a5-117">An error occurs if the [ParentItemId](parentitemid.md) is passed the ID of a file attachment.</span></span> <span data-ttu-id="797a5-118">Si le [parentItemId](parentitemid.md) représente l’ID d’une pièce jointe d’un élément existant, l' [opération CreateAttachment](createattachment-operation.md) ajoute la nouvelle pièce jointe à la pièce jointe existante.</span><span class="sxs-lookup"><span data-stu-id="797a5-118">If the [ParentItemId](parentitemid.md) represents the ID of an existing item attachment, the [CreateAttachment operation](createattachment-operation.md) adds the new attachment to the existing attachment.</span></span>  <br/> <span data-ttu-id="797a5-119">Cet élément est requis pour l' [opération CreateAttachment](createattachment-operation.md).</span><span class="sxs-lookup"><span data-stu-id="797a5-119">This element is required for the [CreateAttachment operation](createattachment-operation.md).</span></span>  <br/> |
+|[<span data-ttu-id="797a5-120">Attachments</span><span class="sxs-lookup"><span data-stu-id="797a5-120">Attachments</span></span>](attachments-ex15websvcsotherref.md) <br/> |<span data-ttu-id="797a5-121">Contient les éléments ou les fichiers à joindre à un élément dans la Banque d’Exchange.</span><span class="sxs-lookup"><span data-stu-id="797a5-121">Contains the items or files to attach to an item in the Exchange store.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="7dbe7-122">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="7dbe7-122">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="797a5-122">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="797a5-122">Parent elements</span></span>
 
-<span data-ttu-id="7dbe7-123">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-123">None.</span></span>
+<span data-ttu-id="797a5-123">Aucun.</span><span class="sxs-lookup"><span data-stu-id="797a5-123">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7dbe7-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="7dbe7-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="797a5-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="797a5-124">Remarks</span></span>
 
-<span data-ttu-id="7dbe7-125">Une pièce jointe d’élément n’existe pas comme un élément de magasin.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-125">An item attachment does not exist as a store item.</span></span> <span data-ttu-id="7dbe7-126">Il existe uniquement en tant que pièce jointe à un élément ou une autre pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-126">It only exists as an attachment to an item or another attachment.</span></span> <span data-ttu-id="7dbe7-127">Pièces jointes d’élément ne peuvent être extrait à l’aide de la demande [GetAttachment](getattachment.md) .</span><span class="sxs-lookup"><span data-stu-id="7dbe7-127">Item attachments can only be retrieved by using the [GetAttachment](getattachment.md) request.</span></span> 
+<span data-ttu-id="797a5-125">Une pièce jointe d’élément n’existe pas en tant qu’élément de la boutique.</span><span class="sxs-lookup"><span data-stu-id="797a5-125">An item attachment does not exist as a store item.</span></span> <span data-ttu-id="797a5-126">Il existe uniquement en tant que pièce jointe à un élément ou à une autre pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="797a5-126">It only exists as an attachment to an item or another attachment.</span></span> <span data-ttu-id="797a5-127">Les pièces jointes d’éléments ne peuvent être récupérées qu’à l’aide de la demande [GetAttachment](getattachment.md) .</span><span class="sxs-lookup"><span data-stu-id="797a5-127">Item attachments can only be retrieved by using the [GetAttachment](getattachment.md) request.</span></span> 
   
-<span data-ttu-id="7dbe7-128">Vous pouvez créer les pièces jointes d’éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="7dbe7-128">The following item attachments can be created:</span></span>
+<span data-ttu-id="797a5-128">Les pièces jointes d’éléments suivantes peuvent être créées :</span><span class="sxs-lookup"><span data-stu-id="797a5-128">The following item attachments can be created:</span></span>
   
-- <span data-ttu-id="7dbe7-129">Élément</span><span class="sxs-lookup"><span data-stu-id="7dbe7-129">Item</span></span>
+- <span data-ttu-id="797a5-129">Option</span><span class="sxs-lookup"><span data-stu-id="797a5-129">Item</span></span>
     
-- <span data-ttu-id="7dbe7-130">Message</span><span class="sxs-lookup"><span data-stu-id="7dbe7-130">Message</span></span>
+- <span data-ttu-id="797a5-130">Message</span><span class="sxs-lookup"><span data-stu-id="797a5-130">Message</span></span>
     
-- <span data-ttu-id="7dbe7-131">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="7dbe7-131">CalendarItem</span></span>
+- <span data-ttu-id="797a5-131">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="797a5-131">CalendarItem</span></span>
     
-- <span data-ttu-id="7dbe7-132">Contact</span><span class="sxs-lookup"><span data-stu-id="7dbe7-132">Contact</span></span>
+- <span data-ttu-id="797a5-132">Contact</span><span class="sxs-lookup"><span data-stu-id="797a5-132">Contact</span></span>
     
-- <span data-ttu-id="7dbe7-133">Tâche</span><span class="sxs-lookup"><span data-stu-id="7dbe7-133">Task</span></span>
+- <span data-ttu-id="797a5-133">Tâche</span><span class="sxs-lookup"><span data-stu-id="797a5-133">Task</span></span>
     
-- <span data-ttu-id="7dbe7-134">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="7dbe7-134">MeetingMessage</span></span>
+- <span data-ttu-id="797a5-134">MeetingMessage</span><span class="sxs-lookup"><span data-stu-id="797a5-134">MeetingMessage</span></span>
     
-- <span data-ttu-id="7dbe7-135">MeetingRequest</span><span class="sxs-lookup"><span data-stu-id="7dbe7-135">MeetingRequest</span></span>
+- <span data-ttu-id="797a5-135">Propriété meetingrequest</span><span class="sxs-lookup"><span data-stu-id="797a5-135">MeetingRequest</span></span>
     
-<span data-ttu-id="7dbe7-136">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-136">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="797a5-136">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="797a5-136">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="example"></a><span data-ttu-id="7dbe7-137">Exemple</span><span class="sxs-lookup"><span data-stu-id="7dbe7-137">Example</span></span>
+## <a name="example"></a><span data-ttu-id="797a5-137">Exemple</span><span class="sxs-lookup"><span data-stu-id="797a5-137">Example</span></span>
 
-<span data-ttu-id="7dbe7-138">L’exemple suivant montre comment créer et joindre un élément à un autre élément dans la banque d’informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="7dbe7-138">The following example shows how to create and attach an item to another item in the Exchange store.</span></span>
+<span data-ttu-id="797a5-138">L’exemple suivant montre comment créer et attacher un élément à un autre élément dans la Banque d’informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="797a5-138">The following example shows how to create and attach an item to another item in the Exchange store.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ParentItemId Id="ASkAS"/>
       <Attachments>
         <t:ItemAttachment>
@@ -101,22 +101,22 @@ ms.locfileid: "19755683"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="7dbe7-139">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="7dbe7-139">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="797a5-139">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="797a5-139">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7dbe7-140">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="7dbe7-140">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="7dbe7-141">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="7dbe7-141">Schema Name</span></span>  <br/> |<span data-ttu-id="7dbe7-142">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="7dbe7-142">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="7dbe7-143">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="7dbe7-143">Validation File</span></span>  <br/> |<span data-ttu-id="7dbe7-144">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="7dbe7-144">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="7dbe7-145">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="7dbe7-145">Can be Empty</span></span>  <br/> |<span data-ttu-id="7dbe7-146">False</span><span class="sxs-lookup"><span data-stu-id="7dbe7-146">False</span></span>  <br/> |
+|<span data-ttu-id="797a5-140">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="797a5-140">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="797a5-141">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="797a5-141">Schema Name</span></span>  <br/> |<span data-ttu-id="797a5-142">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="797a5-142">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="797a5-143">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="797a5-143">Validation File</span></span>  <br/> |<span data-ttu-id="797a5-144">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="797a5-144">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="797a5-145">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="797a5-145">Can be Empty</span></span>  <br/> |<span data-ttu-id="797a5-146">False</span><span class="sxs-lookup"><span data-stu-id="797a5-146">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7dbe7-147">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7dbe7-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="797a5-147">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="797a5-147">See also</span></span>
 
 
 
-[<span data-ttu-id="7dbe7-148">Opération CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="7dbe7-148">CreateAttachment operation</span></span>](createattachment-operation.md)
+[<span data-ttu-id="797a5-148">Opération CreateAttachment</span><span class="sxs-lookup"><span data-stu-id="797a5-148">CreateAttachment operation</span></span>](createattachment-operation.md)
   
-[<span data-ttu-id="7dbe7-149">Opération DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="7dbe7-149">DeleteAttachment operation</span></span>](deleteattachment-operation.md)
+[<span data-ttu-id="797a5-149">Opération DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="797a5-149">DeleteAttachment operation</span></span>](deleteattachment-operation.md)
   
-[<span data-ttu-id="7dbe7-150">Opération GetAttachment</span><span class="sxs-lookup"><span data-stu-id="7dbe7-150">GetAttachment operation</span></span>](getattachment-operation.md)
+[<span data-ttu-id="797a5-150">Opération GetAttachment</span><span class="sxs-lookup"><span data-stu-id="797a5-150">GetAttachment operation</span></span>](getattachment-operation.md)
 

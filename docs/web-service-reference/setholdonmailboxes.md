@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fd5b9f0e-23e8-428c-8168-2d6b4ecd6beb
-description: L’élément SetHoldOnMailboxes contient une demande SetHoldOnMailboxes.
-ms.openlocfilehash: 7d226de908c4d5a474129e3e1f2344ec1318f538
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetHoldOnMailboxes contient une requête SetHoldOnMailboxes.
+ms.openlocfilehash: c96ff50cb1204d86abc66829e1c5da7124f407f1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829413"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44448351"
 ---
-# <a name="setholdonmailboxes"></a><span data-ttu-id="5e66c-103">SetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5e66c-103">SetHoldOnMailboxes</span></span>
+# <a name="setholdonmailboxes"></a><span data-ttu-id="90f7c-103">SetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="90f7c-103">SetHoldOnMailboxes</span></span>
 
-<span data-ttu-id="5e66c-104">L’élément **SetHoldOnMailboxes** contient une demande **SetHoldOnMailboxes** .</span><span class="sxs-lookup"><span data-stu-id="5e66c-104">The **SetHoldOnMailboxes** element contains a **SetHoldOnMailboxes** request.</span></span> 
+<span data-ttu-id="90f7c-104">L’élément **SetHoldOnMailboxes** contient une requête **SetHoldOnMailboxes** .</span><span class="sxs-lookup"><span data-stu-id="90f7c-104">The **SetHoldOnMailboxes** element contains a **SetHoldOnMailboxes** request.</span></span> 
   
 ```XML
 <SetHoldOnMailboxes>
@@ -32,36 +32,36 @@ ms.locfileid: "19829413"
 </SetHoldOnMailboxes>
 ```
 
- <span data-ttu-id="5e66c-105">**SetHoldOnMailboxesType**</span><span class="sxs-lookup"><span data-stu-id="5e66c-105">**SetHoldOnMailboxesType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5e66c-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="5e66c-106">Attributes and elements</span></span>
+ <span data-ttu-id="90f7c-105">**SetHoldOnMailboxesType**</span><span class="sxs-lookup"><span data-stu-id="90f7c-105">**SetHoldOnMailboxesType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="90f7c-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="90f7c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5e66c-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="5e66c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="90f7c-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="90f7c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5e66c-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="5e66c-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="90f7c-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="90f7c-108">Attributes</span></span>
 
-<span data-ttu-id="5e66c-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5e66c-109">None.</span></span>
+<span data-ttu-id="90f7c-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="90f7c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5e66c-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="5e66c-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="90f7c-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="90f7c-110">Child elements</span></span>
 
-<span data-ttu-id="5e66c-111">[ActionType (HoldActionType)](actiontype-holdactiontype.md) | [HoldId](holdid.md) | [requête](query.md) | [boîtes aux lettres (ArrayOfStringsType)](mailboxes-arrayofstringstype.md) | [langue](language.md) | [IncludeNonIndexableItems](includenonindexableitems.md) | [déduplication ](deduplication.md)  |  [InPlaceHoldIdentity](inplaceholdidentity.md)</span><span class="sxs-lookup"><span data-stu-id="5e66c-111">[ActionType (HoldActionType)](actiontype-holdactiontype.md) | [HoldId](holdid.md) | [Query](query.md) | [Mailboxes (ArrayOfStringsType)](mailboxes-arrayofstringstype.md) | [Language](language.md) | [IncludeNonIndexableItems](includenonindexableitems.md) | [Deduplication](deduplication.md) | [InPlaceHoldIdentity](inplaceholdidentity.md)</span></span>
+<span data-ttu-id="90f7c-111">[ActionType (HoldActionType)](actiontype-holdactiontype.md)  |  [HoldId](holdid.md)  |  [Requête](query.md)  |  [Boîtes aux lettres (ArrayOfStringsType)](mailboxes-arrayofstringstype.md)  |  [Langue](language.md)  |  [IncludeNonIndexableItems](includenonindexableitems.md)  |  [Déduplication](deduplication.md)  |  [InPlaceHoldIdentity](inplaceholdidentity.md)</span><span class="sxs-lookup"><span data-stu-id="90f7c-111">[ActionType (HoldActionType)](actiontype-holdactiontype.md) | [HoldId](holdid.md) | [Query](query.md) | [Mailboxes (ArrayOfStringsType)](mailboxes-arrayofstringstype.md) | [Language](language.md) | [IncludeNonIndexableItems](includenonindexableitems.md) | [Deduplication](deduplication.md) | [InPlaceHoldIdentity](inplaceholdidentity.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="5e66c-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="5e66c-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="90f7c-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="90f7c-112">Parent elements</span></span>
 
-<span data-ttu-id="5e66c-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5e66c-113">None.</span></span>
+<span data-ttu-id="90f7c-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="90f7c-113">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5e66c-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="5e66c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="90f7c-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="90f7c-114">Remarks</span></span>
 
-<span data-ttu-id="5e66c-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5e66c-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="90f7c-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="90f7c-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="5e66c-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="5e66c-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="90f7c-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="90f7c-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5e66c-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="5e66c-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="90f7c-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="90f7c-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5e66c-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="5e66c-118">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="5e66c-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="5e66c-119">Schema name</span></span>  <br/> |<span data-ttu-id="5e66c-120">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="5e66c-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="5e66c-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="5e66c-121">Validation file</span></span>  <br/> |<span data-ttu-id="5e66c-122">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5e66c-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5e66c-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="5e66c-123">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="90f7c-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="90f7c-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="90f7c-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="90f7c-119">Schema name</span></span>  <br/> |<span data-ttu-id="90f7c-120">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="90f7c-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="90f7c-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="90f7c-121">Validation file</span></span>  <br/> |<span data-ttu-id="90f7c-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="90f7c-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="90f7c-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="90f7c-123">Can be empty</span></span>  <br/> ||
    
 

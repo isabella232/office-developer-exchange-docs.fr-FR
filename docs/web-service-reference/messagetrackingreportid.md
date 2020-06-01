@@ -12,64 +12,64 @@ api_type:
 - schema
 ms.assetid: 9c604ca3-10fe-4760-b7fd-8b52f1a0c712
 description: L’élément MessageTrackingReportId représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie de manière unique le message.
-ms.openlocfilehash: 8e0d85b203b8a34acedb5f6b9fe46359d5e0b97c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d6e92593d55608e260634602c2aab694804d716d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828456"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460595"
 ---
-# <a name="messagetrackingreportid"></a><span data-ttu-id="bd0a6-103">MessageTrackingReportId</span><span class="sxs-lookup"><span data-stu-id="bd0a6-103">MessageTrackingReportId</span></span>
+# <a name="messagetrackingreportid"></a><span data-ttu-id="9a888-103">MessageTrackingReportId</span><span class="sxs-lookup"><span data-stu-id="9a888-103">MessageTrackingReportId</span></span>
 
-<span data-ttu-id="bd0a6-104">L’élément **MessageTrackingReportId** représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie de manière unique le message.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-104">The **MessageTrackingReportId** element represents the message by its message ID, the organization where the message was found, the server on which the message was submitted, and an internal ID that uniquely identifies the message.</span></span> 
+<span data-ttu-id="9a888-104">L’élément **MessageTrackingReportId** représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie de manière unique le message.</span><span class="sxs-lookup"><span data-stu-id="9a888-104">The **MessageTrackingReportId** element represents the message by its message ID, the organization where the message was found, the server on which the message was submitted, and an internal ID that uniquely identifies the message.</span></span> 
   
 ```XML
 <MessageTrackingReportId/>
 ```
 
- <span data-ttu-id="bd0a6-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="bd0a6-105">**NonEmptyStringType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="bd0a6-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="bd0a6-106">Attributes and elements</span></span>
+ <span data-ttu-id="9a888-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="9a888-105">**NonEmptyStringType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="9a888-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="9a888-106">Attributes and elements</span></span>
 
-<span data-ttu-id="bd0a6-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="9a888-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="9a888-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="bd0a6-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="bd0a6-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9a888-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="9a888-108">Attributes</span></span>
 
-<span data-ttu-id="bd0a6-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-109">None.</span></span>
+<span data-ttu-id="9a888-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="9a888-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="bd0a6-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="bd0a6-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9a888-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="9a888-110">Child elements</span></span>
 
-<span data-ttu-id="bd0a6-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-111">None.</span></span>
+<span data-ttu-id="9a888-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9a888-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="bd0a6-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="bd0a6-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="9a888-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="9a888-112">Parent elements</span></span>
 
-|<span data-ttu-id="bd0a6-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="bd0a6-113">**Element**</span></span>|<span data-ttu-id="bd0a6-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="bd0a6-114">**Description**</span></span>|
+|<span data-ttu-id="9a888-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="9a888-113">**Element**</span></span>|<span data-ttu-id="9a888-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="9a888-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="bd0a6-115">GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="bd0a6-115">GetMessageTrackingReport</span></span>](getmessagetrackingreport.md) <br/> |<span data-ttu-id="bd0a6-116">Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) récupérer le message complet suivi du rapport pour l’ID spécifié.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-116">Contains the request for the [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md) to retrieve the full message tracking report for the specified ID.</span></span>  <br/> |
-|[<span data-ttu-id="bd0a6-117">MessageTrackingSearchResult</span><span class="sxs-lookup"><span data-stu-id="bd0a6-117">MessageTrackingSearchResult</span></span>](messagetrackingsearchresult.md) <br/> |<span data-ttu-id="bd0a6-118">Contient un résultat de message unique d’un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="bd0a6-118">Contains a single message result for a [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) element.</span></span>  <br/> |
+|[<span data-ttu-id="9a888-115">GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="9a888-115">GetMessageTrackingReport</span></span>](getmessagetrackingreport.md) <br/> |<span data-ttu-id="9a888-116">Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) afin de récupérer le rapport de suivi complet des messages pour l’ID spécifié.</span><span class="sxs-lookup"><span data-stu-id="9a888-116">Contains the request for the [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md) to retrieve the full message tracking report for the specified ID.</span></span>  <br/> |
+|[<span data-ttu-id="9a888-117">MessageTrackingSearchResult</span><span class="sxs-lookup"><span data-stu-id="9a888-117">MessageTrackingSearchResult</span></span>](messagetrackingsearchresult.md) <br/> |<span data-ttu-id="9a888-118">Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .</span><span class="sxs-lookup"><span data-stu-id="9a888-118">Contains a single message result for a [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) element.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="bd0a6-119">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="bd0a6-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="9a888-119">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="9a888-119">Text value</span></span>
 
-<span data-ttu-id="bd0a6-120">Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-120">A text value that represents a string is required if this element is used.</span></span>
+<span data-ttu-id="9a888-120">Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.</span><span class="sxs-lookup"><span data-stu-id="9a888-120">A text value that represents a string is required if this element is used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="bd0a6-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="bd0a6-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9a888-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="9a888-121">Remarks</span></span>
 
-<span data-ttu-id="bd0a6-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="bd0a6-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="9a888-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="9a888-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="bd0a6-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="bd0a6-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="9a888-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="9a888-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="bd0a6-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="bd0a6-124">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="bd0a6-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="bd0a6-125">Schema Name</span></span>  <br/> |<span data-ttu-id="bd0a6-126">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="bd0a6-126">Types schema</span></span>  <br/> |
-|<span data-ttu-id="bd0a6-127">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="bd0a6-127">Validation File</span></span>  <br/> |<span data-ttu-id="bd0a6-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="bd0a6-128">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="bd0a6-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="bd0a6-129">Can be Empty</span></span>  <br/> |<span data-ttu-id="bd0a6-130">False</span><span class="sxs-lookup"><span data-stu-id="bd0a6-130">False</span></span>  <br/> |
+|<span data-ttu-id="9a888-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="9a888-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="9a888-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="9a888-125">Schema Name</span></span>  <br/> |<span data-ttu-id="9a888-126">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="9a888-126">Types schema</span></span>  <br/> |
+|<span data-ttu-id="9a888-127">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="9a888-127">Validation File</span></span>  <br/> |<span data-ttu-id="9a888-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="9a888-128">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="9a888-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="9a888-129">Can be Empty</span></span>  <br/> |<span data-ttu-id="9a888-130">False</span><span class="sxs-lookup"><span data-stu-id="9a888-130">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="bd0a6-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bd0a6-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a888-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9a888-131">See also</span></span>
 
 
 
-[<span data-ttu-id="bd0a6-132">Opération de GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="bd0a6-132">GetMessageTrackingReport operation</span></span>](getmessagetrackingreport-operation.md)
+[<span data-ttu-id="9a888-132">Opération de GetMessageTrackingReport</span><span class="sxs-lookup"><span data-stu-id="9a888-132">GetMessageTrackingReport operation</span></span>](getmessagetrackingreport-operation.md)
 
 
-- [<span data-ttu-id="bd0a6-133">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="bd0a6-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="9a888-133">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="9a888-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

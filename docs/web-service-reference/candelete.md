@@ -12,68 +12,68 @@ api_type:
 - schema
 ms.assetid: 55e17121-aad0-4f90-889f-2c3512e9579c
 description: L’élément CanDelete indique si un dossier géré peut être supprimé par un client.
-ms.openlocfilehash: b70b28bd6b3c9452f5d7f249f453218d555754da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5fe16c276bdb0c5b3b73ca63099559d3e869db3e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461589"
 ---
-# <a name="candelete"></a><span data-ttu-id="419e7-103">CanDelete</span><span class="sxs-lookup"><span data-stu-id="419e7-103">CanDelete</span></span>
+# <a name="candelete"></a><span data-ttu-id="8f810-103">CanDelete</span><span class="sxs-lookup"><span data-stu-id="8f810-103">CanDelete</span></span>
 
-<span data-ttu-id="419e7-104">L’élément **CanDelete** indique si un dossier géré peut être supprimé par un client.</span><span class="sxs-lookup"><span data-stu-id="419e7-104">The **CanDelete** element indicates whether a managed folder can be deleted by a customer.</span></span> 
+<span data-ttu-id="8f810-104">L’élément **CanDelete** indique si un dossier géré peut être supprimé par un client.</span><span class="sxs-lookup"><span data-stu-id="8f810-104">The **CanDelete** element indicates whether a managed folder can be deleted by a customer.</span></span> 
   
 ```xml
 <CanDelete/>
 ```
 
- <span data-ttu-id="419e7-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="419e7-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="419e7-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="419e7-106">Attributes and elements</span></span>
+ <span data-ttu-id="8f810-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="8f810-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="8f810-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="8f810-106">Attributes and elements</span></span>
 
-<span data-ttu-id="419e7-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="419e7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="8f810-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="8f810-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="419e7-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="419e7-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="8f810-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="8f810-108">Attributes</span></span>
 
-<span data-ttu-id="419e7-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="419e7-109">None.</span></span>
+<span data-ttu-id="8f810-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="8f810-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="419e7-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="419e7-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="8f810-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="8f810-110">Child elements</span></span>
 
-<span data-ttu-id="419e7-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="419e7-111">None.</span></span>
+<span data-ttu-id="8f810-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8f810-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="419e7-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="419e7-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="8f810-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="8f810-112">Parent elements</span></span>
 
-|<span data-ttu-id="419e7-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="419e7-113">**Element**</span></span>|<span data-ttu-id="419e7-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="419e7-114">**Description**</span></span>|
+|<span data-ttu-id="8f810-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="8f810-113">**Element**</span></span>|<span data-ttu-id="8f810-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="8f810-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="419e7-115">ManagedFolderInformation</span><span class="sxs-lookup"><span data-stu-id="419e7-115">ManagedFolderInformation</span></span>](managedfolderinformation.md) <br/> |<span data-ttu-id="419e7-116">Contient des informations sur un dossier géré.</span><span class="sxs-lookup"><span data-stu-id="419e7-116">Contains information about a managed folder.</span></span>  <br/> |
+|[<span data-ttu-id="8f810-115">ManagedFolderInformation</span><span class="sxs-lookup"><span data-stu-id="8f810-115">ManagedFolderInformation</span></span>](managedfolderinformation.md) <br/> |<span data-ttu-id="8f810-116">Contient des informations sur un dossier géré.</span><span class="sxs-lookup"><span data-stu-id="8f810-116">Contains information about a managed folder.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="419e7-117">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="419e7-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="8f810-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="8f810-117">Text value</span></span>
 
-<span data-ttu-id="419e7-118">Une valeur de texte qui représente une valeur Boolean est requise si cet élément est présent.</span><span class="sxs-lookup"><span data-stu-id="419e7-118">A text value that represents a Boolean value is required if this element is present.</span></span> <span data-ttu-id="419e7-119">La valeur **true** indique que le dossier peut être supprimé ; la valeur **false** signifie que le dossier ne peut pas être supprimé.</span><span class="sxs-lookup"><span data-stu-id="419e7-119">A value of **true** indicates that the folder can be deleted; a value of **false** means that the folder cannot be deleted.</span></span> 
+<span data-ttu-id="8f810-118">Une valeur de texte qui représente une valeur booléenne est requise si cet élément est présent.</span><span class="sxs-lookup"><span data-stu-id="8f810-118">A text value that represents a Boolean value is required if this element is present.</span></span> <span data-ttu-id="8f810-119">La valeur **true** indique que le dossier peut être supprimé ; la valeur **false** signifie que le dossier ne peut pas être supprimé.</span><span class="sxs-lookup"><span data-stu-id="8f810-119">A value of **true** indicates that the folder can be deleted; a value of **false** means that the folder cannot be deleted.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="419e7-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="419e7-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8f810-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="8f810-120">Remarks</span></span>
 
-<span data-ttu-id="419e7-121">Pour supprimer un dossier géré, utilisez l' [opération DeleteFolder](deletefolder-operation.md).</span><span class="sxs-lookup"><span data-stu-id="419e7-121">To delete a managed folder, use the [DeleteFolder operation](deletefolder-operation.md).</span></span>
+<span data-ttu-id="8f810-121">Pour supprimer un dossier géré, utilisez l' [opération DeleteFolder](deletefolder-operation.md).</span><span class="sxs-lookup"><span data-stu-id="8f810-121">To delete a managed folder, use the [DeleteFolder operation](deletefolder-operation.md).</span></span>
   
-<span data-ttu-id="419e7-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="419e7-122">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="8f810-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="8f810-122">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="419e7-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="419e7-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="8f810-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="8f810-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="419e7-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="419e7-124">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="419e7-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="419e7-125">Schema name</span></span>  <br/> |<span data-ttu-id="419e7-126">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="419e7-126">Types schema</span></span>  <br/> |
-|<span data-ttu-id="419e7-127">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="419e7-127">Validation file</span></span>  <br/> |<span data-ttu-id="419e7-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="419e7-128">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="419e7-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="419e7-129">Can be empty</span></span>  <br/> |<span data-ttu-id="419e7-130">False</span><span class="sxs-lookup"><span data-stu-id="419e7-130">False</span></span>  <br/> |
+|<span data-ttu-id="8f810-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="8f810-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="8f810-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="8f810-125">Schema name</span></span>  <br/> |<span data-ttu-id="8f810-126">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="8f810-126">Types schema</span></span>  <br/> |
+|<span data-ttu-id="8f810-127">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="8f810-127">Validation file</span></span>  <br/> |<span data-ttu-id="8f810-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="8f810-128">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="8f810-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="8f810-129">Can be empty</span></span>  <br/> |<span data-ttu-id="8f810-130">False</span><span class="sxs-lookup"><span data-stu-id="8f810-130">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="419e7-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="419e7-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f810-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8f810-131">See also</span></span>
 
 
 
-[<span data-ttu-id="419e7-132">Opération CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="419e7-132">CreateManagedFolder operation</span></span>](createmanagedfolder-operation.md)
+[<span data-ttu-id="8f810-132">Opération CreateManagedFolder</span><span class="sxs-lookup"><span data-stu-id="8f810-132">CreateManagedFolder operation</span></span>](createmanagedfolder-operation.md)
 
 
-- [<span data-ttu-id="419e7-133">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="419e7-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="8f810-133">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="8f810-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="419e7-134">Suppression des dossiers</span><span class="sxs-lookup"><span data-stu-id="419e7-134">Deleting Folders</span></span>](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+[<span data-ttu-id="8f810-134">Suppression de dossiers</span><span class="sxs-lookup"><span data-stu-id="8f810-134">Deleting Folders</span></span>](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

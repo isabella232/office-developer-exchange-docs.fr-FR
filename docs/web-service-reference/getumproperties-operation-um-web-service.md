@@ -1,5 +1,5 @@
 ---
-title: Opération GetUMProperties (service web de messagerie unifiée)
+title: Opération GetUMProperties (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,48 +10,48 @@ api_name:
 api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
-description: L’opération GetUMProperties Obtient toutes les propriétés de la messagerie unifiée pour la boîte aux lettres de l’utilisateur qui effectue la demande.
-ms.openlocfilehash: 8878099bbd907fe0648f7d64dde3cd9600c2c45f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetUMProperties obtient toutes les propriétés de messagerie unifiée pour la boîte aux lettres de l’utilisateur qui effectue la demande.
+ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827678"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462471"
 ---
-# <a name="getumproperties-operation-um-web-service"></a><span data-ttu-id="0eaa3-103">Opération GetUMProperties (service web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="0eaa3-103">GetUMProperties operation (UM web service)</span></span>
+# <a name="getumproperties-operation-um-web-service"></a><span data-ttu-id="85ef2-103">Opération GetUMProperties (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="85ef2-103">GetUMProperties operation (UM web service)</span></span>
 
-<span data-ttu-id="0eaa3-104">L’opération GetUMProperties Obtient toutes les propriétés de la messagerie unifiée pour la boîte aux lettres de l’utilisateur qui effectue la demande.</span><span class="sxs-lookup"><span data-stu-id="0eaa3-104">The GetUMProperties operation gets all the Unified Messaging properties for the mailbox of the user who is making the request.</span></span>
+<span data-ttu-id="85ef2-104">L’opération GetUMProperties obtient toutes les propriétés de messagerie unifiée pour la boîte aux lettres de l’utilisateur qui effectue la demande.</span><span class="sxs-lookup"><span data-stu-id="85ef2-104">The GetUMProperties operation gets all the Unified Messaging properties for the mailbox of the user who is making the request.</span></span>
   
-## <a name="getumproperties-request-example"></a><span data-ttu-id="0eaa3-105">Exemple de requête GetUMProperties</span><span class="sxs-lookup"><span data-stu-id="0eaa3-105">GetUMProperties request example</span></span>
+## <a name="getumproperties-request-example"></a><span data-ttu-id="85ef2-105">Exemple de requête GetUMProperties</span><span class="sxs-lookup"><span data-stu-id="85ef2-105">GetUMProperties request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="0eaa3-106">Description</span><span class="sxs-lookup"><span data-stu-id="0eaa3-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="85ef2-106">Description</span><span class="sxs-lookup"><span data-stu-id="85ef2-106">Description</span></span>
 
-<span data-ttu-id="0eaa3-107">L’exemple suivant d’une demande GetUMProperties montre comment former une demande pour obtenir les propriétés d’une boîte aux lettres de messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="0eaa3-107">The following example of a GetUMProperties request shows how to form a request to get the Unified Messaging properties of a mailbox.</span></span>
+<span data-ttu-id="85ef2-107">L’exemple de requête GetUMProperties suivant montre comment créer une demande pour obtenir les propriétés de messagerie unifiée d’une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="85ef2-107">The following example of a GetUMProperties request shows how to form a request to get the Unified Messaging properties of a mailbox.</span></span>
   
-### <a name="code"></a><span data-ttu-id="0eaa3-108">Code</span><span class="sxs-lookup"><span data-stu-id="0eaa3-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="85ef2-108">Code</span><span class="sxs-lookup"><span data-stu-id="85ef2-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUMProperties xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <GetUMProperties xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="successful-getumproperties-response-example"></a><span data-ttu-id="0eaa3-109">Exemple de réponse GetUMProperties réussie</span><span class="sxs-lookup"><span data-stu-id="0eaa3-109">Successful GetUMProperties response example</span></span>
+## <a name="successful-getumproperties-response-example"></a><span data-ttu-id="85ef2-109">Exemple de réponse GetUMProperties réussi</span><span class="sxs-lookup"><span data-stu-id="85ef2-109">Successful GetUMProperties response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="0eaa3-110">Description</span><span class="sxs-lookup"><span data-stu-id="0eaa3-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="85ef2-110">Description</span><span class="sxs-lookup"><span data-stu-id="85ef2-110">Description</span></span>
 
-<span data-ttu-id="0eaa3-111">Une réponse GetUMProperties l’exemple suivant montre une réponse à la demande GetUMProperties.</span><span class="sxs-lookup"><span data-stu-id="0eaa3-111">The following example of a GetUMProperties response shows a response to the GetUMProperties request.</span></span>
+<span data-ttu-id="85ef2-111">L’exemple suivant de réponse GetUMProperties indique une réponse à la demande GetUMProperties.</span><span class="sxs-lookup"><span data-stu-id="85ef2-111">The following example of a GetUMProperties response shows a response to the GetUMProperties request.</span></span>
   
-### <a name="code"></a><span data-ttu-id="0eaa3-112">Code</span><span class="sxs-lookup"><span data-stu-id="0eaa3-112">Code</span></span>
+### <a name="code"></a><span data-ttu-id="85ef2-112">Code</span><span class="sxs-lookup"><span data-stu-id="85ef2-112">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <GetUMPropertiesResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUMPropertiesResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GetUMPropertiesResponse>
         <OofStatus>false</OofStatus> 
         <MissedCallNotificationEnabled>true</MissedCallNotificationEnabled> 
@@ -64,11 +64,11 @@ ms.locfileid: "19827678"
 </soap:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="0eaa3-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0eaa3-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="85ef2-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="85ef2-113">See also</span></span>
 
 
 
-[<span data-ttu-id="0eaa3-114">GetUMProperties (service web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="0eaa3-114">GetUMProperties (UM web service)</span></span>](getumproperties-um-web-service.md)
+[<span data-ttu-id="85ef2-114">GetUMProperties (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="85ef2-114">GetUMProperties (UM web service)</span></span>](getumproperties-um-web-service.md)
   
-[<span data-ttu-id="0eaa3-115">GetUMPropertiesResponse (service web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="0eaa3-115">GetUMPropertiesResponse (UM web service)</span></span>](getumpropertiesresponse-um-web-service.md)
+[<span data-ttu-id="85ef2-115">GetUMPropertiesResponse (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="85ef2-115">GetUMPropertiesResponse (UM web service)</span></span>](getumpropertiesresponse-um-web-service.md)
 

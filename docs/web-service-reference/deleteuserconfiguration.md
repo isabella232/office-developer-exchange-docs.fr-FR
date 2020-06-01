@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 91b18b6a-d904-476c-996d-b041e859da1e
-description: L’élément DeleteUserConfiguration représente une demande pour supprimer un objet de configuration utilisateur.
-ms.openlocfilehash: e357c32f95cddc866b77b6f1172ab260837b061b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeleteUserConfiguration représente une demande de suppression d’un objet de configuration utilisateur.
+ms.openlocfilehash: 04668ead48e7c321ed7e91cbbeb67c6154c02283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755873"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460756"
 ---
-# <a name="deleteuserconfiguration"></a><span data-ttu-id="7de3b-103">DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="7de3b-103">DeleteUserConfiguration</span></span>
+# <a name="deleteuserconfiguration"></a><span data-ttu-id="1fb2d-103">DeleteUserConfiguration</span><span class="sxs-lookup"><span data-stu-id="1fb2d-103">DeleteUserConfiguration</span></span>
 
-<span data-ttu-id="7de3b-104">L’élément **DeleteUserConfiguration** représente une demande pour supprimer un objet de configuration utilisateur.</span><span class="sxs-lookup"><span data-stu-id="7de3b-104">The **DeleteUserConfiguration** element represents a request to delete a user configuration object.</span></span> 
+<span data-ttu-id="1fb2d-104">L’élément **DeleteUserConfiguration** représente une demande de suppression d’un objet de configuration utilisateur.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-104">The **DeleteUserConfiguration** element represents a request to delete a user configuration object.</span></span> 
   
 ```xml
 <DeleteUserConfiguration>
@@ -29,43 +29,43 @@ ms.locfileid: "19755873"
 </DeleteUserConfiguration>
 ```
 
- <span data-ttu-id="7de3b-105">**DeleteUserConfigurationType**</span><span class="sxs-lookup"><span data-stu-id="7de3b-105">**DeleteUserConfigurationType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="7de3b-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="7de3b-106">Attributes and elements</span></span>
+ <span data-ttu-id="1fb2d-105">**DeleteUserConfigurationType**</span><span class="sxs-lookup"><span data-stu-id="1fb2d-105">**DeleteUserConfigurationType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="1fb2d-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="1fb2d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="7de3b-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="7de3b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="1fb2d-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="7de3b-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="7de3b-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1fb2d-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="1fb2d-108">Attributes</span></span>
 
-<span data-ttu-id="7de3b-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7de3b-109">None.</span></span>
+<span data-ttu-id="1fb2d-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="7de3b-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="7de3b-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1fb2d-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="1fb2d-110">Child elements</span></span>
 
-|<span data-ttu-id="7de3b-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="7de3b-111">**Element**</span></span>|<span data-ttu-id="7de3b-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="7de3b-112">**Description**</span></span>|
+|<span data-ttu-id="1fb2d-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="1fb2d-111">**Element**</span></span>|<span data-ttu-id="1fb2d-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="1fb2d-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7de3b-113">UserConfigurationName</span><span class="sxs-lookup"><span data-stu-id="7de3b-113">UserConfigurationName</span></span>](userconfigurationname.md) <br/> |<span data-ttu-id="7de3b-114">Représente le nom de l’objet de configuration d’utilisateur à supprimer.</span><span class="sxs-lookup"><span data-stu-id="7de3b-114">Represents the name of the user configuration object to delete.</span></span>  <br/> |
+|[<span data-ttu-id="1fb2d-113">UserConfigurationName</span><span class="sxs-lookup"><span data-stu-id="1fb2d-113">UserConfigurationName</span></span>](userconfigurationname.md) <br/> |<span data-ttu-id="1fb2d-114">Représente le nom de l’objet de configuration utilisateur à supprimer.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-114">Represents the name of the user configuration object to delete.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="7de3b-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="7de3b-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="1fb2d-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="1fb2d-115">Parent elements</span></span>
 
-<span data-ttu-id="7de3b-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7de3b-116">None.</span></span>
+<span data-ttu-id="1fb2d-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-116">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="7de3b-117">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="7de3b-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="1fb2d-117">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="1fb2d-117">Text value</span></span>
 
-<span data-ttu-id="7de3b-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7de3b-118">None.</span></span>
+<span data-ttu-id="1fb2d-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7de3b-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="7de3b-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1fb2d-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="1fb2d-119">Remarks</span></span>
 
-<span data-ttu-id="7de3b-120">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="7de3b-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="1fb2d-120">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="1fb2d-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="7de3b-121">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="7de3b-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1fb2d-121">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="1fb2d-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7de3b-122">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="7de3b-122">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="7de3b-123">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="7de3b-123">Schema Name</span></span>  <br/> |<span data-ttu-id="7de3b-124">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="7de3b-124">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="7de3b-125">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="7de3b-125">Validation File</span></span>  <br/> |<span data-ttu-id="7de3b-126">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="7de3b-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="7de3b-127">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="7de3b-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="7de3b-128">False</span><span class="sxs-lookup"><span data-stu-id="7de3b-128">False</span></span>  <br/> |
+|<span data-ttu-id="1fb2d-122">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="1fb2d-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="1fb2d-123">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="1fb2d-123">Schema Name</span></span>  <br/> |<span data-ttu-id="1fb2d-124">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="1fb2d-124">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="1fb2d-125">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="1fb2d-125">Validation File</span></span>  <br/> |<span data-ttu-id="1fb2d-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="1fb2d-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="1fb2d-127">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="1fb2d-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="1fb2d-128">False</span><span class="sxs-lookup"><span data-stu-id="1fb2d-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7de3b-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7de3b-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1fb2d-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1fb2d-129">See also</span></span>
 
-- [<span data-ttu-id="7de3b-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="7de3b-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="1fb2d-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="1fb2d-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -8,55 +8,55 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ab436b54-ceba-4cd9-aeb4-134f9b93986d
-description: L’élément DirectoryPort Spécifie le port utilisé pour se connecter au répertoire lorsque le protocole fournisseur Interface NSPI (Name Service) est utilisé.
-ms.openlocfilehash: 1b73b9cd1d21c73f4e897684371993312f741322
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DirectoryPort spécifie le port utilisé pour se connecter à l’annuaire lorsque le protocole NSPI (Name Service Provider Interface) est utilisé.
+ms.openlocfilehash: 2ba0a15cea0b4eb9b6069fab384edb3d9747a360
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755935"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462086"
 ---
-# <a name="directoryport-pox"></a><span data-ttu-id="2613f-103">DirectoryPort (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-103">DirectoryPort (POX)</span></span>
+# <a name="directoryport-pox"></a><span data-ttu-id="0aa6c-103">DirectoryPort (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-103">DirectoryPort (POX)</span></span>
 
-<span data-ttu-id="2613f-104">L’élément **DirectoryPort** Spécifie le port utilisé pour se connecter au répertoire lorsque le protocole fournisseur Interface NSPI (Name Service) est utilisé.</span><span class="sxs-lookup"><span data-stu-id="2613f-104">The **DirectoryPort** element specifies the port that is used to connect to the directory when the Name Service Provider Interface (NSPI) protocol is used.</span></span> 
+<span data-ttu-id="0aa6c-104">L’élément **DirectoryPort** spécifie le port utilisé pour se connecter à l’annuaire lorsque le protocole NSPI (Name Service Provider Interface) est utilisé.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-104">The **DirectoryPort** element specifies the port that is used to connect to the directory when the Name Service Provider Interface (NSPI) protocol is used.</span></span> 
   
-- [<span data-ttu-id="2613f-105">Découverte automatique (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
-- [<span data-ttu-id="2613f-106">Réponse (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-106">Response (POX)</span></span>](response-pox.md)  
-- [<span data-ttu-id="2613f-107">Compte (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-107">Account (POX)</span></span>](account-pox.md)  
-- [<span data-ttu-id="2613f-108">Protocole (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-108">Protocol (POX)</span></span>](protocol-pox.md)  
-- [<span data-ttu-id="2613f-109">DirectoryPort (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-109">DirectoryPort (POX)</span></span>](directoryport-pox.md)
+- [<span data-ttu-id="0aa6c-105">Découverte automatique (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-105">AutoDiscover (POX)</span></span>](autodiscover-pox.md) 
+- [<span data-ttu-id="0aa6c-106">Réponse (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-106">Response (POX)</span></span>](response-pox.md)  
+- [<span data-ttu-id="0aa6c-107">Compte (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-107">Account (POX)</span></span>](account-pox.md)  
+- [<span data-ttu-id="0aa6c-108">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-108">Protocol (POX)</span></span>](protocol-pox.md)  
+- [<span data-ttu-id="0aa6c-109">DirectoryPort (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-109">DirectoryPort (POX)</span></span>](directoryport-pox.md)
   
 ```xml
 <DirectoryPort/>
 ```
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="2613f-110">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="2613f-110">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0aa6c-110">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="0aa6c-110">Attributes and elements</span></span>
 
-<span data-ttu-id="2613f-111">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="2613f-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0aa6c-111">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2613f-112">Attributs</span><span class="sxs-lookup"><span data-stu-id="2613f-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0aa6c-112">Attributs</span><span class="sxs-lookup"><span data-stu-id="0aa6c-112">Attributes</span></span>
 
-<span data-ttu-id="2613f-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="2613f-113">None.</span></span>
+<span data-ttu-id="0aa6c-113">Aucune.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="2613f-114">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="2613f-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0aa6c-114">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="0aa6c-114">Child elements</span></span>
 
-<span data-ttu-id="2613f-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="2613f-115">None.</span></span>
+<span data-ttu-id="0aa6c-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="2613f-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="2613f-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0aa6c-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="0aa6c-116">Parent elements</span></span>
 
-|<span data-ttu-id="2613f-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="2613f-117">**Element**</span></span>|<span data-ttu-id="2613f-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="2613f-118">**Description**</span></span>|
+|<span data-ttu-id="0aa6c-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="0aa6c-117">**Element**</span></span>|<span data-ttu-id="0aa6c-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="0aa6c-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="2613f-119">Protocole (POX)</span><span class="sxs-lookup"><span data-stu-id="2613f-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="2613f-120">Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.</span><span class="sxs-lookup"><span data-stu-id="2613f-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
+|[<span data-ttu-id="0aa6c-119">Protocol (POX)</span><span class="sxs-lookup"><span data-stu-id="0aa6c-119">Protocol (POX)</span></span>](protocol-pox.md) <br/> |<span data-ttu-id="0aa6c-120">Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-120">Contains the specifications for connecting a client to the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="2613f-121">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="2613f-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="0aa6c-121">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="0aa6c-121">Text value</span></span>
 
-<span data-ttu-id="2613f-122">La valeur de texte représente le port utilisé pour accéder au serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="2613f-122">The text value represents the port that is used to access the Exchange server.</span></span>
+<span data-ttu-id="0aa6c-122">La valeur de texte représente le port utilisé pour accéder au serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-122">The text value represents the port that is used to access the Exchange server.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="2613f-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="2613f-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0aa6c-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="0aa6c-123">Remarks</span></span>
 
-<span data-ttu-id="2613f-124">L’élément **DirectoryPort** est uniquement utilisé lorsque l’élément de [Type (POX)](type-pox.md) est égale à EXCH ou EXPR.</span><span class="sxs-lookup"><span data-stu-id="2613f-124">The **DirectoryPort** element is only used when the [Type (POX)](type-pox.md) element equals EXCH or EXPR.</span></span> 
+<span data-ttu-id="0aa6c-124">L’élément **DirectoryPort** est utilisé uniquement lorsque l’élément [type (POX)](type-pox.md) est égal à Exch ou Expr.</span><span class="sxs-lookup"><span data-stu-id="0aa6c-124">The **DirectoryPort** element is only used when the [Type (POX)](type-pox.md) element equals EXCH or EXPR.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2613f-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2613f-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0aa6c-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0aa6c-125">See also</span></span>
 
-- [<span data-ttu-id="2613f-126">Éléments du fichier XML Autodiscover variole pour Exchange</span><span class="sxs-lookup"><span data-stu-id="2613f-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
+- [<span data-ttu-id="0aa6c-126">Éléments XML de découverte automatique de la VARIOle pour Exchange</span><span class="sxs-lookup"><span data-stu-id="0aa6c-126">POX Autodiscover XML elements for Exchange</span></span>](pox-autodiscover-xml-elements-for-exchange.md)
 

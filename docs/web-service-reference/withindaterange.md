@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 226aeb15-016f-45ca-992a-c137ba09ca08
-description: L’élément WithinDateRange spécifie la plage de dates dans laquelle les messages entrants ont reçue dans l’ordre de l’exception ou la condition à appliquer.
-ms.openlocfilehash: d85ef91c581008c2aafb06b1900c4514aebacd65
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément WithinDateRange spécifie la plage de dates au cours de laquelle des messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: ef5fb15b64ee4f7060f907818c4ebd4367ced5e7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839049"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461848"
 ---
-# <a name="withindaterange"></a><span data-ttu-id="5c864-103">WithinDateRange</span><span class="sxs-lookup"><span data-stu-id="5c864-103">WithinDateRange</span></span>
+# <a name="withindaterange"></a><span data-ttu-id="7fb26-103">WithinDateRange</span><span class="sxs-lookup"><span data-stu-id="7fb26-103">WithinDateRange</span></span>
 
-<span data-ttu-id="5c864-104">L’élément **WithinDateRange** spécifie la plage de dates dans laquelle les messages entrants ont reçue dans l’ordre de l’exception ou la condition à appliquer.</span><span class="sxs-lookup"><span data-stu-id="5c864-104">The **WithinDateRange** element specifies the date range within which incoming messages have to have been received in order for the condition or exception to apply.</span></span> 
+<span data-ttu-id="7fb26-104">L’élément **WithinDateRange** spécifie la plage de dates au cours de laquelle des messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.</span><span class="sxs-lookup"><span data-stu-id="7fb26-104">The **WithinDateRange** element specifies the date range within which incoming messages have to have been received in order for the condition or exception to apply.</span></span> 
   
 ```XML
 <WithinDateRange>
@@ -30,49 +30,49 @@ ms.locfileid: "19839049"
 </WithinDateRange>
 ```
 
- <span data-ttu-id="5c864-105">**RulePredicateDateRangeType**</span><span class="sxs-lookup"><span data-stu-id="5c864-105">**RulePredicateDateRangeType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5c864-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="5c864-106">Attributes and elements</span></span>
+ <span data-ttu-id="7fb26-105">**RulePredicateDateRangeType**</span><span class="sxs-lookup"><span data-stu-id="7fb26-105">**RulePredicateDateRangeType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="7fb26-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="7fb26-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5c864-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="5c864-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="7fb26-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="7fb26-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5c864-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="5c864-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="7fb26-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="7fb26-108">Attributes</span></span>
 
-<span data-ttu-id="5c864-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5c864-109">None.</span></span>
+<span data-ttu-id="7fb26-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="7fb26-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5c864-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="5c864-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="7fb26-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="7fb26-110">Child elements</span></span>
 
-|<span data-ttu-id="5c864-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="5c864-111">**Element**</span></span>|<span data-ttu-id="5c864-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="5c864-112">**Description**</span></span>|
+|<span data-ttu-id="7fb26-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="7fb26-111">**Element**</span></span>|<span data-ttu-id="7fb26-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="7fb26-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c864-113">StartDateTime</span><span class="sxs-lookup"><span data-stu-id="5c864-113">StartDateTime</span></span>](startdatetime.md) <br/> |<span data-ttu-id="5c864-114">Spécifie la règle de période et indique que la condition de règle est remplie après cette valeur.</span><span class="sxs-lookup"><span data-stu-id="5c864-114">Specifies the rule time period and indicates that the rule condition is met after this value.</span></span>  <br/> |
-|[<span data-ttu-id="5c864-115">EndDateTime</span><span class="sxs-lookup"><span data-stu-id="5c864-115">EndDateTime</span></span>](enddatetime.md) <br/> |<span data-ttu-id="5c864-116">Spécifie la règle de période et indique que la condition de règle est remplie avant cette valeur.</span><span class="sxs-lookup"><span data-stu-id="5c864-116">Specifies the rule time period and indicates that the rule condition is met before this value.</span></span>  <br/> |
+|[<span data-ttu-id="7fb26-113">StartDateTime</span><span class="sxs-lookup"><span data-stu-id="7fb26-113">StartDateTime</span></span>](startdatetime.md) <br/> |<span data-ttu-id="7fb26-114">Spécifie la période de la règle et indique que la condition de règle est remplie après cette valeur.</span><span class="sxs-lookup"><span data-stu-id="7fb26-114">Specifies the rule time period and indicates that the rule condition is met after this value.</span></span>  <br/> |
+|[<span data-ttu-id="7fb26-115">EndDateTime</span><span class="sxs-lookup"><span data-stu-id="7fb26-115">EndDateTime</span></span>](enddatetime.md) <br/> |<span data-ttu-id="7fb26-116">Spécifie la période de la règle et indique que la condition de règle est remplie avant cette valeur.</span><span class="sxs-lookup"><span data-stu-id="7fb26-116">Specifies the rule time period and indicates that the rule condition is met before this value.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="5c864-117">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="5c864-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="7fb26-117">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="7fb26-117">Parent elements</span></span>
 
-|<span data-ttu-id="5c864-118">**Élément**</span><span class="sxs-lookup"><span data-stu-id="5c864-118">**Element**</span></span>|<span data-ttu-id="5c864-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="5c864-119">**Description**</span></span>|
+|<span data-ttu-id="7fb26-118">**Élément**</span><span class="sxs-lookup"><span data-stu-id="7fb26-118">**Element**</span></span>|<span data-ttu-id="7fb26-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="7fb26-119">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5c864-120">Conditions</span><span class="sxs-lookup"><span data-stu-id="5c864-120">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="5c864-121">Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.</span><span class="sxs-lookup"><span data-stu-id="5c864-121">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
-|[<span data-ttu-id="5c864-122">Exceptions</span><span class="sxs-lookup"><span data-stu-id="5c864-122">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="5c864-123">Représente toutes les conditions d’exception de règle disponibles pour une règle de boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="5c864-123">Represents all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
+|[<span data-ttu-id="7fb26-120">Conditions</span><span class="sxs-lookup"><span data-stu-id="7fb26-120">Conditions</span></span>](conditions.md) <br/> |<span data-ttu-id="7fb26-121">Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.</span><span class="sxs-lookup"><span data-stu-id="7fb26-121">Represents the conditions that, when fulfilled, will trigger the rule actions for a rule.</span></span>  <br/> |
+|[<span data-ttu-id="7fb26-122">Exceptions</span><span class="sxs-lookup"><span data-stu-id="7fb26-122">Exceptions</span></span>](exceptions.md) <br/> |<span data-ttu-id="7fb26-123">Représente toutes les conditions d’exception de règle disponibles pour une règle de boîte de réception.</span><span class="sxs-lookup"><span data-stu-id="7fb26-123">Represents all the available rule exception conditions for an Inbox rule.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="5c864-124">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="5c864-124">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="7fb26-124">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="7fb26-124">Text value</span></span>
 
-<span data-ttu-id="5c864-125">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5c864-125">None.</span></span>
+<span data-ttu-id="7fb26-125">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7fb26-125">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5c864-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="5c864-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7fb26-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="7fb26-126">Remarks</span></span>
 
-<span data-ttu-id="5c864-127">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="5c864-127">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="7fb26-127">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="7fb26-127">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="5c864-128">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="5c864-128">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="7fb26-128">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="7fb26-128">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5c864-129">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="5c864-129">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="5c864-130">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="5c864-130">Schema Name</span></span>  <br/> |<span data-ttu-id="5c864-131">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="5c864-131">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="5c864-132">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="5c864-132">Validation File</span></span>  <br/> |<span data-ttu-id="5c864-133">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="5c864-133">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="5c864-134">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="5c864-134">Can be Empty</span></span>  <br/> |<span data-ttu-id="5c864-135">True</span><span class="sxs-lookup"><span data-stu-id="5c864-135">True</span></span>  <br/> |
+|<span data-ttu-id="7fb26-129">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="7fb26-129">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="7fb26-130">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="7fb26-130">Schema Name</span></span>  <br/> |<span data-ttu-id="7fb26-131">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="7fb26-131">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="7fb26-132">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="7fb26-132">Validation File</span></span>  <br/> |<span data-ttu-id="7fb26-133">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="7fb26-133">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="7fb26-134">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="7fb26-134">Can be Empty</span></span>  <br/> |<span data-ttu-id="7fb26-135">True</span><span class="sxs-lookup"><span data-stu-id="7fb26-135">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5c864-136">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5c864-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7fb26-136">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7fb26-136">See also</span></span>
 
 
 
-- [<span data-ttu-id="5c864-137">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="5c864-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="7fb26-137">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="7fb26-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

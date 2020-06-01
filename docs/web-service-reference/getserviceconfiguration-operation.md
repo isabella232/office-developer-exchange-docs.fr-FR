@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: L’opération GetServiceConfiguration Obtient des informations de configuration pour le type de service spécifié. Cette opération peut retourner des paramètres de configuration pour les services de messagerie unifiée, les règles de Protection et des conseils de messagerie.
-ms.openlocfilehash: 7fdc4d8defac3d6d352c121483bf8a4c735d9629
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetServiceConfiguration obtient des informations de configuration pour le type de service spécifié. Cette opération peut retourner des paramètres de configuration pour la messagerie unifiée, les règles de protection et les services de messagerie.
+ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827667"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460910"
 ---
-# <a name="getserviceconfiguration-operation"></a><span data-ttu-id="62c44-104">Opération GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="62c44-104">GetServiceConfiguration operation</span></span>
+# <a name="getserviceconfiguration-operation"></a><span data-ttu-id="abe2b-104">Opération GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="abe2b-104">GetServiceConfiguration operation</span></span>
 
-<span data-ttu-id="62c44-105">L’opération **GetServiceConfiguration** Obtient des informations de configuration pour le type de service spécifié.</span><span class="sxs-lookup"><span data-stu-id="62c44-105">The **GetServiceConfiguration** operation gets configuration information for the specified type of service.</span></span> <span data-ttu-id="62c44-106">Cette opération peut retourner des paramètres de configuration pour les services de messagerie unifiée, les règles de Protection et des conseils de messagerie.</span><span class="sxs-lookup"><span data-stu-id="62c44-106">This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services.</span></span> 
+<span data-ttu-id="abe2b-105">L’opération **GetServiceConfiguration** obtient des informations de configuration pour le type de service spécifié.</span><span class="sxs-lookup"><span data-stu-id="abe2b-105">The **GetServiceConfiguration** operation gets configuration information for the specified type of service.</span></span> <span data-ttu-id="abe2b-106">Cette opération peut retourner des paramètres de configuration pour la messagerie unifiée, les règles de protection et les services de messagerie.</span><span class="sxs-lookup"><span data-stu-id="abe2b-106">This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services.</span></span> 
   
-## <a name="getserviceconfiguration-request-example"></a><span data-ttu-id="62c44-107">Exemple de requête GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="62c44-107">GetServiceConfiguration request example</span></span>
+## <a name="getserviceconfiguration-request-example"></a><span data-ttu-id="abe2b-107">Exemple de requête GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="abe2b-107">GetServiceConfiguration request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="62c44-108">Description</span><span class="sxs-lookup"><span data-stu-id="62c44-108">Description</span></span>
+### <a name="description"></a><span data-ttu-id="abe2b-108">Description</span><span class="sxs-lookup"><span data-stu-id="abe2b-108">Description</span></span>
 
-<span data-ttu-id="62c44-109">L’exemple suivant d’une demande **GetServiceConfiguration** montre comment former une demande pour obtenir des informations de configuration pour le service de messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="62c44-109">The following example of a **GetServiceConfiguration** request shows how to form a request to get configuration information for the Unified Messaging service.</span></span> 
+<span data-ttu-id="abe2b-109">L’exemple de requête **GetServiceConfiguration** suivant montre comment créer une demande pour obtenir des informations de configuration pour le service de messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="abe2b-109">The following example of a **GetServiceConfiguration** request shows how to form a request to get configuration information for the Unified Messaging service.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="62c44-110">Code</span><span class="sxs-lookup"><span data-stu-id="62c44-110">Code</span></span>
+### <a name="code"></a><span data-ttu-id="abe2b-110">Code</span><span class="sxs-lookup"><span data-stu-id="abe2b-110">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -51,13 +51,13 @@ ms.locfileid: "19827667"
 </soap:Envelope>
 ```
 
-## <a name="getserviceconfiguration-response-example"></a><span data-ttu-id="62c44-111">Exemple de réponse GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="62c44-111">GetServiceConfiguration response example</span></span>
+## <a name="getserviceconfiguration-response-example"></a><span data-ttu-id="abe2b-111">Exemple de réponse GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="abe2b-111">GetServiceConfiguration response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="62c44-112">Description</span><span class="sxs-lookup"><span data-stu-id="62c44-112">Description</span></span>
+### <a name="description"></a><span data-ttu-id="abe2b-112">Description</span><span class="sxs-lookup"><span data-stu-id="abe2b-112">Description</span></span>
 
-<span data-ttu-id="62c44-113">L’exemple suivant montre une réponse positive à la demande **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="62c44-113">The following example shows a successful response to the **GetServiceConfiguration** request.</span></span> 
+<span data-ttu-id="abe2b-113">L’exemple suivant montre une réponse réussie à la demande **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="abe2b-113">The following example shows a successful response to the **GetServiceConfiguration** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="62c44-114">Code</span><span class="sxs-lookup"><span data-stu-id="62c44-114">Code</span></span>
+### <a name="code"></a><span data-ttu-id="abe2b-114">Code</span><span class="sxs-lookup"><span data-stu-id="abe2b-114">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -68,23 +68,23 @@ ms.locfileid: "19827667"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetServiceConfigurationResponse ResponseClass="Success" 
-                                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <ResponseMessages>
         <ServiceConfigurationResponseMessageType ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
-          <m:UnifiedMessagingConfiguration xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-            <t:UmEnabled xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">true</t:UmEnabled>
-            <t:PlayOnPhoneDialString xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">user@contoso.com</t:PlayOnPhoneDialString>
-            <t:PlayOnPhoneEnabled xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">true</t:PlayOnPhoneEnabled>
+          <m:UnifiedMessagingConfiguration xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+            <t:UmEnabled xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">true</t:UmEnabled>
+            <t:PlayOnPhoneDialString xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">user@contoso.com</t:PlayOnPhoneDialString>
+            <t:PlayOnPhoneEnabled xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">true</t:PlayOnPhoneEnabled>
           </m:UnifiedMessagingConfiguration>
         </ServiceConfigurationResponseMessageType>
       </ResponseMessages>
@@ -93,34 +93,34 @@ ms.locfileid: "19827667"
 </s:Envelope>
 ```
 
-## <a name="getserviceconfiguration-error-response-example"></a><span data-ttu-id="62c44-115">Exemple de réponse d’erreur GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="62c44-115">GetServiceConfiguration Error response example</span></span>
+## <a name="getserviceconfiguration-error-response-example"></a><span data-ttu-id="abe2b-115">Exemple de réponse d’erreur GetServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="abe2b-115">GetServiceConfiguration Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="62c44-116">Description</span><span class="sxs-lookup"><span data-stu-id="62c44-116">Description</span></span>
+### <a name="description"></a><span data-ttu-id="abe2b-116">Description</span><span class="sxs-lookup"><span data-stu-id="abe2b-116">Description</span></span>
 
-<span data-ttu-id="62c44-117">L’exemple suivant montre une réponse d’erreur à la demande **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="62c44-117">The following example shows an error response to the **GetServiceConfiguration** request.</span></span> <span data-ttu-id="62c44-118">Cette erreur a été provoquée par un nom d’une configuration incorrecte.</span><span class="sxs-lookup"><span data-stu-id="62c44-118">This error was caused by an incorrect configuration name.</span></span> 
+<span data-ttu-id="abe2b-117">L’exemple suivant montre une réponse d’erreur à la demande **GetServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="abe2b-117">The following example shows an error response to the **GetServiceConfiguration** request.</span></span> <span data-ttu-id="abe2b-118">Cette erreur est due à un nom de configuration incorrect.</span><span class="sxs-lookup"><span data-stu-id="abe2b-118">This error was caused by an incorrect configuration name.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="62c44-119">Code</span><span class="sxs-lookup"><span data-stu-id="62c44-119">Code</span></span>
+### <a name="code"></a><span data-ttu-id="abe2b-119">Code</span><span class="sxs-lookup"><span data-stu-id="abe2b-119">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Body>
     <s:Fault>
-      <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+      <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
       <faultstring xml:lang="en-US">The request failed schema validation: 
-      The 'http://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
+      The 'https://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
       is invalid - The value 'UUnifiedMessagingConfiguration' is invalid according to its 
-      datatype 'http://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType' 
+      datatype 'https://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType' 
       - The Enumeration constraint failed.</faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-        <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+        <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:LineNumber>13</t:LineNumber>
           <t:LinePosition>62</t:LinePosition>
-          <t:Violation>The 'http://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
+          <t:Violation>The 'https://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
           is invalid - The value 'UUnifiedMessagingConfiguration' is invalid according to its 
-          datatype 'http://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType'
+          datatype 'https://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType'
           - The Enumeration constraint failed.</t:Violation>
         </t:MessageXml>
       </detail>
@@ -129,11 +129,11 @@ ms.locfileid: "19827667"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="62c44-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="62c44-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="abe2b-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="abe2b-120">See also</span></span>
 
 
 
-[<span data-ttu-id="62c44-121">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="62c44-121">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+[<span data-ttu-id="abe2b-121">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="abe2b-121">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
   
-- [<span data-ttu-id="62c44-122">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="62c44-122">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="abe2b-122">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="abe2b-122">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

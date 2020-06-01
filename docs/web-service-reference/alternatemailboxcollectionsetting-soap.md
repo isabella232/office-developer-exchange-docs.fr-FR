@@ -9,16 +9,16 @@ api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
 description: L’élément AlternateMailboxCollectionSetting contient une collection de paramètres de boîte aux lettres de substitution.
-ms.openlocfilehash: 4abff2a36b3937a9a24e44104d18722b5e5b5ec5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 549aa297ca44106e1539080c369d6e7060a0bd43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755198"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456226"
 ---
-# <a name="alternatemailboxcollectionsetting-soap"></a><span data-ttu-id="0bb33-103">AlternateMailboxCollectionSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="0bb33-103">AlternateMailboxCollectionSetting (SOAP)</span></span>
+# <a name="alternatemailboxcollectionsetting-soap"></a><span data-ttu-id="6c665-103">AlternateMailboxCollectionSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="6c665-103">AlternateMailboxCollectionSetting (SOAP)</span></span>
 
-<span data-ttu-id="0bb33-104">L’élément **AlternateMailboxCollectionSetting** contient une collection de paramètres de boîte aux lettres de substitution.</span><span class="sxs-lookup"><span data-stu-id="0bb33-104">The **AlternateMailboxCollectionSetting** element contains a collection of alternate mailbox settings.</span></span> 
+<span data-ttu-id="6c665-104">L’élément **AlternateMailboxCollectionSetting** contient une collection de paramètres de boîte aux lettres de substitution.</span><span class="sxs-lookup"><span data-stu-id="6c665-104">The **AlternateMailboxCollectionSetting** element contains a collection of alternate mailbox settings.</span></span> 
   
 ```XML
 <AlternateMailboxCollectionSetting>
@@ -26,39 +26,39 @@ ms.locfileid: "19755198"
 </AlternateMailboxCollectionSetting>
 ```
 
- <span data-ttu-id="0bb33-105">**AlternateMailboxCollectionSetting**</span><span class="sxs-lookup"><span data-stu-id="0bb33-105">**AlternateMailboxCollectionSetting**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="0bb33-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="0bb33-106">Attributes and elements</span></span>
+ <span data-ttu-id="6c665-105">**AlternateMailboxCollectionSetting**</span><span class="sxs-lookup"><span data-stu-id="6c665-105">**AlternateMailboxCollectionSetting**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6c665-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="6c665-106">Attributes and elements</span></span>
 
-<span data-ttu-id="0bb33-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="0bb33-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6c665-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="6c665-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="0bb33-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="0bb33-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6c665-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="6c665-108">Attributes</span></span>
 
-<span data-ttu-id="0bb33-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0bb33-109">None.</span></span>
+<span data-ttu-id="6c665-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="6c665-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="0bb33-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="0bb33-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6c665-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="6c665-110">Child elements</span></span>
 
-|<span data-ttu-id="0bb33-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="0bb33-111">**Element**</span></span>|<span data-ttu-id="0bb33-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="0bb33-112">**Description**</span></span>|
+|<span data-ttu-id="6c665-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="6c665-111">**Element**</span></span>|<span data-ttu-id="6c665-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="6c665-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="0bb33-113">AlternateMailboxes (SOAP)</span><span class="sxs-lookup"><span data-stu-id="0bb33-113">AlternateMailboxes (SOAP)</span></span>](alternatemailboxes-soap.md) <br/> |<span data-ttu-id="0bb33-114">Représente une collection d’autres boîtes aux lettres.</span><span class="sxs-lookup"><span data-stu-id="0bb33-114">Represents a collection of alternate mailboxes.</span></span>  <br/> |
+|[<span data-ttu-id="6c665-113">AlternateMailboxes (SOAP)</span><span class="sxs-lookup"><span data-stu-id="6c665-113">AlternateMailboxes (SOAP)</span></span>](alternatemailboxes-soap.md) <br/> |<span data-ttu-id="6c665-114">Représente une collection de boîtes aux lettres de substitution.</span><span class="sxs-lookup"><span data-stu-id="6c665-114">Represents a collection of alternate mailboxes.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="0bb33-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="0bb33-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6c665-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="6c665-115">Parent elements</span></span>
 
-<span data-ttu-id="0bb33-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0bb33-116">None.</span></span>
+<span data-ttu-id="6c665-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6c665-116">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="0bb33-117">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="0bb33-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6c665-117">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="6c665-117">Text value</span></span>
 
-<span data-ttu-id="0bb33-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0bb33-118">None.</span></span>
+<span data-ttu-id="6c665-118">Aucune.</span><span class="sxs-lookup"><span data-stu-id="6c665-118">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="0bb33-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="0bb33-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6c665-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="6c665-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0bb33-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="0bb33-120">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="0bb33-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="0bb33-121">Schema Name</span></span>  <br/> |<span data-ttu-id="0bb33-122">Schéma de découverte automatique</span><span class="sxs-lookup"><span data-stu-id="0bb33-122">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="0bb33-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="0bb33-123">Validation File</span></span>  <br/> |<span data-ttu-id="0bb33-124">Messages.xsd</span><span class="sxs-lookup"><span data-stu-id="0bb33-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="0bb33-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="0bb33-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="0bb33-126">True</span><span class="sxs-lookup"><span data-stu-id="0bb33-126">True</span></span>  <br/> |
+|<span data-ttu-id="6c665-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="6c665-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="6c665-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="6c665-121">Schema Name</span></span>  <br/> |<span data-ttu-id="6c665-122">Schéma de découverte automatique</span><span class="sxs-lookup"><span data-stu-id="6c665-122">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="6c665-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="6c665-123">Validation File</span></span>  <br/> |<span data-ttu-id="6c665-124">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="6c665-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="6c665-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="6c665-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="6c665-126">True</span><span class="sxs-lookup"><span data-stu-id="6c665-126">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0bb33-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0bb33-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c665-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6c665-127">See also</span></span>
 
-- [<span data-ttu-id="0bb33-128">SOAP de référence de service web de découverte automatique pour Exchange</span><span class="sxs-lookup"><span data-stu-id="0bb33-128">SOAP Autodiscover web service reference for Exchange</span></span>](soap-autodiscover-web-service-reference-for-exchange.md)
+- [<span data-ttu-id="6c665-128">Référence de service Web de découverte automatique SOAP pour Exchange</span><span class="sxs-lookup"><span data-stu-id="6c665-128">SOAP Autodiscover web service reference for Exchange</span></span>](soap-autodiscover-web-service-reference-for-exchange.md)
 

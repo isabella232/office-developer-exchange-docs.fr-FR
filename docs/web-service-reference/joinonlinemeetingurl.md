@@ -7,47 +7,47 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
-description: L’élément JoinOnlineMeetingUrl Spécifie l’URL pour participer à une réunion en ligne.
-ms.openlocfilehash: 642cfaccefc5342f705d9555377c7ec985c09f6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément JoinOnlineMeetingUrl spécifie l’URL à laquelle participer à une réunion en ligne.
+ms.openlocfilehash: 57fb6c144d673f7e25b98e5450759f42312564a4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454126"
 ---
-# <a name="joinonlinemeetingurl"></a><span data-ttu-id="5ef45-103">JoinOnlineMeetingUrl</span><span class="sxs-lookup"><span data-stu-id="5ef45-103">JoinOnlineMeetingUrl</span></span>
+# <a name="joinonlinemeetingurl"></a><span data-ttu-id="20463-103">JoinOnlineMeetingUrl</span><span class="sxs-lookup"><span data-stu-id="20463-103">JoinOnlineMeetingUrl</span></span>
 
-<span data-ttu-id="5ef45-104">L’élément **JoinOnlineMeetingUrl** Spécifie l’URL pour participer à une réunion en ligne.</span><span class="sxs-lookup"><span data-stu-id="5ef45-104">The **JoinOnlineMeetingUrl** element specifies the URL to join an online meeting.</span></span> 
+<span data-ttu-id="20463-104">L’élément **JoinOnlineMeetingUrl** spécifie l’URL à laquelle participer à une réunion en ligne.</span><span class="sxs-lookup"><span data-stu-id="20463-104">The **JoinOnlineMeetingUrl** element specifies the URL to join an online meeting.</span></span> 
   
 ```XML
 <JoinOnlineMeetingUrl></JoinOnlineMeetingUrl>
 ```
 
- <span data-ttu-id="5ef45-105">**string**</span><span class="sxs-lookup"><span data-stu-id="5ef45-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="5ef45-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="5ef45-106">Attributes and elements</span></span>
+ <span data-ttu-id="20463-105">**chaîne**</span><span class="sxs-lookup"><span data-stu-id="20463-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="20463-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="20463-106">Attributes and elements</span></span>
 
-<span data-ttu-id="5ef45-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="5ef45-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="20463-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="20463-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5ef45-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="5ef45-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="20463-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="20463-108">Attributes</span></span>
 
-<span data-ttu-id="5ef45-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5ef45-109">None.</span></span>
+<span data-ttu-id="20463-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="20463-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="5ef45-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="5ef45-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="20463-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="20463-110">Child elements</span></span>
 
-<span data-ttu-id="5ef45-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5ef45-111">None.</span></span>
+<span data-ttu-id="20463-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="20463-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="5ef45-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="5ef45-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="20463-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="20463-112">Parent elements</span></span>
 
-[<span data-ttu-id="5ef45-113">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="5ef45-113">CalendarItem</span></span>](calendaritem.md)
+[<span data-ttu-id="20463-113">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="20463-113">CalendarItem</span></span>](calendaritem.md)
   
-## <a name="text-value"></a><span data-ttu-id="5ef45-114">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="5ef45-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="20463-114">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="20463-114">Text value</span></span>
 
-<span data-ttu-id="5ef45-115">La valeur de texte de l’élément **JoinOnlineMeetingUrl** est l’URL de la réunion en ligne.</span><span class="sxs-lookup"><span data-stu-id="5ef45-115">The text value of the **JoinOnlineMeetingUrl** element is the URL to the online meeting.</span></span> 
+<span data-ttu-id="20463-115">La valeur de texte de l’élément **JoinOnlineMeetingUrl** est l’URL de la réunion en ligne.</span><span class="sxs-lookup"><span data-stu-id="20463-115">The text value of the **JoinOnlineMeetingUrl** element is the URL to the online meeting.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="5ef45-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="5ef45-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="20463-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="20463-116">Remarks</span></span>
 
-<span data-ttu-id="5ef45-117">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5ef45-117">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="20463-117">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="20463-117">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="5ef45-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="5ef45-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="20463-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="20463-118">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

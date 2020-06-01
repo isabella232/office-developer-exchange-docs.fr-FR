@@ -1,5 +1,5 @@
 ---
-title: Fonction CChkSGFiles.ErrCheckDbHeaders
+title: Fonction fonction cchksgfiles. ErrCheckDbHeaders
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 75289cd2-35b1-4f75-a651-dce01f1ddda1
-description: 'Dernière modification : le 22 février 2013'
-ms.openlocfilehash: a407019063b34970e883a00ca4f4d730935d7cba
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Dernière modification : 22 février 2013'
+ms.openlocfilehash: a62c5940322d3d7a71f2db93214f1e970fc6859b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455246"
 ---
-# <a name="cchksgfileserrcheckdbheaders-function"></a><span data-ttu-id="0744d-103">Fonction CChkSGFiles.ErrCheckDbHeaders</span><span class="sxs-lookup"><span data-stu-id="0744d-103">CChkSGFiles.ErrCheckDbHeaders function</span></span>
+# <a name="cchksgfileserrcheckdbheaders-function"></a><span data-ttu-id="62bc2-103">Fonction fonction cchksgfiles. ErrCheckDbHeaders</span><span class="sxs-lookup"><span data-stu-id="62bc2-103">CChkSGFiles.ErrCheckDbHeaders function</span></span>
 
-<span data-ttu-id="0744d-104">**S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="0744d-104">**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span></span> 
+<span data-ttu-id="62bc2-104">**S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="62bc2-104">**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span></span> 
   
-<span data-ttu-id="0744d-105">Valide les en-têtes des fichiers de base de données qui ont été spécifiés par la fonction **ErrInit** .</span><span class="sxs-lookup"><span data-stu-id="0744d-105">Validates the headers of the database files that were specified by the **ErrInit** function.</span></span> <span data-ttu-id="0744d-106">Cette fonction renvoie également la taille de la page et le nombre de pages dans chacune des bases de données spécifiés.</span><span class="sxs-lookup"><span data-stu-id="0744d-106">This function also returns the page size and number of pages in each of the specified databases.</span></span> 
+<span data-ttu-id="62bc2-105">Valide les en-têtes des fichiers de base de données qui ont été spécifiés par la fonction **ErrInit** .</span><span class="sxs-lookup"><span data-stu-id="62bc2-105">Validates the headers of the database files that were specified by the **ErrInit** function.</span></span> <span data-ttu-id="62bc2-106">Cette fonction renvoie également la taille de la page et le nombre de pages dans chacune des bases de données spécifiées.</span><span class="sxs-lookup"><span data-stu-id="62bc2-106">This function also returns the page size and number of pages in each of the specified databases.</span></span> 
   
 ```cs
 Vitual ERRErrCheckDbHeaders  
@@ -36,44 +36,44 @@ Vitual ERRErrCheckDbHeaders
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0744d-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0744d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="62bc2-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="62bc2-107">Parameters</span></span>
 
-### <a name="pcbdbpagesize"></a><span data-ttu-id="0744d-108">pcbDbPageSize</span><span class="sxs-lookup"><span data-stu-id="0744d-108">pcbDbPageSize</span></span> 
+### <a name="pcbdbpagesize"></a><span data-ttu-id="62bc2-108">pcbDbPageSize</span><span class="sxs-lookup"><span data-stu-id="62bc2-108">pcbDbPageSize</span></span> 
   
-<span data-ttu-id="0744d-109">Paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="0744d-109">Output parameter.</span></span> <span data-ttu-id="0744d-110">La taille de page de chacune des bases de données spécifiées, en octets.</span><span class="sxs-lookup"><span data-stu-id="0744d-110">The page size of each of the specified databases, in bytes.</span></span>
+<span data-ttu-id="62bc2-109">Paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="62bc2-109">Output parameter.</span></span> <span data-ttu-id="62bc2-110">Taille de page de chacune des bases de données spécifiées, en octets.</span><span class="sxs-lookup"><span data-stu-id="62bc2-110">The page size of each of the specified databases, in bytes.</span></span>
     
-### <a name="pcheaderpagesperdb"></a><span data-ttu-id="0744d-111">pcHeaderPagesPerDb</span><span class="sxs-lookup"><span data-stu-id="0744d-111">pcHeaderPagesPerDb</span></span> 
+### <a name="pcheaderpagesperdb"></a><span data-ttu-id="62bc2-111">pcHeaderPagesPerDb</span><span class="sxs-lookup"><span data-stu-id="62bc2-111">pcHeaderPagesPerDb</span></span> 
   
-<span data-ttu-id="0744d-112">Paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="0744d-112">Output parameter.</span></span> <span data-ttu-id="0744d-113">Le nombre de pages au début de chaque spécifié de base de données qui sont réservés par le moteur de base de données pour un usage interne.</span><span class="sxs-lookup"><span data-stu-id="0744d-113">The number of pages at the beginning of each specified database that are reserved by the database engine for internal use.</span></span> <span data-ttu-id="0744d-114">Notez que vous ne devez *pas* les pages d’en-tête passe à la fonction **ErrCheckDbPages** pour la validation.</span><span class="sxs-lookup"><span data-stu-id="0744d-114">Note that you should *not* pass header pages to the **ErrCheckDbPages** function for validation.</span></span> 
+<span data-ttu-id="62bc2-112">Paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="62bc2-112">Output parameter.</span></span> <span data-ttu-id="62bc2-113">Nombre de pages au début de chaque base de données spécifiée qui sont réservées par le moteur de base de données à des fins d’utilisation interne.</span><span class="sxs-lookup"><span data-stu-id="62bc2-113">The number of pages at the beginning of each specified database that are reserved by the database engine for internal use.</span></span> <span data-ttu-id="62bc2-114">Notez que vous ne devez *pas* transmettre de pages d’en-tête à la fonction **ErrCheckDbPages** pour la validation.</span><span class="sxs-lookup"><span data-stu-id="62bc2-114">Note that you should *not* pass header pages to the **ErrCheckDbPages** function for validation.</span></span> 
     
-### <a name="pidberrorencountered"></a><span data-ttu-id="0744d-115">piDbErrorEncountered</span><span class="sxs-lookup"><span data-stu-id="0744d-115">piDbErrorEncountered</span></span>
+### <a name="pidberrorencountered"></a><span data-ttu-id="62bc2-115">piDbErrorEncountered</span><span class="sxs-lookup"><span data-stu-id="62bc2-115">piDbErrorEncountered</span></span>
   
-<span data-ttu-id="0744d-116">Paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="0744d-116">Output parameter.</span></span> <span data-ttu-id="0744d-117">Si la valeur de retour de la fonction indique une erreur, ce paramètre est un index dans le tableau **[] rgwszDb** transmis à la fonction **ErrInit** .</span><span class="sxs-lookup"><span data-stu-id="0744d-117">If the return value of the function indicates an error, this parameter will be an index into the **rgwszDb[]** array passed to the **ErrInit** function.</span></span> <span data-ttu-id="0744d-118">L’élément de tableau indexé représente la base de données dans laquelle l’erreur.</span><span class="sxs-lookup"><span data-stu-id="0744d-118">The indexed array element represents the database in which the error was encountered.</span></span> <span data-ttu-id="0744d-119">Si la fonction ne retourne pas une valeur d’erreur, cette valeur de paramètre non valide.</span><span class="sxs-lookup"><span data-stu-id="0744d-119">If the function does not return an error value, this parameter value is invalid.</span></span> 
+<span data-ttu-id="62bc2-116">Paramètre de sortie.</span><span class="sxs-lookup"><span data-stu-id="62bc2-116">Output parameter.</span></span> <span data-ttu-id="62bc2-117">Si la valeur renvoyée par la fonction indique une erreur, ce paramètre correspond à un index dans le tableau **rgwszDb []** passé à la fonction **ErrInit** .</span><span class="sxs-lookup"><span data-stu-id="62bc2-117">If the return value of the function indicates an error, this parameter will be an index into the **rgwszDb[]** array passed to the **ErrInit** function.</span></span> <span data-ttu-id="62bc2-118">L’élément de tableau indexé représente la base de données dans laquelle l’erreur a été rencontrée.</span><span class="sxs-lookup"><span data-stu-id="62bc2-118">The indexed array element represents the database in which the error was encountered.</span></span> <span data-ttu-id="62bc2-119">Si la fonction ne renvoie pas de valeur d’erreur, la valeur de ce paramètre n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="62bc2-119">If the function does not return an error value, this parameter value is invalid.</span></span> 
     
-### <a name="ulflags"></a><span data-ttu-id="0744d-120">ulFlags</span><span class="sxs-lookup"><span data-stu-id="0744d-120">ulFlags</span></span> 
+### <a name="ulflags"></a><span data-ttu-id="62bc2-120">ulFlags</span><span class="sxs-lookup"><span data-stu-id="62bc2-120">ulFlags</span></span> 
   
-<span data-ttu-id="0744d-121">Paramètre d’entrée facultatif.</span><span class="sxs-lookup"><span data-stu-id="0744d-121">Optional input parameter.</span></span> <span data-ttu-id="0744d-122">Cette valeur est réservée pour une utilisation future.</span><span class="sxs-lookup"><span data-stu-id="0744d-122">This value is reserved for future use.</span></span> <span data-ttu-id="0744d-123">La valeur passée doit être 0 (zéro).</span><span class="sxs-lookup"><span data-stu-id="0744d-123">The value passed should be 0 (zero).</span></span>
+<span data-ttu-id="62bc2-121">Paramètre d’entrée facultatif.</span><span class="sxs-lookup"><span data-stu-id="62bc2-121">Optional input parameter.</span></span> <span data-ttu-id="62bc2-122">Cette valeur est réservée à un usage ultérieur.</span><span class="sxs-lookup"><span data-stu-id="62bc2-122">This value is reserved for future use.</span></span> <span data-ttu-id="62bc2-123">La valeur transmise doit être 0 (zéro).</span><span class="sxs-lookup"><span data-stu-id="62bc2-123">The value passed should be 0 (zero).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0744d-124">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="0744d-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="62bc2-124">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="62bc2-124">Return value</span></span>
 
-<span data-ttu-id="0744d-125">Cette fonction retourne un code d’erreur à partir de l' [énumération CChkSGFiles.ERR](cchksgfiles-err-enumeration.md).</span><span class="sxs-lookup"><span data-stu-id="0744d-125">This function returns an error code from the [CChkSGFiles.ERR enumeration](cchksgfiles-err-enumeration.md).</span></span>
+<span data-ttu-id="62bc2-125">Cette fonction renvoie un code d’erreur à partir de l' [énumération fonction cchksgfiles. err](cchksgfiles-err-enumeration.md).</span><span class="sxs-lookup"><span data-stu-id="62bc2-125">This function returns an error code from the [CChkSGFiles.ERR enumeration](cchksgfiles-err-enumeration.md).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0744d-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="0744d-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="62bc2-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="62bc2-126">Remarks</span></span>
 
-<span data-ttu-id="0744d-127">**ErrCheckDbHeaders** vérifie que toutes les bases de données sont enregistrées avec **ErrInit** ont la même base de données et de signature page taille du journal.</span><span class="sxs-lookup"><span data-stu-id="0744d-127">**ErrCheckDbHeaders** verifies that all databases registered with **ErrInit** have the same log signature and database page size.</span></span> <span data-ttu-id="0744d-128">Vous pouvez également utiliser la valeur du paramètre **genMin** la plus faible et la valeur du paramètre **genMax** la plus élevée pour déterminer l’ensemble des fichiers journaux qui sont nécessaires pour mettre toutes les bases de données enregistrés à un état d’arrêt correct.</span><span class="sxs-lookup"><span data-stu-id="0744d-128">You can also use the lowest **genMin** parameter value and the highest **genMax** parameter value to determine the set of log files that are necessary to bring all of the registered databases to a clean-shutdown state.</span></span> 
+<span data-ttu-id="62bc2-127">**ErrCheckDbHeaders** vérifie que toutes les bases de données enregistrées avec **ErrInit** ont la même signature de journal et la même taille de page de base de données.</span><span class="sxs-lookup"><span data-stu-id="62bc2-127">**ErrCheckDbHeaders** verifies that all databases registered with **ErrInit** have the same log signature and database page size.</span></span> <span data-ttu-id="62bc2-128">Vous pouvez également utiliser la valeur de paramètre **genMin** la plus faible et la valeur du paramètre **genMax** la plus élevée pour déterminer le jeu de fichiers journaux nécessaires pour mettre toutes les bases de données enregistrées à un état d’arrêt correct.</span><span class="sxs-lookup"><span data-stu-id="62bc2-128">You can also use the lowest **genMin** parameter value and the highest **genMax** parameter value to determine the set of log files that are necessary to bring all of the registered databases to a clean-shutdown state.</span></span> 
   
-<span data-ttu-id="0744d-129">Le paramètre **piDbErrorEncountered** est défini uniquement lorsqu’une erreur est détectée, comme indiqué par un zéro **ErrCheckDbHeaders** valeur de retour.</span><span class="sxs-lookup"><span data-stu-id="0744d-129">The **piDbErrorEncountered** parameter is set only when an error is detected, as indicated by a non-zero **ErrCheckDbHeaders** return value.</span></span> 
+<span data-ttu-id="62bc2-129">Le paramètre **piDbErrorEncountered** est défini uniquement lorsqu’une erreur est détectée, comme indiqué par une valeur de retour différente de zéro **ErrCheckDbHeaders** .</span><span class="sxs-lookup"><span data-stu-id="62bc2-129">The **piDbErrorEncountered** parameter is set only when an error is detected, as indicated by a non-zero **ErrCheckDbHeaders** return value.</span></span> 
   
-<span data-ttu-id="0744d-130">Lorsqu’une erreur se produit dans cette fonction, un événement d’erreur sera ajouté au journal des événements Windows.</span><span class="sxs-lookup"><span data-stu-id="0744d-130">When an error occurs in this function, an error event will be added to the Windows Error event log.</span></span>
+<span data-ttu-id="62bc2-130">Lorsqu’une erreur se produit dans cette fonction, un événement d’erreur est ajouté au journal des événements d’erreurs de Windows.</span><span class="sxs-lookup"><span data-stu-id="62bc2-130">When an error occurs in this function, an error event will be added to the Windows Error event log.</span></span>
   
-<span data-ttu-id="0744d-131">Vous pouvez appeler **ErrCheckDbHeaders** uniquement après l’appel de **ErrInit**, et vous devez l’appeler avant d’appeler **ErrCheckDbPages** et **ErrCheckLogs**.</span><span class="sxs-lookup"><span data-stu-id="0744d-131">You can call **ErrCheckDbHeaders** only after calling **ErrInit**, and you must call it before calling **ErrCheckDbPages** and **ErrCheckLogs**.</span></span>
+<span data-ttu-id="62bc2-131">Vous ne pouvez appeler **ErrCheckDbHeaders** qu’après avoir appelé **ErrInit**, et vous devez l’appeler avant d’appeler **ErrCheckDbPages** et **ErrCheckLogs**.</span><span class="sxs-lookup"><span data-stu-id="62bc2-131">You can call **ErrCheckDbHeaders** only after calling **ErrInit**, and you must call it before calling **ErrCheckDbPages** and **ErrCheckLogs**.</span></span>
   
-<span data-ttu-id="0744d-132">Si vous utilisez CHKSGFILES dans une application multithread, vous devez appeler la fonction **ErrCheckDbHeaders** dans la partie d’un seul thread, et vous pouvez l’appeler qu’une seule fois pour chaque objet **CCheckSGFiles** .</span><span class="sxs-lookup"><span data-stu-id="0744d-132">If you're using CHKSGFILES in a multithreaded application, you must call the **ErrCheckDbHeaders** function in the single-threaded portion, and you can call it only once for each **CCheckSGFiles** object.</span></span> 
+<span data-ttu-id="62bc2-132">Si vous utilisez CHKSGFILES dans une application multithread, vous devez appeler la fonction **ErrCheckDbHeaders** dans la partie à thread unique, et vous ne pouvez l’appeler qu’une seule fois pour chaque objet **CCheckSGFiles** .</span><span class="sxs-lookup"><span data-stu-id="62bc2-132">If you're using CHKSGFILES in a multithreaded application, you must call the **ErrCheckDbHeaders** function in the single-threaded portion, and you can call it only once for each **CCheckSGFiles** object.</span></span> 
   
-## <a name="requirements"></a><span data-ttu-id="0744d-133">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="0744d-133">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="62bc2-133">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="62bc2-133">Requirements</span></span>
 
-<span data-ttu-id="0744d-134">Exchange 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.</span><span class="sxs-lookup"><span data-stu-id="0744d-134">Exchange 2013 only includes a 64-bit version of the CHKSGFILES API.</span></span>
+<span data-ttu-id="62bc2-134">Exchange 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.</span><span class="sxs-lookup"><span data-stu-id="62bc2-134">Exchange 2013 only includes a 64-bit version of the CHKSGFILES API.</span></span>
   
-<span data-ttu-id="0744d-135">Le compte que l’application s’exécute sous doit disposer des autorisations d’accès en lecture aux base de données et les fichiers journaux qui doivent être vérifiées.</span><span class="sxs-lookup"><span data-stu-id="0744d-135">The account that the application is running under must have read access permissions to the database and log files that are to be checked.</span></span>
+<span data-ttu-id="62bc2-135">Le compte sous lequel l’application s’exécute doit disposer d’autorisations d’accès en lecture à la base de données et des fichiers journaux à vérifier.</span><span class="sxs-lookup"><span data-stu-id="62bc2-135">The account that the application is running under must have read access permissions to the database and log files that are to be checked.</span></span>
   
 

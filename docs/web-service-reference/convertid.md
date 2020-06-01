@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9684c22c-29d4-4f7f-befc-8cd41da56d38
-description: L’élément ConvertId définit une demande de convertir les identificateurs d’éléments et dossiers entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 956f6464fd9013f9e72d2915f21c3b011d0add5b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConvertId définit une demande de conversion des identificateurs d’élément et de dossier entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: d421baf1f29fb59a8c6eb2b09e1fa0e8a38ffaa4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755651"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452537"
 ---
 # <a name="convertid"></a>ConvertId
 
-L’élément **ConvertId** définit une demande de convertir les identificateurs d’éléments et dossiers entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **ConvertId** définit une demande de conversion des identificateurs d’élément et de dossier entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ConvertId DestinationFormat="">
@@ -32,22 +32,22 @@ L’élément **ConvertId** définit une demande de convertir les identificateur
  **ConvertIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**DestinationFormat** <br/> |Décrit le format d’identificateur qui est renvoyé pour tous les identificateurs convertis. Le DestinationFormat est décrit par le IdFormatType.  <br/> |
+|**DestinationFormat** <br/> |Décrit le format d’identificateur qui sera renvoyé pour tous les identificateurs convertis. Le DestinationFormat est décrit par le IdFormatType.  <br/> |
    
 #### <a name="destinationformat-attribute"></a>Attribut DestinationFormat
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**EwsLegacyId** <br/> |Représente le format d’identificateur qui est utilisé pour les identificateurs de Services Web Exchange qui sont fournis dans la version initiale d’Exchange 2007.  <br/> |
-|**EwsId** <br/> |Représente le format d’identificateur qui est utilisé pour les identificateurs de Services Web Exchange commençant par Exchange Server 2007 SP1.  <br/> |
-|**Propriété EntryId** <br/> |Représente l’identificateur MAPI, comme illustré à la propriété PR_ENTRYID.  <br/> |
-|**HexEntryId** <br/> |Représente l’identificateur d’événement disponibilité calendrier. Il s’agit d’une représentation de la propriété PR_ENTRYID codé en hexadécimal.  <br/> |
+|**EwsLegacyId** <br/> |Représente le format d’identificateur utilisé pour les identificateurs de services Web Exchange fournis dans la version initiale d’Exchange 2007.  <br/> |
+|**EwsId** <br/> |Représente le format d’identificateur utilisé pour les identificateurs de services Web Exchange à partir d’Exchange Server 2007 SP1.  <br/> |
+|**Entrée** <br/> |Représente l’identificateur MAPI, comme dans la propriété PR_ENTRYID.  <br/> |
+|**HexEntryId** <br/> |Représente l’identificateur d’événement de calendrier de disponibilité. Il s’agit d’une représentation codée en hexadécimal de la propriété PR_ENTRYID.  <br/> |
 |**StoreId** <br/> |Représente l’identificateur de la banque Exchange.  <br/> |
 |**OwaId** <br/> |Représente le format d’identificateur d’Outlook Web Access.  <br/> |
    
@@ -69,9 +69,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -84,5 +84,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversion des identificateurs](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+[Conversion des identificateurs](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

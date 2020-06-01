@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7d5cd08a-fe81-4cb6-a5a0-6dec2d3c93d4
-description: L’élément CopyFolder définit une demande pour copier les dossiers dans une boîte aux lettres dans la banque d’informations Exchange.
-ms.openlocfilehash: 7bcfcc7f4212b3a3bd339fa5863df2990eb20d6d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CopyFolder définit une demande de copie des dossiers dans une boîte aux lettres dans la Banque d’Exchange.
+ms.openlocfilehash: fa75272540169a96d5567181d27b8a8f056cce42
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755664"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452509"
 ---
 # <a name="copyfolder"></a>CopyFolder
 
-L’élément **CopyFolder** définit une demande pour copier les dossiers dans une boîte aux lettres dans la banque d’informations Exchange. 
+L’élément **CopyFolder** définit une demande de copie des dossiers dans une boîte aux lettres dans la Banque d’Exchange. 
   
 ```xml
 <CopyFolder>
@@ -33,17 +33,17 @@ L’élément **CopyFolder** définit une demande pour copier les dossiers dans 
  **CopyFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ToFolderId](tofolderid.md) <br/> |Représente le dossier de destination pour un dossier copié.  <br/> |
+|[ToFolderId](tofolderid.md) <br/> |Représente le dossier de destination d’un dossier copié.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contient un tableau de dossiers à copier dans le dossier identifié par l’élément [ToFolderId](tofolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -58,14 +58,14 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération CopyFolder](copyfolder-operation.md)
+[CopyFolder, opération](copyfolder-operation.md)
 

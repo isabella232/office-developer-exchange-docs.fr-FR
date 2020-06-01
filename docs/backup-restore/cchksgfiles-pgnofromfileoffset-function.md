@@ -1,5 +1,5 @@
 ---
-title: Fonction CChkSGFiles.PgnoFromFileOffset
+title: Fonction fonction cchksgfiles. PgnoFromFileOffset
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d69ca6d-5ed1-4038-859e-106e776eeec1
-description: 'Dernière modification : le 22 février 2013'
-ms.openlocfilehash: d42ba7c8178c6fccdddec0b5da88a972f51184c6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Dernière modification : 22 février 2013'
+ms.openlocfilehash: 3c8f749a03b4aa251bf9312eba5d7e2d46c91fae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754753"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452894"
 ---
-# <a name="cchksgfilespgnofromfileoffset-function"></a>Fonction CChkSGFiles.PgnoFromFileOffset
+# <a name="cchksgfilespgnofromfileoffset-function"></a>Fonction fonction cchksgfiles. PgnoFromFileOffset
 
 **S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Renvoie le numéro de page logique de la base de données qui correspond à l’index spécifié d’octets dans le fichier de base de données physique. Si le décalage de fichier n’est pas valide, ou si la fonction **ErrCheckDbHeaders** n’a pas été appelée pour les bases de données, cette fonction renvoie la valeur 0 (zéro). 
+Renvoie le numéro de page de base de données logique correspondant à l’index d’octet spécifié dans le fichier de base de données physique. Si le décalage du fichier n’est pas valide ou si la fonction **ErrCheckDbHeaders** n’a pas été appelée pour les bases de données, cette fonction renvoie la valeur 0 (zéro). 
   
 ```cs
 Vitual ULONGPgnoFromFileOffset  
@@ -39,24 +39,24 @@ Vitual ULONGPgnoFromFileOffset
   
 Paramètre d’entrée. Offset dans un fichier de base de données, en octets.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Numéro de page logique du fichier de base de données qui inclut l’offset spécifié.
+Numéro de page logique du fichier de base de données qui inclut le décalage spécifié.
   
 ## <a name="remarks"></a>Remarques
 
-Si le paramètre **ibFileOffset** n’est pas valide, la fonction **PgnoFromFileOffset** renvoie la valeur 0 (zéro). 
+Si le paramètre **ibFileOffset** n’est pas valide, la fonction **PgnoFromFileOffset** renvoie 0 (zéro). 
   
-**PgnoFromFileOffset** renvoie également 0 (zéro) si vous n’avez pas appelé la fonction **ErrCheckDbHeaders** sur l’instance **CCheckSGFiles** . Vous devez appeler **ErrCheckDbHeaders** pour initialiser la taille de page de base de données et du nombre de pages allouées aux en-têtes de base de données. 
+**PgnoFromFileOffset** renvoie également 0 (zéro) si vous n’avez pas appelé la fonction **ErrCheckDbHeaders** sur l’instance **CCheckSGFiles** . Vous devez appeler **ErrCheckDbHeaders** pour initialiser la taille de la page de base de données et le nombre de pages allouées aux en-têtes de base de données. 
   
-Vous devez utiliser **PgnoFromFileOffset** pour remplir le **PAGE\_INFO** éléments en vue de l’appel **ErrCheckDbPages**de structure. Le paramètre **rgPageInfo** pour **ErrCheckDbPages** requiert une structure **PAGE_INFO** , avec les valeurs du membre **ulPgno** correctement initialisé chaque élément dans le tableau. 
+Vous devez utiliser **PgnoFromFileOffset** pour remplir les éléments de structure d' ** \_ informations** en préparation à l’appel de **ErrCheckDbPages**. Le paramètre **rgPageInfo** de **ErrCheckDbPages** exige que chaque élément du tableau soit une structure **PAGE_INFO** , avec les valeurs de membre **ulPgno** correctement initialisées. 
   
-Si vous utilisez CHKSGFILES dans une application multithread, vous pouvez appeler la fonction **PgnoFromFileOffset** dans la partie de l’application multithread. Notez que vous devez généralement appeler cette fonction plusieurs fois pour chaque base de données en cours d’archivage. 
+Si vous utilisez CHKSGFILES dans une application multithread, vous pouvez appeler la fonction **PgnoFromFileOffset** dans la partie multithread de l’application. Notez que vous appelez généralement cette fonction plusieurs fois pour chaque base de données vérifiée. 
   
 ## <a name="requirements"></a>Configuration requise
 
 Exchange Server 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.
   
-L’application s’exécute sous le compte doit avoir autorisation de lecture sur les base de données et les fichiers journaux qui doivent être vérifiées.
+Le compte sous lequel l’application s’exécute doit disposer d’une autorisation de lecture sur la base de données et les fichiers journaux à vérifier.
   
 

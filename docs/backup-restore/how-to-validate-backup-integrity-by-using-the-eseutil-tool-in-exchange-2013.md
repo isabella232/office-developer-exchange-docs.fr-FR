@@ -1,5 +1,5 @@
 ---
-title: Valider l’intégrité des sauvegardes à l’aide l’outil Eseutil dans Exchange 2013
+title: Valider l’intégrité de la sauvegarde à l’aide de l’outil Eseutil dans Exchange 2013
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,68 +7,68 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b0d325ba-4482-4ca2-9a69-c890f985b206
-description: Découvrez comment utiliser l’outil de ligne de commande Eseutil pour valider une sauvegarde de la banque d’informations Exchange.
-ms.openlocfilehash: 03c4c23d433418911240bbe7c337308a989f3739
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment utiliser l’outil de ligne de commande Eseutil pour valider une sauvegarde de la Banque d’informations Exchange.
+ms.openlocfilehash: e8f1a46e2d94729ae5586861317312e277216d63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754741"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44452796"
 ---
-#  <a name="validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013"></a>Valider l’intégrité des sauvegardes à l’aide l’outil Eseutil dans Exchange 2013
+#  <a name="validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013"></a>Valider l’intégrité de la sauvegarde à l’aide de l’outil Eseutil dans Exchange 2013
 
-Découvrez comment utiliser l’outil de ligne de commande Eseutil pour valider une sauvegarde de la banque d’informations Exchange. 
+Découvrez comment utiliser l’outil de ligne de commande Eseutil pour valider une sauvegarde de la Banque d’informations Exchange. 
   
 **S’applique à :** Exchange Server 2013 
   
-Étant donné que le Volume Shadow Copy Service (VSS) peut créer des sauvegardes pendant que Exchange continue à écrire dans la base de données, le serveur ne pas toutes les pages et effectuer les vérifications de cohérence nécessaires. Pour cette raison, n’importe quelle application de sauvegarde et de restauration qui utilise le service VSS doit vérifier la cohérence de la capture instantanée. Exchange Server 2013 prend en charge les deux méthodes suivantes pour la vérification de cohérence de la capture instantanée : 
+Étant donné que le service VSS (Volume Shadow Copy Service) peut créer des sauvegardes alors qu’Exchange continue d’écrire dans la base de données, le serveur ne touche pas toutes les pages et effectue les vérifications de cohérence nécessaires. Pour cette raison, toute application de sauvegarde et de restauration qui utilise VSS doit vérifier la cohérence de capture instantanée. Exchange Server 2013 prend en charge les deux méthodes suivantes pour vérifier la cohérence des captures instantanées : 
   
-- L’API CHKSGFILES
+- API CHKSGFILES
     
-- L’outil de ligne de commande Eseutil
+- Outil de ligne de commande Eseutil
     
-Nous vous recommandons d’utiliser l’API CHKSGFILES, car il est plus facile pour l’application de sauvegarde détecter, diagnostiquer et signaler les erreurs rencontrées lors de la cohérence CHKSGFILES vérifier. Pour plus d’informations sur la façon d’utiliser l’API CHKSGFILES, voir [l’intégrité des sauvegardes de valider en utilisant l’API CHKSGFILES dans Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md).
+Nous vous recommandons d’utiliser l’API CHKSGFILES, car il est plus facile pour l’application de sauvegarde de détecter, de diagnostiquer et de signaler les erreurs détectées lors de la vérification de cohérence CHKSGFILES. Pour plus d’informations sur l’utilisation de l’API CHKSGFILES, consultez la rubrique validation de l' [intégrité de la sauvegarde à l’aide de l’API CHKSGFILES dans Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md).
   
 ## <a name="running-the-eseutil-tool"></a>Exécution de l’outil Eseutil
 
-Pour vérifier la cohérence de la capture instantanée, exécutez la commande eseutil par rapport aux base de données et les fichiers journaux qui sont identifiés dans le tableau suivant. 
+Pour vérifier la cohérence des captures instantanées, exécutez la commande Eseutil sur la base de données et les fichiers journaux identifiés dans le tableau suivant. 
   
-**Le tableau 1. Commandes Eseutil.exe pour chaque type de sauvegarde**
+**Tableau 1. Commandes Eseutil. exe pour chaque type de sauvegarde**
 
-|**Type de sauvegarde/de type de fichier**|**Sauvegarde complète**|**Copie de sauvegarde**|**Sauvegarde incrémentielle**|**Sauvegarde différentielle**|
+|**Type de fichier/type de sauvegarde**|**Sauvegarde complète**|**Copie de sauvegarde**|**Sauvegarde incrémentielle**|**Sauvegarde différentielle**|
 |:-----|:-----|:-----|:-----|:-----|
-|.edb  <br/> |« eseutil /k /i »  <br/> |« eseutil /k /i »  <br/> |Not applicable  <br/> |Not applicable  <br/> |
-|.log  <br/> |« eseutil /k » (1)  <br/> |« eseutil /k » (1)  <br/> |« eseutil /k » (2)  <br/> |« eseutil /k » (2)  <br/> |
+|. edb  <br/> |"Eseutil/k/i"  <br/> |"Eseutil/k/i"  <br/> |Non applicable  <br/> |Non applicable  <br/> |
+|. log  <br/> |« Eseutil/k » (1)  <br/> |« Eseutil/k » (1)  <br/> |"Eseutil/k" (2)  <br/> |"Eseutil/k" (2)  <br/> |
    
 > [!NOTE]
-> Il est inutile d’exécuter la commande eseutil sur les fichiers .stm et .chk. 
+> Vous n’avez pas besoin d’exécuter la commande Eseutil sur les fichiers. stm et. chk. 
   
-Tous les fichiers journaux qui ont une génération du fichier journal numéro qui est égale ou supérieure à la génération du numéro du fichier journal au point de contrôle sont requis afin de récupérer une base de données de capture instantanée. S’il existe, le fichier journal actuel (Enn.log) est également requis pour la récupération de la base de données. Si un des fichiers journaux requis échoue la vérification de cohérence, le demandeur devez vous assurer que l’état du composant de sauvegarde est défini sur FALSE avant d’appeler la méthode [BackupComplete](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382651%28v=vs.85%29.aspx) . Pour identifier le fichier journal de point de contrôle, exécutez Eseutil.exe sur le fichier de point de contrôle de capture instantanée et analyser la sortie pour » au point de contrôle :. » L’exemple suivant montre comment exécuter Eseutil.exe sur un fichier de point de contrôle. 
+Tous les fichiers journaux dont le numéro de génération est supérieur ou égal au numéro de génération du fichier journal de point de contrôle sont requis afin de récupérer une base de données de captures instantanées. S’il existe, le fichier journal actuel (Enn. log) est également requis pour la récupération de la base de données. Si l’un des fichiers journaux requis échoue à la vérification de cohérence, le demandeur doit s’assurer que l’état du composant de sauvegarde est défini sur FALSe avant d’appeler la méthode [BackupComplete](https://msdn.microsoft.com/library/windows/desktop/aa382651%28v=vs.85%29.aspx) . Pour identifier le fichier journal de point de contrôle, exécutez Eseutil. exe sur le fichier de point de contrôle de capture instantanée et analysez la sortie pour « point de contrôle : ». L’exemple suivant montre comment exécuter Eseutil. exe avec un fichier de point de contrôle. 
   
 ```cpp
 c:\eseutil.exe /mk E01.chk
 Checkpoint: (0x20, 9D, 187)
 ```
 
-La deuxième ligne dans l’exemple est la valeur de retour, où 0 x 20 est le numéro de génération de journal hexadécimal du fichier journal au point de contrôle. Dans cet exemple, les fichiers journaux, y compris E01000020.log et supérieur, doit n'être pas endommagé afin de récupérer la base de données de capture instantanée, même si la base de données est déjà passée la vérification de cohérence physique.
+La deuxième ligne de l’exemple est la valeur renvoyée, où 0x20 est le numéro de génération de journal hexadécimal du fichier journal de point de contrôle. Dans cet exemple, tous les fichiers journaux, y compris E01000020. log et supérieur, ne doivent pas être endommagés afin de récupérer la base de données de capture instantanée, même si la base de données elle-même a déjà passé la vérification de cohérence physique.
   
-Tous les fichiers journaux dans un jeu de sauvegarde incrémentiel ou différentiel sont requis pour la récupération de base de données. Vous pouvez vérifier la cohérence d’une séquence de journal en exécutant Eseutil.exe sur le préfixe du fichier journal. L’exemple suivant montre comment exécuter les vérifications de cohérence sur tous les fichiers au format E01xxxxx.log sur un chemin d’accès donné.
+Tous les fichiers journaux d’un jeu de sauvegarde incrémentielle ou différentiel sont requis pour la récupération de la base de données. Vous pouvez vérifier la cohérence d’une séquence de journal en exécutant eseutil. exe avec le préfixe du fichier journal. L’exemple suivant montre comment exécuter des vérifications de cohérence sur tous les fichiers au format E01xxxxx. log sur un chemin d’accès donné.
   
 ```cpp
 c:\eseutil /k E01
 ```
 
-## <a name="checking-the-eseutilexe-output"></a>Vérification de la sortie Eseutil.exe
+## <a name="checking-the-eseutilexe-output"></a>Vérification de la sortie d’Eseutil. exe
 
-Le demandeur doit vérifier que toutes les quitter niveau d’erreur Erreur valeurs renvoyées sont non négatifs. Pour plus d’informations sur les valeurs de niveau d’erreur, voir [référence des erreurs courantes de Eseutil](http://technet.microsoft.com/en-us/library/aa996759%28v=exchg.80%29.aspx). Pour afficher le niveau d’erreur à la ligne de commande, tapez « echo %errorlevel% » après la fin de Eseutil.exe. Un niveau d’erreur négative indique qu’un ou plusieurs fichiers est endommagé.
+Le demandeur doit vérifier que toutes les valeurs d’erreur de sortie ERRORLEVEL renvoyées sont non négatives. Pour plus d’informations sur les valeurs ERRORLEVEL, voir [Reference for Common Eseutil Errors](https://technet.microsoft.com/library/aa996759%28v=exchg.80%29.aspx). Pour afficher le ERRORLEVEL à partir de la ligne de commande, tapez « echo% errorlevel% » une fois l’exécution de Eseutil. exe terminée. Un ERRORLEVEL négatif indique qu’un ou plusieurs fichiers sont endommagés.
   
-Avant le demandeur appelle la méthode **BackupComplete** , il doit Assurez-vous que l’état du composant de sauvegarde reflète le résultat de la vérification de cohérence. Si toute corruption a été trouvée, l’état sera FALSE ; Si aucune corruption a été trouvée, l’état est TRUE. 
+Avant que le demandeur appelle la méthode **BackupComplete** , il doit s’assurer que l’état du composant de sauvegarde reflète le résultat de la vérification de cohérence. Si une corruption a été détectée, l’État prend la valeur FALSe ; Si aucune altération n’a été détectée, l’État est TRUE. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Valider l’intégrité des sauvegardes en utilisant l’API CHKSGFILES dans Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md)
-- [Créer la sauvegarde et de restaurer des applications pour Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
-- [Référence de classe CChkSGFiles](cchksgfiles-class-reference.md)
-- [Concepts de sauvegarde et de restauration pour Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
+- [Valider l’intégrité de la sauvegarde à l’aide de l’API CHKSGFILES dans Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md)
+- [Créer des applications de sauvegarde et de restauration pour Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
+- [Référence de classe fonction cchksgfiles](cchksgfiles-class-reference.md)
+- [Concepts de sauvegarde et de restauration pour Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     
 

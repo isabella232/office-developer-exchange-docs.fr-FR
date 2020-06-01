@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c466c845-9806-4a9a-8ba6-ee908b80d012
-description: L’élément de mots clés spécifie les mots clés pour une recherche d’opération FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: fc12756c54bfc457e8b9124d932ff7c5178719b2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Keywords spécifie des mots clés pour une recherche d’opération FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: d23840c4b651f5d4f42f36a0307a0fe5b25471f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44451634"
 ---
 # <a name="keywords"></a>Mots clés
 
-L’élément de **mots clés** spécifie les mots clés pour une recherche d’opération **FindMailboxStatisticsByKeywords** . 
+L’élément **Keywords** spécifie des mots clés pour une recherche d’opération **FindMailboxStatisticsByKeywords** . 
   
 ```XML
 <KeyWords>
@@ -28,15 +28,15 @@ L’élément de **mots clés** spécifie les mots clés pour une recherche d’
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Chaîne](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

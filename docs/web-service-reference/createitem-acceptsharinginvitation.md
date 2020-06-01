@@ -11,34 +11,34 @@ api_name:
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: L’opération CreateItem sert à accepter une invitation à partager le calendrier d’un autre utilisateur ou des données de contacts.
-ms.openlocfilehash: 993ef0402e624af69f632af5bdce4c02bd9d41f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération CreateItem permet d’accepter une invitation pour partager le calendrier ou les données de contacts d’un autre utilisateur.
+ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755712"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457514"
 ---
-# <a name="createitem-acceptsharinginvitation"></a><span data-ttu-id="043c9-103">CreateItem (AcceptSharingInvitation)</span><span class="sxs-lookup"><span data-stu-id="043c9-103">CreateItem (AcceptSharingInvitation)</span></span>
+# <a name="createitem-acceptsharinginvitation"></a><span data-ttu-id="04203-103">CreateItem (AcceptSharingInvitation)</span><span class="sxs-lookup"><span data-stu-id="04203-103">CreateItem (AcceptSharingInvitation)</span></span>
 
-<span data-ttu-id="043c9-104">L’opération **CreateItem** sert à accepter une invitation à partager le calendrier d’un autre utilisateur ou des données de contacts.</span><span class="sxs-lookup"><span data-stu-id="043c9-104">The **CreateItem** operation is used to accept an invitation to share another user's calendar or contacts data.</span></span> 
+<span data-ttu-id="04203-104">L’opération **CreateItem** permet d’accepter une invitation pour partager le calendrier ou les données de contacts d’un autre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="04203-104">The **CreateItem** operation is used to accept an invitation to share another user's calendar or contacts data.</span></span> 
   
-## <a name="accept-sharing-invitation-request-example"></a><span data-ttu-id="043c9-105">Accepter l’exemple de requête d’Invitation de partage</span><span class="sxs-lookup"><span data-stu-id="043c9-105">Accept Sharing Invitation request example</span></span>
+## <a name="accept-sharing-invitation-request-example"></a><span data-ttu-id="04203-105">Exemple de demande d’acceptation de partage</span><span class="sxs-lookup"><span data-stu-id="04203-105">Accept Sharing Invitation request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="043c9-106">Description</span><span class="sxs-lookup"><span data-stu-id="043c9-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="04203-106">Description</span><span class="sxs-lookup"><span data-stu-id="04203-106">Description</span></span>
 
-<span data-ttu-id="043c9-107">L’exemple suivant montre comment accepter une invitation de partage.</span><span class="sxs-lookup"><span data-stu-id="043c9-107">The following example shows how to accept a sharing invitation.</span></span>
+<span data-ttu-id="04203-107">L’exemple suivant montre comment accepter une invitation de partage.</span><span class="sxs-lookup"><span data-stu-id="04203-107">The following example shows how to accept a sharing invitation.</span></span>
   
-### <a name="code"></a><span data-ttu-id="043c9-108">Code</span><span class="sxs-lookup"><span data-stu-id="043c9-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="04203-108">Code</span><span class="sxs-lookup"><span data-stu-id="04203-108">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <AcceptSharingInvitation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <AcceptSharingInvitation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ" ChangeKey="CwAAABYAA" />
         </AcceptSharingInvitation>
       </Items>
@@ -47,29 +47,29 @@ ms.locfileid: "19755712"
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a><span data-ttu-id="043c9-109">Éléments de la demande</span><span class="sxs-lookup"><span data-stu-id="043c9-109">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="04203-109">Demander des éléments</span><span class="sxs-lookup"><span data-stu-id="04203-109">Request elements</span></span>
 
-<span data-ttu-id="043c9-110">Les éléments suivants sont utilisés dans la demande :</span><span class="sxs-lookup"><span data-stu-id="043c9-110">The following elements are used in the request:</span></span>
+<span data-ttu-id="04203-110">Les éléments suivants sont utilisés dans la demande :</span><span class="sxs-lookup"><span data-stu-id="04203-110">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="043c9-111">CreateItem</span><span class="sxs-lookup"><span data-stu-id="043c9-111">CreateItem</span></span>](createitem.md)
+- [<span data-ttu-id="04203-111">CreateItem</span><span class="sxs-lookup"><span data-stu-id="04203-111">CreateItem</span></span>](createitem.md)
     
-- [<span data-ttu-id="043c9-112">Items</span><span class="sxs-lookup"><span data-stu-id="043c9-112">Items</span></span>](items.md)
+- [<span data-ttu-id="04203-112">Items</span><span class="sxs-lookup"><span data-stu-id="04203-112">Items</span></span>](items.md)
     
-- [<span data-ttu-id="043c9-113">AcceptSharingInvitation</span><span class="sxs-lookup"><span data-stu-id="043c9-113">AcceptSharingInvitation</span></span>](acceptsharinginvitation.md)
+- [<span data-ttu-id="04203-113">AcceptSharingInvitation</span><span class="sxs-lookup"><span data-stu-id="04203-113">AcceptSharingInvitation</span></span>](acceptsharinginvitation.md)
     
-- [<span data-ttu-id="043c9-114">ReferenceItemId</span><span class="sxs-lookup"><span data-stu-id="043c9-114">ReferenceItemId</span></span>](referenceitemid.md)
+- [<span data-ttu-id="04203-114">ReferenceItemId</span><span class="sxs-lookup"><span data-stu-id="04203-114">ReferenceItemId</span></span>](referenceitemid.md)
     
-### <a name="comments"></a><span data-ttu-id="043c9-115">Commentaires</span><span class="sxs-lookup"><span data-stu-id="043c9-115">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="04203-115">Commentaires</span><span class="sxs-lookup"><span data-stu-id="04203-115">Comments</span></span>
 
-<span data-ttu-id="043c9-116">L’identificateur d’élément et modifier la clé ont été réduits afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="043c9-116">The item identifier and change key have been shortened to preserve readability.</span></span>
+<span data-ttu-id="04203-116">L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="04203-116">The item identifier and change key have been shortened to preserve readability.</span></span>
   
-## <a name="successful-accept-sharing-invitation-response-example"></a><span data-ttu-id="043c9-117">Exemple de réponse Invitation de partage accepter réussie</span><span class="sxs-lookup"><span data-stu-id="043c9-117">Successful Accept Sharing Invitation response example</span></span>
+## <a name="successful-accept-sharing-invitation-response-example"></a><span data-ttu-id="04203-117">Exemple de réponse d’acceptation de partage réussi</span><span class="sxs-lookup"><span data-stu-id="04203-117">Successful Accept Sharing Invitation response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="043c9-118">Description</span><span class="sxs-lookup"><span data-stu-id="043c9-118">Description</span></span>
+### <a name="description"></a><span data-ttu-id="04203-118">Description</span><span class="sxs-lookup"><span data-stu-id="04203-118">Description</span></span>
 
-<span data-ttu-id="043c9-119">L’exemple suivant montre une réponse positive à une demande **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="043c9-119">The following example shows a successful response to a **CreateItem** request.</span></span> 
+<span data-ttu-id="04203-119">L’exemple suivant montre une réponse réussie à une demande **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="04203-119">The following example shows a successful response to a **CreateItem** request.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="043c9-120">Code</span><span class="sxs-lookup"><span data-stu-id="043c9-120">Code</span></span>
+### <a name="code"></a><span data-ttu-id="04203-120">Code</span><span class="sxs-lookup"><span data-stu-id="04203-120">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -82,12 +82,12 @@ ms.locfileid: "19755712"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -99,29 +99,29 @@ ms.locfileid: "19755712"
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a><span data-ttu-id="043c9-121">Éléments de réponse réussie</span><span class="sxs-lookup"><span data-stu-id="043c9-121">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="04203-121">Éléments de réponse réussis</span><span class="sxs-lookup"><span data-stu-id="04203-121">Successful response elements</span></span>
 
-<span data-ttu-id="043c9-122">Les éléments suivants sont utilisés dans la réponse :</span><span class="sxs-lookup"><span data-stu-id="043c9-122">The following elements are used in the response:</span></span>
+<span data-ttu-id="04203-122">Les éléments suivants sont utilisés dans la réponse :</span><span class="sxs-lookup"><span data-stu-id="04203-122">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="043c9-123">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="043c9-123">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="04203-123">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="04203-123">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="043c9-124">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="043c9-124">CreateItemResponse</span></span>](createitemresponse.md)
+- [<span data-ttu-id="04203-124">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="04203-124">CreateItemResponse</span></span>](createitemresponse.md)
     
-- [<span data-ttu-id="043c9-125">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="043c9-125">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="04203-125">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="04203-125">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="043c9-126">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="043c9-126">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
+- [<span data-ttu-id="04203-126">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="04203-126">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
     
-- [<span data-ttu-id="043c9-127">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="043c9-127">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="04203-127">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="04203-127">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="043c9-128">Items</span><span class="sxs-lookup"><span data-stu-id="043c9-128">Items</span></span>](items.md)
+- [<span data-ttu-id="04203-128">Items</span><span class="sxs-lookup"><span data-stu-id="04203-128">Items</span></span>](items.md)
     
-## <a name="accept-sharing-invitation-error-response-example"></a><span data-ttu-id="043c9-129">Accepter l’exemple de réponse d’erreur dans l’Invitation de partage</span><span class="sxs-lookup"><span data-stu-id="043c9-129">Accept Sharing Invitation Error response example</span></span>
+## <a name="accept-sharing-invitation-error-response-example"></a><span data-ttu-id="04203-129">Exemple de réponse d’erreur d’acceptation de partage</span><span class="sxs-lookup"><span data-stu-id="04203-129">Accept Sharing Invitation Error response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="043c9-130">Description</span><span class="sxs-lookup"><span data-stu-id="043c9-130">Description</span></span>
+### <a name="description"></a><span data-ttu-id="04203-130">Description</span><span class="sxs-lookup"><span data-stu-id="04203-130">Description</span></span>
 
-<span data-ttu-id="043c9-131">L’exemple suivant montre une réponse d’erreur à une demande **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="043c9-131">The following example shows an error response to a **CreateItem** request.</span></span> <span data-ttu-id="043c9-132">L’erreur est provoquée par une tentative d’accepter une invitation de partage qui ne figurent pas dans la banque d’informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="043c9-132">The error is caused by an attempt to accept a sharing invitation that cannot be found in the Exchange store.</span></span> 
+<span data-ttu-id="04203-131">L’exemple suivant montre une réponse d’erreur à une demande **CreateItem** .</span><span class="sxs-lookup"><span data-stu-id="04203-131">The following example shows an error response to a **CreateItem** request.</span></span> <span data-ttu-id="04203-132">L’erreur est causée par une tentative d’acceptation d’une invitation de partage introuvable dans la Banque d’aide Exchange.</span><span class="sxs-lookup"><span data-stu-id="04203-132">The error is caused by an attempt to accept a sharing invitation that cannot be found in the Exchange store.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="043c9-133">Code</span><span class="sxs-lookup"><span data-stu-id="043c9-133">Code</span></span>
+### <a name="code"></a><span data-ttu-id="04203-133">Code</span><span class="sxs-lookup"><span data-stu-id="04203-133">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -134,12 +134,12 @@ ms.locfileid: "19755712"
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -153,29 +153,29 @@ ms.locfileid: "19755712"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="043c9-134">Éléments de réponse d’erreur</span><span class="sxs-lookup"><span data-stu-id="043c9-134">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="04203-134">Éléments de réponse d’erreur</span><span class="sxs-lookup"><span data-stu-id="04203-134">Error response elements</span></span>
 
-<span data-ttu-id="043c9-135">Les éléments suivants sont utilisés dans la réponse d'erreur :</span><span class="sxs-lookup"><span data-stu-id="043c9-135">The following elements are used in the error response:</span></span>
+<span data-ttu-id="04203-135">Les éléments suivants sont utilisés dans la réponse d'erreur :</span><span class="sxs-lookup"><span data-stu-id="04203-135">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="043c9-136">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="043c9-136">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="04203-136">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="04203-136">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="043c9-137">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="043c9-137">CreateItemResponse</span></span>](createitemresponse.md)
+- [<span data-ttu-id="04203-137">CreateItemResponse</span><span class="sxs-lookup"><span data-stu-id="04203-137">CreateItemResponse</span></span>](createitemresponse.md)
     
-- [<span data-ttu-id="043c9-138">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="043c9-138">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="04203-138">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="04203-138">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="043c9-139">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="043c9-139">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
+- [<span data-ttu-id="04203-139">CreateItemResponseMessage</span><span class="sxs-lookup"><span data-stu-id="04203-139">CreateItemResponseMessage</span></span>](createitemresponsemessage.md)
     
-- [<span data-ttu-id="043c9-140">MessageText</span><span class="sxs-lookup"><span data-stu-id="043c9-140">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="04203-140">MessageText</span><span class="sxs-lookup"><span data-stu-id="04203-140">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="043c9-141">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="043c9-141">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="04203-141">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="04203-141">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="043c9-142">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="043c9-142">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="04203-142">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="04203-142">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="043c9-143">Items</span><span class="sxs-lookup"><span data-stu-id="043c9-143">Items</span></span>](items.md)
+- [<span data-ttu-id="04203-143">Items</span><span class="sxs-lookup"><span data-stu-id="04203-143">Items</span></span>](items.md)
     
-## <a name="see-also"></a><span data-ttu-id="043c9-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="043c9-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04203-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="04203-144">See also</span></span>
 
 
 
-[<span data-ttu-id="043c9-145">CreateItem Operation</span><span class="sxs-lookup"><span data-stu-id="043c9-145">CreateItem operation</span></span>](createitem-operation.md)
+[<span data-ttu-id="04203-145">CreateItem Operation</span><span class="sxs-lookup"><span data-stu-id="04203-145">CreateItem operation</span></span>](createitem-operation.md)
 

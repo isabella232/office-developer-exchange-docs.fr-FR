@@ -1,51 +1,54 @@
 ---
 title: Opération GetHoldOnMailboxes
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9157f329-80b4-4cd0-a158-378064966ae6
-description: Opération de recherche plus d’informations sur la GetHoldOnMailboxes EWS.
-ms.openlocfilehash: 1d0bc2f9d26e11d8d2710693d67843ad2f339a5d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS GetHoldOnMailboxes.
+ms.openlocfilehash: 867f38be87e60af8708eeb0b9d0e3ac8eee6ff64
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756632"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44457731"
 ---
-# <a name="getholdonmailboxes-operation"></a><span data-ttu-id="b3636-103">Opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-103">GetHoldOnMailboxes operation</span></span>
+# <a name="getholdonmailboxes-operation"></a><span data-ttu-id="5c11b-103">Opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-103">GetHoldOnMailboxes operation</span></span>
 
-<span data-ttu-id="b3636-104">Trouvez des informations sur l’opération EWS **GetHoldOnMailboxes** .</span><span class="sxs-lookup"><span data-stu-id="b3636-104">Find information about the **GetHoldOnMailboxes** EWS operation.</span></span> 
-  
-<span data-ttu-id="b3636-105">L’opération **GetHoldOnMailboxes** Obtient les boîtes aux lettres qui sont sous une suspension spécifique et au blocage de requête.</span><span class="sxs-lookup"><span data-stu-id="b3636-105">The **GetHoldOnMailboxes** operation gets the mailboxes that are under a specific hold and the associated hold query.</span></span> 
-  
-<span data-ttu-id="b3636-106">Cette opération est une nouveauté d’Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b3636-106">This operation was introduced in Exchange Server 2013.</span></span>
-  
-## <a name="using-the-getholdonmailboxes-operation"></a><span data-ttu-id="b3636-107">Utilisation de l’opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-107">Using the GetHoldOnMailboxes operation</span></span>
+> [!IMPORTANT]
+> <span data-ttu-id="5c11b-104">À partir du 1er avril 2020, l’opération GetHoldOnMailboxes ne sera plus disponible dans Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="5c11b-104">Starting on April 1, 2020, the GetHoldOnMailboxes operation will no longer be available in Exchange Online.</span></span> <span data-ttu-id="5c11b-105">Cette opération ne sera pas affectée dans les versions locales d’Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="5c11b-105">This operation won't be affected in on-premises versions of Exchange Server.</span></span> <span data-ttu-id="5c11b-106">Pour plus d’informations, reportez-vous à la section [retraite des outils eDiscovery hérités dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).</span><span class="sxs-lookup"><span data-stu-id="5c11b-106">For more information, see [Retirement of legacy eDiscovery tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).</span></span>
 
-<span data-ttu-id="b3636-108">L’opération **GetHoldOnMailboxes** donne les informations sur les boîtes aux lettres sont soumis à une suspension spécifique, les informations relatives à la requête de suspension associée à chaque suspension, le cas échéant et plus d’informations sur l’état de conservation pour chaque boîte aux lettres du client.</span><span class="sxs-lookup"><span data-stu-id="b3636-108">The **GetHoldOnMailboxes** operation gives the client information about which mailboxes are placed under a specific hold, information about the hold query associated with each hold, if applicable, and information about the hold status for each mailbox.</span></span> <span data-ttu-id="b3636-109">Pour plus d’informations sur les suspensions de boîte aux lettres, y compris les suspensions basée sur une requête, voir [In-Place Hold](http://technet.microsoft.com/fr-fr/library/ff637980%28v=exchg.150%29) sur TechNet.</span><span class="sxs-lookup"><span data-stu-id="b3636-109">For more information about mailbox holds, including query-based holds, see [In-Place Hold](http://technet.microsoft.com/fr-fr/library/ff637980%28v=exchg.150%29) on TechNet.</span></span> 
+<span data-ttu-id="5c11b-107">Trouvez des informations sur l’opération EWS **GetHoldOnMailboxes** .</span><span class="sxs-lookup"><span data-stu-id="5c11b-107">Find information about the **GetHoldOnMailboxes** EWS operation.</span></span> 
   
-### <a name="getholdonmailboxes-operation-soap-headers"></a><span data-ttu-id="b3636-110">En-têtes SOAP GetHoldOnMailboxes opération</span><span class="sxs-lookup"><span data-stu-id="b3636-110">GetHoldOnMailboxes operation SOAP headers</span></span>
+<span data-ttu-id="5c11b-108">L’opération **GetHoldOnMailboxes** obtient les boîtes aux lettres qui sont sous une conservation spécifique et la requête de suspension associée.</span><span class="sxs-lookup"><span data-stu-id="5c11b-108">The **GetHoldOnMailboxes** operation gets the mailboxes that are under a specific hold and the associated hold query.</span></span> 
+  
+<span data-ttu-id="5c11b-109">Cette opération est une nouveauté d’Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5c11b-109">This operation was introduced in Exchange Server 2013.</span></span>
+  
+## <a name="using-the-getholdonmailboxes-operation"></a><span data-ttu-id="5c11b-110">Utilisation de l’opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-110">Using the GetHoldOnMailboxes operation</span></span>
 
-<span data-ttu-id="b3636-111">L’opération **GetHoldOnMailboxes** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="b3636-111">The **GetHoldOnMailboxes** operation can use the SOAP headers that are listed in the following table.</span></span> 
+<span data-ttu-id="5c11b-111">L’opération **GetHoldOnMailboxes** fournit au client des informations sur les boîtes aux lettres placées sous une conservation spécifique, des informations sur la requête de suspension associées à chaque conservation, le cas échéant, et des informations sur l’état de la suspension pour chaque boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="5c11b-111">The **GetHoldOnMailboxes** operation gives the client information about which mailboxes are placed under a specific hold, information about the hold query associated with each hold, if applicable, and information about the hold status for each mailbox.</span></span> <span data-ttu-id="5c11b-112">Pour plus d’informations sur les conservations de boîte aux lettres, y compris les conservations basées sur une requête, voir [in-place Hold](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29) on technet.</span><span class="sxs-lookup"><span data-stu-id="5c11b-112">For more information about mailbox holds, including query-based holds, see [In-Place Hold](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29) on TechNet.</span></span> 
   
-|<span data-ttu-id="b3636-112">**Nom de l'en-tête**</span><span class="sxs-lookup"><span data-stu-id="b3636-112">**Header name**</span></span>|<span data-ttu-id="b3636-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="b3636-113">**Element**</span></span>|<span data-ttu-id="b3636-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="b3636-114">**Description**</span></span>|
+### <a name="getholdonmailboxes-operation-soap-headers"></a><span data-ttu-id="5c11b-113">En-têtes SOAP d’opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-113">GetHoldOnMailboxes operation SOAP headers</span></span>
+
+<span data-ttu-id="5c11b-114">L’opération **GetHoldOnMailboxes** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="5c11b-114">The **GetHoldOnMailboxes** operation can use the SOAP headers that are listed in the following table.</span></span> 
+  
+|<span data-ttu-id="5c11b-115">**Nom de l'en-tête**</span><span class="sxs-lookup"><span data-stu-id="5c11b-115">**Header name**</span></span>|<span data-ttu-id="5c11b-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="5c11b-116">**Element**</span></span>|<span data-ttu-id="5c11b-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="5c11b-117">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="b3636-115">**ManagementRole**</span><span class="sxs-lookup"><span data-stu-id="b3636-115">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="b3636-116">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="b3636-116">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="b3636-117">Identifie les rôles de serveur qui sont nécessaires pour l’appelant effectuer la demande.</span><span class="sxs-lookup"><span data-stu-id="b3636-117">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="b3636-118">Cet en-tête est applicable à une demande.</span><span class="sxs-lookup"><span data-stu-id="b3636-118">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="b3636-119">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="b3636-119">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="b3636-120">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="b3636-120">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="b3636-121">Identifie la version du schéma pour la requête d’opération.</span><span class="sxs-lookup"><span data-stu-id="b3636-121">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="b3636-122">Cet en-tête est applicable à une demande.</span><span class="sxs-lookup"><span data-stu-id="b3636-122">This header is applicable to a request.</span></span>  <br/> |
-|<span data-ttu-id="b3636-123">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="b3636-123">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="b3636-124">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="b3636-124">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="b3636-125">Identifie la version du serveur qui a répondu à la demande.</span><span class="sxs-lookup"><span data-stu-id="b3636-125">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="b3636-126">Cet en-tête est applicable à une réponse.</span><span class="sxs-lookup"><span data-stu-id="b3636-126">This header is applicable to a response.</span></span>  <br/> |
+|<span data-ttu-id="5c11b-118">**ManagementRole**</span><span class="sxs-lookup"><span data-stu-id="5c11b-118">**ManagementRole**</span></span> <br/> |[<span data-ttu-id="5c11b-119">ManagementRole</span><span class="sxs-lookup"><span data-stu-id="5c11b-119">ManagementRole</span></span>](managementrole.md) <br/> |<span data-ttu-id="5c11b-120">Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande.</span><span class="sxs-lookup"><span data-stu-id="5c11b-120">Identifies the server roles that are necessary in order for the caller to make the request.</span></span> <span data-ttu-id="5c11b-121">Cet en-tête s’applique à une demande.</span><span class="sxs-lookup"><span data-stu-id="5c11b-121">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="5c11b-122">**RequestVersion**</span><span class="sxs-lookup"><span data-stu-id="5c11b-122">**RequestVersion**</span></span> <br/> |[<span data-ttu-id="5c11b-123">RequestServerVersion</span><span class="sxs-lookup"><span data-stu-id="5c11b-123">RequestServerVersion</span></span>](requestserverversion.md) <br/> |<span data-ttu-id="5c11b-124">Identifie la version de schéma de la demande d’opération.</span><span class="sxs-lookup"><span data-stu-id="5c11b-124">Identifies the schema version for the operation request.</span></span> <span data-ttu-id="5c11b-125">Cet en-tête s’applique à une demande.</span><span class="sxs-lookup"><span data-stu-id="5c11b-125">This header is applicable to a request.</span></span>  <br/> |
+|<span data-ttu-id="5c11b-126">**ServerVersion**</span><span class="sxs-lookup"><span data-stu-id="5c11b-126">**ServerVersion**</span></span> <br/> |[<span data-ttu-id="5c11b-127">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="5c11b-127">ServerVersionInfo</span></span>](serverversioninfo.md) <br/> |<span data-ttu-id="5c11b-128">Identifie la version du serveur qui a répondu à la demande.</span><span class="sxs-lookup"><span data-stu-id="5c11b-128">Identifies the version of the server that responded to the request.</span></span> <span data-ttu-id="5c11b-129">Cet en-tête s’applique à une réponse.</span><span class="sxs-lookup"><span data-stu-id="5c11b-129">This header is applicable to a response.</span></span>  <br/> |
    
-## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a><span data-ttu-id="b3636-127">Exemple de requête d’opération GetHoldOnMailboxes : obtenir des informations de blocage de boîtes aux lettres</span><span class="sxs-lookup"><span data-stu-id="b3636-127">GetHoldOnMailboxes operation request example: Get mailbox hold information</span></span>
+## <a name="getholdonmailboxes-operation-request-example-get-mailbox-hold-information"></a><span data-ttu-id="5c11b-130">Exemple de requête d’opération GetHoldOnMailboxes : obtenir des informations de conservation de boîte aux lettres</span><span class="sxs-lookup"><span data-stu-id="5c11b-130">GetHoldOnMailboxes operation request example: Get mailbox hold information</span></span>
 
-<span data-ttu-id="b3636-128">Une demande d’opération **GetHoldOnMailboxes** l’exemple suivant montre comment obtenir les informations de blocage de boîtes aux lettres pour la suspension de la boîte aux lettres HoldId2.</span><span class="sxs-lookup"><span data-stu-id="b3636-128">The following example of a **GetHoldOnMailboxes** operation request shows how to get the mailbox hold information for the HoldId2 mailbox hold.</span></span> 
+<span data-ttu-id="5c11b-131">L’exemple suivant de demande d’opération **GetHoldOnMailboxes** montre comment obtenir les informations de conservation de boîte aux lettres pour la conservation de boîte aux lettres HoldId2.</span><span class="sxs-lookup"><span data-stu-id="5c11b-131">The following example of a **GetHoldOnMailboxes** operation request shows how to get the mailbox hold information for the HoldId2 mailbox hold.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -58,15 +61,15 @@ ms.locfileid: "19756632"
 
 ```
 
-<span data-ttu-id="b3636-129">La demande SOAP body contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="b3636-129">The request SOAP body contains the following elements:</span></span>
+<span data-ttu-id="5c11b-132">Le corps SOAP de la demande contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="5c11b-132">The request SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="b3636-130">GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-130">GetHoldOnMailboxes</span></span>](getholdonmailboxes.md)
+- [<span data-ttu-id="5c11b-133">GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-133">GetHoldOnMailboxes</span></span>](getholdonmailboxes.md)
     
-- [<span data-ttu-id="b3636-131">HoldId</span><span class="sxs-lookup"><span data-stu-id="b3636-131">HoldId</span></span>](holdid.md)
+- [<span data-ttu-id="5c11b-134">HoldId</span><span class="sxs-lookup"><span data-stu-id="5c11b-134">HoldId</span></span>](holdid.md)
     
-## <a name="successful-getholdonmailboxes-operation-response"></a><span data-ttu-id="b3636-132">Réponse d’opération GetHoldOnMailboxes réussie</span><span class="sxs-lookup"><span data-stu-id="b3636-132">Successful GetHoldOnMailboxes operation response</span></span>
+## <a name="successful-getholdonmailboxes-operation-response"></a><span data-ttu-id="5c11b-135">Réponse de l’opération GetHoldOnMailboxes réussie</span><span class="sxs-lookup"><span data-stu-id="5c11b-135">Successful GetHoldOnMailboxes operation response</span></span>
 
-<span data-ttu-id="b3636-133">L’exemple suivant montre une réponse positive à une opération **GetHoldOnMailboxes** demande pour obtenir la boîte aux lettres contiennent des informations pour la suspension de la boîte aux lettres HoldId2.</span><span class="sxs-lookup"><span data-stu-id="b3636-133">The following example shows a successful response to a **GetHoldOnMailboxes** operation request to get the mailbox hold information for the HoldId2 mailbox hold.</span></span> 
+<span data-ttu-id="5c11b-136">L’exemple suivant montre une réponse réussie à une demande d’opération **GetHoldOnMailboxes** pour obtenir les informations de conservation de boîte aux lettres pour la conservation de boîte aux lettres HoldId2.</span><span class="sxs-lookup"><span data-stu-id="5c11b-136">The following example shows a successful response to a **GetHoldOnMailboxes** operation request to get the mailbox hold information for the HoldId2 mailbox hold.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -77,20 +80,20 @@ ms.locfileid: "19756632"
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetHoldOnMailboxesResponse ResponseClass="Success" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <MailboxHoldResult>
-            <HoldId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
-            <Query xmlns="http://schemas.microsoft.com/exchange/services/2006/types">test</Query>
-            <MailboxHoldStatuses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <HoldId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
+            <Query xmlns="https://schemas.microsoft.com/exchange/services/2006/types">test</Query>
+            <MailboxHoldStatuses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <MailboxHoldStatus>
                   <Mailbox>/o=First Organization/ou=Exchange Administrative Group (FYDIBPDLT)/cn=Recipients/cn=ecc0fd98c2cadf-Willi</Mailbox>
                   <Status>OnHold</Status>
@@ -109,31 +112,31 @@ ms.locfileid: "19756632"
 
 ```
 
-<span data-ttu-id="b3636-134">La réponse SOAP body contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="b3636-134">The response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="5c11b-137">Le corps SOAP de réponse contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="5c11b-137">The response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="b3636-135">GetHoldOnMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="b3636-135">GetHoldOnMailboxesResponse</span></span>](getholdonmailboxesresponse.md)
+- [<span data-ttu-id="5c11b-138">GetHoldOnMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="5c11b-138">GetHoldOnMailboxesResponse</span></span>](getholdonmailboxesresponse.md)
     
-- [<span data-ttu-id="b3636-136">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="b3636-136">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="5c11b-139">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="5c11b-139">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="b3636-137">MailboxHoldResult</span><span class="sxs-lookup"><span data-stu-id="b3636-137">MailboxHoldResult</span></span>](mailboxholdresult.md)
+- [<span data-ttu-id="5c11b-140">MailboxHoldResult</span><span class="sxs-lookup"><span data-stu-id="5c11b-140">MailboxHoldResult</span></span>](mailboxholdresult.md)
     
-- [<span data-ttu-id="b3636-138">HoldId</span><span class="sxs-lookup"><span data-stu-id="b3636-138">HoldId</span></span>](holdid.md)
+- [<span data-ttu-id="5c11b-141">HoldId</span><span class="sxs-lookup"><span data-stu-id="5c11b-141">HoldId</span></span>](holdid.md)
     
-- [<span data-ttu-id="b3636-139">Query</span><span class="sxs-lookup"><span data-stu-id="b3636-139">Query</span></span>](query.md)
+- [<span data-ttu-id="5c11b-142">Query</span><span class="sxs-lookup"><span data-stu-id="5c11b-142">Query</span></span>](query.md)
     
-- [<span data-ttu-id="b3636-140">MailboxHoldStatuses</span><span class="sxs-lookup"><span data-stu-id="b3636-140">MailboxHoldStatuses</span></span>](mailboxholdstatuses.md)
+- [<span data-ttu-id="5c11b-143">MailboxHoldStatuses</span><span class="sxs-lookup"><span data-stu-id="5c11b-143">MailboxHoldStatuses</span></span>](mailboxholdstatuses.md)
     
-- [<span data-ttu-id="b3636-141">MailboxHoldStatus</span><span class="sxs-lookup"><span data-stu-id="b3636-141">MailboxHoldStatus</span></span>](mailboxholdstatus.md)
+- [<span data-ttu-id="5c11b-144">MailboxHoldStatus</span><span class="sxs-lookup"><span data-stu-id="5c11b-144">MailboxHoldStatus</span></span>](mailboxholdstatus.md)
     
-- [<span data-ttu-id="b3636-142">Boîte aux lettres (chaîne)</span><span class="sxs-lookup"><span data-stu-id="b3636-142">Mailbox (string)</span></span>](mailbox-string.md)
+- [<span data-ttu-id="5c11b-145">Mailbox (String)</span><span class="sxs-lookup"><span data-stu-id="5c11b-145">Mailbox (string)</span></span>](mailbox-string.md)
     
-- [<span data-ttu-id="b3636-143">État (HoldStatusType)</span><span class="sxs-lookup"><span data-stu-id="b3636-143">Status (HoldStatusType)</span></span>](status-holdstatustype.md)
+- [<span data-ttu-id="5c11b-146">État (HoldStatusType)</span><span class="sxs-lookup"><span data-stu-id="5c11b-146">Status (HoldStatusType)</span></span>](status-holdstatustype.md)
     
-- [<span data-ttu-id="b3636-144">AdditionalInfo</span><span class="sxs-lookup"><span data-stu-id="b3636-144">AdditionalInfo</span></span>](additionalinfo.md)
+- [<span data-ttu-id="5c11b-147">AdditionalInfo</span><span class="sxs-lookup"><span data-stu-id="5c11b-147">AdditionalInfo</span></span>](additionalinfo.md)
     
-## <a name="getholdonmailboxes-operation-error-response"></a><span data-ttu-id="b3636-145">Réponse d’erreur d’opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-145">GetHoldOnMailboxes operation error response</span></span>
+## <a name="getholdonmailboxes-operation-error-response"></a><span data-ttu-id="5c11b-148">Réponse d’erreur d’opération GetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-148">GetHoldOnMailboxes operation error response</span></span>
 
-<span data-ttu-id="b3636-146">L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetHoldOnMailboxes** .</span><span class="sxs-lookup"><span data-stu-id="b3636-146">The following example shows an error response to a **GetHoldOnMailboxes** operation request.</span></span> <span data-ttu-id="b3636-147">Il s’agit d’une réponse à une demande pour obtenir une suspension qui a été supprimée.</span><span class="sxs-lookup"><span data-stu-id="b3636-147">This is a response to a request to get a hold that has been deleted.</span></span> 
+<span data-ttu-id="5c11b-149">L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetHoldOnMailboxes** .</span><span class="sxs-lookup"><span data-stu-id="5c11b-149">The following example shows an error response to a **GetHoldOnMailboxes** operation request.</span></span> <span data-ttu-id="5c11b-150">Il s’agit d’une réponse à une demande d’obtention d’une conservation qui a été supprimée.</span><span class="sxs-lookup"><span data-stu-id="5c11b-150">This is a response to a request to get a hold that has been deleted.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -144,15 +147,15 @@ ms.locfileid: "19756632"
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetHoldOnMailboxesResponse ResponseClass="Error" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specific query-based hold is not found.</MessageText>
          <ResponseCode>ErrorMailboxHoldNotFound</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -162,32 +165,32 @@ ms.locfileid: "19756632"
 
 ```
 
-<span data-ttu-id="b3636-148">La réponse d’erreur corps SOAP contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="b3636-148">The error response SOAP body contains the following elements:</span></span>
+<span data-ttu-id="5c11b-151">Le corps SOAP de la réponse d’erreur contient les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="5c11b-151">The error response SOAP body contains the following elements:</span></span>
   
-- [<span data-ttu-id="b3636-149">GetHoldOnMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="b3636-149">GetHoldOnMailboxesResponse</span></span>](getholdonmailboxesresponse.md)
+- [<span data-ttu-id="5c11b-152">GetHoldOnMailboxesResponse</span><span class="sxs-lookup"><span data-stu-id="5c11b-152">GetHoldOnMailboxesResponse</span></span>](getholdonmailboxesresponse.md)
     
-- [<span data-ttu-id="b3636-150">MessageText</span><span class="sxs-lookup"><span data-stu-id="b3636-150">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="5c11b-153">MessageText</span><span class="sxs-lookup"><span data-stu-id="5c11b-153">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="b3636-151">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="b3636-151">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="5c11b-154">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="5c11b-154">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="b3636-152">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="b3636-152">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="5c11b-155">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="5c11b-155">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-<span data-ttu-id="b3636-153">Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="b3636-153">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
+<span data-ttu-id="5c11b-156">Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).</span><span class="sxs-lookup"><span data-stu-id="5c11b-156">For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b3636-154">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b3636-154">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5c11b-157">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5c11b-157">See also</span></span>
 
-- [<span data-ttu-id="b3636-155">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="b3636-155">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="5c11b-158">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="5c11b-158">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
     
-- [<span data-ttu-id="b3636-156">Opération GetSearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-156">GetSearchableMailboxes operation</span></span>](getsearchablemailboxes-operation.md)
+- [<span data-ttu-id="5c11b-159">Opération GetSearchableMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-159">GetSearchableMailboxes operation</span></span>](getsearchablemailboxes-operation.md)
     
-- [<span data-ttu-id="b3636-157">Opération SearchMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-157">SearchMailboxes operation</span></span>](searchmailboxes-operation.md)
+- [<span data-ttu-id="5c11b-160">Opération SearchMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-160">SearchMailboxes operation</span></span>](searchmailboxes-operation.md)
     
-- [<span data-ttu-id="b3636-158">Opération SetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="b3636-158">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
+- [<span data-ttu-id="5c11b-161">Opération SetHoldOnMailboxes</span><span class="sxs-lookup"><span data-stu-id="5c11b-161">SetHoldOnMailboxes operation</span></span>](setholdonmailboxes-operation.md)
     
-- [<span data-ttu-id="b3636-159">Opération GetDiscoverySearchConfiguration</span><span class="sxs-lookup"><span data-stu-id="b3636-159">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
+- [<span data-ttu-id="5c11b-162">Opération GetDiscoverySearchConfiguration</span><span class="sxs-lookup"><span data-stu-id="5c11b-162">GetDiscoverySearchConfiguration operation</span></span>](getdiscoverysearchconfiguration-operation.md)
     
-- [<span data-ttu-id="b3636-160">Opération GetNonIndexableItemDetails</span><span class="sxs-lookup"><span data-stu-id="b3636-160">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
+- [<span data-ttu-id="5c11b-163">Opération GetNonIndexableItemDetails</span><span class="sxs-lookup"><span data-stu-id="5c11b-163">GetNonIndexableItemDetails operation</span></span>](getnonindexableitemdetails-operation.md)
     
-- [<span data-ttu-id="b3636-161">Opération GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="b3636-161">GetNonIndexableItemStatistics operation</span></span>](getnonindexableitemstatistics-operation.md)
+- [<span data-ttu-id="5c11b-164">Opération GetNonIndexableItemStatistics</span><span class="sxs-lookup"><span data-stu-id="5c11b-164">GetNonIndexableItemStatistics operation</span></span>](getnonindexableitemstatistics-operation.md)
     
 

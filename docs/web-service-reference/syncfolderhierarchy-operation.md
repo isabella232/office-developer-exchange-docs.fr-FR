@@ -1,5 +1,5 @@
 ---
-title: Opération SyncFolderHierarchy
+title: Opération Opérationsyncfolderhierarchy
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,35 +11,35 @@ api_name:
 api_type:
 - schema
 ms.assetid: b31916b1-bc6c-4451-a475-b7c5417f752d
-description: L’opération SyncFolderHierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.
-ms.openlocfilehash: 33c886d5eec64a9ff2ccc667eedfc2d4cc8dcfd5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération Opérationsyncfolderhierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.
+ms.openlocfilehash: 1c7ad2413064161ba54e8a7a30bfcd6f23f218bd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838657"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456429"
 ---
-# <a name="syncfolderhierarchy-operation"></a><span data-ttu-id="c0f60-103">Opération SyncFolderHierarchy</span><span class="sxs-lookup"><span data-stu-id="c0f60-103">SyncFolderHierarchy operation</span></span>
+# <a name="syncfolderhierarchy-operation"></a><span data-ttu-id="dff10-103">Opération Opérationsyncfolderhierarchy</span><span class="sxs-lookup"><span data-stu-id="dff10-103">SyncFolderHierarchy operation</span></span>
 
-<span data-ttu-id="c0f60-104">L’opération SyncFolderHierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.</span><span class="sxs-lookup"><span data-stu-id="c0f60-104">The SyncFolderHierarchy operation synchronizes folders between the computer that is running Microsoft Exchange Server 2010 and the client.</span></span>
+<span data-ttu-id="dff10-104">L’opération Opérationsyncfolderhierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.</span><span class="sxs-lookup"><span data-stu-id="dff10-104">The SyncFolderHierarchy operation synchronizes folders between the computer that is running Microsoft Exchange Server 2010 and the client.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c0f60-105">L’opération SyncFolderHierarchy ne renvoie pas les dossiers lorsque les propriétés [UnreadCount](unreadcount.md) ou [TotalCount](totalcount.md) ont changé.</span><span class="sxs-lookup"><span data-stu-id="c0f60-105">The SyncFolderHierarchy operation does not return folders when the [UnreadCount](unreadcount.md) or [TotalCount](totalcount.md) properties have changed.</span></span> 
+> <span data-ttu-id="dff10-105">L’opération Opérationsyncfolderhierarchy ne renvoie pas de dossiers lorsque les propriétés [UnreadCount](unreadcount.md) ou [totalCount](totalcount.md) ont été modifiées.</span><span class="sxs-lookup"><span data-stu-id="dff10-105">The SyncFolderHierarchy operation does not return folders when the [UnreadCount](unreadcount.md) or [TotalCount](totalcount.md) properties have changed.</span></span> 
   
-## <a name="syncfolderhierarchy-request-example"></a><span data-ttu-id="c0f60-106">Exemple de requête SyncFolderHierarchy</span><span class="sxs-lookup"><span data-stu-id="c0f60-106">SyncFolderHierarchy request example</span></span>
+## <a name="syncfolderhierarchy-request-example"></a><span data-ttu-id="dff10-106">Exemple de requête Opérationsyncfolderhierarchy</span><span class="sxs-lookup"><span data-stu-id="dff10-106">SyncFolderHierarchy request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="c0f60-107">Description</span><span class="sxs-lookup"><span data-stu-id="c0f60-107">Description</span></span>
+### <a name="description"></a><span data-ttu-id="dff10-107">Description</span><span class="sxs-lookup"><span data-stu-id="dff10-107">Description</span></span>
 
-<span data-ttu-id="c0f60-108">L’exemple suivant d’une demande SyncFolderHierarchy montre comment synchroniser un client de hiérarchie de dossiers avec le serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="c0f60-108">The following example of a SyncFolderHierarchy request shows how to synchronize a client folder hierarchy with the Exchange server.</span></span> <span data-ttu-id="c0f60-109">Cet exemple montre une hiérarchie de dossiers qui a déjà été synchronisée au moins une fois.</span><span class="sxs-lookup"><span data-stu-id="c0f60-109">This example shows a folder hierarchy that has already been synchronized at least one time.</span></span> <span data-ttu-id="c0f60-110">L’élément [SyncState](syncstate-ex15websvcsotherref.md) n’est pas inclus dans la demande de la première tentative de synchroniser un client avec le serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="c0f60-110">The [SyncState](syncstate-ex15websvcsotherref.md) element is not included in the request for the first attempt to synchronize a client with the Exchange server.</span></span> <span data-ttu-id="c0f60-111">La première requête retournera tous les dossiers dans la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="c0f60-111">The first request will return all the folders in the mailbox.</span></span> <span data-ttu-id="c0f60-112">L’élément [SyncState](syncstate-ex15websvcsotherref.md) est renvoyé dans la [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md).</span><span class="sxs-lookup"><span data-stu-id="c0f60-112">The [SyncState](syncstate-ex15websvcsotherref.md) element will be returned in the [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md).</span></span> <span data-ttu-id="c0f60-113">Cet élément est utilisé pour synchroniser l’état pour les demandes SyncFolderHierarchy suivantes.</span><span class="sxs-lookup"><span data-stu-id="c0f60-113">This element is used to synchronize the state for subsequent SyncFolderHierarchy requests.</span></span>
+<span data-ttu-id="dff10-108">L’exemple de requête Opérationsyncfolderhierarchy suivant montre comment synchroniser une hiérarchie de dossiers client avec le serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="dff10-108">The following example of a SyncFolderHierarchy request shows how to synchronize a client folder hierarchy with the Exchange server.</span></span> <span data-ttu-id="dff10-109">Cet exemple montre une hiérarchie de dossiers qui a déjà été synchronisée au moins une fois.</span><span class="sxs-lookup"><span data-stu-id="dff10-109">This example shows a folder hierarchy that has already been synchronized at least one time.</span></span> <span data-ttu-id="dff10-110">L’élément [SyncState](syncstate-ex15websvcsotherref.md) n’est pas inclus dans la demande de la première tentative de synchronisation d’un client avec le serveur Exchange.</span><span class="sxs-lookup"><span data-stu-id="dff10-110">The [SyncState](syncstate-ex15websvcsotherref.md) element is not included in the request for the first attempt to synchronize a client with the Exchange server.</span></span> <span data-ttu-id="dff10-111">La première demande renverra tous les dossiers de la boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="dff10-111">The first request will return all the folders in the mailbox.</span></span> <span data-ttu-id="dff10-112">L’élément [SyncState](syncstate-ex15websvcsotherref.md) sera renvoyé dans le [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md).</span><span class="sxs-lookup"><span data-stu-id="dff10-112">The [SyncState](syncstate-ex15websvcsotherref.md) element will be returned in the [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md).</span></span> <span data-ttu-id="dff10-113">Cet élément est utilisé pour synchroniser l’état des demandes Opérationsyncfolderhierarchy suivantes.</span><span class="sxs-lookup"><span data-stu-id="dff10-113">This element is used to synchronize the state for subsequent SyncFolderHierarchy requests.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c0f60-114">Code</span><span class="sxs-lookup"><span data-stu-id="c0f60-114">Code</span></span>
+### <a name="code"></a><span data-ttu-id="dff10-114">Code</span><span class="sxs-lookup"><span data-stu-id="dff10-114">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SyncFolderHierarchy  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderHierarchy  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </FolderShape>
@@ -49,32 +49,32 @@ ms.locfileid: "19838657"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c0f60-115">Commentaires</span><span class="sxs-lookup"><span data-stu-id="c0f60-115">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="dff10-115">Commentaires</span><span class="sxs-lookup"><span data-stu-id="dff10-115">Comments</span></span>
 
-<span data-ttu-id="c0f60-116">Les données d’élément codée en base64 [SyncState](syncstate-ex15websvcsotherref.md) a été raccourcies afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="c0f60-116">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data has been shortened to preserve readability.</span></span> 
+<span data-ttu-id="dff10-116">L’élément [SyncState](syncstate-ex15websvcsotherref.md) les données codées en base64 ont été raccourcies afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="dff10-116">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data has been shortened to preserve readability.</span></span> 
   
-### <a name="request-elements"></a><span data-ttu-id="c0f60-117">Éléments de la demande</span><span class="sxs-lookup"><span data-stu-id="c0f60-117">Request elements</span></span>
+### <a name="request-elements"></a><span data-ttu-id="dff10-117">Demander des éléments</span><span class="sxs-lookup"><span data-stu-id="dff10-117">Request elements</span></span>
 
-<span data-ttu-id="c0f60-118">Les éléments suivants sont utilisés dans la demande :</span><span class="sxs-lookup"><span data-stu-id="c0f60-118">The following elements are used in the request:</span></span>
+<span data-ttu-id="dff10-118">Les éléments suivants sont utilisés dans la demande :</span><span class="sxs-lookup"><span data-stu-id="dff10-118">The following elements are used in the request:</span></span>
   
-- [<span data-ttu-id="c0f60-119">SyncFolderHierarchy</span><span class="sxs-lookup"><span data-stu-id="c0f60-119">SyncFolderHierarchy</span></span>](syncfolderhierarchy.md)
+- [<span data-ttu-id="dff10-119">Opérationsyncfolderhierarchy</span><span class="sxs-lookup"><span data-stu-id="dff10-119">SyncFolderHierarchy</span></span>](syncfolderhierarchy.md)
     
-- [<span data-ttu-id="c0f60-120">FolderShape</span><span class="sxs-lookup"><span data-stu-id="c0f60-120">FolderShape</span></span>](foldershape.md)
+- [<span data-ttu-id="dff10-120">FolderShape</span><span class="sxs-lookup"><span data-stu-id="dff10-120">FolderShape</span></span>](foldershape.md)
     
-- [<span data-ttu-id="c0f60-121">BaseShape</span><span class="sxs-lookup"><span data-stu-id="c0f60-121">BaseShape</span></span>](baseshape.md)
+- [<span data-ttu-id="dff10-121">BaseShape</span><span class="sxs-lookup"><span data-stu-id="dff10-121">BaseShape</span></span>](baseshape.md)
     
-- [<span data-ttu-id="c0f60-122">SyncState</span><span class="sxs-lookup"><span data-stu-id="c0f60-122">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
+- [<span data-ttu-id="dff10-122">SyncState</span><span class="sxs-lookup"><span data-stu-id="dff10-122">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
     
 > [!NOTE]
-> <span data-ttu-id="c0f60-123">Le schéma qui décrit ces éléments se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute MicrosoftExchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.</span><span class="sxs-lookup"><span data-stu-id="c0f60-123">The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span> 
+> <span data-ttu-id="dff10-123">Le schéma qui décrit ces éléments se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute MicrosoftExchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="dff10-123">The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span> 
   
-## <a name="successful-syncfolderhierarchy-response"></a><span data-ttu-id="c0f60-124">Réponse SyncFolderHierarchy réussie</span><span class="sxs-lookup"><span data-stu-id="c0f60-124">Successful SyncFolderHierarchy Response</span></span>
+## <a name="successful-syncfolderhierarchy-response"></a><span data-ttu-id="dff10-124">Réponse Opérationsyncfolderhierarchy réussie</span><span class="sxs-lookup"><span data-stu-id="dff10-124">Successful SyncFolderHierarchy Response</span></span>
 
-### <a name="description"></a><span data-ttu-id="c0f60-125">Description</span><span class="sxs-lookup"><span data-stu-id="c0f60-125">Description</span></span>
+### <a name="description"></a><span data-ttu-id="dff10-125">Description</span><span class="sxs-lookup"><span data-stu-id="dff10-125">Description</span></span>
 
-<span data-ttu-id="c0f60-126">L’exemple suivant montre une réponse positive à la demande SyncFolderHierarchy.</span><span class="sxs-lookup"><span data-stu-id="c0f60-126">The following example shows a successful response to the SyncFolderHierarchy request.</span></span> <span data-ttu-id="c0f60-127">Dans cet exemple, un nouveau dossier a été synchronisé.</span><span class="sxs-lookup"><span data-stu-id="c0f60-127">In this example, a new folder has been synchronized.</span></span>
+<span data-ttu-id="dff10-126">L’exemple suivant montre une réponse réussie à la demande Opérationsyncfolderhierarchy.</span><span class="sxs-lookup"><span data-stu-id="dff10-126">The following example shows a successful response to the SyncFolderHierarchy request.</span></span> <span data-ttu-id="dff10-127">Dans cet exemple, un nouveau dossier a été synchronisé.</span><span class="sxs-lookup"><span data-stu-id="dff10-127">In this example, a new folder has been synchronized.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c0f60-128">Code</span><span class="sxs-lookup"><span data-stu-id="c0f60-128">Code</span></span>
+### <a name="code"></a><span data-ttu-id="dff10-128">Code</span><span class="sxs-lookup"><span data-stu-id="dff10-128">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -84,12 +84,12 @@ ms.locfileid: "19838657"
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderHierarchyResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderHierarchyResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderHierarchyResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -115,55 +115,55 @@ ms.locfileid: "19838657"
 </soap:Envelope>
 ```
 
-### <a name="comments"></a><span data-ttu-id="c0f60-129">Commentaires</span><span class="sxs-lookup"><span data-stu-id="c0f60-129">Comments</span></span>
+### <a name="comments"></a><span data-ttu-id="dff10-129">Commentaires</span><span class="sxs-lookup"><span data-stu-id="dff10-129">Comments</span></span>
 
-<span data-ttu-id="c0f60-130">Les données d’élément codée en base64 [SyncState](syncstate-ex15websvcsotherref.md) et les données d’identificateur de dossier ont été réduites afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="c0f60-130">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the folder identifier data have been shortened to preserve readability.</span></span> 
+<span data-ttu-id="dff10-130">L’élément [SyncState](syncstate-ex15websvcsotherref.md) données codées en base64 et les données de l’identificateur de dossier ont été raccourcies afin de préserver la lisibilité.</span><span class="sxs-lookup"><span data-stu-id="dff10-130">The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the folder identifier data have been shortened to preserve readability.</span></span> 
   
-### <a name="successful-response-elements"></a><span data-ttu-id="c0f60-131">Éléments de réponse réussie</span><span class="sxs-lookup"><span data-stu-id="c0f60-131">Successful response elements</span></span>
+### <a name="successful-response-elements"></a><span data-ttu-id="dff10-131">Éléments de réponse réussis</span><span class="sxs-lookup"><span data-stu-id="dff10-131">Successful response elements</span></span>
 
-<span data-ttu-id="c0f60-132">Les éléments suivants sont utilisés dans la réponse :</span><span class="sxs-lookup"><span data-stu-id="c0f60-132">The following elements are used in the response:</span></span>
+<span data-ttu-id="dff10-132">Les éléments suivants sont utilisés dans la réponse :</span><span class="sxs-lookup"><span data-stu-id="dff10-132">The following elements are used in the response:</span></span>
   
-- [<span data-ttu-id="c0f60-133">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c0f60-133">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="dff10-133">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="dff10-133">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c0f60-134">SyncFolderHierarchyResponse</span><span class="sxs-lookup"><span data-stu-id="c0f60-134">SyncFolderHierarchyResponse</span></span>](syncfolderhierarchyresponse.md)
+- [<span data-ttu-id="dff10-134">SyncFolderHierarchyResponse</span><span class="sxs-lookup"><span data-stu-id="dff10-134">SyncFolderHierarchyResponse</span></span>](syncfolderhierarchyresponse.md)
     
-- [<span data-ttu-id="c0f60-135">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c0f60-135">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="dff10-135">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="dff10-135">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c0f60-136">SyncFolderHierarchyResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c0f60-136">SyncFolderHierarchyResponseMessage</span></span>](syncfolderhierarchyresponsemessage.md)
+- [<span data-ttu-id="dff10-136">SyncFolderHierarchyResponseMessage</span><span class="sxs-lookup"><span data-stu-id="dff10-136">SyncFolderHierarchyResponseMessage</span></span>](syncfolderhierarchyresponsemessage.md)
     
-- [<span data-ttu-id="c0f60-137">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c0f60-137">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="dff10-137">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="dff10-137">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c0f60-138">SyncState</span><span class="sxs-lookup"><span data-stu-id="c0f60-138">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
+- [<span data-ttu-id="dff10-138">SyncState</span><span class="sxs-lookup"><span data-stu-id="dff10-138">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c0f60-139">IncludesLastFolderInRange</span><span class="sxs-lookup"><span data-stu-id="c0f60-139">IncludesLastFolderInRange</span></span>](includeslastfolderinrange.md)
+- [<span data-ttu-id="dff10-139">IncludesLastFolderInRange</span><span class="sxs-lookup"><span data-stu-id="dff10-139">IncludesLastFolderInRange</span></span>](includeslastfolderinrange.md)
     
-- [<span data-ttu-id="c0f60-140">Modifications (hiérarchie)</span><span class="sxs-lookup"><span data-stu-id="c0f60-140">Changes (Hierarchy)</span></span>](changes-hierarchy.md)
+- [<span data-ttu-id="dff10-140">Changes (hiérarchie)</span><span class="sxs-lookup"><span data-stu-id="dff10-140">Changes (Hierarchy)</span></span>](changes-hierarchy.md)
     
-- [<span data-ttu-id="c0f60-141">Créer (FolderSync)</span><span class="sxs-lookup"><span data-stu-id="c0f60-141">Create (FolderSync)</span></span>](create-foldersync.md)
+- [<span data-ttu-id="dff10-141">Créer (FolderSync)</span><span class="sxs-lookup"><span data-stu-id="dff10-141">Create (FolderSync)</span></span>](create-foldersync.md)
     
-- [<span data-ttu-id="c0f60-142">Folder</span><span class="sxs-lookup"><span data-stu-id="c0f60-142">Folder</span></span>](folder.md)
+- [<span data-ttu-id="dff10-142">Folder</span><span class="sxs-lookup"><span data-stu-id="dff10-142">Folder</span></span>](folder.md)
     
-- [<span data-ttu-id="c0f60-143">FolderId</span><span class="sxs-lookup"><span data-stu-id="c0f60-143">FolderId</span></span>](folderid.md)
+- [<span data-ttu-id="dff10-143">FolderId</span><span class="sxs-lookup"><span data-stu-id="dff10-143">FolderId</span></span>](folderid.md)
     
-- [<span data-ttu-id="c0f60-144">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="c0f60-144">ParentFolderId</span></span>](parentfolderid.md)
+- [<span data-ttu-id="dff10-144">ParentFolderId</span><span class="sxs-lookup"><span data-stu-id="dff10-144">ParentFolderId</span></span>](parentfolderid.md)
     
-- [<span data-ttu-id="c0f60-145">Classe FolderClass</span><span class="sxs-lookup"><span data-stu-id="c0f60-145">FolderClass</span></span>](folderclass.md)
+- [<span data-ttu-id="dff10-145">FolderClass</span><span class="sxs-lookup"><span data-stu-id="dff10-145">FolderClass</span></span>](folderclass.md)
     
-- [<span data-ttu-id="c0f60-146">DisplayName (chaîne)</span><span class="sxs-lookup"><span data-stu-id="c0f60-146">DisplayName (string)</span></span>](displayname-string.md)
+- [<span data-ttu-id="dff10-146">DisplayName (chaîne)</span><span class="sxs-lookup"><span data-stu-id="dff10-146">DisplayName (string)</span></span>](displayname-string.md)
     
-- [<span data-ttu-id="c0f60-147">TotalCount</span><span class="sxs-lookup"><span data-stu-id="c0f60-147">TotalCount</span></span>](totalcount.md)
+- [<span data-ttu-id="dff10-147">TotalCount</span><span class="sxs-lookup"><span data-stu-id="dff10-147">TotalCount</span></span>](totalcount.md)
     
-- [<span data-ttu-id="c0f60-148">ChildFolderCount</span><span class="sxs-lookup"><span data-stu-id="c0f60-148">ChildFolderCount</span></span>](childfoldercount.md)
+- [<span data-ttu-id="dff10-148">ChildFolderCount</span><span class="sxs-lookup"><span data-stu-id="dff10-148">ChildFolderCount</span></span>](childfoldercount.md)
     
-- [<span data-ttu-id="c0f60-149">UnreadCount</span><span class="sxs-lookup"><span data-stu-id="c0f60-149">UnreadCount</span></span>](unreadcount.md)
+- [<span data-ttu-id="dff10-149">UnreadCount</span><span class="sxs-lookup"><span data-stu-id="dff10-149">UnreadCount</span></span>](unreadcount.md)
     
-## <a name="syncfolderhierarchy-error-response"></a><span data-ttu-id="c0f60-150">Réponse d’erreur SyncFolderHierarchy</span><span class="sxs-lookup"><span data-stu-id="c0f60-150">SyncFolderHierarchy error response</span></span>
+## <a name="syncfolderhierarchy-error-response"></a><span data-ttu-id="dff10-150">Réponse d’erreur Opérationsyncfolderhierarchy</span><span class="sxs-lookup"><span data-stu-id="dff10-150">SyncFolderHierarchy error response</span></span>
 
-### <a name="description"></a><span data-ttu-id="c0f60-151">Description</span><span class="sxs-lookup"><span data-stu-id="c0f60-151">Description</span></span>
+### <a name="description"></a><span data-ttu-id="dff10-151">Description</span><span class="sxs-lookup"><span data-stu-id="dff10-151">Description</span></span>
 
-<span data-ttu-id="c0f60-152">L’exemple suivant montre une réponse d’erreur à une demande SyncFolderHierarchy.</span><span class="sxs-lookup"><span data-stu-id="c0f60-152">The following example shows an error response to a SyncFolderHierarchy request.</span></span> <span data-ttu-id="c0f60-153">Cette erreur a été provoquée par une SyncState non valide.</span><span class="sxs-lookup"><span data-stu-id="c0f60-153">This error was caused by an invalid SyncState.</span></span>
+<span data-ttu-id="dff10-152">L’exemple suivant montre une réponse d’erreur à une requête Opérationsyncfolderhierarchy.</span><span class="sxs-lookup"><span data-stu-id="dff10-152">The following example shows an error response to a SyncFolderHierarchy request.</span></span> <span data-ttu-id="dff10-153">Cette erreur a été causée par un SyncState non valide.</span><span class="sxs-lookup"><span data-stu-id="dff10-153">This error was caused by an invalid SyncState.</span></span>
   
-### <a name="code"></a><span data-ttu-id="c0f60-154">Code</span><span class="sxs-lookup"><span data-stu-id="c0f60-154">Code</span></span>
+### <a name="code"></a><span data-ttu-id="dff10-154">Code</span><span class="sxs-lookup"><span data-stu-id="dff10-154">Code</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -173,12 +173,12 @@ ms.locfileid: "19838657"
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SyncFolderHierarchyResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SyncFolderHierarchyResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SyncFolderHierarchyResponseMessage ResponseClass="Error">
           <m:MessageText>Synchronization state data is corrupted or otherwise invalid.</m:MessageText>
@@ -193,31 +193,31 @@ ms.locfileid: "19838657"
 </soap:Envelope>
 ```
 
-### <a name="error-response-elements"></a><span data-ttu-id="c0f60-155">Éléments de réponse d’erreur</span><span class="sxs-lookup"><span data-stu-id="c0f60-155">Error response elements</span></span>
+### <a name="error-response-elements"></a><span data-ttu-id="dff10-155">Éléments de réponse d’erreur</span><span class="sxs-lookup"><span data-stu-id="dff10-155">Error response elements</span></span>
 
-<span data-ttu-id="c0f60-156">Les éléments suivants sont utilisés dans la réponse d'erreur :</span><span class="sxs-lookup"><span data-stu-id="c0f60-156">The following elements are used in the error response:</span></span>
+<span data-ttu-id="dff10-156">Les éléments suivants sont utilisés dans la réponse d'erreur :</span><span class="sxs-lookup"><span data-stu-id="dff10-156">The following elements are used in the error response:</span></span>
   
-- [<span data-ttu-id="c0f60-157">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="c0f60-157">ServerVersionInfo</span></span>](serverversioninfo.md)
+- [<span data-ttu-id="dff10-157">ServerVersionInfo</span><span class="sxs-lookup"><span data-stu-id="dff10-157">ServerVersionInfo</span></span>](serverversioninfo.md)
     
-- [<span data-ttu-id="c0f60-158">SyncFolderHierarchyResponse</span><span class="sxs-lookup"><span data-stu-id="c0f60-158">SyncFolderHierarchyResponse</span></span>](syncfolderhierarchyresponse.md)
+- [<span data-ttu-id="dff10-158">SyncFolderHierarchyResponse</span><span class="sxs-lookup"><span data-stu-id="dff10-158">SyncFolderHierarchyResponse</span></span>](syncfolderhierarchyresponse.md)
     
-- [<span data-ttu-id="c0f60-159">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c0f60-159">ResponseMessages</span></span>](responsemessages.md)
+- [<span data-ttu-id="dff10-159">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="dff10-159">ResponseMessages</span></span>](responsemessages.md)
     
-- [<span data-ttu-id="c0f60-160">SyncFolderHierarchyResponseMessage</span><span class="sxs-lookup"><span data-stu-id="c0f60-160">SyncFolderHierarchyResponseMessage</span></span>](syncfolderhierarchyresponsemessage.md)
+- [<span data-ttu-id="dff10-160">SyncFolderHierarchyResponseMessage</span><span class="sxs-lookup"><span data-stu-id="dff10-160">SyncFolderHierarchyResponseMessage</span></span>](syncfolderhierarchyresponsemessage.md)
     
-- [<span data-ttu-id="c0f60-161">MessageText</span><span class="sxs-lookup"><span data-stu-id="c0f60-161">MessageText</span></span>](messagetext.md)
+- [<span data-ttu-id="dff10-161">MessageText</span><span class="sxs-lookup"><span data-stu-id="dff10-161">MessageText</span></span>](messagetext.md)
     
-- [<span data-ttu-id="c0f60-162">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="c0f60-162">ResponseCode</span></span>](responsecode.md)
+- [<span data-ttu-id="dff10-162">ResponseCode</span><span class="sxs-lookup"><span data-stu-id="dff10-162">ResponseCode</span></span>](responsecode.md)
     
-- [<span data-ttu-id="c0f60-163">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="c0f60-163">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
+- [<span data-ttu-id="dff10-163">DescriptiveLinkKey</span><span class="sxs-lookup"><span data-stu-id="dff10-163">DescriptiveLinkKey</span></span>](descriptivelinkkey.md)
     
-- [<span data-ttu-id="c0f60-164">SyncState</span><span class="sxs-lookup"><span data-stu-id="c0f60-164">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
+- [<span data-ttu-id="dff10-164">SyncState</span><span class="sxs-lookup"><span data-stu-id="dff10-164">SyncState</span></span>](syncstate-ex15websvcsotherref.md)
     
-- [<span data-ttu-id="c0f60-165">IncludesLastFolderInRange</span><span class="sxs-lookup"><span data-stu-id="c0f60-165">IncludesLastFolderInRange</span></span>](includeslastfolderinrange.md)
+- [<span data-ttu-id="dff10-165">IncludesLastFolderInRange</span><span class="sxs-lookup"><span data-stu-id="dff10-165">IncludesLastFolderInRange</span></span>](includeslastfolderinrange.md)
     
-## <a name="see-also"></a><span data-ttu-id="c0f60-166">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c0f60-166">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dff10-166">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dff10-166">See also</span></span>
 
 
 
-- [<span data-ttu-id="c0f60-167">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c0f60-167">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="dff10-167">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="dff10-167">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4111afec-35e7-4c6f-b291-9bbba603f633
-description: L’élément FractionalPageItemView décrit où l’affichage paginé démarre et le nombre maximal d’éléments renvoyés dans une requête FindItem.
-ms.openlocfilehash: 38c35d2b68dabfca1a43ab034deaf72c47b0ea66
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FractionalPageItemView décrit l’emplacement où l’affichage paginé démarre et le nombre maximal d’éléments renvoyés dans une demande FindItem.
+ms.openlocfilehash: cbf45838558873dc5846823c2d1b26cf2c8af514
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756476"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461309"
 ---
 # <a name="fractionalpageitemview"></a>FractionalPageItemView
 
-L’élément **FractionalPageItemView** décrit où l’affichage paginé démarre et le nombre maximal d’éléments renvoyés dans une requête [FindItem](finditem.md) . 
+L’élément **FractionalPageItemView** décrit l’emplacement où l’affichage paginé démarre et le nombre maximal d’éléments renvoyés dans une demande [FindItem](finditem.md) . 
   
 [FindItem](finditem.md)
   
@@ -34,15 +34,15 @@ L’élément **FractionalPageItemView** décrit où l’affichage paginé déma
  **FractionalPageViewType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |Identifie le nombre maximal de résultats à retourner dans la réponse [FindItem](finditem.md) . Cet attribut est facultatif. Si cet attribut n’est pas spécifié, l’appel retournera tous les éléments disponibles.  <br/> |
-|**Numérateur** <br/> |Représente le numérateur du décalage en fraction à partir du début du jeu de résultats. Cet attribut est requis. Le numérateur doit être le dénominateur inférieur ou égal à. Cet attribut doit représenter une valeur intégrale est égale ou supérieure à zéro.  <br/> Pour plus d’informations, voir les remarques plus loin dans cette rubrique.  <br/> |
-|**Dénominateur** <br/> |Représente le dénominateur de décalage fractionnaire à partir du début du nombre total d’éléments dans le jeu de résultats. Cet attribut est requis. Cet attribut doit représenter une valeur intégrale qui est supérieure à 1.  <br/> Pour plus d’informations, voir les remarques plus loin dans cette rubrique.  <br/> |
+|**MaxEntriesReturned** <br/> |Identifie le nombre maximal de résultats à renvoyer dans la réponse [FindItem](finditem.md) . Cet attribut est facultatif. Si cet attribut n’est pas spécifié, l’appel renverra tous les éléments disponibles.  <br/> |
+|**Monnaie** <br/> |Représente le numérateur du décalage fractionnaire à partir du début du jeu de résultats. Cet attribut est obligatoire. Le numérateur doit être inférieur ou égal au dénominateur. Cet attribut doit représenter une valeur intégrale égale ou supérieure à zéro.  <br/> Pour plus d’informations, consultez la section Remarques plus loin dans cette rubrique.  <br/> |
+|**Petit** <br/> |Représente le dénominateur du décalage fractionnaire à partir du début du nombre total d’éléments dans le jeu de résultats. Cet attribut est obligatoire. Cet attribut doit représenter une valeur intégrale supérieure à 1.  <br/> Pour plus d’informations, consultez la section Remarques plus loin dans cette rubrique.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,31 +52,31 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le décalage d’affichage paginé à partir du début du jeu d’éléments trouvés est décrit par une fraction. La fraction, qui est définie par les attributs **numérateur** et **dénominateur** , décrit où démarre la page d’informations. Par exemple, si **numérateur** est égale à quatre et **dénominateur** est égal à 5, la page d’informations renvoyées commence une entrée trouve quatre cinquièmes de la manière dans le jeu de résultats. 
+Le décalage de l’affichage paginé à partir du début de l’ensemble des éléments trouvés est décrit par une fraction. La fraction, définie par les attributs **numérateur** et **dénominateur** , décrit l’emplacement de début de la page d’informations. Par exemple, si le **numérateur** est égal à quatre et que le **dénominateur** est égal à cinq, la page des informations retournées commence à une entrée située quatre cinquièmes du contenu du jeu de résultats. 
   
-Si la fraction correspond à zéro, qui indique le début du jeu de résultats. Si la fraction a la valeur 1, qui indique la fin du jeu de résultats.
+Si la fraction est égale à zéro, cela indique le début du jeu de résultats. Si la fraction est égale à 1, cela indique la fin du jeu de résultats.
   
 > [!NOTE]
-> La fraction représente le point de départ de la page, pas le nombre de résultats dans le jeu de résultats s’afficheront. 
+> La fraction représente le point de départ de la page, pas le nombre de résultats dans le jeu de résultats. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre une demande [FindItem](finditem.md) . La requête renvoie les éléments dans les résultats de recherche qui démarre après le second troisième de tous les éléments dans le jeu de résultats. 
+L’exemple suivant montre une requête [FindItem](finditem.md) . La requête renvoie les éléments à partir des résultats de la recherche qui commencent après le deuxième tiers de tous les éléments du jeu de résultats. 
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItem Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -98,15 +98,15 @@ L’exemple suivant montre une demande [FindItem](finditem.md) . La requête ren
 </soap:Envelope>
 ```
 
-Par exemple, si le jeu de résultats contient des neuf éléments, l’affichage paginé renverra jusqu'à 12 éléments, en commençant au niveau de l’élément trouvé deux tiers de la manière dans le jeu de résultats. Dans ce cas, la page commence à l’élément septième. La page contiendra le septième, huitième et neuvième éléments. Si le numérateur est égale à zéro, l’affichage de la page retournera tous les éléments du résultat dans la mesure où le nombre est inférieur à l’attribut **MaxEntriesReturned** . 
+Par exemple, si le jeu de résultats contient neuf éléments, la vue paginée renverra jusqu’à 12 éléments, à partir de l’élément a trouvé deux-tiers de la méthode dans le jeu de résultats. Dans ce cas, la page commence au septième élément. La page contiendra les septième, huitième et neuvième éléments. Si le numérateur est défini sur zéro, l’affichage de la page renverra tous les éléments dans le jeu de résultats tant que le nombre est inférieur à l’attribut **MaxEntriesReturned** . 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -116,5 +116,5 @@ Par exemple, si le jeu de résultats contient des neuf éléments, l’affichage
 [Opération FindItem](finditem-operation.md)
 
 
-[Recherche d’éléments](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[Recherche d’éléments](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

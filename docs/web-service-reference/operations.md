@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d8cd41b1-28ae-4c95-9ff6-8b25c8e18306
-description: L’élément opérations contient un tableau des opérations de règle qui peuvent être effectuées sur une boîte de réception.
-ms.openlocfilehash: 1030703d5e496be391d557e99e1420f9fddfdb36
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Operations contient un tableau d’opérations de règle qui peuvent être effectuées sur une boîte de réception.
+ms.openlocfilehash: 4bbec4ad6424f802bb6781a870d65f23705e88c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828655"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462485"
 ---
 # <a name="operations"></a>Opérations
 
-L’élément **opérations** contient un tableau des opérations de règle qui peuvent être effectuées sur une boîte de réception. 
+L’élément **Operations** contient un tableau d’opérations de règle qui peuvent être effectuées sur une boîte de réception. 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -36,25 +36,25 @@ L’élément **opérations** contient un tableau des opérations de règle qui 
  **ArrayOfRuleOperationsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CreateRuleOperation](createruleoperation.md) <br/> |Représente une opération pour créer une nouvelle règle de boîte de réception.  <br/> |
+|[CreateRuleOperation](createruleoperation.md) <br/> |Représente une opération de création d’une nouvelle règle de boîte de réception.  <br/> |
 |[SetRuleOperation](setruleoperation.md) <br/> |Représente une opération de mise à jour d’une règle de boîte de réception.  <br/> |
-|[DeleteRuleOperation](deleteruleoperation.md) <br/> |Représente une opération pour supprimer une règle de boîte de réception.  <br/> |
+|[DeleteRuleOperation](deleteruleoperation.md) <br/> |Représente une opération de suppression d’une règle de boîte de réception.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UpdateInboxRules](updateinboxrules.md) <br/> |Définit une demande pour mettre à jour les règles de boîte de réception dans une boîte aux lettres dans le magasin du serveur.  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |Définit une demande de mise à jour des règles de boîte de réception dans une boîte aux lettres dans le magasin du serveur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

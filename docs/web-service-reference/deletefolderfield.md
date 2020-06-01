@@ -11,22 +11,22 @@ api_name:
 api_type:
 - schema
 ms.assetid: f9c2187b-4c60-4358-b4b4-ede50eadae48
-description: L’élément DeleteFolderField représente une opération de suppression d’une propriété donnée d’un dossier pendant un appel UpdateFolder.
-ms.openlocfilehash: 60d4a5c19d89c109913e83fea99c2f7910566c72
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément DeleteFolderField représente une opération permettant de supprimer une propriété donnée d’un dossier lors d’un appel UpdateFolder.
+ms.openlocfilehash: a0b48b667c8c8afbd5729d5deb84359a6a6ccc25
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354091"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462156"
 ---
 # <a name="deletefolderfield"></a>DeleteFolderField
 
-L’élément **DeleteFolderField** représente une opération de suppression d’une propriété donnée d’un dossier pendant un appel UpdateFolder. 
+L’élément **DeleteFolderField** représente une opération permettant de supprimer une propriété donnée d’un dossier lors d’un appel UpdateFolder. 
   
 - [UpdateFolder](updatefolder.md) 
 - [FolderChanges](folderchanges.md)  
 - [FolderChange](folderchange.md)  
-- [Updates (Folder)](updates-folder.md) 
+- [Mises à jour (dossier)](updates-folder.md) 
 - [DeleteFolderField](deletefolderfield.md)
   
 ```xml
@@ -51,17 +51,17 @@ L’élément **DeleteFolderField** représente une opération de suppression d�
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencées par un URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’une propriété de dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues.  <br/> |
    
@@ -69,7 +69,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Updates (Folder)](updates-folder.md) <br/> |Contient un ensemble d’éléments qui définissent append, définir et supprimer les modifications apportées aux propriétés d’un dossier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
+|[Mises à jour (dossier)](updates-folder.md) <br/> |Contient un ensemble d’éléments qui définissent les modifications apportées par l’ajout, la définition et la suppression aux propriétés du dossier.  <br/> Voici l’expression XPath de cet élément :`/UpdateFolder/FolderChanges/FolderChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -79,7 +79,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

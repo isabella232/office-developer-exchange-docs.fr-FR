@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 459ddb1c-8cff-4125-b6fa-dc93c183dee8
-description: L’élément HomeFaxes spécifie un tableau de télécopie (domicile) nombres et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: dd2cd8bba2c4cc7d08e88787d648e96ea996a251
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément HomeFaxes spécifie un tableau de numéros de télécopie personnels et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: d49eb9e12547e4011e4ba403cb898c0fe6e9bf02
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827840"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460847"
 ---
 # <a name="homefaxes"></a>HomeFaxes
 
-L’élément **HomeFaxes** spécifie un tableau de télécopie (domicile) nombres et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **HomeFaxes** spécifie un tableau de numéros de télécopie personnels et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <HomeFaxes>
@@ -28,23 +28,23 @@ L’élément **HomeFaxes** spécifie un tableau de télécopie (domicile) nombr
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Contient un numéro de téléphone attribué unique un personnage.  <br/> |
+|[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Contient un seul numéro de téléphone avec attributs pour un personnage.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

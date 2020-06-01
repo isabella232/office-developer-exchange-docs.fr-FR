@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e69ae44-0e6d-4fb8-97c6-37cf23577c38
-description: L’élément OrganizationMainPhones spécifie un tableau des numéros de téléphone principal d’organisation et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 756ca68902bfb2a845eb65b605110f791be9ded2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément OrganizationMainPhones spécifie un tableau de numéros de téléphone principaux de l’organisation et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: 792cd20a361d038e797e64b461c565f85cada251
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828659"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462464"
 ---
 # <a name="organizationmainphones"></a>OrganizationMainPhones
 
-L’élément **OrganizationMainPhones** spécifie un tableau des numéros de téléphone principal d’organisation et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **OrganizationMainPhones** spécifie un tableau de numéros de téléphone principaux de l’organisation et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <OrganizationMainPhones>
@@ -28,11 +28,11 @@ L’élément **OrganizationMainPhones** spécifie un tableau des numéros de t�
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

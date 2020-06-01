@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecdea78-de9c-48be-ae31-03877feafeec
-description: L’élément FieldURI Spécifie l’URI pour le champ règle qui a provoqué l’erreur de validation.
-ms.openlocfilehash: 88ba54994625d3a950b58e900f28c986c31eddac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FieldURI spécifie l’URI vers le champ de règle à l’origine de l’erreur de validation.
+ms.openlocfilehash: 3d88efdf951af580f81b5e2e7a544dcdf70ea830
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756353"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461246"
 ---
 # <a name="fielduri-rule"></a>FieldUri (règle)
 
-L’élément **FieldURI** Spécifie l’URI pour le champ règle qui a provoqué l’erreur de validation. 
+L’élément **FieldURI** spécifie l’URI vers le champ de règle à l’origine de l’erreur de validation. 
   
 ```XML
 <FieldURI/>
@@ -26,11 +26,11 @@ L’élément **FieldURI** Spécifie l’URI pour le champ règle qui a provoqu�
  **RuleFieldURIType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,13 +40,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Erreur](error.md) <br/> |Représente une seule erreur de validation sur une valeur de la propriété règle particulière, la valeur de propriété prédicat ou la valeur de la propriété action.  <br/> |
+|[Erreur](error.md) <br/> |Représente une seule erreur de validation sur une valeur de propriété de règle, une valeur de propriété de prédicat ou une valeur de propriété d’action particulière.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte pour cet élément est limitée à une des chaînes suivantes :
+La valeur de texte de cet élément est restreinte à l’une des chaînes suivantes :
   
-- ID de la règle
+- RuleId
     
 - DisplayName
     
@@ -78,7 +78,7 @@ La valeur de texte pour cet élément est limitée à une des chaînes suivantes
     
 - Condition : HasAttachments
     
-- Condition : Importance
+- Condition : importance
     
 - Condition : IsApprovalRequest
     
@@ -118,13 +118,13 @@ La valeur de texte pour cet élément est limitée à une des chaînes suivantes
     
 - Condition : SentToOrCcMe
     
-- Condition : critère de diffusion
+- Condition : sensibilité
     
 - Condition : WithinDateRange
     
 - Condition : WithinSizeRange
     
-- Exception : catégories
+- Exception : Categories
     
 - Exception : ContainsBodyStrings
     
@@ -146,7 +146,7 @@ La valeur de texte pour cet élément est limitée à une des chaînes suivantes
     
 - Exception : HasAttachments
     
-- Exception : Importance
+- Exception : importance
     
 - Exception : IsApprovalRequest
     
@@ -186,7 +186,7 @@ La valeur de texte pour cet élément est limitée à une des chaînes suivantes
     
 - Exception : SentToOrCcMe
     
-- Exception : critère de diffusion
+- Exception : Sensitivity
     
 - Exception : WithinDateRange
     
@@ -194,9 +194,9 @@ La valeur de texte pour cet élément est limitée à une des chaînes suivantes
     
 - Action : AssignCategories
     
-- Action : CopyToFolder
+- Action : CopyToFolder,
     
-- Suppression de l’action :
+- Action : supprimer
     
 - Action : ForwardAsAttachmentToRecipients
     
@@ -234,9 +234,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

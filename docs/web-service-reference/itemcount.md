@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 47e42f5d-d3cb-4ee2-8370-1fd0539b6ee6
-description: L’élément ItemCount Spécifie le nombre total d’éléments dans un résultat de recherche.
-ms.openlocfilehash: 99f8c95aee7cc61ae7d1e8140c46d1e0ab0b14b5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ItemCount spécifie le nombre total d’éléments dans un résultat de recherche.
+ms.openlocfilehash: 9635d22356e729b770505d399e91218cf1581d6e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828146"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461771"
 ---
 # <a name="itemcount"></a>ItemCount
 
-L’élément **ItemCount** Spécifie le nombre total d’éléments dans un résultat de recherche. 
+L’élément **ItemCount** spécifie le nombre total d’éléments dans un résultat de recherche. 
   
 ```XML
 <ItemCount></ItemCount>
 ```
 
- **long**
+ **plus**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,9 +38,9 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[SearchMailboxesResult](searchmailboxesresult.md) | [MailboxStat](mailboxstat.md) | [NonIndexableItemStatistic](nonindexableitemstatistic.md)
+[SearchMailboxesResult](searchmailboxesresult.md)  |  [MailboxStat](mailboxstat.md)  |  [NonIndexableItemStatistic](nonindexableitemstatistic.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **ItemCount** identifie le nombre total d’éléments dans un résultat de recherche. 
   

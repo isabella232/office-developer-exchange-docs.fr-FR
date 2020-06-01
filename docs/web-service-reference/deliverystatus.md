@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: eab55db3-affb-42be-a586-5caa04052433
-description: L’élément DeliveryStatus Spécifie l’état d’un message.
-ms.openlocfilehash: 4e6f31e8ef4f98d8e838ba91167c7dd5d6ab2590
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeliveryStatus spécifie l’état d’un message.
+ms.openlocfilehash: ae32202284d3dd272f693fbb7b76070cb6019d28
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755890"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461400"
 ---
 # <a name="deliverystatus"></a>DeliveryStatus
 
-L’élément **DeliveryStatus** Spécifie l’état d’un message. 
+L’élément **DeliveryStatus** spécifie l’état d’un message. 
   
 ```XML
 <DeliveryStatus>Unsuccessful | Pending | Delivered | Transferred | Read</DeliveryStatus>
@@ -30,11 +30,11 @@ L’élément **DeliveryStatus** Spécifie l’état d’un message.
  **MessageTrackingDeliveryStatusType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,23 +46,23 @@ Aucun.
 |:-----|:-----|
 |[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs de texte possibles pour l’élément **DeliveryStatus** . 
   
-**Valeurs des éléments DeliveryStatus**
+**Valeurs de l’élément DeliveryStatus**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Échec  <br/> |Spécifie qu’un message n’a pas été remis.  <br/> |
-|En attente  <br/> |Spécifie que le message est en attente d’approbation d’un modérateur.  <br/> |
-|Remis  <br/> |Spécifie que le message a été remis à tous les destinataires spécifiés.  <br/> |
-|Transféré  <br/> |Spécifie que le message a été transféré vers un serveur à l’extérieur de l’étendue de recherche.  <br/> |
-|Lire  <br/> |Spécifie que le message a été remis et lu par les destinataires.  <br/> |
+|Échoué  <br/> |Spécifie qu’un message n’a pas été remis.  <br/> |
+|Pending  <br/> |Indique que le message est en attente d’approbation d’un modérateur.  <br/> |
+|Cmds  <br/> |Indique que le message a été remis à tous les destinataires spécifiés.  <br/> |
+|Transfér  <br/> |Spécifie que le message a été transféré vers un serveur en dehors de l’étendue de recherche.  <br/> |
+|Lecture  <br/> |Indique que le message a été remis et lu par les destinataires.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **DeliveryStatus** est du type **MessageTrackingDeliveryStatusType** dans Exchange Server 2010. 
+L’élément **DeliveryStatus** était de type **MessageTrackingDeliveryStatusType** dans Exchange Server 2010. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

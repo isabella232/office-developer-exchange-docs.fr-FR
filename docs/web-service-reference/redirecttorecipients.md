@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 00ef4a84-76d2-4669-b597-f52abbbc34f5
 description: L'élément RedirectToRecipients indique les adresses de messagerie à laquelle les messages doivent être redirigé.
-ms.openlocfilehash: ca0422f2ca678cabe1a88f99e617bee691f2e2f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ebc0e0abe88d1e364dee94cc24313879458778d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829024"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462191"
 ---
 # <a name="redirecttorecipients"></a>RedirectToRecipients
 
@@ -32,11 +32,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **ArrayOfEmailAddressesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

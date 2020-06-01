@@ -1,5 +1,5 @@
 ---
-title: Classer sous
+title: FileAs
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: df50524e-471c-49d2-89fe-b2d0f61a1365
-description: L’élément FileAs représente la façon dont une liste de contacts ou de distribution est présentée dans le dossier Contacts.
-ms.openlocfilehash: dab9142eebf7691862e7970a7d1e8f5874393b94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FileAs représente la manière dont un contact ou une liste de distribution est classé dans le dossier contacts.
+ms.openlocfilehash: be756d86d7608fcb758dd54f2ada9f03a04343e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756365"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461197"
 ---
-# <a name="fileas"></a>Classer sous
+# <a name="fileas"></a>FileAs
 
-L’élément **FileAs** représente la façon dont une liste de contacts ou de distribution est présentée dans le dossier Contacts. 
+L’élément **FileAs** représente la manière dont un contact ou une liste de distribution est classé dans le dossier contacts. 
   
 ```xml
 <FileAs/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,13 +47,13 @@ Aucun.
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **FileAs** sert à trier les contacts et les listes de distribution par un nom autre qu’un nom complet ou le nom de la société. 
+L’élément **FileAs** sert à trier les contacts et les listes de distribution par un nom autre qu’un nom complet ou un nom de société. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

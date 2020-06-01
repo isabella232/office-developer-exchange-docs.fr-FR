@@ -1,5 +1,5 @@
 ---
-title: Contact (TypeContact)
+title: Contact (ContactType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7f7119b7-f5b4-484d-a7de-fa74836d9aee
-description: L’élément de Contact spécifie un contact dans le magasin de contacts unifié.
-ms.openlocfilehash: f1593da78a46851c7db43abc567eb66c0c74e0f2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément contact spécifie un contact dans le magasin de contacts unifié.
+ms.openlocfilehash: e8ebc28456f8bfc26f5d790ac9ff278930041ea0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755552"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461519"
 ---
-# <a name="contact-contacttype"></a>Contact (TypeContact)
+# <a name="contact-contacttype"></a>Contact (ContactType)
 
-L’élément de **Contact** spécifie un contact dans le magasin de contacts unifié. 
+L’élément **contact** spécifie un contact dans le magasin de contacts unifié. 
   
 ```XML
 <Contact>
@@ -30,32 +30,32 @@ L’élément de **Contact** spécifie un contact dans le magasin de contacts un
 </Contact>
 ```
 
- **TypeContact**
+ **ContactType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PersonName](personname.md) <br/> |Spécifie le nom d’un participant.  <br/> |
-|[BusinessName](businessname.md) <br/> |Spécifie le nom de l’entreprise.  <br/> |
+|[PersonName](personname.md) <br/> |Spécifie le nom d’un individu.  <br/> |
+|[BusinessName](businessname.md) <br/> |Spécifie le nom d’une entreprise.  <br/> |
 |[PhoneNumbers](phonenumbers.md) <br/> |Représente une collection de numéros de téléphone pour un contact.  <br/> |
 |[URL](urls.md) <br/> |Spécifie un tableau d’URL pour un personnage.  <br/> |
-|[EmailAddresses (ArrayOfExtractedEmailAddresses)](emailaddresses-arrayofextractedemailaddresses.md) <br/> |Spécifie un tableau des adresses de messagerie extraits.  <br/> |
-|[Adresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Spécifie un tableau des éléments de **l’adresse** .  <br/> |
-|[ContactString](contactstring.md) <br/> |Spécifie le nom complet d’un contact.  <br/> |
+|[EmailAddresses (ArrayOfExtractedEmailAddresses)](emailaddresses-arrayofextractedemailaddresses.md) <br/> |Spécifie un tableau d’adresses de messagerie extraites.  <br/> |
+|[Adresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Spécifie un tableau d’éléments **Address** .  <br/> |
+|[ContactString](contactstring.md) <br/> |Spécifie le nom d’affichage d’un contact.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contacts (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Spécifie un tableau des contacts.  <br/> |
+|[Contacts (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Spécifie un tableau de contacts.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -67,9 +67,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

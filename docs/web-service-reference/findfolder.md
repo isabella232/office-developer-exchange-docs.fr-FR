@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b8a59740-d978-454c-9629-a10792385ba0
-description: L’élément FindFolder définit une requête pour rechercher les dossiers dans une boîte aux lettres.
-ms.openlocfilehash: 69fbaebc5615ac7d19512770658cde83e4d352df
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément FindFolder définit une demande de recherche de dossiers dans une boîte aux lettres.
+ms.openlocfilehash: 248047206a661afe723543e52c51b57847148423
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353531"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462576"
 ---
 # <a name="findfolder"></a>FindFolder
 
-L’élément **FindFolder** définit une requête pour rechercher les dossiers dans une boîte aux lettres. 
+L’élément **FindFolder** définit une demande de recherche de dossiers dans une boîte aux lettres. 
   
 ```xml
 <FindFolder Traversal="Shallow/Deep/SoftDeleted">
@@ -45,30 +45,30 @@ L’élément **FindFolder** définit une requête pour rechercher les dossiers 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Traversée du contenu  <br/> |Définit la façon dont une recherche est effectuée. Cet attribut est requis.  <br/> |
+|Traversée  <br/> |Définit le mode d’exécution d’une recherche. Cet attribut est obligatoire.  <br/> |
    
-#### <a name="traversal-attribute-values"></a>Valeurs d’attribut Traversal
+#### <a name="traversal-attribute-values"></a>Valeurs d’attribut transversal
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Peu profond  <br/> |Indique à l’opération FindFolder recherche uniquement le dossier identifié et renvoyer uniquement l’ID de dossier pour les éléments qui n’ont pas été supprimés. Il s’agit d’un parcours en surface.  <br/> |
-|Profond  <br/> |Indique à l’opération FindFolder pour la recherche dans tous les dossiers enfants du dossier parent identifié et renvoyer uniquement l’ID de dossier pour les éléments qui n’ont pas été supprimés. Il s’agit d’une longue traversée.  <br/> |
-|SoftDeleted  <br/> |Indique à l’opération FindFolder pour effectuer une recherche parcours en surface des éléments supprimés.  <br/> |
+|Partielle  <br/> |Indique à l’opération FindFolder de rechercher uniquement le dossier identifié et de renvoyer uniquement les ID de dossier pour les éléments qui n’ont pas été supprimés. Il s’agit d’un parcours superficiel.  <br/> |
+|Développée  <br/> |Indique à l’opération FindFolder d’effectuer une recherche dans tous les dossiers enfants du dossier parent identifié et de renvoyer uniquement les ID de dossier pour les éléments qui n’ont pas été supprimés. Il s’agit d’un parcours approfondi.  <br/> |
+|SoftDeleted  <br/> |Indique à l’opération FindFolder d’effectuer une recherche de parcours superficiel pour les éléments supprimés.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |Identifie les propriétés du dossier à inclure dans une réponse FindFolder.  <br/> |
-|[IndexedPageFolderView](indexedpagefolderview.md) <br/> |Décrit comment paginé informations sont retournées dans une réponse FindFolder. Cet élément est facultatif.  <br/> |
-|[FractionalPageFolderView](fractionalpagefolderview.md) <br/> |Décrit où l’affichage paginé démarre et le nombre maximal de dossiers renvoyées dans une requête FindFolder. Cet élément est facultatif.  <br/> |
-|[Restriction](restriction.md) <br/> |Définit une restriction ou une requête qui est utilisé pour filtrer les dossiers dans une opération FindFolder. Cet élément est facultatif.  <br/> |
+|[FolderShape](foldershape.md) <br/> |Identifie les propriétés de dossier à inclure dans une réponse FindFolder.  <br/> |
+|[IndexedPageFolderView](indexedpagefolderview.md) <br/> |Décrit comment les informations d’élément paginé sont renvoyées dans une réponse FindFolder. Cet élément est facultatif.  <br/> |
+|[FractionalPageFolderView](fractionalpagefolderview.md) <br/> |Décrit l’emplacement où l’affichage paginé démarre et le nombre maximal de dossiers renvoyés dans une demande FindFolder. Cet élément est facultatif.  <br/> |
+|[Restriction](restriction.md) <br/> |Définit une restriction ou une requête utilisée pour filtrer les dossiers dans une opération FindFolder. Cet élément est facultatif.  <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifie les dossiers pour l’opération FindFolder à rechercher.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -81,14 +81,14 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande FindFolder indique comment former une requête pour rechercher tous les dossiers situés dans une boîte de réception.
+L’exemple de requête FindFolder suivant montre comment créer une requête pour rechercher tous les dossiers situés dans une boîte de réception.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -104,9 +104,9 @@ L’exemple suivant d’une demande FindFolder indique comment former une requê
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

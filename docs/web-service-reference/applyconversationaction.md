@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e0ee8f30-529b-4d87-8bc0-b6616e75fb6b
-description: L’élément ApplyConversationAction définit une demande pour appliquer des actions à des éléments dans une conversation.
-ms.openlocfilehash: 1b672c6e6d2f60e50215417be7100e9cd77e2a58
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ApplyConversationAction définit une demande d’application d’actions à des éléments d’une conversation.
+ms.openlocfilehash: 659b3392778bb1a318c3942a0c8e314f12110c12
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755297"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461687"
 ---
 # <a name="applyconversationaction"></a>ApplyConversationAction
 
-L’élément **ApplyConversationAction** définit une demande pour appliquer des actions à des éléments dans une conversation. 
+L’élément **ApplyConversationAction** définit une demande d’application d’actions à des éléments d’une conversation. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -34,17 +34,17 @@ L’élément **ApplyConversationAction** définit une demande pour appliquer de
  **ApplyConversationActionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationActions](conversationactions.md) <br/> |Contient une collection des conversations et les actions à appliquer à leur.  <br/> |
+|[ConversationActions](conversationactions.md) <br/> |Contient une collection de conversations et les actions à leur appliquer.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3c26063-9f3d-414d-84b7-4a2e12281157
-description: L’élément ContactString Spécifie le nom complet d’un contact.
-ms.openlocfilehash: b65a50e167fd05c85a19e45a4453a3a36c4616e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContactString spécifie le nom d’affichage d’un contact.
+ms.openlocfilehash: cecb742c3ddfca5633c28b2018314394e3af12a3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755599"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461498"
 ---
 # <a name="contactstring"></a>ContactString
 
-L’élément **ContactString** Spécifie le nom complet d’un contact. 
+L’élément **ContactString** spécifie le nom d’affichage d’un contact. 
   
 ```XML
 <ContactString></ContactString>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contact (TypeContact)](contact-contacttype.md) <br/> |Spécifie un contact dans le magasin de contacts unifié.  <br/> |
+|[Contact (ContactType)](contact-contacttype.md) <br/> |Spécifie un contact dans le magasin de contacts unifié.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ContactString** est la valeur de type string qui spécifie le nom complet. 
+La valeur de texte de l’élément **ContactString** est la valeur de chaîne qui spécifie le nom complet. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

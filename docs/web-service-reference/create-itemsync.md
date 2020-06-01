@@ -1,5 +1,5 @@
 ---
-title: Create (ItemSync)
+title: Créer (ItemSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,22 +11,22 @@ api_name:
 api_type:
 - schema
 ms.assetid: cb5e64a2-66a5-4447-921e-7c13efb8f6bf
-description: L’élément créer identifie un élément unique à créer dans le magasin du client local.
-ms.openlocfilehash: d49e54c64f7bd53dcb296d998a856c20570d81be
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément Create identifie un élément unique à créer dans le magasin client local.
+ms.openlocfilehash: b9c0f28333594a6c17ee9581a227fc4773874fd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353944"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460798"
 ---
-# <a name="create-itemsync"></a>Create (ItemSync)
+# <a name="create-itemsync"></a>Créer (ItemSync)
 
-L’élément **créer** identifie un élément unique à créer dans le magasin du client local. 
+L’élément **Create** identifie un élément unique à créer dans le magasin client local. 
   
 - [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) 
-- [Modifications (éléments)](changes-items.md) 
+- [Changes (éléments)](changes-items.md) 
 - [Créer (ItemSync)](create-itemsync.md)
   
 ```xml
@@ -93,32 +93,32 @@ L’élément **créer** identifie un élément unique à créer dans le magasin
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Item](item.md) <br/> |Représente un élément Exchange générique à créer.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique d’Exchange à créer.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange à créer.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange à créer.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange à créer.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution à créer.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion à créer.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion à créer.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion à créer.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion à créer.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion à créer.  <br/> |
-|[Tâche](task.md) <br/> |Représente une tâche à créer.  <br/> |
+|[Task](task.md) <br/> |Représente une tâche à créer.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Modifications (éléments)](changes-items.md) <br/> |Contient un tableau de séquence de types de modification qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
+|[Changes (éléments)](changes-items.md) <br/> |Contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -128,7 +128,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

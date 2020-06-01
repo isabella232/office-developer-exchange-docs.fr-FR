@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: af1dd9bf-df47-473d-a2ce-ab9a01a37606
-description: L’élément FindMailboxStatisticsByKeywordsResponse spécifie la réponse à une demande de FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: 43d3a9c4d5ca312f380fed65eb906543f25e5a1c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FindMailboxStatisticsByKeywordsResponse spécifie la réponse à une demande FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: a0595ec9ee0cedf5150852dc39eca50b598e15aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756398"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460987"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponse"></a>FindMailboxStatisticsByKeywordsResponse
 
-L’élément **FindMailboxStatisticsByKeywordsResponse** spécifie la réponse à une demande de **FindMailboxStatisticsByKeywords** . 
+L’élément **FindMailboxStatisticsByKeywordsResponse** spécifie la réponse à une demande **FindMailboxStatisticsByKeywords** . 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponse>
@@ -28,17 +28,17 @@ L’élément **FindMailboxStatisticsByKeywordsResponse** spécifie la réponse 
  **FindMailboxStatisticsByKeywordsResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande d’Exchange Web Services (EWS).  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de services Web Exchange (EWS).  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

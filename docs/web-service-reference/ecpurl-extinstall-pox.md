@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f81807e6-93de-4e47-afee-1e1ae6a85054
-description: L’élément EcpUrl-extinstall spécifie une URL partielle peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour afficher ou modifier les applications de messagerie actuellement installées dans la boîte aux lettres de l’utilisateur.
-ms.openlocfilehash: f478db53e120f108c64e415e43141761d7914f71
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl-extinstall spécifie une URL partielle qui peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour afficher ou modifier les applications de messagerie actuellement installées dans la boîte aux lettres de l’utilisateur.
+ms.openlocfilehash: 889e0ca3bdcdce4b557fe066db2918fde4abaa9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756057"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461302"
 ---
 # <a name="ecpurl-extinstall-pox"></a>EcpUrl-extinstall (POX)
 
-L’élément **EcpUrl-extinstall** spécifie une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour afficher ou modifier les applications de messagerie actuellement installées dans la boîte aux lettres de l’utilisateur. 
+L’élément **EcpUrl-extinstall** spécifie une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour afficher ou modifier les applications de messagerie actuellement installées dans la boîte aux lettres de l’utilisateur. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,7 +24,7 @@ L’élément **EcpUrl-extinstall** spécifie une URL partielle peut être combi
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [EcpUrl-extinstall (POX)](ecpurl-extinstall-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **EcpUrl-extinstall** spécifie une URL partielle peut être combi
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour afficher ou modifier les applications de messagerie actuellement installées dans la boîte aux lettres de l’utilisateur. 
+La valeur de texte représente une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour afficher ou modifier les applications de messagerie actuellement installées dans la boîte aux lettres de l’utilisateur. 
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl-extinstall** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl-extinstall** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Page d’accueil
+title: HomePage
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: eec2c41e-a975-42f6-8150-caf8c6e26462
-description: L’élément de la page d’accueil Spécifie l’URL qui sera la page d’accueil par défaut pour le dossier géré.
-ms.openlocfilehash: 00dafa225b5200b9feedf8790ed784305dadf03c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément HomePage spécifie l’URL qui sera la page d’accueil par défaut pour le dossier géré.
+ms.openlocfilehash: b56a273bab3ec34d03e84ba8f7e2d6feddeb3e88
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827838"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460840"
 ---
-# <a name="homepage"></a>Page d’accueil
+# <a name="homepage"></a>HomePage
 
-L’élément de la **page d’accueil** Spécifie l’URL qui sera la page d’accueil par défaut pour le dossier géré. 
+L’élément **Homepage** spécifie l’URL qui sera la page d’accueil par défaut pour le dossier géré. 
   
 ```xml
 <HomePage/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur de type string qui représente une URL.
+La valeur de texte est une valeur de chaîne qui représente une URL.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -73,5 +73,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Ajout de dossiers gérés](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Ajout de dossiers gérés](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

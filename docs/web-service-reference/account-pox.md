@@ -1,5 +1,5 @@
 ---
-title: Account (POX)
+title: Compte (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,21 +8,21 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
-description: L’élément compte Spécifie les paramètres de compte pour l’utilisateur ou contient des réponses d’erreur.
-ms.openlocfilehash: 6cd87e678b3a524a69f6dca4d6999a3cff22fa57
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément Account spécifie les paramètres de compte de l’utilisateur ou contient des réponses d’erreur.
+ms.openlocfilehash: ffd8ebe4b7bd9d4b3f6a9b42fc557ac6189a068d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353342"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462317"
 ---
-# <a name="account-pox"></a>Account (POX)
+# <a name="account-pox"></a>Compte (POX)
 
-L’élément **compte** spécifie les paramètres de compte pour l’utilisateur ou contient des réponses d’erreur. 
+L’élément **Account** spécifie les paramètres de compte de l’utilisateur ou contient des réponses d’erreur. 
   
-- [AutoDiscover (POX)](autodiscover-pox.md)
-- [Response (POX)](response-pox.md)
-- [Account (POX)](account-pox.md)
+- [Découverte automatique (POX)](autodiscover-pox.md)
+- [Réponse (POX)](response-pox.md)
+- [Compte (POX)](account-pox.md)
   
 ```XML
 <Account>
@@ -48,34 +48,34 @@ L’élément **compte** spécifie les paramètres de compte pour l’utilisateu
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AccountType (POX)](accounttype-pox.md) <br/> |Représente le type de compte.  <br/> |
-|[Action (POX)](action-pox.md) <br/> |Fournit des informations qui sont utilisées pour déterminer si une autre requête de découverte automatique est requise pour retourner les informations de configuration utilisateur.  <br/> |
+|[Action (POX)](action-pox.md) <br/> |Fournit des informations qui permettent de déterminer si une autre demande de découverte automatique est nécessaire pour renvoyer les informations de configuration de l’utilisateur.  <br/> |
 |[MicrosoftOnline (POX)](microsoftonline-pox.md) <br/> |Contient une valeur qui indique si la boîte aux lettres de l’utilisateur est hébergée dans Exchange Online ou Exchange Online dans le cadre d’Office 365.  <br/> |
-|[RedirectUrl (POX)](redirecturl-pox.md) <br/> |Contient l’URL de l’ordinateur qui exécute le serveur Exchange qui a le rôle de serveur Client Access installé qui doit être utilisé pour obtenir les paramètres de découverte automatique.  <br/> |
-|[RedirectAddr (POX)](redirectaddr-pox.md) <br/> |Spécifie l’adresse de messagerie qui doit être utilisé pour une requête de découverte automatique suivante.  <br/> |
-|[Image (POX)](image-pox.md) <br/> |Contient le chemin d’accès d’une image qui est utilisée pour personnaliser l’expérience de configuration.  <br/> |
-|[ServiceHome (POX)](servicehome-pox.md) <br/> |Contient l’URL de la page d’accueil du fournisseur de services Internet (fournisseur de services Internet).  <br/> |
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications pour la connexion d’un client vers le serveur d’accès au Client.  <br/> |
-|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contient des informations que les clients peuvent utiliser pour envoyer une demande de découverte automatique pour découvrir les informations de dossier public pour l’utilisateur.  <br/> |
+|[RedirectUrl (POX)](redirecturl-pox.md) <br/> |Contient l’URL de l’ordinateur qui exécute Exchange Server sur lequel le rôle serveur d’accès au client est installé et qui doit être utilisé pour obtenir les paramètres de découverte automatique.  <br/> |
+|[RedirectAddr (POX)](redirectaddr-pox.md) <br/> |Spécifie l’adresse de messagerie à utiliser pour une demande de découverte automatique ultérieure.  <br/> |
+|[Image (POX)](image-pox.md) <br/> |Contient le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration.  <br/> |
+|[ServiceHome (POX)](servicehome-pox.md) <br/> |Contient l’URL de la page d’accueil du fournisseur de services Internet (ISP).  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client au serveur d’accès au client.  <br/> |
+|[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contient des informations que les clients peuvent utiliser pour envoyer une demande de découverte automatique afin de découvrir les informations de dossier public pour l’utilisateur.  <br/> |
 |[Erreur (POX)](error-pox.md) <br/> |Contient une réponse d’erreur de découverte automatique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Response (POX)](response-pox.md) <br/> |Contient la réponse du service de découverte automatique.  <br/> |
+|[Réponse (POX)](response-pox.md) <br/> |Contient la réponse du service de découverte automatique.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8f271894-01cb-4ee3-ba2f-6464e19518ac
-description: L’élément GetConversationItemsResponse définit une réponse à une demande de GetConversationItems.
-ms.openlocfilehash: b7dbb5cd7c3829d51167cb9499ba80edcd4dbdc3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetConversationItemsResponse définit une réponse à une demande GetConversationItems.
+ms.openlocfilehash: 8c1663ef757148ecb6ebda059412b4fbdc503d07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756554"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461085"
 ---
 # <a name="getconversationitemsresponse"></a>GetConversationItemsResponse
 
-L’élément **GetConversationItemsResponse** définit une réponse à une demande de **GetConversationItems** . 
+L’élément **GetConversationItemsResponse** définit une réponse à une demande **GetConversationItems** . 
   
 ```XML
 <GetConversationItemsResponse>
@@ -28,11 +28,11 @@ L’élément **GetConversationItemsResponse** définit une réponse à une dema
  **GetConversationItemsResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

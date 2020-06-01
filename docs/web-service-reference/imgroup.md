@@ -1,5 +1,5 @@
 ---
-title: ImGroup
+title: Imgroup
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ab7b884e-ecf1-4e58-86ec-856b13a95f2b
-description: L’élément ImGroup représente un groupe de messagerie instantané.
-ms.openlocfilehash: 2a444158dbc6a73b1aee7b306cc251d33d005c43
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément imgroup représente un groupe de messagerie instantanée.
+ms.openlocfilehash: a0ff3fcb82e7f18837af5a6f5daa16e90043034d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827890"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460686"
 ---
-# <a name="imgroup"></a>ImGroup
+# <a name="imgroup"></a>Imgroup
 
-L’élément **ImGroup** représente un groupe de messagerie instantané. 
+L’élément **imgroup** représente un groupe de messagerie instantanée. 
   
 ```XML
 <ImGroup>
@@ -33,19 +33,19 @@ L’élément **ImGroup** représente un groupe de messagerie instantané.
  **ImGroupType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md) | [GroupType](grouptype.md) | [ExchangeStoreId](exchangestoreid.md) | [MemberCorrelationKey](membercorrelationkey.md) | [ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)](extendedproperties-nonemptyarrayofextendedpropertytype.md)  |  [ SmtpAddress](smtpaddress.md)
+[DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)  |  [GroupType](grouptype.md)  |  [ExchangeStoreId](exchangestoreid.md)  |  [MemberCorrelationKey](membercorrelationkey.md)  |  [ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)](extendedproperties-nonemptyarrayofextendedpropertytype.md)  |  [SmtpAddress](smtpaddress.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Groupes (ArrayOfImGroupType)](groups-arrayofimgrouptype.md) | [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md) | [AddImGroupResponse](addimgroupresponse.md)
+[Groupes (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)  |  [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)  |  [AddImGroupResponse](addimgroupresponse.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

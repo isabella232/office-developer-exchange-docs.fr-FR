@@ -7,30 +7,30 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 342fc275-5b16-49d1-8fde-bf17ce289339
-description: Trouvez des informations de référence pour les agents de transport dans Exchange 2013.
-ms.openlocfilehash: 71384e8f20bbe696a90aa9b003805143c0c62ddc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Recherchez des informations de référence pour les agents de transport dans Exchange 2013.
+ms.openlocfilehash: 8b05ac5904ac0525dce7245b98fc63e1ea6cefe1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755144"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461778"
 ---
 # <a name="transport-agent-reference-for-exchange-2013"></a>Référence de l’agent de transport pour Exchange 2013
 
-Trouvez des informations de référence pour les agents de transport dans Exchange 2013.
+Recherchez des informations de référence pour les agents de transport dans Exchange 2013.
   
 **S’applique à :** Exchange Server 2013 
   
-Cette section fournit des informations de référence pour les convertisseurs de contenu et les agents de transport. Utilisez ces informations pour vous aider à créer des applications de l’agent pour Exchange Server 2013 transport.
+Cette section fournit des informations de référence pour les agents de transport et les convertisseurs de contenu. Utilisez ces informations pour vous aider à créer des applications d’agent de transport pour Exchange Server 2013.
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Éléments du fichier de configuration agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Éléments du fichier de configuration des agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
     
-- [Transport des espaces de noms de l’agent dans Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)
+- [Espaces de noms de l’agent de transport dans Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)
     
 ## <a name="see-also"></a>Voir aussi
 
 - [Agents de transport dans Exchange](transport-agents-in-exchange-2013.md)
-- [Concepts de l’agent d’Exchange 2013 de transport](transport-agent-concepts-in-exchange-2013.md)
+- [Concepts sur les agents de transport dans Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 

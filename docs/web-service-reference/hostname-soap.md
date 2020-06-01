@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2ef2ab0d-ba70-46bd-80bb-c1e08da9e9bd
-description: L’élément nom d’hôte représente la partie de nom d’hôte du nom complet de l’ordinateur de l’ordinateur.
-ms.openlocfilehash: 4ad3003603a4b62101a76082713f62752b43ecaa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément hostname représente la partie nom d’hôte du nom complet de l’ordinateur.
+ms.openlocfilehash: 2c368e710dc192302bc63bd74bba35d84c5ab705
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827846"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460812"
 ---
 # <a name="hostname-soap"></a>Nom d’hôte (SOAP)
 
-L’élément **nom d’hôte** représente la partie de nom d’hôte du nom complet de l’ordinateur de l’ordinateur. 
+L’élément **hostname** représente la partie nom d’hôte du nom complet de l’ordinateur. 
   
 ```XML
 <Hostname/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,19 +41,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Représente le protocole de connexion du client Web server.  <br/> |
+|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Représente la connexion de protocole du client Web de serveur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **nom d’hôte** est la partie de nom d’hôte du nom complet de l’ordinateur de l’ordinateur. 
+La valeur de texte de l’élément **hostname** est la partie nom d’hôte du nom complet de l’ordinateur de l’ordinateur. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 

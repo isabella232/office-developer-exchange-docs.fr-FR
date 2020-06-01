@@ -1,5 +1,5 @@
 ---
-title: DisplayNames
+title: DisplayName
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dedd43c8-c1d6-4671-89c5-ce7ab3979fda
-description: Les DisplayNames élément spécifie un tableau d’afficher les noms et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 66f10edd26a467af290535196778fbcb550c16ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DisplayNames spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: 7d0c528b5b7f9adae271a42380550115fbcf94d0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756011"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460735"
 ---
-# <a name="displaynames"></a>DisplayNames
+# <a name="displaynames"></a>DisplayName
 
-L’élément **DisplayNames** spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **DisplayNames** spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```xml
 <DisplayNames>
@@ -28,7 +28,7 @@ L’élément **DisplayNames** spécifie un tableau de noms d’affichage et les
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -38,13 +38,13 @@ Aucun
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’attributs associés à un élément personnage.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

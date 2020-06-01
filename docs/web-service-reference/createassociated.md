@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 742a6136-6015-4924-bae4-f3868127e966
 description: L’élément CreateAssociated indique si un client peut créer une table de contenu associée. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: ec6e55ed2423ff5849f6d19aee29f790572ddda6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e88d7670fd9ef848221dab8cc145395bcb11e5bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755680"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460791"
 ---
 # <a name="createassociated"></a>CreateAssociated
 
@@ -30,11 +30,11 @@ L’élément **CreateAssociated** indique si un client peut créer une table de
  **boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation pour l’élément ou le dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation de l’élément ou du dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique qu’un client peut créer une table de contenu associée. 
+Une valeur de texte **true** indique qu’un client peut créer une table de contenu associée. 
   
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée uniquement avec des objets folder.
+Cette propriété est utilisée uniquement sur les objets Folder.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -69,8 +69,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

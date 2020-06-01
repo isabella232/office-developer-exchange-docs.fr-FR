@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
-description: L’élément ContentOwner Spécifie le nom du propriétaire du contenu.
-ms.openlocfilehash: bbc5e69918e31fca639a0fab4987cf7d3541848d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContentOwner spécifie le nom du propriétaire du contenu.
+ms.openlocfilehash: 08dafcac2f9ad4be19e0cb3ccd03249a997e0fa3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755623"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461477"
 ---
 # <a name="contentowner"></a>ContentOwner
 
-L’élément **ContentOwner** Spécifie le nom du propriétaire du contenu. 
+L’élément **ContentOwner** spécifie le nom du propriétaire du contenu. 
   
 ```XML
 <ContentOwner></ContentOwner>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie des informations sur la licence de gestion des droits.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie les informations relatives à la licence de gestion des droits.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément ContentOwner est une chaîne qui spécifie la date d’expiration du contenu.
   
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

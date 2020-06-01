@@ -8,42 +8,42 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: L’opération GetDomainSettings récupère les paramètres du domaine pour l’utilisateur spécifiés. Découverte automatique renvoie les domaines doivent être découvert et les paramètres requis de ces domaines.
-ms.openlocfilehash: 09b1d610cd415d2d9d7d0098354521ece86f5184
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetDomainSettings récupère les paramètres spécifiés du domaine de l’utilisateur. La découverte automatique renvoie les domaines qui doivent être découverts et les paramètres demandés de ces domaines.
+ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756591"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460966"
 ---
 # <a name="getdomainsettings-operation-soap"></a>Opération GetDomainSettings (SOAP)
 
-L’opération **GetDomainSettings** récupère les paramètres du domaine pour l’utilisateur spécifiés. Découverte automatique renvoie les domaines doivent être découvert et les paramètres requis de ces domaines. 
+L’opération **GetDomainSettings** récupère les paramètres spécifiés du domaine de l’utilisateur. La découverte automatique renvoie les domaines qui doivent être découverts et les paramètres demandés de ces domaines. 
   
 ## <a name="getdomainsettings-request-example"></a>Exemple de requête GetDomainSettings
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande **GetDomainSettings** illustre une demande pour les paramètres de domaine d’un utilisateur **ExternalEWSUrl** . Le client envoie cette demande au serveur. 
+L’exemple suivant de requête **GetDomainSettings** affiche une demande pour les paramètres de domaine **ExternalEWSUrl** d’un utilisateur. Le client envoie cette demande au serveur. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"
                xmlns:wsa="http://www.w3.org/2005/08/addressing"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
     <soap:Header> 
         <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-        <wsa:Action>http://schemas.microsoft.com/exchange/2010/
+        <wsa:Action>https://schemas.microsoft.com/exchange/2010/
             Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
         <wsa:To>
             https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc
         </wsa:To>
     </soap:Header> 
     <soap:Body> 
-        <a:GetDomainSettingsRequestMessage xmlns:a="http://schemas.microsoft.com
+        <a:GetDomainSettingsRequestMessage xmlns:a="https://schemas.microsoft.com
             /exchange/2010/Autodiscover"> 
             <a:Request> 
                 <a:Domains> 
@@ -58,7 +58,7 @@ L’exemple suivant d’une demande **GetDomainSettings** illustre une demande p
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -78,17 +78,17 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande **GetDomainSettings** que le serveur envoie au client. 
+L’exemple suivant montre une réponse réussie à la demande **GetDomainSettings** que le serveur envoie au client. 
   
 ### <a name="code"></a>Code
 
 ```XML
 //www.w3.org/2005/08/addressing"> 
     <s:Header> 
-        <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/ 
+        <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/ 
             Autodiscover/Autodiscover/GetDomainSettingsResponse
         </a:Action> 
-        <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+        <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
             xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
         <h:MajorVersion>14</h:MajorVersion> 
         <h:MinorVersion>0</h:MinorVersion> 
@@ -98,7 +98,7 @@ L’exemple suivant montre une réponse positive à la demande **GetDomainSettin
         </h:ServerVersionInfo>
     </s:Header> 
     <s:Body> 
-        <GetDomainSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover"> 
+        <GetDomainSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover"> 
             <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
                 <ErrorCode>NoError</ErrorCode> 
                 <ErrorMessage /> 
@@ -122,7 +122,7 @@ L’exemple suivant montre une réponse positive à la demande **GetDomainSettin
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
 Les éléments suivants sont utilisés dans la réponse :
   

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0a95ca63-660e-4cc0-82e4-3f74fb4ae21c
-description: L’élément UserOofSettings spécifie les paramètres d’absence du bureau (OOF).
-ms.openlocfilehash: a035fd89387ece632d83f5f72a564e4896bc6753
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UserOofSettings spécifie les paramètres d’absence du bureau.
+ms.openlocfilehash: 417c3d5061a6229d41eb57f72e89f03213acf460
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838969"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461904"
 ---
 # <a name="useroofsettings"></a>UserOofSettings
 
-L’élément **UserOofSettings** spécifie les paramètres d’absence du bureau (OOF). 
+L’élément **UserOofSettings** spécifie les paramètres d’absence du bureau. 
   
 [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
   
@@ -40,27 +40,27 @@ L’élément **UserOofSettings** spécifie les paramètres d’absence du burea
  **UserOofSettings**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[OofState](oofstate.md) <br/> |Définit l’état d’absence du bureau de l’utilisateur.  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |Définit ou contient une valeur qui détermine les messages d’absence du bureau externes qui sont envoyés.  <br/> |
-|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Spécifie la durée pour laquelle le statut d’absence du bureau est activé si l’élément [OofState](oofstate.md) est défini sur **planifiées**. Si l’élément [OofState](oofstate.md) est défini sur **activé** ou **désactivé**, la valeur de cet élément est ignorée.  <br/> |
-|[InternalReply](internalreply.md) <br/> |Contient la réponse d’absence du bureau envoyée à d’autres utilisateurs dans le domaine de l’utilisateur ou de domaines approuvés.  <br/> |
-|[ExternalReply](externalreply.md) <br/> |Contient la réponse d’absence du bureau envoyée aux adresses à l’extérieur du destinataire ou les domaines approuvés.  <br/> |
+|[OofState](oofstate.md) <br/> |Définit l’état d’absence du Bureau de l’utilisateur.  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |Définit ou contient une valeur qui détermine à qui les messages externes OOF sont envoyés.  <br/> |
+|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Spécifie la durée pendant laquelle le statut OOF est activé si l’élément [OofState](oofstate.md) est défini sur **Planifié**. Si l’élément [OofState](oofstate.md) est défini sur **Enabled** ou **Disabled**, la valeur de cet élément est ignorée.  <br/> |
+|[InternalReply](internalreply.md) <br/> |Contient la réponse OOF envoyée aux autres utilisateurs dans le domaine de l’utilisateur ou les domaines approuvés.  <br/> |
+|[ExternalReply](externalreply.md) <br/> |Contient la réponse OOF envoyée aux adresses en dehors du domaine du destinataire ou des domaines approuvés.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contient les arguments permet de définir les paramètres d’absence du bureau et des messages d’un utilisateur de boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/SetUserOofSettingsRequest` <br/> |
+|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contient les arguments utilisés pour définir les paramètres et les messages OOF d’un utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,19 +68,19 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande SetUserOofSettings définit le OoFState sur **activé**, définit la durée d’absence du bureau pour 10 jours et définit les messages d’absence du bureau internes et externes.
+L’exemple de requête SetUserOofSettings suivant définit le OoFState sur **activé**, définit la durée de l’absence du Bureau pour 10 jours et définit les messages OOF internes et externes.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -103,9 +103,9 @@ L’exemple suivant d’une demande SetUserOofSettings définit le OoFState sur 
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8372fecd-9dd2-40e5-b3e9-18ab9151590b
-description: L’élément PredictedActionReason est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: fb4a31406e7f4f6337a2dd946e5a723224af5b95
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PredictedActionReason est destiné uniquement à un usage interne.
+ms.openlocfilehash: a7f9e2b57c6dcfe83aba85e3239fd8177e5345df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828873"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462233"
 ---
 # <a name="predictedactionreason"></a>PredictedActionReason
 
-L’élément **PredictedActionReason** est destiné à une utilisation interne uniquement. 
+L’élément **PredictedActionReason** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

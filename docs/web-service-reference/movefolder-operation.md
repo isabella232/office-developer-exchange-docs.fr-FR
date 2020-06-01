@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c7233966-6c87-4a14-8156-b1610760176d
 description: L’opération MoveFolder déplace les dossiers d’un dossier spécifié et les place dans un autre dossier.
-ms.openlocfilehash: 5da6929f11ce9ba74db190db6d799f25974d2192
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828490"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460581"
 ---
 # <a name="movefolder-operation"></a>Opération MoveFolder
 
@@ -25,22 +25,22 @@ L’opération MoveFolder déplace les dossiers d’un dossier spécifié et les
   
 ## <a name="remarks"></a>Remarques
 
-L’opération MoveFolder est similaire à l’opération CopyFolder. Impossible de déplacer des dossiers uniques. Vous pouvez déplacer plusieurs dossiers à la fois dans le dossier de destination.
+L’opération MoveFolder est similaire à l’opération CopyFolder. Vous ne pouvez pas déplacer des dossiers uniques. Vous pouvez déplacer plusieurs dossiers à la fois vers le dossier de destination.
   
 ## <a name="movefolder-request-example"></a>Exemple de requête MoveFolder
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande MoveFolder indique comment former une demande pour déplacer un dossier identifié par l' [ID FolderId](folderid.md) et placez le dossier dans le dossier de courrier indésirable unique. 
+L’exemple de requête MoveFolder suivant montre comment créer une demande de déplacement d’un dossier identifié par le [FolderId](folderid.md) et placer le dossier dans le dossier unique du courrier indésirable. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <MoveFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="junkemail"/>
       </ToFolderId>
@@ -57,9 +57,9 @@ L’exemple suivant d’une demande MoveFolder indique comment former une demand
 > [!NOTE]
 > La valeur de l’attribut ID de l’élément [FolderId](folderid.md) a été raccourcie pour des raisons de lisibilité. 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
-Cette demande MoveFolder comprend les éléments suivants :
+Cette requête MoveFolder inclut les éléments suivants :
   
 - [MoveFolder](movefolder.md)
     
@@ -71,16 +71,16 @@ Cette demande MoveFolder comprend les éléments suivants :
     
 - [FolderId](folderid.md)
     
-Voir le schéma pour les éléments supplémentaires que vous pouvez utiliser pour créer une demande MoveFolder.
+Consultez le schéma pour les éléments supplémentaires que vous pouvez utiliser pour former une requête MoveFolder.
   
 > [!NOTE]
-> L’emplacement par défaut du schéma est dans le répertoire virtuel EWS sur l’ordinateur sur lequel le rôle de serveur d’accès au Client est installé. 
+> L’emplacement par défaut du schéma se trouve dans le répertoire virtuel EWS de l’ordinateur sur lequel le rôle serveur d’accès au client est installé. 
   
-## <a name="successful-movefolder-response-example"></a>Exemple de réponse MoveFolder réussie
+## <a name="successful-movefolder-response-example"></a>Exemple de réponse MoveFolder réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande MoveFolder. 
+L’exemple suivant montre une réponse réussie à la demande MoveFolder. 
   
 ### <a name="code"></a>Code
 
@@ -91,12 +91,12 @@ L’exemple suivant montre une réponse positive à la demande MoveFolder.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <MoveFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -115,11 +115,11 @@ L’exemple suivant montre une réponse positive à la demande MoveFolder.
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> L’ID de dossier et la clé de modification ont été réduits afin de préserver la lisibilité. 
+> L’ID de dossier et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
-L’ID FolderId qui est renvoyé dans la réponse représente le dossier qui a été déplacé vers le nouveau l’emplacement du dossier.
+Le FolderId renvoyé dans la réponse représente le dossier déplacé vers le nouvel emplacement du dossier.
   
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
 La réponse MoveFolder comprend les éléments suivants :
   
@@ -141,7 +141,7 @@ La réponse MoveFolder comprend les éléments suivants :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur qui se produit lorsque vous tentez de déplacer un dossier unique.
+L’exemple suivant montre une réponse d’erreur qui se produit lorsque vous essayez de déplacer un dossier unique.
   
 ### <a name="code"></a>Code
 
@@ -152,12 +152,12 @@ L’exemple suivant montre une réponse d’erreur qui se produit lorsque vous t
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <MoveFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Cannot move distinguished folder.</m:MessageText>
@@ -193,5 +193,5 @@ La réponse d’erreur MoveFolder comprend les éléments suivants :
 
 
 
-[Opération CopyFolder](copyfolder-operation.md)
+[CopyFolder, opération](copyfolder-operation.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Réponse de découverte automatique variole pour Exchange
+title: Réponse de découverte automatique POX pour Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 08c6c5a2-a67a-4141-a8bd-1b5d560b90a7
-description: La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL qui sont utilisées pour établir une liaison avec Exchange Web Services (EWS).
-ms.openlocfilehash: d9f8a5cc86efaa4dceda7385164872ecc5409252
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL utilisées pour établir une liaison avec les services Web Exchange (EWS).
+ms.openlocfilehash: 0d903d9829fa6dc1273d8b25a1eeb0b68700d5da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828863"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462282"
 ---
-# <a name="pox-autodiscover-response-for-exchange"></a>Réponse de découverte automatique variole pour Exchange
+# <a name="pox-autodiscover-response-for-exchange"></a>Réponse de découverte automatique POX pour Exchange
 
-La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL qui sont utilisées pour établir une liaison avec Exchange Web Services (EWS).
+La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL utilisées pour établir une liaison avec les services Web Exchange (EWS).
   
 ## <a name="autodiscover-response-example"></a>Exemple de réponse de découverte automatique
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive de découverte automatique.
+L’exemple suivant montre une réponse de découverte automatique réussie.
   
 ### <a name="code"></a>Code
 
 ```XML
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
     <User>
       <DisplayName>First Last</DisplayName>
       <LegacyDN>/o=contoso/ou=First Administrative Group/cn=Recipients/cn=iuser885646</LegacyDN>
@@ -74,11 +74,11 @@ L’exemple suivant montre une réponse positive de découverte automatique.
 
 ### <a name="comments"></a>Commentaires
 
-Pour lier aux Services Web Exchange, utilisez l’URL identifié par l’élément [ASUrl (POX)](asurl-pox.md) . 
+Pour établir une liaison avec les services Web Exchange, utilisez l’URL identifiée par l’élément [ASUrl (POX)](asurl-pox.md) . 
   
 ### <a name="response-element"></a>Response, élément
 
-Les éléments suivants sont utilisés dans le corps de réponse :
+Les éléments suivants sont utilisés dans le corps de la réponse :
   
 - [Découverte automatique (POX)](autodiscover-pox.md)
     
@@ -98,7 +98,7 @@ Les éléments suivants sont utilisés dans le corps de réponse :
     
 - [Action (POX)](action-pox.md)
     
-- [Protocole (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
     
 - [Type (POX)](type-pox.md)
     
@@ -132,8 +132,8 @@ L’exemple suivant montre une réponse d’erreur de découverte automatique.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
     <Error Time="21:25:04.8897083" Id="4130155072">
       <ErrorCode>600</ErrorCode>
       <Message>Invalid Request</Message>
@@ -145,7 +145,7 @@ L’exemple suivant montre une réponse d’erreur de découverte automatique.
 
 ### <a name="error-response-element"></a>Élément de réponse d’erreur
 
-Les éléments suivants sont utilisés dans le corps de réponse :
+Les éléments suivants sont utilisés dans le corps de la réponse :
   
 - [Découverte automatique (POX)](autodiscover-pox.md)
     
@@ -161,7 +161,7 @@ Les éléments suivants sont utilisés dans le corps de réponse :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Demande de découverte automatique variole pour Exchange](pox-autodiscover-request-for-exchange.md)
-- [Référence de service web variole découverte automatique pour Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Demande de découverte automatique POX pour Exchange](pox-autodiscover-request-for-exchange.md)
+- [Référence du service Web de découverte automatique POX pour Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

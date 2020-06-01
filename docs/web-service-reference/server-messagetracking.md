@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: eb5408bd-6fa5-4415-9224-24d5e07ec5b3
-description: L’élément serveur représente le serveur physique où l’événement s’est produite.
-ms.openlocfilehash: 95117eb2b5d195bc8b7ff90098e4138b67722f28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Server représente le serveur physique où l’événement s’est produit.
+ms.openlocfilehash: 1a5d2e223acfc402ae964c619598845e4212b639
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829372"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462044"
 ---
 # <a name="server-messagetracking"></a>Serveur (MessageTracking)
 
-L’élément **serveur** représente le serveur physique où l’événement s’est produite. 
+L’élément **Server** représente le serveur physique où l’événement s’est produit. 
   
 ```XML
 <Server/>
@@ -30,11 +30,11 @@ L’élément **serveur** représente le serveur physique où l’événement s�
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

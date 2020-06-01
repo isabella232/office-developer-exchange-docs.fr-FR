@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cbd38049-2ef7-40bf-9bec-0469af0f58ec
-description: L’élément membres fournit la liste des membres pour une liste de distribution.
-ms.openlocfilehash: 8cf9ed7a64a908614ce7be30a9bef631739fcebf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Members fournit la liste des membres d’une liste de distribution.
+ms.openlocfilehash: 2cdfb81dfbc223db365d49ed44d4893339eb4653
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828439"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462429"
 ---
 # <a name="members-memberlisttype"></a>Membres (MemberListType)
 
-L’élément **membres** fournit la liste des membres pour une liste de distribution. 
+L’élément **members** fournit la liste des membres d’une liste de distribution. 
   
 ```xml
 <Members>
@@ -33,17 +33,17 @@ L’élément **membres** fournit la liste des membres pour une liste de distrib
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Membre](member-ex15websvcsotherref.md) <br/> |Fournit un identificateur pour une adresse de messagerie entièrement résolu et l’état de l’adresse sur le serveur. Cet élément est facultatif.  <br/> |
+|[Membre](member-ex15websvcsotherref.md) <br/> |Fournit un identificateur pour une adresse de messagerie entièrement résolue et l’état de cette adresse sur le serveur. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bc213f0e-a655-44e9-9ac9-bc1673bae1fe
-description: L’élément ExtractAllowed indique si l’extraction d’entités est activée.
-ms.openlocfilehash: 48584e50be0ff66d156d9a3c3768729d63a9a3fd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ExtractAllowed spécifie si l’extraction d’entité est activée.
+ms.openlocfilehash: f9fcae72d6241e51f549fbf650f5b2aebe019e46
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756345"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461981"
 ---
 # <a name="extractallowed"></a>ExtractAllowed
 
-L’élément **ExtractAllowed** indique si l’extraction d’entités est activée. 
+L’élément **ExtractAllowed** spécifie si l’extraction d’entité est activée. 
   
 ```XML
 <ExtractAllowed>true | false</ExtractAllowed
@@ -26,11 +26,11 @@ L’élément **ExtractAllowed** indique si l’extraction d’entités est acti
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie des informations sur la licence de gestion des droits.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie les informations relatives à la licence de gestion des droits.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **ExtractAllowed** indique que l’extraction d’entités est activé. La valeur **false** indique que l’extraction d’entités n’est pas activé. 
+Une valeur de texte de **true** pour l’élément **ExtractAllowed** indique que l’extraction d’entité est activée. La valeur **false** indique que l’extraction d’entité n’est pas activée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

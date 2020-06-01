@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 241a23ee-d2a2-4724-b794-d0d523d480a2
-description: L’élément AuthRequired Spécifie si l’authentification est requise.
-ms.openlocfilehash: b747f53766b6b914955c5e41b63462b9b44bff4e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AuthRequired spécifie si l’authentification est requise.
+ms.openlocfilehash: 25e3aff6a6db719c7f466e30fd6166e602f2d418
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755357"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461624"
 ---
 # <a name="authrequired-pox"></a>AuthRequired (POX)
 
-L’élément **AuthRequired** Spécifie si l’authentification est requise. 
+L’élément **AuthRequired** spécifie si l’authentification est requise. 
   
 - [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **AuthRequired** Spécifie si l’authentification est requise.
   
 - [Compte (POX)](account-pox.md)
   
-- [Protocole (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
 - [AuthRequired (POX)](authrequired-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **AuthRequired** Spécifie si l’authentification est requise.
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,13 +50,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie si l’authentification est requise. Les valeurs possibles sont **on** et **off**. Si une valeur n’est pas spécifiée, la valeur par défaut est **sur**. 
+La valeur texte spécifie si l’authentification est requise. Les valeurs possibles sont **on** et **off**. Si aucune valeur n’est spécifiée, la valeur par défaut est **on**. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

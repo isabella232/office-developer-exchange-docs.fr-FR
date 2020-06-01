@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 24d10a15-b942-415e-9024-a6375708f326
-description: L’opération GetAttachment est utilisée pour récupérer les pièces jointes existantes sur des éléments de la banque d’informations Exchange.
-ms.openlocfilehash: c260033208bf49c60463c09041d8ffcc52a8f5c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetAttachment est utilisée pour récupérer des pièces jointes existantes sur des éléments de la Banque d’Exchange.
+ms.openlocfilehash: ac7eafd61c62b077a8d20e5fd8d004924bf06cf1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756527"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461288"
 ---
 # <a name="getattachment-operation"></a>Opération GetAttachment
 
-L’opération GetAttachment est utilisée pour récupérer les pièces jointes existantes sur des éléments de la banque d’informations Exchange.
+L’opération GetAttachment est utilisée pour récupérer des pièces jointes existantes sur des éléments de la Banque d’Exchange.
   
 ## <a name="getattachment-request-example"></a>Exemple de requête GetAttachment
 
@@ -36,10 +36,10 @@ L’exemple de requête GetAttachment suivant montre comment obtenir une pièce 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape/>
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX..."/>
@@ -51,14 +51,14 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>Commentaires
 
-L’élément [AttachmentShape](attachmentshape.md) vous permet de vous permet de spécifier les informations de pièce jointe doivent être retournées. Un élément [AttachmentShape](attachmentshape.md) vide est valide et affiche votre les pièces jointes sans contenu MIME des pièces jointes d’élément, avec un type de corps de texte et sans les propriétés supplémentaires. 
+L’élément [AttachmentShape](attachmentshape.md) vous permet de spécifier les informations de pièce jointe à renvoyer. Un élément [AttachmentShape](attachmentshape.md) vide est valide et affiche vos pièces jointes sans contenu MIME pour les pièces jointes d’éléments, avec un type de corps de texte et sans propriétés supplémentaires. 
   
-La collection [AttachmentIds](attachmentids.md) vous permet de spécifier un ou plusieurs identificateurs de pièce jointe à renvoyer. Notez qu’il s’agit du type RequestAttachmentIdType, n’importe quel AttachmentIds que vous recevez **CreateAttachment** doit avoir les attributs **RootItemId** et **RootItemChangeKey** supprimé avant de les transmettre à **GetAttachment**.
+La collection [AttachmentIds](attachmentids.md) vous permet de spécifier un ou plusieurs identificateurs de pièce jointe à renvoyer. Notez que ces éléments sont de type RequestAttachmentIdType, de sorte que les AttachmentIds que vous recevez de **CreateAttachment** doivent être supprimés des attributs **RootItemId** et **RootItemChangeKey** avant de les transmettre à **GetAttachment**.
   
 > [!NOTE]
-> L’identificateur de pièce jointe et modifier la clé ont été réduits afin de préserver la lisibilité. 
+> L’identificateur de pièce jointe et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -74,7 +74,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande GetAttachment. Cet exemple renvoie une pièce jointe.
+L’exemple suivant montre une réponse réussie à une demande GetAttachment. Cet exemple renvoie une pièce jointe de fichier.
   
 ### <a name="code"></a>Code
 
@@ -85,12 +85,12 @@ L’exemple suivant montre une réponse positive à une demande GetAttachment. C
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -110,9 +110,9 @@ L’exemple suivant montre une réponse positive à une demande GetAttachment. C
 
 ### <a name="comments"></a>Commentaires
 
-Les messages de réponse pour GetAttachment contient toujours la pièce jointe complet ; Autrement dit, toutes les propriétés sera toujours incluses. Pour les pièces jointes, ces propriétés sont [nom (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md)et [contenu](content.md). Les pièces jointes d’élément, ces propriétés sont [nom (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) et toutes les propriétés de l’élément, comme si la forme **AllProperties** a été utilisée dans un appel GetItem. L’élément [AttachmentShape](attachmentshape.md) , le cas échéant, permettra une application consommateur demander les propriétés étendues supplémentaires pour les pièces jointes de l’élément. 
+Les messages de réponse pour GetAttachment contiennent toujours la pièce jointe complète ; autrement dit, toutes les propriétés sont toujours incluses. Pour les pièces jointes, ces propriétés sont [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [contentid](contentid.md), [ContentLocation](contentlocation.md)et [content](content.md). Pour les pièces jointes d’éléments, ces propriétés sont [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [contentid](contentid.md), [ContentLocation](contentlocation.md) et toutes les propriétés de l’élément, comme si la forme **AllProperties** avait été utilisée dans un appel de GetItem. L’élément [AttachmentShape](attachmentshape.md) , s’il est présent, permet à une application consommateur de demander des propriétés étendues supplémentaires pour les pièces jointes d’éléments. 
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -126,7 +126,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [Pièces jointes](attachments-ex15websvcsotherref.md)
+- [Attachments](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     

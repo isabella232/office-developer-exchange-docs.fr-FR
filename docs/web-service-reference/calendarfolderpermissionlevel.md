@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2a5c9381-dc2c-4fc6-b9b5-893477d0970e
-description: L’élément CalendarFolderPermissionLevel contient les autorisations pour le dossier calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 5d51fea522656910d8417e7f75214214e2c162c6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CalendarFolderPermissionLevel contient les autorisations pour le dossier de calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: dcbd57da42b5e701d898c3756ce9bcc100c20af7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755470"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461463"
 ---
 # <a name="calendarfolderpermissionlevel"></a>CalendarFolderPermissionLevel
 
-L’élément **CalendarFolderPermissionLevel** contient les autorisations pour le dossier calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **CalendarFolderPermissionLevel** contient les autorisations pour le dossier de calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CalendarFolderPermissionLevel>
@@ -32,11 +32,11 @@ L’élément **CalendarFolderPermissionLevel** contient les autorisations pour 
  **DelegateFolderPermissionLevelType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres au niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs de texte qui représentent les niveaux d’autorisation.
   
@@ -56,11 +56,11 @@ Le tableau suivant répertorie les valeurs de texte qui représentent les niveau
 
 |**Niveau d’autorisation**|**Description**|
 |:-----|:-----|
-|None  <br/> |L’utilisateur délégué n’a aucune autorisation d’accès au dossier de calendrier.  <br/> |
-|Reviewer  <br/> |L’utilisateur délégué peut lire des éléments dans le dossier calendrier.  <br/> |
-|Auteur  <br/> |L’utilisateur délégué pouvant lire et créer des éléments dans le dossier calendrier.  <br/> |
-|Editor  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier calendrier.  <br/> |
-|Personnalisé  <br/> |L’utilisateur délégué dispose des autorisations d’accès personnalisées dans le dossier calendrier.  <br/> |
+|Aucun  <br/> |L’utilisateur délégué ne dispose pas des autorisations d’accès au dossier calendrier.  <br/> |
+|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments dans le dossier calendrier.  <br/> |
+|Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier calendrier.  <br/> |
+|Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier calendrier.  <br/> |
+|Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier calendrier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -87,5 +87,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Ajout de délégués](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

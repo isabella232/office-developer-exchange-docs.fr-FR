@@ -7,51 +7,51 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
-description: Opération de recherche plus d’informations sur la GetDiscoverySearchConfiguration EWS.
-ms.openlocfilehash: a50463e575bf5a4ffdafc357d91563b0ca0486f4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS GetDiscoverySearchConfiguration.
+ms.openlocfilehash: 4db435988a9954b921e7851986b6f92ffedbad94
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756573"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461022"
 ---
 # <a name="getdiscoverysearchconfiguration-operation"></a>Opération GetDiscoverySearchConfiguration
 
 Trouvez des informations sur l’opération EWS **GetDiscoverySearchConfiguration** . 
   
-L’opération **GetDiscoverySearchConfiguration** renvoie contient des informations de configuration sur place, enregistré les recherches de découverte et les boîtes aux lettres qui sont activées pour la recherche de découverte. 
+L’opération **GetDiscoverySearchConfiguration** renvoie les informations de configuration pour les conservations inaltérables, les recherches de découverte enregistrées et les boîtes aux lettres qui sont activées pour la recherche de découverte. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getdiscoverysearchconfiguration-operation"></a>Utilisation de l’opération GetDiscoverySearchConfiguration
 
-L’opération **GetDiscoverySearchConfiguration** fournit des informations de configuration pour la recherche de découverte. Demandes peuvent contenir une ou plusieurs des arguments suivants : 
+L’opération **GetDiscoverySearchConfiguration** fournit des informations de configuration pour la recherche de découverte. Les requêtes peuvent contenir un ou plusieurs des arguments suivants : 
   
-1. [La valeur SearchId](searchid.md) — identifie une recherche de découverte enregistrés. Si cet argument est envoyé dans la demande, les valeurs des autres arguments sont ignorés. 
+1. [SearchId](searchid.md) — identifie une recherche de découverte enregistrée. Si cet argument est envoyé dans la demande, les valeurs des autres arguments sont ignorées. 
     
-2. [ExpandGroupMembership](expandgroupmembership.md) — indique si l’appartenance au groupe est développée dans la réponse. La valeur **true** indique que l’appartenance au groupe est étendue afin que toutes les boîtes aux lettres de recherche sont renvoyés dans la réponse. La valeur **false** indique que seul le groupe est renvoyé dans la réponse. 
+2. [ExpandGroupMembership](expandgroupmembership.md) — indique si l’appartenance au groupe est développée dans la réponse. La valeur **true** indique que l’appartenance au groupe est étendue de sorte que toutes les boîtes aux lettres pouvant faire l’objet d’une recherche soient renvoyées dans la réponse. La valeur **false** indique que seul le groupe est renvoyé dans la réponse. 
     
-3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — indique si toutes les boîtes aux lettres de recherche sont renvoyés en plus de la configuration dans une archive permanente. La valeur **true** indique qu’uniquement les configurations de suspension en place sont retournées. La valeur **false** indique que tous les identificateurs de recherche de boîte aux lettres sont retournés outre les identificateurs de suspension en place. Si cet élément n’est pas présent, le comportement par défaut est l’équivalent de la valeur **false**. 
+3. [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) — indique si toutes les boîtes aux lettres pouvant faire l’objet d’une recherche sont renvoyées en plus de la configuration de conservation inaltérable. La valeur **true** indique que seules les configurations de conservation inaltérable sont renvoyées. La valeur **false** indique que tous les identificateurs de boîte aux lettres pouvant faire l’objet d’une recherche sont renvoyés en plus des identificateurs de conservation inaltérable. Si cet élément n’est pas présent, le comportement par défaut est l’équivalent de la valeur **false**. 
     
-### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>En-têtes SOAP GetDiscoverySearchConfiguration opération
+### <a name="getdiscoverysearchconfiguration-operation-soap-headers"></a>En-têtes SOAP d’opération GetDiscoverySearchConfiguration
 
-L’opération **GetDiscoverySearchConfiguration** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant. 
+L’opération **GetDiscoverySearchConfiguration** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles de serveur qui sont nécessaires pour l’appelant effectuer la demande. Cet en-tête est applicable à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération. Cet en-tête est applicable à une demande.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête est applicable à une réponse.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Exemple de requête d’opération GetDiscoverySearchConfiguration : obtenir la configuration de recherche de découverte d’une recherche enregistrée
+## <a name="getdiscoverysearchconfiguration-operation-request-example-get-the-discovery-search-configuration-for-a-saved-search"></a>Exemple de requête d’opération GetDiscoverySearchConfiguration : obtenir la configuration de recherche de découverte pour une recherche enregistrée
 
-Une demande d’opération **GetDiscoverySearchConfiguration** l’exemple suivant montre comment demander la configuration d’une recherche enregistrée appelée « MyDiscSearchFor-sbrown ». Les arguments des éléments [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) [ExpandGroupMembership](expandgroupmembership.md) sont ignorés. 
+L’exemple suivant de demande d’opération **GetDiscoverySearchConfiguration** indique comment demander la configuration d’une recherche enregistrée appelée « MyDiscSearchFor-sbrown ». Les arguments des éléments [ExpandGroupMembership](expandgroupmembership.md) et [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md) sont ignorés. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -66,31 +66,31 @@ Une demande d’opération **GetDiscoverySearchConfiguration** l’exemple suiva
 
 ```
 
-La demande SOAP body contient les éléments suivants :
+Le corps SOAP de la demande contient les éléments suivants :
   
 - [GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md)
     
-- [Valeur SearchId](searchid.md)
+- [SearchId](searchid.md)
     
 - [ExpandGroupMembership](expandgroupmembership.md)
     
 - [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Réponse d’opération GetDiscoverySearchConfiguration réussie : demander pour une seule recherche enregistrée
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-a-single-saved-search"></a>Réponse de l’opération GetDiscoverySearchConfiguration réussie : demande d’une recherche enregistrée unique
 
-L’exemple suivant montre une réponse positive à une demande d’opération **GetDiscoverySearchConfiguration** pour obtenir la configuration d’une recherche enregistrée appelée « MyDiscSearchFor-sbrown ». 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetDiscoverySearchConfiguration** pour obtenir la configuration d’une recherche enregistrée appelée « MyDiscSearchFor-sbrown ». 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <DiscoverySearchConfigurations>
-        <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <SearchId>MyDiscSearchFor-sbrown</SearchId>
           <SearchQuery>test item</SearchQuery>
           <SearchableMailboxes>
@@ -111,7 +111,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
 </s:Envelope>
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -121,7 +121,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
     
-- [Valeur SearchId](searchid.md)
+- [SearchId](searchid.md)
     
 - [SearchQuery](searchquery.md)
     
@@ -129,9 +129,9 @@ La réponse SOAP body contient les éléments suivants :
     
 - [SearchableMailbox](searchablemailbox.md)
     
-- [GUID](guid-ex15websvcsotherref.md)
+- [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress (chaîne)](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (String)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
@@ -143,9 +143,9 @@ La réponse SOAP body contient les éléments suivants :
     
 - [ReferenceId](referenceid.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Réponse d’opération GetDiscoverySearchConfiguration réussie : demande d’archives permanentes
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-in-place-holds"></a>Réponse de l’opération GetDiscoverySearchConfiguration réussie : demande de conservations inaltérables
 
-L’exemple suivant montre une réponse positive à une demande d’opération **GetDiscoverySearchConfiguration** pour obtenir uniquement des archives permanentes. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetDiscoverySearchConfiguration** afin d’obtenir uniquement les conservations inaltérables. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,24 +156,24 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <InPlaceHoldIdentity>3f37d90f53144558a80814ef0272749a9</InPlaceHoldIdentity>
                <ManagedByOrganization/>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <InPlaceHoldIdentity>6ea486f0f3f140efb044682a2e782abdf</InPlaceHoldIdentity>
@@ -186,7 +186,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
 
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -196,7 +196,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
     
-- [Valeur SearchId](searchid.md)
+- [SearchId](searchid.md)
     
 - [SearchQuery](searchquery.md)
     
@@ -204,9 +204,9 @@ La réponse SOAP body contient les éléments suivants :
     
 - [ManagedByOrganization](managedbyorganization.md)
     
-## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Réponse d’opération GetDiscoverySearchConfiguration réussie : demander pour tous les enregistrement découverte des configurations de recherche
+## <a name="successful-getdiscoverysearchconfiguration-operation-response-request-for-all-saved-discovery-search-configurations"></a>Réponse de l’opération GetDiscoverySearchConfiguration réussie : demande pour toutes les configurations de recherche enregistrées
 
-L’exemple suivant montre une réponse positive à une demande d’opération **GetDiscoverySearchConfiguration** pour obtenir toutes les recherches de découverte enregistrés. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetDiscoverySearchConfiguration** pour obtenir toutes les recherches de découverte enregistrées. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -217,18 +217,18 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <SearchableMailboxes>
@@ -243,7 +243,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                   </SearchableMailbox>
                </SearchableMailboxes>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <SearchableMailboxes>
@@ -273,7 +273,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
 </s:Envelope>
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -283,7 +283,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
     
-- [Valeur SearchId](searchid.md)
+- [SearchId](searchid.md)
     
 - [SearchQuery](searchquery.md)
     
@@ -291,9 +291,9 @@ La réponse SOAP body contient les éléments suivants :
     
 - [SearchableMailbox](searchablemailbox.md)
     
-- [GUID](guid-ex15websvcsotherref.md)
+- [Guid](guid-ex15websvcsotherref.md)
     
-- [PrimarySmtpAddress (chaîne)](primarysmtpaddress-string.md)
+- [PrimarySmtpAddress (String)](primarysmtpaddress-string.md)
     
 - [IsExternalMailbox](isexternalmailbox.md)
     
@@ -307,7 +307,7 @@ La réponse SOAP body contient les éléments suivants :
     
 ## <a name="getdiscoverysearchconfiguration-operation-error-response"></a>Réponse d’erreur d’opération GetDiscoverySearchConfiguration
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetDiscoverySearchConfiguration** . Il s’agit d’une réponse à une demande pour obtenir une recherche enregistrée est introuvable sur le serveur. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetDiscoverySearchConfiguration** . Réponse à une demande d’obtention d’une recherche enregistrée qui est introuvable sur le serveur. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -317,15 +317,15 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Error" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Search configuration corresponding to the search id was not found.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -336,7 +336,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-La réponse d’erreur corps SOAP contient les éléments suivants :
+Le corps SOAP de la réponse d’erreur contient les éléments suivants :
   
 - [GetDiscoverySearchConfigurationResponse](getdiscoverysearchconfigurationresponse.md)
     
@@ -348,7 +348,7 @@ La réponse d’erreur corps SOAP contient les éléments suivants :
     
 - [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
     
-Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).
+Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

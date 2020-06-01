@@ -1,5 +1,5 @@
 ---
-title: propriété entryId (service web de messagerie unifiée)
+title: entryId (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,21 +10,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: ce62eab5-0079-493b-be1f-52b62fdf35dc
-description: L’élément entryId contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une requête (service web de messagerie unifiée) d’opération PlayOnPhone.
-ms.openlocfilehash: 2bd9499a1be3935e10f9e2953a52cc8ffc18ade9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément entryId contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une demande PlayOnPhone Operation (service Web de messagerie unifiée).
+ms.openlocfilehash: 5b0ad5c5af682f7589d94219955dde646cd2897a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756199"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460693"
 ---
-# <a name="entryid-um-web-service"></a>propriété entryId (service web de messagerie unifiée)
+# <a name="entryid-um-web-service"></a>entryId (service Web de messagerie unifiée)
 
-L’élément **entryId** contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une requête [d’opération PlayOnPhone (service web de messagerie unifiée)](playonphone-operation-um-web-service.md) . 
+L’élément **EntryID** contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une demande [PlayOnPhone Operation (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md) . 
   
-[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md)
+[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md)
   
-[propriété entryId (service web de messagerie unifiée)](entryid-um-web-service.md)
+[entryId (service Web de messagerie unifiée)](entryid-um-web-service.md)
   
 ```xml
 <PlayOnPhone>
@@ -32,14 +32,14 @@ L’élément **entryId** contient la valeur qui représente l’identificateur 
 </PlayOnPhone>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,28 +49,28 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md) <br/> |Définit une demande pour lire un élément sur un téléphone.  <br/> |
+|[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md) <br/> |Définit une demande de lecture d’un élément sur un téléphone.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise.
+Une valeur de texte est requise.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération PlayOnPhone (service web de messagerie unifiée)](playonphone-operation-um-web-service.md)
+[Opération PlayOnPhone (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md)
   
-[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md)
+[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md)
   
 [Opération FindItem](finditem-operation.md)
 

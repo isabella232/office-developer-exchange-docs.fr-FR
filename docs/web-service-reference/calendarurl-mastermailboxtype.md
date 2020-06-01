@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7914995f-444b-4798-8c92-3c5b7d70042d
-description: L’élément CalendarUrl (MasterMailboxType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 57e8c1133007b1ee204552edd59d16aa691f6dbe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CalendarUrl (MasterMailboxType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: 249dcf3d42ccc5202a2a62bbbb67bc33a2fa2fff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755484"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460805"
 ---
 # <a name="calendarurl-mastermailboxtype"></a>CalendarUrl (MasterMailboxType)
 
-L’élément **CalendarUrl (MasterMailboxType)** est destiné à une utilisation interne uniquement. 
+L’élément **CalendarUrl (MasterMailboxType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

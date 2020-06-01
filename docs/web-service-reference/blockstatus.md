@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 08556ee9-0923-437c-99a4-bb630f04e973
-description: L’élément BlockStatus Spécifie l’état de blocage d’un élément.
-ms.openlocfilehash: 5733738d733578c47b849b9d7c62c9b66cd8922e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BlockStatus spécifie l’état de blocage d’un élément.
+ms.openlocfilehash: e88236274bfa70216e872025c2a94231f837df1f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755399"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462275"
 ---
 # <a name="blockstatus"></a>BlockStatus
 
-L’élément **BlockStatus** Spécifie l’état de blocage d’un élément. 
+L’élément **BlockStatus** spécifie l’état de blocage d’un élément. 
   
 ```XML
 <BlockStatus> true | false </BlockStatus
@@ -26,11 +26,11 @@ L’élément **BlockStatus** Spécifie l’état de blocage d’un élément.
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,11 +43,11 @@ Aucun.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact dans la banque d'informations Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
-|[Item](item.md) <br/> |Représente un élément générique dans la banque d’informations Exchange.  <br/> |
+|[Élément](item.md) <br/> |Représente un élément générique dans la Banque d’Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **BlockStatus** indique qu’un élément est bloqué. La valeur **false** indique qu’un élément n’est pas bloqué. 
+Une valeur de texte de **true** pour l’élément **BlockStatus** indique qu’un élément est bloqué. La valeur **false** indique qu’un élément n’est pas bloqué. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,5 +1,5 @@
 ---
-title: Éléments du fichier XML Autodiscover variole pour Exchange
+title: Éléments XML de découverte automatique de la VARIOle pour Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,28 +8,28 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 4ea99dcc-4b5a-48be-9cb7-f92851d13b03
-description: Trouvez des informations de référence d’élément XML pour le service web de découverte automatique variole dans Exchange.
-ms.openlocfilehash: 6fb7b34d366e2d1d72c32d4c3e76f4b19266a6c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Recherchez des informations de référence sur les éléments XML pour le service Web de découverte automatique POX dans Exchange.
+ms.openlocfilehash: 9085491197f5aa79ffe54c5c920708d7b100458f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828864"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462247"
 ---
-# <a name="pox-autodiscover-xml-elements-for-exchange"></a>Éléments du fichier XML Autodiscover variole pour Exchange
+# <a name="pox-autodiscover-xml-elements-for-exchange"></a>Éléments XML de découverte automatique de la VARIOle pour Exchange
 
-Trouvez des informations de référence d’élément XML pour le service web de découverte automatique variole dans Exchange.
+Recherchez des informations de référence sur les éléments XML pour le service Web de découverte automatique POX dans Exchange.
   
-La documentation de cette section est basée sur les instances d’élément XML de découverte automatique variole qui sont envoyés entre le client et le serveur. Le service de découverte automatique variole ne dispose pas d’un schéma publié qui peut être découverts sur le serveur. Cette section fournit des informations sur les éléments XML de découverte automatique variole individuels.
+La documentation de cette section est basée sur les instances d’éléments XML de découverte automatique POX qui sont envoyées entre le client et le serveur. Le service de découverte automatique POX ne dispose pas d’un schéma publié qui peut être découvert sur le serveur. Cette section fournit des informations sur les éléments XML individuels de découverte automatique de la VARIOle.
   
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 <a name="bk_RelatedSections"> </a>
 
-[Référence de service web variole découverte automatique pour Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
+[Référence du service Web de découverte automatique POX pour Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
   
 [Référence EWS pour Exchange](ews-reference-for-exchange.md)
   
-[Référence au service web messagerie unifiée pour Exchange](unified-messaging-web-service-reference-for-exchange.md)
+[Référence du service Web de messagerie unifiée pour Exchange](unified-messaging-web-service-reference-for-exchange.md)
   
 ## <a name="see-also"></a>Voir aussi
 

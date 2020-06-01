@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 78ed7503-7d65-45e8-b1b0-d26534217058
-description: L’élément ImTelephoneNumber représente le numéro de téléphone d’un contact est ajouté à un groupe (IM) de messagerie instantanée.
-ms.openlocfilehash: faa92ad7a59181823cdcc0b93a0bd4e497f3c43e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ImTelephoneNumber représente le numéro de téléphone d’un contact qui est ajouté à un groupe de messagerie instantanée.
+ms.openlocfilehash: df2f089b6aef9dfe6cc8aa8f3a1748029b1a37d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827900"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460644"
 ---
 # <a name="imtelephonenumber"></a>ImTelephoneNumber
 
-L’élément **ImTelephoneNumber** représente le numéro de téléphone d’un contact est ajouté à un groupe (IM) de messagerie instantanée. 
+L’élément **ImTelephoneNumber** représente le numéro de téléphone d’un contact qui est ajouté à un groupe de messagerie instantanée. 
   
 ```XML
 <ImTelephoneNumber></ImTelephoneNumber>
@@ -26,11 +26,11 @@ L’élément **ImTelephoneNumber** représente le numéro de téléphone d’un
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **ImTelephoneNumber** est le numéro de téléphone d’un contact. 
   
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 

@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 97c94d32-10f1-4c3e-ab20-9fd7e8257e50
 description: L’élément GetServerTimeZonesResponse définit une réponse à une demande d’opération GetServerTimeZones.
-ms.openlocfilehash: 119809076c82ff75a6dd061fc976f861e13f4e57
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5a8dbe19055e3b697149c10df610d081cb65430b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827664"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460924"
 ---
 # <a name="getservertimezonesresponse"></a>GetServerTimeZonesResponse
 
-L’élément **GetServerTimeZonesResponse** définit une réponse à une demande [d’opération GetServerTimeZones](getservertimezones-operation.md) . 
+L’élément **GetServerTimeZonesResponse** définit une réponse à une demande d' [opération GetServerTimeZones](getservertimezones-operation.md) . 
   
 ```XML
 <GetServerTimeZonesResponse>
@@ -32,17 +32,17 @@ L’élément **GetServerTimeZonesResponse** définit une réponse à une demand
  **GetServerTimeZonesResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

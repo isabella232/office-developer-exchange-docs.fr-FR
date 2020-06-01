@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6c971cf7-5c3a-4e5e-9a7d-048f4ac0aadb
-description: L’élément ApprovalRequestData Spécifie l’état d’approbation d’un message de demande d’approbation.
-ms.openlocfilehash: ed1c1e3db4edd2cf4de032dc61abd73e863d4f1d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ApprovalRequestData spécifie l’état d’approbation d’un message de demande d’approbation.
+ms.openlocfilehash: decbd4d646a56b9810387adcdb6a9049da89bc38
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755309"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462303"
 ---
 # <a name="approvalrequestdata"></a>ApprovalRequestData
 
-L’élément **ApprovalRequestData** Spécifie l’état d’approbation d’un message de demande d’approbation. 
+L’élément **ApprovalRequestData** spécifie l’état d’approbation d’un message de demande d’approbation. 
   
 ```xml
 <ApprovalRequestData>
@@ -31,15 +31,15 @@ L’élément **ApprovalRequestData** Spécifie l’état d’approbation d’un
  **ApprovalRequestDataType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[IsUndecidedApprovalRequest](isundecidedapprovalrequest.md) | [ApprovalDecision](approvaldecision.md) | [ApprovalDecisionMaker](approvaldecisionmaker.md) | [ApprovalDecisionTime](approvaldecisiontime.md)
+[IsUndecidedApprovalRequest](isundecidedapprovalrequest.md)  |  [ApprovalDecision](approvaldecision.md)  |  [ApprovalDecisionMaker](approvaldecisionmaker.md)  |  [ApprovalDecisionTime](approvaldecisiontime.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2ef73d13-e8bb-43f6-96c7-3ee157fed739
-description: L’élément ServerDN Spécifie le nom unique de l’ordinateur qui exécute Microsoft Exchange Server 2007.
-ms.openlocfilehash: d2b9ce663d8245a78acd088b0622406c0dfcb4da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ServerDN spécifie le nom unique de l’ordinateur qui exécute Microsoft Exchange Server 2007.
+ms.openlocfilehash: 16c6e7368e221b7e54c8d7d63532bb29464a7e54
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829374"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461995"
 ---
 # <a name="serverdn-pox"></a>ServerDN (POX)
 
-L’élément **ServerDN** Spécifie le nom unique de l’ordinateur qui exécute Microsoft Exchange Server 2007. 
+L’élément **ServerDN** spécifie le nom unique de l’ordinateur qui exécute Microsoft Exchange Server 2007. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **ServerDN** Spécifie le nom unique de l’ordinateur qui exécut
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [ServerDN (POX)](serverdn-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **ServerDN** Spécifie le nom unique de l’ordinateur qui exécut
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,19 +50,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte représente le nom unique du serveur Exchange.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur **ServerDN** est uniquement utilisée lorsque [Type (POX)](type-pox.md) est égal à change 
+La valeur **ServerDN** est utilisée uniquement lorsque [type (POX)](type-pox.md) est égal à Exch. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

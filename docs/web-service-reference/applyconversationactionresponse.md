@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 682d47a6-f9fe-4cc6-a56c-c5db835d5ec6
 description: L’élément ApplyConversationActionResponse définit une réponse à une demande d’opération ApplyConversationAction.
-ms.openlocfilehash: 39f7344596de7376e770ed98dbe372a590057deb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 22955378f8982c92b4cd0e9b8880b6907f47aa0c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755296"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461673"
 ---
 # <a name="applyconversationactionresponse"></a>ApplyConversationActionResponse
 
-L’élément **ApplyConversationActionResponse** définit une réponse à une demande [d’opération ApplyConversationAction](applyconversationaction-operation.md) . 
+L’élément **ApplyConversationActionResponse** définit une réponse à une demande d' [opération ApplyConversationAction](applyconversationaction-operation.md) . 
   
 [ApplyConversationActionResponse](applyconversationactionresponse.md)
   
@@ -34,17 +34,17 @@ L’élément **ApplyConversationActionResponse** définit une réponse à une d
  **ApplyConversationActionResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Cet élément est une nouveauté d’Exchange Server 2010 Service Pack 1 (SP
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 340af0cd-9f12-44ab-b8f1-21d107c8d0c9
-description: L’élément constante identifie une constante dans une restriction.
-ms.openlocfilehash: 73912bc1981c5d54040f7c4a563ad805916fe721
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément constant identifie une valeur constante dans une restriction.
+ms.openlocfilehash: 6cb2eaa4227a8fd0985e8ff5a15d647c3bb1cd6a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755547"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461554"
 ---
 # <a name="constant"></a>Constante
 
-L’élément **constante** identifie une constante dans une restriction. 
+L’élément **constant** identifie une valeur constante dans une restriction. 
   
 ```xml
 <Constant Value="" />
@@ -30,7 +30,7 @@ L’élément **constante** identifie une constante dans une restriction.
  **ConstantValueType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -46,12 +46,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contient](contains.md) <br/> |Représente une expression de recherche qui détermine si une propriété donnée contient la valeur de chaîne constante fournie.  <br/> |
-|[FieldURIOrConstant](fielduriorconstant.md) <br/> |Représente une propriété ou une constante à utiliser lors de la comparaison avec une autre propriété.  <br/> |
+|[Contains](contains.md) <br/> |Représente une expression de recherche qui détermine si une propriété donnée contient la valeur de chaîne de constante fournie.  <br/> |
+|[FieldURIOrConstant](fielduriorconstant.md) <br/> |Représente une propriété ou une valeur constante à utiliser lors de la comparaison avec une autre propriété.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de chaîne dans l’attribut **Value** doit être convertie dans le type que vous essayez de comparer. Par exemple, si vous comparez une propriété de date/heure par rapport à une valeur constante, la valeur de chaîne doit représenter une date/heure. 
+La valeur de chaîne dans l’attribut **value** doit pouvoir être forcée dans le type avec lequel vous essayez de comparer. Par exemple, si vous comparez une propriété de date/heure à une valeur de constante, la valeur de chaîne doit représenter une date/heure. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

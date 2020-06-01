@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fff7c928-da28-4864-9379-dc54c1bf048f
-description: L’élément OpenAsAdminOrSystemService est à usage interne uniquement. Cet élément n’est pas utilisé par les clients.
-ms.openlocfilehash: ef7538425034b9fc734e8caac8e597e6fb68cd3a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément OpenAsAdminOrSystemService est réservé à un usage interne. Cet élément n’est pas utilisé par les clients.
+ms.openlocfilehash: e4bd101b048bd5ac1af8d383d64519b9ed6f0041
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828652"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462506"
 ---
 # <a name="openasadminorsystemservice"></a>OpenAsAdminOrSystemService
 
-L’élément **OpenAsAdminOrSystemService** est à usage interne uniquement. Cet élément n’est pas utilisé par les clients. 
+L’élément **OpenAsAdminOrSystemService** est réservé à un usage interne. Cet élément n’est pas utilisé par les clients. 
   
 ```XML
 <OpenAsAdminOrSystemService LogonType="">
@@ -32,19 +32,19 @@ L’élément **OpenAsAdminOrSystemService** est à usage interne uniquement. Ce
  **OpenAsAdminOrSystemServiceType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Type d’accès  <br/> |N’est pas destinée à l’utilisation du client.  <br/> |
+|LogonType  <br/> |Non destiné à être utilisé par le client.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|ConnectingSID  <br/> |N’est pas destinée à l’utilisation du client.  <br/> |
+|ConnectingSID  <br/> |Non destiné à être utilisé par le client.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

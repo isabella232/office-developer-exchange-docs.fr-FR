@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 55e17121-aad0-4f90-889f-2c3512e9579c
 description: L’élément CanDelete indique si un dossier géré peut être supprimé par un client.
-ms.openlocfilehash: b70b28bd6b3c9452f5d7f249f453218d555754da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5fe16c276bdb0c5b3b73ca63099559d3e869db3e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755491"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461589"
 ---
 # <a name="candelete"></a>CanDelete
 
@@ -30,11 +30,11 @@ L’élément **CanDelete** indique si un dossier géré peut être supprimé pa
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur Boolean est requise si cet élément est présent. La valeur **true** indique que le dossier peut être supprimé ; la valeur **false** signifie que le dossier ne peut pas être supprimé. 
+Une valeur de texte qui représente une valeur booléenne est requise si cet élément est présent. La valeur **true** indique que le dossier peut être supprimé ; la valeur **false** signifie que le dossier ne peut pas être supprimé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Suppression des dossiers](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+[Suppression de dossiers](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

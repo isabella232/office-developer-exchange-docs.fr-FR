@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
 description: L’élément ClientExtensions contient un tableau d’informations utilisateur et de configuration sur les applications.
-ms.openlocfilehash: c2f2511154daaded09ba0e8d811baf9ce30ca138
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755514"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461456"
 ---
 # <a name="clientextensions"></a>ClientExtensions
 
@@ -28,23 +28,23 @@ L’élément **ClientExtensions** contient un tableau d’informations utilisat
  **ArrayOfClientExtensionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ClientExtension](clientextension.md) <br/> |Contient des informations utilisateur et de configuration relatives à une application.  <br/> |
+|[ClientExtension](clientextension.md) <br/> |Contient les informations d’utilisateur et de configuration relatives à une application.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |Représente une réponse pour obtenir des informations de configuration d’une application.  <br/> |
+|[GetClientExtensionResponse](getclientextensionresponse.md) <br/> |Représente une réponse pour obtenir des informations de configuration sur une application.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

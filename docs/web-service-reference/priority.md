@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e1adb8b9-e3d5-469a-b188-822733d2503e
-description: L’élément de priorité indique l’ordre dans lequel une règle doit être exécutée.
-ms.openlocfilehash: 49e9bda063d8766ff49c8a2e9574c986bcfdbeb2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Priority indique l’ordre dans lequel une règle doit être exécutée.
+ms.openlocfilehash: a5a894bba583618dd04430fc89f125c8920b0202
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828888"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462401"
 ---
 # <a name="priority"></a>Priority
 
-L’élément de **priorité** indique l’ordre dans lequel une règle doit être exécutée. 
+L’élément **Priority** indique l’ordre dans lequel une règle doit être exécutée. 
   
 ```XML
 <Priority/>
@@ -30,11 +30,11 @@ L’élément de **priorité** indique l’ordre dans lequel une règle doit êt
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle de boîte aux lettres de l’utilisateur.  <br/> |
+|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle dans la boîte aux lettres de l’utilisateur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **dont la priorité** est un entier qui indique l’ordre d’exécution dans lequel une règle doit être exécutée. 
+La valeur de texte pour l’élément **Priority** est un entier qui indique l’ordre d’exécution dans lequel une règle doit être exécutée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

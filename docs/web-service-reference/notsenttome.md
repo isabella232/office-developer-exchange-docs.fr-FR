@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7cb63269-622c-4198-9a21-f5a021bf6901
-description: L’élément NotSentToMe indique si le propriétaire de la boîte aux lettres ne doit pas être dans la propriété ToRecipients des messages entrants afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 917648f811855961877d1aba4924573e95e3962a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NotSentToMe indique si le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété ToRecipients des messages entrants afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 58efe4381fe0c9f5bd0645a9eba471a13b5e4064
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828555"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462611"
 ---
 # <a name="notsenttome"></a>NotSentToMe
 
-L’élément **NotSentToMe** indique si le propriétaire de la boîte aux lettres ne doit pas être dans la propriété **ToRecipients** des messages entrants afin que l’exception ou la condition à appliquer. 
+L’élément **NotSentToMe** indique si le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété **ToRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```xml
 <NotSentToMe>true | false</NotSentToMe>
@@ -30,11 +30,11 @@ L’élément **NotSentToMe** indique si le propriétaire de la boîte aux lettr
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,9 +47,9 @@ Aucun.
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente les exceptions qui représentent toutes les conditions d'exception de règle disponibles pour une règle de boîte de réception.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le propriétaire de la boîte aux lettres ne doit pas être dans la propriété **ToRecipients** des messages entrants afin que l’exception ou la condition à appliquer. La valeur **false** indique que le propriétaire de la boîte aux lettres doit être dans la propriété **ToRecipients** du message entrant afin que l’exception ou la condition à appliquer. 
+Une valeur de texte **true** indique que le propriétaire de la boîte aux lettres ne doit pas être dans la propriété **ToRecipients** des messages entrants pour que la condition ou l’exception s’applique. La valeur **false** indique que le propriétaire de la boîte aux lettres doit se trouver dans la propriété **ToRecipients** du message entrant afin que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

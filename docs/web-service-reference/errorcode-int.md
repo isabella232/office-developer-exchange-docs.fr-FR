@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 65537d96-edf9-41ee-9ad5-91ffe37e2269
-description: L’élément ErrorCode Spécifie le code d’erreur d’un échec de la recherche effectué sur une boîte aux lettres.
-ms.openlocfilehash: ed8a7771376f921303ea093f4be727c4146faa76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ErrorCode spécifie le code d’erreur d’une recherche ayant échoué effectuée dans une boîte aux lettres.
+ms.openlocfilehash: 24170a56e5fa23c3811fcbd27f0240e6ba3c87b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756203"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460665"
 ---
 # <a name="errorcode-int"></a>ErrorCode (int)
 
-L’élément **ErrorCode** Spécifie le code d’erreur d’un échec de la recherche effectué sur une boîte aux lettres. 
+L’élément **ErrorCode** spécifie le code d’erreur d’une recherche ayant échoué effectuée dans une boîte aux lettres. 
   
 ```XML
 <ErrorCode></ErrorCode>
@@ -26,11 +26,11 @@ L’élément **ErrorCode** Spécifie le code d’erreur d’un échec de la rec
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,9 +42,9 @@ Aucun.
 |:-----|:-----|
 |[FailedMailbox](failedmailbox.md) <br/> |Spécifie l’état de conservation de la boîte aux lettres.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **code d’erreur** est le code d’erreur renvoyé pour un échec de la recherche effectué sur une boîte aux lettres. 
+La valeur de texte de l’élément **ErrorCode** est le code d’erreur renvoyé pour une recherche ayant échoué dans une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

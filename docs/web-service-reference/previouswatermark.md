@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 474f4f7c-47da-47d4-8126-230012172fb5
-description: L’élément PreviousWatermark représente la limite du dernier événement qui a été correctement transmis au client pour l’abonnement.
-ms.openlocfilehash: 93c6f90d0866ae13618391b8544ab593fe33922b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PreviousWatermark représente le filigrane du dernier événement qui a été correctement communiqué au client pour l’abonnement.
+ms.openlocfilehash: 1b26a645a5ec6dbbd2874b118f968866aadc32af
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828886"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461652"
 ---
 # <a name="previouswatermark"></a>PreviousWatermark
 
-L’élément **PreviousWatermark** représente la limite du dernier événement qui a été correctement transmis au client pour l’abonnement. 
+L’élément **PreviousWatermark** représente le filigrane du dernier événement qui a été correctement communiqué au client pour l’abonnement. 
   
 ```xml
 <PreviousWatermark/>
@@ -30,11 +30,11 @@ L’élément **PreviousWatermark** représente la limite du dernier événement
  **WatermarkType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,19 +44,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.  <br/> |
+|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. La valeur de texte représente la limite le plus récent. La valeur de texte ne peut pas être une chaîne vide.
+Une valeur de texte est requise. La valeur texte représente le dernier filigrane. La valeur de texte ne peut pas être une chaîne vide.
   
 ## <a name="remarks"></a>Remarques
 
-La propriété **PreviousWatermark** est utile pour le client lors de la détermination de la dernière notification réussie. Par exemple, si un abonnement a trois événements avec des filigranes 1, 2 et 3, et la prochaine notification est envoyée avec la valeur **PreviousWatermark** 3, le client peut comparer cette valeur à la limite supérieure de la dernière notification reçue. Ainsi, le client à assurer la continuité des événements. 
+La propriété **PreviousWatermark** est utile au client pour déterminer la dernière notification réussie. Par exemple, si un abonnement comporte trois événements avec les filigranes 1, 2 et 3, et que la notification suivante est envoyée avec une valeur **PreviousWatermark** de 3, le client peut comparer cette valeur à la valeur de filigrane de la dernière notification reçue. Cela permet au client de s’assurer de la continuité des événements. 
   
-Pour les clients push, le **PreviousWatermark** est comparé à la limite connue dernière locale, côté client. Si les valeurs sont différentes, le client a manqué une notification d’événement et doit rétablir un abonnement à l’aide de la dernière filigrane local. Par exemple, si un client push reçoit trois événements pour un abonnement avec filigranes 1, 2 et 3, et la notification suivante est fourni avec une valeur **PreviousWatermark** 5, le client a manqué au moins une notification et doit créer un nouvel abonnement en passant un 3 en tant que filigrane. 
+Pour les clients de type « poussé », le **PreviousWatermark** est comparé au dernier filigrane connu côté client et local. Si les valeurs sont différentes, le client a manqué une notification d’événement et doit rétablir un abonnement à l’aide de la dernière limite locale. Par exemple, si un client poussé reçoit trois événements pour un abonnement avec les filigranes 1, 2 et 3, et que la notification suivante est dotée d’une valeur **PreviousWatermark** de 5, le client a manqué au moins une notification et doit créer un nouvel abonnement, en passant un 3 comme filigrane. 
   
-Dans le cas d’un client extrait, la valeur de **PreviousWatermark** sera la même que le [filigrane](watermark.md) inclus par le client lors de l’appel GetEvents. 
+Dans le cas d’un client de type pull, la valeur de **PreviousWatermark** sera identique à celle du [filigrane](watermark.md) fourni par le client dans l’appel GetEvents. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

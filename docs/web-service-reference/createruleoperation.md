@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: e9f70726-db08-4089-839e-a41007d0a473
-description: L’élément CreateRuleOperation représente une opération pour créer une nouvelle règle de boîte de réception.
-ms.openlocfilehash: c531f222ffe886e6ef53a99609cfa27e84fd6107
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateRuleOperation représente une opération de création d’une nouvelle règle de boîte de réception.
+ms.openlocfilehash: df857544e6d5840a3f738740114195e4c4bb5798
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755738"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460770"
 ---
 # <a name="createruleoperation"></a>CreateRuleOperation
 
-L’élément **CreateRuleOperation** représente une opération pour créer une nouvelle règle de boîte de réception. 
+L’élément **CreateRuleOperation** représente une opération de création d’une nouvelle règle de boîte de réception. 
   
 [UpdateInboxRules](updateinboxrules.md)
   
-[Opérations](operations.md)
+[Operations](operations.md)
   
 ```xml
 <CreateRuleOperation>
@@ -36,11 +36,11 @@ L’élément **CreateRuleOperation** représente une opération pour créer une
  **CreateRuleOperationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Opérations](operations.md) <br/> |Contient les opérations qui peuvent être effectuées sur une boîte de réception.  <br/> |
+|[Operations](operations.md) <br/> |Contient les opérations qui peuvent être effectuées sur une boîte de réception.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

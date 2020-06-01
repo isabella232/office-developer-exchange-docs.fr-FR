@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f5dd813c-9698-4a39-8fca-3a825df365ed
 description: L’élément FindFolderResponse définit une réponse à une demande FindFolder.
-ms.openlocfilehash: 3bf0509acd5a3928eb29015c39c18bb779c1dfce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 365e4e81b04419ed42f0bd9c8e022b6f8e559a2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756382"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462569"
 ---
 # <a name="findfolderresponse"></a>FindFolderResponse
 
@@ -34,17 +34,17 @@ L’élément **FindFolderResponse** définit une réponse à une demande FindFo
  **FindFolderResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -70,5 +70,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [Opération FindFolder](findfolder-operation.md)
 
 
-[Recherche de dossiers](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Recherche de dossiers](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

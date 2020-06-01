@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 4599dd34-15ee-4d57-b886-732081b50784
 description: L’élément OriginalStart représente l’heure de début d’origine d’un élément de calendrier.
-ms.openlocfilehash: 9e5facb3df87ab08e05f23258abdf1767fae64e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5346a65c432b8e96cb95e412e3e88fbc40ce36e8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828668"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462366"
 ---
 # <a name="originalstart"></a>OriginalStart
 
@@ -30,11 +30,11 @@ L’élément **OriginalStart** représente l’heure de début d’origine d’
  **DateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier dans la banque d’informations Exchange.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier dans la Banque d’Exchange.  <br/> |
 |[FirstOccurrence](firstoccurrence.md) <br/> |Représente la première occurrence d’un élément de calendrier périodique.  <br/> |
 |[LastOccurrence](lastoccurrence.md) <br/> |Représente la dernière occurrence d’un élément de calendrier périodique.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
-|[Occurrence](occurrence.md) <br/> |Représente une seule occurrence de modification d’un élément de calendrier périodique.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Réunions](occurrence.md) <br/> |Représente une occurrence modifiée unique d’un élément de calendrier périodique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une date et une heure est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente une date et une heure est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

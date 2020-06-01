@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f7624f5c-c390-4563-ab9a-08f1024fb914
-description: L’élément FindItem définit une requête pour rechercher des éléments dans une boîte aux lettres.
-ms.openlocfilehash: 6664cd91007f1d39db7e8d446e0135f47d5ab932
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément FindItem définit une demande pour rechercher des éléments dans une boîte aux lettres.
+ms.openlocfilehash: 3aeda1cffc03292734a91bc3fff3289d51c9b445
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353923"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460994"
 ---
 # <a name="finditem"></a>FindItem
 
-L’élément **FindItem** définit une requête pour rechercher des éléments dans une boîte aux lettres. 
+L’élément **FindItem** définit une demande pour rechercher des éléments dans une boîte aux lettres. 
   
 ```xml
 <FindItem Traversal="">
@@ -112,36 +112,36 @@ L’élément **FindItem** définit une requête pour rechercher des éléments 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Traversée du contenu** <br/> |Définit si la recherche trouve des éléments dans les dossiers ou dumpsters des dossiers. Cet attribut est requis.  <br/> |
+|**Traversée** <br/> |Détermine si la recherche trouve des éléments dans des dossiers ou dans les bennes de dossiers. Cet attribut est obligatoire.  <br/> |
    
-#### <a name="traversal-attribute-values"></a>Valeurs d’attribut Traversal
+#### <a name="traversal-attribute-values"></a>Valeurs d’attribut transversal
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Peu profond  <br/> |Renvoie uniquement les identités des éléments dans le dossier.  <br/> |
-|SoftDeleted  <br/> |Renvoie uniquement les identités des éléments qui se trouvent dans un dossier de benne. Notez que zéro renvoyés entraînera un parcours récupérable combiné à une restriction de recherche même s’il existe des éléments qui correspondent aux critères de recherche.  <br/> |
-|Associé  <br/> |Renvoie uniquement les identités des éléments associés dans le dossier.  <br/> |
+|Partielle  <br/> |Renvoie uniquement les identités des éléments du dossier.  <br/> |
+|SoftDeleted  <br/> |Renvoie uniquement les identités des éléments situés dans la benne d’un dossier. Notez qu’une traversée supprimée de manière récupérable combinée à une restriction de recherche entraîne zéro élément retourné même s’il existe des éléments qui correspondent aux critères de recherche.  <br/> |
+|Associé à  <br/> |Renvoie uniquement les identités des éléments associés dans le dossier.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |Identifie les propriétés de l’élément et le contenu à inclure dans une réponse de [l’opération FindItem](finditem-operation.md) .  <br/> |
-|[IndexedPageItemView](indexedpageitemview.md) <br/> |Décrit comment paginé informations sont retournées pour une demande **FindItem** . Cet élément est facultatif.  <br/> |
-|[FractionalPageItemView](fractionalpageitemview.md) <br/> |Décrit où l’affichage paginé démarre et le nombre maximal d’éléments renvoyés dans une requête **FindItem** . Le décalage d’affichage paginé depuis le début de l’ensemble des éléments trouvés est décrit par une fraction. Cet élément est facultatif.  <br/> |
-|[CalendarView](calendarview.md) <br/> |Fournit des temps couvrent des limites pour définir une recherche des éléments de calendrier. Cet élément est facultatif.  <br/> |
-|[ContactsView](contactsview.md) <br/> |Définit une recherche des éléments de contact basées sur des noms d’affichage alphabétiques. Cet élément est facultatif.  <br/> |
-|[GroupBy](groupby.md) <br/> |Spécifie les regroupements arbitraires pour les requêtes **FindItem** . Cet élément est facultatif.  <br/> |
-|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Fournit des regroupements standards pour les requêtes **FindItem** . Cet élément est facultatif.  <br/> |
-|[Restriction](restriction.md) <br/> |Définit la restriction ou la requête qui est utilisé pour filtrer des éléments ou des dossiers dans **FindItem**/ opérations de dossier**FindFolder** et la recherche. Cet élément est facultatif.  <br/> |
-|[SortOrder](sortorder.md) <br/> |Définit comment les éléments sont triés dans une requête FindItem. Cet élément est facultatif.  <br/> |
-|[ParentFolderIds](parentfolderids.md) <br/> |Identifie les dossiers pour rechercher les opérations FindItem et FindFolder.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifie les propriétés d’élément et le contenu à inclure dans une réponse d' [opération FindItem](finditem-operation.md) .  <br/> |
+|[IndexedPageItemView](indexedpageitemview.md) <br/> |Décrit comment les informations d’élément paginé sont renvoyées pour une demande **FindItem** . Cet élément est facultatif.  <br/> |
+|[FractionalPageItemView](fractionalpageitemview.md) <br/> |Décrit l’emplacement où l’affichage paginé démarre et le nombre maximal d’éléments renvoyés dans une requête **FindItem** . Le décalage de l’affichage paginé à partir du début de l’ensemble des éléments trouvés est décrit par une fraction. Cet élément est facultatif.  <br/> |
+|[CalendarView](calendarview.md) <br/> |Fournit des limites de durée de temps pour définir une recherche pour les éléments de calendrier. Cet élément est facultatif.  <br/> |
+|[ContactsView](contactsview.md) <br/> |Définit une recherche pour les éléments de contact en fonction des noms d’affichage alphabétiques. Cet élément est facultatif.  <br/> |
+|[GroupBy](groupby.md) <br/> |Spécifie des groupes arbitraires pour les requêtes **FindItem** . Cet élément est facultatif.  <br/> |
+|[DistinguishedGroupBy](distinguishedgroupby.md) <br/> |Fournit des regroupements standard pour les requêtes **FindItem** . Cet élément est facultatif.  <br/> |
+|[Restriction](restriction.md) <br/> |Définit la restriction ou la requête utilisée pour filtrer des éléments ou des dossiers **FindItem**dans /  les opérations FindItem**FindFolder** et Search Folder. Cet élément est facultatif.  <br/> |
+|[SortOrder](sortorder.md) <br/> |Définit le mode de tri des éléments dans une requête FindItem. Cet élément est facultatif.  <br/> |
+|[ParentFolderIds](parentfolderids.md) <br/> |Identifie les dossiers dans lesquels rechercher les opérations FindItem et FindFolder.  <br/> |
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Contient une chaîne de requête de boîte aux lettres basée sur la syntaxe de requête avancée (AQS).  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -150,7 +150,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Seul le [IndexedPageItemView](indexedpageitemview.md), [FractionalPageItemView](fractionalpageitemview.md), [CalendarView](calendarview.md)ou éléments [ContactsView](contactsview.md) peut être inclus dans une demande **FindItem** . Une seule des éléments [GroupBy](groupby.md) ou [DistinguishedGroupBy](distinguishedgroupby.md) peut être incluse dans une demande **FindItem** . 
+Un seul des éléments [IndexedPageItemView](indexedpageitemview.md), [FractionalPageItemView](fractionalpageitemview.md), [CalendarView](calendarview.md)ou [ContactsView](contactsview.md) peut être inclus dans une demande **FindItem** . Un seul des éléments [GroupBy](groupby.md) ou [DistinguishedGroupBy](distinguishedgroupby.md) peut être inclus dans une demande **FindItem** . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -158,13 +158,13 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 - [Opération FindItem](finditem-operation.md)
-- [Recherche d’éléments](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Recherche d’éléments](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

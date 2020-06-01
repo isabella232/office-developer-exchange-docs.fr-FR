@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 90f8f9e3-5fc6-4a6a-bdfb-fc91fa51f8a2
-description: L’élément ConversationLastSyncTime contient la date et l’heure de dernière synchronisation une conversation. Cet élément doit être présent lorsque vous tentez de supprimer tous les éléments qui ont été reçus jusqu'à l’heure spécifiée dans une conversation.
-ms.openlocfilehash: 3b086d69ac0ef307059df4902e65f796c63733d1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConversationLastSyncTime contient la date et l’heure de la dernière synchronisation d’une conversation. Cet élément doit être présent lors de la tentative de suppression de tous les éléments d’une conversation qui ont été reçus pendant la durée spécifiée.
+ms.openlocfilehash: f7cc6e205ab9936685d7b8c1f34129b799a53021
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755645"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461428"
 ---
 # <a name="conversationlastsynctime"></a>ConversationLastSyncTime
 
-L’élément **ConversationLastSyncTime** contient la date et l’heure de dernière synchronisation une conversation. Cet élément doit être présent lorsque vous tentez de supprimer tous les éléments qui ont été reçus jusqu'à l’heure spécifiée dans une conversation. 
+L’élément **ConversationLastSyncTime** contient la date et l’heure de la dernière synchronisation d’une conversation. Cet élément doit être présent lors de la tentative de suppression de tous les éléments d’une conversation qui ont été reçus pendant la durée spécifiée. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,14 +35,14 @@ L’élément **ConversationLastSyncTime** contient la date et l’heure de dern
 <ConversationLastSyncTime/>
 ```
 
- **xs : DateTime**
+ **XS : dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,11 +52,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de la **ConversationLastSyncTime** indique la dernière synchronisation de la conversation. 
+La valeur de texte du **ConversationLastSyncTime** indique la date de la dernière synchronisation de la conversation. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

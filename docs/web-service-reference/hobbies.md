@@ -1,5 +1,5 @@
 ---
-title: Passe-temps
+title: Loisirs
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f771b066-e42e-4880-bf18-709ad033d2af
-description: L’élément de centres d’intérêt spécifie un tableau de centres d’intérêt et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 0308269cb4b023c08433d62099fe22759ed498ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Hobbi indique un tableau de loisirs et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: c76f4fc0463928814c61b8d1fb63e4255d6be63d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827813"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460952"
 ---
-# <a name="hobbies"></a>Passe-temps
+# <a name="hobbies"></a>Loisirs
 
-L’élément de **centres d’intérêt** spécifie un tableau de centres d’intérêt et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **Hobbi** indique un tableau de loisirs et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <Hobbies>
@@ -28,23 +28,23 @@ L’élément de **centres d’intérêt** spécifie un tableau de centres d’i
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’attributs associés à un élément personnage.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

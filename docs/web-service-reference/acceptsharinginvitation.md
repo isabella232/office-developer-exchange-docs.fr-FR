@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3c2a47d6-490d-425b-8893-089a4f8882cd
-description: L’élément AcceptSharingInvitation est utilisé pour accepter une invitation qui permet d’accéder aux données de contacts ou de calendrier d’un autre utilisateur.
-ms.openlocfilehash: 06439739e6cc544d5039ac9d18e0452b1d42a0ed
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AcceptSharingInvitation est utilisé pour accepter une invitation qui autorise l’accès au calendrier ou aux données de contacts d’un autre utilisateur.
+ms.openlocfilehash: c8cdae707bd122e74fa0e284163d1540d857c3de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756307"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461708"
 ---
 # <a name="acceptsharinginvitation"></a>AcceptSharingInvitation
 
-L’élément **AcceptSharingInvitation** est utilisé pour accepter une invitation qui permet d’accéder aux données de contacts ou de calendrier d’un autre utilisateur. 
+L’élément **AcceptSharingInvitation** est utilisé pour accepter une invitation qui autorise l’accès au calendrier ou aux données de contacts d’un autre utilisateur. 
   
 ```xml
 <AcceptSharingInvitation>
@@ -32,17 +32,17 @@ L’élément **AcceptSharingInvitation** est utilisé pour accepter une invitat
  **AcceptSharingInvitationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ReferenceItemId](referenceitemid.md) <br/> |Identifie l’élément auquel fait référence l’objet de réponse.  <br/> |
+|[ReferenceItemId](referenceitemid.md) <br/> |Identifie l’élément auquel l’objet de réponse fait référence.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
-description: L’élément ApprovalDecisionMaker Spécifie le nom complet de la personne qui a pris la décision d’approbation.
-ms.openlocfilehash: e2b5b612006c2ac732e5978d8a6126f9567ff17a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ApprovalDecisionMaker spécifie le nom d’affichage de la personne qui a effectué la décision d’approbation.
+ms.openlocfilehash: d64b9d1816d4df99093ef4d60610e9946f3f98ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755307"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461645"
 ---
 # <a name="approvaldecisionmaker"></a>ApprovalDecisionMaker
 
-L’élément **ApprovalDecisionMaker** Spécifie le nom complet de la personne qui a pris la décision d’approbation. 
+L’élément **ApprovalDecisionMaker** spécifie le nom d’affichage de la personne qui a effectué la décision d’approbation. 
   
 ```XML
 <ApprovalDecisionMaker />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [ApprovalRequestData](approvalrequestdata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ApprovalDecisionMaker** est un nom d’affichage. 
+La valeur de texte de l’élément **ApprovalDecisionMaker** est un nom complet. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

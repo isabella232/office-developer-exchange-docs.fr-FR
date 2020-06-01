@@ -8,22 +8,22 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ab436b54-ceba-4cd9-aeb4-134f9b93986d
-description: L’élément DirectoryPort Spécifie le port utilisé pour se connecter au répertoire lorsque le protocole fournisseur Interface NSPI (Name Service) est utilisé.
-ms.openlocfilehash: 1b73b9cd1d21c73f4e897684371993312f741322
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DirectoryPort spécifie le port utilisé pour se connecter à l’annuaire lorsque le protocole NSPI (Name Service Provider Interface) est utilisé.
+ms.openlocfilehash: 2ba0a15cea0b4eb9b6069fab384edb3d9747a360
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755935"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462086"
 ---
 # <a name="directoryport-pox"></a>DirectoryPort (POX)
 
-L’élément **DirectoryPort** Spécifie le port utilisé pour se connecter au répertoire lorsque le protocole fournisseur Interface NSPI (Name Service) est utilisé. 
+L’élément **DirectoryPort** spécifie le port utilisé pour se connecter à l’annuaire lorsque le protocole NSPI (Name Service Provider Interface) est utilisé. 
   
 - [Découverte automatique (POX)](autodiscover-pox.md) 
 - [Réponse (POX)](response-pox.md)  
 - [Compte (POX)](account-pox.md)  
-- [Protocole (POX)](protocol-pox.md)  
+- [Protocol (POX)](protocol-pox.md)  
 - [DirectoryPort (POX)](directoryport-pox.md)
   
 ```xml
@@ -32,11 +32,11 @@ L’élément **DirectoryPort** Spécifie le port utilisé pour se connecter au 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,17 +46,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte représente le port utilisé pour accéder au serveur Exchange.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **DirectoryPort** est uniquement utilisé lorsque l’élément de [Type (POX)](type-pox.md) est égale à EXCH ou EXPR. 
+L’élément **DirectoryPort** est utilisé uniquement lorsque l’élément [type (POX)](type-pox.md) est égal à Exch ou Expr. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Companies
+title: Sociétés
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5d9ea76f-e14d-4424-8842-0c3cc3305119
-description: L’élément sociétés représente la collection des sociétés qui sont associés à un contact ou une tâche.
-ms.openlocfilehash: 5b8ac20d4a02017881f941d12380fe29078f51cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Companies représente la collection de sociétés associées à un contact ou une tâche.
+ms.openlocfilehash: eda2b92f3ca874aeeceef6a0935a49a98af0ec39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755516"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461449"
 ---
-# <a name="companies"></a>Companies
+# <a name="companies"></a>Sociétés
 
-L’élément **sociétés** représente la collection des sociétés qui sont associés à un contact ou une tâche. 
+L’élément **Companies** représente la collection de sociétés associées à un contact ou une tâche. 
   
 ```xml
 <Companies>
@@ -32,11 +32,11 @@ L’élément **sociétés** représente la collection des sociétés qui sont a
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,7 +48,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contact](contact.md) <br/> |Représente un contact dans la banque d’informations Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Représente un contact dans la Banque d’Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

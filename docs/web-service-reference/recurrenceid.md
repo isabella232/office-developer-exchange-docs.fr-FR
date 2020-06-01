@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9ef3569d-ee56-4b22-b008-609fb3337da7
 description: L’élément RecurrenceId est utilisé pour identifier une instance spécifique d’un élément de calendrier périodique.
-ms.openlocfilehash: 078bec85e1ca1530137f9935365d7dd3e530ea34
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 58a379f2cffa7ff37181e93ad1c45c9752e84f1d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829005"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461610"
 ---
 # <a name="recurrenceid"></a>RecurrenceId
 
@@ -30,11 +30,11 @@ L’élément **RecurrenceId** est utilisé pour identifier une instance spécif
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,11 +46,11 @@ Aucun.
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte représente une valeur de date/heure qui identifie une occurrence de calendrier.
   
@@ -62,7 +62,7 @@ Cette propriété est utilisée avec la propriété [UID](uid.md) pour identifie
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

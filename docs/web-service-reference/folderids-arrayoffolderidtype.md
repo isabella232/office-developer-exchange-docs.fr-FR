@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4cc6b414-f702-4822-bb09-9771ab462700
 description: L’élément FolderIds contient une liste d’identificateurs de dossier.
-ms.openlocfilehash: 869856e807b688dbd7b1c4b4fb31f20f028010a0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 758801f528d8b2b33c9b4344fea77f2b90592bab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756443"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461372"
 ---
 # <a name="folderids-arrayoffolderidtype"></a>FolderIds (ArrayOfFolderIdType)
 
@@ -28,11 +28,11 @@ L’élément **FolderIds** contient une liste d’identificateurs de dossier.
  **ArrayOfFolderIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

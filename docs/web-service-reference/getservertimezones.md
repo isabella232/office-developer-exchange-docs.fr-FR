@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2a89098b-d89b-4d01-827b-50be00f7cbe9
-description: L’élément GetServerTimeZones est l’élément racine dans une requête pour récupérer les définitions de fuseau horaire à partir du serveur Exchange.
-ms.openlocfilehash: 1ad503ff312497189f57bce9a3670571aedad5ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetServerTimeZones est l’élément racine dans une demande pour récupérer des définitions de fuseau horaire à partir du serveur Exchange.
+ms.openlocfilehash: 797e4543c94b0628242bcf544fe9a735ebaa5a63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756746"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460938"
 ---
 # <a name="getservertimezones"></a>GetServerTimeZones
 
-L’élément **GetServerTimeZones** est l’élément racine dans une requête pour récupérer les définitions de fuseau horaire à partir du serveur Exchange. 
+L’élément **GetServerTimeZones** est l’élément racine dans une demande pour récupérer des définitions de fuseau horaire à partir du serveur Exchange. 
   
 ```xml
 <GetServerTimeZones ReturnFullTimeZoneData="">   <Ids/></GetServerTimeZones>
@@ -30,26 +30,26 @@ L’élément **GetServerTimeZones** est l’élément racine dans une requête 
  **GetServerTimeZonesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**ReturnFullTimeZoneData** <br/> |Spécifie si l' [opération GetServerTimeZones](getservertimezones-operation.md) renvoie la définition complète ou uniquement le nom et l’identificateur pour chaque fuseau horaire. Cet attribut est facultatif. La valeur par défaut est **true**.  <br/> |
+|**ReturnFullTimeZoneData** <br/> |Indique si l' [opération GetServerTimeZones](getservertimezones-operation.md) renvoie la définition complète ou uniquement le nom et l’identificateur de chaque fuseau horaire. Cet attribut est facultatif. La valeur par défaut est **true**.  <br/> |
    
 #### <a name="returnfulltimezonedata-attribute"></a>Attribut ReturnFullTimeZoneData
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**valeur True** <br/> |Renvoyer les définitions complètes pour chaque fuseau horaire.  <br/> |
-|**False** <br/> |Retourner uniquement le nom et l’identificateur de chaque fuseau horaire.  <br/> |
+|**a** <br/> |Renvoyer les définitions complètes de chaque fuseau horaire.  <br/> |
+|**true** <br/> |Ne renvoyer que le nom et l’identificateur de chaque fuseau horaire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID](ids.md) <br/> |Contient un tableau d’identificateurs de définition de fuseau horaire qui spécifie les définitions de fuseau horaire demandé. Cet élément est facultatif. Si cet élément n’est pas inclus dans la requête [d’opération GetServerTimeZones](getservertimezones-operation.md) , toutes les définitions de fuseau horaire sont disponibles sur le serveur sont renvoyées dans la réponse.  <br/> |
+|[Codes](ids.md) <br/> |Contient un tableau d’identificateurs de définition de fuseau horaire qui spécifie les définitions de fuseau horaire demandées. Cet élément est facultatif. Si cet élément n’est pas inclus dans la demande d' [opération GetServerTimeZones](getservertimezones-operation.md) , toutes les définitions de fuseau horaire qui sont disponibles sur le serveur sont renvoyées dans la réponse.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,15 +57,15 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

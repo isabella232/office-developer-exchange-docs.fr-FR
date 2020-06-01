@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cbd6076-9981-4c65-a296-5e57518671b5
-description: L’élément EcpUrl Spécifie l’URL du Panneau de commande Exchange pour un utilisateur à extension messagerie.
-ms.openlocfilehash: 7021ce7129db87d85a35b8274ead9e94f5a59e1a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl spécifie l’URL du panneau de configuration Exchange pour un utilisateur à extension messagerie.
+ms.openlocfilehash: b761147dc5912652bca2847bd5ec0d305e0624b3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756066"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461274"
 ---
 # <a name="ecpurl-pox"></a>EcpUrl (POX)
 
-L’élément **EcpUrl** Spécifie l’URL du Panneau de commande Exchange pour un utilisateur à extension messagerie. 
+L’élément **EcpUrl** spécifie l’URL du panneau de configuration Exchange pour un utilisateur à extension messagerie. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,7 +24,7 @@ L’élément **EcpUrl** Spécifie l’URL du Panneau de commande Exchange pour 
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [EcpUrl (POX)](ecpurl-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **EcpUrl** Spécifie l’URL du Panneau de commande Exchange pour 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de text représente l’URL du Panneau de commande Exchange pour l’utilisateur.
+La valeur texte représente l’URL du panneau de configuration Exchange pour l’utilisateur.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

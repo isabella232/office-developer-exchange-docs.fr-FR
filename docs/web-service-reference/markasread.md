@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 404842e1-fbdb-480d-a1d8-ba1ab2c9fb1e
-description: L’élément MarkAsRead indique si les messages doivent être marqués comme étant en lecture.
-ms.openlocfilehash: b453ad73912e99b6fd3aed84b03a7d2fc2b6a294
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MarkAsRead indique si les messages doivent être marqués comme lus.
+ms.openlocfilehash: 691409a4eace8885d36f4b30b8eef1aca8c332a6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828355"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461764"
 ---
 # <a name="markasread"></a>MarkAsRead
 
-L’élément **MarkAsRead** indique si les messages doivent être marqués comme étant en lecture. 
+L’élément **MarkAsRead** indique si les messages doivent être marqués comme lus. 
   
 ```XML
 <MarkAsRead>true | false</MarkAsRead>
@@ -30,11 +30,11 @@ L’élément **MarkAsRead** indique si les messages doivent être marqués comm
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[Actions](actions.md) <br/> |Représente l'ensemble des actions qui sont disponibles pour être effectuées sur un message lorsque les conditions sont remplies.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le message doit être marqué comme lu. La valeur **false** indique que les messages ne doivent pas être marqués comme lus. 
+Une valeur de texte **true** indique que le message doit être marqué comme lu. La valeur **false** indique que les messages ne doivent pas être marqués comme lus. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

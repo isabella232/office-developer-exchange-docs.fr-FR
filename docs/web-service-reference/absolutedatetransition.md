@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8f5731eb-bed0-45bf-ba89-4aaf20c34a39
-description: L’élément AbsoluteDateTransition représente une transition de fuseau horaire qui se produit à une date spécifique, à un moment spécifique.
-ms.openlocfilehash: 1e9e5f3f2269814a82b827efe46c71a172e21348
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AbsoluteDateTransition représente une transition de fuseau horaire qui se produit à une date spécifique et à un moment donné.
+ms.openlocfilehash: 514464f69c3be5496aedbe184848ef9ed9f296b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755150"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461722"
 ---
 # <a name="absolutedatetransition"></a>AbsoluteDateTransition
 
-L’élément **AbsoluteDateTransition** représente une transition de fuseau horaire qui se produit à une date spécifique, à un moment spécifique. 
+L’élément **AbsoluteDateTransition** représente une transition de fuseau horaire qui se produit à une date spécifique et à un moment donné. 
   
 ```xml
 <AbsoluteDateTransition>
@@ -34,25 +34,25 @@ L’élément **AbsoluteDateTransition** représente une transition de fuseau ho
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Pour](to.md) <br/> |Spécifie la [période](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
-|[DateTime](datetime.md) <br/> |Représente la date et l’heure à laquelle se produit la transition de fuseau horaire.  <br/> |
+|[To](to.md) <br/> |Spécifie le [point](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
+|[DateTime](datetime.md) <br/> |Représente la date et l’heure auxquelles la transition de fuseau horaire a lieu.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Transitions](transitions.md) <br/> |Représente une collection des transitions de fuseau horaire.  <br/> |
-|[TransitionsGroup](transitionsgroup.md) <br/> |Représente une collection des transitions de fuseau horaire.  <br/> |
+|[Transitions](transitions.md) <br/> |Représente une collection de transitions de fuseau horaire.  <br/> |
+|[TransitionsGroup](transitionsgroup.md) <br/> |Représente une collection de transitions de fuseau horaire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

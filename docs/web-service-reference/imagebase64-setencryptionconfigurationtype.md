@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 64905c0b-b923-4e31-84aa-e687eba31b17
-description: Le ImageBase64 élément (SetEncryptionConfigurationType) est destiné à usage interne uniquement.
-ms.openlocfilehash: 3deca2419b70ac530581bd0160a3f63ea32a359d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ImageBase64 (SetEncryptionConfigurationType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: f1584911b6124a4ac1688bd64899b07308ad5d68
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827884"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460903"
 ---
 # <a name="imagebase64-setencryptionconfigurationtype"></a>ImageBase64 (SetEncryptionConfigurationType)
 
-Le **ImageBase64 (SetEncryptionConfigurationType)** élément est destiné à usage interne uniquement. 
+L’élément **ImageBase64 (SetEncryptionConfigurationType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

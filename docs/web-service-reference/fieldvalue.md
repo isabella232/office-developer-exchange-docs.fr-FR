@@ -7,26 +7,26 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8dfda53f-658c-4bc9-8950-f7f572c850eb
-description: L’élément FieldValue représente la valeur du champ qui a provoqué l’erreur de validation.
-ms.openlocfilehash: 26517598d49865d2a925b436a0691fe548228955
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FieldValue représente la valeur du champ à l’origine de l’erreur de validation.
+ms.openlocfilehash: fe407fd0aca2850e07bf1c734a64c5bee03d142c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756352"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461211"
 ---
 # <a name="fieldvalue"></a>FieldValue
 
-L’élément **FieldValue** représente la valeur du champ qui a provoqué l’erreur de validation. 
+L’élément **FieldValue** représente la valeur du champ à l’origine de l’erreur de validation. 
   
 ```XML
 <FieldValue/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Erreur](error.md) <br/> |Représente une seule erreur de validation sur une valeur de la propriété règle particulière, la valeur de propriété prédicat ou la valeur de la propriété action.  <br/> |
+|[Erreur](error.md) <br/> |Représente une seule erreur de validation sur une valeur de propriété de règle, une valeur de propriété de prédicat ou une valeur de propriété d’action particulière.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Aucune
+Aucun
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

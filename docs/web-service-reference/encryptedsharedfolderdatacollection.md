@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 25c6ae87-bbb9-4dd5-a85a-d669fcea137f
-description: L’élément EncryptedSharedFolderDataCollection contient une collection de structures de données qu’un client peut utiliser pour autoriser le partage de son calendrier de données ou de contacts avec les autres clients.
-ms.openlocfilehash: e4d37f5df10f5e270be5126479485239f2205d6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EncryptedSharedFolderDataCollection contient une collection de structures de données qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients.
+ms.openlocfilehash: e8ed9221952892abda7b4eac62b16cdc4976c6e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756157"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461267"
 ---
 # <a name="encryptedsharedfolderdatacollection"></a>EncryptedSharedFolderDataCollection
 
-L’élément **EncryptedSharedFolderDataCollection** contient une collection de structures de données qu’un client peut utiliser pour autoriser le partage de son calendrier de données ou de contacts avec les autres clients. 
+L’élément **EncryptedSharedFolderDataCollection** contient une collection de structures de données qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients. 
   
 ```xml
 <EncryptedSharedFolderDataCollection>   <EncryptedSharedFolderData/></EncryptedSharedFolderDataCollection>
@@ -30,17 +30,17 @@ L’élément **EncryptedSharedFolderDataCollection** contient une collection de
  **ArrayOfEncryptedSharedFolderDataType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier de données ou de contacts avec les autres clients.  <br/> |
+|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -51,15 +51,15 @@ Aucun.
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS que héberge Exchange Web Services de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

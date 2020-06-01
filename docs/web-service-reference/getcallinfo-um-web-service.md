@@ -1,5 +1,5 @@
 ---
-title: GetCallInfo (service web de messagerie unifiée)
+title: GetCallInfo (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2758904d-ffb0-46ee-a134-e6394276996c
-description: L’élément GetCallInfo définit une demande pour obtenir des informations relatives à un appel.
-ms.openlocfilehash: 749a47abf4dd9ac70c6b29968f36c93988a1d6fe
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetCallInfo définit une demande pour obtenir des informations sur un appel.
+ms.openlocfilehash: 34e743b561aa56a9312a82bad4b504ed3870129d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756531"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461218"
 ---
-# <a name="getcallinfo-um-web-service"></a>GetCallInfo (service web de messagerie unifiée)
+# <a name="getcallinfo-um-web-service"></a>GetCallInfo (service Web de messagerie unifiée)
 
-L’élément **GetCallInfo** définit une demande pour obtenir des informations relatives à un appel. 
+L’élément **GetCallInfo** définit une demande pour obtenir des informations sur un appel. 
   
-[GetCallInfo (service web de messagerie unifiée)](getcallinfo-um-web-service.md)
+[GetCallInfo (service Web de messagerie unifiée)](getcallinfo-um-web-service.md)
   
 ```xml
 <GetCallInfo>
@@ -33,17 +33,17 @@ L’élément **GetCallInfo** définit une demande pour obtenir des informations
  **complexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID d’appel (service web de messagerie unifiée)](callid-um-web-service.md) <br/> |Contient l’identificateur de l’appel sur laquelle obtenir plus d’informations.  <br/> |
+|[CallId (service Web de messagerie unifiée)](callid-um-web-service.md) <br/> |Contient l’identificateur de l’appel à propos duquel obtenir des informations.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -51,20 +51,20 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
+[Opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
 

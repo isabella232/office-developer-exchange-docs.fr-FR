@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0eb444d-8e2e-478b-b785-2b9787ffb226
-description: L’élément HasEndTimeChanged Spécifie si l’heure de fin d’une réunion a été modifiée.
-ms.openlocfilehash: 046bb302d6f7052c6f1757ce393583b305311e2f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément HasEndTimeChanged spécifie si l’heure de fin d’une réunion a changé.
+ms.openlocfilehash: 15ad52c7b7581cce5ca96ba5ff4e8a1c130a02cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827805"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461785"
 ---
 # <a name="hasendtimechanged"></a>HasEndTimeChanged
 
-L’élément **HasEndTimeChanged** Spécifie si l’heure de fin d’une réunion a été modifiée. 
+L’élément **HasEndTimeChanged** spécifie si l’heure de fin d’une réunion a changé. 
   
 ```XML
 <HasEndTimeChanged>true | false</HasEndTimeChanged>
@@ -26,11 +26,11 @@ L’élément **HasEndTimeChanged** Spécifie si l’heure de fin d’une réuni
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |Spécifie ce qui a changé entre deux versions d’une réunion message de demande.  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |Spécifie les modifications apportées entre deux versions d’un message de demande de réunion.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **HasEndTimeChanged** indique que l’heure de fin d’une réunion a été modifiée. La valeur **false** indique que l’heure de fin d’une réunion n’a pas changé. 
+Une valeur de texte de **true** pour l’élément **HasEndTimeChanged** indique que l’heure de fin d’une réunion a changé. La valeur **false** indique que l’heure de fin d’une réunion n’a pas été modifiée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

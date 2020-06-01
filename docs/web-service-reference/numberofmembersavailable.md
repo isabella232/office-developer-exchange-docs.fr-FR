@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e367a278-1622-4b65-955f-2d4b2fc6e4d7
-description: L’élément NumberOfMembersAvailable représente le nombre de membres de liste de distribution qui sont disponibles pour une heure de réunion proposée. Cet élément représente des membres pour lesquels l’état est disponible.
-ms.openlocfilehash: 8669f61fbd640c160ad54739c5a15407b3dd470a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NumberOfMembersAvailable représente le nombre de membres de la liste de distribution qui sont disponibles pour une heure de réunion suggérée. Cet élément représente les membres pour lesquels l’État est libre.
+ms.openlocfilehash: 947e1c133cc49fb7e322962e95e184fe77e09353
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828641"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462590"
 ---
 # <a name="numberofmembersavailable"></a>NumberOfMembersAvailable
 
-L’élément **NumberOfMembersAvailable** représente le nombre de membres de liste de distribution qui sont disponibles pour une heure de réunion proposée. Cet élément représente des membres pour lesquels l’état est **disponible**.
+L’élément **NumberOfMembersAvailable** représente le nombre de membres de la liste de distribution qui sont disponibles pour une heure de réunion suggérée. Cet élément représente les membres pour lesquels l’État est **libre**.
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **NumberOfMembersAvailable** représente le nombre de membres de l
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggestion](suggestion.md)
+[Suggérer](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -48,11 +48,11 @@ L’élément **NumberOfMembersAvailable** représente le nombre de membres de l
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -62,7 +62,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations de conflit agrégation sur le nombre d’utilisateurs qui sont disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion proposée.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations sur les conflits d’agrégation concernant le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

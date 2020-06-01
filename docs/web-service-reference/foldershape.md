@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 244f4f46-a33d-4764-92e3-1bddb4dc6a49
-description: L’élément FolderShape identifie les propriétés du dossier à inclure dans une réponse GetFolder, FindFolder ou SyncFolderHierarchy.
-ms.openlocfilehash: 8ebdd70ef13ee9f0cce9020b9212576cba782be4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FolderShape identifie les propriétés de dossier à inclure dans une réponse GetFolder, FindFolder ou Opérationsyncfolderhierarchy.
+ms.openlocfilehash: f841fcc4570604c474387dfa24ec07c9d2784f62
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756466"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44461344"
 ---
 # <a name="foldershape"></a>FolderShape
 
-L’élément **FolderShape** identifie les propriétés du dossier à inclure dans une réponse [GetFolder](getfolder.md), [FindFolder](findfolder.md)ou [SyncFolderHierarchy](syncfolderhierarchy.md) . 
+L’élément **FolderShape** identifie les propriétés de dossier à inclure dans une réponse [GetFolder](getfolder.md), [FindFolder](findfolder.md)ou [opérationsyncfolderhierarchy](syncfolderhierarchy.md) . 
   
 ```xml
 <FolderShape>
@@ -33,43 +33,43 @@ L’élément **FolderShape** identifie les propriétés du dossier à inclure d
  **FolderResponseShapeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[BaseShape](baseshape.md) <br/> |Identifie la configuration de base de propriétés à retourner dans une réponse.  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> |Identifie les propriétés supplémentaires pour retourner une réponse.  <br/> |
+|[BaseShape](baseshape.md) <br/> |Identifie la configuration de base des propriétés à renvoyer dans une réponse.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Identifie les propriétés supplémentaires à renvoyer dans une réponse.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindFolder](findfolder.md) <br/> |Définit une demande pour identifier les dossiers dans une boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/FindFolder` <br/> |
-|[GetFolder](getfolder.md) <br/> |Définit une demande pour obtenir un dossier à partir de la banque d’informations Exchange.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetFolder` <br/> |
-|[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |Définit une demande de synchronisation d’une hiérarchie de dossiers sur un client.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/SyncFolderHierarchy` <br/> |
+|[FindFolder](findfolder.md) <br/> |Définit une demande pour identifier les dossiers d’une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/FindFolder` <br/> |
+|[GetFolder](getfolder.md) <br/> |Définit une demande d’obtention d’un dossier à partir de la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetFolder` <br/> |
+|[Opérationsyncfolderhierarchy](syncfolderhierarchy.md) <br/> |Définit une demande de synchronisation d’une hiérarchie de dossiers sur un client.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SyncFolderHierarchy` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **FolderShape** est un élément enfant requis de l’élément [FindFolder](findfolder.md) . 
+L’élément **FolderShape** est un élément enfant obligatoire de l’élément [FindFolder](findfolder.md) . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-Une demande de l’exemple suivant montre comment rechercher tous les dossiers situés dans le premier niveau du dossier boîte de réception.
+L’exemple de requête suivant montre comment rechercher tous les dossiers situés dans le premier niveau du dossier boîte de réception.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -85,9 +85,9 @@ Une demande de l’exemple suivant montre comment rechercher tous les dossiers s
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

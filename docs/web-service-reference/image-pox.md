@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c3dcabdb-8a29-42f8-8ab4-461bf17fb9f6
-description: L’élément d’Image contient le chemin d’accès d’une image qui est utilisée pour personnaliser l’expérience de configuration.
-ms.openlocfilehash: 5ff2c03ab4297b0a059493ab3f7e763b804bdad7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément image contient le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration.
+ms.openlocfilehash: 5e981c1bb4a6029108fd442556a68356b073059d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827881"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460728"
 ---
 # <a name="image-pox"></a>Image (POX)
 
-L’élément **d’Image** contient le chemin d’accès d’une image qui est utilisée pour personnaliser l’expérience de configuration. 
+L’élément **image** contient le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **d’Image** contient le chemin d’accès d’une image qui est 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,15 +48,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte pour l’utilisateur.  <br/> |
+|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte de l’utilisateur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le chemin d’accès d’une image qui est utilisée pour personnaliser l’expérience de configuration.
+La valeur de texte représente le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

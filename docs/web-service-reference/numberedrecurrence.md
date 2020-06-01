@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 53746909-ef21-4764-8715-a7769b943cca
 description: L’élément NumberedRecurrence décrit la date de début et le nombre d’occurrences d’un élément périodique.
-ms.openlocfilehash: 01fbf831fa7ff378221d4db3d873af730ac564d8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 000674e5b0bad9deea5aa4ac78d41135a922c755
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828628"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465939"
 ---
 # <a name="numberedrecurrence"></a>NumberedRecurrence
 
@@ -33,11 +33,11 @@ L’élément **NumberedRecurrence** décrit la date de début et le nombre d’
  **NumberedRecurrenceRangeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,8 +50,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité pour les éléments de calendrier et les demandes de réunion.  <br/> |
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de périodicité pour les tâches répétitives.  <br/> |
+|[Récurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité des éléments de calendrier et des demandes de réunion.  <br/> |
+|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

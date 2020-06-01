@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4609903b-c071-4a16-98d2-05686828cc56
-description: L’élément UrlEntity identifie une seule entité URL extraite.
-ms.openlocfilehash: f7c3e52cd73ed231430307781d9b064077e03597
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UrlEntity identifie une seule entité d’URL extraite.
+ms.openlocfilehash: 2990d99009a18af8ba588244b055eb4e2d461b9c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838939"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465014"
 ---
 # <a name="urlentity"></a>UrlEntity
 
-L’élément **UrlEntity** identifie une seule entité URL extraite. 
+L’élément **UrlEntity** identifie une seule entité d’URL extraite. 
   
 ```XML
 <UrlEntity>
@@ -29,15 +29,15 @@ L’élément **UrlEntity** identifie une seule entité URL extraite.
  **UrlEntityType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Position](position.md) | [Url](url-ex15websvcsotherref.md)
+[Emplacement](position.md)  |  [URL](url-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

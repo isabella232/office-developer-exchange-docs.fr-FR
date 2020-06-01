@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6d5977ac-484e-4e53-92ba-58a868eb3395
 description: L’élément ProposeNewTime spécifie un objet de réponse qui indique que le participant à la réunion peut proposer une nouvelle heure de réunion.
-ms.openlocfilehash: 4a0238d94b29993def8009fae62380bb2c02e8b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 76f590db760826aa2cd26938947a9b0e02a603f7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828904"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465540"
 ---
 # <a name="proposenewtime"></a>ProposeNewTime
 
@@ -26,7 +26,7 @@ L’élément **ProposeNewTime** spécifie un objet de réponse qui indique que 
  **ProposeNewTimeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -34,7 +34,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ObjectName  <br/> |Nom de l’objet de réponse.  <br/> |
+|ObjectName  <br/> |Nom de l’objet de la réponse.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

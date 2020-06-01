@@ -6,30 +6,30 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70946a1a-a121-4b47-8e67-ccbc1a25b0f1
-description: L’élément ServiceUrl représente l’URL d’un service web de partage de document.
-ms.openlocfilehash: a80cd43121d6a5f58e60ac6d03747c9ac32e4e7c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ServiceUrl représente l’URL d’un service Web de partage de documents.
+ms.openlocfilehash: 14b553f53c9af3f746a111d6e48a443ba33646dc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829394"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465771"
 ---
 # <a name="serviceurl-soap"></a>ServiceUrl (SOAP)
 
-L’élément **ServiceUrl** représente l’URL d’un service web de partage de document. 
+L’élément **ServiceUrl** représente l’URL d’un service Web de partage de documents. 
   
 ```XML
 <ServiceUrl />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -39,19 +39,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Représente les informations d’emplacement et les métadonnées pour un emplacement de partage de document.  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Représente les informations d’emplacement et de métadonnées pour un emplacement de partage de documents.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ServiceUrl** est l’URL d’un service web de partage de document. 
+La valeur de texte de l’élément **ServiceUrl** est l’URL d’un service Web de partage de documents. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -63,5 +63,5 @@ La valeur de texte de l’élément **ServiceUrl** est l’URL d’un service we
 
 [Référence de service web de découverte automatique pour Exchange](autodiscover-web-service-reference-for-exchange.md)
   
-[Éléments du fichier XML Autodiscover SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Éléments XML de découverte automatique SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

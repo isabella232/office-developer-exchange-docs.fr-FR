@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fa9d6202-fa66-4f10-9858-53f4f1ce14bc
-description: L’élément SendNotificationResult contient la réponse d’une application client à une notification push.
-ms.openlocfilehash: 9acaa396430cf4e06a9c996834874d19dcab50ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SendNotificationResult contient la réponse d’une application client à une notification de type transmission.
+ms.openlocfilehash: 4ee9a0dda3d887f8fbfa2c2b34a9a077e7af37ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829350"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464888"
 ---
 # <a name="sendnotificationresult"></a>SendNotificationResult
 
-L’élément **SendNotificationResult** contient la réponse d’une application client à une notification push. 
+L’élément **SendNotificationResult** contient la réponse d’une application client à une notification de type transmission. 
   
 ```xml
 <SendNotificationResult>
@@ -32,17 +32,17 @@ L’élément **SendNotificationResult** contient la réponse d’une applicatio
  **SendNotificationResultType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SubscriptionStatus](subscriptionstatus.md) <br/> |Décrit l’état d’un abonnement.  <br/> |
+|[SubscriptionStatus](subscriptionstatus.md) <br/> |Décrit l’état d’un abonnement envoyé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

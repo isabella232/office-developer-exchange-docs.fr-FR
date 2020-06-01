@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: L’élément IsNotSupported indique si la règle ne peut pas être modifiée à l’aide de l’API de code managé.
-ms.openlocfilehash: 2468d47dbfdcaf1a28ed1a4afb1e7ea60147d1dc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsNotSupported indique si la règle ne peut pas être modifiée à l’aide des API avec code managé.
+ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828057"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465834"
 ---
 # <a name="isnotsupported"></a>IsNotSupported
 
-L’élément **IsNotSupported** indique si la règle ne peut pas être modifiée à l’aide de l’API de code managé. 
+L’élément **IsNotSupported** indique si la règle ne peut pas être modifiée à l’aide des API avec code managé. 
   
 ```XML
 <IsNotSupported/>
@@ -30,11 +30,11 @@ L’élément **IsNotSupported** indique si la règle ne peut pas être modifié
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle de boîte aux lettres de l’utilisateur.  <br/> |
+|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle dans la boîte aux lettres de l’utilisateur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que la règle ne peut pas être modifiée à l’aide de l’API de code managé. La valeur **false** indique que la règle peut être modifiée à l’aide de l’API de code managé. 
+Une valeur de texte **true** indique que la règle ne peut pas être modifiée à l’aide des API avec code managé. La valeur **false** indique que la règle peut être modifiée à l’aide des API avec code managé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

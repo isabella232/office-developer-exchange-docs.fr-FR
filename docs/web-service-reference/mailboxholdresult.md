@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: da03b877-37c6-4ecb-8549-c639f140302e
 description: L’élément MailboxHoldResult contient le résultat de la demande GetHoldOnMailboxes.
-ms.openlocfilehash: 333a2d2d4a30a63a78660d167cefe75653f8ea82
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 3895c1351587db45881c661809a19dad1929b4a9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828289"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466394"
 ---
 # <a name="mailboxholdresult"></a>MailboxHoldResult
 
@@ -31,15 +31,15 @@ L’élément **MailboxHoldResult** contient le résultat de la demande **GetHol
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[HoldId](holdid.md) | [requête](query.md) | [MailboxHoldStatuses](mailboxholdstatuses.md)
+[HoldId](holdid.md)  |  [Requête](query.md)  |  [MailboxHoldStatuses](mailboxholdstatuses.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

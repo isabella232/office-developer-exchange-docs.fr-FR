@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 8d713d22-580c-49a5-99f5-ee532443e89a
-description: L’élément RequestedSettings contient les noms des paramètres de configuration demandé.
-ms.openlocfilehash: 025f86d417ea2041a3247ac67b065d75c8f75599
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RequestedSettings contient les noms des paramètres de configuration demandés.
+ms.openlocfilehash: e94c02d8f92d7aaac619c58f093c536cc1a098bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829136"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465295"
 ---
 # <a name="requestedsettings-soap"></a>RequestedSettings (SOAP)
 
-L’élément **RequestedSettings** contient les noms des paramètres de configuration demandé. 
+L’élément **RequestedSettings** contient les noms des paramètres de configuration demandés. 
   
 ```XML
 <RequestedSettings>
@@ -29,11 +29,11 @@ L’élément **RequestedSettings** contient les noms des paramètres de configu
  **RequestedSettings**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,17 +45,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |Représente une demande pour récupérer les paramètres spécifiés pour un ou plusieurs utilisateurs.  <br/> |
-|[Demande (SOAP)](request-soap.md) <br/> |Contient les paramètres de configuration requise et les utilisateurs cibles.  <br/> |
-|[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md) <br/> |Représente une demande [d’opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
+|[GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |Représente une demande de récupération des paramètres spécifiés pour un ou plusieurs utilisateurs.  <br/> |
+|[Demande (SOAP)](request-soap.md) <br/> |Contient les paramètres de configuration demandés et les utilisateurs cibles.  <br/> |
+|[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md) <br/> |Représente une demande d' [opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

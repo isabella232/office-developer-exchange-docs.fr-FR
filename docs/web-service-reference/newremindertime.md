@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ff1b6b1c-3557-41d4-8aa6-9528fdb3a21a
 description: L’élément NewReminderTime spécifie une nouvelle heure pour un rappel.
-ms.openlocfilehash: 9f3f509942c673c916cc646cd9519240aef6ea06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a10f7e481b474501f33dba4c09060766568952b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828531"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465953"
 ---
 # <a name="newremindertime"></a>NewReminderTime
 
@@ -23,14 +23,14 @@ L’élément **NewReminderTime** spécifie une nouvelle heure pour un rappel.
 <NewReminderTime/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [ReminderItemAction](reminderitemaction.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **NewReminderTime** est une nouvelle heure pour le rappel. L’élément **NewReminderTime** est utilisé lorsque l’élément [ActionType](actiontype-reminderactiontype.md) est défini sur **Répéter**, afin de différer le rappel. La valeur de la **NewReminderTime** doit être supérieure à la [ReminderTime](remindertime.md) retournées par l' [opération GetReminders](getreminders-operation.md).
+La valeur de texte de l’élément **NewReminderTime** est une nouvelle heure pour le rappel. L’élément **NewReminderTime** est utilisé lorsque l’élément [ActionType](actiontype-reminderactiontype.md) est défini sur **SNOOZE**, afin de retarder le rappel. La valeur de **NewReminderTime** doit être supérieure à la [ReminderTime](remindertime.md) renvoyée par l' [opération GetReminders](getreminders-operation.md).
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c39744ea-0cee-4954-8653-8279d6b10161
-description: L’élément URL spécifie un tableau d’URL qui sont le résultat de l’extraction d’entités à partir d’un élément dans la boîte aux lettres.
-ms.openlocfilehash: 2a0c1305050a638d0e125ab2740eb0799d30350a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément URLs spécifie un tableau d’URL qui sont le résultat d’une extraction d’entité à partir d’un élément dans la boîte aux lettres.
+ms.openlocfilehash: 0d30c05c23f8d2c9617244c40dc36f6faa222312
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838942"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466527"
 ---
 # <a name="urls-arrayofurlentitiestype"></a>URL (ArrayOfUrlEntitiesType)
 
-L’élément **URL** spécifie un tableau d’URL qui sont le résultat de l’extraction d’entités à partir d’un élément dans la boîte aux lettres. 
+L’élément **URLs** spécifie un tableau d’URL qui sont le résultat d’une extraction d’entité à partir d’un élément dans la boîte aux lettres. 
   
 ```XML
 <Urls>
@@ -28,11 +28,11 @@ L’élément **URL** spécifie un tableau d’URL qui sont le résultat de l’
  **ArrayOfUrlEntitiesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

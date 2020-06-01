@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 69d22417-320c-4c6f-9fb4-2020f2480bb2
-description: L’élément ReturnQueueEvents indique que la personne qui exécute la tâche est dans un rôle de privilège.
-ms.openlocfilehash: 02f4ca86ffa14117105ec186ae039065cb626670
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReturnQueueEvents indique que la personne qui exécute la tâche est dotée d’un rôle privilégié.
+ms.openlocfilehash: 9d07bc8c3d32f1cd532febaf4ae04e4a2d31d243
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829233"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466590"
 ---
 # <a name="returnqueueevents"></a>ReturnQueueEvents
 
-L’élément **ReturnQueueEvents** indique que la personne qui exécute la tâche est dans un rôle de privilège. 
+L’élément **ReturnQueueEvents** indique que la personne qui exécute la tâche est dotée d’un rôle privilégié. 
   
 ```XML
 <ReturnQueueEvents>true | false</ReturnQueueEvents>
@@ -30,11 +30,11 @@ L’élément **ReturnQueueEvents** indique que la personne qui exécute la tâc
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) récupérer le message complet suivi du rapport pour l’ID spécifié.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) afin de récupérer le rapport de suivi complet des messages pour l’ID spécifié.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur Boolean est requise. La valeur **true** indique que la personne qui exécute la tâche est dans un rôle de privilège ; la valeur **false** indique que la personne qui exécute la tâche n’est pas un rôle de privilège. 
+Une valeur de texte qui représente une valeur Boolean est requise. La valeur **true** indique que la personne qui exécute la tâche est dotée d’un rôle privilégié ; la valeur **false** indique que la personne qui exécute la tâche ne dispose pas d’un rôle privilégié. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

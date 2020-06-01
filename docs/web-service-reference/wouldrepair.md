@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b6987bac-7e16-4a6c-b5f7-ef0e99ff520b
-description: L’élément WouldRepair est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: e3d7f1e9e736da9a0774e371a6cfca80e348c013
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément WouldRepair est destiné uniquement à un usage interne.
+ms.openlocfilehash: b32deddf4f92ac4973d642dd367f0d3704e9befe
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839069"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466002"
 ---
 # <a name="wouldrepair"></a>WouldRepair
 
-L’élément **WouldRepair** est destiné à une utilisation interne uniquement. 
+L’élément **WouldRepair** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,7 +45,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

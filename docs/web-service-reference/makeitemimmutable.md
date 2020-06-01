@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de1d2a60-aeeb-4625-8b11-23c42e1e7bae
-description: L’élément MakeItemImmutable spécifie une valeur de type Boolean qui indique si un élément doit être effectué en lecture seule.
-ms.openlocfilehash: 63c05fd3572c7b4ab93fe098d9165a117849ef02
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MakeItemImmutable spécifie une valeur de type Boolean qui indique si un élément doit être mis en lecture seule.
+ms.openlocfilehash: 05c6e3343b8ba892048174ad98c9d31fe8da685b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828337"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465862"
 ---
 # <a name="makeitemimmutable"></a>MakeItemImmutable
 
-L’élément **MakeItemImmutable** spécifie une valeur de type Boolean qui indique si un élément doit être effectué en lecture seule. 
+L’élément **MakeItemImmutable** spécifie une valeur de type Boolean qui indique si un élément doit être mis en lecture seule. 
   
 ```XML
 <MakeItemImmutable>true | false</MakeItemImmutable>
@@ -26,11 +26,11 @@ L’élément **MakeItemImmutable** spécifie une valeur de type Boolean qui ind
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [UpdateItemInRecoverableItems](updateiteminrecoverableitems.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **MakeItemImmutable** indique que l’élément doit être mis en lecture seule. La valeur **false** indique que l’élément autorise l’accès en lecture-écriture. 
+Une valeur de texte de **true** pour l’élément **MakeItemImmutable** indique que l’élément doit être mis en lecture seule. La valeur **false** indique que l’élément autorise l’accès en lecture et en écriture. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 15b0bfb8-2448-4ceb-aeac-965115e0fb72
-description: L’élément Argument spécifie les arguments à l’action.
-ms.openlocfilehash: ed4e46a8d9897516e9c96bf3930f7d488bc06714
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément argument spécifie les arguments de l’action.
+ms.openlocfilehash: 41e3b1d891610669b0cc93f3daf6e8ee98c48396
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755322"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464755"
 ---
 # <a name="argument"></a>Argument
 
-L’élément **Argument** spécifie les arguments à l’action. 
+L’élément **argument** spécifie les arguments de l’action. 
   
 ```xml
 <Argument Value=""/>
@@ -30,13 +30,13 @@ L’élément **Argument** spécifie les arguments à l’action.
  **ProtectionRuleArgumentType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Valeur** <br/> |Une valeur de chaîne non vide qui représente la valeur d’un argument à la partie de l’action d’une règle de protection. Cet attribut est requis.  <br/> |
+|**Valeur** <br/> |Valeur de type String non vide qui représente la valeur d’un argument de la partie action d’une règle de protection. Cet attribut est obligatoire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,7 +46,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifie l’action qui doit être exécutée si correspond à la partie de la condition de la règle.  <br/> |
+|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifie l’action qui doit être exécutée si la partie conditionnelle de la règle correspond.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

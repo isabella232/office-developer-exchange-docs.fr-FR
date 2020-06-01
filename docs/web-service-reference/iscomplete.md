@@ -1,5 +1,5 @@
 ---
-title: Avertisse
+title: IsComplete
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5331f0a8-51b2-46e1-a07b-a2358f2d5ab0
-description: L’élément avertisse indique si la tâche est terminée.
-ms.openlocfilehash: ca1b2c189da8a56ed728e71fe0e09283cc19b414
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsComplete indique si la tâche est terminée.
+ms.openlocfilehash: cad2bd1972c71e4cc63991567fb5db7e91529cb4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828006"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465533"
 ---
-# <a name="iscomplete"></a>Avertisse
+# <a name="iscomplete"></a>IsComplete
 
-L’élément **avertisse** indique si la tâche est terminée. 
+L’élément **IsComplete** indique si la tâche est terminée. 
   
 ```xml
 <IsComplete/>
@@ -30,11 +30,11 @@ L’élément **avertisse** indique si la tâche est terminée.
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur de type Boolean qui indique si la tâche est terminée.
+La valeur de texte est une valeur booléenne qui indique si la tâche est terminée.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -67,10 +67,10 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Création de tâches](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Création de tâches](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Suppression de tâches](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Suppression de tâches](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

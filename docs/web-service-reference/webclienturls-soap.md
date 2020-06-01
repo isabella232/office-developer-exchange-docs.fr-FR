@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: fdfe6059-a861-4fa2-a20e-ee6ab820bee9
-description: L’élément WebClientUrls représente un paramètre d’utilisateur qui contient une collection d’éléments WebClientUrl (SOAP).
-ms.openlocfilehash: 8d5d6aec67ab183743d7aae9f5d1f303d2949cd0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément WebClientUrls représente un paramètre utilisateur qui contient une collection d’éléments WebClientUrl (SOAP).
+ms.openlocfilehash: 80c8ab36e30146c78f4bdb4f40eb9f87a335199c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839033"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464923"
 ---
 # <a name="webclienturls-soap"></a>WebClientUrls (SOAP)
 
-L’élément **WebClientUrls** représente un paramètre d’utilisateur qui contient une collection d’éléments [WebClientUrl (SOAP)](webclienturl-soap.md) . 
+L’élément **WebClientUrls** représente un paramètre utilisateur qui contient une collection d’éléments [WebClientUrl (SOAP)](webclienturl-soap.md) . 
   
 [UserSetting (SOAP)](usersetting-soap.md)
   
@@ -36,11 +36,11 @@ L’élément **WebClientUrls** représente un paramètre d’utilisateur qui co
  **WebClientUrls**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,15 +52,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserSetting (SOAP)](usersetting-soap.md) <br/> |Représente une réponse à une demande de GetUserSettings.  <br/> |
+|[UserSetting (SOAP)](usersetting-soap.md) <br/> |Représente une réponse à une demande GetUserSettings.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: 816da395-1488-4996-8b4d-e82407319e91
-description: L’élément AppendToFolderField n’est pas implémenté. Toute demande qui utilise cet élément renvoie toujours une réponse d’erreur.
-ms.openlocfilehash: 501bb243335561241cff207ec34ffad7023113e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AppendToFolderField n’est pas implémenté. Toute requête qui utilise cet élément renverra toujours une réponse d’erreur.
+ms.openlocfilehash: aca49b8dfd54e32d0930c51b672c50c9ffdd89cf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755219"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464706"
 ---
 # <a name="appendtofolderfield"></a>AppendToFolderField
 
-L’élément **AppendToFolderField** n’est pas implémenté. Toute demande qui utilise cet élément renvoie toujours une réponse d’erreur. 
+L’élément **AppendToFolderField** n’est pas implémenté. Toute requête qui utilise cet élément renverra toujours une réponse d’erreur. 
 
 **AppendToFolderFieldType**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,7 +49,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

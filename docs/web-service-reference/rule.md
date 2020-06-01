@@ -1,5 +1,5 @@
 ---
-title: Règle
+title: Rule
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c30f3851-bd56-4473-9106-dc85e9619486
-description: L’élément de règle contient une règle de protection unique.
-ms.openlocfilehash: 9abbb70381c214211172d2d5ba1ed43ee4797f17
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément rule contient une règle de protection unique.
+ms.openlocfilehash: 6c18a2bd026893cd333bc7007203abf04a6f0be7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829263"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465000"
 ---
-# <a name="rule"></a>Règle
+# <a name="rule"></a>Rule
 
-L’élément de **règle** contient une règle de protection unique. 
+L’élément **rule** contient une règle de protection unique. 
   
 ```XML
 <Rule Name="" UserOverridable=="" Priority="">
@@ -33,28 +33,28 @@ L’élément de **règle** contient une règle de protection unique.
  **ProtectionRuleType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Name** <br/> |Identifie le nom de la règle. Un attribut obligatoire de type chaîne avec une longueur minimale de 1.  <br/> |
-|**UserOverridable** <br/> |Indique si la règle est obligatoire. Si la règle est obligatoire, cette valeur d’attribut doit avoir la **valeur false**. Attribut de type Boolean obligatoire.  <br/> |
-|**Priority** <br/> |Spécifie la priorité de la règle. Un attribut obligatoire de type int avec une valeur minimale de 1.  <br/> |
+|**Nom** <br/> |Identifie le nom de la règle. Attribut obligatoire de type String avec une longueur minimale de 1.  <br/> |
+|**UserOverridable** <br/> |Indique si la règle est obligatoire. Si la règle est obligatoire, la valeur de cet attribut doit être **false**. Attribut obligatoire de type Boolean.  <br/> |
+|**Priorité** <br/> |Spécifie la priorité de la règle. Attribut obligatoire de type int avec une valeur minimale de 1.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour la partie de l’action de la règle doit être exécutée.  <br/> |
-|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifie l’action qui doit être exécutée si correspond à la partie de la condition de la règle.  <br/> |
+|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie action de la règle soit exécutée.  <br/> |
+|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifie l’action qui doit être exécutée si la partie conditionnelle de la règle correspond.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Règles](rules-ex15websvcsotherref.md) <br/> |Contient un tableau des règles de protection.  <br/> |
+|[Gestion](rules-ex15websvcsotherref.md) <br/> |Contient un tableau de règles de protection.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

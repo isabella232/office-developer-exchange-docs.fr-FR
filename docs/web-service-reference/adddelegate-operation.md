@@ -11,45 +11,45 @@ api_name:
 api_type:
 - schema
 ms.assetid: 012d8cc5-648c-4ba0-a155-15c422b1e994
-description: L’opération AddDelegate ajoute un ou plusieurs délégués à la boîte aux lettres d’une entité de sécurité et définit les autorisations d’accès spécifiques.
-ms.openlocfilehash: 28d4ded2625efc3d6eade44f5fafc06c2ffca7ae
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération AddDelegate ajoute un ou plusieurs délégués à la boîte aux lettres d’un principal et définit des autorisations d’accès spécifiques.
+ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755159"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466513"
 ---
 # <a name="adddelegate-operation"></a>Opération AddDelegate
 
-L’opération **AddDelegate** ajoute un ou plusieurs délégués à la boîte aux lettres d’une entité de sécurité et définit les autorisations d’accès spécifiques. 
+L’opération **AddDelegate** ajoute un ou plusieurs délégués à la boîte aux lettres d’un principal et définit des autorisations d’accès spécifiques. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **AddDelegate** permettre utiliser les en-têtes SOAP qui sont répertoriés et décrits dans le tableau suivant. 
+L’opération **AddDelegate** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="adddelegate-request-example"></a>Exemple de requête AddDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande **AddDelegate** indique une tentative de donner user1 déléguer des autorisations sur les dossiers qui appartiennent à l’utilisateur 2. User1 bénéficie des autorisations au niveau de l’auteur à du user2 dossier de calendrier et autorisations de niveau relecteur au dossier Contacts de l’utilisateur 2. User1 ne recevra pas les copies des messages de réunion et ne pourront pas afficher les éléments privés dans la boîte aux lettres de l’utilisateur 2. Les demandes de réunion envoyés à user1 et user2. 
+L’exemple de requête **AddDelegate** suivant montre une tentative d’octroi d’autorisations déléguées à user1 sur les dossiers appartenant à l’utilisateur 2. Utilisateur1 dispose d’autorisations au niveau de l’auteur pour user2's les autorisations de dossier de calendrier et de relecteur sur user2's dossier de contacts. Utilisateur1 ne reçoit pas de copies des messages de réunion et ne sera pas en mesure d’afficher les éléments privés dans la boîte aux lettres user2's. Les demandes de réunion seront envoyées à User1 et à utilisateur2. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1"/>
   </soap:Header>
-  <soap:Body xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <soap:Body xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <AddDelegate>
       <Mailbox>
         <t:EmailAddress>user2@example.com</t:EmailAddress>
@@ -77,7 +77,7 @@ L’exemple suivant d’une demande **AddDelegate** indique une tentative de don
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une réponse **AddDelegate** montre une réponse positive à une demande de **AddDelegate** . 
+L’exemple suivant de réponse **AddDelegate** indique une réponse réussie à une demande **AddDelegate** . 
   
 ### <a name="code"></a>Code
 
@@ -92,12 +92,12 @@ L’exemple suivant d’une réponse **AddDelegate** montre une réponse positiv
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:AddDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <m:AddDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                            ResponseClass="Success" 
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -122,7 +122,7 @@ L’exemple suivant d’une réponse **AddDelegate** montre une réponse positiv
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre la réponse à une demande pour ajouter un délégué qui a déjà été ajouté à la boîte aux lettres de l’entité de sécurité.
+L’exemple suivant illustre la réponse à une demande d’ajout d’un délégué qui a déjà été ajouté à la boîte aux lettres de l’entité.
   
 ### <a name="code"></a>Code
 
@@ -137,12 +137,12 @@ L’exemple suivant montre la réponse à une demande pour ajouter un délégué
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:AddDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <m:AddDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                            ResponseClass="Success"
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Error">
@@ -158,9 +158,9 @@ L’exemple suivant montre la réponse à une demande pour ajouter un délégué
 
 ### <a name="comments"></a>Commentaires
 
-Si le code de réponse ErrorDelegateAlreadyExists est renvoyé lorsque vous essayez d’ajouter un délégué, l' [opération GetDelegate](getdelegate-operation.md) permet d’obtenir toutes les autorisations pour le délégué en cours, puis utilisez l' [opération UpdateDelegate](updatedelegate-operation.md) pour définir les nouvelles autorisations. 
+Si le code de réponse ErrorDelegateAlreadyExists est renvoyé lorsque vous essayez d’ajouter un délégué, utilisez l' [opération GetDelegate](getdelegate-operation.md) pour obtenir toutes les autorisations actuelles pour le délégué, puis utilisez l' [opération UpdateDelegate](updatedelegate-operation.md) pour définir les nouvelles autorisations. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Ajout de délégués](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

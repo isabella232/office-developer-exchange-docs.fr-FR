@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e4e7b50e-2fa9-4649-94a6-6002f341ecc4
 description: L'élément InvalidRecipients représente les destinataires d'un dossier de demande de partage qui ne sont pas valides.
-ms.openlocfilehash: 02ad8935bde347c563875bf5bfb31968b70d81b6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 99e0817f0ff873c4732b03cc7d68aa8e0070813c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827966"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465561"
 ---
 # <a name="invalidrecipients"></a>InvalidRecipients
 
@@ -32,11 +32,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **ArrayOfInvalidRecipientsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

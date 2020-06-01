@@ -1,5 +1,5 @@
 ---
-title: Intervenants
+title: Utilisateurs
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20ef18c2-daa0-4f65-a515-e84e9993a77f
-description: L’élément intervenants spécifie les personnes auxquels une tâche est affectée.
-ms.openlocfilehash: 5fc301cd77268213e95fd33a2a2f36dbe218b512
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément assigner spécifie les personnes auxquelles une tâche est affectée.
+ms.openlocfilehash: 3e98273e859dbe2128b0ad3b4df42c8016fd3bc5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755327"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464713"
 ---
-# <a name="assignees"></a>Intervenants
+# <a name="assignees"></a>Utilisateurs
 
-L’élément **intervenants** spécifie les personnes auxquels une tâche est affectée. 
+L’élément **assigner** spécifie les personnes auxquelles une tâche est affectée. 
   
 ```XML
 <Assignees>
@@ -29,18 +29,18 @@ L’élément **intervenants** spécifie les personnes auxquels une tâche est a
  **EmailUserType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Nom (EmailAddress)](name-emailaddress.md) <br/> |Représente le nom complet de l’utilisateur de boîte aux lettres.  <br/> |
-|[Nom d’utilisateur (chaîne)](userid-string.md) <br/> |Spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie.  <br/> |
+|[UserId (String)](userid-string.md) <br/> |Spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

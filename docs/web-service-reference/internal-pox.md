@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 69c22546-ebd6-4a03-b0b4-bbac72ec5551
-description: L’élément interne contient la collection d’URL qu’un client peut utiliser pour se connecter à Exchange à partir de l’intérieur du réseau de l’organisation.
-ms.openlocfilehash: 0dc5b679af98b52f15ef3b40181c2d97f102f373
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Internal contient la collection d’URL qu’un client peut utiliser pour se connecter à Exchange à l’intérieur du réseau de l’organisation.
+ms.openlocfilehash: 8164a018a11f9bae9c3abcbfebf6cf0694ca4183
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827946"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465596"
 ---
 # <a name="internal-pox"></a>Interne (POX)
 
-L’élément **interne** contient la collection d’URL qu’un client peut utiliser pour se connecter à Exchange à partir de l’intérieur du réseau de l’organisation. 
+L’élément **Internal** contient la collection d’URL qu’un client peut utiliser pour se connecter à Exchange à l’intérieur du réseau de l’organisation. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **interne** contient la collection d’URL qu’un client peut uti
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [Interne (POX)](internal-pox.md)
   
@@ -42,32 +42,32 @@ L’élément **interne** contient la collection d’URL qu’un client peut uti
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[OWAUrl (POX)](owaurl-pox.md) <br/> |Décrit l’URL et le schéma d’authentification qui est utilisé pour accéder à un ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur Client Access installé qui héberge Outlook Web Access.  <br/> |
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé. Cet élément de **protocole** n'a que deux éléments enfants : un élément de [Type (POX)](type-pox.md) spécifiant le protocole de connexion et un élément [ASUrl (POX)](asurl-pox.md) , en spécifiant le point de terminaison EWS pour le service web de disponibilité.  <br/> |
+|[OWAUrl (POX)](owaurl-pox.md) <br/> |Décrit l’URL et le schéma d’authentification utilisés pour accéder à un ordinateur spécifique qui exécute Microsoft Exchange Server sur lequel le rôle serveur d’accès au client est installé et qui héberge Outlook Web Access.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé. Cet élément de **protocole** n’a que deux éléments enfants : un élément de [type (POX)](type-pox.md) spécifiant le protocole de connexion et un élément [ASUrl (POX)](asurl-pox.md) , spécifiant le point de terminaison EWS pour le service Web de disponibilité.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **interne** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **Internal** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

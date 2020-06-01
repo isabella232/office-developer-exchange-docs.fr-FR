@@ -1,5 +1,5 @@
 ---
-title: PlayOnPhoneDialString (Exchange Web Services)
+title: PlayOnPhoneDialString (services Web Exchange)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 02b77f6a-042d-49a9-9445-342885c43e99
-description: L’élément PlayOnPhoneDialString identifie la chaîne de numérotation lire sur le téléphone.
-ms.openlocfilehash: 0bc61d6dc32cd0db80599348f1d04c62774954d7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PlayOnPhoneDialString identifie la chaîne de numérotation lecture sur téléphone.
+ms.openlocfilehash: 310934895295af179e651b94c33dfb86d0f94e1d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828827"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466219"
 ---
-# <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString (Exchange Web Services)
+# <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString (services Web Exchange)
 
-L’élément **PlayOnPhoneDialString** identifie la chaîne de numérotation lire sur le téléphone. 
+L’élément **PlayOnPhoneDialString** identifie la chaîne de numérotation lecture sur téléphone. 
   
 ```XML
 <PlayOnPhoneDialString/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |Contient des informations de configuration de service pour le service de messagerie unifiée.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte pour cet élément est la chaîne de numérotation lire sur le téléphone.
+La valeur de texte de cet élément est la chaîne de numérotation de lecture sur téléphone.
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

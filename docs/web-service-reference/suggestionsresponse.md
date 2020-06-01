@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d25ca143-f80c-4458-b669-346fda29a5a7
-description: L’élément SuggestionsResponse contient des données de suggestion et les informations de statut pour les suggestions de réunion demandée response.
-ms.openlocfilehash: 614b58a1df8e340c6be468ccddd3b37537d32591
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SuggestionsResponse contient les informations d’état de réponse et les données de suggestion pour les suggestions de réunion demandées.
+ms.openlocfilehash: cba344f3f97777580c2cc6d296f110f20b550063
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838650"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466653"
 ---
 # <a name="suggestionsresponse"></a>SuggestionsResponse
 
-L’élément **SuggestionsResponse** contient des données de suggestion et les informations de statut pour les suggestions de réunion demandée response. 
+L’élément **SuggestionsResponse** contient les informations d’état de réponse et les données de suggestion pour les suggestions de réunion demandées. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,28 +37,28 @@ L’élément **SuggestionsResponse** contient des données de suggestion et les
  **SuggestionsResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> |Fournit des informations descriptives concernant l’état de réponse.  <br/> |
-|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contient un tableau de suggestions organisées par date de réunion.  <br/> |
+|[ResponseMessage](responsemessage.md) <br/> |Fournit des informations descriptives sur l’état de la réponse.  <br/> |
+|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contient un tableau des suggestions de réunion organisées par date.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contient des informations de disponibilité de l’utilisateur demandé.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse` <br/> |
+|[GetUserAvailabilityResponse](getuseravailabilityresponse.md) <br/> |Contient les informations de disponibilité des utilisateurs demandés.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément n’est pas inclus dans une réponse GetUserAvailability si [SuggestionsViewOptions](suggestionsviewoptions.md) n’est pas définie dans le message de demande GetUserAvailability. 
+Cet élément n’est pas inclus dans une réponse GetUserAvailability si [SuggestionsViewOptions](suggestionsviewoptions.md) n’est pas défini dans le message de demande GetUserAvailability. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -80,5 +80,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

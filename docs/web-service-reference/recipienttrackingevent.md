@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2bffdac7-c2f5-4805-ae7e-bd865301acb6
 description: L’élément RecipientTrackingEvent contient des informations pour un seul événement pour un destinataire.
-ms.openlocfilehash: c5488ba105f9a853a490d6f0f4ff9ff15b537e23
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e9a014cdfac122f112205cfa5032535a770f9d82
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828989"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465484"
 ---
 # <a name="recipienttrackingevent"></a>RecipientTrackingEvent
 
@@ -43,20 +43,20 @@ L’élément **RecipientTrackingEvent** contient des informations pour un seul 
  **RecipientTrackingEventType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Date (MessageTracking)](date-messagetracking.md) <br/> |Cet élément est obligatoire.  <br/> |
-|[Recipient](recipient.md) <br/> |Cet élément est obligatoire.  <br/> |
+|[Destinataire](recipient.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[DeliveryStatus](deliverystatus.md) <br/> |Cet élément est obligatoire.  <br/> |
-|[EventDescription](eventdescription.md) <br/> |Cet élément est obligatoire.  <br/> |
+|[Systèmedescription](eventdescription.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[EventData](eventdata.md) <br/> |Cet élément est facultatif.  <br/> |
 |[Serveur (MessageTracking)](server-messagetracking.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[InternalId](internalid.md) <br/> |Cet élément est obligatoire.  <br/> |
@@ -84,7 +84,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

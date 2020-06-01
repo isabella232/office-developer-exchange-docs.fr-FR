@@ -1,5 +1,5 @@
 ---
-title: ResetPINResponse (service web de messagerie unifiée)
+title: ResetPINResponse (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 42aac88f-8513-416d-8be4-77378b71a45b
-description: L’élément ResetPINResponse définit une réponse à une demande de (service web de messagerie unifiée) opération ResetPIN.
-ms.openlocfilehash: 9c85909a5a03fd4c470468bd025a4de650472423
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ResetPINResponse définit une réponse à une opération ResetPIN (service Web de messagerie unifiée).
+ms.openlocfilehash: a30d75b91823ebc021cfffa4e77be04fc6cd7951
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829154"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466205"
 ---
-# <a name="resetpinresponse-um-web-service"></a>ResetPINResponse (service web de messagerie unifiée)
+# <a name="resetpinresponse-um-web-service"></a>ResetPINResponse (service Web de messagerie unifiée)
 
-L’élément ResetPINResponse définit une réponse à une demande de [l’opération ResetPIN (service web de messagerie unifiée)](resetpin-operation-um-web-service.md) . 
+L’élément ResetPINResponse définit une réponse à une [opération ResetPIN (service Web de messagerie unifiée)](resetpin-operation-um-web-service.md) . 
   
-[ResetPINResponse (service web de messagerie unifiée)](resetpinresponse-um-web-service.md)
+[ResetPINResponse (service Web de messagerie unifiée)](resetpinresponse-um-web-service.md)
   
 ```xml
 <ResetPINResponse />
@@ -31,11 +31,11 @@ L’élément ResetPINResponse définit une réponse à une demande de [l’opé
  **complexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,22 +45,22 @@ Aucun.
 
 Aucun.
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte n’est pas nécessaire.
+Une valeur de texte n’est pas obligatoire.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération ResetPIN (service web de messagerie unifiée)](resetpin-operation-um-web-service.md)
+[Opération ResetPIN (service Web de messagerie unifiée)](resetpin-operation-um-web-service.md)
 

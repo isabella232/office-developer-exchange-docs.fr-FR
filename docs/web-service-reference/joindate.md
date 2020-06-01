@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 93c72a15-2e1d-473c-a6f7-c1c8c7f78758
-description: L’élément JoinDate est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: b9784c0ce56950ebdfdd9ab9695bdd4d06e1b0be
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément JoinDate est destiné uniquement à un usage interne.
+ms.openlocfilehash: 427764929525b68bde139c838bc1f369b9d25689
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828182"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466422"
 ---
 # <a name="joindate"></a>JoinDate
 
-L’élément **JoinDate** est destiné à une utilisation interne uniquement. 
+L’élément **JoinDate** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

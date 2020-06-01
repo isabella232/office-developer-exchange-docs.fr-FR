@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fc9c0a57-f8b0-440f-97dd-88af47840625
-description: L’élément ProposedEnd (AttendeeType) spécifie l’heure de fin proposée d’un participant d’une réunion.
-ms.openlocfilehash: 7a785d675306bf9174f74bc6518905a212f10d06
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProposedEnd (AttendeeType) spécifie l’heure de fin proposée d’un participant à une réunion.
+ms.openlocfilehash: 892a80197a269f806fe7520d6660d09e1cfb38ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828895"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465568"
 ---
 # <a name="proposedend-attendeetype"></a>ProposedEnd (AttendeeType)
 
-L’élément **ProposedEnd (AttendeeType)** Spécifie l’heure de fin proposée d’un participant d’une réunion. 
+L’élément **ProposedEnd (AttendeeType)** spécifie l’heure de fin proposée d’un participant à une réunion. 
   
 ```XML
 <ProposedEnd/>
@@ -26,11 +26,11 @@ L’élément **ProposedEnd (AttendeeType)** Spécifie l’heure de fin proposé
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Attendee](attendee.md)
+[Participant](attendee.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ProposedEnd (AttendeeType)** est la date de fin proposée et l’heure pour une réunion. 
+La valeur de texte de l’élément **ProposedEnd (AttendeeType)** est la date et l’heure de fin proposées pour une réunion. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-[Attendee](attendee.md)
+[Participant](attendee.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

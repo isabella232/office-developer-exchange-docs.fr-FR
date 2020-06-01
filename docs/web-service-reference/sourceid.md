@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fccdedc0-83ed-4bb7-a1d2-623e70d1a7bf
-description: L’élément ID source Spécifie l’identificateur du contact attribué dans un personnage.
-ms.openlocfilehash: b08c28f93318a01e45a0d9cb812fef01905694ac
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SourceId spécifie l’identificateur du contact avec attributs dans un personnage.
+ms.openlocfilehash: a795f9fa2cc2084bee34c82b6df9567c79d430eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829521"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465757"
 ---
 # <a name="sourceid"></a>SourceId
 
-L’élément **ID source** Spécifie l’identificateur du contact attribué dans un personnage. 
+L’élément **SourceId** spécifie l’identificateur du contact avec attributs dans un personnage. 
   
 ```XML
 <SourceId Id="" ChangeKey=""/>
@@ -26,14 +26,14 @@ L’élément **ID source** Spécifie l’identificateur du contact attribué da
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |La valeur de texte de l’attribut **Id** est l’identificateur du contact.  <br/> |
-|ChangeKey  <br/> |La valeur de texte de l’attribut **ChangeKey** est la clé de modification du contact.  <br/> |
+|ID  <br/> |La valeur de texte de l’attribut **ID** est l’identificateur du contact.  <br/> |
+|ChangeKey  <br/> |La valeur de texte de l’attribut **ChangeKey** est la touche de modification du contact.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

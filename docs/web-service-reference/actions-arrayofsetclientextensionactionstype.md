@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ff4e97e-c64c-4742-88ca-7cbe39e597e1
-description: L’élément Actions identifie un tableau des actions à effectuer sur une extension de client.
-ms.openlocfilehash: 3a4d1ccf1fe880fa689bd1ff8651409eebe48f46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément actions identifie un tableau d’actions à effectuer sur une extension client.
+ms.openlocfilehash: 1790907f40bd839ffa56ad7ae45c0cc7f3fa412d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755151"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465071"
 ---
 # <a name="actions-arrayofsetclientextensionactionstype"></a>Actions (ArrayOfSetClientExtensionActionsType)
 
-L’élément **Actions** identifie un tableau des actions à effectuer sur une extension de client. 
+L’élément **actions** identifie un tableau d’actions à effectuer sur une extension client. 
   
 ```XML
 <Actions>
@@ -28,11 +28,11 @@ L’élément **Actions** identifie un tableau des actions à effectuer sur une 
  **ArrayOfSetClientExtensionActionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

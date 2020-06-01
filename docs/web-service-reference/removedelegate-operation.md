@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a
 description: L’opération RemoveDelegate supprime un ou plusieurs délégués de la boîte aux lettres d’un utilisateur.
-ms.openlocfilehash: 6f3371d19bd8a7fd967d4959d85037ae6b51f6aa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b2e342225e7e79c44dcd86b76b4b7d47b16b860b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829088"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466597"
 ---
 # <a name="removedelegate-operation"></a>Opération RemoveDelegate
 
@@ -25,33 +25,33 @@ L’opération **RemoveDelegate** supprime un ou plusieurs délégués de la bo�
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **RemoveDelegate** permettre utiliser les en-têtes SOAP qui sont répertoriés et décrits dans le tableau suivant. 
+L’opération **RemoveDelegate** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="removedelegate-request-example"></a>Exemple de requête RemoveDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple de code suivant montre comment supprimer les deux délégués à partir de la boîte aux lettres de l’utilisateur1. Dans cet exemple, un délégué est supprimé à l’aide de l’adresse SMTP principale du délégué, et l’autre est supprimé à l’aide identificateur de sécurité du délégué (SID).
+L’exemple de code suivant montre comment supprimer deux délégués de la boîte aux lettres utilisateur1. Dans cet exemple, un délégué est supprimé à l’aide de l’adresse SMTP principale du délégué, et l’autre est supprimé à l’aide de l’identificateur de sécurité (SID) du délégué.
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1"/>
   </soap:Header>
   <soap:Body>
-    <RemoveDelegate xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <RemoveDelegate xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <Mailbox>
         <t:EmailAddress>user1@example.com</t:EmailAddress>
       </Mailbox>
@@ -70,13 +70,13 @@ L’exemple de code suivant montre comment supprimer les deux délégués à par
 
 ### <a name="comments"></a>Commentaires
 
-L’opération **RemoveDelegate** ne nécessite pas de l’utilisateur délégué spécifié à la boîte aux lettres ou existe dans le service d’annuaire Active Directory. Réussite de l’opération **RemoveDelegate** si l’entrée de délégué est orpheline. 
+L’opération **RemoveDelegate** ne nécessite pas que l’utilisateur délégué spécifié dispose d’une boîte aux lettres ou qu’elle existe dans le service d’annuaire Active Directory. L’opération **RemoveDelegate** réussit si l’entrée de délégué est orpheline. 
   
 ## <a name="removedelegate-response-example"></a>Exemple de réponse RemoveDelegate
 
 ### <a name="description"></a>Description
 
-Une réponse **RemoveDelegate** l’exemple suivant montre une réponse positive à une demande de **RemoveDelegate** . La réponse contient un élément **DelegateUserResponseMessageType** pour chaque délégué est supprimé de la boîte aux lettres. 
+L’exemple suivant de réponse **RemoveDelegate** indique une réponse réussie à une demande **RemoveDelegate** . La réponse contient un élément **DelegateUserResponseMessageType** pour chaque délégué qui est supprimé de la boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -91,12 +91,12 @@ Une réponse **RemoveDelegate** l’exemple suivant montre une réponse positive
                          MajorBuildNumber="206" 
                          MinorBuildNumber="0" 
                          Version="Exchange2007_SP1" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:RemoveDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <m:RemoveDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                               ResponseClass="Success" 
-                              xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -115,7 +115,7 @@ Une réponse **RemoveDelegate** l’exemple suivant montre une réponse positive
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une réponse d’erreur **RemoveDelegate** montre les résultats d’une demande pour supprimer un délégué qui n’existe pas. 
+L’exemple suivant de réponse d’erreur **RemoveDelegate** indique les résultats d’une demande de suppression d’un délégué qui n’existe pas. 
   
 ### <a name="code"></a>Code
 
@@ -130,12 +130,12 @@ L’exemple suivant d’une réponse d’erreur **RemoveDelegate** montre les r�
                          MajorBuildNumber="206"
                          MinorBuildNumber="0"
                          Version="Exchange2007_SP1"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <m:RemoveDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <m:RemoveDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                               ResponseClass="Success"
-                              xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Error">

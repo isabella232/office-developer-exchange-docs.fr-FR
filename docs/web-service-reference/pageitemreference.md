@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: efeb5a93-c77f-44f1-b9af-8759acd2c8b5
-description: L’élément PageItemReference spécifie la référence pour un élément de page.
-ms.openlocfilehash: 36f22fee2cd8ef4743476e7d12512504daee12e4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PageItemReference spécifie la référence d’un élément de page.
+ms.openlocfilehash: ff53f82f6346e24f7d73373330ce4f5abb5ec475
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828683"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465645"
 ---
 # <a name="pageitemreference"></a>PageItemReference
 
-L’élément **PageItemReference** spécifie la référence pour un élément de page. 
+L’élément **PageItemReference** spécifie la référence d’un élément de page. 
   
 ```XML
 <PageItemReference></PageItemReference>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PageItemReference** est la référence pour un élément de page. 
+La valeur de texte de l’élément **PageItemReference** est la référence d’un élément de page. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

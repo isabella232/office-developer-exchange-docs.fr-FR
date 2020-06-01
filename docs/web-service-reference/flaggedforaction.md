@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6a08c48a-7b32-4754-8940-adbda55e8133
-description: L’élément FlaggedForAction Spécifie l’indicateur pour la valeur d’action qui doit apparaître dans les messages entrants afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 5b6e714512edcf12ded2c04f414d047b8622d305
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FlaggedForAction spécifie l’indicateur de la valeur d’action qui doit apparaître dans les messages entrants pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: f996dc4bcf30db32e1d73fb302ab137f0a6ad4d4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756439"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466240"
 ---
 # <a name="flaggedforaction"></a>FlaggedForAction
 
-L’élément **FlaggedForAction** Spécifie l’indicateur pour la valeur d’action qui doit apparaître dans les messages entrants afin que l’exception ou la condition à appliquer. 
+L’élément **FlaggedForAction** spécifie l’indicateur de la valeur d’action qui doit apparaître dans les messages entrants pour que la condition ou l’exception s’applique. 
   
 ```XML
 <FlaggedForAction/>
@@ -30,11 +30,11 @@ L’élément **FlaggedForAction** Spécifie l’indicateur pour la valeur d’a
  **FlaggedForActionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,11 +47,11 @@ Aucun.
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente les exceptions qui représentent toutes les conditions d'exception de règle disponibles pour une règle de boîte de réception.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs de texte possibles de cet élément sont les suivantes :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
-- Tout
+- N'importe lequel
     
 - Appel
     
@@ -65,13 +65,13 @@ Une valeur texte est requise. Les valeurs de texte possibles de cet élément so
     
 - NoResponseNecessary
     
-- Lire
+- Lecture
     
 - Répondre
     
 - ReplyToAll
     
-- Passer en revue les
+- Révision
     
 ## <a name="remarks"></a>Remarques
 
@@ -81,9 +81,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

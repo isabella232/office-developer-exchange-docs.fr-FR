@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d42ec77b-fb9f-404a-9bf2-1801e8744676
-description: L’élément BodyType identifie la mise en forme le corps du texte dans la réponse.
-ms.openlocfilehash: f8be2e96390b40faa367cf0d34c533accc3b8afb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BodyType identifie la façon dont le corps de texte est mis en forme dans la réponse.
+ms.openlocfilehash: 448d20ac54b09a2f4f6a273a1099519371ac7f5b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755421"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465946"
 ---
 # <a name="bodytype"></a>BodyType
 
-L’élément **BodyType** identifie la mise en forme le corps du texte dans la réponse. 
+L’élément **BodyType** identifie la façon dont le corps de texte est mis en forme dans la réponse. 
   
 ```xml
 <BodyType>Best or HTML or Text</BodyType>
@@ -31,11 +31,11 @@ L’élément **BodyType** identifie la mise en forme le corps du texte dans la 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,38 +45,38 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> | Identifie les propriétés de l’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/><br/>Les expressions XPath pour cet élément sont les suivantes :<br/><br/>  `/GetItem/ItemShape`<br/><br/>`/FindItem/ItemShape`<br/><br/>`/SyncFolderItems/ItemShape` <br/> |
-|[AttachmentShape](attachmentshape.md) <br/> |Identifie les propriétés totale de l’article à renvoyer dans une réponse à une demande [GetAttachment](getattachment.md) .  <br/><br/>Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifie les propriétés d’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/><br/>Voici les expressions XPath de cet élément :<br/><br/>  `/GetItem/ItemShape`<br/><br/>`/FindItem/ItemShape`<br/><br/>`/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> |Identifie les propriétés d’élément étendue supplémentaires à renvoyer dans une réponse à une demande [GetAttachment](getattachment.md) .  <br/><br/>Voici l’expression XPath de cet élément :<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **BodyType** . 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Recommandé  <br/> |La réponse renvoie le contenu disponible plus riche du corps de texte. Cela est utile si elle est inconnue ou non le contenu est texte ou HTML.<br/><br/> Le corps retourné sera texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renverra HTML si le corps stocké est au format HTML ou RTF.<br/><br/> Il s'agit de la valeur par défaut.  <br/> |
-|HTML  <br/> |La réponse renvoie un corps de l’élément au format HTML.  <br/> |
-|Texte  <br/> |La réponse renvoie un corps de l’élément en tant que texte brut.  <br/> |
+|Idéale  <br/> |La réponse renverra le contenu disponible le plus riche du corps de texte. Ceci est utile s’il n’est pas connu si le contenu est du texte ou du code HTML.<br/><br/> Le corps renvoyé sera du texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renvoie HTML si le corps stocké est au format HTML ou RTF.<br/><br/> Il s’agit de la valeur par défaut.  <br/> |
+|HTML  <br/> |La réponse renvoie un corps d’élément au format HTML.  <br/> |
+|Texte  <br/> |La réponse renvoie un corps d’élément sous forme de texte brut.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez identifier le type de corps retourné dans la réponse en vérifiant l’attribut **BodyType** de l’élément [Body](body.md) . L’attribut **BodyType** identifie le corps HTML ou texte. 
+Vous pouvez identifier le type de corps renvoyé dans la réponse en vérifiant l’attribut **BodyType** de l’élément [Body](body.md) . L’attribut **BodyType** identifie le corps au format HTML ou texte. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande montre où un élément **BodyType** est utilisé. 
+L’exemple suivant d’une requête indique où un élément **BodyType** est utilisé. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape>
         <t:BodyType>Best</t:BodyType>
       </AttachmentShape>
@@ -88,13 +88,13 @@ L’exemple suivant d’une demande montre où un élément **BodyType** est uti
 </soap:Envelope>
 ```
 
-L’attribut Id a été raccourcie afin de préserver la lisibilité.
+L’attribut ID a été raccourci pour conserver la lisibilité.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

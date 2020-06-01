@@ -1,5 +1,5 @@
 ---
-title: ID de la règle
+title: RuleId
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 456e3c34-e536-456a-ac40-7fd4f94c0bad
 description: L’élément RuleId spécifie un identificateur de règle.
-ms.openlocfilehash: 4dfa71c9fb6ee362d776487952199f2430e5e4a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 28fda7abbbbfd43be38d1ac4e5c37d37037993bc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829260"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464993"
 ---
-# <a name="ruleid"></a>ID de la règle
+# <a name="ruleid"></a>RuleId
 
 L’élément **RuleId** spécifie un identificateur de règle. 
   
@@ -27,14 +27,14 @@ L’élément **RuleId** spécifie un identificateur de règle.
 <RuleId/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle de boîte aux lettres de l’utilisateur.  <br/> |
-|[DeleteRuleOperation](deleteruleoperation.md) <br/> |Représente l’opération de suppression d’une règle de boîte de réception.  <br/> |
+|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle dans la boîte aux lettres de l’utilisateur.  <br/> |
+|[DeleteRuleOperation](deleteruleoperation.md) <br/> |Représente l’opération de suppression d’une règle de boîte de réception existante.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur de type string qui représente la règle.
+La valeur de texte est une valeur de chaîne qui représente la règle.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

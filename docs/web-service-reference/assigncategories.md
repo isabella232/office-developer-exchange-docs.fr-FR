@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f5c73fed-7b00-446d-8296-71a0c86e7fc6
-description: L’élément AssignCategories représente les catégories qui sont marqués dans les messages électroniques.
-ms.openlocfilehash: 96c77306d649677c1be745e8cadc2886e4a84c8a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AssignCategories représente les catégories apposées sur les messages électroniques.
+ms.openlocfilehash: e2dad0e2ef46421ae92a0d2826d161e5e2af3b93
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755325"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464741"
 ---
 # <a name="assigncategories"></a>AssignCategories
 
-L’élément **AssignCategories** représente les catégories qui sont marqués dans les messages électroniques. 
+L’élément **AssignCategories** représente les catégories apposées sur les messages électroniques. 
   
 - [Règle (RuleType)](rule-ruletype.md)
   
@@ -36,11 +36,11 @@ L’élément **AssignCategories** représente les catégories qui sont marqués
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

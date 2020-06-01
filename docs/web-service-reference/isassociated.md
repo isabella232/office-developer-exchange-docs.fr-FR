@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 637f0798-6680-487f-bcbf-aaddc4a74186
 description: L’élément IsAssociated indique si l’élément est associé à un dossier.
-ms.openlocfilehash: 4e376320489841ecf1b41087a14597e0212dea8c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 64a96a16d0303da3e0d8815fc51e6f5ffd342aa4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828004"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466086"
 ---
 # <a name="isassociated"></a>IsAssociated
 
@@ -30,11 +30,11 @@ L’élément **IsAssociated** indique si l’élément est associé à un dossi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,16 +50,16 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
-|[Objet postItem](postitem.md) <br/> |Représente un élément de publication dans la banque d’informations Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que l’élément est associé à un dossier. la valeur **false** indique que l’élément n’est pas associée à un dossier. 
+Une valeur de texte **true** indique que l’élément est associé à un dossier ; la valeur **false** indique que l’élément n’est pas associé à un dossier. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

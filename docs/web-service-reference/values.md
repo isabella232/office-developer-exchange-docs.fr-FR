@@ -1,5 +1,5 @@
 ---
-title: Valeurs
+title: Values
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4b14c714-51fa-4225-82ad-83ba9f611824
-description: L’élément de valeurs contient une collection de valeurs pour une propriété étendue.
-ms.openlocfilehash: 9c1c07262fa0085487b9a7081c8f72ee55e5ca99
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément values contient une collection de valeurs pour une propriété étendue.
+ms.openlocfilehash: 2018f7a734725abe8d8e456492862d1142fda205
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839012"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465204"
 ---
-# <a name="values"></a>Valeurs
+# <a name="values"></a>Values
 
-L’élément de **valeurs** contient une collection de valeurs pour une propriété étendue. 
+L’élément **values** contient une collection de valeurs pour une propriété étendue. 
   
 ```xml
 <Values>
@@ -33,11 +33,11 @@ L’élément de **valeurs** contient une collection de valeurs pour une propri�
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

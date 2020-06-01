@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9a30cadd-909e-41b1-b4e9-291643dd89c6
-description: L’élément Value contient la valeur d’une propriété étendue.
-ms.openlocfilehash: 4b8674d267b78f0384f9457e794e88ace8234826
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément value contient la valeur d’une propriété étendue.
+ms.openlocfilehash: 5de1528dda6d58ea772d050e709c0720e389fae6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839008"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465211"
 ---
 # <a name="value"></a>Valeur
 
-L’élément **Value** contient la valeur d’une propriété étendue. 
+L’élément **value** contient la valeur d’une propriété étendue. 
   
 ```xml
 <Value/>
 ```
 
-**Chaîne**
+**String**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,16 +45,16 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Values](values.md) <br/> |Contient une collection de valeurs pour une propriété étendue.  <br/> |
+|[Valeurs](values.md) <br/> |Contient une collection de valeurs pour une propriété étendue.  <br/> |
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues sur les dossiers et les éléments.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte doit être compatible avec le type est indiqué par l’attribut PropertyType de la ExtendedFieldURI.
+La valeur de texte doit être compatible avec le type indiqué par l’attribut PropertyType de l’ExtendedFieldURI.
   
 ## <a name="remarks"></a>Remarques
 
-Un élément de la **valeur** peut se produire dans les deux instances de la propriété étendue unique et à valeurs multiples. Pour les instances à valeur unique, il existe en tant qu’enfant de l’élément [ExtendedProperty](extendedproperty.md) direct. Pour l’instance à valeurs multiples, il existe en tant qu’un enfant direct de la collection de **valeurs** . 
+Un élément **value** peut se produire dans des instances de propriétés étendues à valeur unique ou à valeurs multiples. Pour les instances à valeur unique, elle existe en tant qu’enfant direct de l’élément [ExtendedProperty](extendedproperty.md) . Pour une instance à valeurs multiples, elle existe en tant qu’enfant direct de la collection **values** . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

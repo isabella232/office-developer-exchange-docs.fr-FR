@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: be12e41e-6871-4f6b-b2d4-3dfa404f9ea1
-description: L’élément heure décrit l’heure de l’heure de modification entre heure standard et l’heure d’été.
-ms.openlocfilehash: db44ef494561b75dc55c93229cec3901f04235ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Time décrit le moment où le temps change entre l’heure standard et l’heure d’été.
+ms.openlocfilehash: c25d0bc3394fdfab42a29eab8b370bc4263618ed
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838693"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465736"
 ---
 # <a name="time-timechangetype"></a>Heure (TimeChangeType)
 
-L’élément **heure** décrit l’heure de l’heure de modification entre heure standard et l’heure d’été. 
+L’élément **Time** décrit le moment où le temps change entre l’heure standard et l’heure d’été. 
   
 ```xml
 <Time/>
 ```
 
- **Heure**
+ **Time**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Heure d’été](daylight.md) <br/> |Représente la date et l’heure de l’heure de modification de l’heure à l’heure standard.  <br/> |
-|[Standard](standard.md) <br/> |Représente la date et l’heure de l’heure de modification de l’heure à l’heure standard.  <br/> |
+|[Auxquelles](daylight.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
+|[Standard](standard.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de text représente l’heure de l’heure de modification entre heure standard et l’heure d’été.
+La valeur texte représente l’heure à laquelle le temps change entre l’heure standard et l’heure d’été.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

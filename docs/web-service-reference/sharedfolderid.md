@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 21181ba3-9626-4284-9717-0b1c16948e8f
-description: L’élément SharedFolderId représente l’identificateur du dossier partagé pour lequel l’identificateur de dossier local doit être retournée par une requête d’opération GetSharingFolder.
-ms.openlocfilehash: 6d4e541ef3cae89e413efa8cc5f1beaf651dc4dd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SharedFolderId représente l’identificateur du dossier partagé dont l’identificateur de dossier local doit être renvoyé par une demande d’opération GetSharingFolder.
+ms.openlocfilehash: 546e148540708725bcf335f39bf69d193124d210
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829477"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466121"
 ---
 # <a name="sharedfolderid"></a>SharedFolderId
 
-L’élément **SharedFolderId** représente l’identificateur du dossier partagé pour lequel l’identificateur de dossier local doit être retournée par une demande [d’opération GetSharingFolder](getsharingfolder-operation.md) . 
+L’élément **SharedFolderId** représente l’identificateur du dossier partagé dont l’identificateur de dossier local doit être renvoyé par une demande d' [opération GetSharingFolder](getsharingfolder-operation.md) . 
   
 ```xml
 <SharedFolderId/>
@@ -30,11 +30,11 @@ L’élément **SharedFolderId** représente l’identificateur du dossier parta
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[GetSharingFolder](getsharingfolder.md) <br/> |Définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une chaîne qui représente l’identificateur du dossier partagé pour lequel l’identificateur de dossier local doit être retournée par une demande [d’opération GetSharingFolder](getsharingfolder-operation.md) . 
+La valeur de texte est une chaîne qui représente l’identificateur du dossier partagé dont l’identificateur de dossier local doit être renvoyé par une demande d' [opération GetSharingFolder](getsharingfolder-operation.md) . 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

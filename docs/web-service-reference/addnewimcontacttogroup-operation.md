@@ -7,54 +7,54 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0cb5525f-faa3-48f1-9551-df55ffc26f46
-description: Opération de recherche plus d’informations sur la AddNewImContactToGroup EWS.
-ms.openlocfilehash: f75b89dbb6e948431d56acb9baa93fe4d4a1d939
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS AddNewImContactToGroup.
+ms.openlocfilehash: e91cc067b4161b366e6713a9adc16873e63b1562
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755177"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465028"
 ---
 # <a name="addnewimcontacttogroup-operation"></a>Opération AddNewImContactToGroup
 
 Trouvez des informations sur l’opération EWS **AddNewImContactToGroup** . 
   
-L’opération **AddNewImContactToGroup** ajoute un nouveau contact à un groupe (IM) de messagerie instantanée. 
+L’opération **AddNewImContactToGroup** ajoute un nouveau contact à un groupe de messagerie instantanée. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-addnewimcontacttogroup-operation"></a>Utilisation de l’opération AddNewImContactToGroup
 
-L’opération **AddNewImContactToGroup** prend les trois arguments à ajouter un nouveau contact à un groupe de messagerie instantanée suivants : 
+L’opération **AddNewImContactToGroup** prend les trois arguments suivants pour ajouter un nouveau contact à un groupe de messagerie instantanée : 
   
-- **IMAddress,** propriété - identifie l’adresse de messagerie instantanée. Cette propriété est requise. 
+- **IMAddress** , propriété : identifie l’adresse de messagerie instantanée du contact. Cette propriété est obligatoire. 
     
-- Propriété **DisplayName** - identifie le nom du contact complet. 
+- **DisplayName** , propriété-identifie le nom d’affichage du contact. 
     
-- Propriété **GroupId** - identifie le groupe que le contact est ajouté à. 
+- **GroupID** , propriété : identifie le groupe auquel le contact est ajouté. 
     
-Cette opération retourne le personnage du contact qui a été ajouté au groupe.
+Cette opération renvoie le personnage du contact qui a été ajouté au groupe.
   
-### <a name="addnewimcontacttogroup-operation-soap-headers"></a>En-têtes SOAP AddNewImContactToGroup opération
+### <a name="addnewimcontacttogroup-operation-soap-headers"></a>En-têtes SOAP d’opération AddNewImContactToGroup
 
-L’opération **AddNewImContactToGroup** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant. 
+L’opération **AddNewImContactToGroup** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur emprunte l’identité de l’application cliente. Cet en-tête est applicable à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, comme défini dans RFC 3066, « Balises pour l’Identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête est applicable à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération. Cet en-tête est applicable à une demande.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête est applicable à une réponse.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
 ## <a name="addnewimcontacttogroup-operation-request-example-add-a-new-im-contact-to-a-group"></a>Exemple de requête d’opération AddNewImContactToGroup : ajouter un nouveau contact de messagerie instantanée à un groupe
 
-Une requête d’opération **AddNewImContactToGroup** l’exemple suivant montre comment ajouter un nouveau contact à un groupe existant de la messagerie instantanée. La valeur de la propriété **GroupId** pour que cet exemple a été retournée à partir des résultats de l' [opération AddImGroup](addimgroup-operation.md). La propriété **ExchangeStoreId** contient la valeur de la propriété **GroupId** . 
+L’exemple suivant de demande d’opération **AddNewImContactToGroup** indique comment ajouter un nouveau contact à un groupe de messagerie instantanée existant. La valeur de la propriété **GroupID** de cet exemple a été renvoyée à partir des résultats de l' [opération AddImGroup](addimgroup-operation.md). La propriété **ExchangeStoreId** contient la valeur de la propriété **GroupID** . 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -74,24 +74,24 @@ Une requête d’opération **AddNewImContactToGroup** l’exemple suivant montr
 ```
 
 > [!NOTE]
-> La valeur **GroupId** a été raccourcie afin de préserver la lisibilité. 
+> La valeur **GroupID** a été raccourcie afin de préserver la lisibilité. 
   
-La demande SOAP body contient les éléments suivants :
+Le corps SOAP de la demande contient les éléments suivants :
   
 - [AddNewImContactToGroup](addnewimcontacttogroup.md)
     
-- [ImAddress (chaîne)](imaddress-string.md)
+- [IMAddress (String)](imaddress-string.md)
     
 - [DisplayName (chaîne)](displayname-string.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addnewimcontacttogroup-operation-response"></a>Réponse d’opération AddNewImContactToGroup réussie
+## <a name="successful-addnewimcontacttogroup-operation-response"></a>Réponse de l’opération AddNewImContactToGroup réussie
 
-L’exemple suivant montre une réponse positive à une demande d’opération **AddNewImContactToGroup** . La réponse contient le personnage du contact nouvellement créé. Le contact est ajouté au dossier Contacts rapides dans Exchange. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **AddNewImContactToGroup** . La réponse contient le personnage du contact nouvellement créé. Le contact est ajouté au dossier contacts rapides dans Exchange. 
   
 > [!NOTE]
-> Les identificateurs ont été réduits afin de préserver la lisibilité. 
+> Les identificateurs ont été raccourcis pour conserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,40 +102,40 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                          MajorBuildNumber="349" 
                          MinorBuildNumber="0" 
                          Version="Exchange2013" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <AddNewImContactToGroupResponse ResponseClass="Success" 
-                                    xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                    xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Persona>
         <PersonaId Id="AAQkAGQ1MjJjMTBkLTc4Y2UtNDA5Ny04ZjU5LWI3MTYzNGNkZmRkYQAQAJ3EkhEEXN5KufGbSYJanZk=" 
-                   xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
-        <PersonaType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Person</PersonaType>
-        <CreationTime xmlns="http://schemas.microsoft.com/exchange/services/2006/types">2012-01-05T23:06:58Z</CreationTime>
-        <DisplayName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayName>
-        <DisplayNameFirstLast xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameFirstLast>
-        <DisplayNameLastFirst xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameLastFirst>
-        <FileAsId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">None</FileAsId>
-        <EmailAddress xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                   xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
+        <PersonaType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Person</PersonaType>
+        <CreationTime xmlns="https://schemas.microsoft.com/exchange/services/2006/types">2012-01-05T23:06:58Z</CreationTime>
+        <DisplayName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayName>
+        <DisplayNameFirstLast xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameFirstLast>
+        <DisplayNameLastFirst xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Tony Smith</DisplayNameLastFirst>
+        <FileAsId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">None</FileAsId>
+        <EmailAddress xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Name>Tony Smith</Name>
           <Address>tsmith@contoso.com</Address>
           <RoutingType>SMTP</RoutingType>
         </EmailAddress>
-        <EmailAddresses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <EmailAddresses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EmailAddress>
             <Name>Tony Smith</Name>
             <Address>tsmith@contoso.com</Address>
             <RoutingType>SMTP</RoutingType>
           </EmailAddress>
         </EmailAddresses>
-        <ImAddress xmlns="http://schemas.microsoft.com/exchange/services/2006/types">tsmith@contoso.com</ImAddress>
-        <RelevanceScore xmlns="http://schemas.microsoft.com/exchange/services/2006/types">2147483647</RelevanceScore>
-        <Attributions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <ImAddress xmlns="https://schemas.microsoft.com/exchange/services/2006/types">tsmith@contoso.com</ImAddress>
+        <RelevanceScore xmlns="https://schemas.microsoft.com/exchange/services/2006/types">2147483647</RelevanceScore>
+        <Attributions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Attribution>
             <Id>0</Id>
             <SourceId Id="BtF8oI7iVOQatt/bhQoTbWAAAAAAvcAAA=" 
@@ -148,7 +148,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                       ChangeKey="AQAAAA==" />
           </Attribution>
         </Attributions>
-        <DisplayNames xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <DisplayNames xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <StringAttributedValue>
             <Value>Tony Smith</Value>
             <Attributions>
@@ -156,7 +156,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
             </Attributions>
           </StringAttributedValue>
         </DisplayNames>
-        <FileAsIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <FileAsIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <StringAttributedValue>
             <Value>None</Value>
             <Attributions>
@@ -164,7 +164,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
             </Attributions>
           </StringAttributedValue>
         </FileAsIds>
-        <Emails1 xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Emails1 xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EmailAddressAttributedValue>
             <Value>
               <Name>Tony Smith</Name>
@@ -176,7 +176,7 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
             </Attributions>
           </EmailAddressAttributedValue>
         </Emails1>
-        <ImAddresses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <ImAddresses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <StringAttributedValue>
             <Value>tsmith@contoso.com</Value>
             <Attributions>
@@ -190,11 +190,11 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
 </s:Envelope>
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md)
     
-- [Personnage](persona.md)
+- [Persona](persona.md)
     
 - [PersonaId](personaid.md)
     
@@ -214,11 +214,11 @@ La réponse SOAP body contient les éléments suivants :
     
 - [Nom (EmailAddressType)](name-emailaddresstype.md)
     
-- [Adresse (chaîne)](address-string.md)
+- [Address (chaîne)](address-string.md)
     
 - [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-- [ImAddress (chaîne)](imaddress-string.md)
+- [IMAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
@@ -228,7 +228,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [ID (chaîne)](id-string.md)
     
-- [ID source](sourceid.md)
+- [SourceId](sourceid.md)
     
 - [IsWritable](iswritable.md)
     
@@ -238,7 +238,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [FolderId](folderid.md)
     
-- [DisplayNames](displaynames.md)
+- [DisplayName](displaynames.md)
     
 - [StringAttributedValue](stringattributedvalue.md)
     
@@ -254,7 +254,7 @@ La réponse SOAP body contient les éléments suivants :
     
 ## <a name="addnewimcontacttogroup-operation-error-response"></a>Réponse d’erreur d’opération AddNewImContactToGroup
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **AddNewImContactToGroup** . Il s’agit d’une réponse à une demande pour ajouter un contact à un groupe qui ne figure pas dans la boîte aux lettres du demandeur. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **AddNewImContactToGroup** . Il s’agit d’une réponse à une demande d’ajout d’un contact à un groupe qui ne se trouve pas dans la boîte aux lettres du demandeur. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -265,27 +265,27 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
                            MajorBuildNumber="578" 
                            MinorBuildNumber="11" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddNewImContactToGroupResponse ResponseClass="Error" 
-                                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>No mailbox with such guid.</MessageText>
          <ResponseCode>ErrorNonExistentMailbox</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
          <MessageXml>
-            <t:Value Name="MailboxGuid" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">d5fasdadcw3d-23de-2341-8f59-b71523fsddda</t:Value>
+            <t:Value Name="MailboxGuid" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">d5fasdadcw3d-23de-2341-8f59-b71523fsddda</t:Value>
          </MessageXml>
       </AddNewImContactToGroupResponse>
    </s:Body>
 </s:Envelope>
 ```
 
-La réponse d’erreur corps SOAP contient les éléments suivants :
+Le corps SOAP de la réponse d’erreur contient les éléments suivants :
   
 - [AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md)
     
@@ -297,7 +297,7 @@ La réponse d’erreur corps SOAP contient les éléments suivants :
     
 - [MessageXml](messagexml.md)
     
-Pour les codes d’erreur générique à EWS, spécifiques à cette opération, consultez la rubrique [ResponseCode](responsecode.md).
+Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -314,5 +314,5 @@ Pour les codes d’erreur générique à EWS, spécifiques à cette opération, 
 [Opération SetImGroup](setimgroup-operation.md)
 
 
-[Personnes et contacts dans EWS dans Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+[Personnes et contacts dans EWS dans Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
 

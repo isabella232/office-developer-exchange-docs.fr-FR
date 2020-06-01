@@ -1,5 +1,5 @@
 ---
-title: Valeur (le suivi des messages)
+title: Valeur (suivi des messages)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: cb2f228f-775a-4c7d-82e7-41c7c953c808
-description: L’élément de la valeur représente la valeur de propriété pour un rapport de suivi des messages.
-ms.openlocfilehash: 152e4fe61a4cff8013ae02900bd84bf244ae84a9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Value représente la valeur de la propriété d’un rapport de suivi des messages.
+ms.openlocfilehash: 4f6b5cb9d82a35bbe010b36e409cdc9f3a70173d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838996"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465007"
 ---
-# <a name="value-message-tracking"></a>Valeur (le suivi des messages)
+# <a name="value-message-tracking"></a>Valeur (suivi des messages)
 
-L’élément de la **valeur** représente la valeur de propriété pour un rapport de suivi des messages. 
+L’élément **value** représente la valeur de la propriété d’un rapport de suivi des messages. 
   
 ```xml
 <Value/>
 ```
 
-**Chaîne**
+**String**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,15 +45,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TrackingPropertyType](trackingpropertytype.md) <br/> |Représente une paire nom / valeur de chaînes qui sert à créer des propriétés pour les rapports de suivi des messages.  <br/> |
+|[TrackingPropertyType](trackingpropertytype.md) <br/> |Représente une paire nom/valeur de chaînes qui est utilisée pour créer des propriétés pour les rapports de suivi des messages.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est facultative.
+La valeur texte est facultative.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément peut se produire au maximum une seule fois dans l’élément [TrackingPropertyType](trackingpropertytype.md) . 
+Cet élément peut apparaître au plus une fois dans l’élément [TrackingPropertyType](trackingpropertytype.md) . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 1 (SP1).
   
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

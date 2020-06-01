@@ -1,5 +1,5 @@
 ---
-title: PlayOnPhone (Exchange Web Services)
+title: PlayOnPhone (services Web Exchange)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,14 +12,14 @@ api_type:
 - schema
 ms.assetid: 486612be-470c-4f99-929a-f2b283e055c1
 description: L’élément PlayOnPhone représente une demande de lecture d’un élément sur un téléphone.
-ms.openlocfilehash: 75493a31940ea609fd6cf454e91ca5881fb7e678
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: e2c09a67255106ad9afddb86fa19b7a4a5762ee5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828816"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466247"
 ---
-# <a name="playonphone-exchange-web-services"></a>PlayOnPhone (Exchange Web Services)
+# <a name="playonphone-exchange-web-services"></a>PlayOnPhone (services Web Exchange)
 
 L’élément **PlayOnPhone** représente une demande de lecture d’un élément sur un téléphone. 
   
@@ -30,18 +30,18 @@ L’élément **PlayOnPhone** représente une demande de lecture d’un élémen
  **PlayOnPhoneType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID d’élément](itemid.md) <br/> |Représente l’identificateur d’un élément à lire sur un téléphone. Cet élément est obligatoire.  <br/> |
-|[DialString (Exchange Web Services)](dialstring-exchange-web-services.md) <br/> |Représente la chaîne de numérotation du numéro de téléphone qui est appelée pour lire un élément par téléphone. Cet élément est obligatoire.  <br/> |
+|[ItemId](itemid.md) <br/> |Représente l’identificateur d’un élément à lire sur un téléphone. Cet élément est obligatoire.  <br/> |
+|[DialString (services Web Exchange)](dialstring-exchange-web-services.md) <br/> |Représente la chaîne de numérotation du numéro de téléphone qui est appelé pour lire un élément par téléphone. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -49,15 +49,15 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

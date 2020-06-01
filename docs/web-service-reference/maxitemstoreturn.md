@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fef0db2a-f126-4a38-b433-64194b22eab4
-description: L’élément MaxItemsToReturn identifie le nombre maximal d’éléments de conversations à retourner dans une réponse GetConversationItems.
-ms.openlocfilehash: 7d7ac1734ad2d266ca427c34619e7f3bc11824e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MaxItemsToReturn identifie le nombre maximal d’éléments de conversation à renvoyer dans une réponse GetConversationItems.
+ms.openlocfilehash: 5d3c509a35c3b7abc42fc7e0ec0d8447eaf5a977
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828385"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466338"
 ---
 # <a name="maxitemstoreturn"></a>MaxItemsToReturn
 
-L’élément **MaxItemsToReturn** identifie le nombre maximal d’éléments de conversations à retourner dans une réponse **GetConversationItems** . 
+L’élément **MaxItemsToReturn** identifie le nombre maximal d’éléments de conversation à renvoyer dans une réponse **GetConversationItems** . 
   
 ```XML
 <MaxItemsToReturn></MaxItemsToReturn>
@@ -26,11 +26,11 @@ L’élément **MaxItemsToReturn** identifie le nombre maximal d’éléments de
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [GetConversationItems](getconversationitems.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **MaxItemsToReturn** est le nombre maximal d’éléments de conversation pour retourner une réponse. 
+La valeur de texte de l’élément **MaxItemsToReturn** est le nombre maximal d’éléments de conversation à renvoyer dans une réponse. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

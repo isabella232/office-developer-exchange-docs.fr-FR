@@ -1,5 +1,5 @@
 ---
-title: Année
+title: Year
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,30 +12,30 @@ api_type:
 - schema
 ms.assetid: 93bf2847-53fa-496c-9a1e-dc9a9ffd0b9f
 description: L’élément Year est utilisé pour définir un fuseau horaire qui change en fonction de l’année. Cet élément est facultatif. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 95d75f9c6166fc26e86534346fb07292a7fb3dcd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: cc83f9b2137f151f3f8ef0ceaf603ec036989961
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839077"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465169"
 ---
-# <a name="year"></a>Année
+# <a name="year"></a>Year
 
-L’élément **Year** est utilisé pour définir un fuseau horaire qui change en fonction de l’année. Cet élément est facultatif. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **year** est utilisé pour définir un fuseau horaire qui change en fonction de l’année. Cet élément est facultatif. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <Year/>
 ```
 
-**string**
+**chaîne**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,12 +45,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> |Représente un décalage de l’heure par rapport à temps universel coordonné (UTC) qui est représenté par l’élément [Bias (UTC)](bias-utc.md) .  <br/> |
-|[DaylightTime](daylighttime.md) <br/> |Représente un décalage de l’heure par rapport à temps universel coordonné (UTC) qui est représenté par l’élément [Bias (UTC)](bias-utc.md) dans les zones où l’heure d’été est respectée.  <br/> |
+|[StandardTime Element](standardtime.md) <br/> |Représente un décalage entre l’heure par rapport à l’heure UTC (Coordinated Universal Time) représentée par l’élément [bias (UTC)](bias-utc.md) .  <br/> |
+|[DaylightTime](daylighttime.md) <br/> |Représente un décalage entre l’heure par rapport à l’heure UTC (Coordinated Universal Time) représentée par l’élément [bias (UTC)](bias-utc.md) dans les régions où l’heure d’été est observée.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-L’élément Year accepte une chaîne qui représente une année. Le format d’année est aaaa.
+L’élément Year accepte une chaîne qui représente une année. Le format de l’année est YYYY.
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

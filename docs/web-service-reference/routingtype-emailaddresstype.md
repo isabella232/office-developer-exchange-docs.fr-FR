@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 683216be-9972-4f48-a148-c34bfe7f53e5
 description: L’élément RoutingType définit le type d’adresse pour la boîte aux lettres.
-ms.openlocfilehash: a02c3b5711a657311428d67cccabd9c8c231db67
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d4229f2857a5c99cc9bb7ff9b9b103de099a0055
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829256"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465085"
 ---
 # <a name="routingtype-emailaddresstype"></a>RoutingType (EmailAddressType)
 
@@ -30,11 +30,11 @@ L’élément **RoutingType** définit le type d’adresse pour la boîte aux le
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,17 +44,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |Identifie les personnes envoie par l’appelant.  <br/> |
-|[Boîte aux lettres](mailbox.md) <br/> |Identifie une adresse de messagerie entièrement résolu.  <br/> |
+|[Actionas](actingas.md) <br/> |Identifie les personnes qui envoient l’appelant.  <br/> |
+|[Boîte aux lettres](mailbox.md) <br/> |Identifie une adresse de messagerie entièrement résolue.  <br/> |
 |[RoomList](roomlist.md) <br/> |Identifie une liste de salles de réunion.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente un type de routage. SMTP est la valeur de type texte pour cet élément.
+La valeur texte représente un type de routage. SMTP est la valeur de texte standard de cet élément.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est facultatif dans l’élément de [boîte aux lettres](mailbox.md) . Un autre élément [RoutingType (EmailAddress)](routingtype-emailaddress.md) est utilisé pour les opérations de disponibilité. 
+Cet élément est facultatif dans l’élément [Mailbox](mailbox.md) . Un autre élément [RoutingType (EmailAddress)](routingtype-emailaddress.md) est utilisé pour les opérations de disponibilité. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

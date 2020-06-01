@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: b039bd6e-2198-47cf-9c78-a5e8b9d51c98
-description: L’élément de valeur identifie un seul service destinataire ou l’expéditeur.
-ms.openlocfilehash: 6173f94dcfb83eafd62e35f185a5e8c669d50f6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Value identifie un service de destinataire ou d’expéditeur unique.
+ms.openlocfilehash: 908ea451800abc343fb6e4d4a4ed98d57223bd23
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838999"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465239"
 ---
 # <a name="value-protectionrulevaluetype"></a>Valeur (ProtectionRuleValueType)
 
-L’élément de **valeur** identifie un seul service destinataire ou l’expéditeur. 
+L’élément **value** identifie un service de destinataire ou d’expéditeur unique. 
   
 ```XML
 <Value/>
@@ -31,11 +31,11 @@ L’élément de **valeur** identifie un seul service destinataire ou l’expéd
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,12 +45,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientIs](recipientis.md) <br/> |Spécifie que n’importe quel destinataire du message électronique correspond à un des destinataires spécifiées dans les **valeur** des éléments enfants.  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |Spécifie que le service de l’expéditeur correspond à l’un des services spécifiés dans les **valeur** des éléments enfants.  <br/> |
+|[Destinataireest](recipientis.md) <br/> |Spécifie que tout destinataire du message électronique correspond à l’un des destinataires spécifiés dans les éléments de **valeur** enfants.  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Spécifie que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments de **valeur** enfants.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Cet élément doit contenir une valeur de chaîne vide.
+Cet élément doit contenir une valeur de chaîne non vide.
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

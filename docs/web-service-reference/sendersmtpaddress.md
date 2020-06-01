@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: e39c7df7-4bfa-455f-b4bb-1f1d05398eec
 description: L’élément SenderSmtpAddress représente l’adresse de messagerie SMTP correspondant à la boîte aux lettres qui contient le dossier qui sera partagé.
-ms.openlocfilehash: 70905dd1ae2c3df18224aceeea246b542d1338e3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 73047dcecfbccb55d74e373891c3154bc7baeeba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829334"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464895"
 ---
 # <a name="sendersmtpaddress"></a>SenderSmtpAddress
 
@@ -30,11 +30,11 @@ L’élément **SenderSmtpAddress** représente l’adresse de messagerie SMTP c
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,21 +46,21 @@ Aucun.
 |:-----|:-----|
 |[GetSharingMetadata](getsharingmetadata.md) <br/> |Définit une demande pour obtenir un jeton d’authentification opaque qui identifie l’invitation de partage.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Une valeur de texte qui représente une adresse SMTP est requise.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS que héberge Exchange Web Services de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

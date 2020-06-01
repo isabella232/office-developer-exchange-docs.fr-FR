@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 07be3c51-6537-49b5-b25d-ff51759aba1f
-description: L’élément RetentionId Spécifie l’identificateur de balise de rétention.
-ms.openlocfilehash: fdbf263288c7909a73616b81a92632bd8c097111
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RetentionId spécifie l’identificateur de la balise de rétention.
+ms.openlocfilehash: f32fa0ceb301fca88cb0275e99ee9417dea87d2e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829219"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465218"
 ---
 # <a name="retentionid"></a>RetentionId
 
-L’élément **RetentionId** Spécifie l’identificateur de balise de rétention. 
+L’élément **RetentionId** spécifie l’identificateur de la balise de rétention. 
   
 ```XML
 <RetentionId></RetentionId>
@@ -26,11 +26,11 @@ L’élément **RetentionId** Spécifie l’identificateur de balise de rétenti
  **GuidType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionId** est l’identificateur de balise de rétention sous forme de GUID. 
+La valeur de texte de l’élément **RetentionId** est l’identificateur de la balise de rétention sous forme de GUID. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

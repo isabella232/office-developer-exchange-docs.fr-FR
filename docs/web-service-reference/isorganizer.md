@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a31ac268-5061-4272-a433-ffaea2fbcfa9
 description: L’élément IsOrganizer spécifie une valeur de type Boolean qui indique si cette personne est l’organisateur de la réunion.
-ms.openlocfilehash: 5fd775cfc0a296c08d19d0468d96aa36ba67ddd0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 45b7a66068dc00f6e60b7380240bea6836282fd4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828063"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466562"
 ---
 # <a name="isorganizer"></a>IsOrganizer
 
@@ -26,11 +26,11 @@ L’élément **IsOrganizer** spécifie une valeur de type Boolean qui indique s
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,9 +43,9 @@ Aucun.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IsOrganizer** indique que le message du calendrier élément ou la réunion a été créé par l’utilisateur. La valeur **false** indique que le message du calendrier élément ou la réunion a été créé pas VC l’utilisateur. 
+Une valeur de texte de **true** pour l’élément **IsOrganizer** indique que l’élément de calendrier ou le message de réunion a été créé par l’utilisateur. La valeur **false** indique que l’utilisateur ou le message de réunion n’a pas été créé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

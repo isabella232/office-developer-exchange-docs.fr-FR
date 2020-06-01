@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 70caa0ca-40a1-421f-b4e6-0658f22d0b8e
-description: L’élément PushSubscriptionRequest représente un abonnement à un abonnement de notification push d’événements.
-ms.openlocfilehash: 34717d37b8e5bb50c927e57088299fbcb18a2514
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PushSubscriptionRequest représente un abonnement à un abonnement de notification d’événement basé sur un type de message.
+ms.openlocfilehash: dcdb767ed175468aa4ec940f3147c164e4707e40
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828929"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465512"
 ---
 # <a name="pushsubscriptionrequest"></a>PushSubscriptionRequest
 
-L’élément **PushSubscriptionRequest** représente un abonnement à un abonnement de notification push d’événements. 
+L’élément **PushSubscriptionRequest** représente un abonnement à un abonnement de notification d’événement basé sur un type de message. 
   
 [S’abonner](subscribe.md)
   
@@ -40,23 +40,23 @@ L’élément **PushSubscriptionRequest** représente un abonnement à un abonne
  **PushSubscriptionRequestType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**SubscribeToAllFolders** <br/> |Indique s’il s’abonner à tous les dossiers disponibles. Cet attribut est facultatif.  <br/> |
+|**SubscribeToAllFolders** <br/> |Indique s’il faut s’abonner à tous les dossiers disponibles. Cet attribut est facultatif.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contient un tableau d’identificateurs de dossier qui sont utilisés pour identifier les dossiers à analyser pour les notifications d’événement.  <br/> |
-|[EventTypes](eventtypes.md) <br/> |Contient une collection de notifications d’événements qui sont utilisés pour créer un abonnement.  <br/> |
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres. Cela permet de créer un abonnement commençant à un événement représenté par le filigrane. Si la limite d’une demande Subscribe n’est trouvée, une réponse d’erreur est retournée au client. Cela peut se produire si celui-ci est antérieure à 30 jours ou si celui-ci n’a jamais été présent dans la boîte aux lettres.  <br/> |
-|[StatusFrequency](statusfrequency.md) <br/> |Représente la fréquence, en minutes, à la notification messages sont envoyées au client lorsqu’aucun événement ne se sont produites.  <br/> |
-|[URL](url-ex15websvcsotherref.md) <br/> |Représente l’emplacement du client de service Web pour les notifications push.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contient un tableau des identificateurs de dossier qui sont utilisés pour identifier les dossiers à surveiller pour les notifications d’événement.  <br/> |
+|[EventTypes](eventtypes.md) <br/> |Contient une collection de notifications d’événements qui sont utilisées pour créer un abonnement.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres. Cela permet de créer un abonnement à partir d’un événement représenté par le filigrane. Si le filigrane d’une demande subscribe est introuvable, une réponse d’erreur est renvoyée au client. Cela peut se produire si le filigrane est âgé de plus de 30 jours ou si le filigrane n’a jamais été présent dans la boîte aux lettres.  <br/> |
+|[StatusFrequency](statusfrequency.md) <br/> |Représente la fréquence, spécifiée en minutes, à laquelle les messages de notification sont envoyés au client lorsqu’aucun événement n’a eu lieu.  <br/> |
+|[Adresse](url-ex15websvcsotherref.md) <br/> |Représente l’emplacement du service Web client pour les notifications de type transmission.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -76,9 +76,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

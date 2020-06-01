@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e44bc49-8c99-472c-a507-0b5c25db9322
-description: L’élément de boîtes aux lettres spécifie un tableau de boîtes aux lettres identifié par un nom unique hérité.
-ms.openlocfilehash: 11e66e61fc6f20bec8b92ac5107e82bf92daba8f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément mailboxes spécifie un tableau de boîtes aux lettres identifiées par un nom unique hérité.
+ms.openlocfilehash: 7e84a0d1c9ff53e45f8e844136f61de66f6d0ab4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828285"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465981"
 ---
 # <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Boîtes aux lettres (NonEmptyArrayOfLegacyDNsType)
 
-L’élément de **boîtes aux lettres** spécifie un tableau de boîtes aux lettres identifié par un nom unique hérité. 
+L’élément **mailboxes** spécifie un tableau de boîtes aux lettres identifiées par un nom unique hérité. 
   
 ```XML
 <Mailboxes>
@@ -29,11 +29,11 @@ L’élément de **boîtes aux lettres** spécifie un tableau de boîtes aux let
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

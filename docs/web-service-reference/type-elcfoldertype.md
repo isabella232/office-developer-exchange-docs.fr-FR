@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6faad98f-1a92-4373-bde5-dd12af61765f
-description: L’élément de Type spécifie le type de dossier utilisé dans une stratégie de rétention.
-ms.openlocfilehash: f679a9237a577d26d4b28e1b25f3e135f7193903
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément type spécifie le type de dossier utilisé dans une stratégie de rétention.
+ms.openlocfilehash: f6fcc7942a530ada2d6e72c3e38286a7595b09ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838780"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465106"
 ---
 # <a name="type-elcfoldertype"></a>Type (ElcFolderType)
 
-L’élément de **Type** Spécifie le type de dossier utilisé dans une stratégie de rétention. 
+L’élément **type** spécifie le type de dossier utilisé dans une stratégie de rétention. 
   
 ```XML
 <Type> Calendar | Contacts | DeletedItems | Drafts | Inbox | JunkEmail | Journal | Notes | Outbox | SentItems | Tasks | All | ManagedCustomFolder | RssSubscriptions | SyncIssues | ConversationHistory | Personal | RecoverableItems | NonIpmRoot <Type>
@@ -26,11 +26,11 @@ L’élément de **Type** Spécifie le type de dossier utilisé dans une straté
  **ElcFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Type** est le type de dossier utilisé dans une stratégie de rétention. La valeur de texte peut être une des valeurs suivantes qui représentent un type de dossier par défaut : calendrier, Contacts, DeletedItems, Brouillons, boîte de réception, JunkEmail, Journal, Notes, boîte d’envoi, éléments envoyés, tâches, All, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, personnel, RecoverableItems ou NonIpmRoot 
+La valeur de texte de l’élément **type** est le type de dossier utilisé dans une stratégie de rétention. La valeur de texte peut être une des valeurs suivantes qui représentent un type de dossier par défaut : calendrier, contacts, DeletedItems, brouillons, boîte de réception, JunkEmail, Journal, notes, boîte d’envoi, éléments envoyés, tâches, tout, ManagedCustomFolder, RssSubscriptions, SyncIssues, ConversationHistory, personnel, RecoverableItems ou NonIpmRoot 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

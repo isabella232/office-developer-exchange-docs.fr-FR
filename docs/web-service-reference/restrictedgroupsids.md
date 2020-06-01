@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 569ab552-5616-444a-a7f5-de366a684a34
-description: L’élément RestrictedGroupSids représente une collection de groupes restreints à partir d’un jeton d’utilisateur.
-ms.openlocfilehash: fcfee809261c7ed0a4e0d092c091841fec641e46
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RestrictedGroupSids représente une collection de groupes restreints à partir du jeton d’un utilisateur.
+ms.openlocfilehash: 739a73d2ac4bdbbee03650d035271b5c8d9ea25a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829201"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465358"
 ---
 # <a name="restrictedgroupsids"></a>RestrictedGroupSids
 
-L’élément **RestrictedGroupSids** représente une collection de groupes restreints à partir d’un jeton d’utilisateur. 
+L’élément **RestrictedGroupSids** représente une collection de groupes restreints à partir du jeton d’un utilisateur. 
   
 ```xml
 <RestrictedGroupSids>
@@ -32,11 +32,11 @@ L’élément **RestrictedGroupSids** représente une collection de groupes rest
  **NonEmptyArrayOfRestrictedGroupIdentifiersType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,7 +48,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Utilisé dans l’en-tête SOAP pour sérialisation de jeton de l’authentification de serveur à serveur. Sérialisation de jeton n’est pas pris en charge.  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Utilisé dans l’en-tête SOAP pour la sérialisation de jetons dans l’authentification de serveur à serveur. La sérialisation de jetons n’est pas prise en charge.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Personnage
+title: Persona
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b115c990-3a2d-4536-9af3-ac1fd06d00dc
-description: L’élément personnage spécifie un ensemble de données personnage renvoyées par une demande GetPersona.
-ms.openlocfilehash: 15af72eb0e25e424aa7293ce0cbc2dd31e76abda
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Persona spécifie un ensemble de données Persona renvoyées par une demande GetPersona.
+ms.openlocfilehash: 093b346300b5fdcbfb31f2e1240d57d9476e250a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828736"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465876"
 ---
-# <a name="persona"></a>Personnage
+# <a name="persona"></a>Persona
 
-L’élément **personnage** spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** . 
+L’élément **Persona** spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** . 
   
 ```XML
 <Persona>
@@ -126,19 +126,19 @@ L’élément **personnage** spécifie un ensemble de données personnage renvoy
  **PersonaType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[PersonaId](personaid.md) | [PersonaType](personatype.md) | [PersonaObjectStatus](personaobjectstatus.md) | [CreationTime](creationtime.md) | [corps](bodies.md) | [DisplayNameFirstLastSortKey](displaynamefirstlastsortkey.md) | [DisplayNameLastFirstSortKey ](displaynamelastfirstsortkey.md)  |  [CompanyNameSortKey](companynamesortkey.md) | [HomeCitySortKey](homecitysortkey.md) | [WorkCitySortKey](workcitysortkey.md) | [DisplayNameFirstLastHeader](displaynamefirstlastheader.md) | [DisplayNameLastFirstHeader](displaynamelastfirstheader.md)  |  [FileAsHeader](fileasheader.md) | [DisplayName (string)](displayname-string.md) | [DisplayNameFirstLast](displaynamefirstlast.md) | [DisplayNameLastFirst](displaynamelastfirst.md) | [FileAs](fileas.md) | [FileAsId](fileasid.md)  |  [DisplayNamePrefix](displaynameprefix.md)  |  [Prénom](givenname.md) | [MiddleName](middlename.md) | [nom](surname.md) | [génération](generation.md) | [surnom](nickname.md) | [YomiCompanyName](yomicompanyname.md) | [YomiFirstName ](yomifirstname.md)  |  [YomiLastName](yomilastname.md) | [titre](title.md) | [service](department.md) | [CompanyName](companyname.md) | [emplacement](location.md) | [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)  |  [PhoneNumber](phonenumber.md) | [ImAddress (String)](imaddress-string.md) | [HomeCity](homecity.md) | [WorkCity](workcity.md) | [RelevanceScore](relevancescore.md) | [FolderIds (ArrayOfFolderIdType)](folderids-arrayoffolderidtype.md)  |  [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) | [DisplayNames](displaynames.md) | [FileAses](fileases.md) | [FileAsIds](fileasids.md) | [DisplayNamePrefixes](displaynameprefixes.md) | [GivenNames ](givennames.md)  |  [MiddleNames](middlenames.md) | [prénoms](surnames.md) | [générations](generations.md) | [surnoms](nicknames.md) | [initiales (ArrayOfStringAttributedValuesType)](initials-arrayofstringattributedvaluestype.md)  |  [ YomiCompanyNames](yomicompanynames.md) | [YomiFirstNames](yomifirstnames.md) | [YomiLastNames](yomilastnames.md) | [BusinessPhoneNumbers](businessphonenumbers.md) | [BusinessPhoneNumbers2](businessphonenumbers2.md) | [HomePhones ](homephones.md)  |  [HomePhones2](homephones2.md) | [MobilePhones](mobilephones.md) | [MobilePhones2](mobilephones2.md) | [AssistantPhoneNumbers](assistantphonenumbers.md) | [CallbackPhones](callbackphones.md)  |  [CarPhones](carphones.md)  |  [HomeFaxes](homefaxes.md) | [OrganizationMainPhones](organizationmainphones.md) | [OtherFaxes](otherfaxes.md) | [OtherTelephones](othertelephones.md) | [OtherPhones2](otherphones2.md) | [radiomessagerie ](pagers.md)  |  [RadioPhones](radiophones.md) | [TelexNumbers](telexnumbers.md) | [TTYTDDPhoneNumbers](ttytddphonenumbers.md) | [WorkFaxes](workfaxes.md) | [Emails1](emails1.md) | [Emails2 ](emails2.md)  |  [Emails3](emails3.md) | [BusinessHomePages](businesshomepages.md) | [PersonalHomePages](personalhomepages.md) | [OfficeLocations](officelocations.md) | (ImAddresses)[ ArrayOfStringAttributedValuesType)](imaddresses-arrayofstringattributedvaluestype.md) | [ImAddresses2](imaddresses2.md) | [ImAddresses3](imaddresses3.md) | [BusinessAddresses](businessaddresses.md) | [HomeAddresses](homeaddresses.md)  |  [ OtherAddresses](otheraddresses.md) | [titres](titles.md) | [départements](departments.md) | [CompanyNames](companynames.md) | [responsables](managers.md) | [AssistantNames](assistantnames.md)  |  [ Professions](professions.md) | [SpouseNames](spousenames.md) | [enfants (ArrayOfStringArrayAttributedValuesType)](children-arrayofstringarrayattributedvaluestype.md) | [écoles](schools.md) | [centres](hobbies.md)  |  [ WeddingAnniversaries](weddinganniversaries.md) | [anniversaires](birthdays.md) | [emplacements](locations.md) | [ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md)
+[PersonaId](personaid.md)  |  [PersonaType](personatype.md)  |  [PersonaObjectStatus](personaobjectstatus.md)  |  [CreationTime](creationtime.md)  |  [Corps](bodies.md)  |  [DisplayNameFirstLastSortKey](displaynamefirstlastsortkey.md)  |  [DisplayNameLastFirstSortKey](displaynamelastfirstsortkey.md)  |  [CompanyNameSortKey](companynamesortkey.md)  |  [HomeCitySortKey](homecitysortkey.md)  |  [WorkCitySortKey](workcitysortkey.md)  |  [DisplayNameFirstLastHeader](displaynamefirstlastheader.md)  |  [DisplayNameLastFirstHeader](displaynamelastfirstheader.md)  |  [FileAsHeader](fileasheader.md)  |  [DisplayName (String)](displayname-string.md)  |  [DisplayNameFirstLast](displaynamefirstlast.md)  |  [DisplayNameLastFirst](displaynamelastfirst.md)  |  [FileAs](fileas.md)  |  [FileAsId](fileasid.md)  |  [DisplayNamePrefix](displaynameprefix.md)  |  [GivenName](givenname.md)  |  [MiddleName](middlename.md)  |  [Nom](surname.md)  |  [Génération](generation.md)  |  [Surnom](nickname.md)  |  [YomiCompanyName,](yomicompanyname.md)  |  [YomiFirstName,](yomifirstname.md)  |  [YomiLastName,](yomilastname.md)  |  [Titre](title.md)  |  [Service](department.md)  |  [CompanyName](companyname.md)  |  [Emplacement](location.md)  |  [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)  |  [PhoneNumber](phonenumber.md)  |  [IMAddress (String)](imaddress-string.md)  |  [HomeCity](homecity.md)  |  [WorkCity](workcity.md)  |  [RelevanceScore](relevancescore.md)  |  [FolderIds (ArrayOfFolderIdType)](folderids-arrayoffolderidtype.md)  |  [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)  |  [DisplayName](displaynames.md)  |  [FileAses](fileases.md)  |  [FileAsIds](fileasids.md)  |  [DisplayNamePrefixes](displaynameprefixes.md)  |  [GivenNames](givennames.md)  |  [MiddleNames](middlenames.md)  |  [Nom](surnames.md)  |  [Générations](generations.md)  |  [Surnoms](nicknames.md)  |  [Initiales (ArrayOfStringAttributedValuesType)](initials-arrayofstringattributedvaluestype.md)  |  [YomiCompanyNames](yomicompanynames.md)  |  [YomiFirstNames](yomifirstnames.md)  |  [YomiLastNames](yomilastnames.md)  |  [BusinessPhoneNumbers](businessphonenumbers.md)  |  [BusinessPhoneNumbers2](businessphonenumbers2.md)  |  [HomePhones](homephones.md)  |  [HomePhones2](homephones2.md)  |  [MobilePhones](mobilephones.md)  |  [MobilePhones2](mobilephones2.md)  |  [AssistantPhoneNumbers](assistantphonenumbers.md)  |  [CallbackPhones](callbackphones.md)  |  [CarPhones](carphones.md)  |  [HomeFaxes](homefaxes.md)  |  [OrganizationMainPhones](organizationmainphones.md)  |  [OtherFaxes](otherfaxes.md)  |  [OtherTelephones](othertelephones.md)  |  [OtherPhones2](otherphones2.md)  |  [Pagers](pagers.md)  |  [Téléphones](radiophones.md)  |  [TelexNumbers](telexnumbers.md)  |  [TTYTDDPhoneNumbers](ttytddphonenumbers.md)  |  [WorkFaxes](workfaxes.md)  |  [Emails1](emails1.md)  |  [Emails2](emails2.md)  |  [Emails3](emails3.md)  |  [BusinessHomePages](businesshomepages.md)  |  [PersonalHomePages](personalhomepages.md)  |  [OfficeLocations](officelocations.md)  |  [Imaddresss (ArrayOfStringAttributedValuesType)](imaddresses-arrayofstringattributedvaluestype.md)  |  [ImAddresses2](imaddresses2.md)  |  [ImAddresses3](imaddresses3.md)  |  [BusinessAddresses](businessaddresses.md)  |  [HomeAddresses](homeaddresses.md)  |  [OtherAddresses](otheraddresses.md)  |  [Titres](titles.md)  |  [Services](departments.md)  |  [CompanyNames](companynames.md)  |  [Gestionnaires](managers.md)  |  [AssistantNames](assistantnames.md)  |  [Professions](professions.md)  |  [SpouseNames](spousenames.md)  |  [Enfants (ArrayOfStringArrayAttributedValuesType)](children-arrayofstringarrayattributedvaluestype.md)  |  [Établissements scolaires](schools.md)  |  [Loisirs](hobbies.md)  |  [WeddingAnniversaries](weddinganniversaries.md)  |  [Anniversaires](birthdays.md)  |  [Emplacements](locations.md)  |  [ExtendedProperties (ArrayOfExtendedPropertyAttributedValueType)](extendedproperties-arrayofextendedpropertyattributedvaluetype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md) | [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md) | [GetPersonaResponseMessage](getpersonaresponsemessage.md) | [personnes](people.md) | [personnages](personas-ex15websvcsotherref.md)
+[AddNewImContactToGroupResponse](addnewimcontacttogroupresponse.md)  |  [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md)  |  [GetPersonaResponseMessage](getpersonaresponsemessage.md)  |  [Personnes](people.md)  |  [Personnages](personas-ex15websvcsotherref.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -150,9 +150,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

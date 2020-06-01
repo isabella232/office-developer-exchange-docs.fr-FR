@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 578b1682-f3e1-4ccc-aa24-d2ca1a9de596
 description: L’élément SchemaVersionSupported contient la version du schéma de manifeste pris en charge par le client.
-ms.openlocfilehash: 0b27a6f16f310ffe10ab819fc1046d4b0b6ecaa2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: df70d8ecf78b4f9b99ceaa3c28d2b1831a1c6171
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829272"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465792"
 ---
 # <a name="schemaversionsupported"></a>SchemaVersionSupported
 
@@ -23,14 +23,14 @@ L’élément **SchemaVersionSupported** contient la version du schéma de manif
 <SchemaVersionSupported />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,21 +40,21 @@ Aucun.
 
 [GetAppManifests](getappmanifests.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SchemaVersionSupported** contient la version du schéma de manifeste pris en charge par le client. Cette valeur indique quelle application manifestes doivent être retournés au client dans la réponse. 
+La valeur de texte de l’élément **SchemaVersionSupported** contient la version du schéma de manifeste pris en charge par le client. Cette valeur indique les manifestes d’application qui doivent être renvoyés au client dans la réponse. 
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).
+Cet élément est une nouveauté d’Exchange Server 2013 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> | https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Not applicable  <br/> |
+|Fichier de validation  <br/> |Non applicable  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

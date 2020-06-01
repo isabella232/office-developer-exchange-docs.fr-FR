@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7e9ab484-7100-422d-ab22-d8ddb97098c1
-description: L’élément SetImListMigrationCompletedResponse représente une réponse à une demande de SetImListMigrationCompleted.
-ms.openlocfilehash: 2041a0e6b03305644c498ec36967f297f999d993
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetImListMigrationCompletedResponse représente une réponse à une demande SetImListMigrationCompleted.
+ms.openlocfilehash: 66d85362319df1c88064130e99bba98f21b50db7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829430"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464818"
 ---
 # <a name="setimlistmigrationcompletedresponse"></a>SetImListMigrationCompletedResponse
 
-L’élément **SetImListMigrationCompletedResponse** représente une réponse à une demande de **SetImListMigrationCompleted** . 
+L’élément **SetImListMigrationCompletedResponse** représente une réponse à une demande **SetImListMigrationCompleted** . 
   
 ```XML
 <SetImListMigrationCompletedResponse>
@@ -31,15 +31,15 @@ L’élément **SetImListMigrationCompletedResponse** représente une réponse �
  **SetImListMigrationCompletedResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

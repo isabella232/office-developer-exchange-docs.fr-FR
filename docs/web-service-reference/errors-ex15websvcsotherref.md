@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ea37a2b5-e2d1-4089-960f-7014b9535a50
-description: L’élément erreurs contient un ensemble de propriétés pour stocker les erreurs retournées par le service Web.
-ms.openlocfilehash: a029492c1e3c11cc31d3501bd4ea0024ef8ecb91
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Errors contient un conteneur de propriétés permettant de stocker les erreurs renvoyées via le service Web.
+ms.openlocfilehash: a2f888a81791fe0b57eee6123c4b0f5f609f3e75
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756217"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465904"
 ---
 # <a name="errors"></a>Erreurs
 
-L’élément **erreurs** contient un ensemble de propriétés pour stocker les erreurs retournées par le service Web. 
+L’élément **Errors** contient un conteneur de propriétés permettant de stocker les erreurs renvoyées via le service Web. 
   
 [FindMessageTrackingReport](findmessagetrackingreport.md)
   
@@ -36,24 +36,24 @@ L’élément **erreurs** contient un ensemble de propriétés pour stocker les 
  **ArrayOfArraysOfTrackingPropertiesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’un ou plusieurs des propriétés de suivi.  <br/> |
+|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’état et les résultats d’une seule demande [d’opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une seule demande [d’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) .  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une demande d' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -67,9 +67,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

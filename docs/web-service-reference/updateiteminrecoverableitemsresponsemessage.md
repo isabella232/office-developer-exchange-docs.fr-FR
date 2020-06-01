@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96259756-322e-4c24-ac76-0cd9c32e0d6d
-description: L’élément UpdateItemInRecoverableItemsResponseMessage spécifie la réponse à une demande de UpdateItemInRecoverableItems.
-ms.openlocfilehash: 598d91a4fbd4d241b75aea4c155caca68f120b3f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UpdateItemInRecoverableItemsResponseMessage spécifie la réponse à une demande UpdateItemInRecoverableItems.
+ms.openlocfilehash: 021631f5c30eebbf4d7ae0aad35a85b99a23925f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838892"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466534"
 ---
 # <a name="updateiteminrecoverableitemsresponsemessage"></a>UpdateItemInRecoverableItemsResponseMessage
 
-L’élément **UpdateItemInRecoverableItemsResponseMessage** spécifie la réponse à une demande de **UpdateItemInRecoverableItems** . 
+L’élément **UpdateItemInRecoverableItemsResponseMessage** spécifie la réponse à une demande **UpdateItemInRecoverableItems** . 
   
 ```XML
 <UpdateItemInRecoverableItemsResponseMessage>
@@ -34,15 +34,15 @@ L’élément **UpdateItemInRecoverableItemsResponseMessage** spécifie la répo
  **UpdateItemInRecoverableItemsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [éléments](items.md) | [pièces jointes](attachments-ex15websvcsotherref.md) | [ConflictResults](conflictresults.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [Éléments](items.md)  |  [Pièces jointes](attachments-ex15websvcsotherref.md)  |  [ConflictResults](conflictresults.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/message  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Message.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Message. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

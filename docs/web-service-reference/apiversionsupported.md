@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9264e74-eba7-4279-b193-af7e5130268d
-description: L’élément ApiVersionSupported contient la version de l’API JavaScript pour Office pris en charge par le client.
-ms.openlocfilehash: 41c3eacff65d797dfe7e8b587c50c35d8938664f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ApiVersionSupported contient la version de l’API JavaScript pour Office prise en charge par le client.
+ms.openlocfilehash: 0129a33624b48d309ad0814af6eaa655b2c4e6f9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755210"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44466058"
 ---
 # <a name="apiversionsupported"></a>ApiVersionSupported
 
-L’élément **ApiVersionSupported** contient la version de l’API JavaScript pour Office pris en charge par le client. 
+L’élément **ApiVersionSupported** contient la version de l’API JavaScript pour Office prise en charge par le client. 
   
 ```XML
 <ApiVersionSupported />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,21 +40,21 @@ Aucun.
 
 [GetAppManifests](getappmanifests.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ApiVersionSupported** contient la version de l’API JavaScript pour Office pris en charge par le client. Cette valeur indique quelle application manifestes doivent être retournés au client dans la réponse. 
+La valeur de texte de l’élément **ApiVersionSupported** contient la version de l’API JavaScript pour Office prise en charge par le client. Cette valeur indique les manifestes d’application qui doivent être renvoyés au client dans la réponse. 
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).
+Cet élément est une nouveauté d’Exchange Server 2013 Service Pack 1 (SP1).
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> | https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Not applicable  <br/> |
+|Fichier de validation  <br/> |Non applicable  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c67069e9-0c11-47c5-8b99-82932a6b7f98
-description: L’élément MobilePhones spécifie un tableau des numéros de téléphone mobile et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 03ef771e100935040eb351d2eaa6b76b63854649
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MobilePhones spécifie un tableau de numéros de téléphone mobile et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: a38a6c3912535d5d886cac82407b4819373da00f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828469"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466660"
 ---
 # <a name="mobilephones"></a>MobilePhones
 
-L’élément **MobilePhones** spécifie un tableau des numéros de téléphone mobile et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **MobilePhones** spécifie un tableau de numéros de téléphone mobile et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <MobilePhones>
@@ -28,11 +28,11 @@ L’élément **MobilePhones** spécifie un tableau des numéros de téléphone 
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

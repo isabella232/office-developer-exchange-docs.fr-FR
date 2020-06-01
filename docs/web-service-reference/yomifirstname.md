@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 86ef6012-2d3c-4058-9c43-5ddbea25f6ce
-description: L’élément YomiFirstName représente le nom utilisé pour l’orthographe phonétique ou de recherche pour un nom japonais au Japon.
-ms.openlocfilehash: afcc91055d357c935c33c246e43e12bafd48ad10
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément YomiFirstName, représente le nom utilisé au Japon pour l’orthographe de recherche ou phonétique pour un prénom japonais.
+ms.openlocfilehash: b059059fde9d5a455ea32113fa454de254598d29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839086"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465127"
 ---
 # <a name="yomifirstname"></a>YomiFirstName
 
-L’élément **YomiFirstName** représente le nom utilisé pour l’orthographe phonétique ou de recherche pour un nom japonais au Japon. 
+L’élément **YomiFirstName,** représente le nom utilisé au Japon pour l’orthographe de recherche ou phonétique pour un prénom japonais. 
   
 ```xml
 <YomiFirstName/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -63,8 +63,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Creating Contacts (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

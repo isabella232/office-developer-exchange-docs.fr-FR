@@ -8,39 +8,39 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
-description: L’opération GetUserSettings contient une requête pour la configuration de l’accès des utilisateurs client.
-ms.openlocfilehash: 8bb8f766da3419ea33f89716e588a22d3924e1a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetUserSettings contient une requête pour la configuration de l’accès au client de l’utilisateur.
+ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827704"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466142"
 ---
 # <a name="getusersettings-operation-soap"></a>Opération GetUserSettings (SOAP)
 
-L’opération **GetUserSettings** contient une requête pour la configuration de l’accès des utilisateurs client. 
+L’opération **GetUserSettings** contient une requête pour la configuration de l’accès au client de l’utilisateur. 
   
 ## <a name="getusersettings-request-example"></a>Exemple de requête GetUserSettings
 
 ### <a name="description"></a>Description
 
-L’exemple XML suivant montre un corps de requête de découverte automatique qui demande d’un utilisateur nom complet, nom unique, ID de déploiement, serveur de boîtes aux lettres, nom unique de boîte aux lettres, serveur Active Directory, version de serveur d’accès au Client et Web Exchange prises en charge Services de schémas.
+L’exemple de code XML suivant montre un corps de demande de découverte automatique qui demande le nom d’affichage, le nom unique, l’ID de déploiement, le serveur de boîtes aux lettres, le nom unique de la boîte aux lettres, le serveur Active Directory, la version du serveur d’accès au client et les schémas des services Web Exchange pris en charge.
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"      
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"      
                xmlns:wsa="http://www.w3.org/2005/08/addressing" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"      
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://myserver.contoso.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -64,7 +64,7 @@ L’exemple XML suivant montre un corps de requête de découverte automatique q
 
 ```
 
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans le corps de la demande :
   
@@ -95,10 +95,10 @@ L’exemple suivant montre une réponse **GetUserSettings** réussie.
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
   </s:Header>
   <s:Body>
-  <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+  <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -150,9 +150,9 @@ L’exemple suivant montre une réponse **GetUserSettings** réussie.
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
-Les éléments suivants sont utilisés dans le corps de réponse :
+Les éléments suivants sont utilisés dans le corps de la réponse :
   
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
@@ -166,7 +166,7 @@ Les éléments suivants sont utilisés dans le corps de réponse :
     
 - [Réponse (SOAP)](response-soap.md)
     
-- [Réponse de l’utilisateur (SOAP)](userresponse-soap.md)
+- [UserResponse (SOAP)](userresponse-soap.md)
     
 - [UserResponses (SOAP)](userresponses-soap.md)
     
@@ -187,5 +187,5 @@ Les éléments suivants sont utilisés dans le corps de réponse :
 [Opération GetFederationInformation (SOAP)](getfederationinformation-operation-soap.md)
 
 
-[Éléments du fichier XML Autodiscover SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Éléments XML de découverte automatique SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

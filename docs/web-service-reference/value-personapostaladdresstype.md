@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: be838fc2-cfcb-4856-b095-a8e5366bb6c6
-description: L’élément valeur spécifie les informations associées à une adresse postale.
-ms.openlocfilehash: 048d3a49552f1a9e89744e4cd16ec1745417e923
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Value spécifie les informations associées à une adresse postale.
+ms.openlocfilehash: 2d644ff45fe89061ccd90279773f3a5a5b7fe7cc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838998"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466471"
 ---
 # <a name="value-personapostaladdresstype"></a>Valeur (PersonaPostalAddressType)
 
-L’élément de **valeur** spécifie les informations associées à une adresse postale. 
+L’élément **value** spécifie les informations associées à une adresse postale. 
   
 ```XML
 <Value>
@@ -43,15 +43,15 @@ L’élément de **valeur** spécifie les informations associées à une adresse
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Rue](street.md) | [Ville](city.md) | [état](state-ex15websvcsotherref.md) | [pays](country.md) | [PostalCode](postalcode.md) | [PostOfficeBox](postofficebox.md) | [Type (string)](type-string.md) | [Latitude](latitude.md)  |  [ Longitude](longitude.md) | [précision](accuracy.md) | [Altitude](altitude.md) | [AltitudeAccuracy](altitudeaccuracy.md) | [FormattedAddress](formattedaddress.md) | [LocationUri](locationuri.md) | [LocationSource](locationsource.md)
+[Rue](street.md)  |  [Ville](city.md)  |  [État](state-ex15websvcsotherref.md)  |  [Pays](country.md)  |  [CodePostal](postalcode.md)  |  [PostOfficeBox](postofficebox.md)  |  [Type (chaîne)](type-string.md)  |  [Latitude](latitude.md)  |  [Longitude](longitude.md)  |  [Précision](accuracy.md)  |  [Altitude](altitude.md)  |  [AltitudeAccuracy](altitudeaccuracy.md)  |  [FormattedAddress](formattedaddress.md)  |  [LocationUri](locationuri.md)  |  [LocationSource](locationsource.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

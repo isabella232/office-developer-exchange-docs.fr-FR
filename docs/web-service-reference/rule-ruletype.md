@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 259a1f62-b235-4964-88bf-2d1f1c05a563
-description: L’élément de règle contient une règle unique et représente une règle de boîte aux lettres d’un utilisateur.
-ms.openlocfilehash: b1f9f058213543633335db11f03729964baf98ad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément rule contient une seule règle et représente une règle dans la boîte aux lettres d’un utilisateur.
+ms.openlocfilehash: cdbd21df235a62a9e201e1eaae1d82a8ac10cdd2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829259"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44465078"
 ---
 # <a name="rule-ruletype"></a>Règle (RuleType)
 
-L’élément de **règle** contient une règle unique et représente une règle de boîte aux lettres d’un utilisateur. 
+L’élément **rule** contient une seule règle et représente une règle dans la boîte aux lettres d’un utilisateur. 
   
 ```XML
 <Rule>
@@ -40,32 +40,32 @@ L’élément de **règle** contient une règle unique et représente une règle
  **RuleType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID de la règle](ruleid.md) <br/> |Spécifie l’identificateur de la règle.  <br/> |
+|[RuleId](ruleid.md) <br/> |Spécifie l’identificateur de la règle.  <br/> |
 |[DisplayName (chaîne)](displayname-string.md) <br/> |Contient le nom complet d’une règle.  <br/> |
-|[Priority](priority.md) <br/> |Indique l’ordre dans lequel une règle doit être exécutée.  <br/> |
+|[Priorité](priority.md) <br/> |Indique l’ordre dans lequel une règle doit être exécutée.  <br/> |
 |[IsEnabled](isenabled.md) <br/> |Indique si la règle est activée.  <br/> |
-|[IsNotSupported](isnotsupported.md) <br/> |Indique si la règle ne peut pas être modifiée avec l’API du code managé.  <br/> |
+|[IsNotSupported](isnotsupported.md) <br/> |Indique si la règle ne peut pas être modifiée avec les API avec code managé.  <br/> |
 |[IsInError](isinerror.md) <br/> |Indique si la règle se trouve dans une condition d’erreur.  <br/> |
-|[Conditions](conditions.md) <br/> |Identifie les conditions qui, lorsque remplies, déclenchent des actions de règle d’une règle.  <br/> |
+|[Conditions](conditions.md) <br/> |Identifie les conditions qui, lorsqu’elles sont remplies, déclencheront les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Identifie les exceptions qui représentent toutes les conditions d’exception de règle disponibles pour la règle de boîte de réception.  <br/> |
-|[Actions](actions.md) <br/> |Représente les actions à entreprendre sur un message lorsque les conditions sont remplies.  <br/> |
+|[Actions](actions.md) <br/> |Représente les actions à effectuer sur un message lorsque les conditions sont remplies.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CreateRuleOperation](createruleoperation.md) <br/> |Représente une opération pour créer une nouvelle règle.  <br/> |
-|[InboxRules](inboxrules.md) <br/> |Représente un tableau de règles de boîte aux lettres de l’utilisateur.  <br/> |
+|[CreateRuleOperation](createruleoperation.md) <br/> |Représente une opération de création d’une règle.  <br/> |
+|[InboxRules](inboxrules.md) <br/> |Représente un tableau de règles dans la boîte aux lettres de l’utilisateur.  <br/> |
 |[SetRuleOperation](setruleoperation.md) <br/> |Représente une opération de mise à jour d’une règle existante.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
@@ -80,7 +80,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

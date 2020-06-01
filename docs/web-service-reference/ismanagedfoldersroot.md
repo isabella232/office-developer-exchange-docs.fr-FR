@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 00823fb9-bf8b-49bb-8e1b-d698c6d4063f
 description: L’élément IsManagedFoldersRoot indique si le dossier géré est la racine de tous les dossiers gérés.
-ms.openlocfilehash: 3484a3fef56545a9a8d56af65f56f75205918ec7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 4373dba9dce92de8e175948d889f0806e100fa6c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828044"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466023"
 ---
 # <a name="ismanagedfoldersroot"></a>IsManagedFoldersRoot
 
@@ -30,11 +30,11 @@ L’élément **IsManagedFoldersRoot** indique si le dossier géré est la racin
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur Boolean est requise si cet élément est présent. La valeur **true** indique que le dossier est le dossier racine du dossier géré. la valeur **false** indique que le dossier n’est pas le dossier racine du dossier géré. 
+Une valeur de texte qui représente une valeur booléenne est requise si cet élément est présent. La valeur **true** indique que le dossier est le dossier racine du dossier géré ; la valeur **false** indique que le dossier n’est pas le dossier racine du dossier géré. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

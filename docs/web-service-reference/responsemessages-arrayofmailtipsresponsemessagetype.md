@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
-description: L’élément ResponseMessages représente une liste des messages de réponse de conseils.
-ms.openlocfilehash: 80610af191f3fa600abe2ba8dbba2aac63f3ab1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ResponseMessages représente une liste de messages de réponse à des conseils de messagerie.
+ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829192"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465449"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-L’élément **ResponseMessages** représente une liste des messages de réponse de conseils. 
+L’élément **ResponseMessages** représente une liste de messages de réponse à des conseils de messagerie. 
   
 ```XML
 <ResponseMessages>
@@ -32,23 +32,23 @@ L’élément **ResponseMessages** représente une liste des messages de répons
  **ArrayOfMailTipsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Représente les paramètres de conseils de messagerie.  <br/> |
+|[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Représente les paramètres des conseils de messagerie.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Représente le message de réponse de l' [opération GetMailTips](getmailtips-operation.md).  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Représente le message de réponse pour l' [opération GetMailTips](getmailtips-operation.md).  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e5387172-5b92-4bb1-8394-180e9c7ff771
-description: L’élément AllowExternalOof contient une valeur qui identifie auquel sont envoyés les messages d’absence du bureau (OOF) externes.
-ms.openlocfilehash: 1c87a51676bf6e44b2e650a4e973d0ab89a52e31
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AllowExternalOof contient une valeur qui identifie l’expéditeur des messages d’absence du Bureau externes.
+ms.openlocfilehash: e4934bc4bc86e1f9f764279a13ecaeca073d9e5d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755200"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464811"
 ---
 # <a name="allowexternaloof"></a>AllowExternalOof
 
-L’élément **AllowExternalOof** contient une valeur qui identifie auquel sont envoyés les messages d’absence du bureau (OOF) externes. 
+L’élément **AllowExternalOof** contient une valeur qui identifie l’expéditeur des messages d’absence du Bureau externes. 
   
 - [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
@@ -34,11 +34,11 @@ L’élément **AllowExternalOof** contient une valeur qui identifie auquel sont
  **ExternalAudience**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,21 +48,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contient les résultats de la réponse et les paramètres d’absence du bureau pour un utilisateur.  <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contient les résultats de la réponse et les paramètres OOF d’un utilisateur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est nécessaire pour cet élément. Le tableau suivant répertorie les valeurs possibles de cet élément.
+Une valeur de texte est requise pour cet élément. Le tableau suivant répertorie les valeurs possibles pour cet élément.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**None** <br/> |Expéditeurs en dehors de l’organisation de l’utilisateur de boîte aux lettres qui envoient des messages à l’utilisateur ne recevra pas une réponse de message d’absence du bureau externe.  <br/> |
-|**Connus** <br/> |Expéditeurs en dehors de l’organisation de l’utilisateur de boîte aux lettres qui envoient des messages à l’utilisateur seulement reçoit une réponse de message d’absence du bureau externe si l’expéditeur se trouve dans Exchange l’utilisateur stockent la liste des contacts.  <br/> |
-|**All** <br/> |Expéditeurs en dehors de l’organisation de l’utilisateur de boîte aux lettres qui envoient des messages à l’utilisateur reçoit une réponse de message d’absence du bureau externe.  <br/> |
+|**Aucun** <br/> |Les expéditeurs de messages électroniques situés en dehors de l’organisation de l’utilisateur de la boîte aux lettres qui envoient des messages à l’utilisateur ne reçoivent pas de réponse externe aux messages OOF.  <br/> |
+|**Connus** <br/> |Les expéditeurs de messages électroniques extérieurs à l’organisation de l’utilisateur de la boîte aux lettres qui envoie des messages à l’utilisateur recevront uniquement une réponse externe aux messages OOF si l’expéditeur se trouve dans la liste des contacts de la banque Exchange de l’utilisateur.  <br/> |
+|**All** <br/> |Les expéditeurs de messages électroniques extérieurs à l’organisation de l’utilisateur de la boîte aux lettres qui envoie des messages à l’utilisateur recevront une réponse externe aux messages OOF.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément partageant le même type que l’élément [ExternalAudience](externalaudience.md) . 
+Cet élément partage le même type que l’élément [ExternalAudience](externalaudience.md) . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -70,9 +70,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 8aa4025b-38df-4d63-a6a5-c3b932bec26e
 description: L’élément SetUserOofSettingsResponse contient le résultat d’une tentative de message SetUserOofSettingsRequest.
-ms.openlocfilehash: ab2eaaad1b7b094baad724ec56f4c26280f1f15f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9b02d905f82488965f5ae0514a52eb6062aaff7d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829471"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466128"
 ---
 # <a name="setuseroofsettingsresponse"></a>SetUserOofSettingsResponse
 
@@ -32,17 +32,17 @@ L’élément **SetUserOofSettingsResponse** contient le résultat d’une tenta
  **SetUserOofSettingsResponse**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> |Fournit des informations descriptives concernant l’état de réponse.  <br/> |
+|[ResponseMessage](responsemessage.md) <br/> |Fournit des informations descriptives sur l’état de la réponse.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

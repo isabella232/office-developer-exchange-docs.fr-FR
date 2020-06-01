@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 37b273a4-7595-47d5-87c5-32856d7a045b
-description: L’élément AssignedTime représente le temps lorsqu’une tâche est affectée à un contact.
-ms.openlocfilehash: 66d1307e143f436f94c51b293ae8189c2ce85980
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AssignedTime représente l’heure à laquelle une tâche est affectée à un contact.
+ms.openlocfilehash: 26c3fd4e117a962c690d0fff0d4dad5b5c24dd0c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755326"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464727"
 ---
 # <a name="assignedtime"></a>AssignedTime
 
-L’élément **AssignedTime** représente le temps lorsqu’une tâche est affectée à un contact. 
+L’élément **AssignedTime** représente l’heure à laquelle une tâche est affectée à un contact. 
   
 ```xml
 <AssignedTime/>
@@ -30,11 +30,11 @@ L’élément **AssignedTime** représente le temps lorsqu’une tâche est affe
  **DateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,7 +46,7 @@ Aucun.
 |:-----|:-----|
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Cette propriété est en lecture seule.
   
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

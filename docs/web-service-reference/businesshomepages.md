@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9961c0c2-7cac-4af1-84ac-0eafdce0a6ab
-description: L’élément BusinessHomePages spécifie un tableau de pages d’accueil business et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 52a6c3ca158827b81141e3e174ef79dc511babd7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BusinessHomePages spécifie un tableau de pages d’accueil professionnelles et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: f0e85e0b3c857e44d94bd42c6d3ea757d015eb25
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755450"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465911"
 ---
 # <a name="businesshomepages"></a>BusinessHomePages
 
-L’élément **BusinessHomePages** spécifie un tableau de pages d’accueil business et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **BusinessHomePages** spécifie un tableau de pages d’accueil professionnelles et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <BusinessHomePages>
@@ -28,23 +28,23 @@ L’élément **BusinessHomePages** spécifie un tableau de pages d’accueil bu
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’attributs associés à un élément personnage.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

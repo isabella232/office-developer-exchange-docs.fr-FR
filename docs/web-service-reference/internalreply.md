@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d784ded-b874-4eb1-8f6d-2e0e03330e1e
-description: L’élément InternalReply contient à l’extérieur de la réponse du bureau (OOF) envoyé à d’autres utilisateurs dans le domaine de l’utilisateur ou de domaines approuvés.
-ms.openlocfilehash: ac5e9eadac7f45c233007ffb05f4d2430875ec52
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément InternalReply contient la réponse d’absence du Bureau envoyée aux autres utilisateurs dans le domaine ou les domaines approuvés de l’utilisateur.
+ms.openlocfilehash: 24c278ebd3acf83e87fbf72650eb3d5d438d5c22
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827955"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465582"
 ---
 # <a name="internalreply"></a>InternalReply
 
-L’élément **InternalReply** contient à l’extérieur de la réponse du bureau (OOF) envoyé à d’autres utilisateurs dans le domaine de l’utilisateur ou de domaines approuvés. 
+L’élément **InternalReply** contient la réponse d’absence du Bureau envoyée aux autres utilisateurs dans le domaine ou les domaines approuvés de l’utilisateur. 
   
 ```XML
 <InternalReply>
@@ -32,26 +32,26 @@ L’élément **InternalReply** contient à l’extérieur de la réponse du bur
  **ReplyBody**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|XML : lang  <br/> |Spécifie la langue utilisée dans le message **InternalReply** . Les valeurs possibles de cet attribut sont définies par la norme IETF RFC 3066.  <br/> |
+|XML : lang  <br/> |Spécifie la langue utilisée dans le message **InternalReply** . Les valeurs possibles de cet attribut sont définies par IETF RFC 3066.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Message (disponibilité)](message-availability.md) <br/> |Contient la réponse d’absence du bureau.  <br/> |
+|[Message (disponibilité)](message-availability.md) <br/> |Contient la réponse OOF.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du bureau.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contient les paramètres d’absence du bureau.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contient les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,19 +59,19 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande SetUserOofSettings définit [OofState](oofstate.md) sur **activé**, définit la durée d’absence du bureau pour 10 jours et définit les messages d’absence du bureau internes et externes.
+L’exemple de requête SetUserOofSettings suivant définit le [OofState](oofstate.md) sur **activé**, définit la durée de l’absence du Bureau pour 10 jours et définit les messages OOF internes et externes.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -94,7 +94,7 @@ L’exemple suivant d’une demande SetUserOofSettings définit [OofState](oofst
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

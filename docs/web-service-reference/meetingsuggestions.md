@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c99e9a60-9e38-425d-ad03-47c8917f41da
-description: L’élément MeetingSuggestions spécifie un tableau d’éléments MeetingSuggestion qui contiennent des résultats de d’extraction d’entité.
-ms.openlocfilehash: b2b3e93101a9ae2ad4241e6aad79825c190c5222
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MeetingSuggestions spécifie un tableau d’éléments MeetingSuggestion qui contiennent des résultats d’extraction d’entité.
+ms.openlocfilehash: 9e0753919dcfaa3a20b88403085b2951706324bb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828437"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466289"
 ---
 # <a name="meetingsuggestions"></a>MeetingSuggestions
 
-L’élément **MeetingSuggestions** spécifie un tableau d’éléments **MeetingSuggestion** qui contiennent des résultats de d’extraction d’entité. 
+L’élément **MeetingSuggestions** spécifie un tableau d’éléments **MeetingSuggestion** qui contiennent des résultats d’extraction d’entité. 
   
 ```XML
 <MeetingSuggestions>
@@ -28,11 +28,11 @@ L’élément **MeetingSuggestions** spécifie un tableau d’éléments **Meeti
  **ArrayOfMeetingSuggestionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c58cef7-bc43-493a-a323-ba4dc6a33704
-description: L’élément ProposedStart (MeetingRegistrationResponseObjectType) spécifie proposé nouvelle heure de début d’un participant d’une réunion.
-ms.openlocfilehash: db03d1b5e79ed53313cff9677687647f24e90756
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProposedStart (MeetingRegistrationResponseObjectType) spécifie une nouvelle heure de début proposée par un participant à une réunion.
+ms.openlocfilehash: 6f105556c39fa6549b3bec2f7a6fee50d4049358
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828905"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465589"
 ---
 # <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart (MeetingRegistrationResponseObjectType)
 
-L’élément **ProposedStart (MeetingRegistrationResponseObjectType)** spécifie proposé nouvelle heure de début d’un participant d’une réunion. 
+L’élément **ProposedStart (MeetingRegistrationResponseObjectType)** spécifie une nouvelle heure de début proposée par un participant à une réunion. 
   
 ```XML
 <ProposedStart />
@@ -26,11 +26,11 @@ L’élément **ProposedStart (MeetingRegistrationResponseObjectType)** spécifi
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[AcceptItem](acceptitem.md) | [TentativelyAcceptItem](tentativelyacceptitem.md) | [DeclineItem](declineitem.md)
+[AcceptItem](acceptitem.md)  |  [TentativelyAcceptItem](tentativelyacceptitem.md)  |  [DeclineItem](declineitem.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ProposedStart (MeetingRegistrationResponseObjectType)** est la date de début proposée et l’heure de la réunion. 
+La valeur de texte de l’élément **ProposedStart (MeetingRegistrationResponseObjectType)** est la date et l’heure de début proposées de la réunion. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

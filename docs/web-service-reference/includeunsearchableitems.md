@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9a9bd2dc-f5b9-4b82-a6a0-f643d2951080
-description: L’élément IncludeUnsearchableItems Spécifie s’il faut inclure des éléments qui ne peuvent pas être recherchés.
-ms.openlocfilehash: 4c6b9b3752330bf914c9901d2e8f69e93546fec6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IncludeUnsearchableItems spécifie s’il faut inclure les éléments qui ne peuvent pas être recherchés.
+ms.openlocfilehash: 19fe450f5b1647be2df75138dbe67dd9e1c05c21
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827907"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465701"
 ---
 # <a name="includeunsearchableitems"></a>IncludeUnsearchableItems
 
-L’élément **IncludeUnsearchableItems** Spécifie s’il faut inclure des éléments qui ne peuvent pas être recherchés. 
+L’élément **IncludeUnsearchableItems** spécifie s’il faut inclure les éléments qui ne peuvent pas être recherchés. 
   
 ```XML
 <IncludeUnsearchableItems>true | false</IncludeUnsearchableItems>
@@ -26,11 +26,11 @@ L’élément **IncludeUnsearchableItems** Spécifie s’il faut inclure des él
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Spécifie une requête pour rechercher des statistiques de boîtes aux lettres par mot clé.  <br/> |
+|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Spécifie une demande de recherche de statistiques de boîte aux lettres par mot clé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IncludeUnsearchableItems** indique que les statistiques ne sont pas inclus pour les éléments qui ne sont pas utilisables dans une requête. La valeur **false** indique que les statistiques sont inclus pour les éléments qui ne sont pas utilisables dans une requête. 
+Une valeur de texte de **true** pour l’élément **IncludeUnsearchableItems** indique que les statistiques ne sont pas incluses pour les éléments qui ne peuvent pas faire l’objet d’une recherche. La valeur **false** indique que les statistiques sont incluses pour les éléments qui ne peuvent pas faire l’objet d’une recherche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

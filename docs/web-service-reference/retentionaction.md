@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3bdf5955-1212-48a1-b3b5-743086866c91
-description: L’élément RetentionAction Spécifie l’action effectuée sur les éléments avec la balise de rétention.
-ms.openlocfilehash: 54a1038f2e56aad66f89522423ccfbd69dc44a80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RetentionAction spécifie l’action effectuée sur les éléments à l’aide de la balise de rétention.
+ms.openlocfilehash: c16988413e732ddc3cd6ebc355cb73c4d96550c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829215"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465232"
 ---
 # <a name="retentionaction"></a>RetentionAction
 
-L’élément **RetentionAction** Spécifie l’action effectuée sur les éléments avec la balise de rétention. 
+L’élément **RetentionAction** spécifie l’action effectuée sur les éléments à l’aide de la balise de rétention. 
   
 ```XML
 <RetentionAction> None | MoveToDeletedItems | MoveToFolder | DeleteAndAllowRecovery | PermanentlyDelete | MarkAsPastRetentionLimit | MoveToArchive <RetentionAction>
@@ -26,11 +26,11 @@ L’élément **RetentionAction** Spécifie l’action effectuée sur les élém
  **RetentionActionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,23 +40,23 @@ Aucun.
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionAction** est l’action exécutée sur les éléments. La liste suivante contient les valeurs de texte de l’élément **RetentionAction** . 
+La valeur de texte de l’élément **RetentionAction** est l’action effectuée sur les éléments. La liste suivante contient les valeurs de texte de l’élément **RetentionAction** . 
   
-> **Aucun** - aucune action n’est effectuée sur l’élément. 
+> **None** : aucune action n’est effectuée sur l’élément. 
     
-> **MoveToDeletedItems** - l’élément est déplacé vers le dossier éléments supprimés par défaut. 
+> **MoveToDeletedItems** -l’élément est déplacé vers le dossier éléments supprimés par défaut. 
     
-> **MoveToFolder** - l’élément est déplacé vers un dossier spécifié. 
+> **MoveToFolder** : l’élément est déplacé vers un dossier spécifié. 
     
-> **DeleteAndAllowRecovery** - l’élément est supprimé et placer dans la benne. 
+> **DeleteAndAllowRecovery** : l’élément est supprimé et placé dans la benne. 
     
-> **PermanentlyDelete** - l’élément est définitivement supprimé de la boîte aux lettres. 
+> **PermanentlyDelete** : l’élément est définitivement supprimé de la boîte aux lettres. 
     
-> **MarkAsPastRetentionLimit** - l’élément est marqué comme ayant dépassé la limite de temps de rétention. 
+> **MarkAsPastRetentionLimit** -l’élément est marqué comme ayant dépassé la limite de temps de rétention. 
     
-> **MoveToArchive** - l’élément est déplacé vers la boîte aux lettres d’archive. 
+> **MoveToArchive** : l’élément est déplacé vers la boîte aux lettres d’archivage. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

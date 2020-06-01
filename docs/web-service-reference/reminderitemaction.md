@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fe67512c-5b15-4f07-8628-74cf873c2d71
-description: L’élément ReminderItemAction Spécifie l’action d’un élément de rappel.
-ms.openlocfilehash: f44e8d354aedca2c1f950238d87ab5c2d6387954
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReminderItemAction spécifie l’action pour un élément de rappel.
+ms.openlocfilehash: 60722235ed3e73e6a9923df8d3c63a6fc123599a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829069"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466226"
 ---
 # <a name="reminderitemaction"></a>ReminderItemAction
 
-L’élément **ReminderItemAction** Spécifie l’action d’un élément de rappel. 
+L’élément **ReminderItemAction** spécifie l’action pour un élément de rappel. 
   
 ```XML
 <ReminderItemAction>
@@ -30,15 +30,15 @@ L’élément **ReminderItemAction** Spécifie l’action d’un élément de ra
  **ReminderItemActionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ActionType (ReminderActionType)](actiontype-reminderactiontype.md) | [ItemId](itemid.md) | [NewReminderTime](newremindertime.md)
+[ActionType (ReminderActionType)](actiontype-reminderactiontype.md)  |  [ItemId](itemid.md)  |  [NewReminderTime](newremindertime.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

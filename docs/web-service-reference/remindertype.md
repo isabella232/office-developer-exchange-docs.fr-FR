@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfaf84eb-271a-4728-84fc-a20205a100bd
-description: L’élément ReminderType Spécifie le type de rappels à renvoyer.
-ms.openlocfilehash: 11739d2068a1009b2840b2169e86b113151cbfa9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReminderType spécifie le type de rappels à renvoyer.
+ms.openlocfilehash: 4ac20143bbfb29fb8f962515f2faba224b2f973f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829077"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465526"
 ---
 # <a name="remindertype"></a>ReminderType
 
-L’élément **ReminderType** Spécifie le type de rappels à renvoyer. 
+L’élément **ReminderType** spécifie le type de rappels à renvoyer. 
   
 ```XML
 <ReminderType> All | Current | Old </ReminderType>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [GetReminders](getreminders.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ReminderType** est le type de rappels à renvoyer, **tous les**, **actuel**ou **ancien**. **All** est la valeur recommandée pour cet élément. Pour plus d’informations sur la relation entre l’élément **ReminderType** et les éléments [BeginTime](begintime.md) et [EndTime](endtime-remindermessagedatatype.md) , voir [opération GetReminders](getreminders-operation.md).
+La valeur de texte de l’élément **ReminderType** est le type de rappels à renvoyer, **tous**, **actuel**ou **ancien**. **All** est la valeur recommandée pour cet élément. Pour plus d’informations sur la relation entre l’élément **ReminderType** et les éléments [BeginTime](begintime.md) et [EndTime](endtime-remindermessagedatatype.md) , voir [GetReminders Operation](getreminders-operation.md).
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

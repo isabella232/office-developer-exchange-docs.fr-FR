@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 628acf0b-3ebc-42f1-8ce2-7a02b4c8141f
-description: L’élément SetUserOofSettingsRequest contient les arguments permet de définir des paramètres d’absence du bureau (OOF) de l’utilisateur une boîte aux lettres.
-ms.openlocfilehash: ed54bb1d066da7b15605fb81931a6ef75dfc61bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetUserOofSettingsRequest contient les arguments utilisés pour définir les paramètres d’absence du Bureau (OOF) d’un utilisateur de boîte aux lettres.
+ms.openlocfilehash: 10edc9809fd72f80c316de1c6688eaedec4f93df
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829474"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466149"
 ---
 # <a name="setuseroofsettingsrequest"></a>SetUserOofSettingsRequest
 
-L’élément **SetUserOofSettingsRequest** contient les arguments permet de définir des paramètres d’absence du bureau (OOF) de l’utilisateur une boîte aux lettres. 
+L’élément **SetUserOofSettingsRequest** contient les arguments utilisés pour définir les paramètres d’absence du Bureau (OOF) d’un utilisateur de boîte aux lettres. 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -33,18 +33,18 @@ L’élément **SetUserOofSettingsRequest** contient les arguments permet de dé
  **SetUserOofSettingsRequest**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Boîte aux lettres (disponibilité)](mailbox-availability.md) <br/> |Identifie l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/> |
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du bureau.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,19 +56,19 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande SetUserOofSettings définit un paramètre d’absence du bureau pour des dix derniers jours.
+L’exemple de requête SetUserOofSettings suivant définit un paramètre OOF sur 10 jours.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -91,9 +91,9 @@ L’exemple suivant d’une demande SetUserOofSettings définit un paramètre d�
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

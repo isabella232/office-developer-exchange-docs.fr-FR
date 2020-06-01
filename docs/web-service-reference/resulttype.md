@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 488ee828-343f-4382-a5e8-eed1005f5dbc
-description: L’élément ResultType contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou afficher un aperçu uniquement.
-ms.openlocfilehash: 750f53ae05a7ad9f5aefc9396911a23ef32cdfc2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ResultType contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou aperçu uniquement.
+ms.openlocfilehash: 6617c8b4b64cd9b6728317d7247bcc5378e488f0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829211"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465281"
 ---
 # <a name="resulttype"></a>ResultType
 
-L’élément **ResultType** contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou afficher un aperçu uniquement. 
+L’élément **ResultType** contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou aperçu uniquement. 
   
 ```XML
 <ResultType>StatisticsOnly | PreviewOnly</ResultType>
@@ -26,11 +26,11 @@ L’élément **ResultType** contient le type de recherche à effectuer. Le type
  **SearchResultType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[SearchMailboxesResult](searchmailboxesresult.md) | [SearchMailboxes](searchmailboxes.md)
+[SearchMailboxesResult](searchmailboxesresult.md)  |  [SearchMailboxes](searchmailboxes.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ResultType** est le type de résultat qui est renvoyé pour une recherche de découverte. Valeur texte **StatisticsOnly** renvoie les statistiques de la recherche. Valeur texte **PreviewOnly** retourne des informations d’Aperçu d’élément. 
+La valeur de texte de l’élément **ResultType** est le type de résultat renvoyé pour une recherche de découverte. Une valeur de texte de **StatisticsOnly** renverra les statistiques de la recherche. Une valeur de texte de **PreviewOnly** renverra des informations d’aperçu d’élément. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

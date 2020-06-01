@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f784c433-5f5f-4171-a973-04ee6215c6b8
-description: L’élément RemoveContactFromImListResponse représente une réponse à une demande de RemoveContactFromImList.
-ms.openlocfilehash: b7e6af2ac6b21d4f1e4b3a3a0c148cbf5b51ba75
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RemoveContactFromImListResponse représente une réponse à une demande RemoveContactFromImList.
+ms.openlocfilehash: 8fedcfbbc83246bc553c5e6adc0d9d780040ec2f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829081"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466604"
 ---
 # <a name="removecontactfromimlistresponse"></a>RemoveContactFromImListResponse
 
-L’élément **RemoveContactFromImListResponse** représente une réponse à une demande de **RemoveContactFromImList** . 
+L’élément **RemoveContactFromImListResponse** représente une réponse à une demande **RemoveContactFromImList** . 
   
 ```XML
 <RemoveContactFromImListResponse>
@@ -31,15 +31,15 @@ L’élément **RemoveContactFromImListResponse** représente une réponse à un
  **RemoveContactFromImListResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

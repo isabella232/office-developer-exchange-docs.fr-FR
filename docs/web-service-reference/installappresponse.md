@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5e0582d-c1e1-453b-93ed-c31165c82697
-description: L’élément InstallAppResponse spécifie la réponse à une demande de InstallApp.
-ms.openlocfilehash: 8e8da720b3a38e979b3d83810bb798350822146c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément InstallAppResponse spécifie la réponse à une demande InstallApp.
+ms.openlocfilehash: 0f7690e2df7e71c4e478dec191671af24f96294b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827942"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465666"
 ---
 # <a name="installappresponse"></a>InstallAppResponse
 
-L’élément **InstallAppResponse** spécifie la réponse à une demande de **InstallApp** . 
+L’élément **InstallAppResponse** spécifie la réponse à une demande **InstallApp** . 
   
 ```xml
 <InstallAppResponse ResponseClass="">
@@ -31,7 +31,7 @@ L’élément **InstallAppResponse** spécifie la réponse à une demande de **I
  **InstallAppResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -51,16 +51,16 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisée et réservée à un usage ultérieur.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fournit des informations de réponse d’erreur.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit des informations d’état sur la demande.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit des informations sur l’état de la demande.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -68,15 +68,15 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **GetAppManifestsResponseMessage** n’est applicable pour les clients qui ciblent Exchange Online et les versions de Microsoft Exchange Server commençant par Exchange 2013. 
+L’élément **GetAppManifestsResponseMessage** est applicable pour les clients qui ciblent Exchange Online et les versions de Microsoft Exchange Server à partir d’Exchange 2013. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

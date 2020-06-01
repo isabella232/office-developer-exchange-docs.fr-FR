@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ee2891e4-3aa6-4258-9727-1f2ee9622508
-description: L’élément de plage Spécifie une plage d’occurrences d’élément de calendrier pour un élément de calendrier périodique.
-ms.openlocfilehash: 0264c541604808b46a50e292b8ff75f205796295
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Range spécifie une plage d’occurrences d’éléments de calendrier pour un élément de calendrier répétitif.
+ms.openlocfilehash: b5fb41709905290326b47e2662383031c34fd9c9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828946"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44465309"
 ---
 # <a name="range"></a>Plage
 
-L’élément de **plage** spécifie une plage d’occurrences d’élément de calendrier pour un élément de calendrier périodique. 
+L’élément **Range** spécifie une plage d’occurrences d’éléments de calendrier pour un élément de calendrier répétitif. 
   
 ```XML
 <Range Start="" End="" Count="" CompareOriginalStartTime=""/>
@@ -26,16 +26,16 @@ L’élément de **plage** spécifie une plage d’occurrences d’élément de 
  **OccurrencesRangeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Début** <br/> |La valeur de texte de l’attribut **Démarrer** est la date de début de la plage d’éléments périodiques. Il s’agit d’une valeur **dateTime** .  <br/> |
-|**End** <br/> |La valeur de texte de l’attribut de **fin** est la date de fin de la plage d’éléments périodiques. Il s’agit d’une valeur **dateTime** .  <br/> |
-|**Count** <br/> |La valeur de texte de l’attribut de **nombre** est le nombre d’occurrences de l’élément périodique. Il s’agit d’une valeur **entière** .  <br/> |
-|**CompareOriginalStartTime** <br/> |La valeur de texte de **la valeur true** pour l’attribut **CompareOriginalStartTime** indique que le client doit comparer l’heure de début d’origine avec la nouvelle heure de début. La valeur **false** indique que le client n’a pas besoin comparer l’heure de début d’origine avec la nouvelle heure de début.  <br/> |
+|**Start** <br/> |La valeur de texte de l’attribut **Start** est la date de début de la plage d’éléments périodiques. Il s’agit d’une valeur **DateTime** .  <br/> |
+|**End** <br/> |La valeur de texte de l’attribut **end** est la date de fin de la plage d’éléments périodiques. Il s’agit d’une valeur **DateTime** .  <br/> |
+|**Count** <br/> |La valeur de l’attribut **Count** est le nombre d’occurrences de l’élément périodique. Il s’agit d’une valeur **entière** .  <br/> |
+|**CompareOriginalStartTime** <br/> |La valeur de texte **true** pour l’attribut **CompareOriginalStartTime** indique que le client doit comparer l’heure de début d’origine et la nouvelle heure de début. La valeur **false** indique que le client n’a pas besoin de comparer l’heure de début d’origine avec la nouvelle heure de début.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,7 +43,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Plages](ranges.md)
+[Ranges](ranges.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
 description: L'élément RuleOperationErrors représente un tableau des erreurs de validation de règle sur chaque champ de règle qui comporte une erreur.
-ms.openlocfilehash: 7dc85b5cd84af5ad00511a3df2b31ee3541e12b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d547155f3cbf9eedd0f9bfac7bf3768b3630b50e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829261"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44464951"
 ---
 # <a name="ruleoperationerrors"></a>RuleOperationErrors
 
@@ -32,11 +32,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **ArrayOfRuleOperationErrorsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

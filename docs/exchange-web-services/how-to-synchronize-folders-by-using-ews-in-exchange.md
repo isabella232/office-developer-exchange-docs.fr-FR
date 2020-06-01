@@ -1,32 +1,32 @@
 ---
-title: Synchroniser les dossiers à l’aide de EWS dans Exchange
+title: Synchroniser des dossiers à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d3bbacd1-8e4b-4fd0-8d27-4cbbc045ec3f
-description: Découvrez comment utiliser les API managées EWS pour obtenir une liste de dossiers ou une liste de dossiers qui ont été modifiés, afin de synchroniser votre client.
-ms.openlocfilehash: 4b0686134d642da34b2890a0e692e3d03e4a9fb1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment utiliser l’API managée EWS ou EWS pour obtenir une liste de dossiers ou une liste de dossiers qui ont été modifiés, afin de synchroniser votre client.
+ms.openlocfilehash: e49fdaf2faf97c2369f2ad7dbb141c5ac3100884
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754950"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455862"
 ---
-# <a name="synchronize-folders-by-using-ews-in-exchange"></a>Synchroniser les dossiers à l’aide de EWS dans Exchange
+# <a name="synchronize-folders-by-using-ews-in-exchange"></a>Synchroniser des dossiers à l’aide d’EWS dans Exchange
 
-Découvrez comment utiliser les API managées EWS pour obtenir une liste de dossiers ou une liste de dossiers qui ont été modifiés, afin de synchroniser votre client.
+Découvrez comment utiliser l’API managée EWS ou EWS pour obtenir une liste de dossiers ou une liste de dossiers qui ont été modifiés, afin de synchroniser votre client.
   
-EWS dans Exchange utilise l’option de synchronisation et la synchronisation du dossier au contenu de boîte aux lettres de synchronisation entre le client et le serveur. La synchronisation du dossier Obtient la liste initiale des dossiers à partir d’un dossier racine et obtient ensuite, au fil du temps, les modifications qui ont été apportées à ces dossiers et ainsi que de nouveaux dossiers.
+EWS dans Exchange utilise la synchronisation des éléments et la synchronisation des dossiers pour synchroniser le contenu des boîtes aux lettres entre le client et le serveur. Synchronisation de dossiers obtient la liste initiale des dossiers d’un dossier racine, puis, au fil du temps, les modifications apportées à ces dossiers et les nouveaux dossiers.
   
-Si vous effectuez une synchronisation de dossiers à l’aide de l’API managées, vous premier [obtenir la liste initiale des dossiers dans le dossier racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma) à l’aide de la méthode [ExchangeService.SyncFolderHierarchy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) . Ensuite, vous mettez à jour la valeur du paramètre _cSyncState_ lors des appels suivants pour obtenir la liste des dossiers de nouvelles et modifiées. 
+Si vous effectuez une synchronisation des dossiers à l’aide de l’API managée EWS, vous obtenez d’abord [la liste initiale des dossiers dans le dossier racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma) à l’aide de la méthode [ExchangeService. opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) . Ensuite, vous mettez à jour la valeur du paramètre _cSyncState_ pendant les appels suivants pour obtenir la liste des dossiers nouveaux et modifiés. 
   
-Pour effectuer la synchronisation de dossiers à l’aide de EWS, vous demandez la [liste initiale des dossiers dans le dossier racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncewsrequest) à l’aide de l’opération [SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) , analyse de la réponse et ensuite à un moment donné à l’avenir [Obtenez les modifications dans les dossiers la racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncrespews)et analyse de la réponse. Une fois que le client reçoit la liste de dossiers initiales ou modifiées, il [met à jour localement](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps). Comment et quand vous récupérez les modifications à l’avenir varie selon le [modèle de conception de la synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) à l’aide de votre application. 
+Pour effectuer une synchronisation des dossiers à l’aide d’EWS, vous devez demander la [liste initiale des dossiers dans le dossier racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncewsrequest) à l’aide de l’opération [opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) , analyser la réponse, puis à un moment donné [obtenir les modifications apportées aux dossiers dans la racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncrespews), puis analyser la réponse. Une fois que le client a reçu la liste des dossiers initiaux ou modifiés, il [effectue les mises à jour localement](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps). Le mode de récupération des modifications à venir dépend du modèle de [conception de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_syncpatterns) utilisé par votre application. 
   
-## <a name="get-the-list-of-all-folders-or-changed-folders-by-using-the-ews-managed-api"></a>Obtenir la liste de tous les dossiers ou les dossiers modifiés à l’aide de l’API managée EWS
+## <a name="get-the-list-of-all-folders-or-changed-folders-by-using-the-ews-managed-api"></a>Obtenir la liste de tous les dossiers ou dossiers modifiés à l’aide de l’API managée EWS
 <a name="bk_cesyncinitialewsma"> </a>
 
-L’exemple de code suivant montre comment obtenir une liste initiale des dossiers dans un dossier racine, puis obtenir une liste des modifications apportées aux dossiers dans le dossier racine qui se sont produites depuis la dernière synchronisation. Pendant l’appel initial à la méthode [ExchangeService.SyncFolderHierarchy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) , définissez la valeur de _cSyncState_ sur null. Lorsque la méthode est terminée, enregistrez la valeur _cSyncState_ localement à utiliser dans l’appel de méthode suivant **SyncFolderHierarchy** . Dans l’appel initial et ultérieures, les dossiers sont récupérés par lots de dix, à l’aide de la méthode **SyncFolderHierarchy** , les appels successifs jusqu'à ce qu’il ne reste aucune modification. Cet exemple définit le paramètre _propertySet_ à IdOnly afin de réduire les appels vers la base de données Exchange, qui est une [meilleure pratique de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Dans cet exemple, nous partons du principe que **le service** est une liaison d’objet **ExchangeService** valide et que _cSyncState_ représente l’état de synchronisation qui a été renvoyée par un appel précédent à **SyncFolderHierarchy**. 
+L’exemple de code suivant montre comment obtenir une liste initiale de dossiers dans un dossier racine, puis obtenir la liste des modifications apportées aux dossiers dans le dossier racine qui se sont produites depuis la synchronisation précédente. Lors de l’appel initial à la méthode [ExchangeService. opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.syncfolderhierarchy%28v=exchg.80%29.aspx) , définissez la valeur _cSyncState_ sur null. Une fois la méthode terminée, enregistrez la valeur _cSyncState_ localement pour l’utiliser dans le prochain appel de la méthode **opérationsyncfolderhierarchy** . Dans l’appel initial et les appels ultérieurs, les dossiers sont récupérés par lots de dix, à l’aide d’appels successifs à la méthode **opérationsyncfolderhierarchy** , jusqu’à ce qu’il ne reste plus aucune modification. Cet exemple définit le paramètre _PropertySet_ sur IdOnly pour réduire les appels à la base de données Exchange, ce qui est une [meilleure pratique de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). Dans cet exemple, nous partons du principe que le **service** est une liaison d’objet **ExchangeService** valide et que _cSyncState_ représente l’état de synchronisation renvoyé par un appel antérieur à **opérationsyncfolderhierarchy**. 
   
 ```cs
 // Get a list of all folders in the mailbox by calling SyncFolderHierarchy.
@@ -62,19 +62,19 @@ string fSyncState = fcc.SyncState;
 
 ```
 
-Après avoir extraire la liste des dossiers nouveaux ou modifiés sur le serveur, [créer ou mettre à jour les dossiers sur le client](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps).
+Une fois que vous avez récupéré la liste des dossiers nouveaux ou modifiés sur le serveur, [créez ou mettez à jour les dossiers sur le client](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps).
   
-## <a name="get-the-initial-list-of-folders-by-using-ews"></a>Obtenir la liste initiale des dossiers à l’aide de EWS
+## <a name="get-the-initial-list-of-folders-by-using-ews"></a>Obtenir la liste initiale des dossiers à l’aide d’EWS
 <a name="bk_cesyncewsrequest"> </a>
 
-L’exemple suivant montre une requête XML pour obtenir la hiérarchie de dossiers initiale à l’aide de l’opération [SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Il s’agit de la demande XML que l’API managée EWS envoie quand également [récupérer la liste de dossiers initiales à l’aide de la méthode SyncFolderHierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma). L’élément [SyncState](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) de l’opération [SyncFolderHierarchy](http://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) n’est pas inclus, car il s’agit de la synchronisation initiale. Cet exemple définit l’élément [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **IdOnly** afin de réduire les appels vers la base de données Exchange, qui est une [meilleure pratique de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices).
+L’exemple suivant montre une requête XML pour obtenir la hiérarchie de dossiers initiale à l’aide de l’opération [opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Il s’agit également de la demande XML que l’API managée EWS envoie lors [de la récupération de la liste des dossiers initiaux à l’aide de la méthode opérationsyncfolderhierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma). L’élément [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) de l’opération [opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) n’est pas inclus car il s’agit de la synchronisation initiale. Cet exemple définit l’élément [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) sur **IdOnly** pour réduire les appels à la base de données Exchange, ce qui est une [meilleure pratique de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+                    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -91,26 +91,26 @@ L’exemple suivant montre une requête XML pour obtenir la hiérarchie de dossi
 </soap:Envelope>
 ```
 
-L’exemple suivant montre la réponse XML renvoyée par le serveur une fois le traitement de la requête d’opération [SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . La première réponse inclut [créer](http://msdn.microsoft.com/library/6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1%28Office.15%29.aspx) des éléments pour tous les dossiers, car tous les dossiers sont considérés comme nouveau lors d’une synchronisation initiale. Les valeurs de certains attributs et éléments ont été raccourcies pour des raisons de lisibilité, et certains blocs d’élément **créer** ont été supprimées par souci de concision. 
+L’exemple suivant montre la réponse XML renvoyée par le serveur après qu’il a traité la demande d’opération [opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . La réponse initiale inclut la [création](https://msdn.microsoft.com/library/6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1%28Office.15%29.aspx) d’éléments pour tous les dossiers, car tous les dossiers sont considérés comme nouveaux lors d’une synchronisation initiale. Les valeurs de certains attributs et éléments ont été raccourcies pour des raisons de lisibilité, et certains blocs d’élément **Create** ont été supprimés pour des raisons de brièveté. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="785"
                          MinorBuildNumber="6"
                          Version="V2_6"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SyncFolderHierarchyResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SyncFolderHierarchyResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                   xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:SyncFolderHierarchyResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -150,19 +150,19 @@ L’exemple suivant montre la réponse XML renvoyée par le serveur une fois le 
 </s:Envelope>
 ```
 
-Après avoir extraire la liste des nouveaux dossiers sur le serveur, [créer les dossiers sur le client](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps).
+Une fois que vous avez récupéré la liste des nouveaux dossiers sur le serveur, [créez les dossiers sur le client](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_nextsteps).
   
-## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Obtenir les modifications apportées depuis la dernière synchronisation à l’aide de EWS
+## <a name="get-the-changes-since-the-last-sync-by-using-ews"></a>Obtenir les modifications depuis la dernière synchronisation à l’aide d’EWS
 <a name="bk_cesyncrespews"> </a>
 
-L’exemple suivant montre la demande XML pour obtenir la liste des modifications apportées aux dossiers dans le dossier racine à l’aide de l’opération [SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Il s’agit de la demande XML que l’API managée EWS envoie quand également [récupérer la liste des modifications dans le dossier racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma). Cet exemple définit la valeur de l’élément [SyncState](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) à la valeur renvoyée dans la réponse précédente. Et à des fins de démonstration, cet exemple définit l’élément [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **AllProperties** au lieu **IdOnly** pour afficher les propriétés supplémentaires renvoyées. Définissez l’élément [BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) **IdOnly** est une [meilleure pratique de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). La valeur de **SyncState** a été raccourcie pour des raisons de lisibilité. 
+L’exemple suivant montre la requête XML pour obtenir la liste des modifications apportées aux dossiers dans le dossier racine à l’aide de l’opération [opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) . Il s’agit également de la demande XML que l’API managée EWS envoie lors [de la récupération de la liste des modifications apportées au dossier racine](how-to-synchronize-folders-by-using-ews-in-exchange.md#bk_cesyncinitialewsma). Cet exemple définit la valeur de l’élément [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) sur la valeur renvoyée dans la réponse précédente. À des fins de démonstration, cet exemple montre comment définir l’élément [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) à **AllProperties** au lieu de **IdOnly** pour afficher les propriétés supplémentaires renvoyées. La définition de l’élément [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) sur **IdOnly** est une [meilleure pratique de synchronisation](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). La valeur de **SyncState** a été raccourcie pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+                    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -180,23 +180,23 @@ L’exemple suivant montre la demande XML pour obtenir la liste des modification
 </soap:Envelope>
 ```
 
-L’exemple suivant montre la réponse XML renvoyée par le serveur une fois le traitement de la requête [d’opération SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) à partir du client. Cette réponse indique qu’un dossier a été mis à jour, un dossier a été créé et un dossier a été supprimé depuis la synchronisation précédente. La valeur de l’élément de [SyncState](http://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) , les attributs **Id** et les attributs **ChangeKey** ont été raccourcie pour des raisons de lisibilité. 
+L’exemple suivant montre la réponse XML renvoyée par le serveur après qu’il a traité la demande d' [opération opérationsyncfolderhierarchy](https://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) du client. Cette réponse indique qu’un dossier a été mis à jour, qu’un dossier a été créé et qu’un dossier a été supprimé depuis la synchronisation précédente. La valeur des attributs [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) , **ID** et **ChangeKey** a été raccourcie pour des raisons de lisibilité. 
   
-N’oubliez pas que la demande inclus le **AllProperties**[BaseShape](http://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx). Il s’agit uniquement à des fins de démonstration. Nous vous recommandons de définir l’élément **BaseShape** sur **IdOnly** en production. 
+N’oubliez pas que la demande incluait le **AllProperties**[BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx). Ceci est uniquement à des fins de démonstration. Nous vous recommandons de définir l’élément **BaseShape** sur **IdOnly** en production. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
 <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="745" MinorBuildNumber="21" Version="V2_3" 
-           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SyncFolderHierarchyResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SyncFolderHierarchyResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+            xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:SyncFolderHierarchyResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -255,17 +255,17 @@ N’oubliez pas que la demande inclus le **AllProperties**[BaseShape](http://msd
 
 ```
 
-## <a name="update-the-client"></a>Mise à jour du client
+## <a name="update-the-client"></a>Mettre à jour le client
 <a name="bk_nextsteps"> </a>
 
-Si vous utilisez l’API managée EWS, après avoir obtenir la liste des dossiers nouveaux ou modifiés, utilisez la méthode [Folder.Load](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.load%28v=exchg.80%29.aspx) pour obtenir les propriétés sur les éléments nouveaux ou modifiés, comparez les propriétés aux valeurs locales et mettre à jour ou créer les dossiers sur le client. 
+Si vous utilisez l’API managée EWS, une fois que vous avez obtenu la liste des dossiers nouveaux ou modifiés, utilisez la méthode [Folder. Load](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.load%28v=exchg.80%29.aspx) pour obtenir des propriétés sur les éléments nouveaux ou modifiés, comparez les propriétés aux valeurs locales, et mettez à jour ou créez les dossiers sur le client. 
   
-Si vous utilisez EWS, utilisez l' [opération GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) pour obtenir les propriétés sur les dossiers nouveaux ou modifiés et mettre à jour ou créer les dossiers sur le client. 
+Si vous utilisez EWS, utilisez l' [opération GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) pour obtenir les propriétés des dossiers nouveaux ou modifiés, et mettre à jour ou créer les dossiers sur le client. 
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Synchronisation de la boîte aux lettres et les services EWS d'Exchange](mailbox-synchronization-and-ews-in-exchange.md)   
-- [Synchroniser des éléments à l’aide de EWS dans Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)   
+- [Synchroniser des éléments à l’aide d’EWS dans Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)   
 - [Gestion des erreurs liées à la synchronisation dans EWS dans Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Énumération CChkSGFiles.iDbInvalid
+title: Fonction cchksgfiles. iDbInvalid, énumération
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,15 +11,15 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
-description: 'Dernière modification : le 22 février 2013'
-ms.openlocfilehash: e0dbe4998217a4dcd237b6dfa3385cc71a2b03e7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Dernière modification : 22 février 2013'
+ms.openlocfilehash: 5a2d32da114391a623d5b0cc2d6c5ca49db78148
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755684"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455505"
 ---
-# <a name="cchksgfilesidbinvalid-enumeration"></a>Énumération CChkSGFiles.iDbInvalid
+# <a name="cchksgfilesidbinvalid-enumeration"></a>Fonction cchksgfiles. iDbInvalid, énumération
 
 **S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
@@ -34,6 +34,6 @@ Enum { iDbInvalid = 0xFFFFFFF }
 
 Exchange Server 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.
   
-Le compte que l’application s’exécute sous doit disposer des autorisations d’accès en lecture aux base de données et les fichiers journaux qui doivent être vérifiées.
+Le compte sous lequel l’application s’exécute doit disposer d’autorisations d’accès en lecture à la base de données et des fichiers journaux à vérifier.
   
 

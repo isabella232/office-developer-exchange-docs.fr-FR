@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: f91ff0df-0d8a-43ea-a188-d80f0e885f19
-description: L’élément ContentType décrit le type de Multipurpose Internet Mail Extensions (MIME) du contenu des pièces jointes.
-ms.openlocfilehash: 489df47343051623d5b6a98557f2bd434a5dad52
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContentType décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu de la pièce jointe.
+ms.openlocfilehash: cb326bb761ea28e0e9f77501bf754c7c1f0318fb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755629"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455225"
 ---
 # <a name="contenttype"></a>ContentType
 
-L’élément **ContentType** décrit le type de Multipurpose Internet Mail Extensions (MIME) du contenu des pièces jointes. 
+L’élément **ContentType** décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu de la pièce jointe. 
   
 ```xml
 <ContentType/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier qui est attaché à un élément dans la banque d’informations Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur de type string qui représente le type de contenu de la pièce jointe.
+La valeur de texte est une valeur de chaîne qui représente le type de contenu de la pièce jointe.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

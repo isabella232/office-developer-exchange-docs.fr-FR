@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3893be6a-49a7-49f6-bf53-c7f819ec3f87
-description: L’élément DeleteItemField représente une opération de suppression d’une propriété donnée d’un élément pendant un appel UpdateItem.
-ms.openlocfilehash: 571227eece8f717c1bf5da27cfab8ae50dfe3572
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément DeleteItemField représente une opération permettant de supprimer une propriété donnée d’un élément lors d’un appel UpdateItem.
+ms.openlocfilehash: e6f5ee8a1130d7c040f3ddd94021eff6d4a758b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353881"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455673"
 ---
 # <a name="deleteitemfield"></a>DeleteItemField
 
-L’élément **DeleteItemField** représente une opération de suppression d’une propriété donnée d’un élément pendant un appel UpdateItem. 
+L’élément **DeleteItemField** représente une opération permettant de supprimer une propriété donnée d’un élément lors d’un appel UpdateItem. 
  
 - [UpdateItem](updateitem.md)  
 - [ItemChanges](itemchanges.md) 
@@ -51,17 +51,17 @@ L’élément **DeleteItemField** représente une opération de suppression d’
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencées par un URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’une propriété de dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues.  <br/> |
    
@@ -69,7 +69,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Mises à jour (élément)](updates-item.md) <br/> |Contient un ensemble d’éléments qui définissent append, définir et supprimer les modifications apportées aux propriétés de l’élément.  <br/><br/>Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Mises à jour (élément)](updates-item.md) <br/> |Contient un ensemble d’éléments qui définissent les modifications apportées aux propriétés des éléments par ajout, définition et suppression.  <br/><br/>Voici l’expression XPath de cet élément :<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -79,7 +79,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |schéma de types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -1,42 +1,42 @@
 ---
-title: Ajouter et supprimer des délégués à l’aide de EWS dans Exchange
+title: Ajouter et supprimer des délégués à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cc7760bf-633b-483a-84ae-b52f437af2d3
-description: Découvrez comment ajouter des délégués pour ou supprimer des délégués de boîtes aux lettres des utilisateurs à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: d55ef6c5c4e434603d293dbe30c6147ceb73b08b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment ajouter ou supprimer des délégués dans les boîtes aux lettres des utilisateurs à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: 9db0171db51c0847d54bbcec7e28937eaed18d43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754796"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455337"
 ---
-# <a name="add-and-remove-delegates-by-using-ews-in-exchange"></a>Ajouter et supprimer des délégués à l’aide de EWS dans Exchange
+# <a name="add-and-remove-delegates-by-using-ews-in-exchange"></a>Ajouter et supprimer des délégués à l’aide d’EWS dans Exchange
 
-Découvrez comment ajouter des délégués pour ou supprimer des délégués de boîtes aux lettres des utilisateurs à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment ajouter ou supprimer des délégués dans les boîtes aux lettres des utilisateurs à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Vous pouvez utiliser les API managées EWS pour permettre aux délégués agir au nom d’un propriétaire de boîte aux lettres ou de supprimer l’accès d’un délégué pour une boîte aux lettres. Les utilisateurs qui sont ajoutés en tant que délégué et disposent d’autorisations, peuvent effectuer des tâches pour le compte du propriétaire de boîte aux lettres. Par exemple, ils peuvent créer et envoyer des invitations aux réunions, envoyer des messages électroniques et répondre aux demandes de réunion à part du propriétaire de la boîte aux lettres. 
+Vous pouvez utiliser l’API managée EWS ou EWS pour permettre aux délégués d’agir au nom d’un propriétaire de boîte aux lettres ou de supprimer l’accès d’un délégué à une boîte aux lettres. Les utilisateurs qui sont ajoutés en tant que délégués et reçoivent des autorisations, peuvent effectuer des tâches au nom du propriétaire de la boîte aux lettres. Par exemple, ils peuvent créer et envoyer des invitations à des réunions, envoyer des courriers électroniques et répondre à des demandes de réunion sur le nom du propriétaire de la boîte aux lettres. 
   
-**Le tableau 1. Opérations EWS pour ajouter et supprimer des délégués et les méthodes de l’API managée EWS**
+**Tableau 1. Méthodes d’API managée EWS et opérations EWS pour l’ajout et la suppression de délégués**
 
 |**Tâche**|**Méthode d'API managée EWS**|**Opération EWS**|
 |:-----|:-----|:-----|
-|Ajouter des délégués  <br/> |[ExchangeService.AddDelegates](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](http://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
-|Supprimer des délégués  <br/> |[ExchangeService.RemoveDelegates](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](http://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
+|Ajouter des délégués  <br/> |[ExchangeService. AddDelegates](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](https://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
+|Supprimer des délégués  <br/> |[ExchangeService. RemoveDelegates](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](https://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
    
-Après qu’un délégué dispose d’autorisations sur un dossier, ils peuvent agir sur des éléments dans le dossier et tous les sous-dossiers, en fonction de leur [déléguer les autorisations](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Autorisations pour les délégués s’appliquent uniquement aux sous-dossiers sont créés après que l’accès délégué a été accordé. Pour mettre à jour les autorisations du dossier pour les dossiers existants, ou d’autres dossiers, voir [définir des autorisations de dossier pour un autre utilisateur à l’aide de EWS dans Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
+Une fois que le délégué dispose des autorisations d’accès à un dossier, il peut agir sur les éléments du dossier et de tous les sous-dossiers, en fonction de leurs autorisations en matière de [délégués](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Les autorisations pour les délégués s’appliquent uniquement aux sous-dossiers créés après l’octroi de l’accès délégué. Pour mettre à jour les autorisations de dossier pour les dossiers préexistants ou d’autres dossiers, consultez la rubrique [définir les autorisations de dossier pour un autre utilisateur à l’aide d’EWS dans Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
-Notez que les délégués peuvent être ajoutés uniquement à des comptes à extension boîte aux lettres, y compris les groupes de sécurité à extension messagerie. Par défaut, un seul appel de l’accès délégué EWS peut accéder à un maximum de 255 de boîtes aux lettres.
+Notez que les délégués ne peuvent être ajoutés qu’aux comptes à extension boîte aux lettres, y compris les groupes de sécurité à extension messagerie. Par défaut, un seul appel d’accès délégué EWS peut accéder à un maximum de 255 boîtes aux lettres différentes.
 
 <a name="bk_adddelegateewsma"> </a>
 
 ## <a name="add-delegates-by-using-the-ews-managed-api"></a>Ajouter des délégués à l’aide de l’API managée EWS
 
-Vous pouvez ajouter des délégués à une boîte aux lettres à l’aide de la méthode d’API managées [AddDelegates](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) . Dans cet exemple, un nouveau calendrier, contacts et messagerie [Utilisateur_délégué](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) est créé, et chaque délégué bénéficie des [autorisations d’éditeur](delegate-access-and-ews-in-exchange.md#bk_delegateperms) pour leur dossier respectif. Vous pouvez modifier l’exemple pour ajouter un délégué à tous les dossiers spécifiés par les [Propriétés DelegatePermissions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx), et vous pouvez définir les autorisations à une des valeurs spécifiées par l’énumération [DelegateFolderPermissionLevel](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) . 
+Vous pouvez ajouter des délégués à une boîte aux lettres à l’aide de la méthode de l’API managée EWS [AddDelegates](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) . Dans cet exemple, un nouvel objet calendrier, contact et e-mail [DelegateUser](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) est créé, et chaque délégué dispose d' [autorisations d’éditeur](delegate-access-and-ews-in-exchange.md#bk_delegateperms) pour son dossier respectif. Vous pouvez modifier l’exemple pour ajouter un délégué à l’un des dossiers spécifiés par les [Propriétés DelegatePermissions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx), et vous pouvez définir les autorisations sur n’importe quelle valeur spécifiée par l’énumération [DelegateFolderPermissionLevel](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) . 
   
-Cet exemple suppose que ce **service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de boîte aux lettres, et que l’utilisateur a été authentifié sur un serveur Exchange. 
+Cet exemple part du principe que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de la boîte aux lettres et que l’utilisateur a été authentifié auprès d’un serveur Exchange. 
   
 ```cs
 public static Collection<DelegateUserResponse> AddDelegates(ExchangeService service)
@@ -79,18 +79,18 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 
 <a name="bk_adddelegateews"> </a>
 
-## <a name="add-delegates-by-using-ews"></a>Ajouter des délégués à l’aide de EWS
+## <a name="add-delegates-by-using-ews"></a>Ajouter des délégués à l’aide d’EWS
 
-L’exemple de code suivant montre comment ajouter des délégués du courrier, contacts et calendrier distinct à l’aide de l’opération EWS [AddDelegate](http://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) . La boîte aux lettres à modifier est spécifiée par l’élément de [boîte aux lettres](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) , et les paramètres [d’autorisation](delegate-access-and-ews-in-exchange.md#bk_delegateperms) pour chaque délégué sont contenues dans l’élément [Utilisateur_délégué](http://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) . Chacun des délégués bénéficie des autorisations d’éditeur à leur dossier cible. 
+L’exemple de code suivant montre comment ajouter des délégués de calendrier, de contacts et de courrier électronique distincts à l’aide de l’opération EWS [AddDelegate](https://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) . La boîte aux lettres à modifier est spécifiée par l’élément [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) , et les paramètres d' [autorisation](delegate-access-and-ews-in-exchange.md#bk_delegateperms) de chaque délégué sont contenus dans l’élément [DelegateUser](https://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) . Chacun des délégués a reçu des autorisations d’éditeur pour son dossier cible. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez la méthode **AddDelegates** pour [Ajouter des délégués](#bk_adddelegateewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez la méthode **AddDelegates** pour [Ajouter des délégués](#bk_adddelegateewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -152,27 +152,27 @@ C’est également la demande XML qui envoie de l’API managée EWS lorsque vou
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **AddDelegate** avec un message [AddDelegateResponse](http://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que les délégués ont été créés.
+Le serveur répond à la demande **AddDelegate** avec un message [AddDelegateResponse](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) qui inclut une valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que les délégués ont été créés.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="888"
                          MinorBuildNumber="9"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <m:AddDelegateResponse ResponseClass="Success"
-                           xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+                           xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:ResponseMessages>
         <m:DelegateUserResponseMessageType ResponseClass="Success">
@@ -221,9 +221,9 @@ Le serveur répond à la demande **AddDelegate** avec un message [AddDelegateRes
 
 ## <a name="remove-delegates-by-using-the-ews-managed-api"></a>Supprimer des délégués à l’aide de l’API managée EWS
 
-Vous pouvez supprimer des délégués à partir d’une boîte aux lettres cible à l’aide de la méthode d’API managées [ExchangeService.RemoveDelegates](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) . Dans cet exemple, le jeu d’autorisations de délégué dans [Ajouter un exemple de délégué](#bk_adddelegateewsma) sont supprimés. 
+Vous pouvez supprimer des délégués d’une boîte aux lettres cible à l’aide de la méthode de l’API managée EWS [ExchangeService. RemoveDelegates](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) . Dans cet exemple, les autorisations de délégué définies dans l' [exemple d’ajout d’un délégué](#bk_adddelegateewsma) sont supprimées. 
   
-Cet exemple suppose que ce **service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de boîte aux lettres, et que l’utilisateur a été authentifié sur un serveur Exchange. 
+Cet exemple part du principe que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de la boîte aux lettres et que l’utilisateur a été authentifié auprès d’un serveur Exchange. 
   
 ```cs
 public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService service)
@@ -253,18 +253,18 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 
 <a name="bk_removedelegateews"> </a>
 
-## <a name="remove-delegates-by-using-ews"></a>Supprimer des délégués à l’aide de EWS
+## <a name="remove-delegates-by-using-ews"></a>Supprimer des délégués à l’aide d’EWS
 
-Vous pouvez supprimer des délégués à partir d’une boîte aux lettres à l’aide de l’opération EWS [RemoveDelegate](http://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) . Dans cet exemple, le jeu d’autorisations de délégué dans [Ajouter un exemple de délégué](#bk_adddelegateews) sont supprimés. 
+Vous pouvez supprimer des délégués d’une boîte aux lettres à l’aide de l’opération EWS [RemoveDelegate](https://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) . Dans cet exemple, les autorisations de délégué définies dans l' [exemple d’ajout d’un délégué](#bk_adddelegateews) sont supprimées. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez la méthode **RemoveDelegates** permet de [Supprimer des délégués](#bk_removedelegateewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez la méthode **RemoveDelegates** pour [supprimer des délégués](#bk_removedelegateewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -289,27 +289,27 @@ C’est également la demande XML qui envoie de l’API managée EWS lorsque vou
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **RemoveDelegate** avec un message [AddDelegateResponse](http://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que les délégués ont été supprimés.
+Le serveur répond à la demande **RemoveDelegate** avec un message [AddDelegateResponse](https://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) qui inclut une valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que les délégués ont bien été supprimés.
 
 <a name="bk_nextsteps"> </a>
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Après avoir ajouté les délégués calendrier, messagerie et des dossiers de tâches, le délégué peut accéder aux éléments dans les dossiers. Pour plus d’informations, voir les articles suivants :
+Une fois que vous avez ajouté des délégués à des dossiers de calendrier, de messagerie et de tâches, le délégué peut accéder aux éléments dans les dossiers. Pour en savoir plus, consultez les articles suivants :
   
-- [Accéder à la messagerie en tant que délégué à l’aide de EWS dans Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [Accéder à la messagerie électronique en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [Accéder à un calendrier en tant que délégué à l’aide de EWS dans Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [Accéder à un calendrier en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [Contacts Access en tant que délégué à l’aide de EWS dans Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [Accéder aux contacts en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-Si les dossiers pour lesquels vous avez ajouté les délégués sont les dossiers enfants qui ont été créées avant que vous avez accordé l’accès délégué, le délégué ne sera pas en mesure d’accéder à ces dossiers sans autorisations supplémentaires. Pour ajouter ces autorisations, ou modifier les autorisations pour tous les autres dossiers, voir [définir des autorisations de dossier pour un autre utilisateur à l’aide de EWS dans Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
+Si les dossiers pour lesquels vous avez ajouté des délégués incluent des dossiers enfants créés avant l’octroi de l’accès délégué, le délégué ne pourra pas accéder à ces dossiers sans autorisations supplémentaires. Pour ajouter ces autorisations ou modifier des autorisations pour d’autres dossiers, consultez la rubrique [définir les autorisations de dossier pour un autre utilisateur à l’aide d’EWS dans Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Accès délégué et EWS dans Exchange](delegate-access-and-ews-in-exchange.md)
-- [Exchange 2013 : Ajouter déléguer aux utilisateurs d’un compte de messagerie par programme](http://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
-- [Exchange 2013 : Mettre à jour les délégués associés par programme des comptes de messagerie](http://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
-- [Exchange 2013 : Supprimer des délégués associés par programme des comptes de messagerie](http://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
+- [Exchange 2013 : ajouter des utilisateurs délégués à un compte de messagerie par programme](https://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
+- [Exchange 2013 : mettre à jour les délégués associés aux comptes de messagerie par programme](https://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
+- [Exchange 2013 : supprimer les délégués associés aux comptes de messagerie par programme](https://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
     
 

@@ -12,16 +12,16 @@ api_type:
 - schema
 ms.assetid: 244af9e0-bf3c-46b4-8bfa-9719a1ed3107
 description: L’élément UserId identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier.
-ms.openlocfilehash: 8e9867f5a8cdd62dd2dae55fbf527595ac14f46d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 68075e335383835ddce9575d85ba5fa945ed305c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838957"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455540"
 ---
 # <a name="userid"></a>UserId
 
-L’élément **UserId** identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier. 
+L’élément **userid** identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier. 
   
 ```xml
 <UserId>
@@ -36,30 +36,30 @@ L’élément **UserId** identifie un utilisateur délégué ou un utilisateur q
  **UserIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SID](sid.md) <br/> |Représente le formulaire sécurité descripteur definition language (SDDL) de l’identificateur de sécurité (SID).  <br/> |
-|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Représente l’adresse SMTP Simple Mail Transfer Protocol () principal d’un compte à utiliser pour l’accès délégué.  <br/> |
-|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom complet d’un dossier, un contact, une liste de distribution ou un utilisateur délégué.  <br/> |
-|[DistinguishedUser](distinguisheduser.md) <br/> |Identifie les comptes d’utilisateurs par défaut et anonymes pour l’accès délégué.  <br/> |
+|[SID](sid.md) <br/> |Représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID).  <br/> |
+|[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Représente l’adresse SMTP (Simple Mail Transfer Protocol) principale d’un compte à utiliser pour l’accès délégué.  <br/> |
+|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom d’affichage d’un dossier, d’un contact, d’une liste de distribution ou d’un utilisateur délégué.  <br/> |
+|[DistinguishedUser](distinguisheduser.md) <br/> |Identifie les comptes d’utilisateur anonymes et par défaut pour l’accès délégué.  <br/> |
 |[ExternalUserIdentity](externaluseridentity.md) <br/> |Identifie un utilisateur délégué externe ou un utilisateur externe qui dispose des autorisations d’accès au dossier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Utilisateur_délégué](delegateuser.md) <br/> |Identifie un délégué pour ajouter ou mettre à jour dans une boîte aux lettres unique.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Identifie un seul délégué à ajouter ou mettre à jour dans une boîte aux lettres.  <br/> |
 |[Autorisation](permission.md) <br/> |Définit l'accès dont dispose un utilisateur dans un dossier.  <br/> |
 |[CalendarPermission](calendarpermission.md) <br/> |Définit l'accès dont dispose un utilisateur dans un dossier de calendrier.  <br/> |
-|[ID utilisateur](userids.md) <br/> |Contient un tableau d’utilisateurs délégué d’obtenir ou de supprimer la boîte aux lettres d’un utilisateur principal.  <br/> |
+|[UserIds](userids.md) <br/> |Contient un tableau d’utilisateurs délégués à obtenir ou supprimer de la boîte aux lettres d’un principal.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -73,7 +73,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Ajout de délégués](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5cc83174-e684-42c8-b72a-f82d3de3bb2f
 description: L’élément IsExternalMailbox indique si la boîte aux lettres est externe à l’organisation.
-ms.openlocfilehash: cf9f71e9b955cffd1bebefd5f23acba66ba1b894
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9be702b05e89857913023a8ec34b78ea4c309274
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828010"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455288"
 ---
 # <a name="isexternalmailbox"></a>IsExternalMailbox
 
@@ -26,11 +26,11 @@ L’élément **IsExternalMailbox** indique si la boîte aux lettres est externe
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [SearchableMailbox](searchablemailbox.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **IsExternalMailbox** indique que la boîte aux lettres est dans une organisation externe. La valeur **false** indique que la boîte aux lettres est dans l’organisation. 
+Une valeur de texte de **true** pour l’élément **IsExternalMailbox** indique que la boîte aux lettres se trouve dans une organisation externe. La valeur **false** indique que la boîte aux lettres se trouve dans l’organisation. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

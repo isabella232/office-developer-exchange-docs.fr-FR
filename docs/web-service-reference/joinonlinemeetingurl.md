@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
-description: L’élément JoinOnlineMeetingUrl Spécifie l’URL pour participer à une réunion en ligne.
-ms.openlocfilehash: 642cfaccefc5342f705d9555377c7ec985c09f6c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément JoinOnlineMeetingUrl spécifie l’URL à laquelle participer à une réunion en ligne.
+ms.openlocfilehash: 57fb6c144d673f7e25b98e5450759f42312564a4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454126"
 ---
 # <a name="joinonlinemeetingurl"></a>JoinOnlineMeetingUrl
 
-L’élément **JoinOnlineMeetingUrl** Spécifie l’URL pour participer à une réunion en ligne. 
+L’élément **JoinOnlineMeetingUrl** spécifie l’URL à laquelle participer à une réunion en ligne. 
   
 ```XML
 <JoinOnlineMeetingUrl></JoinOnlineMeetingUrl>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 [CalendarItem](calendaritem.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **JoinOnlineMeetingUrl** est l’URL de la réunion en ligne. 
   

@@ -12,18 +12,18 @@ api_type:
 - schema
 ms.assetid: 350d7b46-9260-41a7-8613-3cb8cc1b29a5
 description: 'Dernière modification : 17 septembre 2015'
-ms.openlocfilehash: 1b5484467def0bf3d22ba0707357977d5ed461ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5614ac2c6428da9b6845769a9335486d3ded5754
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755139"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455827"
 ---
 # <a name="monitoring"></a>surveillance
   
 **S’applique à :** Exchange Server 2013
   
-L’élément de **surveillance** contient des informations de configuration qui définit comment et quand le service de transport frontal ou le service de Transport analyse les agents qui sont installés. 
+L’élément **Monitoring** contient des informations de configuration qui définissent comment et quand le service de transport frontal ou le service de transport surveille les agents installés. 
   
 - [configuration](configuration.md)  
 - [mexRuntime](mexruntime.md)  
@@ -36,39 +36,39 @@ L’élément de **surveillance** contient des informations de configuration qui
 </monitoring>
 ```
 
-**monitoringType (type complexe)**
+**monitoringType (complexType)**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[agentExecution](agentexecution.md) <br/> |Définit la durée, en millisecondes, pour l’accès au Client ou le serveur de boîtes aux lettres d’attente d’un agent renvoyer à partir d’un événement avant de les écrire dans le journal des événements.  <br/> |
-|[messageSnapshot](messagesnapshot.md) <br/> |Contient un attribut qui spécifie si la fonctionnalité de suivi du pipeline est activée pour l’accès au Client ou le serveur de boîtes aux lettres.  <br/> |
+|[agentExecution](agentexecution.md) <br/> |Définit le temps, en millisecondes, au-delà duquel le serveur d’accès au client ou de boîtes aux lettres doit attendre qu’un agent renvoie à partir d’un événement avant d’écrire dans le journal des événements.  <br/> |
+|[messageSnapshot](messagesnapshot.md) <br/> |Contient un attribut qui indique si la fonctionnalité de suivi de pipeline est activée pour le serveur d’accès au client ou de boîtes aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contient des éléments qui définissent les informations de configuration pour l’agent de surveillance et les informations de configuration pour SMTP et les agents de routage qui sont installés.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contient des éléments qui définissent les informations de configuration des informations de configuration et de surveillance de l’agent pour les agents SMTP et de routage installés.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |Ce fichier ne définit pas un espace de noms.  <br/> |
-|Nom du schéma  <br/> |N’est pas disponible.  <br/> |
-|Fichier de validation  <br/> |N’est pas disponible.  <br/> |
-|Peut être vide  <br/> |Faux  <br/> |
+|Espace de noms  <br/> |Ce fichier ne définit pas d’espace de noms.  <br/> |
+|Nom du schéma  <br/> |Non disponible.  <br/> |
+|Fichier de validation  <br/> |Non disponible.  <br/> |
+|Peut être vide  <br/> |Faux.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier de configuration agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Éléments du fichier de configuration des agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

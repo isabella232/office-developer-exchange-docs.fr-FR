@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3aba59a0-f12a-48b5-842b-11cf4530dd51
-description: L’élément DeleteFromFolderStateDefinition indique l’état lorsqu’un élément est supprimé d’un dossier.
-ms.openlocfilehash: 7b6374b9fa55d3b08569e8ac9e247dd6e5bebc24
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeleteFromFolderStateDefinition spécifie l’État lorsqu’un élément est supprimé d’un dossier.
+ms.openlocfilehash: 0ea8c61a6839790869781d5d87ca81772b2e38d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755865"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455722"
 ---
 # <a name="deletefromfolderstatedefinition"></a>DeleteFromFolderStateDefinition
 
-L’élément **DeleteFromFolderStateDefinition** indique l’état lorsqu’un élément est supprimé d’un dossier. 
+L’élément **DeleteFromFolderStateDefinition** spécifie l’État lorsqu’un élément est supprimé d’un dossier. 
   
 ```XML
 <DeleteFromFolderStateDefinition>
@@ -29,24 +29,24 @@ L’élément **DeleteFromFolderStateDefinition** indique l’état lorsqu’un 
  **DeleteFromFolderStateDefinitionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Occurrence (Transition fuseau horaire)](occurrence-time-zone-transition.md) <br/> |Spécifie la date de l’occurrence d’un élément de calendrier.  <br/> |
+|[Occurrence (transition de fuseau horaire)](occurrence-time-zone-transition.md) <br/> |Spécifie la date de l’occurrence d’un élément de calendrier.  <br/> |
 |[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Spécifie une valeur de type Boolean qui indique si une occurrence de l’élément de calendrier est présente.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StateDefinition](statedefinition.md) <br/> |Spécifie une définition de l’état.  <br/> |
+|[StateDefinition](statedefinition.md) <br/> |Spécifie une définition d’État.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

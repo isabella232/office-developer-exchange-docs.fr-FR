@@ -1,5 +1,5 @@
 ---
-title: Énumération CChkSGFiles.ERR
+title: Fonction cchksgfiles. ERR, énumération
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: f0efe195-91c3-4f3a-8c7d-e5dba336465a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 20f10c43e3b92604bb51e1aa5f896a8bd7c4b335
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: dbc76601a808f79ce3ed5b5dc9fbe4cf92efb015
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755691"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455253"
 ---
-# <a name="cchksgfileserr-enumeration"></a>Énumération CChkSGFiles.ERR 
+# <a name="cchksgfileserr-enumeration"></a>Fonction cchksgfiles. ERR, énumération 
   
 **S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Indique le résultat de la fonction appelée. Cette énumération est retournée par de nombreuses fonctions de la classe **CCheckSGFiles** . 
+Indique les résultats de la fonction appelée. Cette énumération est renvoyée par de nombreuses fonctions de la classe **CCheckSGFiles** . 
   
 ```cs
 Enum ERR  
@@ -40,22 +40,22 @@ Enum ERR
 
 ```
 
-## <a name="values"></a>Valeurs
+## <a name="values"></a>Values
 
 |**Nom du membre**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |errSuccess  <br/> |0  <br/> |La fonction s’est terminée sans erreur.  <br/> |
-|errTaskDropped  <br/> |-106  <br/> |Renvoyée par la fonction **ErrTerm** pour indiquer que pas toutes les pages de base de données et fichiers journaux des transactions ont été vérifiées, ou que des erreurs se sont produites pendant la vérification.  <br/> |
-|errRequiredLogFilesMissing  <br/> |-543  <br/> |Un ou plusieurs fichiers journaux qui sont nécessaires pour faire de la base de données à un état d’arrêt correct est introuvable dans le chemin d’accès du fichier journal, ou n’a pas le nom de base de trois lettres spécifié.  <br/> |
-|errInvalidParameter  <br/> |-1003  <br/> |Un ou plusieurs paramètres qui ont été transmis à la fonction ne sont pas valides.  <br/> |
-|errOutOfMemory  <br/> |-1011  <br/> |Mémoire insuffisante n’était disponible pour effectuer l’opération demandée.  <br/> |
-|errReadVerifyFailure  <br/> |-1018  <br/> |La somme de contrôle qui est stocké dans une page de base de données ne correspond pas à la somme de contrôle attendue.  <br/> |
-|errTooManyActiveUsers  <br/> |-1059  <br/> |La fonction **ErrTerm** a été appelée alors que l’objet a été en cours d’utilisation. Cela peut se produire si **ErrTerm** est appelé avant **ErrCheckDbPages** ou **ErrCheckLogFiles** a renvoyé.  <br/> |
+|errTaskDropped  <br/> |-106  <br/> |Renvoyé par la fonction **ErrTerm** pour indiquer que toutes les pages de base de données et tous les fichiers journaux de transaction ont été vérifiés, ou que des erreurs ont été rencontrées lors de la vérification.  <br/> |
+|errRequiredLogFilesMissing  <br/> |-543  <br/> |Un ou plusieurs fichiers journaux requis pour ramener la base de données à un état d’arrêt correct n’ont pas été trouvés dans le chemin d’accès au fichier journal, ou n’ont pas le nom de base à trois lettres spécifié.  <br/> |
+|errInvalidParameter  <br/> |-1003  <br/> |Un ou plusieurs paramètres transmis à la fonction ne sont pas valides.  <br/> |
+|errOutOfMemory  <br/> |-1011  <br/> |Mémoire insuffisante pour terminer l’opération demandée.  <br/> |
+|errReadVerifyFailure  <br/> |-1018  <br/> |La somme de contrôle stockée sur une page de base de données ne correspond pas à son checksum attendu.  <br/> |
+|errTooManyActiveUsers  <br/> |-1059  <br/> |La fonction **ErrTerm** a été appelée alors que l’objet était toujours en cours d’utilisation. Cela peut se produire si **ErrTerm** est appelé avant que **ErrCheckDbPages** ou **ErrCheckLogFiles** n’ait été renvoyé.  <br/> |
    
 ## <a name="requirements"></a>Configuration requise
 
 Exchange Server 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.
   
-Le compte que l’application s’exécute sous doit disposer des autorisations d’accès en lecture aux base de données et les fichiers journaux qui doivent être vérifiées.
+Le compte sous lequel l’application s’exécute doit disposer d’autorisations d’accès en lecture à la base de données et des fichiers journaux à vérifier.
   
 

@@ -1,35 +1,35 @@
 ---
-title: Mettre à jour le fuseau horaire pour un rendez-vous à l’aide de EWS dans Exchange
+title: Mettre à jour le fuseau horaire pour un rendez-vous à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
-description: Découvrez comment mettre à jour le fuseau horaire pour un rendez-vous ou une réunion existante à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 535eb9f546d9a4353408579f3a24750f32237699
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment mettre à jour le fuseau horaire d’un rendez-vous ou d’une réunion existant à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: 064f99997b7c3d1197cb8d1ee6a24f8fb874f706
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754952"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455841"
 ---
-# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Mettre à jour le fuseau horaire pour un rendez-vous à l’aide de EWS dans Exchange
+# <a name="update-the-time-zone-for-an-appointment-by-using-ews-in-exchange"></a>Mettre à jour le fuseau horaire pour un rendez-vous à l’aide d’EWS dans Exchange
 
-Découvrez comment mettre à jour le fuseau horaire pour un rendez-vous ou une réunion existante à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment mettre à jour le fuseau horaire d’un rendez-vous ou d’une réunion existant à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Création d’un rendez-vous ou une réunion dans un calendrier Exchange, le fuseau horaire permet de spécifier les heures de début et de fin est enregistré en tant que le fuseau horaire de création pour le rendez-vous. Vous pouvez modifier ce fuseau horaire à l’aide de l’API managée EWS ou EWS. Toutefois, la modification du fuseau horaire d’un rendez-vous a autres effets de l’heure de début et de fin du rendez-vous.
+Lorsqu’un rendez-vous ou une réunion est créé dans un calendrier Exchange, le fuseau horaire utilisé pour spécifier les heures de début et de fin est enregistré comme fuseau horaire de création pour le rendez-vous. Vous pouvez modifier ce fuseau horaire à l’aide de l’API managée EWS ou d’EWS. Toutefois, la modification du fuseau horaire sur un rendez-vous a d’autres effets sur l’heure de début et de fin du rendez-vous.
   
-Valeurs d’heure sont stockés sur le serveur Exchange en coordonner le temps universel (UTC). Par conséquent, si un rendez-vous est configuré pour démarrer à 13 h 00 (13:00) dans le fuseau horaire (UTC-05:00), que la valeur est stockée en tant que 6 h 00 (18:00) sur le serveur, en supposant que le fuseau horaire est dans sa phase d’heure standard. Lorsque ce rendez-vous est affiché dans les autres fuseaux horaires, le nombre d’heures approprié est ajouté ou soustraite de la valeur UTC pour déterminer le temps de fuseau horaire spécifique. Par exemple, si un rendez-vous a une heure de début à 1 h 00 orientale (18 h 00 UTC) et est affiché à partir d’un client dans le fuseau horaire Pacifique (UTC-08:00), heure de début du fuseau horaire spécifiques pour que le client serait 10:00:00 (18:00-08:00).
+Les valeurs d’heure sont stockées sur le serveur Exchange en temps universel coordonné (UTC). Par conséquent, si un rendez-vous est défini pour commencer à 1:00 (13:00) dans le fuseau horaire est (UTC-05:00), cette valeur est stockée en tant que 6:00 (18:00) sur le serveur, en supposant que le fuseau horaire est en phase standard. Lorsque ce rendez-vous est affiché dans d’autres fuseaux horaires, le nombre d’heures approprié est ajouté ou soustrait de la valeur UTC pour déterminer le temps spécifique au fuseau horaire. Par exemple, si un rendez-vous a une heure de début au 1:00 PM (6:00 PM UTC) et qu’il est affiché à partir d’un client dans le fuseau horaire Pacifique (UTC-08:00), l’heure de début spécifique à la zone horaire de ce client serait de 10:00 AM (18:00-08:00).
   
-Lorsque vous mettez à jour le fuseau horaire du rendez-vous sans mise à jour de l’heure de début et de fin, le serveur met à jour les valeurs d’heure UTC stockés sur le serveur pour conserver l’heure de début et de fin en tant que le temps de fuseau horaire spécifiques. Par exemple, considérez le rendez-vous est 1 h 00. L’heure est stockée en tant que 18 h 00 UTC sur le serveur. Si le fuseau horaire du rendez-vous est modifié pour le fuseau horaire Pacifique, le serveur décale l’heure de début à 1 h 00 PST (21 h 00 UTC).
+Lorsque vous mettez à jour le fuseau horaire du rendez-vous sans mettre à jour l’heure de début et de fin, le serveur met à jour les valeurs UTC stockées sur le serveur pour conserver l’heure de début et de fin en fonction des mêmes fuseaux horaires. Par exemple, prenons le rendez-vous 1:00 PM. L’heure est stockée en tant que 18:00 UTC sur le serveur. Si le fuseau horaire du rendez-vous est remplacé par le fuseau horaire Pacifique, le serveur passe l’heure de début au 1:00 PM (21:00 UTC).
   
 Vous pouvez modifier ce comportement en définissant explicitement les heures de début et de fin.
   
-## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-the-ews-managed-api"></a>Mise à jour le fuseau horaire sur un rendez-vous existant à l’aide de l’API managée EWS
+## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-the-ews-managed-api"></a>Mise à jour du fuseau horaire sur un rendez-vous existant à l’aide de l’API managée EWS
 
-Dans l’exemple suivant, l’API managée EWS est utilisée pour mettre à jour le fuseau horaire sur un rendez-vous existant pour le fuseau horaire Central en mettant à jour les propriétés de **Appointment.EndTimeZone** et de **Appointment.StartTimeZone** . Si le paramètre _shiftAppointnment_ est défini sur **true**, le code ne définit pas explicitement les heures de début et de fin du rendez-vous. Dans ce cas, le serveur place les heures de début et de fin pour les conserver au même moment relative du fuseau horaire dans le nouveau fuseau horaire. Si la valeur **false**, le code convertit les heures de début et de fin explicitement pour conserver le rendez-vous en même temps au format UTC. 
+Dans l’exemple suivant, l’API managée EWS est utilisée pour mettre à jour le fuseau horaire d’un rendez-vous existant vers le fuseau horaire central en mettant à jour les propriétés appointment **. StartTimeZone** et appointment **. EndTimeZone** . Si le paramètre _shiftAppointnment_ est défini sur **true**, le code ne définit pas explicitement les heures de début et de fin sur le rendez-vous. Dans ce cas, le serveur déplace les heures de début et de fin afin de les conserver en même temps que les heures relatives dans le nouveau fuseau horaire. Si la valeur est **false**, le code convertit les heures de début et de fin de manière explicite afin de conserver simultanément le rendez-vous en UTC. 
 
-Cet exemple suppose que l’objet **ExchangeService** a été initialisée avec des valeurs valides dans les propriétés [d’Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) et les [informations d’identification](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . 
+Cet exemple part du principe que l’objet **ExchangeService** a été initialisé avec des valeurs valides dans les [informations d’identification](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) et les propriétés de l' [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
   
 ```cs
 static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bool shiftAppointment)
@@ -112,7 +112,7 @@ static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bo
 }
 ```
 
-Lorsque l’exemple est utilisé pour mettre à jour un rendez-vous qui commence à 1 h 00 est et se termine à 2 h 00 orientale, avec le paramètre _shiftAppointment_ défini sur true et la propriété [ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) définie sur le fuseau horaire est, les résultats doivent ressembler comme suit. 
+Lorsque l’exemple est utilisé pour mettre à jour un rendez-vous qui commence à 1:00 PM et se termine à 2:00 PM est, avec le paramètre _shiftAppointment_ défini sur true et la propriété [ExchangeService. TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) définie sur le fuseau horaire est, le résultat se présente comme suit. 
   
 ```MS-DOS
 Before update:
@@ -129,7 +129,7 @@ After update:
   End time zone: (UTC-06:00) Central Time (US &amp; Canada)
 ```
 
-Lorsque l’exemple est utilisé pour mettre à jour le même rendez-vous avec le paramètre _shiftAppointment_ défini sur false et la propriété de **fuseau horaire** à nouveau définie sur le fuseau horaire est, la sortie est légèrement différente. 
+Lorsque l’exemple est utilisé pour mettre à jour le même rendez-vous avec le paramètre _shiftAppointment_ défini sur false et que la propriété **TimeZone** est de nouveau définie sur le fuseau horaire est, le résultat semble un peu différent. 
   
 ```MS-DOS
 Before update:
@@ -146,18 +146,18 @@ After update:
   End time zone: (UTC-06:00) Central Time (US &amp; Canada)
 ```
 
-Notez que les heures de début et de fin n’a pas changé. C’est parce que les heures sont en cours interprétés dans le fuseau horaire de la zone (car la propriété de **fuseau horaire** est définie sur le fuseau horaire est), et les valeurs d’heure ont été mis à jour pour empêcher le rendez-vous de décalage. 
+Notez que les heures de début et de fin n’ont pas changé. En effet, les heures sont interprétées dans le fuseau horaire est (car la propriété **TimeZone** est définie sur le fuseau horaire est) et les valeurs d’heure ont été mises à jour pour empêcher le changement de rendez-vous. 
   
-## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-ews"></a>Mise à jour le fuseau horaire sur un rendez-vous existant à l’aide de EWS
+## <a name="updating-the-time-zone-on-an-existing-appointment-by-using-ews"></a>Mise à jour du fuseau horaire sur un rendez-vous existant à l’aide d’EWS
 
-L’exemple de requête EWS [UpdateItem opération](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) suivant met à jour le fuseau horaire d’un rendez-vous. Cet exemple met à jour uniquement les éléments [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) et [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) , afin que le serveur place les heures de début et de fin du rendez-vous pour qu’il conserve relative de temps zone simultanément dans le nouveau fuseau horaire. La valeur de l’élément **ItemId** est raccourcie pour une meilleure lisibilité. 
+L’exemple de demande d' [opération UPDATEITEM](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) EWS met à jour le fuseau horaire sur un rendez-vous. Cet exemple ne met pas à jour les éléments [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) et [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) , de sorte que le serveur déplace les heures de début et de fin du rendez-vous de façon à ce qu’il soit conservé en même temps dans le nouveau fuseau horaire. La valeur de l’élément **ItemId** est raccourcie pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -187,14 +187,14 @@ L’exemple de requête EWS [UpdateItem opération](http://msdn.microsoft.com/li
 </soap:Envelope>
 ```
 
-L’exemple de requête suivant met à jour le fuseau horaire du rendez-vous et met également à jour les heures de début et de fin en définissant explicitement les éléments de **début** et de **fin** . La valeur de l’élément **ItemId** est raccourcie pour une meilleure lisibilité. 
+L’exemple de requête suivant met à jour le fuseau horaire du rendez-vous et met à jour les heures de début et de fin en définissant explicitement les éléments de **début** et de **fin** . La valeur de l’élément **ItemId** est raccourcie pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -239,7 +239,7 @@ L’exemple de requête suivant met à jour le fuseau horaire du rendez-vous et 
 ## <a name="see-also"></a>Voir aussi
 
 - [Fuseaux horaires et EWS dans Exchange](time-zones-and-ews-in-exchange.md)   
-- [Créer des rendez-vous dans un fuseau horaire spécifique à l’aide de EWS dans Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
-- [Mettre à jour vos rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Créer des rendez-vous dans un fuseau horaire spécifique à l’aide d’EWS dans Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
+- [Mettre à jour des rendez-vous et des réunions à l’aide d’EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

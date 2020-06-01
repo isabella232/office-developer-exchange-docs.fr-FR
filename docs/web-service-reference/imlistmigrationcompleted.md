@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6eed9502-5d9e-4345-ba23-3582ff487147
-description: L’élément ImListMigrationCompleted indique si la banque d’informations Exchange contient les éléments de messagerie instantanées utilisés par les clients de messagerie instantanée.
-ms.openlocfilehash: 25f1b583b354a71958fbc8052c492726dc0eb7db
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ImListMigrationCompleted indique si la Banque d’information Exchange contient les éléments de messagerie instantanée utilisés par les clients de messagerie instantanée.
+ms.openlocfilehash: 09f37d6e3663aab7cb98fc922f727ddd604f2acd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827893"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456023"
 ---
 # <a name="imlistmigrationcompleted"></a>ImListMigrationCompleted
 
-L’élément **ImListMigrationCompleted** indique si la banque d’informations Exchange contient les éléments utilisés par les clients de messagerie instantanée de la messagerie instantanée. 
+L’élément **ImListMigrationCompleted** indique si la Banque d’information Exchange contient les éléments de messagerie instantanée utilisés par les clients de messagerie instantanée. 
   
 ```XML
 <ImListMigrationCompleted>true | false</ImListMigrationCompleted>
@@ -26,11 +26,11 @@ L’élément **ImListMigrationCompleted** indique si la banque d’informations
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [SetImListMigrationCompleted](setimlistmigrationcompleted.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **ImListMigrationCompleted** indique que les contacts de messagerie instantanée store a été migré vers la version d’Exchange stockent. La valeur **false** indique que le magasin de contacts de messagerie instantanée n’a pas été migré. 
+Une valeur de texte de **true** pour l’élément **ImListMigrationCompleted** indique que la Banque de contacts de messagerie instantanée a été migrée vers la Banque d’Exchange. La valeur **false** indique que la Banque de contacts de messagerie instantanée n’a pas été migrée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

@@ -7,49 +7,49 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51186691-46d2-4d5c-b8bc-4ee2bb20fbe7
-description: Opération de recherche plus d’informations sur la GetImItems EWS.
-ms.openlocfilehash: 4335cc22b22dc5f102f2221f7fdb22a506ba026f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS GetImItems.
+ms.openlocfilehash: 960f4683dd478b0e5f8cf18fa8d1593b7433a249
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756643"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456044"
 ---
 # <a name="getimitems-operation"></a>Opération GetImItems
 
 Trouvez des informations sur l’opération EWS **GetImItems** . 
   
-L’opération **GetImItems** récupère des informations sur les groupes de la messagerie instantanée et les personnages du contact de messagerie instantanée. 
+L’opération **GetImItems** récupère les informations sur les groupes de messagerie instantanée et les personnages de contact de messagerie instantanée. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getimitems-operation"></a>Utilisation de l’opération GetImItems
 
-L’opération **GetImItems** accepte le groupe et contact identificateurs d’élément et renvoie un ensemble d’informations sur les groupes et les contacts. Les jeux de propriétés retournés dans la réponse sont identifiées par les propriétés étendues, plusieurs identificateurs de contact, les identificateurs de groupe et étendues des définitions de propriétés en tant qu’arguments. 
+L’opération **GetImItems** accepte les identificateurs d’élément de contact et de groupe et renvoie un ensemble d’informations sur les groupes et les contacts. Les jeux de propriétés renvoyés dans la réponse sont identifiés par des propriétés étendues, par des identificateurs de contacts multiples, des identificateurs de groupe et des définitions de propriétés étendues comme arguments. 
   
-### <a name="getimitems-operation-soap-headers"></a>En-têtes SOAP GetImItems opération
+### <a name="getimitems-operation-soap-headers"></a>En-têtes SOAP d’opération GetImItems
 
-L’opération **GetImItems** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant. 
+L’opération **GetImItems** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur emprunte l’identité de l’application cliente. Cet en-tête est applicable à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, comme défini dans RFC 3066, « Balises pour l’Identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête est applicable à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération. Cet en-tête est applicable à une demande.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête est applicable à une réponse.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>Exemple de requête d’opération GetImItems : obtenir des informations détaillées sur les contacts de messagerie instantanée et les groupes
+## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>Exemple de requête d’opération GetImItems : obtenir des informations détaillées sur les contacts et les groupes de messagerie instantanée
 
-Une demande d’opération **GetImItems** l’exemple suivant montre comment demander des informations détaillées sur les contacts de messagerie instantanée et les groupes. Une opération **GetImItems** peut demander un ou plusieurs contacts ou détails du groupe. Vous pouvez également utiliser les propriétés étendues pour obtenir les propriétés personnalisées sur des groupes et des contacts. Si une propriété étendue demandée n’existe pas sur un élément, la réponse ignore la propriété demandée et retourner la réponse pour le jeu de propriétés par défaut. Cet exemple montre comment obtenir le nom complet à l’aide des propriétés étendues. 
+L’exemple suivant de demande d’opération **GetImItems** indique comment demander des informations détaillées sur les contacts et les groupes de messagerie instantanée. Une opération **GetImItems** peut demander un ou plusieurs détails de contact ou de groupe. Vous pouvez également utiliser des propriétés étendues pour obtenir des propriétés personnalisées sur des groupes et des contacts. Si une propriété étendue demandée n’existe pas sur un élément, la réponse ignore la propriété demandée et renvoie la réponse pour le jeu de propriétés par défaut. Cet exemple montre comment obtenir le nom complet à l’aide de propriétés étendues. 
   
 > [!NOTE]
-> Tous les identificateurs d’article et modifier des clés dans cet article ont été réduits afin de préserver la lisibilité. Notez que modifier les clés sont ignorées par le service pour cette opération. 
+> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. Notez que les clés de changement sont ignorées par le service pour cette opération. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -70,23 +70,23 @@ Une demande d’opération **GetImItems** l’exemple suivant montre comment dem
 </soap:Envelope>
 ```
 
-La demande SOAP body contient les éléments suivants :
+Le corps SOAP de la demande contient les éléments suivants :
   
 - [GetImItems](getimitems.md)
     
 - [ContactIds](contactids.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
-- [GroupID](groupids.md)
+- [ID](groupids.md)
     
 - [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
 - [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
     
-## <a name="successful-getimitems-operation-response"></a>Réponse d’opération GetImItems réussie
+## <a name="successful-getimitems-operation-response"></a>Réponse de l’opération GetImItems réussie
 
-L’exemple suivant montre une réponse positive à une demande de **GetImItems** pour obtenir un contact de messagerie instantanée et de groupe. Le nom complet est demandé dans une propriété étendue. Contacts de messagerie instantanée sont renvoyées sous la forme d’un personnage. 
+L’exemple suivant montre une réponse réussie à une demande **GetImItems** pour obtenir un contact et un groupe de messagerie instantanée. Le nom complet est demandé dans une propriété étendue. Les contacts de messagerie instantanée sont renvoyés sous la forme d’un personnage. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,18 +97,18 @@ L’exemple suivant montre une réponse positive à une demande de **GetImItems*
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetImItemsResponse ResponseClass="Success" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImItemList>
-            <Groups xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Groups xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <ImGroup>
                   <DisplayName>Exchange SDK Team</DisplayName>
                   <GroupType>IPM.DistList.MOC.UserGroup</GroupType>
@@ -124,7 +124,7 @@ L’exemple suivant montre une réponse positive à une demande de **GetImItems*
                   </ExtendedProperties>
                </ImGroup>
             </Groups>
-            <Personas xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <Personas xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Persona>
                   <PersonaId Id="AAQkADEzOTBZImBzN5J/uHXc="/>
                   <PersonaType>Person</PersonaType>
@@ -189,7 +189,7 @@ L’exemple suivant montre une réponse positive à une demande de **GetImItems*
 </s:Envelope>
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [GetImItemsResponse](getimitemsresponse.md)
     
@@ -199,7 +199,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [Groupes (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)
     
-- [ImGroup](imgroup.md)
+- [Imgroup](imgroup.md)
     
 - [DisplayName (chaîne)](displayname-string.md)
     
@@ -209,7 +209,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [MemberCorrelationKey](membercorrelationkey.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
@@ -227,11 +227,11 @@ La réponse SOAP body contient les éléments suivants :
     
 - [DisplayNameLastFirst](displaynamelastfirst.md)
     
-- [Classer sous](fileas.md)
+- [FileAs](fileas.md)
     
 - [FileAsId](fileasid.md) FileAsId 
     
-- [ImAddress (chaîne)](imaddress-string.md)
+- [IMAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
@@ -241,7 +241,7 @@ La réponse SOAP body contient les éléments suivants :
     
 - [ID (chaîne)](id-string.md)
     
-- [ID source](sourceid.md)
+- [SourceId](sourceid.md)
     
 - [IsWritable](iswritable.md)
     
@@ -259,7 +259,7 @@ La réponse SOAP body contient les éléments suivants :
     
 ## <a name="getimitems-operation-error-response"></a>Réponse d’erreur d’opération GetImItems
 
-L’opération **GetImItems** ne valide pas les identificateurs et ne retourne pas la réponse attendue d’erreur **ErrorInvalidImContactId** ou **ErrorInvalidImGroupId** si un contact non valide ou un identificateur de groupe est fourni pour le service. 
+L’opération **GetImItems** ne valide pas les identificateurs et ne renvoie pas la réponse d’erreur **ErrorInvalidImContactId** ou **ErrorInvalidImGroupId** attendue si un contact ou un identificateur de groupe non valide est fourni au service. 
   
 ## <a name="see-also"></a>Voir aussi
 

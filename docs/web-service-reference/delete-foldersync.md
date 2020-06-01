@@ -11,22 +11,22 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4397d91-43ef-40a9-a80e-d31501a33caa
-description: L’élément Supprimer identifie un seul dossier à supprimer dans le magasin de client local.
-ms.openlocfilehash: 5cad36c6fcff782195fdb285e2d3c4f3c5ec0f1e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément delete identifie un dossier unique à supprimer dans le magasin client local.
+ms.openlocfilehash: 68f8687b8cf0723d7fd63a3d55da8ef7c2f98f8e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755841"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454980"
 ---
 # <a name="delete-foldersync"></a>Supprimer (FolderSync)
 
-L’élément **Supprimer** identifie un seul dossier à supprimer dans le magasin de client local. 
+L’élément **Delete** identifie un dossier unique à supprimer dans le magasin client local. 
   
 - [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)  
 - [ResponseMessages](responsemessages.md)  
 - [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
-- [Modifications (hiérarchie)](changes-hierarchy.md)  
+- [Changes (hiérarchie)](changes-hierarchy.md)  
 - [Supprimer (FolderSync)](delete-foldersync.md)
   
 ```xml
@@ -39,40 +39,40 @@ L’élément **Supprimer** identifie un seul dossier à supprimer dans le magas
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Modifications (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau de types de modification qui représente le type des différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007 séquencé.  <br/> |
+|[Changes (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau séquencé de types de modifications qui représentent le type de différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur Exchange 2007 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur Exchange 2007 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Opération SyncFolderHierarchy](syncfolderhierarchy-operation.md)
+- [Opération Opérationsyncfolderhierarchy](syncfolderhierarchy-operation.md)
 - [Référence EWS pour Exchange](ews-reference-for-exchange.md)
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1601ad86-d391-449f-889b-50ecbd310dd5
-description: L’élément GetClientIntent est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: f7e5abfff60edc328b2d00576093b39e849438c3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetClientIntent est destiné uniquement à un usage interne.
+ms.openlocfilehash: 3620511146f93a96d79a1427ab0903a8984fa500
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756543"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455638"
 ---
 # <a name="getclientintent"></a>GetClientIntent
 
-L’élément **GetClientIntent** est destiné à une utilisation interne uniquement. 
+L’élément **GetClientIntent** est destiné uniquement à un usage interne. 
   
 ```XML
 <GetClientIntent />
@@ -26,11 +26,11 @@ L’élément **GetClientIntent** est destiné à une utilisation interne unique
  ****
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,9 +50,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cd0eb239-6e7f-4a5a-b245-659f170550b7
-description: L’élément DayQuality représente la qualité de la journée contenant les heures de réunions suggéré de qualité.
-ms.openlocfilehash: 156d5bc58d481c9c812793da4722272ac76adaad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DayQuality représente la qualité du jour pour le temps de réunion suggéré pour la qualité.
+ms.openlocfilehash: 41cc8313dccb1a5172fefc167e6ed90a21109ec5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755827"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455113"
 ---
 # <a name="dayquality"></a>DayQuality
 
-L’élément **DayQuality** représente la qualité de la journée contenant qualité suggérée aux heures de réunion. 
+L’élément **DayQuality** représente la qualité du jour pour le temps de réunion suggéré pour la qualité. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [SuggestionsResponse](suggestionsresponse.md) 
@@ -37,11 +37,11 @@ L’élément **DayQuality** représente la qualité de la journée contenant qu
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -51,16 +51,16 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un seul jour qui contient les heures de réunion proposée.  <br/><br/>Vous trouverez ci-dessous l’expression XPath 2.0 pour cet élément :<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour qui contient des heures de réunion suggérées.  <br/><br/>Voici l’expression XPath 2,0 pour cet élément :<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs possibles de cet élément sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
   
 - **Excellente**   
-- **Une bonne**    
-- **Juste**    
-- **Une mauvaise**
+- **Good**    
+- **Beau**    
+- **Mauvais**
     
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 - [Opération GetUserAvailability](getuseravailability-operation.md)  
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-- [Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

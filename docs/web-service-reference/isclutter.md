@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0eda1a43-915f-4c26-8053-cbe8608ccbc9
-description: L’élément IsClutter est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 80b78786e27c37795b15d6af802e6fc788d164a6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsClutter est destiné uniquement à un usage interne.
+ms.openlocfilehash: 74b3cc8b570f0a039a85de4289362ac53941323d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827994"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455554"
 ---
 # <a name="isclutter"></a>IsClutter
 
-L’élément **IsClutter** est destiné à une utilisation interne uniquement. 
+L’élément **IsClutter** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

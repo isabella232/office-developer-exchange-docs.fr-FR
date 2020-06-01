@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4e657e57-528f-4250-a99c-f9850bbbcec5
-description: L’élément RequestType indique si une demande de proxy est cross-site ou une demande inter-forêts.
-ms.openlocfilehash: 96a4d57432b15aa54fff2618df458fc75cb227f3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RequestType identifie si une demande proxy est une demande inter-site ou inter-forêts.
+ms.openlocfilehash: 278a65a1f2ce4cb433ae8099703d70d0a2cafa3b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829139"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455967"
 ---
 # <a name="requesttype"></a>RequestType
 
-L’élément **RequestType** indique si une demande de proxy est cross-site ou une demande inter-forêts. 
+L’élément **RequestType** identifie si une demande proxy est une demande inter-site ou inter-forêts. 
   
 ```xml
 <RequestType>CrossSite or CrossForest</RequestType>
@@ -30,11 +30,11 @@ L’élément **RequestType** indique si une demande de proxy est cross-site ou 
  **AvailabilityProxyRequestType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,9 +44,9 @@ Aucun.
 
 Cet élément n’a pas de parent dans le schéma. Cet élément est utilisé dans l’en-tête SOAP. Pour plus d’informations sur la façon dont cet élément est utilisé, voir le fichier WSDL.
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est nécessaire pour cet élément. Les valeurs possibles sont les suivantes :
+Une valeur de texte est requise pour cet élément. Les valeurs possibles sont les suivantes :
   
 - CrossSite
     
@@ -56,7 +56,7 @@ Une valeur de texte est nécessaire pour cet élément. Les valeurs possibles so
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

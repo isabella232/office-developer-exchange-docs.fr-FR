@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1c4c5969-7bdd-4021-be0e-cae99e86cf2c
 description: Découvrez comment gérer les erreurs liées à la propriété dans votre application EWS.
-ms.openlocfilehash: f214ab40c3717178c6957a9da93bdf89999fc1d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5863ab4e06bd968aa38b6fdec471e09c5e23f54a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754776"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455407"
 ---
 # <a name="ews-property-related-errors"></a>Erreurs liées à la propriété EWS
 
-Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment gérer les erreurs liées à la propriété dans votre application EWS.
+Découvrez comment gérer les erreurs liées à la propriété dans votre application EWS.
   
 La plupart des applications de client EWS utiliseront les propriétés, ce qui signifie que vous devez gérer les erreurs liées à la propriété. Vous pouvez gérer ces erreurs en cours d'exécution, ou lorsque vous développez votre application EWS.
   
@@ -42,7 +42,7 @@ La plupart des applications de client EWS utiliseront les propriétés, ce qui s
 |ErrorNoFolderClassOverride  <br/> |Définissez la classe d'un dossier sur un nouveau dossier qui n'est pas le type de dossier de base.  <br/> |À l'aide d'un type de dossier générique pour définir la classe d'un dossier.  <br/> |
 |ErrorNoPropertyTagForCustomProperties  <br/> |Faire référence à une propriété étendue personnalisée par sa balise de propriété.  <br/> |Mise à jour de votre code pour faire référence à la personnalisé étendu identificateur de propriété à la propriété est définie et la propriété nom ou identificateur de propriété de répartition.  <br/> |
 |ErrorObjectTypeChanged  <br/> |Définir ou mettre à jour la classe de l'élément sur un élément qui ne correspond pas à son type de schéma.  <br/> |Mise à jour de votre code afin que la classe de l'élément établit une correspondance avec le type d'élément de schéma.  <br/> |
-|ErrorPropertyUpdate  <br/> |Mettre à jour une propriété avec une valeur de propriété non valide.  <br/> |Vérification de la valeur de la propriété avant de les envoyer dans une demande de [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) .  <br/> |
+|ErrorPropertyUpdate  <br/> |Mettre à jour une propriété avec une valeur de propriété non valide.  <br/> |Vérification de la valeur de la propriété avant de les envoyer dans une demande de [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) .  <br/> |
 |ErrorRequiredPropertyMissing  <br/> |Envoyer une demande CreateAttachment auquel il manque une propriété obligatoire.  <br/> |Mise à jour de votre code pour définir la propriété manquante comme spécifié par le chemin d'accès de la propriété retourné dans la réponse.  <br/> |
 |ErrorUnsupportedMapiPropertyType  <br/> |Utilisez des types de propriété étendue de l'objet de type, tableau d'objets, erreur ou null.  <br/> |Mise à jour de votre code pour ne pas utiliser les types de propriété étendue restreints.  <br/> |
 |ErrorUnsupportedPathForQuery  <br/> |Utiliser un chemin de propriété non pris en charge dans une restriction de recherche.  <br/> |Modification de la restriction de recherche pour exclure le chemin d'accès de propriété non pris en charge.  <br/> |

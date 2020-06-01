@@ -1,25 +1,25 @@
 ---
-title: L’archivage dans EWS dans Exchange
+title: L'archivage dans EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78ae179b-ae4f-4f64-911a-e0c70e0fa314
-description: Obtenir des informations sur l’archivage dans EWS dans Exchange.
-ms.openlocfilehash: bc282a7774bb74e57550bc663512987839324b83
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez l’archivage dans EWS dans Exchange.
+ms.openlocfilehash: b433b9f88905ee255720e8b341d560fa0e464975
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754755"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456212"
 ---
-# <a name="archiving-in-ews-in-exchange"></a>L’archivage dans EWS dans Exchange
+# <a name="archiving-in-ews-in-exchange"></a>L'archivage dans EWS dans Exchange
 
-Obtenir des informations sur l’archivage dans EWS dans Exchange.
+Découvrez l’archivage dans EWS dans Exchange.
   
-Boîtes aux lettres d’archivage sont des boîtes aux lettres secondaires qui sont associés à un utilisateur. Boîtes aux lettres d’archivage sont généralement utilisés pour gérer les limites de stockage de courrier électronique. Par exemple, les éléments de messagerie électronique antérieurs régulièrement peuvent être déplacés que de la boîte de réception à la boîte aux lettres d’archive. 
+Les boîtes aux lettres d’archivage sont des boîtes aux lettres secondaires associées à un utilisateur. Les boîtes aux lettres d’archivage sont généralement utilisées pour gérer les limites de stockage des courriers électroniques. Par exemple, les éléments de courrier plus anciens peuvent régulièrement être déplacés de la boîte de réception vers la boîte aux lettres d’archivage. 
   
-Exchange Online, Exchange Online dans le cadre d’Office 365 et Exchange Server 2013 présente deux nouvelles opérations Exchange Web Services (EWS) que vous pouvez utiliser pour archiver un ensemble d’éléments de messagerie à partir d’une boîte aux lettres principale. L’archivage des éléments de boîte de réception de cette manière conserve la hiérarchie de dossiers des éléments. En outre, les boîtes aux lettres d’archive maintenant peuvent être stockées localement sur un client, soit à distance, d’une manière qui est principalement opaque à un utilisateur, à l’aide d’un chemin d’accès du dossier pour pointer vers le contenu de l’archive.
+Exchange Online, Exchange Online dans le cadre d’Office 365 et Exchange Server 2013 introduisent deux nouvelles opérations des services Web Exchange (EWS) que vous pouvez utiliser pour archiver un ensemble d’éléments de courrier à partir d’une boîte aux lettres principale. L’archivage des éléments de boîte de réception de cette manière conserve la hiérarchie des dossiers des éléments. En outre, les boîtes aux lettres d’archivage peuvent désormais être stockées localement sur un client, ou à distance, d’une manière qui est principalement opaque pour un utilisateur, en utilisant un chemin d’accès de dossier pour pointer vers le contenu de l’archive.
   
 ## <a name="archiving-operations-in-ews"></a>Opérations d’archivage dans EWS
 
@@ -27,8 +27,8 @@ Le tableau suivant répertorie les opérations d’archivage qui ont été intro
   
 |**Nom de l’opération**|**Description**|
 |:-----|:-----|
-|[ArchiveItem](http://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Déplace un élément à partir de la boîte aux lettres principale pour la boîte aux lettres d’archive.  <br/> |
-|[CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Crée un URI qui pointe vers l’emplacement de stockage pour la boîte aux lettres d’archive.  <br/> |
+|[ArchiveItem](https://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Déplace un élément de la boîte aux lettres principale vers la boîte aux lettres d’archivage.  <br/> |
+|[CreateFolderPath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Crée un URI qui pointe vers l’emplacement de stockage de la boîte aux lettres d’archivage.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

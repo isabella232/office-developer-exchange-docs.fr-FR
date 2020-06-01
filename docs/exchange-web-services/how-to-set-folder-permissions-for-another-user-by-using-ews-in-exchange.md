@@ -1,106 +1,106 @@
 ---
-title: Définir des autorisations de dossier pour un autre utilisateur à l’aide de EWS dans Exchange
+title: Définir les autorisations de dossier pour un autre utilisateur à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7eb81676-a780-4c56-b4f2-c4ed2697107d
-description: Découvrez comment définir des niveaux d’autorisation sur un dossier à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 5bf570612d6349628e7f3abf858daa33daa13745
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment définir des niveaux d’autorisation sur un dossier à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: e25f1a49a430e8c95829d404fa53451b76cab167
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754946"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455869"
 ---
-# <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>Définir des autorisations de dossier pour un autre utilisateur à l’aide de EWS dans Exchange
+# <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>Définir les autorisations de dossier pour un autre utilisateur à l’aide d’EWS dans Exchange
 
-Découvrez comment définir des niveaux d’autorisation sur un dossier à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment définir des niveaux d’autorisation sur un dossier à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Autorisations au niveau du dossier permettent aux utilisateurs d’accéder à un ou plusieurs dossiers dans la boîte aux lettres d’un autre utilisateur. Autorisations de dossier sont similaires aux accès délégué, mais elles diffèrent comme suit : 
+Les autorisations au niveau du dossier permettent aux utilisateurs d’accéder à un ou plusieurs dossiers dans la boîte aux lettres d’un autre utilisateur. Les autorisations de dossier sont semblables à l’accès délégué, mais elles diffèrent de la façon suivante : 
   
-- Autorisations du dossier n’activez pas un utilisateur « envoyer de la part de » ou « envoyer en tant que « un autre utilisateur. Ils autorisent l’accès aux dossiers uniquement. Les utilisateurs peuvent créer des éléments dans les dossiers, mais ils ne peuvent pas les envoyer.
+- Les autorisations de dossier ne permettent pas à un utilisateur de « envoyer de la part de » ou « envoyer en tant que » un autre utilisateur. Ils autorisent uniquement l’accès aux dossiers. Les utilisateurs peuvent créer des éléments dans ces dossiers, mais ils ne peuvent pas les envoyer.
     
-- Vous pouvez définir des autorisations sur le dossier sur n’importe quel dossier dans la boîte aux lettres, mais vous ne pouvez ajouter un délégué dans les dossiers Calendrier, Contacts, boîte de réception, Journal, Notes et tâches.
+- Vous pouvez définir des autorisations de dossier sur n’importe quel dossier de la boîte aux lettres, mais vous ne pouvez ajouter un délégué qu’aux dossiers calendrier, contacts, boîte de réception, Journal, notes et tâches.
     
-- Vous pouvez définir un nombre [d’autorisations sur un dossier spécifique](#bk_folderperms). Lorsque vous ajoutez un délégué, vous pouvez affecter un des seuls [cinq niveaux d’autorisation](delegate-access-and-ews-in-exchange.md#bk_delegateperms).
+- Vous pouvez définir un certain nombre d' [autorisations sur un dossier spécifique](#bk_folderperms). Lorsque vous ajoutez un délégué, vous pouvez affecter l’un des [cinq niveaux d’autorisation](delegate-access-and-ews-in-exchange.md#bk_delegateperms)seulement.
     
-- Vous pouvez définir des autorisations de dossier pour anonyme et par défaut les utilisateurs. Vous pouvez uniquement accorder l’accès délégué à un compte de messagerie.
+- Vous pouvez définir des autorisations de dossier pour les utilisateurs anonymes et par défaut. Vous pouvez uniquement accorder l’accès délégué à un compte à extension messagerie.
     
-Si vous êtes familiarisé avec les entrées de contrôle d’accès (ACE) et les listes de contrôle d’accès discrétionnaire (DACL), vous savez qu’un utilisateur peut avoir uniquement un ensemble d’autorisations pour chaque dossier. Si vous essayez d’ajouter un jeu d’autorisations pour un utilisateur et qu’ils possèdent déjà un ensemble d’autorisations, vous obtiendrez une erreur. Lorsque vous ajoutez, supprimez ou mettre à jour les autorisations sur un dossier, vous obtenez la liste DACL en cours, ajoutez ou supprimez tout ACE et puis envoyez la liste DACL mis à jour. Vous ne pouvez pas ajouter plusieurs entrées pour le même utilisateur. Lorsque vous mettez à jour les autorisations à l’aide de l’API managée EWS, vous devez supprimer actuel ACE l’utilisateur, puis ajouter leur nouveaux ACE à la collection. Si vous utilisez EWS, vous il suffit de remplacer l’ensemble des ACE précédente avec les nouveaux.
+Si vous êtes familiarisé avec les entrées de contrôle d’accès (ACE) et les listes de contrôle d’accès discrétionnaire (DACL), vous savez qu’un utilisateur ne peut avoir qu’un seul ensemble d’autorisations pour chaque dossier. Si vous essayez d’ajouter un jeu d’autorisations pour un utilisateur et qu’ils disposent déjà d’un ensemble d’autorisations, vous obtiendrez une erreur. Lorsque vous ajoutez, supprimez ou mettez à jour des autorisations sur un dossier, vous obtenez la liste DACL actuelle, ajoutez ou supprimez des ACE, puis envoyez la liste DACL mise à jour. Vous ne pouvez pas ajouter plusieurs ACE pour le même utilisateur. Lorsque vous mettez à jour les autorisations à l’aide de l’API managée EWS, vous devez supprimer l’ACE actuelle de l’utilisateur, puis ajouter sa nouvelle ACE à la collection. Si vous utilisez EWS, il vous suffit de remplacer le jeu d’ACE précédent par le nouveau.
   
-Si vous effectuez plusieurs modifications des autorisations à un dossier unique, vous pouvez par lot ajouts, suppressions et mises à jour, veuillez noter que vous ne pouvez pas par lots mises à jour de l’utilisateur sur plusieurs dossiers. Un appel est nécessaire pour obtenir les autorisations sur un dossier unique et un deuxième appel est nécessaire pour mettre à jour les autorisations sur ce dossier. Lorsque vous ajoutez, supprimez ou mettre à jour les autorisations des utilisateurs, utilisez la même méthode deux appels ou opérations pour chaque tâche.
+Si vous apportez plusieurs modifications d’autorisations à un seul dossier, vous pouvez effectuer des ajouts, des suppressions ou des mises à jour par lot, mais notez simplement que vous ne pouvez pas effectuer de mises à jour par lots sur plusieurs dossiers. Un appel est nécessaire pour obtenir les autorisations sur un seul dossier, et un deuxième appel est nécessaire pour mettre à jour les autorisations sur ce dossier. Lorsque vous ajoutez, supprimez ou mettez à jour des autorisations utilisateur, vous utilisez les deux mêmes appels ou opérations de méthode pour chaque tâche.
   
-**Le tableau 1. Méthodes d’API managées et opérations EWS pour définir les autorisations de dossier**
+**Tableau 1. Méthodes de l’API managée EWS et opérations EWS pour la définition des autorisations de dossier**
 
-|Si vous souhaitez...|Utilisez cette méthode d’API managées...|Utilisez cette opération EWS...|
+|Si vous souhaitez...|Utilisez cette méthode d’API managée EWS...|Utilisez cette opération EWS...|
 |:-----|:-----|:-----|
-|Activer, supprimer ou mettre à jour les autorisations de dossier  <br/> |[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) suivi [Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> |[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) suivi [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
-|Créez un dossier et définir les autorisations du dossier  <br/> |[Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
+|Activer, supprimer ou mettre à jour les autorisations de dossier  <br/> |[Folder. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) suivi de [Folder. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> |[GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) suivi par [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
+|Création d’un dossier et définition des autorisations de dossier  <br/> |[Folder. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](https://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
    
-## <a name="folder-permissions"></a>Autorisations de dossier
+## <a name="folder-permissions"></a>Autorisations d’accès aux dossiers
 <a name="bk_folderperms"> </a>
 
-Vous avez quelques options en matière de définition d’autorisations de dossier sur un dossier spécifique. Vous pouvez définir un niveau d’autorisation sur un dossier pour chaque utilisateur, qui ajoute un jeu d’autorisations individuelles prédéfinis à la liste DACL, ou vous pouvez définir des autorisations individuelles dans un dossier, mais vous ne pouvez pas combiner des.
+Vous disposez de plusieurs options pour définir des autorisations de dossier sur un dossier spécifique. Vous pouvez définir un niveau d’autorisation sur un dossier pour chaque utilisateur, ce qui ajoute un ensemble d’autorisations individuelles prédéfinies à la liste DACL, ou vous pouvez définir des autorisations individuelles sur un dossier, mais vous ne pouvez pas mélanger et faire correspondre.
   
-Les autorisations spécifiques suivantes sont disponibles :
+Les autorisations individuelles suivantes sont disponibles :
   
-- Peut créer
-- Peut créer des sous-dossiers    
+- Pouvez créer
+- Possibilité de créer des sous-dossiers    
 - Est le propriétaire du dossier    
-- Dossier est visible    
-- Dossier contact    
+- Le dossier est-il visible    
+- Est le contact du dossier    
 - Modifier des éléments    
 - Supprimer des éléments    
 - Lire des éléments
     
-En outre, les niveaux d’autorisation suivants sont disponibles, qui définissent un sous-ensemble des autorisations spécifiques et les valeurs, comme indiqué dans le tableau 2 :
+En outre, les niveaux d’autorisation suivants sont disponibles, qui définissent un sous-ensemble des autorisations et des valeurs individuelles, comme indiqué dans le tableau 2 :
   
 - Aucun    
-- Owner    
-- Détenir    
-- Editor    
+- Propriétaire    
+- PublishingEditor    
+- Éditeur    
 - PublishingAuthor    
 - Auteur    
-- NoneditingAuthor    
-- Reviewer    
+- Noneditingauthorcreateitems    
+- Relecteur    
 - Collaborateur   
-- Personnalisé - cette valeur ne peut pas être définie par l’application. Le serveur définit cette valeur si l’application comporte une collection personnalisée d’autorisations individuelles.    
-- FreeBusyTimeOnly - il ne peut être définie sur dossiers de calendrier.   
-- FreeBusyTimeAndSubjectAndLocation - il ne peut être définie sur dossiers de calendrier.
+- Custom : cette valeur ne peut pas être définie par l’application. Le serveur définit cette valeur si l’application inclut une collection personnalisée d’autorisations individuelles.    
+- FreeBusyTimeOnly-cette valeur ne peut être définie que sur les dossiers de calendrier.   
+- FreeBusyTimeAndSubjectAndLocation-cette valeur ne peut être définie que sur les dossiers de calendrier.
     
-Le tableau suivant indique les autorisations spécifiques sont appliquées par défaut selon le niveau d’autorisation.
+Le tableau suivant indique les autorisations individuelles qui sont appliquées par défaut en fonction du niveau d’autorisation.
   
-**Le tableau 2. Autorisations spécifiques à un niveau d’autorisation**
+**Tableau 2. Autorisations individuelles par niveau d’autorisation**
 
-|Niveau d’autorisation|Peut créer des éléments|Peut créer des sous-dossiers|Est le propriétaire du dossier|Dossier est visible|Dossier contact|Modifier des éléments|Supprimer des éléments|Peut lire des éléments|
+|Niveau d’autorisation|Peut créer des éléments|Possibilité de créer des sous-dossiers|Est le propriétaire du dossier|Le dossier est-il visible|Est le contact du dossier|Modifier des éléments|Supprimer des éléments|Peut lire des éléments|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Aucun  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Aucune  <br/> |Aucune  <br/> |Aucune  <br/> |
-|Owner  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
-|Détenir  <br/> |True  <br/> |True  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
-|Editor  <br/> |True  <br/> |Faux  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
-|PublishingAuthor  <br/> |True  <br/> |True  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Propriétaire  <br/> |Propriétaire  <br/> |FullDetails  <br/> |
-|Auteur  <br/> |True  <br/> |Faux  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Propriétaire  <br/> |Propriétaire  <br/> |FullDetails  <br/> |
-|NoneditingAuthor  <br/> |True  <br/> |Faux  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Aucun  <br/> |Propriétaire  <br/> |FullDetails  <br/> |
-|Reviewer  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Aucune  <br/> |Aucune  <br/> |FullDetails  <br/> |
-|Collaborateur  <br/> |True  <br/> |Faux  <br/> |Faux  <br/> |True  <br/> |Faux  <br/> |Aucune  <br/> |Aucune  <br/> |Aucune  <br/> |
+|Aucun  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |Aucun  <br/> |
+|Propriétaire  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
+|PublishingEditor  <br/> |True  <br/> |True  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
+|Éditeur  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
+|PublishingAuthor  <br/> |True  <br/> |True  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Appartien  <br/> |Appartien  <br/> |FullDetails  <br/> |
+|Auteur  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Appartien  <br/> |Appartien  <br/> |FullDetails  <br/> |
+|Noneditingauthorcreateitems  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucun  <br/> |Appartien  <br/> |FullDetails  <br/> |
+|Relecteur  <br/> |Faux  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |FullDetails  <br/> |
+|Collaborateur  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |Aucun  <br/> |
    
-Si vous spécifiez un niveau d’autorisation non personnalisée dans la demande d’autorisations au niveau du dossier, vous n’avez pas besoin de spécifier les paramètres d’autorisation spécifiques. Si vous spécifiez une autorisation lorsque vous définissez un niveau d’autorisation, une erreur **ErrorInvalidPermissionSettings** est renvoyée dans la réponse. 
+Si vous spécifiez un niveau d’autorisation non personnalisé dans la demande d’autorisations au niveau du dossier, il n’est pas nécessaire de spécifier les paramètres d’autorisation individuels. Si vous spécifiez une autorisation individuelle lorsque vous définissez un niveau d’autorisation, une erreur **ErrorInvalidPermissionSettings** est renvoyée dans la réponse. 
   
-## <a name="adding-folder-permissions-by-using-the-ews-managed-api"></a>Ajout d’autorisations sur le dossier à l’aide de l’API managée EWS
+## <a name="adding-folder-permissions-by-using-the-ews-managed-api"></a>Ajout d’autorisations de dossier à l’aide de l’API managée EWS
 <a name="bk_enableewsma"> </a>
 
 L’exemple de code suivant montre comment utiliser l’API managée EWS pour : 
   
-- Créer un nouvel objet [FolderPermission](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderpermission%28v=exchg.80%29.aspx) pour le nouvel utilisateur. 
+- Créez un objet [FolderPermission](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermission%28v=exchg.80%29.aspx) pour le nouvel utilisateur. 
     
-- Obtenez les autorisations en cours d’un dossier à l’aide de la méthode [Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) . 
+- Obtenir les autorisations actuelles d’un dossier à l’aide de la méthode [Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) . 
     
-- Ajoutez la nouvelle **FolderPermissions** à la propriété [Folder.Permissions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.permissions%28v=exchg.80%29.aspx) . 
+- Ajoutez la nouvelle **FolderPermissions** à la propriété [Folder. Permissions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.permissions%28v=exchg.80%29.aspx) . 
     
-- Appelez la méthode [Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) pour enregistrer les nouvelles autorisations sur le serveur. 
+- Appelez la méthode [Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) pour enregistrer les nouvelles autorisations sur le serveur. 
     
-Cet exemple suppose que ce **service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de boîte aux lettres et que l’utilisateur a été authentifié sur un serveur Exchange. 
+Cet exemple part du principe que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de la boîte aux lettres et que l’utilisateur a été authentifié auprès d’un serveur Exchange. 
   
 ```cs
 static void EnableFolderPermissions(ExchangeService service)
@@ -127,7 +127,7 @@ La ligne de code suivante spécifie le niveau d’autorisation.
     FolderPermission fldperm = new FolderPermission("sadie@contoso.com", FolderPermissionLevel.Editor);
 ```
 
-Si vous souhaitez utiliser le niveau d’autorisation personnalisé, utilisez plutôt ce code.
+Si vous souhaitez utiliser le niveau d’autorisation personnalisé, utilisez ce code à la place.
   
 ```cs
 FolderPermission fldperm = new FolderPermission();
@@ -137,23 +137,23 @@ fldperm.CanCreateSubFolders = true;
 …
 ```
 
-Lorsque vous créez un objet **FolderPermission** avec un niveau d’autorisation personnalisé, vous pouvez définir tout ou partie des [Propriétés FolderPermission](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderpermission_properties%28v=exchg.80%29.aspx) accessibles en écriture. Notez que le [FolderPermissionLevel](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderpermissionlevel%28v=exchg.80%29.aspx) n’est jamais explicitement définie sur **personnalisé** par l’application. Le **FolderPermissionLevel** est définie sur personnalisé uniquement lorsque vous créez un objet **FolderPermission** et définissez des autorisations individuelles. 
+Vous pouvez définir une ou toutes les [Propriétés FolderPermission](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermission_properties%28v=exchg.80%29.aspx) accessibles en écriture lorsque vous créez un objet **FolderPermission** avec un niveau d’autorisation personnalisé. Notez toutefois que l' [FolderPermissionLevel](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderpermissionlevel%28v=exchg.80%29.aspx) n’est jamais définie explicitement sur **Custom** par l’application. Le **FolderPermissionLevel** est défini sur personnalisé uniquement lorsque vous créez un objet **FolderPermission** et que vous définissez des autorisations individuelles. 
   
-## <a name="adding-folder-permissions-by-using-ews"></a>Ajout d’autorisations sur le dossier à l’aide de EWS
+## <a name="adding-folder-permissions-by-using-ews"></a>Ajout d’autorisations de dossier à l’aide d’EWS
 <a name="bk_enableews"> </a>
 
-Les exemples de code EWS suivantes montrent comment ajouter des autorisations à un dossier spécifique à extraire les autorisations en cours et ensuite envoyer une liste des nouvelles autorisations.
+Les exemples de code EWS suivants montrent comment ajouter des autorisations à un dossier spécifique en extrayant les autorisations actuelles, puis en soumettant une liste de nouvelles autorisations.
   
-La première étape consiste à envoyer une requête [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) , où la valeur [DistinguishedFolderId](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) Spécifie le dossier dans lequel ajouter des autorisations (le dossier éléments envoyés dans cet exemple) et la valeur [FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) inclut le dossier : PermissionSet. Cette requête récupère les paramètres d’autorisation pour le dossier spécifié. 
+La première étape consiste à envoyer une demande [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) , dans laquelle la valeur [DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) spécifie le dossier dans lequel ajouter des autorisations (le dossier éléments envoyés dans cet exemple) et la valeur [FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) inclut dossier : PermissionSet. Cette requête récupère les paramètres d’autorisation pour le dossier spécifié. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous appelez la méthode **Bind** pour [Ajouter des autorisations de dossier](#bk_enableewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous appelez la méthode **Bind** pour [Ajouter des autorisations de dossier](#bk_enableewsma).
   
 ```XML
   <?xml version="1.0" encoding="utf-8"?>
   <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-                 xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+                 xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                 xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2007_SP1" />
     </soap:Header>
@@ -173,26 +173,26 @@ C’est également la demande XML qui envoie de l’API managée EWS lorsque vou
   </soap:Envelope>
 ```
 
-Le serveur répond à la demande **GetFolder** avec un message [GetFolderResponse](http://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que le dossier a été récupéré correctement. Les valeurs [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) et [ParentFolderId](http://msdn.microsoft.com/library/258f4b1f-367e-4c7d-9c29-eb775a2398c7%28Office.15%29.aspx) ont été raccourcies pour des raisons de lisibilité. 
+Le serveur répond à la demande **GetFolder** avec un message [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) qui inclut la valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NOERROR**, ce qui indique que le dossier a été récupéré. Les valeurs [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) et [ParentFolderId](https://msdn.microsoft.com/library/258f4b1f-367e-4c7d-9c29-eb775a2398c7%28Office.15%29.aspx) ont été raccourcies pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="893"
                          MinorBuildNumber="17"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -241,16 +241,16 @@ Le serveur répond à la demande **GetFolder** avec un message [GetFolderRespons
 </s:Envelope>
 ```
 
-Ensuite, utilisez l’opération **UpdateFolder** pour envoyer la mise à jour [PermissionSet](http://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx), qui inclut l' [autorisation](http://msdn.microsoft.com/library/b8d0429a-0e58-4480-9847-4901970c7033%28Office.15%29.aspx) pour le nouvel utilisateur. Notez que, y compris l’élément [SetFolderField](http://msdn.microsoft.com/library/8c69db7b-54b5-4ae2-abca-4d6e0937a790%28Office.15%29.aspx) pour le dossier respectif dans l’opération [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) remplacera tous les paramètres d’autorisation sur le dossier. De même, y compris l’option [DeleteFolderField](http://msdn.microsoft.com/library/f9c2187b-4c60-4358-b4b4-ede50eadae48%28Office.15%29.aspx) de l’opération **UpdateFolder** supprime également tous les paramètres d’autorisation sur le dossier. 
+Ensuite, utilisez l’opération **UpdateFolder** pour envoyer le [PermissionSet](https://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx)mis à jour, ce qui inclut l' [autorisation](https://msdn.microsoft.com/library/b8d0429a-0e58-4480-9847-4901970c7033%28Office.15%29.aspx) pour le nouvel utilisateur. Notez que l’inclusion de l’élément [SetFolderField](https://msdn.microsoft.com/library/8c69db7b-54b5-4ae2-abca-4d6e0937a790%28Office.15%29.aspx) pour le dossier respectif dans l’opération [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) remplace tous les paramètres d’autorisation sur le dossier. De même, l’option [DeleteFolderField](https://msdn.microsoft.com/library/f9c2187b-4c60-4358-b4b4-ede50eadae48%28Office.15%29.aspx) de l’opération **UpdateFolder** supprimera également tous les paramètres d’autorisation sur le dossier. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous appelez la méthode **Update** pour [Ajouter des autorisations de dossier](#bk_enableewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous appelez la méthode **Update** pour [Ajouter des autorisations de dossier](#bk_enableewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -307,7 +307,7 @@ La ligne de code suivante spécifie le niveau d’autorisation.
 </t:Permission>
 ```
 
-Si vous souhaitez utiliser le niveau d’autorisation personnalisé, utilisez plutôt ce code.
+Si vous souhaitez utiliser le niveau d’autorisation personnalisé, utilisez ce code à la place.
   
 ```xml
 <t:Permission>
@@ -326,26 +326,26 @@ Si vous souhaitez utiliser le niveau d’autorisation personnalisé, utilisez pl
 </t:Permission>
 ```
 
-Le serveur répond à la demande **UpdateFolder** avec un message [UpdateFolderResponse](http://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que le dossier a été correctement mis à jour.
+Le serveur répond à la demande **UpdateFolder** avec un message [UpdateFolderResponse](https://msdn.microsoft.com/library/31f47739-dc9c-46ba-9e3f-cce25dc85e6e%28Office.15%29.aspx) qui inclut une valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que le dossier a été mis à jour.
   
-## <a name="removing-folder-permissions-by-using-the-ews-managed-api"></a>Suppression des autorisations de dossiers à l’aide de l’API managée EWS
+## <a name="removing-folder-permissions-by-using-the-ews-managed-api"></a>Suppression des autorisations de dossier à l’aide de l’API managée EWS
 <a name="bk_removeewsma"> </a>
 
-L’exemple de code suivant montre comment utiliser l’API managée EWS pour supprimer toutes les autorisations utilisateur sur un dossier spécifique, à l’exception de par défaut et les autorisations anonymes, à :
+L’exemple de code suivant montre comment utiliser l’API managée EWS pour supprimer toutes les autorisations utilisateur d’un dossier spécifique, à l’exception des autorisations par défaut et anonymes, de la manière suivante :
   
-1. Obtenir les autorisations en cours d’un dossier à l’aide de la méthode **Bind** . 
+1. Obtention des autorisations actuelles pour un dossier à l’aide de la méthode **Bind** . 
     
-2. Parcourir la collection **d’autorisations** et suppression des autorisations pour des utilisateurs individuels. 
+2. Itérer au sein de la collection d' **autorisations** et supprimer des autorisations pour des utilisateurs individuels. 
     
-3. L’appel de la méthode **Update** pour enregistrer les modifications. 
+3. Appel de la méthode **Update** pour enregistrer les modifications. 
     
-Cet exemple supprime toutes les autorisations utilisateur sur un dossier. Si vous souhaitez modifier cet exemple pour supprimer des autorisations uniquement pour un utilisateur spécifique, modifiez la ligne suivante de code pour identifier le nom complet ou l’adresse SMTP de l’utilisateur.
+Cet exemple montre comment supprimer toutes les autorisations utilisateur sur un dossier. Si vous souhaitez modifier cet exemple afin de supprimer uniquement les autorisations d’un utilisateur spécifique, modifiez la ligne de code suivante pour identifier le nom complet ou l’adresse SMTP de l’utilisateur.
   
 ```cs
 if (sentItemsFolder.Permissions[t].UserId.DisplayName != null || sentItemsFolder.Permissions[t].UserId.PrimarySmtpAddress != null)
 ```
 
-Cet exemple suppose que ce **service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de boîte aux lettres et que l’utilisateur a été authentifié sur un serveur Exchange. 
+Cet exemple part du principe que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le propriétaire de la boîte aux lettres et que l’utilisateur a été authentifié auprès d’un serveur Exchange. 
   
 ```cs
 static void RemoveFolderPermissions(ExchangeService service)
@@ -374,21 +374,21 @@ static void RemoveFolderPermissions(ExchangeService service)
 }
 ```
 
-## <a name="removing-folder-permissions-by-using-ews"></a>Suppression des autorisations de dossiers à l’aide de EWS
+## <a name="removing-folder-permissions-by-using-ews"></a>Suppression des autorisations de dossier à l’aide d’EWS
 <a name="bk_removeews"> </a>
 
-Les exemples de code EWS suivants montrent comment supprimer toutes les autorisations utilisateur sur un dossier spécifique, sauf pour les autorisations anonymes et par défaut.
+Les exemples de code EWS suivants montrent comment supprimer toutes les autorisations utilisateur sur un dossier spécifique, à l’exception des autorisations par défaut et anonymes.
   
-Tout d’abord, envoyez une requête de [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) où la valeur [DistinguishedFolderId](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) Spécifie le dossier dans lequel supprimer les autorisations (le dossier éléments envoyés dans cet exemple) et la valeur [FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) inclut le dossier : PermissionSet. Cette requête extrait le [jeu d’autorisations](http://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx) pour le dossier spécifié. 
+Tout d’abord, envoyez une demande [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) où la valeur [DistinguishedFolderId](https://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) spécifie le dossier dans lequel supprimer les autorisations (le dossier éléments envoyés dans cet exemple) et la valeur [FieldURI](https://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) incluent dossier : PermissionSet. Cette requête récupère le [PermissionSet](https://msdn.microsoft.com/library/6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d%28Office.15%29.aspx) pour le dossier spécifié. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous appelez la méthode **Bind** pour [Supprimer les autorisations du dossier](#bk_removeewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous appelez la méthode **Bind** pour [supprimer des autorisations de dossier](#bk_removeewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -412,26 +412,26 @@ C’est également la demande XML qui envoie de l’API managée EWS lorsque vou
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **GetFolder** avec un message [GetFolderResponse](http://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que le dossier a été récupéré correctement. Les valeurs des éléments **FolderId** et **ParentFolderId** ont été raccourcies pour des raisons de lisibilité. 
+Le serveur répond à la demande **GetFolder** avec un message [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) qui inclut la valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NOERROR**, ce qui indique que le dossier a été récupéré. Les valeurs des éléments **FolderId** et **ParentFolderId** ont été raccourcies pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="893"
                          MinorBuildNumber="17"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -512,16 +512,16 @@ Le serveur répond à la demande **GetFolder** avec un message [GetFolderRespons
 </s:Envelope>
 ```
 
-Ensuite, utilisez l’opération **UpdateFolder** pour envoyer la mise à jour **PermissionSet**, qui n’inclut pas l' **autorisation** de l’utilisateur supprimé. 
+Ensuite, utilisez l’opération **UpdateFolder** pour envoyer le **PermissionSet**mis à jour, qui n’inclut pas l' **autorisation** pour l’utilisateur supprimé. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous appelez la méthode de **mise à jour** pour [Supprimer les autorisations du dossier](#bk_removeewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous appelez la méthode **Update** pour [supprimer des autorisations de dossier](#bk_removeewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -561,48 +561,48 @@ C’est également la demande XML qui envoie de l’API managée EWS lorsque vou
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **UpdateFolder** avec un message **UpdateFolderResponse** qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que la mise à jour a réussi.
+Le serveur répond à la demande **UpdateFolder** avec un message **UpdateFolderResponse** qui inclut une valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que la mise à jour a réussi.
   
-## <a name="updating-folder-permissions-by-using-the-ews-managed-api"></a>Mise à jour des autorisations de dossiers à l’aide de l’API managée EWS
+## <a name="updating-folder-permissions-by-using-the-ews-managed-api"></a>Mise à jour des autorisations de dossier à l’aide de l’API managée EWS
 <a name="bk_updateewsma"> </a>
 
-Vous pouvez également mettre à jour les autorisations du dossier pour un dossier spécifique à l’aide de l’API managée EWS. Pour mettre à jour les autorisations : 
+Vous pouvez également mettre à jour les autorisations de dossier pour un dossier spécifique à l’aide de l’API managée EWS. Pour mettre à jour les autorisations : 
   
-1. [Supprimer les autorisations de dossier](#bk_removeewsma) pour les autorisations obsolètes, mais vous n’appelez pas la méthode de **mise à jour** (encore). 
+1. [Supprimez les autorisations de dossier](#bk_removeewsma) pour les autorisations obsolètes, mais n’appelez pas la méthode **Update** (encore). 
     
-2. [Ajouter des autorisations de dossier pour les utilisateurs nouveaux ou modifiés](#bk_enableewsma).
+2. [Ajoutez des autorisations de dossier pour les utilisateurs nouveaux ou modifiés](#bk_enableewsma).
     
 3. Appelez la méthode **Update** pour enregistrer les modifications. 
     
-Si vous essayez d’ajouter deux jeux d’autorisations pour le même utilisateur, vous recevrez une erreur **ServiceResponseException** avec la description suivante : « le jeu d’autorisations spécifié contient les ID utilisateur en double ». Dans ce cas, supprimez les autorisations en cours de la collection **Permission** , puis ajoutez les nouvelles autorisations à la collection **Permission** . 
+Si vous essayez d’ajouter deux jeux d’autorisations pour le même utilisateur, vous recevrez une erreur **ServiceResponseException** avec la description suivante : "le jeu d’autorisations spécifié contient des userids en double". Dans ce cas, supprimez les autorisations actuelles de la collection **permission** , puis ajoutez les nouvelles autorisations à la collection **permission** . 
   
-## <a name="updating-folder-permissions-by-using-ews"></a>Mise à jour des autorisations de dossiers à l’aide de EWS
+## <a name="updating-folder-permissions-by-using-ews"></a>Mise à jour des autorisations de dossier à l’aide d’EWS
 <a name="bk_updateews"> </a>
 
-Vous pouvez également mettre à jour des autorisations de dossiers pour des dossiers spécifiques à l’aide de EWS en combinant le processus de suppression et d’ajout. Pour mettre à jour les autorisations : 
+Vous pouvez également mettre à jour les autorisations de dossier pour des dossiers spécifiques à l’aide d’EWS en combinant le processus de suppression et d’ajout. Pour mettre à jour les autorisations : 
   
-1. Récupérer les autorisations du dossier en cours à l’aide de l’opération **GetFolder** . 
+1. Récupérez les autorisations actuelles du dossier à l’aide de l’opération **GetFolder** . 
     
 2. Envoyer une liste mise à jour des autorisations à l’aide de l’opération **UpdateFolder** . 
     
-Voici les deux opérations même que vous utilisez pour [Activer](#bk_enableews) ou [Supprimer l’accès](#bk_removeews) à l’aide de EWS. La seule différence est que lorsque vous recevez la réponse **GetFolder** , il contient un jeu d' **autorisations** pour l’utilisateur. Remplacez simplement cet élément **d’autorisation** existant par le nouvel élément **d’autorisation** , puis envoyer l’opération **UpdateFolder** avec la nouvelle valeur **d’autorisation** ou les valeurs. 
+Il s’agit des deux mêmes opérations que vous utilisez pour [activer](#bk_enableews) ou [Supprimer l’accès](#bk_removeews) à l’aide d’EWS. La seule différence réside dans le fait que lorsque vous recevez la réponse **GetFolder** , celle-ci contiendra un jeu d' **autorisations** pour user. Remplacez simplement cet élément d' **autorisation** existant par le nouvel élément **permission** , puis envoyez l’opération **UpdateFolder** avec la ou les nouvelles valeurs d' **autorisation** . 
   
-Si vous essayez d’ajouter deux jeux d’autorisations pour le même utilisateur, vous recevrez une valeur **ResponseCode** **ErrorDuplicateUserIdsSpecified**. Dans ce cas, supprimez la valeur d’autorisation obsolète pour l’utilisateur de la demande et réessayez d’exécuter la requête.
+Si vous essayez d’ajouter deux jeux d’autorisations pour le même utilisateur, vous recevrez une valeur **ResponseCode** de **ErrorDuplicateUserIdsSpecified**. Dans ce cas, supprimez la valeur d’autorisation périmée pour l’utilisateur de la demande, puis renouvelez la demande.
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Une fois que vous autorisez un utilisateur à un dossier spécifique, l’utilisateur peut accéder au dossier en tant que délégué. Pour plus d’informations, voir :
+Une fois que vous avez accordé à un utilisateur l’autorisation d’accès à un dossier spécifique, l’utilisateur peut accéder au dossier en tant que délégué. Pour plus d’informations, voir :
   
-- [Accéder à la messagerie en tant que délégué à l’aide de EWS dans Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [Accéder à la messagerie électronique en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [Accéder à un calendrier en tant que délégué à l’aide de EWS dans Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [Accéder à un calendrier en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [Contacts Access en tant que délégué à l’aide de EWS dans Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [Accéder aux contacts en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
 ## <a name="see-also"></a>Voir aussi
 
 - [Accès délégué et EWS dans Exchange](delegate-access-and-ews-in-exchange.md)   
-- [Ajouter et supprimer des délégués à l’aide de EWS dans Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    
+- [Ajouter et supprimer des délégués à l’aide d’EWS dans Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    
 - [Dossiers et éléments dans EWS dans Exchange](folders-and-items-in-ews-in-exchange.md)
     
 

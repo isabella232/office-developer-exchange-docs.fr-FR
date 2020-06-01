@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2c1996b7-a711-416a-9792-998290a87835
-description: L’élément EmailAddresses spécifie un tableau des adresses de messagerie extraits.
-ms.openlocfilehash: 46a6c2fb2dcd5d4587460c2d5d518a4795271da9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EmailAddresses spécifie un tableau d’adresses de messagerie extraites.
+ms.openlocfilehash: 2a93829d5079b5b71af7bb29124ed03ac929ab1b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756123"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456184"
 ---
 # <a name="emailaddresses-arrayofextractedemailaddresses"></a>EmailAddresses (ArrayOfExtractedEmailAddresses)
 
-L’élément **EmailAddresses** spécifie un tableau des adresses de messagerie extraits. 
+L’élément **EmailAddresses** spécifie un tableau d’adresses de messagerie extraites. 
   
 ```XML
 <EmailAddresses>
@@ -28,11 +28,11 @@ L’élément **EmailAddresses** spécifie un tableau des adresses de messagerie
  **ArrayOfExtractedEmailAddresses**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Contact (TypeContact)](contact-contacttype.md)
+[Contact (ContactType)](contact-contacttype.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 50c1e97f-2913-47a1-8457-60428a3c5b92
-description: L’élément IsCancelled indique si un rendez-vous ou une réunion a été annulée.
-ms.openlocfilehash: 594b8a9ccb535f074a8cf1da060373f640231a29
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsCancelled indique si un rendez-vous ou une réunion a été annulé.
+ms.openlocfilehash: 946c9d956da9cf31e9fa08d4ab6f4950b11214b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455568"
 ---
 # <a name="iscancelled"></a>IsCancelled
 
-L’élément **IsCancelled** indique si un rendez-vous ou une réunion a été annulée. 
+L’élément **IsCancelled** indique si un rendez-vous ou une réunion a été annulé. 
   
 ```xml
 <IsCancelled/>
@@ -30,11 +30,11 @@ L’élément **IsCancelled** indique si un rendez-vous ou une réunion a été 
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur Boolean est requise si cet élément est inclus. La valeur **true** indique que l’élément de calendrier a été annulée. La valeur **false** indique qu’un élément de calendrier n’a pas été annulé. 
+Une valeur de texte qui représente une valeur booléenne est requise si cet élément est inclus. La valeur **true** indique que l’élément de calendrier a été annulé. La valeur **false** indique qu’un élément de calendrier n’a pas été annulé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

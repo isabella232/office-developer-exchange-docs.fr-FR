@@ -1,39 +1,39 @@
 ---
-title: Mise à jour d’une série périodique à l’aide de EWS
+title: Mettre à jour une série périodique à l’aide d’EWS
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7e61bee9-4840-4773-a0a7-47b11e1fdf59
-description: Découvrez comment modifier un rendez-vous périodique à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: ecee78457d2e6f91483cf897cfb4976fbd83400c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment modifier des rendez-vous dans une série périodique à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: eb40dd60f28a6acf4395d3149744ce7321c34999
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754955"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455848"
 ---
-# <a name="update-a-recurring-series-by-using-ews"></a>Mise à jour d’une série périodique à l’aide de EWS
+# <a name="update-a-recurring-series-by-using-ews"></a>Mettre à jour une série périodique à l’aide d’EWS
 
-Découvrez comment modifier un rendez-vous périodique à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment modifier des rendez-vous dans une série périodique à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Vous pouvez utiliser les API managées EWS pour mettre à jour une série périodique soit [mise à jour de la série entière](how-to-update-a-recurring-series-by-using-ews-in-exchange.md), ou en mettant à jour une seule occurrence. Nous dans cet article explique comment mettre à jour une seule occurrence.
+Vous pouvez utiliser l’API managée EWS ou EWS pour mettre à jour une série périodique en [mettant à jour la totalité de la série](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)ou en mettant à jour une seule occurrence. Dans cet article, nous allons aborder la mise à jour d’une seule occurrence.
   
-Modification d’un rendez-vous dans une série est très similaire à la [modification d’un rendez-vous unique](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Vous utilisez des méthodes et des opérations, mais que vous utilisez l’ID d’élément de l’occurrence que vous souhaitez modifier.
+La modification d’un rendez-vous unique dans une série est très semblable à la [modification d’un rendez-vous d’instance unique](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Vous utilisez les mêmes méthodes et opérations, mais vous utilisez l’ID d’élément de l’occurrence que vous souhaitez modifier.
   
-Lorsque vous modifiez une seule occurrence d’une série, cette occurrence est ajoutée à un tableau de rendez-vous modifiés associées au masque de la série périodique. Vous pouvez utiliser la propriété d’API managées [Appointment.ModifiedOccurrences](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) ou l’élément EWS [ModifiedOccurrences](http://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) pour accéder à tous les rendez-vous d’une série qui ont été modifiés. 
+Lorsque vous modifiez une seule occurrence dans une série, cette occurrence est ajoutée à un tableau de rendez-vous modifiés associés au masque périodique de la série. Vous pouvez utiliser la propriété de l’API managée de [rendez-vous ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) ou l’élément EWS [ModifiedOccurrences](https://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) pour accéder à tous les rendez-vous d’une série qui ont été modifiées. 
   
-## <a name="modify-a-single-occurrence-in-a-series-by-using-the-ews-managed-api"></a>Modifier une seule occurrence d’une série à l’aide de l’API managée EWS
+## <a name="modify-a-single-occurrence-in-a-series-by-using-the-ews-managed-api"></a>Modifier une seule occurrence dans une série à l’aide de l’API managée EWS
 
-Pour modifier une seule instance d’une série, vous :
+Pour modifier une instance unique dans une série, vous devez :
   
-1. Lier à l’occurrence à modifier à l’aide de la méthode [Appointment.BindToOccurrence](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx) avec la valeur d’index de l’élément, ou la méthode [Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) avec l’ID de l’occurrence. Vous obtenez ce code à partir de la propriété [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) d’un objet de [rendez-vous](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) qui correspond à l’occurrence, ou à partir de la propriété [ItemId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.occurrenceinfo.itemid%28v=exchg.80%29.aspx) de l’objet [OccurrenceInfo](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.occurrenceinfo%28v=exchg.80%29.aspx) qui correspond à l’occurrence. 
+1. Liez l’occurrence que vous souhaitez modifier à l’aide de la méthode appointment [. BindToOccurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx) avec la valeur d’index de l’élément ou de la méthode appointment [. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) avec l’ID de l’occurrence. Vous obtenez cet ID à partir de la propriété [ID](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) d’un objet de [rendez-](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) vous qui correspond à l’occurrence, ou à partir de la propriété [ItemId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.occurrenceinfo.itemid%28v=exchg.80%29.aspx) de l’objet [OccurrenceInfo](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.occurrenceinfo%28v=exchg.80%29.aspx) qui correspond à l’occurrence. 
     
-2. Mettre à jour les propriétés de l’objet de l’occurrence rendez-vous.
+2. Mettez à jour les propriétés de l’objet de rendez-vous de l’occurrence.
     
-3. Enregistrez les modifications à l’objet de l’occurrence rendez-vous à l’aide de la méthode [Appointment.Save](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
+3. Enregistrez les modifications apportées à l’objet de rendez-vous à l’aide de la méthode appointment [. Save](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
     
-L’exemple suivant met à jour un rendez-vous dans une série périodique et vérifie que le rendez-vous modifié est mis à jour sur le contrôleur de périodique. Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService ](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. Le `recurrenceMasterId` paramètre est un identificateur associé au masque périodique pour l’occurrence à modifier. 
+L’exemple suivant met à jour un rendez-vous dans une série périodique et vérifie que le rendez-vous modifié est mis à jour sur la page maître périodique. Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService ](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. Le `recurrenceMasterId` paramètre est un identificateur associé à la forme de base périodique de l’occurrence à modifier. 
   
 ```cs
 public static ItemId ModifyARecurringSeries(ExchangeService service, ItemId recurrenceMasterId)
@@ -91,18 +91,18 @@ public static ItemId ModifyARecurringSeries(ExchangeService service, ItemId recu
 
 ```
 
-## <a name="modify-a-single-occurrence-in-a-series-by-using-ews"></a>Modifier une seule occurrence d’une série à l’aide de EWS
+## <a name="modify-a-single-occurrence-in-a-series-by-using-ews"></a>Modifier une seule occurrence dans une série à l’aide d’EWS
 
-Modification d’une instance unique d’une série est pratiquement identique à la modification d’un rendez-vous unique. Vous pouvez spécifier l’occurrence à modifier à l’aide d’un [ID d’élément](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) ou un élément [OccurrenceItemId](http://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) . 
+La modification d’une instance unique dans une série est fondamentalement identique à la modification d’un rendez-vous d’instance unique. Vous pouvez spécifier l’occurrence à modifier à l’aide d’un élément [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) ou d’un élément [OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) . 
   
-L’exemple suivant montre la requête XML lorsque vous utilisez l’opération [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) pour mettre à jour une occurrence d’une série de rendez-vous périodique. **L’ItemId** et **ChangeKey** sont limitent pour une meilleure lisibilité. 
+L’exemple suivant montre le code XML de requête lorsque vous utilisez l’opération [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) pour mettre à jour une occurrence dans une série périodique de rendez-vous. Les **ID ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -190,23 +190,23 @@ L’exemple suivant montre la requête XML lorsque vous utilisez l’opération 
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **UpdateItem** avec un message [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) qui contient une valeur [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que l’occurrence a été mis à jour et l' [ID d’élément](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) de le rendez-vous mis à jour. 
+Le serveur répond à la demande **UpdateItem** avec un message [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que l’occurrence a été mise à jour avec succès et l' [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) du rendez-vous mis à jour. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 - [Calendriers et EWS dans Exchange](calendars-and-ews-in-exchange.md)
     
-- [Mettre à jour vos rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Mettre à jour des rendez-vous et des réunions à l’aide d’EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 - [Périodicités et EWS](recurrence-patterns-and-ews.md)
     
-- [Accéder à une série périodique à l’aide de EWS dans Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Accéder à une série périodique à l’aide d’EWS dans Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Créer une série périodique à l’aide de EWS dans Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
+- [Créer une série périodique à l’aide d’EWS dans Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Supprimer un rendez-vous périodique à l’aide de EWS dans Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
+- [Supprimer des rendez-vous dans une série périodique à l’aide d’EWS dans Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Mise à jour d’une série périodique à l’aide de EWS dans Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [Mettre à jour une série périodique à l’aide d’EWS dans Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
 

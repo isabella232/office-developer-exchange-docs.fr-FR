@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
-description: L’élément ManagerMailbox contient des informations SMTP qui identifie la boîte aux lettres du responsable du contact.
-ms.openlocfilehash: b83ba2599cd56c9a1fd36132ac8eba0725616039
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ManagerMailbox contient des informations SMTP qui identifient la boîte aux lettres du responsable du contact.
+ms.openlocfilehash: da9e26c3efdd22000694839f5962a6bb0256f748
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828344"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44453965"
 ---
 # <a name="managermailbox"></a>ManagerMailbox
 
-L’élément **ManagerMailbox** contient des informations SMTP qui identifie la boîte aux lettres du responsable du contact. 
+L’élément **ManagerMailbox** contient des informations SMTP qui identifient la boîte aux lettres du responsable du contact. 
   
 ```XML
 <ManagerMailbox/>
@@ -26,11 +26,11 @@ L’élément **ManagerMailbox** contient des informations SMTP qui identifie la
  **SingleRecipientType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -56,7 +56,7 @@ Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -65,8 +65,8 @@ Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Creating Contacts (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

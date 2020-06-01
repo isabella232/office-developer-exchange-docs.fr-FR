@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 68a30e92-c2b1-4af5-bb16-ba38afb80c43
-description: L’élément IsEncrypted indique si les messages entrants doivent être chiffré afin que l’exception ou la condition à appliquer S/MIME.
-ms.openlocfilehash: 582a1f197d4ee6b60af91b1a178d79163b50052c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsEncrypted indique si les messages entrants doivent être chiffrés S/MIME afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 7470fa3163596f87badfda2ca698b096e02f1196
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828003"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455302"
 ---
 # <a name="isencrypted"></a>IsEncrypted
 
-L’élément **IsEncrypted** indique si les messages entrants doivent être chiffré afin que l’exception ou la condition à appliquer S/MIME. 
+L’élément **IsEncrypted** indique si les messages entrants doivent être chiffrés S/MIME afin que la condition ou l’exception s’applique. 
   
 ```XML
 <IsEncrypted>true | false</IsEncrypted>
@@ -30,11 +30,11 @@ L’élément **IsEncrypted** indique si les messages entrants doivent être chi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,9 +47,9 @@ Aucun.
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente toutes les conditions d’exception de règle disponibles pour une règle de boîte de réception.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le message doit être S/MIME chiffré afin que l’exception ou la condition à appliquer. La valeur **false** indique que le message n’a pas être S/MIME afin que l’exception ou la condition à appliquer. 
+Une valeur de texte **true** indique que le message doit être chiffré S/MIME afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être S/MIME afin que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a5898bfc-f5ae-451d-9713-3e55864c690c
-description: L’élément DeleteItems indique les éléments dans un dossier un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 0be2154d1ceb6a995df8b27033fdc59bca81f9ef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeleteItems indique les éléments d’un dossier qu’un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: a0bbefc8b021d047bb2e001669c3e92a6e2536ce
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755878"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44454406"
 ---
 # <a name="deleteitems"></a>DeleteItems
 
-L’élément **DeleteItems** indique les éléments dans un dossier un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **DeleteItems** indique les éléments d’un dossier qu’un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DeleteItems>None or Owned or All</DeleteItems>
@@ -30,11 +30,11 @@ L’élément **DeleteItems** indique les éléments dans un dossier un utilisat
  **PermissionActionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,17 +47,17 @@ Aucun.
 |[Autorisation](permission.md) <br/> |Définit l'accès dont dispose un utilisateur dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[CalendarPermission](calendarpermission.md) <br/> |Définit l'accès dont dispose un utilisateur dans un dossier de calendrier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **DeleteItems** . 
   
-**Valeurs de texte des éléments DeleteItems**
+**Valeurs de texte de l’élément DeleteItems**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|None  <br/> |Indique que l’utilisateur n’est pas autorisé à supprimer des éléments dans le dossier.  <br/> |
-|Propriétaire  <br/> |Indique que l’utilisateur est autorisé à supprimer les éléments qui appartiennent à l’utilisateur dans le dossier.  <br/> |
-|Tous  <br/> |Indique que l’utilisateur est autorisé à supprimer tous les éléments dans le dossier.  <br/> |
+|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à supprimer des éléments dans le dossier.  <br/> |
+|Appartien  <br/> |Indique que l’utilisateur est autorisé à supprimer les éléments dont il est propriétaire dans le dossier.  <br/> |
+|Tous  <br/> |Indique que l’utilisateur est autorisé à supprimer tous les éléments du dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -67,13 +67,13 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
-- [Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

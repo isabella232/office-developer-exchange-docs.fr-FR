@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
 description: L’élément AlternateMailboxCollectionSetting contient une collection de paramètres de boîte aux lettres de substitution.
-ms.openlocfilehash: 4abff2a36b3937a9a24e44104d18722b5e5b5ec5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 549aa297ca44106e1539080c369d6e7060a0bd43
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755198"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456226"
 ---
 # <a name="alternatemailboxcollectionsetting-soap"></a>AlternateMailboxCollectionSetting (SOAP)
 
@@ -29,17 +29,17 @@ L’élément **AlternateMailboxCollectionSetting** contient une collection de p
  **AlternateMailboxCollectionSetting**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Représente une collection d’autres boîtes aux lettres.  <br/> |
+|[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Représente une collection de boîtes aux lettres de substitution.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -47,18 +47,18 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [SOAP de référence de service web de découverte automatique pour Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
+- [Référence de service Web de découverte automatique SOAP pour Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
 

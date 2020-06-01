@@ -7,38 +7,38 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2c738518-d99e-4043-bbf0-463085b58eb0
-description: L’élément IsOccurrencePresent est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 2a15fe7d3b0a05a776408195a313b33df596fc8f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsOccurrencePresent est destiné uniquement à un usage interne.
+ms.openlocfilehash: 3077179db89c9a9908b16199717cc5c110c195b5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828073"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44460420"
 ---
-# <a name="isoccurrencepresent"></a><span data-ttu-id="af3da-103">IsOccurrencePresent</span><span class="sxs-lookup"><span data-stu-id="af3da-103">IsOccurrencePresent</span></span>
+# <a name="isoccurrencepresent"></a><span data-ttu-id="585fa-103">IsOccurrencePresent</span><span class="sxs-lookup"><span data-stu-id="585fa-103">IsOccurrencePresent</span></span>
 
-<span data-ttu-id="af3da-104">L’élément **IsOccurrencePresent** est destiné à une utilisation interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="af3da-104">The **IsOccurrencePresent** element is intended for internal use only.</span></span> 
+<span data-ttu-id="585fa-104">L’élément **IsOccurrencePresent** est destiné uniquement à un usage interne.</span><span class="sxs-lookup"><span data-stu-id="585fa-104">The **IsOccurrencePresent** element is intended for internal use only.</span></span> 
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="af3da-105">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="af3da-105">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="585fa-105">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="585fa-105">Attributes and elements</span></span>
 
-<span data-ttu-id="af3da-106">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="af3da-106">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="585fa-106">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="585fa-106">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="af3da-107">Attributs</span><span class="sxs-lookup"><span data-stu-id="af3da-107">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="585fa-107">Attributs</span><span class="sxs-lookup"><span data-stu-id="585fa-107">Attributes</span></span>
 
-<span data-ttu-id="af3da-108">Aucun.</span><span class="sxs-lookup"><span data-stu-id="af3da-108">None.</span></span>
+<span data-ttu-id="585fa-108">Aucune.</span><span class="sxs-lookup"><span data-stu-id="585fa-108">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="af3da-109">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="af3da-109">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="585fa-109">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="585fa-109">Child elements</span></span>
 
-<span data-ttu-id="af3da-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="af3da-110">None.</span></span>
+<span data-ttu-id="585fa-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="585fa-110">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="af3da-111">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="af3da-111">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="585fa-111">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="585fa-111">Parent elements</span></span>
 
-<span data-ttu-id="af3da-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="af3da-112">None.</span></span>
+<span data-ttu-id="585fa-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="585fa-112">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="af3da-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="af3da-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="585fa-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="585fa-113">Remarks</span></span>
 
-<span data-ttu-id="af3da-114">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="af3da-114">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="585fa-114">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="585fa-114">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="af3da-115">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="af3da-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="585fa-115">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="585fa-115">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
 

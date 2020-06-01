@@ -11,80 +11,80 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3ba300f3-3355-4cab-9e77-0dcc2902e712
-description: L’élément GlobalFlagStatus contient l’état de l’indicateur agrégées pour tous les éléments de conversation dans une boîte aux lettres.
-ms.openlocfilehash: 0c560c065463b8b619f96ecef73d1120b216ca35
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GlobalFlagStatus contient l’état de l’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres.
+ms.openlocfilehash: f9984a1bb7e8205a98dd3ef91f841b48a7ab9389
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827713"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459503"
 ---
-# <a name="globalflagstatus"></a><span data-ttu-id="868c1-103">GlobalFlagStatus</span><span class="sxs-lookup"><span data-stu-id="868c1-103">GlobalFlagStatus</span></span>
+# <a name="globalflagstatus"></a><span data-ttu-id="7653e-103">GlobalFlagStatus</span><span class="sxs-lookup"><span data-stu-id="7653e-103">GlobalFlagStatus</span></span>
 
-<span data-ttu-id="868c1-104">L’élément **GlobalFlagStatus** contient l’état de l’indicateur agrégées pour tous les éléments de conversation dans une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="868c1-104">The **GlobalFlagStatus** element contains the aggregated flag status for all conversation items in a mailbox.</span></span> 
+<span data-ttu-id="7653e-104">L’élément **GlobalFlagStatus** contient l’état de l’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="7653e-104">The **GlobalFlagStatus** element contains the aggregated flag status for all conversation items in a mailbox.</span></span> 
   
-[<span data-ttu-id="868c1-105">FindConversationResponse</span><span class="sxs-lookup"><span data-stu-id="868c1-105">FindConversationResponse</span></span>](findconversationresponse.md)
+[<span data-ttu-id="7653e-105">FindConversationResponse</span><span class="sxs-lookup"><span data-stu-id="7653e-105">FindConversationResponse</span></span>](findconversationresponse.md)
   
-[<span data-ttu-id="868c1-106">Conversations</span><span class="sxs-lookup"><span data-stu-id="868c1-106">Conversations</span></span>](conversations-ex15websvcsotherref.md)
+[<span data-ttu-id="7653e-106">Conversations</span><span class="sxs-lookup"><span data-stu-id="7653e-106">Conversations</span></span>](conversations-ex15websvcsotherref.md)
   
-[<span data-ttu-id="868c1-107">Conversation (ConversationType)</span><span class="sxs-lookup"><span data-stu-id="868c1-107">Conversation (ConversationType)</span></span>](conversation-conversationtype.md)
+[<span data-ttu-id="7653e-107">Conversation (ConversationType)</span><span class="sxs-lookup"><span data-stu-id="7653e-107">Conversation (ConversationType)</span></span>](conversation-conversationtype.md)
   
-[<span data-ttu-id="868c1-108">GlobalFlagStatus</span><span class="sxs-lookup"><span data-stu-id="868c1-108">GlobalFlagStatus</span></span>](globalflagstatus.md)
+[<span data-ttu-id="7653e-108">GlobalFlagStatus</span><span class="sxs-lookup"><span data-stu-id="7653e-108">GlobalFlagStatus</span></span>](globalflagstatus.md)
   
 ```XML
 <GlobalFlagStatus> NotFlagged | Flagged | Complete </GlobalFlagStatus>
 ```
 
- <span data-ttu-id="868c1-109">**FlagStatusType**</span><span class="sxs-lookup"><span data-stu-id="868c1-109">**FlagStatusType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="868c1-110">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="868c1-110">Attributes and elements</span></span>
+ <span data-ttu-id="7653e-109">**FlagStatusType**</span><span class="sxs-lookup"><span data-stu-id="7653e-109">**FlagStatusType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="7653e-110">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="7653e-110">Attributes and elements</span></span>
 
-<span data-ttu-id="868c1-111">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="868c1-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="7653e-111">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="7653e-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="868c1-112">Attributs</span><span class="sxs-lookup"><span data-stu-id="868c1-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="7653e-112">Attributs</span><span class="sxs-lookup"><span data-stu-id="7653e-112">Attributes</span></span>
 
-<span data-ttu-id="868c1-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="868c1-113">None.</span></span>
+<span data-ttu-id="7653e-113">Aucune.</span><span class="sxs-lookup"><span data-stu-id="7653e-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="868c1-114">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="868c1-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="7653e-114">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="7653e-114">Child elements</span></span>
 
-<span data-ttu-id="868c1-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="868c1-115">None.</span></span>
+<span data-ttu-id="7653e-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7653e-115">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="868c1-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="868c1-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="7653e-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="7653e-116">Parent elements</span></span>
 
-|<span data-ttu-id="868c1-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="868c1-117">**Element**</span></span>|<span data-ttu-id="868c1-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="868c1-118">**Description**</span></span>|
+|<span data-ttu-id="7653e-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="7653e-117">**Element**</span></span>|<span data-ttu-id="7653e-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="7653e-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="868c1-119">Conversation (ConversationType)</span><span class="sxs-lookup"><span data-stu-id="868c1-119">Conversation (ConversationType)</span></span>](conversation-conversationtype.md) <br/> |<span data-ttu-id="868c1-120">Représente une conversation unique.</span><span class="sxs-lookup"><span data-stu-id="868c1-120">Represents a single conversation.</span></span>  <br/> |
+|[<span data-ttu-id="7653e-119">Conversation (ConversationType)</span><span class="sxs-lookup"><span data-stu-id="7653e-119">Conversation (ConversationType)</span></span>](conversation-conversationtype.md) <br/> |<span data-ttu-id="7653e-120">Représente une conversation unique.</span><span class="sxs-lookup"><span data-stu-id="7653e-120">Represents a single conversation.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="868c1-121">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="868c1-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="7653e-121">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="7653e-121">Text value</span></span>
 
-<span data-ttu-id="868c1-122">La valeur de texte de l’élément **GlobalFlagStatus** est l’état de l’indicateur agrégées pour les éléments de conversation dans le dossier actif.</span><span class="sxs-lookup"><span data-stu-id="868c1-122">The text value of the **GlobalFlagStatus** element is the aggregated flag status for conversation items in the current folder.</span></span> <span data-ttu-id="868c1-123">Les valeurs de texte possibles sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="868c1-123">The following are the possible text values:</span></span> 
+<span data-ttu-id="7653e-122">La valeur de texte de l’élément **GlobalFlagStatus** est l’état d’indicateur d’agrégation pour les éléments de conversation dans le dossier actif.</span><span class="sxs-lookup"><span data-stu-id="7653e-122">The text value of the **GlobalFlagStatus** element is the aggregated flag status for conversation items in the current folder.</span></span> <span data-ttu-id="7653e-123">Les valeurs possibles sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="7653e-123">The following are the possible text values:</span></span> 
   
-- <span data-ttu-id="868c1-124">**NotFlagged** - indique l’état n’est pas marqué d’un indicateur.</span><span class="sxs-lookup"><span data-stu-id="868c1-124">**NotFlagged** - Indicates the not-flagged status.</span></span> 
+- <span data-ttu-id="7653e-124">**NotFlagged** -indique l’État sans indicateur.</span><span class="sxs-lookup"><span data-stu-id="7653e-124">**NotFlagged** - Indicates the not-flagged status.</span></span> 
     
-- <span data-ttu-id="868c1-125">**Avec indicateur** - indique l’état avec indicateur.</span><span class="sxs-lookup"><span data-stu-id="868c1-125">**Flagged** - Indicates the flagged status.</span></span> 
+- <span data-ttu-id="7653e-125">**Indicateur** -indique l’état de l’indicateur.</span><span class="sxs-lookup"><span data-stu-id="7653e-125">**Flagged** - Indicates the flagged status.</span></span> 
     
-- <span data-ttu-id="868c1-126">**Complète** - indique l’état de l’indicateur terminée.</span><span class="sxs-lookup"><span data-stu-id="868c1-126">**Complete** - Indicates the complete flag status.</span></span> 
+- <span data-ttu-id="7653e-126">**Complete** -indique l’état complet de l’indicateur.</span><span class="sxs-lookup"><span data-stu-id="7653e-126">**Complete** - Indicates the complete flag status.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="868c1-127">Remarques</span><span class="sxs-lookup"><span data-stu-id="868c1-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7653e-127">Remarques</span><span class="sxs-lookup"><span data-stu-id="7653e-127">Remarks</span></span>
 
-<span data-ttu-id="868c1-128">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="868c1-128">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="7653e-128">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="7653e-128">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="868c1-129">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="868c1-129">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="7653e-129">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="7653e-129">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="868c1-130">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="868c1-130">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="868c1-131">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="868c1-131">Schema name</span></span>  <br/> |<span data-ttu-id="868c1-132">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="868c1-132">Types schema</span></span>  <br/> |
-|<span data-ttu-id="868c1-133">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="868c1-133">Validation file</span></span>  <br/> |<span data-ttu-id="868c1-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="868c1-134">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="868c1-135">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="868c1-135">Can be empty</span></span>  <br/> |<span data-ttu-id="868c1-136">False</span><span class="sxs-lookup"><span data-stu-id="868c1-136">False</span></span>  <br/> |
+|<span data-ttu-id="7653e-130">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="7653e-130">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="7653e-131">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="7653e-131">Schema name</span></span>  <br/> |<span data-ttu-id="7653e-132">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="7653e-132">Types schema</span></span>  <br/> |
+|<span data-ttu-id="7653e-133">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="7653e-133">Validation file</span></span>  <br/> |<span data-ttu-id="7653e-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="7653e-134">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="7653e-135">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="7653e-135">Can be empty</span></span>  <br/> |<span data-ttu-id="7653e-136">False</span><span class="sxs-lookup"><span data-stu-id="7653e-136">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="868c1-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="868c1-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7653e-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7653e-137">See also</span></span>
 
 
 
-[<span data-ttu-id="868c1-138">FindConversation Operation</span><span class="sxs-lookup"><span data-stu-id="868c1-138">FindConversation operation</span></span>](findconversation-operation.md)
+[<span data-ttu-id="7653e-138">FindConversation Operation</span><span class="sxs-lookup"><span data-stu-id="7653e-138">FindConversation operation</span></span>](findconversation-operation.md)
   
-[<span data-ttu-id="868c1-139">Opération de ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="868c1-139">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
+[<span data-ttu-id="7653e-139">Opération de ApplyConversationAction</span><span class="sxs-lookup"><span data-stu-id="7653e-139">ApplyConversationAction operation</span></span>](applyconversationaction-operation.md)
 
 
-[<span data-ttu-id="868c1-140">Conversations in EWS</span><span class="sxs-lookup"><span data-stu-id="868c1-140">Conversations in EWS</span></span>](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[<span data-ttu-id="7653e-140">Conversations in EWS</span><span class="sxs-lookup"><span data-stu-id="7653e-140">Conversations in EWS</span></span>](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

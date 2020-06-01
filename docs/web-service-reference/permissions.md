@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2ba50bd9-819f-4e5f-a3bb-85a0a87d8a86
-description: L’élément Permissions contient la collection des autorisations pour un dossier.
-ms.openlocfilehash: 08d015c3b1afb58fce0fb4b99466965cc5c29fc6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément permissions contient la collection d’autorisations pour un dossier.
+ms.openlocfilehash: b8616cefdb8c453106753fb0788a6c7d6a0ded79
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828727"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459215"
 ---
-# <a name="permissions"></a><span data-ttu-id="683ea-103">Autorisations</span><span class="sxs-lookup"><span data-stu-id="683ea-103">Permissions</span></span>
+# <a name="permissions"></a><span data-ttu-id="bcde7-103">Autorisations</span><span class="sxs-lookup"><span data-stu-id="bcde7-103">Permissions</span></span>
 
-<span data-ttu-id="683ea-104">L’élément **Permissions** contient la collection des autorisations pour un dossier.</span><span class="sxs-lookup"><span data-stu-id="683ea-104">The **Permissions** element contains the collection of permissions for a folder.</span></span> 
+<span data-ttu-id="bcde7-104">L’élément **permissions** contient la collection d’autorisations pour un dossier.</span><span class="sxs-lookup"><span data-stu-id="bcde7-104">The **Permissions** element contains the collection of permissions for a folder.</span></span> 
   
 ```XML
 <Permissions>
@@ -29,52 +29,52 @@ ms.locfileid: "19828727"
 </Permissions>
 ```
 
- <span data-ttu-id="683ea-105">**PermissionType**</span><span class="sxs-lookup"><span data-stu-id="683ea-105">**PermissionType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="683ea-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="683ea-106">Attributes and elements</span></span>
+ <span data-ttu-id="bcde7-105">**PermissionType**</span><span class="sxs-lookup"><span data-stu-id="bcde7-105">**PermissionType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="bcde7-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="bcde7-106">Attributes and elements</span></span>
 
-<span data-ttu-id="683ea-107">Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.</span><span class="sxs-lookup"><span data-stu-id="683ea-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="bcde7-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="bcde7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="683ea-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="683ea-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bcde7-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="bcde7-108">Attributes</span></span>
 
-<span data-ttu-id="683ea-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="683ea-109">None.</span></span>
+<span data-ttu-id="bcde7-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="bcde7-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="683ea-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="683ea-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bcde7-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="bcde7-110">Child elements</span></span>
 
-|<span data-ttu-id="683ea-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="683ea-111">**Element**</span></span>|<span data-ttu-id="683ea-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="683ea-112">**Description**</span></span>|
+|<span data-ttu-id="bcde7-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="bcde7-111">**Element**</span></span>|<span data-ttu-id="bcde7-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="bcde7-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="683ea-113">Autorisation</span><span class="sxs-lookup"><span data-stu-id="683ea-113">Permission</span></span>](permission.md) <br/> |<span data-ttu-id="683ea-114">Définit l’accès délégué à un dossier.</span><span class="sxs-lookup"><span data-stu-id="683ea-114">Defines the access that a delegate has to a folder.</span></span> <span data-ttu-id="683ea-115">Cet élément a été introduit dans Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="683ea-115">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
+|[<span data-ttu-id="bcde7-113">Autorisation</span><span class="sxs-lookup"><span data-stu-id="bcde7-113">Permission</span></span>](permission.md) <br/> |<span data-ttu-id="bcde7-114">Définit l’accès d’un délégué à un dossier.</span><span class="sxs-lookup"><span data-stu-id="bcde7-114">Defines the access that a delegate has to a folder.</span></span> <span data-ttu-id="bcde7-115">Cet élément a été introduit dans Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="bcde7-115">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="683ea-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="683ea-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="bcde7-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="bcde7-116">Parent elements</span></span>
 
-|<span data-ttu-id="683ea-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="683ea-117">**Element**</span></span>|<span data-ttu-id="683ea-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="683ea-118">**Description**</span></span>|
+|<span data-ttu-id="bcde7-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="bcde7-117">**Element**</span></span>|<span data-ttu-id="bcde7-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="bcde7-118">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="683ea-119">PermissionSet (PermissionSetType)</span><span class="sxs-lookup"><span data-stu-id="683ea-119">PermissionSet (PermissionSetType)</span></span>](permissionset-permissionsettype.md) <br/> |<span data-ttu-id="683ea-120">Contient toutes les autorisations qui sont configurées pour un dossier.</span><span class="sxs-lookup"><span data-stu-id="683ea-120">Contains all the permissions that are configured for a folder.</span></span> <span data-ttu-id="683ea-121">Cet élément a été introduit dans Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="683ea-121">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
+|[<span data-ttu-id="bcde7-119">PermissionSet (PermissionSetType)</span><span class="sxs-lookup"><span data-stu-id="bcde7-119">PermissionSet (PermissionSetType)</span></span>](permissionset-permissionsettype.md) <br/> |<span data-ttu-id="bcde7-120">Contient toutes les autorisations configurées pour un dossier.</span><span class="sxs-lookup"><span data-stu-id="bcde7-120">Contains all the permissions that are configured for a folder.</span></span> <span data-ttu-id="bcde7-121">Cet élément a été introduit dans Exchange 2007 SP1.</span><span class="sxs-lookup"><span data-stu-id="bcde7-121">This element was introduced in Exchange 2007 SP1.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="683ea-122">Remarques</span><span class="sxs-lookup"><span data-stu-id="683ea-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bcde7-122">Remarques</span><span class="sxs-lookup"><span data-stu-id="bcde7-122">Remarks</span></span>
 
-<span data-ttu-id="683ea-123">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="683ea-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="bcde7-123">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="bcde7-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-<span data-ttu-id="683ea-124">Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="683ea-124">This element was introduced in Exchange Server 2007 Service Pack 1 (SP1).</span></span>
+<span data-ttu-id="bcde7-124">Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).</span><span class="sxs-lookup"><span data-stu-id="bcde7-124">This element was introduced in Exchange Server 2007 Service Pack 1 (SP1).</span></span>
   
-### <a name="version-differences"></a><span data-ttu-id="683ea-125">Différences entre les versions</span><span class="sxs-lookup"><span data-stu-id="683ea-125">Version differences</span></span>
+### <a name="version-differences"></a><span data-ttu-id="bcde7-125">Différences entre les versions</span><span class="sxs-lookup"><span data-stu-id="bcde7-125">Version differences</span></span>
 
-<span data-ttu-id="683ea-126">Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange commençant par Exchange 2013, les autorisations de dossier ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a une valeur de **AllProperties** dans la requête d’opération [GetFolder](getfolder-operation.md) .</span><span class="sxs-lookup"><span data-stu-id="683ea-126">For applications that target Exchange Online, Exchange Online as part of Office 365, or an on-premises version of Exchange starting with Exchange 2013, folder permissions are not returned when the [BaseShape](baseshape.md) element has a value of **AllProperties** in the [GetFolder](getfolder-operation.md) operation request.</span></span> <span data-ttu-id="683ea-127">Pour récupérer les autorisations du dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément de [AdditionalProperties](additionalproperties.md) dans la demande **GetFolder** .</span><span class="sxs-lookup"><span data-stu-id="683ea-127">To retrieve folder permissions, add the [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) element to the [AdditionalProperties](additionalproperties.md) element in the **GetFolder** request.</span></span> 
+<span data-ttu-id="bcde7-126">Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange à partir d’Exchange 2013, les autorisations de dossiers ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a une valeur de **AllProperties** dans la demande d’opération [GetFolder](getfolder-operation.md) .</span><span class="sxs-lookup"><span data-stu-id="bcde7-126">For applications that target Exchange Online, Exchange Online as part of Office 365, or an on-premises version of Exchange starting with Exchange 2013, folder permissions are not returned when the [BaseShape](baseshape.md) element has a value of **AllProperties** in the [GetFolder](getfolder-operation.md) operation request.</span></span> <span data-ttu-id="bcde7-127">Pour récupérer les autorisations de dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément [AdditionalProperties](additionalproperties.md) dans la demande **GetFolder** .</span><span class="sxs-lookup"><span data-stu-id="bcde7-127">To retrieve folder permissions, add the [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) element to the [AdditionalProperties](additionalproperties.md) element in the **GetFolder** request.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="683ea-128">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="683ea-128">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="bcde7-128">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="bcde7-128">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="683ea-129">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="683ea-129">Namespace</span></span>  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="683ea-130">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="683ea-130">Schema Name</span></span>  <br/> |<span data-ttu-id="683ea-131">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="683ea-131">Types schema</span></span>  <br/> |
-|<span data-ttu-id="683ea-132">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="683ea-132">Validation File</span></span>  <br/> |<span data-ttu-id="683ea-133">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="683ea-133">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="683ea-134">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="683ea-134">Can be Empty</span></span>  <br/> |<span data-ttu-id="683ea-135">False</span><span class="sxs-lookup"><span data-stu-id="683ea-135">False</span></span>  <br/> |
+|<span data-ttu-id="bcde7-129">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="bcde7-129">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="bcde7-130">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="bcde7-130">Schema Name</span></span>  <br/> |<span data-ttu-id="bcde7-131">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="bcde7-131">Types schema</span></span>  <br/> |
+|<span data-ttu-id="bcde7-132">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="bcde7-132">Validation File</span></span>  <br/> |<span data-ttu-id="bcde7-133">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="bcde7-133">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="bcde7-134">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="bcde7-134">Can be Empty</span></span>  <br/> |<span data-ttu-id="bcde7-135">False</span><span class="sxs-lookup"><span data-stu-id="bcde7-135">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="683ea-136">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="683ea-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bcde7-136">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bcde7-136">See also</span></span>
 
 
 
-- [<span data-ttu-id="683ea-137">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="683ea-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="bcde7-137">Éléments XML EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="bcde7-137">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 
 
-[<span data-ttu-id="683ea-138">Setting Folder-Level Permissions</span><span class="sxs-lookup"><span data-stu-id="683ea-138">Setting Folder-Level Permissions</span></span>](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[<span data-ttu-id="bcde7-138">Setting Folder-Level Permissions</span><span class="sxs-lookup"><span data-stu-id="bcde7-138">Setting Folder-Level Permissions</span></span>](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

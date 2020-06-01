@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d6fa8d08-20f4-4440-8973-c9ca74d42512
-description: L’élément IdentityDetails est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 172e1ef1df6766b6a6af1741461da88d45851059
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IdentityDetails est destiné uniquement à un usage interne.
+ms.openlocfilehash: cb657ec7548c27497f7587edbd0a231d10baf344
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827852"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44442212"
 ---
 # <a name="identitydetails"></a>IdentityDetails
 
-L’élément **IdentityDetails** est destiné à une utilisation interne uniquement. 
+L’élément **IdentityDetails** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f1b812c3-ae8b-4d89-92e2-41d2fe51e32f
-description: L’élément ServiceHome contient l’URL de la page d’accueil du fournisseur de services Internet (fournisseur de services Internet).
-ms.openlocfilehash: 312eea2c021750327cc09cf65f111fc868e16608
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ServiceHome contient l’URL de la page d’accueil du fournisseur de services Internet (ISP).
+ms.openlocfilehash: 1e4a40cbc97167dc2cf79ccbfcacff988794c3a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829388"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44439111"
 ---
 # <a name="servicehome-pox"></a>ServiceHome (POX)
 
-L’élément **ServiceHome** contient l’URL de la page d’accueil du fournisseur de services Internet (fournisseur de services Internet). 
+L’élément **ServiceHome** contient l’URL de la page d’accueil du fournisseur de services Internet (ISP). 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **ServiceHome** contient l’URL de la page d’accueil du fournis
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,15 +48,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte pour l’utilisateur.  <br/> |
+|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte de l’utilisateur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de text représente l’URL de la page d’accueil du fournisseur de services Internet.
+La valeur texte représente l’URL de la page d’accueil du fournisseur de services Internet.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

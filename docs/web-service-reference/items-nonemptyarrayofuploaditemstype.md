@@ -1,5 +1,5 @@
 ---
-title: Éléments (NonEmptyArrayOfUploadItemsType)
+title: Items (NonEmptyArrayOfUploadItemsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 402bfa6d-11d7-4547-b8bd-197e9922ab49
-description: L’élément Items contient un tableau d’éléments à charger dans une boîte aux lettres.
-ms.openlocfilehash: ac508b2026c3e0ec730154efeeff0a9669e6eff8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ITEMS contient un tableau d’éléments à télécharger dans une boîte aux lettres.
+ms.openlocfilehash: 5c69134c1613b0a4595a6aa876fa09fde63043ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828156"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44441547"
 ---
-# <a name="items-nonemptyarrayofuploaditemstype"></a>Éléments (NonEmptyArrayOfUploadItemsType)
+# <a name="items-nonemptyarrayofuploaditemstype"></a>Items (NonEmptyArrayOfUploadItemsType)
 
-L’élément **Items** contient un tableau d’éléments à charger dans une boîte aux lettres. 
+L’élément **Items** contient un tableau d’éléments à télécharger dans une boîte aux lettres. 
   
 [UploadItems](uploaditems.md)
   
-[Éléments (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
+[Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
   
 ```XML
 <Items>
@@ -36,23 +36,23 @@ L’élément **Items** contient un tableau d’éléments à charger dans une b
  **NonEmptyArrayOfUploadItemsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Élément (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un seul élément à télécharger dans une boîte aux lettres.  <br/> |
+|[Élément (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un élément unique à télécharger dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UploadItems](uploaditems.md) <br/> |Représente une demande de télécharger des éléments dans une boîte aux lettres.  <br/> |
+|[UploadItems](uploaditems.md) <br/> |Représente une demande de téléchargement d’éléments dans une boîte aux lettres.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

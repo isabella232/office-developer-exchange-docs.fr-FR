@@ -1,5 +1,5 @@
 ---
-title: DeleType
+title: DeleteType
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,22 +11,22 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6e3136cd-9cb4-493a-aa85-9678f719002d
-description: L’élément DeleType indique comment les éléments dans une conversation sont supprimés.
-ms.openlocfilehash: abaa0c3d8b7001b2f42a38d1c82475edba32d2c5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeleteType indique le mode de suppression des éléments d’une conversation.
+ms.openlocfilehash: 199f7afc29fe866865509d2fb90d24944113d5c0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755872"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44442632"
 ---
-# <a name="deletetype"></a>DeleType
+# <a name="deletetype"></a>DeleteType
 
-L’élément **DeleType** indique comment les éléments dans une conversation sont supprimés. 
+L’élément **DeleteType** indique le mode de suppression des éléments d’une conversation. 
   
 - [ApplyConversationAction](applyconversationaction.md)  
 - [ConversationActions](conversationactions.md)  
 - [ConversationAction](conversationaction.md)  
-- [DeleType](deletetype.md)
+- [DeleteType](deletetype.md)
   
 ```XML
 <DeleteType> HardDelete | MoveToDeletedItems | SoftDelete </DeleteType>
@@ -35,11 +35,11 @@ L’élément **DeleType** indique comment les éléments dans une conversation 
  **DisposalType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,17 +49,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DeleType** indique comment les éléments dans une conversation sont supprimés. Les valeurs de texte possibles sont les suivantes : 
+La valeur de texte de l’élément **DeleteType** indique le mode de suppression des éléments d’une conversation. Les valeurs possibles sont les suivantes : 
   
-- HardDelete - indique les éléments dans une conversation sont définitivement supprimés de la base de données de boîtes aux lettres.
+- HardDelete : indique que les éléments d’une conversation sont définitivement supprimés de la base de données de boîtes aux lettres.
     
-- MoveToDeleteItems - indique que les éléments dans une conversation sont déplacés vers le dossier éléments supprimés.
+- MoveToDeleteItems : indique que les éléments d’une conversation sont déplacés vers le dossier éléments supprimés.
     
-- SoftDelete - indique que les éléments d’une conversation sont déplacés vers la benne si la benne est activé.
+- SoftDelete : indique que les éléments d’une conversation sont déplacés vers la benne si la benne est activée.
     
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

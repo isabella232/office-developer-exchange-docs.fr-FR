@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bf7096d8-42d4-4bf5-bbdd-851af2754000
-description: L’élément StringSetting représente un paramètre de l’utilisateur dont la valeur est de type chaîne.
-ms.openlocfilehash: af2c8ed243182e3491723be172ae162554250951
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément StringSetting représente un paramètre utilisateur dont la valeur est de type String.
+ms.openlocfilehash: 215d1187c0968577e894c9f9cddea050789697b9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829606"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463075"
 ---
 # <a name="stringsetting-soap"></a>StringSetting (SOAP)
 
-L’élément **StringSetting** représente un paramètre de l’utilisateur dont la valeur est de type chaîne. 
+L’élément **StringSetting** représente un paramètre utilisateur dont la valeur est de type String. 
   
 ```XML
 <StringSetting>
@@ -30,11 +30,11 @@ L’élément **StringSetting** représente un paramètre de l’utilisateur don
  **StringSetting**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,9 +59,9 @@ Le type **StringSetting** étend le type **UserSetting** .
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

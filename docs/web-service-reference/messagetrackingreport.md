@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2740bcf6-f86d-4756-a0f2-24ed6e9b75f7
-description: L’élément MessageTrackingReport contient un seul message est retourné dans une opération GetMessageTrackingReport.
-ms.openlocfilehash: d01e0fbf099d096c7f255a8e94070e330577e6ca
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MessageTrackingReport contient un seul message qui est renvoyé dans une opération GetMessageTrackingReport.
+ms.openlocfilehash: fc3e56fbb1bee411fa31751f558f520874133076
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828457"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463215"
 ---
 # <a name="messagetrackingreport"></a>MessageTrackingReport
 
-L’élément **MessageTrackingReport** contient un seul message est retourné dans une [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md).
+L’élément **MessageTrackingReport** contient un seul message qui est renvoyé dans une [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md).
   
 ```XML
 <MessageTrackingReport>
@@ -38,29 +38,29 @@ L’élément **MessageTrackingReport** contient un seul message est retourné d
  **MessageTrackingReportType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Expéditeur (EmailAddressType)](sender-emailaddresstype.md) <br/> |Contient des informations de contact pour l’expéditeur du message électronique.  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |Contient des informations de contact pour l’expéditeur présumé d’un message électronique.  <br/> |
-|[Objet](subject.md) <br/> |Contient l’objet du message électronique.  <br/> |
-|[SubmitTime](submittime.md) <br/> |Indique l’heure du jour à laquelle le message électronique a été envoyé.  <br/> |
+|[PurportedSender](purportedsender.md) <br/> |Contient les informations de contact pour l’expéditeur allégué d’un message électronique.  <br/> |
+|[Subject](subject.md) <br/> |Contient l’objet du message électronique.  <br/> |
+|[SubmitTime](submittime.md) <br/> |Contient l’heure de la journée à laquelle le message électronique a été envoyé.  <br/> |
 |[OriginalRecipients](originalrecipients.md) <br/> |Contient une liste des destinataires du message électronique.  <br/> |
 |[RecipientTrackingEvents](recipienttrackingevents.md) <br/> |Contient une liste d’un ou plusieurs événements de suivi pour les destinataires.  <br/> |
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’un ou plusieurs des propriétés de suivi.  <br/> |
+|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une seule demande [d’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) .  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une demande d' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -74,9 +74,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

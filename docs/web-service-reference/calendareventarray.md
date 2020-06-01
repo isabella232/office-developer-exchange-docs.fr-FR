@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: a00f7f56-d7f1-429d-ae02-97043718c864
-description: L’élément CalendarEventArray contient un ensemble d’occurrences d’élément calendrier unique représentant la disponibilité de l’utilisateur demandé.
-ms.openlocfilehash: 2e56b7b2b94e12401ba708dfca94101064d625e1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CalendarEventArray contient un ensemble d’occurrences d’éléments de calendrier uniques qui représentent la disponibilité de l’utilisateur demandé.
+ms.openlocfilehash: 6badba2477a9d48c6d109740de454e2815d3c211
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755464"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463369"
 ---
 # <a name="calendareventarray"></a>CalendarEventArray
 
-L’élément **CalendarEventArray** contient un ensemble d’occurrences d’élément calendrier unique représentant la disponibilité de l’utilisateur demandé. 
+L’élément **CalendarEventArray** contient un ensemble d’occurrences d’éléments de calendrier uniques qui représentent la disponibilité de l’utilisateur demandé. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -42,11 +42,11 @@ L’élément **CalendarEventArray** contient un ensemble d’occurrences d’é
  **ArrayOfCalendarEvent**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -58,11 +58,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Contient des informations de disponibilité pour un utilisateur spécifique.  <br/> Vous trouverez ci-dessous l’expression XPath 2.0 pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[FreeBusyView](freebusyview.md) <br/> |Contient les informations de disponibilité d’un utilisateur spécifique.  <br/> Voici l’expression XPath 2,0 pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le niveau de détail fourni par cet élément varie selon les autorisations accordées au demandeur. Cet élément est inclus lors de l’élément [FreeBusyViewType](freebusyviewtype.md) est défini sur **FreeBusy**, **FreeBusyMerged**, **détaillé**ou **DetailedMerged**. Cet élément n’inclut pas tous les éléments enfants si aucun élément de calendrier n’est présents dans la fenêtre de temps demandé. 
+Le niveau de détail fourni par cet élément dépend des autorisations accordées au demandeur. Cet élément est inclus lorsque l’élément [FreeBusyViewType](freebusyviewtype.md) est défini sur **freebusy**, **FreeBusyMerged**, **detailed**ou **DetailedMerged**. Cet élément n’inclut aucun élément enfant si aucun élément de calendrier n’est présent dans la fenêtre de temps demandée. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

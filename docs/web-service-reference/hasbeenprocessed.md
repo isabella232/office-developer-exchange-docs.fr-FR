@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 46d4af8e-0f11-4a74-9365-1d983731fed8
-description: L’élément HasBeenProcessed indique si un message de réunion élément a été traité.
-ms.openlocfilehash: cccd3b2258490fcbe902bcd391f25b0be2fe7c26
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément HasBeenProcessed indique si un élément de message de réunion a été traité.
+ms.openlocfilehash: 7251ca86e07a0b72c186c65094b6469331dfd12e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827796"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462892"
 ---
 # <a name="hasbeenprocessed"></a>HasBeenProcessed
 
-L’élément **HasBeenProcessed** indique si un message de réunion élément a été traité. 
+L’élément **HasBeenProcessed** indique si un élément de message de réunion a été traité. 
   
 ```xml
 <HasBeenProcessed/>
@@ -30,11 +30,11 @@ L’élément **HasBeenProcessed** indique si un message de réunion élément a
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,12 +46,12 @@ Aucun.
 |:-----|:-----|
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le message de réunion a été traité. 
+Une valeur de texte **true** indique que le message de réunion a été traité. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

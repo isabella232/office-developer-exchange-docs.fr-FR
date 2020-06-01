@@ -1,5 +1,5 @@
 ---
-title: Opération de GetItem (tâche)
+title: Opération GetItem (tâche)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,27 +11,27 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: L’opération GetItem est utilisée pour obtenir des tâches à partir de la banque d’informations Exchange.
-ms.openlocfilehash: 412710f32ed8702e1a28a596833c3a7e47e3ed76
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetItem est utilisée pour obtenir des tâches à partir de la Banque d’Exchange.
+ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756666"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463334"
 ---
-# <a name="getitem-operation-task"></a>Opération de GetItem (tâche)
+# <a name="getitem-operation-task"></a>Opération GetItem (tâche)
 
-L’opération GetItem est utilisée pour obtenir des tâches à partir de la banque d’informations Exchange.
+L’opération GetItem est utilisée pour obtenir des tâches à partir de la Banque d’Exchange.
   
 ## <a name="remarks"></a>Remarques
 
-Le format de la demande de GetItem pour les tâches est identique à GetItem pour tout autre type d’élément. La seule différence réside dans lequel il sont possible de demander des propriétés supplémentaires au sein de la forme de réponse. Ces propriétés supplémentaires doivent être propriétés liées aux tâches ou les propriétés étendues.
+Le format de la demande de GetItem pour les tâches est le même que pour tout autre type d’élément. La seule différence réside dans le fait que des propriétés supplémentaires peuvent être demandées au sein de la forme de la réponse. Ces propriétés supplémentaires doivent être des propriétés relatives aux tâches ou des propriétés étendues.
   
-## <a name="task-getitem-request-example"></a>Exemple de requête GetItem des tâches
+## <a name="task-getitem-request-example"></a>Exemple de requête de la tâche GetItem
 
 ### <a name="description"></a>Description
 
-Une demande de GetItem l’exemple suivant montre comment obtenir un élément de tâche.
+L’exemple de requête GetItem suivant montre comment obtenir un élément de tâche.
   
 ### <a name="code"></a>Code
 
@@ -40,10 +40,10 @@ Une demande de GetItem l’exemple suivant montre comment obtenir un élément d
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ItemShape>
         <t:BaseShape>AllProperties</t:BaseShape>
       </ItemShape>
@@ -58,9 +58,9 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> L’identificateur d’élément et modifier la clé ont été réduits afin de préserver la lisibilité. 
+> L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -70,15 +70,15 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [BaseShape](baseshape.md)
     
-- [ItemId](itemids.md)
+- [ItemIds](itemids.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Exemple de réponse GetItem des tâches
+## <a name="task-getitem-response-example"></a>Exemple de réponse de la tâche GetItem
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande de GetItem.
+L’exemple suivant montre une réponse réussie à une demande GetItem.
   
 ### <a name="code"></a>Code
 
@@ -89,12 +89,12 @@ L’exemple suivant montre une réponse positive à une demande de GetItem.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -136,9 +136,9 @@ L’exemple suivant montre une réponse positive à une demande de GetItem.
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> Les identificateurs d’éléments et dossiers et les touches de modification ont été réduits afin de préserver la lisibilité. 
+> Les identificateurs d’élément et de dossier et les clés de modification ont été raccourcies afin de préserver la lisibilité. 
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -154,15 +154,15 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Items](items.md)
     
-- [Tâche](task.md)
+- [Task](task.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [ParentFolderId](parentfolderid.md)
     
 - [ItemClass](itemclass.md)
     
-- [Objet](subject.md)
+- [Subject](subject.md)
     
 - [Sensitivity](sensitivity.md)
     
@@ -194,7 +194,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ChangeCount](changecount.md)
     
-- [Avertisse](iscomplete.md)
+- [IsComplete](iscomplete.md)
     
 - [IsRecurring](isrecurring.md)
     
@@ -208,12 +208,12 @@ Les éléments suivants sont utilisés dans la réponse :
 
 
 
-[GetItem Operation](getitem-operation.md)
+[Opération GetItem](getitem-operation.md)
 
 
-[Création de tâches](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+[Création de tâches](https://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   
-[Mise à jour de tâches](http://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
+[Mise à jour des tâches](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
   
-[Suppression de tâches](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+[Suppression de tâches](https://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

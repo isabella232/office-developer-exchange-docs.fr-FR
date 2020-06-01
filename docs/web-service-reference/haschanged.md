@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 15ff513d-f39e-44ed-a13f-ab3f86fa37e1
-description: L’élément HasChanged indique si la photo d’un utilisateur a été modifié.
-ms.openlocfilehash: b0129e3d3acb43ada16a824e3d21706999d7053c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément HasChanged indique si la photo d’un utilisateur a été modifiée.
+ms.openlocfilehash: d777220f55d33cde548d8257cf249b57481a43f8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827802"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462786"
 ---
 # <a name="haschanged"></a>HasChanged
 
-L’élément **HasChanged** indique si la photo d’un utilisateur a été modifié. 
+L’élément **HasChanged** indique si la photo d’un utilisateur a été modifiée. 
   
 ```XML
 <HasChanged> true | false </HasChanged>
@@ -26,11 +26,11 @@ L’élément **HasChanged** indique si la photo d’un utilisateur a été modi
  ****
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [GetUserPhotoResponse](getuserphotoresponse.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **HasChanged** indique que la photo a été modifié depuis la dernière fois qu’elle a été renvoyée. La valeur **false** indique que la photo n’a pas changé depuis la dernière fois qu’elle a été renvoyée. 
+Une valeur de texte de **true** pour l’élément **HasChanged** indique que la photo a changé depuis son dernier renvoi. La valeur **false** indique que la photo n’a pas été modifiée depuis son dernier renvoi. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

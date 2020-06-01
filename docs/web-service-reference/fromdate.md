@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cbb1320c-479e-4bd3-a462-4ab14c24b1c5
-description: L’élément FromDate spécifie la date à laquelle le message a été envoyé.
-ms.openlocfilehash: edc3f8ada87c64ccc3eeeb8a7467e7e050a30ce1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DateDébut spécifie la date à laquelle le message a été envoyé.
+ms.openlocfilehash: c08873a11915f4e82ad5b6f62423d0abdb9a429b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756497"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463061"
 ---
 # <a name="fromdate"></a>FromDate
 
-L’élément **FromDate** spécifie la date à laquelle le message a été envoyé. 
+L’élément **DateDébut** spécifie la date à laquelle le message a été envoyé. 
   
 ```XML
 <FromDate></FromDate>
@@ -26,11 +26,11 @@ L’élément **FromDate** spécifie la date à laquelle le message a été envo
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Spécifie une requête pour rechercher des statistiques de boîtes aux lettres par mot clé.  <br/> |
+|[FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md) <br/> |Spécifie une demande de recherche de statistiques de boîte aux lettres par mot clé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **FromDate** est la date et l’heure auxquelles un message a été envoyé. 
+La valeur de texte de l’élément **DateDébut** est la date et l’heure auxquelles un message a été envoyé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 569eaca5-6761-4f5d-aa19-2bf3ac584ae3
-description: L’élément CreateFolderPathResponse est utilisé pour retourner un chemin d’accès du dossier.
-ms.openlocfilehash: f6cc8e63aec4cd7868fffa1a4b7c312c741d9c60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateFolderPathResponse est utilisé pour renvoyer un chemin d’accès de dossier.
+ms.openlocfilehash: 3cb8fb15e8850c4ae14082dfdc01c62225879a4a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755705"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463789"
 ---
 # <a name="createfolderpathresponse"></a>CreateFolderPathResponse
 
-L’élément **CreateFolderPathResponse** est utilisé pour retourner un chemin d’accès du dossier. 
+L’élément **CreateFolderPathResponse** est utilisé pour renvoyer un chemin d’accès de dossier. 
   
 ```XML
 <CreateFolderPathResponse>
@@ -28,11 +28,11 @@ L’élément **CreateFolderPathResponse** est utilisé pour retourner un chemin
  **CreateFolderPathResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

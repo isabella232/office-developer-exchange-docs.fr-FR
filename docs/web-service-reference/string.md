@@ -1,5 +1,5 @@
 ---
-title: String
+title: Chaîne
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e6e362b1-4526-49e1-b283-1c4bc4295874
-description: L’élément chaîne représente une chaîne qui est utilisée par les éléments, des contacts, des tâches et des conversations.
-ms.openlocfilehash: 66260c7ebcb56049a78c5eddbe057dfa8d61f193
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément String représente une chaîne utilisée par des éléments, des contacts, des tâches et des conversations.
+ms.openlocfilehash: fbb4219d35c4acdc2c80b21b73e6479a2ef317f7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829607"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463103"
 ---
-# <a name="string"></a>String
+# <a name="string"></a>Chaîne
 
-L’élément **chaîne** représente une chaîne qui est utilisée par les éléments, des contacts, des tâches et des conversations. 
+L’élément **String** représente une chaîne utilisée par des éléments, des contacts, des tâches et des conversations. 
   
 ```XML
 <String/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,23 +44,23 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Categories](categories-ex15websvcsotherref.md) <br/> |Contient une collection de chaînes qui identifient les catégories appartient un élément dans la boîte aux lettres.  <br/> |
+|[Catégories](categories-ex15websvcsotherref.md) <br/> |Contient une collection de chaînes qui identifient les catégories appartenant à un élément de la boîte aux lettres.  <br/> |
 |[Enfants](children.md) <br/> |Contient les noms des enfants d’un contact.  <br/> |
-|[Companies](companies.md) <br/> |Représente la collection des sociétés qui sont associés à un contact ou une tâche.  <br/> |
-|[Contacts](contacts-ex15websvcsotherref.md) <br/> |Contient une liste des contacts qui sont associés à une tâche.  <br/> |
-|[GlobalCategories](globalcategories.md) <br/> |Contient la liste des catégories pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
-|[GlobalUniqueRecipients](globaluniquerecipients.md) <br/> |Contient la liste des destinataires d’une conversation regroupée sur une boîte aux lettres.  <br/> |
-|[GlobalUniqueSenders](globaluniquesenders.md) <br/> |Contient une liste de tous les expéditeurs des éléments de conversation dans la boîte aux lettres.  <br/> |
-|[GlobalUniqueUnreadSenders](globaluniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé les messages qui sont actuellement non lus dans cette conversation entre tous les dossiers dans la boîte aux lettres.  <br/> |
-|[ItemClasses](itemclasses.md) <br/> |Contient une liste des classes d’élément qui doit être marqué sur les messages entrants afin que l’exception ou la condition à appliquer.  <br/> |
-|[MessageClassifications](messageclassifications.md) <br/> |Contient une liste des classifications de message qui doit être marqué sur les messages entrants afin que l’exception ou la condition à appliquer.  <br/> |
+|[Companies](companies.md) <br/> |Représente la collection de sociétés associées à un contact ou une tâche.  <br/> |
+|[Contacts](contacts-ex15websvcsotherref.md) <br/> |Contient une liste de contacts associés à une tâche.  <br/> |
+|[GlobalCategories](globalcategories.md) <br/> |Contient la liste des catégories pour tous les éléments de conversation d’une boîte aux lettres.  <br/> |
+|[GlobalUniqueRecipients](globaluniquerecipients.md) <br/> |Contient la liste des destinataires d’une conversation qui est agrégée dans une boîte aux lettres.  <br/> |
+|[GlobalUniqueSenders](globaluniquesenders.md) <br/> |Contient une liste de tous les expéditeurs d’éléments de conversation dans la boîte aux lettres.  <br/> |
+|[GlobalUniqueUnreadSenders](globaluniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation sur tous les dossiers de la boîte aux lettres.  <br/> |
+|[ItemClasses](itemclasses.md) <br/> |Contient une liste des classes d’éléments qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique.  <br/> |
+|[MessageClassifications](messageclassifications.md) <br/> |Contient une liste des classifications de messages qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique.  <br/> |
 |[UniqueRecipients](uniquerecipients.md) <br/> |Contient la liste des destinataires de la conversation. Cet élément est en lecture seule.  <br/> |
-|[UniqueSenders](uniquesenders.md) <br/> |Contient une liste de tous les expéditeurs des éléments de conversation dans le dossier actif. Cet élément est en lecture seule.  <br/> |
-|[UniqueUnreadSenders](uniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé les messages qui sont actuellement non lus dans cette conversation dans le dossier actif.  <br/> |
+|[UniqueSenders](uniquesenders.md) <br/> |Contient une liste de tous les expéditeurs d’éléments de conversation dans le dossier actif. Cet élément est en lecture seule.  <br/> |
+|[UniqueUnreadSenders](uniqueunreadsenders.md) <br/> |Contient une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation dans le dossier actif.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est une chaîne qui représente une catégorie, l’enfant d’un contact, une société, un destinataire unique d’une conversation ou un contact qui est associé à une tâche.
+La valeur de texte de cet élément est une chaîne qui représente une catégorie, l’enfant d’un contact, une société, un destinataire unique d’une conversation ou un contact associé à une tâche.
   
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -79,7 +79,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-[FindConversation Operation](findconversation-operation.md)
+[Opération FindConversation](findconversation-operation.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: abce5b3e-971d-42fc-aeea-caa7202214de
-description: L’élément RetentionPolicyType Spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation.
-ms.openlocfilehash: dacb3fa75611cbd6e6e29eab7c791dfd8964c9ec
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RetentionPolicyType spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation.
+ms.openlocfilehash: 3900718f10e1e11d5864ebf7e64a3e1e22aa45c7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829229"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462870"
 ---
 # <a name="retentionpolicytype"></a>RetentionPolicyType
 
-L’élément **RetentionPolicyType** Spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation. 
+L’élément **RetentionPolicyType** spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation. 
   
 ```XML
 <RetentionPolicyType> Delete | Archive </RetentionPolicyType>
@@ -26,11 +26,11 @@ L’élément **RetentionPolicyType** Spécifie le type de stratégie de rétent
  **RetentionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [ConversationAction](conversationaction.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionPolicyType** est le type de rétention appliqué aux éléments d’une conversation. La valeur de texte de **suppression** indique que les éléments de la conversation sont supprimés lorsque le blocage de rétention arrive à expiration. La valeur de texte de **l’Archive** indique que les éléments de la conversation sont déplacés vers la boîte aux lettres d’archive lorsque le blocage de rétention arrive à expiration. 
+La valeur de texte de l’élément **RetentionPolicyType** est le type de rétention appliqué aux éléments d’une conversation. La valeur texte de **Delete** indique que les éléments de la conversation sont supprimés lorsque le blocage de rétention expire. La valeur texte d' **Archive** indique que les éléments de la conversation sont déplacés vers la boîte aux lettres d’archivage lorsque le blocage de rétention expire. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

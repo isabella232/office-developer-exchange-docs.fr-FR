@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a38acc3d-29a8-4466-81a4-73cb30fe5e80
-description: L’élément déduplication indique si le résultat de recherche doit supprimer les doublons.
-ms.openlocfilehash: 3f06bb1dccd0677b7fd43c4ad82eda54a0c3f812
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Deduplication indique si le résultat de la recherche doit supprimer les éléments en double.
+ms.openlocfilehash: c39f980658aba7036cfabb3b51af5a41005f97b6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755833"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463712"
 ---
 # <a name="deduplication"></a>Déduplication
 
-L’élément **déduplication** indique si le résultat de recherche doit supprimer les doublons. 
+L’élément **Deduplication** indique si le résultat de la recherche doit supprimer les éléments en double. 
   
 ```XML
 <Deduplication> true | false </Deduplication>
@@ -27,11 +27,11 @@ L’élément **déduplication** indique si le résultat de recherche doit suppr
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -39,11 +39,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[SearchMailboxes](searchmailboxes.md) | [SetHoldOnMailboxes](setholdonmailboxes.md)
+[SearchMailboxes](searchmailboxes.md)  |  [SetHoldOnMailboxes](setholdonmailboxes.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément déduplication indique que les résultats de recherche peuvent contenir pas de doublons. La valeur **false** indique que les résultats de recherche peuvent contenir des éléments en double. 
+Une valeur de texte **true** pour l’élément Deduplication indique que les résultats de la recherche peuvent ne pas contenir d’éléments en double. La valeur **false** indique que les résultats de la recherche peuvent contenir des éléments en double. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types.xsd  <br/> |
+|Fichier de validation  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b34629f3-19a8-4add-a06c-a160c4288dae
-description: L’élément AttachLongPathName est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: cb763844d66e91c8fe89efa5002890373b22ac6e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AttachLongPathName est destiné uniquement à un usage interne.
+ms.openlocfilehash: f8a120e56eb1d20e99f6054eef003ddade22fea2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755344"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464265"
 ---
 # <a name="attachlongpathname"></a>AttachLongPathName
 
-L’élément **AttachLongPathName** est destiné à une utilisation interne uniquement. 
+L’élément **AttachLongPathName** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

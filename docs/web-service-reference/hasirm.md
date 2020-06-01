@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fedc04e0-cfd2-4652-a2a8-51de859ae847
-description: L’élément HasIrm indique si au moins un message dans la conversation et le dossier actif est un message protégé IRM.
-ms.openlocfilehash: c129370d7920da7cf1f9f32eed2f075e6c21cf8b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément HasIrm spécifie si au moins un message de la conversation et le dossier actif est un message protégé par IRM.
+ms.openlocfilehash: 1596610ed5f6b2bac353900624fbec9140aaa693
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827803"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462779"
 ---
 # <a name="hasirm"></a>HasIrm
 
-L’élément **HasIrm** indique si au moins un message dans la conversation et le dossier actif est un message protégé IRM. 
+L’élément **HasIrm** spécifie si au moins un message de la conversation et le dossier actif est un message protégé par IRM. 
   
 ```XML
 <HasIrm> true | false </HasIrm>
@@ -26,11 +26,11 @@ L’élément **HasIrm** indique si au moins un message dans la conversation et 
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [Conversation (ConversationType)](conversation-conversationtype.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **HasIrm** est **la valeur true** si au moins un message dans la conversation et le dossier actif a IRM. Dans le cas contraire, la valeur est **false**.
+La valeur de texte de l’élément **HasIrm** est **true** si au moins un message de la conversation et le dossier actif a une gestion des droits relatifs à l’information (IRM). Sinon, la valeur est **false**.
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

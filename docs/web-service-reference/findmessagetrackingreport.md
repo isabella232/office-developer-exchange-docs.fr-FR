@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7ca6e2f7-aae1-4920-b839-73513ba8d4d8
-description: L’élément FindMessageTrackingReport spécifie les critères pour les types de messages.
-ms.openlocfilehash: 77545121aa056992248c045af3f3d36566678b94
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FindMessageTrackingReport spécifie les critères pour les types de messages à rechercher.
+ms.openlocfilehash: d30e5391bb4305cae0004a9788df971a57297cae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756410"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462935"
 ---
 # <a name="findmessagetrackingreport"></a>FindMessageTrackingReport
 
-L’élément **FindMessageTrackingReport** spécifie les critères pour les types de messages. 
+L’élément **FindMessageTrackingReport** spécifie les critères pour les types de messages à rechercher. 
   
 ```xml
 <FindMessageTrackingReport>
@@ -44,29 +44,29 @@ L’élément **FindMessageTrackingReport** spécifie les critères pour les typ
  **FindMessageTrackingReportRequestType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Étendue (NonEmptyStringType)](scope-nonemptystringtype.md) <br/> |Représente le rapport de suivi des messages l’étendue doivent être.  <br/> |
-|[Domaine (le suivi des messages)](domain-message-tracking.md) <br/> |Contient le nom du domaine où le suivi des messages est exécutée.  <br/> |
+|[Étendue (NonEmptyStringType)](scope-nonemptystringtype.md) <br/> |Représente l’étendue du rapport de suivi des messages.  <br/> |
+|[Domaine (suivi des messages)](domain-message-tracking.md) <br/> |Contient le nom du domaine dans lequel le suivi des messages est exécuté.  <br/> |
 |[Expéditeur (EmailAddressType)](sender-emailaddresstype.md) <br/> |Contient des informations de contact pour l’expéditeur du message électronique.  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |Contient des informations de contact pour l’expéditeur présumé d’un message électronique.  <br/> |
-|[Recipient](recipient.md) <br/> |Contient l’adresse de messagerie du destinataire du message.  <br/> |
-|[Objet](subject.md) <br/> |Contient l’objet du message électronique.  <br/> |
-|[StartDateTime](startdatetime.md) <br/> |Contient la date et l’heure pour la recherche de départ.  <br/> |
-|[EndDateTime](enddatetime.md) <br/> |Contient la date et l’heure de la recherche.  <br/> |
-|[MessageId](messageid.md) <br/> |Contient l’identificateur de message pour la recherche.  <br/> |
-|[FederatedDeliveryMailbox](federateddeliverymailbox.md) <br/> |Contient le nom de la boîte aux lettres dans laquelle le message cross-site a été envoyé.  <br/> |
+|[PurportedSender](purportedsender.md) <br/> |Contient les informations de contact pour l’expéditeur allégué d’un message électronique.  <br/> |
+|[Destinataire](recipient.md) <br/> |Contient l’adresse de messagerie du destinataire du message.  <br/> |
+|[Subject](subject.md) <br/> |Contient l’objet du message électronique.  <br/> |
+|[StartDateTime](startdatetime.md) <br/> |Contient la date et l’heure de début de la recherche.  <br/> |
+|[EndDateTime](enddatetime.md) <br/> |Contient la date et l’heure de fin de la recherche.  <br/> |
+|[MessageId](messageid.md) <br/> |Contient l’identificateur de message de la recherche.  <br/> |
+|[FederatedDeliveryMailbox](federateddeliverymailbox.md) <br/> |Contient le nom de la boîte aux lettres à laquelle le message intersites a été envoyé.  <br/> |
 |[DiagnosticsLevel](diagnosticslevel.md) <br/> |Représente le niveau de détail des rapports de diagnostic.  <br/> |
-|[ServerHint](serverhint.md) <br/> |Représente le point de départ pour le suivi d’un message dans un site distant ou d’une forêt.  <br/> |
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’un ou plusieurs des propriétés de suivi. Cet élément est facultatif.  <br/> |
+|[ServerHint](serverhint.md) <br/> |Représente le point de départ pour le suivi d’un message dans un site ou une forêt distante.  <br/> |
+|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -84,9 +84,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

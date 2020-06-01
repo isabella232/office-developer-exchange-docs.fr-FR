@@ -1,5 +1,5 @@
 ---
-title: Heure d’envoi
+title: SentTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e74b4a03-45b0-469c-8889-c7cc5aa88a68
-description: L’élément de l’heure d’envoi spécifie l’heure à laquelle l’élément a été envoyé.
-ms.openlocfilehash: 7748b18e51928af1da9718ad7c1a8ea2b59531df
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SentTime spécifie l’heure à laquelle l’élément a été envoyé.
+ms.openlocfilehash: 51404b1fe12cf31f935740dd4afe3deaab0777de
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829360"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463166"
 ---
-# <a name="senttime"></a>Heure d’envoi
+# <a name="senttime"></a>SentTime
 
-L’élément de **l’heure d’envoi** Spécifie l’heure à laquelle l’élément a été envoyé. 
+L’élément **SentTime** spécifie l’heure à laquelle l’élément a été envoyé. 
   
 ```XML
 <SentTime></SentTime>
@@ -26,11 +26,11 @@ L’élément de **l’heure d’envoi** Spécifie l’heure à laquelle l’él
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **l’heure d’envoi** est la date et l’heure à laquelle un élément a été envoyé. 
+La valeur de texte de l’élément **SentTime** est la date et l’heure auxquelles un élément a été envoyé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b7f7acd3-ed65-441e-9976-8b4ed5f12c0b
-description: L’élément ConversationNode indique un nœud dans une conversation.
-ms.openlocfilehash: c8289e5f30bfd25eb12d54e3be0c561786308dc6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConversationNode spécifie un nœud dans une conversation.
+ms.openlocfilehash: 074209c1b5669db8dd1ea4ba7f9dea064628afbd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755647"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462702"
 ---
 # <a name="conversationnode"></a>ConversationNode
 
-L’élément **ConversationNode** indique un nœud dans une conversation. 
+L’élément **ConversationNode** spécifie un nœud dans une conversation. 
   
 ```XML
 <ConversationNode>
@@ -30,11 +30,11 @@ L’élément **ConversationNode** indique un nœud dans une conversation.
  **ConversationNodeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,13 +42,13 @@ Aucun.
 |:-----|:-----|
 |[InternetMessageId](internetmessageid.md) <br/> |Représente l’identificateur de message Internet d’un élément.  <br/> |
 |[ParentInternetMessageId](parentinternetmessageid.md) <br/> |Spécifie l’identificateur du message Internet parent.  <br/> |
-|[ItemId (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Spécifie tous les éléments dans le nœud de la conversation.  <br/> |
+|[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Spécifie tous les éléments du nœud conversation.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationNodes](conversationnodes.md) <br/> |Spécifie une collection de nœuds de la conversation.  <br/> |
+|[ConversationNodes](conversationnodes.md) <br/> |Spécifie une collection de nœuds de conversation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

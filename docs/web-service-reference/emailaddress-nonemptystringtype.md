@@ -11,12 +11,12 @@ api_type:
 - schema
 ms.assetid: c0c708d1-b016-4902-a294-9af44aea2050
 description: L’élément EmailAddress définit l’adresse SMTP principale d’un utilisateur de boîte aux lettres.
-ms.openlocfilehash: fcf2839c1e2e40a22d6b6a856608f52f2c9c2a1a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: fcc3e650d5fc32344022ed6f015d4096a4461f63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756107"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463131"
 ---
 # <a name="emailaddress-nonemptystringtype"></a>EmailAddress (NonEmptyStringType)
 
@@ -29,11 +29,11 @@ L’élément **EmailAddress** définit l’adresse SMTP principale d’un utili
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,17 +43,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ActingAs](actingas.md) <br/> |Identifie les personnes envoie par l’appelant.  <br/> |
-|[Boîte aux lettres](mailbox.md) <br/> | Identifie une adresse de messagerie entièrement résolu.  <br/><br/>Certaines expressions XPath pour cet élément sont les suivantes :<br/><br/>`/CreateItem/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`/CreateFolder/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`CreateItem/Items/AcceptItem/ToRecipients/Mailbox`<br/><br/>`SyncFolderItemsResponseMessage/Changes/Create/CalendarItem/ConflictingMeetings/AcceptItem/CcRecipients/Mailbox`<br/><br/>Éléments supplémentaires parent de l’élément de boîte aux lettres sont les suivantes :<br/><br/>- [BccRecipients](bccrecipients.md) <br/>- [ReplyTo](replyto.md) <br/>- [Expéditeur](sender.md) <br/>- [De](from.md) <br/>- [Bibliothèque multimédia](organizer.md) <br/>- [DistinguishedFolderId](distinguishedfolderid.md) <br/>- [Résolution](resolution.md) <br/>- [DLExpansion](dlexpansion.md) <br/>- [Participant](attendee.md) <br/> |
-|[RoomList](roomlist.md) <br/> |Identifie une liste de salles de réunion à l’adresse de messagerie.  <br/> |
+|[Actionas](actingas.md) <br/> |Identifie les personnes qui envoient l’appelant.  <br/> |
+|[Boîte aux lettres](mailbox.md) <br/> | Identifie une adresse de messagerie entièrement résolue.  <br/><br/>Voici quelques expressions XPath sur cet élément :<br/><br/>`/CreateItem/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`/CreateFolder/ParentFolderId/DistinguishedFolderId/Mailbox`<br/><br/>`CreateItem/Items/AcceptItem/ToRecipients/Mailbox`<br/><br/>`SyncFolderItemsResponseMessage/Changes/Create/CalendarItem/ConflictingMeetings/AcceptItem/CcRecipients/Mailbox`<br/><br/>Les éléments suivants sont des éléments parents supplémentaires de l’élément Mailbox :<br/><br/>- [BccRecipients](bccrecipients.md) <br/>- [ReplyTo](replyto.md) <br/>- [Expéditeur](sender.md) <br/>- [De](from.md) <br/>- [Organiser](organizer.md) <br/>- [DistinguishedFolderId](distinguishedfolderid.md) <br/>- [Résolution](resolution.md) <br/>- [DLExpansion](dlexpansion.md) <br/>- [Participant](attendee.md) <br/> |
+|[RoomList](roomlist.md) <br/> |Identifie une liste de salles de réunion par adresse de messagerie.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Une valeur de texte qui représente une adresse SMTP est requise.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EmailAddress** peut représenter SMTP ou unique Exchange hérité adresses nom (DN). L’élément **EmailAddress** est le seul élément de [boîte aux lettres](mailbox.md) requis. 
+L’élément **EmailAddress** peut représenter des adresses SMTP ou des noms uniques Exchange hérités (également appelés DN). L’élément **EmailAddress** est le seul élément de [boîte aux lettres](mailbox.md) obligatoire. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7f36b6ee-8ecf-48c9-8cb6-dfb2da0ce2a2
-description: L’élément Attributions spécifie un tableau des affectations pour sa valeur de l’élément associé.
-ms.openlocfilehash: a64510cacb9923682418ca8a9b203c765a129bdd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément adments indique un tableau d’attributions pour son élément Value associé.
+ms.openlocfilehash: 9fd552670c529009838125063869f65e130c1e63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755355"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463992"
 ---
 # <a name="attributions-arrayofvalueattributionstype"></a>Attributions (ArrayOfValueAttributionsType)
 
-L’élément **Attributions** spécifie un tableau des affectations pour sa **valeur** de l’élément associé. 
+L’élément adments indique un tableau **d’attributions** pour son élément **value** associé. 
   
 ```XML
 <Attributions>
@@ -28,29 +28,29 @@ L’élément **Attributions** spécifie un tableau des affectations pour sa **v
  **ArrayOfValueAttributionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attribution (chaîne)](attribution-string.md) <br/> |Spécifie une chaîne utilisée pour identifier un attribut.  <br/> |
+|[Attribution (String)](attribution-string.md) <br/> |Spécifie une chaîne utilisée pour identifier un attribut.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[BodyContentAttributedValue](bodycontentattributedvalue.md) <br/> |Spécifie le contenu du corps d’un élément.  <br/> |
-|[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’adresses de messagerie et leurs attributions associées.  <br/> |
-|[ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md) <br/> |Spécifie les propriétés étendues pour un personnage.  <br/> |
+|[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’adresses de messagerie et les attributions associées.  <br/> |
+|[ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md) <br/> |Spécifie les propriétés étendues d’un personnage.  <br/> |
 |[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Spécifie une instance d’un tableau de numéros de téléphone et leurs attributions associées.  <br/> |
 |[PostalAddressAttributedValue](postaladdressattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’adresses postales et leurs attributions associées.  <br/> |
-|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |Spécifie une instance d’un tableau de données de chaîne d’un élément personnage.  <br/> |
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’attributs associés à un élément personnage.  <br/> |
+|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |Spécifie une instance d’un tableau de données de type chaîne pour un élément Persona.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

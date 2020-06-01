@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b9ae15b-3ac1-45ac-85ba-38c7231fe508
-description: L’élément EcpUrl-tmHiding spécifie une URL partielle peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour annuler l’abonnement de l’utilisateur à partir d’une boîte aux lettres du site.
-ms.openlocfilehash: 461e9780dbd657ba0ba8b9ce9ea4fe902cba9698
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl-tmHiding spécifie une URL partielle qui peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour annuler l’abonnement de l’utilisateur à partir d’une boîte aux lettres de site.
+ms.openlocfilehash: 68b949db8b8d98caddbac3b9f96c5d5e55b104b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756074"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463530"
 ---
 # <a name="ecpurl-tmhiding-pox"></a>EcpUrl-tmHiding (POX)
 
-L’élément **EcpUrl-tmHiding** spécifie une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour annuler l’abonnement de l’utilisateur à partir d’une boîte aux lettres du site. 
+L’élément **EcpUrl-tmHiding** spécifie une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour annuler l’abonnement de l’utilisateur à partir d’une boîte aux lettres de site. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,7 +24,7 @@ L’élément **EcpUrl-tmHiding** spécifie une URL partielle peut être combin�
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [EcpUrl-tmHiding (POX)](ecpurl-tmhiding-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **EcpUrl-tmHiding** spécifie une URL partielle peut être combin�
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,24 +48,23 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour annuler l’abonnement de l’utilisateur à partir d’une boîte aux lettres du site. La valeur de l’élément **EcpUrl-tmHiding** contient les paramètres contenus dans « < » et « > » caractères sont remplacés par le client, comme indiqué dans le tableau suivant. 
+La valeur de texte représente une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour annuler l’abonnement de l’utilisateur à partir d’une boîte aux lettres de site. La valeur de l’élément **EcpUrl-tmHiding** contient les paramètres contenus dans les caractères « < » et « > » qui sont remplacés par le client, comme indiqué dans le tableau suivant. 
   
-|**Paramètre**|**Remplacer par**|
+|**Parameter**|**Remplacer par**|
 |:-----|:-----|
-| 
-  _Id_ <br/> |L’adresse de messagerie SMTP ou la X500 le nom de la boîte aux lettres de site unique.  <br/> |
+| _Id_ <br/> |Adresse de messagerie SMTP ou nom unique X500 de la boîte aux lettres de site.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl-tmHiding** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl-tmHiding** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

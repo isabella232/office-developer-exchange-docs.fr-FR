@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e63c4f7e-77c0-4826-b4e2-43b795d03914
-description: L’élément EditAllowed Spécifie si les Information Rights Management peut être modifié.
-ms.openlocfilehash: 48c7d751c018bf5702b05b41eeaa7ad350189e3a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EditAllowed spécifie si la gestion des droits relatifs à l’information peut être modifiée.
+ms.openlocfilehash: 979fbaa9fcfbd1015468a8ae00628959bad0bf56
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756076"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463481"
 ---
 # <a name="editallowed"></a>EditAllowed
 
-L’élément **EditAllowed** Spécifie si les Information Rights Management peut être modifié. 
+L’élément **EditAllowed** spécifie si la gestion des droits relatifs à l’information peut être modifiée. 
   
 ```XML
 <EditAllowed> true | false </EditAllowed>
@@ -26,11 +26,11 @@ L’élément **EditAllowed** Spécifie si les Information Rights Management peu
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie des informations sur la licence de gestion des droits.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie les informations relatives à la licence de gestion des droits.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **EditAllowed** indique que Information Rights Management (IRM) peut être modifiée. La valeur **false** indique que l’IRM ne peuvent pas être modifié. 
+Une valeur de texte de **true** pour l’élément **EditAllowed** indique que la gestion des droits relatifs à l’information (IRM) peut être modifiée. La valeur **false** indique qu’IRM ne peut pas être modifié. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

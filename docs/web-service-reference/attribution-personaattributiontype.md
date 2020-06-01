@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: dc59e17e-baea-4617-8ca1-4382a89de0d7
-description: L’élément Attribution spécifie une instance d’un tableau d’attributs pour un élément PersonaType.
-ms.openlocfilehash: 0e800c92c75bf0c475d4bffd33d6ab49f9ad9a9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément spécifie une instance dans un tableau d’attributs pour un élément PersonaType.
+ms.openlocfilehash: 05b0d41c116f2ed7b8dbb3ac44108bb879256b5c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755349"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464174"
 ---
 # <a name="attribution-personaattributiontype"></a>Attribution (PersonaAttributionType)
 
-L’élément **Attribution** spécifie une instance d’un tableau d’attributs pour un élément **PersonaType** . 
+L' **élément** spécifie une instance dans un tableau d’attributs pour un élément **PersonaType** . 
   
 ```XML
 <Attribution>
@@ -34,29 +34,29 @@ L’élément **Attribution** spécifie une instance d’un tableau d’attribut
  **PersonaAttributionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ID (chaîne)](id-string.md) <br/> |Spécifie une chaîne qui identifie de manière unique une application ou une attribution dans un personnage.  <br/> |
-|[ID source](sourceid.md) <br/> |Spécifie l’identificateur du contact ou du destinataire d’Active Directory.  <br/> |
-|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom complet d’un dossier, contact, liste de distribution, délégué utilisateur ou de règle.  <br/> |
-|[IsWritable](iswritable.md) <br/> |Spécifie si l’ou les destinataires d’Active Directory sous-jacent peut être écrite.  <br/> |
-|[IsQuickContact](isquickcontact.md) <br/> |Spécifie une valeur de type Boolean qui indique si l’ou les destinataires d’Active Directory sous-jacent est un contact rapide.  <br/> |
-|[IsHidden](ishidden.md) <br/> |Contient une valeur de type Boolean qui indique si l’ou les destinataires d’Active Directory sous-jacent doit être masqué ou affiché dans le cadre du personnage.  <br/> |
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier.  <br/> |
+|[SourceId](sourceid.md) <br/> |Spécifie l’identificateur du destinataire du contact ou Active Directory.  <br/> |
+|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom d’affichage d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué ou d’une règle.  <br/> |
+|[IsWritable](iswritable.md) <br/> |Indique si le contact sous-jacent ou le destinataire Active Directory peut être accessible en écriture.  <br/> |
+|[IsQuickContact](isquickcontact.md) <br/> |Spécifie une valeur de type Boolean qui indique si le contact sous-jacent ou le destinataire Active Directory est un contact rapide.  <br/> |
+|[IsHidden](ishidden.md) <br/> |Contient une valeur de type Boolean qui indique si le destinataire sous-jacent ou Active Directory doit être masqué ou affiché en tant que partie du personnage.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Spécifie un tableau des informations d’attribution d’un ou plusieurs contacts ou des destinataires d’active directory (AD) regroupées dans les personnages associés.  <br/> |
+|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Spécifie un tableau d’informations d’attribution pour un ou plusieurs contacts ou destinataires Active Directory (AD) rassemblés dans le personnage associé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,9 +68,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

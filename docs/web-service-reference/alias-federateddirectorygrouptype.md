@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 38bf6de4-1522-4c59-bcb2-1912dca287e2
-description: L’élément Alias (FederatedDirectoryGroupType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 8aa9fb21b6a3a2a9e06bf6aac6c30443ed3d8739
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément alias (FederatedDirectoryGroupType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: 19e6bccabeb781f30f9802cba7b9e8a16e771b3f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755190"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463516"
 ---
 # <a name="alias-federateddirectorygrouptype"></a>Alias (FederatedDirectoryGroupType)
 
-L’élément **Alias (FederatedDirectoryGroupType)** est destiné à une utilisation interne uniquement. 
+L’élément **alias (FederatedDirectoryGroupType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1d18f98c-6457-45e9-a934-32da20885ac6
-description: L’élément Conversations contient un tableau des conversations qui sont retournés dans la réponse FindConversation.
-ms.openlocfilehash: cd36364bd975d1464af9a1114c64c29543b4ec47
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément conversations contient un tableau de conversations qui sont renvoyées dans la réponse FindConversation.
+ms.openlocfilehash: 8af1023db51dd955c544422520ec5565f09f5372
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755653"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463796"
 ---
 # <a name="conversations"></a>Conversations
 
-L’élément **Conversations** contient un tableau des conversations qui sont retournés dans la réponse **FindConversation** . 
+L’élément **conversations** contient un tableau de conversations qui sont renvoyées dans la réponse **FindConversation** . 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -36,11 +36,11 @@ L’élément **Conversations** contient un tableau des conversations qui sont r
  **ArrayOfConversationsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindConversationResponse](findconversationresponse.md) <br/> |Définit une réponse à une demande de **FindConversation** .  <br/> |
+|[FindConversationResponse](findconversationresponse.md) <br/> |Définit une réponse à une demande **FindConversation** .  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,17 +66,17 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[FindConversation Operation](findconversation-operation.md)
+[Opération FindConversation](findconversation-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

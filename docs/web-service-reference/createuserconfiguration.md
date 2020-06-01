@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 43e12e8b-5629-4f5f-9cbd-a99084d8460f
-description: L’élément CreateUserConfiguration représente une demande pour créer un objet de configuration utilisateur.
-ms.openlocfilehash: dcf3acc356110b993bdb7f4f83245753835f299f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateUserConfiguration représente une demande de création d’un objet de configuration utilisateur.
+ms.openlocfilehash: 1d9194baf309936cb4be088a7ff56250dfa349cc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755749"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463775"
 ---
 # <a name="createuserconfiguration"></a>CreateUserConfiguration
 
-L’élément **CreateUserConfiguration** représente une demande pour créer un objet de configuration utilisateur. 
+L’élément **CreateUserConfiguration** représente une demande de création d’un objet de configuration utilisateur. 
   
 ```xml
 <CreateUserConfiguration>
@@ -32,11 +32,11 @@ L’élément **CreateUserConfiguration** représente une demande pour créer un
  **CreateUserConfigurationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

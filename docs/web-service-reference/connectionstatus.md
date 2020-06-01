@@ -1,5 +1,5 @@
 ---
-title: ConnectionStatus
+title: ConnectionStatus Closed
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 4300f9d6-8bf9-48c2-9f07-d80197864e17
-description: L’élément ConnectionStatus fournit une description textuelle de l’état d’un abonnement de diffusion en continu.
-ms.openlocfilehash: 567308d79eaccba24230deddf5d78a724b8746af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConnectionStatus Closed fournit une description textuelle de l’état d’un abonnement de diffusion en continu.
+ms.openlocfilehash: 928537201041950011ae06444e3c412228d252ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755544"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462716"
 ---
-# <a name="connectionstatus"></a>ConnectionStatus
+# <a name="connectionstatus"></a>ConnectionStatus Closed
 
-L’élément **ConnectionStatus** fournit une description textuelle de l’état d’un abonnement de diffusion en continu. 
+L’élément **ConnectionStatus Closed** fournit une description textuelle de l’état d’un abonnement de diffusion en continu. 
   
 ```xml
 <ConnectionStatus>OK or Closed</ConnectionStatus>
@@ -30,11 +30,11 @@ L’élément **ConnectionStatus** fournit une description textuelle de l’éta
  **ConnectionStatusType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande [d’opération GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs de texte possibles de cet élément sont les suivantes :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - OK
     
-- Closed
+- Fermé
     
 ## <a name="remarks"></a>Remarques
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

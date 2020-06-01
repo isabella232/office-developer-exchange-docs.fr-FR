@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 46ce3ad7-4b20-43ae-8c63-39f1e3c2666b
-description: L’élément AttachmentIds contient un tableau d’identificateurs de pièce jointe.
-ms.openlocfilehash: f205aefe6a7dc4ec208e8a96b8a6b47094aa741b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AttachmentIds contient un tableau d’identificateurs de pièces jointes.
+ms.openlocfilehash: cff1cb5658690fd6dd2c6a7812e1f600a4c80e29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755338"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464251"
 ---
 # <a name="attachmentids"></a>AttachmentIds
 
-L’élément **AttachmentIds** contient un tableau d’identificateurs de pièce jointe. 
+L’élément **AttachmentIds** contient un tableau d’identificateurs de pièces jointes. 
   
 ```xml
 <AttachmentIds>
@@ -32,24 +32,24 @@ L’élément **AttachmentIds** contient un tableau d’identificateurs de pièc
  **NonEmptyArrayOfRequestAttachmentIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttachmentId (GetAttachment et DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |L’élément qui identifie une seule pièce jointe.  <br/> |
+|[AttachmentId (GetAttachment et DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |Élément qui identifie une pièce jointe unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DeleteAttachment](deleteattachment.md) <br/> |L’élément qui définit une requête de suppression d’une pièce jointe à partir de la banque d’informations Exchange.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/DeleteAttachment` <br/> |
-|[GetAttachment](getattachment.md) <br/> |L’élément qui définit une demande pour obtenir une pièce jointe à partir de la banque d’informations Exchange.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetAttachment` <br/> |
+|[DeleteAttachment](deleteattachment.md) <br/> |Élément qui définit une demande de suppression d’une pièce jointe de la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/DeleteAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |Élément qui définit une demande d’obtention d’une pièce jointe à partir de la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetAttachment` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

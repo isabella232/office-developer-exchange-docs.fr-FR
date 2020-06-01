@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c6d8aab-566a-4247-8bb6-52d8cd133f9d
-description: L’élément AudioData est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 3e9777ea9106b7444baf2873961e1642c4e13f3d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AudioData est destiné uniquement à un usage interne.
+ms.openlocfilehash: 3a07f231c1de984e39c6ebc4bd79b42142af6309
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755350"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463985"
 ---
 # <a name="audiodata"></a>AudioData
 
-L’élément **AudioData** est destiné à une utilisation interne uniquement. 
+L’élément **audiodata** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

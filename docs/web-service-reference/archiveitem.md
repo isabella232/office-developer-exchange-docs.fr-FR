@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c2172e61-876a-4f76-bc9c-263c8be11429
-description: L’élément ArchiveItem contient l’Id du dossier source et un tableau d’ID d’élément pour l’élément associé à archiver.
-ms.openlocfilehash: 7f2d79f5a9e6798fafcf64e8b1bb680390800992
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ArchiveItem contient l’ID du dossier source et un tableau d’ID d’élément pour l’élément Archive associé.
+ms.openlocfilehash: e1694619c90160084980cb8f3a7c8a0ed1876295
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755314"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463404"
 ---
 # <a name="archiveitem"></a>ArchiveItem
 
-L’élément **ArchiveItem** contient l’Id du dossier source et un tableau d’ID d’élément pour l’élément associé à archiver. 
+L’élément **ArchiveItem** contient l’ID du dossier source et un tableau d’ID d’élément pour l’élément Archive associé. 
   
 ```XML
 <ArchiveItem>
@@ -29,15 +29,15 @@ L’élément **ArchiveItem** contient l’Id du dossier source et un tableau d�
  **ArchiveItemType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ArchiveSourceFolderId](archivesourcefolderid.md) | [ItemId](itemids.md)
+[ArchiveSourceFolderId](archivesourcefolderid.md)  |  [ItemIds](itemids.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

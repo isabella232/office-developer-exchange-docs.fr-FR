@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 545cfe9d-9995-44d6-a3d0-4d43a169cf67
-description: L’élément ConfigurationRequestDetails contient l’état de client pour déplacer de stratégie. Les informations d’état peuvent inclure les règles qui sont installés et la version du client.
-ms.openlocfilehash: 5195f32f6711ad565922918893209dc01d68d7c6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConfigurationRequestDetails contient l’état du client pour les Wizz de stratégie. Les informations d’État peuvent inclure les règles qui sont installées et la version du composant client.
+ms.openlocfilehash: 302327a13a108f1d87d39bdfd16346a6c43a7557
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755539"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463915"
 ---
 # <a name="configurationrequestdetails"></a>ConfigurationRequestDetails
 
-L’élément **ConfigurationRequestDetails** contient l’état de client pour déplacer de stratégie. Les informations d’état peuvent inclure les règles qui sont installés et la version du client. 
+L’élément **ConfigurationRequestDetails** contient l’état du client pour les Wizz de stratégie. Les informations d’État peuvent inclure les règles qui sont installées et la version du composant client. 
   
 ```XML
 <ConfigurationRequestDetails></ConfigurationRequestDetails>
@@ -26,15 +26,15 @@ L’élément **ConfigurationRequestDetails** contient l’état de client pour 
  **ConfigurationRequestDetailsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-Les éléments enfants ne sont pas définies dans le schéma des Services Web Exchange.
+Les éléments enfants ne sont pas définis dans le schéma des services Web Exchange.
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -50,9 +50,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

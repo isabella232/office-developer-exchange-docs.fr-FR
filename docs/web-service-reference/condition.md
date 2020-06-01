@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
-description: L’élément Condition identifie la condition qui doit être remplie pour la partie de l’action de la règle doit être exécutée.
-ms.openlocfilehash: d49f2984799b15c0499af59abecbb34abe15f7c3
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément condition identifie la condition qui doit être remplie pour que la partie action de la règle s’exécute.
+ms.openlocfilehash: 2aea11197f072a4dbe21292bb47075d6f273d31b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353559"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463222"
 ---
 # <a name="condition"></a>Condition
 
-L’élément **Condition** identifie la condition qui doit être remplie pour la partie de l’action de la règle doit être exécutée. 
+L’élément **condition** identifie la condition qui doit être remplie pour que la partie action de la règle s’exécute. 
   
 ```xml
 <Condition>
@@ -57,21 +57,21 @@ L’élément **Condition** identifie la condition qui doit être remplie pour l
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AllInternal](allinternal.md) <br/> |Renvoie **la valeur true** si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur.  <br/> |
-|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour prendre la **valeur true**. Spécifie qu’il doit y avoir plusieurs conditions d’enfants de règle de protection.  <br/> |
-|[RecipientIs](recipientis.md) <br/> |Spécifie que n’importe quel destinataire du message électronique correspond à un des destinataires spécifiés dans les éléments de [valeur (ProtectionRuleValueType)](value-protectionrulevaluetype.md) enfants.  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |Spécifie que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments de [valeur (ProtectionRuleValueType)](value-protectionrulevaluetype.md) enfants.  <br/> |
-|[True](true.md) <br/> |Spécifie une condition qui correspond toujours.  <br/> |
+|[AllInternal](allinternal.md) <br/> |Renvoie la **valeur true** si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur.  <br/> |
+|[Et (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour avoir la **valeur true**. Spécifie qu’il doit y avoir plus d’une condition de règle de protection enfant.  <br/> |
+|[Destinataireest](recipientis.md) <br/> |Spécifie que tout destinataire du message électronique correspond à l’un des destinataires spécifiés dans les éléments de [valeur enfant (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Indique que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments de [valeur enfant (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
+|[True](true.md) <br/> |Spécifie une condition qui correspond toujours à.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -91,7 +91,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

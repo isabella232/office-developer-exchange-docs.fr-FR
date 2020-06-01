@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e898d737-b6e4-4403-9c2c-aec52a48a83d
-description: L’élément de boîte aux lettres contient l’identificateur de la boîte aux lettres et l’adresse SMTP Simple Mail Transfer Protocol () principale de l’utilisateur.
-ms.openlocfilehash: 1b6669928015bc880806479d294a4063034a559f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Mailbox contient l’identificateur de boîte aux lettres et l’adresse SMTP (Simple Mail Transfer Protocol) principale de l’utilisateur.
+ms.openlocfilehash: 4dc5ee45c00945c30a699daa0158c96679189ab1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828255"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463894"
 ---
 # <a name="mailbox-previewitemmailboxtype"></a>Boîte aux lettres (PreviewItemMailboxType)
 
-L’élément de **boîte aux lettres** contient l’identificateur de la boîte aux lettres et l’adresse SMTP Simple Mail Transfer Protocol () principale de l’utilisateur. 
+L’élément **Mailbox** contient l’identificateur de boîte aux lettres et l’adresse SMTP (Simple Mail Transfer Protocol) principale de l’utilisateur. 
   
 ```XML
 <Mailbox>
@@ -30,15 +30,15 @@ L’élément de **boîte aux lettres** contient l’identificateur de la boîte
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MailboxId](mailboxid.md) | [PrimarySmtpAddress (chaîne)](primarysmtpaddress-string.md)
+[MailboxId](mailboxid.md)  |  [PrimarySmtpAddress (String)](primarysmtpaddress-string.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c6973aee-ec7b-44c1-b328-f2204d9de5d1
-description: L’élément NormalizedBodyType Spécifie si le corps normalisé est retourné dans le format HTML ou texte.
-ms.openlocfilehash: 33575594b22f972a9eb762dfac884fa91459f04a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NormalizedBodyType spécifie si le corps normalisé est renvoyé au format texte ou HTML.
+ms.openlocfilehash: e5d968673403eba24a68c67175e3ebcbb35eca39
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828554"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462660"
 ---
 # <a name="normalizedbodytype"></a>NormalizedBodyType
 
-L’élément **NormalizedBodyType** Spécifie si le corps normalisé est retourné dans le format HTML ou texte. 
+L’élément **NormalizedBodyType** spécifie si le corps normalisé est renvoyé au format texte ou html. 
   
 ```XML
 <NormalizedBodyType> Best | HTML | Text </NormalizedBodyType>
@@ -26,11 +26,11 @@ L’élément **NormalizedBodyType** Spécifie si le corps normalisé est retour
  **BodyTypeResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,17 +40,17 @@ Aucun.
 
 [ItemShape](itemshape.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **NormalizedBodyType** indique le format du corps normalisé est renvoyée dans. Le tableau suivant répertorie les valeurs possibles de cet élément. 
+La valeur de texte de l’élément **NormalizedBodyType** indique le format dans lequel le corps normalisé est renvoyé. Le tableau suivant répertorie les valeurs possibles pour cet élément. 
   
 ****
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Recommandé  <br/> |La réponse renvoie le contenu disponible plus riche du corps de texte. Cela est utile si elle est inconnue ou non le contenu est texte ou HTML.  <br/> Le corps retourné sera texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renverra HTML si le corps stocké est au format HTML ou RTF.  <br/> Il s'agit de la valeur par défaut.  <br/> |
-|HTML  <br/> |La réponse renvoie un corps normalisé au format HTML.  <br/> |
-|Texte  <br/> |La réponse renvoie un corps normalisé sous forme de texte brut.  <br/> |
+|Idéale  <br/> |La réponse renverra le contenu disponible le plus riche du corps de texte. Ceci est utile s’il n’est pas connu si le contenu est du texte ou du code HTML.  <br/> Le corps renvoyé sera du texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renvoie HTML si le corps stocké est au format HTML ou RTF.  <br/> Il s’agit de la valeur par défaut.  <br/> |
+|HTML  <br/> |La réponse renverra un corps normalisé au format HTML.  <br/> |
+|Texte  <br/> |La réponse renvoie un corps normalisé en tant que texte brut.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

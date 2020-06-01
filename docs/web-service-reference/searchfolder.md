@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1a7d408b-2e98-4391-8834-085ed6d5757c
-description: L’élément SearchFolder représente un dossier de recherche qui se trouve dans une boîte aux lettres.
-ms.openlocfilehash: d842c54dab7950c68e26804b676834c2d95debad
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SearchFolder représente un dossier de recherche contenu dans une boîte aux lettres.
+ms.openlocfilehash: e1d5893e00f3b199451622061785e2566c6f32e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829302"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464006"
 ---
 # <a name="searchfolder"></a>SearchFolder
 
-L’élément **SearchFolder** représente un dossier de recherche qui se trouve dans une boîte aux lettres. 
+L’élément **SearchFolder** représente un dossier de recherche contenu dans une boîte aux lettres. 
   
 ```xml
 <SearchFolder>
@@ -43,23 +43,23 @@ L’élément **SearchFolder** représente un dossier de recherche qui se trouve
  **SearchFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier qui contient le dossier parent.  <br/> |
-|[Classe FolderClass](folderclass.md) <br/> |Représente la classe de dossier pour un dossier donné.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent qui contient le dossier.  <br/> |
+|[FolderClass](folderclass.md) <br/> |Représente la classe de dossier pour un dossier donné.  <br/> |
 |[DisplayName (chaîne)](displayname-string.md) <br/> |Contient le nom complet d’un dossier.  <br/> |
 |[TotalCount](totalcount.md) <br/> |Représente le nombre total d’éléments dans un dossier donné.  <br/> |
 |[ChildFolderCount](childfoldercount.md) <br/> |Représente le nombre de dossiers enfants contenus dans un dossier. Cette propriété est en lecture seule.  <br/> |
-|[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues dans les dossiers.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues des dossiers.  <br/> |
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
 |[UnreadCount](unreadcount.md) <br/> |Représente le nombre d’éléments non lus dans un dossier donné.  <br/> |
 |[SearchParameters](searchparameters.md) <br/> |Contient les paramètres qui définissent un dossier de recherche.  <br/> |
@@ -72,13 +72,13 @@ Aucun.
 |:-----|:-----|
 |[AppendToFolderField](appendtofolderfield.md) <br/> |Spécifie les données à ajouter à une propriété de dossier lors d’une [opération UpdateFolder](updatefolder-operation.md).  <br/> |
 |[Créer (FolderSync)](create-foldersync.md) <br/> |Identifie un dossier unique à créer dans le magasin de client local.  <br/> |
-|[SetFolderField](setfolderfield.md) <br/> |Représente une mise à jour d’une propriété donnée sur un dossier dans une [opération UpdateFolder](updatefolder-operation.md).  <br/> |
-|[Mise à jour (FolderSync)](update-foldersync.md) <br/> |Identifie un seul dossier pour mettre à jour dans le magasin de client local.  <br/> |
-|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Contient un tableau des dossiers utilisés dans les opérations de dossier.  <br/> |
+|[SetFolderField](setfolderfield.md) <br/> |Représente une mise à jour d’une propriété unique sur un dossier dans une [opération UpdateFolder](updatefolder-operation.md).  <br/> |
+|[Mise à jour (FolderSync)](update-foldersync.md) <br/> |Identifie un dossier unique à mettre à jour dans le magasin client local.  <br/> |
+|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Contient un tableau de dossiers utilisés dans les opérations de dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **SearchFolder** est utilisé pour les dossiers de recherche régulière et MicrosoftOfficeOutlook et Outlook Web Access visible dossiers de recherche. Pour un dossier de recherche soit visible pour Outlook et Outlook Web Access, le dossier doit être créé sous le dossier unique SearchFolders. 
+ **SearchFolder** est utilisé pour les dossiers de recherche standard et les dossiers de recherche visibles MicrosoftOfficeOutlook et Outlook Web Access. Pour qu’un dossier de recherche soit visible dans Outlook et Outlook Web Access, le dossier doit être créé sous le dossier unique SearchFolders. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -86,7 +86,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

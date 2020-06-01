@@ -1,5 +1,5 @@
 ---
-title: FindConversation Operation
+title: Opération FindConversation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2384908a-c203-45b6-98aa-efd6a4c23aac
-description: L’opération FindConversation énumère une liste des conversations dans un dossier.
-ms.openlocfilehash: 7ef2167fef96a5e8441c543cac5b6800534c2eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération FindConversation énumère une liste de conversations dans un dossier.
+ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756390"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462653"
 ---
-# <a name="findconversation-operation"></a>FindConversation Operation
+# <a name="findconversation-operation"></a>Opération FindConversation
 
-L’opération **FindConversation** énumère une liste des conversations dans un dossier. 
+L’opération **FindConversation** énumère une liste de conversations dans un dossier. 
   
 ## <a name="findconversation-request-example"></a>Exemple de requête FindConversation
 
 ### <a name="description"></a>Description
 
-Une demande de **FindConversation** l’exemple suivant montre comment créer une requête pour rechercher la première conversation dans le dossier boîte de réception. 
+L’exemple de requête **FindConversation** suivant indique comment créer une demande de recherche de la première conversation dans le dossier boîte de réception. 
   
 ### <a name="code"></a>Code
 
@@ -36,8 +36,8 @@ Une demande de **FindConversation** l’exemple suivant montre comment créer un
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -52,7 +52,7 @@ Une demande de **FindConversation** l’exemple suivant montre comment créer un
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -66,11 +66,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-## <a name="successful-findconversation-response-example"></a>Exemple de réponse FindConversation réussie
+## <a name="successful-findconversation-response-example"></a>Exemple de réponse FindConversation réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande de **FindConversation** . 
+L’exemple suivant montre une réponse réussie à une demande **FindConversation** . 
   
 ### <a name="code"></a>Code
 
@@ -83,18 +83,18 @@ L’exemple suivant montre une réponse positive à une demande de **FindConvers
                          MajorBuildNumber="91" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindConversationResponse ResponseClass="Success" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Conversations>
-        <t:Conversation xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <t:Conversation xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:ConversationId Id="AAQkADRlZDhjZDVlLzYtNDcyZi1i32hHpdc="/>
           <t:ConversationTopic>Have you heard about EWS?</t:ConversationTopic>
           <t:UniqueRecipients>
@@ -146,11 +146,11 @@ L’exemple suivant montre une réponse positive à une demande de **FindConvers
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-Les identificateurs d’élément et de conversation dans l’exemple ont été réduits afin de préserver la lisibilité.
+Les identificateurs d’élément et de conversation de l’exemple ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -168,7 +168,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [UniqueRecipients](uniquerecipients.md)
     
-- [Chaîne](string.md)
+- [String](string.md)
     
 - [GlobalUniqueRecipients](globaluniquerecipients.md)
     
@@ -190,7 +190,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [UnreadCount](unreadcount.md)
     
-- [Size](size.md)
+- [Taille](size.md)
     
 - [GlobalSize](globalsize.md)
     
@@ -204,9 +204,9 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [GlobalImportance](globalimportance.md)
     
-- [ItemId](itemids.md)
+- [ItemIds](itemids.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [GlobalItemIds](globalitemids.md)
     
@@ -214,7 +214,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à la demande **FindConversation** qui a été provoquée par une erreur de validation de schéma. 
+L’exemple suivant montre une réponse d’erreur à la demande **FindConversation** causée par une erreur de validation de schéma. 
   
 ### <a name="code"></a>Code
 
@@ -223,15 +223,15 @@ L’exemple suivant montre une réponse d’erreur à la demande **FindConversat
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Body>
     <s:Fault>
-      <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
-      <faultstring xml:lang="en-US">The request failed schema validation: The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'http://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</faultstring>
+      <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+      <faultstring xml:lang="en-US">The request failed schema validation: The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'https://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-        <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+        <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:LineNumber>14</t:LineNumber>
           <t:LinePosition>34</t:LinePosition>
-          <t:Violation>The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'http://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</t:Violation>
+          <t:Violation>The 'Id' attribute is invalid - The value 'inbox1' is invalid according to its datatype 'https://schemas.microsoft.com/exchange/services/2006/types:DistinguishedFolderIdNameType' - The Enumeration constraint failed.</t:Violation>
         </t:MessageXml>
       </detail>
     </s:Fault>
@@ -243,11 +243,11 @@ L’exemple suivant montre une réponse d’erreur à la demande **FindConversat
 
 Les éléments suivants sont utilisés dans la réponse d'erreur :
   
-- FaultCode
+- faultcode
     
-- FaultString
+- faultstring
     
-- Détails
+- detaille
     
 - [ResponseCode](responsecode.md)
     
@@ -273,5 +273,5 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

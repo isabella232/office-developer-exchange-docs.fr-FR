@@ -1,5 +1,5 @@
 ---
-title: Attribution (chaîne)
+title: Attribution (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
-description: L’élément Attribution spécifie une chaîne utilisée pour identifier un attribut d’un personnage.
-ms.openlocfilehash: 227379db8a77fb8cba7b4337e74d985bc5af65d2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément assigner spécifie une chaîne utilisée pour identifier un attribut d’un personnage.
+ms.openlocfilehash: 9a3243904c02c3bdeea7e4a4e7dcb240d4ad3563
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755347"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464160"
 ---
-# <a name="attribution-string"></a>Attribution (chaîne)
+# <a name="attribution-string"></a>Attribution (String)
 
-L’élément **Attribution** spécifie une chaîne utilisée pour identifier un attribut d’un personnage. 
+L' **élément** assigner spécifie une chaîne utilisée pour identifier un attribut d’un personnage. 
   
 ```XML
 <Attribution></Attribution>
 ```
 
- **xs : String**
+ **XS : String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des affectations pour sa **valeur** de l’élément associé.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **d’attribution** est une valeur de chaîne qui a une valeur de propriété d’attributs pour le contact de la source. 
+La valeur de texte de **l’élément** assertment est une valeur de type String qui attribut une valeur de propriété au contact source. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

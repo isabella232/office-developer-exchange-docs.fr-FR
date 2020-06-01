@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 34eab81c-d832-4925-9f76-d69f24b36931
-description: L’élément de langage (DiscoverySearchConfigurationType) identifie la culture à utiliser pour le format spécifiques à la culture des plages de dates. Il indique également la langue utilisée dans une requête de recherche.
-ms.openlocfilehash: 1e904ac4d7f525b2d12cfe83f0da33b9ed474066
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Language (DiscoverySearchConfigurationType) identifie la culture à utiliser pour le format spécifique à la culture des plages de dates. Il spécifie également la langue utilisée dans une requête de recherche.
+ms.openlocfilehash: 3cf85525147bec5d6dfc6fe2b2af5916d42c44be
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828197"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463285"
 ---
 # <a name="language-discoverysearchconfigurationtype"></a>Langue (DiscoverySearchConfigurationType)
 
-L’élément de **langage (DiscoverySearchConfigurationType)** identifie la culture à utiliser pour le format spécifiques à la culture des plages de dates. Il indique également la langue utilisée dans une requête de recherche. 
+L’élément **Language (DiscoverySearchConfigurationType)** identifie la culture à utiliser pour le format spécifique à la culture des plages de dates. Il spécifie également la langue utilisée dans une requête de recherche. 
   
 ```XML
 <Language />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,13 +40,13 @@ Aucun.
 
 [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **langage (DiscoverySearchConfigurationType)** est une culture ou une langue. 
+La valeur de texte de l’élément **Language (DiscoverySearchConfigurationType)** est une culture ou une langue. 
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément spécifie le format des plages de dates spécifiée dans l' [opération SearchMailboxes](searchmailboxes-operation.md) ou l' [opération SetHoldOnMailboxes](setholdonmailboxes-operation.md).
+Cet élément spécifie le format des plages de dates spécifiées dans l' [opération SearchMailboxes](searchmailboxes-operation.md) ou l' [opération SetHoldOnMailboxes](setholdonmailboxes-operation.md).
   
 Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).
   
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

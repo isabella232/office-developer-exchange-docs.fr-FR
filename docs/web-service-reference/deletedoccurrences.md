@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 736fb305-9528-4be8-ad37-65d7556edbf2
-description: L’élément DeletedOccurrences contient un tableau d’occurrences supprimés d’un élément de calendrier périodique.
-ms.openlocfilehash: 269c1176913cd642f93987462286dd1fee3a7339
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeletedOccurrences contient un tableau d’occurrences supprimées d’un élément de calendrier périodique.
+ms.openlocfilehash: be39ff95b5529481a36b7549e638818a20e01283
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755856"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463705"
 ---
 # <a name="deletedoccurrences"></a>DeletedOccurrences
 
-L’élément **DeletedOccurrences** contient un tableau d’occurrences supprimés d’un élément de calendrier périodique. 
+L’élément **DeletedOccurrences** contient un tableau d’occurrences supprimées d’un élément de calendrier périodique. 
   
 ```xml
 <DeletedOccurrences>
@@ -32,28 +32,28 @@ L’élément **DeletedOccurrences** contient un tableau d’occurrences supprim
  **NonEmptyArrayOfDeletedOccurrencesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DeletedOccurrence](deletedoccurrence.md) <br/> |Représente une occurrence d’un élément de calendrier périodique supprimée.  <br/> |
+|[DeletedOccurrence](deletedoccurrence.md) <br/> |Représente une occurrence supprimée d’un élément de calendrier périodique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément n’est valide que si la valeur de texte RecurringMaster est utilisée pour l’élément [CalendarItemType](calendaritemtype.md) . 
+Cet élément est valide si la valeur de texte RecurringMaster est utilisée pour l’élément [CalendarItemType](calendaritemtype.md) . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7034730-210d-4916-b992-dda342f890f8
 description: L’élément ExtendedProperties spécifie un tableau de propriétés supplémentaires.
-ms.openlocfilehash: b92108ecde63d4a3ac3cc80861c204c4d1950cc0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 36011e0252ed391daefab190d4da679fb3a3f856
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756296"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463096"
 ---
 # <a name="extendedproperties-nonemptyarrayofextendedpropertytype"></a>ExtendedProperties (NonEmptyArrayOfExtendedPropertyType)
 
@@ -28,23 +28,23 @@ L’élément **ExtendedProperties** spécifie un tableau de propriétés suppl�
  **NonEmptyArrayOfExtendedPropertyType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés MAPI étendues sur les dossiers et éléments.  <br/> |
+|[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés MAPI étendues des dossiers et des éléments.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ImGroup](imgroup.md) <br/> |Représente un groupe de messagerie instantané.  <br/> |
+|[Imgroup](imgroup.md) <br/> |Représente un groupe de messagerie instantanée.  <br/> |
 |[SearchPreviewItem](searchpreviewitem.md) <br/> |Spécifie les 256 premiers caractères d’un élément de boîte aux lettres pour l’aperçu sans ouvrir l’élément.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

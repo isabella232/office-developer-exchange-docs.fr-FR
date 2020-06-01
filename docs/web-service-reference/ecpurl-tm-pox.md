@@ -1,22 +1,22 @@
 ---
-title: EcpUrl-tm (POX)
+title: EcpUrl-TM (POX)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f35d5ac-55be-4d3a-ad03-7d6e9349d923
-description: L’élément EcpUrl-tm spécifie une URL partielle peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut servir à accéder à une liste de toutes les boîtes aux lettres de site dont un utilisateur à extension messagerie est un membre.
-ms.openlocfilehash: 786459cab98f8c169f768b6ef850792e8111761a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl-TM spécifie une URL partielle qui peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour accéder à une liste de toutes les boîtes aux lettres de site dont un utilisateur à extension messagerie est actuellement membre.
+ms.openlocfilehash: 8d4c787e2eeae5300cd0496f199ea71baace98ba
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756071"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463544"
 ---
-# <a name="ecpurl-tm-pox"></a>EcpUrl-tm (POX)
+# <a name="ecpurl-tm-pox"></a>EcpUrl-TM (POX)
 
-L’élément **EcpUrl-tm** spécifie une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut servir à accéder à une liste de toutes les boîtes aux lettres de site dont un utilisateur à extension messagerie est un membre. 
+L’élément **EcpUrl-TM** spécifie une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder à une liste de toutes les boîtes aux lettres de site dont un utilisateur à extension messagerie est actuellement membre. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,9 +24,9 @@ L’élément **EcpUrl-tm** spécifie une URL partielle peut être combinée ave
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
-[EcpUrl-tm (POX)](ecpurl-tm-pox.md)
+[EcpUrl-TM (POX)](ecpurl-tm-pox.md)
   
 ```XML
 <EcpUrl-tm/>
@@ -34,11 +34,11 @@ L’élément **EcpUrl-tm** spécifie une URL partielle peut être combinée ave
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder à une liste de boîtes aux lettres de site pour l’utilisateur. 
+La valeur de texte représente une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour accéder à une liste de boîtes aux lettres de site pour l’utilisateur. 
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl-tm** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl-TM** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

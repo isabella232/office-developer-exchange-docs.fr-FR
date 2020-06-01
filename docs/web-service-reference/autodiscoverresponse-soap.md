@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 203a5ac3-ebd0-4514-acbe-bc1c74638127
-description: L’élément AutodiscoverResponse (SOAP) représente l’élément de base pour toutes les réponses sont renvoyées par le service de découverte automatique.
-ms.openlocfilehash: b92a71deb77e2b1dee42d970e2dc43a56044487a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AutodiscoverResponse (SOAP) représente l’élément de base pour toutes les réponses renvoyées par le service de découverte automatique.
+ms.openlocfilehash: 81fd557578bde9552d07e24386c93903e44a9afa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755360"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463964"
 ---
 # <a name="autodiscoverresponse-soap"></a>AutodiscoverResponse (SOAP)
 
-L’élément **AutodiscoverResponse (SOAP)** représente l’élément de base pour toutes les réponses sont renvoyées par le service de découverte automatique. 
+L’élément **AutodiscoverResponse (SOAP)** représente l’élément de base pour toutes les réponses renvoyées par le service de découverte automatique. 
   
 - [AutodiscoverResponse (SOAP)](autodiscoverresponse-soap.md)
   
@@ -34,17 +34,17 @@ L’élément **AutodiscoverResponse (SOAP)** représente l’élément de base 
  **AutodiscoverResponse**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Représente une collection d’éléments de [Réponse utilisateur (SOAP)](userresponse-soap.md) .  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Représente une collection d’éléments [UserResponse (SOAP)](userresponse-soap.md) .  <br/> |
 |[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Représente une collection d’éléments [UserSettingError (SOAP)](usersettingerror-soap.md) .  <br/> |
 |[UserSettings (SOAP)](usersettings-soap.md) <br/> |Représente une collection d’éléments [UserSetting (SOAP)](usersetting-soap.md) .  <br/> |
    
@@ -54,15 +54,15 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

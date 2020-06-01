@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 919509f6-ee58-4eac-a689-c167a36349cc
-description: L’élément StringArrayAttributedValue spécifie une instance d’un tableau de données de chaîne d’un élément personnage.
-ms.openlocfilehash: 0d43ddeb454748232bfc02505f12f98310faba41
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément StringArrayAttributedValue spécifie une instance d’un tableau de données de type chaîne pour un élément Persona.
+ms.openlocfilehash: 7b52cfb373049337bdd6550f8ba593e96ddab4ae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838641"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463089"
 ---
 # <a name="stringarrayattributedvalue"></a>StringArrayAttributedValue
 
-L’élément **StringArrayAttributedValue** spécifie une instance d’un tableau de données de chaîne d’un élément personnage. 
+L’élément **StringArrayAttributedValue** spécifie une instance d’un tableau de données de type chaîne pour un élément Persona. 
   
 ```XML
 <StringArrayAttributedValue>
@@ -29,15 +29,15 @@ L’élément **StringArrayAttributedValue** spécifie une instance d’un table
  **StringArrayAttributedValueType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Valeur](value.md) | [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+[Value (valeur](value.md)  |  ) [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

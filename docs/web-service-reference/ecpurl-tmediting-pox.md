@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1fbc2ea9-3f94-441b-ab42-647326bf0021
-description: L’élément EcpUrl-tmEditing spécifie une URL partielle peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour modifier une boîte aux lettres de site existante.
-ms.openlocfilehash: 29b27ffe9ef3c18a3b6471ca4a42956a43a5aaa6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EcpUrl-tmEditing spécifie une URL partielle qui peut être combinée avec la valeur de l’élément EcpUrl (POX) pour générer une URL qui peut être utilisée pour modifier une boîte aux lettres de site existante.
+ms.openlocfilehash: 5d6c6b8e8f73d113cfde3570065435927ffbae05
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756072"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463537"
 ---
 # <a name="ecpurl-tmediting-pox"></a>EcpUrl-tmEditing (POX)
 
-L’élément **EcpUrl-tmEditing** spécifie une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour modifier une boîte aux lettres de site existante. 
+L’élément **EcpUrl-tmEditing** spécifie une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour modifier une boîte aux lettres de site existante. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,7 +24,7 @@ L’élément **EcpUrl-tmEditing** spécifie une URL partielle peut être combin
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [EcpUrl-tmEditing (POX)](ecpurl-tmediting-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **EcpUrl-tmEditing** spécifie une URL partielle peut être combin
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,24 +48,23 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une URL partielle peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour modifier une boîte aux lettres de site existante. La valeur de l’élément **EcpUrl-tmEditing** contient les paramètres contenus dans « < » et « > » caractères sont remplacés par le client, comme indiqué dans le tableau suivant. 
+La valeur de texte représente une URL partielle qui peut être combinée avec la valeur de l’élément [EcpUrl (POX)](ecpurl-pox.md) pour générer une URL qui peut être utilisée pour modifier une boîte aux lettres de site existante. La valeur de l’élément **EcpUrl-tmEditing** contient les paramètres contenus dans les caractères « < » et « > » qui sont remplacés par le client, comme indiqué dans le tableau suivant. 
   
-|**Paramètre**|**Remplacer par**|
+|**Parameter**|**Remplacer par**|
 |:-----|:-----|
-| 
-  _Id_ <br/> |L’adresse de messagerie SMTP ou la X500 le nom de la boîte aux lettres de site unique.  <br/> |
+| _Id_ <br/> |Adresse de messagerie SMTP ou nom unique X500 de la boîte aux lettres de site.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl-tmEditing** est un élément enfant facultatif de l’élément de **protocole** . 
+L’élément **EcpUrl-tmEditing** est un élément enfant facultatif de l’élément **Protocol** . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 922c8b21-04a9-4229-b48c-187c3095422e
-description: L’élément EmailAddress est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: cf5571dd22a7f938097b6c38a8a3531c4ce0891a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EmailAddress est destiné uniquement à un usage interne.
+ms.openlocfilehash: 30af442a6716efdb45473d83a6e0dbf0802b49ec
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756098"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463467"
 ---
 # <a name="emailaddress-emailaddress"></a>EmailAddress (EmailAddress)
 
-L’élément **EmailAddress** est destiné à une utilisation interne uniquement. 
+L’élément **EmailAddress** est destiné uniquement à un usage interne. 
   
 ```XML
 <EmailAddress />
@@ -25,11 +25,11 @@ L’élément **EmailAddress** est destiné à une utilisation interne uniquemen
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

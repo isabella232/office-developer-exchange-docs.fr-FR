@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 115d4a5d-0c90-45d5-a3a3-4e61d80df78a
-description: L’élément CreateUserConfigurationResponse définit une réponse à une demande CreateUserConfiguration unique.
-ms.openlocfilehash: b2ccbe6468481522536b4f0c3d5a4183b9887add
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreateUserConfigurationResponse définit une réponse à une requête CreateUserConfiguration unique.
+ms.openlocfilehash: d1b3e2a0ab156c5175f9c1e676866690c33ace9f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755752"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463768"
 ---
 # <a name="createuserconfigurationresponse"></a>CreateUserConfigurationResponse
 
-L’élément **CreateUserConfigurationResponse** définit une réponse à une demande **CreateUserConfiguration** unique. 
+L’élément **CreateUserConfigurationResponse** définit une réponse à une requête **CreateUserConfiguration** unique. 
   
 ```xml
 <CreateUserConfigurationResponse>
@@ -32,17 +32,17 @@ L’élément **CreateUserConfigurationResponse** définit une réponse à une d
  **CreateUserConfigurationResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

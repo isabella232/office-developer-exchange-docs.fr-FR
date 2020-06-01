@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c55b7bf5-3702-4923-b7c9-b0928cde1de2
-description: L’élément UMUrl Spécifie l’URL de l’instance du service Web de messagerie unifiée pour un utilisateur à extension messagerie meilleures.
-ms.openlocfilehash: f6259430bf9c53c8d0670cdab0dcec4cc6f18213
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UMUrl spécifie l’URL de la meilleure instance du service Web de messagerie unifiée pour un utilisateur à extension messagerie.
+ms.openlocfilehash: c80f874e13ac3909ee51bbc63dded100a1e41524
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838792"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463026"
 ---
 # <a name="umurl-pox"></a>UMUrl (POX)
 
-L’élément **UMUrl** Spécifie l’URL de l’instance du service Web de messagerie unifiée pour un utilisateur à extension messagerie meilleures. 
+L’élément **UMUrl** spécifie l’URL de la meilleure instance du service Web de messagerie unifiée pour un utilisateur à extension messagerie. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **UMUrl** Spécifie l’URL de l’instance du service Web de mess
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [UMUrl (POX)](umurl-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **UMUrl** Spécifie l’URL de l’instance du service Web de mess
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie l’URL du serveur Exchange qui a le rôle de serveur de messagerie unifiée est installé pour une topologie Exchange.
+La valeur texte spécifie l’URL du serveur Exchange sur lequel le rôle serveur de messagerie unifiée est installé pour une topologie Exchange.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

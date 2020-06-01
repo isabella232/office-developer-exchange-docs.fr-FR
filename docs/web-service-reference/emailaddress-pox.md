@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 0e9836a8-ccc9-4cc0-aa6a-9b299c5841d0
 description: L’élément EMailAddress identifie l’adresse de messagerie de l’utilisateur.
-ms.openlocfilehash: 7675ef18565d27db62f5662e651e982176001815
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 207de9acd62782d651055d6f6dab12c8ebe6e807
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756102"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463439"
 ---
 # <a name="emailaddress-pox"></a>EMailAddress (POX)
 
@@ -30,11 +30,11 @@ L’élément **EMailAddress** identifie l’adresse de messagerie de l’utilis
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[Demande (POX)](request-pox.md) <br/> |Contient la demande au service de découverte automatique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de text représente l’adresse de messagerie d’un utilisateur.
+La valeur texte représente l’adresse de messagerie d’un utilisateur.
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,5 +56,5 @@ L’élément [LegacyDN (POX)](legacydn-pox.md) fournit un élément de remplace
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 76a2520c-f453-4fd7-b3eb-1c5f4666680a
 description: L’élément NotesFolderPermissionLevel contient les autorisations pour le dossier Notes par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: dd8644210692e0c342079d055ddf00b8d9283d7d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 205802592a1fc01451b4fc497e9e0c4c66afd478
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828552"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462625"
 ---
 # <a name="notesfolderpermissionlevel"></a>NotesFolderPermissionLevel
 
@@ -32,11 +32,11 @@ L’élément **NotesFolderPermissionLevel** contient les autorisations pour le 
  **DelegateFolderPermissionLevelType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres au niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs de texte qui représentent les niveaux d’autorisation.
   
@@ -56,11 +56,11 @@ Le tableau suivant répertorie les valeurs de texte qui représentent les niveau
 
 |**Niveau d’autorisation**|**Description**|
 |:-----|:-----|
-|None  <br/> |L’utilisateur délégué a des autorisations d’accès vers le dossier Notes.  <br/> |
-|Reviewer  <br/> |L’utilisateur délégué peut lire des éléments dans le dossier Notes.  <br/> |
-|Auteur  <br/> |L’utilisateur délégué pouvant lire et créer des éléments dans le dossier Notes.  <br/> |
-|Editor  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier Notes.  <br/> |
-|Personnalisé  <br/> |L’utilisateur délégué dispose des autorisations d’accès personnalisées dans le dossier Notes.  <br/> |
+|Aucun  <br/> |L’utilisateur délégué ne dispose pas des autorisations d’accès au dossier Notes.  <br/> |
+|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments dans le dossier Notes.  <br/> |
+|Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier Notes.  <br/> |
+|Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier Notes.  <br/> |
+|Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier Notes.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -87,5 +87,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Ajout de délégués](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

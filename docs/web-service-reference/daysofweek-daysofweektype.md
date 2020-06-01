@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c56f997d-28f3-4590-97b0-cb71f016dbe4
-description: L’élément DaysOfWeek indique les jours de la semaine qui sont utilisés dans l’élément périodicités.
-ms.openlocfilehash: 0b730ff5a7bc9aa6b324fc080022d056c5342296
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DaysOfWeek décrit les jours de la semaine utilisés dans les périodicités des éléments.
+ms.openlocfilehash: 3036cbe3f93ff87b9a4d5dc7bf164e3e952b06fd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755829"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463719"
 ---
 # <a name="daysofweek-daysofweektype"></a>DaysOfWeek (DaysOfWeekType)
 
-L’élément **DaysOfWeek** indique les jours de la semaine qui sont utilisés dans l’élément périodicités. 
+L’élément **DaysOfWeek** décrit les jours de la semaine utilisés dans les périodicités des éléments. 
   
 ```XML
 <DaysOfWeek/>
@@ -31,11 +31,11 @@ L’élément **DaysOfWeek** indique les jours de la semaine qui sont utilisés 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,32 +47,32 @@ Aucun.
 |:-----|:-----|
 |[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Décrit une périodicité hebdomadaire.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
   
-- Dimanche    
+- Warm    
 - Lundi    
 - Mardi    
 - Mercredi    
 - Jeudi    
 - Vendredi    
 - Samedi    
-- Day (cette valeur n’est pas valide pour une périodicité hebdomadaire)    
-- WeekDay (cette valeur n’est pas valide pour une périodicité hebdomadaire)    
-- WeekendDay (cette valeur n’est pas valide pour une périodicité hebdomadaire)
+- Day (cette valeur n’est pas valide pour un modèle de périodicité hebdomadaire)    
+- Weekday (cette valeur n’est pas valide pour un modèle de périodicité hebdomadaire)    
+- WeekendDay (cette valeur n’est pas valide pour un modèle de périodicité hebdomadaire)
     
-Une périodicité hebdomadaire peut contenir plusieurs valeurs. Les valeurs sont séparées par un espace. Par exemple, pour une périodicité hebdomadaire mardi et le jeudi, la valeur de texte sera « Mardi jeudi ».
+Un modèle de périodicité hebdomadaire peut contenir plusieurs valeurs. Les valeurs sont séparées par un espace. Par exemple, pour une périodicité hebdomadaire le mardi et le jeudi, la valeur du texte sera « mardi jeudi ».
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

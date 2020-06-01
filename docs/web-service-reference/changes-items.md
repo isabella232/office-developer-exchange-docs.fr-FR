@@ -1,5 +1,5 @@
 ---
-title: Modifications (éléments)
+title: Changes (éléments)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3139fef-0455-4b89-babd-5d6783b50a58
-description: L’élément de modifications contient un tableau de séquence de types de modification qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.
-ms.openlocfilehash: 8e38597276e3e3051a5c1494619d3220280e401f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément changes contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.
+ms.openlocfilehash: 6fda7b5602f172bae84ad7b211db2811def4f883
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755503"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463264"
 ---
-# <a name="changes-items"></a>Modifications (éléments)
+# <a name="changes-items"></a>Changes (éléments)
 
-L’élément de **modifications** contient un tableau de séquence de types de modification qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange. 
+L’élément **changes** contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange. 
   
 [SyncFolderItemsResponse](syncfolderitemsresponse.md)
   
@@ -29,7 +29,7 @@ L’élément de **modifications** contient un tableau de séquence de types de 
   
 [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
   
-[Modifications (éléments)](changes-items.md)
+[Changes (éléments)](changes-items.md)
   
 ```xml
 <Changes>
@@ -42,38 +42,38 @@ L’élément de **modifications** contient un tableau de séquence de types de 
  **SyncFolderItemsChangesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin du client local.  <br/> |
+|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin client local.  <br/> |
 |[Mise à jour (ItemSync)](update-itemsync.md) <br/> |Identifie un élément unique à mettre à jour dans le magasin de client local.  <br/> |
-|[Supprimer (ItemSync)](delete-itemsync.md) <br/> |Identifie un seul élément à supprimer dans le magasin de client local.  <br/> |
-|[ReadFlagChange](readflagchange.md) <br/> |Renvoyées dans les réponses [SyncFolderItems opération](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule.  <br/> |
+|[Supprimer (ItemSync)](delete-itemsync.md) <br/> |Identifie un élément unique à supprimer dans le magasin client local.  <br/> |
+|[ReadFlagChange](readflagchange.md) <br/> |Renvoyée dans les réponses d' [opération SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande [d’opération SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
+|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande d' [opération SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 94b7083c-60cf-478b-a9af-a88f7acb30fb
-description: L’élément FindConversation définit une requête pour rechercher les conversations dans une boîte aux lettres.
-ms.openlocfilehash: 990e15f468f836d51977329c524acb439014da95
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FindConversation définit une requête pour rechercher des conversations dans une boîte aux lettres.
+ms.openlocfilehash: 98d692132ed9375d981c95d24600b0e2c4b1d8c1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756381"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462646"
 ---
 # <a name="findconversation"></a>FindConversation
 
-L’élément **FindConversation** définit une requête pour rechercher les conversations dans une boîte aux lettres. 
+L’élément **FindConversation** définit une requête pour rechercher des conversations dans une boîte aux lettres. 
   
 [FindConversation](findconversation.md)
   
@@ -40,7 +40,7 @@ L’élément **FindConversation** définit une requête pour rechercher les con
  **FindConversationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -48,46 +48,46 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Traversée du contenu  <br/> |Identifie les types de parcours sous-arborescence. Cet attribut est facultatif.  <br/> |
-|AffichageFiltrer  <br/> |Identifie les filtres d’affichage types. Cet attribut est facultatif.  <br/> |
+|Traversée  <br/> |Identifie les types de parcours de sous-arborescence. Cet attribut est facultatif.  <br/> |
+|ViewFilter  <br/> |Identifie les filtres d’affichage de types. Cet attribut est facultatif.  <br/> |
    
-#### <a name="traversal-attribute-values"></a>Valeurs d’attribut Traversal
+#### <a name="traversal-attribute-values"></a>Valeurs d’attribut transversal
 
 ****
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Peu profond  <br/> |Indique un parcours en surface.  <br/> |
-|Profond  <br/> |Indique un parcours en profondeur.  <br/> |
+|Partielle  <br/> |Indique un parcours superficiel.  <br/> |
+|Développée  <br/> |Indique un parcours approfondi.  <br/> |
    
-#### <a name="viewfilter-attribute-values"></a>Valeurs des attributs AffichageFiltrer
+#### <a name="viewfilter-attribute-values"></a>Valeurs d’attribut ViewFilter
 
 ****
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Tous  <br/> |Recherchez toutes les conversations.  <br/> |
-|Marqué d’un indicateur  <br/> |Rechercher les conversations avec indicateur.  <br/> |
-|HasAttachment  <br/> |Rechercher les conversations avec les pièces jointes.  <br/> |
-|ToOrCcMe  <br/> |Rechercher les conversations adressé ou cc serait Me.  <br/> |
-|Unread  <br/> |Rechercher les conversations non lues.  <br/> |
+|Tous  <br/> |Rechercher toutes les conversations.  <br/> |
+|Marqué d’un indicateur  <br/> |Rechercher des conversations avec indicateur.  <br/> |
+|HasAttachment  <br/> |Rechercher des conversations avec des pièces jointes.  <br/> |
+|ToOrCcMe  <br/> |Rechercher les conversations adressées ou CC avec moi.  <br/> |
+|Non lus  <br/> |Rechercher des conversations non lues.  <br/> |
 |TaskActive  <br/> |Rechercher des tâches actives.  <br/> |
-|TaskOverdue  <br/> |Rechercher les tâches en retard.  <br/> |
-|TaskCompleted  <br/> |Rechercher les tâches terminées.  <br/> |
-|NoClutter  <br/> |Réservé à un usage interne  <br/> |
-|Encombrement  <br/> |Réservé à un usage interne  <br/> |
+|TaskOverdue  <br/> |Recherchez les tâches en retard.  <br/> |
+|TaskCompleted  <br/> |Recherchez les tâches terminées.  <br/> |
+|Nodésordre  <br/> |À usage interne uniquement.  <br/> |
+|Courrier non trié  <br/> |À usage interne uniquement.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[IndexedPageItemView](indexedpageitemview.md) <br/> |Décrit comment paginée conversation les informations sont retournées.  <br/> |
-|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Spécifie la condition qui sert à identifier la fin d’une recherche, l’index de début d’une recherche, les entrées maximum pour renvoyer et les instructions de recherche pour une recherche **FindItem** ou **FindConversation** .  <br/> |
-|[SortOrder](sortorder.md) <br/> |Définit comment les éléments sont triés dans une requête [d’opération FindConversation](findconversation-operation.md) . La propriété **conversation : LastDeliveryTime** est la seule propriété qui est pris en charge pour le tri lors de l’opération **FindConversation** est utilisée.  <br/> |
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Identifie le dossier pour rechercher des conversations.  <br/> |
-|[MailboxScope](mailboxscope.md) <br/> |Spécifie si une recherche ou extraction d’une conversation doit couvrir la boîte aux lettres principale, boîte aux lettres d’archivage ou les deux principal et archiver des boîtes aux lettres.  <br/> |
+|[IndexedPageItemView](indexedpageitemview.md) <br/> |Indique comment les informations de conversation paginée sont renvoyées.  <br/> |
+|[SeekToConditionPageItemView](seektoconditionpageitemview.md) <br/> |Spécifie la condition qui est utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, les entrées maximales à renvoyer et l’orientation de la recherche pour une recherche **FindItem** ou **FindConversation** .  <br/> |
+|[SortOrder](sortorder.md) <br/> |Définit le mode de tri des éléments dans une demande d' [opération FindConversation](findconversation-operation.md) . La propriété **conversation : LastDeliveryTime** est la seule propriété prise en charge pour le tri lorsque l’opération **FindConversation** est utilisée.  <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |Identifie le dossier dans lequel Rechercher des conversations.  <br/> |
+|[MailboxScope](mailboxscope.md) <br/> |Indique si une recherche ou une récupération d’une conversation doit s’étendre sur la boîte aux lettres principale, la boîte aux lettres d’archivage ou les deux.  <br/> |
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Spécifie une chaîne de requête de boîte aux lettres basée sur la syntaxe de requête avancée (AQS).  <br/> |
-|[ConversationShape](conversationshape.md) <br/> |Identifie la propriété définie pour retourner une réponse de [l’opération FindConversation](findconversation-operation.md) .  <br/> |
+|[ConversationShape](conversationshape.md) <br/> |Identifie le jeu de propriétés à renvoyer dans une réponse d' [opération FindConversation](findconversation-operation.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -101,20 +101,20 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[FindConversation Operation](findconversation-operation.md)
+[Opération FindConversation](findconversation-operation.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

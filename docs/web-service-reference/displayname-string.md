@@ -1,5 +1,5 @@
 ---
-title: DisplayName (chaîne)
+title: DisplayName (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e7efbbe1-6629-4d11-bed1-ed899e3f9d77
-description: L’élément DisplayName définit le nom complet d’un dossier, contact, liste de distribution, délégué utilisateur, emplacement ou règle.
-ms.openlocfilehash: 53f4e083d9e6617206e383d4408e08ed7ea0fe08
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DisplayName définit le nom complet d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué, d’un emplacement ou d’une règle.
+ms.openlocfilehash: 9b566ec1938ec206e45cddf9c7f00083af2d8a9c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755990"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463615"
 ---
-# <a name="displayname-string"></a>DisplayName (chaîne)
+# <a name="displayname-string"></a>DisplayName (String)
 
-L’élément **DisplayName** définit le nom complet d’un dossier, contact, liste de distribution, délégué utilisateur, emplacement ou règle. 
+L’élément **DisplayName** définit le nom complet d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué, d’un emplacement ou d’une règle. 
   
 ```XML
 <DisplayName/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,14 +49,14 @@ Aucun.
 |[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
 |[Folder](folder.md) <br/> |Représente un dossier dans une boîte aux lettres.  <br/> |
-|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle de boîte aux lettres d’un utilisateur.  <br/> |
+|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle dans la boîte aux lettres d’un utilisateur.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche dans une boîte aux lettres.  <br/> |
-|[Dossier tâches](tasksfolder.md) <br/> |Représente un dossier de tâches dans une boîte aux lettres.  <br/> |
-|[Nom d’utilisateur](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches dans une boîte aux lettres.  <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente le nom complet est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente le nom complet est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment créer un nouveau dossier et la valeur DisplayName du dossier à « TestFolder ».
+Cet exemple montre comment créer un nouveau dossier et définir le DisplayName du dossier sur « TestFolder ».
   
 ```cs
 FolderType folder = new FolderType();
@@ -75,7 +75,7 @@ folder.DisplayName = "TestFolder";
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 76a7ea58-a44f-49b8-baba-d21302d742ad
-description: L’élément MoreEvents indique s’il existe plusieurs événements dans la file d’attente pour être remis au client.
-ms.openlocfilehash: cc3f7ed3b4b5f5ce27a9d45d508506bfa62e5086
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MoreEvents indique s’il y a plus d’événements dans la file d’attente à remettre au client.
+ms.openlocfilehash: fd12dd2e2e64ce1711e553ba5eb29bd0eb64c892
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828489"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462730"
 ---
 # <a name="moreevents"></a>MoreEvents
 
-L’élément **MoreEvents** indique s’il existe plusieurs événements dans la file d’attente pour être remis au client. 
+L’élément **MoreEvents** indique s’il y a plus d’événements dans la file d’attente à remettre au client. 
   
 ```xml
 <MoreEvents/>
@@ -30,11 +30,11 @@ L’élément **MoreEvents** indique s’il existe plusieurs événements dans l
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,17 +44,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.  <br/> |
+|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une valeur de type Boolean. La valeur **true** indique que plusieurs événements sont dans la file d’attente. La valeur **false** indique que plus aucun événement ne se trouvent dans la file d’attente. Cette propriété est en lecture seule. 
+La valeur de texte représente une valeur de type Boolean. La valeur **true** indique que d’autres événements se trouvent dans la file d’attente. La valeur **false** indique qu’aucun autre événement ne se trouve dans la file d’attente. Cette propriété est en lecture seule. 
   
 ## <a name="remarks"></a>Remarques
 
-Dans le cas des notifications de type Pull, la valeur **true** dans cet élément indique au client qu’une autre demande GetEvents doit être émise pour obtenir les autres événements. En supposant que les spécifications client nécessitent latence minimale pour les notifications d’événements, les demandes GetEvents devraient continuer dans une suite continue jusqu'à ce qu’un **faux** valeur **MoreEvents** est retourné. 
+Dans le cas des notifications de type pull, une valeur **true** dans cet élément indique au client qu’une autre demande GetEvents doit être émise pour obtenir les autres événements. En supposant que les spécifications client requièrent une latence minimale pour les notifications d’événement, les demandes GetEvents doivent continuer en succession continue jusqu’à ce qu’une valeur **false** **MoreEvents** soit renvoyée. 
   
-Dans le cas de notifications Push, la valeur **true** pour **MoreEvents** indique au client qu’un autre notification demande sera envoyée au client pour fournir les autres événements. Similaire aux notifications de type Pull, ces demandes suivis continuera à la suite continue jusqu'à ce que la file d’attente sur le serveur d’accès au Client est vide. 
+Dans le cas des notifications de type transmission, la valeur **true** pour **MoreEvents** indique au client qu’une autre demande de notification sera envoyée au client pour fournir les autres événements. De la même manière que pour les notifications de type pull, ces demandes de suivi se poursuivent en succession continue jusqu’à ce que la file d’attente d’événements sur le serveur d’accès au client soit vide. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8534f44b-a5af-4a9f-9621-23a3eff5f9d8
-description: L’élément ContactsView définit une recherche des éléments de contact basées sur des noms d’affichage alphabétiques.
-ms.openlocfilehash: e578eb4dd0042b8c478e883c7fa54d7f2e984229
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContactsView définit une recherche d’éléments de contact en fonction des noms d’affichage alphabétiques.
+ms.openlocfilehash: 23c3fe13c44cdd0e5a054ecb3378bc3d633e55aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755578"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463817"
 ---
 # <a name="contactsview"></a>ContactsView
 
-L’élément **ContactsView** définit une recherche des éléments de contact basées sur des noms d’affichage alphabétiques. 
+L’élément **ContactsView** définit une recherche d’éléments de contact en fonction des noms d’affichage alphabétiques. 
   
 [FindItem](finditem.md)
   
@@ -35,15 +35,15 @@ L’élément **ContactsView** définit une recherche des éléments de contact 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**MaxEntriesReturned** <br/> |Indique le nombre maximal de résultats à retourner dans la réponse [FindItem](finditem.md) .  <br/> |
-|**InitialName** <br/> |Définit le premier nom dans la liste des contacts à renvoyer dans la réponse. Si le nom initial spécifié n’est pas dans la liste des contacts, le nom suivant alphabétique tel que défini par le contexte culturel s’afficheront, sauf si le nom suivant vient après **FinalName**. Si l’attribut **InitialName** est omis, la réponse contient une liste des contacts qui commence par le premier nom dans la liste des contacts. Cet attribut est facultatif.  <br/> |
-|**FinalName** <br/> |Définit le nom de famille dans la liste des contacts à renvoyer dans la réponse. Si l’attribut **FinalName** est omis, la réponse contient tous les contacts suivants dans l’ordre de tri spécifié. Si le nom de la dernière spécifié n’est pas dans la liste des contacts, le nom suivant alphabétique tel que défini par le contexte culturel sera exclu.  <br/><br/>Par exemple, si FinalName = « Name », mais nom n’est pas dans la liste de contacts, contacts disposant d’affichent les noms de nom1 ou nom ne seront pas inclus.  <br/><br/>Cet attribut est facultatif.  <br/> |
+|**MaxEntriesReturned** <br/> |Décrit le nombre maximal de résultats à renvoyer dans la réponse [FindItem](finditem.md) .  <br/> |
+|**InitialName** <br/> |Définit le premier nom de la liste de contacts à renvoyer dans la réponse. Si le nom d’origine spécifié ne figure pas dans la liste de contacts, le nom alphabétique suivant défini par le contexte culturel est renvoyé, sauf si le nom suivant vient après **FinalName**. Si l’attribut **InitialName** est omis, la réponse contient une liste de contacts qui commence par le prénom dans la liste des contacts. Cet attribut est facultatif.  <br/> |
+|**FinalName** <br/> |Définit le nom de famille de la liste de contacts à renvoyer dans la réponse. Si l’attribut **FinalName** est omis, la réponse contiendra tous les contacts suivants dans l’ordre de tri spécifié. Si le nom final spécifié ne figure pas dans la liste de contacts, le nom alphabétique suivant défini par le contexte culturel est exclu.  <br/><br/>Par exemple, si FinalName = « nom », mais que le nom ne figure pas dans la liste de contacts, les contacts dont le nom d’affichage est « name1 » ne seront pas inclus.  <br/><br/>Cet attribut est facultatif.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,7 +53,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.<br/><br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.<br/><br/> Voici l’expression XPath de cet élément :  <br/>  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,16 +61,16 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-Une demande de l’exemple suivant montre comment rechercher les trois premiers contacts commençant par le contact dont le nom complet de Kelly Rollin.
+L’exemple de requête suivant montre comment rechercher les trois premiers contacts en commençant par le contact dont le nom d’affichage est Barbara Mayer.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItem Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -95,13 +95,13 @@ Une demande de l’exemple suivant montre comment rechercher les trois premiers 
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 - [Opération FindItem](finditem-operation.md)
-- [Recherche d’éléments](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Recherche d’éléments](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ddeb11db-797d-4939-91d5-3e44be5f0778
 description: L’élément HasBlockedImages spécifie une valeur de type Boolean qui indique si l’élément a bloqué des images.
-ms.openlocfilehash: fbe9967c898016aeef27e3c86e8a1cf603bd87fc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 370ab4b12ae841815faa344b2fd3a6d3ddc16bcb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827795"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462793"
 ---
 # <a name="hasblockedimages"></a>HasBlockedImages
 
@@ -26,11 +26,11 @@ L’élément **HasBlockedImages** spécifie une valeur de type Boolean qui indi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Item](item.md) <br/> |Représente un élément générique dans la banque d’informations Exchange.  <br/> |
+|[Item](item.md) <br/> |Représente un élément générique dans la Banque d’Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **HasBlockedImages** indique que l’élément a bloqué des images. La valeur **false** indique que l’élément ne dispose pas des images bloquées. 
+Une valeur de texte de **true** pour l’élément **HasBlockedImages** indique que l’élément a bloqué des images. La valeur **false** indique que l’élément n’a pas d’images bloquées. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

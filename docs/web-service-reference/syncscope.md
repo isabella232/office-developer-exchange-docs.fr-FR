@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e0ca231f-0374-4844-8d4c-ada8da167920
-description: L’élément SyncScope indique si uniquement les éléments ou les éléments et les informations associées au dossier sont renvoyés dans une réponse de la synchronisation.
-ms.openlocfilehash: 847c0244a8847364e29ea584b0c0b721f00d3064
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SyncScope spécifie si les éléments ou les éléments et les informations associés uniquement sont renvoyés dans une réponse de synchronisation.
+ms.openlocfilehash: 5ede26204c823a452189222075c784f24e98d188
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838666"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463033"
 ---
 # <a name="syncscope"></a>SyncScope
 
-L’élément **SyncScope** indique si uniquement les éléments ou les éléments et les informations associées au dossier sont renvoyés dans une réponse de la synchronisation. 
+L’élément **SyncScope** spécifie si les éléments ou les éléments et les informations associés uniquement sont renvoyés dans une réponse de synchronisation. 
   
 ```xml
 <SyncScope>NormalItems or NormalAndAssociatedItems</SyncScope>
@@ -30,11 +30,11 @@ L’élément **SyncScope** indique si uniquement les éléments ou les élémen
  **SyncFolderItemsScopeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,30 +44,30 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |L’élément qui définit une demande pour synchroniser des éléments dans un dossier de la banque Exchange.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/> / SyncFolderItems  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Élément qui définit une demande de synchronisation des éléments dans un dossier de la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/> /SyncFolderItems  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **SyncScope** . 
   
-**Valeurs des éléments SyncScope**
+**Valeurs de l’élément SyncScope**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|NormalItems  <br/> |Spécifie que seuls les éléments dans le dossier sont retournés dans une réponse de la synchronisation.  <br/> |
-|NormalAndAssociatedItems  <br/> |Spécifie que les deux éléments dans le dossier et les informations associées au dossier sont retournés dans une réponse de la synchronisation.  <br/> |
+|NormalItems  <br/> |Spécifie que seuls les éléments du dossier sont renvoyés dans une réponse de synchronisation.  <br/> |
+|NormalAndAssociatedItems  <br/> |Spécifie que les deux éléments dans les informations associées au dossier et au dossier sont renvoyés dans une réponse de synchronisation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

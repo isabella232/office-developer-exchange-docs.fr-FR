@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2a60c89c-9c21-4041-9593-b244ac1608ef
-description: L’élément BeginTime Spécifie le début de la période à interroger les rappels.
-ms.openlocfilehash: c6204dc0395e012cf511e6183856215b0d5ea6da
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BeginTime spécifie le début de la période de recherche des rappels.
+ms.openlocfilehash: 4f926b8e4931c187cd4d5b97d6182d609bc15a1b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755382"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463376"
 ---
 # <a name="begintime"></a>BeginTime
 
-L’élément **BeginTime** Spécifie le début de la période à interroger les rappels. 
+L’élément **BeginTime** spécifie le début de la période de recherche des rappels. 
   
 ```XML
 <BeginTime/>
@@ -26,11 +26,11 @@ L’élément **BeginTime** Spécifie le début de la période à interroger les
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [GetReminders](getreminders.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **BeginTime** est que l’heure de début de l’élément le rappel est destiné. 
+La valeur de texte de l’élément **BeginTime** correspond à l’heure de début de l’élément auquel la relance est destinée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

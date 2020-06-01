@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9bd9ac1-7db3-44ea-9117-18488dddde15
-description: L’élément AssistantPhoneNumbers spécifie un tableau des numéros de téléphone de l’assistant et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 747835102af28d94d60b763fdbc5b2ea0947d47e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AssistantPhoneNumbers spécifie un tableau de numéros de téléphone de l’Assistant et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: a72c8d646750b5d7cf9ebca13a51f4df84bf7bdb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755331"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44464482"
 ---
 # <a name="assistantphonenumbers"></a>AssistantPhoneNumbers
 
-L’élément **AssistantPhoneNumbers** spécifie un tableau des numéros de téléphone de l’assistant et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **AssistantPhoneNumbers** spécifie un tableau de numéros de téléphone de l’Assistant et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <AssistantPhoneNumbers>
@@ -28,11 +28,11 @@ L’élément **AssistantPhoneNumbers** spécifie un tableau des numéros de té
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

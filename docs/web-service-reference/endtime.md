@@ -1,5 +1,5 @@
 ---
-title: Heure de fin
+title: EndTime
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 82e4ef4f-a557-4044-b9b7-d91622f4ac55
-description: L’élément EndTime représente la fin d’un intervalle de temps.
-ms.openlocfilehash: 7d3d186618a7bcc05ad82532e13e03d2e67a0e40
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EndTime représente la fin d’une plage de temps.
+ms.openlocfilehash: 5a30b32ecfeafe582cd07dd662aacb0a960257c9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756196"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462991"
 ---
-# <a name="endtime"></a>Heure de fin
+# <a name="endtime"></a>EndTime
 
-L’élément **EndTime** représente la fin d’un intervalle de temps. 
+L’élément **EndTime** représente la fin d’une plage de temps. 
   
 ```xml
 <EndTime>dateTime</EndTime>
@@ -30,11 +30,11 @@ L’élément **EndTime** représente la fin d’un intervalle de temps.
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,23 +44,23 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Durée](timewindow.md) <br/> |Identifie l’intervalle de temps interrogé pour les informations de disponibilité utilisateur.<br/><br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions/TimeWindow` <br/> |
-|[DetailedSuggestionsWindow](detailedsuggestionswindow.md) <br/> |Identifie l’intervalle de temps qui est interrogé pour des informations détaillées sur les heures de réunion suggérée.<br/><br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions/DetailedSuggestionsWindow`.  <br/> |
-|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> | Spécifie la durée pour laquelle le statut d’absence du bureau (OOF) est activé si l’élément [OofState](oofstate.md) est défini sur **planifiée**.  <br/><br/>  Les expressions XPath possibles de cet élément sont les suivantes :<br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/Duration` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/Duration` <br/> |
-|[Occurrence](occurrence.md) <br/> |Représente une seule occurrence de modification d’un élément de calendrier périodique.  <br/> |
-|[CalendarEvent](calendarevent.md) <br/> |Représente une occurrence d’élément de calendrier unique. Il est utilisé pour les recherches de disponibilité. L’élément **EndTime** est requis dans l’élément **CalendarEvent** . L’élément de **l’heure de fin** dans l’élément **CalendarEvent** est unique pour le type **CalendarEvent** .<br/><br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[TimeWindow](timewindow.md) <br/> |Identifie la période interrogée pour les informations de disponibilité de l’utilisateur.<br/><br/> Voici l’expression XPath de cet élément :<br/><br/>  `/GetUserAvailabilityRequest/FreeBusyViewOptions/TimeWindow` <br/> |
+|[DetailedSuggestionsWindow](detailedsuggestionswindow.md) <br/> |Identifie l’intervalle de temps interrogé pour obtenir des informations détaillées sur les heures de réunion suggérées.<br/><br/> Voici l’expression XPath de cet élément :<br/><br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions/DetailedSuggestionsWindow`.  <br/> |
+|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> | Spécifie la durée pendant laquelle l’État absent (absent du bureau) est activé si l’élément [OofState](oofstate.md) est défini sur **Planifié**.  <br/><br/>  Voici les expressions XPath possibles pour cet élément :<br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/Duration` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/Duration` <br/> |
+|[Réunions](occurrence.md) <br/> |Représente une occurrence modifiée unique d’un élément de calendrier périodique.  <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |Représente une occurrence d’élément de calendrier unique. Cette information est utilisée pour les demandes de disponibilité. L’élément **EndTime** est requis dans l’élément **CalendarEvent** . L’élément **EndTime** de l’élément **CalendarEvent** est propre au type **CalendarEvent** .<br/><br/> Voici l’expression XPath de cet élément :<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise.
+Une valeur de texte est requise.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément [StartTime](starttime.md) représente le début d’un intervalle de temps. 
+L’élément [StartTime](starttime.md) représente le début d’une période. 
   
-L’heure de fin représente la durée du client.
+L’heure de fin représente l’heure du client.
   
-Le schéma inclut de nombreux éléments de [l’heure de fin](endtime.md) . 
+Le schéma comprend de nombreux éléments [EndTime](endtime.md) . 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 
@@ -69,7 +69,7 @@ Le schéma inclut de nombreux éléments de [l’heure de fin](endtime.md) .
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ Le schéma inclut de nombreux éléments de [l’heure de fin](endtime.md) .
 ## <a name="see-also"></a>Voir aussi
 
 - [Opération GetUserAvailability](getuseravailability-operation.md)
-- [Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

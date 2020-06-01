@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 1555fd2e-05b6-4b94-907b-dae9174049d9
-description: L’élément NetworkRequirements contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet (fournisseur de services Internet) pour se connecter au serveur.
-ms.openlocfilehash: f3abcff04cd4121b8dcc7ceff7658ad389e6d0b0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NetworkRequirements contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet pour se connecter au serveur.
+ms.openlocfilehash: d588f7eb12a445fba9c997c4b9db0a6842105b4e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828529"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462723"
 ---
 # <a name="networkrequirements-pox"></a>NetworkRequirements (POX)
 
-L’élément **NetworkRequirements** contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet (fournisseur de services Internet) pour se connecter au serveur. 
+L’élément **NetworkRequirements** contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet pour se connecter au serveur. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **NetworkRequirements** contient les critères utilisés pour dét
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [NetworkRequirements (POX)](networkrequirements-pox.md)
   
@@ -41,36 +41,36 @@ L’élément **NetworkRequirements** contient les critères utilisés pour dét
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[IPv4Start (POX)](ipv4start-pox.md) <br/> |Identifie le début d’une version de IP 4 (IPv4) adresses qui sont utilisés pour identifier un ordinateur sur un réseau.  <br/> |
-|[IPv4End (POX)](ipv4end-pox.md) <br/> |Identifie la fin d’une version de IP 4 (IPv4) adresses qui sont utilisés pour identifier un ordinateur sur le réseau.  <br/> |
-|[IPv6Start (POX)](ipv6start-pox.md) <br/> |Identifie le début d’une version 6 (IPv6) de la plage IP adresses qui sont utilisés pour identifier un ordinateur sur un réseau.  <br/> |
-|[IPv6End (POX)](ipv6end-pox.md) <br/> |Identifie la fin d’une version 6 (IPv6) de la plage IP adresses qui sont utilisés pour identifier un ordinateur sur un réseau.  <br/> |
+|[IPv4Start (POX)](ipv4start-pox.md) <br/> |Identifie le début d’une plage d’adresses IP version 4 (IPv4) utilisées pour identifier un ordinateur sur un réseau.  <br/> |
+|[IPv4End (POX)](ipv4end-pox.md) <br/> |Identifie la fin d’une plage d’adresses IP version 4 (IPv4) utilisées pour identifier un ordinateur sur le réseau.  <br/> |
+|[IPv6Start (POX)](ipv6start-pox.md) <br/> |Identifie le début d’une plage d’adresses IP version 6 (IPv6) utilisées pour identifier un ordinateur sur un réseau.  <br/> |
+|[IPv6End (POX)](ipv6end-pox.md) <br/> |Identifie la fin d’une plage d’adresses IP version 6 (IPv6) utilisées pour identifier un ordinateur sur un réseau.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si le client de messagerie ne correspond pas à la configuration réseau requise, il doit essayer d’autres types de protocoles. Fournisseurs de services Internet peuvent fournir un ensemble de serveurs avec des balises de [Protocole (POX)](protocol-pox.md) qui ne nécessitent pas d’authentification, mais sont nécessaires sur le réseau du fournisseur de services Internet. Fournisseurs de services Internet peuvent indiquer un autre ensemble de serveurs qui nécessitent une authentification, mais ne doivent pas se trouver sur un réseau spécifique. 
+Si le client de messagerie ne correspond pas à la configuration réseau requise, il doit essayer d’autres types de protocole. Les fournisseurs de services Internet peuvent fournir un ensemble de serveurs avec des balises de [protocole](protocol-pox.md) qui ne nécessitent pas d’authentification, mais qui doivent être sur le réseau du fournisseur de services Internet. Ils peuvent répertorier un autre ensemble de serveurs qui nécessitent une authentification, mais ils ne doivent pas nécessairement se trouver sur un réseau spécifique. 
   
-L’élément **NetworkRequirements** est facultative. 
+L’élément **NetworkRequirements** est facultatif. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

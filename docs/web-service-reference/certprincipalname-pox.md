@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a24092c9-58be-4008-92c4-68ec5c6c0fa6
-description: L’élément CertPrincipalName Spécifie le nom principal du certificat Secure Sockets Layer (SSL) qui est nécessaire pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL.
-ms.openlocfilehash: d2766b16a3e8a1bcd013de332d9c07f709fcf949
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CertPrincipalName spécifie le nom de principal du certificat SSL (Secure Sockets Layer) qui est requis pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL.
+ms.openlocfilehash: fb2a1c8577bce41945b669be56f2a94a2c4dca26
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755502"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463341"
 ---
 # <a name="certprincipalname-pox"></a>CertPrincipalName (POX)
 
-L’élément **CertPrincipalName** Spécifie le nom principal du certificat Secure Sockets Layer (SSL) qui est nécessaire pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL. 
+L’élément **CertPrincipalName** spécifie le nom de principal du certificat SSL (Secure Sockets Layer) qui est requis pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **CertPrincipalName** Spécifie le nom principal du certificat Sec
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [CertPrincipalName (POX)](certprincipalname-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **CertPrincipalName** Spécifie le nom principal du certificat Sec
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,21 +50,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Exchange 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Exchange 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie le nom principal du certificat SSL qui est requise pour se connecter à l’organisation Microsoft Exchange à l’aide de SSL.
+La valeur texte spécifie le nom de principal du certificat SSL qui est requis pour se connecter à l’organisation Microsoft Exchange à l’aide de SSL.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’élément **CertPrincipalName** n’est pas spécifié, la valeur par défaut est définie à msstd:SERVER, où serveur est la valeur qui est spécifiée dans l’élément [Serveur (POX)](server-pox.md) . Par exemple, si le serveur est spécifié en tant qu’exemple.com et **CertPrincipalName** avec [SSL (POX)](ssl-pox.md) activée est vide, la valeur par défaut **CertPrincipalName** serait msstd:example.com. 
+Si l’élément **CertPrincipalName** n’est pas spécifié, la valeur par défaut est définie sur msstd : serveur, où serveur est la valeur spécifiée dans l’élément [serveur (POX)](server-pox.md) . Par exemple, si le serveur est spécifié en tant que example.com et que la valeur de **CertPrincipalName** est laissée vide avec le [protocole SSL (POX)](ssl-pox.md) activé, la valeur par défaut de **CertPrincipalName** serait msstd :example. com. 
   
-Si **aucun** n’est spécifié, Windows valide le nom principal du certificat en fonction des informations figurant dans la rubrique [Noms principaux](http://go.microsoft.com/fwlink/?LinkId=93417) sur MSDN. 
+Si **aucune** valeur n’est spécifiée, Windows valide le nom de principal du certificat en fonction des informations figurant dans la rubrique [noms principaux](https://go.microsoft.com/fwlink/?LinkId=93417) sur MSDN. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

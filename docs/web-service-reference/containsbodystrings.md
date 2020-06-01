@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 70639472-64bb-456a-8b40-dce727542443
-description: L’élément ContainsBodyStrings indique les chaînes qui doivent apparaître dans le corps des messages entrants afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 5993bd4061298e82a2393768eccb051326564e98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContainsBodyStrings indique les chaînes qui doivent apparaître dans le corps des messages entrants pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 008261ab94b1bed33cc72cacf7abe7aa58927d1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755583"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463803"
 ---
 # <a name="containsbodystrings"></a>ContainsBodyStrings
 
-L’élément **ContainsBodyStrings** indique les chaînes qui doivent apparaître dans le corps des messages entrants afin que l’exception ou la condition à appliquer. 
+L’élément **ContainsBodyStrings** indique les chaînes qui doivent apparaître dans le corps des messages entrants pour que la condition ou l’exception s’applique. 
   
 ```XML
 <ContainsBodyStrings>
@@ -32,17 +32,17 @@ L’élément **ContainsBodyStrings** indique les chaînes qui doivent apparaît
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps des messages entrants afin que l’exception ou la condition à appliquer.  <br/> |
+|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -63,9 +63,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bc04e44e-e6d1-4355-a2b1-feb6663dc647
-description: L’élément EndWallClock Spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement dans lequel la réunion a lieu.
-ms.openlocfilehash: 10e4a2bde50354b2f2752751c01a6a70aa084d05
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EndWallClock spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement où la réunion a lieu.
+ms.openlocfilehash: 48b762d0bfe367b966b6f1790230f6a2118c3fd6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756182"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462970"
 ---
 # <a name="endwallclock"></a>EndWallClock
 
-L’élément **EndWallClock** Spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement dans lequel la réunion a lieu. 
+L’élément **EndWallClock** spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement où la réunion a lieu. 
   
 ```XML
 <EndWallClock></EndWallClock>
@@ -26,11 +26,11 @@ L’élément **EndWallClock** Spécifie l’heure de fin d’une réunion dans 
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EndWallClock** est une valeur de type string qui spécifie l’identificateur de fuseau horaire. 
+La valeur de texte de l’élément **EndWallClock** est une valeur de type String qui spécifie l’identificateur du fuseau horaire. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db21bc31-0e83-46ea-8570-1865e90ebde7
-description: L’élément Alias (MasterMailboxType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 609dd5c4736f3a6fe51e8ad3a0750efdf5e389e9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément alias (MasterMailboxType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: b49836a83dc0224a58b1bf0d0739d26dad26a3d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755188"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463509"
 ---
 # <a name="alias-mastermailboxtype"></a>Alias (MasterMailboxType)
 
-L’élément **Alias (MasterMailboxType)** est destiné à une utilisation interne uniquement. 
+L’élément **alias (MasterMailboxType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

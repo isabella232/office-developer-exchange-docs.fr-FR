@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 89513c26-b751-4619-a300-0ed8f55b0102
-description: L’élément SearchItemKind indique le type d’éléments qui sont recherchées dans une opération FindMailboxStatisticsByKeyword.
-ms.openlocfilehash: 1c099fc49ec882c1672b265ff0e3aa2c71c5f95b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SearchItemKind indique le type d’éléments recherchés pour une opération FindMailboxStatisticsByKeyword.
+ms.openlocfilehash: e0625ac169c3083702494c094da15d38d220fe67
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829298"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463999"
 ---
 # <a name="searchitemkind"></a>SearchItemKind
 
-L’élément **SearchItemKind** indique le type d’éléments qui sont recherchées dans une opération **FindMailboxStatisticsByKeyword** . 
+L’élément **SearchItemKind** indique le type d’éléments recherchés pour une opération **FindMailboxStatisticsByKeyword** . 
   
 ```XML
 <SearchItemKind>Email | Meetings | Tasks | Notes | Docs | Journals | Contacts | Im | Voicemail | Faxes | Posts | Rssfeeds</SearchItemKind>
@@ -26,11 +26,11 @@ L’élément **SearchItemKind** indique le type d’éléments qui sont recherc
  **SearchItemKindType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,33 +40,33 @@ Aucun.
 
 [MessageTypes](messagetypes.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SearchItemKind** est le type d’élément dans laquelle recherche des mots clés. La liste suivante contient les valeurs de texte qui peuvent être utilisés dans l’élément **SearchItemKind** . 
+La valeur de texte de l’élément **SearchItemKind** est le type d’élément qui fait l’objet de recherches de mots clés. La liste suivante contient les valeurs de texte qui peuvent être utilisées dans l’élément **SearchItemKind** . 
   
-- **Courrier électronique** - indique que les messages électroniques sont exclus des mots clés. 
+- **Email** : indique que les messages électroniques font l’objet de recherches de mots clés. 
     
-- **Réunions** - indique que les réunions sont exclues des mots clés. 
+- **Réunions** : indique que des mots clés sont recherchés dans les réunions. 
     
-- **Tâches** - indique que les tâches sont exclus des mots clés. 
+- **Tasks** : indique que les tâches font l’objet de recherches de mots clés. 
     
-- **Notes** - indique que les notes sont exclus des mots clés. 
+- **Remarques** : indique que des mots clés sont recherchés dans les notes. 
     
-- **Documents** - indique que les documents sont exclus des mots clés. 
+- **Docs** : indique que des mots clés sont recherchés dans les documents. 
     
-- **Feuilles** - indique que les journaux sont exclus des mots clés. 
+- **Feuilles** : indique que les journaux font l’objet de recherches de mots clés. 
     
-- **Contacts** - indique que les contacts sont exclus des mots clés. 
+- **Contacts** : indique que des mots clés sont recherchés dans les contacts. 
     
-- **Messagerie instantanée** - indique que les messages instantanés sont exclus des mots clés. 
+- **Im** : indique que des mots clés sont recherchés dans les messages instantanés. 
     
-- **Messagerie vocale** - indique que les messages vocaux sont exclus des mots clés. 
+- **Messagerie vocale** : indique que les messages vocaux font l’objet de recherches de mots clés. 
     
-- **Télécopies** - indique que les télécopies sont exclus des mots clés. 
+- **Télécopies** : indique que des mots clés sont recherchés dans les télécopies. 
     
-- **Billets** - indique que les billets sont recherchés des mots clés. 
+- **Publications** : indique que des mots clés sont recherchés dans les publications. 
     
-- **Rssfeeds** - indique que les flux RSS sont exclus des mots clés. 
+- **RSSFeeds** : indique que les flux RSS font l’objet de recherches de mots clés. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -78,7 +78,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

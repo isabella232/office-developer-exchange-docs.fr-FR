@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
-description: L’élément EmailAddress (GetPersonaType) spécifie l’adresse de messagerie associée personnage.
-ms.openlocfilehash: a28a4a61a9719875fe99e1c950bcd3ec3af9ab13
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EmailAddress (GetPersonaType) spécifie l’adresse de messagerie électronique associée au personnage.
+ms.openlocfilehash: b58f61202cd94ff282b21138b47b40887b38752a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756101"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463453"
 ---
 # <a name="emailaddress-getpersonatype"></a>EmailAddress (GetPersonaType)
 
-L’élément **EmailAddress (GetPersonaType)** Spécifie l’adresse de messagerie associée personnage. 
+L’élément **EmailAddress (GetPersonaType)** spécifie l’adresse de messagerie électronique associée au personnage. 
   
 ```XML
 <EmailAddress>
@@ -33,15 +33,15 @@ L’élément **EmailAddress (GetPersonaType)** Spécifie l’adresse de message
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Name (chaîne)](name-string.md) | [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) | [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) | [MailboxType](mailboxtype.md) | [ItemId](itemid.md) | [OriginalDisplayName](originaldisplayname.md)
+[Nom (chaîne)](name-string.md)  |  [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)  |  [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)  |  [MailboxType](mailboxtype.md)  |  [ItemId](itemid.md)  |  [OriginalDisplayName](originaldisplayname.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

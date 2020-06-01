@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4fdfb74f-f33c-46ae-a7c7-451a5b0c6a59
-description: L’élément EnhancedLocation spécifie les informations d’emplacement telles que le nom, adresse et notes facultatives sur un emplacement.
-ms.openlocfilehash: 90397cfc622fed40c561d30c13d6617eb979a68a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EnhancedLocation spécifie les informations d’emplacement, telles que le nom, l’adresse et les notes facultatives relatives à un emplacement.
+ms.openlocfilehash: 06ec800b763ef61af51da03ca8a340f6ac4d2a8e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756187"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44462956"
 ---
 # <a name="enhancedlocation"></a>EnhancedLocation
 
-L’élément **EnhancedLocation** spécifie les informations d’emplacement telles que le nom, adresse et notes facultatives sur un emplacement. 
+L’élément **EnhancedLocation** spécifie les informations d’emplacement, telles que le nom, l’adresse et les notes facultatives relatives à un emplacement. 
   
 ```XML
 <EnhancedLocation>
@@ -30,19 +30,19 @@ L’élément **EnhancedLocation** spécifie les informations d’emplacement te
  **EnhancedLocationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom complet d’un dossier, contact, liste de distribution, délégué utilisateur, emplacement ou règle.  <br/> |
-|[Annotation](annotation.md) <br/> |Contient des notes facultatives ajoutés par un utilisateur.  <br/> |
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Spécifie l’adresse postale pour un personnage.  <br/> |
+|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom d’affichage d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué, d’un emplacement ou d’une règle.  <br/> |
+|[Commentaire](annotation.md) <br/> |Contient des notes facultatives ajoutées par un utilisateur.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Spécifie l’adresse postale d’un personnage.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

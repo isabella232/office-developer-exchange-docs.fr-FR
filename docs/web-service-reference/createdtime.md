@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7055c86f-c364-42d3-87b4-c741ccb15c57
-description: L’élément CreatedTime Spécifie l’heure à laquelle l’élément a été créé.
-ms.openlocfilehash: 5e542f750e83f0fe6a078bf6230ffe1d0cc6680d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CreatedTime spécifie l’heure à laquelle l’élément a été créé.
+ms.openlocfilehash: 709e6021e48a9f2b4857b9283750306d5e513c72
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755693"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44445313"
 ---
 # <a name="createdtime"></a>CreatedTime
 
-L’élément **CreatedTime** Spécifie l’heure à laquelle l’élément a été créé. 
+L’élément **CreatedTime** spécifie l’heure à laquelle l’élément a été créé. 
   
 ```xml
 <CreatedTime></CreatedTime>
@@ -26,11 +26,11 @@ L’élément **CreatedTime** Spécifie l’heure à laquelle l’élément a é
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,7 +42,7 @@ Aucun.
 |:-----|:-----|
 |[SearchPreviewItem](searchpreviewitem.md) <br/> |Spécifie les 256 premiers caractères d’un élément de boîte aux lettres pour l’aperçu sans ouvrir l’élément.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément CreatedTime est l’heure à laquelle l’élément a été créé. 
   
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,38 +11,38 @@ api_name:
 api_type:
 - schema
 ms.assetid: 60a668a2-b4e9-4db9-ac76-9b181e47b302
-description: L’opération CreateManagedFolder crée un dossier géré dans la banque d’informations Exchange.
-ms.openlocfilehash: 2c2af53dc5dbe1e6fcbc7f3b1174a856e51e4905
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération CreateManagedFolder crée un dossier géré dans la Banque d’Exchange.
+ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755735"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44444592"
 ---
 # <a name="createmanagedfolder-operation"></a>Opération CreateManagedFolder
 
-L’opération CreateManagedFolder crée un dossier géré dans la banque d’informations Exchange.
+L’opération CreateManagedFolder crée un dossier géré dans la Banque d’Exchange.
   
 ## <a name="using-the-createmanagedfolder-operation"></a>Utilisation de l’opération CreateManagedFolder
 
-L’opération CreateManagedFolder ajoute un dossier personnalisé géré à la boîte aux lettres d’un utilisateur. Vous pouvez utiliser l’applet de commande Exchange Management Shell, **Get-ManagedFolder** pour rechercher les dossiers gérés disponibles à ajouter. Bien que cette applet de commande renvoie les dossiers personnalisés gérés et les dossiers gérés par défaut uniquement gérés personnalisés dossiers peuvent être ajoutés. Dossiers personnalisés gérés sont identifiés par le type de dossier ManagedCustomFolder. L’espace de noms System.DirectoryServices inclut également les types qui peuvent être utilisés pour découvrir les noms des dossiers gérés disponibles. 
+L’opération CreateManagedFolder ajoute un dossier personnalisé géré à la boîte aux lettres d’un utilisateur. Vous pouvez utiliser la cmdlet **Get-ManagedFolder** de l’environnement de commande Exchange Management Shell pour rechercher les dossiers gérés à ajouter. Bien que cette applet de commande renvoie les dossiers personnalisés gérés et les dossiers par défaut gérés, seuls les dossiers personnalisés gérés peuvent être ajoutés. Les dossiers personnalisés gérés sont identifiés par le type de dossier ManagedCustomFolder. L’espace de noms System. DirectoryServices inclut également des types qui peuvent être utilisés pour découvrir les noms des dossiers gérés disponibles. 
   
 > [!NOTE]
-> Vous ne pouvez pas utiliser les Services Web Exchange pour rechercher les noms de dossiers gérés disponibles à ajouter à une boîte aux lettres. 
+> Vous ne pouvez pas utiliser les services Web Exchange pour rechercher les noms des dossiers gérés disponibles à ajouter à une boîte aux lettres. 
   
-Vous pouvez utiliser les opérations FindFolder et GetFolder pour accéder aux dossiers gérés. FindFolder est utilisé pour rechercher des dossiers dans un dossier parent spécifié. Cela peut être utilisé pour que les dossiers gérés peuvent être découverts dans un dossier avant la tentative d’ajout de qu'un dossier personnalisé dans le même répertoire géré par un double. GetFolder est utilisée après l’opération FindFolder pour obtenir plus d’informations sur un dossier personnalisé géré.
+Vous pouvez utiliser les opérations FindFolder et GetFolder pour accéder aux dossiers gérés. FindFolder permet de rechercher des dossiers dans un dossier parent spécifié. Cela peut être utilisé afin que les dossiers gérés puissent être découverts dans un dossier avant d’essayer d’ajouter un dossier personnalisé géré en double dans le même répertoire. GetFolder est utilisé après l’opération FindFolder pour obtenir plus d’informations sur un dossier personnalisé géré.
   
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur la façon de configurer la stratégie de gestion (MRM) des enregistrements de messagerie, voir [comment créer une stratégie de boîte aux lettres de dossier géré](http://go.microsoft.com/fwlink/?LinkId=100975).
+Pour plus d’informations sur la configuration de la stratégie de gestion des enregistrements de messagerie (MRM), voir [comment créer une stratégie de boîte aux lettres de dossier géré](https://go.microsoft.com/fwlink/?LinkId=100975).
   
-Pour plus d’informations sur la suppression des dossiers personnalisés gérés à partir d’une boîte aux lettres, voir [Remove-ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).
+Pour plus d’informations sur la suppression de dossiers personnalisés gérés d’une boîte aux lettres, consultez la rubrique [Remove-ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976).
   
 ## <a name="createmanagedfolder-request-example"></a>Exemple de requête CreateManagedFolder
 
 ### <a name="description"></a>Description
 
-Une demande CreateManagedFolder l’exemple suivant montre comment ajouter un dossier géré nommé dossier géré de Test pour une boîte aux lettres.
+L’exemple de requête CreateManagedFolder suivant montre comment ajouter un dossier géré nommé test du dossier géré à une boîte aux lettres.
   
 > [!NOTE]
 > Vous pouvez également utiliser l’accès délégué pour ajouter des dossiers personnalisés gérés. 
@@ -54,9 +54,9 @@ Une demande CreateManagedFolder l’exemple suivant montre comment ajouter un do
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateManagedFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderNames>
         <t:FolderName>Test Managed Folder</t:FolderName>
       </FolderNames>
@@ -65,26 +65,26 @@ Une demande CreateManagedFolder l’exemple suivant montre comment ajouter un do
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
 - [CreateManagedFolder](createmanagedfolder.md)
     
-- [Noms de dossier](foldernames.md)
+- [FolderNames](foldernames.md)
     
 - [FolderName](foldername.md)
     
-Pour trouver d’autres options pour le message de demande de l’opération CreateManagedFolder, explorez la hiérarchie de schéma. Commencer à l’élément [CreateManagedFolder](createmanagedfolder.md) . 
+Pour trouver d’autres options pour le message de demande de l’opération CreateManagedFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CreateManagedFolder](createmanagedfolder.md) . 
   
 ## <a name="successful-createmanagedfolder-response"></a>Réponse CreateManagedFolder réussie
 
 ### <a name="description"></a>Description
 
-L’exemple de code suivant montre une réponse positive à une demande CreateManagedFolder.
+L’exemple de code suivant montre une réponse réussie à une demande CreateManagedFolder.
   
 > [!NOTE]
-> Les valeurs d’attribut **Id** et **ChangeKey** ont été réduits afin de préserver la lisibilité. 
+> Les valeurs d’attribut **ID** et **ChangeKey** ont été raccourcies afin de préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -95,12 +95,12 @@ L’exemple de code suivant montre une réponse positive à une demande CreateMa
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="598" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateManagedFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateManagedFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -116,7 +116,7 @@ L’exemple de code suivant montre une réponse positive à une demande CreateMa
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse : 
   
@@ -134,7 +134,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [FolderId](folderid.md)
     
-Pour trouver d’autres options pour les messages de réponse de l’opération CreateManagedFolder, explorez la hiérarchie de schéma. Démarrez au niveau de l’élément [CreateManagedFolderResponse](createmanagedfolderresponse.md) . 
+Pour rechercher d’autres options pour les messages de réponse de l’opération CreateManagedFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CreateManagedFolderResponse](createmanagedfolderresponse.md) . 
   
 ## <a name="createmanagedfolder-error-response"></a>Réponse d’erreur CreateManagedFolder
 
@@ -151,12 +151,12 @@ L’exemple de code suivant montre une réponse d’erreur à une demande Create
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="598" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateManagedFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                 xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateManagedFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                 xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateManagedFolderResponseMessage ResponseClass="Error">
           <m:MessageText>A specified managed folder already exists in the mailbox.</m:MessageText>
@@ -197,7 +197,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
 [Opération FindFolder](findfolder-operation.md)
 
 
-[Recherche de dossiers](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Recherche de dossiers](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[Ajout de dossiers gérés](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Ajout de dossiers gérés](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e433049-3ff9-467d-ad2a-c767a22f9fbb
-description: L’élément de boîtes aux lettres contient un tableau de boîtes aux lettres.
-ms.openlocfilehash: 21cb1f8155ffc8e65e1ee6298c8c4e69f34478f5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément mailboxes contient un tableau de boîtes aux lettres.
+ms.openlocfilehash: b3af9b831b7877bcfb030422b8fb44ccc6b61d5c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828287"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468151"
 ---
 # <a name="mailboxes-arrayofusermailboxestype"></a>Boîtes aux lettres (ArrayOfUserMailboxesType)
 
-L’élément de **boîtes aux lettres** contient un tableau de boîtes aux lettres. 
+L’élément **mailboxes** contient un tableau de boîtes aux lettres. 
   
 ```XML
 <Mailboxes>
@@ -29,11 +29,11 @@ L’élément de **boîtes aux lettres** contient un tableau de boîtes aux lett
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

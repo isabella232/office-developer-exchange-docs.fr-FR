@@ -1,5 +1,5 @@
 ---
-title: Occurrence (Transition fuseau horaire)
+title: Occurrence (transition de fuseau horaire)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5c1142b1-c51f-42e1-bbb2-57e00cad0fdb
-description: L’élément Occurrence représente l’occurrence du jour de la semaine dans le mois qui se produit la transition de fuseau horaire.
-ms.openlocfilehash: bc5160480cc6881bb9d724aa61323f5717d1f2fa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément occurrence représente l’occurrence du jour de la semaine du mois pendant lequel la transition de fuseau horaire a lieu.
+ms.openlocfilehash: 846f6b22f43bcda07b9408d768d0845a5acfe668
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828636"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467976"
 ---
-# <a name="occurrence-time-zone-transition"></a>Occurrence (Transition fuseau horaire)
+# <a name="occurrence-time-zone-transition"></a>Occurrence (transition de fuseau horaire)
 
-L’élément **Occurrence** représente l’occurrence du jour de la semaine dans le mois qui se produit la transition de fuseau horaire. 
+L’élément **occurrence** représente l’occurrence du jour de la semaine du mois pendant lequel la transition de fuseau horaire a lieu. 
   
 ```xml
 <Occurrence/>
@@ -31,11 +31,11 @@ L’élément **Occurrence** représente l’occurrence du jour de la semaine da
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,32 +45,32 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit sur le même jour tous les ans.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit chaque année.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente l’occurrence du jour de la semaine dans le mois qui se produit la transition de fuseau horaire. Le tableau suivant répertorie les valeurs possibles.
+La valeur de texte est un entier qui représente l’occurrence du jour de la semaine du mois où la transition de fuseau horaire a lieu. Le tableau suivant répertorie les valeurs possibles.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|1  <br/> |La première occurrence du jour de la semaine à partir du début du mois spécifié.  <br/> |
-|2  <br/> |La deuxième occurrence du jour de la semaine à partir du début du mois spécifié.  <br/> |
-|3  <br/> |La troisième occurrence du jour de la semaine à partir du début du mois spécifié.  <br/> |
-|4  <br/> |La quatrième occurrence du jour de la semaine à partir du début du mois spécifié.  <br/> |
-|-1  <br/> |La première occurrence du jour de semaine à partir de la fin du mois spécifié.  <br/> |
-|-2  <br/> |La deuxième occurrence du jour de semaine à partir de la fin du mois spécifié.  <br/> |
-|-3  <br/> |La troisième occurrence du jour de semaine à partir de la fin du mois spécifié.  <br/> |
-|-4  <br/> |La quatrième occurrence du jour de semaine à partir de la fin du mois spécifié.  <br/> |
+|0,1  <br/> |Première occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
+|n°2  <br/> |Deuxième occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
+|3  <br/> |Troisième occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
+|4   <br/> |Quatrième occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
+|-1  <br/> |Première occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
+|-2  <br/> |Deuxième occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
+|-3  <br/> |Troisième occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
+|-4  <br/> |Quatrième occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

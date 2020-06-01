@@ -7,16 +7,16 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0b88f02a-9c50-44b3-841b-560b24e37af5
 description: L’élément MicrosoftOnline contient une valeur qui indique si la boîte aux lettres de l’utilisateur est hébergée dans Exchange Online ou Exchange Online dans le cadre d’Office 365.
-ms.openlocfilehash: b952bfda17b30dcf29812697d225db32718d9781
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f3144a673a4c98aad821e21c562141b0ae00f426
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828458"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467983"
 ---
 # <a name="microsoftonline-pox"></a>MicrosoftOnline (POX)
 
-L’élément **MicrosoftOnline** contient une valeur qui indique si la boîte aux lettres de l’utilisateur est hébergée dans Exchange Online ou Exchange Online dans le cadre d’Office 365. 
+L’élément **microsoftonline** contient une valeur qui indique si la boîte aux lettres de l’utilisateur est hébergée dans Exchange Online ou Exchange Online dans le cadre d’Office 365. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -32,11 +32,11 @@ L’élément **MicrosoftOnline** contient une valeur qui indique si la boîte a
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,15 +46,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte pour l’utilisateur ou contient des réponses d’erreur.  <br/> |
+|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte de l’utilisateur ou contient des réponses d’erreur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de texte indique si la boîte aux lettres de l’utilisateur est hébergé dans Exchange Online. La valeur est **true** si la boîte aux lettres de l’utilisateur est hébergé dans Exchange Online ; Sinon, **false**.
+La valeur Text indique si la boîte aux lettres de l’utilisateur est hébergée dans Exchange Online. La valeur est **true** si la boîte aux lettres de l’utilisateur est hébergée dans Exchange Online ; Sinon, **false**.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

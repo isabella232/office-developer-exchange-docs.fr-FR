@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 65217ca8-6aea-47eb-a989-e6cce25f5f09
-description: L’élément ReceiveCopiesOfMeetingMessages indique si un délégué reçoive des copies de messages adressés à l’entité de sécurité liées à la réunion. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: e39a5d3255268b418fa956959da5ae0ea062d831
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReceiveCopiesOfMeetingMessages indique si un délégué reçoit des copies des messages relatifs à la réunion adressés au principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: af6e220304f88c4db00ab675077dcd9bf581ea9e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828967"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468263"
 ---
 # <a name="receivecopiesofmeetingmessages"></a>ReceiveCopiesOfMeetingMessages
 
-L’élément **ReceiveCopiesOfMeetingMessages** indique si un délégué reçoive des copies de messages adressés à l’entité de sécurité liées à la réunion. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **ReceiveCopiesOfMeetingMessages** indique si un délégué reçoit des copies des messages relatifs à la réunion adressés au principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ReceiveCopiesOfMeetingMessages>true or false</ReceiveCopiesOfMeetingMessages>
@@ -30,11 +30,11 @@ L’élément **ReceiveCopiesOfMeetingMessages** indique si un délégué reçoi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Utilisateur_délégué](delegateuser.md) <br/> |Identifie un délégué pour ajouter ou mettre à jour dans une boîte aux lettres unique. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Identifie un seul délégué à ajouter ou mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique qu’un délégué reçoit une copie des messages de la réunion. Texte la valeur **false** indique qu’un délégué ne reçoit pas d’une copie des messages de la réunion. 
+Une valeur de texte **true** indique qu’un délégué reçoit une copie des messages de réunion. Une valeur de texte **false** indique qu’un délégué ne reçoit pas de copie des messages de réunion. 
   
 ## <a name="remarks"></a>Remarques
 
-Lorsque **ReceiveCopiesOfMeetingMessages** est défini sur **false**, le délégué peut encore envoyer des messages au nom de l’entité de sécurité, mais il ne recevra pas tous les messages liés à la réunion.
+Lorsque **ReceiveCopiesOfMeetingMessages** est défini sur **false**, le délégué peut toujours envoyer un message de la part du principal, mais ne reçoit pas de messages liés à la réunion.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -77,5 +77,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Ajout de délégués](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+[Ajout de délégués](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

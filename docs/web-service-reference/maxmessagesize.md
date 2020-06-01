@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bb98ac72-9409-4332-81bb-ee3bebb9a00e
-description: L’élément MaxMessageSize représente la taille maximale des messages qu'un destinataire peut accepter.
-ms.openlocfilehash: 13a5679a03420655356269a7e8b5e22950724164
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MaxMessageSize représente la taille maximale des messages qu’un destinataire peut accepter.
+ms.openlocfilehash: 727eed38a129800b7d38aa49c41cdacfa13e7a36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828383"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468410"
 ---
 # <a name="maxmessagesize"></a>MaxMessageSize
 
-L’élément **MaxMessageSize** représente la taille maximale des messages qu'un destinataire peut accepter. 
+L’élément **MaxMessageSize** représente la taille maximale des messages qu’un destinataire peut accepter. 
   
 ```XML
 <MaxMessageSize/>
@@ -30,11 +30,11 @@ L’élément **MaxMessageSize** représente la taille maximale des messages qu'
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Les infos-courrier](mailtips.md) <br/> |Représente les valeurs pour les différents types d’astuces de la messagerie.  <br/> |
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de courrier.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente la taille maximale des messages d’un destinataire peut accepter. Cette valeur peut être exprimée en kilo-octets ou en mégaoctets.
+La valeur de texte est un entier qui représente la taille maximale des messages qu’un destinataire peut accepter. Cette valeur peut être mesurée en kilo-octets ou en mégaoctets.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Mois (Transition fuseau horaire)
+title: Mois (transition de fuseau horaire)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5e6aac75-366d-43d0-8ccb-956285474662
-description: L’élément Month représente le mois dans laquelle se produit la transition de fuseau horaire.
-ms.openlocfilehash: 887bd750b9cad1e28e6f7603c7b3289da8f8dc07
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément month représente le mois au cours duquel la transition de fuseau horaire a lieu.
+ms.openlocfilehash: 1fa32ea355cc3fe826f9c34b2fd147a0d8201673
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828483"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467738"
 ---
-# <a name="month-time-zone-transition"></a>Mois (Transition fuseau horaire)
+# <a name="month-time-zone-transition"></a>Mois (transition de fuseau horaire)
 
-L’élément **Month** représente le mois dans laquelle se produit la transition de fuseau horaire. 
+L’élément **Month** représente le mois au cours duquel la transition de fuseau horaire a lieu. 
   
 ```xml
 <Month/>
@@ -30,11 +30,11 @@ L’élément **Month** représente le mois dans laquelle se produit la transiti
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,21 +45,21 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[RecurringDateTransition](recurringdatetransition.md) <br/> |Représente une transition de fuseau horaire qui se produit à une date spécifique chaque année.  <br/> |
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit sur le même jour tous les ans.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit chaque année.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente le mois dans laquelle se produit la transition de fuseau horaire.
+La valeur de texte est un entier qui représente le mois au cours duquel la transition de fuseau horaire a lieu.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 43d5b876-0e87-4414-9b1d-bff1c1ec825c
-description: L’élément ResolutionSet contient un tableau des résolutions pour un nom ambigu.
-ms.openlocfilehash: ad7bd31c85051e8c80aea25aa9e6f2914cf0ad01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ResolutionSet contient un tableau de résolutions pour un nom ambigu.
+ms.openlocfilehash: 483a096a7fcedbabe25758ebcaa31c83405a0ad4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829160"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467171"
 ---
 # <a name="resolutionset"></a>ResolutionSet
 
-L’élément **ResolutionSet** contient un tableau des résolutions pour un nom ambigu. 
+L’élément **ResolutionSet** contient un tableau de résolutions pour un nom ambigu. 
   
 [ResolveNamesResponse](resolvenamesresponse.md)
   
@@ -40,16 +40,16 @@ L’élément **ResolutionSet** contient un tableau des résolutions pour un nom
  **ArrayOfResolutionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Représente l’index suivant doit être utilisé pour la requête suivante lorsque vous utilisez un affichage de page indexés.  <br/> |
-|**NumeratorOffset** <br/> |Représente la nouvelle valeur numérateur à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fraction.  <br/> |
-|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fraction.  <br/> |
-|**IncludesLastItemInRange** <br/> |Cet attribut sera la valeur true si le résultat actuel contient le dernier élément dans la requête, afin que le fichier d’échange supplémentaire n’est pas nécessaire.  <br/> |
+|**IndexedPagingOffset** <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lorsque vous utilisez une vue de page indexée.  <br/> |
+|**NumeratorOffset** <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
+|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
+|**IncludesLastItemInRange** <br/> |Cet attribut est true si les résultats actuels contiennent le dernier élément de la requête, afin que la pagination supplémentaire ne soit pas nécessaire.  <br/> |
 |**TotalItemsInView** <br/> |Représente le nombre total d’éléments dans l’affichage.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -62,11 +62,11 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande ResolveNames.  <br/> |
+|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande ResolveNames.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un élément **ResolutionSet** peut contenir un maximum de 100 entités résolus. 
+Un élément **ResolutionSet** peut contenir un maximum de 100 entités résolues. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -74,9 +74,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

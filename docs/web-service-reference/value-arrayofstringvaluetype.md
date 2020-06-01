@@ -7,31 +7,31 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83865da6-0bcd-445a-ba3c-0eff481b14ab
-description: L’élément Value spécifie une valeur dans un tableau de propriétés personnage associé à un tableau des attributions.
-ms.openlocfilehash: 0475dc1a58f48f1fd774d01c0da39e53dbcc4bc3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Value spécifie une valeur dans un tableau de propriétés Persona associées à un tableau d’attributions.
+ms.openlocfilehash: ceca9290ea93a505709d6046d1b6ab8e2c32f4ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838983"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467619"
 ---
 # <a name="value-arrayofstringvaluetype"></a>Valeur (ArrayOfStringValueType)
 
-L’élément **Value** spécifie une valeur dans un tableau de propriétés personnage associé à un tableau des attributions. 
+L’élément **value** spécifie une valeur dans un tableau de propriétés Persona associées à un tableau d’attributions. 
   
 ```XML
 <Value></Value>
 ```
 
-**string**
+**chaîne**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,9 +41,9 @@ Aucun.
 
 [Valeurs (ArrayOfStringValueType)](values-arrayofstringvaluetype.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de la **valeur** est une valeur dans un tableau de propriétés personnage associé à un tableau des attributions. 
+La valeur de texte de l’élément **value** est une valeur dans un tableau de propriétés Persona associées à un tableau d’attributions. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

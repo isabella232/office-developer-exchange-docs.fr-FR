@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: a0ba42c9-321a-4370-b979-e02078bcb070
 description: L’élément StorageQuota décrit le quota de stockage pour le dossier géré.
-ms.openlocfilehash: e0bdc98d9fe59a89cc78fe387624fa556a4da556
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: c979b02c2c4df511eae96125847ed765ba3ed92c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829595"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468235"
 ---
 # <a name="storagequota"></a>StorageQuota
 
@@ -30,11 +30,11 @@ L’élément **StorageQuota** décrit le quota de stockage pour le dossier gér
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise.
+Une valeur de texte est requise.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -67,8 +67,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Ajout de dossiers gérés](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Ajout de dossiers gérés](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

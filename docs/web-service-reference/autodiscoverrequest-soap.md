@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 3e403e81-290b-42f6-9e79-15135fc58c4b
 description: L’élément AutodiscoverRequest représente l’élément de base pour toutes les demandes de découverte automatique.
-ms.openlocfilehash: bb8c252b84578443f0d6da0acf02f57ecd7caf6e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ed7d4095dafaba6a7800927f2d3ece412b57ae36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755364"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466849"
 ---
 # <a name="autodiscoverrequest-soap"></a>AutodiscoverRequest (SOAP)
 
@@ -27,11 +27,11 @@ L’élément **AutodiscoverRequest** représente l’élément de base pour tou
  **AutodiscoverRequest**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,9 +53,9 @@ L’élément global **AutodiscoverRequest** n’est jamais utilisé.
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 

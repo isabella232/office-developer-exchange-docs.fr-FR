@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bfd516a4-15f5-4303-b695-820537636b11
 description: L’élément RequestedExtensionIds contient un tableau d’identificateurs d’extension.
-ms.openlocfilehash: da7e7817179a608cff896e67d71aea992aac674e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8cae575f739803b847ac2d3df471cb9147d5412a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829142"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467661"
 ---
 # <a name="requestedextensionids"></a>RequestedExtensionIds
 
@@ -28,15 +28,15 @@ L’élément **RequestedExtensionIds** contient un tableau d’identificateurs 
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Chaîne](string.md)
+[String](string.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

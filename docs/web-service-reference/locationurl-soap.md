@@ -1,35 +1,35 @@
 ---
-title: LocationUrl (SOAP)
+title: Locationurl, (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2da25452-3111-489c-9d75-14337a5200e0
-description: L’élément LocationUrl représente l’URL d’un emplacement de partage de document.
-ms.openlocfilehash: a80969e532ef81fa0be2ff94d25ae604aa0c5f8c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Locationurl, représente l’URL d’un emplacement de partage de documents.
+ms.openlocfilehash: ba28ce4ded83c55f7b3f799c0bfe6f9509e375fd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828251"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468690"
 ---
-# <a name="locationurl-soap"></a>LocationUrl (SOAP)
+# <a name="locationurl-soap"></a>Locationurl, (SOAP)
 
-L’élément **LocationUrl** représente l’URL d’un emplacement de partage de document. 
+L’élément **locationurl,** représente l’URL d’un emplacement de partage de documents. 
   
 ```XML
 <LocationUrl />
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -39,19 +39,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Représente les informations d’emplacement et les métadonnées pour un emplacement de partage de document.  <br/> |
+|[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Représente les informations d’emplacement et de métadonnées pour un emplacement de partage de documents.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LocationUrl** est l’URL d’un emplacement de partage de document. 
+La valeur de texte de l’élément **locationurl,** est l’URL d’un emplacement de partage de documents. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -63,5 +63,5 @@ La valeur de texte de l’élément **LocationUrl** est l’URL d’un emplaceme
 
 [Référence de service web de découverte automatique pour Exchange](autodiscover-web-service-reference-for-exchange.md)
   
-[Éléments du fichier XML Autodiscover SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Éléments XML de découverte automatique SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a9b94bae-cab9-412d-a811-801e849ed6c5
-description: L’élément UserSettingErrors représente une collection d’informations sur les paramètres qui ne peut pas être retourné.
-ms.openlocfilehash: 4477c30145d2cb187a4309d018512537af974ee8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UserSettingErrors représente une collection d’informations sur les paramètres qui n’ont pas pu être renvoyés.
+ms.openlocfilehash: a6cc0fe114bd511dc4136532986b552c28b0d5c2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838984"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467122"
 ---
 # <a name="usersettingerrors-soap"></a>UserSettingErrors (SOAP)
 
-L’élément **UserSettingErrors** représente une collection d’informations sur les paramètres qui ne peut pas être retourné. 
+L’élément **UserSettingErrors** représente une collection d’informations sur les paramètres qui n’ont pas pu être renvoyés. 
   
 ```XML
 <UserSettingErrors>
@@ -29,40 +29,40 @@ L’élément **UserSettingErrors** représente une collection d’informations 
  **UserSettingErrors**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |Représente une erreur est renvoyée lors de la récupération d’un paramètre de l’utilisateur.  <br/> |
+|[UserSettingError (SOAP)](usersettingerror-soap.md) <br/> |Représente une erreur renvoyée lors de la récupération d’un paramètre utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Réponse de l’utilisateur (SOAP)](userresponse-soap.md) <br/> |Représente une réponse à une demande de GetUserSettings pour un utilisateur individuel.  <br/> |
+|[UserResponse (SOAP)](userresponse-soap.md) <br/> |Représente une réponse à une demande GetUserSettings pour un utilisateur individuel.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+[Éléments XML de découverte automatique SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

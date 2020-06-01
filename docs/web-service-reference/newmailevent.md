@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 45057945-a3ec-4dac-92db-f0dc5fcfc34d
-description: L’élément NewMailEvent représente un événement qui est déclenché par un nouvel élément de messagerie dans une boîte aux lettres.
-ms.openlocfilehash: 8df3e4a218a8eaa9d129854e4816a3a43beddafa
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NewMailEvent représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres.
+ms.openlocfilehash: aa562b60a7299543af8653bbc767edf329075644
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828527"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466814"
 ---
 # <a name="newmailevent"></a>NewMailEvent
 
-L’élément **NewMailEvent** représente un événement qui est déclenché par un nouvel élément de messagerie dans une boîte aux lettres. 
+L’élément **NewMailEvent** représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres. 
   
 ```xml
 <NewMailEvent>
@@ -35,26 +35,26 @@ L’élément **NewMailEvent** représente un événement qui est déclenché pa
  **BaseObjectChangedEventType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Filigrane](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[Horodatage](timestamp.md) <br/> |Représente l’horodatage de l’arrivée d’un nouvel élément de messagerie dans une boîte aux lettres.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Représente l’identificateur d’un nouvel élément de messagerie.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent du nouvel élément de messagerie.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres.  <br/> |
+|[Dates](timestamp.md) <br/> |Représente l’horodatage de l’arrivée d’un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
+|[ItemId](itemid.md) <br/> |Représente l’identificateur d’un nouvel élément de courrier.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent du nouvel élément de courrier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.  <br/> |
+|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

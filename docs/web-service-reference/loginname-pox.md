@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 47495d87-23c9-4d51-9f38-8c1d31f937aa
-description: L’élément LoginName Spécifie le nom d’ouverture de session.
-ms.openlocfilehash: dbc0d9cfa6d640c39b64174c144d6d05bc2add78
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément LoginName spécifie le nom d’ouverture de session de l’utilisateur.
+ms.openlocfilehash: a4fffc3c3f4b2a46a660de19a184d99bdf37e3b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828250"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467815"
 ---
 # <a name="loginname-pox"></a>LoginName (POX)
 
-L’élément **LoginName** Spécifie le nom d’ouverture de session. 
+L’élément **LoginName** spécifie le nom d’ouverture de session de l’utilisateur. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **LoginName** Spécifie le nom d’ouverture de session.
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [LoginName (POX)](loginname-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **LoginName** Spécifie le nom d’ouverture de session.
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie le nom d’ouverture de session.
+La valeur texte spécifie le nom de connexion de l’utilisateur.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

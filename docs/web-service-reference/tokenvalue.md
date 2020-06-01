@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ad333be3-1bd9-4e4a-a17d-9fcf7131cf76
-description: L’élément TokenValue Spécifie le jeton d’accès client codé.
-ms.openlocfilehash: 9815a0c4f96cf0370c0fd190b9d9e9e90fb77e07
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TokenValue spécifie le jeton d’accès au client encodé.
+ms.openlocfilehash: 7aa544cb8b63face7cd41054eebb55b0ed84b35d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838742"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467857"
 ---
 # <a name="tokenvalue"></a>TokenValue
 
-L’élément **TokenValue** Spécifie le jeton d’accès client codé. 
+L’élément **TokenValue** spécifie le jeton d’accès au client encodé. 
   
 ```XML
 <TokenValue></TokenValue>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [Jeton (ClientAccessTokenType)](token-clientaccesstokentype.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TokenValue** est le jeton d’accès client codé. 
+La valeur de texte de l’élément **TokenValue** est le jeton d’accès au client encodé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

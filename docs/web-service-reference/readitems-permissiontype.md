@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0a11a802-28e2-436b-b5a9-30fd064675a6
-description: L’élément ReadItems indique si un utilisateur est autorisé à lire les éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: bf266c77106f25b90ffd174e25fb0c3972ab91cb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReadItems indique si un utilisateur est autorisé à lire des éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: af6ef5107b5e4f2b3071c0bc9b4b528efea6dcca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828961"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468270"
 ---
 # <a name="readitems-permissiontype"></a>ReadItems (PermissionType)
 
-L’élément **ReadItems** indique si un utilisateur est autorisé à lire les éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **ReadItems** indique si un utilisateur est autorisé à lire des éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ReadItems>None or FullDetails</ReadItems>
@@ -30,11 +30,11 @@ L’élément **ReadItems** indique si un utilisateur est autorisé à lire les 
  **PermissionReadAccessType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,15 +46,15 @@ Aucun.
 |:-----|:-----|
 |[Autorisation](permission.md) <br/> |Définit l'accès dont dispose un utilisateur dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **ReadItems** . 
   
-**Valeurs de texte des éléments ReadItems**
+**Valeurs de texte de l’élément ReadItems**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|None  <br/> |Indique que l’utilisateur n’est pas autorisé à lire les éléments dans le dossier.  <br/> |
+|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à lire les éléments dans le dossier.  <br/> |
 |FullDetails  <br/> |Indique que l’utilisateur est autorisé à lire tous les éléments dans le dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -74,8 +74,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

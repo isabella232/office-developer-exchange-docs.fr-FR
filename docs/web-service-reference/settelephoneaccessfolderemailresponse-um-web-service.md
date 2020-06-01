@@ -1,5 +1,5 @@
 ---
-title: SetTelephoneAccessFolderEmailResponse (service web de messagerie unifiée)
+title: SetTelephoneAccessFolderEmailResponse (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 01d07114-5764-4ea7-948c-1ae95c287f0c
-description: L’élément SetTelephoneAccessFolderEmailResponse définit une réponse à une demande de (service web de messagerie unifiée) opération SetTelephoneAccessFolderEmail.
-ms.openlocfilehash: 8558a0efd45cc1b2e0bbaac8a93e4c3e498cef74
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetTelephoneAccessFolderEmailResponse définit une réponse à une opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée).
+ms.openlocfilehash: 85f0f764b2a6a1555fb03d31fbe91bf3d6e2f701
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829460"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467311"
 ---
-# <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>SetTelephoneAccessFolderEmailResponse (service web de messagerie unifiée)
+# <a name="settelephoneaccessfolderemailresponse-um-web-service"></a>SetTelephoneAccessFolderEmailResponse (service Web de messagerie unifiée)
 
-L’élément **SetTelephoneAccessFolderEmailResponse** définit une réponse à une demande de [l’opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md) . 
+L’élément **SetTelephoneAccessFolderEmailResponse** définit une réponse à une [opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md) . 
   
-[SetTelephoneAccessFolderEmailResponse (service web de messagerie unifiée)](settelephoneaccessfolderemailresponse-um-web-service.md)
+[SetTelephoneAccessFolderEmailResponse (service Web de messagerie unifiée)](settelephoneaccessfolderemailresponse-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmailResponse />
@@ -31,11 +31,11 @@ L’élément **SetTelephoneAccessFolderEmailResponse** définit une réponse à
  **complexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,20 +47,20 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

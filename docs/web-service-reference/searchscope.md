@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4a53989e-eca6-45c4-afac-4d6ac19597d2
-description: L’élément SearchScope Spécifie l’étendue d’une recherche.
-ms.openlocfilehash: 352292952c735e7d3893790a660096c6b6966536
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SearchScope spécifie l’étendue d’une recherche.
+ms.openlocfilehash: df11c8db418ac90d1166030aeed3672c0b810052
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829315"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466863"
 ---
 # <a name="searchscope"></a>SearchScope
 
-L’élément **SearchScope** Spécifie l’étendue d’une recherche. 
+L’élément **SearchScope** spécifie l’étendue d’une recherche. 
   
 ```XML
 <SearchScope> PrimaryOnly | ArchiveOnly | All </SearchScope>
@@ -26,11 +26,11 @@ L’élément **SearchScope** Spécifie l’étendue d’une recherche.
  **MailboxSearchLocationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [MailboxSearchScope](mailboxsearchscope.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SearchScope** indique le type de boîte aux lettres qui est recherché dans une recherche de découverte. Une valeur texte **PrimaryOnly** indique que la boîte aux lettres principale est recherché. Une valeur texte **ArchiveOnly** indique que la boîte aux lettres d’archive est recherché. Une valeur de texte de **toutes les** indique que les deux principales et de boîtes aux lettres d’archivage sont recherchés. 
+La valeur de texte de l’élément **SearchScope** indique le type de boîte aux lettres qui fait l’objet d’une recherche de découverte. Une valeur de texte de **PrimaryOnly** indique que la boîte aux lettres principale fait l’objet d’une recherche. Une valeur de texte de **ArchiveOnly** indique que la boîte aux lettres d’archivage est recherchée. Une valeur de texte de **All** indique que la recherche s’effectue dans les boîtes aux lettres principale et d’archivage. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

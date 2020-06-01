@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 57310ba7-f411-43fa-a096-acef0481afec
-description: L’élément de Conversation (GetConversationItemsResponseMessageType) représente une conversation unique retournée dans la réponse GetConversationItems.
-ms.openlocfilehash: 413ace449002b72cedc03a973ca2f56d46b6b6de
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément conversation (GetConversationItemsResponseMessageType) représente une conversation unique renvoyée dans une réponse GetConversationItems.
+ms.openlocfilehash: e729a9525030ec1e7abc2ffcb40fc92812b17001
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755631"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466772"
 ---
 # <a name="conversation-conversationresponsetype"></a>Conversation (ConversationResponseType)
 
-L’élément de **Conversation** (GetConversationItemsResponseMessageType) représente une conversation unique retournée dans la réponse **GetConversationItems** . 
+L’élément **conversation** (GetConversationItemsResponseMessageType) représente une conversation unique renvoyée dans une réponse **GetConversationItems** . 
   
 ```XML
 <Conversation />
@@ -26,7 +26,7 @@ L’élément de **Conversation** (GetConversationItemsResponseMessageType) repr
  **ConversationResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -54,11 +54,11 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément est une nouveauté d'Exchange Server 2013.
+Cet élément est une nouveauté d’Exchange Server 2013.
   
 ## <a name="example"></a>Exemple
 
-Microsoft.Win32.RegistryKey#4
+Microsoft. Win32. RegistryKey # 4
   
 ## <a name="element-information"></a>Informations sur l'élément
 

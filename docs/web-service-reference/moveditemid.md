@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7d5425ab-1e75-43d1-b801-802ff5139df6
-description: L’élément MovedItemId Spécifie l’identificateur de l’élément a été déplacé par l’opération MarkAsJunk.
-ms.openlocfilehash: 17e20e8ca81f97b419fc4a2b413e21322e828ec9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MovedItemId spécifie l’identificateur de l’élément qui a été déplacé par l’opération MarkAsJunk.
+ms.openlocfilehash: 5cf8800ec672278691348bbcd8c6c8cc7a12905b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828484"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468613"
 ---
 # <a name="moveditemid"></a>MovedItemId
 
-L’élément **MovedItemId** Spécifie l’identificateur de l’élément a été déplacé par l’opération **MarkAsJunk** . 
+L’élément **MovedItemId** spécifie l’identificateur de l’élément qui a été déplacé par l’opération **MarkAsJunk** . 
   
 ```XML
 <MovedItemId Id="" ChangeKey=""/>
@@ -26,14 +26,14 @@ L’élément **MovedItemId** Spécifie l’identificateur de l’élément a é
  **ItemIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |La valeur de l’attribut **Id** est l’identificateur d’élément de l’élément est déplacé par l’opération **MarkAsJunk** . L’identificateur d’élément restent les mêmes après le déplacement.  <br/> |
-|ChangeKey  <br/> |La valeur de l’attribut **ChangeKey** est la clé de modification de l’élément déplacé. Modifier la clé modifie une fois que l’élément est déplacé par l’opération **MarkAsJunk** .  <br/> |
+|ID  <br/> |La valeur de l’attribut **ID** est l’identificateur d’élément de l’élément qui est déplacé par l’opération **MarkAsJunk** . L’identificateur de l’élément reste le même après le déplacement.  <br/> |
+|ChangeKey  <br/> |La valeur de l’attribut **ChangeKey** est la clé de modification de l’élément déplacé. La modification de la clé change après le déplacement de l’élément par l’opération **MarkAsJunk** .  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

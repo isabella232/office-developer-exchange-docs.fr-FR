@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
-description: L’élément MessageClassifications représente les classifications de messages qui doivent être marquées sur les messages entrants afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 402377907efbc9bb63d875f3f66b314dfc4b788d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MessageClassifications représente les classifications de message qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828471"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467969"
 ---
 # <a name="messageclassifications"></a>MessageClassifications
 
-L’élément **MessageClassifications** représente les classifications de messages qui doivent être marquées sur les messages entrants afin que l’exception ou la condition à appliquer. 
+L’élément **MessageClassifications** représente les classifications de message qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique. 
   
 ```XML
 <MessageClassifications>
@@ -32,7 +32,7 @@ L’élément **MessageClassifications** représente les classifications de mess
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -63,9 +63,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

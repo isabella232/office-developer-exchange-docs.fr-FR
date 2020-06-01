@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 105cc061-3c35-455f-b102-8023e2055632
-description: L’élément MailboxCulture indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se produit dans l’en-tête SOAP.
-ms.openlocfilehash: 9003560a89b83032b4dd1b7ff54f3101819cc3c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MailboxCulture indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se trouve dans l’en-tête SOAP.
+ms.openlocfilehash: 5760bac3b4589cdba599c5200db7d77b73855ca4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828266"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467808"
 ---
 # <a name="mailboxculture"></a>MailboxCulture
 
-L’élément **MailboxCulture** indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se produit dans l’en-tête SOAP. 
+L’élément **MailboxCulture** indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se trouve dans l’en-tête SOAP. 
   
 ```xml
 <MailboxCulture/>
@@ -31,11 +31,11 @@ L’élément **MailboxCulture** indique la culture à utiliser lors de l’ouve
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,19 +45,19 @@ Aucun.
 
 Aucun.
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte indique la langue utilisée dans les opérations de Service Web Exchange. Les valeurs possibles de cet élément sont décrits par la norme RFC 3066.
+La valeur texte indique la langue utilisée dans les opérations de service Web Exchange. Les valeurs possibles de cet élément sont décrites par la norme RFC 3066.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server avec le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server et sur lequel le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

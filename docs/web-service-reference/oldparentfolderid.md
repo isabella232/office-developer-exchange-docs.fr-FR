@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: da1b8c88-c650-455d-b749-0cd160b012d8
 description: L’élément OldParentFolderId contient l’identificateur du dossier parent d’un élément ou d’un dossier qui a été copié ou déplacé.
-ms.openlocfilehash: 1c4a51755c4194939dd797efa31cf5410b02bf85
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ad787e95f95b551393878b15783461d93ac08481
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828644"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467227"
 ---
 # <a name="oldparentfolderid"></a>OldParentFolderId
 
@@ -30,15 +30,14 @@ L’élément **OldParentFolderId** contient l’identificateur du dossier paren
  **FolderIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|
-  **Id** <br/> |Contient une chaîne qui identifie un dossier dans la banque d’informations Exchange. Cet attribut est requis.  <br/> |
-|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un dossier qui est identifié par l’attribut Id. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,7 +48,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CopiedEvent](copiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est copié.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent à un autre dossier parent.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

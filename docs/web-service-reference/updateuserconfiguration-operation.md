@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
-description: L’opération UpdateUserConfiguration met à jour un objet de configuration utilisateur dans un dossier.
-ms.openlocfilehash: 9da7c7ba15b3cf6b35f0489db539660aefa2e40a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération UpdateUserConfiguration met à jour un objet de configuration utilisateur sur un dossier.
+ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838913"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468543"
 ---
 # <a name="updateuserconfiguration-operation"></a>Opération UpdateUserConfiguration
 
-L’opération **UpdateUserConfiguration** met à jour un objet de configuration utilisateur dans un dossier. 
+L’opération **UpdateUserConfiguration** met à jour un objet de configuration utilisateur sur un dossier. 
   
 ## <a name="updateuserconfiguration-request-example"></a>Exemple de requête UpdateUserConfiguration
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande **UpdateUserConfiguration** montre comment former une demande de mise à jour d’un objet de configuration utilisateur dans le dossier Brouillons. 
+L’exemple de requête **UpdateUserConfiguration** suivant montre comment créer une demande de mise à jour d’un objet de configuration utilisateur dans le dossier Brouillons. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -69,7 +69,7 @@ L’exemple suivant d’une demande **UpdateUserConfiguration** montre comment f
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande **UpdateUserConfiguration** . 
+L’exemple suivant montre une réponse réussie à la demande **UpdateUserConfiguration** . 
   
 ### <a name="code"></a>Code
 
@@ -82,15 +82,15 @@ L’exemple suivant montre une réponse positive à la demande **UpdateUserConfi
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UpdateUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UpdateUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UpdateUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

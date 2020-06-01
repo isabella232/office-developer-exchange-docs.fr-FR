@@ -12,25 +12,25 @@ api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
 description: L’opération UploadItems télécharge un flux d’éléments dans une boîte aux lettres Exchange.
-ms.openlocfilehash: 6b002d531c7011b18ae1f88adfc2923d5a51e81c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838922"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468501"
 ---
 # <a name="uploaditems-operation"></a>Opération UploadItems
 
 L’opération **UploadItems** télécharge un flux d’éléments dans une boîte aux lettres Exchange. 
   
 > [!IMPORTANT]
-> L’opération **UploadItems** est limitée à une charge maximale d’importation de 25 Mo de données codées en base64 dans MicrosoftExchange Server 2010 Service Pack 1 (SP1). Le paramètre peut être modifié dans le fichier web.config. 
+> L’opération **UploadItems** est limitée dans MicrosoftExchange Server 2010 Service Pack 1 (SP1) à une charge utile d’importation maximale de 25 Mo de données codées en base64. Le paramètre peut être modifié dans le fichier Web. config. 
   
 ## <a name="uploaditems-request-example"></a>Exemple de requête UploadItems
 
 ### <a name="description"></a>Description
 
-Une demande de **UploadItems** l’exemple suivant montre comment charger des deux éléments dans une boîte aux lettres. Le premier élément est un nouvel élément. Le deuxième élément est une version mise à jour d’un élément existant dans la boîte aux lettres. 
+L’exemple de requête **UploadItems** suivant montre comment télécharger deux éléments dans une boîte aux lettres. Le premier élément est un nouvel élément. Le deuxième élément est une version mise à jour d’un élément existant dans la boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -39,8 +39,8 @@ Une demande de **UploadItems** l’exemple suivant montre comment charger des de
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -80,9 +80,9 @@ Une demande de **UploadItems** l’exemple suivant montre comment charger des de
 
 ### <a name="comments"></a>Commentaires
 
-Identificateurs et les données ont été réduites afin de préserver la lisibilité.
+Les identificateurs et les données d’élément ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -90,7 +90,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [UploadItems](uploaditems.md)
     
-- [Éléments (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
+- [Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
     
 - [Élément (UploadItemType)](item-uploaditemtype.md)
     
@@ -98,13 +98,13 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [Données (base64Binary)](data-base64binary.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="successful-uploaditems-response-example"></a>Exemple de réponse UploadItems réussie
+## <a name="successful-uploaditems-response-example"></a>Exemple de réponse UploadItems réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande **UploadItems** . 
+L’exemple suivant montre une réponse réussie à la demande **UploadItems** . 
   
 ### <a name="code"></a>Code
 
@@ -117,15 +117,15 @@ L’exemple suivant montre une réponse positive à la demande **UploadItems** .
                          MajorBuildNumber="164"
                          MinorBuildNumber="0"
                          Version="Exchange2010_SP1"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UploadItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UploadItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UploadItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -145,7 +145,7 @@ L’exemple suivant montre une réponse positive à la demande **UploadItems** .
 
 Identificateurs d'éléments ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -159,13 +159,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 ## <a name="uploaditems-error-response-example"></a>Exemple de réponse d’erreur UploadItems
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse à la demande **UploadItems** qui contient une erreur due à une tentative de mise à jour d’un élément qui ne figurent pas dans la boîte aux lettres. 
+L’exemple suivant montre une réponse à la demande **UploadItems** qui contient une erreur causée par une tentative de mise à jour d’un élément introuvable dans la boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -178,15 +178,15 @@ L’exemple suivant montre une réponse à la demande **UploadItems** qui contie
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:UploadItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:UploadItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:UploadItemsResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>

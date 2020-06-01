@@ -1,5 +1,5 @@
 ---
-title: ItemId (NonEmptyArrayOfItemIdsType)
+title: ItemIds (NonEmptyArrayOfItemIdsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: e895782a-74fe-4216-8ac2-c3c88c4b232d
-description: L’élément ItemId contient un tableau d’identificateurs d’élément qui identifient les éléments à exporter à partir d’une boîte aux lettres.
-ms.openlocfilehash: c6d48832c5435080c7cec8e43093ea60825b604a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ItemIds contient un tableau d’identificateurs d’éléments qui identifient les éléments à exporter à partir d’une boîte aux lettres.
+ms.openlocfilehash: 16c2633528e2ecbc863cfdde645e0f431b4c4297
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828151"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468592"
 ---
-# <a name="itemids-nonemptyarrayofitemidstype"></a>ItemId (NonEmptyArrayOfItemIdsType)
+# <a name="itemids-nonemptyarrayofitemidstype"></a>ItemIds (NonEmptyArrayOfItemIdsType)
 
-L’élément **ItemId** contient un tableau d’identificateurs d’élément qui identifient les éléments à exporter à partir d’une boîte aux lettres. 
+L’élément **ItemIds** contient un tableau d’identificateurs d’éléments qui identifient les éléments à exporter à partir d’une boîte aux lettres. 
   
 [ExportItems](exportitems.md)
   
-[ItemId (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md)
+[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md)
   
 ```XML
 <ItemIds>
@@ -36,23 +36,23 @@ L’élément **ItemId** contient un tableau d’identificateurs d’élément q
  **NonEmptyArrayOfItemIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID d’élément](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
+|[ItemId](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExportItems](exportitems.md) <br/> |Représente une demande pour exporter les éléments à partir d’une boîte aux lettres.  <br/> |
+|[ExportItems](exportitems.md) <br/> |Représente une demande d’exportation d’éléments à partir d’une boîte aux lettres.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

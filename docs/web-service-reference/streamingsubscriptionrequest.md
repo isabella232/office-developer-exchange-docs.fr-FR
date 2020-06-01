@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d18f3b60-ebb6-4133-b895-a6ec8942d039
-description: L’élément StreamingSubscriptionRequest représente un abonnement à un abonnement de notification d’événement diffusion en continu.
-ms.openlocfilehash: 088ec3b8048d70803b4837548ca918c0005d91bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément StreamingSubscriptionRequest représente un abonnement à un abonnement de notification d’événements en continu.
+ms.openlocfilehash: b469ba7598420189c1db0e2fe676a279390eb6bf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829601"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468228"
 ---
 # <a name="streamingsubscriptionrequest"></a>StreamingSubscriptionRequest
 
-L’élément **StreamingSubscriptionRequest** représente un abonnement à un abonnement de notification d’événement diffusion en continu. 
+L’élément **StreamingSubscriptionRequest** représente un abonnement à un abonnement de notification d’événements en continu. 
   
 [S’abonner](subscribe.md)
   
@@ -37,26 +37,26 @@ L’élément **StreamingSubscriptionRequest** représente un abonnement à un a
  **StreamingSubscriptionRequest**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**SubscribeToAllFolders** <br/> |Indique si le serveur peuvent s’abonner à tous les dossiers de boîte aux lettres de l’utilisateur. La valeur **true** indique que le serveur s’abonnera.  <br/> |
+|**SubscribeToAllFolders** <br/> |Indique si le serveur doit s’abonner à tous les dossiers de la boîte aux lettres de l’utilisateur. La valeur **true** indique que le serveur s’abonne.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderIds](folderids.md) <br/> |Contient un tableau d’identificateurs de dossier qui sont utilisés pour identifier les dossiers à analyser pour les notifications d’événement.  <br/> |
-|[EventTypes](eventtypes.md) <br/> |Contient une collection de notifications d’événements qui sont utilisés pour créer un abonnement.  <br/> |
+|[FolderIds](folderids.md) <br/> |Contient un tableau des identificateurs de dossier qui sont utilisés pour identifier les dossiers à surveiller pour les notifications d’événement.  <br/> |
+|[EventTypes](eventtypes.md) <br/> |Contient une collection de notifications d’événements qui sont utilisées pour créer un abonnement.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[S’abonner](subscribe.md) <br/> |Contient les propriétés qui sont utilisées pour créer des abonnements.  <br/> |
+|[S’abonner](subscribe.md) <br/> |Contient les propriétés utilisées pour créer des abonnements.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -70,9 +70,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

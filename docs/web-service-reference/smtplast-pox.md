@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f1aa8bd9-c6ac-41ac-8d2d-56fb20006005
-description: L’élément SMTPLast indique si le serveur SMTP Simple Mail Transfer Protocol () nécessite que courrier électronique doit être téléchargée avant qu’il envoie un message électronique à l’aide du serveur SMTP.
-ms.openlocfilehash: 5359f20b33855f4ef48566058bc46bd618e3b2ff
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SMTPLast spécifie si le serveur SMTP (Simple Mail Transfer Protocol) requiert le téléchargement du courrier électronique avant qu’il envoie des messages électroniques à l’aide du serveur SMTP.
+ms.openlocfilehash: 7019da28ffa196a9abc8798aa75aff2756198da3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829505"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468431"
 ---
 # <a name="smtplast-pox"></a>SMTPLast (POX)
 
-L’élément **SMTPLast** indique si le serveur SMTP Simple Mail Transfer Protocol () nécessite que courrier électronique doit être téléchargée avant qu’il envoie un message électronique à l’aide du serveur SMTP. 
+L’élément **SMTPLast** spécifie si le serveur SMTP (Simple Mail Transfer Protocol) requiert le téléchargement du courrier électronique avant qu’il envoie des messages électroniques à l’aide du serveur SMTP. 
   
 - [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **SMTPLast** indique si le serveur SMTP Simple Mail Transfer Proto
   
 - [Compte (POX)](account-pox.md)
   
-- [Protocole (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
 - [SMTPLast (POX)](smtplast-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **SMTPLast** indique si le serveur SMTP Simple Mail Transfer Proto
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,13 +50,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie si le serveur SMTP requiert que courrier électronique doit être téléchargée avant qu’il envoie un message électronique à l’aide du serveur SMTP. Les valeurs possibles sont **on** et **off**. La valeur par défaut est **désactivé**.
+La valeur texte spécifie si le serveur SMTP requiert le téléchargement du courrier électronique avant l’envoi de courrier électronique à l’aide du serveur SMTP. Les valeurs possibles sont **on** et **off**. La valeur par défaut est **off**.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

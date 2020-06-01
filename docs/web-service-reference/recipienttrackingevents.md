@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c4f729aa-674e-43b2-97f2-bf49740b0a34
-description: L’élément RecipientTrackingEvents représente une collection d’un ou plusieurs des événements pour un message.
-ms.openlocfilehash: 5fa5df422eff533891d021b77d5443b314d36244
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RecipientTrackingEvents représente une collection d’un ou plusieurs événements pour un message.
+ms.openlocfilehash: c0b25a0e22d13bc1f26768b9b7089d96eb2e8cfc
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828993"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468480"
 ---
 # <a name="recipienttrackingevents"></a>RecipientTrackingEvents
 
-L’élément **RecipientTrackingEvents** représente une collection d’un ou plusieurs des événements pour un message. 
+L’élément **RecipientTrackingEvents** représente une collection d’un ou plusieurs événements pour un message. 
   
 ```XML
 <RecipientTrackingEvents>
@@ -32,17 +32,17 @@ L’élément **RecipientTrackingEvents** représente une collection d’un ou p
  **ArrayOfRecipientTrackingEventType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des détails pour un événement spécifique dans le rapport de suivi.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient les détails d’un événement spécifique dans le rapport de suivi.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

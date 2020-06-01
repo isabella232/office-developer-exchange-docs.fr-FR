@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
-description: L’élément SeekToConditionPageItemView identifie la condition est utilisée pour identifier la fin d’une recherche, l’index de début d’une recherche, les entrées maximum pour renvoyer et les instructions de recherche pour une recherche FindItem ou FindConversation.
-ms.openlocfilehash: e95246079f8c6e7acffac1dabb278895265767d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SeekToConditionPageItemView identifie la condition qui est utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, les entrées maximales à renvoyer et les instructions de recherche pour une recherche FindItem ou FindConversation.
+ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829328"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466835"
 ---
 # <a name="seektoconditionpageitemview"></a>SeekToConditionPageItemView
 
-L’élément **SeekToConditionPageItemView** identifie la condition est utilisée pour identifier la fin d’une recherche, l’index de début d’une recherche, les entrées maximum pour renvoyer et les instructions de recherche pour un **FindItem** ou un **FindConversation **recherche. 
+L’élément **SeekToConditionPageItemView** identifie la condition qui est utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, les entrées maximales à renvoyer et les instructions de recherche pour une recherche **FindItem** ou **FindConversation** . 
   
 ```XML
 <SeekToConditionPageItemView BasePoint="" MaxEntriesReturned="">
@@ -28,14 +28,14 @@ L’élément **SeekToConditionPageItemView** identifie la condition est utilis�
  **SeekToConditionPageViewType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Point de base  <br/> |La valeur de texte de l’attribut de **point de base** est le point de base à partir de dans laquelle la recherche est lancée. Une valeur de texte de **début** indique que la recherche commence au début du jeu de résultats. Une valeur de texte **fin** indique que la recherche démarre à la fin du jeu de résultats.  <br/> |
-|MaxEntriesReturned  <br/> |La valeur de texte de l’attribut **MaxEntriesReturned** est le nombre maximal d’éléments pouvant être renvoyés dans un jeu de résultats.  <br/> |
+|BasePoint  <br/> |La valeur de texte de l’attribut **BasePoint** est le point de base de l’emplacement de démarrage de la recherche. Une valeur de **départ** indique que la recherche commence au début du jeu de résultats. Une valeur de **fin** indique que la recherche commence à la fin du jeu de résultats.  <br/> |
+|MaxEntriesReturned  <br/> |La valeur de texte de l’attribut **MaxEntriesReturned** est le nombre maximal d’éléments qui peuvent être renvoyés dans un jeu de résultats.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,7 +43,7 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[FindConversation](findconversation.md) | [FindItem](finditem.md)
+[FindConversation](findconversation.md)  |  [FindItem](finditem.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

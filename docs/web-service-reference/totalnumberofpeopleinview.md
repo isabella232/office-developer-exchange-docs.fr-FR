@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f1037fef-628b-4e44-96e7-a701a9ca8404
-description: L’élément TotalNumberOfPeopleInView Spécifie le nombre total de personnages renvoyés dans une réponse FindPeople.
-ms.openlocfilehash: 5f45bb928a363c218271281c013a5af2155c6e53
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TotalNumberOfPeopleInView spécifie le nombre total de personnages renvoyés dans une réponse FindPeople.
+ms.openlocfilehash: d89aa65d595814a7277f85e569ca10f9058c6aac
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838761"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467507"
 ---
 # <a name="totalnumberofpeopleinview"></a>TotalNumberOfPeopleInView
 
-L’élément **TotalNumberOfPeopleInView** Spécifie le nombre total de personnages renvoyés dans une réponse **FindPeople** . 
+L’élément **TotalNumberOfPeopleInView** spécifie le nombre total de personnages renvoyés dans une réponse **FindPeople** . 
   
 ```XML
 <TotalNumberOfPeopleInView></TotalNumberOfPeopleInView>
@@ -26,11 +26,11 @@ L’élément **TotalNumberOfPeopleInView** Spécifie le nombre total de personn
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 [FindPeopleResponse](findpeopleresponse.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **TotalNumberOfPeopleInView** est le nombre total de personnages renvoyés dans une réponse **FindPeople** . 
   
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

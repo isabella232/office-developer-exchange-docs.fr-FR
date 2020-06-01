@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: da064035-17e1-4945-8f40-1b241040ce01
-description: L’élément OtherAddresses spécifie un tableau de valeurs d’adresses et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: fd5655686d0239eb1eb4c03545ed2b88580a1ae7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément OtherAddresses spécifie un tableau de valeurs d’adresse et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: 9c5c7f81ab7dcf4c70576b2e6baf9ad6b9711c00
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828671"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467682"
 ---
 # <a name="otheraddresses"></a>OtherAddresses
 
-L’élément **OtherAddresses** spécifie un tableau de valeurs d’adresses et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **OtherAddresses** spécifie un tableau de valeurs d’adresse et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <OtherAddresses>
@@ -28,11 +28,11 @@ L’élément **OtherAddresses** spécifie un tableau de valeurs d’adresses et
  **ArrayOfPostalAddressAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Personnage](persona.md)
+[Persona](persona.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

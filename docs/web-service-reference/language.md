@@ -1,5 +1,5 @@
 ---
-title: Language
+title: Langue
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
-description: L’élément de langage contient la langue utilisée pour la requête de recherche.
-ms.openlocfilehash: 735a962e6abca5ff81194242ea747a05bf92424e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Language contient la langue utilisée pour la requête de recherche.
+ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828225"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468697"
 ---
-# <a name="language"></a>Language
+# <a name="language"></a>Langue
 
-L’élément de **langage** contient la langue utilisée pour la requête de recherche. 
+L’élément **Language** contient la langue utilisée pour la requête de recherche. 
   
 ```XML
 <Language></Language>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[SetHoldOnMailboxes](setholdonmailboxes.md) | [SearchMailboxes](searchmailboxes.md)
+[SetHoldOnMailboxes](setholdonmailboxes.md)  |  [SearchMailboxes](searchmailboxes.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **langage** est la langue utilisée dans une recherche de découverte. 
+La valeur de texte de l’élément **Language** est la langue utilisée dans une recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

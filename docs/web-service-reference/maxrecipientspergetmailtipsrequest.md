@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8ff5df18-1989-4217-b4c0-599232911d0c
-description: L’élément MaxRecipientsPerGetMailTipsRequest indique le nombre maximal de destinataires qui peuvent être transmises à l’opération GetMailTips.
-ms.openlocfilehash: 4c873fe534582e582bf5b1c1d5fd2789616e056a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MaxRecipientsPerGetMailTipsRequest indique le nombre maximal de destinataires qui peuvent être transmis à l’opération GetMailTips.
+ms.openlocfilehash: cec343182b364fce040d5e32928cbeb569a22124
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828386"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468403"
 ---
 # <a name="maxrecipientspergetmailtipsrequest"></a>MaxRecipientsPerGetMailTipsRequest
 
-L’élément **MaxRecipientsPerGetMailTipsRequest** indique le nombre maximal de destinataires qui peuvent être transmises à l' [opération GetMailTips](getmailtips-operation.md).
+L’élément **MaxRecipientsPerGetMailTipsRequest** indique le nombre maximal de destinataires qui peuvent être transmis à l' [opération GetMailTips](getmailtips-operation.md).
   
 ```XML
 <MaxRecipientsPerGetMailTipsRequest/>
@@ -30,11 +30,11 @@ L’élément **MaxRecipientsPerGetMailTipsRequest** indique le nombre maximal d
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente le nombre maximal de destinataires qui peuvent être transmises à l' [opération GetMailTips](getmailtips-operation.md).
+La valeur de texte est un entier qui représente le nombre maximal de destinataires pouvant être transmis à l' [opération GetMailTips](getmailtips-operation.md).
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

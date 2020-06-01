@@ -8,29 +8,29 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e4cd194-0696-4fec-8ab0-e1d349ed0be0
 description: L’élément Description spécifie le texte descriptif pour la stratégie de rétention.
-ms.openlocfilehash: e001733e7011610dc09c2cce389104d74894772d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: a399d4072220e3fa9199f0a3eb760e886b7b4ee6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755904"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467885"
 ---
 # <a name="description"></a>Description
 
-L’élément **Description** Spécifie le texte descriptif pour la stratégie de rétention. 
+L’élément **Description** spécifie le texte descriptif pour la stratégie de rétention. 
   
 ```XML
 <Description></Description>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,9 +42,9 @@ Aucun.
 |:-----|:-----|
 |[RetentionPolicyTag](retentionpolicytag.md) <br/> |Spécifie la stratégie de rétention pour un élément de boîte aux lettres.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Description** est une valeur de type string qui décrit la stratégie de rétention. 
+La valeur de texte de l’élément **Description** est une valeur de chaîne qui décrit la stratégie de rétention. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

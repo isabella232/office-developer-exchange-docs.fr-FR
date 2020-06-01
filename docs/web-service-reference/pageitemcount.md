@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4bc48bfb-a9ae-4e87-97a6-f3e0c9c89bc1
-description: L’élément PageItemCount Spécifie le nombre de pages retournées dans une pagination de résultats de recherche.
-ms.openlocfilehash: 89c054186c014f9e2fc4f8116b032df91e1549b3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PageItemCount spécifie le nombre de pages renvoyées dans une pagination de résultat de recherche.
+ms.openlocfilehash: e8e98168212c104763f5cf94847e06d5ec93534d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828680"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467031"
 ---
 # <a name="pageitemcount"></a>PageItemCount
 
-L’élément **PageItemCount** Spécifie le nombre de pages retournées dans une pagination de résultats de recherche. 
+L’élément **PageItemCount** spécifie le nombre de pages renvoyées dans une pagination de résultat de recherche. 
   
 ```XML
 <PageItemCount></PageItemCount>
@@ -26,11 +26,11 @@ L’élément **PageItemCount** Spécifie le nombre de pages retournées dans un
  **entier**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PageItemCount** est le nombre de pages retournées dans une pagination de résultats de recherche. 
+La valeur de texte de l’élément **PageItemCount** est le nombre de pages renvoyées dans une pagination de résultat de recherche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

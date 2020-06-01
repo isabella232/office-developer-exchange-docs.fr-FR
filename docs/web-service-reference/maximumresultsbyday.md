@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d581a12a-2b8e-4960-ae14-c8c4aa0b1849
-description: L’élément MaximumResultsByDay Spécifie le nombre de répétitions de réunion proposée par un jour retourné dans la réponse.
-ms.openlocfilehash: 69ab4e0b23f85e5b8786ba2dd934850cadc88f0e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MaximumResultsByDay spécifie le nombre de réunions suggérées par jour renvoyées dans la réponse.
+ms.openlocfilehash: 46d5c35a83034b8b968901fbc4ee57d046b6c164
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828381"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468417"
 ---
 # <a name="maximumresultsbyday"></a>MaximumResultsByDay
 
-L’élément **MaximumResultsByDay** Spécifie le nombre de répétitions de réunion proposée par un jour retourné dans la réponse. 
+L’élément **MaximumResultsByDay** spécifie le nombre de réunions suggérées par jour renvoyées dans la réponse. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -37,11 +37,11 @@ L’élément **MaximumResultsByDay** Spécifie le nombre de répétitions de r�
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -51,24 +51,24 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations de suggestion de réunion.  <br/> Vous trouverez ci-dessous le XPath pour cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. La valeur de texte représente un entier.
+Une valeur de texte est requise. La valeur texte représente un entier.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est obligatoire si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
+Cet élément est requis si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
   
 > [!NOTE]
-> Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft® Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé. 
+> Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft® Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -76,5 +76,5 @@ Cet élément est obligatoire si l’élément [SuggestionsViewOptions](suggesti
 ## <a name="see-also"></a>Voir aussi
 
 - [Opération GetUserAvailability](getuseravailability-operation.md)
-- [Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

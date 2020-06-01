@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 22aebf31-d9f4-4e03-bbff-c675409518d1
-description: L’élément ContainsSubjectOrBodyStrings indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: f577e7d26bb7d82ea1017f720e1d3a30892e2ef1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContainsSubjectOrBodyStrings indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 6f9c7862912632e7e86a0b704e760c7fd0f5f14c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755601"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466821"
 ---
 # <a name="containssubjectorbodystrings"></a>ContainsSubjectOrBodyStrings
 
-L’élément **ContainsSubjectOrBodyStrings** indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants afin que l’exception ou la condition à appliquer. 
+L’élément **ContainsSubjectOrBodyStrings** indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants pour que la condition ou l’exception s’applique. 
   
 ```XML
 <ContainsSubjectOrBodyStrings>
@@ -32,17 +32,17 @@ L’élément **ContainsSubjectOrBodyStrings** indique les chaînes qui doivent 
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps ou l’objet des messages entrants afin que l’exception ou la condition à appliquer.  <br/> |
+|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps ou l’objet des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -63,9 +63,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

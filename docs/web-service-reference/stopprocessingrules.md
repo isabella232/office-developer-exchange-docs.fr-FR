@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5b89a2cb-ab26-444d-b3dd-2b3858872d63
 description: L'élément StopProcessingRules indique si les règles suivantes doivent être évaluées.
-ms.openlocfilehash: 48799975f8c928bf291fcdcdb83f2ff8768af8b9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9f068fd6290a39bbab6e3c1e29066c4fefefc64b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829593"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467899"
 ---
 # <a name="stopprocessingrules"></a>StopProcessingRules
 
@@ -30,11 +30,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,7 +46,7 @@ Aucun.
 |:-----|:-----|
 |[Actions](actions.md) <br/> |Représente l'ensemble des actions qui sont disponibles pour être effectuées sur un message lorsque les conditions sont remplies.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Une valeur texte **true** indique que les règles suivantes ne doivent pas être traités. La valeur **false** indique que les règles suivantes devraient continuer à être évaluée. 
   
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1a0e0f46-1472-4eb7-bb54-f193a2603587
-description: L’élément PermanentDelete indique si les messages doivent être définitivement supprimés et non enregistré dans le dossier éléments supprimés.
-ms.openlocfilehash: 40cf80e054bb70a3f6d687e8d4361f1d4331a7f8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PermanentDelete indique si les messages doivent être supprimés définitivement et ne pas être enregistrés dans le dossier éléments supprimés.
+ms.openlocfilehash: da7680eefca9ad359948af38eac49d18e9055988
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828724"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467766"
 ---
 # <a name="permanentdelete"></a>PermanentDelete
 
-L’élément **PermanentDelete** indique si les messages doivent être définitivement supprimés et non enregistré dans le dossier éléments supprimés. 
+L’élément **PermanentDelete** indique si les messages doivent être supprimés définitivement et ne pas être enregistrés dans le dossier éléments supprimés. 
   
 ```XML
 <PermanentDelete>true | false</PermanentDelete>
@@ -30,11 +30,11 @@ L’élément **PermanentDelete** indique si les messages doivent être définit
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[Actions](actions.md) <br/> |Représente l'ensemble des actions qui sont disponibles pour être effectuées sur un message lorsque les conditions sont remplies.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le message doit être marqué pour être définitivement supprimés. La valeur **false** indique que le message ne doit pas être marqué pour être définitivement supprimés. 
+Une valeur de texte **true** indique que le message doit être marqué pour être supprimé définitivement. La valeur **false** indique que le message ne doit pas être marqué pour être supprimé définitivement. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,5 +1,5 @@
 ---
-title: Périodes
+title: Periods
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7920d81d-abba-4232-8bfe-49267b6c9a36
-description: L’élément périodes représente un tableau de points qui définissent le décalage de temps à différents stades du fuseau horaire.
-ms.openlocfilehash: f2f9cf7c724b453d2b1975fcf72c55bc02caa54b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément periods représente un tableau de périodes qui définissent le décalage temporel à différentes étapes du fuseau horaire.
+ms.openlocfilehash: 773457a6e4c0237eaeaf23109a7022427cc7dd0d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828729"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467773"
 ---
-# <a name="periods"></a>Périodes
+# <a name="periods"></a>Periods
 
-L’élément **périodes** représente un tableau de points qui définissent le décalage de temps à différents stades du fuseau horaire. 
+L’élément **periods** représente un tableau de périodes qui définissent le décalage temporel à différentes étapes du fuseau horaire. 
   
 ```xml
 <Periods>
@@ -32,35 +32,35 @@ L’élément **périodes** représente un tableau de points qui définissent le
  **NonEmptyArrayOfPeriodsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Period](period.md) <br/> |Définit le nom, le décalage et l’identificateur unique pour une étape spécifique du fuseau horaire.  <br/> |
+|[Period](period.md) <br/> |Définit le nom, le décalage temporel et l’identificateur unique pour une étape spécifique du fuseau horaire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |Définit le fuseau horaire pour l’heure de début d’un [CalendarItem](calendaritem.md) [MeetingRequest](meetingrequest.md).  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |Définit le fuseau horaire pour l’heure de fin d’un [CalendarItem](calendaritem.md) [MeetingRequest](meetingrequest.md).  <br/> |
-|[Définition de fuseau horaire](timezonedefinition.md) <br/> |Définit un fuseau horaire.  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |Définit le fuseau horaire pour l’heure de début d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |Définit le fuseau horaire pour l’heure de fin d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).  <br/> |
+|[TimeZoneDefinition](timezonedefinition.md) <br/> |Définit un fuseau horaire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

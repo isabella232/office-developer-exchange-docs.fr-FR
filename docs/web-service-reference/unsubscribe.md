@@ -1,5 +1,5 @@
 ---
-title: Se désabonner
+title: Se désinscrire
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5584db5f-553a-47ce-85fb-f9902c9990ab
-description: L’élément de désabonnement contient les propriétés utilisées pour annuler l’abonnement à partir d’un abonnement.
-ms.openlocfilehash: bab797ff74a921e3e93c993229bc6d6d289e0c5c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément unsubscribe contient les propriétés utilisées pour annuler l’abonnement à un abonnement.
+ms.openlocfilehash: d3d9c3bf9ad97cc0fdabf574c6505c797583838a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838843"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467213"
 ---
-# <a name="unsubscribe"></a>Se désabonner
+# <a name="unsubscribe"></a>Se désinscrire
 
-L’élément de **désabonnement** contient les propriétés utilisées pour annuler l’abonnement à partir d’un abonnement. 
+L’élément **unsubscribe** contient les propriétés utilisées pour annuler l’abonnement à un abonnement. 
   
-[Annuler l’abonnement](unsubscribe.md)
+[Se désabonner](unsubscribe.md)
   
 ```xml
 <Unsubscribe>
@@ -34,11 +34,11 @@ L’élément de **désabonnement** contient les propriétés utilisées pour an
  **UnsubscribeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

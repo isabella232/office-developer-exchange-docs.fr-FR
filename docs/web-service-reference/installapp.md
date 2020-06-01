@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: fc2ca69e-eea7-4334-b046-ec0b04d8f8c6
-description: L’élément InstallApp spécifie la demande pour installer une application.
-ms.openlocfilehash: d9b7412865c003b89eccbdd92aa6ff9968048191
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément InstallApp spécifie la demande d’installation d’une application.
+ms.openlocfilehash: 003a72507813677484b2d6ee75f8ff577df169e3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827949"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468004"
 ---
 # <a name="installapp"></a>InstallApp
 
-L’élément **InstallApp** spécifie la demande pour installer une application. 
+L’élément **InstallApp** spécifie la demande d’installation d’une application. 
   
 ```XML
 <InstallApp>
@@ -28,17 +28,17 @@ L’élément **InstallApp** spécifie la demande pour installer une application
  **InstallAppType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Manifeste](manifest.md) <br/> |Contient le fichier de manifeste d’application codé en base64.  <br/> |
+|[Manifeste](manifest.md) <br/> |Contient le fichier manifeste d’application encodé en base64.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

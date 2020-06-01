@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 53d86631-58b0-4cfd-8209-0ce65e259f16
 description: L’élément Value spécifie la valeur d’un élément BodyContentAttributedValue.
-ms.openlocfilehash: 055d737ed5f7cd08f16d40366e76dcb5573fa3a7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7846302f0c2b3bad37cc55de752ca775e63b644b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838987"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467605"
 ---
 # <a name="value-bodycontenttype"></a>Valeur (BodyContentType)
 
-L’élément **Value** spécifie la valeur d’un élément **BodyContentAttributedValue** . 
+L’élément **value** spécifie la valeur d’un élément **BodyContentAttributedValue** . 
   
 ```XML
 <Value>
@@ -30,15 +30,15 @@ L’élément **Value** spécifie la valeur d’un élément **BodyContentAttrib
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Valeur](value.md) | [BodyType](bodytype.md)
+[Value (valeur](value.md)  |  ) [BodyType](bodytype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

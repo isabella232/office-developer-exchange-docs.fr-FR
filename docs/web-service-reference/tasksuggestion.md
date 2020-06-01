@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ade9ea3b-bdf1-4999-ac7d-44c6452cef36
 description: L’élément TaskSuggestion contient une suggestion de tâche qui résulte d’une entité extraite d’un élément.
-ms.openlocfilehash: bf12c3dc8b58b6be873e0a9b0863c80051eb4e11
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 49564c246596dabbf7fbacf2924eeb877698ea1a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838675"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468123"
 ---
 # <a name="tasksuggestion"></a>TaskSuggestion
 
@@ -31,15 +31,15 @@ L’élément **TaskSuggestion** contient une suggestion de tâche qui résulte 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Position](position.md) | [TaskString](taskstring.md) | [intervenants](assignees.md)
+[Emplacement](position.md)  |  [TaskString](taskstring.md)  |  Personnes [affectées](assignees.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

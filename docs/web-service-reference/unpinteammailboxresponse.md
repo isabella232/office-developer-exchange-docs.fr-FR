@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
-description: L’élément UnpinTeamMailboxResponse contient une réponse à une demande de supprimer une boîte aux lettres du site.
-ms.openlocfilehash: eb936c5f8d61b7005d7e2e9d5dfff7632e702a28
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UnpinTeamMailboxResponse contient une réponse à une demande de désépinglage d’une boîte aux lettres de site.
+ms.openlocfilehash: ba1f61a7b5b5b4d5af6805c13d84ee15e3559751
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838835"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467234"
 ---
 # <a name="unpinteammailboxresponse"></a>UnpinTeamMailboxResponse
 
-L’élément **UnpinTeamMailboxResponse** contient une réponse à une demande de supprimer une boîte aux lettres du site. 
+L’élément **UnpinTeamMailboxResponse** contient une réponse à une demande de désépinglage d’une boîte aux lettres de site. 
   
 ```XML
 <UnpinTeamMailboxResponse>
@@ -31,15 +31,15 @@ L’élément **UnpinTeamMailboxResponse** contient une réponse à une demande 
  **UnpinTeamMailboxResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

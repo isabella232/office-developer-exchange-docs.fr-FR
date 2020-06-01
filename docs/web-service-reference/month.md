@@ -1,5 +1,5 @@
 ---
-title: Mois
+title: Month
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: b12ac64f-b230-4573-be05-c86a428c4965
-description: L’élément Month représente le mois de la transition de l’année vers et depuis l’heure standard et l’heure d’été.
-ms.openlocfilehash: 73d052ef16bc51cd574eb8b04e21546f97347258
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément month représente le mois de transition de l’année, de l’heure standard et de l’heure d’été.
+ms.openlocfilehash: f102dca4ed9e833b9742844cfd612c81dfd05e70
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828476"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468620"
 ---
-# <a name="month"></a>Mois
+# <a name="month"></a>Month
 
-L’élément **Month** représente le mois de la transition de l’année vers et depuis l’heure standard et l’heure d’été. 
+L’élément **Month** représente le mois de transition de l’année, de l’heure standard et de l’heure d’été. 
   
 ```xml
 <Month>...</Month>
 ```
 
- **Court**
+ **Inférieure**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,22 +44,22 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StandardTime](standardtime.md) <br/> | Représente un décalage de l’heure par rapport à temps universel coordonné (UTC) représenté par l’élément [Bias (UTC)](bias-utc.md) . Cet élément contient également des informations sur la transition à l’heure standard de l’heure dans les zones où l’heure d’été est respectée. <br/> <br/>  Les expressions XPath à l’élément [StandardTime](standardtime.md) sont les suivantes : <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime` <br/><br/>  `/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
-|[DaylightTime](daylighttime.md) <br/> | Représente un décalage de l’heure par rapport à l’heure UTC représentée par l’élément [Bias (UTC)](bias-utc.md) dans les zones où l’heure d’été est respectée. Cet élément contient également des informations sur la transition vers l’heure d’été à partir de l’heure standard.  <br/><br/>  Les expressions XPath à l’élément [DaylightTime](daylighttime.md) sont les suivantes :  <br/> <br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime` <br/><br/>  `/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
+|[StandardTime Element](standardtime.md) <br/> | Représente un décalage par rapport à l’heure par rapport au temps universel coordonné (UTC) représenté par l’élément [bias (UTC)](bias-utc.md) . Cet élément contient également des informations sur la transition vers l’heure standard à partir de l’heure d’été dans les régions où l’heure d’été est observée. <br/> <br/>  Voici les expressions XPath de l’élément [StandardTime Element](standardtime.md) : <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/StandardTime` <br/><br/>  `/GetUserAvailabilityRequest/TimeZone/StandardTime` <br/> |
+|[DaylightTime](daylighttime.md) <br/> | Représente un décalage entre l’heure par rapport au temps universel coordonné et l’heure UTC représentée par l’élément [bias (UTC)](bias-utc.md) dans les régions où l’heure d’été est observée. Cet élément contient également des informations sur le moment où se produit la transition vers l’heure d’été à partir de l’heure standard.  <br/><br/>  Voici les expressions XPath de l’élément [DaylightTime](daylighttime.md) :  <br/> <br/> `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone/DaylightTime` <br/><br/>  `/GetUserAvailabilityRequest/TimeZone/DaylightTime` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. La valeur représente le rang ordinal du mois par occurrence et doit être un nombre compris entre 1 et 12. Il s’agit d’un type de données entier court.
+Une valeur de texte est requise. La valeur représente le rang ordinal du mois par occurrence et doit être un nombre compris entre 1 et 12. Il s’agit d’un type de données entier court.
   
 ## <a name="remarks"></a>Remarques
 
-Un élément [StandardTime](standardtime.md) qui contient un élément [DayOrder](dayorder.md) qui a une valeur de 5, un élément **mois** qui a une valeur de 10 et un élément [DayOfWeek (fuseau horaire)](dayofweek-timezone.md) qui a une valeur de dimanche signifie que la transition à partir de l’heure l’heure d’été se produit le dimanche cinquième du dixième mois. 
+Un élément [StandardTime Element](standardtime.md) qui contient un élément [DayOrder](dayorder.md) ayant la valeur 5, un élément **Month** qui a la valeur 10 et un élément [DayOfWeek (TimeZone)](dayofweek-timezone.md) ayant la valeur dimanche signifie que la transition entre l’heure standard et l’heure d’été a lieu le cinquième dimanche du dixième mois. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -67,5 +67,5 @@ Un élément [StandardTime](standardtime.md) qui contient un élément [DayOrder
 ## <a name="see-also"></a>Voir aussi
 
 - [Opération GetUserAvailability](getuseravailability-operation.md)
-- [Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

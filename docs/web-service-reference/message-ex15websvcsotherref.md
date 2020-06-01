@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2400b33c-43b2-4fc2-b6fb-275a99e0e810
-description: L’élément de Message représente un message électronique de Microsoft Exchange.
-ms.openlocfilehash: 388b944cfa16899cb2376320882f5087396d7b82
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément message représente un message électronique Microsoft Exchange.
+ms.openlocfilehash: 510e97572e54f0ea0cb65fc7c75910e69cc0651f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828474"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467780"
 ---
 # <a name="message"></a>Message
 
-L’élément de **Message** représente un message électronique de Microsoft Exchange. 
+L’élément **message** représente un message électronique Microsoft Exchange. 
   
 ```xml
 <Message>
@@ -86,23 +86,23 @@ L’élément de **Message** représente un message électronique de Microsoft E
  **MessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[MimeContent](mimecontent.md) <br/> |Contient le flux MIME (Multipurpose Internet Mail Extensions) natif d'un objet représenté au format base64Binary.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange. Cette propriété est en lecture seule.  <br/> |
+|[ItemId](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange. Cette propriété est en lecture seule.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l'identificateur du dossier parent qui contient l'élément ou le dossier. Cette propriété est en lecture seule.  <br/> |
 |[ItemClass](itemclass.md) <br/> |Représente la classe de message d'un élément.  <br/> |
-|[Objet](subject.md) <br/> |Représente l'objet des éléments de la banque d'informations Exchange et des objets de réponse. L’objet est limitée à 255 caractères.  <br/> |
+|[Objet](subject.md) <br/> |Représente l'objet des éléments de la banque d'informations Exchange et des objets de réponse. L’objet est limité à 255 caractères.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Indique le niveau de confidentialité d'un élément.  <br/> |
-|[Corps](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
+|[Body](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
 |[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments ou les fichiers joints à un élément dans la banque d'informations Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Indique la date et l'heure auxquelles un élément de boîte aux lettres a été reçu.  <br/> |
 |[Taille](size.md) <br/> |Représente la taille en octets d'un élément. Cette propriété est en lecture seule.  <br/> |
@@ -111,55 +111,55 @@ Aucun.
 |[InReplyTo](inreplyto.md) <br/> |Représente l'identificateur de l'élément dont cet élément est une réponse.  <br/> |
 |[IsSubmitted](issubmitted.md) <br/> |Indique si un élément a été envoyé dans le dossier par défaut de la boîte d'envoi.  <br/> |
 |[IsDraft](isdraft.md) <br/> |Indique si un élément n'a pas encore été envoyé.  <br/> |
-|[IsFromMe](isfromme.md) <br/> |Indique si un utilisateur a envoyé un élément pour lui ou elle-même.  <br/> |
+|[IsFromMe](isfromme.md) <br/> |Indique si un utilisateur s’est envoyé un élément à lui-même ou à lui-même.  <br/> |
 |[IsResend](isresend.md) <br/> |Indique si l'élément a déjà été envoyé.  <br/> |
 |[IsUnmodified](isunmodified.md) <br/> |Indique si l'élément a été modifié.  <br/> |
-|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente la collection de tous les en-têtes de message Internet qui sont contenues dans un élément dans une boîte aux lettres.  <br/> |
+|[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente la collection de tous les en-têtes de message Internet contenus dans un élément d’une boîte aux lettres.  <br/> |
 |[DateTimeSent](datetimesent.md) <br/> |Indique la date et l'heure auxquelles un élément de boîte aux lettres a été envoyé.  <br/> |
 |[DateTimeCreated](datetimecreated.md) <br/> |Indique la date et l'heure auxquelles un élément donné de la boîte aux lettres a été créé.  <br/> |
 |[ResponseObjects](responseobjects.md) <br/> |Contient une collection de tous les objets de réponse associés à un élément dans la banque d'informations Exchange.  <br/> |
 |[ReminderDueBy](reminderdueby.md) <br/> |Indique la date et l'heure auxquelles l'événement se produit. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche.  <br/> |
 |[ReminderIsSet](reminderisset.md) <br/> |Indique si un rappel a été défini pour un élément dans la banque d'informations Exchange.  <br/> |
 |[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Représente le nombre de minutes avant un événement lors de l'affichage d'un rappel.  <br/> |
-|[DisplayCc](displaycc.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la ligne CC. Il s’agit de la chaîne concaténée de tous les noms d’affichage du destinataire CC.  <br/> |
+|[DisplayCc](displaycc.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la ligne CC. Il s’agit de la chaîne concaténée de tous les noms d’affichage de destinataires CC.  <br/> |
 |[DisplayTo](displayto.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la zone à. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.  <br/> |
 |[HasAttachments](hasattachments.md) <br/> |Représente une propriété définie sur **true** si un élément comporte au moins une pièce jointe visible. Cette propriété est en lecture seule.  <br/> |
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues sur les dossiers et les éléments.  <br/> |
 |[Culture](culture.md) <br/> |Représente la culture d'un élément donné dans une boîte aux lettres.  <br/> |
 |[Sender](sender.md) <br/> |Identifie l’expéditeur d’un élément.  <br/> |
 |[ToRecipients](torecipients.md) <br/> |Contient un ensemble de destinataires d’un message.  <br/> |
-|[CcRecipients](ccrecipients.md) <br/> |Représente une collection de destinataires qui reçoivent une copie du message.  <br/> |
-|[BccRecipients](bccrecipients.md) <br/> |Représente une collection de destinataires pour recevoir une copie carbone invisible (Cci) d’un message électronique.  <br/> |
+|[CcRecipients](ccrecipients.md) <br/> |Représente une collection de destinataires qui recevront une copie du message.  <br/> |
+|[BccRecipients](bccrecipients.md) <br/> |Représente une collection de destinataires qui reçoit une copie carbone invisible (CCI) d’un message électronique.  <br/> |
 |[IsReadReceiptRequested](isreadreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande une confirmation de lecture.  <br/> |
 |[IsDeliveryReceiptRequested](isdeliveryreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande un accusé de réception.  <br/> |
-|[ConversationIndex](conversationindex.md) <br/> |Contient un ID binaire qui représente le thread auquel appartient ce message.  <br/> |
+|[ConversationIndex](conversationindex.md) <br/> |Contient un ID binaire qui représente le thread auquel ce message appartient.  <br/> |
 |[ConversationTopic](conversationtopic.md) <br/> |Représente l’identificateur de la conversation.  <br/> |
-|[From](from.md) <br/> |Représente le destinataire à partir de laquelle le message a été envoyé.  <br/> |
+|[From](from.md) <br/> |Représente le destinataire à partir duquel le message a été envoyé.  <br/> |
 |[InternetMessageId](internetmessageid.md) <br/> |Représente l’identificateur de message Internet d’un élément.  <br/> |
-|[Estlu](isread.md) <br/> |Indique si un message a été lu.  <br/> |
+|[IsRead](isread.md) <br/> |Indique si un message a été lu.  <br/> |
 |[IsResponseRequested](isresponserequested.md) <br/> |Indique si une réponse à un message électronique est demandée.  <br/> |
-|[References](references.md) <br/> |Représente l’en-tête Usenet qui est utilisé pour faire correspondre des réponses à leurs messages d’origine.  <br/> |
-|[ReplyTo](replyto.md) <br/> |Identifie un ensemble d’adresses à laquelle les réponses doivent être envoyées.  <br/> |
+|[References](references.md) <br/> |Représente l’en-tête Usenet qui est utilisé pour corréler les réponses avec leurs messages d’origine.  <br/> |
+|[ReplyTo](replyto.md) <br/> |Identifie un ensemble d’adresses auxquelles des réponses doivent être envoyées.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d'autorisation pour l'élément ou le dossier. Cet élément est en lecture seule.  <br/> |
-|[Reçu par](receivedby.md) <br/> |Identifie le délégué dans un scénario d’accès délégué.  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |Identifie le délégué dans un scénario d’accès délégué.  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifie le principal dans un scénario d’accès délégué.  <br/> |
 |[LastModifiedName](lastmodifiedname.md) <br/> |Contient le nom d'affichage du dernier utilisateur ayant modifié un élément.  <br/> |
-|[Heure de dernière modification](lastmodifiedtime.md) <br/> |Indique quand un élément a été modifié pour la dernière fois.  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |Indique quand un élément a été modifié pour la dernière fois.  <br/> |
 |[IsAssociated](isassociated.md) <br/> |Indique si l'élément est associé à un dossier.  <br/> |
 |[WebClientReadFormQueryString](webclientreadformquerystring.md) <br/> |Représente une URL à concaténer au point de terminaison de Microsoft Office Outlook Web App pour lire un élément dans Outlook Web App.  <br/> |
 |[WebClientEditFormQueryString](webclienteditformquerystring.md) <br/> |Représente une URL à concaténer au point de terminaison d'Outlook Web App pour modifier un élément dans Outlook Web App.  <br/> |
 |[ConversationId](conversationid.md) <br/> |Contient l'identificateur d'un élément ou d'une conversation.  <br/> |
 |[UniqueBody](uniquebody.md) <br/> |Représente un fragment HTML ou du texte brut correspondant au corps unique de cette conversation.  <br/> |
-|[ReminderMessageData](remindermessagedata.md) <br/> |Contient les données pour un message de rappel.  <br/> |
+|[ReminderMessageData](remindermessagedata.md) <br/> |Contient les données d’un message de rappel.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AdjacentMeetings](adjacentmeetings.md) <br/> |Décrit tous les éléments de calendrier qui sont adjacents à une heure de réunion.  <br/> |
-|[AppendToItemField](appendtoitemfield.md) <br/> |Identifie les données à ajouter à une propriété d’un élément pendant une [opération UpdateItem](updateitem-operation.md).  <br/> |
+|[AppendToItemField](appendtoitemfield.md) <br/> |Identifie les données à ajouter à une propriété unique d’un élément au cours d’une [opération UpdateItem](updateitem-operation.md).  <br/> |
 |[ConflictingMeetings](conflictingmeetings.md) <br/> |Identifie tous les éléments qui sont en conflit avec une heure de réunion.  <br/> |
-|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin du client local.  <br/> |
+|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin client local.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[Items](items.md) <br/> |Contient un tableau d'éléments.  <br/> |
 |[Éléments (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contient un tableau d'éléments à créer dans le dossier qui est identifié par l'élément [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md).  <br/> |
@@ -172,9 +172,9 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Un autre élément de **Message** , [le Message (disponibilité)](message-availability.md) est utilisé par les opérations de disponibilité à renvoient des messages d’absence du bureau. 
+Un **Message** autre élément message [(Availability)](message-availability.md) est utilisé par les opérations de disponibilité pour retourner les messages OOF. 
   
-Éléments de [message](message-ex15websvcsotherref.md) représentent des messages électroniques et tous les autres éléments qui ne sont pas fortement typées dans le schéma Exchange Web Services (EWS). Éléments tels que IPM. Partage et IPM.InfoPath sont renvoyés en tant qu’éléments du **Message** . Exchange 2010 ne renvoie pas de **l’élément de base** des réponses. 
+Les éléments de [message](message-ex15websvcsotherref.md) représentent les messages électroniques et tous les autres éléments qui ne sont pas fortement typés par le schéma des services Web Exchange (EWS). Des éléments tels que IPM. Le partage et IPM. InfoPath sont renvoyés en tant qu’éléments **message** . Exchange 2010 ne retourne pas l’élément **élément** de base dans les réponses. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -182,7 +182,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

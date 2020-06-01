@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 023b79b4-c675-4669-9112-d85499ec4fc4
-description: L’élément UpdateItemResponse définit une réponse à une demande de UpdateItem.
-ms.openlocfilehash: 12c1274fa500fe206381d7868393aaa08ca97d54
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UpdateItemResponse définit une réponse à une demande UpdateItem.
+ms.openlocfilehash: f18bb6658bf7a68e2262ebee7ce86255ea527ac4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838895"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467143"
 ---
 # <a name="updateitemresponse"></a>UpdateItemResponse
 
-L’élément **UpdateItemResponse** définit une réponse à une demande de UpdateItem. 
+L’élément **UpdateItemResponse** définit une réponse à une demande UpdateItem. 
   
 ```xml
 <UpdateItemResponse>
@@ -32,17 +32,17 @@ L’élément **UpdateItemResponse** définit une réponse à une demande de Upd
  **UpdateItemResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,16 +56,16 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[UpdateItem Operation](updateitem-operation.md)
+[Opération UpdateItem](updateitem-operation.md)
   
 [UpdateItem](updateitem.md)
 

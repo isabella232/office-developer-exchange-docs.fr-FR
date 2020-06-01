@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1eec24dd-c981-41f4-a2f0-c51d43f1d7c0
-description: Le Message contient l’extérieur de la réponse du bureau (OOF).
-ms.openlocfilehash: 9facd04767fdcc0fd9dfd84fc6badb1a7633d2b5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément message contient la réponse absent (e) du bureau.
+ms.openlocfilehash: 13d118422ccb5a2897c21b6d124f170bf461dbf6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828452"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467003"
 ---
 # <a name="message-availability"></a>Message (disponibilité)
 
-Le **Message** contient l’extérieur de la réponse du bureau (OOF). 
+L’élément **message** contient la réponse absent (e) du bureau. 
   
 ```xml
 <Message/> 
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,13 +44,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[InternalReply](internalreply.md) <br/> | Contient le message d’absence du bureau envoyé à d’autres utilisateurs dans le domaine de l’expéditeur. <br/> <br/>  Les expressions XPath possibles de cet élément sont les suivantes : <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[ExternalReply](externalreply.md) <br/> | Contient le message d’absence du bureau qui est envoyé aux adresses à l’extérieur du domaine de l’expéditeur.  <br/> <br/> Les expressions XPath possibles de cet élément sont les suivantes :  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
-|[ReplyBody](replybody.md) <br/> |Contient un message d’absence du bureau et de la langue utilisée pour le message.  <br/> |
+|[InternalReply](internalreply.md) <br/> | Contient le message OOF envoyé aux autres utilisateurs dans le domaine de l’expéditeur. <br/> <br/>  Voici les expressions XPath possibles pour cet élément : <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[ExternalReply](externalreply.md) <br/> | Contient le message OOF qui est envoyé aux adresses en dehors du domaine de l’expéditeur.  <br/> <br/> Voici les expressions XPath possibles pour cet élément :  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[ReplyBody](replybody.md) <br/> |Contient un message d’absence du bureau et la langue utilisée pour le message.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est nécessaire pour définir le message d’absence du bureau.
+Une valeur de texte est requise pour définir le message d’absence du bureau.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,19 +58,19 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande [d’opération SetUserOofSettings](setuseroofsettings-operation.md) définit [OofState](oofstate.md) sur **activé**, définit la durée d’absence du Bureau à 10 jours et définit les messages d’absence du bureau internes et externes.
+L’exemple suivant de demande d' [opération SetUserOofSettings](setuseroofsettings-operation.md) définit l' [OofState](oofstate.md) sur **activé**, définit la durée du OOF sur 10 jours et définit les messages OOF internes et externes.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -93,7 +93,7 @@ L’exemple suivant d’une demande [d’opération SetUserOofSettings](setusero
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

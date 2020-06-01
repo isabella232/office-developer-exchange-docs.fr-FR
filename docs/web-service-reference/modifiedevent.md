@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ca1309f4-2df7-4289-811c-75c3db0e7072
-description: L’élément ModifiedEvent représente un événement auquel un élément ou un dossier est modifiée.
-ms.openlocfilehash: 2e9fb870396d49efb5cdf307a502b4111c2e507e
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément ModifiedEvent représente un événement dans lequel un élément ou un dossier est modifié.
+ms.openlocfilehash: 1a798773601a0857b9064c7fa6a532a7a36517ab
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353811"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468550"
 ---
 # <a name="modifiedevent"></a>ModifiedEvent
 
-L’élément **ModifiedEvent** représente un événement auquel un élément ou un dossier est modifiée. 
+L’élément **ModifiedEvent** représente un événement dans lequel un élément ou un dossier est modifié. 
   
 ```xml
 <ModifiedEvent>
@@ -47,32 +47,32 @@ L’élément **ModifiedEvent** représente un événement auquel un élément o
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[TimeStamp](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres élément ou le dossier modifié.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres.  <br/> |
+|[Dates](timestamp.md) <br/> |Représente l’horodatage d’un événement d’élément ou de boîte aux lettres de dossier modifié.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier modifié.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Représente l’identificateur de l’élément modifié.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément modifié ou d’un dossier.  <br/> |
+|[ItemId](itemid.md) <br/> |Représente l’identificateur de l’élément modifié.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément ou du dossier modifié.  <br/> |
 |[UnreadCount](unreadcount.md) <br/> |Représente le nombre d’éléments non lus dans un dossier donné.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.  <br/> |
+|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Deux événements modifiés sont générés pour chaque modification d’un élément dans un dossier. Un événement s’applique à l’élément qui a été modifié. L’événement est pertinent pour le dossier parent de l’élément. Voici le même dossier que l’abonnement a été créé par rapport à. L’événement qui est associé au dossier est utilisé pour communiquer une modification à la propriété [UnreadCount](unreadcount.md) sur le dossier potentielle. 
+Deux événements modifiés sont générés pour chaque modification d’un élément dans un dossier. Un événement est pertinent pour l’élément qui a été modifié. L’autre événement est pertinent pour le dossier parent de l’élément. Il s’agit du même dossier que celui sur lequel l’abonnement a été créé. L’événement associé au dossier est utilisé pour communiquer une modification potentielle de la propriété [UnreadCount](unreadcount.md) sur le dossier. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -80,7 +80,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

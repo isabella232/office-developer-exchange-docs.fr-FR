@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a7e2bdcd-a2f7-45a4-adcd-a03fe7fd4d9b
-description: L’élément SSL indique si une connexion sécurisée est requise.
-ms.openlocfilehash: 9a51c715032cb2af846e764d28698c5697670d98
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SSL indique si la connexion sécurisée est requise.
+ms.openlocfilehash: f4e42153c25b34c99f2cad50fb56e8cad24534ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829537"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467612"
 ---
 # <a name="ssl-pox"></a>SSL (POX)
 
-L’élément **SSL** indique si une connexion sécurisée est requise. 
+L’élément **SSL** indique si la connexion sécurisée est requise. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **SSL** indique si une connexion sécurisée est requise.
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [SSL (POX)](ssl-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **SSL** indique si une connexion sécurisée est requise.
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie si une connexion sécurisée est requise. Si n’est pas spécifié, la valeur par défaut est définie sur **activé**. Les valeurs possibles sont **on** et **off**.
+La valeur texte spécifie si la connexion sécurisée est requise. Si ce paramètre n’est pas spécifié, la valeur par défaut est définie **sur on**. Les valeurs possibles sont **on** et **off**.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

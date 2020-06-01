@@ -1,5 +1,5 @@
 ---
-title: "True"
+title: Vrai
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,17 +9,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 96b4c288-c4d5-4378-8fc1-1a3ae98eedc9
-description: L’élément de la valeur True spécifie une condition qui correspond toujours.
-ms.openlocfilehash: 959bcf268a575182c4e0f5cdfe81c56999df055c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément true spécifie une condition qui correspond toujours à.
+ms.openlocfilehash: 6ac0bc407c9c4cab23805d042e67d99359900137
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838778"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467402"
 ---
-# <a name="true"></a>True
+# <a name="true"></a>Vrai
 
-L’élément de **la valeur True** spécifie une condition qui correspond toujours. 
+L’élément **true** spécifie une condition qui correspond toujours à. 
   
 ```xml
 <True/>
@@ -29,11 +29,11 @@ L’élément de **la valeur True** spécifie une condition qui correspond toujo
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,10 +43,10 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour la partie de l’action de la règle doit être exécutée.  <br/> |
-|[Et (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour prendre la **valeur true**.  <br/> |
+|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie action de la règle soit exécutée.  <br/> |
+|[Et (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour avoir la **valeur true**.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Cet élément doit être vide.
   
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

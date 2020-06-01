@@ -1,5 +1,5 @@
 ---
-title: Opération SetOofStatus (service web de messagerie unifiée)
+title: Opération SetOofStatus (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,23 +10,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 97c271e9-506e-43eb-89cd-46803fc47ee5
-description: L’opération SetOofStatus définit une valeur qui indique si le message d’accueil d’absence du bureau (OOF) doit être lu de l’utilisateur qui effectue la demande.
-ms.openlocfilehash: 2bb1deeec8ddb5be56979bfb2fae3396672298a3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération SetOofStatus définit une valeur qui indique si le message d’accueil de l’absence du Bureau doit être lu pour l’utilisateur qui effectue la demande.
+ms.openlocfilehash: 2311b6137ac25d15ad3d06668450c1d0f7ec1fad
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829445"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467353"
 ---
-# <a name="setoofstatus-operation-um-web-service"></a>Opération SetOofStatus (service web de messagerie unifiée)
+# <a name="setoofstatus-operation-um-web-service"></a>Opération SetOofStatus (service Web de messagerie unifiée)
 
-L’opération SetOofStatus définit une valeur qui indique si le message d’accueil d’absence du bureau (OOF) doit être lu de l’utilisateur qui effectue la demande.
+L’opération SetOofStatus définit une valeur qui indique si le message d’accueil de l’absence du Bureau doit être lu pour l’utilisateur qui effectue la demande.
   
 ## <a name="setoofstatus-request-example"></a>Exemple de requête SetOofStatus
 
 ### <a name="description"></a>Description
 
-Une demande de SetOofStatus l’exemple suivant montre comment créer une requête pour activer le message d’accueil d’absence du bureau pour une boîte aux lettres.
+L’exemple de requête SetOofStatus suivant montre comment créer une demande pour activer le message d’accueil d’absence du Bureau pour une boîte aux lettres.
   
 ### <a name="code"></a>Code
 
@@ -34,18 +34,18 @@ Une demande de SetOofStatus l’exemple suivant montre comment créer une requê
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetOofStatus xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetOofStatus xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <status>true</status>
     </SetOofStatus>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## <a name="successful-setoofstatus-response-example"></a>Exemple de réponse SetOofStatus réussie
+## <a name="successful-setoofstatus-response-example"></a>Exemple de réponse SetOofStatus réussi
 
 ### <a name="description"></a>Description
 
-Une réponse SetOofStatus l’exemple suivant montre une réponse à la demande SetOofStatus.
+L’exemple suivant de réponse SetOofStatus indique une réponse à la demande SetOofStatus.
   
 ### <a name="code"></a>Code
 
@@ -53,7 +53,7 @@ Une réponse SetOofStatus l’exemple suivant montre une réponse à la demande 
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetOofStatusResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetOofStatusResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```
@@ -62,9 +62,9 @@ Une réponse SetOofStatus l’exemple suivant montre une réponse à la demande 
 
 
 
-[SetOofStatus (service web de messagerie unifiée)](setoofstatus-um-web-service.md)
+[SetOofStatus (service Web de messagerie unifiée)](setoofstatus-um-web-service.md)
   
-[SetOofStatusResponse (service web de messagerie unifiée)](setoofstatusresponse-um-web-service.md)
+[SetOofStatusResponse (service Web de messagerie unifiée)](setoofstatusresponse-um-web-service.md)
   
-[État (service web de messagerie unifiée - SetOofStatus)](status-um-web-servicesetoofstatus.md)
+[État (service Web de messagerie unifiée-SetOofStatus)](status-um-web-servicesetoofstatus.md)
 

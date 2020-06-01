@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 883cce6e-66b8-4dbc-935c-83ef5100a953
-description: L’élément Location représente le champ emplacement de l’élément de calendrier.
-ms.openlocfilehash: 3678bd94851633fcca9817c020106670b57d110c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément location représente le champ d’emplacement de l’élément de calendrier.
+ms.openlocfilehash: 4a590c315d2211ce9128305a514e68f1c785596c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828245"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467997"
 ---
 # <a name="location-calendareventdetails"></a>Emplacement (CalendarEventDetails)
 
-L’élément **Location** représente le champ emplacement de l’élément de calendrier. 
+L’élément **location** représente le champ d’emplacement de l’élément de calendrier. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -43,14 +43,14 @@ L’élément **Location** représente le champ emplacement de l’élément de 
 <Location/>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,15 +60,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est obligatoire si cet élément est retourné dans la réponse. Cet élément peut contenir une chaîne vide. Cet élément est facultatif si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé. 
+Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément peut contenir une chaîne vide. Cet élément est facultatif si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé. 
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est mappé à un MAPI EMPLACEMENT_PR propriété nommée.
+Cet élément est mappé à une propriété nommée MAPI PR_Location.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -76,7 +76,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -90,5 +90,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

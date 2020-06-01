@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 1ae28d14-c2b8-4084-9e76-e2e347a884ce
-description: L’élément RecurringDayTransition représente une transition de fuseau horaire qui se produit sur le même jour tous les ans.
-ms.openlocfilehash: 913345188547ce9903809fdc1cbbbe3e20ae7f36
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RecurringDayTransition représente une transition de fuseau horaire qui se produit chaque année le même jour.
+ms.openlocfilehash: 44c2a6ec4dbaaa52a2772cb5c35a84b14dd77f97
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829012"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468466"
 ---
 # <a name="recurringdaytransition"></a>RecurringDayTransition
 
-L’élément **RecurringDayTransition** représente une transition de fuseau horaire qui se produit sur le même jour tous les ans. 
+L’élément **RecurringDayTransition** représente une transition de fuseau horaire qui se produit chaque année le même jour. 
   
 ```xml
 <RecurringDayTransition>
@@ -36,40 +36,40 @@ L’élément **RecurringDayTransition** représente une transition de fuseau ho
  **RecurringDayTransitionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Pour](to.md) <br/> |Spécifie la [période](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
-|[TimeOffset](timeoffset.md) <br/> |Représente le décalage de la durée du temps universel coordonné (UTC) pour la transition de fuseau horaire.  <br/> |
-|[Mois (Transition fuseau horaire)](month-time-zone-transition.md) <br/> |Représente le mois dans laquelle se produit la transition de fuseau horaire.  <br/> |
-|[DayOfWeek (fuseau horaire)](dayofweek-timezone.md) <br/> |Représente le jour de la semaine sur lequel se produit la transition de fuseau horaire.  <br/> |
-|[Occurrence (Transition fuseau horaire)](occurrence-time-zone-transition.md) <br/> |Représente l’occurrence du jour de la semaine dans le mois qui se produit la transition de fuseau horaire.  <br/> |
+|[To](to.md) <br/> |Spécifie le [point](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
+|[TimeOffset](timeoffset.md) <br/> |Représente le décalage de durée par rapport au temps universel coordonné (UTC) pour la transition de fuseau horaire.  <br/> |
+|[Mois (transition de fuseau horaire)](month-time-zone-transition.md) <br/> |Représente le mois au cours duquel la transition de fuseau horaire a lieu.  <br/> |
+|[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Représente le jour de la semaine où la transition de fuseau horaire a lieu.  <br/> |
+|[Occurrence (transition de fuseau horaire)](occurrence-time-zone-transition.md) <br/> |Représente l’occurrence du jour de la semaine du mois où la transition de fuseau horaire se produit.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Transitions](transitions.md) <br/> |Représente une collection des transitions de fuseau horaire.  <br/> |
-|[TransitionsGroup](transitionsgroup.md) <br/> |Représente une collection des transitions de fuseau horaire.  <br/> |
+|[Transitions](transitions.md) <br/> |Représente une collection de transitions de fuseau horaire.  <br/> |
+|[TransitionsGroup](transitionsgroup.md) <br/> |Représente une collection de transitions de fuseau horaire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un exemple d’une transition de fuseau horaire qui peut être représenté par l’élément [RecurringDayTransition](recurringdaytransition.md) est une transition se produit le deuxième mardi du mois de février de chaque année. 
+Un exemple de transition de fuseau horaire qui pourrait être représentée par l’élément [RecurringDayTransition](recurringdaytransition.md) est une transition qui a lieu le deuxième mardi de février chaque année. 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2f33b29b-163b-4106-a74d-6fb76ec38951
-description: L’élément SID représente le formulaire sécurité descripteur definition language (SDDL) de l’identificateur de sécurité (SID) pour le compte à utiliser pour l’emprunt d’identité ou l’accès délégué.
-ms.openlocfilehash: efcea42c12ec1d26ea31fdb8de337c37a2338a96
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SID représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité ou l’accès délégué.
+ms.openlocfilehash: 0e3f740e9a056f7c0042049d97757b5f2d3c441d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829492"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468046"
 ---
 # <a name="sid"></a>SID
 
-L’élément **SID** représente le formulaire sécurité descripteur definition language (SDDL) de l’identificateur de sécurité (SID) pour le compte à utiliser pour l’emprunt d’identité ou l’accès délégué. 
+L’élément **sid** représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité ou l’accès délégué. 
   
 ```xml
 <SID/>
@@ -30,11 +30,11 @@ L’élément **SID** représente le formulaire sécurité descripteur definitio
  **SIDType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,22 +44,22 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Représente un compte pour emprunter l’identité lors de l’utilisation de l’en-tête SOAP ExchangeImpersonation.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[Nom d’utilisateur](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur disposant des autorisations d’accès au dossier.  <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Représente un compte dont l’identité est empruntée lors de l’utilisation de l’en-tête SOAP ExchangeImpersonation.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur disposant des autorisations d’accès au dossier.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une représentation de chaîne d’un identificateur de sécurité.
+La valeur de texte est une représentation sous forme de chaîne d’un SID.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server avec le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server et sur lequel le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

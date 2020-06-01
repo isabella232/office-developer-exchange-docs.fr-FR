@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7c9b5e1d-0c61-4cab-bd51-e1982eaa43a8
-description: L’élément PortalText (EncryptionConfigurationResponseType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: dd979b981f5f7c9e7e4efe25f274453b41596475
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PortalText (EncryptionConfigurationResponseType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: b91684168022220745a2f6c7dbcf0984f5e9b1b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828845"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467717"
 ---
 # <a name="portaltext-encryptionconfigurationresponsetype"></a>PortalText (EncryptionConfigurationResponseType)
 
-L’élément **PortalText (EncryptionConfigurationResponseType)** est destiné à une utilisation interne uniquement. 
+L’élément **PortalText (EncryptionConfigurationResponseType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 40381d8e-e9dc-403f-9d78-87a09ad09d58
-description: L’élément ProxySecurityContext est utilisée par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 qui dispose d’un accès Client le rôle serveur installé et n’est pas utilisé par les opérations des Services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 44934ab037169419c61f3817384f0a61504f5850
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProxySecurityContext est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 1566a8b22fd285f8c56d2a6579006ba906dd899c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828923"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468508"
 ---
 # <a name="proxysecuritycontext"></a>ProxySecurityContext
 
-L’élément **ProxySecurityContext** est utilisée par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 qui dispose d’un accès Client le rôle serveur installé et n’est pas utilisé par les opérations des Services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **ProxySecurityContext** est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ProxySecurityContext/>
@@ -30,11 +30,11 @@ L’élément **ProxySecurityContext** est utilisée par le proxy HTTP de l’or
  **ProxySecurityContextType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

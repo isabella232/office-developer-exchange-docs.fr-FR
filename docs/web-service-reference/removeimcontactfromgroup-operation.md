@@ -7,49 +7,49 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a190bbec-c71b-4e6a-880b-55854c724d8c
-description: Opération de recherche plus d’informations sur la RemoveImContactFromGroup EWS.
-ms.openlocfilehash: 8c9af251014dbddabb439ed5bf5dc35580da6a90
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS RemoveImContactFromGroup.
+ms.openlocfilehash: 4750ef57794c3da540ac36baa8ef6ef093939ea1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829099"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466968"
 ---
 # <a name="removeimcontactfromgroup-operation"></a>Opération RemoveImContactFromGroup
 
 Trouvez des informations sur l’opération EWS **RemoveImContactFromGroup** . 
   
-L’opération **RemoveImContactFromGroup** supprime un contact de messagerie instantanée à partir d’un groupe de messagerie instantanée. 
+L’opération **RemoveImContactFromGroup** supprime un seul contact de messagerie instantanée d’un groupe de messagerie instantanée. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-removeimcontactfromgroup-operation"></a>Utilisation de l’opération RemoveImContactFromGroup
 
-L’opération **RemoveImContactFromGroup** prend deux arguments : un identificateur de l’élément de contact et le groupe (IM) à partir de laquelle le contact est supprimé de pic correspondant. 
+L’opération **RemoveImContactFromGroup** prend deux arguments : un identificateur d’élément de contact et le groupe de messagerie instantanée (im) correspondant à partir duquel le contact est supprimé. 
   
-### <a name="removeimcontactfromgroup-operation-soap-headers"></a>En-têtes SOAP RemoveImContactFromGroup opération
+### <a name="removeimcontactfromgroup-operation-soap-headers"></a>En-têtes SOAP d’opération RemoveImContactFromGroup
 
-L’opération **RemoveImContactFromGroup** permettre utiliser les en-têtes SOAP qui sont répertoriés dans le tableau suivant. 
+L’opération **RemoveImContactFromGroup** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur emprunte l’identité de l’application cliente. Cet en-tête est applicable à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, comme défini dans RFC 3066, « Balises pour l’Identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête est applicable à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération. Cet en-tête est applicable à une demande.  <br/> |
-|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête est applicable à une réponse.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
 ## <a name="removeimcontactfromgroup-operation-request-example"></a>Exemple de requête d’opération RemoveImContactFromGroup
 
-Une demande d’opération **RemoveImContactFromGroup** l’exemple suivant montre comment supprimer un contact de messagerie instantanée d’un groupe de messagerie instantanée. 
+L’exemple suivant de demande d’opération **RemoveImContactFromGroup** montre comment supprimer un contact de messagerie instantanée d’un groupe de messagerie instantanée. 
   
 > [!NOTE]
-> Les identificateurs de groupe et contacts ont été réduits afin de préserver la lisibilité. 
+> Les identificateurs de contact et de groupe ont été raccourcis pour conserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -65,17 +65,17 @@ Une demande d’opération **RemoveImContactFromGroup** l’exemple suivant mont
 </soap:Envelope>
 ```
 
-La demande SOAP body contient les éléments suivants :
+Le corps SOAP de la demande contient les éléments suivants :
   
 - [RemoveImContactFromGroup](removeimcontactfromgroup.md)
     
-- [ContactId](contactid.md)
+- [Mettez](contactid.md)
     
 - [GroupId](groupid.md)
     
-## <a name="successful-removeimcontactfromgroup-operation-response"></a>Réponse d’opération RemoveImContactFromGroup réussie
+## <a name="successful-removeimcontactfromgroup-operation-response"></a>Réponse de l’opération RemoveImContactFromGroup réussie
 
-L’exemple suivant montre une réponse positive à une demande d’opération **RemoveImContactFromGroup** . 
+L’exemple suivant montre une réponse réussie à une demande d’opération **RemoveImContactFromGroup** . 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -86,30 +86,30 @@ L’exemple suivant montre une réponse positive à une demande d’opération *
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveImContactFromGroupResponse ResponseClass="Success" 
-                                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
       </RemoveImContactFromGroupResponse>
    </s:Body>
 </s:Envelope>
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [RemoveImContactFromGroupResponse](removeimcontactfromgroupresponse.md)
     
 - [ResponseCode](responsecode.md)
     
-## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>Opération RemoveImContactFromGroup ErrorInvalidImContactId réponse d’erreur
+## <a name="removeimcontactfromgroup-operation-errorinvalidimcontactid-error-response"></a>RemoveImContactFromGroup Operation ErrorInvalidImContactId Error Response
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **RemoveImContactFromGroup** . La réponse d’erreur se produit lorsqu’une tentative est effectuée pour supprimer un élément de contact qui n’existe pas dans le groupe de messagerie instantanée. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **RemoveImContactFromGroup** . La réponse d’erreur suivante se produit lorsqu’une tentative de suppression d’un élément de contact qui n’existe pas dans le groupe de messagerie instantanée est effectuée. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -120,15 +120,15 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <RemoveImContactFromGroupResponse ResponseClass="Error" 
-                                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified Im Contact Id is invalid.</MessageText>
          <ResponseCode>ErrorInvalidImContactId</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -137,7 +137,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 </s:Envelope>
 ```
 
-La réponse SOAP body contient les éléments suivants :
+Le corps SOAP de réponse contient les éléments suivants :
   
 - [RemoveImContactFromGroupResponse](removeimcontactfromgroupresponse.md)
     
@@ -149,7 +149,7 @@ La réponse SOAP body contient les éléments suivants :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Personnes et contacts dans EWS dans Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+- [Personnes et contacts dans EWS dans Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
     
 - [AddDistributionGroupToImList](adddistributiongrouptoimlist-operation.md)
     

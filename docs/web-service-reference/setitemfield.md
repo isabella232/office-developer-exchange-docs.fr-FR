@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 85284fcb-bd1e-4fda-9dab-cb4cd637cd5b
 description: L’élément SetItemField représente une mise à jour d’une propriété unique d’un élément dans une opération UpdateItem.
-ms.openlocfilehash: bd3e5bca3d61325ef3f218c5ada535346247f391
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: b4606eb7d94b9d0c4c5bcd5a2b56d73a4d4270cb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353797"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467423"
 ---
 # <a name="setitemfield"></a>SetItemField
 
@@ -238,35 +238,35 @@ L’élément **SetItemField** représente une mise à jour d’une propriété 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencées par un URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’un dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues à définir.  <br/> |
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique d’Exchange pour mettre à jour.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange pour mettre à jour.  <br/> |
-|[Contact](contact.md) <br/> |Représente un élément de contact Exchange pour mettre à jour.  <br/> |
-|[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution pour mettre à jour.  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion pour mettre à jour.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion pour mettre à jour.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange à mettre à jour.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange à mettre à jour.  <br/> |
+|[Contact](contact.md) <br/> |Représente un contact Exchange à mettre à jour.  <br/> |
+|[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution à mettre à jour.  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion à mettre à jour.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion à mettre à jour.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion à mettre à jour.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion pour mettre à jour.  <br/> |
-|[Tâche](task.md) <br/> |Représente une tâche à mettre à jour.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion à mettre à jour.  <br/> |
+|[Task](task.md) <br/> |Représente une tâche à mettre à jour.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Mises à jour (élément)](updates-item.md) <br/> |Contient un ensemble d’éléments qui définissent append, définir et supprimer les modifications apportées aux propriétés de l’élément.  <br/> |
+|[Mises à jour (élément)](updates-item.md) <br/> |Contient un ensemble d’éléments qui définissent les modifications apportées aux propriétés des éléments par ajout, définition et suppression.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -276,7 +276,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

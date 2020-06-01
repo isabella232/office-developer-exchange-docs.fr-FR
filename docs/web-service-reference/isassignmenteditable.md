@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 0ddf9181-f65e-4ad6-ad69-7b074ea0f2e7
 description: L’élément IsAssignmentEditable représente le type de tâche.
-ms.openlocfilehash: 91922c4d6abd4d88ac9e36dd3d4c0224fc1ee716
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 5eb091b24e2c97f7aa6072044fed998b6c9c1651
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827992"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468053"
 ---
 # <a name="isassignmenteditable"></a>IsAssignmentEditable
 
@@ -30,11 +30,11 @@ L’élément **IsAssignmentEditable** représente le type de tâche.
  **entier**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,18 +46,18 @@ Aucun.
 |:-----|:-----|
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Cette propriété est en lecture seule. Le tableau suivant répertorie les valeurs possibles.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |La valeur par défaut pour tous les éléments de tâche.  <br/> |
-|1  <br/> |Une demande de tâche.  <br/> |
-|2  <br/> |Acceptation de tâche à partir d’un destinataire d’une demande de tâche.  <br/> |
-|3  <br/> |Un refus de la tâche à partir d’un destinataire d’une demande de tâche.  <br/> |
-|4  <br/> |Une mise à jour à une demande de tâche précédente.  <br/> |
-|5  <br/> |Non utilisé.  <br/> |
+|0  <br/> |Valeur par défaut pour tous les éléments de tâche.  <br/> |
+|1   <br/> |Une demande de tâche.  <br/> |
+|n°2  <br/> |Acceptation d’une tâche d’un destinataire d’une demande de tâche.  <br/> |
+|3  <br/> |Une tâche de refus d’un destinataire d’une demande de tâche.  <br/> |
+|4   <br/> |Mise à jour d’une demande de tâche précédente.  <br/> |
+|5   <br/> |Non utilisé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

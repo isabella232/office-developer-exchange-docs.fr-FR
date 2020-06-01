@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 543f5ba2-f2c9-45c9-9e94-acd68e615103
-description: L’élément SIPResponseCode Spécifie le code de réponse SIP.
-ms.openlocfilehash: 09453a4ce787ef83abf41b51e881c8e654c7d4b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SIPResponseCode spécifie le code de réponse SIP.
+ms.openlocfilehash: ad66586e0a5abca31f69f9d0e8d275691ef1649d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829490"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468039"
 ---
 # <a name="sipresponsecode"></a>SIPResponseCode
 
-L’élément **SIPResponseCode** Spécifie le code de réponse SIP. 
+L’élément **SIPResponseCode** spécifie le code de réponse SIP. 
   
 ```xml
 <SIPResponseCode/>
@@ -30,11 +30,11 @@ L’élément **SIPResponseCode** Spécifie le code de réponse SIP.
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,21 +44,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’état pour un appel téléphonique.  <br/> |
+|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’État pour un appel téléphonique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Un code de réponse SIP.
+Code de réponse SIP.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire /ews/ de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

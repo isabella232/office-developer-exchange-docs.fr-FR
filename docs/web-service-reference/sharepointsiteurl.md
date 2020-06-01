@@ -7,31 +7,31 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de9a7e43-518e-49aa-9826-f54bab4279a3
-description: L’élément SharePointSiteURL contient l’URL Uniform Resource Locator () du site SharePoint qui est lié à la boîte aux lettres du site.
-ms.openlocfilehash: 34f9a04ef8b0f46bb14ec467b0fdd7db8882430e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SharePointSiteURL contient l’URL (Uniform Resource Locator) du site SharePoint qui est lié à la boîte aux lettres de site.
+ms.openlocfilehash: 461ca904e9a050d20b9e067cb40875939608c101
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829473"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467304"
 ---
 # <a name="sharepointsiteurl"></a>SharePointSiteUrl
 
-L’élément **SharePointSiteURL** contient l’URL Uniform Resource Locator () du site SharePoint qui est lié à la boîte aux lettres du site. 
+L’élément **SharePointSiteURL** contient l’URL (Uniform Resource Locator) du site SharePoint qui est lié à la boîte aux lettres de site. 
   
 ```XML
 <SharePointSiteURL></SharePointSiteURL>
 ```
 
-**string**
+**chaîne**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,9 +41,9 @@ Aucun.
 
 [SetTeamMailbox](setteammailbox.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SharePointSiteURL** est l’URL du site SharePoint qui est lié à la boîte aux lettres du site. 
+La valeur de texte de l’élément **SharePointSiteURL** est l’URL du site SharePoint qui est lié à la boîte aux lettres de site. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

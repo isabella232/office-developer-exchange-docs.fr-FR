@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 527bfe90-63d0-4b2f-97f7-7875b3a516b2
-description: L’élément ReadFlagChange est retournée dans SyncFolderItems réponses opération lorsqu’un élément a été lu. Cette propriété est en lecture seule.
-ms.openlocfilehash: 28ef0267e8308ba58057bec01ab2672a19ee94a1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReadFlagChange est renvoyé dans les réponses à une opération SyncFolderItems lorsqu’un élément a été lu. Cette propriété est en lecture seule.
+ms.openlocfilehash: 354f8085a6ea5b738d8619e2ffeb0fbccefd51da
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828953"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468305"
 ---
 # <a name="readflagchange"></a>ReadFlagChange
 
-L’élément **ReadFlagChange** est renvoyé dans les réponses de [l’opération SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule. 
+L’élément **ReadFlagChange** est renvoyé dans les réponses à une [opération SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule. 
   
 ```xml
 <ReadFlagChange>
@@ -33,34 +33,34 @@ L’élément **ReadFlagChange** est renvoyé dans les réponses de [l’opérat
  **SyncFolderItemsReadFlagType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID d’élément](itemid.md) <br/> |Identifie l’élément pour lequel l’indicateur de lecture a été modifié.  <br/> |
-|[Estlu](isread.md) <br/> |Indique si l’indicateur de lecture a été définie sur **true**.  <br/> |
+|[ItemId](itemid.md) <br/> |Identifie l’élément pour lequel l’indicateur de lecture a été modifié.  <br/> |
+|[IsRead](isread.md) <br/> |Indique si l’indicateur de lecture a été défini sur **true**.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Modifications (éléments)](changes-items.md) <br/> |Contient un tableau de séquence de types de modification qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
+|[Changes (éléments)](changes-items.md) <br/> |Contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

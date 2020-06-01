@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: 9f35f29f-204d-4178-9d8e-ba83af3afe43
 description: L’élément MdbDN représente le nom unique de la base de données de boîtes aux lettres.
-ms.openlocfilehash: d7910cdca2e2013f6b8432c4af606c0f8354a6bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 6eb1ddbd7ebf725b38ddc9bc70434c918aaca39f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828389"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468389"
 ---
 # <a name="mdbdn-pox"></a>MdbDN (POX)
 
@@ -26,7 +26,7 @@ L’élément **MdbDN** représente le nom unique de la base de données de boî
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [MdbDN (POX)](mdbdn-pox.md)
   
@@ -36,11 +36,11 @@ L’élément **MdbDN** représente le nom unique de la base de données de boî
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,9 +50,9 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte représente le nom unique de la base de données de boîtes aux lettres.
   
@@ -60,5 +60,5 @@ La valeur de texte représente le nom unique de la base de données de boîtes a
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

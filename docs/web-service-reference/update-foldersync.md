@@ -1,5 +1,5 @@
 ---
-title: Update (FolderSync)
+title: Mise à jour (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: 47ed8edb-2a94-471b-b965-93f91456252e
-description: L’élément de mise à jour identifie un seul dossier pour mettre à jour dans le magasin de client local.
-ms.openlocfilehash: bf49741b2478edff450f114dc1464a0528072bea
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément Update identifie un dossier unique à mettre à jour dans le magasin client local.
+ms.openlocfilehash: 5c1b5b1fd87e4651125293eac431c56f732c6c02
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353503"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467136"
 ---
-# <a name="update-foldersync"></a>Update (FolderSync)
+# <a name="update-foldersync"></a>Mise à jour (FolderSync)
 
-L’élément de **mise à jour** identifie un seul dossier pour mettre à jour dans le magasin de client local. 
+L’élément **Update** identifie un dossier unique à mettre à jour dans le magasin client local. 
   
 - [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
 - [ResponseMessages](responsemessages.md) 
 - [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
-- [Modifications (hiérarchie)](changes-hierarchy.md) 
-- [Update (FolderSync)](update-foldersync.md)
+- [Changes (hiérarchie)](changes-hierarchy.md) 
+- [Mise à jour (FolderSync)](update-foldersync.md)
   
 ```xml
 <Update>
@@ -63,27 +63,27 @@ L’élément de **mise à jour** identifie un seul dossier pour mettre à jour 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Folder](folder.md) <br/> |Définit le dossier pour créer, obtenir, recherchez, synchroniser ou mettre à jour.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier contenant principalement des éléments de calendrier.  <br/> |
+|[Folder](folder.md) <br/> |Définit le dossier à créer, obtenir, Rechercher, synchroniser ou mettre à jour.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier qui contient principalement des éléments de calendrier.  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche qui se trouve dans une boîte aux lettres.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Représente une tâche du dossier t est thcontained dans une boîte aux lettres.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche contenu dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches t est thcontained dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Modifications (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau séquencé de types de modification qui représente le type des différences entre les dossiers sur le client et les dossiers sur le serveur Exchange.  <br/> |
+|[Changes (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau séquencé de types de modifications qui représentent le type de différences entre les dossiers sur le client et les dossiers sur le serveur Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -93,7 +93,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

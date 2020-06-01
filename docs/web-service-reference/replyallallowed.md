@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
-description: L’élément ReplyAllAllowed Spécifie si une réponse tous est autorisée pour les droits des données managées.
-ms.openlocfilehash: cf814e6f27a734afc51b633bf832126a57d7ca5f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReplyAllAllowed spécifie si une réponse tout est autorisée pour les données gérées par des droits.
+ms.openlocfilehash: 56dfe7670ed87581999bfe0a340bcc72c99d04ea
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829105"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467913"
 ---
 # <a name="replyallallowed"></a>ReplyAllAllowed
 
-L’élément **ReplyAllAllowed** Spécifie si une réponse tous est autorisée pour les droits des données managées. 
+L’élément **ReplyAllAllowed** spécifie si une réponse tout est autorisée pour les données gérées par des droits. 
   
 ```XML
 <ReplyAllAllowed> true | false </ReplyAllAllowed>
@@ -26,11 +26,11 @@ L’élément **ReplyAllAllowed** Spécifie si une réponse tous est autorisée 
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **ReplyAllAllowed** indique qu’une réponse tous est autorisé pour les droits données managées. La valeur **false** indique qu’une réponse tous les n’est pas autorisée. 
+Une valeur de texte de **true** pour l’élément **ReplyAllAllowed** indique qu’une réponse tout est autorisée pour les données gérées par des droits. La valeur **false** indique qu’une réponse tous n’est pas autorisée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

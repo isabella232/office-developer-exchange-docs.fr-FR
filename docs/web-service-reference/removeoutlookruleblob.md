@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 69614475-8bd3-4475-b988-614fe9cad8ef
-description: L’élément RemoveOutlookRuleBlob indique s’il faut supprimer l’objet blob règle de Microsoft Outlook.
-ms.openlocfilehash: 45336e296c39161704ce6e0d51fba1d2c61797b1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RemoveOutlookRuleBlob indique s’il faut supprimer le blob de règle Microsoft Outlook.
+ms.openlocfilehash: b4202ab52bf16d1ad1546ec963cd8b9dacd2bd63
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829102"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467668"
 ---
 # <a name="removeoutlookruleblob"></a>RemoveOutlookRuleBlob
 
-L’élément **RemoveOutlookRuleBlob** indique s’il faut supprimer l’objet blob règle de Microsoft Outlook. 
+L’élément **RemoveOutlookRuleBlob** indique s’il faut supprimer le blob de règle Microsoft Outlook. 
   
 [UpdateInboxRules](updateinboxrules.md)
   
@@ -34,11 +34,11 @@ L’élément **RemoveOutlookRuleBlob** indique s’il faut supprimer l’objet 
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,15 +48,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UpdateInboxRules](updateinboxrules.md) <br/> |Définit une demande pour mettre à jour les règles de boîte de réception dans une boîte aux lettres dans le magasin du serveur.  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |Définit une demande de mise à jour des règles de boîte de réception dans une boîte aux lettres dans le magasin du serveur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** indique que le blob règle Outlook doit être supprimé. Texte la valeur **false** indique que le blob règle Outlook ne doit pas être supprimé. 
+Une valeur de texte **true** indique que l’objet blob de la règle Outlook doit être supprimé. Une valeur de texte **false** indique que l’objet blob de la règle Outlook ne doit pas être supprimé. 
   
 ## <a name="remarks"></a>Remarques
 
-Définissez cet élément à **la valeur true** pour permettre une mise à jour des règles de boîte de réception. 
+Définissez cet élément sur **true** pour autoriser la mise à jour des règles de boîte de réception. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

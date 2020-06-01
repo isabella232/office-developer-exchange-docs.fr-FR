@@ -1,5 +1,5 @@
 ---
-title: Size
+title: Taille
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 966f4daf-c20e-49f8-aeb6-965f3e2da7c3
-description: L’élément taille représente la taille en octets d’un élément ou tous les éléments dans une conversation dans le dossier actif. Cette propriété est en lecture seule.
-ms.openlocfilehash: 15ee0bce6bc5fa2065cef4ecee40d7a6d65e3249
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Size représente la taille en octets d’un élément ou tous les éléments d’une conversation dans le dossier actif. Cette propriété est en lecture seule.
+ms.openlocfilehash: 406271c80db6bbb797592dae22e50ebe7c42ee85
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829509"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467290"
 ---
-# <a name="size"></a>Size
+# <a name="size"></a>Taille
 
-L’élément **taille** représente la taille en octets d’un élément ou tous les éléments dans une conversation dans le dossier actif. Cette propriété est en lecture seule. 
+L’élément **Size** représente la taille en octets d’un élément ou tous les éléments d’une conversation dans le dossier actif. Cette propriété est en lecture seule. 
   
 ```XML
 <Size/>
@@ -30,11 +30,11 @@ L’élément **taille** représente la taille en octets d’un élément ou tou
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,20 +48,20 @@ Aucun.
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier qui est attaché à un élément dans la banque d’informations Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un nombre entier qui identifie la taille de l’élément en octets.
+La valeur de texte est une valeur entière qui identifie la taille de l’élément en octets.
   
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

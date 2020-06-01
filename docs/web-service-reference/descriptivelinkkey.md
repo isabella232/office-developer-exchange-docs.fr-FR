@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f7f36749-00f3-4915-b17c-e3caa0af6e67
-description: L’élément DescriptiveLinkKey est actuellement inutilisé et est réservé à un usage ultérieur. Il contient une valeur de 0.
-ms.openlocfilehash: c917f401c0954a68ddce1226b522d54c87502462
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DescriptiveLinkKey est actuellement inutilisé et est réservé à une utilisation ultérieure. Il contient une valeur de 0.
+ms.openlocfilehash: e078d4ef4a629ea06bab0c2eb02b4f67b4fbf651
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755910"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467871"
 ---
 # <a name="descriptivelinkkey"></a>DescriptiveLinkKey
 
-L’élément **DescriptiveLinkKey** est actuellement inutilisé et est réservé à un usage ultérieur. Il contient une valeur de 0. 
+L’élément **DescriptiveLinkKey** est actuellement inutilisé et est réservé à une utilisation ultérieure. Il contient une valeur de 0. 
   
 ```XML
 <DescriptiveLinkKey/>
@@ -30,11 +30,11 @@ L’élément **DescriptiveLinkKey** est actuellement inutilisé et est réserv�
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,54 +44,54 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> | Fournit des informations descriptives concernant l’état de réponse.  <br/><br/>Certaines expressions XPath possibles de cet élément sont les suivantes :<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>`/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>`/GetUserOofSettingsResponse/ResponseMessage` <br/> |
-|[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **DeleteItem** .  <br/> |
-|[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **SendItem** .  <br/> |
-|[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **DeleteFolder** .  <br/> |
-|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **DeleteAttachment** .  <br/> |
-|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Contient l’état et les résultats d’une demande de **désabonnement** unique.  <br/> |
-|[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **CreateFolder** .  <br/> |
-|[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **GetFolder** .  <br/> |
-|[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **UpdateFolder** .  <br/> |
-|[MoveFolderResponseMessage](movefolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **MoveFolder** .  <br/> |
-|[CopyFolderResponseMessage](copyfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **CopyFolder** .  <br/> |
-|[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **CreateManagedFolder** .  <br/> |
-|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **FindFolder** .  <br/> |
-|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **CreateItem** unique.  <br/> |
-|[GetItemResponseMessage](getitemresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande de **GetItem** unique.  <br/> |
-|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **UpdateItem** .  <br/> |
-|[MoveItemResponseMessage](moveitemresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **MoveItem** .  <br/> |
-|[CopyItemResponseMessage](copyitemresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **CopyItem** .  <br/> |
-|[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **CreateAttachment** .  <br/> |
-|[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **GetAttachment** .  <br/> |
-|[FindItemResponseMessage](finditemresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **FindItem** .  <br/> |
-|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **ResolveNames** .  <br/> |
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **ExpandDL** .  <br/> |
-|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **Subscribe** .  <br/> |
-|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **GetEvents** .  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Contient l’état et les résultats d’une requête **SendNotification** .  <br/> |
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **SyncFolderHierarchy** .  <br/> |
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **SyncFolderItems** .  <br/> |
-|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **ConvertId** .  <br/> |
-|[AddDelegateResponse](adddelegateresponse.md) <br/> |Contient l’état et les résultats d’une requête **AddDelegate** .  <br/> |
-|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **GetServerTimeZones** .  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **GetSharingFolder** .  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Définit une réponse à une demande de **GetSharingFolder** .  <br/> |
-|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **GetSharingMetadata** .  <br/> |
-|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Définit une réponse à une demande de **GetSharingMetadata** .  <br/> |
-|[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande **RefreshSharingFolder** .  <br/> |
-|[RefreshSharingFolderResponse](refreshsharingfolderresponse.md) <br/> |Définit une réponse à une demande de **RefreshSharingFolder** .  <br/> |
-|[FindConversationResponse](findconversationresponse.md) <br/> |Contient l’état et les résultats d’une réponse **FindConversation** .  <br/> |
-|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande **EmptyFolder** .  <br/> |
-|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |Contient l’état et les résultats d’une requête **UpdateInboxRules** .  <br/> |
-|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |Contient un état et les résultats d’une requête **UploadItemsResponse** .  <br/> |
-|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Contient une réponse à une demande de **GetInboxRules** .  <br/> |
-|GetServiceConfigurationResponse  <br/> |Contient une réponse à une demande de **GetServiceConfiguration** .  <br/> |
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contient les paramètres de configuration de service.  <br/> |
+|[ResponseMessage](responsemessage.md) <br/> | Fournit des informations descriptives sur l’état de la réponse.  <br/><br/>Voici quelques expressions XPath possibles pour cet élément :<br/><br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>`/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>`/GetUserOofSettingsResponse/ResponseMessage` <br/> |
+|[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **DeleteItem** .  <br/> |
+|[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **SendItem** .  <br/> |
+|[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **DeleteFolder** .  <br/> |
+|[DeleteAttachmentResponseMessage](deleteattachmentresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **DeleteAttachment** .  <br/> |
+|[UnsubscribeResponseMessage](unsubscriberesponsemessage.md) <br/> |Contient l’État et le résultat d’une demande d' **annulation d’abonnement** unique.  <br/> |
+|[CreateFolderResponseMessage](createfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **CreateFolder** .  <br/> |
+|[GetFolderResponseMessage](getfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **GetFolder** unique.  <br/> |
+|[UpdateFolderResponseMessage](updatefolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **UpdateFolder** .  <br/> |
+|[MoveFolderResponseMessage](movefolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **MoveFolder** .  <br/> |
+|[CopyFolderResponseMessage](copyfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **CopyFolder** .  <br/> |
+|[CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **CreateManagedFolder** .  <br/> |
+|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **FindFolder** .  <br/> |
+|[CreateItemResponseMessage](createitemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **CreateItem** .  <br/> |
+|[GetItemResponseMessage](getitemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **GetItem** .  <br/> |
+|[UpdateItemResponseMessage](updateitemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **UpdateItem** .  <br/> |
+|[MoveItemResponseMessage](moveitemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **MoveItem** .  <br/> |
+|[CopyItemResponseMessage](copyitemresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **CopyItem** unique.  <br/> |
+|[CreateAttachmentResponseMessage](createattachmentresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **CreateAttachment** .  <br/> |
+|[GetAttachmentResponseMessage](getattachmentresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **GetAttachment** .  <br/> |
+|[FindItemResponseMessage](finditemresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **FindItem** .  <br/> |
+|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **ResolveNames** .  <br/> |
+|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **ExpandDL** .  <br/> |
+|[SubscribeResponseMessage](subscriberesponsemessage.md) <br/> |Contient l’État et le résultat d’une demande d' **abonnement** unique.  <br/> |
+|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **GetEvents** unique.  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **SendNotification** .  <br/> |
+|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **opérationsyncfolderhierarchy** .  <br/> |
+|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **SyncFolderItems** .  <br/> |
+|[ConvertIdResponseMessage](convertidresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **ConvertId** .  <br/> |
+|[AddDelegateResponse](adddelegateresponse.md) <br/> |Contient l’État et le résultat d’une demande **AddDelegate** .  <br/> |
+|[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **GetServerTimeZones** .  <br/> |
+|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **GetSharingFolder** .  <br/> |
+|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Définit une réponse à une demande **GetSharingFolder** .  <br/> |
+|[GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **GetSharingMetadata** .  <br/> |
+|[GetSharingMetadataResponse](getsharingmetadataresponse.md) <br/> |Définit une réponse à une demande **GetSharingMetadata** .  <br/> |
+|[RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **RefreshSharingFolder** .  <br/> |
+|[RefreshSharingFolderResponse](refreshsharingfolderresponse.md) <br/> |Définit une réponse à une demande **RefreshSharingFolder** .  <br/> |
+|[FindConversationResponse](findconversationresponse.md) <br/> |Contient l’État et les résultats d’une réponse **FindConversation** .  <br/> |
+|[EmptyFolderResponseMessage](emptyfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande **EmptyFolder** .  <br/> |
+|[UpdateInboxRulesResponse](updateinboxrulesresponse.md) <br/> |Contient l’État et le résultat d’une demande **UpdateInboxRules** .  <br/> |
+|[UploadItemsResponseMessage](uploaditemsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande **UploadItemsResponse** .  <br/> |
+|[GetInboxRulesResponse](getinboxrulesresponse.md) <br/> |Contient une réponse à une demande **GetInboxRules** .  <br/> |
+|GetServiceConfigurationResponse  <br/> |Contient une réponse à une demande **GetServiceConfiguration** .  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contient les paramètres de configuration du service.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est obligatoire si cet élément est utilisé. Cet élément est en lecture seule.
+Une valeur de texte est requise si cet élément est utilisé. Cet élément est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 
@@ -103,9 +103,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

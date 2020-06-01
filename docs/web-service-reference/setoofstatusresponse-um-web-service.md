@@ -1,5 +1,5 @@
 ---
-title: SetOofStatusResponse (service web de messagerie unifiée)
+title: SetOofStatusResponse (service Web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,19 +10,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8985e353-8d5e-48f6-bf1e-9a5ceadd3ce4
-description: L’élément SetOofStatusResponse définit une réponse à une demande de (service web de messagerie unifiée) opération SetOofStatus.
-ms.openlocfilehash: baf42404576bc5bddf7d59d8da139caa6c207080
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetOofStatusResponse définit une réponse à une opération SetOofStatus (service Web de messagerie unifiée).
+ms.openlocfilehash: 2a1db932c2b801f81216f1af57272ca458ab29d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829448"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466786"
 ---
-# <a name="setoofstatusresponse-um-web-service"></a>SetOofStatusResponse (service web de messagerie unifiée)
+# <a name="setoofstatusresponse-um-web-service"></a>SetOofStatusResponse (service Web de messagerie unifiée)
 
-L’élément **SetOofStatusResponse** définit une réponse à une demande de [l’opération SetOofStatus (service web de messagerie unifiée)](setoofstatus-operation-um-web-service.md) . 
+L’élément **SetOofStatusResponse** définit une réponse à une [opération SetOofStatus (service Web de messagerie unifiée)](setoofstatus-operation-um-web-service.md) . 
   
-[SetOofStatusResponse (service web de messagerie unifiée)](setoofstatusresponse-um-web-service.md)
+[SetOofStatusResponse (service Web de messagerie unifiée)](setoofstatusresponse-um-web-service.md)
   
 ```xml
 <SetOofStatusResponse />
@@ -31,11 +31,11 @@ L’élément **SetOofStatusResponse** définit une réponse à une demande de [
  **complexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,20 +47,20 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetOofStatus (service web de messagerie unifiée)](setoofstatus-operation-um-web-service.md)
+[Opération SetOofStatus (service Web de messagerie unifiée)](setoofstatus-operation-um-web-service.md)
 

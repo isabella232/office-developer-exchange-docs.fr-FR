@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: eb7a54ec-2e48-4030-bbcf-50a31609691b
-description: L’élément PurportedSender contient des informations de contact pour l’expéditeur présumé d’un message électronique.
-ms.openlocfilehash: 1e5b74d60d824c06834cf988557ef64fb84d70c4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PurportedSender contient les informations de contact pour l’expéditeur allégué d’un message électronique.
+ms.openlocfilehash: 5ecf352484a423e3955736620bf5a65c4e98099a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828937"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468333"
 ---
 # <a name="purportedsender"></a>PurportedSender
 
-L’élément **PurportedSender** contient des informations de contact pour l’expéditeur présumé d’un message électronique. 
+L’élément **PurportedSender** contient les informations de contact pour l’expéditeur allégué d’un message électronique. 
   
 ```XML
 <PurportedSender>
@@ -36,29 +36,29 @@ L’élément **PurportedSender** contient des informations de contact pour l’
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Nom (EmailAddressType)](name-emailaddresstype.md) <br/> |Représente le nom de l’utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Définit l’adresse SMTP Simple Mail Transfer Protocol () d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Définit l’adresse SMTP (Simple Mail Transfer Protocol) d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Représente le protocole de routage pour le destinataire. La valeur par défaut est SMTP. Cet élément est facultatif.  <br/> |
-|[MailboxType](mailboxtype.md) <br/> |Représente le type de boîte aux lettres qui est représenté par l’adresse de messagerie... Cet élément est facultatif.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Définit l’identificateur d’élément d’un contact ou d’une liste de distribution privée pour les destinataires à partir du dossier de contacts d’un utilisateur. Cet élément est facultatif.  <br/> |
+|[MailboxType](mailboxtype.md) <br/> |Représente le type de boîte aux lettres représenté par l’adresse de messagerie.. Cet élément est facultatif.  <br/> |
+|[ItemId](itemid.md) <br/> |Définit l’identificateur d’élément d’une liste de distribution privée ou de contact pour les destinataires à partir du dossier de contacts d’un utilisateur. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Spécifie les critères pour les types de messages.  <br/> |
+|[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Spécifie les critères pour les types de messages à rechercher.  <br/> |
 |[MessageTrackingReport](messagetrackingreport.md) <br/> |Contient un seul message renvoyé dans un [Opération de GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique d’un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -72,9 +72,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

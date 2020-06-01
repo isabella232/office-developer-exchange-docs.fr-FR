@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
-description: L’élément VotingInformation spécifie les informations de votantes whereApproveandRejectare de message de demande d’approbation message vote et les options de votantes.
-ms.openlocfilehash: f11c25bb1f3a3c4781cfa6c51e11ff87af40c7f0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément VotingInformation spécifie les informations de vote sur un message de vote et un message de demande d’approbation whereApproveandRejectare les options de vote.
+ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19839014"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467745"
 ---
 # <a name="votinginformation"></a>VotingInformation
 
-L’élément **VotingInformation** spécifie les informations de votantes à un message de vote et le message de demande d’approbation où « Approuver » et « Refuser » est les options de votantes. 
+L’élément **VotingInformation** spécifie les informations de vote sur un message de vote et un message de demande d’approbation où « approuver » et « rejeter » sont les options de vote. 
   
 ```XML
 <VotingInformation
@@ -29,15 +29,15 @@ L’élément **VotingInformation** spécifie les informations de votantes à un
  **VotingInformationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[UserOptions](useroptions.md) | [VotingResponse](votingresponse.md)
+[UserOptions](useroptions.md)  |  [VotingResponse,](votingresponse.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: ea45590d-476e-4b68-9fe8-ae392feadfea
-description: L’élément MergedFreeBusy contient le flux de disponibilité fusionné de données.
-ms.openlocfilehash: 542b9fae0c36b0236bd806e8a9117753968e812c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MergedFreeBusy contient le flux de disponibilité de données fusionné.
+ms.openlocfilehash: a1483449534f0d886e3c97a23d28c5d78f865042
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828449"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468725"
 ---
 # <a name="mergedfreebusy"></a>MergedFreeBusy
 
-L’élément **MergedFreeBusy** contient le flux de disponibilité fusionné de données. 
+L’élément **MergedFreeBusy** contient le flux de disponibilité de données fusionné. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,14 +37,14 @@ L’élément **MergedFreeBusy** contient le flux de disponibilité fusionné de
 <MergedFreeBusy>...</MergedFreeBusy>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,11 +54,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Contient des informations de disponibilité pour un utilisateur spécifique.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[FreeBusyView](freebusyview.md) <br/> |Contient les informations de disponibilité d’un utilisateur spécifique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est fournie par le serveur si la valeur de l’élément [FreeBusyViewType](freebusyviewtype.md) est une des options suivantes : 
+Une valeur de texte est fournie par le serveur si la valeur de l’élément [FreeBusyViewType](freebusyviewtype.md) est l’une des valeurs suivantes : 
   
 - DetailedMerged
     
@@ -70,19 +70,19 @@ La valeur de texte est un flux d’informations de disponibilité.
   
 ## <a name="remarks"></a>Remarques
 
-Le flux de données fournis par cet élément est défini par les éléments [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) et [durée](timewindow.md) . L’élément de [durée](timewindow.md) définit l’intervalle de temps interrogé pour la disponibilité. L’élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) définit comment l’heure à partir de l’élément de la [durée](timewindow.md) est divisé en intervalles renvoyés dans l’élément **MergedFreeBusy** . Chaque numéro dans le flux **MergedFreeBusy** représente un intervalle unique défini par l’élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) . Le tableau suivant répertorie les valeurs possibles pour un intervalle spécifique. 
+Le flux de données fourni par cet élément est défini par les éléments [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) et [TimeWindow](timewindow.md) . L’élément [TimeWindow](timewindow.md) définit la période interrogée pour la disponibilité. L’élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) définit la manière dont l’heure de l’élément [TimeWindow](timewindow.md) est divisée en intervalles renvoyés dans l’élément **MergedFreeBusy** . Chaque nombre dans le flux **MergedFreeBusy** représente un intervalle unique défini par l’élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) . Le tableau suivant répertorie les valeurs possibles pour un intervalle individuel. 
   
-|**Chiffre**|**Disponibilité**|
+|**Numérique**|**Disponibilité**|
 |:-----|:-----|
 |0  <br/> |Gratuit  <br/> |
-|1  <br/> |Provisoire  <br/> |
-|2  <br/> |Occupé(e)  <br/> |
+|1   <br/> |Provisoire  <br/> |
+|n°2  <br/> |Occupé(e)  <br/> |
 |3  <br/> |Absent(e) du bureau  <br/> |
-|4  <br/> |Aucune donnée  <br/> |
+|4   <br/> |Aucune donnée  <br/> |
    
-Par exemple, une demande de données et de disponibilité inclut un élément de [durée](timewindow.md) qui représente les quatre heures et un élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) qui représente 60 minutes. Si le calendrier de l’utilisateur demandé est absent du bureau pour les premières 60 minutes, occupé (e) pour les 90 minutes suivantes et non planifiée pour les 90 minutes finales dans la fenêtre de temps, le flux **MergedFreeBusy** seront 3220. Si un intervalle contient plusieurs classifications de disponibilité, le nombre le plus élevé est utilisé pour classer cet intervalle. 
+Par exemple, une demande de données de disponibilité inclut un élément [TimeWindow](timewindow.md) qui représente quatre heures et un élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) qui représente 60 minutes. Si le calendrier de l’utilisateur demandé est absent du Bureau pour les 60 premières minutes, occupé pour les 90 minutes suivantes et non planifié pendant les 90 minutes finales dans la fenêtre de temps, le flux **MergedFreeBusy** sera 3220. Si un intervalle contient plus d’une classification de disponibilité, le nombre le plus élevé est utilisé pour classer cet intervalle. 
   
-Le niveau de détail fourni par cet élément varie selon les autorisations accordées au demandeur.
+Le niveau de détail fourni par cet élément dépend des autorisations accordées au demandeur.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -90,7 +90,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -104,5 +104,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

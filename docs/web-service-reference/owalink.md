@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0d217b6-d7c0-4b99-ada9-19c758ae4a5b
-description: L’élément OwaLink indique le lien pour afficher un aperçu d’un élément dans Microsoft Outlook Web App.
-ms.openlocfilehash: 71d2875f058d69e85755c256b6f817f8448d4f7e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément OwaLink spécifie le lien permettant d’afficher un aperçu d’un élément dans Microsoft Outlook Web App.
+ms.openlocfilehash: 176484387d690bb8e0040507c11feffd6b4f4be5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828670"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44467458"
 ---
 # <a name="owalink"></a>OwaLink
 
-L’élément **OwaLink** indique le lien pour afficher un aperçu d’un élément dans Microsoft Outlook Web App. 
+L’élément **OwaLink** spécifie le lien permettant d’afficher un aperçu d’un élément dans Microsoft Outlook Web App. 
   
 ```XML
 <OwaLink></OwaLink>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **OwaLink** est l’URL pour afficher l’élément dans Outlook Web App. 
+La valeur de texte de l’élément **OwaLink** est l’URL permettant d’afficher l’élément dans Outlook Web App. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

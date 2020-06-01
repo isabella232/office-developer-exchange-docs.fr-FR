@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1034b013-ef34-4e72-99b3-38bff475b3e8
-description: L’élément UnpinTeamMailbox contient la demande à supprimer une boîte aux lettres de site à partir du client à supprimer de la réponse de découverte automatique.
-ms.openlocfilehash: d303b47f0796f9bec7e9f198afa81d2ecd9fd5cd
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UnpinTeamMailbox contient la demande de désépinglage d’une boîte aux lettres de site du client en la supprimant de la réponse de découverte automatique.
+ms.openlocfilehash: a6b01bfa9c5908765ff04ef7f5edbef0b99a9be2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838831"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467241"
 ---
 # <a name="unpinteammailbox"></a>UnpinTeamMailbox
 
-L’élément **UnpinTeamMailbox** contient la demande à supprimer une boîte aux lettres de site à partir du client à supprimer de la réponse de **découverte automatique** . 
+L’élément **UnpinTeamMailbox** contient la demande de désépinglage d’une boîte aux lettres de site du client en la supprimant de la réponse de **découverte automatique** . 
   
 ```XML
 <UnpinTeamMailbox>
@@ -28,11 +28,11 @@ L’élément **UnpinTeamMailbox** contient la demande à supprimer une boîte a
  **UnpinTeamMailboxRequestType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

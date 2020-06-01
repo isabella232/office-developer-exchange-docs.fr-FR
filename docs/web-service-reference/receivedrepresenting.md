@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1157b042-6dce-4cdc-9700-e22b749da39f
 description: L’élément ReceivedRepresenting identifie le principal dans un scénario d’accès délégué.
-ms.openlocfilehash: 1587fcae6975b986711e7223e50c60658833cc80
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: f444fb88be9c0df174f0c1490cf7c499cc0c0539
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828973"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468221"
 ---
 # <a name="receivedrepresenting"></a>ReceivedRepresenting
 
@@ -32,11 +32,11 @@ L’élément **ReceivedRepresenting** identifie le principal dans un scénario 
  **SingleRecipientType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,7 +50,7 @@ Aucun.
 |:-----|:-----|
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
@@ -63,17 +63,17 @@ Aucun.
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **ReceivedRepresenting** est utilisé avec le **à partir** d’et à déléguer les **reçu par** des éléments dans les scénarios access. Le tableau suivant répertorie les entités qui représentent des ces éléments dans un scénario d’accès délégué. 
+L’élément **ReceivedRepresenting** est utilisé avec les éléments **from** et **ReceivedBy** dans les scénarios d’accès délégué. Le tableau suivant répertorie les entités que ces éléments représentent dans un scénario d’accès délégué. 
   
 **Éléments dans un scénario d’accès délégué**
 
-|**Élément**|**Entité qui représentent l’élément**|
+|**Élément**|**Entité représentée par l’élément**|
 |:-----|:-----|
 |[From](from.md) <br/> |Tierce partie  <br/> |
-|[Reçu par](receivedby.md) <br/> |Délégué  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |Délégué  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Directeur  <br/> |
    
-Dans un scénario d’accès délégué, si une tierce partie envoie une demande de réunion à une entité qui possède un délégué, le délégué voir une nouvelle demande de réunion. Ces éléments permettent de délégués pour faire la distinction entre les messages envoyés directement et les messages qui sont envoyés à leur en raison d’un règle de transfert de délégué.
+Dans un scénario d’accès délégué, si un tierce partie envoie une demande de réunion à un responsable qui a un délégué, le délégué verra une nouvelle demande de réunion. Ces éléments permettent aux délégués de faire la distinction entre les messages qui leur sont envoyés directement et ceux qui leur sont envoyés en raison d’une règle de transfert de délégué.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -81,7 +81,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 766878e3-9007-454f-8501-45139bc5c0e2
-description: L’élément RemoveItem représente un objet de réponse qui est utilisé pour supprimer un élément de réunion lorsqu’un message MeetingCancellation est reçu.
-ms.openlocfilehash: 6897363eba602e6a135ad255822197f9296dd44a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RemoveItem représente un objet de réponse qui est utilisé pour supprimer un élément de réunion lors de la réception d’un message MeetingCancellation.
+ms.openlocfilehash: c0cd5c1f9894287ee78c2f7a65b8f4d3b943414e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829108"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467689"
 ---
 # <a name="removeitem"></a>RemoveItem
 
-L’élément **RemoveItem** représente un objet de réponse qui est utilisé pour supprimer un élément de réunion lorsqu’un message MeetingCancellation est reçu. 
+L’élément **RemoveItem** représente un objet de réponse qui est utilisé pour supprimer un élément de réunion lors de la réception d’un message MeetingCancellation. 
   
 ```xml
 <RemoveItem ObjectName="">
@@ -32,13 +32,13 @@ L’élément **RemoveItem** représente un objet de réponse qui est utilisé p
  **RemoveItemType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**ObjectName** <br/> |Représente le nom de la classe d’objet RemoveItem réponse sous la forme d’une chaîne en anglais.  <br/> |
+|**ObjectName** <br/> |Représente le nom de la classe d’objet de réponse RemoveItem sous la forme d’une chaîne en anglais.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -55,12 +55,12 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
    
 ## <a name="remarks"></a>Remarques
 
- **RemoveItem** est valide uniquement pour un [MeetingCancellation](meetingcancellation.md). Dans le cas contraire, une erreur est générée.
+ **RemoveItem** est valide uniquement pour un [MeetingCancellation](meetingcancellation.md). Sinon, une erreur est générée.
   
 > [!NOTE]
-> [ItemClass](itemclass.md) pour une annulation de réunion est IPM. Schedule.Meeting.Canceled. 
+> Le [ItemClass](itemclass.md) pour une annulation de réunion est IPM. Schedule. Meeting. Canceled. 
   
-Pour supprimer un [MeetingRequest](meetingrequest.md) et le associée [CalendarItem](calendaritem.md), utilisez l’objet de réponse [DeclineItem](declineitem.md) au lieu de **RemoveItem**.
+Pour supprimer un [propriété meetingrequest](meetingrequest.md) et les [CalendarItem](calendaritem.md)associés, utilisez l’objet Response [DeclineItem](declineitem.md) au lieu de **RemoveItem**.
   
  **RemoveItem** n’est pas pris en charge pour l’accès délégué. 
   
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

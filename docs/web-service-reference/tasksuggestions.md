@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3
-description: L’élément TaskSuggestions spécifie un tableau de suggestions de tâche extraites d’un élément.
-ms.openlocfilehash: 9ddddb088450e234c0c206db58db3db1534a29d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TaskSuggestions spécifie un tableau de suggestions de tâches extraites d’un élément.
+ms.openlocfilehash: 024f8daff6dd61d6563fff4849ed09602c95efb5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838676"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44468116"
 ---
 # <a name="tasksuggestions"></a>TaskSuggestions
 
-L’élément **TaskSuggestions** spécifie un tableau de suggestions de tâche extraites d’un élément. 
+L’élément **TaskSuggestions** spécifie un tableau de suggestions de tâches extraites d’un élément. 
   
 ```XML
 <TaskSuggestions>
@@ -29,11 +29,11 @@ L’élément **TaskSuggestions** spécifie un tableau de suggestions de tâche 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

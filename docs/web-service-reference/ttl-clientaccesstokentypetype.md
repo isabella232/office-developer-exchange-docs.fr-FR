@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
-description: L’élément de durée de vie indique la durée de vie de valeur pour le jeton.
-ms.openlocfilehash: 04bd8124c7bd2b02e2ab1cc47ee1d4dca4847079
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément TTL indique la valeur de durée de vie du jeton.
+ms.openlocfilehash: 0275e97ce02e41cc377f4003aee12c6fff0995e2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838779"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467388"
 ---
 # <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
 
-L’élément de **durée de vie** indique la durée de vie de valeur pour le jeton. 
+L’élément **TTL** indique la valeur de durée de vie du jeton. 
   
 ```XML
 <TTL></TTL>
@@ -26,11 +26,11 @@ L’élément de **durée de vie** indique la durée de vie de valeur pour le je
  **entier**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[TokenRequest](tokenrequest.md) | [jeton](token.md)
+[TokenRequest](tokenrequest.md)  |  [Jeton (Token](token.md) )
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte pour l’élément de **durée de vie** indique la durée pendant laquelle le jeton reste valide. 
+La valeur de texte de l’élément **TTL** indique la durée pendant laquelle le jeton reste valide. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

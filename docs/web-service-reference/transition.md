@@ -1,5 +1,5 @@
 ---
-title: Transition
+title: Bascul
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23ce171a-a9c9-47ed-a366-822777048eea
-description: L’élément de Transition représente une transition de fuseau horaire.
-ms.openlocfilehash: 5dcd2f0dae7c3df2dcf660d6fe1a41b216c67b59
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément transition représente une transition de fuseau horaire.
+ms.openlocfilehash: 05495eb4a493feedc88532cc4bc8b949493481f5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838775"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44467493"
 ---
-# <a name="transition"></a>Transition
+# <a name="transition"></a>Bascul
 
-L’élément de **Transition** représente une transition de fuseau horaire. 
+L’élément **transition** représente une transition de fuseau horaire. 
   
 ```xml
 <Transition>
@@ -32,33 +32,33 @@ L’élément de **Transition** représente une transition de fuseau horaire.
  **TransitionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Pour](to.md) <br/> |Spécifie la [période](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
+|[To](to.md) <br/> |Spécifie le [point](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Transitions](transitions.md) <br/> |Représente une collection des transitions de fuseau horaire.  <br/> |
+|[Transitions](transitions.md) <br/> |Représente une collection de transitions de fuseau horaire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

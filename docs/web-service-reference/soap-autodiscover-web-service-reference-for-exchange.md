@@ -1,5 +1,5 @@
 ---
-title: SOAP de référence de service web de découverte automatique pour Exchange
+title: Référence de service Web de découverte automatique SOAP pour Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,30 +8,30 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 61c21ea9-7fea-4f56-8ada-bf80e1e6b074
-description: Trouvez des informations de référence pour le service de découverte automatique SOAP dans Exchange.
-ms.openlocfilehash: 1cb24a8667c71028f3dead78d9fa533dc9547a64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Recherchez des informations de référence pour le service de découverte automatique SOAP dans Exchange.
+ms.openlocfilehash: bfca8e8e260a6262d12542bd6834894a2375453f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829514"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468424"
 ---
-# <a name="soap-autodiscover-web-service-reference-for-exchange"></a>SOAP de référence de service web de découverte automatique pour Exchange
+# <a name="soap-autodiscover-web-service-reference-for-exchange"></a>Référence de service Web de découverte automatique SOAP pour Exchange
 
-Trouvez des informations de référence pour le service de découverte automatique SOAP dans Exchange.
+Recherchez des informations de référence pour le service de découverte automatique SOAP dans Exchange.
   
-Le service de découverte automatique fournit les informations de configuration que votre application utilise pour créer une connexion à un serveur Exchange. Vous pouvez utiliser le service de découverte automatique SOAP pour envoyer des messages entre l’application cliente et le serveur Exchange pour rechercher les paramètres de que l’application utilise pour se connecter à Exchange. Contrairement au service de découverte automatique variole, le service de découverte automatique SOAP permet pour les demandes de découverte automatique par lots pour les paramètres de nombreux utilisateurs et un contrôle plus précis sur les paramètres sont retournés dans la réponse. 
+Le service de découverte automatique fournit les informations de configuration que votre application utilise pour créer une connexion à un serveur Exchange. Vous pouvez utiliser le service de découverte automatique SOAP pour envoyer des messages entre l’application cliente et le serveur Exchange afin de localiser les paramètres que l’application utilisera pour se connecter à Exchange. Contrairement au service de découverte automatique POX, le service de découverte automatique SOAP autorise des demandes de découverte automatique par lot pour de nombreux paramètres d’utilisateurs et un contrôle plus précis sur les paramètres qui sont renvoyés dans la réponse. 
   
 > [!NOTE]
-> Pour les clients qui ciblent les versions d’Exchange commençant par Exchange Server 2010, il est recommandé que vous utilisez le service de découverte automatique SOAP (plutôt que le service de découverte automatique variole). Les clients qui ciblent Exchange 2007 doivent utiliser le service de découverte automatique variole. Il est recommandé que les clients qui utilisent le .NET Framework utilisent l’API managée EWS, car il contient un client SOAP Autodiscover robuste et bien testé. Pour plus d’informations sur l’API managée EWS, voir [prendre en main des applications clientes API managées](http://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx). 
+> Pour les clients qui ciblent des versions d’Exchange à partir d’Exchange Server 2010, nous vous recommandons d’utiliser le service de découverte automatique SOAP (au lieu du service de découverte automatique POX). Les clients qui ciblent Exchange 2007 doivent utiliser le service de découverte automatique POX. Nous recommandons aux clients qui utilisent .NET Framework d’utiliser l’API managée EWS car elle contient un client de découverte automatique SOAP fiable et bien testé. Pour plus d’informations sur l’API managée EWS, consultez la rubrique [prise en main des applications clientes d’API managée EWS](https://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx). 
   
-Cette section fournit des informations sur les éléments XML qui sont envoyés entre le client et le serveur au cours des redirections de demande SOAP Autodiscover et les paramètres utilisateur sont retournés dans une réponse. Référence à l’élément XML contient les résumés de ce qui représentent les éléments et une description des hiérarchies potentiels d’élément qui contient l’élément. 
+Cette section fournit des informations sur les éléments XML qui sont envoyés entre le client et le serveur pendant les redirections de demande de découverte automatique SOAP et les paramètres utilisateur qui sont renvoyés dans une réponse. La référence d’élément XML contient des résumés de ce que les éléments représentent et une description des hiérarchies d’éléments potentielles qui contiennent l’élément. 
   
-Les articles de cette section décrivent les instances XML qui sont envoyés entre le client et le serveur. Vous trouverez le schéma qui décrit les éléments suivants dans le répertoire virtuel du serveur qui héberge le service de découverte automatique SOAP.
+Les Articles de cette section décrivent les instances XML qui sont envoyées entre le client et le serveur. Le schéma qui décrit ces éléments se trouve dans le répertoire virtuel du serveur qui héberge le service de découverte automatique SOAP.
   
-L’opération WSDL rubriques de cette section fournissent qu'une vue d’ensemble de l’opération qui est et des exemples de requête et de réponse opération. Vous pouvez utiliser les informations de version fournies pour déterminer si les fonctionnalités que vous souhaitez utiliser sont disponibles dans la version du produit que vous exécutez. Les exemples dans les rubriques opération également vous aident à comprendre la structure du code XML qui est inclus dans les messages SOAP qui sont envoyés vers ou à partir du serveur.
+Les rubriques relatives à l’opération WSDL de cette section fournissent une vue d’ensemble des opérations effectuées par l’opération et des exemples de demande et de réponse. Vous pouvez utiliser les informations de version fournies pour déterminer si les fonctionnalités que vous souhaitez utiliser sont disponibles dans la version du produit que vous exécutez. Les exemples fournis dans les rubriques relatives à l’opération vous aident également à comprendre la structure du code XML inclus dans les messages SOAP échangés avec le serveur.
   
-Cette section fournit des exemples et une description des messages qui sont utilisées pour extraire des informations de configuration de découverte automatique en utilisant le service de découverte automatique SOAP. 
+Cette section fournit également des exemples et des descriptions des messages qui sont utilisés pour récupérer des informations de configuration de découverte automatique à l’aide du service de découverte automatique SOAP. 
   
 ## <a name="in-this-section"></a>Dans cette section
 <a name="bk_InThisSection"> </a>
@@ -44,16 +44,16 @@ Cette section fournit des exemples et une description des messages qui sont util
     
 - [Opération GetOrganizationRelationshipSettings (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
     
-- [Éléments du fichier XML Autodiscover SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+- [Éléments XML de découverte automatique SOAP pour Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
     
 ## <a name="see-also"></a>Voir aussi
 
 
 - [Référence de service web de découverte automatique pour Exchange](autodiscover-web-service-reference-for-exchange.md)
 - [Découverte automatique pour Exchange](../exchange-web-services/autodiscover-for-exchange.md)
-- [Utiliser la découverte automatique pour rechercher les points de connexion](http://msdn.microsoft.com/library/03896542-549b-4c45-973c-98f9025ea26c%28Office.15%29.aspx)
-- [Obtenir les paramètres de l’utilisateur Exchange à l’aide de découverte automatique](http://msdn.microsoft.com/library/6d90c305-4802-4e18-8d52-f60349feaa8d%28Office.15%29.aspx)
-- [Obtenir les paramètres de domaine à partir d’un serveur Exchange](http://msdn.microsoft.com/library/2f9acb81-5135-4f72-94e8-65c235d725e6%28Office.15%29.aspx)
+- [Utiliser la découverte automatique pour trouver des points de connexion](https://msdn.microsoft.com/library/03896542-549b-4c45-973c-98f9025ea26c%28Office.15%29.aspx)
+- [Obtenir les paramètres de l'utilisateur Exchange à l'aide de découverte automatique](https://msdn.microsoft.com/library/6d90c305-4802-4e18-8d52-f60349feaa8d%28Office.15%29.aspx)
+- [Obtenir des paramètres de domaine à partir d’un serveur Exchange](https://msdn.microsoft.com/library/2f9acb81-5135-4f72-94e8-65c235d725e6%28Office.15%29.aspx)
 - [Commencer à utiliser les services web dans Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

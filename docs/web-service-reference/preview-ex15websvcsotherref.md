@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d33f557-c9d5-4f7f-82c0-d800412f8b7e
-description: L’élément Preview spécifie les 256 premiers caractères d’un élément pour l’affichage.
-ms.openlocfilehash: 38589f8d8efb58e109de59ebf9b5e56556ab58af
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Preview spécifie les 256 premiers caractères d’un élément à afficher.
+ms.openlocfilehash: 883a9b7ed45add423cbe942d1eabb90c53ac1ddf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828876"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44468109"
 ---
 # <a name="preview"></a>Aperçu
 
-L’élément **Preview** spécifie les 256 premiers caractères d’un élément pour l’affichage. 
+L’élément **preview** spécifie les 256 premiers caractères d’un élément à afficher. 
   
 ```XML
 <Preview></Preview>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Conversation (ConversationType)](conversation-conversationtype.md) | [SearchPreviewItem](searchpreviewitem.md) | [élément](item.md) | [Contact](contact.md) | [Message](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [CalendarItem](calendaritem.md)  |  [Objet postItem](postitem.md)  |  [Tâche](task.md)
+[Conversation (ConversationType)](conversation-conversationtype.md)  |  [SearchPreviewItem](searchpreviewitem.md)  |  [Élément](item.md)  |  [Contact](contact.md)  |  [Message](message-ex15websvcsotherref.md)  |  [DistributionList](distributionlist.md)  |  [CalendarItem](calendaritem.md)  |  [PostItem](postitem.md)  |  [Tâche](task.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément Preview est les 256 premiers caractères de l’élément.
+La valeur de texte de l’élément Preview est le premier caractère 256 de l’élément.
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

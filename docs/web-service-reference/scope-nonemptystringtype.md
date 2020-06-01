@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7efb6fd9-1615-469e-96f6-0f7846ad9b44
-description: L’élément de portée Spécifie l’étendue du rapport de suivi des messages.
-ms.openlocfilehash: 534ed23916a60b246c7cb5be4a59d086980a7c37
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Scope spécifie l’étendue du rapport de suivi des messages.
+ms.openlocfilehash: f86f6198e84e094e61ee569f6d005549316bbb9b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829280"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466940"
 ---
 # <a name="scope-nonemptystringtype"></a>Étendue (NonEmptyStringType)
 
-L’élément de **portée** Spécifie l’étendue du rapport de suivi des messages. 
+L’élément **scope** spécifie l’étendue du rapport de suivi des messages. 
   
 ```XML
 <Scope>Organization | Forest | Site</Scope>
@@ -30,11 +30,11 @@ L’élément de **portée** Spécifie l’étendue du rapport de suivi des mess
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,17 +42,17 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[FindMessageTrackingReport](findmessagetrackingreport.md) | [GetMessageTrackingReport](getmessagetrackingreport.md)
+[FindMessageTrackingReport](findmessagetrackingreport.md)  |  [GetMessageTrackingReport](getmessagetrackingreport.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **d’étendue** . 
+Le tableau suivant répertorie les valeurs possibles pour l’élément **scope** . 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Organisation  <br/> |Les étendues de suivi des messages s’étend sur une organisation.  <br/> |
-|Forêt  <br/> |Les étendues de suivi des messages s’étend sur une forêt.  <br/> |
-|Site  <br/> |Les étendues de suivi des messages s’étend sur un site.  <br/> |
+|Organisation  <br/> |Les étendues de suivi des messages s’étendent au sein d’une organisation.  <br/> |
+|Forest (Forêt)  <br/> |Les étendues de suivi des messages s’étendent dans une forêt.  <br/> |
+|Site  <br/> |Les étendues de suivi des messages s’étendent sur un site.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

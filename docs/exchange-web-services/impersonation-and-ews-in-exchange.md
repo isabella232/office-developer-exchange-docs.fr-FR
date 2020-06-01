@@ -3,15 +3,15 @@ title: Emprunt d’identité et EWS dans Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 7e1ea63c-eb29-43d2-827f-2f2b1846483b
 description: Découvrez comment et dans quels cas utiliser l'emprunt d'identité dans vos applications de service Exchange.
-ms.openlocfilehash: f8a215874475034f0d147b80a05cae414e6438f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 8151b3d83421786d99ee0c82eaf4f7a5c0721f25
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754957"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44466611"
 ---
 # <a name="impersonation-and-ews-in-exchange"></a>Emprunt d’identité et EWS dans Exchange
 
@@ -51,7 +51,7 @@ L'emprunt d'identité permet à un appelant d'emprunter l'identité d'un compte 
     
 - En règle générale, le rôle **ApplicationImpersonation** est attribué à un compte de service dédié à une application ou un groupe d'applications spécifique, plutôt qu'à un compte d'utilisateur. Vous pouvez créer autant de comptes de service que nécessaire. 
     
-Vous pouvez trouver davantage d'informations sur la [configuration d'emprunt d'identité](how-to-configure-impersonation.md), mais vous devez vous assurer auprès de votre administrateur Exchange que les comptes de service dont vous avez besoin sont créés avec des [accès et des autorisations](http://technet.microsoft.com/fr-FR/library/dd351175%28v=exchg.150%29.aspx) respectant les exigences de sécurité de votre organisation. 
+Vous pouvez trouver davantage d'informations sur la [configuration d'emprunt d'identité](how-to-configure-impersonation.md), mais vous devez vous assurer auprès de votre administrateur Exchange que les comptes de service dont vous avez besoin sont créés avec des [accès et des autorisations](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx) respectant les exigences de sécurité de votre organisation. 
   
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -68,6 +68,6 @@ Vous pouvez trouver davantage d'informations sur la [configuration d'emprunt d'i
     
 - [Accès délégué et EWS dans Exchange](delegate-access-and-ews-in-exchange.md)
     
-- [Autorisations Exchange 2013](http://technet.microsoft.com/fr-FR/library/dd351175%28v=exchg.150%29.aspx)
+- [Autorisations Exchange 2013](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx)
     
 

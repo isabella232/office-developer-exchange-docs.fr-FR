@@ -3,15 +3,15 @@ title: Trouver des points de terminaison de découverte automatique à l’aide 
 manager: kelbow
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
 description: Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment trouver des objets SCP de découverte automatique dans les services de domaine Active Directory (AD DS) et les utiliser pour rechercher des URL de point de terminaison de découverte automatique à utiliser avec le service de découverte automatique Exchange.
-ms.openlocfilehash: 59fd316d0aa0feea81b60c279040da018c51b47d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754827"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455876"
 ---
 # <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP dans Exchange
 
@@ -37,7 +37,7 @@ En outre, avant de commencer, vous souhaiterez connaître certains concepts de b
 |**Lire cet article**|**Pour en savoir plus sur...**|
 |:-----|:-----|
 |[Découverte automatique pour Exchange](autodiscover-for-exchange.md) <br/> |Fonctionnement du service de découverte automatique  <br/> |
-|[Publication avec des points de connexion de service](http://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |Utilisation des objets SCP pour publier des données spécifiques du service  <br/> |
+|[Publication avec des points de connexion de service](https://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |Utilisation des objets SCP pour publier des données spécifiques du service  <br/> |
    
 ## <a name="locate-autodiscover-scp-objects-in-ad-ds"></a>Localisation d'objets SCP de découverte automatique dans AD DS
 <a name="bk_LocateScpObjects"> </a>
@@ -50,7 +50,7 @@ La première étape de la recherche de points de terminaison de découverte auto
     
 ### <a name="to-locate-autodiscover-scp-objects"></a>Pour localiser des objets SCP de découverte automatique
 
-1. Lisez la propriété **configurationNamingContext** de l'entrée DSE racine dans AD DS pour obtenir le chemin d'accès au contexte d'appellation de configuration pour le domaine. Pour ce faire, utilisez la classe [DirectoryEntry](http://msdn2.microsoft.com/fr-FR/library/z9cddzaa) ou toute autre API qui peut accéder à AD DS. 
+1. Lisez la propriété **configurationNamingContext** de l'entrée DSE racine dans AD DS pour obtenir le chemin d'accès au contexte d'appellation de configuration pour le domaine. Pour ce faire, utilisez la classe [DirectoryEntry](https://msdn2.microsoft.com/library/z9cddzaa) ou toute autre API qui peut accéder à AD DS. 
     
 2. Recherchez dans le contexte d'appellation de configuration des objets SCP qui ont soit le GUID de pointeur SCP ou le GUID d'URL SCP dans la propriété **keywords**. 
     

@@ -3,15 +3,15 @@ title: Découverte automatique pour Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: da0f9402-4e35-42c7-a15e-1e9e4e966e8b
 description: En savoir plus sur le service de découverte automatique dans Exchange.
-ms.openlocfilehash: f56717eaced5db9028c556c6c2d9aa7794f4988e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 913ec3fef93900a1b5fa7aa342e8bca149c88b7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754787"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44437758"
 ---
 # <a name="autodiscover-for-exchange"></a>Découverte automatique pour Exchange
 
@@ -24,7 +24,7 @@ Le service de découverte automatique d'Exchange offre un moyen facile pour votr
 
 Le processus de découverte automatique est essentiellement constitué de trois phases. Dans la première phase, vous générez une liste de serveurs de découverte automatique potentiels et au cours de la deuxième phase, vous essayez chaque serveur de votre liste jusqu'à obtenir une réponse positive (espérons-le). Si aucun de vos candidats ne fonctionne, vous passez à la troisième phase, qui représente une tentative de « dernière minute » pour trouver un point de terminaison de découverte automatique.
   
-La méthode [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) dans l'API managée par EWS implémente les trois phases de ce processus. Ainsi, si vous utilisez l'API managée par EWS, vous n'avez pas à vous soucier de l'implémentation de la découverte automatique. La figure suivante illustre les trois phases du processus de découverte automatique. 
+La méthode [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) dans l'API managée par EWS implémente les trois phases de ce processus. Ainsi, si vous utilisez l'API managée par EWS, vous n'avez pas à vous soucier de l'implémentation de la découverte automatique. La figure suivante illustre les trois phases du processus de découverte automatique. 
   
 **Figure 1. Les trois phases du processus de découverte automatique**
 
@@ -40,7 +40,7 @@ Avant de pouvoir utiliser la découverte automatique, vous devez localiser le se
 |**Emplacements de recherche**|**Résultats de la recherche**|
 |:-----|:-----|
 |Services de domaine Active Directory (AD DS) ;  <br/> |Pour les clients joints à un domaine, il s'agit du premier emplacement de recherche. Exchange publie des objets de point de connexion de service (SCP) dans AD DS, ce qui permet aux demandes de découverte automatique d'être acheminées vers les serveurs en fonction des sites Active Directory. Les résultats d'une [recherche de SCP](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md) doivent être situés en haut de votre liste de candidats.  <br/><br/>**NOTE**: la recherche SCP n’est pas disponible pour les clients qui ne sont pas associés à un domaine ou qui n’ont pas accès aux serveurs Active Directory. Dans ce cas, vous devez ignorer la recherche SCP. <br/>|
-|Domaine d'adresse de messagerie de l'utilisateur  <br/> | La découverte automatique définit deux formulaires URL de point de terminaison standards qui proviennent de la partie domaine de l’adresse de messagerie de l’utilisateur :  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  La valeur de  *fileExtension*  dépend de la méthode d'accès de découverte automatique que vous utilisez, [SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) ou [POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx). Le service SOAP utilise une extension de fichier « .svc » ; POX utilise une extension « .xml ».  <br/> |
+|Domaine d'adresse de messagerie de l'utilisateur  <br/> | La découverte automatique définit deux formulaires URL de point de terminaison standards qui proviennent de la partie domaine de l’adresse de messagerie de l’utilisateur :  <br/>`"https://" + domain + "/autodiscover/autodiscover" +  *fileExtension*`  <br/>`"https://autodiscover." + domain + "/autodiscover/autodiscover" +  *fileExtension*`<br/><br/>  La valeur de  *fileExtension*  dépend de la méthode d'accès de découverte automatique que vous utilisez, [SOAP](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) ou [POX](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx). Le service SOAP utilise une extension de fichier « .svc » ; POX utilise une extension « .xml ».  <br/> |
    
 La figure suivante illustre comment générer une liste de points de terminaison pour la découverte automatique.
   
@@ -72,9 +72,9 @@ Le type de demande que vous envoyez dépend de la manière dont vous accédez au
 
 |**Si vous utilisez...**|**Envoyez une demande à l'aide de...**|
 |:-----|:-----|
-|API managée EWS  <br/> |La méthode [GetUserSettings](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx).  <br/> |
-|Le service de découverte automatique SOAP  <br/> |L'opération [GetUserSettings ](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).  <br/> |
-|Le service de découverte automatique POX  <br/> |Une demande POST HTTP avec un [corps de demande de service de découverte automatique](http://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx).  <br/> |
+|API managée EWS  <br/> |La méthode [GetUserSettings](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx).  <br/> |
+|Le service de découverte automatique SOAP  <br/> |L'opération [GetUserSettings ](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx).  <br/> |
+|Le service de découverte automatique POX  <br/> |Une demande POST HTTP avec un [corps de demande de service de découverte automatique](https://msdn.microsoft.com/library/75671b1d-f35b-497b-8d8c-706f3f2535fd%28Office.15%29.aspx).  <br/> |
    
 ### <a name="phase-3-trying-other-alternatives"></a>Phase 3 : Autres solutions
 <a name="bk_Phase3"> </a>
@@ -102,9 +102,9 @@ Vous pouvez accéder à la découverte automatique à l'aide du service web POX 
 
 |**Option**|**Avantages**|**Inconvénients**|
 |:-----|:-----|:-----|
-|[API managée par EWS](get-started-with-ews-managed-api-client-applications.md) <br/> | Implémente le traitement de découverte automatique pour vous.<br/><br/>Utilise les services de découverte automatique SOAP et POX.<br/><br/>Fonctionne avec Exchange Online, Exchange Online dans le cadre d'Office 365 ou Exchange 2007 SP1, ou une version ultérieure.<br/><br/>Facile à utiliser.  <br/> | Limité au niveau des paramètres utilisateur disponibles dans l'énumération [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx).<br/><br/>Disponible uniquement pour les applications .NET Framework.  <br/> |
-|[Découverte automatique SOAP](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | Indépendante de la plateforme.<br/><br/>Permet de demander uniquement les paramètres qui vous intéressent.  <br/> | Non disponible dans Exchange 2007.  <br/> |
-|[Découverte automatique POX](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | Indépendante de la plateforme.<br/><br/>Prise en charge dans Exchange Online et dans Exchange 2007 SP1, ou une version ultérieure.  <br/> | Ne permet pas de demander des paramètres spécifiques.  <br/> |
+|[API managée par EWS](get-started-with-ews-managed-api-client-applications.md) <br/> | Implémente le traitement de découverte automatique pour vous.<br/><br/>Utilise les services de découverte automatique SOAP et POX.<br/><br/>Fonctionne avec Exchange Online, Exchange Online dans le cadre d'Office 365 ou Exchange 2007 SP1, ou une version ultérieure.<br/><br/>Facile à utiliser.  <br/> | Limité au niveau des paramètres utilisateur disponibles dans l'énumération [Microsoft.Exchange.WebServices.Autodiscover.UserSettingName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=EXCHG.80%29.aspx).<br/><br/>Disponible uniquement pour les applications .NET Framework.  <br/> |
+|[Découverte automatique SOAP](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) <br/> | Indépendante de la plateforme.<br/><br/>Permet de demander uniquement les paramètres qui vous intéressent.  <br/> | Non disponible dans Exchange 2007.  <br/> |
+|[Découverte automatique POX](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx) <br/> | Indépendante de la plateforme.<br/><br/>Prise en charge dans Exchange Online et dans Exchange 2007 SP1, ou une version ultérieure.  <br/> | Ne permet pas de demander des paramètres spécifiques.  <br/> |
    
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -127,8 +127,8 @@ Vous pouvez accéder à la découverte automatique à l'aide du service web POX 
 ## <a name="see-also"></a>Voir aussi
 
 - [Commencer à utiliser les services web dans Exchange](start-using-web-services-in-exchange.md)    
-- [Exchange 2013 : Obtenir des paramètres utilisateur avec la découverte automatique](http://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
-- [Exemple de vérificateur de découverte automatique](http://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
+- [Exchange 2013 : Obtenir des paramètres utilisateur avec la découverte automatique](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
+- [Exemple de vérificateur de découverte automatique](https://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
 - [Développer des clients de service web pour Exchange](develop-web-service-clients-for-exchange.md)
     
 

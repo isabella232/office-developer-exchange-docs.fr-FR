@@ -3,15 +3,15 @@ title: Applications EWS et architecture Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c10f308a-65bb-4a0b-8fdd-b4a61503f0fd
 description: Découvrez le fonctionnement d’EWS au sein de l’architecture Exchange, et les protocoles sur lesquels EWS s’appuie.
-ms.openlocfilehash: 1fbc1e68edbca829555fbbf1b9f0bc4723da9524
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 15f396664ea46e53a4603a617c9bf679400af160
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754785"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456090"
 ---
 # <a name="ews-applications-and-the-exchange-architecture"></a>Applications EWS et architecture Exchange
 

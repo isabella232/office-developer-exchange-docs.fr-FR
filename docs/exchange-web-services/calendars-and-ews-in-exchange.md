@@ -3,15 +3,15 @@ title: Calendriers et EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b87b0180-f5b5-44e4-b6ac-4f23e476b03b
 description: Découvrez les calendriers, les dossiers et les éléments de calendrier, les rendez-vous et les réunions dans Exchange.
-ms.openlocfilehash: bb9702118ff1db66862a5788c2d8f58dd55c4d09
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+localization_priority: Priority
+ms.openlocfilehash: 3312ebb4deeb6645ccd7048564d61c3db5ea4b94
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754760"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44456198"
 ---
 # <a name="calendars-and-ews-in-exchange"></a>Calendriers et EWS dans Exchange
 
@@ -51,14 +51,14 @@ Heureusement, EWS et l'API managée EWS fournissent un large éventail d'opérat
 ## <a name="calendar-folders-and-calendar-items"></a>Dossiers de calendrier et éléments de calendrier
 <a name="bk_CalendarFolder"> </a>
 
-Les dossiers de calendrier contiennent des éléments de calendrier. Les dossiers de calendrier ont une [classe de dossier](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) de **IPF.Appointment**, et peuvent inclure uniquement les éléments définis par la propriété de l'API managée EWS [ItemClass](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.item.itemclass%28v=exchg.80%29.aspx), qui est associée à un objet de [classe de rendez-vous](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx), ou à l'élément [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) EWS. 
+Les dossiers de calendrier contiennent des éléments de calendrier. Les dossiers de calendrier ont une [classe de dossier](https://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) de **IPF.Appointment**, et peuvent inclure uniquement les éléments définis par la propriété de l'API managée EWS [ItemClass](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.itemclass%28v=exchg.80%29.aspx), qui est associée à un objet de [classe de rendez-vous](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx), ou à l'élément [CalendarItemType](https://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) EWS. 
   
 Les éléments d’un dossier de Calendrier sont légèrement différents des éléments d’autres dossiers dans une boîte aux lettres car les occurrences d’une série périodique et les exceptions à une série périodique ne sont pas des éléments réels dans la boîte aux lettres. Elles sont plutôt stockées en interne sous forme de pièces jointes à un rendez-vous périodique important. Par conséquent, pour récupérer tous les rendez-vous sur une plage de dates donnée, vous devez utiliser un affichage calendrier. Pour en savoir plus sur la récupération des rendez-vous et des affichages de calendrier, voir[Créer des rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md). 
   
 ## <a name="meetings-and-appointments"></a>Réunions et rendez-vous
 <a name="bk_meetings"> </a>
 
-La principale différence entre les réunions et les rendez-vous réside dans la présence de participants aux réunions, mais pas aux rendez-vous. En interne, Exchange utilise le même objet pour les réunions et pour les rendez-vous. Pour utiliser les réunions et les rendez-vous, vous devez utiliser la [classe de rendez-vous](http://msdn.microsoft.com/fr-FR/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) de l'API managée EWS ou l'élément [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) d'EWS. 
+La principale différence entre les réunions et les rendez-vous réside dans la présence de participants aux réunions, mais pas aux rendez-vous. En interne, Exchange utilise le même objet pour les réunions et pour les rendez-vous. Pour utiliser les réunions et les rendez-vous, vous devez utiliser la [classe de rendez-vous](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) de l'API managée EWS ou l'élément [CalendarItem](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) d'EWS. 
   
 Les rendez-vous et les réunions peuvent être des instances uniques ou faire partie d'une [série périodique](recurrence-patterns-and-ews.md). Cependant, les rendez-vous n'incluant ni participants, ni salles, ni ressources, ne nécessitent pas l'envoi d'un message.
   
@@ -83,12 +83,12 @@ Le flux de travail d’une réunion comprend généralement les étapes suivante
 
 Les fonctionnalités liées à l'heure font partie intégrante du calendrier. Les rendez-vous et les réunions ont des heures de début et de fin, des durées et d'autres propriétés liées à l'heure, telles que l'heure à laquelle un message est créé, envoyé et reçu. Les réunions et rendez-vous existants peuvent être récupérés à partir d'un dossier Calendrier sur la base d'une heure de début et de fin. Les séries périodiques ont des débuts et des fins. Et les réunions ont lieu dans un fuseau horaire donné, ce qui est de plus en plus important dans une économie mondiale.
   
-Les heures sont stockées en interne sur un serveur Exchange en Temps universel coordonné (UTC). Exchange les convertit en heures locales en fonction des paramètres du client. Les propriétés [DateTime](http://msdn.microsoft.com/library/9c6ecd4c-779c-4fa5-8082-dd2bc0a751f4%28Office.15%29.aspx) sont limitées au fuseau horaire local de l'ordinateur. 
+Les heures sont stockées en interne sur un serveur Exchange en Temps universel coordonné (UTC). Exchange les convertit en heures locales en fonction des paramètres du client. Les propriétés [DateTime](https://msdn.microsoft.com/library/9c6ecd4c-779c-4fa5-8082-dd2bc0a751f4%28Office.15%29.aspx) sont limitées au fuseau horaire local de l'ordinateur. 
   
 ## <a name="recurring-series"></a>Séries périodiques
 <a name="bk_recurrence"> </a>
 
-Une série périodique de réunions ou de rendez-vous est constituée d'un rendez-vous ou réunion périodique important(e), d'un ensemble d'éléments d'occurrence et, éventuellement, d'un ensemble d'éléments d'exception. Les informations de périodicité sont stockées sur l'élément de rendez-vous périodique important. L'élément EWS [RecurringMasterItemId](http://msdn.microsoft.com/library/5800b58c-f3d7-4d8f-acc0-d13e02f4e258%28Office.15%29.aspx) est associé à des occurrences et des exceptions dans une série, ou vous pouvez utiliser la méthode d'API managée EWS [Appointment.BindToRecurringMaster](http://msdn.microsoft.com/fr-FR/library/dd635978%28v=EXCHG.80%29.aspx) pour récupérer le rendez-vous périodique important. À l'aide d'une instance d'une série, vous pouvez trouver tous les éléments et les informations associés à la série. 
+Une série périodique de réunions ou de rendez-vous est constituée d'un rendez-vous ou réunion périodique important(e), d'un ensemble d'éléments d'occurrence et, éventuellement, d'un ensemble d'éléments d'exception. Les informations de périodicité sont stockées sur l'élément de rendez-vous périodique important. L'élément EWS [RecurringMasterItemId](https://msdn.microsoft.com/library/5800b58c-f3d7-4d8f-acc0-d13e02f4e258%28Office.15%29.aspx) est associé à des occurrences et des exceptions dans une série, ou vous pouvez utiliser la méthode d'API managée EWS [Appointment.BindToRecurringMaster](https://msdn.microsoft.com/library/dd635978%28v=EXCHG.80%29.aspx) pour récupérer le rendez-vous périodique important. À l'aide d'une instance d'une série, vous pouvez trouver tous les éléments et les informations associés à la série. 
   
 Notez que les propriétés de périodicité existent sur tous les éléments de calendrier, mais elles sont renseignées uniquement sur les éléments de rendez-vous périodiques importants. Outre un index de toutes les occurrences d'une série, le rendez-vous périodique important a une référence à des occurrences modifiées et supprimées et à la périodicité d'une série (par exemple, quotidien, hebdomadaire, mensuel ou annuel).
   

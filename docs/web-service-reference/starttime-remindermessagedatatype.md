@@ -12,7 +12,7 @@ ms.openlocfilehash: bdd940656d5441a0a36cfcef8f4e0b5db1474a7a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458998"
 ---
 # <a name="starttime-remindermessagedatatype"></a>StartTime (ReminderMessageDataType)

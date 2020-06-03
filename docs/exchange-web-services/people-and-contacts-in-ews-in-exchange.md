@@ -10,7 +10,7 @@ ms.openlocfilehash: f0590a0d8a99b8320cc1b316829177e05e443de6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457671"
 ---
 # <a name="people-and-contacts-in-ews-in-exchange"></a>Personnes et contacts dans EWS dans Exchange

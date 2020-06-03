@@ -16,7 +16,7 @@ ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458207"
 ---
 # <a name="getuserconfiguration-operation"></a>Opération GetUserConfiguration

@@ -16,7 +16,7 @@ ms.openlocfilehash: b65d11d8c7655279dac0e7d3cbd13f8a9317540c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458571"
 ---
 # <a name="ignore"></a>Ignorer

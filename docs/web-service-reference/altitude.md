@@ -12,7 +12,7 @@ ms.openlocfilehash: 7cbb3872cd0ad53b1617f9f712633e19e6fe397d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458837"
 ---
 # <a name="altitude"></a>Latitude

@@ -10,7 +10,7 @@ ms.openlocfilehash: 8f539a2131798e764574ef92f75deb654c02c90f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457661"
 ---
 # <a name="property-sets-and-response-shapes-in-ews-in-exchange"></a>Jeux de propriétés et de réponse des formes dans EWS dans Exchange
@@ -39,7 +39,7 @@ Le tableau suivant répertorie les propriétés par défaut qui sont renvoyées 
   
 **Tableau 2. Propriétés de dossier par défaut**
 
-|**Property**|**Boîte de réception**|**Calendar**|**Contacts**|**Éléments supprimés**|**Brouillons**|**Notes**|**Autres dossiers**|**Outbox**|
+|**Property**|**Boîte de réception**|**Calendar**|**Contacts**|**Éléments supprimés**|**Brouillons**|**Remarques**|**Autres dossiers**|**Outbox**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Nom unique (DN)  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |Identificateur de dossier  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
@@ -80,7 +80,7 @@ Le tableau suivant répertorie les propriétés par défaut qui sont retournées
 |Sensitity  <br/> |||x  <br/> ||
 |Taille  <br/> |||x  <br/> ||
 |StartDate  <br/> ||||x (2)  <br/> |
-|Statut  <br/> ||||x  <br/> |
+|État  <br/> ||||x  <br/> |
 |Subject  <br/> |x  <br/> ||x  <br/> |x  <br/> |
    
 Remarques :
@@ -233,7 +233,7 @@ Vous pouvez ajouter des propriétés supplémentaires au jeu de propriétés ou 
 |Démarrer  <br/> |x  <br/> |||||
 |StartDate  <br/> |||||x  <br/> |
 |StartTimeZone  <br/> |x  <br/> |||||
-|Statut  <br/> |||||x  <br/> |
+|État  <br/> |||||x  <br/> |
 |StatusDescription  <br/> |||||x  <br/> |
 |Subject  <br/> |x  <br/> |x  <br/> |x  <br/> ||x  <br/> |
 |Surname  <br/> ||x  <br/> ||||

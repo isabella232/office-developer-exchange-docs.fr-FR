@@ -10,7 +10,7 @@ ms.openlocfilehash: c3d98ff798e3d0f6d214111d51da2c81278fd17d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457654"
 ---
 # <a name="pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange"></a>Notifications de type pull pour les événements de boîte aux lettres liés à la suppression EWS dans Exchange

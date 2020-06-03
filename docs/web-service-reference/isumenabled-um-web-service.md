@@ -15,7 +15,7 @@ ms.openlocfilehash: ea5bde677c62664acad8afd5c8142e96d82b7a74
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458228"
 ---
 # <a name="isumenabled-um-web-service"></a>IsUMEnabled (service Web de messagerie unifiée)

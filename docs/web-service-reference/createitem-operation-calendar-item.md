@@ -16,7 +16,7 @@ ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457500"
 ---
 # <a name="createitem-operation-calendar-item"></a>Opération CreateItem (élément de calendrier)

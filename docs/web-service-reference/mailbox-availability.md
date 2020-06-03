@@ -16,7 +16,7 @@ ms.openlocfilehash: 1bda6e8b90551b86b4e1c2711ac25693a65e5410
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458074"
 ---
 # <a name="mailbox-availability"></a>Boîte aux lettres (disponibilité)

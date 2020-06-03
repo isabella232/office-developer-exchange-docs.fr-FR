@@ -1,55 +1,55 @@
 ---
-title: Accéder à un calendrier en tant que délégué à l’aide de EWS dans Exchange
+title: Accéder à un calendrier en tant que délégué à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: d7db4a1e-9ed6-41da-8529-a73ca285cdf2
-description: Découvrez comment accéder à un calendrier en tant que délégué à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 609e5f0bb22c78174289a2eb10210999c8391a3d
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Découvrez comment accéder à un calendrier en tant que délégué à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 20ec294ddc4ccf014f0b2148c786c8c3ef8a6069
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353839"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528292"
 ---
-#  <a name="access-a-calendar-as-a-delegate-by-using-ews-in-exchange"></a>Accéder à un calendrier en tant que délégué à l’aide de EWS dans Exchange
+#  <a name="access-a-calendar-as-a-delegate-by-using-ews-in-exchange"></a>Accéder à un calendrier en tant que délégué à l’aide d’EWS dans Exchange
 
-Découvrez comment accéder à un calendrier en tant que délégué à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment accéder à un calendrier en tant que délégué à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Vous pouvez utiliser l’API managée EWS ou EWS pour donner à un utilisateur délégué l’accès au dossier de calendrier d’un propriétaire de boîte aux lettres. Le délégué peut ensuite créer des demandes de réunion pour le compte du propriétaire de boîte aux lettres, créer des rendez-vous, répondre aux demandes de réunion, extraire et mettre à jour, supprimer des réunions à partir du dossier de calendrier du propriétaire de la boîte aux lettres, en fonction de leurs autorisations.
+Vous pouvez utiliser l’API managée EWS ou EWS pour accorder à un utilisateur un accès délégué au dossier calendrier d’un propriétaire de boîte aux lettres. Le délégué peut ensuite créer des demandes de réunion pour le compte du propriétaire de la boîte aux lettres, créer des rendez-vous, répondre aux demandes de réunion et récupérer, mettre à jour et supprimer des réunions du dossier calendrier du propriétaire de la boîte aux lettres, en fonction de leurs autorisations.
   
-En tant que délégué, vous utilisez les mêmes méthodes et opérations pour accéder au dossier calendrier du propriétaire de la boîte aux lettres que vous utilisez pour accéder à votre propre dossier de calendrier. La principale différence est que vous devez utiliser [un accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicit) pour trouver ou créer un élément de calendrier ou d’un sous-dossier de calendrier, puis après avoir identifié l’ID d’élément ou dossier, vous pouvez utiliser [un accès implicite](delegate-access-and-ews-in-exchange.md#bk_implicit) pour obtenir, de mettre à jour ou de supprimer l’élément. 
+En tant que délégué, vous utilisez les mêmes méthodes et opérations pour accéder au dossier de calendrier d’un propriétaire de boîte aux lettres que vous utilisez pour accéder à votre propre dossier de calendrier. La principale différence réside dans le fait que vous devez utiliser un [accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicit) pour rechercher ou créer un élément de calendrier ou un sous-dossier de calendrier, puis après avoir identifié l’ID d’élément ou l’ID de dossier, vous pouvez utiliser l' [accès implicite](delegate-access-and-ews-in-exchange.md#bk_implicit) pour obtenir, mettre à jour ou supprimer l’élément. 
   
-**Le tableau 1. Méthodes d’API managées et opérations EWS pour accéder à un calendrier en tant que délégué**
+**Tableau 1. Méthodes de l’API managée EWS et opérations EWS pour accéder à un calendrier en tant que délégué**
 
-|**Si vous souhaitez...**|**Utilisez cette méthode d’API managées...**|**Utilisez cette opération EWS...**|
+|**Si vous souhaitez...**|**Utilisez cette méthode d’API managée EWS...**|**Utilisez cette opération EWS...**|
 |:-----|:-----|:-----|
-|Créer une réunion ou un rendez-vous en tant que délégué  <br/> |[Appointment.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) où le paramètre [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) fournit [un accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) au dossier de calendrier du propriétaire de la boîte aux lettres  <br/> |[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , où l’élément de [boîte aux lettres](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) spécifie [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) du propriétaire de boîte aux lettres  <br/> |
-|Créer plusieurs réunions ou rendez-vous en tant que délégué  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) où le paramètre **FolderId** fournit [un accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) au dossier de calendrier du propriétaire de la boîte aux lettres  <br/> |[CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) , où l’élément de [boîte aux lettres](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) spécifie [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) du propriétaire de boîte aux lettres  <br/> |
-|Recherchez ou rechercher un rendez-vous ou une réunion en tant que délégué  <br/> |[ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) où le paramètre **FolderId** fournit [un accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) au dossier de calendrier du propriétaire de la boîte aux lettres  <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) où l’élément de [boîte aux lettres](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) spécifie [EmailAddress](http://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) du propriétaire de boîte aux lettres  <br/> |
-|Obtenir un rendez-vous ou une réunion en tant que délégué  <br/> |[Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
-|Mettre à jour un rendez-vous ou une réunion en tant que délégué  <br/> |[Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivi [Appointment.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) suivi [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Supprimer un rendez-vous ou une réunion en tant que délégué  <br/> |[Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivi [Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) suivi [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Créer une réunion ou un rendez-vous en tant que délégué  <br/> |[Rendez-vous. Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) où le paramètre [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) fournit un [accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) au dossier calendrier du propriétaire de la boîte aux lettres  <br/> |[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) où l’élément [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) spécifie le [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) du propriétaire de la boîte aux lettres  <br/> |
+|Créer plusieurs réunions ou rendez-vous en tant que délégué  <br/> |[ExchangeService. CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) où le paramètre **FolderId** fournit un [accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) au dossier de calendrier du propriétaire de la boîte aux lettres  <br/> |[CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) où l’élément [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) spécifie le [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) du propriétaire de la boîte aux lettres  <br/> |
+|Rechercher ou Rechercher un rendez-vous ou une réunion en tant que délégué  <br/> |[ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) où le paramètre **FolderId** fournit un [accès explicite](delegate-access-and-ews-in-exchange.md#bk_explicitewsma) au dossier de calendrier du propriétaire de la boîte aux lettres  <br/> |[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) où l’élément [Mailbox](https://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) spécifie le [EmailAddress](https://msdn.microsoft.com/library/922c8b21-04a9-4229-b48c-187c3095422e%28Office.15%29.aspx) du propriétaire de la boîte aux lettres  <br/> |
+|Obtenir un rendez-vous ou une réunion en tant que délégué  <br/> |[Rendez-vous. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |
+|Mettre à jour un rendez-vous ou une réunion en tant que délégué  <br/> |Appointment [. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivi de [rendez-vous. Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) suivi de [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Supprimer un rendez-vous ou une réunion en tant que délégué  <br/> |[Rendez-vous. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivi de [rendez-vous.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , suivi de [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 > [!NOTE]
-> Dans les exemples de code dans cet article, primary@contoso.com est le propriétaire de boîte aux lettres. 
+> Dans les exemples de code de cet article, primary@contoso.com est le propriétaire de la boîte aux lettres. 
   
-## <a name="prerequisite-tasks"></a>Les tâches préalables
+## <a name="prerequisite-tasks"></a>Tâches préalables
 <a name="bk_prereq"> </a>
 
-Qu’un utilisateur puisse accéder dossier de calendrier d’un propriétaire de boîte aux lettres en tant que délégué, l’utilisateur doit être [ajouté en tant que délégué disposant des autorisations](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) au dossier de calendrier du propriétaire de la boîte aux lettres. 
+Pour qu’un utilisateur puisse accéder au dossier calendrier d’un propriétaire de boîte aux lettres en tant que délégué, il doit être [ajouté en tant que délégué avec des autorisations](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) sur le dossier calendrier du propriétaire de la boîte aux lettres. 
   
-Un délégué doit avoir une boîte aux lettres associé à leur compte pour mettre à jour le calendrier d’un propriétaire de boîte aux lettres.
+Un délégué doit disposer d’une boîte aux lettres attachée à son compte pour mettre à jour le calendrier d’un propriétaire de boîte aux lettres.
   
-Si un délégué a besoin travailler avec des demandes de réunion et réponses uniquement, vous pouvez ajouter le délégué au dossier de calendrier et utiliser la valeur d’énumération API managées par défaut [MeetingRequestsDeliveryScope.DelegatesAndSendInformationToMe](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.meetingrequestsdeliveryscope%28v=exchg.80%29.aspx) ou le [ DeliverMeetingRequests](http://msdn.microsoft.com/library/04b999af-0b27-4e6d-a8b1-400955a1afaa%28Office.15%29.aspx) valeur de l’élément EWS de **DelegatesAndSendInformationToMe** d’envoyer les demandes au délégué et messages d’information au propriétaire de la boîte aux lettres. Puis le délégué n'a pas besoin d’avoir accès au dossier de boîte de réception du propriétaire de la boîte aux lettres. 
+Si un délégué doit travailler uniquement avec des demandes de réunion et des réponses, vous pouvez ajouter le délégué au dossier de calendrier et utiliser la valeur d’énumération de l’API managée EWS par défaut [MeetingRequestsDeliveryScope. DelegatesAndSendInformationToMe](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.meetingrequestsdeliveryscope%28v=exchg.80%29.aspx) ou la valeur d’élément EWS [DeliverMeetingRequests](https://msdn.microsoft.com/library/04b999af-0b27-4e6d-a8b1-400955a1afaa%28Office.15%29.aspx) de **DelegatesAndSendInformationToMe** pour envoyer les demandes au délégué et aux messages d’information au propriétaire de la boîte aux lettres. Le délégué n’a alors pas besoin d’avoir accès au dossier boîte de réception du propriétaire de la boîte aux lettres. 
   
 ## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-the-ews-managed-api"></a>Créer une réunion ou un rendez-vous en tant que délégué à l’aide de l’API managée EWS
 <a name="bk_createewsma"> </a>
 
-L’API managée EWS vous permet d’utiliser l’objet de service pour l’utilisateur délégué pour créer des éléments de calendrier pour le propriétaire de la boîte aux lettres. Cet exemple montre comment utiliser la méthode [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) pour créer une réunion et envoyer les demandes de réunion aux participants. 
+L’API managée EWS vous permet d’utiliser l’objet de service pour l’utilisateur délégué afin de créer des éléments de calendrier pour le propriétaire de la boîte aux lettres. Cet exemple montre comment utiliser la méthode [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) pour créer une réunion et envoyer des demandes de réunion aux participants. 
   
-Cet exemple suppose que ce **service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le délégué et le délégué a été accordé les autorisations appropriées pour le dossier de calendrier du propriétaire de la boîte aux lettres. 
+Cet exemple suppose que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide pour le délégué et que le délégué bénéficie des autorisations appropriées pour le dossier calendrier du propriétaire de la boîte aux lettres. 
   
 ```cs
 private static void DelegateAccessCreateMeeting(ExchangeService service)
@@ -75,14 +75,14 @@ private static void DelegateAccessCreateMeeting(ExchangeService service)
 }
 ```
 
-Notez que lorsque vous enregistrez l’élément, l’appel de méthode [Enregistrer](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) doit identifier le dossier de calendrier du propriétaire de la boîte aux lettres. Si le dossier de calendrier du propriétaire de la boîte aux lettres n’est pas spécifié, la demande de réunion est enregistrée pour le calendrier du délégué et non le dossier de calendrier du propriétaire de la boîte aux lettres. Vous pouvez inclure le dossier de calendrier du propriétaire de la boîte aux lettres dans l’appel de méthode **Enregistrer** de deux manières. Il est recommandé que vous instanciez une nouvelle instance de l’objet [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) à l’aide de la [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) et l’adresse SMTP du propriétaire de boîte aux lettres. 
+Notez que lorsque vous enregistrez l’élément, l’appel de la méthode [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) doit identifier le dossier calendrier du propriétaire de la boîte aux lettres. Si le dossier calendrier du propriétaire de la boîte aux lettres n’est pas spécifié, la demande de réunion est enregistrée dans le calendrier du délégué et non dans le dossier calendrier du propriétaire de la boîte aux lettres. Vous pouvez inclure le dossier calendrier du propriétaire de la boîte aux lettres dans l’appel de la méthode **Save** de deux manières. Nous vous recommandons d’instancier une nouvelle instance de l’objet [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) à l’aide de l' [WellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) et de l’adresse SMTP du propriétaire de la boîte aux lettres. 
   
 ```cs
 meeting.Save(new FolderId(WellKnownFolderName.Calendar,
     "primary@contoso.com"), SendInvitationsMode.SendToAllAndSaveCopy);
 ```
 
-Toutefois, vous pouvez également [lier](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) au dossier de calendrier tout d’abord, puis utilisez l’ID du dossier de l’appel de méthode **Enregistrer** . Sachez, toutefois, que cette opération crée un appel EWS supplémentaire. 
+Toutefois, vous pouvez également [établir une liaison](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) avec le dossier de calendrier, puis utiliser l’ID du dossier dans l’appel de la méthode **Save** . Toutefois, sachez que cela crée un appel EWS supplémentaire. 
   
 ```cs
     // Identify the mailbox owner's SMTP address
@@ -96,21 +96,21 @@ Toutefois, vous pouvez également [lier](http://msdn.microsoft.com/en-us/library
         SendInvitationsMode.SendToAllAndSaveCopy);
 ```
 
-## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Créer une réunion ou un rendez-vous en tant que délégué à l’aide de EWS
+## <a name="create-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Créer une réunion ou un rendez-vous en tant que délégué à l’aide d’EWS
 <a name="bk_createews"> </a>
 
-EWS vous permet d’utiliser l’objet de service pour l’utilisateur délégué pour créer des éléments de calendrier pour le propriétaire de la boîte aux lettres. Cet exemple montre comment utiliser l’opération [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) pour créer une réunion et envoyer les demandes de réunion aux participants. 
+EWS vous permet d’utiliser l’objet de service pour l’utilisateur délégué afin de créer des éléments de calendrier pour le propriétaire de la boîte aux lettres. Cet exemple montre comment utiliser l’opération [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) pour créer une réunion et envoyer des demandes de réunion aux participants. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez la méthode **Save** pour [créer une réunion ou un rendez-vous en tant que délégué](#bk_createewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez la méthode **Save** pour [créer une réunion ou un rendez-vous en tant que délégué](#bk_createewsma).
   
-L’en-tête SOAP a été supprimée de l’exemple suivant par souci de concision.
+L’en-tête SOAP a été supprimé de l’exemple suivant par souci de concision.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-         xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+         xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+         xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
 …
   <soap:Body>
     <m:CreateItem SendMeetingInvitations="SendToAllAndSaveCopy">
@@ -145,12 +145,12 @@ L’en-tête SOAP a été supprimée de l’exemple suivant par souci de concisi
 
 ```
 
-Le serveur répond à la demande **CreateItem** avec un message [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que la réunion a été créée avec succès. La réponse contient également l’ID d’élément de la réunion nouvellement créée.
+Le serveur répond à la demande **CreateItem** avec un message [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) qui inclut la valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NOERROR**, ce qui indique que la réunion a été correctement créée. La réponse contient également l’ID de l’élément de la réunion nouvellement créée.
   
 ## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-the-ews-managed-api"></a>Rechercher une réunion ou un rendez-vous en tant que délégué à l’aide de l’API managée EWS
 <a name="bk_searchewsma"> </a>
 
-Pour rechercher une réunion, vous devez utiliser une des méthodes [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) qui comprend un paramètre [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) , afin que vous pouvez spécifier le dossier de calendrier du propriétaire de la boîte aux lettres. 
+Pour rechercher une réunion, vous devez utiliser l’une des méthodes [ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) qui inclut un paramètre [FolderId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) , afin que vous puissiez spécifier le dossier de calendrier du propriétaire de la boîte aux lettres. 
   
 ```cs
 static void DelegateAccessSearchWithFilter
@@ -190,21 +190,21 @@ static void DelegateAccessSearchWithFilter
 }
 ```
 
-Une fois l’appel **FindItems** retourne une réponse avec un ID, vous pouvez obtenir, mettre à jour ou supprimer cette réunion à l’aide de l’ID et [l’accès implicite](delegate-access-and-ews-in-exchange.md#bk_implicit) — et vous n’avez pas besoin de spécifier l’adresse SMTP de l’utilisateur de boîte aux lettres. 
+Une fois que l’appel **FindItems** renvoie une réponse avec un ID, vous pouvez obtenir, mettre à jour ou supprimer cette réunion en utilisant l’ID et l' [accès implicite](delegate-access-and-ews-in-exchange.md#bk_implicit) , et vous n’avez pas besoin de spécifier l’adresse SMTP du propriétaire de la boîte aux lettres. 
   
-## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Rechercher une réunion ou un rendez-vous en tant que délégué à l’aide de EWS
+## <a name="search-for-a-meeting-or-appointment-as-a-delegate-by-using-ews"></a>Rechercher une réunion ou un rendez-vous en tant que délégué à l’aide d’EWS
 <a name="bk_searchews"> </a>
 
-EWS vous permet d’utiliser l’objet de service pour l’utilisateur délégué pour rechercher des rendez-vous et réunions répondant à un ensemble de critères de recherche. Cet exemple montre comment utiliser l’opération [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) pour rechercher des réunions dans le dossier calendrier du propriétaire de la boîte aux lettres qui contiennent le mot « building » dans l’objet. 
+EWS vous permet d’utiliser l’objet de service pour l’utilisateur délégué afin de rechercher des rendez-vous et des réunions qui répondent à un ensemble de critères de recherche. Cet exemple montre comment utiliser l’opération [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) pour rechercher des réunions dans le dossier de calendrier du propriétaire de la boîte aux lettres qui contiennent le mot « Building » dans l’objet. 
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez la méthode **FindItem** au [service de recherche pour une réunion ou un rendez-vous en tant que délégué](#bk_searchewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez la méthode **FindItem** pour [Rechercher une réunion ou un rendez-vous en tant que délégué](#bk_searchewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
   </soap:Header>
@@ -245,27 +245,27 @@ C’est également la demande XML qui envoie de l’API managée EWS lorsque vou
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **FindItem** avec un message [FindItemResponse](http://msdn.microsoft.com/library/c8b316df-d4ab-49b8-96d4-8e9a016730ef%28Office.15%29.aspx) qui contient une valeur élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, qui indique que la recherche s’est terminée correctement. La réponse contient un [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) pour un rendez-vous ou les réunions qui répondent aux critères de recherche. Dans ce cas, seule réunion est trouvée. 
+Le serveur répond à la demande **FindItem** avec un message [FindItemResponse](https://msdn.microsoft.com/library/c8b316df-d4ab-49b8-96d4-8e9a016730ef%28Office.15%29.aspx) qui inclut une valeur d’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que la recherche s’est terminée avec succès. La réponse contient un [CalendarItem](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) pour les rendez-vous ou les réunions qui répondent aux critères de recherche. Dans ce cas, une seule réunion est trouvée. 
   
-La valeur de l’élément [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) a été raccourcie pour des raisons de lisibilité. 
+La valeur de l’élément [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) a été raccourcie pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="893"
                          MinorBuildNumber="10"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body>
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -288,39 +288,39 @@ La valeur de l’élément [ItemId](http://msdn.microsoft.com/library/3350b597-5
 </s:Envelope>
 ```
 
-Maintenant que vous avez l' **ItemId** de la réunion qui répond à vos critères, vous pouvez obtenir, mettre à jour ou supprimer cette réunion à l’aide de **l’ItemId** et [accès implicite](delegate-access-and-ews-in-exchange.md#bk_implicit) — et vous n’avez pas besoin de spécifier l’adresse SMTP de l’utilisateur de boîte aux lettres. 
+À présent que l' **ID ItemId** de la réunion répond à vos critères, vous pouvez obtenir, mettre à jour ou supprimer cette réunion à l’aide de l' **ItemId** et de l' [accès implicite](delegate-access-and-ews-in-exchange.md#bk_implicit) , et vous n’avez pas besoin de spécifier l’adresse SMTP du propriétaire de la boîte aux lettres. 
   
 ## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-the-ews-managed-api"></a>Obtenir, mettre à jour ou supprimer des éléments de calendrier en tant que délégué à l’aide de l’API managée EWS
 <a name="bk_geteswma"> </a>
 
-Vous pouvez utiliser l’API managée EWS pour obtenir, mettre à jour ou supprimer une réunion ou un rendez-vous de la même manière que vous effectuez ces actions lorsque vous n’utilisez pas d’accès délégué. La seule différence est que l’objet de service pour l’utilisateur délégué. L’ID d’élément inclus dans l’appel de méthode **lier** unique identifie l’élément dans le magasin de boîte aux lettres, dans le dossier de calendrier du propriétaire de la boîte aux lettres. 
+Vous pouvez utiliser l’API managée EWS pour obtenir, mettre à jour ou supprimer une réunion ou un rendez-vous de la même façon que vous effectuez ces actions lorsque vous n’utilisez pas l’accès délégué. La seule différence réside dans le fait que l’objet de service est destiné à l’utilisateur délégué. L’ID d’élément inclus dans l’appel de méthode de **liaison** identifie de manière unique l’élément dans la Banque de boîtes aux lettres, dans le dossier de calendrier du propriétaire de la boîte aux lettres. 
   
-**Le tableau 2. Méthodes d’API managées pour travailler avec des rendez-vous et réunions en tant que délégué**
+**Tableau 2. Méthodes de l’API managée EWS pour l’utilisation de rendez-vous et de réunions en tant que délégué**
 
-|**Tâche**|**Méthode d'API managée EWS**|**Code example**|
+|**Tâche**|**Méthode d'API managée EWS**|**Exemple de code**|
 |:-----|:-----|:-----|
-|Obtenir un rendez-vous ou une réunion  <br/> |[Créer une liaison](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Obtention d’un élément à l’aide de l’API managée EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
-|Mettre à jour un rendez-vous ou une réunion  <br/> |[Lier](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) le suivi de [mise à jour](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Mettre à jour une réunion à l’aide de l’API managée EWS](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWSMA) <br/> |
-|Supprimer un rendez-vous ou une réunion  <br/> |[Lier](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivie à [Supprimer](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Supprimer une réunion à l’aide de l’API managée EWS](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
+|Obtenir un rendez-vous ou une réunion  <br/> |[Rattach](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Obtention d’un élément à l’aide de l’API managée EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
+|Mettre à jour un rendez-vous ou une réunion  <br/> |[Liaison](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivie par la [mise à jour](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Mettre à jour une réunion à l’aide de l’API managée EWS](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWSMA) <br/> |
+|Supprimer un rendez-vous ou une réunion  <br/> |[Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) suivi de [Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Supprimer une réunion à l’aide de l’API managée EWS](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
    
-## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-ews"></a>Obtenir, mettre à jour ou supprimer des éléments de calendrier en tant que délégué à l’aide de EWS
+## <a name="get-update-or-delete-calendar-items-as-a-delegate-by-using-ews"></a>Obtenir, mettre à jour ou supprimer des éléments de calendrier en tant que délégué à l’aide d’EWS
 <a name="bk_getews"> </a>
 
-Vous pouvez utiliser EWS pour obtenir, mettre à jour ou supprimer une réunion ou un rendez-vous de la même manière que vous effectuez ces actions lorsque vous n’utilisez pas d’accès délégué. La seule différence est que l’objet de service pour l’utilisateur délégué. L’ID d’élément inclus dans l’appel de méthode [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) unique identifie l’élément dans le magasin de boîte aux lettres, dans le dossier de calendrier du propriétaire de la boîte aux lettres. 
+Vous pouvez utiliser EWS pour obtenir, mettre à jour ou supprimer une réunion ou un rendez-vous de la même façon que vous effectuez ces actions lorsque vous n’utilisez pas l’accès délégué. La seule différence réside dans le fait que l’objet de service est destiné à l’utilisateur délégué. L’ID d’élément inclus dans l’appel de méthode [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) identifie de manière unique l’élément dans la Banque de boîtes aux lettres, dans le dossier de calendrier du propriétaire de la boîte aux lettres. 
   
-**Le tableau 3. Opérations EWS pour travailler avec des rendez-vous et réunions en tant que délégué**
+**Tableau 3. Opérations EWS pour l’utilisation de rendez-vous et de réunions en tant que délégué**
 
-|**Tâche**|**Opération EWS**|**Code example**|
+|**Task**|**Opération EWS**|**Exemple de code**|
 |:-----|:-----|:-----|
-|Obtenir un rendez-vous ou une réunion  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |[Obtention d’un élément à l’aide d’EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) <br/> |
-|Mettre à jour un rendez-vous ou une réunion  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) suivi [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Mettre à jour une réunion à l’aide de EWS](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWS) <br/> |
-|Supprimer un rendez-vous ou une réunion  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) suivi [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |[](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
+|Obtenir un rendez-vous ou une réunion  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) <br/> |[Obtention d’un élément à l’aide d’EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getews) <br/> |
+|Mettre à jour un rendez-vous ou une réunion  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) suivi de [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Mettre à jour une réunion à l’aide d’EWS](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md#bk_UpdateMtgEWS) <br/> |
+|Supprimer un rendez-vous ou une réunion  <br/> |[GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) , suivi de [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |[](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md#bk_DeleteMtgEWSMA) <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 - [Accès délégué et EWS dans Exchange](delegate-access-and-ews-in-exchange.md)   
-- [Ajouter et supprimer des délégués à l’aide de EWS dans Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
-- [Définir des autorisations de dossier pour un autre utilisateur à l’aide de EWS dans Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md) 
+- [Ajouter et supprimer des délégués à l’aide d’EWS dans Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
+- [Définir les autorisations de dossier pour un autre utilisateur à l’aide d’EWS dans Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md) 
 - [Calendriers et EWS dans Exchange](calendars-and-ews-in-exchange.md)
     
 

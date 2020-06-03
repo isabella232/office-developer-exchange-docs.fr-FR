@@ -3,23 +3,23 @@ title: Développement Exchange Online et Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
-description: Retrouvez une documentation développeur détaillée pour Exchange Server, dont Exchange Online comme composant d’Office 365, Exchange Online, Exchange 2013, l’API managée EWS, Exchange 2010 et Exchange 2007.
-ms.openlocfilehash: 2af9e52c3f7cf03d7571d1640ef7bfa45b5e97be
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
-ms.translationtype: HT
+description: Recherchez une documentation développeur détaillée pour Exchange Server, notamment Exchange Online dans le cadre des versions locales d’Office 365 et d’Exchange Server.
+localization_priority: Priority
+ms.openlocfilehash: 12a29ca07801561e7a746603d795468d9cb7491f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353244"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528495"
 ---
 # <a name="exchange-online-and-exchange-development"></a>Développement Exchange Online et Exchange
 
-Retrouvez une documentation développeur détaillée pour Exchange Server, dont Exchange Online comme composant d’Office 365, Exchange Online, Exchange 2013, l’API managée EWS, Exchange 2010 et Exchange 2007.
+Recherchez une documentation développeur détaillée pour Exchange Server, notamment Exchange Online dans le cadre des versions locales d’Office 365 et d’Exchange Server.
 
-Vous pouvez utiliser les fonctions Comment, Prise en main, Nouvelle fonctionnalité et la documentation de référence API pour développer des outils permettant d’accéder et de gérer les données de boîte aux lettres à partir de services, sites Web, ordinateurs de bureau et appareils mobiles et créer des solutions personnalisées pour le courrier, calendrier, contacts, et autres éléments stockés dans Exchange Online ou sur un serveur Exchange 2013.
+Vous pouvez utiliser la documentation de référence sur les procédures, la fonctionnalité de démarrage, la nouvelle fonctionnalité et l’API pour développer des outils permettant d’accéder aux données de boîtes aux lettres et de les gérer à partir de services, de sites Web, d’ordinateurs de bureau et de périphériques mobiles, et de créer des solutions personnalisées pour la messagerie, 2016 2013 2010 le calendrier, les contacts et les serveurs 2019.
 
-Vous pouvez utiliser les Services Web Exchange (EWS), Autodiscover, des compléments Outlook ou autres API pour développer vos applications. Cette page vous permet de choisir la technologie Exchange adaptée.
+Vous pouvez utiliser l’API Graph, l’API REST, les services Web Exchange (EWS), la découverte automatique, les compléments Outlook ou d’autres API pour développer vos applications. Cette page vous permet de choisir la technologie Exchange adaptée.
 
 ## <a name="exchange-developer-content"></a>Contenu de développeur Exchange
 
@@ -35,12 +35,12 @@ Utilisez le tableau suivant pour identifier la technologie et le contenu API ass
 |Un client de boîte aux lettres qui n’est pas basé sur .NET Framework ou Java. |[Explorer l'API managée EWS, l’EWS et les services web dans Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) |
 |Un client de boîte aux lettres qui utilise .NET Framework pour accéder à EWS |[Prise en main des applications clientes d'API managée EWS](exchange-web-services/get-started-with-ews-managed-api-client-applications.md) |
 |Un client de boîte aux lettres qui utilise Java pour accéder à EWS. |[API Java EWS sur GitHub](https://github.com/OfficeDev/ews-java-api) |
-|Une application qui personnalise l’interface utilisateur d’Outlook ou s’appuie sur la logique métier d’Outlook.  |[Référence VBA Outlook](https://msdn.microsoft.com/fr-FR/VBA/VBA-Outlook) |
+|Une application qui personnalise l’interface utilisateur d’Outlook ou s’appuie sur la logique métier d’Outlook.  |[Référence VBA Outlook](https://msdn.microsoft.com/VBA/VBA-Outlook) |
 |Une application qui cible Exchange Online ou Exchange 2013 et avec laquelle vous devez migrer depuis une version antérieure d’Exchange.  |[Migration vers les technologies Exchange](migrating-to-exchange-online-and-exchange-2013-technologies.md) |
 |Un outil de gestion personnalisée qui utilise Windows PowerShell à partir du code managé.   |[Exchange Management Shell](management/exchange-management-shell.md) |
 |Une solution pour sauvegarder ou restaurer des données Exchange  |[Sauvegarde et restauration pour Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) |
 |Une extension pour la prise en charge de l’accès aux messages dans le pipeline de transport.   |[Agents de transport dans Exchange](transport-agents/transport-agents-in-exchange-2013.md)  |
-|Un client de boîte aux lettres pour un périphérique mobile   |[Exchange ActiveSync](https://technet.microsoft.com/fr-FR/library/aa998357.aspx) |
+|Un client de boîte aux lettres pour un périphérique mobile   |[Exchange ActiveSync](https://technet.microsoft.com/library/aa998357.aspx) |
 
 ## <a name="exchange-interactions-with-custom-applications"></a>Interactions Exchange avec les applications personnalisées
 
@@ -57,8 +57,8 @@ Exchange interagit avec les applications personnalisées de différentes manièr
 ## <a name="see-also"></a>Voir aussi
 
 - 
-  [Référence de l’API serveur pour Exchange](https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx)
-- [En savoir plus sur Exchange sur les Blogs Office](https://www.microsoft.com/fr-FR/microsoft-365/blog/)
+  [Référence de l’API serveur pour Exchange](https://msdn.microsoft.com/library/dn186243(v=exchg.150).aspx)
+- [En savoir plus sur Exchange sur les Blogs Office](https://www.microsoft.com/microsoft-365/blog/)
 - [Obtenez des exemples de code pour Exchange 2013 en guise d’initiation](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)
 - [Obtenez l’API managée EWS (GitHub)](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md)
-- [Obtenez une assistance pour le serveur Exchange](https://support.microsoft.com/en-us/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)
+- [Obtenez une assistance pour le serveur Exchange](https://support.microsoft.com/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)

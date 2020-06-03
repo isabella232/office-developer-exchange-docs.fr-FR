@@ -1,39 +1,39 @@
 ---
-title: Extraire une entité d’un message électronique à l’aide de EWS dans Exchange
+title: Extraire une entité à partir d’un message électronique à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 6396b009-5f6e-41eb-a75a-224d43e864ae
-description: Découvrez comment extraire des informations à partir du corps d’un message électronique à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: d3d5c4b756347a4cedede184709884d5ed8f08b4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment extraire des informations du corps d’un message électronique à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+localization_priority: Priority
+ms.openlocfilehash: fb90eb05441667e6b327b09d568117f5040e6fd8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754833"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528110"
 ---
-# <a name="extract-an-entity-from-an-email-message-by-using-ews-in-exchange"></a>Extraire une entité d’un message électronique à l’aide de EWS dans Exchange
+# <a name="extract-an-entity-from-an-email-message-by-using-ews-in-exchange"></a>Extraire une entité à partir d’un message électronique à l’aide d’EWS dans Exchange
 
-Découvrez comment extraire des informations à partir du corps d’un message électronique à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment extraire des informations du corps d’un message électronique à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Vous pouvez utiliser les API managées EWS pour accéder aux adresses, contacts, les adresses de messagerie, des suggestions de réunion, numéros de téléphone, tâches et URL qu’un serveur Exchange est extrait dans les messages électroniques. Vous pouvez ensuite utiliser ces informations pour les nouvelles applications ou suggérant de suivi des actions dans les applications existantes. Par exemple, si une entité de contact, une suggestion de réunion ou suggestion de tâche est identifiée dans un message électronique, votre application peut suggérer que créer un nouvel élément avec des informations préremplies. À l’aide des entités extraites, vous pourrez tirer profit de l’objectif derrière les données — et aider les utilisateurs en toute transparence intégrer leur contenu des messages électroniques dans les résultats exploitables.
+Vous pouvez utiliser l’API managée EWS ou EWS pour accéder aux adresses, contacts, adresses de messagerie, suggestions de réunion, numéros de téléphone, tâches et URL qu’un serveur Exchange extrait des messages électroniques. Vous pouvez ensuite utiliser ces informations pour les nouvelles applications ou pour suggérer des actions de suivi dans les applications existantes. Par exemple, si une entité de contact, une suggestion de réunion ou une suggestion de tâche est identifiée dans un message électronique, votre application peut suggérer qu’un nouvel élément avec des informations préremplies soit créé. En utilisant des entités extraites, vous pouvez tirer parti de l’intention des données, et aider les utilisateurs à intégrer de façon transparente leur contenu de message électronique dans les résultats exploitables.
   
-Extraction d’entité pour les adresses de contacts, les adresses de messagerie, des suggestions de réunion, numéros de téléphone, tâches et URL est déjà intégrés à chaque élément dans la banque d’informations Exchange. Si vous utilisez l’API managée EWS, la propriété [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx) récupère les entités pour vous dans un appel de méthode [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) . Si vous utilisez EWS, l’élément [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) Obtient toutes les entités extraites pour vous dans un appel de l’opération [GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) . Après avoir récupéré les résultats des entités extraites, vous pouvez parcourir chaque collection d’entités pour recueillir des informations pertinentes. Par exemple, si une suggestion de réunion a été extraite, vous pouvez récupérer l’objet de la réunion suggérée, liste des participants, heure de début et heure de fin. 
+L’extraction d’entités pour les adresses, les contacts, les adresses de messagerie, les suggestions de réunion, les numéros de téléphone, les tâches et les URL est déjà intégrée à chaque élément dans la Banque d’aide Exchange. Si vous utilisez l’API managée EWS, la propriété [Item. EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx) récupère les entités pour vous dans un appel de méthode [Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) . Si vous utilisez EWS, l’élément [EntityExtractionResult](https://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) récupère toutes les entités extraites pour vous dans un appel d’opération [GetItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) . Une fois que vous avez récupéré les résultats des entités extraites, vous pouvez parcourir chaque collection d’entités pour recueillir des informations pertinentes. Par exemple, si une suggestion de réunion a été extraite, vous pouvez récupérer l’objet de la réunion, la liste des participants, l’heure de début et l’heure de fin suggérés. 
   
-**Le tableau 1. Propriétés de l’API managée EWS et des éléments EWS qui contiennent des entités extraites**
+**Tableau 1. Propriétés de l’API managée EWS et éléments EWS contenant des entités extraites**
 
-|**Entité extraite**|**Propriété API managées**|**Élément EWS**|
+|**Entité extraite**|**Propriété de l’API managée EWS**|**Élément EWS**|
 |:-----|:-----|:-----|
-|Adresses  <br/> |[EntityExtractionResult.Addresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Adresses](http://msdn.microsoft.com/library/0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e%28Office.15%29.aspx) <br/> |
-|Contacts  <br/> |[EntityExtractionResult.Contacts](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.contacts%28v=exchg.80%29.aspx) <br/> |[Contacts](http://msdn.microsoft.com/library/a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e%28Office.15%29.aspx) <br/> |
-|Adresses électroniques  <br/> |[EntityExtractionResult.EmailAddresses](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.emailaddresses%28v=exchg.80%29.aspx) <br/> |[EmailAddresses](http://msdn.microsoft.com/library/2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3%28Office.15%29.aspx) <br/> |
-|Suggestions de réunion  <br/> |[EntityExtractionResult.MeetingSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.meetingsuggestions%28v=exchg.80%29.aspx) <br/> |[MeetingSuggestions](http://msdn.microsoft.com/library/c99e9a60-9e38-425d-ad03-47c8917f41da%28Office.15%29.aspx) <br/> |
-|Numéros de téléphone  <br/> |[EntityExtractionResult.PhoneNumbers](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.phonenumbers%28v=exchg.80%29.aspx) <br/> |[PhoneNumbers](http://msdn.microsoft.com/library/9ff6ae98-34a1-47f7-bde5-608251a789f7%28Office.15%29.aspx) <br/> |
-|Suggestions de tâche  <br/> |[EntityExtractionResult.TaskSuggestions](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[TaskSuggestions](http://msdn.microsoft.com/library/7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3%28Office.15%29.aspx) <br/> |
-|URL  <br/> |[EntityExtractionResult.Urls](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[URL](http://msdn.microsoft.com/library/c39744ea-0cee-4954-8653-8279d6b10161%28Office.15%29.aspx) <br/> |
+|Adresses  <br/> |[EntityExtractionResult. addresses](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[Adresses](https://msdn.microsoft.com/library/0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e%28Office.15%29.aspx) <br/> |
+|Contacts  <br/> |[EntityExtractionResult. contacts](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.contacts%28v=exchg.80%29.aspx) <br/> |[Contacts](https://msdn.microsoft.com/library/a2c1e833-5f8c-438d-bad7-bb5dcc29ca9e%28Office.15%29.aspx) <br/> |
+|Adresses de messagerie  <br/> |[EntityExtractionResult. EmailAddresses](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.emailaddresses%28v=exchg.80%29.aspx) <br/> |[EmailAddresses](https://msdn.microsoft.com/library/2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3%28Office.15%29.aspx) <br/> |
+|Suggestions de réunion  <br/> |[EntityExtractionResult. MeetingSuggestions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.meetingsuggestions%28v=exchg.80%29.aspx) <br/> |[MeetingSuggestions](https://msdn.microsoft.com/library/c99e9a60-9e38-425d-ad03-47c8917f41da%28Office.15%29.aspx) <br/> |
+|Numéros de téléphone  <br/> |[EntityExtractionResult. PhoneNumbers](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.phonenumbers%28v=exchg.80%29.aspx) <br/> |[PhoneNumbers](https://msdn.microsoft.com/library/9ff6ae98-34a1-47f7-bde5-608251a789f7%28Office.15%29.aspx) <br/> |
+|Suggestions de tâches  <br/> |[EntityExtractionResult. TaskSuggestions](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[TaskSuggestions](https://msdn.microsoft.com/library/7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3%28Office.15%29.aspx) <br/> |
+|URL  <br/> |[EntityExtractionResult. URLs](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.entityextractionresult.addresses%28v=exchg.80%29.aspx) <br/> |[URL](https://msdn.microsoft.com/library/c39744ea-0cee-4954-8653-8279d6b10161%28Office.15%29.aspx) <br/> |
    
-Étant donné que l’extraction d’entités s’appuie sur la reconnaissance de langage naturel, la reconnaissance des entités peut être non déterministe et réussite parfois repose sur le contexte. Pour illustrer le fonctionne de reconnaissance de langage naturel, les exemples dans cet article utilisent l’e-mail suivant comme entrée.
+Étant donné que l’extraction d’entités repose sur la reconnaissance du langage naturel, la reconnaissance des entités peut être non déterministe et la réussite s’appuie parfois sur le contexte. Pour illustrer le fonctionnement de la reconnaissance du langage naturel, les exemples de cet article utilisent les messages électroniques suivants comme entrée.
   
  `From: Ronnie Sturgis`
   
@@ -57,12 +57,12 @@ Extraction d’entité pour les adresses de contacts, les adresses de messagerie
   
  `Ronnie`
   
-## <a name="extract-all-entities-from-an-email-by-using-the-ews-managed-api"></a>Extraire toutes les entités à partir d’un message électronique à l’aide de l’API managée EWS
+## <a name="extract-all-entities-from-an-email-by-using-the-ews-managed-api"></a>Extraire toutes les entités d’un courrier électronique à l’aide de l’API managée EWS
 <a name="bk_extractewsma"> </a>
 
-L’exemple de code suivant montre comment afficher toutes les entités extraites par le serveur, à l’aide de la méthode [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) , puis l’énumération par le biais de chacun des entités extraites et leurs propriétés. 
+L’exemple de code suivant montre comment afficher toutes les entités extraites par le serveur, en utilisant la méthode [Item. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) , puis en énumérant chacune des entités extraites et leurs propriétés. 
   
-Cet exemple suppose que **le service** est un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et **ItemId** est l' [Id](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) du message électronique pour déplacer ou copier. 
+Cet exemple part du principe que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’ID **ItemId** est l' [ID](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) du message électronique à déplacer ou à copier. 
   
 ```cs
 public static void ExtractEntities(ExchangeService service, ItemId ItemId)
@@ -178,7 +178,7 @@ public static void ExtractEntities(ExchangeService service, ItemId ItemId)
 }
 ```
 
-La sortie suivante s’affiche sur la console.
+La sortie suivante est affichée sur la console.
   
 ```text
 The following entities have been extracted from the message:
@@ -223,23 +223,23 @@ Task string:      Also, can you forward this to Magdalena?
 URL: http://www.bestforyouorganics.com
 ```
 
-Notez que toutes les adresses, contacts, les adresses de messagerie, les numéros de téléphone, tâches et URL ont été extraits comme prévu. La suggestion de réunion, cependant, est un peu plus complexe. Notez que l’heure de début et heure de fin de la suggestion de réunion ne sont pas ce que vous attendez. L’heure de début dans le message électronique est « ce vendredi à 7 », mais la valeur extraite de l’heure de début est 10/1/0104 2:00:00 PM. Il s’agit, car l’heure de début et heure de fin extraites par le serveur sont des dates codés. Pour plus d’informations sur comment interpréter les valeurs **dateTime** dans les suggestions de réunion, voir [[MS-OXCEXT] : protocole d’objet Client Extension Message](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
+Notez que toutes les adresses, contacts, adresses de messagerie, numéros de téléphone, tâches et URL ont été extraits comme prévu. Toutefois, la suggestion de réunion est un peu plus complexe. Notez que l’heure de début et l’heure de fin de la suggestion de réunion ne sont pas ce que vous pourriez attendre. L’heure de début dans le message électronique est « ce vendredi à 7 », mais la valeur extraite pour l’heure de début est de 10/1/0104 2:00:00 PM. Cela est dû au fait que l’heure de début et l’heure de fin extraites par le serveur sont des dates codées. Pour plus d’informations sur la façon d’interpréter les valeurs **DateTime** dans les suggestions de réunion, voir [[MS-OXCEXT] : protocole d’objet message d’extension client](https://msdn.microsoft.com/library/hh968601%28v=exchg.80%29.aspx).
   
-## <a name="extract-all-entities-from-an-email-by-using-ews"></a>Extraire toutes les entités à partir d’un message électronique à l’aide de EWS
+## <a name="extract-all-entities-from-an-email-by-using-ews"></a>Extraire toutes les entités d’un courrier électronique à l’aide d’EWS
 <a name="bk_extractews"> </a>
 
-L’exemple de code suivant montre comment utiliser l’opération [GetItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) et l’élément [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) pour extraire les entités extraites à partir d’un élément. 
+L’exemple de code suivant montre comment utiliser l’opération [GetItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) et l’élément [EntityExtractionResult](https://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx) pour récupérer les entités extraites d’un élément. 
   
-C’est également la demande XML qui est envoyée par l’API managée EWS lorsque vous utilisez la méthode **Bind** pour [extraire toutes les entités à partir d’un message électronique à l’aide de l’API managée EWS](#bk_extractewsma).
+Il s’agit également de la requête XML envoyée par l’API managée EWS lorsque vous utilisez la méthode **Bind** pour [extraire toutes les entités d’un message électronique à l’aide de l’API managée EWS](#bk_extractewsma).
   
-La valeur de l’élément [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) est raccourcie pour une meilleure lisibilité. 
+La valeur de l’élément [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) est raccourcie pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -259,28 +259,28 @@ La valeur de l’élément [ItemId](http://msdn.microsoft.com/library/3350b597-5
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande de **GetItem** avec un message [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) qui contient une valeur [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NoError**, ce qui indique que le message électronique a été récupéré correctement. La réponse inclut également les **EntityExtractionResult** pour chaque entité extraite. 
+Le serveur répond à la demande **GetItem** avec un message [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) **NOERROR**, ce qui indique que le message électronique a été récupéré. La réponse inclut également l' **EntityExtractionResult** pour chaque entité extraite. 
   
-La valeur de l’élément **ItemId** est raccourcie pour une meilleure lisibilité. 
+La valeur de l’élément **ItemId** est raccourcie pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
                          MinorVersion="0"
                          MajorBuildNumber="883"
                          MinorBuildNumber="10"
                          Version="V2_10"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -366,12 +366,12 @@ La valeur de l’élément **ItemId** est raccourcie pour une meilleure lisibili
 </s:Envelope>
 ```
 
-Notez que toutes les adresses, contacts, les adresses de messagerie, les numéros de téléphone, tâches et URL ont été extraits comme prévu. La suggestion de réunion, cependant, est un peu plus complexe. Notez que l’heure de début et heure de fin de la suggestion de réunion ne sont pas ce que vous attendez. L’heure de début dans le message électronique a été « ce vendredi à 7 », mais la valeur extraite de l’heure de début est 10/1/0104 2:00:00 PM. Il s’agit, car l’heure de début et heure de fin extraites par le serveur sont des dates codés. Pour plus d’informations sur l’interprétation des valeurs **dateTime** dans les suggestions de réunion, voir [[MS-OXCEXT] : protocole d’objet Client Extension Message](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
+Notez que toutes les adresses, contacts, adresses de messagerie, numéros de téléphone, tâches et URL ont été extraits comme prévu. Toutefois, la suggestion de réunion est un peu plus complexe. Notez que l’heure de début et l’heure de fin de la suggestion de réunion ne sont pas ce que vous pourriez attendre. L’heure de début dans le message électronique était « ce vendredi à 7 », mais la valeur extraite pour l’heure de début est de 10/1/0104 2:00:00 PM. Cela est dû au fait que l’heure de début et l’heure de fin extraites par le serveur sont des dates codées. Pour plus d’informations sur l’interprétation des valeurs **DateTime** dans les suggestions de réunion, voir [[MS-OXCEXT] : protocole d’objet message d’extension client](https://msdn.microsoft.com/library/hh968601%28v=exchg.80%29.aspx).
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Courrier électronique et les services EWS d'Exchange](email-and-ews-in-exchange.md)
-- [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
-- [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
+- [Item. EntityExtractionResult](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
+- [EntityExtractionResult](https://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
     
 

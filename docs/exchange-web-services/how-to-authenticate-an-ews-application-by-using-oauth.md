@@ -1,183 +1,304 @@
 ---
 title: Authentifier une application EWS à l’aide d’OAuth
 manager: sethgros
-ms.date: 07/27/2018
+ms.date: 05/17/2019
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
-description: Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managées.
-ms.openlocfilehash: 8b6a3fd72e42a36e31f261205292de28ef341270
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managée EWS.
+localization_priority: Priority
+ms.openlocfilehash: e2bcb339ddac51b888660b6f982a8377591b1a29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353580"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528250"
 ---
+<!-- markdownlint-disable MD025 -->
 # <a name="authenticate-an-ews-application-by-using-oauth"></a>Authentifier une application EWS à l’aide d’OAuth
+<!-- markdownlint-enable MD025 -->
 
-Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managées.
-  
-Vous pouvez utiliser le service d’authentification OAuth fourni par Azure Active Directory pour intégrer vos applications d’API managées avec le même modèle d’authentification utilisé par l’API REST d’Office 365. Pour utiliser OAuth avec votre application, que vous devez :
-  
-1. [Inscrire votre application](#bk_register) avec Azure Active Directory. 
-    
-2. [Ajout de code pour obtenir un jeton d’authentification](#bk_getToken) obtenir le jeton d’authentification à partir d’un serveur de jetons. 
-    
-3. [Ajouter un jeton d’authentification pour les demandes EWS](#bk_useToken) que vous envoyez. 
-    
+Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managée EWS.
+
+Vous pouvez utiliser le service d’authentification OAuth fourni par Azure Active Directory pour permettre à vos applications d’API managée EWS d’accéder à Exchange Online dans Office 365. Pour utiliser OAuth avec votre application, vous devez :
+
+1. [Enregistrez votre application](#register-your-application) auprès d’Azure Active Directory.
+
+2. [Ajoutez du code pour obtenir un jeton d’authentification](#add-code-to-get-an-authentication-token) afin d’obtenir un jeton d’authentification à partir d’un serveur de jetons.
+
+3. [Ajoutez un jeton d’authentification aux requêtes EWS](#add-an-authentication-token-to-ews-requests) que vous envoyez.
+
 > [!NOTE]
-> Authentification OAuth pour EWS est disponible uniquement dans Exchange dans le cadre d’Office 365. Applications EWS requièrent l’autorisation « Accès complet à boîte aux lettres sa ». 
-  
-Pour utiliser le code dans cet article, vous devez avoir accès à ce qui suit :
-  
-- Un [compte de développeur Office 365](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program). Vous pouvez utiliser un compte d’évaluation pour tester votre application.
-    
-- La [bibliothèque d’authentification Azure AD pour .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries).
-    
-- [L’API managée](https://github.com/officedev/ews-managed-api.aspx).
+> L’authentification OAuth pour EWS est disponible uniquement dans Exchange dans le cadre d’Office 365. Les applications EWS qui utilisent OAuth doivent être inscrites auprès d’Azure Active Directory.
 
-<a name="bk_register"> </a>
+Pour utiliser le code de cet article, vous devez avoir accès à ce qui suit :
+
+- Un compte Office 365 avec une boîte aux lettres Exchange Online. Si vous ne disposez pas d’un compte Office 365, vous pouvez vous [inscrire au programme pour les développeurs office 365](https://developer.microsoft.com/office/dev-program) pour obtenir un abonnement gratuit à Office 365.
+
+- La [bibliothèque d’authentification Microsoft pour .net](/dotnet/api/microsoft.identity.client?view=azure-dotnet).
+
+- L'[API managée EWS](https://github.com/officedev/ews-managed-api).
+
+
+Il existe deux types d’autorisations OAuth qui peuvent être utilisées pour accéder aux API EWS dans Exchange Online. Avant de passer au didacticiel, vous devrez choisir le type d’autorisation spécifique à utiliser.
+
+* Les **autorisations déléguées** sont utilisées par les applications qui ont un utilisateur connecté. Pour ces applications, l’utilisateur ou un administrateur accepte les autorisations demandées par l’application et l’application peut agir en tant qu’utilisateur connecté lors de la réalisation d’appels d’API. 
+* Les **autorisations d’application** sont utilisées par les applications qui s’exécutent sans utilisateur connecté présent ; par exemple, les applications qui s’exécutent en tant que services ou démons d’arrière-plan et peuvent accéder à plusieurs boîtes aux lettres.
 
 ## <a name="register-your-application"></a>Inscrire votre application
 
-Pour utiliser OAuth, une application doit avoir un identificateur de client et une application URI qui identifie l’application. Si vous n’avez pas encore inscrit votre application avec les Services Azure Active Directory, vous devez ajouter manuellement l’application en suivant les étapes indiquées à [inscrire votre application](https://apps.dev.microsoft.com/#/appList).
+Pour utiliser OAuth, une application doit avoir un ID d’application émis par Azure Active Directory. Dans ce didacticiel, il est supposé que l’application est une application console ; vous devez donc enregistrer votre application en tant que client public avec Azure Active Directory.
 
-<a name="bk_getToken"> </a>
+1. Ouvrez un navigateur, accédez au [Centre d’administration Azure Active Directory ](https://aad.portal.azure.com) et connectez-vous à l’aide d’un **compte personnel** (ou compte Microsoft) ou d’un **compte professionnel ou scolaire**.
+
+1. Sélectionnez **Azure Active Directory** dans le volet de navigation gauche, puis sélectionnez **Inscriptions d’applications** sous **Gérer**.
+
+1. Sélectionnez **Nouvelle inscription**. Sur la page **Inscrire une application**, définissez les valeurs comme suit.
+
+    - Définissez **nom** sur un nom convivial pour votre application.
+    - Définissez les **types de comptes pris en charge** sur le choix adapté à votre scénario.
+    - Pour l' **URI de redirection**, définissez la liste déroulante sur **client Public (mobile & Desktop)** et définissez la valeur sur `urn:ietf:wg:oauth:2.0:oob` .
+
+1. Choisissez **Inscrire**. Sur la page suivante, copiez la valeur de l' **ID d’application (client)** et enregistrez-la, vous en aurez besoin plus tard.
+
+1. Sélectionnez **autorisations d’API** dans le volet de navigation de gauche sous **gérer**. 
+
+1. Sélectionnez **Ajouter une autorisation**. Sur la page autorisations de l' **API de demande** , sélectionnez **Exchange** sous les **API héritées prises en charge**. 
+
+1. Pour utiliser des autorisations déléguées, sélectionnez **autorisations déléguées** , puis **EWS. AccessAsUser. All** sous **EWS**. Cliquez sur **Ajouter des autorisations**. 
+
+Pour utiliser les autorisations d’application, suivez ces étapes supplémentaires.
+
+1. Sélectionnez **autorisations d’application** , puis **full_access_as_app**. Cliquez sur **Ajouter des autorisations**.
+
+1. Sélectionnez **accorder le consentement de l’administrateur pour org** et acceptez la boîte de dialogue de consentement. 
+
+1. Sélectionnez **certificats & secrets** dans le volet de navigation de gauche sous **gérer**. 
+
+1. Sélectionnez **nouvelle clé secrète client**, entrez une brève description et sélectionnez **Ajouter**.
+
+1. Copiez la **valeur** de la clé secrète client nouvellement ajoutée et enregistrez-la, vous en aurez besoin plus tard. 
 
 ## <a name="add-code-to-get-an-authentication-token"></a>Ajouter du code pour obtenir un jeton d’authentification
 
-La bibliothèque de l’authentification Azure AD pour .NET simplifie l’obtention d’un jeton d’authentification d’Azure Active Directory afin que vous puissiez utiliser le jeton dans votre application. Vous devez fournir les quatre éléments d’information pour obtenir le jeton :
-  
-1. L’URI du serveur de jeton. Le serveur de jetons est l' **autorité** qui authentifie l’utilisateur et retourne un jeton que votre application peut utiliser pour accéder aux EWS. 
-    
-2. L’ID client d’application créé lorsque vous avez enregistré votre application avec Azure Active Directory.
-    
-3. Client de l’application créé lors de l’inscription de votre application avec Azure Active Directory.
-    
-4. L’URI du serveur EWS et l’URI du point de terminaison EWS. Pour Exchange dans le cadre d’Office 365, il s’agit de `https://<server name>/ews/exchange.asmx`.
-    
-Le code suivant montre comment utiliser la bibliothèque de l’authentification Azure AD pour obtenir un jeton d’authentification. Il suppose que les informations nécessaires pour effectuer la demande d’authentification sont stockées dans le fichier App.config de l’application. Cet exemple montre comment ne pas inclure la vérification des erreurs, consultez l' [exemple de Code](#bk_codeSample) pour le code complet. 
-  
+Les extraits de code suivants montrent comment utiliser la bibliothèque d’authentification Microsoft pour obtenir des jetons d’authentification pour les autorisations déléguées et les autorisations d’application. Ces extraits de code supposent que les informations requises pour effectuer la demande d’authentification sont stockées dans le fichier **app. config** de l’application. Ces exemples n’incluent pas la vérification des erreurs, reportez-vous aux [exemples de code](#code-samples) pour le code complet.
+
+### <a name="delegated-permissions"></a>Autorisations déléguées
+
 ```cs
-string authority = ConfigurationManager.AppSettings["authority"];
-string clientID = ConfigurationManager.AppSettings["clientID"];
-Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
-string serverName = ConfigurationManager.AppSettings["serverName"];
-AuthenticationContext authenticationContext = new AuthenticationContext(authority, false);
-AuthenticationResult authenticationResult = authenticationContext.AcquireToken(serverName, clientId, clientAppUri);
+// Configure the MSAL client to get tokens
+var pcaOptions = new PublicClientApplicationOptions
+{
+    ClientId = ConfigurationManager.AppSettings["appId"],
+    TenantId = ConfigurationManager.AppSettings["tenantId"]
+};
+
+var pca = PublicClientApplicationBuilder
+    .CreateWithApplicationOptions(pcaOptions).Build();
+
+// The permission scope required for EWS access
+var ewsScopes = new string[] { "https://outlook.office.com/EWS.AccessAsUser.All" };
+
+// Make the interactive token request
+var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
+```
+
+### <a name="application-permissions"></a>Autorisations de l’application
+
+```cs
+// Configure the MSAL client to get tokens
+var app = ConfidentialClientApplicationBuilder
+    .Create(ConfigurationManager.AppSettings["appId"])
+    .WithAuthority(AzureCloudInstance.AzurePublic, ConfigurationManager.AppSettings["tenantId"])
+    .WithClientSecret(ConfigurationManager.AppSettings["clientSecret"]).Build();
+
+// The permission scope required for EWS access
+var ewsScopes = new string[] { "https://outlook.office.com/.default" };
+
+//Make the toekn request
+AuthenticationResult authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 
 ```
 
-<a name="bk_useToken"> </a>
+## <a name="add-an-authentication-token-to-ews-requests"></a>Ajouter un jeton d’authentification aux requêtes EWS
 
-## <a name="add-an-authentication-token-to-ews-requests"></a>Ajouter un jeton d’authentification pour les demandes EWS
+Une fois que vous avez reçu l’objet **AuthenticationResult** , vous pouvez utiliser la propriété **AccessToken** pour obtenir le jeton émis par le service de jetons.
 
-Une fois que vous avez reçu l’objet **AuthenticationResult** , vous pouvez utiliser la propriété **AccessToken** pour obtenir le jeton émis par le service d’émission de jeton. 
-  
 ```cs
-ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
-exchangeService.Url = new Uri(ConfigurationManager.AppSettings["serverName"]+"ews/exchange.asmx");
-exchangeService.TraceEnabled = true;
-exchangeService.TraceFlags = TraceFlags.All;
-exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken));
-exchangeService.FindFolders(WellKnownFolderName.Root, new Folderview(10));
+// Configure the ExchangeService with the access token
+var ewsClient = new ExchangeService();
+ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
+ewsClient.Credentials = new OAuthCredentials(authResult.AccessToken);
 ```
 
-<a name="bk_codeSample"> </a>
+Pour utiliser des autorisations d’application, vous devez également emprunter explicitement l’identité d’une boîte aux lettres à laquelle vous souhaitez accéder. 
 
-## <a name="code-sample"></a>Exemple de code
-
-Voici l’exemple de code complet qui montre émet une demande EWS OAuth authentifié.
-  
 ```cs
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Web.Script.Serialization;
-using Microsoft.Exchange.WebServices.Autodiscover;
+//Impersonate the mailbox you'd like to access.
+ewsClient.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, "test@demotenant.onmicrosoft.com");
+```
+
+## <a name="code-samples"></a>Exemples de code
+
+### <a name="delegated-permissions"></a>Autorisations déléguées
+
+Voici l’exemple de code complet qui montre comment effectuer une demande EWS authentifiée OAuth à l’aide d’autorisations déléguées.
+
+```cs
 using Microsoft.Exchange.WebServices.Data;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-namespace TestV1App
+using Microsoft.Identity.Client;
+using System;
+using System.Configuration;
+
+namespace EwsOAuth
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var t = new Thread(Run);
-            t.SetApartmentState(ApartmentState.STA);
-            t.Start();
-            t.Join();
+            MainAsync(args).Wait();
+
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.WriteLine("Hit any key to exit...");
+                Console.ReadKey();
+            }
         }
-        static void Run()
+
+        static async System.Threading.Tasks.Task MainAsync(string[] args)
         {
-           string authority = ConfigurationManager.AppSettings["authority"];
-           string clientID = ConfigurationManager.AppSettings["clientID"];
-           Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
-           string serverName = ConfigurationManager.AppSettings["serverName"];
-            AuthenticationResult authenticationResult = null;
-            AuthenticationContext authenticationContext = new AuthenticationContext(authority, false);
-            
-            string errorMessage = null;
+            // Configure the MSAL client to get tokens
+            var pcaOptions = new PublicClientApplicationOptions
+            {
+                ClientId = ConfigurationManager.AppSettings["appId"],
+                TenantId = ConfigurationManager.AppSettings["tenantId"]
+            };
+
+            var pca = PublicClientApplicationBuilder
+                .CreateWithApplicationOptions(pcaOptions).Build();
+
+            var ewsScopes = new string[] { "https://outlook.office.com/EWS.AccessAsUser.All" };
+
             try
             {
-                Console.WriteLine("Trying to acquire token");
-                authenticationResult = authenticationContext.AcquireToken(serverName, clientId, clientAppUri);
-            }
-                catch (AdalException ex)
-            {
-                errorMessage = ex.Message;
-                if (ex.InnerException != null)
+                // Make the interactive token request
+                var authResult = await pca.AcquireTokenInteractive(ewsScopes).ExecuteAsync();
+
+                // Configure the ExchangeService with the access token
+                var ewsClient = new ExchangeService();
+                ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
+                ewsClient.Credentials = new OAuthCredentials(authResult.AccessToken);
+
+                // Make an EWS call
+                var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
+                foreach(var folder in folders)
                 {
-                    errorMessage += "\nInnerException : " + ex.InnerException.Message;
+                    Console.WriteLine($"Folder: {folder.DisplayName}");
                 }
             }
-            catch (ArgumentException ex)
+            catch (MsalException ex)
             {
-                errorMessage = ex.Message;
+                Console.WriteLine($"Error acquiring access token: {ex.ToString()}");
             }
-            if (!string.IsNullOrEmpty(errorMessage))
+            catch (Exception ex)
             {
-                Console.WriteLine("Failed: {0}" + errorMessage);
-                return;
+                Console.WriteLine($"Error: {ex.ToString()}");
             }
-            Console.WriteLine("\nMaking the protocol call\n");
-            ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
-            exchangeService.Url = new Uri(resource + "ews/exchange.asmx");
-            exchangeService.TraceEnabled = true;
-            exchangeService.TraceFlags = TraceFlags.All;
-            exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken);
-            exchangeService.FindFolders(WellKnownFolderName.Root, new FolderView(10));
         }
     }
 }
-
 ```
 
-L’exemple de code requiert un fichier App.config avec les entrées suivantes :
-  
+### <a name="application-permissions"></a>Autorisations de l’application
+
+Voici l’exemple de code complet qui montre comment effectuer une demande EWS authentifiée OAuth à l’aide d’autorisations d’application.
+
+```cs
+using System;
+using System.Configuration;
+using Microsoft.Exchange.WebServices.Data;
+using Microsoft.Identity.Client;
+
+namespace ews_oauth_samples
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MainAsync(args).Wait();
+
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                Console.WriteLine("Hit any key to exit...");
+                Console.ReadKey();
+            }
+        }
+        
+        static async System.Threading.Tasks.Task MainAsync(string[] args)
+        {
+            // Configure the MSAL client to get tokens
+            var ewsScopes = new string[] { "https://outlook.office.com/.default" };
+
+            var app = ConfidentialClientApplicationBuilder.Create(ConfigurationManager.AppSettings["appId"])
+                .WithAuthority(AzureCloudInstance.AzurePublic, ConfigurationManager.AppSettings["tenantId"])
+                .WithClientSecret(ConfigurationManager.AppSettings["clientSecret"])
+                .Build();
+
+            AuthenticationResult result = null;
+
+            try
+            {
+                // Make the interactive token request
+                result = await app.AcquireTokenForClient(ewsScopes)
+                    .ExecuteAsync();
+
+                // Configure the ExchangeService with the access token
+                var ewsClient = new ExchangeService();
+                ewsClient.Url = new Uri("https://outlook.office365.com/EWS/Exchange.asmx");
+                ewsClient.Credentials = new OAuthCredentials(result.AccessToken);
+
+                //Impersonate the mailbox you'd like to access.
+                ewsClient.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, "test@demotenant.onmicrosoft.com");
+
+                // Make an EWS call
+                var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
+                foreach (var folder in folders)
+                {
+                    Console.WriteLine($"Folder: {folder.DisplayName}");
+                }
+            }
+            catch (MsalException ex)
+            {
+                Console.WriteLine($"Error acquiring access token: {ex.ToString()}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.ToString()}");
+            }
+        }
+    }
+}
+```
+
+Dans les deux cas, l’exemple de code requiert un fichier **app. config** avec les entrées suivantes :
+
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <startup>
-    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
   </startup>
   <appSettings>
-    <add key="authority" value="http://login.windows.net/<devAccountName>.onmicrosoft.com" />
-    <add key="clientId" value="<ID generated by Azure Active Directory"/>
-    <add key="clientAppUri" value="<URI registered with Azure Active Directory"/>
-    <add key="serverName" value="outlook.office365.com" />
+    <!-- The application ID from your app registration -->
+    <add key="appId" value="YOUR_APP_ID_HERE" />
+    <!-- If you registered your app to support only users in your organization, change the value
+           of this key to your tenant ID -->
+    <add key="tenantId" value="common"/>
+    <!-- The application's client secret from your app registration. Needed for application permission access -->
+    <add key="clientSecret" value="YOUR_CLIENT_SECRET_HERE"/>
   </appSettings>
 </configuration>
 ```
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Authentification et EWS dans Exchange](authentication-and-ews-in-exchange.md)    
-
-    
-
+- [Authentification et EWS dans Exchange](authentication-and-ews-in-exchange.md)

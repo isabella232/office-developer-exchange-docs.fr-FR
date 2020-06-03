@@ -3,21 +3,21 @@ title: Référencer l'assembly d'API managée EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
 description: Découvrez comment référencer l'assembly d'API managée EWS.
-ms.openlocfilehash: a08ce43d139440186f611049fa1e457ea44f0362
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
-ms.translationtype: HT
+localization_priority: Priority
+ms.openlocfilehash: d49091781da279d87a1eab35608f19ece43a0333
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353685"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527760"
 ---
 # <a name="reference-the-ews-managed-api-assembly"></a>Référencer l'assembly d'API managée EWS
 
 Découvrez comment référencer l'assembly d'API managée EWS.
   
-L'API managée EWS fournit une interface simple et complète pour développer et étendre les applications qui utilisent les services web Exchange (EWS). Que vous utilisiez Visual Studio ou un autre éditeur de code pour développer votre application API managée EWS, vous aurez besoin de faire référence à l'assembly API managée EWS. Si vous n'avez pas encore installé l'API managée EWS, [téléchargez-la](http://aka.ms/ews-managed-api-readme).
+L'API managée EWS fournit une interface simple et complète pour développer et étendre les applications qui utilisent les services web Exchange (EWS). Que vous utilisiez Visual Studio ou un autre éditeur de code pour développer votre application API managée EWS, vous aurez besoin de faire référence à l'assembly API managée EWS. Si vous n'avez pas encore installé l'API managée EWS, [téléchargez-la](https://aka.ms/ews-managed-api-readme).
   
 > [!NOTE]
 > L’API managée EWS est désormais disponible comme projet open source sur [GitHub](https://github.com/officedev/ews-managed-api). Vous pouvez utiliser la bibliothèque open source pour : 

@@ -3,15 +3,15 @@ title: Prise en main des applications clientes EWS
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: Créez votre première application en utilisant Exchange Web Services (EWS) dans Exchange.
-ms.openlocfilehash: 06606bdc2b37c8bf65b8b10dc7a516bdc911b256
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
-ms.translationtype: HT
+localization_priority: Priority
+ms.openlocfilehash: fd02c46777dabd04b492ba3c4420a0737640c5eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353776"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528397"
 ---
 # <a name="get-started-with-ews-client-applications"></a>Prise en main des applications clientes EWS
 
@@ -25,9 +25,10 @@ Vous pouvez appeler les opérations EWS à partir de n'importe quel système d'e
 
 Si vous avez déjà un compte de boîte aux lettres Exchange, vous pouvez ignorer cette étape. Dans le cas contraire, vous pouvez configurer une boîte aux lettres Exchange pour votre première application EWS par le biais des méthodes suivantes :
   
-- En obtenant un [site de développement Office 365](http://msdn.microsoft.com/fr-FR/library/office/fp179924.aspx) (recommandé). Il s'agit de la manière la plus rapide d'obtenir une boîte aux lettres Exchange.
+- En obtenant un [site de développement Office 365](https://msdn.microsoft.com/library/office/fp179924.aspx) (recommandé). Il s'agit de la manière la plus rapide d'obtenir une boîte aux lettres Exchange.
     
-- En téléchargeant [Exchange Server](http://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+- En téléchargeant [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+
     
 Après avoir vérifié que vous pouvez envoyer et recevoir des messages électroniques à partir de votre serveur Exchange, vous êtes prêt à configurer votre environnement de développement. Vous pouvez utiliser l'application web Outlook pour vérifier que vous pouvez envoyer des messages électroniques.
   
@@ -39,7 +40,7 @@ Si vous testez votre application à l'aide d'un serveur Exchange qui comporte le
 
 Les outils que vous utilisez pour créer votre première application EWS dépendent de votre système d'exploitation et de votre langage, selon vos goûts personnels principalement. Si vous voulez suivre les exemples C# de cet article, vous avez besoin des éléments suivants : 
   
-- Toute version de Visual Studio qui prend en charge .NET Framework 4.0. 
+- Toute version de Visual Studio qui prend en charge .NET Framework 4.0. 
     
 - Une connexion Internet que votre ordinateur de développement peut utiliser pour contacter votre serveur Exchange. Si vous pouvez utiliser Outlook Web App avec un nom DNS plutôt qu’avec une adresse IP pour vous connecter à votre serveur Exchange, la configuration est opérationnelle.
     
@@ -47,9 +48,9 @@ Les outils que vous utilisez pour créer votre première application EWS dépend
 
 L’application EWS que vous allez créer illustre deux scénarios courants d’utilisation d’EWS :
   
-1. Obtenir des informations à partir d’une boîte aux lettres Exchange et afficher ces informations à l’utilisateur.
+1. Obtenir des informations à partir d'une boîte aux lettres Exchange et afficher ces informations à l'utilisateur.
     
-2. Effectuer une action, comme envoyer un courrier électronique et vérifier la réponse pour voir si l’action a réussi.
+2. Effectuer une action, comme envoyer un courrier électronique et vérifier la réponse pour voir si l'action a réussi.
     
 Nous allons commencer.
   
@@ -94,15 +95,15 @@ namespace Microsoft.Exchange.Samples.EWS
 }
 ```
 
-Ouvrez ensuite le fichier Program.cs. Copiez le reste du code de l’exemple dans ce fichier.
+Ouvrez ensuite le fichier Program.cs. Copiez le reste du code de l'exemple dans ce fichier.
   
-Tout d’abord, configurez le shell du programme. Le programme : 
+Tout d'abord, configurez le shell du programme. Le programme : 
   
 1. Crée un fichier journal afin que la demande et la réponse puissent être écrites sur le disque pour consultation ultérieure.
     
 2. Obtient l'adresse de messagerie et le mot de passe du compte auquel vous accédez.
     
-3. Appelle les méthodes de l’échantillon.
+3. Appelle les méthodes de l'échantillon.
     
 Remplacez la méthode  `Main` dans Program.cs par le code suivant. 
   
@@ -198,7 +199,7 @@ Parmi les opérations courantes qu'une application EWS peut effectuer, on peut c
     
 - Analyse de la réponse XML renvoyée pour les informations demandées.
     
-- Gestion des exceptions et messages d’erreur courants.
+- Gestion des exceptions et messages d'erreur courants.
     
 Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a été générée après la méthode principale. Lorsque vous exécutez l'application, elle imprime le nombre de messages dans la boîte de réception du compte et le nombre de messages non lus dans la boîte de réception. Après avoir exécuté l'application, vous pouvez ouvrir le fichier GetStartedWithEWS.log pour afficher la requête XML qui a été envoyée au serveur Exchange et la réponse que le serveur a renvoyée. 
   
@@ -206,14 +207,14 @@ Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a ét�
       /// This is the XML request that is sent to the Exchange server.
       var getFolderSOAPRequest =
 "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
-"<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
-"   xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">\n" +
+"<soap:Envelope xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\"\n" +
+"   xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\">\n" +
 "<soap:Header>\n" +
 "    <t:RequestServerVersion Version=\"Exchange2007_SP1\" />\n" +
 "  </soap:Header>\n" +
 "  <soap:Body>\n" +
-"    <GetFolder xmlns=\"http://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
-"               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">\n" +
+"    <GetFolder xmlns=\"https://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
+"               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\">\n" +
 "      <FolderShape>\n" +
 "        <t:BaseShape>Default</t:BaseShape>\n" +
 "      </FolderShape>\n" +
@@ -254,7 +255,7 @@ Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a ét�
             Tracing.WriteLine(stringBuilder.ToString());
             // Check the response for error codes. If there is an error, throw an application exception.
             IEnumerable<XElement> errorCodes = from errorCode in responseEnvelope.Descendants
-                                               ("{http://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
+                                               ("{https://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
                                                select errorCode;
             foreach (var errorCode in errorCodes)
             {
@@ -274,26 +275,26 @@ Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a ét�
             // Process the response.
             IEnumerable<XElement> folders = from folderElement in
                                               responseEnvelope.Descendants
-                                              ("{http://schemas.microsoft.com/exchange/services/2006/messages}Folders")
+                                              ("{https://schemas.microsoft.com/exchange/services/2006/messages}Folders")
                                             select folderElement;
             foreach (var folder in folders)
             {
               Tracing.Write("Folder name:     ");
               var folderName = from folderElement in
                                  folder.Descendants
-                                 ("{http://schemas.microsoft.com/exchange/services/2006/types}DisplayName")
+                                 ("{https://schemas.microsoft.com/exchange/services/2006/types}DisplayName")
                                select folderElement.Value;
               Tracing.WriteLine(folderName.ElementAt(0));
               Tracing.Write("Total messages:  ");
               var totalCount = from folderElement in
                                  folder.Descendants
-                                   ("{http://schemas.microsoft.com/exchange/services/2006/types}TotalCount")
+                                   ("{https://schemas.microsoft.com/exchange/services/2006/types}TotalCount")
                                select folderElement.Value;
               Tracing.WriteLine(totalCount.ElementAt(0));
               Tracing.Write("Unread messages: ");
               var unreadCount = from folderElement in
                                  folder.Descendants
-                                   ("{http://schemas.microsoft.com/exchange/services/2006/types}UnreadCount")
+                                   ("{https://schemas.microsoft.com/exchange/services/2006/types}UnreadCount")
                                select folderElement.Value;
               Tracing.WriteLine(unreadCount.ElementAt(0));
             }
@@ -317,11 +318,11 @@ Ajoutez le code suivant à la méthode  `ShowNumberOfMessagesInInbox` qui a ét�
 
 Une autre opération courante pour une application EWS consiste à envoyer des messages électroniques ou des demandes de réunion. Cet exemple crée et envoie un message électronique à l’aide les informations d’identification utilisateur qui ont été entrées précédemment. Il illustre ces tâches d’application EWS courantes :
   
-- Création et envoi d’un courrier électronique.
+- Création et envoi d'un courrier électronique.
     
 - Analyse de la réponse XML renvoyée pour déterminer si le message a été envoyé correctement.
     
-- Gestion des exceptions et messages d’erreur courants.
+- Gestion des exceptions et messages d'erreur courants.
     
 Ajoutez le code suivant à la méthode SendTestEmail qui a été générée après la méthode principale. Après avoir exécuté l’application, vous pouvez ouvrir le fichier GetStartedWithEWS.log pour afficher la requête XML qui a été envoyée au serveur Exchange et la réponse que le serveur a renvoyée.
   
@@ -329,9 +330,9 @@ Ajoutez le code suivant à la méthode SendTestEmail qui a été générée apr�
 var createItemSOAPRequest =
       "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
       "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \n" +
-      "               xmlns:m=\"http://schemas.microsoft.com/exchange/services/2006/messages\" \n" +
-      "               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\" \n" +
-      "               xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n" +
+      "               xmlns:m=\"https://schemas.microsoft.com/exchange/services/2006/messages\" \n" +
+      "               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\" \n" +
+      "               xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\">\n" +
       "  <soap:Header>\n" +
       "    <t:RequestServerVersion Version=\"Exchange2007_SP1\" />\n" +
       "  </soap:Header>\n" +
@@ -385,7 +386,7 @@ var createItemSOAPRequest =
             Tracing.WriteLine(stringBuilder.ToString());
             // Check the response for error codes. If there is an error, throw an application exception.
             IEnumerable<XElement> errorCodes = from errorCode in responseEnvelope.Descendants
-                                               ("{http://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
+                                               ("{https://schemas.microsoft.com/exchange/services/2006/messages}ResponseCode")
                                                select errorCode;
             foreach (var errorCode in errorCodes)
             {
@@ -424,15 +425,15 @@ var createItemSOAPRequest =
 
 Maintenant que vous avez écrit votre première application EWS, vous êtes prêt à découvrir d'autres manières d'utiliser EWS. Voici quelques idées pour bien commencer :
   
-- Mettez en œuvre la [découverte automatique](autodiscover-for-exchange.md) dans votre application afin que votre application se connecte au serveur Exchange approprié en fonction de l'adresse de messagerie de l'utilisateur. Reportez-vous également à l'exemple [Exchange 2013 : obtenir les paramètres de l'utilisateur à l'aide de découverte automatique](http://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e). 
+- Mettez en œuvre la [découverte automatique](autodiscover-for-exchange.md) dans votre application afin que votre application se connecte au serveur Exchange approprié en fonction de l'adresse de messagerie de l'utilisateur. Reportez-vous également à l'exemple [Exchange 2013 : obtenir les paramètres de l'utilisateur à l'aide de découverte automatique](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e). 
     
-- Reportez-vous à la [Référence EWS](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx) pour plus d'informations sur EWS. 
+- Reportez-vous à la [Référence EWS](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx) pour plus d'informations sur EWS. 
     
-- Reportez-vous à [Opérations EWS](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx) pour plus d'informations sur les opérations disponibles. 
+- Reportez-vous à [Opérations EWS](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx) pour plus d'informations sur les opérations disponibles. 
     
 - Utilisez [l'éditeur EWS](http://ewseditor.codeplex.com/) pour afficher le trafic SOAP envoyé vers et depuis le serveur. 
     
-Si vous rencontrez des problèmes avec votre application, [publiez une question ou un commentaire dans le forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) (et n'oubliez pas de lire la première publication). 
+Si vous rencontrez des problèmes avec votre application, [publiez une question ou un commentaire dans le forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) (et n'oubliez pas de lire la première publication). 
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -442,4 +443,3 @@ Si vous rencontrez des problèmes avec votre application, [publiez une question 
 - [Développer des clients de service web pour Exchange](develop-web-service-clients-for-exchange.md)  
 - [Prise en main des applications clientes d'API managée EWS](get-started-with-ews-managed-api-client-applications.md)
     
-

@@ -16,7 +16,7 @@ ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44444592"
 ---
 # <a name="createmanagedfolder-operation"></a>Opération CreateManagedFolder

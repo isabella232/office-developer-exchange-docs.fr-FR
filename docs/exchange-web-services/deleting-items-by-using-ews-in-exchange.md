@@ -10,7 +10,7 @@ ms.openlocfilehash: 83317ccd0fa1db64e14df68652489009fea4ea07
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456135"
 ---
 # <a name="deleting-items-by-using-ews-in-exchange"></a>Supprimer des éléments à l’aide d’EWS dans Exchange

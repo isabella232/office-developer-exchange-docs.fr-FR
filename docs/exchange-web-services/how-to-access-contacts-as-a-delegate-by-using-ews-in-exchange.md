@@ -10,7 +10,7 @@ ms.openlocfilehash: 06faf7dd7459b14792abbea21761e909c8eb9fb6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455344"
 ---
 # <a name="access-contacts-as-a-delegate-by-using-ews-in-exchange"></a>Accéder aux contacts en tant que délégué à l’aide d’EWS dans Exchange

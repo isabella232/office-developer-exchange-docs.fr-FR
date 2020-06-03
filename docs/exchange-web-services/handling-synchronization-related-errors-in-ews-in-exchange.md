@@ -10,7 +10,7 @@ ms.openlocfilehash: f62937ec444d64b0b358581371f1260f565215b3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455939"
 ---
 # <a name="handling-synchronization-related-errors-in-ews-in-exchange"></a>Gestion des erreurs liées à la synchronisation dans EWS dans Exchange

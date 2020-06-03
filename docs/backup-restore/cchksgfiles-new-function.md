@@ -16,7 +16,7 @@ ms.openlocfilehash: d18d3ef20890012a1d8c193ec87bdca10a1ed451
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455232"
 ---
 # <a name="cchksgfilesnew-function"></a>Fonction fonction cchksgfiles. New

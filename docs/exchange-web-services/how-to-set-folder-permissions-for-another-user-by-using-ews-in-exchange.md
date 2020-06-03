@@ -10,7 +10,7 @@ ms.openlocfilehash: e25f1a49a430e8c95829d404fa53451b76cab167
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455869"
 ---
 # <a name="set-folder-permissions-for-another-user-by-using-ews-in-exchange"></a>Définir les autorisations de dossier pour un autre utilisateur à l’aide d’EWS dans Exchange
@@ -56,7 +56,7 @@ Les autorisations individuelles suivantes sont disponibles :
     
 En outre, les niveaux d’autorisation suivants sont disponibles, qui définissent un sous-ensemble des autorisations et des valeurs individuelles, comme indiqué dans le tableau 2 :
   
-- Aucun    
+- Aucune    
 - Propriétaire    
 - PublishingEditor    
 - Éditeur    
@@ -75,13 +75,13 @@ Le tableau suivant indique les autorisations individuelles qui sont appliquées 
 
 |Niveau d’autorisation|Peut créer des éléments|Possibilité de créer des sous-dossiers|Est le propriétaire du dossier|Le dossier est-il visible|Est le contact du dossier|Modifier des éléments|Supprimer des éléments|Peut lire des éléments|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Aucun  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |Aucun  <br/> |
+|Aucune  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |Aucun  <br/> |
 |Propriétaire  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
 |PublishingEditor  <br/> |True  <br/> |True  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
 |Éditeur  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Tous  <br/> |Tous  <br/> |FullDetails  <br/> |
 |PublishingAuthor  <br/> |True  <br/> |True  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Appartien  <br/> |Appartien  <br/> |FullDetails  <br/> |
 |Auteur  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Appartien  <br/> |Appartien  <br/> |FullDetails  <br/> |
-|Noneditingauthorcreateitems  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucun  <br/> |Appartien  <br/> |FullDetails  <br/> |
+|Noneditingauthorcreateitems  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucune  <br/> |Appartien  <br/> |FullDetails  <br/> |
 |Relecteur  <br/> |Faux  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |FullDetails  <br/> |
 |Collaborateur  <br/> |Vrai  <br/> |Faux  <br/> |False  <br/> |Vrai  <br/> |Faux  <br/> |Aucun  <br/> |Aucun  <br/> |Aucun  <br/> |
    
@@ -591,7 +591,7 @@ Si vous essayez d’ajouter deux jeux d’autorisations pour le même utilisateu
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Une fois que vous avez accordé à un utilisateur l’autorisation d’accès à un dossier spécifique, l’utilisateur peut accéder au dossier en tant que délégué. Pour plus d’informations, voir :
+Une fois que vous avez accordé à un utilisateur l’autorisation d’accès à un dossier spécifique, l’utilisateur peut accéder au dossier en tant que délégué. Si vous souhaitez en savoir plus, consultez les articles :
   
 - [Accéder à la messagerie électronique en tant que délégué à l’aide d’EWS dans Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     

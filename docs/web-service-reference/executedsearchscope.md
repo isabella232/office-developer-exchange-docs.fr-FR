@@ -16,7 +16,7 @@ ms.openlocfilehash: 828fe3800b8c13a0e18c0daba6cdeab140a1c394
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456968"
 ---
 # <a name="executedsearchscope"></a>ExecutedSearchScope

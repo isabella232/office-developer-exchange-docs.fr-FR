@@ -16,7 +16,7 @@ ms.openlocfilehash: 7470fa3163596f87badfda2ca698b096e02f1196
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455302"
 ---
 # <a name="isencrypted"></a>IsEncrypted

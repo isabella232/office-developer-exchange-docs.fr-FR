@@ -10,7 +10,7 @@ ms.openlocfilehash: 3d77c0d4efb8fc853eea64ff2429af5c3dbead27
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456731"
 ---
 # <a name="pull-notifications-about-mailbox-events-by-using-ews-in-exchange"></a>Notifications de type pull concernant les événements de boîte aux lettres à l'aide de EWS dans Exchange

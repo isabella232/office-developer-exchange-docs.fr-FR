@@ -16,7 +16,7 @@ ms.openlocfilehash: a0bbefc8b021d047bb2e001669c3e92a6e2536ce
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44454406"
 ---
 # <a name="deleteitems"></a>DeleteItems
@@ -55,7 +55,7 @@ Le tableau suivant répertorie les valeurs possibles pour l’élément **Delete
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à supprimer des éléments dans le dossier.  <br/> |
+|Aucune  <br/> |Indique que l’utilisateur n’est pas autorisé à supprimer des éléments dans le dossier.  <br/> |
 |Appartien  <br/> |Indique que l’utilisateur est autorisé à supprimer les éléments dont il est propriétaire dans le dossier.  <br/> |
 |Tous  <br/> |Indique que l’utilisateur est autorisé à supprimer tous les éléments du dossier.  <br/> |
    

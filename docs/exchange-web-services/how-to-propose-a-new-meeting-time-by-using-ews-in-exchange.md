@@ -10,7 +10,7 @@ ms.openlocfilehash: 4f001bb82d2325624b567412620283619b51f25b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456809"
 ---
 # <a name="propose-a-new-meeting-time-by-using-ews-in-exchange"></a>Proposer une nouvelle heure de réunion à l'aide d’EWS dans Exchange

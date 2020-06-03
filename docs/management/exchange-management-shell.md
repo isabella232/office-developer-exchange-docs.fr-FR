@@ -12,7 +12,7 @@ ms.openlocfilehash: 38e75339a4ad97cf8ff99e1cbe9c01059e157941
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44435806"
 ---
 # <a name="exchange-management-shell"></a>Environnement de ligne de commande Exchange Management Shell

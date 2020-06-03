@@ -12,7 +12,7 @@ ms.openlocfilehash: 1c5d99be60501fd1c4414ea22294bd05645bb0a7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455239"
 ---
 # <a name="backup-and-restore-for-exchange"></a>Sauvegarde et restauration pour Exchange
@@ -55,7 +55,7 @@ Bien que l’architecture de l’enregistreur VSS ait été mise à jour dans Ex
 ## <a name="see-also"></a>Voir aussi
 
 - [Service de cliché instantané des volumes (Windows)](https://msdn.microsoft.com/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
-- [Explorer l’API managée EWS, EWS et les services web dans Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
+- [Explorer l'API managée EWS, EWS et les services web dans Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [Exchange Management Shell](../management/exchange-management-shell.md)   
 - [Agents de transport dans Exchange](../transport-agents/transport-agents-in-exchange-2013.md) 
     

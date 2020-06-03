@@ -8,7 +8,7 @@ ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44438433"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Authentification d’une connexion IMAP, POP ou SMTP à l’aide du protocole OAuth

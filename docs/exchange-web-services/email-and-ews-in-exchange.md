@@ -10,7 +10,7 @@ ms.openlocfilehash: 323d9d2cc40aa86044a439ad53e53a4808916783
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44455442"
 ---
 # <a name="email-and-ews-in-exchange"></a>Courrier électronique et les services EWS d'Exchange

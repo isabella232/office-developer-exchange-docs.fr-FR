@@ -16,7 +16,7 @@ ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456569"
 ---
 # <a name="createattachment-operation"></a>Opération CreateAttachment

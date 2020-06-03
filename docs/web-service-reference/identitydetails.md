@@ -12,7 +12,7 @@ ms.openlocfilehash: cb657ec7548c27497f7587edbd0a231d10baf344
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44442212"
 ---
 # <a name="identitydetails"></a>IdentityDetails

@@ -1,5 +1,5 @@
 ---
-title: L'instrumentation des demandes du client pour EWS et reste dans Exchange
+title: Instrumentation des demandes de client pour EWS et REST dans Exchange
 manager: sethgros
 ms.date: 4/13/2016
 ms.audience: Developer
@@ -10,10 +10,10 @@ ms.openlocfilehash: 3a8ce889ec7a6b9e70ec25a95ac248902f48ca6c
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456303"
 ---
-# <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>L'instrumentation des demandes du client pour EWS et reste dans Exchange
+# <a name="instrumenting-client-requests-for-ews-and-rest-in-exchange"></a>Instrumentation des demandes de client pour EWS et REST dans Exchange
 
 Découvrez les en-têtes HTTP dans EWS et les requêtes REST et les réponses qui peuvent vous aider à surveiller et à dépanner votre application Exchange.
   
@@ -25,7 +25,7 @@ Nous vous recommandons d’ajouter des en-têtes HTTP supplémentaires à vos de
   
 **Tableau 1. En-têtes de demande pour la résolution des problèmes**
 
-|**En-tête HTTP (EWS)**|**Équivalent de l’API managée EWS**|**Notes**|
+|**En-tête HTTP (EWS)**|**Équivalent de l’API managée EWS**|**Remarques**|
 |:-----|:-----|:-----|
 |Agent utilisateur  <br/> |[ExchangeService. UserAgent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Définissez cette valeur sur une valeur unique qui identifie votre application cliente.<br/><br/> L’utilisation de la même valeur pour toutes les demandes envoyées par votre application permet à Microsoft d’aider à résoudre les problèmes d’appel, le cas échéant.  <br/> |
 |client-Request-ID  <br/> |[ExchangeService. ClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Affectez une valeur unique différente à chaque demande envoyée à votre application.<br/><br/> Nous vous recommandons d’utiliser un GUID. Cet identificateur unique est destiné à être utilisé pour corréler les activités entre deux systèmes en cas de problème.  <br/> |

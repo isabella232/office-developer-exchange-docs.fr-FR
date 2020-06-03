@@ -12,7 +12,7 @@ ms.openlocfilehash: e8f1a46e2d94729ae5586861317312e277216d63
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452796"
 ---
 #  <a name="validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013"></a>Valider l’intégrité de la sauvegarde à l’aide de l’outil Eseutil dans Exchange 2013

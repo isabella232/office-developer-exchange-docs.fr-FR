@@ -12,7 +12,7 @@ ms.openlocfilehash: 44270a87c38b08d274d389fa6e46f3864da13ed2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452887"
 ---
 # <a name="exchange-writer-in-exchange-2013"></a>Enregistreur Exchange dans Exchange 2013

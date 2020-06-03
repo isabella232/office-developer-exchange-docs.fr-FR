@@ -16,7 +16,7 @@ ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463152"
 ---
 # <a name="setuseroofsettings-operation"></a>Opération SetUserOofSettings

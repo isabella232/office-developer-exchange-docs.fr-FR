@@ -12,7 +12,7 @@ ms.openlocfilehash: cd60ea3e671037509df4f52c1e34e6bdbf9fadf8
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462387"
 ---
 # <a name="organizerlocation"></a>OrganizerLocation

@@ -16,7 +16,7 @@ ms.openlocfilehash: f1cc199bdaf684d8d74687ed7f064eb66fee48ff
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462583"
 ---
 # <a name="findfolder-operation"></a>Opération FindFolder

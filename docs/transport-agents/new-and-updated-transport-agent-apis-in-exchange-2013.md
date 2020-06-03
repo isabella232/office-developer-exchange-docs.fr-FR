@@ -12,7 +12,7 @@ ms.openlocfilehash: 9cb099757512081347e23bc619c42417929f0f70
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44461820"
 ---
 # <a name="new-and-updated-transport-agent-apis-in-exchange-2013"></a>API de l’agent de transport nouvelles et mises à jour dans Exchange 2013

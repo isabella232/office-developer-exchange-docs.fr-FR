@@ -13,7 +13,7 @@ ms.openlocfilehash: 0d903d9829fa6dc1273d8b25a1eeb0b68700d5da
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462282"
 ---
 # <a name="pox-autodiscover-response-for-exchange"></a>Réponse de découverte automatique POX pour Exchange

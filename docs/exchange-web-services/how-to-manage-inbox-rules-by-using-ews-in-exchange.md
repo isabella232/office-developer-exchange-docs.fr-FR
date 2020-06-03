@@ -1,44 +1,44 @@
 ---
-title: Gérer les règles de boîte de réception à l’aide de EWS dans Exchange
+title: Gérer les règles de boîte de réception à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
 description: Découvrez comment obtenir, créer, mettre à jour et supprimer des règles de boîte de réception à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 85e166ba57d74c74382b257d01d9bff8f44bade1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 7c5d202a85ece1c9bc7227020f9ee8be1f688ce6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754876"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527977"
 ---
-# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>Gérer les règles de boîte de réception à l’aide de EWS dans Exchange
+# <a name="manage-inbox-rules-by-using-ews-in-exchange"></a>Gérer les règles de boîte de réception à l’aide d’EWS dans Exchange
 
 Découvrez comment obtenir, créer, mettre à jour et supprimer des règles de boîte de réception à l’aide de l’API managée EWS ou EWS dans Exchange.
   
-Vous pouvez obtenir, créer, mettre à jour et supprimer des règles de boîte de réception à l’aide de l’API managée EWS ou EWS. Quelle que soit la technologie que vous utilisez, vous obtenez et modifier des règles de boîte de réception en tant que collection, et non individuellement. Vous utilisez la méthode ou l’opération pour créer de nouvelles règles, mettre à jour les règles existantes et supprimer des règles. 
+Vous pouvez obtenir, créer, mettre à jour et supprimer des règles de boîte de réception à l’aide de l’API managée EWS ou d’EWS. Quelle que soit la technologie utilisée, vous pouvez obtenir et modifier des règles de boîte de réception en tant que collection, plutôt qu’individuellement. Vous utilisez la même méthode ou opération pour créer de nouvelles règles, mettre à jour des règles existantes et supprimer des règles. 
   
-**Le tableau 1. Méthodes et opérations pour l’extraction et la modification des règles de boîte de réception**
+**Tableau 1. Méthodes et opérations pour l’obtention et la modification des règles de boîte de réception**
 
-|**Pour...**|**Méthode d'API managée EWS**|**Opération EWS**|
+|**Afin de...**|**Méthode d'API managée EWS**|**Opération EWS**|
 |:-----|:-----|:-----|
-|Obtention des règles de boîte de réception  <br/> |[ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
-|Créer, mettre à jour ou supprimer des règles de boîte de réception  <br/> |[ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
+|Obtenir les règles de boîte de réception  <br/> |[ExchangeService. GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) <br/> |[GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) <br/> |
+|Créer, mettre à jour ou supprimer des règles de boîte de réception  <br/> |[ExchangeService. UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) <br/> |[UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx) <br/> |
    
-Afin de créer, mettre à jour ou supprimer des règles de boîte de réception à l’aide de l’API managée EWS ou EWS, vous devez supprimer la règle Outlook, si elle existe. Si vous utilisez l’API managée EWS, cela en définissant le paramètre **removeOutlookRulesBlob** sur **true** dans l’appel de méthode **ExchangeService.UpdateInboxRules** . Si vous utilisez EWS, vous définissez la valeur de l’élément [RemoveOutlookRuleBlob](http://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx) **true** dans l’opération **UpdateInboxRules** . Il est recommandé que votre à cocher application la propriété [RuleCollection.OutlookRuleBlobExists](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) (si vous utilisez l’API managée EWS), ou de l’élément [OutlookRuleBlobExists](http://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) (si vous utilisez EWS) avant la mise à jour des règles de boîte de réception. Si cette propriété ou un élément a la valeur **true**, votre application doit avertir l’utilisateur que toutes les règles désactivés perdues dans le cadre de la mise à jour et passez uniquement avec l’autorisation.
+Pour créer, mettre à jour ou supprimer des règles de boîte de réception à l’aide de l’API managée EWS ou EWS, vous devez supprimer la règle Outlook, si elle existe. Si vous utilisez l’API managée EWS, vous devez définir le paramètre **removeOutlookRulesBlob** sur **true** dans l’appel de méthode **ExchangeService. UpdateInboxRules** . Si vous utilisez EWS, définissez la valeur de l’élément [RemoveOutlookRuleBlob](https://msdn.microsoft.com/library/69614475-8bd3-4475-b988-614fe9cad8ef%28Office.15%29.aspx) sur **true** dans l’opération **UpdateInboxRules** . Il est recommandé que votre application vérifie la propriété [RuleCollection. OutlookRuleBlobExists](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection.outlookruleblobexists%28v=exchg.80%29.aspx) (si vous utilisez l’API managée EWS) ou l’élément [OutlookRuleBlobExists](https://msdn.microsoft.com/library/ae1bc448-deb9-4b5b-ab38-4b276abcb650%28Office.15%29.aspx) (si vous utilisez EWS) avant de mettre à jour les règles de boîte de réception. Si cette propriété ou cet élément a la valeur **true**, votre application doit alerter l’utilisateur que toutes les règles désactivées seront perdues dans le cadre de la mise à jour et ne continueront que leur autorisation.
   
-Lorsque vous appelez la méthode **UpdateInboxRules** , EWS supprime les règles d’envoi côté client. Règles d’envoi côté client sont stockées sur le client dans la règle de Message dossier associé informations (FAI) et nulle part ailleurs. EWS supprime cette règle message FAI par défaut, en fonction de l’attente qu’Outlook va le recréer. Toutefois, Outlook ne peut pas recréer les règles qui n’existent pas également en tant qu’une règle d’étendue, et les règles côté client send n’existent pas sous forme de règles d’étendue. Par conséquent, ces règles sont perdues. Nous vous suggérons Voici lors de la conception de votre solution. 
+Lorsque vous appelez la méthode **UpdateInboxRules** , EWS supprime les règles d’envoi côté client. Les règles d’envoi côté client sont stockées sur le client dans le message du dossier de la règle (FAI) et nulle part ailleurs. EWS supprime cette règle par défaut, en fonction de la prévision qu’Outlook va recréer. Toutefois, Outlook ne peut pas recréer des règles qui n’existent pas également en tant que règle étendue, et les règles d’envoi côté client n’existent pas en tant que règles étendues. Par conséquent, ces règles sont perdues. Nous vous suggérons de vous en prendre en compte lors de la conception de votre solution. 
   
 > [!NOTE]
-> Les exemples de code d’API managées dans cet article utilisent un [ensemble commun de méthodes utilitaires](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource). Ces méthodes sont tous deux omis dans les exemples de code par souci de concision. 
+> Les exemples de code de l’API managée EWS présentés dans cet article utilisent un [ensemble commun de méthodes utilitaires](how-to-manage-inbox-rules-by-using-ews-in-exchange.md#bk_UtilitySource). Ces méthodes sont omises des exemples de code par souci de concision. 
   
-## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>Obtention des règles de boîte de réception à l’aide de l’API managée EWS
+## <a name="get-inbox-rules-by-using-the-ews-managed-api"></a>Obtenir des règles de boîte de réception à l’aide de l’API managée EWS
 <a name="bk_GetRulesEWSMA"> </a>
 
-Pour obtenir les règles de boîte de réception en cours, utilisez la méthode [ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) . Cette méthode renvoie un objet [RuleCollection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) qui contient toutes les règles de boîte de réception en cours. 
+Pour obtenir les règles de boîte de réception actuelles, utilisez la méthode [ExchangeService. GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx) . Cette méthode renvoie un objet [RuleCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.rulecollection%28v=exchg.80%29.aspx) qui contient toutes les règles de boîte de réception actuelles. 
   
-Dans cet exemple, chaque règle dans la boîte de réception en cours est transmis à une fonction d’assistance ( **ParseRuleDetails** ) pour afficher les détails de la règle. 
+Dans cet exemple, chaque règle dans la boîte de réception active est transmise à une fonction d’assistance ( **ParseRuleDetails** ) pour afficher les détails de la règle. 
   
 ```cs
 using System;
@@ -73,17 +73,17 @@ private static void GetInboxRules(ExchangeService service, string emailAddress)
 }
 ```
 
-## <a name="get-inbox-rules-by-using-ews"></a>Obtention des règles de boîte de réception à l’aide de EWS
+## <a name="get-inbox-rules-by-using-ews"></a>Obtenir des règles de boîte de réception à l’aide d’EWS
 <a name="bk_GetRulesEWS"> </a>
 
-La demande SOAP EWS suivante utilise l' [opération GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) pour récupérer les règles de boîte de réception pour sadie@contoso.com. 
+La demande SOAP EWS suivante utilise l' [opération GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx) pour récupérer les règles de boîte de réception pour Sadie@contoso.com. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
 <soap:Header>
   <t:RequestServerVersion Version="Exchange2013" />
 </soap:Header>
@@ -95,24 +95,24 @@ La demande SOAP EWS suivante utilise l' [opération GetInboxRules](http://msdn.m
 </soap:Envelope>
 ```
 
-La réponse SOAP EWS suivante contient les règles de boîte de réception en cours de sadie@contoso.com.
+La réponse SOAP EWS suivante contient les règles de boîte de réception actuelles pour sadie@contoso.com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
 <s:Header>
   <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-      xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
       xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 </s:Header>
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <GetInboxRulesResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <GetInboxRulesResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <ResponseCode>NoError</ResponseCode>
     <OutlookRuleBlobExists>false</OutlookRuleBlobExists>
     <InboxRules>
-      <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <RuleId>AQAAAAAAASY=</RuleId>
         <DisplayName>Alfred</DisplayName>
         <Priority>1</Priority>
@@ -133,7 +133,7 @@ La réponse SOAP EWS suivante contient les règles de boîte de réception en co
           <StopProcessingRules>true</StopProcessingRules>
         </Actions>
       </Rule>
-      <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <RuleId>AQAAAAAAASQ=</RuleId>
         <DisplayName>Important</DisplayName>
         <Priority>2</Priority>
@@ -164,9 +164,9 @@ La réponse SOAP EWS suivante contient les règles de boîte de réception en co
 ## <a name="create-inbox-rules-by-using-the-ews-managed-api"></a>Créer des règles de boîte de réception à l’aide de l’API managée EWS
 <a name="bk_CreateRulesEWSMA"> </a>
 
-Pour créer une règle, incluez un objet [CreateRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx) dans la collection d’objets [RuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx) transmis à la méthode [ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) . 
+Pour créer une règle, incluez un objet [CreateRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.createruleoperation%28v=exchg.80%29.aspx) dans la collection d’objets [RuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.ruleoperation%28v=exchg.80%29.aspx) transmis à la méthode [ExchangeService. UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx) . 
   
-Dans cet exemple, une nouvelle règle est créée pour déplacer des messages envoyés vers une liste de distribution nommée « Sales » dans un sous-dossier de la boîte de réception, également appelés « Sales ».
+Dans cet exemple, une nouvelle règle est créée pour déplacer le courrier électronique envoyé à une liste de distribution appelée « ventes » vers un sous-dossier de la boîte de réception, également appelé « ventes ».
   
 ```cs
 using System;
@@ -241,17 +241,17 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
 }
 ```
 
-## <a name="create-inbox-rules-by-using-ews"></a>Créer des règles de boîte de réception à l’aide de EWS
+## <a name="create-inbox-rules-by-using-ews"></a>Créer des règles de boîte de réception à l’aide d’EWS
 <a name="bk_CreateRulesEWS"> </a>
 
-La demande SOAP EWS suivante crée la règle « Sales » dans la boîte de réception de sadie@contoso.com.
+La requête SOAP EWS suivante crée la règle « ventes » dans la boîte de réception de sadie@contoso. com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -296,12 +296,12 @@ La demande SOAP EWS suivante crée la règle « Sales » dans la boîte de ré
 </soap:Envelope>
 ```
 
-## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>Mise à jour des règles de boîte de réception à l’aide de l’API managée EWS
+## <a name="update-inbox-rules-by-using-the-ews-managed-api"></a>Mettre à jour les règles de boîte de réception à l’aide de l’API managée EWS
 <a name="bk_UpdateRulesEWSMA"> </a>
 
-Pour mettre à jour une règle, inclure un objet [SetRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx) dans la collection d’objets **RuleOperation** transmis à la méthode **UpdateInboxRules** . 
+Pour mettre à jour une règle, incluez un objet [SetRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.setruleoperation%28v=exchg.80%29.aspx) dans la collection d’objets **RuleOperation** transmis à la méthode **UpdateInboxRules** . 
   
-Dans cet exemple, la règle « Sales » est mis à jour pour ajouter une exception. Si l’objet contient le mot « Urgent », les messages ne seront pas déplacées vers le sous-dossier « Sales ».
+Dans cet exemple, la règle « ventes » est mise à jour pour ajouter une exception. Si l’objet contient le mot « urgent », les messages ne seront pas déplacés vers le sous-dossier « Sales ».
   
 ```cs
 using System;
@@ -372,17 +372,17 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
 }
 ```
 
-## <a name="update-inbox-rules-by-using-ews"></a>Mise à jour des règles de boîte de réception à l’aide de EWS
+## <a name="update-inbox-rules-by-using-ews"></a>Mettre à jour les règles de boîte de réception à l’aide d’EWS
 <a name="bk_UpdateRulesEWS"> </a>
 
-La demande SOAP EWS suivante met à jour la règle « Sales » dans la boîte de réception de sadie@contoso.com.
+La demande SOAP EWS suivante met à jour la règle « ventes » dans la boîte de réception de sadie@contoso. com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -436,9 +436,9 @@ La demande SOAP EWS suivante met à jour la règle « Sales » dans la boîte 
 ## <a name="delete-inbox-rules-by-using-the-ews-managed-api"></a>Supprimer des règles de boîte de réception à l’aide de l’API managée EWS
 <a name="bk_DeleteRulesEWSMA"> </a>
 
-Pour supprimer une règle, inclure un objet [DeleteRuleOperation](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx) dans la collection d’objets **RuleOperation** transmis à la méthode **UpdateInboxRules** . 
+Pour supprimer une règle, incluez un objet [DeleteRuleOperation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.deleteruleoperation%28v=exchg.80%29.aspx) dans la collection d’objets **RuleOperation** transmis à la méthode **UpdateInboxRules** . 
   
-Dans cet exemple, la règle « Sales » est supprimée.
+Dans cet exemple, la règle « ventes » est supprimée.
   
 ```cs
 using System;
@@ -506,17 +506,17 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
 }
 ```
 
-## <a name="delete-inbox-rules-by-using-ews"></a>Supprimer des règles de boîte de réception à l’aide de EWS
+## <a name="delete-inbox-rules-by-using-ews"></a>Supprimer des règles de boîte de réception à l’aide d’EWS
 <a name="bk_DeleteRulesEWS"> </a>
 
-La demande SOAP EWS suivante supprime les règles de « Sales » à partir de la boîte de réception de sadie@contoso.com.
+La demande SOAP EWS suivante supprime les règles « ventes » de la boîte de réception de sadie@contoso. com.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -533,10 +533,10 @@ La demande SOAP EWS suivante supprime les règles de « Sales » à partir de 
 </soap:Envelope>
 ```
 
-## <a name="source-for-sample-utility-methods"></a>Source pour les méthodes de l’utilitaire exemple
+## <a name="source-for-sample-utility-methods"></a>Source des exemples de méthodes d’utilitaire
 <a name="bk_UtilitySource"> </a>
 
-Les exemples d’API managées dans cet article utilisent les méthodes utilitaires inclus dans l’exemple suivant.
+Les exemples d’API managée EWS dans cet article utilisent les méthodes utilitaires incluses dans l’exemple suivant.
   
 ```cs
 private static void ParseRuleDetails(ExchangeService service, Rule rule)
@@ -910,12 +910,12 @@ private static FolderId GetFolderIdByName(ExchangeService service, WellKnownFold
 
 - [Gestion de la boîte de réception et EWS dans Exchange](inbox-management-and-ews-in-exchange.md)
     
-- [Méthode ExchangeService.GetInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
+- [Méthode ExchangeService. GetInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.getinboxrules%28v=exchg.80%29.aspx)
     
-- [Méthode ExchangeService.UpdateInboxRules](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
+- [Méthode ExchangeService. UpdateInboxRules](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updateinboxrules%28v=exchg.80%29.aspx)
     
-- [Opération de GetInboxRules](http://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
+- [Opération de GetInboxRules](https://msdn.microsoft.com/library/b4b2701a-4a23-4acc-8c75-19f7955ad7ae%28Office.15%29.aspx)
     
-- [Opération de UpdateInboxRules](http://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx)
+- [Opération de UpdateInboxRules](https://msdn.microsoft.com/library/f982a237-471e-45c5-a2b5-468cfc53150b%28Office.15%29.aspx)
     
 

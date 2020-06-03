@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e28a0485-86af-4a4e-a2ba-3ad2d4ebff6f
-description: L’élément ReminderDueBy représente la date et l’heure lorsque l’événement se produit. Il est utilisé par l’élément ReminderMinutesBeforeStart pour déterminer quand le rappel s’affiche.
-ms.openlocfilehash: cff8142958108635dd9dfaec425af135dee2f2eb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReminderDueBy représente la date et l’heure auxquelles l’événement se produit. Cet élément est utilisé par l'élément ReminderMinutesBeforeStart afin de déterminer quand le rappel s'affiche.
+ms.openlocfilehash: 206534da4498e871e99635b236e500dec573eb5a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829061"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528726"
 ---
 # <a name="reminderdueby"></a>ReminderDueBy
 
-L’élément **ReminderDueBy** représente la date et l’heure lorsque l’événement se produit. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche. 
+L’élément **ReminderDueBy** représente la date et l’heure auxquelles l’événement se produit. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche. 
   
 ```xml
 <ReminderDueBy/>
@@ -30,11 +30,11 @@ L’élément **ReminderDueBy** représente la date et l’heure lorsque l’év
  **DateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,15 +50,15 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente la date et l’heure à laquelle un rappel est due.
+La valeur texte représente la date et l’heure d’échéance d’un rappel.
   
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

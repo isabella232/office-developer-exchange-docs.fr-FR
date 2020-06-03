@@ -1,39 +1,39 @@
 ---
-title: Mise à jour d’une série périodique à l’aide de EWS dans Exchange
+title: Mettre à jour une série périodique à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c922072f-ce33-4bff-97b0-1c1d0f9b880d
-description: Découvrez comment mettre à jour une série périodique à la fois à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 03f414845674bfcacca62ef96fdb84f8b8823920
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment mettre à jour une série périodique entière à la fois à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: 253bc7da176a954480db97e303393fecdda54892
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754940"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527613"
 ---
-# <a name="update-a-recurring-series-by-using-ews-in-exchange"></a>Mise à jour d’une série périodique à l’aide de EWS dans Exchange
+# <a name="update-a-recurring-series-by-using-ews-in-exchange"></a>Mettre à jour une série périodique à l’aide d’EWS dans Exchange
 
-Découvrez comment mettre à jour une série périodique à la fois à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment mettre à jour une série périodique entière à la fois à l’aide de l’API managée EWS ou d’EWS dans Exchange.
   
-Vous pouvez utiliser les API managées EWS pour mettre à jour une série périodique en mettant à jour la série entière ou en [mettant à jour une seule occurrence](how-to-update-a-recurring-series-by-using-ews.md). Nous dans cet article explique comment mettre à jour à la fois de la série entière.
+Vous pouvez utiliser l’API managée EWS ou EWS pour mettre à jour une série périodique en mettant à jour la totalité de la série ou en mettant à jour [une seule occurrence](how-to-update-a-recurring-series-by-using-ews.md). Dans cet article, nous allons aborder la mise à jour de la série complète en une seule fois.
   
-En règle générale, la mise à jour d’une série périodique est très similaire à la [modification d’un rendez-vous](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Vous utilisez des méthodes et des opérations, mais que vous utilisez l’identificateur du périodique principal de la série. Dans certains cas, vous ne pouvez pas commencer avec la forme de base périodique, et vous devrez peut-être [Rechercher l’ID d’élément de la forme de base périodique](how-to-access-a-recurring-series-by-using-ews-in-exchange.md).
+En règle générale, la mise à jour d’une série périodique est très similaire à la [modification d’un seul rendez-vous](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). Vous utilisez les mêmes méthodes et opérations, mais vous utilisez l’ID d’élément de la série « Master périodique » de la série. Dans certains cas, il se peut que vous ne commenciez pas par la forme de base périodique, et vous devrez peut-être [trouver l’ID d’élément pour la page maître périodique](how-to-access-a-recurring-series-by-using-ews-in-exchange.md).
   
-Toutefois, il est une des différences clés à prendre en compte lors de la mise à jour d’une série périodique : mise à jour de la périodicité. Mise à jour de la périodicité est uniquement possible avec la forme de base périodique, et les modifications apportées au modèle peuvent ajouter ou supprimer des occurrences. Par exemple, si vous modifiez la propriété [Recurrence.EndDate](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) à une date postérieure à sa valeur actuelle, la périodicité est réévaluée et occurrences supplémentaires peuvent être ajoutés. 
+Toutefois, il existe une différence essentielle à prendre en compte lors de la mise à jour d’une série périodique : mise à jour de la périodicité. La mise à jour de la périodicité n’est possible qu’avec la forme de base périodique et les modifications apportées au modèle peuvent ajouter ou supprimer des occurrences. Par exemple, si vous modifiez la propriété [recurrence. EndDate](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) à une date ultérieure à la valeur actuelle, la périodicité est réévaluée et des occurrences supplémentaires peuvent être ajoutées. 
   
 ## <a name="modify-all-occurrences-in-a-series-by-using-the-ews-managed-api"></a>Modifier toutes les occurrences d’une série à l’aide de l’API managée EWS
 
-Permet de modifier toutes les occurrences d’une série de vous :
+Pour modifier toutes les occurrences d’une série, procédez comme suit :
   
-1. Lier le masque de la série périodique à l’aide de la méthode [Appointment.BindToRecurringMaster](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) ou [Appointment.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) sur une forme de base périodique. 
+1. Établir une liaison avec le masque périodique de la série à l’aide de la méthode appointment [. BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) ou appointment [. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) sur une forme de base périodique. 
     
-2. Mettre à jour les propriétés de l’objet de [rendez-vous](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) périodique maître. 
+2. Mettez à jour les propriétés de l’objet de [rendez-vous](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) périodique principal. 
     
-3. Enregistrer les modifications dans le contrôleur périodique en utilisant la méthode [Appointment.Save](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
+3. Enregistrez les modifications apportées à la forme de base périodique à l’aide de la méthode appointment [. Save](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) . 
     
-L’exemple suivant met à jour une série périodique pour modifier l’emplacement, d’ajouter un participant et modifiez la périodicité. Cet exemple suppose que l’objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) transmis dans le paramètre de _service_ a été initialisée avec des valeurs valides dans les propriétés [d’Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) et les [informations d’identification](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . Le paramètre de _rendez-vous périodique_ est un objet **Appointment** lié à une occurrence ou le contrôleur périodique pour la série de mise à jour. 
+L’exemple suivant met à jour une série périodique pour modifier l’emplacement, ajouter un participant et modifier la périodicité. Cet exemple part du principe que l’objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) transmis dans le paramètre _service_ a été initialisé avec des valeurs valides dans les [informations d’identification](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) et les propriétés [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . Le paramètre _recurringAppointment_ est un objet de **rendez-vous** lié à une occurrence ou au masque périodique de la série à mettre à jour. 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -133,24 +133,24 @@ public static bool UpdateRecurringSeries(ExchangeService service, Appointment re
 }
 ```
 
-## <a name="modify-all-occurrences-in-a-series-by-using-ews"></a>Modifier toutes les occurrences d’une série à l’aide de EWS
+## <a name="modify-all-occurrences-in-a-series-by-using-ews"></a>Modifier toutes les occurrences d’une série à l’aide d’EWS
 
-Pour modifier toutes les occurrences d’une série, vous devez utiliser l' [opération UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) avec l’ID d’élément du principal périodique dans l’élément [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) dans la demande. La structure de la demande est identique à une demande de mise à jour d’un rendez-vous. 
+Pour modifier toutes les occurrences d’une série, vous devez utiliser l' [opération UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) avec l’ID d’élément de la page maître périodique dans l’élément [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) de la demande. La structure de la demande est identique à celle d’une demande de mise à jour d’un seul rendez-vous. 
   
-L’exemple suivant met à jour la série périodique comme suit :
+L’exemple suivant met à jour la série périodique des façons suivantes :
   
-- Met à jour l’emplacement de la série en définissant l’élément [Location](http://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) . 
+- Met à jour l’emplacement de la série en définissant l’élément [location](https://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) . 
     
-- Met à jour les participants en définissant l’élément [RequiredAttendees](http://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) . 
+- Met à jour les participants en définissant l’élément [RequiredAttendees](https://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) . 
     
-- Met à jour la périodicité en définissant l’élément de [périodicité (RecurrenceType)](http://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) . 
+- Met à jour la récurrence en définissant l’élément de [récurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) . 
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
     <t:TimeZoneContext>
@@ -219,7 +219,7 @@ L’exemple suivant met à jour la série périodique comme suit :
 </soap:Envelope>
 ```
 
-Le serveur répond avec un élément [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) qui inclut un élément [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) avec une valeur de **NoError**, ce qui indique que la mise à jour a réussi.
+Le serveur répond avec un élément [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) qui inclut un élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) avec une valeur **NOERROR**, ce qui indique que la mise à jour a réussi.
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -228,10 +228,10 @@ Le serveur répond avec un élément [UpdateItemResponse](http://msdn.microsoft.
     
 - [Périodicités et EWS](recurrence-patterns-and-ews.md)
     
-- [Mettre à jour vos rendez-vous et réunions à l’aide de EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Mettre à jour des rendez-vous et des réunions à l’aide d’EWS dans Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [Mise à jour d’une série périodique à l’aide de EWS](how-to-update-a-recurring-series-by-using-ews.md)
+- [Mettre à jour une série périodique à l’aide d’EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [Accéder à une série périodique à l’aide de EWS dans Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Accéder à une série périodique à l’aide d’EWS dans Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
 

@@ -11,20 +11,20 @@ api_name:
 api_type:
 - schema
 ms.assetid: c5e251af-f795-43cc-baaf-95d84475677c
-description: L’élément DeleteRuleOperation contient une opération pour supprimer une règle de boîte de réception.
-ms.openlocfilehash: 3410361e0b896fb0ef01c1873c9f8b0ac99afe58
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DeleteRuleOperation contient une opération de suppression d’une règle de boîte de réception existante.
+ms.openlocfilehash: 6b17f7f99f1fd9b9889db00fdf55fba5eef5aba8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755877"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526920"
 ---
 # <a name="deleteruleoperation"></a>DeleteRuleOperation
 
-L’élément **DeleteRuleOperation** contient une opération pour supprimer une règle de boîte de réception. 
+L’élément **DeleteRuleOperation** contient une opération de suppression d’une règle de boîte de réception existante. 
   
 - [UpdateInboxRules](updateinboxrules.md)
-- [Opérations](operations.md)
+- [Operations](operations.md)
   
 ```XML
 <DeleteRuleOperation>
@@ -35,17 +35,17 @@ L’élément **DeleteRuleOperation** contient une opération pour supprimer une
  **DeleteRuleOperationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID de la règle](ruleid.md) <br/> |Spécifie l’identificateur de la règle à supprimer.  <br/> |
+|[RuleId](ruleid.md) <br/> |Spécifie l’identificateur de la règle à supprimer.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 1feb0788-adf7-4a7c-830c-005214ad930f
 description: L’élément CalendarItemType représente le type d’un élément de calendrier.
-ms.openlocfilehash: 3fe95c86ea24e6dfeb4740ead5e787bd63b5190d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 05e93b6db3ae574c03f6e43c5ebec2288edec3e5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755473"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527193"
 ---
 # <a name="calendaritemtype"></a>CalendarItemType
 
@@ -30,11 +30,11 @@ L’élément **CalendarItemType** représente le type d’un élément de calen
  **CalendarItemTypeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est obligatoire si cet élément est utilisé. Les valeurs possibles de cet élément sont les suivantes :
+Une valeur de texte est requise si cet élément est utilisé. Les valeurs possibles pour cet élément sont les suivantes :
   
 - **Unique** L’élément n’est pas associé à un élément de calendrier périodique. 
     
@@ -57,7 +57,7 @@ Une valeur de texte est obligatoire si cet élément est utilisé. Les valeurs p
     
 - **Exception** L’élément est une exception à un élément de calendrier périodique. 
     
-- **RecurringMaster** L’élément est maître pour un ensemble de rendez-vous périodiques. 
+- **RecurringMaster** L’élément est une forme de base pour un ensemble d’éléments de calendrier périodiques. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

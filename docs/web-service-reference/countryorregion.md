@@ -1,5 +1,5 @@
 ---
-title: Countryorregion définit
+title: CountryOrRegion
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: e978cd19-96ce-4ebf-81df-eadf2d775132
-description: L’élément pays représente le pays ou la région pour l’adresse physique donnée.
-ms.openlocfilehash: 84a8cc4c76af616f116f35b733a645a6a0e4640c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Country représente le pays ou la région d’une adresse physique donnée.
+ms.openlocfilehash: 2e5b8ec40676123c17d6c7f987f139246dbd0493
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755677"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527095"
 ---
-# <a name="countryorregion"></a>Countryorregion définit
+# <a name="countryorregion"></a>CountryOrRegion
 
-L’élément **pays** représente le pays ou la région pour l’adresse physique donnée. 
+L’élément **Country** représente le pays ou la région d’une adresse physique donnée. 
   
 ```xml
 <Country/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Entrée (PhysicalAddress)](entry-physicaladdress.md) <br/> |Décrit une seule adresse physique pour un élément de contact.  <br/> |
+|[Entrée (PhysicalAddress)](entry-physicaladdress.md) <br/> |Décrit une adresse physique unique pour un élément de contact.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur de type string qui représente le nom d’un pays.
+La valeur de texte est une valeur de chaîne qui représente le nom d’un pays.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

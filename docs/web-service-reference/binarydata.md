@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: 57e9fba3-5751-4c37-b0c8-ac6dde1c7544
-description: L’élément BinaryData contient le contenu de propriété de données binaires.
-ms.openlocfilehash: d98da312bbf970df54ddeaf525d00217275d1f82
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BinaryData contient le contenu des propriétés de données binaires.
+ms.openlocfilehash: 8f7f62e37613ef74aa760014cf27291b80cca127
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755386"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527410"
 ---
 # <a name="binarydata"></a>BinaryData
 
-L’élément **BinaryData** contient le contenu de propriété de données binaires. 
+L’élément **BinaryData** contient le contenu des propriétés de données binaires. 
   
 ```xml
 <BinaryData/>
 ```
 
- **Base64Binary**
+ **Au base64Binary**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,7 +46,7 @@ Aucun.
 |:-----|:-----|
 |[UserConfiguration](userconfiguration.md) <br/> |Définit un objet de configuration utilisateur unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 L’élément **BinaryData** contient des données binaires. 
   
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

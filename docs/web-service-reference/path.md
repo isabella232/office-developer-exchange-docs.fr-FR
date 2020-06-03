@@ -1,5 +1,5 @@
 ---
-title: Chemin
+title: Path
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5829149e-7bfe-4820-bcc6-910e9264acc9
-description: L’élément de chemin d’accès est le type de schéma de base pour tous les identificateurs de propriété. Ce type est abstrait et ne se produira directement dans les documents d’instance.
-ms.openlocfilehash: a5a1ca5179ccf339e5a1f15621c92e2870f4f2d9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Path est le type de schéma de base pour tous les identificateurs de propriété. Ce type est abstrait et ne se produira jamais directement dans les documents d’instance.
+ms.openlocfilehash: 5ba18084243e9720a76b9ac28023778c6d546bc4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828700"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529013"
 ---
-# <a name="path"></a>Chemin
+# <a name="path"></a>Path
 
-L’élément de **chemin d’accès** est le type de schéma de base pour tous les identificateurs de propriété. Ce type est abstrait et ne se produira directement dans les documents d’instance. 
+L’élément **path** est le type de schéma de base pour tous les identificateurs de propriété. Ce type est abstrait et ne se produira jamais directement dans les documents d’instance. 
   
 ```xml
 <Path/>
@@ -30,11 +30,11 @@ L’élément de **chemin d’accès** est le type de schéma de base pour tous 
  **BasePathToElementType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,7 +46,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Les éléments suivants sont utilisés à la place de l’élément de **chemin d’accès** : 
+Les éléments suivants sont utilisés pour remplacer l’élément **path** : 
   
 - [FieldURI](fielduri.md)
     
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

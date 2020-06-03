@@ -5,45 +5,45 @@ ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
-description: Toutes les demandes pour les informations de dossier public qui impliquent le contenu de la nécessité de dossiers publics d’être acheminés vers la boîte aux lettres de dossier public qui contient le contenu du dossier cible. Pour router les demandes pour cette boîte aux lettres, vous devez définir les en-têtes X-AnchorMailbox et X-PublicFolderMailbox à des valeurs spécifiques.
-ms.openlocfilehash: 64fafecb9882b17a3394e54640df78f7aa180343
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: Toutes les demandes d’informations de dossier public qui impliquent le contenu du dossier public doivent être acheminées vers la boîte aux lettres de dossiers publics qui contient le contenu du dossier cible. Pour acheminer les demandes vers cette boîte aux lettres, vous devez définir les en-têtes X-AnchorMailbox et X-PublicFolderMailbox sur des valeurs spécifiques.
+ms.openlocfilehash: 523b9c8efc65253f7970fffeb5800e451784522d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354021"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527743"
 ---
 # <a name="route-public-folder-content-requests"></a>Acheminer les demandes de contenu de dossier public
 
-Toutes les demandes pour les informations de dossier public qui impliquent le contenu de la nécessité de dossiers publics d’être acheminés vers la boîte aux lettres de dossier public qui contient le contenu du dossier cible. Pour router les demandes pour cette boîte aux lettres, vous devez définir les en-têtes **X-AnchorMailbox** et **X-PublicFolderMailbox** à des valeurs spécifiques. 
+Toutes les demandes d’informations de dossier public qui impliquent le contenu du dossier public doivent être acheminées vers la boîte aux lettres de dossiers publics qui contient le contenu du dossier cible. Pour acheminer les demandes vers cette boîte aux lettres, vous devez définir les en-têtes **x-AnchorMailbox** et **x-PublicFolderMailbox** sur des valeurs spécifiques. 
   
 Le tableau suivant fournit une vue d’ensemble du processus :
   
 **Vue d’ensemble des dossiers publics**
 
-|En-tête|Que dois-je ?|Comment l’obtenir ?|
+|En-tête|De quoi ai-je besoin ?|Comment puis-je l’obtenir ?|
 |:-----|:-----|:-----|
-|**X-AnchorMailbox** <br/> |1. [les valeurs X-PublicFolderInformation AnchorMailbox-X](how-to-route-public-folder-hierarchy-requests.md) pour la boîte aux lettres de hiérarchie de dossiers publics.<br/><br/>2. le GUID de la boîte aux lettres de dossier public qui contient le contenu de la boîte aux lettres, qui est envoyé au service de découverte automatique.<br/><br/>  **AutoDiscoverSMTPAddress** dans la réponse Autodisover devient la valeur de l’en-tête **X-AnchorMailbox** .  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1. Utilisez l’exemple de code dans cet article, qui [implémente l’API managée EWS](#bk_determineguidewsma). Ou [Utilisez EWS](#bk_determineguidews) et convertir vos résultats pour obtenir un GUID.<br/><br/>2. [effectuer une requête de découverte automatique](#bk_makeautodrequest) à l’aide du GUID ainsi que le nom de domaine.<br/><br/>3. Utilisez la valeur de l’élément **AutoDiscoverSMTPAddress** retourné dans la réponse de découverte automatique pour [remplir la valeur des en-têtes](#bk_setheadervalues).  <br/> |
-|**X-PublicFolderMailbox** <br/> |Votre travail est terminé, la valeur X-PublicFolderMailbox est identique à la valeur X-AnchorMailbox !  <br/> |Vous avez déjà il !  <br/> |
+|**X-AnchorMailbox** <br/> |1. [les valeurs x-AnchorMailbox et x-PublicFolderInformation](how-to-route-public-folder-hierarchy-requests.md) pour la boîte aux lettres de la hiérarchie de dossiers publics.<br/><br/>2. le GUID de la boîte aux lettres de dossiers publics qui contient le contenu de la boîte aux lettres, qui est envoyé au service de découverte automatique.<br/><br/>  La **AutoDiscoverSMTPAddress** dans la réponse découverte automatique devient la valeur de l’en-tête **X-AnchorMailbox** .  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1. Utilisez l’exemple de code de cet article, qui [implémente l’API managée EWS](#bk_determineguidewsma). Vous pouvez [utiliser EWS](#bk_determineguidews) et convertir vos résultats pour obtenir un GUID.<br/><br/>2. [effectuez une demande de découverte automatique](#bk_makeautodrequest) à l’aide du GUID plus le nom de domaine.<br/><br/>3. Utilisez la valeur de l’élément **AutoDiscoverSMTPAddress** renvoyée dans la réponse de découverte automatique pour [renseigner la valeur des en-têtes](#bk_setheadervalues).  <br/> |
+|**X-PublicFolderMailbox** <br/> |Votre travail est fini, la valeur X-PublicFolderMailbox est la même que la valeur X-AnchorMailbox !  <br/> |Vous avez déjà fait !  <br/> |
    
-Une fois que vous avez déterminé les valeurs d’en-tête, ajoutez-les [lorsque vous effectuez des demandes de contenu de dossier public](#bk_setheadervalues).
+Une fois que vous avez déterminé les valeurs d’en-tête, incluez-les [lorsque vous effectuez des demandes de contenu de dossier public](#bk_setheadervalues).
   
-Les étapes décrites dans cet article sont spécifiques aux demandes de contenu de dossier public. Pour déterminer si votre demande est une hiérarchie de dossiers publics ou d’une requête de contenu, voir les [demandes de dossiers publics de routage](public-folder-access-with-ews-in-exchange.md#bk_routing).
+Les étapes décrites dans cet article sont spécifiques aux demandes de contenu de dossier public. Pour déterminer si votre requête est une hiérarchie de dossiers publics ou une demande de contenu, consultez la rubrique [Routing Public Folder requests](public-folder-access-with-ews-in-exchange.md#bk_routing).
 
 <a name="bk_determineguidewsma"> </a>
 
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>Déterminez le GUID de la boîte aux lettres de dossiers publics à l’aide de l’API managée EWS
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-the-ews-managed-api"></a>Déterminer le GUID de la boîte aux lettres de dossiers publics à l’aide de l’API managée EWS
 
 
-Pour déterminer le GUID de la boîte aux lettres de contenu de dossiers publics, utilisez l’exemple de code suivant, qui effectue les opérations suivantes : 
+Pour déterminer le GUID de la boîte aux lettres de contenu des dossiers publics, utilisez l’exemple de code suivant : 
   
-- Utilise les en-têtes **X-AnchorMailbox** et **X-PublicFolderInformation** que vous avez récupéré par [routage demandes de hiérarchie de dossiers publics](how-to-route-public-folder-hierarchy-requests.md).
+- Utilise les en-têtes **x-AnchorMailbox** et **x-PublicFolderInformation** que vous avez récupérés en [acheminant les requêtes de hiérarchie de dossiers publics](how-to-route-public-folder-hierarchy-requests.md).
     
-- Appelle la méthode API managées [FindFolders](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) et comprend une demande pour la propriété **PR_REPLICA_LIST** (0x66980102) 
+- Appelle la méthode [FindFolders](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) de l’API managée EWS et inclut une demande pour la propriété **PR_REPLICA_LIST** (0x66980102) 
     
-La valeur **PR_REPLICA_LIST** identifie le GUID de la boîte aux lettres de dossiers publics dont le contenu du dossier de boîte aux lettres. La propriété **PR_REPLICA_LIST** est un tableau d’octets, mais est convertie sous forme de GUID pour ce scénario. Le GUID et le nom de domaine sont concaténées pour former l’adresse appeler le service de découverte automatique. 
+La valeur **PR_REPLICA_LIST** identifie le GUID de boîte aux lettres de la boîte aux lettres de dossiers publics dont le contenu est associé au dossier. La propriété **PR_REPLICA_LIST** est un tableau d’octets, mais est castée en tant que GUID pour ce scénario. Le GUID et le nom de domaine sont concaténés pour former l’adresse sur laquelle appeler la découverte automatique. 
   
-Cet exemple suppose que `service` est l’objet [ExchangeService](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) pour l’utilisateur de boîte aux lettres, `PFHAnchorHeader` et `PFHMailboxHeader` sont les valeurs des en-têtes **X-AnchorMailbox** et **X-PublicFolderMailbox** et de domaine est le nom de domaine utilisé par le client. 
+Cet exemple suppose qu’il `service` s’agit de l’objet [ExchangeService](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) pour l’utilisateur de boîte aux lettres et qu’il s’agit des `PFHAnchorHeader` `PFHMailboxHeader` valeurs des en-têtes **x-AnchorMailbox** et **x** , et que Domain est le nom de domaine utilisé par le client. 
   
 ```cs
 public static string GetMailboxGuidAddress(ExchangeService service, String PFHAnchorHeader, String PFHMailboxHeader, String domain)
@@ -103,17 +103,17 @@ public static string CompareGuidsForEquality(List<string> list)
 }
 ```
 
-Si vous avez reçu l’erreur « échouée de la demande. La connexion sous-jacente a été fermée : Impossible d’établir une relation d’approbation pour le canal sécurisé SSL/TLS », vous devez [Ajouter un appel à une méthode de rappel de validation](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). Un espace réservé et un commentaire pour cette méthode est inclus dans l’exemple de code.
+Si vous avez reçu l’erreur «la demande a échoué. La connexion sous-jacente a été fermée : impossible d’établir une relation de confiance pour le canal sécurisé SSL/TLS ", vous devrez [Ajouter un appel à une méthode de rappel de validation](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). Un espace réservé et un commentaire pour cette méthode sont inclus dans l’exemple de code.
   
-Si le GUID de la boîte aux lettres est le même pour tous les dossiers publics sous la racine du dossier public, l’exemple indique l’adresse à utiliser pour [appeler la découverte automatique](#bk_makeautodrequest) dans la console de sortie ou comme valeur de retour. Si le GUID de la boîte aux lettres n’est pas le même pour tous les dossiers publics sous la racine du dossier public, vous devez [effectuer une requête de découverte automatique](#bk_makeautodrequest) de l’adresse associée au dossier dans votre requête de contenu. 
+Si le GUID de boîte aux lettres est le même pour tous les dossiers publics sous la racine de dossier public, l’exemple indique l’adresse à utiliser lors de l’appel de la [découverte automatique](#bk_makeautodrequest) dans la sortie de la console et en tant que valeur de retour. Si le GUID de boîte aux lettres n’est pas le même pour tous les dossiers publics sous la racine de dossier public, vous devez [effectuer une demande de découverte automatique](#bk_makeautodrequest) sur l’adresse associée au dossier dans votre demande de contenu. 
 
 <a name="bk_determineguidews"> </a>
 
-## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Déterminez le GUID de la boîte aux lettres de dossiers publics à l’aide de EWS
+## <a name="determine-the-guid-of-the-public-folder-mailbox-by-using-ews"></a>Déterminer le GUID de la boîte aux lettres de dossiers publics à l’aide d’EWS
 
-L’exemple de code suivant montre comment récupérer la valeur de la propriété **PR_REPLICA_LIST** (0x66980102) à l’aide de l’opération EWS [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) . Pour l’élément [ExtendedFieldURI](http://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) , l’attribut **PropertyTag** est défini à la valeur décimale (26264) de la propriété **PR_REPLICA_LIST** et l’attribut **PropertyType** a la valeur **binaire**.
+L’exemple de code suivant montre comment extraire la valeur de la propriété **PR_REPLICA_LIST** (0x66980102) à l’aide de l’opération EWS [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) . Pour l' [élément ExtendedFieldURI](https://msdn.microsoft.com/library/b3c6ea3a-9ead-44b9-9d99-64ecf12bde23%28Office.15%29.aspx) , l’attribut **PropertyTag** est défini sur la valeur décimale (26264) de la propriété **PR_REPLICA_LIST** et l’attribut **PropertyType** a la valeur **Binary**.
   
-C’est également la demande XML qui envoie de l’API managée EWS lorsque vous utilisez la méthode **FindFolders** pour [déterminer le GUID de la boîte aux lettres de dossiers publics à l’aide de l’API managée EWS](#bk_determineguidewsma).
+Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez la méthode **FindFolders** pour [déterminer le GUID de la boîte aux lettres de dossiers publics à l’aide de l’API managée EWS](#bk_determineguidewsma).
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -127,7 +127,7 @@ Cookie: ClientId=KZPBLKA9ZMPXAQDW
 Content-Length: 1005
 Expect: 100-continue
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -149,15 +149,15 @@ Expect: 100-continue
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **FindFolder** avec un message [FindFolderResponse](http://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) qui inclut la valeur de la **PR_REPLICA_LIST** propriété étendue. Notez que la valeur de la propriété apparaît dans la réponse EWS comme le format de chaîne de base-64 codé tableau d’octets. Certaines valeurs d’en-tête dans la réponse sont raccourcis pour améliorer la lisibilité. 
+Le serveur répond à la demande **FindFolder** avec un message [FindFolderResponse](https://msdn.microsoft.com/library/f5dd813c-9698-4a39-8fca-3a825df365ed%28Office.15%29.aspx) qui inclut la valeur de la propriété étendue **PR_REPLICA_LIST** . Notez que la valeur de la propriété apparaît sur la réponse EWS en tant que format de chaîne d’un tableau d’octets encodé en base 64. Certaines valeurs d’en-tête dans la réponse sont raccourcies pour des raisons de lisibilité. 
   
 ```XML
-<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="1019" MinorBuildNumber="15" Version="V2_17" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="1019" MinorBuildNumber="15" Version="V2_17" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body>
-    <m:FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -188,65 +188,66 @@ Le serveur répond à la demande **FindFolder** avec un message [FindFolderRespo
 </s:Envelope>
 ```
 
-Pour pouvoir utiliser la valeur de la **PR_REPLICA_LIST** renvoyée dans le fichier XML, MWVjMmEyMzYtZWQ5My00Zjg4LWI5YzYtMzNlNjNmYTRhYTQ0AA ==, pour déterminer le GUID de la boîte aux lettres, la valeur doit être convertie en un GUID dans un format semblable à la façon dont la valeur est convertie dans la [Exemple de code d’API managées](#bk_determineguidewsma). Le GUID est puis concaténé avec le nom de domaine pour créer une adresse SMTP, qui est incluse dans la [demande de découverte automatique](#bk_makeautodrequest).
+Afin d’utiliser la valeur de la **PR_REPLICA_LIST** renvoyée dans le fichier XML, MWVjMmEyMzYtZWQ5My00Zjg4LWI5YzYtMzNlNjNmYTRhYTQ0AA = =, pour déterminer le GUID de boîte aux lettres, la valeur doit être convertie en GUID dans un format similaire à la façon dont la valeur est convertie dans l’exemple de code de l' [API managée EWS](#bk_determineguidewsma). Le GUID est ensuite concaténé avec le nom de domaine pour créer une adresse SMTP, qui est incluse dans la [demande de découverte automatique](#bk_makeautodrequest).
   
-## <a name="make-an-autodiscover-request"></a>Effectuer une requête de découverte automatique
+## <a name="make-an-autodiscover-request"></a>Faire une demande de découverte automatique
 <a name="bk_makeautodrequest"> </a>
 
-Utiliser l’adresse renvoyée par la `GetMailboxGuidAddress` méthode à appeler le service de découverte automatique. Nous vous conseillons d’utiliser la [Exchange 2013 : obtenir les paramètres utilisateur avec Autodiscover](http://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) exemple de code pour appeler le service de découverte automatique, car elle rationalise le processus de découverte automatique pour vous. Cet exemple de code utilise les arguments de ligne de commande répertoriées dans le tableau suivant pour appeler le service de découverte automatique variole pour récupérer la valeur [AutoDiscoverSMTPAddress](http://msdn.microsoft.com/en-us/library/office/dn750991%28v=exchg.150%29.aspx) associée à la boîte aux lettres GUID. 
+Utilisez l’adresse renvoyée par la `GetMailboxGuidAddress` méthode pour appeler autodiscover. Nous vous recommandons d’utiliser l’exemple de code [Exchange 2013 : Get User Settings with Autodiscover](https://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) pour appeler le service de découverte automatique, car il simplifie le processus de découverte automatique pour vous. Cet exemple de code utilise les arguments de ligne de commande figurant dans le tableau suivant pour appeler le service de découverte automatique POX afin de récupérer la valeur [AutoDiscoverSMTPAddress](https://msdn.microsoft.com/library/office/dn750991%28v=exchg.150%29.aspx) associée au GUID de la boîte aux lettres. 
+
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|emailAddress  <br/> |L’adresse renvoyée par la `GetMailboxGuidAddress` méthode dans [Determine le GUID de la boîte aux lettres de dossier public](#bk_determineguidewsma).  <br/> |
-|-skipSOAP  <br/> |Indique que les demandes de découverte automatique variole sont requis.  <br/> |
-|authEmailAddress - auth  <br/> |Adresse de messagerie de l’utilisateur de boîte aux lettres, qui est utilisé pour l’authentification. Vous serez invité à entrer le mot de passe de l’utilisateur de boîte aux lettres lorsque vous exécutez l’exemple.  <br/> |
+|emailAddress  <br/> |Adresse renvoyée par la `GetMailboxGuidAddress` méthode dans [déterminer le GUID de la boîte aux lettres de dossiers publics](#bk_determineguidewsma).  <br/> |
+|-skipSOAP  <br/> |Indique que les demandes de découverte automatique de POX sont requises.  <br/> |
+|-authEmailAddress auth  <br/> |L’adresse de messagerie de l’utilisateur de la boîte aux lettres, qui est utilisée pour l’authentification. Vous serez invité à entrer le mot de passe de l’utilisateur de boîte aux lettres lors de l’exécution de l’exemple.  <br/> |
    
-Par exemple, les arguments de ligne de commande doivent se présenter comme suit :
+Par exemple, les arguments de ligne de commande doivent ressembler à ceci :
   
 `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com -skipSOAP -auth sonyaf@contoso.com`
 
-Où `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com` est l’adresse renvoyée par la méthode **GetMailboxGuidAddress** , et `sonyaf@contoso.com` est l’utilisateur de boîte aux lettres. 
+Où `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com` est l’adresse renvoyée par la méthode **GetMailboxGuidAddress** et `sonyaf@contoso.com` est l’utilisateur de boîte aux lettres. 
   
-Lorsque vous exécutez le **Exchange 2013 : obtenir les paramètres utilisateur avec Autodiscover** exemple, la dernière réponse de découverte automatique doit être réussie et inclure tous les paramètres d’utilisateur associés à la boîte aux lettres GUID. Enregistrer l’utilisateur **AutoDiscoverSMTPAddress** définition localement, que vous allez utiliser que dans l’étape suivante. 
+Lorsque vous exécutez l’exemple de code **Exchange 2013 : Get User Settings with Autodiscover** , la dernière réponse de découverte automatique doit réussir et inclure tous les paramètres utilisateur associés au GUID de la boîte aux lettres. Enregistrez le paramètre utilisateur **AutoDiscoverSMTPAddress** localement, comme vous l’utiliserez à l’étape suivante. 
   
-Sinon, si vous ne souhaitez pas utiliser **Exchange 2013 : obtenir les paramètres utilisateur avec Autodiscover** exemple, vous pouvez obtenir l’utilisateur **AutoDiscoverSMTPAddress** définition en [générant une liste des points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md)et envoyer les éléments suivants Demande de découverte automatique variole à chaque URL jusqu'à ce que vous recevez une réponse positive.
+Sinon, si vous ne souhaitez pas utiliser **Exchange 2013 : Get User Settings with Autodiscover** Sample, vous pouvez obtenir le paramètre utilisateur **AutoDiscoverSMTPAddress** en [générant une liste de points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md), puis en envoyant la demande de découverte automatique pox suivante à chaque URL jusqu’à ce que vous receviez une réponse réussie.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
   <Request>
     <EMailAddress>1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com</EMailAddress>
-    <AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
+    <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
   </Request>
 </Autodiscover>
 ```
 
-Pour plus d’informations sur le processus de découverte automatique, consultez la rubrique [Autodiscover pour Exchange](autodiscover-for-exchange.md), [Générer une liste des points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md)et [obtenir les paramètres utilisateur à partir d’Exchange à l’aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
+Pour plus d’informations sur le processus de découverte automatique, voir [Autodiscover pour Exchange](autodiscover-for-exchange.md), [générer une liste des points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md)et [obtenir les paramètres utilisateur à partir d’Exchange à l’aide de la découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
   
-## <a name="set-the-values-of-the-x-anchormailbox-and-x-publicfoldermailbox-headers"></a>Définissez les valeurs des en-têtes X-AnchorMailbox et X-PublicFolderMailbox
+## <a name="set-the-values-of-the-x-anchormailbox-and-x-publicfoldermailbox-headers"></a>Définir les valeurs des en-têtes X-AnchorMailbox et X-PublicFolderMailbox
 <a name="bk_setheadervalues"> </a>
 
-La valeur pour **AutoDiscoverSMTPAddress** acquis dans [créer une demande de découverte automatique](#bk_makeautodrequest), définissez les valeurs des en-têtes **X-AnchorMailbox** et **X-PublicFolderMailbox** dans votre requête de contenu de dossier public. 
+À l’aide de la valeur pour le **AutoDiscoverSMTPAddress** acquis dans [Make a Autodiscover Request](#bk_makeautodrequest), définissez les valeurs des en-têtes **x-AnchorMailbox** et **x** dans la demande de contenu de dossier public. 
   
-Par exemple, étant donné un AutoDiscoverSMTPAddress de NewPublicFolder@contoso.com, inclure les en-têtes suivants lorsque vous faites appel aux méthodes suivantes ou aux opérations.
+Par exemple, étant donné un AutoDiscoverSMTPAddress de NewPublicFolder@contoso.com, incluez les en-têtes suivants lors des appels aux méthodes ou opérations suivantes.
   
 `X-AnchorMailbox: NewPublicFolder@contoso.com`<br/>
 `X-PublicFolderMailbox: NewPublicFolder@contoso.com`
 
-**Appels de dossier public qui nécessitent les en-têtes X-AncorMailbox et X-PublicFolder**
+**Appels de dossier public nécessitant les en-têtes X-AncorMailbox et X-PublicFolder**
 
 |**Méthodes d'API managée EWS**|**Opérations EWS**|
 |:-----|:-----|
-|[Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item.Copy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item.Move](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](http://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](http://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
+|[Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) <br/> [Item.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.update%28v=exchg.80%29.aspx) <br/> [Item. Copy](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.copy%28v=exchg.80%29.aspx) <br/> [Item. Move](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.move%28v=exchg.80%29.aspx) <br/> [Item.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.delete%28v=exchg.80%29.aspx) <br/> [Folder. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) <br/> [Folder. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) <br/> [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> [CopyItem](https://msdn.microsoft.com/library/bcc68f9e-d511-4c29-bba6-ed535524624a%28Office.15%29.aspx) <br/> [MoveItem](https://msdn.microsoft.com/library/dcf40fa7-7796-4a5c-bf5b-7a509a18d208%28Office.15%29.aspx) <br/> [DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |
    
-Pour ajouter ces en-têtes à l’aide de l’API managée EWS, utilisez la méthode [HttpHeaders.Add](http://msdn.microsoft.com/en-us/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
+Pour ajouter ces en-têtes à l’aide de l’API managée EWS, utilisez la méthode [HttpHeaders. Add](https://msdn.microsoft.com/library/system.net.http.headers.httpheaders.add%28v=vs.118%29.aspx) . 
   
 ```cs
 service.HttpHeaders.Add("X-AnchorMailbox", "NewPublicFolder@contoso.com");
 service.HttpHeaders.Add("X-PublicFolderMailbox", "NewPublicFolder@contoso.com");
 ```
 
-Le code suivant illustre une demande [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) avec l’en-tête **X-AnchorMailbox** et **X-PublicFolderMailbox** les valeurs récupérées dans les exemples de cet article. 
+Le code suivant montre une demande [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) avec l’en-tête **x-AnchorMailbox** et **x-PublicFolderMailbox** défini sur les valeurs récupérées dans les exemples de cet article. 
   
 ```XML
 POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
@@ -259,7 +260,7 @@ Host: outlook.office365.com
 Content-Length: 688
 Expect: 100-continue
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -281,6 +282,5 @@ Expect: 100-continue
 - [Accéder aux dossiers publics avec EWS dans Exchange](public-folder-access-with-ews-in-exchange.md)    
 - [Découverte automatique pour Exchange](autodiscover-for-exchange.md)    
 - [Générer une liste de points de terminaison de découverte automatique](how-to-generate-a-list-of-autodiscover-endpoints.md)   
-- [Obtenir les paramètres de l’utilisateur Exchange à l’aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
-    
-
+- [Obtenir les paramètres de l'utilisateur Exchange à l'aide de découverte automatique](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+  

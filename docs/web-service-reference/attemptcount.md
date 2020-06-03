@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70399ab7-0530-4d22-9cfb-ffcc58588ef5
-description: L’élément AttemptCount représente le nombre de tentatives qui ont été apportées à l’élément d’index.
-ms.openlocfilehash: b7ad4ce968cb71579bd174500a722df56528656a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AttemptCount représente le nombre de tentatives effectuées pour indexer l’élément.
+ms.openlocfilehash: 90ae6d7e095fcce54709e69c1d6d08075a791178
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755336"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527438"
 ---
 # <a name="attemptcount"></a>AttemptCount
 
-L’élément **AttemptCount** représente le nombre de tentatives qui ont été apportées à l’élément d’index. 
+L’élément **AttemptCount** représente le nombre de tentatives effectuées pour indexer l’élément. 
   
 ```XML
 <AttemptCount></AttemptCount>
@@ -26,11 +26,11 @@ L’élément **AttemptCount** représente le nombre de tentatives qui ont été
  **entier**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de l’élément **AttemptCount** est le nombre de tentatives qui ont été apportées à un élément d’index. 
+La valeur de l’élément **AttemptCount** est le nombre de tentatives effectuées pour indexer un élément. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

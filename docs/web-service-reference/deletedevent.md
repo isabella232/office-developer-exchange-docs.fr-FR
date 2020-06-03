@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: L’élément DeletedEvent représente un événement dans lequel un élément ou un dossier est supprimé.
-ms.openlocfilehash: 5ddc909ffc9c74ea6b423610e915d5b9ff9bff43
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+ms.openlocfilehash: 5eb0c947aacc592f81c595da2cc00bf4874f300b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354406"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526941"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
@@ -45,27 +45,27 @@ L’élément **DeletedEvent** représente un événement dans lequel un éléme
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table d’événements de boîte aux lettres.  <br/> |
-|[TimeStamp](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres supprimé élément ou un dossier.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres.  <br/> |
+|[Dates](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres d’élément ou de dossier supprimé.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier supprimé.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Représente l’identificateur de l’élément supprimé.  <br/> |
-|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément supprimé ou du dossier avant la suppression.  <br/> |
+|[ItemId](itemid.md) <br/> |Représente l’identificateur de l’élément supprimé.  <br/> |
+|[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément ou du dossier supprimé avant la suppression.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.  <br/> |
+|[Notification](notification-ex15websvcsotherref.md) <br/> |Contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -75,7 +75,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

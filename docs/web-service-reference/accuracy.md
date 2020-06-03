@@ -1,5 +1,5 @@
 ---
-title: Précision
+title: Efficacité
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e0d14b7f-5bde-4c0b-b6f7-816d11081286
-description: L’élément de précision spécifie la précision de la latitude et longitude de l’adresse postale associée.
-ms.openlocfilehash: 8960364477e1fd251ee8505d0f8b07d5a922cd93
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément précision indique la précision de la latitude et de la longitude de l’adresse postale associée.
+ms.openlocfilehash: ab251caee427a5209482eb9381fd2e243bc3a3d6
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756309"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527550"
 ---
-# <a name="accuracy"></a>Précision
+# <a name="accuracy"></a>Efficacité
 
-L’élément de **précision** spécifie la précision de la latitude et longitude de l’adresse postale associée. 
+L’élément **précision** indique la précision de la latitude et de la longitude de l’adresse postale associée. 
   
 ```XML
 <Accuracy></Accuracy>
 ```
 
- **xs : double**
+ **XS : double**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Spécifie l’adresse postale pour un personnage.  <br/> |
+|[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Spécifie l’adresse postale d’un personnage.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

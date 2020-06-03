@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: b42fb512-2ae4-4072-906a-ccebb85edb84
-description: L’opération DisconnectPhoneCall met fin à l’appel téléphonique.
-ms.openlocfilehash: 4bd68dd40f831794072263b487255330ea31d7bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération DisconnectPhoneCall termine l’appel téléphonique.
+ms.openlocfilehash: e337185bc2d5c4d2d4e010605816eacea8dfa0ee
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755965"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529062"
 ---
 # <a name="disconnectphonecall-operation"></a>Opération DisconnectPhoneCall
 
-L’opération **DisconnectPhoneCall** met fin à l’appel téléphonique. 
+L’opération **DisconnectPhoneCall** termine l’appel téléphonique. 
   
 ## <a name="disconnectphonecall-request-example"></a>Exemple de requête DisconnectPhoneCall
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande **DisconnectPhoneCall** montre comment former une demande de déconnexion d’un appel téléphonique. 
+L’exemple de requête **DisconnectPhoneCall** suivant indique comment créer une demande de déconnexion d’un appel téléphonique. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -53,7 +53,7 @@ L’exemple suivant d’une demande **DisconnectPhoneCall** montre comment forme
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande **DisconnectPhoneCall** . 
+L’exemple suivant montre une réponse réussie à la demande **DisconnectPhoneCall** . 
   
 ### <a name="code"></a>Code
 
@@ -66,15 +66,15 @@ L’exemple suivant montre une réponse positive à la demande **DisconnectPhone
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <DisconnectPhoneCallResponse ResponseClass="Success" 
-                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
     </DisconnectPhoneCallResponse>
   </s:Body>

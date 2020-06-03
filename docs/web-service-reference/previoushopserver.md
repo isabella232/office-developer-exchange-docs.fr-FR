@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 74456709-1250-4943-bae0-11a3db44a684
-description: L’élément PreviousHopServer représente le nom du serveur précédent qui a accepté le message.
-ms.openlocfilehash: d9641fdba3b7ef5b487139074c8e475edec9e74c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PreviousHopServer représente le nom de serveur précédent qui a accepté le message.
+ms.openlocfilehash: f85896107c720179d76e0cbeb31588e17c1f3d95
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828879"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528878"
 ---
 # <a name="previoushopserver"></a>PreviousHopServer
 
-L’élément **PreviousHopServer** représente le nom du serveur précédent qui a accepté le message. 
+L’élément **PreviousHopServer** représente le nom de serveur précédent qui a accepté le message. 
   
 ```XML
 <PreviousHopServer/>
@@ -30,11 +30,11 @@ L’élément **PreviousHopServer** représente le nom du serveur précédent qu
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique d’un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une chaîne est obligatoire si cet élément est utilisé.
+Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

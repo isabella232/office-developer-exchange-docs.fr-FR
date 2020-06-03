@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 085384f9-dca4-4534-82e2-dd782471d0da
-description: L’élément DiscoverySearchConfiguration spécifie la configuration de recherche de découverte électronique.
-ms.openlocfilehash: 11bf90d8fe73bb0b308deb7ae51f1443488f87e2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DiscoverySearchConfiguration spécifie la configuration de la recherche de découverte électronique.
+ms.openlocfilehash: 8819d951f35ccc215bdf0128d2a16b60bbf20f2a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755971"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529055"
 ---
 # <a name="discoverysearchconfiguration"></a>DiscoverySearchConfiguration
 
-L’élément **DiscoverySearchConfiguration** spécifie la configuration de recherche de découverte électronique. 
+L’élément **DiscoverySearchConfiguration** spécifie la configuration de la recherche de découverte électronique. 
   
 ```XML
 <DiscoverySearchConfiguration>
@@ -30,19 +30,19 @@ L’élément **DiscoverySearchConfiguration** spécifie la configuration de rec
  **DiscoverySearchConfigurationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur SearchId](searchid.md) <br/> |Spécifie l’identificateur de la recherche.  <br/> |
+|[SearchId](searchid.md) <br/> |Spécifie l’identificateur de la recherche.  <br/> |
 |[SearchQuery](searchquery.md) <br/> |Spécifie le nom d’une requête de recherche de découverte électronique.  <br/> |
-|[SearchableMailboxes](searchablemailboxes.md) <br/> |Contient une liste des boîtes aux lettres renvoyé à partir d’une demande **GetSearchableMailboxes** .  <br/> |
+|[SearchableMailboxes](searchablemailboxes.md) <br/> |Contient une liste des boîtes aux lettres renvoyées par une demande **GetSearchableMailboxes** .  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

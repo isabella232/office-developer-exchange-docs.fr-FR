@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 54fcd4ab-bfab-4b69-9841-d2ac827f4d45
-description: L’élément BusinessName Spécifie le nom de l’entreprise.
-ms.openlocfilehash: e266535eafac44a1c118bb86dec7bc72bfa34010
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BusinessName spécifie le nom d’une entreprise.
+ms.openlocfilehash: cea37d61b9614084db7cf9532e5e55ec4f438554
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755449"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527200"
 ---
 # <a name="businessname"></a>BusinessName
 
-L’élément **BusinessName** Spécifie le nom de l’entreprise. 
+L’élément **BusinessName** spécifie le nom d’une entreprise. 
   
 ```XML
 <BusinessName></BusinessName>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contact (TypeContact)](contact-contacttype.md) <br/> |Spécifie un contact dans le magasin de contacts unifié.  <br/> |
+|[Contact (ContactType)](contact-contacttype.md) <br/> |Spécifie un contact dans le magasin de contacts unifié.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **BusinessName** est le nom de l’entreprise. 
+La valeur de texte de l’élément **BusinessName** est le nom d’une entreprise. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

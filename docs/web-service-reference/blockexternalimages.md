@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5c754dfc-a9e9-4272-9b5f-5fe3db537e62
-description: L’élément BlockExternalImages Spécifie si les images externes sont bloqués dans le corps de texte HTML.
-ms.openlocfilehash: 41ab2ec7ec1c24ccbbef037ef1e27431c1fe6811
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BlockExternalImages spécifie si les images externes sont bloquées dans les corps de texte HTML.
+ms.openlocfilehash: 73342316024ebe476a0e35f14157befc80edcf83
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755388"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527403"
 ---
 # <a name="blockexternalimages"></a>BlockExternalImages
 
-L’élément **BlockExternalImages** Spécifie si les images externes sont bloqués dans le corps de texte HTML. 
+L’élément **BlockExternalImages** spécifie si les images externes sont bloquées dans les corps de texte html. 
   
 ```XML
 <BlockExternalImages> true | false </BlockExternalImages>
@@ -26,11 +26,11 @@ L’élément **BlockExternalImages** Spécifie si les images externes sont bloq
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,12 +40,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |Identifie les propriétés du dossier à inclure dans la réponse GetFolder, FindFolder ou SyncFolderHierarchy.  <br/> |
-|[ItemShape](itemshape.md) <br/> |Identifie les propriétés de l’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> |
+|[FolderShape](foldershape.md) <br/> |Identifie les propriétés de dossier à inclure dans la réponse GetFolder, FindFolder ou Opérationsyncfolderhierarchy.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifie les propriétés d’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **BlockExternalImages** indique que des images externes sont bloqués dans le corps HTML. La valeur **false** indique que les images externes sont autorisées. 
+Une valeur de texte de **true** pour l’élément **BlockExternalImages** indique que les images externes sont bloquées dans les corps HTML. La valeur **false** indique que les images externes sont autorisées. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,9 +57,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 77d2d222-320b-4aab-88e4-934ef177f55c
-description: L’élément DestinationFolderId indique le dossier de destination de copie et les actions de déplacement.
-ms.openlocfilehash: bfbacb9c82a681c7963ab5164c43cbb648e726cd
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément DestinationFolderId indique le dossier de destination pour les actions de copie et de déplacement.
+ms.openlocfilehash: dbfd25084dbd4ea9d5f4ddf98b256d02e71139d3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353377"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526913"
 ---
 # <a name="destinationfolderid"></a>DestinationFolderId
 
-L’élément **DestinationFolderId** indique le dossier de destination de copie et les actions de déplacement. 
+L’élément **DestinationFolderId** indique le dossier de destination pour les actions de copie et de déplacement. 
   
 - [ApplyConversationAction](applyconversationaction.md)  
 - [ConversationActions](conversationactions.md) 
@@ -44,24 +44,24 @@ L’élément **DestinationFolderId** indique le dossier de destination de copie
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et modification du dossier de destination.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers qui peuvent être référencés par un nom.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification du dossier de destination.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers qui peuvent être référencés par leur nom.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -75,7 +75,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

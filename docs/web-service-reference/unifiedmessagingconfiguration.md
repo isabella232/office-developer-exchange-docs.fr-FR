@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: cbdb4268-077e-44ed-8ec2-9d759c84cc6d
-description: L’élément UnifiedMessagingConfiguration contient des informations de configuration de service pour le service de messagerie unifiée.
-ms.openlocfilehash: 3ad8f66ecdf21062c00c2a6ac6f65fac875da38c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UnifiedMessagingConfiguration contient les informations de configuration de service pour le service de messagerie unifiée.
+ms.openlocfilehash: 3f9f4ed65721929c552615c07e2239f48ef837f3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838805"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528691"
 ---
 # <a name="unifiedmessagingconfiguration"></a>UnifiedMessagingConfiguration
 
-L’élément **UnifiedMessagingConfiguration** contient des informations de configuration de service pour le service de messagerie unifiée. 
+L’élément **UnifiedMessagingConfiguration** contient les informations de configuration de service pour le service de messagerie unifiée. 
   
 ```XML
 <UnifiedMessagingConfiguration>
@@ -34,25 +34,25 @@ L’élément **UnifiedMessagingConfiguration** contient des informations de con
  **UnifiedMessageServiceConfiguration**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[UmEnabled](umenabled.md) <br/> |Indique si la messagerie unifiée est activée pour un compte. Cet élément est obligatoire.  <br/> |
-|[PlayOnPhoneDialString (Exchange Web Services)](playonphonedialstring-exchange-web-services.md) <br/> |Identifie la chaîne de numérotation lire sur le téléphone. Cet élément est obligatoire.  <br/> |
-|[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indique si la fonctionnalité de lecture sur le téléphone est activée. Cet élément est obligatoire.  <br/> |
+|[PlayOnPhoneDialString (services Web Exchange)](playonphonedialstring-exchange-web-services.md) <br/> |Identifie la chaîne de numérotation d’émission sur téléphone. Cet élément est obligatoire.  <br/> |
+|[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indique si la fonctionnalité d’émission sur téléphone est activée. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contient les paramètres de configuration de service.  <br/> |
+|[ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md) <br/> |Contient les paramètres de configuration du service.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,34 +1,34 @@
 ---
-title: Ajouter et supprimer des adresses de messagerie à partir de la liste des expéditeurs bloqués à l’aide de EWS dans Exchange
+title: Ajouter et supprimer des adresses de messagerie de la liste des expéditeurs bloqués à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b88288ee-6af7-45b5-a55c-5929cd0c16f1
-description: Découvrez comment utiliser les API managées EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.
-ms.openlocfilehash: c03ed585ebd62802000179d8c837786ba5f9aab4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment utiliser l’API managée EWS ou EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.
+ms.openlocfilehash: 270613a739acba165c7bac1bd2c1ef275b5d3aca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754783"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528278"
 ---
-# <a name="add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews-in-exchange"></a>Ajouter et supprimer des adresses de messagerie à partir de la liste des expéditeurs bloqués à l’aide de EWS dans Exchange
+# <a name="add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews-in-exchange"></a>Ajouter et supprimer des adresses de messagerie de la liste des expéditeurs bloqués à l’aide d’EWS dans Exchange
 
-Découvrez comment utiliser les API managées EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.
+Découvrez comment utiliser l’API managée EWS ou EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.
   
-La liste des expéditeurs bloqués dans options du courrier indésirable d’un utilisateur fournit un moyen pour déplacer tous les messages électroniques provenant d’expéditeurs spécifiés vers le dossier courrier indésirable. Vous pouvez activer votre API managées ou les applications EWS ajouter des adresses de messagerie ou de les supprimer de la liste des expéditeurs bloqués.
+La liste des expéditeurs bloqués dans les options de courrier indésirable d’un utilisateur permet de déplacer tous les messages électroniques provenant d’expéditeurs spécifiques vers le dossier courrier indésirable. Vous pouvez activer votre API managée EWS ou votre application EWS pour ajouter ou supprimer des adresses de messagerie de la liste des expéditeurs bloqués.
   
-Notez qu’un message à partir de l’adresse de messagerie doit exister dans la boîte aux lettres de l’utilisateur avant de pouvoir ajouter l’adresse de messagerie ou supprimer de la liste des expéditeurs bloqués. La méthode [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) API managées et l’opération EWS [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) utilisent une collection d’ID d’élément. L’élément ID dans la collection indiquent des messages dans la boîte aux lettres pour laquelle l’état de courrier indésirable doit être modifiée. 
+Notez qu’un message provenant de l’adresse de messagerie doit figurer dans la boîte aux lettres de l’utilisateur avant de pouvoir ajouter l’adresse de messagerie ou la supprimer de la liste des expéditeurs bloqués. La méthode de l’API managée EWS [ExchangeService. MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) et l’opération EWS [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) utilisent une collection d’ID d’élément. Les ID d’élément dans la collection indiquent les messages de la boîte aux lettres pour lesquels l’état du courrier indésirable doit être modifié. 
   
-Vous pouvez utiliser les applets de commande [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979784%28v=exchg.150%29.aspx) et [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell pour accéder directement à la liste des expéditeurs bloqués. 
+Vous pouvez utiliser les cmdlets [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx) et [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell pour accéder directement à la liste des expéditeurs bloqués. 
   
-## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-the-ews-managed-api"></a>Ajouter une adresse de messagerie ou le supprimer de la liste des expéditeurs bloqués à l’aide de l’API managée EWS
+## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-the-ews-managed-api"></a>Ajouter une adresse de messagerie ou la supprimer de la liste des expéditeurs bloqués à l’aide de l’API managée EWS
 <a name="bk_AddRemoveEWSMA"> </a>
 
-Pour ajouter l’expéditeur d’un message électronique à la liste des expéditeurs bloqués, utilisez la méthode **MarkAsJunk** et définissez le paramètre **isJunk** sur **true**. Pour supprimer l’expéditeur d’un message électronique à partir de la liste des expéditeurs bloqués, définissez le paramètre **isJunk** sur **false**.
+Pour ajouter l’expéditeur d’un message électronique à la liste des expéditeurs bloqués, utilisez la méthode **MarkAsJunk** et définissez le paramètre **isJunk** sur **true**. Pour supprimer l’expéditeur d’un message électronique de la liste des expéditeurs bloqués, définissez le paramètre **isJunk** sur **false**.
   
-L’exemple suivant montre comment utiliser la méthode **MarkAsJunk** pour modifier l’état d’un message de courrier indésirable. 
+L’exemple suivant montre comment utiliser la méthode **MarkAsJunk** pour modifier l’état de courrier indésirable d’un message. 
   
 ```cs
 private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId, bool isJunk, bool moveItem)
@@ -67,17 +67,17 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 }
 ```
 
-## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-ews"></a>Ajouter une adresse de messagerie ou le supprimer de la liste des expéditeurs bloqués à l’aide de EWS
+## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-ews"></a>Ajouter une adresse de messagerie ou la supprimer de la liste des expéditeurs bloqués à l’aide d’EWS
 <a name="bk_AddRemoveEWS"> </a>
 
-La demande SOAP EWS suivante marque un élément comme courrier indésirable en définissant l’attribut **IsJunk** sur l’élément [MarkAsJunk](http://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) la **valeur true**. Il déplace également le message vers le dossier courrier indésirable en définissant l’attribut **MoveItem** sur l’élément **MarkAsJunk** la **valeur true**.
+La demande SOAP EWS suivante marque un élément comme courrier indésirable en définissant l’attribut **IsJunk** de l’élément [MarkAsJunk](https://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) sur **true**. Il déplace également le message vers le dossier courrier indésirable en définissant l’attribut **MoveItem** de l’élément **MarkAsJunk** sur **true**.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -92,21 +92,21 @@ La demande SOAP EWS suivante marque un élément comme courrier indésirable en 
 </soap:Envelope>
 ```
 
-La réponse SOAP EWS suivante montre la réponse correcte. L’élément [MovedItemId](http://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) dans la réponse contient l’ID d’élément de l’élément après que qu’il a été déplacé. 
+La réponse SOAP EWS suivante indique la réponse réussie. L’élément [MovedItemId](https://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) dans la réponse contient l’ID de l’élément après qu’il a été déplacé. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:MarkAsJunkResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -122,10 +122,10 @@ La réponse SOAP EWS suivante montre la réponse correcte. L’élément [MovedI
 ## <a name="see-also"></a>Voir aussi
 
 - [Gestion de la boîte de réception et EWS dans Exchange](inbox-management-and-ews-in-exchange.md)   
-- [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
-- [Opération MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
-- [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979784%28v=exchg.150%29.aspx)   
-- [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979780%28v=exchg.150%29.aspx) 
+- [ExchangeService. MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
+- [Opération MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
+- [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx)   
+- [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) 
 - [Exchange Management Shell](../management/exchange-management-shell.md)
     
 

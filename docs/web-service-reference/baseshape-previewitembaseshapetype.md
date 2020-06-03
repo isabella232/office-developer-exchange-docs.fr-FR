@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b9e2fdd-5678-4178-9297-7f12a3ca9d64
-description: L’élément BaseShape Spécifie l’aperçu avec toutes les propriétés renvoyées par défaut ou un aperçu compact avec moins de propriétés retournés.
-ms.openlocfilehash: 1f060ae9adf52cc2916a634e3d954e3fc0903941
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément BaseShape spécifie l’aperçu par défaut avec toutes les propriétés renvoyées ou un aperçu compact avec moins de propriétés renvoyées.
+ms.openlocfilehash: 29f008840d649f97dfb299fee8e7bf5aaa573404
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755375"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527417"
 ---
 # <a name="baseshape-previewitembaseshapetype"></a>BaseShape (PreviewItemBaseShapeType)
 
-L’élément **BaseShape** Spécifie l’aperçu avec toutes les propriétés renvoyées par défaut ou un aperçu compact avec moins de propriétés retournés. 
+L’élément **BaseShape** spécifie l’aperçu par défaut avec toutes les propriétés renvoyées ou un aperçu compact avec moins de propriétés renvoyées. 
   
 ```XML
 <BaseShape> Default | Compact</BaseShape>
@@ -26,11 +26,11 @@ L’élément **BaseShape** Spécifie l’aperçu avec toutes les propriétés r
  **PreviewItemBaseShapeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -42,14 +42,14 @@ Aucun.
 |:-----|:-----|
 |[PreviewItemResponseShape](previewitemresponseshape.md) <br/> |Contient la forme de la réponse.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-**Valeurs de texte des éléments BaseShape**
+**Valeurs de texte de l’élément BaseShape**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Default (Défaut)  <br/> |Indique que toutes les propriétés sont affichées.  <br/> |
-|Compacter  <br/> |Indique que seules les propriétés sélectionnées sont affichées.  <br/> |
+|Par défaut  <br/> |Indique que toutes les propriétés sont affichées.  <br/> |
+|Compact  <br/> |Indique que seules les propriétés sélectionnées sont affichées.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,9 +61,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

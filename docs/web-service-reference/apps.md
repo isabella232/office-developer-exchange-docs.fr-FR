@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f6f0a2ca-22dd-4789-9eed-f0c1ec9036c4
-description: L’élément applications contient des informations sur tous les fichiers de manifeste XML pour les applications installées dans une boîte aux lettres.
-ms.openlocfilehash: 81b0cb76b02fcc9145f6d70eff12a0a0ac0ad51f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Apps contient des informations sur tous les fichiers manifeste XML pour les applications installées dans une boîte aux lettres.
+ms.openlocfilehash: b2d6f13241f68cbed449a9f9821f9a6ec6ff687a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755310"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527445"
 ---
 # <a name="apps"></a>Applications
 
-L’élément **applications** contient des informations sur tous les fichiers de manifeste XML pour les applications installées dans une boîte aux lettres. 
+L’élément **apps** contient des informations sur tous les fichiers manifeste XML pour les applications installées dans une boîte aux lettres. 
   
 ```XML
 <Apps>
@@ -27,11 +27,11 @@ L’élément **applications** contient des informations sur tous les fichiers d
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -51,9 +51,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Not applicable  <br/> |
+|Fichier de validation  <br/> |Non applicable  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

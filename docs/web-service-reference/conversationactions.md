@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3d6c663d-4bd9-4eec-b95a-cd683f592672
-description: L’élément ConversationActions contient une collection des conversations et les actions à appliquer à leur.
-ms.openlocfilehash: 3dff7ff66f758f1cd2eb3cd7b8126294d2799fc0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConversationActions contient une collection de conversations et les actions à leur appliquer.
+ms.openlocfilehash: 2db84f78b4b8c92e0a6ef7d69fba7c778fb5f96d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755641"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527102"
 ---
 # <a name="conversationactions"></a>ConversationActions
 
-L’élément **ConversationActions** contient une collection des conversations et les actions à appliquer à leur. 
+L’élément **ConversationActions** contient une collection de conversations et les actions à leur appliquer. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -36,23 +36,23 @@ L’élément **ConversationActions** contient une collection des conversations 
  **NonEmptyArrayOfApplyConversationActionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ApplyConversationAction](applyconversationaction.md) <br/> |Définit une demande pour appliquer des actions à des éléments dans une conversation.  <br/> |
+|[ApplyConversationAction](applyconversationaction.md) <br/> |Définit une demande d’application d’actions à des éléments d’une conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,9 +66,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e61154f7-d262-43ec-b2bf-1ba6804b28dc
-description: L’élément NumberOfMembersWithConflict représente le nombre de membres de liste de distribution qui ont un conflit avec une heure de réunion proposée. Cet élément représente des membres qui ont l’état occupé (e), absent du bureau ou provisoire.
-ms.openlocfilehash: 227783b4bed32686e8e098f88498fe8ebb25e3cc
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NumberOfMembersWithConflict représente le nombre de membres de la liste de distribution qui ont un conflit avec une heure de réunion suggérée. Cet élément représente les membres dont l’État est Busy, OOF ou provisoire.
+ms.openlocfilehash: 3ed81fc8adece140e8a94b08a9c2d94c2d9787c9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828634"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529034"
 ---
 # <a name="numberofmemberswithconflict"></a>NumberOfMembersWithConflict
 
-L’élément **NumberOfMembersWithConflict** représente le nombre de membres de liste de distribution qui ont un conflit avec une heure de réunion proposée. Cet élément représente des membres qui ont l’état **occupé (e)**, **absent du bureau**ou **provisoire**.
+L’élément **NumberOfMembersWithConflict** représente le nombre de membres de la liste de distribution qui ont un conflit avec une heure de réunion suggérée. Cet élément représente les membres dont l’État est **Busy**, **OOF**ou **provisoire**.
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **NumberOfMembersWithConflict** représente le nombre de membres d
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggestion](suggestion.md)
+[Suggérer](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -48,11 +48,11 @@ L’élément **NumberOfMembersWithConflict** représente le nombre de membres d
  **int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -62,7 +62,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations de conflit agrégation sur le nombre d’utilisateurs qui sont disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion proposée.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations sur les conflits d’agrégation concernant le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -86,5 +86,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
 
 
-[Obtention de disponibilité de l’utilisateur](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+[Obtention de la disponibilité des utilisateurs](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

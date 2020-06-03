@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26d8c2d0-bed2-4aed-b381-20e2ace6892f
-description: L’élément de données contient les données d’un seul élément exporté ou un élément à télécharger dans une boîte aux lettres.
-ms.openlocfilehash: 9560273e31a64edb2254489961733dfe7360ad01
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Data contient les données d’un seul élément exporté ou d’un élément à charger dans une boîte aux lettres.
+ms.openlocfilehash: 43ee16ca7caf634756ca00a88715d9834adad92b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755786"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526969"
 ---
 # <a name="data-base64binary"></a>Données (base64Binary)
 
-L’élément de **données** contient les données d’un seul élément exporté ou un élément à télécharger dans une boîte aux lettres. 
+L’élément **Data** contient les données d’un seul élément exporté ou d’un élément à charger dans une boîte aux lettres. 
   
 ```XML
 <Data/>
 ```
 
-**xs : base64Binary**
+**XS : base64Binary**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,12 +45,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExportItemsResponseMessage](exportitemsresponsemessage.md) <br/> |Contient l’état et les résultats d’une demande pour exporter un élément de boîte aux lettres unique.  <br/> |
-|[Élément (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un seul élément à télécharger dans une boîte aux lettres.  <br/> |
+|[ExportItemsResponseMessage](exportitemsresponsemessage.md) <br/> |Contient l’État et les résultats d’une demande d’exportation d’un seul élément de boîte aux lettres.  <br/> |
+|[Élément (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un élément unique à télécharger dans une boîte aux lettres.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-L’élément de **données** contient les noms de propriétés et les valeurs d’un élément exporté ou un élément dans une boîte aux lettres sera téléchargé. 
+L’élément **Data** contient les valeurs et les noms des propriétés d’un élément exporté ou d’un élément qui sera chargé dans une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

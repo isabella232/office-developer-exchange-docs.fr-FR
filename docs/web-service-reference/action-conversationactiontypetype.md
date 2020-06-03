@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
-description: L’élément Action contient l’action à effectuer sur la conversation spécifiée par l’élément ConversationId.
-ms.openlocfilehash: b468eeaf0c2509bfa53cbd83f497f0bae20a7f68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément action contient l’action à effectuer sur la conversation spécifiée par l’élément ConversationId.
+ms.openlocfilehash: f97b04b98cdc29bee9aff5fa1fc6f37400b8314c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755149"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44527543"
 ---
 # <a name="action-conversationactiontypetype"></a>Action (ConversationActionTypeType)
 
-L’élément **Action** contient l’action à effectuer sur la conversation spécifiée par l’élément [ConversationId](conversationid.md) . 
+L’élément **action** contient l’action à effectuer sur la conversation spécifiée par l’élément [ConversationId](conversationid.md) . 
   
 - [ApplyConversationAction](applyconversationaction.md)
   
@@ -38,11 +38,11 @@ L’élément **Action** contient l’action à effectuer sur la conversation sp
  **ConversationActionTypeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,27 +52,27 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Action** indique l’action qui sera effectuée sur une conversation. Voici les valeurs possibles de texte et les actions correspondantes : 
+La valeur de texte de l’élément **action** indique l’action à effectuer sur une conversation. Voici les valeurs de texte possibles et les actions correspondantes : 
   
-- **AlwaysCategorize** - les éléments en cours et les nouveaux éléments de la conversation sera automatiquement défini avec les catégories identifiés dans l’élément de [catégories](categories-ex15websvcsotherref.md) . 
+- **AlwaysCategorize** : les éléments actifs et les nouveaux éléments de la conversation seront automatiquement définis avec les catégories identifiées dans l’élément [categories](categories-ex15websvcsotherref.md) . 
     
-- **AlwaysDelete** - les éléments en cours et les nouveaux éléments de la conversation seront automatiquement supprimés. Le mode de suppression est défini par l’élément [DeleType](deletetype.md) . 
+- **AlwaysDelete** : les éléments actifs et les nouveaux éléments de la conversation seront automatiquement supprimés. Le mode de suppression est défini par l’élément [DeleteType](deletetype.md) . 
     
-- **AlwaysMove** - les éléments en cours et les nouveaux éléments de la conversation seront automatiquement déplacées vers le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . 
+- **AlwaysMove** : les éléments actifs et les nouveaux éléments de la conversation seront automatiquement déplacés vers le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . 
     
-- **Supprimer** : les éléments en cours de la conversation seront supprimés. Les éléments suivants dans la conversation ne seront pas supprimés. Le mode de suppression est défini par l’élément [DeleType](deletetype.md) . 
+- **Supprimer** : les éléments actuels de la conversation seront supprimés. Les éléments suivants de la conversation ne seront pas supprimés. Le mode de suppression est défini par l’élément [DeleteType](deletetype.md) . 
     
-- **Déplacer** - les éléments en cours de la conversation seront déplacées vers le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . Les éléments suivants dans la conversation ne seront déplacées. 
+- **Move** : les éléments actuels de la conversation seront déplacés vers le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . Les éléments suivants de la conversation ne seront pas déplacés. 
     
-- **Copie** - les éléments en cours de la conversation sont copiées dans le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . Dans la conversation, les éléments suivants ne sont pas copiés. 
+- **Copier** : les éléments actuels de la conversation seront copiés dans le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . Les éléments suivants de la conversation ne seront pas copiés. 
     
-- **SetReadState** - les éléments de la conversation en cours aura leur état en lecture à définir. L’état de lecture est défini par l’élément [estlu](isread.md) . 
+- **SetReadState** : l’état de lecture est défini pour les éléments actuels de la conversation. L’état de lecture est défini par l’élément [IsRead](isread.md) . 
     
-- **Indicateur** : les éléments de la conversation en cours aura un indicateur tel que défini par l’élément [indicateur](flag.md) . 
+- **Flag** : les éléments actuels de la conversation auront un indicateur défini par l’élément [Flag](flag.md) . 
     
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

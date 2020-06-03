@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 9f46ed05-5370-46ee-80f5-83f97224c76e
 description: L'élément UniqueRecipients contient la liste des destinataires d'une conversation dans un dossier spécifique. Cet élément est en lecture seule.
-ms.openlocfilehash: 710559e599c6cec1db371165f01187f8960024f6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d7f6b0aa01aceb6a251fb0c46d89b34cad260acd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838830"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530725"
 ---
 # <a name="uniquerecipients"></a>UniqueRecipients
 
@@ -40,11 +40,11 @@ Ce document peut contenir des informations liées aux fonctionnalités ou produi
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -70,17 +70,17 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[FindConversation Operation](findconversation-operation.md)
+[Opération FindConversation](findconversation-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

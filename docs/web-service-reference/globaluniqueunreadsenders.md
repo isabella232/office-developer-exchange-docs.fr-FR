@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 490abe30-7608-407a-923b-a4b3ddbca610
-description: L’élément GlobalUniqueUnreadSenders spécifie une liste de toutes les personnes qui ont envoyé les messages qui sont actuellement non lus dans cette conversation entre tous les dossiers dans la boîte aux lettres.
-ms.openlocfilehash: ae088577f5aac0c7c3ee9c11fde184b70ab12e64
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GlobalUniqueUnreadSenders spécifie une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation sur tous les dossiers de la boîte aux lettres.
+ms.openlocfilehash: 5a26053158a262d65993dba4be90888ee97f2112
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827749"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530817"
 ---
 # <a name="globaluniqueunreadsenders"></a>GlobalUniqueUnreadSenders
 
-L’élément **GlobalUniqueUnreadSenders** spécifie une liste de toutes les personnes qui ont envoyé les messages qui sont actuellement non lus dans cette conversation entre tous les dossiers dans la boîte aux lettres. 
+L’élément **GlobalUniqueUnreadSenders** spécifie une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation sur tous les dossiers de la boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -40,17 +40,17 @@ L’élément **GlobalUniqueUnreadSenders** spécifie une liste de toutes les pe
  **ArrayOfStringsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Contient un expéditeur de conversation unique.  <br/> |
+|[String](string.md) <br/> |Contient un seul expéditeur de conversation.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 [Opération de ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

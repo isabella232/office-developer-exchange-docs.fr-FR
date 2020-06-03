@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2afba70c-65f7-458c-a4e6-a2cd9bccc0f9
-description: L’élément Actions contient une liste d’actions associées aux règles de boîte de réception.
-ms.openlocfilehash: 8ed8095ca8b41e037c2c0dad319c9c4ab99ed2bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément actions contient une liste d’actions associées aux règles de boîte de réception.
+ms.openlocfilehash: fbef3b69b1688d7c612af018d6a19f9ec1728066
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755245"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529678"
 ---
 # <a name="actions-ruleactionstype"></a>Actions (RuleActionsType)
 
-L’élément **Actions** contient une liste d’actions associées aux règles de boîte de réception. 
+L’élément **actions** contient une liste d’actions associées aux règles de boîte de réception. 
   
 ```XML
 <Actions>
@@ -40,15 +40,15 @@ L’élément **Actions** contient une liste d’actions associées aux règles 
  **RuleActionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[AssignCategories](assigncategories.md) | [CopyToFolder](copytofolder.md) | [Supprimer](delete.md) | [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md) | [ForwardToRecipients](forwardtorecipients.md) | [MarkImportance](markimportance.md) | [MarkAsRead ](markasread.md)  |  [MoveToFolder](movetofolder.md) | [PermanentDelete](permanentdelete.md) | [RedirectToRecipients](redirecttorecipients.md) | [SendSMSAlertToRecipients](sendsmsalerttorecipients.md) | [ServerReplyWithMessage](serverreplywithmessage.md)  |  [ StopProcessingRules](stopprocessingrules.md)
+[AssignCategories](assigncategories.md)  |  [CopyToFolder,](copytofolder.md)  |  [Supprimer](delete.md)  |  [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md)  |  [ForwardToRecipients](forwardtorecipients.md)  |  [MarkImportance](markimportance.md)  |  [MarkAsRead](markasread.md)  |  [MoveToFolder](movetofolder.md)  |  [PermanentDelete](permanentdelete.md)  |  [RedirectToRecipients](redirecttorecipients.md)  |  [SendSMSAlertToRecipients](sendsmsalerttorecipients.md)  |  [ServerReplyWithMessage](serverreplywithmessage.md)  |  [StopProcessingRules](stopprocessingrules.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

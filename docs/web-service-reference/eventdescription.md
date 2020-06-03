@@ -1,5 +1,5 @@
 ---
-title: EventDescription
+title: Systèmedescription
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7642cb03-71b1-4773-9508-4fbe3a5dcdf4
-description: L’élément EventDescription
-ms.openlocfilehash: d496e6d2a61b4a72954b25fe3c5362f82aabf143
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément systèmedescription
+ms.openlocfilehash: 5f61a4eea945193d672afbcd2c693502ccf3e4e1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756224"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530634"
 ---
-# <a name="eventdescription"></a>EventDescription
+# <a name="eventdescription"></a>Systèmedescription
 
-L’élément **EventDescription** 
+L’élément **systèmedescription** 
   
 ```xml
 <EventDescription/>
@@ -30,11 +30,11 @@ L’élément **EventDescription**
  **MessageTrackingEventDescriptionType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,18 +46,18 @@ Aucun.
 |:-----|:-----|
 |[RecipientTrackingEvent](recipienttrackingevent.md) <br/> ||
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **EventDescription** . 
+Le tableau suivant répertorie les valeurs possibles pour l’élément **systèmedescription** . 
   
-**Valeurs des éléments EventDescription**
+**Valeurs de l’élément systèmedescription**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
 |Submitted  <br/> ||
 |Résolu  <br/> ||
-|Une étendue  <br/> ||
-|Remis  <br/> ||
+|Étendu  <br/> ||
+|Cmds  <br/> ||
 |MovedToFolderByInboxRule  <br/> ||
 |RulesCc  <br/> ||
 |FailedGeneral  <br/> ||
@@ -67,8 +67,8 @@ Le tableau suivant répertorie les valeurs possibles pour l’élément **EventD
 |SmtpSendCrossSite  <br/> ||
 |SmtpSendCrossForest  <br/> ||
 |SmtpReceive  <br/> ||
-|Transférés  <br/> ||
-|En attente  <br/> ||
+|Renvoyé  <br/> ||
+|Pending  <br/> ||
 |PendingModeration  <br/> ||
 |ApprovedModeration  <br/> ||
 |QueueRetry  <br/> ||
@@ -78,18 +78,18 @@ Le tableau suivant répertorie les valeurs possibles pour l’élément **EventD
 |TransferredToPartnerOrg  <br/> ||
 |TransferredToLegacyExchangeServer  <br/> ||
 |DelayedAfterTransferToPartnerOrg  <br/> ||
-|Lire  <br/> ||
-|NotRead  <br/> ||
+|Lecture  <br/> ||
+|Nobande  <br/> ||
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

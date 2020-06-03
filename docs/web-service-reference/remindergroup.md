@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3e23c2a1-05d8-4fec-897c-f684a5b97e4c
-description: L’élément ReminderGroup indique si le rappel est pour un élément de calendrier ou d’une tâche.
-ms.openlocfilehash: d9d31cdab482d04149428021ad44cc742108053a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReminderGroup spécifie si le rappel est destiné à un élément de calendrier ou à une tâche.
+ms.openlocfilehash: be6f4a7d7e9d495ed7b42ed40c60f016468e8c2c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829060"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529867"
 ---
 # <a name="remindergroup"></a>ReminderGroup
 
-L’élément **ReminderGroup** indique si le rappel est pour un élément de calendrier ou d’une tâche. 
+L’élément **ReminderGroup** spécifie si le rappel est destiné à un élément de calendrier ou à une tâche. 
   
 ```XML
 <ReminderGroup> Calendar | Task </ReminderGroup>
@@ -26,11 +26,11 @@ L’élément **ReminderGroup** indique si le rappel est pour un élément de ca
  **ReminderGroupType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Rappel](reminder.md)
+[Reminder](reminder.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ReminderGroup** est le type de groupe du rappel. La valeur de texte du **calendrier** Spécifie que le rappel est destiné à un élément de calendrier. La valeur de texte de la **tâche** Spécifie que le rappel est destiné à un élément de tâche. 
+La valeur de texte de l’élément **ReminderGroup** est le type de groupe du rappel. La valeur texte de **Calendar** spécifie que le rappel est destiné à un élément de calendrier. La valeur texte de **Task** spécifie que le rappel est destiné à un élément de tâche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-[Rappel](reminder.md)
+[Reminder](reminder.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

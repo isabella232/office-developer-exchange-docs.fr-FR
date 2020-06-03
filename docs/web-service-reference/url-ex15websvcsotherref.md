@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
-description: L’élément Url représente l’emplacement du client de service Web pour les notifications push.
-ms.openlocfilehash: 62a48fe3b7d2f169ba83c2a89cba3019c270555c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément URL représente l’emplacement du service Web client pour les notifications de type transmission.
+ms.openlocfilehash: 62e139c441eef68db5cf13226d15a83f67135026
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838932"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530929"
 ---
 # <a name="url"></a>Url
 
-L’élément **Url** représente l’emplacement du client de service Web pour les notifications push. 
+L’élément **URL** représente l’emplacement du service Web client pour les notifications de type transmission. 
   
 ```XML
 <Url></Url>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification push d’événements.  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur un type de message.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur texte de l’élément **Url** est l’emplacement du client de service Web pour les notifications push. 
+La valeur texte de l’élément **URL** correspond à l’emplacement du service Web client pour les notifications de type transmission. 
   
 ## <a name="remarks"></a>Remarques
 

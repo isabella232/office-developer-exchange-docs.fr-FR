@@ -1,5 +1,5 @@
 ---
-title: Opération GetStreamingEvents
+title: Opération de GetStreamingEvents
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,35 +11,35 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8da95423-72bc-4034-90a8-162eedcd059b
-description: Opération de recherche plus d’informations sur la GetStreamingEvents EWS.
-ms.openlocfilehash: 0e93be7b14cb1ca6a2a9821b016f7bdc0e8d7772
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Trouvez des informations sur l’opération EWS GetStreamingEvents.
+ms.openlocfilehash: 27744ec40d7c7cb551f35ed5f6fcb726f23d4865
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827673"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530168"
 ---
-# <a name="getstreamingevents-operation"></a>Opération GetStreamingEvents
+# <a name="getstreamingevents-operation"></a>Opération de GetStreamingEvents
 
 Trouvez des informations sur l’opération EWS **GetStreamingEvents** . 
   
-L’opération **GetStreamingEvents** est utilisée par la diffusion en continu des clients de l’abonnement pour demander des notifications à partir du serveur d’accès au Client. La réponse **GetStreamingEvents** renvoie un tableau d’éléments et les événements qui se sont produites dans une boîte aux lettres depuis le dernier la notification. 
+L’opération **GetStreamingEvents** est utilisée par les clients d’abonnements de diffusion en continu pour demander des notifications à partir du serveur d’accès au client. La réponse **GetStreamingEvents** renvoie un tableau d’éléments et d’événements qui se sont produits dans une boîte aux lettres depuis la dernière notification. 
   
 ## <a name="getstreamingevents-request-example"></a>Exemple de requête GetStreamingEvents
 
 ### <a name="description"></a>Description
 
-Une opération **GetStreamingEvents** l’exemple suivant montre comment demander les événements et les éléments qui sont associés à un abonnement identifié par l’identificateur d’abonnement. 
+L’exemple suivant d’une opération **GetStreamingEvents** indique comment demander les événements et les éléments qui sont associés à un abonnement identifié par l’identificateur d’abonnement. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-  xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+  xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Body>
-    <GetStreamingEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetStreamingEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
       <ConnectionTimeout>30</ConnectionTimeout>
     </GetStreamingEvents>
@@ -57,21 +57,21 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ConnectionTimeout](connectiontimeout.md)
     
-## <a name="successful-getstreamingevents-response-example"></a>Exemple de réponse GetStreamingEvents réussie
+## <a name="successful-getstreamingevents-response-example"></a>Exemple de réponse GetStreamingEvents réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une réponse **GetStreamingEvents** montre les notifications sont envoyées au client lorsqu’un nouveau message électronique est reçu. Il inclut des notifications pour les événements suivants : CreatedEvent, NewMail et ModifiedEvent. 
+L’exemple suivant de réponse **GetStreamingEvents** indique les notifications envoyées au client lors de la réception d’un nouveau message électronique. Elle inclut des notifications pour les événements suivants : CreatedEvent, NewMail et ModifiedEvent. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <ServerVersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
+  <ServerVersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
 </soap:Header>
 <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
     <m:ResponseMessages>
       <m:GetStreamingEventsResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -102,7 +102,7 @@ L’exemple suivant d’une réponse **GetStreamingEvents** montre les notificat
 </soap:Body>
 ```
 
-### <a name="getstreamingevents-response-elements"></a>Éléments de réponse GetStreamingEvents
+### <a name="getstreamingevents-response-elements"></a>Éléments Response GetStreamingEvents
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -118,13 +118,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)
     
-Pour trouver d’autres options pour le message de réponse de l’opération **GetStreamingEvents** , explorez la hiérarchie de schéma. Démarrez au niveau de l’élément de [Notification](notification-ex15websvcsotherref.md) . 
+Pour trouver d’autres options pour le message de réponse de l’opération **GetStreamingEvents** , explorez la hiérarchie du schéma. Commencez par l’élément [notification](notification-ex15websvcsotherref.md) . 
   
 ## <a name="getstreamingevents-error-response-example"></a>Exemple de réponse d’erreur GetStreamingEvents
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande de **GetStreamingEvents** . 
+L’exemple suivant montre une réponse d’erreur à une requête **GetStreamingEvents** . 
   
 ### <a name="code"></a>Code
 
@@ -135,12 +135,12 @@ L’exemple suivant montre une réponse d’erreur à une demande de **GetStream
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetStreamingEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetStreamingEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetStreamingEventsResponseMessage ResponseClass="Error">
         <m:MessageText></m:MessageText>
@@ -155,19 +155,19 @@ L’exemple suivant montre une réponse d’erreur à une demande de **GetStream
 
 ## <a name="remarks"></a>Remarques
 
-Lors du traitement d’une demande **GetStreamingEvents** , le serveur d’accès au Client effectue les étapes suivantes : 
+Lors du traitement d’une demande **GetStreamingEvents** , le serveur d’accès au client effectue les étapes suivantes : 
   
-1. Le [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) de la demande est confirmé comme étant un abonnement valide qui est hébergé sur le serveur d’accès au Client. S’il n’est pas le cas, l’appel **GetStreamingEvents** échoue. 
+1. Le [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) de la demande est confirmé comme étant un abonnement valide hébergé sur le serveur d’accès au client. Si ce n’est pas le cas, l’appel **GetStreamingEvents** échoue. 
     
-2. L’adresse SMTP de l’utilisateur authentifié pour la demande est validé pour les droits de l’emprunt d’identité. Si ce n’est pas le cas, la demande **GetStreamingEvents** échoue. 
+2. L’adresse SMTP de l’utilisateur authentifié pour la demande est validée pour disposer des droits d’emprunt d’identité. Si ce n’est pas le cas, la demande **GetStreamingEvents** échoue. 
     
-3. La file d’attente de l’abonnement est interrogé pour les événements qui sont en attente d’être envoyées au client. Si la file d’attente n’est pas vide, les 50 premiers événements à partir de la file d’attente sont extraites de la file d’attente et codés dans une notification.
+3. La file d’attente d’abonnement est interrogée pour les événements qui attendent d’être envoyés au client. Si la file d’attente n’est pas vide, les premiers événements 50 de la file d’attente sont extraits de la file d’attente et codés dans une notification.
     
-4. Si aucun événement n’est détectée dans la file d’attente, un [StatusEvent](statusevent.md) est généré et codé en réponse à une notification. 
+4. Si aucun événement n’est trouvé dans la file d’attente, une [StatusEvent](statusevent.md) est générée et codée dans une réponse de notification. 
     
-5. La réponse de notification est retournée au client.
+5. La réponse de notification est renvoyée au client.
     
-6. Les événements qui sont inclus dans la notification sont supprimés de la file d’attente d’abonnement et la limite de serveur local dernier accès au Client pour l’abonnement est définie sur la limite du dernier événement qui est renvoyé.
+6. Les événements inclus dans la notification sont supprimés de la file d’attente d’abonnement et le dernier filigrane local du serveur d’accès au client pour l’abonnement est défini sur le filigrane du dernier événement renvoyé.
     
 7. Le délai d’expiration de l’abonnement est réinitialisé.
     

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 12ba4528-60e9-4c0a-a5b2-eed3a2cb1509
-description: L’élément GetUserRetentionPolicyTagsResponse contient la réponse à une demande de GetRetentionPolicyTags.
-ms.openlocfilehash: a208bb466725c746a1a7fc60b999ecb1d76dd2d0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetUserRetentionPolicyTagsResponse contient la réponse à une demande GetRetentionPolicyTags.
+ms.openlocfilehash: a8cfdc1aaaf47f3a66e541537381edf92bb024a9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827699"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530824"
 ---
 # <a name="getuserretentionpolicytagsresponse"></a>GetUserRetentionPolicyTagsResponse
 
-L’élément [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md) contient la réponse à une demande de **GetRetentionPolicyTags** . 
+L’élément [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md) contient la réponse à une demande **GetRetentionPolicyTags** . 
   
 ```XML
 <GetUserRetentionPolicyTagsResponse>
@@ -32,15 +32,15 @@ L’élément [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsres
  **GetUserRetentionPolicyTagsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [RetentionPolicyTags](retentionpolicytags.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [RetentionPolicyTags](retentionpolicytags.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 949871f7-0d10-498e-84aa-f0652f1193be
-description: L’élément GetSearchableMailboxes contient une demande pour obtenir une liste des boîtes aux lettres que le client est autorisé à effectuer une recherche eDiscovery.
-ms.openlocfilehash: 8cce18bb62d3840cb9883d20a380cc4f2193303e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetSearchableMailboxes contient une demande pour obtenir la liste des boîtes aux lettres pour lesquelles le client est autorisé à effectuer une recherche de découverte électronique.
+ms.openlocfilehash: a327f8766e53e9f1fae6928179d5a4b8e3d044a8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756732"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530189"
 ---
 # <a name="getsearchablemailboxes"></a>GetSearchableMailboxes
 
-L’élément **GetSearchableMailboxes** contient une demande pour obtenir une liste des boîtes aux lettres que le client est autorisé à effectuer une recherche eDiscovery. 
+L’élément **GetSearchableMailboxes** contient une demande pour obtenir la liste des boîtes aux lettres pour lesquelles le client est autorisé à effectuer une recherche de découverte électronique. 
   
 ```XML
 <GetSearchableMailboxes>
@@ -29,15 +29,15 @@ L’élément **GetSearchableMailboxes** contient une demande pour obtenir une l
  **GetSearchableMailboxesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[SearchFilter](searchfilter.md) | [ExpandGroupMembership](expandgroupmembership.md)
+[Unsearchfilter](searchfilter.md)  |  [ExpandGroupMembership](expandgroupmembership.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -53,9 +53,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

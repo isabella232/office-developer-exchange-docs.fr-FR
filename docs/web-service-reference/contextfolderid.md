@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 48de92aa-e124-42b5-89bc-cdce5e93d78b
-description: L’élément ContextFolderId indique le dossier qui est ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, suppression, déplacement et en définissant l’état de lecture sur les éléments de conversation dans un dossier cible.
-ms.openlocfilehash: 94428a079be6da8873c777556771579a7110fb62
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément ContextFolderId indique le dossier ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, la suppression, le mouvement et la définition de l’état de lecture des éléments de conversation dans un dossier cible.
+ms.openlocfilehash: 60f1eaf3b45eee83632c7da6f453a1d09f54d9fd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354280"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529258"
 ---
 # <a name="contextfolderid"></a>ContextFolderId
 
-L’élément **ContextFolderId** indique le dossier qui est ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, suppression, déplacement et en définissant l’état de lecture sur les éléments de conversation dans un dossier cible. 
+L’élément **ContextFolderId** indique le dossier ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, la suppression, le mouvement et la définition de l’état de lecture des éléments de conversation dans un dossier cible. 
   
 - [ApplyConversationAction](applyconversationaction.md) 
 - [ConversationActions](conversationactions.md)
@@ -45,24 +45,24 @@ L’élément **ContextFolderId** indique le dossier qui est ciblé pour les act
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et modification du dossier de contexte.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers qui peuvent être référencés par un nom.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification du dossier de contexte.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers qui peuvent être référencés par leur nom.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -76,7 +76,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

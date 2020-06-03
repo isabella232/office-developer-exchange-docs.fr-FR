@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 584cc338-9d98-44bc-a89d-f8636bbb6c91
-description: L’élément GroupType (FederatedDirectoryGroupType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 0b867a8e3aab94ab606afc434f4c23c962463d71
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GroupType (FederatedDirectoryGroupType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: 4d47d0f696474804f12d9e38600c1cd6daf9ffa9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827787"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530781"
 ---
 # <a name="grouptype-federateddirectorygrouptype"></a>GroupType (FederatedDirectoryGroupType)
 
-L’élément **GroupType (FederatedDirectoryGroupType)** est destiné à une utilisation interne uniquement. 
+L’élément **GroupType (FederatedDirectoryGroupType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

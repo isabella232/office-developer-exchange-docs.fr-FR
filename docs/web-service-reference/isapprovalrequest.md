@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 293ed01b-f6a4-4459-819c-933bbfaa2dd7
-description: L’élément IsApprovalRequest indique si les messages entrants doivent être des demandes d’approbation afin que l’exception ou la condition à appliquer.
-ms.openlocfilehash: 45b0836efff3ec9fe644cbaeb7ea7192346422bf
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IsApprovalRequest indique si les messages entrants doivent être des demandes d’approbation afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 08ea36820b2680bb2c7e5695eb2dd481154c05eb
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827984"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530013"
 ---
 # <a name="isapprovalrequest"></a>IsApprovalRequest
 
-L’élément **IsApprovalRequest** indique si les messages entrants doivent être des demandes d’approbation afin que l’exception ou la condition à appliquer. 
+L’élément **IsApprovalRequest** indique si les messages entrants doivent être des demandes d’approbation afin que la condition ou l’exception s’applique. 
   
 ```XML
 <IsApprovalRequest/>
@@ -30,11 +30,11 @@ L’élément **IsApprovalRequest** indique si les messages entrants doivent êt
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,9 +47,9 @@ Aucun.
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente toutes les conditions d’exception de règle disponibles pour une règle de boîte de réception.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Texte la valeur **true** indique que le message doit être une demande d’approbation afin que l’exception ou la condition à appliquer. La valeur **false** indique que le message ne doit pas être une demande d’approbation afin que l’exception ou la condition à appliquer. 
+Une valeur de texte **true** indique que le message doit être une demande d’approbation afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être une demande d’approbation afin que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,9 +59,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

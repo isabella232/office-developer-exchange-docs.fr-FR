@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b9a1979-a364-4c8f-b013-4fc04c0eeb9c
-description: L’élément MailboxSearchScopes spécifie une liste d’une ou plusieurs boîtes aux lettres et les étendues de recherche associée pour une recherche de découverte.
-ms.openlocfilehash: 4d65296e181b6e97e2209a9f6accc7fa5f401b5a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MailboxSearchScopes spécifie une liste d’une ou de plusieurs boîtes aux lettres et les étendues de recherche associées pour une recherche de découverte.
+ms.openlocfilehash: 172c9d1da46c8c9a8ac73224b3395a026d9e6551
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828294"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530550"
 ---
 # <a name="mailboxsearchscopes"></a>MailboxSearchScopes
 
-L’élément **MailboxSearchScopes** spécifie une liste d’une ou plusieurs boîtes aux lettres et les étendues de recherche associée pour une recherche de découverte. 
+L’élément **MailboxSearchScopes** spécifie une liste d’une ou de plusieurs boîtes aux lettres et les étendues de recherche associées pour une recherche de découverte. 
   
 ```XML
 <MailboxSearchScopes>
@@ -29,11 +29,11 @@ L’élément **MailboxSearchScopes** spécifie une liste d’une ou plusieurs b
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

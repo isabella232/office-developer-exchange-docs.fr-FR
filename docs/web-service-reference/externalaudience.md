@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 79dc2a4c-f7dd-46d1-8f31-149116e1f76e
-description: L’élément ExternalAudience définit ou contient une valeur qui détermine auquel sont envoyés les messages d’absence du bureau (OOF) externes.
-ms.openlocfilehash: 836b0f6a5140a37e1584f571cb8e26534fe7a25f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ExternalAudience définit ou contient une valeur qui détermine à qui les messages externes d’absence du Bureau (OOF) sont envoyés.
+ms.openlocfilehash: b3fcebd9042b07bb9a8294196799ef2a13d78bdd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756310"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530599"
 ---
 # <a name="externalaudience"></a>ExternalAudience
 
-L’élément **ExternalAudience** définit ou contient une valeur qui détermine auquel sont envoyés les messages d’absence du bureau (OOF) externes. 
+L’élément **ExternalAudience** définit ou contient une valeur qui détermine à qui les messages externes d’absence du Bureau (OOF) sont envoyés. 
   
 ```xml
 <ExternalAudience>None or Known or All</ExternalAudience>
@@ -30,11 +30,11 @@ L’élément **ExternalAudience** définit ou contient une valeur qui détermin
  **ExternalAudience**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,40 +44,40 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du bureau.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contient les paramètres d’absence du bureau.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contient les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est nécessaire pour cet élément. Le tableau suivant répertorie les valeurs possibles de cet élément.
+Une valeur de texte est requise pour cet élément. Le tableau suivant répertorie les valeurs possibles pour cet élément.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**None** <br/> |Expéditeurs en dehors de l’organisation de l’utilisateur de boîte aux lettres qui envoient des messages à l’utilisateur ne recevra pas une réponse de message d’absence du bureau externe.  <br/> |
-|**Connus** <br/> |Expéditeurs en dehors de l’organisation de l’utilisateur de boîte aux lettres qui envoient des messages à l’utilisateur seulement reçoit une réponse de message d’absence du bureau externe si l’expéditeur se trouve dans Exchange l’utilisateur stockent la liste des contacts.  <br/> |
-|**All** <br/> |Expéditeurs en dehors de l’organisation de l’utilisateur de boîte aux lettres qui envoient des messages à l’utilisateur reçoit une réponse de message d’absence du bureau externe.  <br/> |
+|**Aucun** <br/> |Les expéditeurs de messages électroniques situés en dehors de l’organisation de l’utilisateur de la boîte aux lettres qui envoient des messages à l’utilisateur ne reçoivent pas de réponse externe aux messages OOF.  <br/> |
+|**Connus** <br/> |Les expéditeurs de messages électroniques extérieurs à l’organisation de l’utilisateur de la boîte aux lettres qui envoie des messages à l’utilisateur recevront uniquement une réponse externe aux messages OOF si l’expéditeur se trouve dans la liste des contacts de la banque Exchange de l’utilisateur.  <br/> |
+|**All** <br/> |Les expéditeurs de messages électroniques extérieurs à l’organisation de l’utilisateur de la boîte aux lettres qui envoie des messages à l’utilisateur recevront une réponse externe aux messages OOF.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément partageant le même type que l’élément [AllowExternalOof](allowexternaloof.md) . 
+Cet élément partage le même type que l’élément [AllowExternalOof](allowexternaloof.md) . 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant d’une demande SetUserOofSettings définit le OoFState sur **activé**, définit l’audience externe pour **tous les**, définit la durée d’absence du Bureau à 10 jours et définit les messages d’absence du bureau internes et externes.
+L’exemple de requête SetUserOofSettings suivant définit le OoFState sur **activé**, définit l’audience externe sur **tous**, définit la durée du OOF sur 10 jours et définit les messages OOF internes et externes.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -100,7 +100,7 @@ L’exemple suivant d’une demande SetUserOofSettings définit le OoFState sur 
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

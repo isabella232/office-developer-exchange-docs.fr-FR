@@ -11,20 +11,20 @@ api_name:
 api_type:
 - schema
 ms.assetid: f875e6c2-be18-439a-a7b1-bb49a149b538
-description: L’élément de données contient des données chiffrées qui représente les données partagées.
-ms.openlocfilehash: acd66691f16d11f41dee5efb9de03c129ff416c2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Data contient des données chiffrées qui représentent les données partagées.
+ms.openlocfilehash: cd13d68afcd0f40486865887676d2b5669c276f8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755785"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529216"
 ---
 # <a name="data"></a>Données
 
-L’élément de **données** contient des données chiffrées qui représente les données partagées. 
+L’élément **Data** contient des données chiffrées qui représentent les données partagées. 
   
 - [EncryptedSharedFolderData](encryptedsharedfolderdata.md)  
-- [Data](data.md)
+- [Données](data.md)
   
 ```xml
 <Data/>
@@ -34,11 +34,11 @@ L’élément de **données** contient des données chiffrées qui représente l
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,7 +48,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier de données ou de contacts avec les autres clients.  <br/> |
+|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

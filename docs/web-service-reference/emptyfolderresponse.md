@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c900be49-3c90-41aa-aba5-bcf1116ec2aa
 description: L’élément EmptyFolderResponse définit une réponse à une demande d’opération EmptyFolder.
-ms.openlocfilehash: ab753351a1eb7deba83823875989816ba75b9809
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 9b20df8c0b095870185aab14dbd1f7ff4fc47def
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756151"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530676"
 ---
 # <a name="emptyfolderresponse"></a>EmptyFolderResponse
 
-L’élément **EmptyFolderResponse** définit une réponse à une demande [d’opération EmptyFolder](emptyfolder-operation.md) . 
+L’élément **EmptyFolderResponse** définit une réponse à une demande d' [opération EmptyFolder](emptyfolder-operation.md) . 
   
 ```XML
 <EmptyFolderResponse>
@@ -28,17 +28,17 @@ L’élément **EmptyFolderResponse** définit une réponse à une demande [d’
  **EmptyFolderResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

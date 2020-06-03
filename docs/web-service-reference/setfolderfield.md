@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 8c69db7b-54b5-4ae2-abca-4d6e0937a790
-description: L’élément SetFolderField représente une mise à jour qui définit la valeur d’une propriété unique dans un dossier dans une opération UpdateFolder.
-ms.openlocfilehash: ed5c055c697865d5eb728d269c6f4c7ce60f4b5c
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément SetFolderField représente une mise à jour qui définit la valeur d’une propriété unique sur un dossier dans une opération UpdateFolder.
+ms.openlocfilehash: ab75a3862801b9a7b3369d9a4116c653b461781c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353286"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530316"
 ---
 # <a name="setfolderfield"></a>SetFolderField
 
-L’élément **SetFolderField** représente une mise à jour qui définit la valeur d’une propriété unique dans un dossier dans une opération UpdateFolder. 
+L’élément **SetFolderField** représente une mise à jour qui définit la valeur d’une propriété unique sur un dossier dans une opération UpdateFolder. 
 
 ```xml
 <SetFolderField>
@@ -133,34 +133,34 @@ L’élément **SetFolderField** représente une mise à jour qui définit la va
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencées par un URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’un dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues.  <br/> |
-|[Folder](folder.md) <br/> |Identifie un dossier pour mettre à jour.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier contenant principalement des éléments de calendrier.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier Contacts dans une boîte aux lettres.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche qui se trouve dans une boîte aux lettres.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches qui se trouve dans une boîte aux lettres.  <br/> |
+|[Folder](folder.md) <br/> |Identifie un dossier à mettre à jour.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier qui contient principalement des éléments de calendrier.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche contenu dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier tâches contenu dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Updates (Folder)](updates-folder.md) <br/> |Contient un ensemble d’éléments qui définit append, définir et supprimer les modifications apportées aux propriétés d’un dossier.  <br/> |
+|[Mises à jour (dossier)](updates-folder.md) <br/> |Contient un ensemble d’éléments qui définit les modifications apportées par l’ajout, la définition et la suppression aux propriétés du dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété existe, la valeur de propriété est définie à la valeur spécifiée. Si la propriété n’existe pas, la propriété est créée avec la valeur spécifiée.
+Si la propriété existe, la valeur de la propriété est définie sur la valeur spécifiée. Si la propriété n’existe pas, la propriété est créée avec la valeur spécifiée.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -168,7 +168,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

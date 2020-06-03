@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5f4ee71c-bde0-4b0d-b426-0c24dfe67585
-description: L’élément GetPhoneCallInformation spécifie une requête pour obtenir des informations d’appel téléphonique.
-ms.openlocfilehash: 2084a8b5e13b3fa03e0bf62439978bbe81d86ce9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GetPhoneCallInformation spécifie une demande d’obtention d’informations sur les appels téléphoniques.
+ms.openlocfilehash: b835cd301b1c243e88034d1057026ef1305b9038
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756719"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530196"
 ---
 # <a name="getphonecallinformation"></a>GetPhoneCallInformation
 
-L’élément **GetPhoneCallInformation** spécifie une requête pour obtenir des informations d’appel téléphonique. 
+L’élément **GetPhoneCallInformation** spécifie une demande d’obtention d’informations sur les appels téléphoniques. 
   
 ```xml
 <GetPhoneCallInformation>
@@ -32,11 +32,11 @@ L’élément **GetPhoneCallInformation** spécifie une requête pour obtenir de
  **GetPhoneCallInformationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

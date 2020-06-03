@@ -7,31 +7,31 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b8769d30-045a-4fa7-814d-d00702f0c258
-description: L’élément ParentInternetMessageId Spécifie l’identificateur de message Internet du message parent dans une conversation.
-ms.openlocfilehash: 6e3c8aec4d3a556782b51e25c53da4f2959e44c1
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ParentInternetMessageId spécifie l’identificateur de message Internet du message parent dans une conversation.
+ms.openlocfilehash: c53bc8c74f2b352d12880c885ebbe626693a54d2
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828695"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529972"
 ---
 # <a name="parentinternetmessageid"></a>ParentInternetMessageId
 
-L’élément **ParentInternetMessageId** Spécifie l’identificateur de message Internet du message parent dans une conversation. 
+L’élément **ParentInternetMessageId** spécifie l’identificateur de message Internet du message parent dans une conversation. 
   
 ```XML
 <ParentInternetMessageId></ParentInternetMessageId>
 ```
 
-**string**
+**chaîne**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -41,7 +41,7 @@ Aucun.
 
 [ConversationNode](conversationnode.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **ParentInternetMessageId** est l’identificateur de message Internet du message parent dans la conversation. 
   
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

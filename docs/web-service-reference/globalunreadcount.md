@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5e5ccf3e-2f95-4bf9-b915-8b7e59e807a5
-description: L’élément GlobalUnreadCount contient un décompte de tous les éléments non lus de conversation dans la boîte aux lettres.
-ms.openlocfilehash: fe001b70633198c0c1351e3c11c9542ed556a938
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GlobalUnreadCount contient le décompte de tous les éléments de conversation non lus dans la boîte aux lettres.
+ms.openlocfilehash: 976067078908523936769b2856712e3e6908f0c4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827743"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530112"
 ---
 # <a name="globalunreadcount"></a>GlobalUnreadCount
 
-L’élément **GlobalUnreadCount** contient un décompte de tous les éléments non lus de conversation dans la boîte aux lettres. 
+L’élément **GlobalUnreadCount** contient le décompte de tous les éléments de conversation non lus dans la boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,14 +35,14 @@ L’élément **GlobalUnreadCount** contient un décompte de tous les éléments
 <GlobalUnreadCount/>
 ```
 
- **xs : int**
+ **XS : int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -54,9 +54,9 @@ Aucun.
 |:-----|:-----|
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GlobalUnreadCount** est une valeur entière qui représente le nombre de tous les éléments non lus de conversation dans la boîte aux lettres. 
+La valeur de texte de l’élément **GlobalUnreadCount** est une valeur entière qui représente le nombre de tous les éléments de conversation non lus dans la boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -80,5 +80,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 [Opération de ApplyConversationAction](applyconversationaction-operation.md)
 
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f000b39-e5c8-4a2a-baae-f8cbea0688bc
-description: L’élément ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType) est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: efabffa431b57e8b55122864c93c8f578f14d0ee
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: 0076a348a6417e1d0768a8f72da0c4029e82a21b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756313"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530592"
 ---
 # <a name="externaldirectoryobjectid-federateddirectoryidentitydetailstype"></a>ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)
 
-L’élément **ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** est destiné à une utilisation interne uniquement. 
+L’élément **ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

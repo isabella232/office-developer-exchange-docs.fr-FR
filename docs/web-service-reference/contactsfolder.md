@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6c299de8-2087-4aeb-8e66-2bc7586509a6
-description: L’élément ContactsFolder représente un dossier de contacts qui se trouve dans une boîte aux lettres.
-ms.openlocfilehash: 01302f00d84cfff9713e3b188b7799c537fc0629
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContactsFolder représente un dossier de contacts contenu dans une boîte aux lettres.
+ms.openlocfilehash: 997b4f603198e6d05a011c4ef6bac7fe4dfbfe52
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755565"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529433"
 ---
 # <a name="contactsfolder"></a>ContactsFolder
 
-L’élément **ContactsFolder** représente un dossier de contacts qui se trouve dans une boîte aux lettres. 
+L’élément **ContactsFolder** représente un dossier de contacts contenu dans une boîte aux lettres. 
   
 ```xml
 <ContactsFolder>
@@ -42,26 +42,26 @@ L’élément **ContactsFolder** représente un dossier de contacts qui se trouv
  **ContactsFolderType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier contacts.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier de contacts.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent qui contient le dossier contacts.  <br/> |
-|[Classe FolderClass](folderclass.md) <br/> |Représente la classe de dossier pour un dossier contacts.  <br/> |
-|[DisplayName (chaîne)](displayname-string.md) <br/> |Contient le nom complet d’un dossier contacts.  <br/> |
-|[TotalCount](totalcount.md) <br/> |Représente le nombre total d’éléments dans un dossier contacts.  <br/> |
-|[ChildFolderCount](childfoldercount.md) <br/> |Représente le nombre de dossiers enfants qui sont contenues dans un dossier contacts. Cette propriété est en lecture seule.  <br/> |
+|[FolderClass](folderclass.md) <br/> |Représente la classe Folder d’un dossier contacts.  <br/> |
+|[DisplayName (chaîne)](displayname-string.md) <br/> |Contient le nom complet d’un dossier de contacts.  <br/> |
+|[TotalCount](totalcount.md) <br/> |Représente le nombre total d’éléments au sein d’un dossier de contacts.  <br/> |
+|[ChildFolderCount](childfoldercount.md) <br/> |Représente le nombre de dossiers enfants contenus dans un dossier contacts. Cette propriété est en lecture seule.  <br/> |
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues dans les dossiers de contacts.  <br/> |
 |[ManagedFolderInformation](managedfolderinformation.md) <br/> |Contient des informations sur un dossier géré.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d'autorisation pour l'élément ou le dossier.  <br/> |
-|[SharingEffectiveRights (PermissionReadAccessType)](sharingeffectiverights-permissionreadaccesstype.md) <br/> |Indique les autorisations dont dispose l’utilisateur pour les données de contact qui sont partagées.  <br/> |
+|[SharingEffectiveRights (PermissionReadAccessType)](sharingeffectiverights-permissionreadaccesstype.md) <br/> |Indique les autorisations dont dispose l’utilisateur pour les données de contact partagées.  <br/> |
 |[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Contient toutes les autorisations configurées pour un dossier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -70,9 +70,9 @@ Aucun.
 |:-----|:-----|
 |[AppendToFolderField](appendtofolderfield.md) <br/> |Spécifie les données à ajouter à une propriété de dossier lors d’une [opération UpdateFolder](updatefolder-operation.md).  <br/> |
 |[Créer (FolderSync)](create-foldersync.md) <br/> |Identifie un dossier unique à créer dans le magasin de client local.  <br/> |
-|[SetFolderField](setfolderfield.md) <br/> |Représente une mise à jour d’une propriété donnée sur un dossier dans une [opération UpdateFolder](updatefolder-operation.md).  <br/> |
-|[Mise à jour (FolderSync)](update-foldersync.md) <br/> |Identifie un seul dossier pour mettre à jour dans le magasin de client local.  <br/> |
-|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Contient un tableau des dossiers qui sont utilisés dans les opérations de dossier.  <br/> |
+|[SetFolderField](setfolderfield.md) <br/> |Représente une mise à jour d’une propriété unique sur un dossier dans une [opération UpdateFolder](updatefolder-operation.md).  <br/> |
+|[Mise à jour (FolderSync)](update-foldersync.md) <br/> |Identifie un dossier unique à mettre à jour dans le magasin client local.  <br/> |
+|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Contient un tableau de dossiers utilisés dans les opérations de dossier.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -86,7 +86,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

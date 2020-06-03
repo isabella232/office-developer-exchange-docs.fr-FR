@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 880af57e-0fa1-473c-b87c-f02f1133ba5e
-description: L’élément ReplyAllowed Spécifie si une réponse est autorisée pour les droits des données gérées.
-ms.openlocfilehash: c774836ac6e72648d6a6c017d41fcafdb64d116c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ReplyAllowed spécifie si une réponse est autorisée pour les données gérées par des droits.
+ms.openlocfilehash: f9aa97fc5d85837323d6d9e3e1e13c7b9fd11715
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829107"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529860"
 ---
 # <a name="replyallowed"></a>ReplyAllowed
 
-L’élément **ReplyAllowed** Spécifie si une réponse est autorisée pour les droits des données gérées. 
+L’élément **ReplyAllowed** spécifie si une réponse est autorisée pour les données gérées par des droits. 
   
 ```XML
 <ReplyAllowed> true | false </ReplyAllowed>
@@ -26,11 +26,11 @@ L’élément **ReplyAllowed** Spécifie si une réponse est autorisée pour les
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **la valeur true** pour l’élément **ReplyAllowed** indique que les réponses sont autorisées pour les droits données managées. La valeur **false** indique que les réponses ne sont pas autorisés. 
+Une valeur de texte de **true** pour l’élément **ReplyAllowed** indique que les réponses sont autorisées pour les données gérées par des droits. La valeur **false** indique que les réponses ne sont pas autorisées. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

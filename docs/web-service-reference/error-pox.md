@@ -8,13 +8,13 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 91c63b62-ab68-4c32-a2f7-5a87c188335b
-description: L’élément Error contient une réponse d’erreur de découverte automatique.
-ms.openlocfilehash: 3135a352365fe3000ce2d202ad78452d5c8ccc7f
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément error contient une réponse d’erreur de découverte automatique.
+ms.openlocfilehash: 1a1a3e83898674e605921cb75371036a8a561a95
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756202"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530648"
 ---
 # <a name="error-pox"></a>Erreur (POX)
 
@@ -38,22 +38,22 @@ L’élément **Error** contient une réponse d’erreur de découverte automati
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Heure  <br/> |Représente le temps lorsque la réponse d’erreur a été renvoyée.  <br/> |
-|ID  <br/> |Représente un hachage du nom de l’ordinateur qui exécute Microsoft Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.  <br/> |
+|Time  <br/> |Représente l’heure à laquelle la réponse d’erreur a été renvoyée.  <br/> |
+|ID  <br/> |Représente un hachage du nom de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ErrorCode (POX)](errorcode-pox.md) <br/> |Contient le code d’erreur pour une erreur de réponse de découverte automatique.  <br/> |
-|[Message (POX)](message-pox.md) <br/> |Contient le message d’erreur pour une erreur de réponse de découverte automatique.  <br/> |
-|[DebugData (POX)](debugdata-pox.md) <br/> |Contient les données de débogage pour une erreur de réponse de découverte automatique.  <br/> |
+|[ErrorCode (POX)](errorcode-pox.md) <br/> |Contient le code d’erreur d’une réponse de découverte automatique d’erreur.  <br/> |
+|[Message (POX)](message-pox.md) <br/> |Contient le message d’erreur pour une réponse de découverte automatique d’erreur.  <br/> |
+|[DebugData (POX)](debugdata-pox.md) <br/> |Contient les données de débogage pour une réponse de découverte automatique d’erreur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -65,5 +65,5 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

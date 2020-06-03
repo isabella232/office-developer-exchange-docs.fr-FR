@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9b659d83-45fb-42a2-b052-5bc4dbe3854d
-description: L’élément CalendarPermissions contient un tableau d’autorisations pour un dossier de calendrier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 3dee635e4449cbb3717f5d2fab8838f3e43102a4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CalendarPermissions contient un tableau d’autorisations de calendrier pour un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: f072339212d0fdff3983fbfb6bc8f53c272350c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755479"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529468"
 ---
 # <a name="calendarpermissions"></a>CalendarPermissions
 
-L’élément **CalendarPermissions** contient un tableau d’autorisations pour un dossier de calendrier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+L’élément **CalendarPermissions** contient un tableau d’autorisations de calendrier pour un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CalendarPermissions>
@@ -32,17 +32,17 @@ L’élément **CalendarPermissions** contient un tableau d’autorisations pour
  **ArrayOfCalendarPermissionsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarPermission](calendarpermission.md) <br/> |Définit l’accès dont dispose un utilisateur délégué à un dossier de calendrier.  <br/> |
+|[CalendarPermission](calendarpermission.md) <br/> |Définit l’accès d’un utilisateur délégué à un dossier de calendrier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -67,8 +67,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+[Setting Folder-Level Permissions](https://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

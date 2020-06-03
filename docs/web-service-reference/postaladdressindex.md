@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 170fec26-5cb7-4578-ac09-140da9a6c84e
 description: L’élément PostalAddressIndex représente les types d’affichage pour les adresses physiques.
-ms.openlocfilehash: b99e7f2f9bbeeb7cdeaed7258e4d7c33bfc446d3
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: ee2c4c30c82abf74edb5e83daab68a3fcd2d6050
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828852"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529916"
 ---
 # <a name="postaladdressindex"></a>PostalAddressIndex
 
@@ -30,11 +30,11 @@ L’élément **PostalAddressIndex** représente les types d’affichage pour le
  **PhysicalAddressIndexType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,17 +46,17 @@ Aucun.
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs de texte possibles de cet élément sont les suivantes :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - Aucun
     
 - Business
     
-- Domicile
+- Accueil
     
-- Other
+- Autres
     
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -78,12 +78,12 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
  **PostalAddressIndex**
 
 
-- [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
+- [Éléments XML EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+[Création de Contacts (Services Web Exchange)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   
-[Updating Contacts](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
+[Updating Contacts](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   
-[Deleting Contacts](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+[Deleting Contacts](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

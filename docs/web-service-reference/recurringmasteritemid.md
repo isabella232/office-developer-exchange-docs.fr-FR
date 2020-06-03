@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5800b58c-f3d7-4d8f-acc0-d13e02f4e258
-description: L’élément RecurringMasterItemId identifie un élément de gabarit périodicité en identifiant les identificateurs de l’un de ses éléments connexes occurrence.
-ms.openlocfilehash: ae59e33ece55d85435ece4c9030ccda32eb62eab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément RecurringMasterItemId identifie un élément de la forme de base de récurrence en identifiant les identificateurs de l’un de ses éléments d’occurrence associés.
+ms.openlocfilehash: 896a9ce95d619e7bb44c8158288bc4f62ce417d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829015"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529881"
 ---
 # <a name="recurringmasteritemid"></a>RecurringMasterItemId
 
-L’élément **RecurringMasterItemId** identifie un élément de gabarit périodicité en identifiant les identificateurs de l’un de ses éléments connexes occurrence. 
+L’élément **RecurringMasterItemId** identifie un élément de la forme de base de récurrence en identifiant les identificateurs de l’un de ses éléments d’occurrence associés. 
   
 ```XML
 <RecurringMasterItemId OccurrenceId="" ChangeKey="" />
@@ -30,14 +30,14 @@ L’élément **RecurringMasterItemId** identifie un élément de gabarit pério
  **RecurringMasterItemIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**ID d’occurrence** <br/> |Identifie une seule occurrence d’un rendez-vous périodique. Cet attribut est requis.  <br/> |
-|**ChangeKey** <br/> |Identifie une version spécifique d’une seule occurrence d’un rendez-vous périodique. En outre, le rendez-vous périodique est également identifié, car elle et l’occurrence contiendra la même clé change. Cet attribut est facultatif.  <br/> |
+|**OccurrenceId** <br/> |Identifie une seule occurrence d’un élément maître périodique. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Identifie une version spécifique d’une occurrence d’un élément maître périodique. En outre, l’élément de gabarit périodique est également identifié, car il et la seule occurrence contiendront la même clé de modification. Cet attribut est facultatif.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,8 +48,8 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[GlobalItemIds](globalitemids.md) <br/> |Contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans une boîte aux lettres.  <br/> |
-|[ItemChange](itemchange.md) <br/> |Contient un identificateur d’élément et les mises à jour à appliquer à l’élément. <br/> <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément : <br/> <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
-|[ItemId](itemids.md) <br/> | Contient l’identité unique des éléments, des éléments d’occurrence et éléments périodiques maîtres qui servent à supprimer, envoyer, obtenir, déplacer ou copier des éléments dans la banque d’informations Exchange. <br/> <br/>  Les expressions XPath pour cet élément sont les suivantes :  <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
+|[ItemChange](itemchange.md) <br/> |Contient un identificateur d’élément et les mises à jour à appliquer à l’élément. <br/> <br/> Voici l’expression XPath de cet élément : <br/> <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
+|[ItemIds](itemids.md) <br/> | Contient les identités uniques des éléments, des éléments d’occurrence et des éléments principaux périodiques qui sont utilisés pour supprimer, envoyer, obtenir, déplacer ou copier des éléments dans la Banque d’Exchange. <br/> <br/>  Voici les expressions XPath de cet élément :  <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant identifie le rendez-vous périodique en identifiant une de ses occurrences avec l’identificateur 56lkjh6.
+L’exemple suivant identifie l’élément de forme de base périodique en identifiant l’une de ses occurrences à l’aide de l’identificateur 56lkjh6.
   
 ```XML
 <RecurringMasterItemId OccurrenceId="56lkjh6" />
@@ -71,7 +71,7 @@ L’exemple suivant identifie le rendez-vous périodique en identifiant une de s
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -79,5 +79,5 @@ L’exemple suivant identifie le rendez-vous périodique en identifiant une de s
 ## <a name="see-also"></a>Voir aussi
 
 - [OccurrenceItemId](occurrenceitemid.md)
-- [FindConversation Operation](findconversation-operation.md)
+- [Opération FindConversation](findconversation-operation.md)
 

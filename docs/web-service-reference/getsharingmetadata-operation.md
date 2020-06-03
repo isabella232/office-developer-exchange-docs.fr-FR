@@ -1,5 +1,5 @@
 ---
-title: Opération GetSharingMetadata
+title: Opération de GetSharingMetadata
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,32 +11,32 @@ api_name:
 api_type:
 - schema
 ms.assetid: eaf29427-ecf8-4a5e-9a54-db2e6414b35e
-description: L’opération GetSharingMetadata Obtient un jeton d’authentification opaque qui identifie une invitation de partage.
-ms.openlocfilehash: e2e04d83310e7a8a731cca655a432325574cd9e8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetSharingMetadata obtient un jeton d’authentification opaque qui identifie une invitation de partage.
+ms.openlocfilehash: 0390b9caa7b2e9847b1e8dcdc1b911a35e3c5864
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827671"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530182"
 ---
-# <a name="getsharingmetadata-operation"></a>Opération GetSharingMetadata
+# <a name="getsharingmetadata-operation"></a>Opération de GetSharingMetadata
 
-L’opération **GetSharingMetadata** Obtient un jeton d’authentification opaque qui identifie une invitation de partage. 
+L’opération **GetSharingMetadata** obtient un jeton d’authentification opaque qui identifie une invitation de partage. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetSharingMetadata** permettre utiliser les en-têtes SOAP qui sont répertoriés et décrits dans le tableau suivant. 
+L’opération **GetSharingMetadata** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version du schéma pour la requête d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getsharingmetadata-request-example"></a>Exemple de requête GetSharingMetadata
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre comment former une demande pour obtenir un jeton d’authentification opaque qui identifie une invitation de partage. Dans cet exemple, user1@contoso.com souhaite partagez le dossier spécifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) avec user1@fabikam.com et user2@test.com. 
+L’exemple suivant montre comment créer une demande pour obtenir un jeton d’authentification opaque qui identifie une invitation de partage. Dans cet exemple, user1@contoso.com souhaite partager le dossier spécifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) avec user1@fabikam.com et User2@test.com. 
   
 ### <a name="code"></a>Code
 
@@ -45,8 +45,8 @@ L’exemple suivant montre comment former une demande pour obtenir un jeton d’
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -65,13 +65,13 @@ L’exemple suivant montre comment former une demande pour obtenir un jeton d’
 
 ### <a name="comments"></a>Commentaires
 
-L’élément de [destinataires (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) contient un élément de [SmtpAddress](smtpaddress.md) pour chaque destinataire de l’invitation de partage. 
+L’élément [Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) contient un élément [SmtpAddress](smtpaddress.md) pour chaque destinataire prévu de l’invitation de partage. 
   
 ## <a name="successful-getsharingmetadata-response"></a>Réponse GetSharingMetadata réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande de **GetSharingMetadata** . Dans cet exemple, deux destinataires n’a été spécifiés dans la demande de **GetSharingMetadata** correspondante : user1@fabrikam.com et user2@test.com. 
+L’exemple suivant montre une réponse réussie à une demande **GetSharingMetadata** . Dans cet exemple, deux destinataires ont été spécifiés dans la requête **GetSharingMetadata** correspondante : user1@fabrikam.com et User2@test.com. 
   
 ### <a name="code"></a>Code
 
@@ -86,13 +86,13 @@ L’exemple suivant montre une réponse positive à une demande de **GetSharingM
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingMetadataResponseMessage ResponseClass="Success" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</ResponseCode>
       <m:EncryptedSharedFolderDataCollection>
         <t:EncryptedSharedFolderData>
@@ -156,17 +156,17 @@ L’exemple suivant montre une réponse positive à une demande de **GetSharingM
 
 ### <a name="comments"></a>Commentaires
 
-La réponse contient un élément [EncryptedSharedFolderData](encryptedsharedfolderdata.md) pour chaque organisation qui est représenté par les destinataires valides qui sont spécifiés dans la demande de **GetSharingMetadata** . 
+La réponse contient un élément [EncryptedSharedFolderData](encryptedsharedfolderdata.md) pour chaque organisation représentée par des destinataires valides qui sont spécifiés dans la demande **GetSharingMetadata** . 
   
-La demande **GetSharingMetadata** fonctionne même si les destinataires non valides sont spécifiés dans la demande. L’élément [InvalidRecipients](invalidrecipients.md) contient des informations sur les destinataires non valides. Pour plus d’informations sur les raisons pourquoi un destinataire est peut-être incorrect, voir [ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md).
+La demande **GetSharingMetadata** réussit même si des destinataires non valides sont spécifiés dans la demande. L’élément [InvalidRecipients](invalidrecipients.md) contient des informations sur les destinataires non valides. Pour plus d’informations sur les raisons pour lesquelles un destinataire peut être non valide, voir [ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md).
   
-Si tous les destinataires ne sont pas valides, l’élément [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) est vide. 
+Si tous les destinataires prévus ne sont pas valides, l’élément [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) est vide. 
   
 ## <a name="getsharingmetadata-error-response"></a>Réponse d’erreur GetSharingMetadata
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande de **GetSharingMetadata** . 
+L’exemple suivant montre une réponse d’erreur à une requête **GetSharingMetadata** . 
   
 ### <a name="code"></a>Code
 
@@ -181,13 +181,13 @@ L’exemple suivant montre une réponse d’erreur à une demande de **GetSharin
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingMetadataResponseMessage ResponseClass="Error" 
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>The SMTP address format is invalid.</MessageText>
       <m:ResponseCode>ErrorInvalidSmtpAddress</ResponseCode>
       <m:DescriptiveLinkKey>0</DescriptiveLinkKey>

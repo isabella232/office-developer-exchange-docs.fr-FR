@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 2d64ebb7-f26a-4d02-b7ef-d9d7da75f0c3
-description: L’élément SubscriptionStatus décrit l’état d’un abonnement.
-ms.openlocfilehash: 1f6de15f7a3b07714899aef2ff74a8d556f8ca1d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SubscriptionStatus décrit l’état d’un abonnement envoyé.
+ms.openlocfilehash: 195ab229380f4386b39e5c3fd48208cf66e224f0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838643"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530943"
 ---
 # <a name="subscriptionstatus"></a>SubscriptionStatus
 
-L’élément **SubscriptionStatus** décrit l’état d’un abonnement. 
+L’élément **SubscriptionStatus** décrit l’état d’un abonnement envoyé. 
   
 ```xml
 <SubscriptionStatus>OK or Unsubscribe</SubscriptionStatus>
@@ -30,11 +30,11 @@ L’élément **SubscriptionStatus** décrit l’état d’un abonnement.
  **SubscriptionStatusType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,19 +44,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SendNotificationResult](sendnotificationresult.md) <br/> |Contient la réponse de l’application cliente » à une notification push.  <br/> |
+|[SendNotificationResult](sendnotificationresult.md) <br/> |Contient la réponse de l’application cliente à une notification de type transmission.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs de texte possibles de cet élément sont les suivantes :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - OK
     
-- Se désabonner
+- Se désinscrire
     
 ## <a name="remarks"></a>Remarques
 
-Cet élément décrit l’état de l’abonnement. L’application cliente d’abonnement push envoie le statut sur l’ordinateur qui exécute Exchange 2007 qui a le rôle de serveur d’accès au Client installé après chaque notification push. Si la valeur **SubscriptionStatus** est égale à **Annuler l’abonnement**, le serveur d’accès au Client arrêter l’envoi de notifications et mettre fin à l’abonnement. Si la valeur **SubscriptionStatus** est égale à **OK**, le serveur d’accès au Client continuera d’envoyer des notifications.
+Cet élément décrit l’état de l’abonnement. L’application cliente d’abonnement poussé renvoie l’État à l’ordinateur qui exécute Exchange 2007 sur lequel le rôle de serveur d’accès au client est installé après chaque notification de transmission. Si la valeur **SubscriptionStatus** est **unsubscribe**, le serveur d’accès au client cesse d’envoyer des notifications et met fin à l’abonnement. Si la valeur **SubscriptionStatus** est définie sur **OK**, le serveur d’accès au client continuera à envoyer des notifications.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -64,9 +64,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

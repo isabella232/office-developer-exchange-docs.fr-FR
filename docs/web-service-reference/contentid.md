@@ -11,30 +11,30 @@ api_name:
 api_type:
 - schema
 ms.assetid: bc59100d-6079-414b-a6e0-7c15feaa3184
-description: L’élément ContentId représente un identificateur pour le contenu d’une pièce jointe. ContentId peut être définie à n’importe quelle valeur de chaîne. Applications peuvent utiliser ContentId pour implémenter leurs propres mécanismes d’identification.
-ms.openlocfilehash: dc46ae4b33d435f5d47eb7deb39e92fd0170194b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ContentId représente un identificateur pour le contenu d’une pièce jointe. ContentId peut être défini sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser ContentId pour implémenter leurs propres mécanismes d’identification.
+ms.openlocfilehash: ca89c8790e839326412003f26b738ad1ee956211
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755621"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529265"
 ---
 # <a name="contentid"></a>ContentId
 
-L’élément **ContentId** représente un identificateur pour le contenu d’une pièce jointe. **ContentId** peut être définie à n’importe quelle valeur de chaîne. Applications peuvent utiliser **ContentId** pour implémenter leurs propres mécanismes d’identification. 
+L’élément **contentid** représente un identificateur pour le contenu d’une pièce jointe. **Contentid** peut être défini sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser **contentid** pour implémenter leurs propres mécanismes d’identification. 
   
 ```xml
 <ContentId/>
 ```
 
- **Chaîne**
+ **String**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier qui est attaché à un élément dans la banque d’informations Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de chaîne représente l’identificateur pour le contenu d’une pièce jointe.
+La valeur de chaîne représente l’identificateur du contenu d’une pièce jointe.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

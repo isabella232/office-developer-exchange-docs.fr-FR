@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0cd70eea-8d36-4b1b-bf80-5edf359e7ba7
-description: L’élément PendingMailTips indique que les conseils de messagerie de cet élément ne peuvent pas être évaluées avant l’expiration du délai d’attente de traitement du serveur.
-ms.openlocfilehash: 73d597f6534ea29f7d26d6526c48631251521ae5
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PendingMailTips indique que les conseils de messagerie de cet élément n’ont pas pu être évalués avant l’expiration du délai de traitement du serveur.
+ms.openlocfilehash: 715d68b367c3b7251c7406c10c1ec52dcd992a59
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828704"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529965"
 ---
 # <a name="pendingmailtips"></a>PendingMailTips
 
-L’élément **PendingMailTips** indique que les conseils de messagerie de cet élément ne peuvent pas être évaluées avant l’expiration du délai d’attente de traitement du serveur. 
+L’élément **PendingMailTips** indique que les conseils de messagerie de cet élément n’ont pas pu être évalués avant l’expiration du délai de traitement du serveur. 
   
 ```XML
 <PendingMailTips>All | OutOfOfficeMessage | MailboxFullStatus | CustomMailTip | ExternalMemberCount | TotalMemberCount | MaxMessageSize | DeliveryRestriction | ModerateStatus | InvalidRecipient</PendingMailTips>
@@ -30,11 +30,11 @@ L’élément **PendingMailTips** indique que les conseils de messagerie de cet 
  **MailTipTypes**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,23 +44,23 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Les infos-courrier](mailtips.md) <br/> |Représente les valeurs pour les différents types d’astuces de la messagerie.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de courrier.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **PendingMailTips** . 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Tous  <br/> |Représente tous les conseils de messagerie disponibles.  <br/> |
-|OutOfOfficeMessage  <br/> |Représente le message d’absence du bureau (OOF).  <br/> |
-|MailboxFullStatus  <br/> |Représente l’état d’une boîte aux lettres en cours complète.  <br/> |
-|CustomMailTip  <br/> |Représente une info-bulle de messagerie personnalisé.  <br/> |
+|Tous  <br/> |Représente tous les conseils de courrier disponibles.  <br/> |
+|OutOfOfficeMessage  <br/> |Représente le message absent (e) du bureau.  <br/> |
+|MailboxFullStatus  <br/> |Représente l’état d’une boîte aux lettres en cours de remplissage.  <br/> |
+|CustomMailTip  <br/> |Représente une info-bulle personnalisée.  <br/> |
 |ExternalMemberCount  <br/> |Représente le nombre de membres externes.  <br/> |
-|TotalMemberCount  <br/> |Représente le nombre de tous les membres.  <br/> |
-|MaxMessageSize  <br/> |Représente la taille maximale des messages que le destinataire peut accepter.  <br/> |
-|DeliveryRestriction  <br/> |Indique si les restrictions de remise empêche le message de l’expéditeur d’atteindre le destinataire.  <br/> |
-|ModerationStatus  <br/> |Indique si le message de l’expéditeur s’être révisé par un modérateur.  <br/> |
+|TotalMemberCount  <br/> |Représente le décompte de tous les membres.  <br/> |
+|MaxMessageSize  <br/> |Représente la taille maximale des messages qu’un destinataire peut accepter.  <br/> |
+|DeliveryRestriction  <br/> |Indique si les restrictions de remise empêchent le message de l’expéditeur d’atteindre le destinataire.  <br/> |
+|ModerationStatus  <br/> |Indique si le message de l’expéditeur est examiné par un modérateur.  <br/> |
 |InvalidRecipient  <br/> |Indique si le destinataire n’est pas valide.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -71,7 +71,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

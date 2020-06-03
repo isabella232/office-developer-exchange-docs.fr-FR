@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: f9701409-b620-4afe-b9ee-4c1e95507af7
-description: L’élément ExtendedProperty identifie les propriétés MAPI étendues sur les dossiers et éléments.
-ms.openlocfilehash: 9a6c44e953cab4900e4b75eb42bdf4d8633e58f9
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément ExtendedProperty identifie les propriétés MAPI étendues sur les dossiers et les éléments.
+ms.openlocfilehash: 99ede097d803d6fbf534cde0e77c08cec054bfa3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353727"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530606"
 ---
 # <a name="extendedproperty"></a>ExtendedProperty
 
-L’élément **ExtendedProperty** identifie les propriétés MAPI étendues sur les dossiers et éléments. 
+L’élément **ExtendedProperty** identifie les propriétés MAPI étendues sur les dossiers et les éléments. 
   
 ```xml
 <ExtendedProperty>
@@ -41,19 +41,19 @@ L’élément **ExtendedProperty** identifie les propriétés MAPI étendues sur
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie une propriété MAPI étendue pour obtenir, définir ou créer.  <br/> |
-|[Values](values.md) <br/> |Contient une collection de valeurs de propriété MAPI étendue à valeurs multiples.  <br/> |
-|[Valeur](value.md) <br/> |Contient la valeur de la propriété étendue de MAPI à valeur unique.  <br/> |
+|[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie une propriété MAPI étendue à obtenir, définir ou créer.  <br/> |
+|[Valeurs](values.md) <br/> |Contient une collection de valeurs pour une propriété MAPI étendue à valeurs multiples.  <br/> |
+|[Valeur](value.md) <br/> |Contient la valeur de la propriété étendue MAPI à valeur unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -65,16 +65,16 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
-|[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier contenant principalement des éléments de calendrier.  <br/> |
-|[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier contacts dans une boîte aux lettres.  <br/> |
-|[Folder](folder.md) <br/> |Représente un dossier à créer, obtenir, recherchez, synchroniser ou mettre à jour.  <br/> |
-|[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche qui se trouve dans une boîte aux lettres.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches qui se trouve dans une boîte aux lettres.  <br/> |
+|[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier qui contient principalement des éléments de calendrier.  <br/> |
+|[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
+|[Folder](folder.md) <br/> |Représente un dossier à créer, obtenir, Rechercher, synchroniser ou mettre à jour.  <br/> |
+|[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche contenu dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier tâches contenu dans une boîte aux lettres.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -84,7 +84,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

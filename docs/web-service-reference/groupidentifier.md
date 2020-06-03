@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: bdc6fc1e-4979-42da-a35b-e3017988c7d3
-description: L’élément GroupIdentifier représente un identificateur de sécurité unique et un attribut pour un groupe d’objets Active Directory directory service dont le compte est membre.
-ms.openlocfilehash: d73d72979762238ca09496cfbd6636b4ff44a969
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GroupIdentifier représente un identificateur de sécurité et un attribut uniques pour un groupe d’objets de service d’annuaire Active Directory dont le compte est membre.
+ms.openlocfilehash: 8b427b9228cc5e66f46f70389acf2fa4bcd283b3
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827767"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530802"
 ---
 # <a name="groupidentifier"></a>GroupIdentifier
 
-L’élément **GroupIdentifier** représente un identificateur de sécurité unique et un attribut pour un groupe d’objets Active Directory directory service dont le compte est membre. 
+L’élément **GroupIdentifier** représente un identificateur de sécurité et un attribut uniques pour un groupe d’objets de service d’annuaire Active Directory dont le compte est membre. 
   
 ```xml
 <GroupIdentifier>
@@ -32,25 +32,25 @@ L’élément **GroupIdentifier** représente un identificateur de sécurité un
  **SidAndAttributesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Attributes** <br/> |Contient les attributs d’un groupe.  <br/> |
+|**Attributs** <br/> |Contient les attributs de groupe.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SecurityIdentifier](securityidentifier.md) <br/> |Représente le formulaire sécurité descripteur definition language (SDDL) d’un identificateur de sécurité ([SID](sid.md)) qui représente le groupe.  <br/> |
+|[SecurityIdentifier](securityidentifier.md) <br/> |Représente la forme SDDL (Security Descriptor Definition Language) d’un identificateur de sécurité ([sid](sid.md)) qui représente le groupe.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupSids](groupsids.md) <br/> |Représente une collection d’identificateurs de sécurité Active Directory groupe objet qui constituent un jeton de compte pour la sérialisation de jeton. Sérialisation de jeton n’est pas pris en charge.  <br/> |
+|[GroupSids](groupsids.md) <br/> |Représente une collection d’identificateurs de sécurité d’objets de groupe Active Directory qui constituent un jeton de compte pour la sérialisation de jetons. La sérialisation de jetons n’est pas prise en charge.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

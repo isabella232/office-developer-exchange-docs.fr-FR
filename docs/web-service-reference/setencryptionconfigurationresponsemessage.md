@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bb0f0eec-be1e-42cc-9426-d98a491debec
-description: L’élément SetEncryptionConfigurationResponseMessage est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 88b77acc917b7c7b6876bbb8dbf91314474b8544
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SetEncryptionConfigurationResponseMessage est destiné uniquement à un usage interne.
+ms.openlocfilehash: ad32b7f1da07e6f22a15e2571ec2b1cc5533e499
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829409"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530330"
 ---
 # <a name="setencryptionconfigurationresponsemessage"></a>SetEncryptionConfigurationResponseMessage
 
-L’élément **SetEncryptionConfigurationResponseMessage** est destiné à une utilisation interne uniquement. 
+L’élément **SetEncryptionConfigurationResponseMessage** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

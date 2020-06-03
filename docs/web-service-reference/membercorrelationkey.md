@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 60cc7094-2e31-49d2-8598-181bcfb5f130
-description: L’élément MemberCorrelationKey spécifie les identificateurs des contacts qui font partie de la groupe (IM) de messagerie instantanée.
-ms.openlocfilehash: 4e45a86a5ead48576dcab7f3a53e1c3ad72ec173
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MemberCorrelationKey spécifie les identificateurs des contacts qui font partie du groupe de messagerie instantanée.
+ms.openlocfilehash: 8aad013e978f9ddb4fcc31f100010c94f49af139
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828445"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530442"
 ---
 # <a name="membercorrelationkey"></a>MemberCorrelationKey
 
-L’élément **MemberCorrelationKey** spécifie les identificateurs des contacts qui font partie de la groupe (IM) de messagerie instantanée. 
+L’élément **MemberCorrelationKey** spécifie les identificateurs des contacts qui font partie du groupe de messagerie instantanée. 
   
 ```XML
 <MemberCorrelationKey>
@@ -29,19 +29,19 @@ L’élément **MemberCorrelationKey** spécifie les identificateurs des contact
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ID d’élément](itemid.md)
+[ItemId](itemid.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[ImGroup](imgroup.md)
+[Imgroup](imgroup.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -53,7 +53,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

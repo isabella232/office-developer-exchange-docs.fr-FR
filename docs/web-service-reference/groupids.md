@@ -1,5 +1,5 @@
 ---
-title: GroupID
+title: ID
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4d32cb3b-eb84-4816-89cd-26dcf5131bc8
-description: L’élément les GroupID identifie un tableau d’identificateurs de groupe de messagerie instantanée.
-ms.openlocfilehash: 0e463a3a74eb3a4996b521f77e1175913b22d16b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ID identifie un tableau d’identificateurs de groupe de messagerie instantanée.
+ms.openlocfilehash: 7583a197413063289739f0f32d9410047fc2f23d
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827763"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530084"
 ---
-# <a name="groupids"></a>GroupID
+# <a name="groupids"></a>ID
 
-L’élément **les GroupID** identifie un tableau d’identificateurs de groupe de messagerie instantanée. 
+L’élément **ID** identifie un tableau d’identificateurs de groupe de messagerie instantanée. 
   
 ```XML
 <GroupIds>
@@ -31,15 +31,15 @@ L’élément **les GroupID** identifie un tableau d’identificateurs de groupe
  **NonEmptyArrayOfBaseItemIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
+[ItemId](itemid.md)  |  [OccurrenceItemId](occurrenceitemid.md)  |  [RecurringMasterItemId](recurringmasteritemid.md)  |  [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,9 +55,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

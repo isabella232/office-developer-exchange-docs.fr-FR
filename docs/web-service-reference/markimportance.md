@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
-description: L’élément MarkImportance Spécifie l’importance qui doit être marqué sur les messages.
-ms.openlocfilehash: 32b1fa63ef47327e7d3af717ed9f452e43b16380
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MarkImportance spécifie l’importance à marquer sur les messages.
+ms.openlocfilehash: 051307c0943a22e0c46439410806d168603d8a69
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828356"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530880"
 ---
 # <a name="markimportance"></a>MarkImportance
 
-L’élément **MarkImportance** Spécifie l’importance qui doit être marqué sur les messages. 
+L’élément **MarkImportance** spécifie l’importance à marquer sur les messages. 
   
 ```XML
 <MarkImportance/>
@@ -30,11 +30,11 @@ L’élément **MarkImportance** Spécifie l’importance qui doit être marqué
  **ImportanceChoicesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,15 +46,15 @@ Aucun.
 |:-----|:-----|
 |[Actions](actions.md) <br/> |Représente l'ensemble des actions qui sont disponibles pour être effectuées sur un message lorsque les conditions sont remplies.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte pour cet élément est limitée à une des valeurs de chaîne suivantes :
+La valeur de texte de cet élément est restreinte à l’une des valeurs String suivantes :
   
-- Low
+- Faible
     
 - Normal
     
-- High
+- Importante
     
 ## <a name="remarks"></a>Remarques
 
@@ -64,9 +64,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

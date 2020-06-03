@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f012c2e3-9719-47fc-81ef-ba613263779b
-description: L’élément pays identifie un identificateur de pays dans une adresse postale.
-ms.openlocfilehash: 83462afedc542fa69cbb8c54c91d0bbc8c746fb4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Country identifie un identificateur de pays dans une adresse postale.
+ms.openlocfilehash: 7f5a67128c314d8a6f546735c00966319e64ea36
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755678"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529230"
 ---
 # <a name="country"></a>Pays
 
-L’élément **pays** identifie un identificateur de pays dans une adresse postale. 
+L’élément **Country** identifie un identificateur de pays dans une adresse postale. 
   
 ```XML
 <Country></Country>
 ```
 
- **string**
+ **chaîne**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément **Country** est un identificateur de pays. 
   
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

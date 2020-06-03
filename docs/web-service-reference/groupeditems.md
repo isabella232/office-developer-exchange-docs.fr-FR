@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 53170df4-4272-4b37-b23f-cd8e2d4a7396
-description: L’élément GroupedItems représente une collection d’éléments qui sont le résultat d’un appel d’opération FindItem groupé.
-ms.openlocfilehash: f8aed9b78fc54307f44b96a45e5c31a4cc76ab50
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément GroupedItems représente une collection d’éléments qui sont le résultat d’un appel d’opération groupée FindItem.
+ms.openlocfilehash: 0ee1ca3c6d0cf98e2daefa60a1cb1fd096cda478
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827756"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530810"
 ---
 # <a name="groupeditems"></a>GroupedItems
 
-L’élément **GroupedItems** représente une collection d’éléments qui sont le résultat d’une [opération FindItem](finditem-operation.md) groupée d’appel. 
+L’élément **GroupedItems** représente une collection d’éléments qui sont le résultat d’un appel d' [opération](finditem-operation.md) groupée FindItem. 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -31,7 +31,7 @@ L’élément **GroupedItems** représente une collection d’éléments qui son
   
 [RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md)
   
-[Groupes](groups.md)
+[Groups](groups.md)
   
 [GroupedItems](groupeditems.md)
   
@@ -45,34 +45,34 @@ L’élément **GroupedItems** représente une collection d’éléments qui son
  **GroupedItemsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupIndex](groupindex.md) <br/> |Représente la valeur de la propriété qui est utilisé pour regrouper les éléments dans une [opération FindItem](finditem-operation.md) groupée d’appel.  <br/> |
-|[Items](items.md) <br/> |Contient un tableau d’éléments regroupés.  <br/> |
+|[GroupIndex](groupindex.md) <br/> |Représente la valeur de la propriété qui est utilisée pour regrouper des éléments dans un appel d' [opération FindItem](finditem-operation.md) groupé.  <br/> |
+|[Items](items.md) <br/> |Contient un tableau d’éléments groupés.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Groupes](groups.md) <br/> |Contient une collection des groupes qui sont trouvés dans les critères de recherche et d’agrégation identifiée dans la requête [d’opération FindItem](finditem-operation.md) .  <br/> |
+|[Groups](groups.md) <br/> |Contient une collection de groupes trouvés avec les critères de recherche et d’agrégation identifiés dans la demande d' [opération FindItem](finditem-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
@@ -84,5 +84,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [Opération FindItem](finditem-operation.md)
 
 
-[Recherche d’éléments](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+[Recherche d’éléments](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

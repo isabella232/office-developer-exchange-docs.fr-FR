@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
-description: L’élément ProposedEnd Spécifie l’heure de fin proposée d’une réunion.
-ms.openlocfilehash: fd2a6813f3a936785adc8fcea289cb547d52c8c0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ProposedEnd spécifie l’heure de fin proposée d’une réunion.
+ms.openlocfilehash: 68ad4bb7c3a4d78695ccb88c0994cafd0956828f
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828901"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529902"
 ---
 # <a name="proposedend"></a>ProposedEnd
 
-L’élément **ProposedEnd** Spécifie l’heure de fin proposée d’une réunion. 
+L’élément **ProposedEnd** spécifie l’heure de fin proposée d’une réunion. 
   
 ```XML
 <ProposedEnd></ProposedEnd>
@@ -26,11 +26,11 @@ L’élément **ProposedEnd** Spécifie l’heure de fin proposée d’une réun
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [MeetingResponse](meetingresponse.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ProposedEnd** est l’heure de fin proposée envoyé par un participant à l’organisateur de la réunion. 
+La valeur de texte de l’élément **ProposedEnd** est l’heure de fin proposée par un participant à l’organisateur de la réunion. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |

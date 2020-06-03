@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 79c89d74-b0ad-4643-9177-b75d3baa3b67
-description: L’élément FirstHopServer contient le nom du serveur dans la forêt qui a accepté tout d’abord le message.
-ms.openlocfilehash: 1852b95f94b174b57c8175a45035a97686384c20
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FirstHopServer contient le nom du serveur dans la forêt qui a accepté le message en premier.
+ms.openlocfilehash: 46b494ecd112359ecbb3a80545cefb652bbc2d47
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756422"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530245"
 ---
 # <a name="firsthopserver"></a>FirstHopServer
 
-L’élément **FirstHopServer** contient le nom du serveur dans la forêt qui a accepté tout d’abord le message. 
+L’élément **FirstHopServer** contient le nom du serveur dans la forêt qui a accepté le message en premier. 
   
 ```xml
 <FirstHopServer/>
@@ -30,11 +30,11 @@ L’élément **FirstHopServer** contient le nom du serveur dans la forêt qui a
  **NonEmptyStringType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique d’un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

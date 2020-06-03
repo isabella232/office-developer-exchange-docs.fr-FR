@@ -1,5 +1,5 @@
 ---
-title: SortOrder (ConversationNodeSortOrder)
+title: OrdreTri (ConversationNodeSortOrder)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9c4295c-8089-4533-b92f-2051eae9afeb
-description: L’élément SortOrder Spécifie l’ordre de tri pour le résultat d’une demande GetConversationItems.
-ms.openlocfilehash: 397aead62d32e72f991af783bff02e79a6e4b0fb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SortOrder spécifie l’ordre de tri utilisé pour le résultat d’une demande GetConversationItems.
+ms.openlocfilehash: 69d362b9f769749bcc9692825b64ff486e8b60a0
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829520"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530964"
 ---
-# <a name="sortorder-conversationnodesortorder"></a>SortOrder (ConversationNodeSortOrder)
+# <a name="sortorder-conversationnodesortorder"></a>OrdreTri (ConversationNodeSortOrder)
 
-L’élément **SortOrder** Spécifie l’ordre de tri pour le résultat d’une demande **GetConversationItems** . 
+L’élément **SortOrder** spécifie l’ordre de tri utilisé pour le résultat d’une demande **GetConversationItems** . 
   
 ```XML
 <SortOrder>TreeOrderAscending | TreeOrderDescending | DateOrderAscending | DateOrderDescending</SortOrder>
@@ -26,11 +26,11 @@ L’élément **SortOrder** Spécifie l’ordre de tri pour le résultat d’une
  **ConversationNodeSortOrder**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,9 +40,9 @@ Aucun.
 
 [GetConversationItems](getconversationitems.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SortOrder** est l’ordre dans lequel les conversations commandée. Une valeur texte **TreeOrderAscending** indique que les conversations sont triées en fonction de l’arborescence de la conversation dans l’ordre croissant. Une valeur texte **TreeOrderDescending** indique que les conversations sont triées en fonction de l’arborescence de la conversation dans l’ordre décroissant. Une valeur texte **DateOrderAscending** indique que les conversations sont triées en fonction de la date de la conversation dans l’ordre croissant. Une valeur texte **DateOrderDescending** indique que les conversations sont triées en fonction de la date de la conversation dans l’ordre décroissant. 
+La valeur de texte de l’élément **SortOrder** est l’ordre dans lequel les conversations sont ordonnées. Une valeur de texte de **TreeOrderAscending** indique que les conversations sont classées en fonction de l’arborescence de conversation dans l’ordre croissant. Une valeur de texte de **TreeOrderDescending** indique que les conversations sont classées en fonction de l’arborescence de conversation dans l’ordre décroissant. Une valeur de texte de **DateOrderAscending** indique que les conversations sont classées en fonction de la date de conversation dans l’ordre croissant. Une valeur de texte de **DateOrderDescending** indique que les conversations sont classées en fonction de la date de conversation dans l’ordre décroissant. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -54,9 +54,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

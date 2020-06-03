@@ -1,5 +1,5 @@
 ---
-title: DeleteItemResponse
+title: Updateitemresponse
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 86463d66-fe47-4a19-a81b-e24841e816ab
-description: L’élément DeleteItemResponse définit une réponse à une demande DeleteItem unique.
-ms.openlocfilehash: 8a35033c744fbcb0829d2c79a8d79557f77137bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Updateitemresponse définit une réponse à une seule demande DeleteItem.
+ms.openlocfilehash: 6aad30077e8867486012dd34bb1def97accffc2b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755871"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529195"
 ---
-# <a name="deleteitemresponse"></a>DeleteItemResponse
+# <a name="deleteitemresponse"></a>Updateitemresponse
 
-L’élément **DeleteItemResponse** définit une réponse à une demande DeleteItem unique. 
+L’élément **updateitemresponse** définit une réponse à une seule demande DeleteItem. 
   
 ```xml
 <DeleteItemResponse>
@@ -32,17 +32,17 @@ L’élément **DeleteItemResponse** définit une réponse à une demande Delete
  **DeleteItemResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

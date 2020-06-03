@@ -11,31 +11,31 @@ api_name:
 api_type:
 - schema
 ms.assetid: de7c9035-ebbc-4473-ac14-3b22ce62768c
-description: L’élément MailboxSmtpAddress représente l’adresse SMTP de l’utilisateur dont les règles de boîte de réception sont à récupérer ou mis à jour ; ou dont la date d’expiration de mot de passe doit être récupéré.
-ms.openlocfilehash: 60b2c018f2a05e9630e92e28de1054a421b41e52
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément MailboxSmtpAddress représente l’adresse SMTP de l’utilisateur dont les règles de boîte de réception doivent être récupérées ou mises à jour ; ou la date d’expiration du mot de passe à récupérer.
+ms.openlocfilehash: 613e8098210257280bec47f2b22a2d29d04fa07c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828303"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530543"
 ---
 # <a name="mailboxsmtpaddress"></a>MailboxSmtpAddress
 
-L’élément **MailboxSmtpAddress** représente l’adresse SMTP de l’utilisateur dont les règles de boîte de réception sont à récupérer ou mis à jour ; ou dont la date d’expiration de mot de passe doit être récupéré. 
+L’élément **MailboxSmtpAddress** représente l’adresse SMTP de l’utilisateur dont les règles de boîte de réception doivent être récupérées ou mises à jour ; ou la date d’expiration du mot de passe à récupérer. 
   
 ```XML
 <MailboxSmtpAddress/>
 ```
 
-**string**
+**chaîne**
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,9 +45,9 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetInboxRules](getinboxrules.md) <br/> |Définit une requête pour obtenir les règles de boîte de réception sur une boîte aux lettres dans le magasin du serveur.  <br/> |
-|[GetPasswordExpirationDate](getpasswordexpirationdate.md) <br/> |Définit une demande pour obtenir la date d’expiration de mot de passe d’un compte de messagerie.  <br/> |
-|[UpdateInboxRules](updateinboxrules.md) <br/> |Définit une demande pour mettre à jour les règles de boîte de réception dans une boîte aux lettres dans le magasin du serveur.  <br/> |
+|[GetInboxRules](getinboxrules.md) <br/> |Définit une demande pour obtenir les règles de boîte de réception sur une boîte aux lettres dans le magasin de serveurs.  <br/> |
+|[GetPasswordExpirationDate](getpasswordexpirationdate.md) <br/> |Définit une demande pour obtenir la date d’expiration du mot de passe d’un compte de messagerie.  <br/> |
+|[UpdateInboxRules](updateinboxrules.md) <br/> |Définit une demande de mise à jour des règles de boîte de réception dans une boîte aux lettres dans le magasin du serveur.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -55,7 +55,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **MailboxSmtpAddress** est un élément facultatif. Si l’élément **MailboxSmtpAddress** est omis, l’adresse de l’utilisateur connecté est utilisé. 
+L’élément **MailboxSmtpAddress** est un élément facultatif. Si l’élément **MailboxSmtpAddress** est omis, l’adresse de l’utilisateur connecté est utilisée. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |

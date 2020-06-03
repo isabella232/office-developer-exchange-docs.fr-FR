@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: f9252536-9852-4dd9-9ebc-91f5cf281171
 description: L’élément DisconnectPhoneCall représente une demande de déconnexion d’un appel.
-ms.openlocfilehash: 56947ea9ba56c76bb02d6a425ff43b3b846a2f60
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 8d64ecb9dce1d8b7efcebc70686db8fcbf867217
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755963"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529706"
 ---
 # <a name="disconnectphonecall"></a>DisconnectPhoneCall
 
@@ -32,17 +32,17 @@ L’élément **DisconnectPhoneCall** représente une demande de déconnexion d�
  **DisconnectPhoneCallType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PhoneCallId](phonecallid.md) <br/> |Spécifie l’identificateur de l’appel pour déconnecter la session. Cet élément est obligatoire.  <br/> |
+|[PhoneCallId](phonecallid.md) <br/> |Spécifie l’identificateur de l’appel à déconnecter. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

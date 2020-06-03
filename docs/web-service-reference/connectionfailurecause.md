@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d2160c8a-015c-4964-b7f7-93478764a173
-description: L’élément ConnectionFailureCause spécifie la raison d’une déconnexion d’un appel téléphonique.
-ms.openlocfilehash: 54b4f5b89efdb42ef82dbef8f1af14a39c0ccc6a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ConnectionFailureCause spécifie la raison pour laquelle une déconnexion à partir d’un appel téléphonique.
+ms.openlocfilehash: 6385641eaee140a114906703232974d51d5ce344
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755542"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529447"
 ---
 # <a name="connectionfailurecause"></a>ConnectionFailureCause
 
-L’élément **ConnectionFailureCause** spécifie la raison d’une déconnexion d’un appel téléphonique. 
+L’élément **ConnectionFailureCause** spécifie la raison pour laquelle une déconnexion à partir d’un appel téléphonique. 
   
 ```xml
 <ConnectionFailureCause>None or UserBusy or NoAnswer or Unavailable or Other</ConnectionFailureCause>
@@ -30,11 +30,11 @@ L’élément **ConnectionFailureCause** spécifie la raison d’une déconnexio
  **ConnectionFailureCauseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,21 +44,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’état pour un appel téléphonique.  <br/> |
+|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’État pour un appel téléphonique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 Le tableau suivant répertorie les valeurs possibles pour l’élément **ConnectionFailureCause** . 
   
-**Valeurs des éléments ConnectionFailureCause**
+**Valeurs de l’élément ConnectionFailureCause**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|None  <br/> |État d’appel n’est pas déconnecté ou la raison de déconnexion n’est pas connue.  <br/> |
-|UserBusy  <br/> |La ligne de la partie appelée était occupée.  <br/> |
-|NoAnswer  <br/> |La personne appelée ne répond pas.  <br/> |
-|Unavailable  <br/> |Le numéro appelé n’était pas disponible.  <br/> |
-|Other  <br/> |Fourre-tout pour d’autres raisons de déconnexion.  <br/> |
+|Aucun  <br/> |L’état de l’appel n’est pas déconnecté ou le motif de déconnexion n’est pas connu.  <br/> |
+|UserBusy  <br/> |La ligne de partie appelée était occupée.  <br/> |
+|Noanswer  <br/> |La partie appelée n’a pas répondu.  <br/> |
+|Indisponible  <br/> |Le numéro de partie appelé n’était pas disponible.  <br/> |
+|Autres  <br/> |Rattraper-tout pour d’autres raisons de déconnexion.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

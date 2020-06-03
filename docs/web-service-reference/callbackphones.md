@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8a7c1377-aac3-42c5-820f-d01cd8e9cf5c
-description: L’élément CallbackPhones spécifie un tableau des numéros de téléphone de rappel et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 3d7acb5f9d800ac7dfff5a43ca8f19e3d147c7a7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément CallbackPhones spécifie un tableau de numéros de téléphone de rappel et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: 79d74beffb8de8981e042b0c80e1aa5505a1048c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755483"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529461"
 ---
 # <a name="callbackphones"></a>CallbackPhones
 
-L’élément **CallbackPhones** spécifie un tableau des numéros de téléphone de rappel et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **CallbackPhones** spécifie un tableau de numéros de téléphone de rappel et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```XML
 <CallbackPhones>
@@ -29,24 +29,24 @@ L’élément **CallbackPhones** spécifie un tableau des numéros de téléphon
  **ArrayOfPhoneNumberAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un nombre et le type d’informations téléphoniques et est associé à un ensemble d’attributions.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des affectations pour sa **valeur** de l’élément associé.  <br/> |
+|[Valeur (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un numéro de téléphone et des informations de type et est associé à un ensemble d’attributions.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

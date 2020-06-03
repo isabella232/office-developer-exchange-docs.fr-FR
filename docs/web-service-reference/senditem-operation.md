@@ -1,5 +1,5 @@
 ---
-title: SendItem Operation
+title: Opération SendItem
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
-description: L’opération SendItem est utilisée pour envoyer des messages électroniques qui se trouvent dans la banque d’informations Exchange.
-ms.openlocfilehash: 780778b1599d0d5e5f4b6e5b58b67773bbe18cda
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération SendItem est utilisée pour envoyer des messages électroniques situés dans la Banque d’Exchange.
+ms.openlocfilehash: 9136379e50723211fe5a483c7f113da4fa125fc1
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829336"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530337"
 ---
-# <a name="senditem-operation"></a>SendItem Operation
+# <a name="senditem-operation"></a>Opération SendItem
 
-L’opération SendItem est utilisée pour envoyer des messages électroniques qui se trouvent dans la banque d’informations Exchange.
+L’opération SendItem est utilisée pour envoyer des messages électroniques situés dans la Banque d’Exchange.
   
-## <a name="senditem-e-mail-message-request-example"></a>Exemple de requête SendItem (Message électronique)
+## <a name="senditem-e-mail-message-request-example"></a>Exemple de requête SendItem (message électronique)
 
 ### <a name="description"></a>Description
 
@@ -35,9 +35,9 @@ L’exemple suivant montre comment envoyer un message électronique.
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="AAAtAEF=" ChangeKey="CQAAABY+T" />
@@ -51,17 +51,17 @@ L’exemple suivant montre comment envoyer un message électronique.
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
 - [SendItem](senditem.md)
     
-- [ItemId](itemids.md)
+- [ItemIds](itemids.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="successful-senditem-e-mail-message-response"></a>Réponse SendItem réussie (Message électronique)
+## <a name="successful-senditem-e-mail-message-response"></a>Réponse SendItem (message électronique)
 
 ### <a name="description"></a>Description
 
@@ -76,12 +76,12 @@ L’exemple suivant montre une réponse SendItem réussie.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -92,7 +92,7 @@ L’exemple suivant montre une réponse SendItem réussie.
 </soap:Envelope>
 ```
 
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -108,11 +108,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 ### <a name="comments"></a>Commentaires
 
-Un délégué qui tente d’envoyer un message électronique qui se trouve dans le dossier Brouillons de celui du principal avec l’option SendAndSaveCopy pour enregistrer une copie dans les éléments envoyés de dossier unique échoue en mode silencieux pour déplacer une copie de l’élément envoyé aux éléments envoyés unique dossier. L’élément reste dans le dossier Brouillons de celui du principal. La solution de contournement à ce problème consiste à spécifier la boîte aux lettres de l’entité de sécurité dans l’élément [DistinguishedFolderId](distinguishedfolderid.md) . 
+Un délégué qui tente d’envoyer un message électronique qui se trouve dans le dossier Brouillons de l’entité avec l’option Méthodesendandsavecopy définie sur enregistrer une copie dans le dossier unique éléments envoyés ne parviendra pas à déplacer une copie de l’élément envoyé vers le dossier unique éléments envoyés. L’élément reste dans le dossier Brouillons de l’entité de sécurité. Pour contourner ce problème, spécifiez la boîte aux lettres de l’entité dans l’élément [DistinguishedFolderId](distinguishedfolderid.md) . 
   
-Un scénario supplémentaire à prendre en compte est un délégué crée un message électronique et l’enregistre dans le dossier Brouillons de boîte aux lettres du délégué. Si le délégué tente d’envoyer l’élément et enregistrer une copie dans un dossier unique d’éléments envoyés de l’entité de sécurité, le message est envoyé correctement, que le message de brouillon reste dans le dossier du délégué brouillons, le message envoyé n’apparaît pas dans l’entité de sécurité ou du délégué Dossier éléments envoyés, et la réponse est un succès.
+Un autre scénario à prendre en considération est lorsqu’un délégué crée un message électronique et l’enregistre dans le dossier Brouillons de la boîte aux lettres du délégué. Si le délégué tente d’envoyer l’élément et d’enregistrer une copie dans le dossier unique éléments envoyés du principal, le message est envoyé correctement, le brouillon du message reste dans le dossier Brouillons du délégué, le message envoyé n’apparaît pas dans le dossier éléments envoyés du délégué ou du principal, et la réponse est une réussite.
   
-## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemple de requête non valide SendItem (Message électronique)
+## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemple de requête SendItem (message électronique) non valide
 
 ### <a name="description"></a>Description
 
@@ -124,9 +124,9 @@ L’exemple de code suivant montre un exemple de requête avec un identificateur
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <SendItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    <SendItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
               SaveItemToFolder="true">
       <ItemIds>
         <t:ItemId Id="%BadItemId%" ChangeKey="CQAAABYAAA" />
@@ -136,11 +136,11 @@ L’exemple de code suivant montre un exemple de requête avec un identificateur
 </soap:Envelope>
 ```
 
-## <a name="senditem-e-mail-message-error-response"></a>Réponse d’erreur SendItem (Message électronique)
+## <a name="senditem-e-mail-message-error-response"></a>Réponse d’erreur SendItem (message électronique)
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande de SendItem qui contient un identificateur non valide.
+L’exemple suivant montre une réponse d’erreur à une requête SendItem qui contient un identificateur non valide.
   
 ### <a name="code"></a>Code
 
@@ -151,12 +151,12 @@ L’exemple suivant montre une réponse d’erreur à une demande de SendItem qu
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SendItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SendItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SendItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6f800912-be4c-46f9-aa1e-dff0bbf877c5
-description: L’élément PlayOnPhoneEnabled indique si la fonctionnalité de lecture sur le téléphone est activée.
-ms.openlocfilehash: 1a6c5c41a4fe723f37d07ad0151dfbd6512cf4f7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément PlayOnPhoneEnabled indique si la fonctionnalité de lecture sur téléphone est activée.
+ms.openlocfilehash: 8342e2bcc9c767903e0f6c180000a0f00eccc311
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828829"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529930"
 ---
 # <a name="playonphoneenabled"></a>PlayOnPhoneEnabled
 
-L’élément **PlayOnPhoneEnabled** indique si la fonctionnalité de lecture sur le téléphone est activée. 
+L’élément **PlayOnPhoneEnabled** indique si la fonctionnalité de lecture sur téléphone est activée. 
   
 ```XML
 <PlayOnPhoneEnabled>true | false</PlayOnPhoneEnabled>
@@ -30,11 +30,11 @@ L’élément **PlayOnPhoneEnabled** indique si la fonctionnalité de lecture su
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -46,9 +46,9 @@ Aucun.
 |:-----|:-----|
 |[UnifiedMessagingConfiguration](unifiedmessagingconfiguration.md) <br/> |Contient des informations de configuration pour le service de messagerie unifiée.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-L’élément **PlayOnPhoneEnabled** a la valeur **true** si les lire sur le téléphone est activé pour le compte. dans le cas contraire, la valeur est **false**.
+L’élément **PlayOnPhoneEnabled** a la valeur **true** si la fonctionnalité de diffusion en ligne téléphonique est activée pour le compte ; Sinon, la valeur est **false**.
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

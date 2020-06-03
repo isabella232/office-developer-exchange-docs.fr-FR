@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 51116adc-1f59-429b-b1a7-e9ada92c366f
-description: La forme de base élément est destiné à usage interne uniquement.
-ms.openlocfilehash: df6746b07d50fb2dfc2460991f582600fac59b63
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Master est destiné uniquement à un usage interne.
+ms.openlocfilehash: 38d33770d7b2222d4b852521a680eec185f54321
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828359"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530522"
 ---
 # <a name="master"></a>Master
 
-L’élément **principal** est destiné à une utilisation interne uniquement. 
+L’élément **Master** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -1,5 +1,5 @@
 ---
-title: ActingAs
+title: Actionas
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 3896afff-5c2c-4eaf-8621-c70e0371ea78
-description: L’élément ActingAs identifie qui envoie en tant que l’appelant.
-ms.openlocfilehash: 9c007ed45f85dba265261dd79a6fd846dbd9d2f9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Actionas identifie les personnes qui envoient l’appelant.
+ms.openlocfilehash: 175a03018ee3529ec595dbe9afb7dc61ad6afc35
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756336"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529699"
 ---
-# <a name="actingas"></a>ActingAs
+# <a name="actingas"></a>Actionas
 
-L’élément **ActingAs** identifie qui envoie en tant que l’appelant. 
+L’élément **actionas** identifie les personnes qui envoient l’appelant. 
   
 ```xml
 <ActingAs>
@@ -33,28 +33,28 @@ L’élément **ActingAs** identifie qui envoie en tant que l’appelant.
  **EmailAddressType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Définit l’adresse SMTP Simple Mail Transfer Protocol () d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Définit le routage est utilisé pour la boîte aux lettres. La valeur par défaut est SMTP. Cet élément est facultatif.  <br/> |
+|[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Définit l’adresse SMTP (Simple Mail Transfer Protocol) d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Définit le routage utilisé pour la boîte aux lettres. La valeur par défaut est SMTP. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetServiceConfiguration](getserviceconfiguration.md) <br/> |Définit une demande **GetServiceConfiguration** .  <br/> |
+|[GetServiceConfiguration](getserviceconfiguration.md) <br/> |Définit une requête **GetServiceConfiguration** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément est facultatif. Si cet élément n’est pas présent, l’utilisateur authentifié est supposé être l’expéditeur. L’élément **ActingAs** doit être inclus pour demander des conseils de l’expéditeur. Une erreur **ErrorInvalidArgument** peut être renvoyée dans une réponse si l’élément **ActingAs** est manquant, n’inclut pas un type de routage, n’inclut pas une adresse de messagerie, contient une adresse de messagerie non valides, ne correspond pas à un utilisateur dans Active Directory Domaine Services (AD DS), ou correspond à plusieurs utilisateurs dans AD DS. 
+Cet élément est facultatif. Si cet élément n’est pas présent, l’utilisateur authentifié est supposé être l’expéditeur. L’élément **actionas** doit être inclus pour la demande d’indications de l’expéditeur. Une erreur **ErrorInvalidArgument** peut être renvoyée dans une réponse si l’élément **actionas** est manquant, qu’il n’inclut pas de type de routage, qu’il n’inclut pas d’adresse de messagerie, qu’il contient une adresse de messagerie non valide, qu’il n’est pas résolu en utilisateur dans les services de domaine Active Directory (AD DS) ou qu’il est résolu en plusieurs utilisateurs dans AD DS. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

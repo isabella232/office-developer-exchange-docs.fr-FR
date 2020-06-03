@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ebdf224d-3796-4179-aa0a-87942e7585ff
-description: L’élément EmailAddressAttributedValue spécifie une instance d’un tableau des adresses de messagerie et leurs attributions associées.
-ms.openlocfilehash: 3bcbb5c0a2bc9a2dc24516b5fc62e6e3363a360b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EmailAddressAttributedValue spécifie une instance d’un tableau d’adresses de messagerie et les attributions associées.
+ms.openlocfilehash: 09fdd5921cef3d70a6da4b6d4d38f08834c5d482
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756117"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530690"
 ---
 # <a name="emailaddressattributedvalue"></a>EmailAddressAttributedValue
 
-L’élément **EmailAddressAttributedValue** spécifie une instance d’un tableau des adresses de messagerie et leurs attributions associées. 
+L’élément **EmailAddressAttributedValue** spécifie une instance d’un tableau d’adresses de messagerie et les attributions associées. 
   
 ```XML
 <EmailAddressAttributedValue>
@@ -29,26 +29,26 @@ L’élément **EmailAddressAttributedValue** spécifie une instance d’un tabl
  **EmailAddressAttributedValueType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (EmailAddressType)](value-emailaddresstype.md) <br/> |Spécifie que la valeur d’une **adresse électronique** associé à un tableau des attributions.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des affectations pour sa **valeur** de l’élément associé.  <br/> |
+|[Valeur (EmailAddressType)](value-emailaddresstype.md) <br/> |Spécifie la valeur d’un **EmailAddress** associé à un tableau d’attributions.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Emails1](emails1.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions source pour le personnage associé.  <br/> |
-|[Emails2](emails2.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions source pour le personnage associé.  <br/> |
-|[Emails3](emails3.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions source pour le personnage associé.  <br/> |
+|[Emails1](emails1.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions sources pour le personnage associé.  <br/> |
+|[Emails2](emails2.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions sources pour le personnage associé.  <br/> |
+|[Emails3](emails3.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions sources pour le personnage associé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,9 +60,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

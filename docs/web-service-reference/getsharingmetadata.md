@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b609ee26-6d28-4559-81b6-b8e8d4759a23
 description: L’élément GetSharingMetadata définit une demande pour obtenir un jeton d’authentification opaque qui identifie l’invitation de partage. Cet élément est l’élément de base pour l’opération GetSharingMetadata.
-ms.openlocfilehash: 5283d35e11350ef10ed8cc01527e787ef54be927
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 406908e566d6d4249003b1a19a9ce79b8b328c4e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827677"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530845"
 ---
 # <a name="getsharingmetadata"></a>GetSharingMetadata
 
@@ -34,19 +34,19 @@ L’élément **GetSharingMetadata** définit une demande pour obtenir un jeton 
  **GetSharingMetadataType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[IdOfFolderToShare](idoffoldertoshare.md) <br/> |Représente l’identificateur du dossier sur le serveur qui est partagé. Cet élément est obligatoire.  <br/> |
+|[IdOfFolderToShare](idoffoldertoshare.md) <br/> |Représente l’identificateur du dossier sur le serveur qui sera partagé. Cet élément est obligatoire.  <br/> |
 |[SenderSmtpAddress](sendersmtpaddress.md) <br/> |Représente l’adresse de messagerie SMTP qui correspond à la boîte aux lettres qui contient le dossier identifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) . Cet élément est obligatoire.  <br/> |
-|[Destinataires (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Représente les adresses de messagerie SMTP d’une ou plusieurs entités qui auront accès aux données dans le dossier identifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) . Cet élément est obligatoire.  <br/> |
+|[Destinataires (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Représente les adresses de messagerie SMTP d’une ou plusieurs entités qui seront autorisées à accéder aux données dans le dossier identifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) . Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,9 +56,9 @@ Aucun.
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

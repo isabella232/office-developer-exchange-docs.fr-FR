@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 767bc328-b527-4e9a-85c6-f11897e43960
-description: L’élément NextPredictedAction est destiné à une utilisation interne uniquement.
-ms.openlocfilehash: 2db8b84e8071580fb8e051dd80514dced003cd30
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément NextPredictedAction est destiné uniquement à un usage interne.
+ms.openlocfilehash: 4bbd20a3d61df572423e455fdca42e9e42386d77
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19828526"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529986"
 ---
 # <a name="nextpredictedaction"></a>NextPredictedAction
 
-L’élément **NextPredictedAction** est destiné à une utilisation interne uniquement. 
+L’élément **NextPredictedAction** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

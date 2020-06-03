@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 822dc5a6-2d57-474b-8a7d-da150898e5b6
-description: L’élément DateTimePrecision spécifie la précision des valeurs de date/heure renvoyée.
-ms.openlocfilehash: 4d11598628228b41adf021adbbaa77e6348534bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DateTimePrecision spécifie la précision pour les valeurs de date/heure renvoyées.
+ms.openlocfilehash: 9d245dfb0123daae42ba9b9b4e98aff872b67d80
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755802"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529223"
 ---
 # <a name="datetimeprecision"></a>DateTimePrecision
 
-L’élément **DateTimePrecision** spécifie la précision des valeurs de date/heure renvoyée. 
+L’élément **DateTimePrecision** spécifie la précision pour les valeurs de date/heure renvoyées. 
   
 ```XML
 <DateTimePrecision />
@@ -27,7 +27,7 @@ L’élément **DateTimePrecision** spécifie la précision des valeurs de date/
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
@@ -41,9 +41,9 @@ Aucun.
 
 L’élément **DateTimePrecision** se trouve dans l’en-tête SOAP. 
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
   
 - Secondes
     
@@ -51,7 +51,7 @@ Une valeur texte est requise. Les valeurs possibles sont les suivantes :
     
 ## <a name="remarks"></a>Remarques
 
-Date/heure lorsqu’un en-tête SOAP avec l’élément **DateTimePrecision** défini sur « Secondes » est utilisé, les valeurs sont renvoyées aux plus proche secondes (00 : 00:00). Date/heure lorsque « Millisecondes » sont utilisées, les valeurs sont renvoyées à la milliseconde (00:00:00.0000). 
+Lorsqu’un en-tête SOAP avec l’élément **DateTimePrecision** défini sur « seconds » est utilisé, les valeurs de date/heure sont renvoyées aux secondes les plus proches (00:00:00). Lorsque « millisecondes » est utilisé, les valeurs de date/heure sont renvoyées à la milliseconde près (00:00:00.0000). 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -61,7 +61,7 @@ Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 2 (SP2).
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

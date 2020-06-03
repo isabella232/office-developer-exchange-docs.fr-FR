@@ -7,34 +7,34 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 98161486-e2f2-480f-8d5d-708ba81b208a
-description: L’opération EmptyFolder vide des dossiers dans une boîte aux lettres. Si vous le souhaitez, cette opération vous permet de supprimer les sous-dossiers du dossier spécifié. Lorsqu’un sous-dossier est supprimé, le sous-dossier et les messages dans le sous-dossier sont supprimés.
-ms.openlocfilehash: 0192744516c5a6d24b95915452bfcffecc2d92b7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération EmptyFolder vide les dossiers dans une boîte aux lettres. Si vous le souhaitez, cette opération vous permet de supprimer les sous-dossiers du dossier spécifié. Lors de la suppression d’un sous-dossier, le sous-dossier et les messages qu’il contient sont supprimés.
+ms.openlocfilehash: 1913db74d33f1e6750cd158df5870f257d0e7839
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756152"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530683"
 ---
 # <a name="emptyfolder-operation"></a>Opération EmptyFolder
 
-L’opération **EmptyFolder** vide des dossiers dans une boîte aux lettres. Si vous le souhaitez, cette opération vous permet de supprimer les sous-dossiers du dossier spécifié. Lorsqu’un sous-dossier est supprimé, le sous-dossier et les messages dans le sous-dossier sont supprimés. 
+L’opération **EmptyFolder** vide les dossiers dans une boîte aux lettres. Si vous le souhaitez, cette opération vous permet de supprimer les sous-dossiers du dossier spécifié. Lors de la suppression d’un sous-dossier, le sous-dossier et les messages qu’il contient sont supprimés. 
   
 ## <a name="emptyfolder-request-example"></a>Exemple de requête EmptyFolder
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande **EmptyFolder** montre comment former une demande pour vider un dossier. Cet exemple supprime tous les sous-dossiers du dossier identifié. 
+L’exemple de requête **EmptyFolder** suivant montre comment créer une demande de vidage d’un dossier. Cet exemple supprime tous les sous-dossiers du dossier identifié. 
   
 > [!NOTE]
-> Les valeurs de l' **Id** et les attributs **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour des raisons de lisibilité. 
+> Les valeurs des attributs **ID** et **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour des raisons de lisibilité. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
     </soap:Header>
@@ -53,9 +53,9 @@ L’exemple suivant d’une demande **EmptyFolder** montre comment former une de
 
 Cet exemple effectue une suppression définitive sur le dossier.
   
-Dossiers peuvent être identifiés par l’élément [DistinguishedFolderId](distinguishedfolderid.md) ou de l’élément [FolderId](folderid.md) pour une utilisation dans l’élément [FolderIds](folderids.md) . 
+Les dossiers peuvent être identifiés par l’élément [DistinguishedFolderId](distinguishedfolderid.md) ou l’élément [FolderId](folderid.md) pour une utilisation dans l’élément [FolderIds](folderids.md) . 
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -69,7 +69,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à la demande **EmptyFolder** . 
+L’exemple suivant montre une réponse réussie à la demande **EmptyFolder** . 
   
 ### <a name="code"></a>Code
 
@@ -82,15 +82,15 @@ L’exemple suivant montre une réponse positive à la demande **EmptyFolder** .
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1"
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:EmptyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:EmptyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:EmptyFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -102,7 +102,7 @@ L’exemple suivant montre une réponse positive à la demande **EmptyFolder** .
 
 ```
 
-### <a name="successful-response-elements"></a>Éléments de réponse réussie
+### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -120,7 +120,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande **Emptyfolder** . L’erreur a été créé, car l’opération a tenté de vider un dossier est introuvable dans la banque d’informations Exchange. 
+L’exemple suivant montre une réponse d’erreur à une demande **EmptyFolder** . L’erreur a été créée car l’opération a essayé de vider un dossier qui n’a pas été trouvé dans la Banque d’Exchange. 
   
 ### <a name="code"></a>Code
 
@@ -133,16 +133,16 @@ L’exemple suivant montre une réponse d’erreur à une demande **Emptyfolder*
             MajorBuildNumber="164" 
             MinorBuildNumber="0" 
             Version="Exchange2010_SP1" 
-            xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-            xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+            xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+            xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <m:GetFolderResponse 
-          xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+          xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>

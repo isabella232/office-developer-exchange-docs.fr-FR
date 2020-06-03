@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: fd87e9b7-c231-44fa-9f5b-19ae96cda5cc
-description: L’élément SubscribeResponse définit une réponse à la demande Subscribe.
-ms.openlocfilehash: 9c4fb0e9282acd2dfd8dcb66669815edcbd69ff2
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément SubscribeResponse définit une réponse à une demande subscribe.
+ms.openlocfilehash: 1f7079694c873aacbf44b1030e495cbe2f48d163
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829615"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530950"
 ---
 # <a name="subscriberesponse"></a>SubscribeResponse
 
-L’élément **SubscribeResponse** définit une réponse à la demande Subscribe. 
+L’élément **SubscribeResponse** définit une réponse à une demande subscribe. 
   
 [SubscribeResponse](subscriberesponse.md)
   
@@ -34,17 +34,17 @@ L’élément **SubscribeResponse** définit une réponse à la demande Subscrib
  **SubscribeResponseType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de Services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,9 +58,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

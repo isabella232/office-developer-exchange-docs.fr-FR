@@ -1,5 +1,5 @@
 ---
-title: Noms de dossier
+title: FolderNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,21 +11,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6cbe4083-5705-4695-a54e-8dab3e472662
-description: L’élément de noms de dossier contient un tableau des dossiers gérés nommées à ajouter à une boîte aux lettres.
-ms.openlocfilehash: 819b3c2df1cfcae3a5d4a48539e369a00b1f7229
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FolderNames contient un tableau de dossiers gérés nommés à ajouter à une boîte aux lettres.
+ms.openlocfilehash: 00cb1a81f420469033ccbc745313d2719b155aff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756452"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530985"
 ---
-# <a name="foldernames"></a>Noms de dossier
+# <a name="foldernames"></a>FolderNames
 
-L’élément de **noms de dossier** contient un tableau des dossiers gérés nommées à ajouter à une boîte aux lettres. 
+L’élément **foldernames** contient un tableau de dossiers gérés nommés à ajouter à une boîte aux lettres. 
   
 [CreateManagedFolder](createmanagedfolder.md)
   
-[Noms de dossier](foldernames.md)
+[FolderNames](foldernames.md)
   
 ```xml
 <FolderNames>
@@ -36,11 +36,11 @@ L’élément de **noms de dossier** contient un tableau des dossiers gérés no
  **NonEmptyArrayOfFolderNamesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,7 +52,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CreateManagedFolder](createmanagedfolder.md) <br/> |L’élément racine dans une demande pour ajouter un dossier géré à une boîte aux lettres.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/CreateManagedFolder` <br/> |
+|[CreateManagedFolder](createmanagedfolder.md) <br/> |Élément racine dans une demande d’ajout d’un dossier géré à une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/CreateManagedFolder` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -74,7 +74,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [Opération FindFolder](findfolder-operation.md)
 
 
-[Recherche de dossiers](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+[Recherche de dossiers](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   
-[Ajout de dossiers gérés](http://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
+[Ajout de dossiers gérés](https://msdn.microsoft.com/library/846658c6-7043-40fb-8439-19f97c2a967f%28Office.15%29.aspx)
 

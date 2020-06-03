@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d6e2677b-2b60-4def-8566-015a50da8605
-description: L’élément de l’utilisateur (MailboxAssociationType) est destiné à usage interne uniquement.
-ms.openlocfilehash: 340677a293a7c468baf5ee2f723da0b99d9afd3c
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément User (MailboxAssociationType) est destiné uniquement à un usage interne.
+ms.openlocfilehash: 65bc95aa6645b2824bcb126d30e53bb5b7b102d9
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838941"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530224"
 ---
 # <a name="user-mailboxassociationtype"></a>Utilisateur (MailboxAssociationType)
 
-L’élément de **l’utilisateur (MailboxAssociationType)** est destiné à usage interne uniquement. 
+L’élément **User (MailboxAssociationType)** est destiné uniquement à un usage interne. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

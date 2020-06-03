@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: b0c1fd27-b6da-46e5-88b8-88f00c71ba80
 description: L’élément CalendarItem représente un élément de calendrier Exchange.
-ms.openlocfilehash: c7b6d4930bc42fbe26d35264e2eae0c986cc8db7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: b29141470d157ef5bd67be06a1e1fa1c9536b042
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755474"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529482"
 ---
 # <a name="calendaritem"></a>CalendarItem
 
@@ -108,32 +108,32 @@ L’élément **CalendarItem** représente un élément de calendrier Exchange.
  **CalendarItemType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[MimeContent](mimecontent.md) <br/> |Contient le flux MIME (Multipurpose Internet Mail Extensions) natif d'un objet représenté au format base64Binary.  <br/> |
-|[ID d’élément](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
+|[ItemId](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l'identificateur du dossier parent qui contient l'élément ou le dossier.  <br/> |
 |[ItemClass](itemclass.md) <br/> |Représente la classe de message d'un élément.  <br/> |
 |[Objet](subject.md) <br/> |Représente l'objet des éléments de la banque d'informations Exchange et des objets de réponse.  <br/> |
 |[Sensitivity](sensitivity.md) <br/> |Indique le niveau de confidentialité d'un élément.  <br/> |
-|[Corps](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
+|[Body](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
 |[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments ou les fichiers joints à un élément dans la banque d'informations Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Indique la date et l'heure auxquelles un élément de boîte aux lettres a été reçu.  <br/> |
 |[Taille](size.md) <br/> |Représente la taille en octets d'un élément. Cette propriété est en lecture seule.  <br/> |
-|[Categories](categories-ex15websvcsotherref.md) <br/> |Représente une collection de chaînes qui identifient les catégories auquel appartient un élément dans la boîte aux lettres.  <br/> |
+|[Categories](categories-ex15websvcsotherref.md) <br/> |Représente une collection de chaînes qui identifient les catégories auxquelles un élément de la boîte aux lettres appartient.  <br/> |
 |[Importance](importance.md) <br/> |Décrit l'importance d'un élément.  <br/> |
 |[InReplyTo](inreplyto.md) <br/> |Représente l'identificateur de l'élément dont cet élément est une réponse.  <br/> |
 |[IsSubmitted](issubmitted.md) <br/> |Indique si un élément a été envoyé dans le dossier par défaut de la boîte d'envoi.  <br/> |
 |[IsDraft](isdraft.md) <br/> |Indique si un élément n’a pas encore été envoyé.  <br/> |
-|[IsFromMe](isfromme.md) <br/> |Indique si un utilisateur a envoyé un élément pour lui ou elle-même.  <br/> |
+|[IsFromMe](isfromme.md) <br/> |Indique si un utilisateur s’est envoyé un élément à lui-même ou à lui-même.  <br/> |
 |[IsResend](isresend.md) <br/> |Indique si l'élément a déjà été envoyé.  <br/> |
 |[IsUnmodified](isunmodified.md) <br/> |Indique si l'élément a été modifié.  <br/> |
 |[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente la collection de tous les en-têtes de message Internet contenus dans un élément de boîte aux lettres.  <br/> |
@@ -149,54 +149,54 @@ Aucun.
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues sur les dossiers et les éléments.  <br/> |
 |[Culture](culture.md) <br/> |Représente la culture d'un élément donné dans une boîte aux lettres.  <br/> |
 |[UID](uid.md) <br/> |Identifie un élément de calendrier.  <br/> |
-|[RecurrenceId](recurrenceid.md) <br/> |Utilisé pour identifier une instance spécifique d’un élément de calendrier périodique.  <br/> |
+|[RecurrenceId](recurrenceid.md) <br/> |Permet d’identifier une instance spécifique d’un élément de calendrier périodique.  <br/> |
 |[DateTimeStamp](datetimestamp.md) <br/> |Indique la date et l’heure de création d’une instance d’un objet iCalendar.  <br/> |
-|[Début](start.md) <br/> |Représente le début d’un élément de calendrier. Cet élément s’applique uniquement à une seule occurrence d’un élément de calendrier.  <br/> |
+|[Démarrage](start.md) <br/> |Représente le début d’un élément de calendrier. Cet élément s’applique uniquement à une seule occurrence d’un élément de calendrier.  <br/> |
 |[Fin](end-ex15websvcsotherref.md) <br/> |Représente la fin d’une durée. Cet élément s’applique uniquement à une seule occurrence d’un élément de calendrier.  <br/> |
-|[OriginalStart](originalstart.md) <br/> |Représente l’heure de début d’origine d’un élément de calendrier.  <br/> |
-|[IsAllDayEvent](isalldayevent.md) <br/> |Indique si une demande de réunion ou d’élément de calendrier représente une journée entière.  <br/> |
+|[OriginalStart](originalstart.md) <br/> |Représente l’heure de début d’un élément de calendrier.  <br/> |
+|[IsAllDayEvent](isalldayevent.md) <br/> |Indique si un élément de calendrier ou une demande de réunion représente un événement d’une journée entière.  <br/> |
 |[LegacyFreeBusyStatus](legacyfreebusystatus.md) <br/> |Représente l’état de disponibilité de l’élément de calendrier.  <br/> |
-|[Location](location.md) <br/> |Représente l’emplacement d’une réunion ou un rendez-vous.  <br/> |
-|[When](when.md) <br/> |Fournit des informations sur un élément de calendrier.  <br/> |
+|[Emplacement](location.md) <br/> |Représente l’emplacement d’une réunion ou d’un rendez-vous.  <br/> |
+|[When](when.md) <br/> |Fournit des informations sur le moment où un élément de calendrier se produit.  <br/> |
 |[IsMeeting](ismeeting.md) <br/> |Indique si l’élément de calendrier est une réunion ou un rendez-vous.  <br/> |
-|[IsCancelled](iscancelled.md) <br/> |Indique si un rendez-vous ou une réunion a été annulée.  <br/> |
+|[IsCancelled](iscancelled.md) <br/> |Indique si un rendez-vous ou une réunion a été annulé.  <br/> |
 |[IsRecurring](isrecurring.md) <br/> |Indique si un élément de calendrier fait partie d’un élément périodique. Cet élément est en lecture seule.  <br/> |
 |[MeetingRequestWasSent](meetingrequestwassent.md) <br/> |Indique si une demande de réunion a été envoyée aux participants demandés.  <br/> |
 |[IsResponseRequested](isresponserequested.md) <br/> |Indique si une réponse à un élément est requise.  <br/> |
 |[CalendarItemType](calendaritemtype.md) <br/> |Représente le type d’occurrence d’un élément de calendrier.  <br/> |
-|[MyResponseType](myresponsetype.md) <br/> |Contient l’état d’ou réponse à un élément de calendrier.  <br/> |
-|[Bibliothèque multimédia](organizer.md) <br/> |Représente l’organisateur d’une réunion.  <br/> |
-|[RequiredAttendees](requiredattendees.md) <br/> |Représente les participants qui sont nécessaires pour participer à une réunion.  <br/> |
-|[OptionalAttendees](optionalattendees.md) <br/> |Représente les participants qui ne sont pas indispensables à participer à une réunion.  <br/> |
-|[Ressources](resources.md) <br/> |Représente une ressource pour une réunion planifiée.  <br/> |
-|[ConflictingMeetingCount](conflictingmeetingcount.md) <br/> |Représente le nombre de réunions entre en conflit avec l’élément de calendrier.  <br/> |
-|[AdjacentMeetingCount](adjacentmeetingcount.md) <br/> |Représente le nombre total d’éléments de calendrier sont adjacents à une heure de réunion.  <br/> |
+|[MyResponseType](myresponsetype.md) <br/> |Contient l’État ou la réponse à un élément de calendrier.  <br/> |
+|[Organizer](organizer.md) <br/> |Représente l’organisateur d’une réunion.  <br/> |
+|[RequiredAttendees](requiredattendees.md) <br/> |Représente les participants qui sont requis pour participer à une réunion.  <br/> |
+|[OptionalAttendees](optionalattendees.md) <br/> |Représente les participants qui ne sont pas tenus de participer à une réunion.  <br/> |
+|[Resources](resources.md) <br/> |Représente une ressource planifiée pour une réunion.  <br/> |
+|[ConflictingMeetingCount](conflictingmeetingcount.md) <br/> |Représente le nombre de réunions en conflit avec l’élément de calendrier.  <br/> |
+|[AdjacentMeetingCount](adjacentmeetingcount.md) <br/> |Représente le nombre total d’éléments de calendrier adjacents à une heure de réunion.  <br/> |
 |[ConflictingMeetings](conflictingmeetings.md) <br/> |Identifie tous les éléments qui sont en conflit avec une heure de réunion.  <br/> |
 |[AdjacentMeetings](adjacentmeetings.md) <br/> |Décrit tous les éléments de calendrier qui sont adjacents à une heure de réunion.  <br/> |
 |[Durée (éléments)](duration-items.md) <br/> |Représente la durée d’un élément de calendrier.  <br/> |
-|[Fuseau horaire (élément)](timezone-item.md) <br/> |Fournit une description d’un fuseau horaire.  <br/> |
-|[AppointmentReplyTime](appointmentreplytime.md) <br/> |Représente la date et l’heure lorsqu’un participant a répondu à une demande de réunion.  <br/> |
+|[TimeZone (élément)](timezone-item.md) <br/> |Fournit une description textuelle d’un fuseau horaire.  <br/> |
+|[AppointmentReplyTime](appointmentreplytime.md) <br/> |Représente la date et l’heure auxquelles un participant a répondu à une demande de réunion.  <br/> |
 |[AppointmentSequenceNumber](appointmentsequencenumber.md) <br/> |Spécifie le numéro de séquence d’une version d’un rendez-vous.  <br/> |
 |[AppointmentState](appointmentstate.md) <br/> |Spécifie l’état du rendez-vous.  <br/> |
-|[Périodicité (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité pour les éléments de calendrier et les demandes de réunion.  <br/> Cet élément n’est valide que si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
-|[FirstOccurrence](firstoccurrence.md) <br/> |Représente la première occurrence d’un élément de calendrier périodique.  <br/> Cet élément n’est valide que si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
-|[LastOccurrence](lastoccurrence.md) <br/> |Représente la dernière occurrence d’un élément de calendrier périodique.  <br/> Cet élément n’est valide que si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
-|[ModifiedOccurrences](modifiedoccurrences.md) <br/> |Contient un tableau d’occurrences d’élément calendrier périodiques qui ont été modifiés afin qu’elles diffèrent de l’élément maître de périodicité.  <br/> Cet élément n’est valide que si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
-|[DeletedOccurrences](deletedoccurrences.md) <br/> |Contient un tableau d’occurrences supprimés d’un élément de calendrier périodique.  <br/> Cet élément n’est valide que si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
-|[MeetingTimeZone](meetingtimezone.md) <br/> |Représente le fuseau horaire de l’emplacement où se trouve la réunion.  <br/> |
+|[Récurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité des éléments de calendrier et des demandes de réunion.  <br/> Cet élément est valide si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
+|[FirstOccurrence](firstoccurrence.md) <br/> |Représente la première occurrence d’un élément de calendrier périodique.  <br/> Cet élément est valide si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
+|[LastOccurrence](lastoccurrence.md) <br/> |Représente la dernière occurrence d’un élément de calendrier périodique.  <br/> Cet élément est valide si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
+|[ModifiedOccurrences](modifiedoccurrences.md) <br/> |Contient un tableau d’occurrences périodiques d’éléments de calendrier ayant été modifiées afin qu’elles diffèrent de l’élément de masque de récurrence.  <br/> Cet élément est valide si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
+|[DeletedOccurrences](deletedoccurrences.md) <br/> |Contient un tableau d’occurrences supprimées d’un élément de calendrier périodique.  <br/> Cet élément est valide si [CalendarItemType](calendaritemtype.md) a la valeur RecurringMaster.  <br/> |
+|[MeetingTimeZone](meetingtimezone.md) <br/> |Représente le fuseau horaire de l’emplacement où la réunion est hébergée.  <br/> |
 |[StartTimeZone](starttimezone.md) <br/> |Représente le fuseau horaire de début de l’élément de calendrier.  <br/> |
 |[EndTimeZone](endtimezone.md) <br/> |Représente le fuseau horaire de fin de l’élément de calendrier.  <br/> |
-|[ConferenceType](conferencetype.md) <br/> |Décrit le type de conférence est exécutée avec un élément de calendrier.  <br/> |
-|[AllowNewTimeProposal](allownewtimeproposal.md) <br/> |Indique si une nouvelle heure de réunion peut être proposée pour une réunion à un participant.  <br/> |
-|[IsOnlineMeeting](isonlinemeeting.md) <br/> |Indique si la réunion en ligne.  <br/> |
-|[MeetingWorkspaceUrl](meetingworkspaceurl.md) <br/> |Contient l’URL de l’espace de travail de réunion qui est liée à l’élément de calendrier.  <br/> |
-|[NetShowUrl](netshowurl.md) <br/> |Spécifie l’URL d’une réunion en ligne Microsoft NetShow.  <br/> |
+|[ConferenceType](conferencetype.md) <br/> |Décrit le type de conférence effectuée avec un élément de calendrier.  <br/> |
+|[AllowNewTimeProposal](allownewtimeproposal.md) <br/> |Indique si une nouvelle heure de réunion peut être proposée pour une réunion par un participant.  <br/> |
+|[IsOnlineMeeting](isonlinemeeting.md) <br/> |Indique si la réunion est en ligne.  <br/> |
+|[MeetingWorkspaceUrl,](meetingworkspaceurl.md) <br/> |Contient l’URL de l’espace de travail de réunion lié par l’élément de calendrier.  <br/> |
+|[NetShowUrl](netshowurl.md) <br/> |Spécifie l’URL d’une réunion Microsoft NetShow online.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d'autorisation pour l'élément ou le dossier. Cet élément est en lecture seule.  <br/> |
 |[LastModifiedName](lastmodifiedname.md) <br/> |Contient le nom d'affichage du dernier utilisateur ayant modifié un élément.  <br/> |
-|[Heure de dernière modification](lastmodifiedtime.md) <br/> |Indique quand un élément a été modifié pour la dernière fois.  <br/> |
+|[LastModifiedTime](lastmodifiedtime.md) <br/> |Indique quand un élément a été modifié pour la dernière fois.  <br/> |
 |[IsAssociated](isassociated.md) <br/> |Indique si l'élément est associé à un dossier.  <br/> |
 |[WebClientReadFormQueryString](webclientreadformquerystring.md) <br/> |Représente une URL à concaténer au point de terminaison de Microsoft Office Outlook Web App pour lire un élément dans Outlook Web App.  <br/> |
-|[WebClientEditFormQueryString](webclienteditformquerystring.md) <br/> |Représente une URL vers concaténez au point de terminaison Microsoft Office Outlook Web App pour modifier un élément dans Outlook Web App.  <br/> |
+|[WebClientEditFormQueryString](webclienteditformquerystring.md) <br/> |Représente une URL à concaténer au point de terminaison de Microsoft Office Outlook Web App pour modifier un élément dans Outlook Web App.  <br/> |
 |[ConversationId](conversationid.md) <br/> |Contient l'identificateur d'un élément ou d'une conversation.  <br/> |
 |[UniqueBody](uniquebody.md) <br/> |Représente un fragment HTML ou du texte brut correspondant au corps unique de cette conversation.  <br/> |
    
@@ -220,7 +220,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’un élément de calendrier unique est mis à jour pour devenir un élément de calendrier principal périodique, l’élément [MeetingTimeZone](meetingtimezone.md) doit être spécifié afin de conserver le fuseau horaire d’origine de l’élément de calendrier. 
+Lorsqu’un seul élément de calendrier est mis à jour pour devenir un élément de calendrier principal périodique, l’élément [MeetingTimeZone](meetingtimezone.md) doit être spécifié afin de conserver le fuseau horaire d’origine de l’élément de calendrier. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -228,7 +228,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

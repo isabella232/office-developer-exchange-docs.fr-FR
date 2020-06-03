@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 734914b5-3a16-4744-90a5-741fd30c4676
-description: L’élément AttachmentShape identifie des propriétés supplémentaires pour retourner une réponse à une demande GetAttachment.
-ms.openlocfilehash: dc6769faa5fd28ce31b796f86c507aec54abff7a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément AttachmentShape identifie les propriétés supplémentaires à renvoyer dans une réponse à une demande GetAttachment.
+ms.openlocfilehash: e70fbaad0f649c5afdc151b777efef0f8927ba1c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19755339"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44529664"
 ---
 # <a name="attachmentshape"></a>AttachmentShape
 
-L’élément **AttachmentShape** identifie des propriétés supplémentaires pour retourner une réponse à une demande [GetAttachment](getattachment.md) . 
+L’élément **AttachmentShape** identifie les propriétés supplémentaires à renvoyer dans une réponse à une demande [GetAttachment](getattachment.md) . 
   
 - [GetAttachment](getattachment.md)
   
@@ -39,26 +39,26 @@ L’élément **AttachmentShape** identifie des propriétés supplémentaires po
  **AttachmentResponseShapeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[IncludeMimeContent](includemimecontent.md) <br/> |Spécifie si le contenu Multipurpose Internet Mail Extensions (MIME) d’un élément ou d’une pièce jointe est retourné dans la réponse. Cet élément est facultatif.  <br/> |
-|[BodyType](bodytype.md) <br/> |Identifie la mise en forme le corps du texte dans la réponse. Cet élément est facultatif.  <br/> |
-|[FilterHtmlContent](filterhtmlcontent.md) <br/> |Spécifie si le contenu HTML potentiellement dangereux est filtré à partir d’une pièce jointe. Cet élément est facultatif.  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> |Identifie les propriétés supplémentaires pour retourner une réponse. Cet élément est facultatif.  <br/> |
+|[IncludeMimeContent](includemimecontent.md) <br/> |Indique si le contenu MIME (Multipurpose Internet Mail Extensions) d’un élément ou d’une pièce jointe est renvoyé dans la réponse. Cet élément est facultatif.  <br/> |
+|[BodyType](bodytype.md) <br/> |Identifie la façon dont le corps de texte est mis en forme dans la réponse. Cet élément est facultatif.  <br/> |
+|[FilterHtmlContent](filterhtmlcontent.md) <br/> |Indique si le contenu HTML potentiellement dangereux est filtré à partir d’une pièce jointe. Cet élément est facultatif.  <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> |Identifie les propriétés supplémentaires à renvoyer dans une réponse. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetAttachment](getattachment.md) <br/> |L’élément qui définit une demande pour obtenir une pièce jointe à partir d’une boîte aux lettres dans la banque d’informations Exchange.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/GetAttachment` <br/> |
+|[GetAttachment](getattachment.md) <br/> |Élément qui définit une demande d’obtention d’une pièce jointe à partir d’une boîte aux lettres dans la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetAttachment` <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -72,9 +72,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

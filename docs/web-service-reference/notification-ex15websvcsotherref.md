@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
-description: L’élément de Notification contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification.
-ms.openlocfilehash: 942ec18521fc484a7a3aa1385fb54f480ce9d11f
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément notification contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.
+ms.openlocfilehash: c4a5206c14985ec46cf40162a9ce4eaec68242ff
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354350"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530386"
 ---
 # <a name="notification"></a>Notification
 
-L’élément de **Notification** contient des informations sur l’abonnement et les événements qui se sont produites depuis la dernière notification. 
+L’élément **notification** contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification. 
   
 ```xml
 <Notification>
@@ -99,34 +99,34 @@ L’élément de **Notification** contient des informations sur l’abonnement e
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Représente l’identificateur d’un abonnement.  <br/> |
-|[PreviousWatermark](previouswatermark.md) <br/> |Représente la limite du dernier événement qui a été correctement transmis au client pour l’abonnement.  <br/> |
-|[MoreEvents](moreevents.md) <br/> |Indique s’il existe plusieurs événements dans la file d’attente pour être remis au client.  <br/> |
+|[PreviousWatermark](previouswatermark.md) <br/> |Représente le filigrane du dernier événement qui a été correctement communiqué au client pour l’abonnement.  <br/> |
+|[MoreEvents](moreevents.md) <br/> |Indique s’il existe d’autres événements dans la file d’attente à remettre au client.  <br/> |
 |[CopiedEvent](copiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est copié.  <br/> |
 |[CreatedEvent](createdevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est créé.  <br/> |
 |[DeletedEvent](deletedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est supprimé.  <br/> |
-|[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement auquel un élément ou un dossier est modifiée.  <br/> |
-|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent à un autre dossier parent.  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |Représente un événement qui est déclenché par un nouvel élément de messagerie dans une boîte aux lettres.  <br/> |
-|[StatusEvent](statusevent.md) <br/> |Représente une notification qu’aucune nouvelle activité se n’est produite dans la boîte aux lettres.  <br/> |
-|[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Représente un événement dans lequel les temps de disponibilité d’un élément a été modifié.  <br/> |
+|[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est modifié.  <br/> |
+|[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |Représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
+|[StatusEvent](statusevent.md) <br/> |Représente une notification indiquant qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres.  <br/> |
+|[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Représente un événement dans lequel le temps de disponibilité d’un élément a été modifié.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande GetEvents.  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Contient l’état et les résultats d’une requête SendNotification.  <br/> |
+|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande GetEvents unique.  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande SendNotification.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -140,7 +140,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 23279750-131b-4e1a-b7d1-be235c4e0891
-description: L’élément FolderChange représente une collection des modifications à effectuer sur un seul dossier.
-ms.openlocfilehash: f25defa9974f7b5dd0c683c7657983741890d45d
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+description: L’élément FolderChange, représente une collection de modifications à effectuer sur un seul dossier.
+ms.openlocfilehash: e4a025bef100fdd478be545b6448b15886e47c60
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354329"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530238"
 ---
 # <a name="folderchange"></a>FolderChange
 
-L’élément **FolderChange** représente une collection des modifications à effectuer sur un seul dossier. 
+L’élément **FolderChange,** représente une collection de modifications à effectuer sur un seul dossier. 
   
 - [UpdateFolder](updatefolder.md) 
 - [FolderChanges](folderchanges.md) 
@@ -45,35 +45,35 @@ L’élément **FolderChange** représente une collection des modifications à e
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient la clé d’identificateur et de modification d’un dossier à mettre à jour.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par son nom.  <br/> |
-|[Updates (Folder)](updates-folder.md) <br/> |Définit le type de mise à jour est effectuée sur un dossier identifié par [l’ID FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) élément.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier à mettre à jour.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par nom.  <br/> |
+|[Mises à jour (dossier)](updates-folder.md) <br/> |Définit le type de mise à jour effectué sur un dossier identifié par l’élément [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) .  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderChanges](folderchanges.md) <br/> |Représente une collection des modifications pour un dossier.  <br/> Vous trouverez ci-dessous l’expression XPath pour cet élément :  <br/>  `/UpdateFolder/FolderChanges` <br/> |
+|[FolderChanges](folderchanges.md) <br/> |Représente une collection de modifications apportées à un dossier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/UpdateFolder/FolderChanges` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server 2007 ayant le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

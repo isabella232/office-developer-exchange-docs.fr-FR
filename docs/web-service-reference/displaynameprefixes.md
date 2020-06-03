@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04250f8d-1b83-43ae-8d2f-e052079bf2fc
-description: L’élément DisplayNamePrefixes spécifie un tableau des préfixes de nom d’affichage et les identificateurs de leurs attributions source pour le personnage associé.
-ms.openlocfilehash: 26a61a07952de5b73ac47b85176cfd6c6e9ca873
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément DisplayNamePrefixes spécifie un tableau de préfixes de nom d’affichage et les identificateurs de leurs attributions sources pour le personnage associé.
+ms.openlocfilehash: 09e1e974cbe84ec8c7a4848c3367f2501269b797
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756007"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44530746"
 ---
 # <a name="displaynameprefixes"></a>DisplayNamePrefixes
 
-L’élément **DisplayNamePrefixes** spécifie un tableau des préfixes de nom d’affichage et les identificateurs de leurs attributions source pour le personnage associé. 
+L’élément **DisplayNamePrefixes** spécifie un tableau de préfixes de nom d’affichage et les identificateurs de leurs attributions sources pour le personnage associé. 
   
 ```xml
 <DisplayNamePrefixes>
@@ -28,23 +28,23 @@ L’élément **DisplayNamePrefixes** spécifie un tableau des préfixes de nom 
  **ArrayOfStringAttributedValuesType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance d’un tableau d’attributs associés à un élément personnage.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Personnage](persona.md) <br/> |Spécifie un ensemble de données personnage renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,9 +56,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types.xsd  <br/> |
+|Validation File  <br/> |types. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

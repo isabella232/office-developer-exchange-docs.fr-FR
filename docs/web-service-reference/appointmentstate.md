@@ -16,64 +16,64 @@ ms.openlocfilehash: 8b0e827d02e9051f31d43199503dc286c50e2125
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463474"
 ---
-# <a name="appointmentstate"></a><span data-ttu-id="d4b2f-103">AppointmentState</span><span class="sxs-lookup"><span data-stu-id="d4b2f-103">AppointmentState</span></span>
+# <a name="appointmentstate"></a><span data-ttu-id="207fe-103">AppointmentState</span><span class="sxs-lookup"><span data-stu-id="207fe-103">AppointmentState</span></span>
 
-<span data-ttu-id="d4b2f-104">L’élément **AppointmentState** spécifie l’état du rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-104">The **AppointmentState** element specifies the status of the appointment.</span></span> 
+<span data-ttu-id="207fe-104">L’élément **AppointmentState** spécifie l’état du rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="207fe-104">The **AppointmentState** element specifies the status of the appointment.</span></span> 
   
 ```XML
 <AppointmentState/>
 ```
 
- <span data-ttu-id="d4b2f-105">**int**</span><span class="sxs-lookup"><span data-stu-id="d4b2f-105">**int**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="d4b2f-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="d4b2f-106">Attributes and elements</span></span>
+ <span data-ttu-id="207fe-105">**int**</span><span class="sxs-lookup"><span data-stu-id="207fe-105">**int**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="207fe-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="207fe-106">Attributes and elements</span></span>
 
-<span data-ttu-id="d4b2f-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="207fe-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="207fe-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="d4b2f-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="d4b2f-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="207fe-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="207fe-108">Attributes</span></span>
 
-<span data-ttu-id="d4b2f-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-109">None.</span></span>
+<span data-ttu-id="207fe-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="207fe-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="d4b2f-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="d4b2f-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="207fe-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="207fe-110">Child elements</span></span>
 
-<span data-ttu-id="d4b2f-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-111">None.</span></span>
+<span data-ttu-id="207fe-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="207fe-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="d4b2f-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="d4b2f-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="207fe-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="207fe-112">Parent elements</span></span>
 
-|<span data-ttu-id="d4b2f-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="d4b2f-113">**Element**</span></span>|<span data-ttu-id="d4b2f-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="d4b2f-114">**Description**</span></span>|
+|<span data-ttu-id="207fe-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="207fe-113">**Element**</span></span>|<span data-ttu-id="207fe-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="207fe-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="d4b2f-115">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="d4b2f-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="d4b2f-116">Représente un élément de calendrier Exchange.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-116">Represents an Exchange calendar item.</span></span>  <br/> |
-|[<span data-ttu-id="d4b2f-117">Propriété meetingrequest</span><span class="sxs-lookup"><span data-stu-id="d4b2f-117">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="d4b2f-118">Représente une réunion dans la banque d'informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-118">Represents a meeting in the Exchange store.</span></span>  <br/> |
+|[<span data-ttu-id="207fe-115">CalendarItem</span><span class="sxs-lookup"><span data-stu-id="207fe-115">CalendarItem</span></span>](calendaritem.md) <br/> |<span data-ttu-id="207fe-116">Représente un élément de calendrier Exchange.</span><span class="sxs-lookup"><span data-stu-id="207fe-116">Represents an Exchange calendar item.</span></span>  <br/> |
+|[<span data-ttu-id="207fe-117">Propriété meetingrequest</span><span class="sxs-lookup"><span data-stu-id="207fe-117">MeetingRequest</span></span>](meetingrequest.md) <br/> |<span data-ttu-id="207fe-118">Représente une réunion dans la banque d'informations Exchange.</span><span class="sxs-lookup"><span data-stu-id="207fe-118">Represents a meeting in the Exchange store.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="d4b2f-119">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="d4b2f-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="207fe-119">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="207fe-119">Text value</span></span>
 
-<span data-ttu-id="d4b2f-120">Cet élément contient une valeur de texte qui représente Set bits.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-120">This element contains a text value that represents set bits.</span></span> <span data-ttu-id="d4b2f-121">Il s’agit d’une forme entière.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-121">This is in integer form.</span></span> <span data-ttu-id="d4b2f-122">Cet élément est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-122">This element is read-only.</span></span> <span data-ttu-id="d4b2f-123">Elle sera renvoyée uniquement dans une réponse.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-123">It will only be returned in a response.</span></span>
+<span data-ttu-id="207fe-120">Cet élément contient une valeur de texte qui représente Set bits.</span><span class="sxs-lookup"><span data-stu-id="207fe-120">This element contains a text value that represents set bits.</span></span> <span data-ttu-id="207fe-121">Il s’agit d’une forme entière.</span><span class="sxs-lookup"><span data-stu-id="207fe-121">This is in integer form.</span></span> <span data-ttu-id="207fe-122">Cet élément est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="207fe-122">This element is read-only.</span></span> <span data-ttu-id="207fe-123">Elle sera renvoyée uniquement dans une réponse.</span><span class="sxs-lookup"><span data-stu-id="207fe-123">It will only be returned in a response.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d4b2f-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="d4b2f-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="207fe-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="207fe-124">Remarks</span></span>
 
-<span data-ttu-id="d4b2f-125">La valeur entière renvoyée représente le masque de binaire d’état de rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-125">The integer value that is returned represents the appointment state bitmask.</span></span> <span data-ttu-id="d4b2f-126">Le tableau suivant décrit chaque bit.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-126">The following table describes each bit.</span></span>
+<span data-ttu-id="207fe-125">La valeur entière renvoyée représente le masque de binaire d’état de rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="207fe-125">The integer value that is returned represents the appointment state bitmask.</span></span> <span data-ttu-id="207fe-126">Le tableau suivant décrit chaque bit.</span><span class="sxs-lookup"><span data-stu-id="207fe-126">The following table describes each bit.</span></span>
   
-|<span data-ttu-id="d4b2f-127">**Name**</span><span class="sxs-lookup"><span data-stu-id="d4b2f-127">**Name**</span></span>|<span data-ttu-id="d4b2f-128">**Légèrement**</span><span class="sxs-lookup"><span data-stu-id="d4b2f-128">**Bit**</span></span>|<span data-ttu-id="d4b2f-129">**Description**</span><span class="sxs-lookup"><span data-stu-id="d4b2f-129">**Description**</span></span>|
+|<span data-ttu-id="207fe-127">**Name**</span><span class="sxs-lookup"><span data-stu-id="207fe-127">**Name**</span></span>|<span data-ttu-id="207fe-128">**Légèrement**</span><span class="sxs-lookup"><span data-stu-id="207fe-128">**Bit**</span></span>|<span data-ttu-id="207fe-129">**Description**</span><span class="sxs-lookup"><span data-stu-id="207fe-129">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="d4b2f-130">Aucun</span><span class="sxs-lookup"><span data-stu-id="d4b2f-130">None</span></span>  <br/> |<span data-ttu-id="d4b2f-131">0x0000</span><span class="sxs-lookup"><span data-stu-id="d4b2f-131">0x0000</span></span>  <br/> |<span data-ttu-id="d4b2f-132">Aucun indicateur n’a été défini.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-132">No flags have been set.</span></span> <span data-ttu-id="d4b2f-133">Il est utilisé uniquement pour un rendez-vous qui n’inclut pas de participants.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-133">This is only used for an appointment that does not include attendees.</span></span>  <br/> |
-|<span data-ttu-id="d4b2f-134">Satisfaire</span><span class="sxs-lookup"><span data-stu-id="d4b2f-134">Meeting</span></span>  <br/> |<span data-ttu-id="d4b2f-135">0x0001</span><span class="sxs-lookup"><span data-stu-id="d4b2f-135">0x0001</span></span>  <br/> |<span data-ttu-id="d4b2f-136">Ce rendez-vous est une réunion.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-136">This appointment is a meeting.</span></span>  <br/> |
-|<span data-ttu-id="d4b2f-137">Received</span><span class="sxs-lookup"><span data-stu-id="d4b2f-137">Received</span></span>  <br/> |<span data-ttu-id="d4b2f-138">0x0002</span><span class="sxs-lookup"><span data-stu-id="d4b2f-138">0x0002</span></span>  <br/> |<span data-ttu-id="d4b2f-139">Ce rendez-vous a été reçu.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-139">This appointment has been received.</span></span>  <br/> |
-|<span data-ttu-id="d4b2f-140">Annulé</span><span class="sxs-lookup"><span data-stu-id="d4b2f-140">Canceled</span></span>  <br/> |<span data-ttu-id="d4b2f-141">0x0004</span><span class="sxs-lookup"><span data-stu-id="d4b2f-141">0x0004</span></span>  <br/> |<span data-ttu-id="d4b2f-142">Ce rendez-vous a été annulé.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-142">This appointment has been canceled.</span></span>  <br/> |
+|<span data-ttu-id="207fe-130">Aucun</span><span class="sxs-lookup"><span data-stu-id="207fe-130">None</span></span>  <br/> |<span data-ttu-id="207fe-131">0x0000</span><span class="sxs-lookup"><span data-stu-id="207fe-131">0x0000</span></span>  <br/> |<span data-ttu-id="207fe-132">Aucun indicateur n’a été défini.</span><span class="sxs-lookup"><span data-stu-id="207fe-132">No flags have been set.</span></span> <span data-ttu-id="207fe-133">Il est utilisé uniquement pour un rendez-vous qui n’inclut pas de participants.</span><span class="sxs-lookup"><span data-stu-id="207fe-133">This is only used for an appointment that does not include attendees.</span></span>  <br/> |
+|<span data-ttu-id="207fe-134">Satisfaire</span><span class="sxs-lookup"><span data-stu-id="207fe-134">Meeting</span></span>  <br/> |<span data-ttu-id="207fe-135">0x0001</span><span class="sxs-lookup"><span data-stu-id="207fe-135">0x0001</span></span>  <br/> |<span data-ttu-id="207fe-136">Ce rendez-vous est une réunion.</span><span class="sxs-lookup"><span data-stu-id="207fe-136">This appointment is a meeting.</span></span>  <br/> |
+|<span data-ttu-id="207fe-137">Received</span><span class="sxs-lookup"><span data-stu-id="207fe-137">Received</span></span>  <br/> |<span data-ttu-id="207fe-138">0x0002</span><span class="sxs-lookup"><span data-stu-id="207fe-138">0x0002</span></span>  <br/> |<span data-ttu-id="207fe-139">Ce rendez-vous a été reçu.</span><span class="sxs-lookup"><span data-stu-id="207fe-139">This appointment has been received.</span></span>  <br/> |
+|<span data-ttu-id="207fe-140">Annulé</span><span class="sxs-lookup"><span data-stu-id="207fe-140">Canceled</span></span>  <br/> |<span data-ttu-id="207fe-141">0x0004</span><span class="sxs-lookup"><span data-stu-id="207fe-141">0x0004</span></span>  <br/> |<span data-ttu-id="207fe-142">Ce rendez-vous a été annulé.</span><span class="sxs-lookup"><span data-stu-id="207fe-142">This appointment has been canceled.</span></span>  <br/> |
    
-<span data-ttu-id="d4b2f-143">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="d4b2f-143">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="207fe-143">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="207fe-143">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="d4b2f-144">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="d4b2f-144">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="207fe-144">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="207fe-144">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="d4b2f-145">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="d4b2f-145">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="d4b2f-146">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="d4b2f-146">Schema name</span></span>  <br/> |<span data-ttu-id="d4b2f-147">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="d4b2f-147">Types schema</span></span>  <br/> |
-|<span data-ttu-id="d4b2f-148">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="d4b2f-148">Validation file</span></span>  <br/> |<span data-ttu-id="d4b2f-149">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="d4b2f-149">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="d4b2f-150">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="d4b2f-150">Can be empty</span></span>  <br/> |<span data-ttu-id="d4b2f-151">False</span><span class="sxs-lookup"><span data-stu-id="d4b2f-151">False</span></span>  <br/> |
+|<span data-ttu-id="207fe-145">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="207fe-145">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="207fe-146">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="207fe-146">Schema name</span></span>  <br/> |<span data-ttu-id="207fe-147">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="207fe-147">Types schema</span></span>  <br/> |
+|<span data-ttu-id="207fe-148">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="207fe-148">Validation file</span></span>  <br/> |<span data-ttu-id="207fe-149">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="207fe-149">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="207fe-150">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="207fe-150">Can be empty</span></span>  <br/> |<span data-ttu-id="207fe-151">False</span><span class="sxs-lookup"><span data-stu-id="207fe-151">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="d4b2f-152">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d4b2f-152">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="207fe-152">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="207fe-152">See also</span></span>
 
-- [<span data-ttu-id="d4b2f-153">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="d4b2f-153">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="207fe-153">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="207fe-153">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

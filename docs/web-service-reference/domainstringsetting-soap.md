@@ -13,12 +13,12 @@ ms.openlocfilehash: 791c4598d9f1ed471c3ce3b6083498b5da0f2b72
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463586"
 ---
-# <a name="domainstringsetting-soap"></a><span data-ttu-id="230d7-103">DomainStringSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="230d7-103">DomainStringSetting (SOAP)</span></span>
+# <a name="domainstringsetting-soap"></a><span data-ttu-id="e9664-103">DomainStringSetting (SOAP)</span><span class="sxs-lookup"><span data-stu-id="e9664-103">DomainStringSetting (SOAP)</span></span>
 
-<span data-ttu-id="230d7-104">L’élément **DomainStringSetting** représente un paramètre de domaine dont la valeur est de type String.</span><span class="sxs-lookup"><span data-stu-id="230d7-104">The **DomainStringSetting** element represents a domain setting the value of which is of type string.</span></span> 
+<span data-ttu-id="e9664-104">L’élément **DomainStringSetting** représente un paramètre de domaine dont la valeur est de type String.</span><span class="sxs-lookup"><span data-stu-id="e9664-104">The **DomainStringSetting** element represents a domain setting the value of which is of type string.</span></span> 
   
 ```XML
 <DomainStringSetting>
@@ -27,40 +27,40 @@ ms.locfileid: "44463586"
 </DomainStringSetting>
 ```
 
- <span data-ttu-id="230d7-105">**DomainStringSetting**</span><span class="sxs-lookup"><span data-stu-id="230d7-105">**DomainStringSetting**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="230d7-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="230d7-106">Attributes and elements</span></span>
+ <span data-ttu-id="e9664-105">**DomainStringSetting**</span><span class="sxs-lookup"><span data-stu-id="e9664-105">**DomainStringSetting**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="e9664-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="e9664-106">Attributes and elements</span></span>
 
-<span data-ttu-id="230d7-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="230d7-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="e9664-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="e9664-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="230d7-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="230d7-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="e9664-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="e9664-108">Attributes</span></span>
 
-<span data-ttu-id="230d7-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="230d7-109">None.</span></span>
+<span data-ttu-id="e9664-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="e9664-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="230d7-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="230d7-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="e9664-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="e9664-110">Child elements</span></span>
 
-|<span data-ttu-id="230d7-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="230d7-111">**Element**</span></span>|<span data-ttu-id="230d7-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="230d7-112">**Description**</span></span>|
+|<span data-ttu-id="e9664-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="e9664-111">**Element**</span></span>|<span data-ttu-id="e9664-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="e9664-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="230d7-113">Nom (SOAP)</span><span class="sxs-lookup"><span data-stu-id="230d7-113">Name (SOAP)</span></span>](name-soap.md) <br/> |<span data-ttu-id="230d7-114">Représente le nom d’un paramètre.</span><span class="sxs-lookup"><span data-stu-id="230d7-114">Represents the name of a setting.</span></span>  <br/> |
-|[<span data-ttu-id="230d7-115">Valeur (SOAP)</span><span class="sxs-lookup"><span data-stu-id="230d7-115">Value (SOAP)</span></span>](value-soap.md) <br/> |<span data-ttu-id="230d7-116">Représente une valeur de paramètre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="230d7-116">Represents a user setting value.</span></span>  <br/> |
+|[<span data-ttu-id="e9664-113">Nom (SOAP)</span><span class="sxs-lookup"><span data-stu-id="e9664-113">Name (SOAP)</span></span>](name-soap.md) <br/> |<span data-ttu-id="e9664-114">Représente le nom d’un paramètre.</span><span class="sxs-lookup"><span data-stu-id="e9664-114">Represents the name of a setting.</span></span>  <br/> |
+|[<span data-ttu-id="e9664-115">Valeur (SOAP)</span><span class="sxs-lookup"><span data-stu-id="e9664-115">Value (SOAP)</span></span>](value-soap.md) <br/> |<span data-ttu-id="e9664-116">Représente une valeur de paramètre utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e9664-116">Represents a user setting value.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="230d7-117">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="230d7-117">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="e9664-117">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="e9664-117">Parent elements</span></span>
 
-<span data-ttu-id="230d7-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="230d7-118">None.</span></span>
+<span data-ttu-id="e9664-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="e9664-118">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="230d7-119">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="230d7-119">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="e9664-119">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="e9664-119">Text value</span></span>
 
-<span data-ttu-id="230d7-120">Aucune.</span><span class="sxs-lookup"><span data-stu-id="230d7-120">None.</span></span>
+<span data-ttu-id="e9664-120">Aucune.</span><span class="sxs-lookup"><span data-stu-id="e9664-120">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="230d7-121">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="230d7-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e9664-121">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="e9664-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="230d7-122">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="230d7-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|<span data-ttu-id="230d7-123">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="230d7-123">Schema Name</span></span>  <br/> |<span data-ttu-id="230d7-124">Schéma de découverte automatique</span><span class="sxs-lookup"><span data-stu-id="230d7-124">Autodiscover schema</span></span>  <br/> |
-|<span data-ttu-id="230d7-125">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="230d7-125">Validation File</span></span>  <br/> |<span data-ttu-id="230d7-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="230d7-126">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="230d7-127">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="230d7-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="230d7-128">True</span><span class="sxs-lookup"><span data-stu-id="230d7-128">True</span></span>  <br/> |
+|<span data-ttu-id="e9664-122">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="e9664-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|<span data-ttu-id="e9664-123">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="e9664-123">Schema Name</span></span>  <br/> |<span data-ttu-id="e9664-124">Schéma de découverte automatique</span><span class="sxs-lookup"><span data-stu-id="e9664-124">Autodiscover schema</span></span>  <br/> |
+|<span data-ttu-id="e9664-125">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="e9664-125">Validation File</span></span>  <br/> |<span data-ttu-id="e9664-126">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="e9664-126">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="e9664-127">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="e9664-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="e9664-128">True</span><span class="sxs-lookup"><span data-stu-id="e9664-128">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="230d7-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="230d7-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e9664-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e9664-129">See also</span></span>
 
-- [<span data-ttu-id="230d7-130">Opération GetDomainSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="230d7-130">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
+- [<span data-ttu-id="e9664-130">Opération GetDomainSettings (SOAP)</span><span class="sxs-lookup"><span data-stu-id="e9664-130">GetDomainSettings operation (SOAP)</span></span>](getdomainsettings-operation-soap.md)
 

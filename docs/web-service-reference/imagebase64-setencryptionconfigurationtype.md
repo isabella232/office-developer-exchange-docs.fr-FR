@@ -12,7 +12,7 @@ ms.openlocfilehash: f1584911b6124a4ac1688bd64899b07308ad5d68
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460903"
 ---
 # <a name="imagebase64-setencryptionconfigurationtype"></a>ImageBase64 (SetEncryptionConfigurationType)

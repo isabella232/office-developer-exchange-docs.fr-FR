@@ -16,7 +16,7 @@ ms.openlocfilehash: 3e4b9dba5e8be6e45a0c16508531fbc6cf91c170
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459699"
 ---
 # <a name="phonecallid"></a>PhoneCallId

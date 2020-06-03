@@ -16,7 +16,7 @@ ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44459390"
 ---
 # <a name="updateitem-operation"></a>Opération UpdateItem

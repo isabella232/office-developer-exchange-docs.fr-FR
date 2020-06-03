@@ -16,7 +16,7 @@ ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460021"
 ---
 # <a name="getitem-operation-contact"></a>Opération de GetItem (contacts)

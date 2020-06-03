@@ -1,34 +1,34 @@
 ---
-title: Ajouter et supprimer des adresses de messagerie à partir de la liste des expéditeurs bloqués à l’aide de EWS dans Exchange
+title: Ajouter et supprimer des adresses de messagerie de la liste des expéditeurs bloqués à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b88288ee-6af7-45b5-a55c-5929cd0c16f1
-description: Découvrez comment utiliser les API managées EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.
-ms.openlocfilehash: c03ed585ebd62802000179d8c837786ba5f9aab4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment utiliser l’API managée EWS ou EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.
+ms.openlocfilehash: 270613a739acba165c7bac1bd2c1ef275b5d3aca
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754783"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44528278"
 ---
-# <a name="add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews-in-exchange"></a><span data-ttu-id="960c3-103">Ajouter et supprimer des adresses de messagerie à partir de la liste des expéditeurs bloqués à l’aide de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="960c3-103">Add and remove email addresses from the Blocked Senders List by using EWS in Exchange</span></span>
+# <a name="add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews-in-exchange"></a><span data-ttu-id="c1056-103">Ajouter et supprimer des adresses de messagerie de la liste des expéditeurs bloqués à l’aide d’EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c1056-103">Add and remove email addresses from the Blocked Senders List by using EWS in Exchange</span></span>
 
-<span data-ttu-id="960c3-104">Découvrez comment utiliser les API managées EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="960c3-104">Find out how to use the EWS Managed API or EWS to add email addresses to and remove them from the Blocked Senders List.</span></span>
+<span data-ttu-id="c1056-104">Découvrez comment utiliser l’API managée EWS ou EWS pour ajouter des adresses de messagerie et les supprimer de la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="c1056-104">Find out how to use the EWS Managed API or EWS to add email addresses to and remove them from the Blocked Senders List.</span></span>
   
-<span data-ttu-id="960c3-105">La liste des expéditeurs bloqués dans options du courrier indésirable d’un utilisateur fournit un moyen pour déplacer tous les messages électroniques provenant d’expéditeurs spécifiés vers le dossier courrier indésirable.</span><span class="sxs-lookup"><span data-stu-id="960c3-105">The Blocked Senders List in a user's Junk Email options provides a way to move all email messages from specified senders to the Junk Email folder.</span></span> <span data-ttu-id="960c3-106">Vous pouvez activer votre API managées ou les applications EWS ajouter des adresses de messagerie ou de les supprimer de la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="960c3-106">You can enable your EWS Managed API or EWS application to add email addresses to or remove them from the Blocked Senders List.</span></span>
+<span data-ttu-id="c1056-105">La liste des expéditeurs bloqués dans les options de courrier indésirable d’un utilisateur permet de déplacer tous les messages électroniques provenant d’expéditeurs spécifiques vers le dossier courrier indésirable.</span><span class="sxs-lookup"><span data-stu-id="c1056-105">The Blocked Senders List in a user's Junk Email options provides a way to move all email messages from specified senders to the Junk Email folder.</span></span> <span data-ttu-id="c1056-106">Vous pouvez activer votre API managée EWS ou votre application EWS pour ajouter ou supprimer des adresses de messagerie de la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="c1056-106">You can enable your EWS Managed API or EWS application to add email addresses to or remove them from the Blocked Senders List.</span></span>
   
-<span data-ttu-id="960c3-107">Notez qu’un message à partir de l’adresse de messagerie doit exister dans la boîte aux lettres de l’utilisateur avant de pouvoir ajouter l’adresse de messagerie ou supprimer de la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="960c3-107">Note that a message from the email address must exist in the user's mailbox before you can add the email address to or remove it from the Blocked Senders List.</span></span> <span data-ttu-id="960c3-108">La méthode [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/fr-fr/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) API managées et l’opération EWS [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) utilisent une collection d’ID d’élément.</span><span class="sxs-lookup"><span data-stu-id="960c3-108">The [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/fr-fr/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method and the [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation use a collection of item IDs.</span></span> <span data-ttu-id="960c3-109">L’élément ID dans la collection indiquent des messages dans la boîte aux lettres pour laquelle l’état de courrier indésirable doit être modifiée.</span><span class="sxs-lookup"><span data-stu-id="960c3-109">The item IDs in the collection indicate messages in the mailbox for which the junk mail status should be changed.</span></span> 
+<span data-ttu-id="c1056-107">Notez qu’un message provenant de l’adresse de messagerie doit figurer dans la boîte aux lettres de l’utilisateur avant de pouvoir ajouter l’adresse de messagerie ou la supprimer de la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="c1056-107">Note that a message from the email address must exist in the user's mailbox before you can add the email address to or remove it from the Blocked Senders List.</span></span> <span data-ttu-id="c1056-108">La méthode de l’API managée EWS [ExchangeService. MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) et l’opération EWS [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) utilisent une collection d’ID d’élément.</span><span class="sxs-lookup"><span data-stu-id="c1056-108">The [ExchangeService.MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method and the [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation use a collection of item IDs.</span></span> <span data-ttu-id="c1056-109">Les ID d’élément dans la collection indiquent les messages de la boîte aux lettres pour lesquels l’état du courrier indésirable doit être modifié.</span><span class="sxs-lookup"><span data-stu-id="c1056-109">The item IDs in the collection indicate messages in the mailbox for which the junk mail status should be changed.</span></span> 
   
-<span data-ttu-id="960c3-110">Vous pouvez utiliser les applets de commande [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/fr-fr/library/dd979784%28v=exchg.150%29.aspx) et [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/fr-fr/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell pour accéder directement à la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="960c3-110">You can use the [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/fr-fr/library/dd979784%28v=exchg.150%29.aspx) and [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/fr-fr/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlets to access the Blocked Senders List directly.</span></span> 
+<span data-ttu-id="c1056-110">Vous pouvez utiliser les cmdlets [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx) et [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell pour accéder directement à la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="c1056-110">You can use the [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx) and [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlets to access the Blocked Senders List directly.</span></span> 
   
-## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-the-ews-managed-api"></a><span data-ttu-id="960c3-111">Ajouter une adresse de messagerie ou le supprimer de la liste des expéditeurs bloqués à l’aide de l’API managée EWS</span><span class="sxs-lookup"><span data-stu-id="960c3-111">Add an email address to or remove it from the Blocked Senders List by using the EWS Managed API</span></span>
-<span data-ttu-id="960c3-112"><a name="bk_AddRemoveEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="960c3-112"></span></span>
+## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-the-ews-managed-api"></a><span data-ttu-id="c1056-111">Ajouter une adresse de messagerie ou la supprimer de la liste des expéditeurs bloqués à l’aide de l’API managée EWS</span><span class="sxs-lookup"><span data-stu-id="c1056-111">Add an email address to or remove it from the Blocked Senders List by using the EWS Managed API</span></span>
+<span data-ttu-id="c1056-112"><a name="bk_AddRemoveEWSMA"> </a></span><span class="sxs-lookup"><span data-stu-id="c1056-112"><a name="bk_AddRemoveEWSMA"> </a></span></span>
 
-<span data-ttu-id="960c3-113">Pour ajouter l’expéditeur d’un message électronique à la liste des expéditeurs bloqués, utilisez la méthode **MarkAsJunk** et définissez le paramètre **isJunk** sur **true**.</span><span class="sxs-lookup"><span data-stu-id="960c3-113">To add the sender of an email message to the Blocked Senders List, use the **MarkAsJunk** method and set the **isJunk** parameter to **true**.</span></span> <span data-ttu-id="960c3-114">Pour supprimer l’expéditeur d’un message électronique à partir de la liste des expéditeurs bloqués, définissez le paramètre **isJunk** sur **false**.</span><span class="sxs-lookup"><span data-stu-id="960c3-114">To remove the sender of an email message from the Blocked Senders List, set the **isJunk** parameter to **false**.</span></span>
+<span data-ttu-id="c1056-113">Pour ajouter l’expéditeur d’un message électronique à la liste des expéditeurs bloqués, utilisez la méthode **MarkAsJunk** et définissez le paramètre **isJunk** sur **true**.</span><span class="sxs-lookup"><span data-stu-id="c1056-113">To add the sender of an email message to the Blocked Senders List, use the **MarkAsJunk** method and set the **isJunk** parameter to **true**.</span></span> <span data-ttu-id="c1056-114">Pour supprimer l’expéditeur d’un message électronique de la liste des expéditeurs bloqués, définissez le paramètre **isJunk** sur **false**.</span><span class="sxs-lookup"><span data-stu-id="c1056-114">To remove the sender of an email message from the Blocked Senders List, set the **isJunk** parameter to **false**.</span></span>
   
-<span data-ttu-id="960c3-115">L’exemple suivant montre comment utiliser la méthode **MarkAsJunk** pour modifier l’état d’un message de courrier indésirable.</span><span class="sxs-lookup"><span data-stu-id="960c3-115">The following example shows how to use the **MarkAsJunk** method to change the junk status of a message.</span></span> 
+<span data-ttu-id="c1056-115">L’exemple suivant montre comment utiliser la méthode **MarkAsJunk** pour modifier l’état de courrier indésirable d’un message.</span><span class="sxs-lookup"><span data-stu-id="c1056-115">The following example shows how to use the **MarkAsJunk** method to change the junk status of a message.</span></span> 
   
 ```cs
 private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId, bool isJunk, bool moveItem)
@@ -67,17 +67,17 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 }
 ```
 
-## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-ews"></a><span data-ttu-id="960c3-116">Ajouter une adresse de messagerie ou le supprimer de la liste des expéditeurs bloqués à l’aide de EWS</span><span class="sxs-lookup"><span data-stu-id="960c3-116">Add an email address to or remove it from the Blocked Senders List by using EWS</span></span>
-<span data-ttu-id="960c3-117"><a name="bk_AddRemoveEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="960c3-117"></span></span>
+## <a name="add-an-email-address-to-or-remove-it-from-the-blocked-senders-list-by-using-ews"></a><span data-ttu-id="c1056-116">Ajouter une adresse de messagerie ou la supprimer de la liste des expéditeurs bloqués à l’aide d’EWS</span><span class="sxs-lookup"><span data-stu-id="c1056-116">Add an email address to or remove it from the Blocked Senders List by using EWS</span></span>
+<span data-ttu-id="c1056-117"><a name="bk_AddRemoveEWS"> </a></span><span class="sxs-lookup"><span data-stu-id="c1056-117"><a name="bk_AddRemoveEWS"> </a></span></span>
 
-<span data-ttu-id="960c3-118">La demande SOAP EWS suivante marque un élément comme courrier indésirable en définissant l’attribut **IsJunk** sur l’élément [MarkAsJunk](http://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) la **valeur true**.</span><span class="sxs-lookup"><span data-stu-id="960c3-118">The following EWS SOAP request marks an item as junk by setting the **IsJunk** attribute on the [MarkAsJunk](http://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) element to **true**.</span></span> <span data-ttu-id="960c3-119">Il déplace également le message vers le dossier courrier indésirable en définissant l’attribut **MoveItem** sur l’élément **MarkAsJunk** la **valeur true**.</span><span class="sxs-lookup"><span data-stu-id="960c3-119">It also moves the message to the Junk Email folder by setting the **MoveItem** attribute on the **MarkAsJunk** element to **true**.</span></span>
+<span data-ttu-id="c1056-118">La demande SOAP EWS suivante marque un élément comme courrier indésirable en définissant l’attribut **IsJunk** de l’élément [MarkAsJunk](https://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) sur **true**.</span><span class="sxs-lookup"><span data-stu-id="c1056-118">The following EWS SOAP request marks an item as junk by setting the **IsJunk** attribute on the [MarkAsJunk](https://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) element to **true**.</span></span> <span data-ttu-id="c1056-119">Il déplace également le message vers le dossier courrier indésirable en définissant l’attribut **MoveItem** de l’élément **MarkAsJunk** sur **true**.</span><span class="sxs-lookup"><span data-stu-id="c1056-119">It also moves the message to the Junk Email folder by setting the **MoveItem** attribute on the **MarkAsJunk** element to **true**.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -92,21 +92,21 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 </soap:Envelope>
 ```
 
-<span data-ttu-id="960c3-120">La réponse SOAP EWS suivante montre la réponse correcte.</span><span class="sxs-lookup"><span data-stu-id="960c3-120">The following EWS SOAP response shows the successful response.</span></span> <span data-ttu-id="960c3-121">L’élément [MovedItemId](http://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) dans la réponse contient l’ID d’élément de l’élément après que qu’il a été déplacé.</span><span class="sxs-lookup"><span data-stu-id="960c3-121">The [MovedItemId](http://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) element in the response contains the item ID for the item after it was moved.</span></span> 
+<span data-ttu-id="c1056-120">La réponse SOAP EWS suivante indique la réponse réussie.</span><span class="sxs-lookup"><span data-stu-id="c1056-120">The following EWS SOAP response shows the successful response.</span></span> <span data-ttu-id="c1056-121">L’élément [MovedItemId](https://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) dans la réponse contient l’ID de l’élément après qu’il a été déplacé.</span><span class="sxs-lookup"><span data-stu-id="c1056-121">The [MovedItemId](https://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) element in the response contains the item ID for the item after it was moved.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:MarkAsJunkResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -119,13 +119,13 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="960c3-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="960c3-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c1056-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c1056-122">See also</span></span>
 
-- [<span data-ttu-id="960c3-123">Gestion de la boîte de réception et EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="960c3-123">Inbox management and EWS in Exchange</span></span>](inbox-management-and-ews-in-exchange.md)   
-- [<span data-ttu-id="960c3-124">ExchangeService.MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="960c3-124">ExchangeService.MarkAsJunk</span></span>](http://msdn.microsoft.com/fr-fr/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
-- [<span data-ttu-id="960c3-125">Opération MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="960c3-125">MarkAsJunk operation</span></span>](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
-- [<span data-ttu-id="960c3-126">Get-MailboxJunkEmailConfiguration</span><span class="sxs-lookup"><span data-stu-id="960c3-126">Get-MailboxJunkEmailConfiguration</span></span>](http://technet.microsoft.com/fr-fr/library/dd979784%28v=exchg.150%29.aspx)   
-- [<span data-ttu-id="960c3-127">Set-MailboxJunkEmailConfiguration</span><span class="sxs-lookup"><span data-stu-id="960c3-127">Set-MailboxJunkEmailConfiguration</span></span>](http://technet.microsoft.com/fr-fr/library/dd979780%28v=exchg.150%29.aspx) 
-- [<span data-ttu-id="960c3-128">Exchange Management Shell</span><span class="sxs-lookup"><span data-stu-id="960c3-128">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)
+- [<span data-ttu-id="c1056-123">Gestion de la boîte de réception et EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c1056-123">Inbox management and EWS in Exchange</span></span>](inbox-management-and-ews-in-exchange.md)   
+- [<span data-ttu-id="c1056-124">ExchangeService. MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="c1056-124">ExchangeService.MarkAsJunk</span></span>](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
+- [<span data-ttu-id="c1056-125">Opération MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="c1056-125">MarkAsJunk operation</span></span>](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
+- [<span data-ttu-id="c1056-126">Get-MailboxJunkEmailConfiguration</span><span class="sxs-lookup"><span data-stu-id="c1056-126">Get-MailboxJunkEmailConfiguration</span></span>](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx)   
+- [<span data-ttu-id="c1056-127">Set-MailboxJunkEmailConfiguration</span><span class="sxs-lookup"><span data-stu-id="c1056-127">Set-MailboxJunkEmailConfiguration</span></span>](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) 
+- [<span data-ttu-id="c1056-128">Exchange Management Shell</span><span class="sxs-lookup"><span data-stu-id="c1056-128">Exchange Management Shell</span></span>](../management/exchange-management-shell.md)
     
 

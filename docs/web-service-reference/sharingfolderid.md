@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 5ad37ceb-2922-4420-9051-c29d0d57c420
 description: L’élément SharingFolderId représente l’identificateur du dossier local dans une relation de partage.
-ms.openlocfilehash: e0eb1fbd7155040508daf253f5eb4b1352d7426d
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 02780251639ee651ca65d8eadded43260852aaf8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829485"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526577"
 ---
 # <a name="sharingfolderid"></a>SharingFolderId
 
@@ -30,14 +30,14 @@ L’élément **SharingFolderId** représente l’identificateur du dossier loca
  **FolderIdType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |Contient une chaîne qui identifie un dossier dans la banque d’informations Exchange. Cet attribut est requis.  <br/> |
-|ChangeKey  <br/> |Contient une chaîne qui identifie une version d’un dossier qui est identifié par l’attribut Id. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|ID  <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
+|ChangeKey  <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,21 +47,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RefreshSharingFolder](refreshsharingfolder.md) <br/> |Définit une demande pour actualiser le dossier local spécifié.  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Définit une réponse à une demande [d’opération GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande [d’opération GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
+|[RefreshSharingFolder](refreshsharingfolder.md) <br/> |Définit une demande d’actualisation du dossier local spécifié.  <br/> |
+|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Définit une réponse à une demande d' [opération GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
+|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS que héberge Exchange Web Services de l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -9,12 +9,12 @@ api_type:
 - schema
 ms.assetid: d9c7fd91-22cd-4c72-a841-25cb9d415e0c
 description: L’élément DomainResponses contient un tableau de réponses pour les paramètres de chaque domaine demandé.
-ms.openlocfilehash: 77a3efc1605337ab436f6aea2b61a67f22e4f8ce
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 2c76b9691fe88657a65130ef6829e5af64380d95
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756039"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526318"
 ---
 # <a name="domainresponses-soap"></a>DomainResponses (SOAP)
 
@@ -29,36 +29,36 @@ L’élément **DomainResponses** contient un tableau de réponses pour les para
  **ArrayOfDomainResponse**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |Contient les paramètres requis pour le domaine spécifié.  <br/> |
+|[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |Contient les paramètres demandés pour le domaine spécifié.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetDomainSettingsResponse (SOAP)](getdomainsettingsresponse-soap.md) <br/> |Représente la réponse à une demande de [l’opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) pour un domaine et renvoie les paramètres de domaine.  <br/> |
-|[Réponse (GetDomainSettings) (SOAP)](response-getdomainsettingssoap.md) <br/> |Représente la réponse à un appel de [l’opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) pour un domaine spécifique.  <br/> |
+|[GetDomainSettingsResponse (SOAP)](getdomainsettingsresponse-soap.md) <br/> |Représente la réponse à une demande d' [opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) pour un domaine et renvoie les paramètres de domaine.  <br/> |
+|[Réponse (GetDomainSettings) (SOAP)](response-getdomainsettingssoap.md) <br/> |Représente la réponse à un appel [SOAP (GetDomainSettings Operation)](getdomainsettings-operation-soap.md) pour un domaine individuel.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
-Aucun.
+Aucune.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -13,7 +13,7 @@ ms.openlocfilehash: bfca8e8e260a6262d12542bd6834894a2375453f
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468424"
 ---
 # <a name="soap-autodiscover-web-service-reference-for-exchange"></a>Référence de service Web de découverte automatique SOAP pour Exchange

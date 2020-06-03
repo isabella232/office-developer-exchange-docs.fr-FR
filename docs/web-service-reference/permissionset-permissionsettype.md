@@ -16,7 +16,7 @@ ms.openlocfilehash: 5639ee8ba64742f39c0274f4e3aaa76d75bea42b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468130"
 ---
 # <a name="permissionset-permissionsettype"></a>PermissionSet (PermissionSetType)

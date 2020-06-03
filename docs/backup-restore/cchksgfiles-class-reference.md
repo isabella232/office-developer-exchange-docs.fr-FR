@@ -1,5 +1,5 @@
 ---
-title: Référence de classe CChkSGFiles
+title: Référence de classe fonction cchksgfiles
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,75 +7,75 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9347d5f6-95bb-4045-9c86-0dc0ded24fe8
-description: Trouvez des informations de référence pour l’API CHKSGFILES dans Exchange 2013.
-ms.openlocfilehash: 583ac5e16ab60d119c3028bf81123e9f60a58ff4
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Recherchez des informations de référence pour l’API CHKSGFILES dans Exchange 2013.
+ms.openlocfilehash: 38b1f2c900767c22594636f0c6ddf4855961aec4
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754747"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526731"
 ---
-# <a name="cchksgfiles-class-reference"></a>Référence de classe CChkSGFiles
+# <a name="cchksgfiles-class-reference"></a>Référence de classe fonction cchksgfiles
 
-Trouvez des informations de référence pour l’API CHKSGFILES dans Exchange 2013.
+Recherchez des informations de référence pour l’API CHKSGFILES dans Exchange 2013.
   
 **S’applique à :** Exchange Server 2013 
   
-L’API CHKSGFILES permet aux applications de sauvegarde et de restauration vérifier l’intégrité des fichiers journaux des transactions Exchange Server 2013 et des bases de données par programme. Vous pouvez utiliser cette API de sauvegarde et restauration des applications qui utilisent le Volume Shadow Copy Service (VSS).
+L’API CHKSGFILES permet aux applications de sauvegarde et de restauration de vérifier l’intégrité des fichiers journaux de transactions et des bases de données Exchange Server 2013 par programme. Vous pouvez utiliser cette API dans les applications de sauvegarde et de restauration qui utilisent le service VSS (Volume Shadow Copy Service).
   
 > [!NOTE]
-> Groupes de stockage ne sont pas disponibles dans Exchange 2013. Prise en charge des groupes de stockage a été supprimé des versions d’Exchange commençant par Exchange Server 2010. Pour assurer la compatibilité descendante avec les bases de données et les groupes de stockage dans les versions d’Exchange antérieures à Exchange 2010, l’API CHKSGFILES vous permet de spécifier les groupes de stockage. Lorsque vous exécutez CHKSGFILES par rapport à des bases de données Exchange 2013, vous devez définir les paramètres que vous spécifiez un identificateur de groupe de stockage sur une chaîne vide. 
+> Les groupes de stockage ne sont pas disponibles dans Exchange 2013. La prise en charge des groupes de stockage a été supprimée des versions d’Exchange à partir d’Exchange Server 2010. Pour assurer la compatibilité descendante avec les bases de données et les groupes de stockage dans les versions d’Exchange antérieures à Exchange 2010, l’API CHKSGFILES vous permet de spécifier des groupes de stockage. Lorsque vous exécutez CHKSGFILES sur des bases de données Exchange 2013, vous devez définir des paramètres qui spécifient un identificateur de groupe de stockage sur une chaîne vide. 
   
-## <a name="file-location"></a>Emplacement de fichier
+## <a name="file-location"></a>Emplacement du fichier
 <a name="bk_fileslocation"> </a>
 
-L’API CHKSGFILES est fourni dans le cadre d’Exchange 2013. Vous pouvez utiliser cette API sur un ordinateur ayant le rôle de serveur de boîtes aux lettres est installé. 
+L’API CHKSGFILES est fournie dans le cadre d’Exchange 2013. Vous pouvez utiliser cette API sur un ordinateur sur lequel le rôle serveur de boîtes aux lettres est installé. 
   
-Par défaut, la DLL CHKSGFILES est installée dans le répertoire C:\Program Files\Microsoft\Exchange\V15\Bin.
+Par défaut, la DLL CHKSGFILES est installée dans le répertoire C:\Program Files\Microsoft\Exchange\V15\Bin
   
 Exchange 2013 inclut uniquement une version 64 bits (amd64) de l’API CHKSGFILES. 
   
-Vous pouvez télécharger un fichier .zip qui inclut la bibliothèque CHKSGFILE.lib et fichiers d’en-tête CHKSGFILES.hxx pour une utilisation dans votre application personnalisée à partir du [Centre de téléchargement Microsoft](http://www.microsoft.com/en-us/download/details.aspx?id=36802).
+Vous pouvez télécharger un fichier. zip qui inclut la bibliothèque CHKSGFILE. lib et des fichiers d’en-tête CHKSGFILES. hxx à utiliser dans votre application personnalisée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=36802).
   
 ## <a name="development-languages"></a>Langages de développement
 <a name="bk_developmentlanguages"> </a>
 
-L’API CHKSGFILES est destinée aux versions de Visual Studio commençant par Visual Studio 2005 dans C/C++ natif. L’API CHKSGFILES n’est pas destiné à être utilisés dans du code managé. Bien que vous pouvez créer un assembly d’interopérabilité COM avec CHKSGFILES, nous ne sont pas fournis un assembly d’interopérabilité COM pris en charge avec Exchange 2013.
+L’API CHKSGFILES est conçue pour une utilisation avec les versions de Visual Studio à partir de Visual Studio 2005 en mode natif C/C++. L’API CHKSGFILES n’est pas destinée à être utilisée dans du code managé. Bien que vous puissiez créer un assembly d’interopérabilité COM avec CHKSGFILES, nous ne fournissons pas d’assembly d’interopérabilité COM pris en charge avec Exchange 2013.
   
 ## <a name="in-this-section"></a>Dans cette section
 <a name="bk_inthissection"> </a>
 
-- [Fonction CChkSGFiles.CMaxDbPerSG](cchksgfiles-cmaxdbpersg-function.md)
+- [Fonction fonction cchksgfiles. CMaxDbPerSG](cchksgfiles-cmaxdbpersg-function.md)
     
-- [Fonction CChkSGFiles.Delete](cchksgfiles-delete-function.md)
+- [Fonction fonction cchksgfiles. Delete](cchksgfiles-delete-function.md)
     
-- [Énumération CChkSGFiles.ERR](cchksgfiles-err-enumeration.md)
+- [Fonction cchksgfiles. ERR, énumération](cchksgfiles-err-enumeration.md)
     
-- [Fonction CChkSGFiles.ErrCheckDbHeaders](cchksgfiles-errcheckdbheaders-function.md)
+- [Fonction fonction cchksgfiles. ErrCheckDbHeaders](cchksgfiles-errcheckdbheaders-function.md)
     
-- [Fonction CChkSGFiles.ErrCheckDbPages](cchksgfiles-errcheckdbpages-function.md)
+- [Fonction fonction cchksgfiles. ErrCheckDbPages](cchksgfiles-errcheckdbpages-function.md)
     
-- [Fonction CChkSGFiles.ErrCheckLogs](cchksgfiles-errchecklogs-function.md)
+- [Fonction fonction cchksgfiles. ErrCheckLogs](cchksgfiles-errchecklogs-function.md)
     
-- [Fonction CChkSGFiles.ErrGetHeader (réservée)](cchksgfiles-errgetheader-function-reserved.md)
+- [Fonction fonction cchksgfiles. ErrGetHeader (réservée)](cchksgfiles-errgetheader-function-reserved.md)
     
-- [Fonction CChkSGFiles.ErrInit](cchksgfiles-errinit-function.md)
+- [Fonction fonction cchksgfiles. ErrInit](cchksgfiles-errinit-function.md)
     
-- [Fonction CChkSGFiles.ErrTerm](cchksgfiles-errterm-function.md)
+- [Fonction fonction cchksgfiles. ErrTerm](cchksgfiles-errterm-function.md)
     
-- [Énumération CChkSGFiles.iDbInvalid](cchksgfiles-idbinvalid-enumeration.md)
+- [Fonction cchksgfiles. iDbInvalid, énumération](cchksgfiles-idbinvalid-enumeration.md)
     
-- [Fonction CChkSGFiles.New](cchksgfiles-new-function.md)
+- [Fonction fonction cchksgfiles. New](cchksgfiles-new-function.md)
     
-- [Énumération CChkSGFiles.NO_FLAGS](cchksgfiles-no_flags-enumeration.md)
+- [Fonction cchksgfiles. NO_FLAGS, énumération](cchksgfiles-no_flags-enumeration.md)
     
-- [Struct CChkSGFiles.PAGE_INFO](cchksgfiles-page_info-struct.md)
+- [Struct fonction cchksgfiles. PAGE_INFO](cchksgfiles-page_info-struct.md)
     
-- [Fonction CChkSGFiles.PgnoFromFileOffset](cchksgfiles-pgnofromfileoffset-function.md)
+- [Fonction fonction cchksgfiles. PgnoFromFileOffset](cchksgfiles-pgnofromfileoffset-function.md)
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Exchange Online et développement Exchange](../exchange-server-development.md)
-- [Sauvegarde, restauration et récupération d’urgence](http://technet.microsoft.com/en-us/library/dd876874)
+- [Développement d’Exchange et Exchange Online](../exchange-server-development.md)
+- [Sauvegarde, restauration et récupération d’urgence](https://technet.microsoft.com/library/dd876874)
     
 

@@ -8,17 +8,17 @@ localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 85906f6c-4e16-4dd9-a3f2-0c9bffd249ca
-description: L’élément IPv6Start identifie la fin d’une version 6 (IPv6) de la plage IP adresses qui sont utilisés pour identifier un ordinateur sur un réseau.
-ms.openlocfilehash: 61fbfe75919d8037c2e5ebcb588ac309e60f0ae7
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément IPv6Start identifie la fin d’une plage d’adresses IP version 6 (IPv6) utilisées pour identifier un ordinateur sur un réseau.
+ms.openlocfilehash: ff4b0ce57a3a9e00abeab12b3312eace4cb83dfd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827988"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526542"
 ---
 # <a name="ipv6end-pox"></a>IPv6End (POX)
 
-L’élément **IPv6Start** identifie la fin d’une version 6 (IPv6) de la plage IP adresses qui sont utilisés pour identifier un ordinateur sur un réseau. 
+L’élément **IPv6Start** identifie la fin d’une plage d’adresses IP version 6 (IPv6) utilisées pour identifier un ordinateur sur un réseau. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -26,7 +26,7 @@ L’élément **IPv6Start** identifie la fin d’une version 6 (IPv6) de la plag
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [NetworkRequirements (POX)](networkrequirements-pox.md)
   
@@ -38,11 +38,11 @@ L’élément **IPv6Start** identifie la fin d’une version 6 (IPv6) de la plag
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,15 +52,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond à du fournisseur de services Internet (fournisseur de services Internet) requise pour se connecter au serveur.  <br/> |
+|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet (ISP) pour se connecter au serveur.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une adresse IPv6.
+La valeur texte représente une adresse IPv6.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

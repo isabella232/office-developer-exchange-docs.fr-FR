@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2ebae21c-3efa-4239-9b49-4a3a8871449b
-description: L’élément EwsPartnerUrl Spécifie l’URL de l’instance de point de terminaison meilleures pour Exchange Web Services (EWS) pour un utilisateur à extension messagerie.
-ms.openlocfilehash: 97c33e1fed4adc8a9e8542d85e67c942118f6096
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EwsPartnerUrl spécifie l’URL de la meilleure instance de point de terminaison pour les services Web Exchange (EWS) pour un utilisateur à extension messagerie.
+ms.openlocfilehash: a67eb17bb3db67a922c53ba5e37900ee0a9b956b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756240"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526108"
 ---
 # <a name="ewspartnerurl-pox"></a>EwsPartnerUrl (POX)
 
-L’élément **EwsPartnerUrl** Spécifie l’URL de l’instance de point de terminaison meilleures pour Exchange Web Services (EWS) pour un utilisateur à extension messagerie. 
+L’élément **EwsPartnerUrl** spécifie l’URL de la meilleure instance de point de terminaison pour les services Web Exchange (EWS) pour un utilisateur à extension messagerie. 
   
 [Découverte automatique (POX)](autodiscover-pox.md)
   
@@ -24,7 +24,7 @@ L’élément **EwsPartnerUrl** Spécifie l’URL de l’instance de point de te
   
 [Compte (POX)](account-pox.md)
   
-[Protocole (POX)](protocol-pox.md)
+[Protocol (POX)](protocol-pox.md)
   
 [EwsPartnerUrl (POX)](ewspartnerurl-pox.md)
   
@@ -34,11 +34,11 @@ L’élément **EwsPartnerUrl** Spécifie l’URL de l’instance de point de te
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocole (POX)](protocol-pox.md) <br/> |Contient les spécifications pour connecter un client à l’ordinateur qui exécute Microsoft Exchange Server qui a le rôle de serveur d’accès au Client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de text représente l’URL du point de terminaison EWS pour l’utilisateur.
+La valeur de texte représente l’URL du point de terminaison EWS de l’utilisateur.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EwsPartnerUrl** est un élément enfant facultatif de l’élément de **protocole** . Elle est équivalente à l’élément [EwsUrl (POX)](ewsurl-pox.md) . 
+L’élément **EwsPartnerUrl** est un élément enfant facultatif de l’élément **Protocol** . Elle est équivalente à l’élément [EwsUrl (POX)](ewsurl-pox.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments du fichier XML Autodiscover variole pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

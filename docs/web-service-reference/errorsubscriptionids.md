@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: e64e76ff-4d98-4082-9acc-a1114ae45f44
-description: L’élément ErrorSubscriptionIds contient un tableau d’ID d’abonnement non valide.
-ms.openlocfilehash: 5cdbbeb1083754510f431bc092bb67dc0addecab
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément ErrorSubscriptionIds contient un tableau d’ID d’abonnement non valides.
+ms.openlocfilehash: bdc5c86560800464d677a9043607bed3f7872e32
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756218"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526185"
 ---
 # <a name="errorsubscriptionids"></a>ErrorSubscriptionIds
 
-L’élément **ErrorSubscriptionIds** contient un tableau d’ID d’abonnement non valide. 
+L’élément **ErrorSubscriptionIds** contient un tableau d’ID d’abonnement non valides. 
   
 ```xml
 <ErrorSubscriptionIds>
@@ -32,11 +32,11 @@ L’élément **ErrorSubscriptionIds** contient un tableau d’ID d’abonnement
  **NonEmptyArrayOfSubscriptionIdsType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,7 +48,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’état et les résultats d’une seule demande [d’opération GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -62,9 +62,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages et http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages et https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma des messages ; Schéma de types  <br/> |
-|Fichier de validation  <br/> |Messages.xsd ; Types.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd ; Types. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

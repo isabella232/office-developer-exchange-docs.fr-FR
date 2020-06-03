@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
-description: L’élément UserParameters contient une liste des extensions de client activé et désactivé.
-ms.openlocfilehash: e0a72fe13255380ee56b32c863fb3bffb2e1ac5e
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément UserParameters contient la liste des extensions clientes activées et désactivées.
+ms.openlocfilehash: 76bf858adfb6d2ef76a25c234117131752c60d7b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19838970"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526752"
 ---
 # <a name="userparameters"></a>UserParameters
 
-L’élément **UserParameters** contient une liste des extensions de client activé et désactivé. 
+L’élément **UserParameters** contient la liste des extensions clientes activées et désactivées. 
   
 ```XML
 <UserParameters UserId="" EnabledOnly="">
@@ -29,18 +29,18 @@ L’élément **UserParameters** contient une liste des extensions de client act
  **GetClientExtensionUserParametersType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|UserId  <br/> |La valeur de texte de l’attribut **UserId** est l’identificateur de l’utilisateur.  <br/> |
-|EnabledOnly  <br/> |La valeur de texte de **EnabledOnly** indique si la réponse contient uniquement les extensions activées.  <br/> |
+|UserId  <br/> |La valeur de texte de l’attribut **userid** est l’identificateur de l’utilisateur.  <br/> |
+|EnabledOnly  <br/> |La valeur de texte de la **EnabledOnly** indique si la réponse ne contient que les extensions activées.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-[UserEnabledExtensions](userenabledextensions.md) | [UserDisabledExtensions](userdisabledextensions.md)
+[UserEnabledExtensions](userenabledextensions.md)  |  [UserDisabledExtensions](userdisabledextensions.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

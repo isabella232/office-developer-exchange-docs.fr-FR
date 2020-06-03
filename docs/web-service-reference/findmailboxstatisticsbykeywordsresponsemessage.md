@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d3835800-8887-43db-9a8a-fe3cfea7a863
-description: L’élément FindMailboxStatisticsByKeywordsResponseMessage Spécifie le message de réponse pour une demande FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: 9479252ed53335d07a6402707bc69e5eaadfa7c8
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément FindMailboxStatisticsByKeywordsResponseMessage spécifie le message de réponse pour une demande FindMailboxStatisticsByKeywords.
+ms.openlocfilehash: 704eebbf82db2871ab36be8e5b30c88c6959baa5
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756408"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44525975"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponsemessage"></a>FindMailboxStatisticsByKeywordsResponseMessage
 
-L’élément **FindMailboxStatisticsByKeywordsResponseMessage** Spécifie le message de réponse pour une demande **FindMailboxStatisticsByKeywords** . 
+L’élément **FindMailboxStatisticsByKeywordsResponseMessage** spécifie le message de réponse pour une demande **FindMailboxStatisticsByKeywords** . 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -32,13 +32,13 @@ L’élément **FindMailboxStatisticsByKeywordsResponseMessage** Spécifie le me
  **FindMailboxStatisticsByKeywordsResponseMessageType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ResponseClass  <br/> |Spécifie la classe de la réponse.  <br/> |
+|ResponseClass  <br/> |Spécifie la classe Response.  <br/> |
    
 #### <a name="responseclass"></a>ResponseClass
 
@@ -54,9 +54,9 @@ Les sections suivantes décrivent les attributs, éléments enfants et élément
 |:-----|:-----|
 |[MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md) <br/> |Spécifie le résultat d’une recherche de boîte aux lettres.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit des informations d’état sur la demande.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisée et réservée à un usage ultérieur.  <br/> |
-|[MessageXml](messagexml.md) <br/> |Fournit des informations de réponse d’erreur.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit des informations sur l’état de la demande.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure.  <br/> |
+|[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -74,9 +74,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma des messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Nom du schéma  <br/> |Schéma de message  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

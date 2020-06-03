@@ -12,12 +12,12 @@ api_type:
 - schema
 ms.assetid: 2106a85b-58fe-49be-b71d-4ca6aa66e060
 description: L’élément SetRuleOperation représente une opération de mise à jour d’une règle existante.
-ms.openlocfilehash: 9c956394d14c510e8dcc95110ef1874ea7010be0
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: 96fba2f229003b8c729c36614e69655852a3aa8c
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829451"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526332"
 ---
 # <a name="setruleoperation"></a>SetRuleOperation
 
@@ -25,7 +25,7 @@ L’élément **SetRuleOperation** représente une opération de mise à jour d�
   
 [UpdateInboxRules](updateinboxrules.md)
   
-[Opérations](operations.md)
+[Operations](operations.md)
   
 ```XML
 <SetRuleOperation>
@@ -36,17 +36,17 @@ L’élément **SetRuleOperation** représente une opération de mise à jour d�
  **SetRuleOperationType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle de boîte aux lettres d’un utilisateur.  <br/> |
+|[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle dans la boîte aux lettres d’un utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

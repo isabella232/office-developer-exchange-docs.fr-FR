@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
-description: La fin élément spécifie les modifications apportées à une extrémité de réunion du temps lors d’une mise à jour de réunion.
-ms.openlocfilehash: 1b5d9736d8450c41316bcac8e1aaa4e5ff630c68
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément End spécifie les modifications apportées à l’heure de fin d’une réunion lors de la mise à jour d’une réunion.
+ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756166"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526199"
 ---
 # <a name="end-changehighlightstype"></a>Fin (ChangeHighlightsType)
 
-L’élément de **fin** spécifie les modifications apportées à une réunion fin lors d’une mise à jour de réunion. 
+L’élément **end** spécifie les modifications apportées à l’heure de fin d’une réunion lors de la mise à jour d’une réunion. 
   
 ```XML
 <End></End>
@@ -26,11 +26,11 @@ L’élément de **fin** spécifie les modifications apportées à une réunion 
  **dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -40,7 +40,7 @@ Aucun.
 
 [ChangeHighlights](changehighlights.md)
   
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
 La valeur de texte de l’élément de **fin** est la nouvelle heure de fin d’une réunion. 
   
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> ||

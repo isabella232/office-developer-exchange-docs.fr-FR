@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 9e2d3433-22d7-444b-9883-e5649297d8fe
-description: L’élément InvalidRecipient contient l’adresse SMTP du destinataire non valide et plus d’informations sur la raison pour laquelle le destinataire n’est pas valide.
-ms.openlocfilehash: 800056666e486e9337dcd1c2786f7e6db1e060bb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément InvalidRecipient contient l’adresse SMTP du destinataire non valide et des informations expliquant pourquoi le destinataire n’est pas valide.
+ms.openlocfilehash: f301b31c1054625151ce90e41fca5e3efc21f473
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19827961"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526549"
 ---
 # <a name="invalidrecipient"></a>InvalidRecipient
 
-L’élément **InvalidRecipient** contient l’adresse SMTP du destinataire non valide et plus d’informations sur la raison pour laquelle le destinataire n’est pas valide. 
+L’élément **InvalidRecipient** contient l’adresse SMTP du destinataire non valide et des informations expliquant pourquoi le destinataire n’est pas valide. 
   
 ```XML
 <InvalidRecipient>
@@ -35,25 +35,25 @@ L’élément **InvalidRecipient** contient l’adresse SMTP du destinataire non
  **InvalidRecipientType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[SmtpAddress](smtpaddress.md) <br/> |Contient l’adresse SMTP du destinataire non valide. Cet élément est obligatoire.  <br/> |
-|[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique qui a rencontré la demande. Cet élément est obligatoire.  <br/> |
+|[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique rencontrée par la demande. Cet élément est obligatoire.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[InvalidRecipients](invalidrecipients.md) <br/> |Représente les destinataires d’un dossier de demande de partage qui ne sont pas valides.  <br/> |
+|[InvalidRecipients](invalidrecipients.md) <br/> |Représente les destinataires d’une demande de partage de dossier qui ne sont pas valides.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 04b70f9e-c226-4130-958e-0db0275cf58b
-description: L’élément EventType est utilisé pour créer un abonnement et identifie le type d’événement dans une notification.
-ms.openlocfilehash: fb54c9e042f105d10e68cb0e9b48feae7ed8bf7b
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EventType est utilisé pour créer un abonnement et identifie un type d’événement à signaler dans une notification.
+ms.openlocfilehash: 58c7ce571434b6fb8ac0b1dc2a3f8cd4fd56ff17
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756220"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526171"
 ---
 # <a name="eventtype"></a>EventType
 
-L’élément **EventType** est utilisé pour créer un abonnement et identifie le type d’événement dans une notification. 
+L’élément **eventType** est utilisé pour créer un abonnement et identifie un type d’événement à signaler dans une notification. 
   
 ```xml
 <EventType/>
@@ -30,11 +30,11 @@ L’élément **EventType** est utilisé pour créer un abonnement et identifie 
  **NotificationEventTypeType**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EventTypes](eventtypes.md) <br/> |Contient une collection des types d’événements de notification événement qui sont utilisés pour créer un abonnement.  <br/> |
+|[EventTypes](eventtypes.md) <br/> |Contient une collection de types d’événements de notification d’événement qui permettent de créer un abonnement.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur texte est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
   
 - CopiedEvent
     
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

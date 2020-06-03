@@ -1,5 +1,5 @@
 ---
-title: État (service web de messagerie unifiée - SetMissedCallNotificationEnabled)
+title: État (service Web de messagerie unifiée-SetMissedCallNotificationEnabled)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -10,21 +10,21 @@ api_name:
 api_type:
 - schema
 ms.assetid: e272d905-1a66-44f6-bb1d-59fa9e4d8dea
-description: L’élément Status définit la valeur à utiliser dans une requête (service web de messagerie unifiée) d’opération SetMissedCallNotificationEnabled.
-ms.openlocfilehash: 3bd07f0ed0f44bd00dad9f56aa8218bad0a82a9a
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément Status définit la valeur à utiliser dans une demande d’opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée).
+ms.openlocfilehash: f184c3af49033bc09c28dd66f786935b72c3590b
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19829585"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526857"
 ---
-# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>État (service web de messagerie unifiée - SetMissedCallNotificationEnabled)
+# <a name="status-um-web-service---setmissedcallnotificationenabled"></a>État (service Web de messagerie unifiée-SetMissedCallNotificationEnabled)
 
-L’élément **Status** définit la valeur à utiliser dans une requête [d’opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
+L’élément **Status** définit la valeur à utiliser dans une demande d' [opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
   
-[SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-um-web-service.md)
   
-[État (service web de messagerie unifiée - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[État (service Web de messagerie unifiée-SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
   
 ```xml
 <SetMissedCallNotificationEnabled>
@@ -35,11 +35,11 @@ L’élément **Status** définit la valeur à utiliser dans une requête [d’o
  **Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,13 +49,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|SetMissedCallNotificationEnabled  <br/> |Définit une demande pour une demande [d’opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
+|SetMissedCallNotificationEnabled  <br/> |Définit une demande pour une demande d' [opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md) .  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-Une valeur de type Boolean texte est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivantes :
   
-- True
+- Vrai
     
 - Faux
     
@@ -63,14 +63,14 @@ Une valeur de type Boolean texte est requise. Les valeurs possibles sont les sui
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages.xsd  <br/> |
+|Fichier de validation  <br/> |Messages. xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md)
+[Opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2ecbe1e0-00c3-4a72-9066-08c4cb76913f
 description: L’élément GetClientAccessTokenResponse contient la réponse à une demande d’opération GetClientAccessToken.
-ms.openlocfilehash: cd21bddbb300218d04cef5254a0e0107a509cbf9
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+ms.openlocfilehash: d4578fa985a1af3db80e6bab13cf3587839dc8b7
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756541"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526353"
 ---
 # <a name="getclientaccesstokenresponse"></a>GetClientAccessTokenResponse
 
@@ -28,11 +28,11 @@ L’élément **GetClientAccessTokenResponse** contient la réponse à une deman
  ****
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,9 +52,9 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages.xsd  <br/> |
+|Fichier de validation  <br/> |messages. xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

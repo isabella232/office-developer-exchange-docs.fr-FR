@@ -11,23 +11,23 @@ api_name:
 api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
-description: L’opération ExportItems exporte des éléments en dehors d’une boîte aux lettres.
-ms.openlocfilehash: 6f0760705c05de2a615544fe52ac50b398be6040
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération ExportItems exporte les éléments hors d’une boîte aux lettres.
+ms.openlocfilehash: 547a490a27d2414d2eda1d89cdac036a34eddccd
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756267"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526045"
 ---
 # <a name="exportitems-operation"></a>Opération ExportItems
 
-L’opération **ExportItems** exporte des éléments en dehors d’une boîte aux lettres. 
+L’opération **ExportItems** exporte les éléments hors d’une boîte aux lettres. 
   
 ## <a name="exportitems-request-example"></a>Exemple de requête ExportItems
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une demande **ExportItems** montre comment former une demande pour obtenir les trois éléments exportés à partir d’une boîte aux lettres. 
+L’exemple de requête **ExportItems** suivant montre comment créer une demande pour obtenir trois éléments exportés à partir d’une boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -36,8 +36,8 @@ L’exemple suivant d’une demande **ExportItems** montre comment former une de
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -53,11 +53,11 @@ L’exemple suivant d’une demande **ExportItems** montre comment former une de
 </soap:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-Les identificateurs d’élément dans l’exemple ont été réduits afin de préserver la lisibilité.
+Les identificateurs d’élément de l’exemple ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -65,15 +65,15 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ExportItems](exportitems.md)
     
-- [ItemId (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md)
+- [ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
-## <a name="successful-exportitems-response-example"></a>Exemple de réponse ExportItems réussie
+## <a name="successful-exportitems-response-example"></a>Exemple de réponse ExportItems réussi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse positive à une demande de **ExportItems** . 
+L’exemple suivant montre une réponse réussie à une demande **ExportItems** . 
   
 ### <a name="code"></a>Code
 
@@ -86,15 +86,15 @@ L’exemple suivant montre une réponse positive à une demande de **ExportItems
     MajorBuildNumber="139"
     MinorBuildNumber="0"
     Version="Exchange2010_SP1"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-    xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -147,11 +147,11 @@ L’exemple suivant montre une réponse positive à une demande de **ExportItems
 </s:Envelope>
 ```
 
-### <a name="comment"></a>Commentaires
+### <a name="comment"></a>Commentaire
 
-Les identificateurs de l’élément et les touches de modification dans l’exemple ont été réduits afin de préserver la lisibilité.
+Les identificateurs d’élément et les clés de modification de l’exemple ont été raccourcis pour conserver la lisibilité.
   
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -165,7 +165,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [Données (base64Binary)](data-base64binary.md)
     
@@ -173,7 +173,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse à la demande **ExportItems** qui contient deux erreurs et un élément correctement exporté. Le premier élément dans l’exemple correctement exporté. Le deuxième élément contient une clé incorrecte de modification. Le troisième élément représente une tentative pour exporter un élément de la boîte aux lettres incorrect. 
+L’exemple suivant montre une réponse à la requête **ExportItems** qui contient deux erreurs et un élément exporté avec succès. Le premier élément de l’exemple est correctement exporté. Le deuxième élément contient une clé de modification incorrecte. Le troisième élément représente une tentative d’exportation d’un élément à partir d’une boîte aux lettres incorrecte. 
   
 ### <a name="code"></a>Code
 
@@ -186,15 +186,15 @@ L’exemple suivant montre une réponse à la demande **ExportItems** qui contie
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -229,7 +229,7 @@ L’exemple suivant montre une réponse à la demande **ExportItems** qui contie
 
 ### <a name="comments"></a>Commentaires
 
-Les identificateurs d’élément, modifier les clés et les données dans l’exemple ont été raccourcies afin de préserver la lisibilité.
+Les identificateurs d’élément, les clés de modification et les données de l’exemple ont été raccourcies afin de préserver la lisibilité.
   
 ### <a name="error-response-elements"></a>Éléments de réponse d’erreur
 
@@ -245,7 +245,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [ResponseCode](responsecode.md)
     
-- [ID d’élément](itemid.md)
+- [ItemId](itemid.md)
     
 - [Données (base64Binary)](data-base64binary.md)
     
@@ -258,7 +258,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
 - **Valeur**
     
 > [!NOTE]
-> L’élément **Value** n’existe pas dans le schéma. Cet élément est valide car l’élément [MessageXml](messagexml.md) , dans lequel l’élément d’instance **valeur** se produit, peut contenir n’importe quel code XML bien formé. 
+> L’élément **value** n’existe pas dans le schéma. Cet élément est valide car l’élément [messagexml](messagexml.md) , dans lequel l’élément instance de la **valeur** se produit, peut contenir n’importe quel code XML bien formé. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: 7753aec5-3f93-4aeb-a28e-8b9b42ca7f9b
-description: L’élément EnableAlwaysDelete spécifie un indicateur qui permet la suppression de tous les nouveaux éléments dans une conversation.
-ms.openlocfilehash: f86765c641604afbf13ac962f4b34fbd8de56200
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’élément EnableAlwaysDelete spécifie un indicateur qui active la suppression de tous les nouveaux éléments d’une conversation.
+ms.openlocfilehash: 14784d3a6ba52c76b64b81e15c0522d66d125cbf
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756162"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526206"
 ---
 # <a name="enablealwaysdelete"></a>EnableAlwaysDelete
 
-L’élément **EnableAlwaysDelete** spécifie un indicateur qui permet la suppression de tous les nouveaux éléments dans une conversation. 
+L’élément **EnableAlwaysDelete** spécifie un indicateur qui active la suppression de tous les nouveaux éléments d’une conversation. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,14 +35,14 @@ L’élément **EnableAlwaysDelete** spécifie un indicateur qui permet la suppr
 <EnableAlwaysDelete/>
 ```
 
- **xs : Boolean**
+ **XS : Boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
-Les sections suivantes décrivent les attributs, éléments enfants et éléments parents.
+Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,11 +52,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une même conversation.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
    
-## <a name="text-value"></a>Valeur de texte
+## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EnableAlwaysDelete** est **la valeur true** pour activer la suppression de tous les éléments de conversation ; Sinon, **false**.
+La valeur de texte de l’élément **EnableAlwaysDelete** est **true** pour permettre la suppression de tous les éléments dans la conversation ; Sinon, **false**.
   
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 |||
 |:-----|:-----|
-|Espace de noms  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
 |Fichier de validation  <br/> |Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |

@@ -16,7 +16,7 @@ ms.openlocfilehash: d75285e0ab14c4f53d73cb7f4349196e07c3c521
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468312"
 ---
 # <a name="read"></a>Lecture

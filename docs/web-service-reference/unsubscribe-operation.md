@@ -16,7 +16,7 @@ ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44468025"
 ---
 # <a name="unsubscribe-operation"></a>Opération de résiliation d’abonnement

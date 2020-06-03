@@ -1,32 +1,32 @@
 ---
-title: Suivi des demandes et réponses pour dépanner les applications de l’API managée EWS
+title: Effectuer un suivi des demandes et des réponses pour dépanner les applications d’API managée EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 186c1d1d-b8dc-4914-b3cd-6fada7ecd877
-description: Découvrez comment effectuer le suivi des demandes EWS et des réponses pour résoudre les erreurs dans votre application d’API managées.
-ms.openlocfilehash: 056a1f84c4172b0404975d6fc35f9ecd7395ecdb
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment suivre les requêtes et les réponses EWS pour résoudre les erreurs dans votre application d’API managée EWS.
+localization_priority: Priority
+ms.openlocfilehash: dd225030d62a2e8211b7063ee78a59fd1a070263
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754941"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455855"
 ---
-# <a name="trace-requests-and-responses-to-troubleshoot-ews-managed-api-apps"></a>Suivi des demandes et réponses pour dépanner les applications de l’API managée EWS
+# <a name="trace-requests-and-responses-to-troubleshoot-ews-managed-api-apps"></a>Effectuer un suivi des demandes et des réponses pour dépanner les applications d’API managée EWS
 
-Découvrez comment effectuer le suivi des demandes EWS et des réponses pour résoudre les erreurs dans votre application d’API managées.
+Découvrez comment suivre les requêtes et les réponses EWS pour résoudre les erreurs dans votre application d’API managée EWS.
   
-Débogage d’une application de service web peut être difficile, car la partie du traitement est effectuée sur un ordinateur distant qui vous n’avez pas accès à. Étant donné que vous ne pouvez pas parcourir le code sur le serveur, il peut être utile de voir les requêtes XML et les réponses qui sont envoyés entre le client et le serveur pour déterminer quelle partie de l’application qui provoque une erreur. 
+Le débogage d’une application basée sur un service Web peut être difficile, car une partie du traitement est effectuée sur un ordinateur distant auquel vous n’avez peut-être pas accès. Étant donné que vous ne pouvez pas parcourir le code sur le serveur, il peut être utile de consulter les demandes et les réponses XML envoyées entre le client et le serveur pour déterminer quelle partie de l’application provoque une erreur. 
   
-Si vous utilisez EWS, vous avez déjà accès à la demande XML et la réponse ; Vous pouvez placer un point d’arrêt dans votre code pour passer en revue la réponse du serveur à votre requête afin de résoudre un problème. Si vous utilisez l’API managée EWS, vous n’avez pas accès direct à la demande EWS et la réponse. Toutefois, vous pouvez utiliser les méthodes de suivi sur l’objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) pour capturer la requête XML et la réponse, et vous pouvez ensuite utiliser le code XML pour déterminer pourquoi votre code ne fonctionne pas. 
+Si vous utilisez EWS, vous avez déjà accès à la demande et à la réponse XML ; vous pouvez placer un point d’arrêt dans votre code pour examiner la réponse du serveur à votre demande afin de résoudre un problème. Si vous utilisez l’API managée EWS, vous n’avez pas d’accès direct à la demande et à la réponse EWS. Toutefois, vous pouvez utiliser les méthodes de suivi sur l’objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) pour capturer la demande XML et la réponse, et vous pouvez utiliser le code XML pour déterminer la raison pour laquelle votre code ne fonctionne pas. 
 
-Par exemple, si vous n’avez pas défini une propriété correctement, vous risquez d’obtenir une réponse inattendue et vous pouvez utiliser la sortie de trace pour examiner la requête XML et la réponse pour identifier l’erreur. La sortie de suivi de l’API managée EWS peut également vous aider à créer manuellement la demande XML pour créer votre application EWS. Si vous utilisez EWS, vous pouvez créer une petite application à l’aide des API managées remonter et puis utiliser les informations de la demande XML pour vous aider à créer votre demande EWS. 
+Par exemple, si vous n’avez pas défini correctement une propriété, vous pouvez obtenir une réponse inattendue, et vous pouvez utiliser la sortie de suivi pour examiner la requête XML et la réponse pour identifier l’erreur. La sortie de suivi de l’API managée EWS peut également vous aider à créer manuellement la requête XML pour créer votre application EWS. Si vous utilisez EWS, vous pouvez créer une petite application à l’aide de l’API managée EWS, la suivre, puis utiliser les informations de la demande XML pour vous aider à créer votre requête EWS. 
   
-## <a name="enabling-tracing-on-the-exchangeservice-object"></a>Activer le suivi de l’objet ExchangeService
+## <a name="enabling-tracing-on-the-exchangeservice-object"></a>Activation du suivi sur l’objet ExchangeService
 <a name="bk_EnableTracing"> </a>
 
-Pour activer le suivi, créez un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) pour votre application et définir les propriétés de suivi comme indiqué dans l’exemple suivant. 
+Pour activer le suivi, créez un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) pour votre application et définissez les propriétés de suivi comme indiqué dans l’exemple suivant. 
   
 ```cs
 ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2010);
@@ -37,12 +37,12 @@ service.TraceEnabled = true;
 
 ```
 
-Une fois que vous définissez la propriété [TraceEnabled](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) sur **true**, toutes les demandes qui correspondent aux indicateurs de suivi seront envoyés à l’écouteur de trace spécifiée. Vous pouvez spécifier un indicateur de trace unique, ou vous pouvez spécifier plusieurs indicateurs de trace combinant avec un opérateur logique **OR**. Vous pouvez utiliser l' [énumération TraceFlags](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) pour spécifier des valeurs pour EWS et pour les réponses et les demandes de découverte automatique. 
+Une fois que vous avez défini la propriété [TraceEnabled](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) sur **true**, toutes les demandes qui correspondent aux indicateurs de suivi seront envoyées à l’écouteur de suivi spécifié. Vous pouvez spécifier un seul indicateur de suivi, ou vous pouvez spécifier plusieurs indicateurs de suivi en les associant à un **ou**logique. Vous pouvez utiliser l' [énumération TraceFlags](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) pour spécifier des valeurs pour EWS et pour les demandes et réponses de découverte automatique. 
   
 ## <a name="implementing-a-tracelistener-object"></a>Implémentation d’un objet TraceListener
 <a name="bk_traceListener"> </a>
 
-Vous pouvez définir la propriété [TraceEnabled](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) sur **true** pour sortir les requêtes XML et les réponses à votre application, par exemple une fenêtre de console. Si vous souhaitez contrôler la sortie de trace et enregistrez-le dans un fichier, il est recommandé d’implémenter un objet de [classe TraceListener](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracelistener.aspx) . L’exemple de code suivant montre un objet simple qui implémente l’interface [ITraceListener](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itracelistener%28v=exchg.80%29.aspx) et stocke les demandes de suivi et les réponses dans des fichiers texte ou XML. 
+Vous pouvez définir la propriété [TraceEnabled](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) sur **true** pour afficher les requêtes XML et les réponses à votre application, telles qu’une fenêtre de console. Si vous souhaitez contrôler la sortie de suivi et l’enregistrer dans un fichier, nous vous recommandons d’implémenter un objet de [classe TraceListener](https://msdn.microsoft.com/library/system.diagnostics.tracelistener.aspx) . L’exemple de code suivant montre un objet simple qui implémente l’interface [ITraceListener](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itracelistener%28v=exchg.80%29.aspx) et stocke les demandes et réponses suivies dans des fichiers texte ou XML. 
   
 ```cs
 class TraceListener : ITraceListener
@@ -77,7 +77,7 @@ class TraceListener : ITraceListener
 
 - [Commencer à utiliser les services web dans Exchange](start-using-web-services-in-exchange.md)
 - [Gestion des messages d'erreur de découverte automatique](handling-autodiscover-error-messages.md)    
-- [Référence de l’assembly de l’API managée EWS](how-to-reference-the-ews-managed-api-assembly.md)    
-- [Communiquer avec EWS à l’aide de l’API managée EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Référencer l'assembly d'API managée EWS](how-to-reference-the-ews-managed-api-assembly.md)    
+- [Communiquer avec EWS à l'aide de l'API managée EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

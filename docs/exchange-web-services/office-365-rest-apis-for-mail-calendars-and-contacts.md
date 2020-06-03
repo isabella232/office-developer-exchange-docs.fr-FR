@@ -3,23 +3,23 @@ title: API Outlook Microsoft Graph pour le courrier, les calendriers et les cont
 manager: sethgros
 ms.date: 07/27/2018
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
 description: Retrouvez des informations sur l’API Microsoft Graph que vous pouvez utiliser pour accéder aux messages, aux calendriers et aux contacts dans Office 365 ou Exchange Online.
-ms.openlocfilehash: 3065de389157345afd5ed07e302ace99e2048bdf
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
-ms.translationtype: HT
+localization_priority: Priority
+ms.openlocfilehash: 7ca77596afb59ffab76001abd495de7328d2dd29
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21353293"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44463866"
 ---
 # <a name="microsoft-graph-rest-apis-for-mail-calendars-and-contacts"></a>API REST Microsoft Graph pour la messagerie, les calendriers et les contacts
 
-Retrouvez des informations sur les API Microsoft Graph que vous pouvez utiliser pour accéder aux messages, aux calendriers et aux contacts dans Office 365 ou Exchange Online.
+Trouvez des informations sur les API Microsoft Graph que vous pouvez utiliser pour accéder à la messagerie, aux calendriers et aux contacts dans Office 365, Exchange Online ou Exchange Server dans des déploiements hybrides.
 
-Office 365 et Exchange Online offrent une nouvelle façon de travailler avec votre courrier, vos calendriers et vos contacts. Les API REST Microsoft Graph Courrier, Calendrier et Contact sont des solutions puissantes et faciles d’utilisation pour accéder et manipuler les données Exchange. Ces API sont basées sur des normes ouvertes : OAuth version 2.0 pour l’authentification et OData version 4.0 et JSON pour l’abstraction de données. Cela présente divers avantages :
+Office 365, Exchange Online et Exchange Server dans des déploiements hybrides offrent une nouvelle façon de travailler avec des courriers électroniques, des calendriers et des contacts. Les API REST Microsoft Graph Courrier, Calendrier et Contact sont des solutions puissantes et faciles d’utilisation pour accéder et manipuler les données Exchange. Ces API sont basées sur des normes ouvertes : OAuth version 2.0 pour l’authentification et OData version 4.0 et JSON pour l’abstraction de données. Elles offrent les avantages suivants :
 
-- Comme ces API exigent OAuth pour l’authentification, votre application n’a pas à gérer ou stocker les informations d’identification de l’utilisateur.
+- Comme ces API exigent OAuth pour l'authentification, votre application n'a pas à gérer ou stocker les informations d'identification de l'utilisateur.
 
 - OAuth permet de demander des autorisations fortement étendues aux données utilisateur. Par exemple, vous pouvez concevoir votre application afin de demander l’autorisation et la lecture seule du calendrier d’un utilisateur.
 
@@ -44,4 +44,5 @@ Pensez également à consulter la [prise en main rapide](https://developer.micro
 ## <a name="see-also"></a>Voir aussi
 
 - [Documentation Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/overview)   
+- [Conditions requises locales pour l’API REST](https://blogs.technet.microsoft.com/exchange/2016/09/26/on-premises-architectural-requirements-for-the-rest-api)   
 

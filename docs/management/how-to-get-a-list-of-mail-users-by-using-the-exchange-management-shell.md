@@ -1,31 +1,31 @@
 ---
-title: Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement Exchange Management Shell
+title: Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement de commande Exchange Management Shell
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: Découvrez comment utiliser les applets de commande Exchange Management Shell pour créer un outil qui renvoie la liste des utilisateurs de boîte aux lettres Exchange.
-ms.openlocfilehash: e9493571e98760e5a11674db9a552111c1ec29b2
-ms.sourcegitcommit: 9061fcf40c218ebe88911783f357b7df278846db
+localization_priority: Priority
+ms.openlocfilehash: 817d92ef1bb88017f471681b448c052ecaa54e7e
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2018
-ms.locfileid: "21354000"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44435708"
 ---
-# <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement Exchange Management Shell
+# <a name="get-a-list-of-mail-users-by-using-the-exchange-management-shell"></a>Obtenir la liste des utilisateurs de messagerie à l’aide de l’environnement de commande Exchange Management Shell
 
 Découvrez comment utiliser les applets de commande Exchange Management Shell pour créer un outil qui renvoie la liste des utilisateurs de boîte aux lettres Exchange.
   
 **S’applique à :** Exchange Online | Exchange Server 2013 | Office 365 
   
-Obtention d’une liste d’utilisateurs à partir d’Exchange Online, Exchange Online dans le cadre d’Office 365, ou une version d’Exchange commençant par Exchange 2013 à l’aide d’un outil géré qui appelle une applet de commande Exchange Management Shell est un processus en deux étapes. Tout d’abord, vous établissez une instance d’exécution à distance sur un serveur Exchange ; Ensuite, vous exécutez l’applet de commande pour récupérer les informations utilisateur dans l’instance d’exécution à distance. 
+L’obtention d’une liste d’utilisateurs à partir d’Exchange Online, Exchange Online dans le cadre d’Office 365 ou d’une version d’Exchange à partir d’Exchange 2013 à l’aide d’un outil géré qui appelle une cmdlet de l’environnement de ligne de commande Exchange Management Shell est un processus en deux étapes. Tout d’abord, vous établissez une instance d’exécution distante sur un serveur Exchange ; Ensuite, vous exécutez l’applet de commande pour récupérer les informations utilisateur dans l’instance d’exécution distante. 
 
-Pour vous connecter à l’instance d’exécution à distance, vous devez authentifier auprès du serveur Exchange à l’aide du schéma d’authentification qui répond aux exigences de sécurité de votre organisation. 
+Pour vous connecter à l’instance d’exécution distante, vous devez vous authentifier auprès du serveur Exchange à l’aide du modèle d’authentification qui répond aux exigences de sécurité de votre organisation. 
 
-Cet article fournit des exemples de code que vous pouvez utiliser pour configurer une instance d’exécution à distance et d’exécuter une applet de commande Exchange Management Shell pour obtenir une liste d’utilisateurs à partir d’un serveur Exchange.
+Cet article fournit des exemples de code que vous pouvez utiliser pour configurer une instance d’exécution distante et exécuter une cmdlet Exchange Management Shell pour obtenir une liste d’utilisateurs à partir d’un serveur Exchange.
 
 <a name="bk_prerequisites"> </a>
 
@@ -33,17 +33,17 @@ Cet article fournit des exemples de code que vous pouvez utiliser pour configure
 
 Pour effectuer cette tâche, vous avez besoin d’une référence aux espaces de noms suivants :
   
-- **System.Collections.ObjectModel**
-- **System.Management.Automation**
-- **System.Management.Automation.Remoting**
-- **System.Management.Automation.Runspaces**
+- **System. Collections. ObjectModel**
+- **System. Management. Automation**
+- **System. Management. Automation. Remoting**
+- **System. Management. Automation. instances**
     
 > [!NOTE]
 >  Lorsque vous utilisez Visual Studio pour créer une application, vous devez ajouter une référence à l’assembly System.Management.Automation.dll vers le projet. Vous trouverez l’assembly dans l’un des emplacements suivants :
 > - Pour les systèmes d’exploitation Windows XP et Windows Vista, le répertoire d’installation de Windows PowerShell ($PSHOME).
 > - Pour les systèmes d’exploitation Windows 7 et Windows 8, le dossier suivant : Windows\assembly\GAC_MSIL\System.Management.Automation. 
   
-Ne chargez pas le composant logiciel enfichable Gestion d’Exchange 2013 dans l’instance d’exécution sur les ordinateurs qui exécutent des applications qui automatisent les applets de commande Exchange Management Shell. L’application doit au lieu de cela créer une instance d’exécution à distance, comme décrit plus loin dans cet article.
+Ne chargez pas le composant logiciel enfichable de gestion Exchange 2013 dans l’instance d’exécution sur les ordinateurs qui exécutent des applications qui automatisent les cmdlets Exchange Management Shell. L’application doit créer à la place une instance d’exécution distante, comme décrit plus loin dans cet article.
 
 <a name="bk_gettinglistmailbox"> </a>
 
@@ -51,7 +51,7 @@ Ne chargez pas le composant logiciel enfichable Gestion d’Exchange 2013 dans l
 
 La méthode que vous utilisez pour vous connecter à une instance d’exécution distante pour exécuter l’applet de commande Exchange Management Shell varie selon le modèle d’authentification choisi. Cette section fournit des exemples de code qui illustrent la procédure de connexion à une instance d’exécution distante lorsque vous utilisez une méthode d’authentification répertoriée dans le tableau suivant.
   
-|**Méthode d’authentification**|**S'applique à**|**URI**|
+|**Méthode d'authentification**|**S’applique à**|**URI**|
 |:-----|:-----|:-----|
 |[Se connecter à une instance d’exécution distante sur Exchange Online à l’aide de l’authentification de base](#bk_basic) <br/> |Serveurs Exchange Online  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/><br/>`https://<server>/PowerShell-LiveID`  <br/> |
 |[Se connecter à une instance d’exécution distante à l’aide de l’authentification des certificats](#bk_cert) <br/> |Exchange Online et serveurs locaux Exchange  <br/> |`https://outlook.office365.com/PowerShell`<br/><br/>`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
@@ -65,13 +65,13 @@ L’exemple suivant définit la méthode **GetUsersUsingBasicAuth**, qui crée u
   
 Cette méthode requiert les paramètres suivants :
   
--  **liveIDConnectionUri** &ndash; Une chaîne qui contient l’URI du serveur Exchange Online qui authentifie l’application. Si Exchange Online est en cours d’exécution dans Office 365, l’URI est `https://outlook.office365.com/PowerShell-LiveID`; Sinon, l’URI est `https://<servername>/PowerShell-LiveID`. 
+-  **liveIDConnectionUri** &ndash; Chaîne qui contient l’URI du serveur Exchange Online qui authentifiera l’application. Si Exchange Online est en cours d’exécution dans Office 365, l’URI est `https://outlook.office365.com/PowerShell-LiveID` ; sinon, l’URI est `https://<servername>/PowerShell-LiveID` . 
     
--  **schemaUri** &ndash; Une chaîne qui contient l’URI du document de schéma qui définit le schéma Exchange Management Shell. Le schéma de l’URI est `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
+-  **schemaUri** &ndash; Chaîne qui contient l’URI du document de schéma qui définit le schéma de l’environnement de commande Exchange Management Shell. L’URI du schéma est `https://schemas.microsoft.com/powershell/Microsoft.Exchange` . 
     
--  **informations d’identification** &ndash; Un objet [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) qui contient les informations d’identification de l’utilisateur qui exécute l’application. 
+-  **informations d’identification** &ndash; Objet [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) qui contient les informations d’identification de l’utilisateur qui exécute l’application. 
     
--  **nombre** &ndash; Le nombre d’utilisateurs de boîte aux lettres Exchange à renvoyer. 
+-  **nombre** &ndash; Nombre d’utilisateurs de boîtes aux lettres Exchange à renvoyer. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingBasicAuth(
@@ -111,21 +111,21 @@ L’exemple suivant définit la méthode **GetUsersUsingCertificate**, qui crée
   
 Cette méthode requiert les paramètres suivants :
   
--  **empreinte numérique** &ndash; Une chaîne qui contient l’empreinte numérique du certificat qui est utilisé pour authentifier l’application. 
+-  **empreinte numérique** &ndash; Chaîne qui contient l’empreinte numérique du certificat utilisé pour authentifier l’application. 
     
--  **certConnectionUri** &ndash; Une chaîne qui contient l’URI du serveur qui authentifie le certificat. L’URI sera une de celles répertoriées dans le tableau suivant. 
+-  **certConnectionUri** &ndash; Chaîne qui contient l’URI du serveur qui authentifiera le certificat. L’URI correspond à l’une des adresses répertoriées dans le tableau suivant. 
     
-    **Le tableau 1. certConnectionUri URI**
+    **Tableau 1. URI certConnectionUri**
 
-    |**Serveur**|**URI**|
+    |**Server**|**URI**|
     |:-----|:-----|
     |Serveur Exchange sans SSL  <br/> |`http://<servername>/PowerShell`  <br/> |
     |Serveur Exchange avec SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
     |Exchange Online dans le cadre d’Office 365  <br/> |`https://outlook.office365.com/PowerShell`  <br/> |
    
-- **schemaUri** &ndash; Une chaîne qui contient l’URI du document de schéma qui définit le schéma Exchange Management Shell. Le schéma de l’URI est http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **schemaUri** &ndash; Chaîne qui contient l’URI du document de schéma qui définit le schéma de l’environnement de commande Exchange Management Shell. L’URI du schéma est https://schemas.microsoft.com/powershell/Microsoft.Exchange . 
     
-- **nombre** &ndash; Le nombre d’utilisateurs de boîte aux lettres Exchange à renvoyer. 
+- **nombre** &ndash; Nombre d’utilisateurs de boîtes aux lettres Exchange à renvoyer. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingCertificate(
@@ -164,20 +164,20 @@ L’exemple suivant définit la méthode **GetUsersUsingKerberos**, qui crée un
   
 Cette méthode requiert les paramètres suivants :
   
-- **kerberosUri** &ndash; Une chaîne qui contient l’URI du serveur Kerberos authentifie l’application. L’URI sera une de celles répertoriées dans le tableau suivant. 
+- **kerberosUri** &ndash; Chaîne qui contient l’URI du serveur Kerberos qui authentifiera l’application. L’URI correspond à l’une des adresses répertoriées dans le tableau suivant. 
     
-    **Le tableau 2. kerberosUri URI**
+    **Tableau 2. URI kerberosUri**
 
-    |**Serveur**|**URI**|
+    |**Server**|**URI**|
     |:-----|:-----|
     |Serveur Exchange sans SSL  <br/> |`http://<servername>/PowerShell`  <br/> |
     |Serveur Exchange avec SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
    
-- **schemaUri** &ndash; Une chaîne qui contient l’URI du document de schéma qui définit le schéma Exchange Management Shell. Le schéma de l’URI est http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **schemaUri** &ndash; Chaîne qui contient l’URI du document de schéma qui définit le schéma de l’environnement de commande Exchange Management Shell. L’URI du schéma est https://schemas.microsoft.com/powershell/Microsoft.Exchange . 
     
-- **informations d’identification** &ndash; Un objet [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) qui contient les informations d’identification de l’utilisateur qui exécute l’application. 
+- **informations d’identification** &ndash; Objet [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) qui contient les informations d’identification de l’utilisateur qui exécute l’application. 
     
-- **nombre** &ndash; Le nombre d’utilisateurs de boîte aux lettres Exchange à renvoyer. 
+- **nombre** &ndash; Nombre d’utilisateurs de boîtes aux lettres Exchange à renvoyer. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingKerberos(
@@ -212,13 +212,13 @@ public Collection<PSObject> GetUsersUsingKerberos(
 
 ## <a name="get-a-list-of-mailbox-users-from-a-remote-runspace"></a>Obtenir une liste d’utilisateurs de boîte aux lettres à partir d’une instance d’exécution distante
 
-L’exemple de code suivant définit la méthode **GetUserInformation** , qui retourne une collection d’instances [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) qui représentent des utilisateurs de boîte aux lettres Exchange. Cette méthode est appelée par les méthodes **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate**et **GetUsersUsingKerberos** pour renvoyer la liste des utilisateurs à partir du serveur distant. 
+L’exemple de code suivant définit la méthode **GetUserInformation** , qui retourne une collection d’instances [PSObject](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) qui représentent les utilisateurs de boîte aux lettres Exchange. Cette méthode est appelée par les méthodes **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate** et **GetUsersUsingKerberos** pour renvoyer la liste des utilisateurs à partir du serveur distant. 
   
 Cette méthode requiert les paramètres suivants :
   
-- **nombre** &ndash; Le nombre d’utilisateurs de boîte aux lettres Exchange à renvoyer. 
+- **nombre** &ndash; Nombre d’utilisateurs de boîtes aux lettres Exchange à renvoyer. 
     
-- **instance d’exécution** &ndash; L’instance d’exécution à distance établie pour le serveur Exchange distant. 
+- **instance d’exécution** &ndash; L’instance d’exécution distante qui est établie pour le serveur Exchange distant. 
     
 ```cs
 public Collection<PSObject> GetUserInformation(int count, Runspace runspace)
@@ -249,11 +249,11 @@ End Function
 
 ```
 
-La méthode **GetUserInformation** ne retournera aucuns plus que le _nombre de_ boîtes aux lettres. Pour simplifier le code de cet exemple, la méthode ne pas filtrer ou autrement limiter les utilisateurs de boîte aux lettres qui sont retournés. 
+La méthode **GetUserInformation** ne renverra pas plus de _nombre_ d’utilisateurs de boîte aux lettres. Pour simplifier le code de cet exemple, la méthode ne filtre ni ne limite les utilisateurs de boîte aux lettres qui sont renvoyés. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Créer des outils d’environnement de ligne de commande Exchange Management Shell](create-exchange-management-shell-tools.md)   
-- [Utilisation de la réponse d’applet de commande Exchange Management Shell](how-to-use-the-exchange-management-shell-cmdlet-response.md)
+- [Créer des outils d’environnement de commande Exchange Management Shell](create-exchange-management-shell-tools.md)   
+- [Utiliser la réponse de cmdlet de l’environnement de commande Exchange Management Shell](how-to-use-the-exchange-management-shell-cmdlet-response.md)
     
 

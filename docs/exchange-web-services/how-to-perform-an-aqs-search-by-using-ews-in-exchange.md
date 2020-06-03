@@ -1,165 +1,165 @@
 ---
-title: Effectuer une recherche AQS à l’aide de EWS dans Exchange
+title: Effectuer une recherche AQS à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
-description: Découvrez comment rechercher des chaînes de requête AQS dans des applications EWS API managées.
-ms.openlocfilehash: dc859e24fa80cd5627477182979c9cc9527818d6
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: Découvrez comment effectuer des recherches à l’aide de chaînes de requête et de AQS dans votre application EWS ou API managée EWS.
+localization_priority: Priority
+ms.openlocfilehash: 9f611a8d90c6baf0f307897735c6366c82bb63c8
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754939"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44455715"
 ---
-# <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Effectuer une recherche AQS à l’aide de EWS dans Exchange
+# <a name="perform-an-aqs-search-by-using-ews-in-exchange"></a>Effectuer une recherche AQS à l’aide d’EWS dans Exchange
 
-Découvrez comment rechercher des chaînes de requête AQS dans des applications EWS API managées.
+Découvrez comment effectuer des recherches à l’aide de chaînes de requête et de AQS dans votre application EWS ou API managée EWS.
   
-Chaînes de requête constituent une alternative aux [filtres de recherche](how-to-use-search-filters-with-ews-in-exchange.md) pour l’expression de critères de recherche. Le principal avantage de chaînes de requête est que vous devez pas spécifier une propriété unique pour la recherche. Vous pouvez fournir simplement une valeur et la recherche s’appliquent à tous les champs couramment utilisées sur les éléments. Vous pouvez également affiner votre recherche à l’aide de la syntaxe de requête avancée (AQS) au lieu d’une valeur simple. Toutefois, les chaînes de requête ont les limitations suivantes que vous devez connaître avant de les ajouter à votre boîte à outils : 
+Les chaînes de requête fournissent une alternative aux [filtres de recherche](how-to-use-search-filters-with-ews-in-exchange.md) pour exprimer des critères de recherche. Le plus grand avantage de l’utilisation des chaînes de requête est que vous n’êtes pas obligé de spécifier une seule propriété à rechercher. Vous pouvez simplement indiquer une valeur, et la recherche s’appliquera à tous les champs couramment utilisés sur les éléments. Vous pouvez également affiner votre recherche à l’aide de la syntaxe de requête avancée (AQS) au lieu d’une valeur simple. Toutefois, les chaînes de requête présentent les limitations suivantes que vous devez connaître avant de les ajouter à votre boîte à outils : 
   
-- **Capacité limitée à rechercher des propriétés spécifiques.** Lorsque vous recherchez avec une valeur dans une chaîne de requête simple, la recherche est effectuée sur toutes les propriétés indexées. Vous pouvez affiner la recherche à des propriétés spécifiques, mais les propriétés disponibles pour une utilisation dans une chaîne AQS sont limitées. Si la propriété que vous souhaitez rechercher n’est pas une des propriétés qui sont disponibles pour AQS, envisagez d’utiliser un filtre de recherche. 
+- **La possibilité de rechercher des propriétés spécifiques est limitée.** Lorsque vous effectuez une recherche avec une valeur simple dans une chaîne de requête, la recherche est effectuée sur toutes les propriétés indexées. Vous pouvez affiner votre recherche à des propriétés spécifiques, mais les propriétés pouvant être utilisées dans une chaîne AQS sont limitées. Si la propriété que vous souhaitez rechercher n’est pas l’une des propriétés disponibles pour AQS, envisagez d’utiliser un filtre de recherche. 
     
-- **Propriétés personnalisées ne sont pas recherchées.** Les recherches de chaînes de requête sont effectuées par rapport à un index et des propriétés personnalisées ne sont pas incluses dans cet index. Si vous avez besoin rechercher des propriétés personnalisées, utilisez plutôt un filtre de recherche. 
+- **Les propriétés personnalisées ne sont pas recherchées.** Les recherches de chaîne de requête sont effectuées sur un index, et les propriétés personnalisées ne sont pas incluses dans cet index. Si vous devez rechercher des propriétés personnalisées, utilisez plutôt un filtre de recherche. 
     
-- **Contrôle limité pour la chaîne de recherche.** Les recherches de chaînes de requête toujours ignorent la casse et sont toujours des recherches de sous-chaînes. Si vous souhaitez faire la casse, préfixe ou les recherches de concordance exacte, utilisent un filtre de recherche. 
+- **Contrôle limité pour les recherches de chaînes.** Les recherches de chaîne de requête ignorent toujours la casse, et sont toujours des recherches de sous-chaînes. Si vous souhaitez effectuer des recherches en tenant compte de la casse, du préfixe ou de la correspondance exacte, utilisez un filtre de recherche. 
     
-- **Non disponible pour les dossiers ou les dossiers de recherche.** Les opérations EWS pour la recherche de dossiers ne prend pas en charge à l’aide d’une chaîne de requête. En outre, les dossiers de recherche ne prennent en charge les chaînes de requête. Dans les deux cas, un filtre de recherche est la seule option. 
+- **Non disponible pour les dossiers ou les dossiers de recherche.** Les opérations EWS pour la recherche de dossiers ne prennent pas en charge l’utilisation d’une chaîne de requête. En outre, les dossiers de recherche ne prennent pas en charge les chaînes de requête. Dans les deux cas, un filtre de recherche est votre seule option. 
     
 ## <a name="creating-a-query-string"></a>Création d’une chaîne de requête
 <a name="bk_CreateQueryString"> </a>
 
-Chaînes de requête dans les API managées EWS sont interprétées comme un sous-ensemble de la syntaxe AQS. Chaînes AQS sont composés des valeurs ou paires mot clé/valeur, séparées par un signe deux-points ( :)).
+Les chaînes de requête dans l’API managée EWS et EWS sont interprétées comme un sous-ensemble de la syntaxe AQS. Les chaînes AQS sont composées de valeurs ou de paires mot clé/valeur, séparées par un signe deux-points ( :).
   
 `keyword:value`
 
-Lorsqu’une valeur est spécifiée sans un mot clé, la valeur sont recherchées dans toutes les propriétés indexées. Si un mot clé est associé à une valeur, le mot clé spécifie une propriété pour rechercher la valeur correspondante.
+Lorsqu’une valeur est spécifiée sans mot clé, toutes les propriétés indexées sont recherchées pour la valeur. Si un mot clé est associé à une valeur, le mot clé spécifie une propriété à rechercher pour la valeur correspondante.
   
-**Le tableau 1. Mots-clés AQS pris en charge**
+**Tableau 1. Mots clés AQS pris en charge**
 
 |**Mot clé**|**Type de valeur**|**Exemple**|
 |:-----|:-----|:-----|
-|subject  <br/> |String  <br/> |objet : project  <br/> |
-|body  <br/> |String  <br/> |illustrations de corps : ventes  <br/> |
-|pièce jointe  <br/> |String  <br/> |pièce jointe : état  <br/> |
-|et utilisez à la place  <br/> |String  <br/> |à : « Sadie danield »  <br/> |
-|from  <br/> |String  <br/> |à partir de : espère que  <br/> |
-|cc  <br/> |String  <br/> |cc : « Ronnie Sturgis »  <br/> |
-|bcc  <br/> |String  <br/> |Bcc:Mack  <br/> |
-|participants  <br/> |String  <br/> |participants : sadie  <br/> |
-|catégorie  <br/> |String  <br/> |catégorie : projet  <br/> |
-|importance  <br/> |String  <br/> |importance : haute  <br/> |
+|subject  <br/> |Chaîne  <br/> |Subject : Project  <br/> |
+|corps  <br/> |Chaîne  <br/> |corps : chiffres de ventes  <br/> |
+|pièce jointe  <br/> |Chaîne  <br/> |pièce jointe : rapport  <br/> |
+|au  <br/> |Chaîne  <br/> |à : « Sadie Daniels »  <br/> |
+|from  <br/> |Chaîne  <br/> |de : espérons  <br/> |
+|cc  <br/> |Chaîne  <br/> |CC : "Ronnie Sturgis"  <br/> |
+|bcc  <br/> |Chaîne  <br/> |CCI : Mack  <br/> |
+|participants  <br/> |Chaîne  <br/> |participants : Sadie  <br/> |
+|category  <br/> |String  <br/> |Catégorie : projet  <br/> |
+|importance  <br/> |String  <br/> |importance:high  <br/> |
 |type  <br/> |Type d’élément  <br/> |type : réunions  <br/> |
-|envoyé  <br/> |Date  <br/> |envoyés : 10/12/2013  <br/> |
-|reçus  <br/> |Date  <br/> |reçus : hier  <br/> |
-|HasAttachment  <br/> |Bool�en  <br/> |Possède des pièces jointes : true  <br/> |
-|est marqué  <br/> |Bool�en  <br/> |isflagged:true  <br/> |
-|estlu  <br/> |Bool�en  <br/> |isread:False  <br/> |
-|size  <br/> |Nombre  <br/> |taille :\>5000  <br/> |
+|envoyé  <br/> |Date  <br/> |envoyés : 12/10/2013  <br/> |
+|reçu  <br/> |Date  <br/> |reçu : hier  <br/> |
+|HasAttachment  <br/> |Valeur booléenne  <br/> |Avec pièce jointe : true  <br/> |
+|isflagged  <br/> |Valeur booléenne  <br/> |isflagged : true  <br/> |
+|IsRead  <br/> |Valeur booléenne  <br/> |IsRead : false  <br/> |
+|size  <br/> |Nombre  <br/> |taille : \> 5000  <br/> |
    
-Examinons comment fonctionnent les types de valeurs différents.
+Examinons le fonctionnement des différents types de valeur.
   
-### <a name="using-a-string-value-type"></a>À l’aide d’une valeur de type chaîne
+### <a name="using-a-string-value-type"></a>Utilisation d’un type de valeur de chaîne
 
-Types de valeur de chaîne sont par défaut exclu en tant que les recherches de sous-chaînes préfixe qui ne respectent pas la casse. Cela signifie que recherche d’objet : projet renverrait des sujets suivants : 
+Par défaut, les types de valeur de chaîne sont recherchés dans des recherches de sous-chaînes de préfixe qui ne respectent pas la casse. Cela signifie que la recherche d’objet : Project correspond à l’un des objets suivants : 
   
-- Notes de la réunion de projet
+- Notes de réunion Project
     
-- Avez-vous besoin des plans de projet ?
+- Avez-vous des plans de projet ?
     
-- Prévisions de ventes décembre
+- Projections de ventes de décembre
     
-Vous pouvez modifier la recherche pour exiger que le mot entier plutôt que de correspondance de préfixes, en mettant la chaîne entre guillemets. Recherche de l’objet : « projet » élimine la valeur « Prévisions de ventes décembre » dans la liste des correspondances. Notez que la valeur est toujours pas la casse. 
+Vous pouvez modifier la recherche pour exiger le mot entier plutôt que les préfixes correspondants en encadrant la chaîne entre guillemets. Recherche d’un objet : « projet » supprime la valeur « projections de ventes de décembre » de la liste des correspondances. Notez que la valeur n’est toujours pas sensible à la casse. 
   
-Si vous utilisez plusieurs mots dans une chaîne de requête, une correspondance nécessite que les mots apparaissent dans les champs de recherches. Par exemple, recherche d’objet : projet renverrait des sujets suivants : 
+Si vous utilisez plusieurs mots dans une chaîne de requête, une correspondance exige que les deux mots apparaissent dans les champs recherchés. Par exemple, la recherche d’un objet : plan de projet correspond à l’un des objets suivants : 
   
 - Plan de projet
     
-- Avez-vous besoin des plans de projet ?
+- Avez-vous des plans de projet ?
     
-- Envoyez-moi le plan de projet
+- Veuillez m’envoyer le plan de notre projet.
     
 - Planification des jalons du projet
     
-Si vous placez plusieurs mots entre guillemets, ils sont considérés comme une seule phrase. Recherche de l’objet : « projet » renverrait uniquement l’objet « Projet » de la liste précédente. 
+Si vous placez plusieurs mots entre guillemets, ils sont considérés comme une seule phrase. Recherche d’un objet : « plan de projet » ne correspondait qu’au « plan de projet » de la liste précédente. 
   
-### <a name="using-an-item-type-value-type"></a>À l’aide d’un type de valeur de type élément
+### <a name="using-an-item-type-value-type"></a>Utilisation d’un type de valeur de type d’élément
 
-Vous pouvez utiliser les valeurs de type d’élément suivantes avec le mot clé **type** pour limiter vos résultats de recherche à uniquement un type spécifique d’élément, tel que courrier ou les demandes de réunion : 
+Vous pouvez utiliser les valeurs de types d’éléments suivantes avec le mot clé **Kind** pour limiter les résultats de la recherche à un type d’élément spécifique, tel que les demandes de messagerie ou de réunion : 
   
 - contacts    
-- documents    
+- docs    
 - email    
-- télécopies    
+- faxes    
 - messagerie instantanée (correspond aux messages instantanés)    
-- feuilles    
-- réunions (correspond au rendez-vous et demandes de réunion)    
+- journals    
+- réunions (correspond aux rendez-vous et aux demandes de réunion)    
 - notes    
 - posts    
 - rssfeeds    
 - tasks    
-- messagerie vocale
+- voicemail
     
-### <a name="using-a-date-value-type"></a>À l’aide d’un type de valeur de date
+### <a name="using-a-date-value-type"></a>Utilisation d’un type de valeur de date
 
-Vous pouvez rechercher des types de valeur de date dans un certain nombre de différentes manières. Est la plus simple pour rechercher une date spécifique. Recherche avec reçus : 12/11/2013 retournera tous les éléments reçus sur le 11 décembre 2013. Toutefois, vous pouvez également être moins spécifique. Recherche avec reçus : 12/11 retournera tous les éléments reçus sur le 11 décembre de l’année en cours. 
+Vous pouvez rechercher des types de valeur de date de plusieurs façons différentes. La plus simple consiste à rechercher une date spécifique. Recherche avec reçus : 12/11/2013 renverra tous les éléments reçus le 11 décembre 2013. Toutefois, vous pouvez également être moins spécifique. Recherche avec reçus : 12/11 renverra tous les éléments reçus le 11 décembre de l’année en cours. 
   
-Une autre option consiste à utiliser les noms de mois. Vous pouvez rechercher avec reçus : le 11 décembre 2013 ou 11 décembre pour obtenir les mêmes résultats reçues : 12/11/2013 et reçus : 12/11, respectivement. Vous pouvez également rechercher avec reçus : décembre pour obtenir tous les éléments reçus dans le mois de décembre, l’année en cours. 
+Une autre option consiste à utiliser les noms de mois. Vous pouvez rechercher avec reçu le 11 décembre 2013 ou le 11 décembre pour obtenir les mêmes résultats que ceux reçus : 12/11/2013 et reçus : 12/11, respectivement. Vous pouvez également effectuer une recherche avec received : décembre pour obtenir tous les éléments reçus dans le mois de décembre, dans l’année en cours. 
   
-Les noms des jours de la semaine est également une option. Recherche avec reçus : Mardi retournera tous les éléments reçus mardi de la semaine en cours. 
+L’utilisation des noms des jours de la semaine est également une option. Recherche avec reçu : mardi renverra tous les éléments reçus le mardi de la semaine en cours. 
   
-Types de valeur de date prennent également en charge un ensemble de mots clés pour les recherches par rapport à l’heure actuelle. Les mots clés suivants sont pris en charge :
+Les types de valeur date prennent également en charge un ensemble de mots clés pour les recherches relatives à l’heure actuelle. Les mots clés suivants sont pris en charge :
   
 - aujourd’hui  
-- tomorrow
+- demain
 - yesterday
 - this week    
 - La semaine dernière    
 - mois suivant    
-- dernier mois    
+- mois précédent    
 - année à venir
     
-Types de valeur de date peuvent également être comparées aux opérateurs relationnels comme supérieur ou inférieur à, ou une plage avec l’opérateur de plage **.**. Par exemple, reçu :\>30/11/2013, envoyés :\>= hier, et received:12/1/2013..today sont toutes les chaînes de requête valide. 
+Les types de valeur date peuvent également être comparés à des opérateurs relationnels comme supérieur ou inférieur à ou spécifiés en tant que plage avec l’opérateur de plage **..**. Par exemple, received : \> 11/30/2013, sent : \> = hier, et Received : 12/1/2013.. Today sont toutes des chaînes de requête valides. 
   
-### <a name="using-a-boolean-value-type"></a>À l’aide d’un type de valeur de type Boolean
+### <a name="using-a-boolean-value-type"></a>Utilisation d’un type de valeur booléenne
 
-Types de valeur de type Boolean peuvent être « true » ou « false ». Les valeurs ne respectent pas la casse, donc isread:false produira les mêmes résultats qu’isread:FALSE.
+Les types de valeurs booléennes peuvent être « true » ou « false ». Les valeurs ne respectent pas la casse, par conséquent IsRead : false produira les mêmes résultats que IsRead : FALSe.
   
-### <a name="using-a-number-value-type"></a>À l’aide d’un type de valeur numérique
+### <a name="using-a-number-value-type"></a>Utilisation d’un type de valeur numérique
 
-Types de valeur numériques peuvent être recherchées correspondances exactes, mais ils peuvent également être recherchés à l’aide des opérateurs relationnels comme supérieur ou inférieur à. Par exemple, taille : 10000 retourne uniquement les éléments qui ont une taille d’exactement 10 000 octets, mais la taille :\>= 10000 renvoie les éléments qui ont une taille supérieure ou égale à 10 000 octets. Vous pouvez également spécifier une plage à l’aide de l’opérateur de plage ( **.**). Par exemple, taille : 7000..8000 renvoie les éléments qui ont une taille comprise entre 7000 et 8000. 
+Les types de valeurs numériques peuvent être recherchés comme correspondances exactes, mais ils peuvent également faire l’objet d’une recherche à l’aide d’opérateurs relationnels comme supérieur ou inférieur à. Par exemple, Size : 10000 renvoie uniquement les éléments dont la taille est égale à 10000 octets, mais Size : \> = 10000 renverra des éléments dont la taille est supérieure ou égale à 10000 octets. Vous pouvez également spécifier une plage à l’aide de l’opérateur de plage ( **..**). Par exemple, Size : 7000.. 8000 renverra des éléments dont la taille est comprise entre 7000 et 8000. 
   
 ### <a name="using-logical-operators"></a>Utilisation d’opérateurs logiques
 
-Chaînes de requête prend en charge les opérateurs logiques suivants.
+Les chaînes de requête prennent en charge les opérateurs logiques suivants.
   
-**Le tableau 2. Prise en charge des opérateurs logiques**
+**Tableau 2. Opérateurs logiques pris en charge**
 
 |**Opérateur**|**Exemples**|
 |:-----|:-----|
-|AND  <br/> |projet et à partir de : « Sadie Daniels »  <br/> objet :(project AND plan)  <br/> |
-|OU  <br/> |objet : réunion ou à partir de : « Expédition brut »  <br/> à partir de : (« Sadie danield » ou « J’espère que brut »)  <br/> |
-|NOT  <br/> |Non : « Ronnie Sturgis »  <br/> reçus : pas aujourd'hui  <br/> |
+|AND  <br/> |Project et from : "Sadie Daniels"  <br/> objet : (Project et plan)  <br/> |
+|OR  <br/> |Subject : réunion ou de : « espoir brut »  <br/> from :("Sadie Daniels" ou "espoir brut")  <br/> |
+|NOT  <br/> |NE provenant pas de : « Ronnie Sturgis »  <br/> reçu : pas aujourd’hui  <br/> |
    
-Notez que vous pouvez utiliser ces opérateurs pour joindre plusieurs critères ou pour joindre plusieurs valeurs dans une paire mot clé/valeur unique. Cependant, pour prendre part à plusieurs valeurs dans une paire mot clé/valeur unique, vous devez utiliser entre parenthèses pour délimiter les valeurs multiples. Pour comprendre pourquoi, envisagez de recherche à l’aide de : « Sadie Daniels » ou « Expédition brut ». Cette recherche est interprétée comme les critères suivants :
+Notez que vous pouvez utiliser ces opérateurs pour joindre plusieurs critères ou joindre plusieurs valeurs au sein d’une seule paire mot clé/valeur. Toutefois, lorsque vous associez plusieurs valeurs dans une paire mot clé/valeur unique, vous devez utiliser des parenthèses pour encadrer les valeurs multiples. Pour comprendre pourquoi, envisagez d’effectuer une recherche à partir de : « Sadie Daniels » ou « espérons brut ». Cette recherche est en fait interprétée comme suit :
   
-- L’élément provient Sadie danield, ou
+- L’élément provient de Sadie Daniels ou
     
-- L’élément a l’expression « Expédition brut » dans une de ses propriétés indexées.
+- L’élément a l’expression « espoir brut » dans l’une de ses propriétés indexées.
     
-En revanche, à partir de : (« Sadie Daniels » ou « Expédition brut ») est interprétée comme : 
+En revanche, à partir de :(« Sadie Daniels » ou « espoir brut ») est interprétée comme : 
   
-- L’élément provient Sadie danield, ou
+- L’élément provient de Sadie Daniels ou
     
-- L’élément provient d’expédition brut
+- L’article est d’espoir brut
     
-L’opérateur par défaut lorsque plusieurs critères sont spécifiés, mais aucun opérateur logique n’est inclus est and. Par exemple, a des pièces jointes : true subject : projet équivaut à a : pièce jointe : true et subject : project.
+Opérateur par défaut lorsque plusieurs critères sont spécifiés, mais qu’aucun opérateur logique n’est inclus, et. Par exemple, comporte Attachment : true Subject : le projet équivaut à : Attachment : true et Subject : Project.
   
 ## <a name="example-find-items-by-using-a-query-string-and-the-ews-managed-api"></a>Exemple : Rechercher des éléments à l’aide d’une chaîne de requête et de l’API managée EWS
 <a name="bk_ExampleEWSMA"> </a>
 
-Dans cet exemple, une méthode appelée **SearchWithQueryString** est définie. Il prend un objet [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , un objet [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) et un objet de **type string** qui représente la chaîne de requête en tant que paramètres. Cet exemple suppose que l’objet **ExchangeService** a été initialisée avec des valeurs valides dans les propriétés [d’Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) et les [informations d’identification](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) . 
+Dans cet exemple, une méthode appelée **SearchWithQueryString** est définie. Il prend un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , un objet [WellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) et un objet **String** qui représente la chaîne de requête en tant que paramètres. Cet exemple part du principe que l’objet **ExchangeService** a été initialisé avec des valeurs valides dans les [informations d’identification](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) et les propriétés de l' [URL](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) . 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -201,24 +201,24 @@ static void SearchWithQueryString(ExchangeService service, WellKnownFolderName f
 }
 ```
 
-Vous pouvez utiliser cette méthode pour rechercher tous les éléments contenant l’expression « projet » dans l’objet, comme illustré dans cet exemple.
+Vous pouvez utiliser cette méthode pour rechercher tous les éléments avec l’expression « plan de projet » dans l’objet, comme illustré dans cet exemple.
   
 ```cs
 string queryString = "subject:\"project plan\"";
 SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 ```
 
-## <a name="example-find-items-by-using-a-query-string-and-ews"></a>Exemple : Rechercher des éléments à l’aide d’une chaîne de requête et les EWS
+## <a name="example-find-items-by-using-a-query-string-and-ews"></a>Exemple : Rechercher des éléments à l’aide d’une chaîne de requête et EWS
 <a name="bk_ExampleEWS"> </a>
 
-Dans cet exemple, une demande SOAP [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) recherche tous les éléments dans la boîte de réception avec l’expression « projet » dans l’objet. 
+Dans cet exemple, une requête [FINDITEM](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) SOAP recherche tous les éléments de la boîte de réception avec l’expression « plan Project » dans l’objet. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -249,20 +249,20 @@ Dans cet exemple, une demande SOAP [FindItem](http://msdn.microsoft.com/library/
 </soap:Envelope>
 ```
 
-L’exemple suivant montre la réponse du serveur avec les résultats de recherche.
+L’exemple suivant montre la réponse du serveur avec les résultats de la recherche.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -289,7 +289,7 @@ L’exemple suivant montre la réponse du serveur avec les résultats de recherc
 
 - [Recherche et EWS dans Exchange](search-and-ews-in-exchange.md)    
 - [Utiliser des filtres de recherche avec EWS dans Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
-- [Opération FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [ExchangeService. FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [Opération FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

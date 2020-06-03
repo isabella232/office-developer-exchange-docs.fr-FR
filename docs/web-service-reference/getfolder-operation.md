@@ -1,43 +1,43 @@
 ---
-title: GetFolder Operation
+title: Opération GetFolder
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetFolder
 api_type:
 - schema
 ms.assetid: 355bcf93-dc71-4493-b177-622afac5fdb9
-description: L’opération GetFolder Obtient des dossiers à partir de la banque d’informations Exchange.
-ms.openlocfilehash: 1d2806e4febb6059b8a866d585bc70f49befbdef
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: L’opération GetFolder obtient des dossiers à partir de la Banque d’Exchange.
+localization_priority: Priority
+ms.openlocfilehash: 9d511f309b9210fd9b5a49ff6c60bc7982992973
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19756626"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "44459180"
 ---
-# <a name="getfolder-operation"></a>GetFolder Operation
+# <a name="getfolder-operation"></a>Opération GetFolder
 
-L’opération **GetFolder** Obtient des dossiers à partir de la banque d’informations Exchange. 
+L’opération **GetFolder** obtient des dossiers à partir de la Banque d’Exchange. 
   
 ## <a name="getfolder-request-example"></a>Exemple de requête GetFolder
 
 ### <a name="description"></a>Description
 
-Une demande **GetFolder** l’exemple suivant montre comment obtenir un identificateur de dossier, d’afficher le nom, le nombre d’éléments dans ce dossier, le nombre de dossiers enfants et le nombre d’éléments non lus dans le dossier. 
+L’exemple de requête **GetFolder** suivant montre comment obtenir un identificateur de dossier, le nom d’affichage, le nombre d’éléments contenus dans ce dossier, le nombre de dossiers enfants et le nombre d’éléments non lus dans le dossier. 
   
 ### <a name="code"></a>Code
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+   xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -49,9 +49,9 @@ Une demande **GetFolder** l’exemple suivant montre comment obtenir un identifi
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Éléments de la demande
+### <a name="request-elements"></a>Demander des éléments
 
-Cette demande **GetFolder** comprend les éléments suivants : 
+Cette demande **GetFolder** inclut les éléments suivants : 
   
 - [GetFolder](getfolder.md)
     
@@ -63,7 +63,7 @@ Cette demande **GetFolder** comprend les éléments suivants :
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-Voir le schéma pour les éléments supplémentaires que vous pouvez utiliser pour créer une demande **GetFolder** . 
+Consultez le schéma pour les éléments supplémentaires que vous pouvez utiliser pour créer une demande **GetFolder** . 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange. 
@@ -72,10 +72,10 @@ Voir le schéma pour les éléments supplémentaires que vous pouvez utiliser po
 
 ### <a name="description"></a>Description
 
-L’exemple de corps Simple Object Access Protocol (SOAP) suivant montre une réponse positive à la demande **GetFolder** . 
+L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la demande **GetFolder** . 
   
 > [!NOTE]
-> L’ID de dossier et la clé de modification ont été réduits afin de préserver la lisibilité. 
+> L’ID de dossier et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -85,12 +85,12 @@ L’exemple de corps Simple Object Access Protocol (SOAP) suivant montre une ré
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -110,9 +110,9 @@ L’exemple de corps Simple Object Access Protocol (SOAP) suivant montre une ré
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
-Cette réponse **GetFolder** comprend les éléments suivants : 
+Cette réponse **GetFolder** inclut les éléments suivants : 
   
 - [GetFolderResponse](getfolderresponse.md)
     
@@ -138,7 +138,7 @@ Cette réponse **GetFolder** comprend les éléments suivants :
 
 ### <a name="description"></a>Description
 
-L’exemple de corps SOAP suivante montre une réponse d’erreur est dû à un incorrect [FolderId](folderid.md) dans la demande. 
+L’exemple de corps SOAP suivant montre une réponse d’erreur provoquée par un [FolderId](folderid.md) incorrect dans la demande. 
   
 ### <a name="code"></a>Code
 
@@ -149,12 +149,12 @@ L’exemple de corps SOAP suivante montre une réponse d’erreur est dû à un 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -168,9 +168,9 @@ L’exemple de corps SOAP suivante montre une réponse d’erreur est dû à un 
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments de réponse
+### <a name="response-elements"></a>Éléments Response
 
-Cette réponse d’erreur **GetFolder** comprend les éléments suivants : 
+Cette réponse d’erreur **GetFolder** inclut les éléments suivants : 
   
 - [GetFolderResponse](getfolderresponse.md)
     
@@ -188,7 +188,7 @@ Cette réponse d’erreur **GetFolder** comprend les éléments suivants :
     
 ## <a name="version-differences"></a>Différences entre les versions
 
-Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange commençant par Exchange 2013, les autorisations de dossier ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a une valeur de **AllProperties** dans la requête d’opération [GetFolder](getfolder-operation.md) . Pour récupérer les autorisations du dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément de [AdditionalProperties](additionalproperties.md) dans la demande **GetFolder** . 
+Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange à partir d’Exchange 2013, les autorisations de dossiers ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a une valeur de **AllProperties** dans la demande d’opération [GetFolder](getfolder-operation.md) . Pour récupérer les autorisations de dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément [AdditionalProperties](additionalproperties.md) dans la demande **GetFolder** . 
   
 ## <a name="see-also"></a>Voir aussi
 

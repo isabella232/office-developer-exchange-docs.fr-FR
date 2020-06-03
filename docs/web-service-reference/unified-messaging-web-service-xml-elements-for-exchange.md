@@ -15,7 +15,7 @@ ms.openlocfilehash: f1a3aa99a6649d033fad3ee0696177adb5835baa
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467367"
 ---
 # <a name="unified-messaging-web-service-xml-elements-for-exchange"></a>Éléments XML de service Web de messagerie unifiée pour Exchange

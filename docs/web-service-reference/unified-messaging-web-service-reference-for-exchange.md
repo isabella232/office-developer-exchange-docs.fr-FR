@@ -15,7 +15,7 @@ ms.openlocfilehash: e4bb63f34650dae8fc28016196c97a6b79e69df0
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467374"
 ---
 # <a name="unified-messaging-web-service-reference-for-exchange"></a>Référence du service Web de messagerie unifiée pour Exchange

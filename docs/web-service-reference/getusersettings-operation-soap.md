@@ -13,7 +13,7 @@ ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466142"
 ---
 # <a name="getusersettings-operation-soap"></a>Opération GetUserSettings (SOAP)

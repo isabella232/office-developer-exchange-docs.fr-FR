@@ -12,7 +12,7 @@ ms.openlocfilehash: 172a69ec088440ece80a2807b97171ebf81b97d3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467038"
 ---
 # <a name="originalphonestring"></a>OriginalPhoneString

@@ -15,7 +15,7 @@ ms.openlocfilehash: ca4942942a81bc187e8e18a5e6f003f8587f79d1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467395"
 ---
 # <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)

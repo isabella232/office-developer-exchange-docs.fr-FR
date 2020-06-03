@@ -12,7 +12,7 @@ ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467745"
 ---
 # <a name="votinginformation"></a>VotingInformation

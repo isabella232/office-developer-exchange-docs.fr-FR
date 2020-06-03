@@ -11,7 +11,7 @@ ms.openlocfilehash: dbf419d591bc0d693204df51d8259c2a9fe13c50
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466072"
 ---
 # <a name="isdefault-soap"></a>IsDefault (SOAP)

@@ -16,7 +16,7 @@ ms.openlocfilehash: 31a3bd6ae2d7ce94debbeebc4fd4f536447433a7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466793"
 ---
 # <a name="noendrecurrence"></a>NoEndRecurrence

@@ -15,7 +15,7 @@ ms.openlocfilehash: a30d75b91823ebc021cfffa4e77be04fc6cd7951
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466205"
 ---
 # <a name="resetpinresponse-um-web-service"></a>ResetPINResponse (service Web de messagerie unifiée)

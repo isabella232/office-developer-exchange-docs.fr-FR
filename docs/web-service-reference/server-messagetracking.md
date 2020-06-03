@@ -16,56 +16,56 @@ ms.openlocfilehash: 1a5d2e223acfc402ae964c619598845e4212b639
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44462044"
 ---
-# <a name="server-messagetracking"></a><span data-ttu-id="976b4-103">Serveur (MessageTracking)</span><span class="sxs-lookup"><span data-stu-id="976b4-103">Server (MessageTracking)</span></span>
+# <a name="server-messagetracking"></a><span data-ttu-id="c8460-103">Serveur (MessageTracking)</span><span class="sxs-lookup"><span data-stu-id="c8460-103">Server (MessageTracking)</span></span>
 
-<span data-ttu-id="976b4-104">L’élément **Server** représente le serveur physique où l’événement s’est produit.</span><span class="sxs-lookup"><span data-stu-id="976b4-104">The **Server** element represents the physical server where the event occurred.</span></span> 
+<span data-ttu-id="c8460-104">L’élément **Server** représente le serveur physique où l’événement s’est produit.</span><span class="sxs-lookup"><span data-stu-id="c8460-104">The **Server** element represents the physical server where the event occurred.</span></span> 
   
 ```XML
 <Server/>
 ```
 
- <span data-ttu-id="976b4-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="976b4-105">**NonEmptyStringType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="976b4-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="976b4-106">Attributes and elements</span></span>
+ <span data-ttu-id="c8460-105">**NonEmptyStringType**</span><span class="sxs-lookup"><span data-stu-id="c8460-105">**NonEmptyStringType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c8460-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c8460-106">Attributes and elements</span></span>
 
-<span data-ttu-id="976b4-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="976b4-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c8460-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c8460-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="976b4-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="976b4-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c8460-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="c8460-108">Attributes</span></span>
 
-<span data-ttu-id="976b4-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="976b4-109">None.</span></span>
+<span data-ttu-id="c8460-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="c8460-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="976b4-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="976b4-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c8460-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c8460-110">Child elements</span></span>
 
-<span data-ttu-id="976b4-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="976b4-111">None.</span></span>
+<span data-ttu-id="c8460-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c8460-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="976b4-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="976b4-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c8460-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c8460-112">Parent elements</span></span>
 
-|<span data-ttu-id="976b4-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="976b4-113">**Element**</span></span>|<span data-ttu-id="976b4-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="976b4-114">**Description**</span></span>|
+|<span data-ttu-id="c8460-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c8460-113">**Element**</span></span>|<span data-ttu-id="c8460-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="c8460-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="976b4-115">RecipientTrackingEvent</span><span class="sxs-lookup"><span data-stu-id="976b4-115">RecipientTrackingEvent</span></span>](recipienttrackingevent.md) <br/> |<span data-ttu-id="976b4-116">Contient des informations pour un seul événement pour un destinataire.</span><span class="sxs-lookup"><span data-stu-id="976b4-116">Contains information for a single event for a recipient.</span></span>  <br/> |
+|[<span data-ttu-id="c8460-115">RecipientTrackingEvent</span><span class="sxs-lookup"><span data-stu-id="c8460-115">RecipientTrackingEvent</span></span>](recipienttrackingevent.md) <br/> |<span data-ttu-id="c8460-116">Contient des informations pour un seul événement pour un destinataire.</span><span class="sxs-lookup"><span data-stu-id="c8460-116">Contains information for a single event for a recipient.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="976b4-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="976b4-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="c8460-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="c8460-117">Text value</span></span>
 
-<span data-ttu-id="976b4-118">Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.</span><span class="sxs-lookup"><span data-stu-id="976b4-118">A text value that represents a string is required if this element is used.</span></span>
+<span data-ttu-id="c8460-118">Une valeur de texte qui représente une chaîne est requise si cet élément est utilisé.</span><span class="sxs-lookup"><span data-stu-id="c8460-118">A text value that represents a string is required if this element is used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="976b4-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="976b4-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8460-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="c8460-119">Remarks</span></span>
 
-<span data-ttu-id="976b4-120">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="976b4-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c8460-120">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="c8460-120">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="976b4-121">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="976b4-121">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c8460-121">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c8460-121">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="976b4-122">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="976b4-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="976b4-123">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="976b4-123">Schema Name</span></span>  <br/> |<span data-ttu-id="976b4-124">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="976b4-124">Types schema</span></span>  <br/> |
-|<span data-ttu-id="976b4-125">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="976b4-125">Validation File</span></span>  <br/> |<span data-ttu-id="976b4-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="976b4-126">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="976b4-127">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="976b4-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="976b4-128">False</span><span class="sxs-lookup"><span data-stu-id="976b4-128">False</span></span>  <br/> |
+|<span data-ttu-id="c8460-122">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c8460-122">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="c8460-123">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c8460-123">Schema Name</span></span>  <br/> |<span data-ttu-id="c8460-124">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="c8460-124">Types schema</span></span>  <br/> |
+|<span data-ttu-id="c8460-125">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="c8460-125">Validation File</span></span>  <br/> |<span data-ttu-id="c8460-126">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="c8460-126">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="c8460-127">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c8460-127">Can be Empty</span></span>  <br/> |<span data-ttu-id="c8460-128">False</span><span class="sxs-lookup"><span data-stu-id="c8460-128">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="976b4-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="976b4-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8460-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c8460-129">See also</span></span>
 
 
 
-- [<span data-ttu-id="976b4-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="976b4-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="c8460-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c8460-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

@@ -10,7 +10,7 @@ ms.openlocfilehash: 01a106817f29bd696991b8a0c5d7d9b7dd420b94
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463761"
 ---
 # <a name="setting-up-your-exchange-application-development-environment"></a>Configuration de votre environnement de développement d’application Exchange

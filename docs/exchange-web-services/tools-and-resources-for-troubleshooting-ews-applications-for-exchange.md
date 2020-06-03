@@ -10,7 +10,7 @@ ms.openlocfilehash: 7c7cbe8c93edec5ad99df079c6eb96286c1ba063
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463740"
 ---
 # <a name="tools-and-resources-for-troubleshooting-ews-applications-for-exchange"></a>Outils et ressources pour la résolution des applications EWS pour Exchange

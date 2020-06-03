@@ -12,7 +12,7 @@ ms.openlocfilehash: b1c27fbca0b7dafffb281aab3489ac4f6e08c742
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465120"
 ---
 # <a name="yomifirstnames"></a>YomiFirstNames

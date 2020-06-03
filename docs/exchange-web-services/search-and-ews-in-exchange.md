@@ -10,7 +10,7 @@ ms.openlocfilehash: d35cc74ab2fa79530ac09256e315a780023d833b
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44463835"
 ---
 # <a name="search-and-ews-in-exchange"></a>Recherche et EWS dans Exchange
@@ -28,7 +28,7 @@ L’API managée EWS et EWS proposent deux méthodes de base pour la spécificat
 
 **Tableau 1. Scénarios pour les filtres de recherche et les requêtes de recherche**
 
-|**Si vous souhaitez...**|**Utiliser un...**|**Notes**|
+|**Si vous souhaitez...**|**Utiliser un...**|**Remarques**|
 |:-----|:-----|:-----|
 |Limiter votre recherche à une propriété spécifique ou à un ensemble de propriétés  <br/> |Filtre de recherche  <br/> |Les filtres de recherche fournissent le meilleur niveau de contrôle sur les propriétés recherchées. Bien que les chaînes de requête puissent cibler un ensemble limité de propriétés à l’aide de la syntaxe de requête avancée (AQS), les filtres de recherche peuvent cibler n’importe quelle propriété.  <br/> |
 |Créer des recherches avec plusieurs critères  <br/> |Filtre de recherche  <br/> |Avec les filtres de recherche, plusieurs critères de recherche peuvent être associés à des opérateurs and logiques ou à des ORs, permettant des recherches comme « l’objet contient «notes de réunion » et l’expéditeur est égal à « Sadie Daniels ». Bien que les chaînes de requête puissent également rejoindre plusieurs critères de recherche, elles sont limitées à l’ensemble des propriétés prises en charge par les chaînes de requête.  <br/> |

@@ -12,7 +12,7 @@ ms.openlocfilehash: 66d85362319df1c88064130e99bba98f21b50db7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44464818"
 ---
 # <a name="setimlistmigrationcompletedresponse"></a>SetImListMigrationCompletedResponse

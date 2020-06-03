@@ -12,7 +12,7 @@ ms.openlocfilehash: e24d5318a38aa0a902d4976d7b31a376399d2cfd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465267"
 ---
 # <a name="schools"></a>Établissements

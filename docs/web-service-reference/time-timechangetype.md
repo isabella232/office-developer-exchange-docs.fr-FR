@@ -16,7 +16,7 @@ ms.openlocfilehash: c25d0bc3394fdfab42a29eab8b370bc4263618ed
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44465736"
 ---
 # <a name="time-timechangetype"></a>Heure (TimeChangeType)

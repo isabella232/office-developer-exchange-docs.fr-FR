@@ -12,51 +12,51 @@ ms.openlocfilehash: 09f37d6e3663aab7cb98fc922f727ddd604f2acd
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44456023"
 ---
-# <a name="imlistmigrationcompleted"></a><span data-ttu-id="6c970-103">ImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="6c970-103">ImListMigrationCompleted</span></span>
+# <a name="imlistmigrationcompleted"></a><span data-ttu-id="41b05-103">ImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="41b05-103">ImListMigrationCompleted</span></span>
 
-<span data-ttu-id="6c970-104">L’élément **ImListMigrationCompleted** indique si la Banque d’information Exchange contient les éléments de messagerie instantanée utilisés par les clients de messagerie instantanée.</span><span class="sxs-lookup"><span data-stu-id="6c970-104">The **ImListMigrationCompleted** element indicates whether the Exchange store contains the instant messaging items used by instant messaging clients.</span></span> 
+<span data-ttu-id="41b05-104">L’élément **ImListMigrationCompleted** indique si la Banque d’information Exchange contient les éléments de messagerie instantanée utilisés par les clients de messagerie instantanée.</span><span class="sxs-lookup"><span data-stu-id="41b05-104">The **ImListMigrationCompleted** element indicates whether the Exchange store contains the instant messaging items used by instant messaging clients.</span></span> 
   
 ```XML
 <ImListMigrationCompleted>true | false</ImListMigrationCompleted>
 ```
 
- <span data-ttu-id="6c970-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="6c970-105">**Boolean**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="6c970-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="6c970-106">Attributes and elements</span></span>
+ <span data-ttu-id="41b05-105">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="41b05-105">**Boolean**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="41b05-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="41b05-106">Attributes and elements</span></span>
 
-<span data-ttu-id="6c970-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="6c970-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="41b05-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="41b05-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="6c970-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="6c970-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="41b05-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="41b05-108">Attributes</span></span>
 
-<span data-ttu-id="6c970-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="6c970-109">None.</span></span>
+<span data-ttu-id="41b05-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="41b05-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="6c970-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="6c970-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="41b05-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="41b05-110">Child elements</span></span>
 
-<span data-ttu-id="6c970-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6c970-111">None.</span></span>
+<span data-ttu-id="41b05-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="41b05-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="6c970-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="6c970-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="41b05-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="41b05-112">Parent elements</span></span>
 
-[<span data-ttu-id="6c970-113">SetImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="6c970-113">SetImListMigrationCompleted</span></span>](setimlistmigrationcompleted.md)
+[<span data-ttu-id="41b05-113">SetImListMigrationCompleted</span><span class="sxs-lookup"><span data-stu-id="41b05-113">SetImListMigrationCompleted</span></span>](setimlistmigrationcompleted.md)
   
-## <a name="text-value"></a><span data-ttu-id="6c970-114">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="6c970-114">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="41b05-114">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="41b05-114">Text value</span></span>
 
-<span data-ttu-id="6c970-115">Une valeur de texte de **true** pour l’élément **ImListMigrationCompleted** indique que la Banque de contacts de messagerie instantanée a été migrée vers la Banque d’Exchange.</span><span class="sxs-lookup"><span data-stu-id="6c970-115">A text value of **true** for the **ImListMigrationCompleted** element indicates that the instant messaging contacts store has been migrated to the Exchange store.</span></span> <span data-ttu-id="6c970-116">La valeur **false** indique que la Banque de contacts de messagerie instantanée n’a pas été migrée.</span><span class="sxs-lookup"><span data-stu-id="6c970-116">A value of **false** indicates that the instant message contacts store has not been migrated.</span></span> 
+<span data-ttu-id="41b05-115">Une valeur de texte de **true** pour l’élément **ImListMigrationCompleted** indique que la Banque de contacts de messagerie instantanée a été migrée vers la Banque d’Exchange.</span><span class="sxs-lookup"><span data-stu-id="41b05-115">A text value of **true** for the **ImListMigrationCompleted** element indicates that the instant messaging contacts store has been migrated to the Exchange store.</span></span> <span data-ttu-id="41b05-116">La valeur **false** indique que la Banque de contacts de messagerie instantanée n’a pas été migrée.</span><span class="sxs-lookup"><span data-stu-id="41b05-116">A value of **false** indicates that the instant message contacts store has not been migrated.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="6c970-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="6c970-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="41b05-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="41b05-117">Remarks</span></span>
 
-<span data-ttu-id="6c970-118">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6c970-118">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="41b05-118">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="41b05-118">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="6c970-119">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="6c970-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="41b05-119">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="41b05-119">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="6c970-120">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="6c970-120">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="41b05-120">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="41b05-120">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="6c970-121">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="6c970-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="6c970-122">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="6c970-122">Schema name</span></span>  <br/> |<span data-ttu-id="6c970-123">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="6c970-123">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="6c970-124">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="6c970-124">Validation file</span></span>  <br/> |<span data-ttu-id="6c970-125">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="6c970-125">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="6c970-126">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="6c970-126">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="41b05-121">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="41b05-121">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="41b05-122">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="41b05-122">Schema name</span></span>  <br/> |<span data-ttu-id="41b05-123">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="41b05-123">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="41b05-124">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="41b05-124">Validation file</span></span>  <br/> |<span data-ttu-id="41b05-125">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="41b05-125">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="41b05-126">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="41b05-126">Can be empty</span></span>  <br/> ||
    
 

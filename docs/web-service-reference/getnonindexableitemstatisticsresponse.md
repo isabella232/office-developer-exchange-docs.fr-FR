@@ -12,12 +12,12 @@ ms.openlocfilehash: 2535ef43228c8ecca958da88178cfb2cb6584ad3
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44452782"
 ---
-# <a name="getnonindexableitemstatisticsresponse"></a><span data-ttu-id="22750-103">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="22750-103">GetNonIndexableItemStatisticsResponse</span></span>
+# <a name="getnonindexableitemstatisticsresponse"></a><span data-ttu-id="c2e07-103">GetNonIndexableItemStatisticsResponse</span><span class="sxs-lookup"><span data-stu-id="c2e07-103">GetNonIndexableItemStatisticsResponse</span></span>
 
-<span data-ttu-id="22750-104">L’élément **GetNonIndexableItemStatisticsResponse** spécifie la réponse à une demande **GetNonIndexableItemStatistics** .</span><span class="sxs-lookup"><span data-stu-id="22750-104">The **GetNonIndexableItemStatisticsResponse** element specifies the response to a **GetNonIndexableItemStatistics** request.</span></span> 
+<span data-ttu-id="c2e07-104">L’élément **GetNonIndexableItemStatisticsResponse** spécifie la réponse à une demande **GetNonIndexableItemStatistics** .</span><span class="sxs-lookup"><span data-stu-id="c2e07-104">The **GetNonIndexableItemStatisticsResponse** element specifies the response to a **GetNonIndexableItemStatistics** request.</span></span> 
   
 ```XML
 <GetNonIndexableItemStatisticsResponse>
@@ -29,36 +29,36 @@ ms.locfileid: "44452782"
 </GetNonIndexableItemStatisticsResponse>
 ```
 
- <span data-ttu-id="22750-105">**GetNonIndexableItemStatisticsResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="22750-105">**GetNonIndexableItemStatisticsResponseMessageType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="22750-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="22750-106">Attributes and elements</span></span>
+ <span data-ttu-id="c2e07-105">**GetNonIndexableItemStatisticsResponseMessageType**</span><span class="sxs-lookup"><span data-stu-id="c2e07-105">**GetNonIndexableItemStatisticsResponseMessageType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c2e07-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c2e07-106">Attributes and elements</span></span>
 
-<span data-ttu-id="22750-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="22750-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c2e07-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c2e07-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="22750-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="22750-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c2e07-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="c2e07-108">Attributes</span></span>
 
-<span data-ttu-id="22750-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="22750-109">None.</span></span>
+<span data-ttu-id="c2e07-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="c2e07-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="22750-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="22750-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c2e07-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c2e07-110">Child elements</span></span>
 
-<span data-ttu-id="22750-111">[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span><span class="sxs-lookup"><span data-stu-id="22750-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span></span>
+<span data-ttu-id="c2e07-111">[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span><span class="sxs-lookup"><span data-stu-id="c2e07-111">[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="22750-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="22750-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c2e07-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c2e07-112">Parent elements</span></span>
 
-[<span data-ttu-id="22750-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="22750-113">ResponseMessages</span></span>](responsemessages.md)
+[<span data-ttu-id="c2e07-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c2e07-113">ResponseMessages</span></span>](responsemessages.md)
   
-## <a name="remarks"></a><span data-ttu-id="22750-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="22750-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c2e07-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="c2e07-114">Remarks</span></span>
 
-<span data-ttu-id="22750-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="22750-115">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="c2e07-115">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c2e07-115">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="22750-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="22750-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c2e07-116">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="c2e07-116">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="22750-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="22750-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c2e07-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c2e07-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="22750-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="22750-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="22750-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="22750-119">Schema name</span></span>  <br/> |<span data-ttu-id="22750-120">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="22750-120">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="22750-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="22750-121">Validation file</span></span>  <br/> |<span data-ttu-id="22750-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="22750-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="22750-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="22750-123">Can be empty</span></span>  <br/> |<span data-ttu-id="22750-124">false</span><span class="sxs-lookup"><span data-stu-id="22750-124">false</span></span>  <br/> |
+|<span data-ttu-id="c2e07-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c2e07-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="c2e07-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c2e07-119">Schema name</span></span>  <br/> |<span data-ttu-id="c2e07-120">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="c2e07-120">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="c2e07-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="c2e07-121">Validation file</span></span>  <br/> |<span data-ttu-id="c2e07-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="c2e07-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="c2e07-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c2e07-123">Can be empty</span></span>  <br/> |<span data-ttu-id="c2e07-124">false</span><span class="sxs-lookup"><span data-stu-id="c2e07-124">false</span></span>  <br/> |
    
 

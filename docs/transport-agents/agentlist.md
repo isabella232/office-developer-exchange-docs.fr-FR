@@ -16,18 +16,18 @@ ms.openlocfilehash: 99e4e24c3bca77c7e7d5f2c59bb21cee1317fed2
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44446391"
 ---
-# <a name="agentlist"></a><span data-ttu-id="593ce-103">agentList</span><span class="sxs-lookup"><span data-stu-id="593ce-103">agentList</span></span>
+# <a name="agentlist"></a><span data-ttu-id="56506-103">agentList</span><span class="sxs-lookup"><span data-stu-id="56506-103">agentList</span></span>
   
-<span data-ttu-id="593ce-104">**S’applique à :** Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="593ce-104">**Applies to:** Exchange Server 2013</span></span>
+<span data-ttu-id="56506-104">**S’applique à :** Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="56506-104">**Applies to:** Exchange Server 2013</span></span>
   
-<span data-ttu-id="593ce-105">L’élément **agentList** contient un élément [agent](agent.md) pour chaque agent installé.</span><span class="sxs-lookup"><span data-stu-id="593ce-105">The **agentList** element contains an [agent](agent.md) element for each installed agent.</span></span> 
+<span data-ttu-id="56506-105">L’élément **agentList** contient un élément [agent](agent.md) pour chaque agent installé.</span><span class="sxs-lookup"><span data-stu-id="56506-105">The **agentList** element contains an [agent](agent.md) element for each installed agent.</span></span> 
   
-- [<span data-ttu-id="593ce-106">configuration</span><span class="sxs-lookup"><span data-stu-id="593ce-106">configuration</span></span>](configuration.md)
-- [<span data-ttu-id="593ce-107">mexRuntime</span><span class="sxs-lookup"><span data-stu-id="593ce-107">mexRuntime</span></span>](mexruntime.md)
-- [<span data-ttu-id="593ce-108">agentList</span><span class="sxs-lookup"><span data-stu-id="593ce-108">agentList</span></span>](agentlist.md)
+- [<span data-ttu-id="56506-106">configuration</span><span class="sxs-lookup"><span data-stu-id="56506-106">configuration</span></span>](configuration.md)
+- [<span data-ttu-id="56506-107">mexRuntime</span><span class="sxs-lookup"><span data-stu-id="56506-107">mexRuntime</span></span>](mexruntime.md)
+- [<span data-ttu-id="56506-108">agentList</span><span class="sxs-lookup"><span data-stu-id="56506-108">agentList</span></span>](agentlist.md)
   
 ```XML
 <agentList>
@@ -35,38 +35,38 @@ ms.locfileid: "44446391"
 </agentList>
 ```
 
-<span data-ttu-id="593ce-109">**agentListType (complexType)**</span><span class="sxs-lookup"><span data-stu-id="593ce-109">**agentListType (complexType)**</span></span>
+<span data-ttu-id="56506-109">**agentListType (complexType)**</span><span class="sxs-lookup"><span data-stu-id="56506-109">**agentListType (complexType)**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="593ce-110">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="593ce-110">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="56506-110">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="56506-110">Attributes and elements</span></span>
 
-<span data-ttu-id="593ce-111">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="593ce-111">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="56506-111">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="56506-111">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="593ce-112">Attributs</span><span class="sxs-lookup"><span data-stu-id="593ce-112">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="56506-112">Attributs</span><span class="sxs-lookup"><span data-stu-id="56506-112">Attributes</span></span>
 
-<span data-ttu-id="593ce-113">Aucune.</span><span class="sxs-lookup"><span data-stu-id="593ce-113">None.</span></span>
+<span data-ttu-id="56506-113">Aucune.</span><span class="sxs-lookup"><span data-stu-id="56506-113">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="593ce-114">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="593ce-114">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="56506-114">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="56506-114">Child elements</span></span>
 
-|<span data-ttu-id="593ce-115">**Élément**</span><span class="sxs-lookup"><span data-stu-id="593ce-115">**Element**</span></span>|<span data-ttu-id="593ce-116">**Description**</span><span class="sxs-lookup"><span data-stu-id="593ce-116">**Description**</span></span>|
+|<span data-ttu-id="56506-115">**Élément**</span><span class="sxs-lookup"><span data-stu-id="56506-115">**Element**</span></span>|<span data-ttu-id="56506-116">**Description**</span><span class="sxs-lookup"><span data-stu-id="56506-116">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="593ce-117">agent</span><span class="sxs-lookup"><span data-stu-id="593ce-117">agent</span></span>](agent.md) <br/> |<span data-ttu-id="593ce-118">Contient des informations de configuration sur un agent installé.</span><span class="sxs-lookup"><span data-stu-id="593ce-118">Contains configuration information about an installed agent.</span></span>  <br/> |
+|[<span data-ttu-id="56506-117">agent</span><span class="sxs-lookup"><span data-stu-id="56506-117">agent</span></span>](agent.md) <br/> |<span data-ttu-id="56506-118">Contient des informations de configuration sur un agent installé.</span><span class="sxs-lookup"><span data-stu-id="56506-118">Contains configuration information about an installed agent.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="593ce-119">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="593ce-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="56506-119">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="56506-119">Parent elements</span></span>
 
-|<span data-ttu-id="593ce-120">**Élément**</span><span class="sxs-lookup"><span data-stu-id="593ce-120">**Element**</span></span>|<span data-ttu-id="593ce-121">**Description**</span><span class="sxs-lookup"><span data-stu-id="593ce-121">**Description**</span></span>|
+|<span data-ttu-id="56506-120">**Élément**</span><span class="sxs-lookup"><span data-stu-id="56506-120">**Element**</span></span>|<span data-ttu-id="56506-121">**Description**</span><span class="sxs-lookup"><span data-stu-id="56506-121">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="593ce-122">mexRuntime</span><span class="sxs-lookup"><span data-stu-id="593ce-122">mexRuntime</span></span>](mexruntime.md) <br/> |<span data-ttu-id="593ce-123">Contient des éléments qui définissent les informations de configuration des informations de configuration et de surveillance de l’agent sur les agents installés.</span><span class="sxs-lookup"><span data-stu-id="593ce-123">Contains elements that define configuration information for agent monitoring and configuration information about installed agents.</span></span>  <br/> |
+|[<span data-ttu-id="56506-122">mexRuntime</span><span class="sxs-lookup"><span data-stu-id="56506-122">mexRuntime</span></span>](mexruntime.md) <br/> |<span data-ttu-id="56506-123">Contient des éléments qui définissent les informations de configuration des informations de configuration et de surveillance de l’agent sur les agents installés.</span><span class="sxs-lookup"><span data-stu-id="56506-123">Contains elements that define configuration information for agent monitoring and configuration information about installed agents.</span></span>  <br/> |
    
-## <a name="element-information"></a><span data-ttu-id="593ce-124">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="593ce-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="56506-124">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="56506-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="593ce-125">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="593ce-125">Namespace</span></span>  <br/> |<span data-ttu-id="593ce-126">Ce fichier ne définit pas d’espace de noms.</span><span class="sxs-lookup"><span data-stu-id="593ce-126">This file does not define a namespace.</span></span>  <br/> |
-|<span data-ttu-id="593ce-127">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="593ce-127">Schema Name</span></span>  <br/> |<span data-ttu-id="593ce-128">Non disponible.</span><span class="sxs-lookup"><span data-stu-id="593ce-128">Not available.</span></span>  <br/> |
-|<span data-ttu-id="593ce-129">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="593ce-129">Validation File</span></span>  <br/> |<span data-ttu-id="593ce-130">Non disponible.</span><span class="sxs-lookup"><span data-stu-id="593ce-130">Not available.</span></span>  <br/> |
-|<span data-ttu-id="593ce-131">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="593ce-131">Can be Empty</span></span>  <br/> |<span data-ttu-id="593ce-132">Faux.</span><span class="sxs-lookup"><span data-stu-id="593ce-132">False.</span></span>  <br/> |
+|<span data-ttu-id="56506-125">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="56506-125">Namespace</span></span>  <br/> |<span data-ttu-id="56506-126">Ce fichier ne définit pas d’espace de noms.</span><span class="sxs-lookup"><span data-stu-id="56506-126">This file does not define a namespace.</span></span>  <br/> |
+|<span data-ttu-id="56506-127">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="56506-127">Schema Name</span></span>  <br/> |<span data-ttu-id="56506-128">Non disponible.</span><span class="sxs-lookup"><span data-stu-id="56506-128">Not available.</span></span>  <br/> |
+|<span data-ttu-id="56506-129">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="56506-129">Validation File</span></span>  <br/> |<span data-ttu-id="56506-130">Non disponible.</span><span class="sxs-lookup"><span data-stu-id="56506-130">Not available.</span></span>  <br/> |
+|<span data-ttu-id="56506-131">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="56506-131">Can be Empty</span></span>  <br/> |<span data-ttu-id="56506-132">Faux.</span><span class="sxs-lookup"><span data-stu-id="56506-132">False.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="593ce-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="593ce-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="56506-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="56506-133">See also</span></span>
 
-- [<span data-ttu-id="593ce-134">Éléments du fichier de configuration des agents pour Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="593ce-134">Agents configuration file elements for Exchange 2013</span></span>](agents-configuration-file-elements-for-exchange-2013.md)
+- [<span data-ttu-id="56506-134">Éléments du fichier de configuration des agents pour Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="56506-134">Agents configuration file elements for Exchange 2013</span></span>](agents-configuration-file-elements-for-exchange-2013.md)
 

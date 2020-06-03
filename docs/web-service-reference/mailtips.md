@@ -16,12 +16,12 @@ ms.openlocfilehash: 9bacdea7b4f3108f700ed102025445e01a73e69d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44447595"
 ---
-# <a name="mailtips"></a><span data-ttu-id="404c2-103">MailTips</span><span class="sxs-lookup"><span data-stu-id="404c2-103">MailTips</span></span>
+# <a name="mailtips"></a><span data-ttu-id="01af2-103">MailTips</span><span class="sxs-lookup"><span data-stu-id="01af2-103">MailTips</span></span>
 
-<span data-ttu-id="404c2-104">L’élément **infos-courrier** représente les valeurs de différents types de conseils de courrier.</span><span class="sxs-lookup"><span data-stu-id="404c2-104">The **MailTips** element represents values for various types of mail tips.</span></span> 
+<span data-ttu-id="01af2-104">L’élément **infos-courrier** représente les valeurs de différents types de conseils de courrier.</span><span class="sxs-lookup"><span data-stu-id="01af2-104">The **MailTips** element represents values for various types of mail tips.</span></span> 
   
 ```XML
 <MailTips>
@@ -39,57 +39,57 @@ ms.locfileid: "44447595"
 </MailTips>
 ```
 
- <span data-ttu-id="404c2-105">**Infos-courrier**</span><span class="sxs-lookup"><span data-stu-id="404c2-105">**MailTips**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="404c2-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="404c2-106">Attributes and elements</span></span>
+ <span data-ttu-id="01af2-105">**Infos-courrier**</span><span class="sxs-lookup"><span data-stu-id="01af2-105">**MailTips**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="01af2-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="01af2-106">Attributes and elements</span></span>
 
-<span data-ttu-id="404c2-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="404c2-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="01af2-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="01af2-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="404c2-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="404c2-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="01af2-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="01af2-108">Attributes</span></span>
 
-<span data-ttu-id="404c2-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="404c2-109">None.</span></span>
+<span data-ttu-id="01af2-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="01af2-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="404c2-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="404c2-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="01af2-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="01af2-110">Child elements</span></span>
 
-|<span data-ttu-id="404c2-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="404c2-111">**Element**</span></span>|<span data-ttu-id="404c2-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="404c2-112">**Description**</span></span>|
+|<span data-ttu-id="01af2-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="01af2-111">**Element**</span></span>|<span data-ttu-id="01af2-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="01af2-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="404c2-113">RecipientAddress</span><span class="sxs-lookup"><span data-stu-id="404c2-113">RecipientAddress</span></span>](recipientaddress.md) <br/> |<span data-ttu-id="404c2-114">Représente la boîte aux lettres du destinataire.</span><span class="sxs-lookup"><span data-stu-id="404c2-114">Represents the mailbox of the recipient.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-115">PendingMailTips</span><span class="sxs-lookup"><span data-stu-id="404c2-115">PendingMailTips</span></span>](pendingmailtips.md) <br/> |<span data-ttu-id="404c2-116">Indique que les conseils de messagerie de cet élément n’ont pas pu être évalués avant l’expiration du délai de traitement du serveur.</span><span class="sxs-lookup"><span data-stu-id="404c2-116">Indicates that the mail tips in this element could not be evaluated before the server's processing timeout expired.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-117">OutOfOffice</span><span class="sxs-lookup"><span data-stu-id="404c2-117">OutOfOffice</span></span>](outofoffice.md) <br/> |<span data-ttu-id="404c2-118">Représente le message de réponse et la durée d’envoi du message de réponse.</span><span class="sxs-lookup"><span data-stu-id="404c2-118">Represents the response message and a duration time for sending the response message.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-119">MailboxFull</span><span class="sxs-lookup"><span data-stu-id="404c2-119">MailboxFull</span></span>](mailboxfull.md) <br/> |<span data-ttu-id="404c2-120">Indique si la boîte aux lettres du destinataire est complète.</span><span class="sxs-lookup"><span data-stu-id="404c2-120">Indicates whether the mailbox for the recipient is full.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-121">CustomMailTip</span><span class="sxs-lookup"><span data-stu-id="404c2-121">CustomMailTip</span></span>](custommailtip.md) <br/> |<span data-ttu-id="404c2-122">Représente un message personnalisé de Conseil de messagerie.</span><span class="sxs-lookup"><span data-stu-id="404c2-122">Represents a customized mail tip message.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-123">TotalMemberCount</span><span class="sxs-lookup"><span data-stu-id="404c2-123">TotalMemberCount</span></span>](totalmembercount.md) <br/> |<span data-ttu-id="404c2-124">Représente le décompte de tous les membres d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="404c2-124">Represents the count of all members in a group.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-125">ExternalMemberCount</span><span class="sxs-lookup"><span data-stu-id="404c2-125">ExternalMemberCount</span></span>](externalmembercount.md) <br/> |<span data-ttu-id="404c2-126">Représente le nombre de membres externes d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="404c2-126">Represents the count of external members in a group.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-127">MaxMessageSize</span><span class="sxs-lookup"><span data-stu-id="404c2-127">MaxMessageSize</span></span>](maxmessagesize.md) <br/> |<span data-ttu-id="404c2-128">Représente la taille maximale des messages que le destinataire peut accepter.</span><span class="sxs-lookup"><span data-stu-id="404c2-128">Represents the maximum message size the recipient can accept.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-129">DeliveryRestricted</span><span class="sxs-lookup"><span data-stu-id="404c2-129">DeliveryRestricted</span></span>](deliveryrestricted.md) <br/> |<span data-ttu-id="404c2-130">Indique si les restrictions de remise empêchent le message de l’expéditeur d’atteindre le destinataire.</span><span class="sxs-lookup"><span data-stu-id="404c2-130">Indicates whether delivery restrictions will prevent the sender's message from reaching the recipient.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-131">IsModerated</span><span class="sxs-lookup"><span data-stu-id="404c2-131">IsModerated</span></span>](ismoderated.md) <br/> |<span data-ttu-id="404c2-132">Indique si la boîte aux lettres du destinataire est modérée.</span><span class="sxs-lookup"><span data-stu-id="404c2-132">Indicates whether the recipient's mailbox is being moderated.</span></span>  <br/> |
-|[<span data-ttu-id="404c2-133">InvalidRecipient (infos-courrier)</span><span class="sxs-lookup"><span data-stu-id="404c2-133">InvalidRecipient (MailTips)</span></span>](invalidrecipient-mailtips.md) <br/> |<span data-ttu-id="404c2-134">Indique si le destinataire n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="404c2-134">Indicates whether the recipient is invalid.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-113">RecipientAddress</span><span class="sxs-lookup"><span data-stu-id="01af2-113">RecipientAddress</span></span>](recipientaddress.md) <br/> |<span data-ttu-id="01af2-114">Représente la boîte aux lettres du destinataire.</span><span class="sxs-lookup"><span data-stu-id="01af2-114">Represents the mailbox of the recipient.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-115">PendingMailTips</span><span class="sxs-lookup"><span data-stu-id="01af2-115">PendingMailTips</span></span>](pendingmailtips.md) <br/> |<span data-ttu-id="01af2-116">Indique que les conseils de messagerie de cet élément n’ont pas pu être évalués avant l’expiration du délai de traitement du serveur.</span><span class="sxs-lookup"><span data-stu-id="01af2-116">Indicates that the mail tips in this element could not be evaluated before the server's processing timeout expired.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-117">OutOfOffice</span><span class="sxs-lookup"><span data-stu-id="01af2-117">OutOfOffice</span></span>](outofoffice.md) <br/> |<span data-ttu-id="01af2-118">Représente le message de réponse et la durée d’envoi du message de réponse.</span><span class="sxs-lookup"><span data-stu-id="01af2-118">Represents the response message and a duration time for sending the response message.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-119">MailboxFull</span><span class="sxs-lookup"><span data-stu-id="01af2-119">MailboxFull</span></span>](mailboxfull.md) <br/> |<span data-ttu-id="01af2-120">Indique si la boîte aux lettres du destinataire est complète.</span><span class="sxs-lookup"><span data-stu-id="01af2-120">Indicates whether the mailbox for the recipient is full.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-121">CustomMailTip</span><span class="sxs-lookup"><span data-stu-id="01af2-121">CustomMailTip</span></span>](custommailtip.md) <br/> |<span data-ttu-id="01af2-122">Représente un message personnalisé de Conseil de messagerie.</span><span class="sxs-lookup"><span data-stu-id="01af2-122">Represents a customized mail tip message.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-123">TotalMemberCount</span><span class="sxs-lookup"><span data-stu-id="01af2-123">TotalMemberCount</span></span>](totalmembercount.md) <br/> |<span data-ttu-id="01af2-124">Représente le décompte de tous les membres d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="01af2-124">Represents the count of all members in a group.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-125">ExternalMemberCount</span><span class="sxs-lookup"><span data-stu-id="01af2-125">ExternalMemberCount</span></span>](externalmembercount.md) <br/> |<span data-ttu-id="01af2-126">Représente le nombre de membres externes d’un groupe.</span><span class="sxs-lookup"><span data-stu-id="01af2-126">Represents the count of external members in a group.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-127">MaxMessageSize</span><span class="sxs-lookup"><span data-stu-id="01af2-127">MaxMessageSize</span></span>](maxmessagesize.md) <br/> |<span data-ttu-id="01af2-128">Représente la taille maximale des messages que le destinataire peut accepter.</span><span class="sxs-lookup"><span data-stu-id="01af2-128">Represents the maximum message size the recipient can accept.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-129">DeliveryRestricted</span><span class="sxs-lookup"><span data-stu-id="01af2-129">DeliveryRestricted</span></span>](deliveryrestricted.md) <br/> |<span data-ttu-id="01af2-130">Indique si les restrictions de remise empêchent le message de l’expéditeur d’atteindre le destinataire.</span><span class="sxs-lookup"><span data-stu-id="01af2-130">Indicates whether delivery restrictions will prevent the sender's message from reaching the recipient.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-131">IsModerated</span><span class="sxs-lookup"><span data-stu-id="01af2-131">IsModerated</span></span>](ismoderated.md) <br/> |<span data-ttu-id="01af2-132">Indique si la boîte aux lettres du destinataire est modérée.</span><span class="sxs-lookup"><span data-stu-id="01af2-132">Indicates whether the recipient's mailbox is being moderated.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-133">InvalidRecipient (infos-courrier)</span><span class="sxs-lookup"><span data-stu-id="01af2-133">InvalidRecipient (MailTips)</span></span>](invalidrecipient-mailtips.md) <br/> |<span data-ttu-id="01af2-134">Indique si le destinataire n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="01af2-134">Indicates whether the recipient is invalid.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="404c2-135">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="404c2-135">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="01af2-135">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="01af2-135">Parent elements</span></span>
 
-|<span data-ttu-id="404c2-136">**Élément**</span><span class="sxs-lookup"><span data-stu-id="404c2-136">**Element**</span></span>|<span data-ttu-id="404c2-137">**Description**</span><span class="sxs-lookup"><span data-stu-id="404c2-137">**Description**</span></span>|
+|<span data-ttu-id="01af2-136">**Élément**</span><span class="sxs-lookup"><span data-stu-id="01af2-136">**Element**</span></span>|<span data-ttu-id="01af2-137">**Description**</span><span class="sxs-lookup"><span data-stu-id="01af2-137">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="404c2-138">MailTipsResponseMessageType</span><span class="sxs-lookup"><span data-stu-id="404c2-138">MailTipsResponseMessageType</span></span>](mailtipsresponsemessagetype.md) <br/> |<span data-ttu-id="404c2-139">Représente les paramètres des conseils de messagerie.</span><span class="sxs-lookup"><span data-stu-id="404c2-139">Represents mail tips settings.</span></span>  <br/> |
+|[<span data-ttu-id="01af2-138">MailTipsResponseMessageType</span><span class="sxs-lookup"><span data-stu-id="01af2-138">MailTipsResponseMessageType</span></span>](mailtipsresponsemessagetype.md) <br/> |<span data-ttu-id="01af2-139">Représente les paramètres des conseils de messagerie.</span><span class="sxs-lookup"><span data-stu-id="01af2-139">Represents mail tips settings.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="404c2-140">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="404c2-140">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="01af2-140">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="01af2-140">Text value</span></span>
 
-<span data-ttu-id="404c2-141">Aucun.</span><span class="sxs-lookup"><span data-stu-id="404c2-141">None.</span></span>
+<span data-ttu-id="01af2-141">Aucun.</span><span class="sxs-lookup"><span data-stu-id="01af2-141">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="404c2-142">Remarques</span><span class="sxs-lookup"><span data-stu-id="404c2-142">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="01af2-142">Remarques</span><span class="sxs-lookup"><span data-stu-id="01af2-142">Remarks</span></span>
 
-<span data-ttu-id="404c2-143">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="404c2-143">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="01af2-143">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="01af2-143">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="404c2-144">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="404c2-144">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="01af2-144">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="01af2-144">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="404c2-145">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="404c2-145">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="404c2-146">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="404c2-146">Schema Name</span></span>  <br/> |<span data-ttu-id="404c2-147">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="404c2-147">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="404c2-148">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="404c2-148">Validation File</span></span>  <br/> |<span data-ttu-id="404c2-149">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="404c2-149">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="404c2-150">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="404c2-150">Can be Empty</span></span>  <br/> |<span data-ttu-id="404c2-151">False</span><span class="sxs-lookup"><span data-stu-id="404c2-151">False</span></span>  <br/> |
+|<span data-ttu-id="01af2-145">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="01af2-145">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="01af2-146">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="01af2-146">Schema Name</span></span>  <br/> |<span data-ttu-id="01af2-147">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="01af2-147">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="01af2-148">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="01af2-148">Validation File</span></span>  <br/> |<span data-ttu-id="01af2-149">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="01af2-149">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="01af2-150">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="01af2-150">Can be Empty</span></span>  <br/> |<span data-ttu-id="01af2-151">False</span><span class="sxs-lookup"><span data-stu-id="01af2-151">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="404c2-152">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="404c2-152">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="01af2-152">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="01af2-152">See also</span></span>
 
 
 
-- [<span data-ttu-id="404c2-153">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="404c2-153">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="01af2-153">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="01af2-153">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

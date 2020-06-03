@@ -12,12 +12,12 @@ ms.openlocfilehash: 3a63bdf7e49309697ac503be5f4c95eb805b9635
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44460329"
 ---
-# <a name="attendees"></a><span data-ttu-id="e3359-103">Participants</span><span class="sxs-lookup"><span data-stu-id="e3359-103">Attendees</span></span>
+# <a name="attendees"></a><span data-ttu-id="c0926-103">Participants</span><span class="sxs-lookup"><span data-stu-id="c0926-103">Attendees</span></span>
 
-<span data-ttu-id="e3359-104">L’élément **participants** spécifie les destinataires d’une invitation à une réunion.</span><span class="sxs-lookup"><span data-stu-id="e3359-104">The **Attendees** element specifies the recipients of an invitation to a meeting.</span></span> 
+<span data-ttu-id="c0926-104">L’élément **participants** spécifie les destinataires d’une invitation à une réunion.</span><span class="sxs-lookup"><span data-stu-id="c0926-104">The **Attendees** element specifies the recipients of an invitation to a meeting.</span></span> 
   
 ```XML
 <Attendees>
@@ -25,43 +25,43 @@ ms.locfileid: "44460329"
 </Attendees>
 ```
 
- <span data-ttu-id="e3359-105">**ArrayOfEmailUsersType**</span><span class="sxs-lookup"><span data-stu-id="e3359-105">**ArrayOfEmailUsersType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="e3359-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="e3359-106">Attributes and elements</span></span>
+ <span data-ttu-id="c0926-105">**ArrayOfEmailUsersType**</span><span class="sxs-lookup"><span data-stu-id="c0926-105">**ArrayOfEmailUsersType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="c0926-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c0926-106">Attributes and elements</span></span>
 
-<span data-ttu-id="e3359-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="e3359-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="c0926-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c0926-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="e3359-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="e3359-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c0926-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="c0926-108">Attributes</span></span>
 
-<span data-ttu-id="e3359-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="e3359-109">None.</span></span>
+<span data-ttu-id="c0926-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="c0926-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="e3359-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="e3359-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c0926-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c0926-110">Child elements</span></span>
 
-|<span data-ttu-id="e3359-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="e3359-111">**Element**</span></span>|<span data-ttu-id="e3359-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="e3359-112">**Description**</span></span>|
+|<span data-ttu-id="c0926-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c0926-111">**Element**</span></span>|<span data-ttu-id="c0926-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="c0926-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e3359-113">EmailUser</span><span class="sxs-lookup"><span data-stu-id="e3359-113">EmailUser</span></span>](emailuser.md) <br/> |<span data-ttu-id="e3359-114">Spécifie un destinataire de messagerie ou un contact Active Directory.</span><span class="sxs-lookup"><span data-stu-id="e3359-114">Specifies an email recipient or Active Directory contact.</span></span>  <br/> |
+|[<span data-ttu-id="c0926-113">EmailUser</span><span class="sxs-lookup"><span data-stu-id="c0926-113">EmailUser</span></span>](emailuser.md) <br/> |<span data-ttu-id="c0926-114">Spécifie un destinataire de messagerie ou un contact Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c0926-114">Specifies an email recipient or Active Directory contact.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="e3359-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="e3359-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c0926-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c0926-115">Parent elements</span></span>
 
-|<span data-ttu-id="e3359-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="e3359-116">**Element**</span></span>|<span data-ttu-id="e3359-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="e3359-117">**Description**</span></span>|
+|<span data-ttu-id="c0926-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c0926-116">**Element**</span></span>|<span data-ttu-id="c0926-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="c0926-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e3359-118">MeetingSuggestion</span><span class="sxs-lookup"><span data-stu-id="e3359-118">MeetingSuggestion</span></span>](meetingsuggestion.md) <br/> |<span data-ttu-id="e3359-119">Spécifie une réunion proposée.</span><span class="sxs-lookup"><span data-stu-id="e3359-119">Specifies a proposed meeting.</span></span>  <br/> |
+|[<span data-ttu-id="c0926-118">MeetingSuggestion</span><span class="sxs-lookup"><span data-stu-id="c0926-118">MeetingSuggestion</span></span>](meetingsuggestion.md) <br/> |<span data-ttu-id="c0926-119">Spécifie une réunion proposée.</span><span class="sxs-lookup"><span data-stu-id="c0926-119">Specifies a proposed meeting.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e3359-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="e3359-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c0926-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="c0926-120">Remarks</span></span>
 
-<span data-ttu-id="e3359-121">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e3359-121">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="c0926-121">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c0926-121">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="e3359-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="e3359-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="c0926-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="c0926-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="e3359-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="e3359-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c0926-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c0926-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e3359-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="e3359-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="e3359-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="e3359-125">Schema Name</span></span>  <br/> |<span data-ttu-id="e3359-126">Schéma type</span><span class="sxs-lookup"><span data-stu-id="e3359-126">Type schema</span></span>  <br/> |
-|<span data-ttu-id="e3359-127">Validation File</span><span class="sxs-lookup"><span data-stu-id="e3359-127">Validation File</span></span>  <br/> |<span data-ttu-id="e3359-128">types. xsd</span><span class="sxs-lookup"><span data-stu-id="e3359-128">types.xsd</span></span>  <br/> |
-|<span data-ttu-id="e3359-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="e3359-129">Can Be Empty</span></span>  <br/> ||
+|<span data-ttu-id="c0926-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c0926-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="c0926-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c0926-125">Schema Name</span></span>  <br/> |<span data-ttu-id="c0926-126">Schéma type</span><span class="sxs-lookup"><span data-stu-id="c0926-126">Type schema</span></span>  <br/> |
+|<span data-ttu-id="c0926-127">Validation File</span><span class="sxs-lookup"><span data-stu-id="c0926-127">Validation File</span></span>  <br/> |<span data-ttu-id="c0926-128">types. xsd</span><span class="sxs-lookup"><span data-stu-id="c0926-128">types.xsd</span></span>  <br/> |
+|<span data-ttu-id="c0926-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c0926-129">Can Be Empty</span></span>  <br/> ||
    
-## <a name="see-also"></a><span data-ttu-id="e3359-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e3359-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0926-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c0926-130">See also</span></span>
 
-- [<span data-ttu-id="e3359-131">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="e3359-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="c0926-131">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c0926-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

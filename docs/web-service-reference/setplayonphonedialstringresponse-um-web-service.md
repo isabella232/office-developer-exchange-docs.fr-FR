@@ -15,52 +15,52 @@ ms.openlocfilehash: f0395945927fa99c03278ee965e8d423bcb64360
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458620"
 ---
-# <a name="setplayonphonedialstringresponse-um-web-service"></a><span data-ttu-id="1d108-103">SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="1d108-103">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>
+# <a name="setplayonphonedialstringresponse-um-web-service"></a><span data-ttu-id="8b1a3-103">SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="8b1a3-103">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>
 
-<span data-ttu-id="1d108-104">L’élément **SetPlayOnPhoneDialStringResponse** définit une réponse à une [opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)](setplayonphonedialstring-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="1d108-104">The **SetPlayOnPhoneDialStringResponse** element defines a response to a [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md) request.</span></span> 
+<span data-ttu-id="8b1a3-104">L’élément **SetPlayOnPhoneDialStringResponse** définit une réponse à une [opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)](setplayonphonedialstring-operation-um-web-service.md) .</span><span class="sxs-lookup"><span data-stu-id="8b1a3-104">The **SetPlayOnPhoneDialStringResponse** element defines a response to a [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md) request.</span></span> 
   
-[<span data-ttu-id="1d108-105">SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="1d108-105">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>](setplayonphonedialstringresponse-um-web-service.md)
+[<span data-ttu-id="8b1a3-105">SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="8b1a3-105">SetPlayOnPhoneDialStringResponse (UM web service)</span></span>](setplayonphonedialstringresponse-um-web-service.md)
   
 ```xml
 <SetPlayOnPhoneDialStringResponse />
 ```
 
- <span data-ttu-id="1d108-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="1d108-106">**complexType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="1d108-107">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="1d108-107">Attributes and elements</span></span>
+ <span data-ttu-id="8b1a3-106">**complexType**</span><span class="sxs-lookup"><span data-stu-id="8b1a3-106">**complexType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="8b1a3-107">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="8b1a3-107">Attributes and elements</span></span>
 
-<span data-ttu-id="1d108-108">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="1d108-108">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="8b1a3-108">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="8b1a3-108">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="1d108-109">Attributs</span><span class="sxs-lookup"><span data-stu-id="1d108-109">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="8b1a3-109">Attributs</span><span class="sxs-lookup"><span data-stu-id="8b1a3-109">Attributes</span></span>
 
-<span data-ttu-id="1d108-110">Aucune.</span><span class="sxs-lookup"><span data-stu-id="1d108-110">None.</span></span>
+<span data-ttu-id="8b1a3-110">Aucune.</span><span class="sxs-lookup"><span data-stu-id="8b1a3-110">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="1d108-111">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="1d108-111">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="8b1a3-111">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="8b1a3-111">Child elements</span></span>
 
-<span data-ttu-id="1d108-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="1d108-112">None.</span></span>
+<span data-ttu-id="8b1a3-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8b1a3-112">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="1d108-113">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="1d108-113">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="8b1a3-113">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="8b1a3-113">Parent elements</span></span>
 
-<span data-ttu-id="1d108-114">Aucun.</span><span class="sxs-lookup"><span data-stu-id="1d108-114">None.</span></span>
+<span data-ttu-id="8b1a3-114">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8b1a3-114">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="1d108-115">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="1d108-115">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="8b1a3-115">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="8b1a3-115">Text value</span></span>
 
-<span data-ttu-id="1d108-116">Aucune.</span><span class="sxs-lookup"><span data-stu-id="1d108-116">None.</span></span>
+<span data-ttu-id="8b1a3-116">Aucune.</span><span class="sxs-lookup"><span data-stu-id="8b1a3-116">None.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="1d108-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="1d108-117">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="8b1a3-117">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="8b1a3-117">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1d108-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="1d108-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="1d108-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="1d108-119">Schema Name</span></span>  <br/> |<span data-ttu-id="1d108-120">Messages</span><span class="sxs-lookup"><span data-stu-id="1d108-120">Messages</span></span>  <br/> |
-|<span data-ttu-id="1d108-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="1d108-121">Validation File</span></span>  <br/> |<span data-ttu-id="1d108-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="1d108-122">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="1d108-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="1d108-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="1d108-124">True</span><span class="sxs-lookup"><span data-stu-id="1d108-124">True</span></span>  <br/> |
+|<span data-ttu-id="8b1a3-118">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="8b1a3-118">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="8b1a3-119">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="8b1a3-119">Schema Name</span></span>  <br/> |<span data-ttu-id="8b1a3-120">Messages</span><span class="sxs-lookup"><span data-stu-id="8b1a3-120">Messages</span></span>  <br/> |
+|<span data-ttu-id="8b1a3-121">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="8b1a3-121">Validation File</span></span>  <br/> |<span data-ttu-id="8b1a3-122">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="8b1a3-122">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="8b1a3-123">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="8b1a3-123">Can be Empty</span></span>  <br/> |<span data-ttu-id="8b1a3-124">True</span><span class="sxs-lookup"><span data-stu-id="8b1a3-124">True</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1d108-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1d108-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8b1a3-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8b1a3-125">See also</span></span>
 
 
 
-[<span data-ttu-id="1d108-126">Opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="1d108-126">SetPlayOnPhoneDialString operation (UM web service)</span></span>](setplayonphonedialstring-operation-um-web-service.md)
+[<span data-ttu-id="8b1a3-126">Opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)</span><span class="sxs-lookup"><span data-stu-id="8b1a3-126">SetPlayOnPhoneDialString operation (UM web service)</span></span>](setplayonphonedialstring-operation-um-web-service.md)
 

@@ -16,12 +16,12 @@ ms.openlocfilehash: 8ff71ed5d52f713e11188b07c8c93aeee7dfa44d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458634"
 ---
-# <a name="getmailtips"></a><span data-ttu-id="7585b-103">GetMailTips</span><span class="sxs-lookup"><span data-stu-id="7585b-103">GetMailTips</span></span>
+# <a name="getmailtips"></a><span data-ttu-id="6aa0c-103">GetMailTips</span><span class="sxs-lookup"><span data-stu-id="6aa0c-103">GetMailTips</span></span>
 
-<span data-ttu-id="7585b-104">L’élément **GetMailTips** représente les destinataires et les types de conseils de messagerie à récupérer.</span><span class="sxs-lookup"><span data-stu-id="7585b-104">The **GetMailTips** element represents the recipients and types of mail tips to retrieve.</span></span> 
+<span data-ttu-id="6aa0c-104">L’élément **GetMailTips** représente les destinataires et les types de conseils de messagerie à récupérer.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-104">The **GetMailTips** element represents the recipients and types of mail tips to retrieve.</span></span> 
   
 ```XML
 <GetMailTips>
@@ -31,47 +31,47 @@ ms.locfileid: "44458634"
 </GetMailTips>
 ```
 
- <span data-ttu-id="7585b-105">**GetMailTipsType**</span><span class="sxs-lookup"><span data-stu-id="7585b-105">**GetMailTipsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="7585b-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="7585b-106">Attributes and elements</span></span>
+ <span data-ttu-id="6aa0c-105">**GetMailTipsType**</span><span class="sxs-lookup"><span data-stu-id="6aa0c-105">**GetMailTipsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="6aa0c-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="6aa0c-106">Attributes and elements</span></span>
 
-<span data-ttu-id="7585b-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="7585b-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="6aa0c-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="7585b-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="7585b-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6aa0c-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="6aa0c-108">Attributes</span></span>
 
-<span data-ttu-id="7585b-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="7585b-109">None.</span></span>
+<span data-ttu-id="6aa0c-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="7585b-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="7585b-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6aa0c-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="6aa0c-110">Child elements</span></span>
 
-|<span data-ttu-id="7585b-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="7585b-111">**Element**</span></span>|<span data-ttu-id="7585b-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="7585b-112">**Description**</span></span>|
+|<span data-ttu-id="6aa0c-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="6aa0c-111">**Element**</span></span>|<span data-ttu-id="6aa0c-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="6aa0c-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7585b-113">Envoyeras</span><span class="sxs-lookup"><span data-stu-id="7585b-113">SendingAs</span></span>](sendingas.md) <br/> |<span data-ttu-id="7585b-114">Contient une adresse de messagerie électronique que l’utilisateur tente d’envoyer.</span><span class="sxs-lookup"><span data-stu-id="7585b-114">Contains an e-mail address that a user is trying to send as.</span></span>  <br/> |
-|[<span data-ttu-id="7585b-115">Destinataires (ArrayOfRecipientsType)</span><span class="sxs-lookup"><span data-stu-id="7585b-115">Recipients (ArrayOfRecipientsType)</span></span>](recipients-arrayofrecipientstype.md) <br/> |<span data-ttu-id="7585b-116">Contient une liste de destinataires dans lesquels vérifier les conseils de messagerie.</span><span class="sxs-lookup"><span data-stu-id="7585b-116">Contains a list of recipients to check for mail tips.</span></span>  <br/> |
-|[<span data-ttu-id="7585b-117">MailTipsRequested</span><span class="sxs-lookup"><span data-stu-id="7585b-117">MailTipsRequested</span></span>](mailtipsrequested.md) <br/> |<span data-ttu-id="7585b-118">Contient les types de conseils de messagerie demandés à partir du service.</span><span class="sxs-lookup"><span data-stu-id="7585b-118">Contains the types of mail tips requested from the service.</span></span>  <br/> |
+|[<span data-ttu-id="6aa0c-113">Envoyeras</span><span class="sxs-lookup"><span data-stu-id="6aa0c-113">SendingAs</span></span>](sendingas.md) <br/> |<span data-ttu-id="6aa0c-114">Contient une adresse de messagerie électronique que l’utilisateur tente d’envoyer.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-114">Contains an e-mail address that a user is trying to send as.</span></span>  <br/> |
+|[<span data-ttu-id="6aa0c-115">Destinataires (ArrayOfRecipientsType)</span><span class="sxs-lookup"><span data-stu-id="6aa0c-115">Recipients (ArrayOfRecipientsType)</span></span>](recipients-arrayofrecipientstype.md) <br/> |<span data-ttu-id="6aa0c-116">Contient une liste de destinataires dans lesquels vérifier les conseils de messagerie.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-116">Contains a list of recipients to check for mail tips.</span></span>  <br/> |
+|[<span data-ttu-id="6aa0c-117">MailTipsRequested</span><span class="sxs-lookup"><span data-stu-id="6aa0c-117">MailTipsRequested</span></span>](mailtipsrequested.md) <br/> |<span data-ttu-id="6aa0c-118">Contient les types de conseils de messagerie demandés à partir du service.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-118">Contains the types of mail tips requested from the service.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="7585b-119">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="7585b-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="6aa0c-119">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="6aa0c-119">Parent elements</span></span>
 
-<span data-ttu-id="7585b-120">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7585b-120">None.</span></span>
+<span data-ttu-id="6aa0c-120">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-120">None.</span></span>
   
-## <a name="text-value"></a><span data-ttu-id="7585b-121">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="7585b-121">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="6aa0c-121">Valeur de texte</span><span class="sxs-lookup"><span data-stu-id="6aa0c-121">Text value</span></span>
 
-<span data-ttu-id="7585b-122">Aucun.</span><span class="sxs-lookup"><span data-stu-id="7585b-122">None.</span></span>
+<span data-ttu-id="6aa0c-122">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-122">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7585b-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="7585b-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6aa0c-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="6aa0c-123">Remarks</span></span>
 
-<span data-ttu-id="7585b-124">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="7585b-124">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="6aa0c-124">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="6aa0c-124">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="7585b-125">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="7585b-125">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6aa0c-125">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="6aa0c-125">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7585b-126">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="7585b-126">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="7585b-127">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="7585b-127">Schema Name</span></span>  <br/> |<span data-ttu-id="7585b-128">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="7585b-128">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="7585b-129">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="7585b-129">Validation File</span></span>  <br/> |<span data-ttu-id="7585b-130">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="7585b-130">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="7585b-131">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="7585b-131">Can be Empty</span></span>  <br/> |<span data-ttu-id="7585b-132">False</span><span class="sxs-lookup"><span data-stu-id="7585b-132">False</span></span>  <br/> |
+|<span data-ttu-id="6aa0c-126">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="6aa0c-126">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="6aa0c-127">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="6aa0c-127">Schema Name</span></span>  <br/> |<span data-ttu-id="6aa0c-128">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="6aa0c-128">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="6aa0c-129">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="6aa0c-129">Validation File</span></span>  <br/> |<span data-ttu-id="6aa0c-130">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="6aa0c-130">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="6aa0c-131">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="6aa0c-131">Can be Empty</span></span>  <br/> |<span data-ttu-id="6aa0c-132">False</span><span class="sxs-lookup"><span data-stu-id="6aa0c-132">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7585b-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7585b-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6aa0c-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6aa0c-133">See also</span></span>
 
 
 
-- [<span data-ttu-id="7585b-134">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="7585b-134">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="6aa0c-134">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="6aa0c-134">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

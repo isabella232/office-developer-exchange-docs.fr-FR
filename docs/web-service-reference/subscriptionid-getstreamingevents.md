@@ -12,61 +12,61 @@ ms.openlocfilehash: babf02c514e7fe8711f51ac52e425a18f3ab47f7
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457997"
 ---
-# <a name="subscriptionid-getstreamingevents"></a><span data-ttu-id="107c9-103">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="107c9-103">SubscriptionId (GetStreamingEvents)</span></span>
+# <a name="subscriptionid-getstreamingevents"></a><span data-ttu-id="ccbca-103">SubscriptionId (GetStreamingEvents)</span><span class="sxs-lookup"><span data-stu-id="ccbca-103">SubscriptionId (GetStreamingEvents)</span></span>
 
-<span data-ttu-id="107c9-104">L’élément **SubscriptionId** représente l’identificateur d’un abonnement de diffusion en continu.</span><span class="sxs-lookup"><span data-stu-id="107c9-104">The **SubscriptionId** element represents the identifier for a streaming subscription.</span></span> 
+<span data-ttu-id="ccbca-104">L’élément **SubscriptionId** représente l’identificateur d’un abonnement de diffusion en continu.</span><span class="sxs-lookup"><span data-stu-id="ccbca-104">The **SubscriptionId** element represents the identifier for a streaming subscription.</span></span> 
   
 ```XML
 <SubscriptionId/>
 ```
 
- <span data-ttu-id="107c9-105">**SubscriptionIdType**</span><span class="sxs-lookup"><span data-stu-id="107c9-105">**SubscriptionIdType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="107c9-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="107c9-106">Attributes and elements</span></span>
+ <span data-ttu-id="ccbca-105">**SubscriptionIdType**</span><span class="sxs-lookup"><span data-stu-id="ccbca-105">**SubscriptionIdType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ccbca-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="ccbca-106">Attributes and elements</span></span>
 
-<span data-ttu-id="107c9-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="107c9-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ccbca-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="ccbca-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="107c9-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="107c9-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ccbca-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="ccbca-108">Attributes</span></span>
 
-<span data-ttu-id="107c9-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="107c9-109">None.</span></span>
+<span data-ttu-id="ccbca-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="ccbca-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="107c9-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="107c9-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ccbca-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="ccbca-110">Child elements</span></span>
 
-<span data-ttu-id="107c9-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="107c9-111">None.</span></span>
+<span data-ttu-id="ccbca-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="ccbca-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="107c9-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="107c9-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ccbca-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="ccbca-112">Parent elements</span></span>
 
-|<span data-ttu-id="107c9-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="107c9-113">**Element**</span></span>|<span data-ttu-id="107c9-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="107c9-114">**Description**</span></span>|
+|<span data-ttu-id="ccbca-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="ccbca-113">**Element**</span></span>|<span data-ttu-id="ccbca-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="ccbca-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="107c9-115">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="107c9-115">GetStreamingEvents</span></span>](getstreamingevents.md) <br/> |<span data-ttu-id="107c9-116">Représente l’opération utilisée par les clients pour demander des notifications de diffusion en continu à partir du serveur.</span><span class="sxs-lookup"><span data-stu-id="107c9-116">Represents the operation that is used by clients to request streaming notifications from the server.</span></span>  <br/> |
+|[<span data-ttu-id="ccbca-115">GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="ccbca-115">GetStreamingEvents</span></span>](getstreamingevents.md) <br/> |<span data-ttu-id="ccbca-116">Représente l’opération utilisée par les clients pour demander des notifications de diffusion en continu à partir du serveur.</span><span class="sxs-lookup"><span data-stu-id="ccbca-116">Represents the operation that is used by clients to request streaming notifications from the server.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="107c9-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="107c9-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="ccbca-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="ccbca-117">Text value</span></span>
 
-<span data-ttu-id="107c9-118">Une valeur de texte est requise.</span><span class="sxs-lookup"><span data-stu-id="107c9-118">A text value is required.</span></span> <span data-ttu-id="107c9-119">La valeur texte est un GUID.</span><span class="sxs-lookup"><span data-stu-id="107c9-119">The text value is a GUID.</span></span>
+<span data-ttu-id="ccbca-118">Une valeur de texte est requise.</span><span class="sxs-lookup"><span data-stu-id="ccbca-118">A text value is required.</span></span> <span data-ttu-id="ccbca-119">La valeur texte est un GUID.</span><span class="sxs-lookup"><span data-stu-id="ccbca-119">The text value is a GUID.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="107c9-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="107c9-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ccbca-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="ccbca-120">Remarks</span></span>
 
-<span data-ttu-id="107c9-121">Le GUID qui représente l’identificateur d’abonnement est généré par le serveur d’accès au client lors de la création de l’abonnement.</span><span class="sxs-lookup"><span data-stu-id="107c9-121">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
+<span data-ttu-id="ccbca-121">Le GUID qui représente l’identificateur d’abonnement est généré par le serveur d’accès au client lors de la création de l’abonnement.</span><span class="sxs-lookup"><span data-stu-id="ccbca-121">The GUID that represents the subscription identifier is generated by the Client Access server when the subscription is created.</span></span>
   
-<span data-ttu-id="107c9-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="107c9-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="ccbca-122">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="ccbca-122">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="107c9-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="107c9-123">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ccbca-123">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="ccbca-123">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="107c9-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="107c9-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="107c9-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="107c9-125">Schema name</span></span>  <br/> |<span data-ttu-id="107c9-126">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="107c9-126">Types schema</span></span>  <br/> |
-|<span data-ttu-id="107c9-127">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="107c9-127">Validation file</span></span>  <br/> |<span data-ttu-id="107c9-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="107c9-128">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="107c9-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="107c9-129">Can be empty</span></span>  <br/> |<span data-ttu-id="107c9-130">False</span><span class="sxs-lookup"><span data-stu-id="107c9-130">False</span></span>  <br/> |
+|<span data-ttu-id="ccbca-124">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="ccbca-124">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="ccbca-125">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="ccbca-125">Schema name</span></span>  <br/> |<span data-ttu-id="ccbca-126">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="ccbca-126">Types schema</span></span>  <br/> |
+|<span data-ttu-id="ccbca-127">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="ccbca-127">Validation file</span></span>  <br/> |<span data-ttu-id="ccbca-128">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="ccbca-128">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="ccbca-129">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="ccbca-129">Can be empty</span></span>  <br/> |<span data-ttu-id="ccbca-130">False</span><span class="sxs-lookup"><span data-stu-id="ccbca-130">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="107c9-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="107c9-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ccbca-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ccbca-131">See also</span></span>
 
 
 
-[<span data-ttu-id="107c9-132">Opération de GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="107c9-132">GetStreamingEvents operation</span></span>](getstreamingevents-operation.md)
+[<span data-ttu-id="ccbca-132">Opération de GetStreamingEvents</span><span class="sxs-lookup"><span data-stu-id="ccbca-132">GetStreamingEvents operation</span></span>](getstreamingevents-operation.md)
 
 
-- [<span data-ttu-id="107c9-133">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="107c9-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ccbca-133">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="ccbca-133">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

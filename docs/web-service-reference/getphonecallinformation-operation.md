@@ -16,20 +16,20 @@ ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44458312"
 ---
-# <a name="getphonecallinformation-operation"></a><span data-ttu-id="7cbf1-103">Opération GetPhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="7cbf1-103">GetPhoneCallInformation operation</span></span>
+# <a name="getphonecallinformation-operation"></a><span data-ttu-id="14bac-103">Opération GetPhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="14bac-103">GetPhoneCallInformation operation</span></span>
 
-<span data-ttu-id="7cbf1-104">L’opération **GetPhoneCallInformation** retourne des informations sur l’appel téléphonique spécifié.</span><span class="sxs-lookup"><span data-stu-id="7cbf1-104">The **GetPhoneCallInformation** operation returns information about the specified telephone call.</span></span> 
+<span data-ttu-id="14bac-104">L’opération **GetPhoneCallInformation** retourne des informations sur l’appel téléphonique spécifié.</span><span class="sxs-lookup"><span data-stu-id="14bac-104">The **GetPhoneCallInformation** operation returns information about the specified telephone call.</span></span> 
   
-## <a name="getphonecallinformation-request-example"></a><span data-ttu-id="7cbf1-105">Exemple de requête GetPhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="7cbf1-105">GetPhoneCallInformation request example</span></span>
+## <a name="getphonecallinformation-request-example"></a><span data-ttu-id="14bac-105">Exemple de requête GetPhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="14bac-105">GetPhoneCallInformation request example</span></span>
 
-### <a name="description"></a><span data-ttu-id="7cbf1-106">Description</span><span class="sxs-lookup"><span data-stu-id="7cbf1-106">Description</span></span>
+### <a name="description"></a><span data-ttu-id="14bac-106">Description</span><span class="sxs-lookup"><span data-stu-id="14bac-106">Description</span></span>
 
-<span data-ttu-id="7cbf1-107">L’exemple de requête **GetPhoneCallInformation** suivant montre comment créer une demande pour obtenir des informations sur un appel téléphonique spécifique.</span><span class="sxs-lookup"><span data-stu-id="7cbf1-107">The following example of a **GetPhoneCallInformation** request shows how to form a request to get information about a specific telephone call.</span></span> 
+<span data-ttu-id="14bac-107">L’exemple de requête **GetPhoneCallInformation** suivant montre comment créer une demande pour obtenir des informations sur un appel téléphonique spécifique.</span><span class="sxs-lookup"><span data-stu-id="14bac-107">The following example of a **GetPhoneCallInformation** request shows how to form a request to get information about a specific telephone call.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="7cbf1-108">Code</span><span class="sxs-lookup"><span data-stu-id="7cbf1-108">Code</span></span>
+### <a name="code"></a><span data-ttu-id="14bac-108">Code</span><span class="sxs-lookup"><span data-stu-id="14bac-108">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,13 +49,13 @@ ms.locfileid: "44458312"
 </soap:Envelope>
 ```
 
-## <a name="getphonecallinformation-response-example"></a><span data-ttu-id="7cbf1-109">Exemple de réponse GetPhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="7cbf1-109">GetPhoneCallInformation response example</span></span>
+## <a name="getphonecallinformation-response-example"></a><span data-ttu-id="14bac-109">Exemple de réponse GetPhoneCallInformation</span><span class="sxs-lookup"><span data-stu-id="14bac-109">GetPhoneCallInformation response example</span></span>
 
-### <a name="description"></a><span data-ttu-id="7cbf1-110">Description</span><span class="sxs-lookup"><span data-stu-id="7cbf1-110">Description</span></span>
+### <a name="description"></a><span data-ttu-id="14bac-110">Description</span><span class="sxs-lookup"><span data-stu-id="14bac-110">Description</span></span>
 
-<span data-ttu-id="7cbf1-111">L’exemple suivant montre une réponse réussie à la demande **GetPhoneCallInformation** .</span><span class="sxs-lookup"><span data-stu-id="7cbf1-111">The following example shows a successful response to the **GetPhoneCallInformation** request.</span></span> <span data-ttu-id="7cbf1-112">La réponse représente un appel téléphonique actuellement connecté.</span><span class="sxs-lookup"><span data-stu-id="7cbf1-112">The response represents a telephone call that is currently connected.</span></span> 
+<span data-ttu-id="14bac-111">L’exemple suivant montre une réponse réussie à la demande **GetPhoneCallInformation** .</span><span class="sxs-lookup"><span data-stu-id="14bac-111">The following example shows a successful response to the **GetPhoneCallInformation** request.</span></span> <span data-ttu-id="14bac-112">La réponse représente un appel téléphonique actuellement connecté.</span><span class="sxs-lookup"><span data-stu-id="14bac-112">The response represents a telephone call that is currently connected.</span></span> 
   
-### <a name="code"></a><span data-ttu-id="7cbf1-113">Code</span><span class="sxs-lookup"><span data-stu-id="7cbf1-113">Code</span></span>
+### <a name="code"></a><span data-ttu-id="14bac-113">Code</span><span class="sxs-lookup"><span data-stu-id="14bac-113">Code</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -85,8 +85,8 @@ ms.locfileid: "44458312"
 </s:Envelope>
 ```
 
-## <a name="see-also"></a><span data-ttu-id="7cbf1-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7cbf1-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="14bac-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="14bac-114">See also</span></span>
 
-- [<span data-ttu-id="7cbf1-115">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="7cbf1-115">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
-- [<span data-ttu-id="7cbf1-116">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="7cbf1-116">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="14bac-115">Opérations EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="14bac-115">EWS operations in Exchange</span></span>](ews-operations-in-exchange.md)
+- [<span data-ttu-id="14bac-116">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="14bac-116">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

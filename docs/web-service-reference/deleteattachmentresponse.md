@@ -16,12 +16,12 @@ ms.openlocfilehash: 352318ef54687b0d1d4ce73b075248b79238d555
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457325"
 ---
-# <a name="deleteattachmentresponse"></a><span data-ttu-id="b14ec-103">DeleteAttachmentResponse</span><span class="sxs-lookup"><span data-stu-id="b14ec-103">DeleteAttachmentResponse</span></span>
+# <a name="deleteattachmentresponse"></a><span data-ttu-id="ead4d-103">DeleteAttachmentResponse</span><span class="sxs-lookup"><span data-stu-id="ead4d-103">DeleteAttachmentResponse</span></span>
 
-<span data-ttu-id="b14ec-104">Le **DeleteAttachmentResponse** définit une réponse à une demande DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="b14ec-104">The **DeleteAttachmentResponse** defines a response to a DeleteAttachment request.</span></span> 
+<span data-ttu-id="ead4d-104">Le **DeleteAttachmentResponse** définit une réponse à une demande DeleteAttachment.</span><span class="sxs-lookup"><span data-stu-id="ead4d-104">The **DeleteAttachmentResponse** defines a response to a DeleteAttachment request.</span></span> 
   
 ```xml
 <DeleteAttachmentResponse>
@@ -29,42 +29,42 @@ ms.locfileid: "44457325"
 </DeleteAttachmentResponse>
 ```
 
-<span data-ttu-id="b14ec-105">**DeleteAttachmentResponseType**</span><span class="sxs-lookup"><span data-stu-id="b14ec-105">**DeleteAttachmentResponseType**</span></span>
+<span data-ttu-id="ead4d-105">**DeleteAttachmentResponseType**</span><span class="sxs-lookup"><span data-stu-id="ead4d-105">**DeleteAttachmentResponseType**</span></span>
 
-## <a name="attributes-and-elements"></a><span data-ttu-id="b14ec-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="b14ec-106">Attributes and elements</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="ead4d-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="ead4d-106">Attributes and elements</span></span>
 
-<span data-ttu-id="b14ec-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="b14ec-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="ead4d-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="ead4d-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b14ec-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="b14ec-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="ead4d-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="ead4d-108">Attributes</span></span>
 
-<span data-ttu-id="b14ec-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="b14ec-109">None.</span></span>
+<span data-ttu-id="ead4d-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="ead4d-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="b14ec-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="b14ec-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="ead4d-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="ead4d-110">Child elements</span></span>
 
-|<span data-ttu-id="b14ec-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="b14ec-111">**Element**</span></span>|<span data-ttu-id="b14ec-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="b14ec-112">**Description**</span></span>|
+|<span data-ttu-id="ead4d-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="ead4d-111">**Element**</span></span>|<span data-ttu-id="ead4d-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="ead4d-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b14ec-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="b14ec-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="b14ec-114">Contient les messages de réponse pour une demande des services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="b14ec-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
+|[<span data-ttu-id="ead4d-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="ead4d-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="ead4d-114">Contient les messages de réponse pour une demande des services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="ead4d-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="b14ec-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="b14ec-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="ead4d-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="ead4d-115">Parent elements</span></span>
 
-<span data-ttu-id="b14ec-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="b14ec-116">None.</span></span>
+<span data-ttu-id="ead4d-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="ead4d-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="b14ec-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="b14ec-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ead4d-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="ead4d-117">Remarks</span></span>
 
-<span data-ttu-id="b14ec-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="b14ec-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="ead4d-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="ead4d-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="b14ec-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="b14ec-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="ead4d-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="ead4d-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b14ec-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="b14ec-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="b14ec-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="b14ec-121">Schema name</span></span>  <br/> |<span data-ttu-id="b14ec-122">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="b14ec-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="b14ec-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="b14ec-123">Validation file</span></span>  <br/> |<span data-ttu-id="b14ec-124">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="b14ec-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="b14ec-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="b14ec-125">Can be empty</span></span>  <br/> |<span data-ttu-id="b14ec-126">False</span><span class="sxs-lookup"><span data-stu-id="b14ec-126">False</span></span>  <br/> |
+|<span data-ttu-id="ead4d-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="ead4d-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="ead4d-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="ead4d-121">Schema name</span></span>  <br/> |<span data-ttu-id="ead4d-122">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="ead4d-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="ead4d-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="ead4d-123">Validation file</span></span>  <br/> |<span data-ttu-id="ead4d-124">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="ead4d-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="ead4d-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="ead4d-125">Can be empty</span></span>  <br/> |<span data-ttu-id="ead4d-126">False</span><span class="sxs-lookup"><span data-stu-id="ead4d-126">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b14ec-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b14ec-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ead4d-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ead4d-127">See also</span></span>
 
-- [<span data-ttu-id="b14ec-128">Opération DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="b14ec-128">DeleteAttachment operation</span></span>](deleteattachment-operation.md)  
-- [<span data-ttu-id="b14ec-129">DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="b14ec-129">DeleteAttachment</span></span>](deleteattachment.md)
-- [<span data-ttu-id="b14ec-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="b14ec-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="ead4d-128">Opération DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="ead4d-128">DeleteAttachment operation</span></span>](deleteattachment-operation.md)  
+- [<span data-ttu-id="ead4d-129">DeleteAttachment</span><span class="sxs-lookup"><span data-stu-id="ead4d-129">DeleteAttachment</span></span>](deleteattachment.md)
+- [<span data-ttu-id="ead4d-130">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="ead4d-130">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

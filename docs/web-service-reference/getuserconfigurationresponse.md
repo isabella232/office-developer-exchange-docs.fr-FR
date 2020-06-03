@@ -16,52 +16,52 @@ ms.openlocfilehash: d80f281f8dc02f911281959b8629b0d8908f4e97
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44457703"
 ---
-# <a name="getuserconfigurationresponse"></a><span data-ttu-id="c4aba-103">GetUserConfigurationResponse</span><span class="sxs-lookup"><span data-stu-id="c4aba-103">GetUserConfigurationResponse</span></span>
+# <a name="getuserconfigurationresponse"></a><span data-ttu-id="af138-103">GetUserConfigurationResponse</span><span class="sxs-lookup"><span data-stu-id="af138-103">GetUserConfigurationResponse</span></span>
 
-<span data-ttu-id="c4aba-104">L’élément **GetUserConfigurationResponse** définit une réponse à une requête GetUserConfiguration unique.</span><span class="sxs-lookup"><span data-stu-id="c4aba-104">The **GetUserConfigurationResponse** element defines a response to a single GetUserConfiguration request.</span></span> 
+<span data-ttu-id="af138-104">L’élément **GetUserConfigurationResponse** définit une réponse à une requête GetUserConfiguration unique.</span><span class="sxs-lookup"><span data-stu-id="af138-104">The **GetUserConfigurationResponse** element defines a response to a single GetUserConfiguration request.</span></span> 
   
 ```xml
 <GetUserConfigurationResponse>   <ResponseMessages/></GetUserConfigurationResponse>
 ```
 
- <span data-ttu-id="c4aba-105">**GetUserConfigurationResponseType**</span><span class="sxs-lookup"><span data-stu-id="c4aba-105">**GetUserConfigurationResponseType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c4aba-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c4aba-106">Attributes and elements</span></span>
+ <span data-ttu-id="af138-105">**GetUserConfigurationResponseType**</span><span class="sxs-lookup"><span data-stu-id="af138-105">**GetUserConfigurationResponseType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="af138-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="af138-106">Attributes and elements</span></span>
 
-<span data-ttu-id="c4aba-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c4aba-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="af138-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="af138-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c4aba-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="c4aba-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="af138-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="af138-108">Attributes</span></span>
 
-<span data-ttu-id="c4aba-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="c4aba-109">None.</span></span>
+<span data-ttu-id="af138-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="af138-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c4aba-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c4aba-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="af138-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="af138-110">Child elements</span></span>
 
-|<span data-ttu-id="c4aba-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c4aba-111">**Element**</span></span>|<span data-ttu-id="c4aba-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="c4aba-112">**Description**</span></span>|
+|<span data-ttu-id="af138-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="af138-111">**Element**</span></span>|<span data-ttu-id="af138-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="af138-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c4aba-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="c4aba-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="c4aba-114">Contient les messages de réponse pour une demande des services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="c4aba-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
+|[<span data-ttu-id="af138-113">ResponseMessages</span><span class="sxs-lookup"><span data-stu-id="af138-113">ResponseMessages</span></span>](responsemessages.md) <br/> |<span data-ttu-id="af138-114">Contient les messages de réponse pour une demande des services Web Exchange.</span><span class="sxs-lookup"><span data-stu-id="af138-114">Contains the response messages for an Exchange Web Services request.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="c4aba-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c4aba-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="af138-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="af138-115">Parent elements</span></span>
 
-<span data-ttu-id="c4aba-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c4aba-116">None.</span></span>
+<span data-ttu-id="af138-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="af138-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c4aba-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="c4aba-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="af138-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="af138-117">Remarks</span></span>
 
-<span data-ttu-id="c4aba-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="c4aba-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
+<span data-ttu-id="af138-118">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.</span><span class="sxs-lookup"><span data-stu-id="af138-118">The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2010 that has the Client Access server role installed.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c4aba-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c4aba-119">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="af138-119">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="af138-119">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c4aba-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c4aba-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="c4aba-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c4aba-121">Schema Name</span></span>  <br/> |<span data-ttu-id="c4aba-122">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="c4aba-122">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="c4aba-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="c4aba-123">Validation File</span></span>  <br/> |<span data-ttu-id="c4aba-124">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="c4aba-124">Messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="c4aba-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c4aba-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="c4aba-126">False</span><span class="sxs-lookup"><span data-stu-id="c4aba-126">False</span></span>  <br/> |
+|<span data-ttu-id="af138-120">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="af138-120">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="af138-121">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="af138-121">Schema Name</span></span>  <br/> |<span data-ttu-id="af138-122">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="af138-122">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="af138-123">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="af138-123">Validation File</span></span>  <br/> |<span data-ttu-id="af138-124">Messages. xsd</span><span class="sxs-lookup"><span data-stu-id="af138-124">Messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="af138-125">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="af138-125">Can be Empty</span></span>  <br/> |<span data-ttu-id="af138-126">False</span><span class="sxs-lookup"><span data-stu-id="af138-126">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c4aba-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c4aba-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="af138-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="af138-127">See also</span></span>
 
 
 
-- [<span data-ttu-id="c4aba-128">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c4aba-128">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="af138-128">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="af138-128">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

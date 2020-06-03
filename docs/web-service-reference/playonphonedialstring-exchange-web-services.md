@@ -16,58 +16,58 @@ ms.openlocfilehash: 310934895295af179e651b94c33dfb86d0f94e1d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44466219"
 ---
-# <a name="playonphonedialstring-exchange-web-services"></a><span data-ttu-id="60193-103">PlayOnPhoneDialString (services Web Exchange)</span><span class="sxs-lookup"><span data-stu-id="60193-103">PlayOnPhoneDialString (Exchange Web Services)</span></span>
+# <a name="playonphonedialstring-exchange-web-services"></a><span data-ttu-id="fb546-103">PlayOnPhoneDialString (services Web Exchange)</span><span class="sxs-lookup"><span data-stu-id="fb546-103">PlayOnPhoneDialString (Exchange Web Services)</span></span>
 
-<span data-ttu-id="60193-104">L’élément **PlayOnPhoneDialString** identifie la chaîne de numérotation lecture sur téléphone.</span><span class="sxs-lookup"><span data-stu-id="60193-104">The **PlayOnPhoneDialString** element identifies the Play-on-Phone dial string.</span></span> 
+<span data-ttu-id="fb546-104">L’élément **PlayOnPhoneDialString** identifie la chaîne de numérotation lecture sur téléphone.</span><span class="sxs-lookup"><span data-stu-id="fb546-104">The **PlayOnPhoneDialString** element identifies the Play-on-Phone dial string.</span></span> 
   
 ```XML
 <PlayOnPhoneDialString/>
 ```
 
- <span data-ttu-id="60193-105">**chaîne**</span><span class="sxs-lookup"><span data-stu-id="60193-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="60193-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="60193-106">Attributes and elements</span></span>
+ <span data-ttu-id="fb546-105">**chaîne**</span><span class="sxs-lookup"><span data-stu-id="fb546-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="fb546-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="fb546-106">Attributes and elements</span></span>
 
-<span data-ttu-id="60193-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="60193-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="fb546-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="fb546-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="60193-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="60193-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="fb546-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="fb546-108">Attributes</span></span>
 
-<span data-ttu-id="60193-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="60193-109">None.</span></span>
+<span data-ttu-id="fb546-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="fb546-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="60193-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="60193-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="fb546-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="fb546-110">Child elements</span></span>
 
-<span data-ttu-id="60193-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="60193-111">None.</span></span>
+<span data-ttu-id="fb546-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="fb546-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="60193-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="60193-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="fb546-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="fb546-112">Parent elements</span></span>
 
-|<span data-ttu-id="60193-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="60193-113">**Element**</span></span>|<span data-ttu-id="60193-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="60193-114">**Description**</span></span>|
+|<span data-ttu-id="fb546-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="fb546-113">**Element**</span></span>|<span data-ttu-id="fb546-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="fb546-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="60193-115">UnifiedMessagingConfiguration</span><span class="sxs-lookup"><span data-stu-id="60193-115">UnifiedMessagingConfiguration</span></span>](unifiedmessagingconfiguration.md) <br/> |<span data-ttu-id="60193-116">Contient des informations de configuration de service pour le service de messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="60193-116">Contains service configuration information for the Unified Messaging service.</span></span>  <br/> |
+|[<span data-ttu-id="fb546-115">UnifiedMessagingConfiguration</span><span class="sxs-lookup"><span data-stu-id="fb546-115">UnifiedMessagingConfiguration</span></span>](unifiedmessagingconfiguration.md) <br/> |<span data-ttu-id="fb546-116">Contient des informations de configuration de service pour le service de messagerie unifiée.</span><span class="sxs-lookup"><span data-stu-id="fb546-116">Contains service configuration information for the Unified Messaging service.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="60193-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="60193-117">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="fb546-117">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="fb546-117">Text value</span></span>
 
-<span data-ttu-id="60193-118">La valeur de texte de cet élément est la chaîne de numérotation de lecture sur téléphone.</span><span class="sxs-lookup"><span data-stu-id="60193-118">The text value for this element is the Play-on-Phone dial string.</span></span>
+<span data-ttu-id="fb546-118">La valeur de texte de cet élément est la chaîne de numérotation de lecture sur téléphone.</span><span class="sxs-lookup"><span data-stu-id="fb546-118">The text value for this element is the Play-on-Phone dial string.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="60193-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="60193-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fb546-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="fb546-119">Remarks</span></span>
 
-<span data-ttu-id="60193-120">Cet élément est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="60193-120">This element is required.</span></span>
+<span data-ttu-id="fb546-120">Cet élément est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="fb546-120">This element is required.</span></span>
   
-<span data-ttu-id="60193-121">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="60193-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="fb546-121">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="fb546-121">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="60193-122">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="60193-122">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="fb546-122">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="fb546-122">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="60193-123">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="60193-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="60193-124">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="60193-124">Schema Name</span></span>  <br/> |<span data-ttu-id="60193-125">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="60193-125">Types schema</span></span>  <br/> |
-|<span data-ttu-id="60193-126">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="60193-126">Validation File</span></span>  <br/> |<span data-ttu-id="60193-127">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="60193-127">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="60193-128">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="60193-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="60193-129">False</span><span class="sxs-lookup"><span data-stu-id="60193-129">False</span></span>  <br/> |
+|<span data-ttu-id="fb546-123">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="fb546-123">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="fb546-124">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="fb546-124">Schema Name</span></span>  <br/> |<span data-ttu-id="fb546-125">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="fb546-125">Types schema</span></span>  <br/> |
+|<span data-ttu-id="fb546-126">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="fb546-126">Validation File</span></span>  <br/> |<span data-ttu-id="fb546-127">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="fb546-127">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="fb546-128">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="fb546-128">Can be Empty</span></span>  <br/> |<span data-ttu-id="fb546-129">False</span><span class="sxs-lookup"><span data-stu-id="fb546-129">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="60193-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="60193-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fb546-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fb546-130">See also</span></span>
 
 
 
-- [<span data-ttu-id="60193-131">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="60193-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="fb546-131">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="fb546-131">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

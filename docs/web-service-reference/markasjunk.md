@@ -12,12 +12,12 @@ ms.openlocfilehash: 99adc423864f3096772394ef290df20e158e457d
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467080"
 ---
-# <a name="markasjunk"></a><span data-ttu-id="30dd0-103">MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="30dd0-103">MarkAsJunk</span></span>
+# <a name="markasjunk"></a><span data-ttu-id="0c482-103">MarkAsJunk</span><span class="sxs-lookup"><span data-stu-id="0c482-103">MarkAsJunk</span></span>
 
-<span data-ttu-id="30dd0-104">L’élément **MarkAsJunk** spécifie la demande de déplacement d’un élément vers le dossier de courrier indésirable et d’ajouter l’expéditeur à la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="30dd0-104">The **MarkAsJunk** element specifies the request to move an item to the junk mail folder and to add the sender to the blocked sender list.</span></span> 
+<span data-ttu-id="0c482-104">L’élément **MarkAsJunk** spécifie la demande de déplacement d’un élément vers le dossier de courrier indésirable et d’ajouter l’expéditeur à la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="0c482-104">The **MarkAsJunk** element specifies the request to move an item to the junk mail folder and to add the sender to the blocked sender list.</span></span> 
   
 ```XML
 <MarkAsJunk IsJunk="true | false" MoveItem="true | false">
@@ -25,39 +25,39 @@ ms.locfileid: "44467080"
 </MarkAsJunk>
 ```
 
- <span data-ttu-id="30dd0-105">**MarkAsJunkType**</span><span class="sxs-lookup"><span data-stu-id="30dd0-105">**MarkAsJunkType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="30dd0-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="30dd0-106">Attributes and elements</span></span>
+ <span data-ttu-id="0c482-105">**MarkAsJunkType**</span><span class="sxs-lookup"><span data-stu-id="0c482-105">**MarkAsJunkType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0c482-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="0c482-106">Attributes and elements</span></span>
 
-<span data-ttu-id="30dd0-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="30dd0-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0c482-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="0c482-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="30dd0-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="30dd0-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0c482-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="0c482-108">Attributes</span></span>
 
-|<span data-ttu-id="30dd0-109">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="30dd0-109">**Attribute**</span></span>|<span data-ttu-id="30dd0-110">**Description**</span><span class="sxs-lookup"><span data-stu-id="30dd0-110">**Description**</span></span>|
+|<span data-ttu-id="0c482-109">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="0c482-109">**Attribute**</span></span>|<span data-ttu-id="0c482-110">**Description**</span><span class="sxs-lookup"><span data-stu-id="0c482-110">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="30dd0-111">IsJunk</span><span class="sxs-lookup"><span data-stu-id="30dd0-111">IsJunk</span></span>  <br/> |<span data-ttu-id="30dd0-112">Une valeur de texte de **true** pour l’attribut **IsJunk** indique que l’expéditeur du message électronique est ajouté à la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="30dd0-112">A text value of **true** for the **IsJunk** attribute indicates that the email sender is added to the blocked sender list.</span></span> <span data-ttu-id="30dd0-113">La valeur **false** indique que l’expéditeur du message électronique est supprimé de la liste des expéditeurs bloqués, si l’expéditeur de l’e-mail figure déjà dans la liste.</span><span class="sxs-lookup"><span data-stu-id="30dd0-113">A value of **false** indicates that the email sender is removed from the blocked sender list, if the email sender is already on the list.</span></span>  <br/> |
-|<span data-ttu-id="30dd0-114">MoveItem</span><span class="sxs-lookup"><span data-stu-id="30dd0-114">MoveItem</span></span>  <br/> |<span data-ttu-id="30dd0-115">Une valeur de texte de **true** pour l’attribut **MoveItem** indique que l’élément est déplacé vers le dossier de courrier indésirable par défaut.</span><span class="sxs-lookup"><span data-stu-id="30dd0-115">A text value of **true** for the **MoveItem** attribute indicates that the item is moved to the default junk mail folder.</span></span> <span data-ttu-id="30dd0-116">La valeur **false** indique que l’élément n’est pas déplacé vers le dossier de courrier indésirable par défaut.</span><span class="sxs-lookup"><span data-stu-id="30dd0-116">A value of **false** indicates that the item is not moved to the default junk mail folder.</span></span>  <br/> |
+|<span data-ttu-id="0c482-111">IsJunk</span><span class="sxs-lookup"><span data-stu-id="0c482-111">IsJunk</span></span>  <br/> |<span data-ttu-id="0c482-112">Une valeur de texte de **true** pour l’attribut **IsJunk** indique que l’expéditeur du message électronique est ajouté à la liste des expéditeurs bloqués.</span><span class="sxs-lookup"><span data-stu-id="0c482-112">A text value of **true** for the **IsJunk** attribute indicates that the email sender is added to the blocked sender list.</span></span> <span data-ttu-id="0c482-113">La valeur **false** indique que l’expéditeur du message électronique est supprimé de la liste des expéditeurs bloqués, si l’expéditeur de l’e-mail figure déjà dans la liste.</span><span class="sxs-lookup"><span data-stu-id="0c482-113">A value of **false** indicates that the email sender is removed from the blocked sender list, if the email sender is already on the list.</span></span>  <br/> |
+|<span data-ttu-id="0c482-114">MoveItem</span><span class="sxs-lookup"><span data-stu-id="0c482-114">MoveItem</span></span>  <br/> |<span data-ttu-id="0c482-115">Une valeur de texte de **true** pour l’attribut **MoveItem** indique que l’élément est déplacé vers le dossier de courrier indésirable par défaut.</span><span class="sxs-lookup"><span data-stu-id="0c482-115">A text value of **true** for the **MoveItem** attribute indicates that the item is moved to the default junk mail folder.</span></span> <span data-ttu-id="0c482-116">La valeur **false** indique que l’élément n’est pas déplacé vers le dossier de courrier indésirable par défaut.</span><span class="sxs-lookup"><span data-stu-id="0c482-116">A value of **false** indicates that the item is not moved to the default junk mail folder.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="30dd0-117">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="30dd0-117">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0c482-117">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="0c482-117">Child elements</span></span>
 
-[<span data-ttu-id="30dd0-118">ItemIds</span><span class="sxs-lookup"><span data-stu-id="30dd0-118">ItemIds</span></span>](itemids.md)
+[<span data-ttu-id="0c482-118">ItemIds</span><span class="sxs-lookup"><span data-stu-id="0c482-118">ItemIds</span></span>](itemids.md)
   
-### <a name="parent-elements"></a><span data-ttu-id="30dd0-119">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="30dd0-119">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0c482-119">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="0c482-119">Parent elements</span></span>
 
-<span data-ttu-id="30dd0-120">Aucun.</span><span class="sxs-lookup"><span data-stu-id="30dd0-120">None.</span></span>
+<span data-ttu-id="0c482-120">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0c482-120">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="30dd0-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="30dd0-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c482-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="0c482-121">Remarks</span></span>
 
-<span data-ttu-id="30dd0-122">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="30dd0-122">This element was introduced in Exchange Server 2013.</span></span>
+<span data-ttu-id="0c482-122">Cet élément est une nouveauté d'Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0c482-122">This element was introduced in Exchange Server 2013.</span></span>
   
-<span data-ttu-id="30dd0-123">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="30dd0-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="0c482-123">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="0c482-123">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="30dd0-124">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="30dd0-124">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0c482-124">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="0c482-124">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="30dd0-125">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="30dd0-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|<span data-ttu-id="30dd0-126">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="30dd0-126">Schema name</span></span>  <br/> |<span data-ttu-id="30dd0-127">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="30dd0-127">Messages schema</span></span>  <br/> |
-|<span data-ttu-id="30dd0-128">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="30dd0-128">Validation file</span></span>  <br/> |<span data-ttu-id="30dd0-129">messages. xsd</span><span class="sxs-lookup"><span data-stu-id="30dd0-129">messages.xsd</span></span>  <br/> |
-|<span data-ttu-id="30dd0-130">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="30dd0-130">Can be empty</span></span>  <br/> ||
+|<span data-ttu-id="0c482-125">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="0c482-125">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|<span data-ttu-id="0c482-126">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="0c482-126">Schema name</span></span>  <br/> |<span data-ttu-id="0c482-127">Schéma Messages</span><span class="sxs-lookup"><span data-stu-id="0c482-127">Messages schema</span></span>  <br/> |
+|<span data-ttu-id="0c482-128">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="0c482-128">Validation file</span></span>  <br/> |<span data-ttu-id="0c482-129">messages. xsd</span><span class="sxs-lookup"><span data-stu-id="0c482-129">messages.xsd</span></span>  <br/> |
+|<span data-ttu-id="0c482-130">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="0c482-130">Can be empty</span></span>  <br/> ||
    
 

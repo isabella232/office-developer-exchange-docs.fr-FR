@@ -16,49 +16,49 @@ ms.openlocfilehash: 13d118422ccb5a2897c21b6d124f170bf461dbf6
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467003"
 ---
-# <a name="message-availability"></a><span data-ttu-id="1b0f1-103">Message (disponibilité)</span><span class="sxs-lookup"><span data-stu-id="1b0f1-103">Message (Availability)</span></span>
+# <a name="message-availability"></a><span data-ttu-id="0e5d6-103">Message (disponibilité)</span><span class="sxs-lookup"><span data-stu-id="0e5d6-103">Message (Availability)</span></span>
 
-<span data-ttu-id="1b0f1-104">L’élément **message** contient la réponse absent (e) du bureau.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-104">The **Message** element contains the out of Office (OOF) response.</span></span> 
+<span data-ttu-id="0e5d6-104">L’élément **message** contient la réponse absent (e) du bureau.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-104">The **Message** element contains the out of Office (OOF) response.</span></span> 
   
 ```xml
 <Message/> 
 ```
 
- <span data-ttu-id="1b0f1-105">**chaîne**</span><span class="sxs-lookup"><span data-stu-id="1b0f1-105">**string**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="1b0f1-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="1b0f1-106">Attributes and elements</span></span>
+ <span data-ttu-id="0e5d6-105">**chaîne**</span><span class="sxs-lookup"><span data-stu-id="0e5d6-105">**string**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="0e5d6-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="0e5d6-106">Attributes and elements</span></span>
 
-<span data-ttu-id="1b0f1-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="0e5d6-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="1b0f1-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="1b0f1-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="0e5d6-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="0e5d6-108">Attributes</span></span>
 
-<span data-ttu-id="1b0f1-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-109">None.</span></span>
+<span data-ttu-id="0e5d6-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="1b0f1-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="1b0f1-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="0e5d6-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="0e5d6-110">Child elements</span></span>
 
-<span data-ttu-id="1b0f1-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-111">None.</span></span>
+<span data-ttu-id="0e5d6-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-111">None.</span></span>
   
-### <a name="parent-elements"></a><span data-ttu-id="1b0f1-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="1b0f1-112">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="0e5d6-112">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="0e5d6-112">Parent elements</span></span>
 
-|<span data-ttu-id="1b0f1-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="1b0f1-113">**Element**</span></span>|<span data-ttu-id="1b0f1-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="1b0f1-114">**Description**</span></span>|
+|<span data-ttu-id="0e5d6-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="0e5d6-113">**Element**</span></span>|<span data-ttu-id="0e5d6-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="0e5d6-114">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="1b0f1-115">InternalReply</span><span class="sxs-lookup"><span data-stu-id="1b0f1-115">InternalReply</span></span>](internalreply.md) <br/> | <span data-ttu-id="1b0f1-116">Contient le message OOF envoyé aux autres utilisateurs dans le domaine de l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-116">Contains the OOF message sent to other users in the sender's domain.</span></span> <br/> <br/>  <span data-ttu-id="1b0f1-117">Voici les expressions XPath possibles pour cet élément :</span><span class="sxs-lookup"><span data-stu-id="1b0f1-117">The following are the possible XPath expressions to this element:</span></span> <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[<span data-ttu-id="1b0f1-118">ExternalReply</span><span class="sxs-lookup"><span data-stu-id="1b0f1-118">ExternalReply</span></span>](externalreply.md) <br/> | <span data-ttu-id="1b0f1-119">Contient le message OOF qui est envoyé aux adresses en dehors du domaine de l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-119">Contains the OOF message that is sent to addresses outside the sender's domain.</span></span>  <br/> <br/> <span data-ttu-id="1b0f1-120">Voici les expressions XPath possibles pour cet élément :</span><span class="sxs-lookup"><span data-stu-id="1b0f1-120">The following are the possible XPath expressions to this element:</span></span>  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
-|[<span data-ttu-id="1b0f1-121">ReplyBody</span><span class="sxs-lookup"><span data-stu-id="1b0f1-121">ReplyBody</span></span>](replybody.md) <br/> |<span data-ttu-id="1b0f1-122">Contient un message d’absence du bureau et la langue utilisée pour le message.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-122">Contains an OOF message and the language used for the message.</span></span>  <br/> |
+|[<span data-ttu-id="0e5d6-115">InternalReply</span><span class="sxs-lookup"><span data-stu-id="0e5d6-115">InternalReply</span></span>](internalreply.md) <br/> | <span data-ttu-id="0e5d6-116">Contient le message OOF envoyé aux autres utilisateurs dans le domaine de l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-116">Contains the OOF message sent to other users in the sender's domain.</span></span> <br/> <br/>  <span data-ttu-id="0e5d6-117">Voici les expressions XPath possibles pour cet élément :</span><span class="sxs-lookup"><span data-stu-id="0e5d6-117">The following are the possible XPath expressions to this element:</span></span> <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[<span data-ttu-id="0e5d6-118">ExternalReply</span><span class="sxs-lookup"><span data-stu-id="0e5d6-118">ExternalReply</span></span>](externalreply.md) <br/> | <span data-ttu-id="0e5d6-119">Contient le message OOF qui est envoyé aux adresses en dehors du domaine de l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-119">Contains the OOF message that is sent to addresses outside the sender's domain.</span></span>  <br/> <br/> <span data-ttu-id="0e5d6-120">Voici les expressions XPath possibles pour cet élément :</span><span class="sxs-lookup"><span data-stu-id="0e5d6-120">The following are the possible XPath expressions to this element:</span></span>  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[<span data-ttu-id="0e5d6-121">ReplyBody</span><span class="sxs-lookup"><span data-stu-id="0e5d6-121">ReplyBody</span></span>](replybody.md) <br/> |<span data-ttu-id="0e5d6-122">Contient un message d’absence du bureau et la langue utilisée pour le message.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-122">Contains an OOF message and the language used for the message.</span></span>  <br/> |
    
-## <a name="text-value"></a><span data-ttu-id="1b0f1-123">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="1b0f1-123">Text value</span></span>
+## <a name="text-value"></a><span data-ttu-id="0e5d6-123">Valeur texte</span><span class="sxs-lookup"><span data-stu-id="0e5d6-123">Text value</span></span>
 
-<span data-ttu-id="1b0f1-124">Une valeur de texte est requise pour définir le message d’absence du bureau.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-124">A text value is required to set the OOF message.</span></span>
+<span data-ttu-id="0e5d6-124">Une valeur de texte est requise pour définir le message d’absence du bureau.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-124">A text value is required to set the OOF message.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1b0f1-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="1b0f1-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0e5d6-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="0e5d6-125">Remarks</span></span>
 
-<span data-ttu-id="1b0f1-126">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-126">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="0e5d6-126">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-126">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="example"></a><span data-ttu-id="1b0f1-127">Exemple</span><span class="sxs-lookup"><span data-stu-id="1b0f1-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0e5d6-127">Exemple</span><span class="sxs-lookup"><span data-stu-id="0e5d6-127">Example</span></span>
 
-<span data-ttu-id="1b0f1-128">L’exemple suivant de demande d' [opération SetUserOofSettings](setuseroofsettings-operation.md) définit l' [OofState](oofstate.md) sur **activé**, définit la durée du OOF sur 10 jours et définit les messages OOF internes et externes.</span><span class="sxs-lookup"><span data-stu-id="1b0f1-128">The following example of a [SetUserOofSettings operation](setuseroofsettings-operation.md) request sets the [OofState](oofstate.md) to **Enabled**, sets the duration of OOF to 10 days, and sets the internal and external OOF messages.</span></span>
+<span data-ttu-id="0e5d6-128">L’exemple suivant de demande d' [opération SetUserOofSettings](setuseroofsettings-operation.md) définit l' [OofState](oofstate.md) sur **activé**, définit la durée du OOF sur 10 jours et définit les messages OOF internes et externes.</span><span class="sxs-lookup"><span data-stu-id="0e5d6-128">The following example of a [SetUserOofSettings operation](setuseroofsettings-operation.md) request sets the [OofState](oofstate.md) to **Enabled**, sets the duration of OOF to 10 days, and sets the internal and external OOF messages.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -89,17 +89,17 @@ ms.locfileid: "44467003"
 </soap:Envelope>
 ```
 
-## <a name="element-information"></a><span data-ttu-id="1b0f1-129">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="1b0f1-129">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="0e5d6-129">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="0e5d6-129">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1b0f1-130">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="1b0f1-130">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="1b0f1-131">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="1b0f1-131">Schema Name</span></span>  <br/> |<span data-ttu-id="1b0f1-132">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="1b0f1-132">Types schema</span></span>  <br/> |
-|<span data-ttu-id="1b0f1-133">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="1b0f1-133">Validation File</span></span>  <br/> |<span data-ttu-id="1b0f1-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="1b0f1-134">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="1b0f1-135">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="1b0f1-135">Can be Empty</span></span>  <br/> |<span data-ttu-id="1b0f1-136">False</span><span class="sxs-lookup"><span data-stu-id="1b0f1-136">False</span></span>  <br/> |
+|<span data-ttu-id="0e5d6-130">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="0e5d6-130">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="0e5d6-131">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="0e5d6-131">Schema Name</span></span>  <br/> |<span data-ttu-id="0e5d6-132">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="0e5d6-132">Types schema</span></span>  <br/> |
+|<span data-ttu-id="0e5d6-133">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="0e5d6-133">Validation File</span></span>  <br/> |<span data-ttu-id="0e5d6-134">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="0e5d6-134">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="0e5d6-135">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="0e5d6-135">Can be Empty</span></span>  <br/> |<span data-ttu-id="0e5d6-136">False</span><span class="sxs-lookup"><span data-stu-id="0e5d6-136">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1b0f1-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1b0f1-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0e5d6-137">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0e5d6-137">See also</span></span>
 
-- [<span data-ttu-id="1b0f1-138">Opération SetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="1b0f1-138">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
-- [<span data-ttu-id="1b0f1-139">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="1b0f1-139">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="0e5d6-138">Opération SetUserOofSettings</span><span class="sxs-lookup"><span data-stu-id="0e5d6-138">SetUserOofSettings operation</span></span>](setuseroofsettings-operation.md)
+- [<span data-ttu-id="0e5d6-139">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="0e5d6-139">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

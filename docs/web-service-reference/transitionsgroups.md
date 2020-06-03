@@ -16,12 +16,12 @@ ms.openlocfilehash: 35244e122ee31045359afd0833459bbb94fd0aa1
 ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
+ms.lasthandoff: 06/03/2020
 ms.locfileid: "44467409"
 ---
-# <a name="transitionsgroups"></a><span data-ttu-id="c2c46-103">TransitionsGroups</span><span class="sxs-lookup"><span data-stu-id="c2c46-103">TransitionsGroups</span></span>
+# <a name="transitionsgroups"></a><span data-ttu-id="568e0-103">TransitionsGroups</span><span class="sxs-lookup"><span data-stu-id="568e0-103">TransitionsGroups</span></span>
 
-<span data-ttu-id="c2c46-104">L’élément **TransitionsGroups** représente un tableau de groupes de transition de fuseau horaire.</span><span class="sxs-lookup"><span data-stu-id="c2c46-104">The **TransitionsGroups** element represents an array of time zone transition groups.</span></span> 
+<span data-ttu-id="568e0-104">L’élément **TransitionsGroups** représente un tableau de groupes de transition de fuseau horaire.</span><span class="sxs-lookup"><span data-stu-id="568e0-104">The **TransitionsGroups** element represents an array of time zone transition groups.</span></span> 
   
 ```XML
 <TransitionsGroups>
@@ -29,45 +29,45 @@ ms.locfileid: "44467409"
 </TransitionsGroups>
 ```
 
- <span data-ttu-id="c2c46-105">**ArrayOfTransitionsGroupsType**</span><span class="sxs-lookup"><span data-stu-id="c2c46-105">**ArrayOfTransitionsGroupsType**</span></span>
-## <a name="attributes-and-elements"></a><span data-ttu-id="c2c46-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="c2c46-106">Attributes and elements</span></span>
+ <span data-ttu-id="568e0-105">**ArrayOfTransitionsGroupsType**</span><span class="sxs-lookup"><span data-stu-id="568e0-105">**ArrayOfTransitionsGroupsType**</span></span>
+## <a name="attributes-and-elements"></a><span data-ttu-id="568e0-106">Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="568e0-106">Attributes and elements</span></span>
 
-<span data-ttu-id="c2c46-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="c2c46-107">The following sections describe attributes, child elements, and parent elements.</span></span>
+<span data-ttu-id="568e0-107">Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.</span><span class="sxs-lookup"><span data-stu-id="568e0-107">The following sections describe attributes, child elements, and parent elements.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="c2c46-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="c2c46-108">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="568e0-108">Attributs</span><span class="sxs-lookup"><span data-stu-id="568e0-108">Attributes</span></span>
 
-<span data-ttu-id="c2c46-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="c2c46-109">None.</span></span>
+<span data-ttu-id="568e0-109">Aucune.</span><span class="sxs-lookup"><span data-stu-id="568e0-109">None.</span></span>
   
-### <a name="child-elements"></a><span data-ttu-id="c2c46-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c2c46-110">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="568e0-110">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="568e0-110">Child elements</span></span>
 
-|<span data-ttu-id="c2c46-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c2c46-111">**Element**</span></span>|<span data-ttu-id="c2c46-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="c2c46-112">**Description**</span></span>|
+|<span data-ttu-id="568e0-111">**Élément**</span><span class="sxs-lookup"><span data-stu-id="568e0-111">**Element**</span></span>|<span data-ttu-id="568e0-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="568e0-112">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c2c46-113">TransitionsGroup</span><span class="sxs-lookup"><span data-stu-id="c2c46-113">TransitionsGroup</span></span>](transitionsgroup.md) <br/> |<span data-ttu-id="c2c46-114">Représente un tableau de transitions de fuseau horaire.</span><span class="sxs-lookup"><span data-stu-id="c2c46-114">Represents an array of time zone transitions.</span></span>  <br/> |
+|[<span data-ttu-id="568e0-113">TransitionsGroup</span><span class="sxs-lookup"><span data-stu-id="568e0-113">TransitionsGroup</span></span>](transitionsgroup.md) <br/> |<span data-ttu-id="568e0-114">Représente un tableau de transitions de fuseau horaire.</span><span class="sxs-lookup"><span data-stu-id="568e0-114">Represents an array of time zone transitions.</span></span>  <br/> |
    
-### <a name="parent-elements"></a><span data-ttu-id="c2c46-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c2c46-115">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="568e0-115">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="568e0-115">Parent elements</span></span>
 
-|<span data-ttu-id="c2c46-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c2c46-116">**Element**</span></span>|<span data-ttu-id="c2c46-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="c2c46-117">**Description**</span></span>|
+|<span data-ttu-id="568e0-116">**Élément**</span><span class="sxs-lookup"><span data-stu-id="568e0-116">**Element**</span></span>|<span data-ttu-id="568e0-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="568e0-117">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c2c46-118">StartTimeZone</span><span class="sxs-lookup"><span data-stu-id="c2c46-118">StartTimeZone</span></span>](starttimezone.md) <br/> |<span data-ttu-id="c2c46-119">Définit le fuseau horaire pour l’heure de début d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).</span><span class="sxs-lookup"><span data-stu-id="c2c46-119">Defines the time zone for the start time of a [CalendarItem](calendaritem.md) or [MeetingRequest](meetingrequest.md).</span></span>  <br/> |
-|[<span data-ttu-id="c2c46-120">EndTimeZone</span><span class="sxs-lookup"><span data-stu-id="c2c46-120">EndTimeZone</span></span>](endtimezone.md) <br/> |<span data-ttu-id="c2c46-121">Définit le fuseau horaire pour l’heure de fin d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).</span><span class="sxs-lookup"><span data-stu-id="c2c46-121">Defines the time zone for the end time of a [CalendarItem](calendaritem.md) or [MeetingRequest](meetingrequest.md).</span></span>  <br/> |
-|[<span data-ttu-id="c2c46-122">TimeZoneDefinition</span><span class="sxs-lookup"><span data-stu-id="c2c46-122">TimeZoneDefinition</span></span>](timezonedefinition.md) <br/> |<span data-ttu-id="c2c46-123">Définit un fuseau horaire.</span><span class="sxs-lookup"><span data-stu-id="c2c46-123">Defines a time zone.</span></span>  <br/> |
+|[<span data-ttu-id="568e0-118">StartTimeZone</span><span class="sxs-lookup"><span data-stu-id="568e0-118">StartTimeZone</span></span>](starttimezone.md) <br/> |<span data-ttu-id="568e0-119">Définit le fuseau horaire pour l’heure de début d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).</span><span class="sxs-lookup"><span data-stu-id="568e0-119">Defines the time zone for the start time of a [CalendarItem](calendaritem.md) or [MeetingRequest](meetingrequest.md).</span></span>  <br/> |
+|[<span data-ttu-id="568e0-120">EndTimeZone</span><span class="sxs-lookup"><span data-stu-id="568e0-120">EndTimeZone</span></span>](endtimezone.md) <br/> |<span data-ttu-id="568e0-121">Définit le fuseau horaire pour l’heure de fin d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).</span><span class="sxs-lookup"><span data-stu-id="568e0-121">Defines the time zone for the end time of a [CalendarItem](calendaritem.md) or [MeetingRequest](meetingrequest.md).</span></span>  <br/> |
+|[<span data-ttu-id="568e0-122">TimeZoneDefinition</span><span class="sxs-lookup"><span data-stu-id="568e0-122">TimeZoneDefinition</span></span>](timezonedefinition.md) <br/> |<span data-ttu-id="568e0-123">Définit un fuseau horaire.</span><span class="sxs-lookup"><span data-stu-id="568e0-123">Defines a time zone.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c2c46-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="c2c46-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="568e0-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="568e0-124">Remarks</span></span>
 
-<span data-ttu-id="c2c46-125">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="c2c46-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
+<span data-ttu-id="568e0-125">Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.</span><span class="sxs-lookup"><span data-stu-id="568e0-125">The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="c2c46-126">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="c2c46-126">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="568e0-126">Informations sur l'élément</span><span class="sxs-lookup"><span data-stu-id="568e0-126">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="c2c46-127">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="c2c46-127">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|<span data-ttu-id="c2c46-128">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="c2c46-128">Schema Name</span></span>  <br/> |<span data-ttu-id="c2c46-129">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="c2c46-129">Types schema</span></span>  <br/> |
-|<span data-ttu-id="c2c46-130">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="c2c46-130">Validation File</span></span>  <br/> |<span data-ttu-id="c2c46-131">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="c2c46-131">Types.xsd</span></span>  <br/> |
-|<span data-ttu-id="c2c46-132">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="c2c46-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="c2c46-133">False</span><span class="sxs-lookup"><span data-stu-id="c2c46-133">False</span></span>  <br/> |
+|<span data-ttu-id="568e0-127">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="568e0-127">Namespace</span></span>  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|<span data-ttu-id="568e0-128">Nom du schéma</span><span class="sxs-lookup"><span data-stu-id="568e0-128">Schema Name</span></span>  <br/> |<span data-ttu-id="568e0-129">Schéma Types</span><span class="sxs-lookup"><span data-stu-id="568e0-129">Types schema</span></span>  <br/> |
+|<span data-ttu-id="568e0-130">Fichier de validation</span><span class="sxs-lookup"><span data-stu-id="568e0-130">Validation File</span></span>  <br/> |<span data-ttu-id="568e0-131">Types.xsd</span><span class="sxs-lookup"><span data-stu-id="568e0-131">Types.xsd</span></span>  <br/> |
+|<span data-ttu-id="568e0-132">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="568e0-132">Can be Empty</span></span>  <br/> |<span data-ttu-id="568e0-133">False</span><span class="sxs-lookup"><span data-stu-id="568e0-133">False</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c2c46-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c2c46-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="568e0-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="568e0-134">See also</span></span>
 
 
 
-- [<span data-ttu-id="c2c46-135">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="c2c46-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
+- [<span data-ttu-id="568e0-135">Éléments XML de EWS dans Exchange</span><span class="sxs-lookup"><span data-stu-id="568e0-135">EWS XML elements in Exchange</span></span>](ews-xml-elements-in-exchange.md)
 

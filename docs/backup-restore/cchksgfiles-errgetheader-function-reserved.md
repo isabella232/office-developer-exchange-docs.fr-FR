@@ -1,5 +1,5 @@
 ---
-title: Fonction CChkSGFiles.ErrGetHeader (réservée)
+title: Fonction fonction cchksgfiles. ErrGetHeader (réservée)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: eed4d88b-8ac5-4c03-9ed9-e529e6072450
-description: 'Dernière modification : le 22 février 2013'
-ms.openlocfilehash: a502371f596967be58b6ead61b4e435bba30be88
-ms.sourcegitcommit: 34041125dc8c5f993b21cebfc4f8b72f0fd2cb6f
+description: 'Dernière modification : 22 février 2013'
+ms.openlocfilehash: 7ec94e1dc0b68c055d4b908b19458ee4c38eb1aa
+ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "19754739"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44526710"
 ---
-# <a name="cchksgfileserrgetheader-function-reserved"></a><span data-ttu-id="cc755-103">Fonction CChkSGFiles.ErrGetHeader (réservée)</span><span class="sxs-lookup"><span data-stu-id="cc755-103">CChkSGFiles.ErrGetHeader function (reserved)</span></span>
+# <a name="cchksgfileserrgetheader-function-reserved"></a><span data-ttu-id="6613a-103">Fonction fonction cchksgfiles. ErrGetHeader (réservée)</span><span class="sxs-lookup"><span data-stu-id="6613a-103">CChkSGFiles.ErrGetHeader function (reserved)</span></span>
 
-<span data-ttu-id="cc755-104">**S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc755-104">**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span></span>
+<span data-ttu-id="6613a-104">**S’applique à :** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="6613a-104">**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013</span></span>
   
-<span data-ttu-id="cc755-105">Réservé à un usage ultérieur et non implémenté.</span><span class="sxs-lookup"><span data-stu-id="cc755-105">Reserved for future use, and not implemented.</span></span> <span data-ttu-id="cc755-106">N’appelez pas cette fonction.</span><span class="sxs-lookup"><span data-stu-id="cc755-106">Do not call this function.</span></span> 
+<span data-ttu-id="6613a-105">Réservé à une utilisation future, et non implémenté.</span><span class="sxs-lookup"><span data-stu-id="6613a-105">Reserved for future use, and not implemented.</span></span> <span data-ttu-id="6613a-106">N’appelez pas cette fonction.</span><span class="sxs-lookup"><span data-stu-id="6613a-106">Do not call this function.</span></span> 
   
 ```cs
 Vitual ERRErrGetHeader  
@@ -36,34 +36,34 @@ Vitual ERRErrGetHeader
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="cc755-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="cc755-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6613a-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="6613a-107">Parameters</span></span>
 
-### <a name="wszfile"></a><span data-ttu-id="cc755-108">wszFile</span><span class="sxs-lookup"><span data-stu-id="cc755-108">wszFile</span></span>
+### <a name="wszfile"></a><span data-ttu-id="6613a-108">wszFile</span><span class="sxs-lookup"><span data-stu-id="6613a-108">wszFile</span></span>
   
-<span data-ttu-id="cc755-109">Réservé pour une utilisation ultérieure ; n’utilisez pas.</span><span class="sxs-lookup"><span data-stu-id="cc755-109">Reserved for future use; do not use.</span></span>
+<span data-ttu-id="6613a-109">Réservé à une utilisation ultérieure ; ne pas utiliser.</span><span class="sxs-lookup"><span data-stu-id="6613a-109">Reserved for future use; do not use.</span></span>
     
-### <a name="pvresult"></a><span data-ttu-id="cc755-110">pvResult</span><span class="sxs-lookup"><span data-stu-id="cc755-110">pvResult</span></span>
+### <a name="pvresult"></a><span data-ttu-id="6613a-110">pvResult</span><span class="sxs-lookup"><span data-stu-id="6613a-110">pvResult</span></span>
   
-<span data-ttu-id="cc755-111">Réservé pour une utilisation ultérieure ; n’utilisez pas.</span><span class="sxs-lookup"><span data-stu-id="cc755-111">Reserved for future use; do not use.</span></span>
+<span data-ttu-id="6613a-111">Réservé à une utilisation ultérieure ; ne pas utiliser.</span><span class="sxs-lookup"><span data-stu-id="6613a-111">Reserved for future use; do not use.</span></span>
     
-### <a name="cbmax"></a><span data-ttu-id="cc755-112">cbMax</span><span class="sxs-lookup"><span data-stu-id="cc755-112">cbMax</span></span>
+### <a name="cbmax"></a><span data-ttu-id="6613a-112">cbMax</span><span class="sxs-lookup"><span data-stu-id="6613a-112">cbMax</span></span>
   
-<span data-ttu-id="cc755-113">Réservé pour une utilisation ultérieure ; n’utilisez pas.</span><span class="sxs-lookup"><span data-stu-id="cc755-113">Reserved for future use; do not use.</span></span>
+<span data-ttu-id="6613a-113">Réservé à une utilisation ultérieure ; ne pas utiliser.</span><span class="sxs-lookup"><span data-stu-id="6613a-113">Reserved for future use; do not use.</span></span>
     
-### <a name="ulflags"></a><span data-ttu-id="cc755-114">ulFlags</span><span class="sxs-lookup"><span data-stu-id="cc755-114">ulFlags</span></span>
+### <a name="ulflags"></a><span data-ttu-id="6613a-114">ulFlags</span><span class="sxs-lookup"><span data-stu-id="6613a-114">ulFlags</span></span>
   
-<span data-ttu-id="cc755-115">Réservé pour une utilisation ultérieure ; n’utilisez pas.</span><span class="sxs-lookup"><span data-stu-id="cc755-115">Reserved for future use; do not use.</span></span>
+<span data-ttu-id="6613a-115">Réservé à une utilisation ultérieure ; ne pas utiliser.</span><span class="sxs-lookup"><span data-stu-id="6613a-115">Reserved for future use; do not use.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="cc755-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="cc755-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6613a-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="6613a-116">Return value</span></span>
 
-<span data-ttu-id="cc755-117">Aucun.</span><span class="sxs-lookup"><span data-stu-id="cc755-117">None.</span></span>
+<span data-ttu-id="6613a-117">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6613a-117">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="cc755-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="cc755-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6613a-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="6613a-118">Remarks</span></span>
 
-<span data-ttu-id="cc755-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="cc755-119">None.</span></span>
+<span data-ttu-id="6613a-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6613a-119">None.</span></span>
   
-## <a name="requirements"></a><span data-ttu-id="cc755-120">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="cc755-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6613a-120">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="6613a-120">Requirements</span></span>
 
-<span data-ttu-id="cc755-121">Exchange Server 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.</span><span class="sxs-lookup"><span data-stu-id="cc755-121">Exchange Server 2013 only includes a 64-bit version of the CHKSGFILES API.</span></span>
+<span data-ttu-id="6613a-121">Exchange Server 2013 inclut uniquement une version 64 bits de l’API CHKSGFILES.</span><span class="sxs-lookup"><span data-stu-id="6613a-121">Exchange Server 2013 only includes a 64-bit version of the CHKSGFILES API.</span></span>
   
 

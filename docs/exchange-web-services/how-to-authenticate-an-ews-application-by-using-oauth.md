@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: Découvrez comment utiliser l’authentification OAuth avec vos applications d’API managée EWS.
 localization_priority: Priority
-ms.openlocfilehash: e2bcb339ddac51b888660b6f982a8377591b1a29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0375095faac918859354da026118ea4ccfd6792b
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528250"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012565"
 ---
 <!-- markdownlint-disable MD025 -->
 # <a name="authenticate-an-ews-application-by-using-oauth"></a>Authentifier une application EWS à l’aide d’OAuth
@@ -80,7 +80,7 @@ Pour utiliser les autorisations d’application, suivez ces étapes supplémenta
 
 ## <a name="add-code-to-get-an-authentication-token"></a>Ajouter du code pour obtenir un jeton d’authentification
 
-Les extraits de code suivants montrent comment utiliser la bibliothèque d’authentification Microsoft pour obtenir des jetons d’authentification pour les autorisations déléguées et les autorisations d’application. Ces extraits de code supposent que les informations requises pour effectuer la demande d’authentification sont stockées dans le fichier **app. config** de l’application. Ces exemples n’incluent pas la vérification des erreurs, reportez-vous aux [exemples de code](#code-samples) pour le code complet.
+Les extraits de code suivants montrent comment utiliser la bibliothèque d’authentification Microsoft pour obtenir des jetons d’authentification pour les autorisations déléguées et les autorisations d’application. Ces extraits de code supposent que les informations requises pour effectuer la demande d’authentification sont stockées dans le fichier **App.config** de l’application. Ces exemples n’incluent pas la vérification des erreurs, reportez-vous aux [exemples de code](#code-samples) pour le code complet.
 
 ### <a name="delegated-permissions"></a>Autorisations déléguées
 
@@ -114,7 +114,7 @@ var app = ConfidentialClientApplicationBuilder
 // The permission scope required for EWS access
 var ewsScopes = new string[] { "https://outlook.office.com/.default" };
 
-//Make the toekn request
+//Make the token request
 AuthenticationResult authResult = await app.AcquireTokenForClient(ewsScopes).ExecuteAsync();
 
 ```
@@ -279,7 +279,7 @@ namespace ews_oauth_samples
 }
 ```
 
-Dans les deux cas, l’exemple de code requiert un fichier **app. config** avec les entrées suivantes :
+Dans les deux cas, l’exemple de code requiert un fichier **App.config** avec les entrées suivantes :
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -299,6 +299,6 @@ Dans les deux cas, l’exemple de code requiert un fichier **app. config** avec 
 </configuration>
 ```
 
-## <a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Consultez aussi
 
 - [Authentification et EWS dans Exchange](authentication-and-ews-in-exchange.md)

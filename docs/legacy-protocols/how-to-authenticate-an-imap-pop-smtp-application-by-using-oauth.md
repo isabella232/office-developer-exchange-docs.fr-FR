@@ -4,12 +4,12 @@ description: Découvrez comment utiliser l’authentification OAuth avec vos app
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: fbe4eaefc5befcc173096c9b8526adebf74a0aad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44438433"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012558"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Authentification d’une connexion IMAP, POP ou SMTP à l’aide du protocole OAuth
 
@@ -91,6 +91,10 @@ Après le codage Base64, cela traduit la chaîne suivante. Notez que les sauts d
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
 IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 ```
+
+### <a name="sasl-xoauth2-authentication-for-shared-mailboxes-in-office-365"></a>Authentification SASL XOAUTH2 pour les boîtes aux lettres partagées dans Office 365
+
+Dans le cas d’un accès partagé aux boîtes aux lettres à l’aide d’OAuth, l’application doit obtenir le jeton d’accès au nom d’un utilisateur, mais remplacer le champ nom d’utilisateur dans la chaîne codée SASL XOAUTH2 par l’adresse e-mail de la boîte aux lettres partagée. 
 
 ### <a name="imap-protocol-exchange"></a>Échange de protocole IMAP
 

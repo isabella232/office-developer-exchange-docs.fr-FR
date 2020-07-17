@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: Découvrez les stratégies de limitation qui affectent EWS lorsque vous utilisez Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 0c6ac49629ad4cdb4419cc8638d8e60ecb6509d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 27db12c01180abbaf92b5b9a09a072212b6012ec
+ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455400"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012551"
 ---
 # <a name="ews-throttling-in-exchange"></a>Limitation EWS dans Exchange
 
@@ -59,7 +59,7 @@ Le tableau suivant répertorie les paramètres de stratégie de limitation qui a
 |**MessageRateLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Définit le nombre de messages pouvant être envoyés par minute.  <br/> |
 |**RecipientRateLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Définit le nombre maximal de destinataires auxquels un utilisateur peut adresser des messages sur une période de 24 heures.  <br/> |
 |**ForwardeeLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Définit le nombre maximal de destinataires pour les actions de transfert/redirection de la boîte de réception sur une période de 24 heures.  <br/> |
-|**ConcurrentSyncCalls** <br/> |Exchange 2019  <br/> Exchange 2016  <br/> Exchange Online  <br/> |Définit la limite du nombre d’appels de synchronisation simultanés (Opérationsyncfolderhierarchy, SyncFolderItems) pour un utilisateur. <br/> |
+|**ConcurrentSyncCalls** <br/> |Exchange 2019  <br/> Exchange 2016  <br/> Exchange Online  <br/> |Définit la limite du nombre d’appels de synchronisation simultanés (Opérationsyncfolderhierarchy, SyncFolderItems) pour un utilisateur. <br/> |
 
 > [!CAUTION]
 > Ne définissez pas de stratégie de limitation sur **null**. Sinon, la stratégie est définie comme illimitée, ce qui signifie qu'aucune stratégie de limitation n'est définie.
@@ -239,7 +239,7 @@ Le paramètre de stratégie **EWSMaxConcurrency** peut également représenter u
 
 Si l’application de notification est multi-thread et effectue des demandes de connexion simultanées pour obtenir plus d’informations sur un message particulier reçu par un compte d’utilisateur, la limite de stratégie **EWSMaxConcurrency** peut être dépassée. Pour parer cette éventualité, pensez à surveiller les connexions simultanées de votre application (y compris celles pouvant être utilisées par le serveur) et à implémenter la mise en file d'attente des demandes sur le client.
 
-Le paramètre **HangingConnectionLimit** est valable uniquement pour les notifications de diffusion en continu. Cette limite est définie dans le fichier web.config, ce qui signifie qu'un administrateur Exchange peut définir cette valeur sur un serveur Exchange local, mais que les boîtes aux lettres Exchange Online doivent utiliser la valeur par défaut de cette limite, qui est de 3 pour Exchange Online et Exchange 2013. Pour en savoir plus, consultez la rubrique relative aux [Les valeurs de limitation ai-je besoin de prendre en considération ?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
+Le paramètre **HangingConnectionLimit** est valable uniquement pour les notifications de diffusion en continu. Cette limite est définie dans le fichier web.config, ce qui signifie qu’un administrateur Exchange peut définir cette valeur sur un serveur Exchange local, mais les boîtes aux lettres Exchange Online doivent utiliser la valeur par défaut pour cette limite, 10 pour Exchange Online, Exchange 2019, Exchange 2016 et 3 pour Exchange 2013. Pour en savoir plus, consultez la rubrique relative aux [valeurs de limitation à prendre en compte](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
 
 ## <a name="throttling-policy-and-application-performance"></a>Stratégie de limitation et performances d'application
 

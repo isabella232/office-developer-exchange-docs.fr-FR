@@ -4,18 +4,18 @@ description: Découvrez comment utiliser l’authentification OAuth avec vos app
 author: svpsiva
 ms.date: 02/19/2020
 ms.audience: Developer
-ms.openlocfilehash: f83a932790cde558e741ece1e87403103aff18fd
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+ms.openlocfilehash: e1bef8e35d78c35693dadc94b24b6aeecaf4e439
+ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012558"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47254985"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Authentification d’une connexion IMAP, POP ou SMTP à l’aide du protocole OAuth
 
 Découvrez comment utiliser l’authentification OAuth pour vous connecter à des protocoles IMAP, POP ou SMTP et accéder aux données de courrier électronique pour les utilisateurs d’Office 365.
 
-> La prise en charge OAuth2 pour IMAP, POP, les protocoles SMTP, comme décrit ci-dessous, n’est pas prise en charge pour les utilisateurs de Outlook.com.
+> La prise en charge OAuth2 pour IMAP, POP, les protocoles SMTP, comme décrit ci-dessous, est prise en charge pour Microsoft 365 (qui inclut Office sur le Web) et Outlook.com.
 
 Si vous n’êtes pas familiarisé avec OAuth 2,0, lisez la [rubrique vue d’ensemble de la plateforme d’identité Microsoft (v 2.0)](/azure/active-directory/develop/v2-overview). Ce document présente les différents composants de la plateforme d’identité Microsoft, y compris les kits de développement logiciel (SDK).
 

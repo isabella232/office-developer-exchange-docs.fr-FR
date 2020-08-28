@@ -1,17 +1,17 @@
 ---
 title: Emprunt d’identité et EWS dans Exchange
 manager: sethgros
-ms.date: 11/16/2014
+ms.date: 08/24/2020
 ms.audience: Developer
 ms.assetid: 7e1ea63c-eb29-43d2-827f-2f2b1846483b
 description: Découvrez comment et dans quels cas utiliser l'emprunt d'identité dans vos applications de service Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 8151b3d83421786d99ee0c82eaf4f7a5c0721f25
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: da35fb04f316c21a1c85c71b789b7f1485653466
+ms.sourcegitcommit: 636c05a929279812c6ef87d75b01c166a4a05584
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44466611"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47254971"
 ---
 # <a name="impersonation-and-ews-in-exchange"></a>Emprunt d’identité et EWS dans Exchange
 
@@ -60,6 +60,10 @@ Vous pouvez trouver davantage d'informations sur la [configuration d'emprunt d'i
 - [Identifier le compte d’emprunt d’identité](how-to-identify-the-account-to-impersonate.md)
     
 - [Ajouter des rendez-vous à l’aide de l’emprunt d’identité Exchange](how-to-add-appointments-by-using-exchange-impersonation.md)
+
+## <a name="performance-considerations-for-ews-impersonation"></a>Considérations relatives au rendement pour l’emprunt d’identité EWS
+
+Lorsque l’emprunt d’identité EWS est utilisé, la X-AnchorMailbox doit toujours être correctement définie.  Sinon, vous pouvez obtenir des messages d’erreur 500 ou 503 à certains moments. C’est essentiel pour le rendement et aussi pour les notifications avec Exchange Online/Exchange 2013.  Ne pas le régler peut doubler ou plus le temps qu’il faut pour terminer l’appel. Dans certains cas, vous pouvez également obtenir des délais. 
     
 ## <a name="see-also"></a>Voir aussi
 

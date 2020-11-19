@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
 description: Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. Découvrez comment trouver des objets SCP de découverte automatique dans les services de domaine Active Directory (AD DS) et les utiliser pour rechercher des URL de point de terminaison de découverte automatique à utiliser avec le service de découverte automatique Exchange.
 localization_priority: Priority
-ms.openlocfilehash: c0c0364a7d69364e12db902f1f22d65c4b5a0cc5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5468c18b6d614016915c292c2e02c1a4b570ae37
+ms.sourcegitcommit: 37d4ecd4f469690ba1de87baad2f2f58c40c96ba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44455876"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49348807"
 ---
 # <a name="find-autodiscover-endpoints-by-using-scp-lookup-in-exchange"></a>Trouver des points de terminaison de découverte automatique à l’aide de la recherche SCP dans Exchange
 
@@ -54,7 +54,7 @@ La première étape de la recherche de points de terminaison de découverte auto
     
 2. Recherchez dans le contexte d'appellation de configuration des objets SCP qui ont soit le GUID de pointeur SCP ou le GUID d'URL SCP dans la propriété **keywords**. 
     
-3. Vérifiez les objets SCP que vous avez trouvés pour un pointeur SCP inclus dans le domaine de l'utilisateur en vérifiant la propriété **keywords** d'une entrée égale à`"Domain=<domain>"`. Par exemple, si l'adresse e-mail de l'utilisateur est elvin@contoso.com, vous rechercherez un pointeur SCP avec une entrée dans la propriété** keywords**qui est égale à`"Domain=contoso.com"`. Si un pointeur SCP correspondant est trouvé, abandonnez le jeu d'objets SCP et recommencez à l'étape 1 en utilisant la valeur de la propriété **serviceBindingInformation** comme serveur pour se connecter à l'entrée DSE racine. 
+3. Vérifiez les objets SCP que vous avez trouvés pour un pointeur SCP inclus dans le domaine de l'utilisateur en vérifiant la propriété **keywords** d'une entrée égale à`"Domain=<domain>"`. Par exemple, si l'adresse e-mail de l'utilisateur est elvin@contoso.com, vous rechercherez un pointeur SCP avec une entrée dans la propriété **keywords** qui est égale à`"Domain=contoso.com"`. Si un pointeur SCP correspondant est trouvé, abandonnez le jeu d'objets SCP et recommencez à l'étape 1 en utilisant la valeur de la propriété **serviceBindingInformation** comme serveur pour se connecter à l'entrée DSE racine. 
     
 4. Si vous ne trouvez pas de pointeurs SCP inclus dans le domaine de l'utilisateur, recherchez des pointeurs SCP qui ne sont pas inclus dans un domaine, puis enregistrez la valeur de la propriété **serviceBindingInformation** comme serveur « de secours », au cas où le serveur actuel ne donne pas de résultats. 
     
@@ -173,7 +173,7 @@ namespace ScpLookup
                     {
                         // Save the first SCP pointer that is not scoped to a domain as a fallback
                         // in case you do not get any results from this server.
-                        if (entryKeywords.Count == 1 &amp;&amp; string.IsNullOrEmpty(fallBackLdapPath))
+                        if (entryKeywords.Count == 1 && string.IsNullOrEmpty(fallBackLdapPath))
                         {
                             fallBackLdapPath = ptrLdapPath;
                             Console.WriteLine("Saved fallback SCP pointer: " + fallBackLdapPath);
@@ -283,7 +283,7 @@ namespace ScpLookup
                 }
                 // If after all this, you still have no URLs in your list,
                 // try the fallback SCP pointer, if you have one.
-                if (scpUrlList.Count == 0 &amp;&amp; fallBackLdapPath != null)
+                if (scpUrlList.Count == 0 && fallBackLdapPath != null)
                 {
                     return GetScpUrls(fallBackLdapPath, domain);
                 }

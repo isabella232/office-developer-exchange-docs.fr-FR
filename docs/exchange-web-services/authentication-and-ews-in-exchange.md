@@ -4,14 +4,14 @@ manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.assetid: 9a83df96-aca0-42b3-b8f5-2b414f0363f1
-description: Cette page contient des informations pour vous aider à choisir la norme d'authentification correcte pour votre application EWS qui cible Exchange.
+description: Cette page contient des informations pour vous aider à choisir la norme d’authentification correcte pour votre application EWS qui cible Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 69018b6f88fc80e1e18edd96ed0e16d52064572d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
-ms.translationtype: MT
+ms.openlocfilehash: 0b35921f33b935f9a5a490e15d4e76d1a3e3c9dc
+ms.sourcegitcommit: 843a2e030a94b12aec70c553ca4e06e39ac02d82
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528481"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49603833"
 ---
 # <a name="authentication-and-ews-in-exchange"></a>Authentification et EWS dans Exchange
 
@@ -72,15 +72,18 @@ L'authentification de base fournit un niveau de sécurité rudimentaire à votre
 
 |**Avantages**|**Inconvénients**|
 |:-----|:-----|
-| Prêt à l'emploi avec votre serveur Exchange. Vous pouvez configurer l'accès aux services Exchange en utilisant une [applet de commande Exchange Management Shell](how-to-control-access-to-ews-in-exchange.md).  <br/><br/>Les applications Windows peuvent utiliser les informations d'identification de l'utilisateur connecté par défaut.<br/><br/>Nombreux sont les [exemples de code](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) qui illustrent la façon d'appeler EWS à l'aide de l'authentification de base.  <br/> | Nécessite que l'application collecte et stocke les informations d'identification de l'utilisateur.<br/><br/>Vous devez désactiver l’authentification NTLM si vous souhaitez forcer tous les utilisateurs à utiliser l’authentification de base.<br/><br/>En cas de violation de la sécurité dans votre application, ce mécanisme peut exposer l'adresse de messagerie et le mot de passe de l'utilisateur à un utilisateur malveillant.  <br/> |
+| Prêt à l'emploi avec votre serveur Exchange. Vous pouvez configurer l'accès aux services Exchange en utilisant une [applet de commande Exchange Management Shell](how-to-control-access-to-ews-in-exchange.md).  <br/><br/>Les applications Windows peuvent utiliser les informations d'identification de l'utilisateur connecté par défaut.<br/><br/>Nombreux sont les [exemples de code](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) qui illustrent la façon d'appeler EWS à l'aide de l'authentification de base.  <br/> | Nécessite que l'application collecte et stocke les informations d'identification de l'utilisateur.<br/><br/>Vous devez désactiver l’authentification NTLM si vous voulez forcer tous les utilisateurs à utiliser l’authentification de base.<br/><br/>En cas de violation de la sécurité dans votre application, ce mécanisme peut exposer l'adresse de messagerie et le mot de passe de l'utilisateur à un utilisateur malveillant.  <br/> |
    
 Vous devez décider si l'authentification de base répond aux exigences de sécurité de votre organisation et des clients. L'authentification de base peut être judicieuse si vous souhaitez éviter les tâches de configuration fastidieuses, par exemple pour les applications de démonstration ou de test simples.
+
+> [!NOTE]
+> L’authentification de base n’est plus prise en charge pour EWS pour la connexion à Exchange Online. Utilisez l’authentification OAuth dans toutes les applications nouvelles ou existantes EWS pour vous connecter à Exchange Online. L’authentification OAuth pour EWS est disponible uniquement dans Exchange dans le cadre d’Office 365. Les applications EWS qui utilisent OAuth doivent être inscrites auprès d’Azure Active Directory.
   
 ## <a name="see-also"></a>Voir aussi
-
+- [Authentifier une application EWS à l’aide d’OAuth](how-to-authenticate-an-ews-application-by-using-oauth.md)
 - [Commencer à utiliser les services web dans Exchange](start-using-web-services-in-exchange.md)   
 - [Ajouter une authentification à votre application web à l’aide de Microsoft Azure AD](https://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)    
 - [Contrôler l’accès à EWS dans Exchange](how-to-control-access-to-ews-in-exchange.md)    
 - [Contrôler l’accès des applications clientes à EWS dans Exchange](controlling-client-application-access-to-ews-in-exchange.md)   
-- [Types de jetons et de revendications pris en charge](https://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
+- [Types de jeton et de revendication pris en charge](https://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
  

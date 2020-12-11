@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 76136f28-0dad-4ecc-9dd7-a45a1861e4b0
 description: Découvrez les abonnements à des notifications et les événements de boîte aux lettres dans les services EWS dans Exchange.
 localization_priority: Priority
-ms.openlocfilehash: 2a99b1922e021a8f5f221381d7f2965c3e1ab504
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 00a0941e615f35a46bb77c00648b75fcd2a45286
+ms.sourcegitcommit: 843a2e030a94b12aec70c553ca4e06e39ac02d82
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "44459353"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "49603840"
 ---
 # <a name="notification-subscriptions-mailbox-events-and-ews-in-exchange"></a>Abonnements à des notifications, événements de boîte aux lettres et EWS dans Exchange
 

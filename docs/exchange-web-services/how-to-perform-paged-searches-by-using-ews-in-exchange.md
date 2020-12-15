@@ -87,13 +87,13 @@ Mais, pendant que votre application traite ces 10 éléments, un nouveau messag
   
 **Figure 3. Demande de 10 éléments avec un décalage de 10 à partir du début d’une liste de 16 éléments, le 16e élément de la liste étant nouveau**
 
-![Diagramme présentant les résultats d’une demande de 10 éléments avec un décalage de 10 à partir du début d’une liste de 16 éléments quand le 16e élément a été ajouté à la fin de la liste.](media/Ex15_PagedSearch_SecondPage_NewItemEnd.png)
+![Diagramme présentant les résultats d’une demande de 10 éléments au décalage de 10 à partir du début d’une liste de 16 éléments quand le 16e élément a été ajouté à la fin de la liste.](media/Ex15_PagedSearch_SecondPage_NewItemEnd.png)
   
 Si la liste est triée de manière à ce que les éléments les plus récents soient les premiers, c’est une autre histoire. Dans ce cas, le premier élément de la deuxième demande serait le dernier élément de la demande précédente en plus des cinq éléments restants des 15 éléments d’origine. Pour reprendre l’image de notre fenêtre magique imaginaire, vous avez déplacé la position de votre fenêtre de 10, mais les panneaux d’affichage eux-mêmes ont également été décalés de 1.
   
 **Figure 4. Demande de 10 éléments avec un décalage de 10 depuis le début d’une liste de 16 éléments, le premier élément de la liste étant nouveau**
 
-![Diagramme présentant les résultats d’une demande de 10 éléments avec un décalage de 10 à partir du début d’une liste de 16 éléments lorsque le 16e élément a été ajouté au début de la liste.](media/Ex15_PagedSearch_SecondPage_NewItemBeginning.png)
+![Diagramme présentant les résultats d’une demande de 10 éléments au décalage de 10 à partir du début d’une liste de 16 éléments lorsque le 16e élément a été ajouté au début de la liste.](media/Ex15_PagedSearch_SecondPage_NewItemBeginning.png)
   
 Une façon de détecter une modification des résultats sur le serveur consiste à utiliser le concept d’élément d’ancrage. Un élément d’ancrage est un élément supplémentaire dans votre réponse qui n’est pas traité avec le reste des résultats, mais est utilisé pour effectuer une comparaison avec les résultats suivants pour voir si les éléments eux-mêmes ont changé. En se basant à nouveau sur notre exemple simple, si votre application utilise une taille de « fenêtre » de 10, vous définissez en fait le nombre maximum d’éléments à retourner sur 11. Votre application traite les 10 premiers éléments de la réponse comme d’habitude. Pour le dernier élément, vous enregistrez l’identifiant de l’élément en tant qu’ancre, puis émettez la demande suivante avec un décalage de 10. Si les données n’ont pas changé, le premier élément de la deuxième réponse doit avoir un identifiant d’élément qui correspond à l’ancre. Si les identificateurs d’élément ne correspondent pas, vous savez que les données ont été supprimées ou insérées dans les parties de la liste que vous avez déjà « paginées ».
   

@@ -1,5 +1,5 @@
 ---
-title: Changes (éléments)
+title: Modifications (éléments)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,17 +11,17 @@ api_name:
 api_type:
 - schema
 ms.assetid: d3139fef-0455-4b89-babd-5d6783b50a58
-description: L’élément changes contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.
-ms.openlocfilehash: 6fda7b5602f172bae84ad7b211db2811def4f883
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Changes contient un tableau de séquences de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur Exchange serveur.
+ms.openlocfilehash: ede81d8ecae9751c477ae05cbd13f914fedf8e0f
+ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463264"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58764629"
 ---
-# <a name="changes-items"></a>Changes (éléments)
+# <a name="changes-items"></a>Modifications (éléments)
 
-L’élément **changes** contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange. 
+**L’élément Changes** contient un tableau de séquences de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur Exchange serveur. 
   
 [SyncFolderItemsResponse](syncfolderitemsresponse.md)
   
@@ -29,13 +29,14 @@ L’élément **changes** contient un tableau de séquence de types de modificat
   
 [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
   
-[Changes (éléments)](changes-items.md)
+[Modifications (éléments)](changes-items.md)
   
 ```xml
 <Changes>
    <Create/>
    <Update/>
    <Delete/>
+   <ReadFlagChange/>
 </Changes>
 ```
 
@@ -52,20 +53,20 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin client local.  <br/> |
+|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin de clients local.  <br/> |
 |[Mise à jour (ItemSync)](update-itemsync.md) <br/> |Identifie un élément unique à mettre à jour dans le magasin de client local.  <br/> |
-|[Supprimer (ItemSync)](delete-itemsync.md) <br/> |Identifie un élément unique à supprimer dans le magasin client local.  <br/> |
-|[ReadFlagChange](readflagchange.md) <br/> |Renvoyée dans les réponses d' [opération SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule.  <br/> |
+|[Delete (ItemSync)](delete-itemsync.md) <br/> |Identifie un élément unique à supprimer dans le magasin de clients local.  <br/> |
+|[ReadFlagChange](readflagchange.md) <br/> |Renvoyé dans [les réponses de l’opération SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande d' [opération SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
+|[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) <br/> |Contient l’état et le résultat [d’une demande d’opération SyncFolderItems.](syncfolderitems-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -73,7 +74,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

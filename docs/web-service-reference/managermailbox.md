@@ -8,19 +8,21 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 70c324d5-2196-406d-a674-73323f8d8b92
 description: L’élément ManagerMailbox contient des informations SMTP qui identifient la boîte aux lettres du responsable du contact.
-ms.openlocfilehash: da9e26c3efdd22000694839f5962a6bb0256f748
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c30a343ad7071e92c826925407f8447ae6baccae
+ms.sourcegitcommit: 63e48eaf2891a6db1a718b55cd69e3a0433c4a9c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453965"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58851113"
 ---
 # <a name="managermailbox"></a>ManagerMailbox
 
-L’élément **ManagerMailbox** contient des informations SMTP qui identifient la boîte aux lettres du responsable du contact. 
+**L’élément ManagerMailbox** contient des informations SMTP qui identifient la boîte aux lettres du responsable du contact. 
   
 ```XML
-<ManagerMailbox/>
+<ManagerMailbox>
+   <Mailbox/>
+</ManagerMailbox>
 ```
 
  **SingleRecipientType**
@@ -34,18 +36,16 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-Aucun.
+|**Élément**|**Description**|
+|:-----|:-----|
+|[Boîte aux lettres](mailbox.md) <br/> |Identifie un objet Active Directory à messagerie qui identifie l’expéditeur.  <br/> |
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Nom de l'élément**|**Description**|
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Représente un élément de contact dans la banque d'informations Exchange.  <br/> |
-   
-## <a name="text-value"></a>Valeur de texte
 
-Aucun.
-  
 ## <a name="remarks"></a>Remarques
 
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.

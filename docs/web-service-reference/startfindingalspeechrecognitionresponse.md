@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df97f1bd-9571-4b73-bb02-437541ae06a0
-description: L’élément StartFindInGALSpeechRecognitionResponse est destiné uniquement à un usage interne.
-ms.openlocfilehash: 3a1311123d9853d85cff4f1520f70400e7c426b4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément StartFindInGALSpeechRecognitionResponse est destiné à un usage interne uniquement.
+ms.openlocfilehash: 2226e891fc63e4bcc8c1c66382169a2c8ba75f8b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521255"
 ---
 # <a name="startfindingalspeechrecognitionresponse"></a>StartFindInGALSpeechRecognitionResponse
 
-L’élément **StartFindInGALSpeechRecognitionResponse** est destiné uniquement à un usage interne. 
+**L’élément StartFindInGALSpeechRecognitionResponse** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
@@ -47,7 +47,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

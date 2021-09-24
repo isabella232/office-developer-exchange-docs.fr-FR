@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResolutionSet
 api_type:
 - schema
 ms.assetid: 43d5b876-0e87-4414-9b1d-bff1c1ec825c
 description: L’élément ResolutionSet contient un tableau de résolutions pour un nom ambigu.
-ms.openlocfilehash: 483a096a7fcedbabe25758ebcaa31c83405a0ad4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f77b8a94871aa7827c98a3bb15fdf4a3a35c7c55
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521745"
 ---
 # <a name="resolutionset"></a>ResolutionSet
 
-L’élément **ResolutionSet** contient un tableau de résolutions pour un nom ambigu. 
+**L’élément ResolutionSet** contient un tableau de résolutions pour un nom ambigu. 
   
 [ResolveNamesResponse](resolvenamesresponse.md)
   
@@ -46,10 +46,10 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lorsque vous utilisez une vue de page indexée.  <br/> |
-|**NumeratorOffset** <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
-|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
-|**IncludesLastItemInRange** <br/> |Cet attribut est true si les résultats actuels contiennent le dernier élément de la requête, afin que la pagination supplémentaire ne soit pas nécessaire.  <br/> |
+|**IndexedPagingOffset** <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lorsque vous utilisez un affichage de page indexé.  <br/> |
+|**NumeratorOffset** <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la demande suivante lorsque vous utilisez des affichages de page de fraction.  <br/> |
+|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des vues de page de fraction.  <br/> |
+|**IncludesLastItemInRange** <br/> |Cet attribut aura la valeur true si les résultats actuels contiennent le dernier élément de la requête, de sorte que la pagination supplémentaire n’est pas nécessaire.  <br/> |
 |**TotalItemsInView** <br/> |Représente le nombre total d’éléments dans l’affichage.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -62,11 +62,11 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande ResolveNames.  <br/> |
+|[ResolveNamesResponseMessage](resolvenamesresponsemessage.md) <br/> |Contient l’état et le résultat d’une demande ResolveNames.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un élément **ResolutionSet** peut contenir un maximum de 100 entités résolues. 
+Un **élément ResolutionSet** peut contenir un maximum de 100 entités résolues. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -76,7 +76,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,27 +1,27 @@
 ---
-title: Emplacement (CalendarEventDetails)
+title: Location (CalendarEventDetails)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Location
 api_type:
 - schema
 ms.assetid: 883cce6e-66b8-4dbc-935c-83ef5100a953
-description: L’élément location représente le champ d’emplacement de l’élément de calendrier.
-ms.openlocfilehash: 4a590c315d2211ce9128305a514e68f1c785596c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Location représente le champ d’emplacement de l’élément de calendrier.
+ms.openlocfilehash: 7264d086b295b442b51376ac0a4e2b1b03521249
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467997"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524902"
 ---
-# <a name="location-calendareventdetails"></a>Emplacement (CalendarEventDetails)
+# <a name="location-calendareventdetails"></a>Location (CalendarEventDetails)
 
-L’élément **location** représente le champ d’emplacement de l’élément de calendrier. 
+**L’élément Location** représente le champ d’emplacement de l’élément de calendrier. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -37,7 +37,7 @@ L’élément **location** représente le champ d’emplacement de l’élément
   
 [CalendarEventDetails](calendareventdetails.md)
   
-[Emplacement (CalendarEventDetails)](location-calendareventdetails.md)
+[Location (CalendarEventDetails)](location-calendareventdetails.md)
   
 ```xml
 <Location/>
@@ -60,15 +60,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément peut contenir une chaîne vide. Cet élément est facultatif si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé. 
+Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément peut contenir une chaîne vide. Cet élément est facultatif si [l’élément CalendarEventDetails](calendareventdetails.md) est utilisé. 
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est mappé à une propriété nommée MAPI PR_Location.
+Cet élément est mapmé sur une PR_Location nommée MAPI.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

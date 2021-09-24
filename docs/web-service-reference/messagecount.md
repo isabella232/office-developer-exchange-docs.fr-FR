@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageCount
 api_type:
 - schema
 ms.assetid: 5efc5903-fcb3-44cf-aabb-b6912268df8e
-description: L’élément MessageCount contient le nombre total d’éléments de conversation dans le dossier actif.
-ms.openlocfilehash: f0b6ffce370ccf8195a9132146e062f0660163c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MessageCount contient le nombre total d’éléments de conversation dans le dossier actuel.
+ms.openlocfilehash: ef02d4e03136a4dead0be7e1d0fe95ff32a21e4b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468704"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523957"
 ---
 # <a name="messagecount"></a>MessageCount
 
-L’élément **MessageCount** contient le nombre total d’éléments de conversation dans le dossier actif. 
+**L’élément MessageCount** contient le nombre total d’éléments de conversation dans le dossier actuel. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ L’élément **MessageCount** contient le nombre total d’éléments de conver
 <MessageCount/>
 ```
 
- **XS : int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -56,7 +56,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **MessageCount** est le nombre total d’éléments de conversation dans un dossier. 
+La valeur de texte de **l’élément MessageCount** est le nombre total d’éléments de conversation dans un dossier. 
   
 ## <a name="remarks"></a>Remarques
 

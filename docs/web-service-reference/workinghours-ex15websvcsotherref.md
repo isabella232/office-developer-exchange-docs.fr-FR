@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WorkingHours
 api_type:
 - schema
 ms.assetid: bbe97777-f728-46c5-b2aa-565112c24f3a
 description: L’élément WorkingHours représente les paramètres de fuseau horaire et les heures de travail de l’utilisateur de boîte aux lettres demandé.
-ms.openlocfilehash: 9cb21e72f7024b96b4b5f252a8a3b85bb704e67c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6453ddbf3d1bf96ce09073ff62a65bd5a6ccc515
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468340"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525497"
 ---
 # <a name="workinghours"></a>WorkingHours
 
-L’élément **WorkingHours** représente les paramètres de fuseau horaire et les heures de travail de l’utilisateur de boîte aux lettres demandé. 
+**L’élément WorkingHours** représente les paramètres de fuseau horaire et les heures de travail de l’utilisateur de boîte aux lettres demandé. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -53,14 +53,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TimeZone (disponibilité)](timezone-availability.md) <br/> |Contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été. Cet élément est requis si l’élément **WorkingHours** est utilisé.  <br/> |
-|[WorkingPeriodArray](workingperiodarray.md) <br/> |Contient des informations de période de travail pour l’utilisateur de boîte aux lettres. Cet élément est requis si l’élément **WorkingHours** est utilisé.  <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> |Contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été. Cet élément est requis si **l’élément WorkingHours** est utilisé.  <br/> |
+|[WorkingPeriodArray](workingperiodarray.md) <br/> |Contient des informations de période de travail pour l’utilisateur de boîte aux lettres. Cet élément est requis si **l’élément WorkingHours** est utilisé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Contient les informations de disponibilité d’un utilisateur spécifique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
+|[FreeBusyView](freebusyview.md) <br/> |Contient des informations de disponibilité pour un utilisateur spécifique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

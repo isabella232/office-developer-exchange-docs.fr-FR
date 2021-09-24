@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReplyBody
 api_type:
 - schema
 ms.assetid: bb184144-3e4b-4419-a883-cc9fab1085e6
-description: L’élément ReplyBody contient un message d’absence du bureau et la langue utilisée pour le message.
-ms.openlocfilehash: 496d336d1f87d9ea493ba7da362eef5a416fd899
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReplyBody contient un message Office (OOF) et la langue utilisée pour le message.
+ms.openlocfilehash: 75af64277467246c7edcc2a48708bbf3f3c95c48
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517951"
 ---
 # <a name="replybody"></a>ReplyBody
 
-L’élément **ReplyBody** contient un message d’absence du bureau et la langue utilisée pour le message. 
+**L’élément ReplyBody** contient un message Office (OOF) et la langue utilisée pour le message. 
   
 ```XML
 <ReplyBody xml:lang="">
@@ -38,13 +38,13 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|XML : lang  <br/> |Spécifie la langue utilisée dans le contenu **ReplyBody** . Cet attribut est facultatif. Les valeurs possibles de cet attribut sont définies par IETF RFC 3066.  <br/> |
+|xml:lang  <br/> |Spécifie la langue utilisée dans **le contenu ReplyBody.** Cet attribut est facultatif. Les valeurs possibles de cet attribut sont définies par la RFC 3066 de l’IETF.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Message (disponibilité)](message-availability.md) <br/> |Contient la réponse absent (e) du bureau.  <br/> |
+|[Message (Availability)](message-availability.md) <br/> |Contient la réponse d’absence du bureau.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

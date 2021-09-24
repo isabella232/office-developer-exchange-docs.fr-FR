@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 083a23d9-acc3-4c15-9d30-c20bf7e6808d
-description: L’élément OptedInto spécifie une valeur booléenne qui indique si l’utilisateur a opté pour la stratégie de rétention.
-ms.openlocfilehash: 1095a8c2527546b8c945dd7efb5c0218f9a151c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OptedInto spécifie une valeur booléen qui indique si l’utilisateur a choisi la stratégie de rétention.
+ms.openlocfilehash: 6dbfe898ad6eb3141b265d51c8ec0cb830916a9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468767"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518063"
 ---
 # <a name="optedinto"></a>OptedInto
 
-L’élément **OptedInto** spécifie une valeur booléenne qui indique si l’utilisateur a opté pour la stratégie de rétention. 
+**L’élément OptedInto** spécifie une valeur booléen qui indique si l’utilisateur a choisi la stratégie de rétention. 
   
 ```XML
 <OptedInto>true | false</OptedInto>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **OptedInto** indique que l’utilisateur a opté pour la stratégie de rétention. La valeur **false** indique que l’utilisateur n’a pas choisi de la stratégie de rétention. 
+Une valeur de texte **true pour** l’élément **OptedInto** indique que l’utilisateur a choisi la stratégie de rétention. La valeur **false indique** que l’utilisateur n’a pas choisi la stratégie de rétention. 
   
 ## <a name="remarks"></a>Remarques
 

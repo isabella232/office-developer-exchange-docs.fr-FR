@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec32b455-59c8-4cf5-978e-bb9f255bc93c
 description: L’élément SortValue spécifie une valeur utilisée pour le tri.
-ms.openlocfilehash: 099cfe248de893e1b044c3e2228bfa979e9a1243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 282879124802c30725b13bd6dbe52edb7739e126
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521374"
 ---
 # <a name="sortvalue"></a>SortValue
 
-L’élément **SortValue** spécifie une valeur utilisée pour le tri. 
+**L’élément SortValue** spécifie une valeur utilisée pour le tri. 
   
 ```XML
 <SortValue></SortValue>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément [SortValue](sortvalue.md) est le champ utilisé pour trier le jeu de résultats. 
+La valeur de texte de [l’élément SortValue](sortvalue.md) est le champ utilisé pour trier le jeu de résultats. 
   
 ## <a name="remarks"></a>Remarques
 

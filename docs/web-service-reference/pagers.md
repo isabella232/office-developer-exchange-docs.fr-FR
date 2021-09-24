@@ -1,23 +1,23 @@
 ---
-title: Radiomessagerie
+title: Récepteur de radiomessagerie
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fde3caef-ebbe-4a0b-a839-b1fb8157dcb4
-description: L’élément pagers spécifie un tableau de numéros de radiomessagerie et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 196fae886d5a12bc03e0688c2be15e4fbd22e443
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Pagers spécifie un tableau de numéros de téléphone de pageur et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 517e7bf4318e6d48b6c6a2177a7d14aacb236a03
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462324"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521738"
 ---
-# <a name="pagers"></a>Radiomessagerie
+# <a name="pagers"></a>Récepteur de radiomessagerie
 
-L’élément **pagers** spécifie un tableau de numéros de radiomessagerie et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Pagers** spécifie un tableau de numéros de téléphone de pageur et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Pagers>

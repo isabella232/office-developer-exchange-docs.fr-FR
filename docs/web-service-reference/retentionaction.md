@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bdf5955-1212-48a1-b3b5-743086866c91
-description: L’élément RetentionAction spécifie l’action effectuée sur les éléments à l’aide de la balise de rétention.
-ms.openlocfilehash: c16988413e732ddc3cd6ebc355cb73c4d96550c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RetentionAction spécifie l’action effectuée sur les éléments avec la balise de rétention.
+ms.openlocfilehash: ecea4326f0e50460635966991cd55badf8946993
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465232"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517944"
 ---
 # <a name="retentionaction"></a>RetentionAction
 
-L’élément **RetentionAction** spécifie l’action effectuée sur les éléments à l’aide de la balise de rétention. 
+**L’élément RetentionAction** spécifie l’action effectuée sur les éléments avec la balise de rétention. 
   
 ```XML
 <RetentionAction> None | MoveToDeletedItems | MoveToFolder | DeleteAndAllowRecovery | PermanentlyDelete | MarkAsPastRetentionLimit | MoveToArchive <RetentionAction>
@@ -42,19 +42,19 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionAction** est l’action effectuée sur les éléments. La liste suivante contient les valeurs de texte de l’élément **RetentionAction** . 
+La valeur de texte de **l’élément RetentionAction** est l’action effectuée sur les éléments. La liste suivante contient les valeurs de texte de **l’élément RetentionAction.** 
   
-> **None** : aucune action n’est effectuée sur l’élément. 
+> **Aucun** : aucune action n’est effectuée sur l’élément. 
     
-> **MoveToDeletedItems** -l’élément est déplacé vers le dossier éléments supprimés par défaut. 
+> **MoveToDeletedItems** : l’élément est déplacé vers le dossier Éléments supprimés par défaut. 
     
 > **MoveToFolder** : l’élément est déplacé vers un dossier spécifié. 
     
-> **DeleteAndAllowRecovery** : l’élément est supprimé et placé dans la benne. 
+> **DeleteAndAllowRecovery** : l’élément est supprimé et placé dans le benne. 
     
 > **PermanentlyDelete** : l’élément est définitivement supprimé de la boîte aux lettres. 
     
-> **MarkAsPastRetentionLimit** -l’élément est marqué comme ayant dépassé la limite de temps de rétention. 
+> **MarkAsPastRetentionLimit** : l’élément est marqué comme ayant dépassé la limite de temps de rétention. 
     
 > **MoveToArchive** : l’élément est déplacé vers la boîte aux lettres d’archivage. 
     

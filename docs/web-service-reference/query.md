@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ccb4cd62-9779-4ca7-a4fe-5a96e6af8f48
-description: L’élément Query contient la requête de recherche pour la suspension.
-ms.openlocfilehash: 52b7f58ee0304621d37fc592a0377f5fd82cea29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Query contient la requête de recherche pour la requête de la requête de la recherche.
+ms.openlocfilehash: a9e66a0861a07336aa3a02eaca5b65ab97a3d6cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468858"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523789"
 ---
 # <a name="query"></a>Requête
 
-L’élément **query** contient la requête de recherche pour la suspension. 
+**L’élément Query** contient la requête de recherche pour la requête de la requête de la recherche. 
   
 ```XML
 <Query></Query>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **query** est la chaîne de requête de recherche pour une recherche de découverte. 
+La valeur de texte de **l’élément Query** est la chaîne de requête de recherche pour une recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

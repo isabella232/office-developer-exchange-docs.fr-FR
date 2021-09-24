@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OperationIndex
 api_type:
 - schema
 ms.assetid: 289f173c-26fa-4981-95dd-652e1921bdc6
-description: L’élément OperationIndex spécifie l’index de l’opération dans la demande qui a provoqué l’erreur d’opération de la règle.
-ms.openlocfilehash: a95f194231200520d2f3feb328b3608e2921826c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OperationIndex spécifie l’index de l’opération dans la demande à l’origine de l’erreur d’opération de règle.
+ms.openlocfilehash: 27c3f9943d103abde9f6dfe32930812c0b652671
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518077"
 ---
 # <a name="operationindex"></a>OperationIndex
 
-L’élément **OperationIndex** spécifie l’index de l’opération dans la demande qui a provoqué l’erreur d’opération de la règle. 
+**L’élément OperationIndex spécifie** l’index de l’opération dans la demande à l’origine de l’erreur d’opération de règle. 
   
 ```XML
 <OperationIndex/>
@@ -34,7 +34,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

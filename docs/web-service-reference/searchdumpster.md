@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddb62dce-c87a-4714-8023-a6b697a29699
-description: L’élément SearchDumpster spécifie s’il faut effectuer une recherche dans la benne Exchange.
-ms.openlocfilehash: 067bf8ea3e589aa392c6b8ba6d4dc10b430c1f28
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SearchDumpster spécifie s’il faut effectuer une recherche dans le Exchange Dumpster.
+ms.openlocfilehash: 4d8f05393691e38e3a4154e955d03c8591064a1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460490"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521689"
 ---
 # <a name="searchdumpster"></a>SearchDumpster
 
-L’élément **SearchDumpster** spécifie s’il faut effectuer une recherche dans la benne Exchange. 
+**L’élément SearchDumpster spécifie** s’il faut effectuer une recherche dans Exchange Dumpster. 
   
 ```XML
 <SearchDumpster> true | false </SearchDumpster>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **SearchDumpster** indique que la recherche de statistiques de boîte aux lettres inclut la benne Exchange. La valeur **false** indique que la benne Exchange n’est pas recherchée. 
+Une valeur de texte **true** pour l’élément **SearchDumpster** indique que la recherche de statistiques de boîte aux lettres inclut Exchange Dumpster. La valeur **false indique** que le Exchange dumpster n’est pas recherché. 
   
 ## <a name="remarks"></a>Remarques
 

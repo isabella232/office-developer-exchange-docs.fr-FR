@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Date
 api_type:
 - schema
 ms.assetid: 2f6bc090-fff4-45b1-8d7e-8fd6e060cce2
 description: L’élément Date représente la date qui contient les heures de réunion suggérées.
-ms.openlocfilehash: bcc152ed6aba94907189b5579b998815be45db16
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 077420a268d574267cc8ea352b90e581391275b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44443787"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524404"
 ---
 # <a name="date"></a>Date
 
-L’élément **Date** représente la date qui contient les heures de réunion suggérées. 
+**L’élément Date** représente la date qui contient les heures de réunion suggérées. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md) 
 - [SuggestionsResponse](suggestionsresponse.md) 
@@ -51,11 +51,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour qui contient des heures de réunion suggérées.  <br/><br/>Voici l’expression XPath 2,0 pour cet élément :<br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour unique qui contient des heures de réunion suggérées.  <br/><br/>Voici l’expression XPath 2.0 à cet élément :<br/><br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Consultez les recommandations relatives aux types de données du schéma W3C (World Wide Web Consortium) pour le format du type de données primitif dateTime.
+Une valeur de texte est requise. Examinez les recommandations relatives au type de données de schéma W3C (World Wide Web Consortium) pour le format du type de données primitive dateTime.
   
 ## <a name="remarks"></a>Remarques
 

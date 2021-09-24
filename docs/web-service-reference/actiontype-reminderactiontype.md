@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ffcdcf4-8ea3-483c-bb7f-0cd84126120c
-description: L’élément ActionType spécifie l’action à effectuer sur le rappel.
-ms.openlocfilehash: 5c62b2dd945b23a5ff2bb824385c45dbc617a5a5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ActionType spécifie l’action à prendre sur le rappel.
+ms.openlocfilehash: d78725c75ad13a71d69d7749f0a71cd99d606929
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522256"
 ---
 # <a name="actiontype-reminderactiontype"></a>ActionType (ReminderActionType)
 
-L’élément **ActionType** spécifie l’action à effectuer sur le rappel. 
+**L’élément ActionType** spécifie l’action à prendre sur le rappel. 
   
 ```XML
 <ActionType> Dismiss | Snooze </ActionType>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ActionType** spécifie l’action à effectuer sur le rappel. La valeur **texte de la** propriété Reverse indique que le rappel doit être fermé. La valeur de la propriété **SNOOZE** indique que le rappel doit être retardé jusqu’à l’heure spécifiée par l’élément [NewReminderTime](newremindertime.md) . 
+La valeur de texte de **l’élément ActionType** spécifie l’action à prendre pour le rappel. La valeur de texte **Dismiss** indique que le rappel doit être rejeté. La valeur de texte **Snooze** indique que le rappel doit être différé jusqu’à l’heure spécifiée par [l’élément NewReminderTime.](newremindertime.md) 
   
 ## <a name="remarks"></a>Remarques
 

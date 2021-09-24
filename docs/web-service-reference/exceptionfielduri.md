@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExceptionFieldURI
 api_type:
 - schema
 ms.assetid: 7afda93a-0f8c-4c9e-8e09-f1b0bfc928bf
-description: L’élément ExceptionFieldURI identifie les erreurs particulières dans une demande. Cet élément est utilisé uniquement dans le cadre d’une réponse d’erreur dans le nœud MessageXml.
-ms.openlocfilehash: a47d44098f85d8bacb1e7a2c48a33e478e56c7ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ExceptionFieldURI identifie des erreurs particulières dans une demande. Cet élément est utilisé uniquement dans le cadre d’une réponse d’erreur dans le nœud MessageXml.
+ms.openlocfilehash: 7368fd51e8eca2081b1fd50c86bce9ffa469c6b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454343"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524328"
 ---
 # <a name="exceptionfielduri"></a>ExceptionFieldURI
 
-L’élément **ExceptionFieldURI** identifie les erreurs particulières dans une demande. Cet élément est utilisé uniquement dans le cadre d’une réponse d’erreur dans le nœud [messagexml](messagexml.md) . 
+**L’élément ExceptionFieldURI** identifie des erreurs particulières dans une demande. Cet élément est utilisé uniquement dans le cadre d’une réponse d’erreur dans le [nœud MessageXml.](messagexml.md) 
   
 ```xml
 <ExceptionFieldURI FieldURI="" />
@@ -42,15 +42,15 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|pièce jointe : nom  <br/> |Identifie le nom de la pièce jointe comme contenant une erreur.  <br/> |
-|pièce jointe : ContentType  <br/> |Identifie le type de contenu comme contenant une erreur.  <br/> |
-|pièce jointe : contenu  <br/> |Identifie le contenu comme contenant une erreur.  <br/> |
-|Périodicité : mois  <br/> |Identifie le champ de mois comme contenant une erreur.  <br/> |
-|Périodicité : DayOfWeekIndex  <br/> |Identifie l’index du jour de la semaine comme contenant une erreur.  <br/> |
-|Périodicité : DaysOfWeek  <br/> |Identifie la propriété DaysOfWeek comme contenant une erreur.  <br/> |
-|Périodicité : DayOfMonth  <br/> |Identifie le DayOfMonth comme contenant une erreur.  <br/> |
-|Périodicité : intervalle  <br/> |Identifie l’intervalle comme contenant une erreur.  <br/> |
-|Périodicité : NumberOfOccurrences  <br/> |Identifie le nombre d’occurrences contenant une erreur.  <br/> |
+|attachment:Name  <br/> |Identifie le nom de la pièce jointe comme contenant une erreur.  <br/> |
+|attachment:ContentType  <br/> |Identifie le type de contenu comme contenant une erreur.  <br/> |
+|attachment:Content  <br/> |Identifie le contenu comme contenant une erreur.  <br/> |
+|recurrence:Month  <br/> |Identifie le champ mois comme contenant une erreur.  <br/> |
+|recurrence:DayOfWeekIndex  <br/> |Identifie l’index du jour de la semaine comme contenant une erreur.  <br/> |
+|recurrence:DaysOfWeek  <br/> |Identifie la propriété DaysOfWeek comme contenant une erreur.  <br/> |
+|recurrence:DayOfMonth  <br/> |Identifie dayOfMonth comme contenant une erreur.  <br/> |
+|recurrence:Interval  <br/> |Identifie l’intervalle comme contenant une erreur.  <br/> |
+|recurrence:NumberOfOccurrences  <br/> |Identifie le nombre d’occurrences comme contenant une erreur.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

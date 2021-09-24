@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e24e672-7b17-49c8-b368-a078ca1d4dd1
 description: L’élément Language contient la langue utilisée pour la requête de recherche.
-ms.openlocfilehash: 3d1843ea5d38f5efee8453623f450a4486e4d18b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b8e3bf0d1fede8febe4a1b4e1e349de4ddc6a18a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524104"
 ---
 # <a name="language"></a>Langue
 
-L’élément **Language** contient la langue utilisée pour la requête de recherche. 
+**L’élément Language** contient la langue utilisée pour la requête de recherche. 
   
 ```XML
 <Language></Language>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Language** est la langue utilisée dans une recherche de découverte. 
+La valeur de texte de **l’élément Language** est la langue utilisée dans une recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

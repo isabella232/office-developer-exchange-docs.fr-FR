@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ManagedFolderId
 api_type:
 - schema
 ms.assetid: 3efb7abb-0e91-4d8a-9fa2-3dec8bd17c30
 description: L’élément ManagedFolderId contient l’ID de dossier du dossier géré.
-ms.openlocfilehash: eacfe580342e6667fd9fc84ad953a5e4070b6ed7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 85564ecb8e88b5f03dd74f167b26d065b9f00e0d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465820"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524804"
 ---
 # <a name="managedfolderid"></a>ManagedFolderId
 
-L’élément **ManagedFolderId** contient l’ID de dossier du dossier géré. 
+**L’élément ManagedFolderId** contient l’ID de dossier du dossier géré. 
   
 ```xml
 <ManagedFolderId/>
@@ -52,7 +52,7 @@ Une valeur de texte est requise pour cet élément.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur de l’identificateur **ManagedFolderId** est l’équivalent de la propriété **GUID** qui est extraite par la `Get-ManagedFolder` commande Microsoft Windows PowerShell. Il s’agit également de la valeur de l’attribut **objectGUID** pour le dossier géré dans le service d’annuaire Active Directory. 
+La **valeur de l’identificateur ManagedFolderId** est l’équivalent de la propriété **Guid** récupérée par la commande Microsoft `Get-ManagedFolder` Windows Powershell. Il s’agit également de la valeur de **l’attribut objectGUID** pour le dossier géré dans le service d’annuaire Active Directory. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1fc7dff-a303-4809-b7f4-9672f86c183c
 description: L’élément ProgrammaticAccessAllowed spécifie si l’accès par programme est activé pour les données gérées par des droits.
-ms.openlocfilehash: 8a5cf4e57a97807e5940a0402768d7123b9912d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3e7f16a148fe1d81bbf942c098591f108529d456
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465638"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523845"
 ---
 # <a name="programmaticaccessallowed"></a>ProgrammaticAccessAllowed
 
-L’élément **ProgrammaticAccessAllowed** spécifie si l’accès par programme est activé pour les données gérées par des droits. 
+**L’élément ProgrammaticAccessAllowed** spécifie si l’accès par programme est activé pour les données gérées par des droits. 
   
 ```XML
 <ProgrammaticAccessAllowed> true | false </ProgrammaticAccessAllowed>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ProgrammaticAccessAllowed** indique que les données sont accessibles par programme. La valeur **false** indique que les données ne sont pas accessibles par programme. 
+Une valeur de **texte true** pour **l’élément ProgrammaticAccessAllowed** indique que les données sont accessibles par programme. La valeur **false indique** que les données ne sont pas accessibles par programme. 
   
 ## <a name="remarks"></a>Remarques
 

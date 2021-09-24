@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1af216b3-13ea-498e-b4fc-23513755d731
-description: Trouvez des informations sur l’opération EWS ArchiveItem.
-ms.openlocfilehash: d1e18122e67c36babbc8bf01d305309e2b17b568
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération ArchiveItem EWS.
+ms.openlocfilehash: 9dd753f92a6e6d37a5cf990118d63878508aee5a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463432"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525287"
 ---
 # <a name="archiveitem-operation"></a>Opération ArchiveItem
 
-Trouvez des informations sur l’opération EWS **ArchiveItem** . 
+Trouvez des informations sur **l’opération ArchiveItem** EWS. 
   
-L’opération **ArchiveItem** déplace un élément vers la boîte aux lettres d’archivage de l’utilisateur de boîte aux lettres. 
+**L’opération ArchiveItem** déplace un élément dans la boîte aux lettres d’archivage de l’utilisateur de la boîte aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-archiveitem-operation"></a>Utilisation de l’opération ArchiveItem
 
-L’opération **ArchiveItem** prend deux arguments dans la demande qui identifie les éléments à déplacer vers la boîte aux lettres d’archivage et le dossier de destination de ces éléments. Une boîte aux lettres d’archivage doit être activée pour que cette opération fonctionne. Pour plus d’informations sur l’activation d’une boîte aux lettres d’archivage, consultez la rubrique [Manage in-place Archive](https://technet.microsoft.com/library/jj651146.aspx).
+**L’opération ArchiveItem** prend deux arguments dans la demande qui identifient les éléments à déplacer vers la boîte aux lettres d’archivage et le dossier de destination pour ces éléments. Une boîte aux lettres d’archivage doit être activée pour que cette opération fonctionne. Pour plus d’informations sur l’enablement d’une boîte aux lettres d’archivage, [voir Manage In-Place Archives](https://technet.microsoft.com/library/jj651146.aspx).
   
 ### <a name="archiveitem-operation-soap-headers"></a>En-têtes SOAP d’opération ArchiveItem
 
-L’opération **ArchiveItem** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération ArchiveItem** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, **pour l’identification des langues**, à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, balises pour l’identification des **langues,** à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="archiveitem-operation-request-example-move-an-item-to-the-archive-inbox-folder"></a>Exemple de requête d’opération ArchiveItem : déplacer un élément vers le dossier boîte de réception d’archivage
+## <a name="archiveitem-operation-request-example-move-an-item-to-the-archive-inbox-folder"></a>Exemple de demande d’opération ArchiveItem : déplacer un élément vers le dossier de boîte de réception d’archivage
 
-L’exemple suivant de demande d’opération **ArchiveItem** indique comment déplacer un élément vers le dossier boîte de réception d’archive. 
+L’exemple suivant **d’une demande d’opération ArchiveItem** montre comment déplacer un élément vers le dossier boîte de réception d’archivage. 
   
 > [!NOTE]
-> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. 
+> Tous les identificateurs d’élément et les touches de modification de cet article ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -68,7 +68,7 @@ L’exemple suivant de demande d’opération **ArchiveItem** indique comment d�
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [ArchiveItem](archiveitem.md)    
 - [ArchiveSourceFolderId](archivesourcefolderid.md)    
@@ -78,7 +78,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-archiveitem-operation-response"></a>Réponse de l’opération ArchiveItem réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **ArchiveItem** pour déplacer un élément vers une boîte aux lettres d’archivage. 
+L’exemple suivant montre une réponse réussie à une **demande d’opération ArchiveItem** pour déplacer un élément vers une boîte aux lettres d’archivage. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -109,7 +109,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [ArchiveItemResponse](archiveitemresponse.md)    
 - [ResponseMessages](responsemessages.md)   
@@ -119,7 +119,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="archiveitem-operation-error-response"></a>Réponse d’erreur d’opération ArchiveItem
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **ArchiveItem** . Il s’agit d’une réponse à une demande valide d’archivage d’un élément lorsqu’une boîte aux lettres d’archivage n’est pas activée pour un utilisateur. 
+L’exemple suivant montre une réponse d’erreur à une **demande d’opération ArchiveItem.** Il s’agit d’une réponse à une demande valide d’archivage d’un élément lorsqu’une boîte aux lettres d’archivage n’est pas activée pour un utilisateur. 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -152,7 +152,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [ArchiveItemResponse](archiveitemresponse.md)    
 - [ResponseMessages](responsemessages.md)    
@@ -162,7 +162,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
 - [DescriptiveLinkKey](descriptivelinkkey.md)    
 - [Items](items.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

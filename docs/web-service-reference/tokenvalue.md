@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad333be3-1bd9-4e4a-a17d-9fcf7131cf76
-description: L’élément TokenValue spécifie le jeton d’accès au client encodé.
-ms.openlocfilehash: 7aa544cb8b63face7cd41054eebb55b0ed84b35d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TokenValue spécifie le jeton d’accès client codé.
+ms.openlocfilehash: 66bfdc6f236c9a73c331abb2a3a0b03f5ddeccd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467857"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522529"
 ---
 # <a name="tokenvalue"></a>TokenValue
 
-L’élément **TokenValue** spécifie le jeton d’accès au client encodé. 
+**L’élément TokenValue** spécifie le jeton d’accès client codé. 
   
 ```XML
 <TokenValue></TokenValue>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Jeton (ClientAccessTokenType)](token-clientaccesstokentype.md)
+[Token (ClientAccessTokenType)](token-clientaccesstokentype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TokenValue** est le jeton d’accès au client encodé. 
+La valeur de texte de **l’élément TokenValue** est le jeton d’accès client codé. 
   
 ## <a name="remarks"></a>Remarques
 

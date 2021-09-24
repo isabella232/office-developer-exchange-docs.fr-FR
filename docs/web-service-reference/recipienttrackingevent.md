@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecipientTrackingEvent
 api_type:
 - schema
 ms.assetid: 2bffdac7-c2f5-4805-ae7e-bd865301acb6
-description: L’élément RecipientTrackingEvent contient des informations pour un seul événement pour un destinataire.
-ms.openlocfilehash: e9a014cdfac122f112205cfa5032535a770f9d82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RecipientTrackingEvent contient des informations pour un événement unique pour un destinataire.
+ms.openlocfilehash: 30d9cd4ca075fda9607b191f576cac1b7a529988
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525762"
 ---
 # <a name="recipienttrackingevent"></a>RecipientTrackingEvent
 
-L’élément **RecipientTrackingEvent** contient des informations pour un seul événement pour un destinataire. 
+**L’élément RecipientTrackingEvent** contient des informations pour un événement unique pour un destinataire. 
   
 ```XML
 <RecipientTrackingEvent>
@@ -56,15 +56,15 @@ Aucune.
 |[Date (MessageTracking)](date-messagetracking.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[Destinataire](recipient.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[DeliveryStatus](deliverystatus.md) <br/> |Cet élément est obligatoire.  <br/> |
-|[Systèmedescription](eventdescription.md) <br/> |Cet élément est obligatoire.  <br/> |
+|[EventDescription](eventdescription.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[EventData](eventdata.md) <br/> |Cet élément est facultatif.  <br/> |
-|[Serveur (MessageTracking)](server-messagetracking.md) <br/> |Cet élément est obligatoire.  <br/> |
+|[Server (MessageTracking)](server-messagetracking.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[InternalId](internalid.md) <br/> |Cet élément est obligatoire.  <br/> |
 |[BccRecipient](bccrecipient.md) <br/> |Cet élément est facultatif.  <br/> |
 |[HiddenRecipient](hiddenrecipient.md) <br/> |Cet élément est facultatif.  <br/> |
 |[UniquePathId](uniquepathid.md) <br/> |Cet élément est facultatif.  <br/> |
 |[RootAddress](rootaddress.md) <br/> |Cet élément est facultatif.  <br/> |
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Cet élément est facultatif.  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

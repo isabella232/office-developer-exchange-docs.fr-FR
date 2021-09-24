@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: efeb5a93-c77f-44f1-b9af-8759acd2c8b5
-description: L’élément PageItemReference spécifie la référence d’un élément de page.
-ms.openlocfilehash: ff53f82f6346e24f7d73373330ce4f5abb5ec475
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PageItemReference spécifie la référence pour un élément de page.
+ms.openlocfilehash: 131b38ca10c4a522ac578d52cd36a716a689b1d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465645"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524650"
 ---
 # <a name="pageitemreference"></a>PageItemReference
 
-L’élément **PageItemReference** spécifie la référence d’un élément de page. 
+**L’élément PageItemReference** spécifie la référence pour un élément de page. 
   
 ```XML
 <PageItemReference></PageItemReference>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PageItemReference** est la référence d’un élément de page. 
+La valeur de texte de **l’élément PageItemReference** est la référence d’un élément de page. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

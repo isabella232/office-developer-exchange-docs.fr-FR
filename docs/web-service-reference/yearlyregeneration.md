@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - YearlyRegeneration
 api_type:
 - schema
 ms.assetid: 23538bca-738e-4319-944e-f459ff8a7eba
-description: L’élément YearlyRegeneration décrit la fréquence, exprimée en années, à laquelle une tâche est régénérée.
-ms.openlocfilehash: 7a6796c433bc54d145d5a769e01f9bba46897735
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément YearlyRegeneration décrit la fréquence, en années, à laquelle une tâche est régénérée.
+ms.openlocfilehash: f38460eab5ff53a033d99835f23a128e9dc00d19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457878"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522382"
 ---
 # <a name="yearlyregeneration"></a>YearlyRegeneration
 
-L’élément **YearlyRegeneration** décrit la fréquence, exprimée en années, à laquelle une tâche est régénérée. 
+**L’élément YearlyRegeneration** décrit la fréquence, en années, de régénération d’une tâche. 
   
 ```xml
 <YearlyRegeneratingPatternType>
@@ -43,13 +43,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |Définit l’intervalle, en années, pendant lequel une nouvelle tâche est régénérée après la fin de la tâche.  <br/> |
+|[Interval](interval.md) <br/> |Définit l’intervalle, en années, pendant lequel une nouvelle tâche est régénérée après l’achèvement de la tâche.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendItem
 api_type:
 - schema
 ms.assetid: 337b89ef-e1b7-45ed-92f3-8abe4200e4c7
-description: L’opération SendItem est utilisée pour envoyer des messages électroniques situés dans la Banque d’Exchange.
-ms.openlocfilehash: 9136379e50723211fe5a483c7f113da4fa125fc1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération SendItem est utilisée pour envoyer des messages électroniques situés dans Exchange store.
+ms.openlocfilehash: d1e43cdceb3a594c3fa2f028502a3bfedbbf85a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521584"
 ---
 # <a name="senditem-operation"></a>Opération SendItem
 
-L’opération SendItem est utilisée pour envoyer des messages électroniques situés dans la Banque d’Exchange.
+L’opération SendItem est utilisée pour envoyer des messages électroniques situés dans Exchange store.
   
 ## <a name="senditem-e-mail-message-request-example"></a>Exemple de requête SendItem (message électronique)
 
@@ -51,7 +51,7 @@ L’exemple suivant montre comment envoyer un message électronique.
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -61,7 +61,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ItemId](itemid.md)
     
-## <a name="successful-senditem-e-mail-message-response"></a>Réponse SendItem (message électronique)
+## <a name="successful-senditem-e-mail-message-response"></a>Réponse SendItem (message électronique) réussie
 
 ### <a name="description"></a>Description
 
@@ -108,15 +108,15 @@ Les éléments suivants sont utilisés dans la réponse :
     
 ### <a name="comments"></a>Commentaires
 
-Un délégué qui tente d’envoyer un message électronique qui se trouve dans le dossier Brouillons de l’entité avec l’option Méthodesendandsavecopy définie sur enregistrer une copie dans le dossier unique éléments envoyés ne parviendra pas à déplacer une copie de l’élément envoyé vers le dossier unique éléments envoyés. L’élément reste dans le dossier Brouillons de l’entité de sécurité. Pour contourner ce problème, spécifiez la boîte aux lettres de l’entité dans l’élément [DistinguishedFolderId](distinguishedfolderid.md) . 
+Un délégué qui tente d’envoyer un message électronique situé dans le dossier Brouillons du principal avec l’option SendAndSaveCopy définie pour enregistrer une copie dans le dossier unique Éléments envoyés ne pourra silencieusement pas déplacer une copie de l’élément envoyé vers le dossier unique Éléments envoyés. L’élément reste dans le dossier Brouillons du principal. La solution de contournement de ce problème consiste à spécifier la boîte aux lettres du principal dans [l’élément DistinguishedFolderId.](distinguishedfolderid.md) 
   
-Un autre scénario à prendre en considération est lorsqu’un délégué crée un message électronique et l’enregistre dans le dossier Brouillons de la boîte aux lettres du délégué. Si le délégué tente d’envoyer l’élément et d’enregistrer une copie dans le dossier unique éléments envoyés du principal, le message est envoyé correctement, le brouillon du message reste dans le dossier Brouillons du délégué, le message envoyé n’apparaît pas dans le dossier éléments envoyés du délégué ou du principal, et la réponse est une réussite.
+Un scénario supplémentaire à prendre en compte est lorsqu’un délégué crée un message électronique et l’enregistre dans le dossier Brouillons de la boîte aux lettres du délégué. Si le délégué tente d’envoyer l’élément et d’enregistrer une copie dans le dossier Éléments envoyés du principal, le message est envoyé correctement, le brouillon reste dans le dossier Brouillons du délégué, le message envoyé n’apparaît pas dans le dossier Éléments envoyés du délégué ou du principal et la réponse est un succès.
   
 ## <a name="invalid-senditem-e-mail-message-request-example"></a>Exemple de requête SendItem (message électronique) non valide
 
 ### <a name="description"></a>Description
 
-L’exemple de code suivant montre un exemple de requête avec un identificateur non valide.
+L’exemple de code suivant montre un exemple de demande avec un identificateur non valide.
   
 ### <a name="code"></a>Code
 
@@ -136,11 +136,11 @@ L’exemple de code suivant montre un exemple de requête avec un identificateur
 </soap:Envelope>
 ```
 
-## <a name="senditem-e-mail-message-error-response"></a>Réponse d’erreur SendItem (message électronique)
+## <a name="senditem-e-mail-message-error-response"></a>Réponse d’erreur SendItem (Message électronique)
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête SendItem qui contient un identificateur non valide.
+L’exemple suivant montre une réponse d’erreur à une demande SendItem qui contient un identificateur non valide.
   
 ### <a name="code"></a>Code
 

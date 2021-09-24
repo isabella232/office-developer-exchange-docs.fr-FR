@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18aafbcd-a221-463a-935c-bc7c3fdbb08f
-description: L’élément alias contient l’alias de messagerie d’un contact.
-ms.openlocfilehash: 2d5675ea8220aa4ced522eb510e3075a38627d92
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Alias contient l’alias de messagerie d’un contact.
+ms.openlocfilehash: 31d57f3ac604cbeed56a6a10a87ac9a6505c8366
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465021"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525364"
 ---
 # <a name="alias"></a>Alias
 
-L’élément **alias** contient l’alias de messagerie d’un contact. 
+**L’élément Alias** contient l’alias de messagerie d’un contact. 
   
 ```XML
 <Alias/>

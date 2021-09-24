@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ed4a48a-d510-4cbe-a172-145c33ffb297
 description: L’élément RetentionPolicyTags contient une liste de balises de rétention renvoyées dans la réponse de l’opération WSDL GetUserRetentionPolicyTags.
-ms.openlocfilehash: c3a5a165db242092132b4ff0b322dbad2029da36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9bd41a0826aff38e8fc2420553d4c7527c5a8e33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462877"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524531"
 ---
 # <a name="retentionpolicytags"></a>RetentionPolicyTags
 
-L’élément **RetentionPolicyTags** contient une liste de balises de rétention renvoyées dans la réponse de l’opération WSDL **GetUserRetentionPolicyTags** . 
+**L’élément RetentionPolicyTags** contient une liste de balises de rétention renvoyées dans la réponse de l’opération WSDL **GetUserRetentionPolicyTags.** 
   
 ```XML
 <RetentionPolicyTags>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

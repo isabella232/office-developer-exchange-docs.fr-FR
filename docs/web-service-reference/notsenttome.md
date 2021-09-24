@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NotSentToMe
 api_type:
 - schema
 ms.assetid: 7cb63269-622c-4198-9a21-f5a021bf6901
 description: L’élément NotSentToMe indique si le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété ToRecipients des messages entrants afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 58efe4381fe0c9f5bd0645a9eba471a13b5e4064
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f3c2994778298c1c8a27626fb0d4b32d6d2963cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518105"
 ---
 # <a name="notsenttome"></a>NotSentToMe
 
-L’élément **NotSentToMe** indique si le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété **ToRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
+**L’élément NotSentToMe** indique si le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété **ToRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```xml
 <NotSentToMe>true | false</NotSentToMe>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le propriétaire de la boîte aux lettres ne doit pas être dans la propriété **ToRecipients** des messages entrants pour que la condition ou l’exception s’applique. La valeur **false** indique que le propriétaire de la boîte aux lettres doit se trouver dans la propriété **ToRecipients** du message entrant afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété **ToRecipients** des messages entrants pour que la condition ou l’exception s’applique. La valeur **false** indique que le propriétaire de la boîte aux lettres doit se trouver dans la propriété **ToRecipients** du message entrant afin que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

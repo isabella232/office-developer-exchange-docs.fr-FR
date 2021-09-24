@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38bf6de4-1522-4c59-bcb2-1912dca287e2
-description: L’élément alias (FederatedDirectoryGroupType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: 19e6bccabeb781f30f9802cba7b9e8a16e771b3f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Alias (FederatedDirectoryGroupType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 4aa292e0abd9dbe8cea2207dfaeb150508342e25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463516"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522172"
 ---
 # <a name="alias-federateddirectorygrouptype"></a>Alias (FederatedDirectoryGroupType)
 
-L’élément **alias (FederatedDirectoryGroupType)** est destiné uniquement à un usage interne. 
+**L’élément Alias (FederatedDirectoryGroupType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

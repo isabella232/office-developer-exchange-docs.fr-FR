@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6f0a2ca-22dd-4789-9eed-f0c1ec9036c4
 description: L’élément Apps contient des informations sur tous les fichiers manifeste XML pour les applications installées dans une boîte aux lettres.
-ms.openlocfilehash: b2d6f13241f68cbed449a9f9821f9a6ec6ff687a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8a8b6c459a014517936d1c2753c4ce125892dacb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527445"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525304"
 ---
 # <a name="apps"></a>Applications
 
-L’élément **apps** contient des informations sur tous les fichiers manifeste XML pour les applications installées dans une boîte aux lettres. 
+**L’élément Apps** contient des informations sur tous les fichiers manifeste XML pour les applications installées dans une boîte aux lettres. 
   
 ```XML
 <Apps>
@@ -35,7 +35,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[App](app.md)
+[Application](app.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
    
 ## <a name="see-also"></a>Voir aussi
 
-- [App](app.md)
+- [Application](app.md)
 - [GetAppManifestsResponse](getappmanifestsresponse.md)
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 

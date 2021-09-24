@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
-description: L’élément ITEMS spécifie une liste d’éléments disponibles pour l’aperçu comme résultats d’une opération SearchMailboxes.
-ms.openlocfilehash: 99d8af67370b75774def0db3b6c274c65a432aab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Items spécifie une liste d’éléments disponibles pour l’aperçu en tant que résultats d’une opération SearchMailboxes.
+ms.openlocfilehash: 6df2c8c9c1072c6cc85fdf88e72c54e303b37e8e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459860"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524097"
 ---
 # <a name="items-arrayofsearchpreviewitemstype"></a>Items (ArrayOfSearchPreviewItemsType)
 
-L’élément **Items** spécifie une liste d’éléments disponibles pour l’aperçu comme résultats d’une opération **SearchMailboxes** . 
+**L’élément Items** spécifie une liste d’éléments disponibles pour l’aperçu en tant que résultats d’une **opération SearchMailboxes.** 
   
 ```XML
 <Items>

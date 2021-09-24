@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentCcMe
 api_type:
 - schema
 ms.assetid: bf5044e4-cbdf-4e24-a16f-b6454a51fcd5
 description: L’élément SentCcMe indique si le propriétaire de la boîte aux lettres doit se trouver dans la propriété CcRecipients des messages entrants afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 1fae56a8e7d4e56c56884e5fff051ecd9f138a6d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 82123a44cccf953bf1db6dfaf916d4ebf851851e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465477"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521521"
 ---
 # <a name="sentccme"></a>SentCcMe
 
-L’élément **SentCcMe** indique si le propriétaire de la boîte aux lettres doit se trouver dans la propriété **CCRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
+**L’élément SentCcMe** indique si le propriétaire de la boîte aux lettres doit se trouver dans la propriété **CcRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <SentCcMe>true | false</SentCcMe>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le propriétaire de la boîte aux lettres doit se trouver dans la propriété **CCRecipients** des messages entrants pour que la condition ou l’exception s’applique. La valeur **false** indique que le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété **CCRecipients** des messages entrants pour que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le propriétaire de la boîte aux lettres doit se trouver dans la propriété **CcRecipients** des messages entrants afin que la condition ou l’exception s’applique. La valeur **false** indique que le propriétaire de la boîte aux lettres ne doit pas se trouver dans la propriété **CcRecipients** des messages entrants pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

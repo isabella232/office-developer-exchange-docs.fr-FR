@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingTime
 api_type:
 - schema
 ms.assetid: 6e6d2d8b-e8a2-43e6-a715-0fc7d6dd44b9
-description: L’élément MeetingTime représente une suggestion de réunion.
-ms.openlocfilehash: 3a7031e70eb8b22adc8030c1cec09d33399332ee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MeetingTime représente une heure de réunion suggérée.
+ms.openlocfilehash: efe74951bcefe665790e7efdb49feb94e93aa733
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530449"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523950"
 ---
 # <a name="meetingtime"></a>MeetingTime
 
-L’élément **MeetingTime** représente une suggestion de réunion. 
+**L’élément MeetingTime** représente une heure de réunion suggérée. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **MeetingTime** représente une suggestion de réunion.
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [MeetingTime](meetingtime.md)
   
@@ -58,15 +58,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Suggérer](suggestion.md) <br/> |Représente une seule suggestion de temps de réunion.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[Suggestion](suggestion.md) <br/> |Représente une suggestion d’heure de réunion unique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur **DateTime** est obligatoire. 
+Une valeur de texte qui représente une **valeur dateTime** est requise. 
   
 ## <a name="remarks"></a>Remarques
 
-L’élément [MeetingTime](meetingtime.md) est un élément enfant obligatoire de l’élément [suggestions](suggestion.md) . 
+[L’élément MeetingTime](meetingtime.md) est un élément enfant requis de l’élément [Suggestion.](suggestion.md) 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

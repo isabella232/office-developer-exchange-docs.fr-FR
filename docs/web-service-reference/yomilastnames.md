@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 893409f1-fe76-40a4-ad7b-8a6bbc2bce12
-description: L’élément YomiLastNames spécifie un tableau de noms phonétiques japonais et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: bc0ffcd796a29a24be3edbc7129333cc332596b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément YomiLastNames spécifie un tableau de noms de famille japonais phonétiques et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 420077e59cf0dde897ce5c87c0463f128cf45a9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467087"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525462"
 ---
 # <a name="yomilastnames"></a>YomiLastNames
 
-L’élément **YomiLastNames** spécifie un tableau de noms phonétiques japonais et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément YomiLastNames** spécifie un tableau de noms de famille japonais phonétiques et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <YomiLastNames>

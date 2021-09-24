@@ -1,24 +1,24 @@
 ---
-title: Opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)
+title: Opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetMissedCallNotificationEnabled
 api_type:
 - schema
 ms.assetid: 6693b5db-ac6b-43bc-af83-a9c94fc425bf
 description: L’opération SetMissedCallNotificationEnabled active ou désactive les notifications d’appels manqués.
-ms.openlocfilehash: ca4942942a81bc187e8e18a5e6f003f8587f79d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 31f59887041aac02e5876b596931902373870203
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467395"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521416"
 ---
-# <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)
+# <a name="setmissedcallnotificationenabled-operation-um-web-service"></a>Opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)
 
 L’opération SetMissedCallNotificationEnabled active ou désactive les notifications d’appels manqués.
   
@@ -26,7 +26,7 @@ L’opération SetMissedCallNotificationEnabled active ou désactive les notific
 
 ### <a name="description"></a>Description
 
-L’exemple de requête SetMissedCallNotificationEnabled suivant montre comment créer une demande pour activer les notifications d’appels manqués.
+L’exemple suivant d’une demande SetMissedCallNotificationEnabled montre comment former une demande pour activer les notifications d’appels en manque.
   
 ### <a name="code"></a>Code
 
@@ -41,11 +41,11 @@ L’exemple de requête SetMissedCallNotificationEnabled suivant montre comment 
 </soap:Envelope>
 ```
 
-## <a name="successful-setmissedcallnotificationenabled-response-example"></a>Exemple de réponse SetMissedCallNotificationEnabled réussi
+## <a name="successful-setmissedcallnotificationenabled-response-example"></a>Exemple de réponse SetMissedCallNotificationEnabled réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse PlayOnPhoneGreeting indique une réponse à la demande SetMissedCallNotificationEnabled.
+L’exemple suivant d’une réponse PlayOnPhoneGreeting montre une réponse à la demande SetMissedCallNotificationEnabled.
   
 ### <a name="code"></a>Code
 
@@ -62,9 +62,9 @@ L’exemple suivant de réponse PlayOnPhoneGreeting indique une réponse à la d
 
 
 
-[SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-um-web-service.md)
+[SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-um-web-service.md)
   
-[SetMissedCallNotificationEnabledResponse (service Web de messagerie unifiée)](setmissedcallnotificationenabledresponse-um-web-service.md)
+[SetMissedCallNotificationEnabledResponse (service web de messagerie unifiée)](setmissedcallnotificationenabledresponse-um-web-service.md)
   
-[État (service Web de messagerie unifiée-SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
+[Statut (service web de messagerie unifiée - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageTrackingSearchResult
 api_type:
 - schema
 ms.assetid: 8ea77aa8-b93f-4287-be36-0a9da06e0946
-description: L’élément MessageTrackingSearchResult contient un seul résultat de message pour un élément FindMessageTrackingReportResponse.
-ms.openlocfilehash: 27e70cd9e11b480ab6bbb9b28275f142da7c76ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MessageTrackingSearchResult contient un résultat de message unique pour un élément FindMessageTrackingReportResponse.
+ms.openlocfilehash: 2bd70461b2896d0204b163365d525f76d42bb213
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523879"
 ---
 # <a name="messagetrackingsearchresult"></a>MessageTrackingSearchResult
 
-L’élément **MessageTrackingSearchResult** contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) . 
+**L’élément MessageTrackingSearchResult** contient un résultat de message unique pour un [élément FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md) 
   
 ```xml
 <MessageTrackingSearchResult>
@@ -51,14 +51,14 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Subject](subject.md) <br/> |Contient l’objet du message électronique.  <br/> |
-|[Expéditeur (EmailAddressType)](sender-emailaddresstype.md) <br/> |Contient l’adresse de l’expéditeur du message électronique.  <br/> |
-|[PurportedSender](purportedsender.md) <br/> |Contient les informations de contact pour l’expéditeur allégué d’un message électronique.  <br/> |
-|[Destinataires (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Contient une liste des adresses de messagerie qui ont reçu ce message.  <br/> |
-|[SubmittedTime](submittedtime.md) <br/> |Contient l’heure à laquelle le message a été soumis.  <br/> |
+|[Sender (EmailAddressType)](sender-emailaddresstype.md) <br/> |Contient l’adresse de l’expéditeur du message électronique.  <br/> |
+|[PurportedSender](purportedsender.md) <br/> |Contient les informations de contact de l’expéditeur supposé d’un message électronique.  <br/> |
+|[Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Contient une liste d’adresses de messagerie qui ont reçu ce message.  <br/> |
+|[SubmittedTime](submittedtime.md) <br/> |Contient l’heure d’envoyer le message.  <br/> |
 |[MessageTrackingReportId](messagetrackingreportid.md) <br/> |Contient un ID interne qui identifie le message dans la base de données de transport.  <br/> |
 |[PreviousHopServer](previoushopserver.md) <br/> |Contient le nom du serveur dans la forêt qui a précédemment accepté le message.  <br/> |
-|[FirstHopServer](firsthopserver.md) <br/> |Contient le nom du serveur dans la forêt qui a accepté le message en premier.  <br/> |
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
+|[FirstHopServer](firsthopserver.md) <br/> |Contient le nom du serveur de la forêt qui a accepté le message pour la première fois.  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

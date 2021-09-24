@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: fe136881-a804-456a-8552-8a1bea5eb9c8
 description: L’opération CreateItem est utilisée pour répondre aux demandes de réunion.
-ms.openlocfilehash: f9e6bd1742e6a30d08736ea67c0ff80b7a18e88a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de845271bc47f08e60a1b4943a00551a42056388
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524370"
 ---
 # <a name="createitem-operation-meeting-request"></a>Opération CreateItem (demande de réunion)
 
@@ -25,7 +25,7 @@ L’opération CreateItem est utilisée pour répondre aux demandes de réunion.
   
 ## <a name="remarks"></a>Remarques
 
-L’opération CreateItem fournit trois options pour répondre à une demande de réunion : accepter, accepter provisoirement ou refuser. 
+L’opération CreateItem offre trois options pour répondre à une demande de réunion : accepter, accepter provisoirement ou refuser. 
   
 ## <a name="accept-meeting-request-example"></a>Exemple d’acceptation d’une demande de réunion
 
@@ -55,9 +55,9 @@ L’exemple suivant montre comment accepter une invitation à une demande de ré
 
 ### <a name="comments"></a>Commentaires
 
-Pour accepter provisoirement ou refuser la demande de réunion, utilisez les éléments [TentativelyAcceptItem](tentativelyacceptitem.md) ou [DeclineItem](declineitem.md) à la place de l’élément [AcceptItem](acceptitem.md) . 
+Pour accepter ou refuser provisoirement la demande de réunion, utilisez les éléments [TentativelyAcceptItem](tentativelyacceptitem.md) ou [DeclineItem](declineitem.md) à la place de l’élément [AcceptItem.](acceptitem.md) 
   
-L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="accepting-meeting-request-elements"></a>Acceptation des éléments de demande de réunion
 
@@ -71,7 +71,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ReferenceItemId](referenceitemid.md)
     
-## <a name="successful-accept-meeting-response-example"></a>Exemple de réponse d’acceptation de réunion réussie
+## <a name="successful-accept-meeting-response-example"></a>Exemple de réponse Accept Meeting réussie
 
 ### <a name="description"></a>Description
 
@@ -123,7 +123,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à la demande CreateItem. L’erreur est due à une tentative d’acceptation d’une demande de réunion introuvable dans la Banque d’aide Exchange.
+L’exemple suivant montre une réponse d’erreur à la demande CreateItem. L’erreur est due à une tentative d’acceptation d’une demande de réunion qui est in trouver dans Exchange store.
   
 ### <a name="code"></a>Code
 

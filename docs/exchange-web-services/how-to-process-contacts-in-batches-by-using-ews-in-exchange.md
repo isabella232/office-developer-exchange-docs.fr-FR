@@ -1,39 +1,39 @@
 ---
-title: Traiter les contacts par lots à l’aide d’EWS dans Exchange
+title: Traiter les contacts par lots à l’aide d’EWS Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455f475b-cb19-4e7a-8ff3-92f7028fceb0
-description: Découvrez comment créer, obtenir, mettre à jour et supprimer des lots de contacts dans un seul appel à l’aide de l’API managée EWS ou d’EWS dans Exchange.
-ms.openlocfilehash: 2e122f67693b4ba46120104d9a1f6d36b4d86f97
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez comment créer, obtenir, mettre à jour et supprimer des lots de contacts en un seul appel à l’aide de l’API gérée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: e70618dc0a9ea3f2d534c79fff627393ced8f1cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527802"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522221"
 ---
-# <a name="process-contacts-in-batches-by-using-ews-in-exchange"></a>Traiter les contacts par lots à l’aide d’EWS dans Exchange
+# <a name="process-contacts-in-batches-by-using-ews-in-exchange"></a>Traiter les contacts par lots à l’aide d’EWS Exchange
 
-Découvrez comment créer, obtenir, mettre à jour et supprimer des lots de contacts dans un seul appel à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+Découvrez comment créer, obtenir, mettre à jour et supprimer des lots de contacts en un seul appel à l’aide de l’API gérée EWS ou d’EWS dans Exchange.
   
-Vous pouvez utiliser l’API managée EWS ou EWS pour utiliser des lots de contacts afin de réduire le nombre d’appels effectués par un client sur un serveur Exchange. Lorsque vous utilisez l’API managée EWS pour créer, obtenir, mettre à jour et supprimer des contacts par lots, vous utilisez des méthodes d’objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) , tandis que lorsque vous travaillez avec des contacts uniques, vous utilisez des méthodes d’objet [contact](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) . Si vous utilisez EWS, vous utilisez les mêmes opérations pour travailler avec un contact unique et des lots de contacts. 
+Vous pouvez utiliser l’API gérée EWS ou EWS pour travailler avec des lots de contacts afin de réduire le nombre d’appels qu’un client effectue vers un serveur Exchange serveur. Lorsque vous utilisez l’API gérée EWS pour créer, obtenir, mettre à jour et supprimer des contacts par lots, vous utilisez des méthodes d’objet [ExchangeService,](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) tandis que lorsque vous travaillez avec des contacts simples, vous utilisez des méthodes d’objet [Contact.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) Si vous utilisez EWS, vous utilisez les mêmes opérations pour travailler avec un seul contact et des lots de contacts. 
   
-**Tableau 1. Méthodes de l’API managée EWS et opérations EWS pour utiliser des lots de contacts**
+**Tableau 1. Méthodes d’API gérées EWS et opérations EWS pour l’utilisation de lots de contacts**
 
-|**Afin de...**|**Utiliser cette méthode d’API managée EWS**|**Utiliser cette opération EWS**|
+|**Afin de...**|**Utiliser cette méthode d’API gérée EWS**|**Utiliser cette opération EWS**|
 |:-----|:-----|:-----|
-|Créer des contacts par lots  <br/> |[ExchangeService. CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
-|Obtenir des contacts par lots  <br/> |[ExchangeService. BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) ou [ExchangeService. LoadPropertiesForItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
-|Mettre à jour les contacts par lots  <br/> |[ExchangeService. UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Supprimer des contacts par lots  <br/> |[ExchangeService. DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
+|Créer des contacts par lots  <br/> |[ExchangeService.CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
+|Obtenir des contacts par lots  <br/> |[ExchangeService.BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) ou [ExchangeService.LoadPropertiesForItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.loadpropertiesforitems%28v=exchg.80%29.aspx) <br/> |[GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
+|Mettre à jour les contacts par lots  <br/> |[ExchangeService.UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
+|Supprimer des contacts par lots  <br/> |[ExchangeService.DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
-Dans cet article, vous découvrirez comment effectuer des tâches de base pour les lots de contacts à l’aide de l’API managée EWS ou d’EWS.
+Dans cet article, vous allez apprendre à effectuer des tâches de base pour des lots de contacts à l’aide de l’API gérée EWS ou d’EWS.
   
-## <a name="create-contacts-in-batches-by-using-the-ews-managed-api"></a>Créer des contacts par lots à l’aide de l’API managée EWS
+## <a name="create-contacts-in-batches-by-using-the-ews-managed-api"></a>Créer des contacts par lots à l’aide de l’API gérée EWS
 <a name="bk_EWSMA"> </a>
 
-Vous pouvez créer des contacts par lots à l’aide de la méthode [CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) de l’API managée EWS, comme illustré dans l’exemple suivant. Cet exemple crée trois objets [contact](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) localement, ajoute chaque contact à une collection, puis appelle la méthode **CreateItems** sur la collection de contacts. 
+Vous pouvez créer des contacts par lots à l’aide de la méthode [CreateItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) de l’API gérée EWS, comme illustré dans l’exemple suivant. Cet exemple crée trois [objets Contact](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) localement, ajoute chaque contact à une collection, puis appelle la méthode **CreateItems** sur la collection de contacts. 
   
 ```cs
 public static Collection<ItemId> CreateContactsInBatch(ExchangeService service)
@@ -104,7 +104,7 @@ public static Collection<ItemId> CreateContactsInBatch(ExchangeService service)
 ## <a name="create-contacts-in-batches-by-using-ews"></a>Créer des contacts par lots à l’aide d’EWS
 <a name="bk_EWSMA"> </a>
 
-Vous pouvez créer des contacts par lots à l’aide de l’opération EWS de [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) , comme illustré dans l’exemple de code suivant. Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez l’API managée EWS pour [créer des contacts par lots](#bk_EWSMA).
+Vous pouvez créer des contacts par lots à l’aide de l’opération [CreateItem](https://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) EWS, comme illustré dans l’exemple de code suivant. Il s’agit également de la demande XML que l’API gérée EWS envoie lorsque vous utilisez l’API gérée EWS pour créer des [contacts par lots.](#bk_EWSMA)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -146,12 +146,12 @@ xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Le serveur répond à la demande **CreateItem** avec un message [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de la propriété **NOERROR** pour chacun des nouveaux contacts, ce qui indique que chaque contact a été créé et enregistré avec succès. 
+Le serveur répond à la demande **CreateItem** avec un message [CreateItemResponse](https://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError** pour chacun des nouveaux contacts, ce qui indique que chaque contact a été créé et enregistré avec succès. 
   
-## <a name="get-contacts-in-batches-by-using-the-ews-managed-api"></a>Obtenir des contacts par lots à l’aide de l’API managée EWS
+## <a name="get-contacts-in-batches-by-using-the-ews-managed-api"></a>Obtenir des contacts par lots à l’aide de l’API gérée EWS
 <a name="bk_EWSMAGet"> </a>
 
-Vous pouvez obtenir des contacts par lots à l’aide de la méthode [BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) de l’API managée EWS, comme illustré dans l’exemple suivant. Cet exemple suppose que le **service** est un objet[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. 
+Vous pouvez obtenir des contacts par lots à l’aide de la méthode [BindToItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) de l’API gérée EWS, comme illustré dans l’exemple suivant. Cet exemple suppose que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. 
   
 ```cs
 public static Collection<Contact> BatchGetContactItems(ExchangeService service, Collection<ItemId> itemIds)
@@ -192,7 +192,7 @@ public static Collection<Contact> BatchGetContactItems(ExchangeService service, 
 ## <a name="get-contacts-in-batches-by-using-ews"></a>Obtenir des contacts par lots à l’aide d’EWS
 <a name="bk_EWSMAGet"> </a>
 
-Vous pouvez obtenir des contacts par lots à l’aide de l’opération EWS de [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) et du code de l’exemple suivant. Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez l’API managée EWS pour [obtenir des contacts par lots](#bk_EWSMAGet). L’attribut **ItemId** a été raccourci pour des raisons de lisibilité. 
+Vous pouvez obtenir des contacts par lots à l’aide de [l’opération GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS et du code de l’exemple suivant. Il s’agit également de la demande XML que l’API gérée EWS envoie lorsque vous utilisez l’API gérée EWS pour obtenir des [contacts par lots.](#bk_EWSMAGet) **L’attribut ItemId** a été raccourci pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -224,12 +224,12 @@ xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
 
 Le serveur répond à la demande **GetItem** avec un message [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) qui inclut l’ID et le nom complet de chacun des contacts demandés. 
   
-## <a name="update-contacts-in-batches-by-using-the-ews-managed-api"></a>Mettre à jour les contacts par lots à l’aide de l’API managée EWS
+## <a name="update-contacts-in-batches-by-using-the-ews-managed-api"></a>Mettre à jour les contacts par lots à l’aide de l’API gérée EWS
 <a name="bk_EWSMAUpdate"> </a>
 
-Vous pouvez mettre à jour les contacts par lots à l’aide de la méthode [UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) de l’API managée EWS, comme illustré dans l’exemple suivant. L’exemple précédent crée le contact, mais ne spécifie pas pour qui il travaille. Vous pouvez utiliser le code de cet exemple pour mettre à jour tous vos contacts en même temps afin d’inclure le nom de leur société. 
+Vous pouvez mettre à jour les contacts par lots à l’aide de la méthode [UpdateItems](https://msdn.microsoft.com/library/dd634705%28v=exchg.80%29.aspx) de l’API gérée EWS, comme illustré dans l’exemple suivant. L’exemple précédent crée le contact, mais ne spécifie pas pour qui il travaille. Vous pouvez utiliser le code de cet exemple pour mettre à jour tous vos contacts en même temps afin d’inclure leur nom d’entreprise. 
   
-Cet exemple suppose que le **service** est un objet[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. 
+Cet exemple suppose que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. 
   
 ```cs
 public static Collection<Contact> BatchUpdateContactItems(ExchangeService service, Collection<Contact> contactItems)
@@ -272,7 +272,7 @@ public static Collection<Contact> BatchUpdateContactItems(ExchangeService servic
 ## <a name="update-contacts-in-batches-by-using-ews"></a>Mettre à jour les contacts par lots à l’aide d’EWS
 <a name="bk_EWSMAUpdate"> </a>
 
-Vous pouvez mettre à jour les contacts par lots à l’aide de l’opération EWS de [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) , comme illustré dans l’exemple de code suivant. Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez l’API managée EWS pour [mettre à jour des contacts par lots](#bk_EWSMAUpdate). L’attribut **ItemId** a été raccourci pour des raisons de lisibilité. 
+Vous pouvez mettre à jour les contacts par lots à l’aide de l’opération [GetItem](https://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) EWS, comme illustré dans l’exemple de code suivant. Il s’agit également de la demande XML que l’API gérée EWS envoie lorsque vous utilisez l’API gérée EWS pour mettre à jour les [contacts par lots.](#bk_EWSMAUpdate) **L’attribut ItemId** a été raccourci pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -329,12 +329,12 @@ xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Le serveur répond à la demande **UpdateItem** avec un message [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NOERROR**, ce qui indique que chaque mise à jour a été enregistrée avec succès sur le serveur. Tous les conflits sont signalés dans l’élément [ConflictResult](https://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) . 
+Le serveur répond à la demande **UpdateItem** avec un message [UpdateItemResponse](https://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError,** qui indique que chacune des mises à jour a été enregistrée avec succès sur le serveur. Tout conflit est signalé dans [l’élément ConflictResult.](https://msdn.microsoft.com/library/08cdd547-4de7-4c7a-b60f-e618dc217d20%28Office.15%29.aspx) 
   
-## <a name="delete-contacts-in-batches-by-using-the-ews-managed-api"></a>Supprimer des contacts par lots à l’aide de l’API managée EWS
+## <a name="delete-contacts-in-batches-by-using-the-ews-managed-api"></a>Supprimer des contacts par lots à l’aide de l’API gérée EWS
 <a name="bk_EWSMADelete"> </a>
 
-Vous pouvez supprimer des contacts par lots à l’aide de la méthode de l’API managée EWS [DeleteItems](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) , comme illustré dans l’exemple suivant. Cet exemple suppose que le **service** est un objet[ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. 
+Vous pouvez supprimer des contacts par lots à l’aide de la méthode d’API gérée EWS [DeleteItems,](https://msdn.microsoft.com/library/dd635460%28v=exchg.80%29.aspx) comme illustré dans l’exemple suivant. Cet exemple suppose que le **service** est un objet [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) valide et que l’utilisateur a bien été authentifié pour un serveur Exchange. 
   
 ```cs
 public static void BatchDeleteContactItems(ExchangeService service, Collection<ItemId> itemIds)
@@ -360,7 +360,7 @@ public static void BatchDeleteContactItems(ExchangeService service, Collection<I
 ## <a name="delete-contacts-in-batches-by-using-ews"></a>Supprimer des contacts par lots à l’aide d’EWS
 <a name="bk_EWSMADelete"> </a>
 
-Vous pouvez supprimer des contacts par lots à l’aide [de l’opération EWS EWS](../web-service-reference/deleteitem-operation.md) , comme illustré dans l’exemple de code suivant. Il s’agit également de la demande XML que l’API managée EWS envoie lorsque vous utilisez l’API managée EWS pour [supprimer des contacts par lots](#bk_EWSMADelete). L’attribut **ItemId** a été raccourci pour des raisons de lisibilité. 
+Vous pouvez supprimer des contacts par lots à l’aide de [l’opération DeleteItem](../web-service-reference/deleteitem-operation.md) EWS, comme illustré dans l’exemple de code suivant. Il s’agit également de la demande XML que l’API gérée EWS envoie lorsque vous utilisez l’API gérée EWS pour supprimer des [contacts par lots.](#bk_EWSMADelete) **L’attribut ItemId** a été raccourci pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -384,14 +384,14 @@ xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   </soap:Envelope>
 ```
 
-Le serveur répond à la demande **DeleteItem** avec un message [updateitemresponse](https://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) pour **chaque** élément supprimé. Notez que l’opération renvoie également Success si l’ID d’élément est introuvable. 
+Le serveur répond à la demande **DeleteItem** avec un message [DeleteItemResponse](https://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) de **NoError** pour chaque élément supprimé. Notez que l’opération renvoie également la réussite si l’ID de l’élément est in trouvé. 
   
-## <a name="verifying-that-a-batch-process-completed-successfully"></a>Vérification de l’exécution réussie d’un processus de traitement par lots
+## <a name="verifying-that-a-batch-process-completed-successfully"></a>Vérification de la réussite d’un processus de traitement par lots
 <a name="bk_successful"> </a>
 
-Lorsqu’un ou plusieurs contacts d’une demande groupée ne peuvent pas être traités comme demandé, une erreur est renvoyée pour chaque contact ayant échoué et le reste des contacts dans le lot est traité comme prévu. Des échecs de traitement par lots peuvent se produire si l’élément a été supprimé et, par conséquent, ne peut pas être récupéré, ou mis à jour, ou si l’élément a été déplacé vers un autre dossier, et par conséquent dispose d’un nouvel ID d’élément et qu’il ne peut pas être modifié avec l’ID d’élément envoyé. Les informations contenues dans cette section indiquent comment obtenir des informations détaillées sur les défaillances dans le traitement par lots des contacts.
+Lorsqu’un ou plusieurs contacts dans une demande par lots ne peuvent pas être traitées comme demandé, une erreur est renvoyée pour chaque contact qui a échoué et le reste des contacts du lot sont traitées comme prévu. Des échecs de traitement par lots peuvent se produire si l’élément a été supprimé, et par conséquent ne peut pas être récupéré, ou mis à jour, ou si l’élément a été déplacé vers un autre dossier, et a donc un nouvel ID d’élément et ne peut pas être modifié avec l’ID d’élément envoyé. Les informations de cette section montrent comment obtenir des détails d’erreur sur les échecs de traitement par lots des contacts.
   
-Pour vérifier la réussite d’un processus de traitement par lots à l’aide de l’API managée EWS, vous pouvez vérifier que la propriété [OverallResult](https://msdn.microsoft.com/library/dd634515%28v=exchg.80%29.aspx) de l' [ServiceResponseCollection](https://msdn.microsoft.com/library/dd633715%28v=exchg.80%29.aspx) est égale à [ServiceResult. Success](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Si c’est le cas, tous les contacts ont été traités avec succès. Si **OverallResult** n’est pas égal à **ServiceResult. Success**, un ou plusieurs contacts n’ont pas été traités. Chacun des objets renvoyés dans l' **ServiceResponseCollection** contient les propriétés suivantes : 
+Pour vérifier la réussite d’un processus de traitement par lots à l’aide de l’API gérée EWS, vous pouvez vérifier que la propriété [OverallResult](https://msdn.microsoft.com/library/dd634515%28v=exchg.80%29.aspx) de [serviceResponseCollection](https://msdn.microsoft.com/library/dd633715%28v=exchg.80%29.aspx) est égale à [ServiceResult.Success](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresult%28v=exchg.80%29.aspx). Si c’est le cas, tous les contacts ont été correctement traitées. Si **overallResult** n’est pas égal à **ServiceResult.Success,** un ou plusieurs contacts n’ont pas été correctement traitées. Chacun des objets renvoyés dans **serviceResponseCollection** contient les propriétés suivantes : 
   
 - [ErrorCode](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceresponse.errorcode%28v=exchg.80%29.aspx)
     
@@ -403,9 +403,9 @@ Pour vérifier la réussite d’un processus de traitement par lots à l’aide 
     
 - [Résultat](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.serviceresponse.result%28v=exchg.80%29.aspx)
     
-Ces propriétés contiennent des informations sur la raison pour laquelle les contacts n’ont pas pu être traités comme demandé. Les exemples de cet article impriment les **résultats**, **ErrorCode**et **ErrorMessage** pour chaque contact ayant échoué. Vous pouvez utiliser ces résultats pour examiner le problème. 
+Ces propriétés contiennent des informations sur les raisons pour lesquelles les contacts n’ont pas pu être traitées comme demandé. Les exemples de cet article impriment les caractères **Result,** **ErrorCode** et **ErrorMessage** pour chaque contact qui a échoué. Vous pouvez utiliser ces résultats pour examiner le problème. 
   
-Pour EWS, pour vérifier la réussite d’un processus par lot, vérifiez l’attribut [ResponseClass](https://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) pour chaque élément en cours de traitement. Voici la structure de base du **ResponseMessageType**, le type de base à partir duquel sont dérivés tous les messages de réponse. 
+Pour EWS, pour vérifier la réussite d’un processus par lots, vérifiez l’attribut [ResponseClass](https://msdn.microsoft.com/library/bf57265a-d354-4cd7-bbfc-d93e19cbede6%28Office.15%29.aspx) pour chaque élément en cours de traitement. Voici la structure de base de **ResponseMessageType**, le type de base à partir duquel tous les messages de réponse sont dérivés. 
   
 ```XML
 <ResponseMessage ResponseClass="Success | Warning | Error">
@@ -416,14 +416,14 @@ Pour EWS, pour vérifier la réussite d’un processus par lot, vérifiez l’at
 </ResponseMessage>
 ```
 
-L’attribut **ResponseClass** est défini sur **Success** si le contact a été traité avec succès ou une **erreur** si le contact n’a pas été traité correctement. Pour les contacts, vous ne rencontrerez aucun **Avertissement** pendant le traitement par lots. Si **ResponseClass** **réussit**, l’élément [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) qui suit est également toujours défini sur **NOERROR**. Si **ResponseClass** est une **erreur**, vous devez vérifier les valeurs des éléments [MessageText](https://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **ResponseCode**et [messagexml](https://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) pour déterminer la cause du problème. [DescriptiveLinkKey](https://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) n’est actuellement pas utilisé. 
+**L’attribut ResponseClass** est définie sur **Success** si le contact a été correctement traitée, ou **Error** si le contact n’a pas été correctement traitée. Pour les contacts, vous ne rencontrerez pas **d’avertissement pendant** le traitement par lots. Si **ResponseClass a la** **réussite,** [l’élément ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) qui suit est également toujours définie sur **NoError**. Si **ResponseClass** est **Error,** vous devez vérifier les valeurs des éléments [MessageText,](https://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx) **ResponseCode** et [MessageXml](https://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) pour déterminer la cause du problème. [DescriptiveLinkKey](https://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) est actuellement inutilisé. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 - [Personnes et contacts dans EWS dans Exchange](people-and-contacts-in-ews-in-exchange.md)
     
-- [Traiter les messages électroniques par lots à l’aide d’EWS dans Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
+- [Traiter les messages électroniques par lots à l’aide d’EWS Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     
 - [Traiter les éléments de calendrier par lots dans Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
     

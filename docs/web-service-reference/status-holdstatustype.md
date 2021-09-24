@@ -1,23 +1,23 @@
 ---
-title: État (HoldStatusType)
+title: Status (HoldStatusType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fee3f1f9-e868-49fa-a554-7ff096964718
-description: L’élément Status spécifie l’état de conservation d’une boîte aux lettres.
-ms.openlocfilehash: cecfdfaf67b00b6f8cf02188e7a4df7062a732e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Status spécifie l’état de la boîte aux lettres en attente.
+ms.openlocfilehash: a055dde61ae52c266f2349036c881d2b00557171
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521234"
 ---
-# <a name="status-holdstatustype"></a>État (HoldStatusType)
+# <a name="status-holdstatustype"></a>Status (HoldStatusType)
 
-L’élément **Status** spécifie l’état de conservation d’une boîte aux lettres. 
+**L’élément Status** spécifie l’état de la boîte aux lettres en attente. 
   
 ```XML
 <Status> NotOnHold | Pending | OnHold | PartialHold | Failed </Status>
@@ -42,17 +42,17 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Status** est l’état de conservation d’une boîte aux lettres. L’élément **Status** peut avoir les valeurs répertoriées dans la liste suivante. 
+La valeur de texte de **l’élément Status** est l’état de la boîte aux lettres. **L’élément Status** peut avoir les valeurs de la liste suivante. 
   
-> NotOnHold-la boîte aux lettres n’est pas en attente.
+> NotOnHold : la boîte aux lettres n’est pas en attente.
     
-> En attente : la boîte aux lettres est en attente d’être placée ou libérée en conservation. 
+> En attente : la boîte aux lettres est en attente d’être placée ou mise en attente. 
     
-> OnHold-la suspension a été appliquée à la boîte aux lettres. 
+> OnHold : la boîte aux lettres a été correctement appliquée à la boîte aux lettres. 
     
-> PartialHold-la conservation a été appliquée avec succès à certaines boîtes aux lettres, mais pas à toutes les boîtes aux lettres.
+> PartialHold : le hold a été appliqué avec succès à certaines boîtes aux lettres, mais pas à toutes les boîtes aux lettres.
     
-> Failed : la conservation n’a pas pu s’appliquer à la boîte aux lettres.
+> Échec : le hold n’a pas réussi à s’appliquer à la boîte aux lettres.
     
 ## <a name="remarks"></a>Remarques
 

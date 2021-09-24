@@ -5,36 +5,36 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0297458-58fb-4e5d-bb47-0cd17155e106
-description: L’opération GetPasswordExpirationDate fournit la date d’expiration du mot de passe du compte de messagerie de l’utilisateur actuel.
-ms.openlocfilehash: 4184092cf98161e4c2f74446cef5439722ae71a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetPasswordExpirationDate fournit la date d’expiration du mot de passe du compte de messagerie pour l’utilisateur actuel.
+ms.openlocfilehash: 07928fd3e6fca410a292d6cd74f1240d8e81c42f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524237"
 ---
 # <a name="getpasswordexpirationdate-operation"></a>Opération GetPasswordExpirationDate
 
-L’opération **GetPasswordExpirationDate** fournit la date d’expiration du mot de passe du compte de messagerie de l’utilisateur actuel. 
+**L’opération GetPasswordExpirationDate** fournit la date d’expiration du mot de passe du compte de messagerie pour l’utilisateur actuel. 
   
 Cette opération a été introduite dans Exchange Server 2010 Service Pack 1 (SP1).
   
-## <a name="getpasswordexpirationdate-operation-soap-headers"></a>En-têtes SOAP d’opération GetPasswordExpirationDate
+## <a name="getpasswordexpirationdate-operation-soap-headers"></a>En-têtes SOAP de l’opération GetPasswordExpirationDate
 
-L’opération **GetPasswordExpirationDate** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetPasswordExpirationDate** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Ceci s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, « Balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Ceci s’applique à une demande.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie le schéma de la demande d’opération. Ceci s’applique à une demande. Ceci s’applique à une demande.  <br/> |
    
-## <a name="getpasswordexpirationdate-operation-request-example"></a>Exemple de requête d’opération GetPasswordExpirationDate
+## <a name="getpasswordexpirationdate-operation-request-example"></a>Exemple de demande d’opération GetPasswordExpirationDate
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de demande d’opération **GetPasswordExpirationDate** indique comment obtenir la date d’expiration du mot de passe d’un compte de messagerie. 
+L’exemple suivant d’une demande d’opération **GetPasswordExpirationDate** montre comment obtenir la date d’expiration du mot de passe d’un compte de messagerie. 
   
 ### <a name="code"></a>Code
 
@@ -54,7 +54,7 @@ L’exemple suivant de demande d’opération **GetPasswordExpirationDate** indi
 
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   

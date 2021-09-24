@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07be3c51-6537-49b5-b25d-ff51759aba1f
-description: L’élément RetentionId spécifie l’identificateur de la balise de rétention.
-ms.openlocfilehash: f32fa0ceb301fca88cb0275e99ee9417dea87d2e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RetentionId spécifie l’identificateur de balise de rétention.
+ms.openlocfilehash: 5dc0a7ea5f8649f4b4f17d8dd4090e891f28181c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517923"
 ---
 # <a name="retentionid"></a>RetentionId
 
-L’élément **RetentionId** spécifie l’identificateur de la balise de rétention. 
+**L’élément RetentionId** spécifie l’identificateur de balise de rétention. 
   
 ```XML
 <RetentionId></RetentionId>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionId** est l’identificateur de la balise de rétention sous forme de GUID. 
+La valeur de texte de **l’élément RetentionId** est l’identificateur de balise de rétention dans le formulaire GUID. 
   
 ## <a name="remarks"></a>Remarques
 

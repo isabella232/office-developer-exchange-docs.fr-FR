@@ -1,23 +1,23 @@
 ---
-title: Valeur (EmailAddressType)
+title: Value (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24eaa473-0024-47e2-b7d2-051d5dd4f53c
 description: L’élément Value spécifie la valeur d’un EmailAddress associé à un tableau d’attributions.
-ms.openlocfilehash: 45af2aaab7d2475ae46ae24ed13b1435f5b352c6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 21859c6cc4c05e55029758ce25bdf312b5f084fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467598"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522515"
 ---
-# <a name="value-emailaddresstype"></a>Valeur (EmailAddressType)
+# <a name="value-emailaddresstype"></a>Value (EmailAddressType)
 
-L’élément **value** spécifie la valeur d’un **EmailAddress** associé à un tableau d’attributions. 
+**L’élément Value** spécifie la valeur d’un **EmailAddress** associé à un tableau d’attributions. 
   
 ```XML
 <Value>

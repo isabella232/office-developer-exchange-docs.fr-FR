@@ -5,15 +5,15 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
 description: L'élément RuleOperationErrors représente un tableau des erreurs de validation de règle sur chaque champ de règle qui comporte une erreur.
-ms.openlocfilehash: d547155f3cbf9eedd0f9bfac7bf3768b3630b50e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2428d68719e7d9ef5d1fdf87ec94f1f9390bf631
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464951"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524496"
 ---
 # <a name="ruleoperationerrors"></a>RuleOperationErrors
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

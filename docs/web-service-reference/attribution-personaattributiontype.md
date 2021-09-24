@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc59e17e-baea-4617-8ca1-4382a89de0d7
-description: L’élément spécifie une instance dans un tableau d’attributs pour un élément PersonaType.
-ms.openlocfilehash: 05b0d41c116f2ed7b8dbb3ac44108bb879256b5c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Attribution spécifie une instance dans un tableau d’attributs pour un élément PersonaType.
+ms.openlocfilehash: eb2fe66042b6c7f52732be20195f0f4b94ab867c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464174"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524377"
 ---
 # <a name="attribution-personaattributiontype"></a>Attribution (PersonaAttributionType)
 
-L' **élément** spécifie une instance dans un tableau d’attributs pour un élément **PersonaType** . 
+**L’élément Attribution** spécifie une instance dans un tableau d’attributs pour **un élément PersonaType.** 
   
 ```XML
 <Attribution>
@@ -44,19 +44,19 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID (chaîne)](id-string.md) <br/> |Spécifie une chaîne qui identifie de manière unique une application ou une attribution dans un personnage.  <br/> |
-|[SourceId](sourceid.md) <br/> |Spécifie l’identificateur du destinataire du contact ou Active Directory.  <br/> |
-|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom d’affichage d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué ou d’une règle.  <br/> |
-|[IsWritable](iswritable.md) <br/> |Indique si le contact sous-jacent ou le destinataire Active Directory peut être accessible en écriture.  <br/> |
-|[IsQuickContact](isquickcontact.md) <br/> |Spécifie une valeur de type Boolean qui indique si le contact sous-jacent ou le destinataire Active Directory est un contact rapide.  <br/> |
-|[IsHidden](ishidden.md) <br/> |Contient une valeur de type Boolean qui indique si le destinataire sous-jacent ou Active Directory doit être masqué ou affiché en tant que partie du personnage.  <br/> |
+|[ID (String)](id-string.md) <br/> |Spécifie une chaîne qui identifie de manière unique une application ou une attribution dans un personnage.  <br/> |
+|[SourceId](sourceid.md) <br/> |Spécifie l’identificateur du contact ou du destinataire Active Directory.  <br/> |
+|[DisplayName (chaîne)](displayname-string.md) <br/> |Définit le nom complet d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué ou d’une règle.  <br/> |
+|[IsWritable](iswritable.md) <br/> |Spécifie si le contact sous-jacent ou le destinataire Active Directory peut être écrit.  <br/> |
+|[IsQuickContact](isquickcontact.md) <br/> |Spécifie une valeur de booléen qui indique si le contact sous-jacent ou le destinataire Active Directory est un contact rapide.  <br/> |
+|[IsHidden](ishidden.md) <br/> |Contient une valeur boolé générale qui indique si le contact sous-jacent ou le destinataire Active Directory doit être masqué ou affiché dans le cadre du personnage.  <br/> |
 |[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Spécifie un tableau d’informations d’attribution pour un ou plusieurs contacts ou destinataires Active Directory (AD) rassemblés dans le personnage associé.  <br/> |
+|[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Spécifie un tableau d’informations d’attribution pour un ou plusieurs des contacts ou des destinataires Active Directory (AD) agrégés dans le personnage associé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

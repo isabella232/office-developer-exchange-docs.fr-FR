@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f46679d0-9236-41e2-8624-72300079c67c
 description: L’élément RetentionPolicyTag spécifie la stratégie de rétention pour un élément de boîte aux lettres.
-ms.openlocfilehash: 3ece841e14e6cf11ab15e4a4d8b83a778ae32e46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 58ca3016bed0be625b213a57e5ead1b38a301bfa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465176"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524545"
 ---
 # <a name="retentionpolicytag"></a>RetentionPolicyTag
 
-L’élément **RetentionPolicyTag** spécifie la stratégie de rétention pour un élément de boîte aux lettres. 
+**L’élément RetentionPolicyTag** spécifie la stratégie de rétention pour un élément de boîte aux lettres. 
   
 ```XML
 <RetentionPolicyTag>
@@ -44,7 +44,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[DisplayName (String)](displayname-string.md)  |  [RetentionId](retentionid.md)  |  [RetentionPeriod](retentionperiod.md)  |  [Type (ElcFolderType)](type-elcfoldertype.md)  |  [RetentionAction](retentionaction.md)  |  [Description](description.md)  |  [IsVisible](isvisible.md)  |  [OptedInto](optedinto.md)  |  [IsArchive](isarchive.md)
+[DisplayName (chaîne)](displayname-string.md)  |  [RetentionId](retentionid.md)  |  [RetentionPeriod](retentionperiod.md)  |  [Type (ElcFolderType)](type-elcfoldertype.md)  |  [RetentionAction](retentionaction.md)  |  [Description](description.md)  |  [IsVisible](isvisible.md)  |  [OptedInto](optedinto.md)  |  [IsArchive](isarchive.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

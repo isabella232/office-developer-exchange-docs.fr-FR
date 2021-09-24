@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Day
 api_type:
 - schema
 ms.assetid: d3b2dc66-486a-41d1-bff3-606f0bf92715
-description: L’élément Day représente le jour du mois où la transition de fuseau horaire a lieu.
-ms.openlocfilehash: 8ee5ed2e996a6a4b84648df41faf2718784b9d30
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Day représente le jour du mois au cours duquel la transition de fuseau horaire a lieu.
+ms.openlocfilehash: 8912a395ae0b0c1ccc81e67347f7a12fb2c37a34
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457479"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524384"
 ---
 # <a name="day"></a>Day
 
-L’élément **Day** représente le jour du mois où la transition de fuseau horaire a lieu. 
+**L’élément Day** représente le jour du mois au cours duquel la transition de fuseau horaire a lieu. 
   
 ```xml
 <Day/>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Day** est un entier qui représente le jour du mois où la transition de fuseau horaire a lieu. 
+La valeur de texte de l’élément **Day** est un nombre intégral qui représente le jour du mois au cours duquel la transition de fuseau horaire se produit. 
   
 ## <a name="remarks"></a>Remarques
 

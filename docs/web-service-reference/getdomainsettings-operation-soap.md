@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
-description: L’opération GetDomainSettings récupère les paramètres spécifiés du domaine de l’utilisateur. La découverte automatique renvoie les domaines qui doivent être découverts et les paramètres demandés de ces domaines.
-ms.openlocfilehash: fd655e088b73372bc1dd68a740ebc2b516d1804a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetDomainSettings récupère les paramètres spécifiés du domaine pour l’utilisateur. La découverte automatique renvoie les domaines à découvrir et les paramètres demandés de ces domaines.
+ms.openlocfilehash: 7f52ea840bd7f46198d95ba5f0c07894873cf6e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460966"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525049"
 ---
 # <a name="getdomainsettings-operation-soap"></a>Opération GetDomainSettings (SOAP)
 
-L’opération **GetDomainSettings** récupère les paramètres spécifiés du domaine de l’utilisateur. La découverte automatique renvoie les domaines qui doivent être découverts et les paramètres demandés de ces domaines. 
+**L’opération GetDomainSettings** récupère les paramètres spécifiés du domaine pour l’utilisateur. La découverte automatique renvoie les domaines à découvrir et les paramètres demandés de ces domaines. 
   
 ## <a name="getdomainsettings-request-example"></a>Exemple de requête GetDomainSettings
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de requête **GetDomainSettings** affiche une demande pour les paramètres de domaine **ExternalEWSUrl** d’un utilisateur. Le client envoie cette demande au serveur. 
+L’exemple suivant **d’une demande GetDomainSettings** affiche une demande pour les paramètres de domaine **ExternalEWSUrl** d’un utilisateur. Le client envoie cette demande au serveur. 
   
 ### <a name="code"></a>Code
 
@@ -58,13 +58,13 @@ L’exemple suivant de requête **GetDomainSettings** affiche une demande pour l
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
 - [GetDomainSettingsRequestMessage (SOAP)](getdomainsettingsrequestmessage-soap.md)
     
-- [Demande (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
 - [Domaines (SOAP)](domains-soap.md)
     
@@ -72,13 +72,13 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [Paramètre (SOAP)](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
 ## <a name="getdomainsettings-response-example"></a>Exemple de réponse GetDomainSettings
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **GetDomainSettings** que le serveur envoie au client. 
+L’exemple suivant montre une réponse réussie à la **demande GetDomainSettings** que le serveur envoie au client. 
   
 ### <a name="code"></a>Code
 
@@ -122,13 +122,13 @@ L’exemple suivant montre une réponse réussie à la demande **GetDomainSettin
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
 Les éléments suivants sont utilisés dans la réponse :
   
 - [GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md)
     
-- [Réponse (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
@@ -144,9 +144,9 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [DomainSetting (SOAP)](domainsetting-soap.md)
     
-- [Nom (SOAP)](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
-- [Valeur (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
 - [RedirectTarget (SOAP)](redirecttarget-soap.md)
     

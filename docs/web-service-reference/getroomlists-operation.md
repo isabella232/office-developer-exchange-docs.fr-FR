@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRoomLists
 api_type:
 - schema
 ms.assetid: 55d451f9-547f-44ac-872e-9cb220ea7b7c
-description: L’opération GetRoomLists obtient les listes de salles disponibles au sein de l’organisation Exchange.
-ms.openlocfilehash: d1393a6a5e99b7e0a7e354d2b7dd035d04356ec2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetRoomLists obtient les listes de salles disponibles au sein Exchange organisation.
+ms.openlocfilehash: 017936dd7d36ffc4c69183380f95e14f7a529913
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458277"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521941"
 ---
 # <a name="getroomlists-operation"></a>Opération GetRoomLists
 
-L’opération **GetRoomLists** obtient les listes de salles disponibles au sein de l’organisation Exchange. 
+**L’opération GetRoomLists** obtient les listes de salles disponibles dans l’Exchange organisation. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetRoomLists** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetRoomLists peut** utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getroomlists-request-example"></a>Exemple de requête GetRoomLists
 
 ### <a name="description"></a>Description
 
-Voici un exemple de requête **GetRoomLists** qui renvoie les listes de salles disponibles sur le serveur. 
+Voici un exemple de demande **GetRoomLists** qui renvoie les listes de salles disponibles sur le serveur. 
   
 ### <a name="code"></a>Code
 
@@ -58,17 +58,17 @@ Voici un exemple de requête **GetRoomLists** qui renvoie les listes de salles d
 
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-L’élément suivant est utilisé dans la demande :
+L’élément suivant est utilisé dans la demande :
   
 - [GetRoomLists](getroomlists.md)
     
-## <a name="successful-getroomlists-response-example"></a>Exemple de réponse GetRoomLists réussi
+## <a name="successful-getroomlists-response-example"></a>Exemple de réponse GetRoomLists réussie
 
 ### <a name="description"></a>Description
 
-Voici un exemple de réponse à une demande **GetRoomLists** . Cette réponse affiche une liste de salles sur le serveur. 
+Voici un exemple de réponse à une **demande GetRoomLists.** Cette réponse affiche une liste de salles sur le serveur. 
   
 ### <a name="code"></a>Code
 
@@ -95,7 +95,7 @@ Voici un exemple de réponse à une demande **GetRoomLists** . Cette réponse af
 
 ```
 
-### <a name="successful-getroomlists-response-elements"></a>Éléments Response GetRoomLists réussis
+### <a name="successful-getroomlists-response-elements"></a>Éléments de réponse GetRoomLists réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -117,7 +117,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 #### <a name="description"></a>Description
 
-L’exemple suivant montre la réponse à une tentative d’obtention de listes de salles à partir d’un serveur qui n’a pas de liste de salles définie.
+L’exemple suivant illustre la réponse à une tentative d’obtenir des listes de salles à partir d’un serveur qui n’a pas de listes de salles définies.
   
 #### <a name="code"></a>Code
 

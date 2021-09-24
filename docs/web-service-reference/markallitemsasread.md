@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22244afb-99ec-41b4-8f73-3fbccd56d1ab
-description: L’élément MarkAllItemsAsRead contient la demande pour marquer tous les éléments d’un dossier comme étant lus.
-ms.openlocfilehash: 0338b2a1eed503b7e8fb0ec8b4a8ebcf12b6dbd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MarkAllItemsAsRead contient la demande de marquer tous les éléments d’un dossier comme lus.
+ms.openlocfilehash: bf6ec09e4536f9dbcca43b7eb68c3fa6521d0df1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524755"
 ---
 # <a name="markallitemsasread"></a>MarkAllItemsAsRead
 
-L’élément **MarkAllItemsAsRead** contient la demande pour marquer tous les éléments d’un dossier comme étant lus. 
+**L’élément MarkAllItemsAsRead** contient la demande de marquer tous les éléments d’un dossier comme lus. 
   
 ```XML
 <MarkAllItemsAsRead>
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

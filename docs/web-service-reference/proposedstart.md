@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2192ff3-25c9-424a-ae4a-506ab7b0993d
 description: L’élément ProposedStart spécifie l’heure de début proposée pour une réunion.
-ms.openlocfilehash: 607129fb16c25bf19e98a40e624aa528478a21f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5b8456ee7cf8b10da1bd3e5c857d86ca5d47c162
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523922"
 ---
 # <a name="proposedstart"></a>ProposedStart
 
-L’élément **ProposedStart** spécifie l’heure de début proposée pour une réunion. 
+**L’élément ProposedStart** spécifie l’heure de début proposée pour une réunion. 
   
 ```XML
 <ProposedStart></ProposedStart>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ProposedStart** est l’heure de début proposée par un participant à l’organisateur de la réunion. 
+La valeur de texte de **l’élément ProposedStart** est l’heure de début proposée envoyée par un participant à l’organisateur de la réunion. 
   
 ## <a name="remarks"></a>Remarques
 

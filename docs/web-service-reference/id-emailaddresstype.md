@@ -1,31 +1,31 @@
 ---
-title: ID (EmailAddressType)
+title: Id (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Id
 api_type:
 - schema
 ms.assetid: 3e1e37b5-5469-4447-ad1f-c2c6d4e0482f
-description: L’élément ID identifie une salle de réunion au sein de l’organisation Exchange Server.
-ms.openlocfilehash: aa09e7764746ac6bc283de2d13248d769aba75b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ID identifie une salle de réunion au sein de l’Exchange serveur.
+ms.openlocfilehash: 40f2163c4525e766e0fe0377820e87a806562001
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460777"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525821"
 ---
-# <a name="id-emailaddresstype"></a>ID (EmailAddressType)
+# <a name="id-emailaddresstype"></a>Id (EmailAddressType)
 
-L’élément **ID** identifie une salle de réunion au sein de l’organisation Exchange Server. 
+**L’élément ID** identifie une salle de réunion au sein de l’Exchange serveur. 
   
-[Salle](room.md)
+[Room](room.md)
   
-[ID (EmailAddressType)](id-emailaddresstype.md)
+[Id (EmailAddressType)](id-emailaddresstype.md)
   
 ```xml
 <Id>
@@ -50,21 +50,21 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (EmailAddressType)](name-emailaddresstype.md) <br/> |Définit le nom de la salle de réunion. Cet élément est facultatif.  <br/> |
+|[Name (EmailAddressType)](name-emailaddresstype.md) <br/> |Définit le nom de la salle de réunion. Cet élément est facultatif.  <br/> |
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Définit l’adresse SMTP (Simple Mail Transfer Protocol) d’une salle de réunion. Cet élément est facultatif.  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Définit le routage utilisé pour la boîte aux lettres. La valeur par défaut est SMTP. Cet élément est facultatif.  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |Définit le type de boîte aux lettres d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
-|[ItemId](itemid.md) <br/> |Définit l’identificateur d’élément d’une liste de distribution privée ou de contact pour les destinataires à partir du dossier de contacts d’un utilisateur. Cet élément est facultatif.  <br/> |
+|[ItemId](itemid.md) <br/> |Définit l’identificateur d’élément d’un contact ou d’une liste de distribution privée pour les destinataires du dossier contacts d’un utilisateur. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Salle](room.md) <br/> |Définit une salle de réunion dans l’organisation Exchange Server.  <br/> |
+|[Room](room.md) <br/> |Définit une salle de réunion dans l’Exchange serveur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

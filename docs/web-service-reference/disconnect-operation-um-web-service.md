@@ -1,32 +1,32 @@
 ---
-title: Opération de déconnexion (service Web de messagerie unifiée)
+title: Opération de déconnexion (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Disconnect
 api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
-description: L’opération de déconnexion met fin à l’appel identifié par le CallId spécifié (service Web de messagerie unifiée).
-ms.openlocfilehash: a1268f9ea3d879f472e019bf1847fc13d65d1819
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération Disconnect met fin à l’appel identifié par le callid spécifié (service web de um).
+ms.openlocfilehash: 42e069233fbfc255d43983571c0bb28475a1fe90
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522011"
 ---
-# <a name="disconnect-operation-um-web-service"></a>Opération de déconnexion (service Web de messagerie unifiée)
+# <a name="disconnect-operation-um-web-service"></a>Opération de déconnexion (service web de messagerie unifiée)
 
-L’opération de déconnexion met fin à l’appel identifié par le [CallId spécifié (service Web de messagerie unifiée)](callid-um-web-service.md).
+L’opération Disconnect met fin à l’appel identifié par le [CallId spécifié (service web de la um).](callid-um-web-service.md)
   
 ## <a name="disconnect-request-example"></a>Exemple de demande de déconnexion
 
 ### <a name="description"></a>Description
 
-L’exemple de demande de déconnexion ci-dessous montre comment créer une demande de déconnexion d’un appel.
+L’exemple suivant d’une demande de déconnexion montre comment former une demande pour déconnecter un appel.
   
 ### <a name="code"></a>Code
 
@@ -41,11 +41,11 @@ L’exemple de demande de déconnexion ci-dessous montre comment créer une dema
 </soap:Envelope>
 ```
 
-## <a name="successful-disconnect-response-example"></a>Exemple de réponse de déconnexion réussie
+## <a name="successful-disconnect-response-example"></a>Exemple de réponse Déconnexion réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse de déconnexion affiche une réponse à la demande de déconnexion.
+L’exemple suivant de réponse Disconnect affiche une réponse à la demande Disconnect.
   
 ### <a name="code"></a>Code
 
@@ -60,7 +60,7 @@ L’exemple suivant de réponse de déconnexion affiche une réponse à la deman
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Disconnect (service Web de messagerie unifiée)](disconnect-um-web-service.md) 
-- [DisconnectResponse (service Web de messagerie unifiée)](disconnectresponse-um-web-service.md) 
-- [CallId (service Web de messagerie unifiée)](callid-um-web-service.md)
+- [Disconnect (service web de messagerie unifiée)](disconnect-um-web-service.md) 
+- [DisconnectResponse (service web de messagerie unifiée)](disconnectresponse-um-web-service.md) 
+- [CallId (service web de messagerie unifiée)](callid-um-web-service.md)
 

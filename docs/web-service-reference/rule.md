@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Rule
 api_type:
 - schema
 ms.assetid: c30f3851-bd56-4473-9106-dc85e9619486
-description: L’élément rule contient une règle de protection unique.
-ms.openlocfilehash: 6c18a2bd026893cd333bc7007203abf04a6f0be7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Rule contient une règle de protection unique.
+ms.openlocfilehash: 45fb13ae6e1aacb78e7e8520f8678097796e339f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465000"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517874"
 ---
 # <a name="rule"></a>Rule
 
-L’élément **rule** contient une règle de protection unique. 
+**L’élément Rule** contient une règle de protection unique. 
   
 ```XML
 <Rule Name="" UserOverridable=="" Priority="">
@@ -39,22 +39,22 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Nom** <br/> |Identifie le nom de la règle. Attribut obligatoire de type String avec une longueur minimale de 1.  <br/> |
-|**UserOverridable** <br/> |Indique si la règle est obligatoire. Si la règle est obligatoire, la valeur de cet attribut doit être **false**. Attribut obligatoire de type Boolean.  <br/> |
+|**Nom** <br/> |Identifie le nom de la règle. Attribut obligatoire de type chaîne avec une longueur minimale de 1.  <br/> |
+|**UserOverridable** <br/> |Spécifie si la règle est obligatoire. Si la règle est obligatoire, cette valeur d’attribut doit être **false**. Attribut obligatoire de type Boolean.  <br/> |
 |**Priorité** <br/> |Spécifie la priorité de la règle. Attribut obligatoire de type int avec une valeur minimale de 1.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie action de la règle soit exécutée.  <br/> |
-|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifie l’action qui doit être exécutée si la partie conditionnelle de la règle correspond.  <br/> |
+|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie Action de la règle soit exécutée.  <br/> |
+|[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifie l’action à exécuter si la partie condition de la règle correspond.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Gestion](rules-ex15websvcsotherref.md) <br/> |Contient un tableau de règles de protection.  <br/> |
+|[Règles ](rules-ex15websvcsotherref.md) <br/> |Contient un tableau de règles de protection.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

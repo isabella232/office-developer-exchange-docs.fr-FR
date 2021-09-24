@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f61d843c-bca5-4c88-9667-fd03d2a963a1
-description: L’élément adments indique un tableau d’informations d’attribution pour un ou plusieurs contacts ou destinataires Active Directory agrégés dans le personnage associé.
-ms.openlocfilehash: a9883e06a8adbd5c9d3bc7e1edd28c62418df653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Attributions spécifie un tableau d’informations d’attribution pour un ou plusieurs des contacts ou des destinataires Active Directory regroupés dans le personnage associé.
+ms.openlocfilehash: 2c0ee8100398846be33827b5129557ca89789a17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460322"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522026"
 ---
 # <a name="attributions-arrayofpersonaattributionstype"></a>Attributions (ArrayOfPersonaAttributionsType)
 
-L’élément adments indique un tableau d’informations **d’attribution pour** un ou plusieurs contacts ou destinataires Active Directory agrégés dans le personnage associé. 
+**L’élément Attributions** spécifie un tableau d’informations d’attribution pour un ou plusieurs des contacts ou des destinataires Active Directory regroupés dans le personnage associé. 
   
 ```XML
 <Attributions>
@@ -38,13 +38,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Spécifie une instance dans un tableau d’attributs pour un élément **PersonaType** .  <br/> |
+|[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Spécifie une instance dans un tableau d’attributs pour un **élément PersonaType.**  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

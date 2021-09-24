@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d8c367a-67e9-43b3-8be0-6362d2152431
 description: L’élément SearchMailboxes indique le début de la demande SearchMailboxes.
-ms.openlocfilehash: 7ccc94157ef6bde7b6ba86e70c16ef6e90d712fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3c734e49869a17fa58252668ddae606d702f3047
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456800"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521592"
 ---
 # <a name="searchmailboxes"></a>SearchMailboxes
 
-L’élément **SearchMailboxes** indique le début de la demande **SearchMailboxes** . 
+**L’élément SearchMailboxes** indique le début de la **demande SearchMailboxes.** 
   
 ```XML
 <SearchMailboxes>
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

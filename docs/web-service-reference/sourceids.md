@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SourceIds
 api_type:
 - schema
 ms.assetid: 0043abd5-ba9c-4d67-8832-325f32bf7651
-description: L’élément SourceIds contient les identificateurs source à convertir.
-ms.openlocfilehash: 1c4990f2185788c5cfaab5483cb6a54a0d850596
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SourceIds contient les identificateurs de source à convertir.
+ms.openlocfilehash: e6a0767de0928578fb6ae16996ff39908580d45c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521339"
 ---
 # <a name="sourceids"></a>SourceIds
 
-L’élément **SourceIds** contient les identificateurs source à convertir. 
+**L’élément SourceIds** contient les identificateurs de source à convertir. 
   
 [ConvertId](convertid.md)
   
@@ -56,11 +56,11 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConvertId](convertid.md) <br/> |Définit une demande de conversion des identificateurs d’élément et de dossier entre les formats Exchange pris en charge.  <br/> |
+|[ConvertId](convertid.md) <br/> |Définit une demande de conversion des identificateurs d’élément et de dossier entre Exchange formats pris en charge.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -81,5 +81,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversion des identificateurs](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+[Conversion d’identificateurs](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

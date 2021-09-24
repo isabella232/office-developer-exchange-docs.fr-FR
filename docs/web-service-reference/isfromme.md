@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFromMe
 api_type:
 - schema
 ms.assetid: d3c5fbf0-a95c-46e5-890f-953e50ac49d6
-description: L’élément IsFromMe indique si un utilisateur s’est envoyé un élément à lui-même ou à lui-même.
-ms.openlocfilehash: eb69aa493d5ba8b0497fde4c52ad80fe17c92f1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsFromMe indique si un utilisateur lui a envoyé un élément.
+ms.openlocfilehash: b29e56eb58f30604e8155bbdca821991a4201f62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468018"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524209"
 ---
 # <a name="isfromme"></a>IsFromMe
 
-L’élément **IsFromMe** indique si un utilisateur s’est envoyé un élément à lui-même ou à lui-même. 
+**L’élément IsFromMe** indique si un utilisateur lui a envoyé un élément. 
   
 ```xml
 <IsFromMe/>
@@ -50,7 +50,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -58,7 +58,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur **true** indique que l’élément a été envoyé par un utilisateur à lui-même ou à lui-même. La valeur **false** indique que l’élément n’a pas été envoyé par l’utilisateur à lui-même. 
+Une valeur de texte **true** indique que l’élément a été envoyé par un utilisateur à lui-même. La valeur **false indique** que l’élément n’a pas été envoyé par l’utilisateur à lui-même. 
   
 ## <a name="remarks"></a>Remarques
 

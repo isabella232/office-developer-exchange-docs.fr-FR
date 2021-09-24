@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WithinSizeRange
 api_type:
 - schema
 ms.assetid: 6f98650e-3399-4f87-9b7f-40bf20cdb821
-description: L’élément WithinSizeRange spécifie les tailles minimale et maximale que les messages entrants doivent être pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: 31da5815b70e20c47594da89b0b7ccab87eaf8f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément WithinSizeRange spécifie les tailles minimale et maximale des messages entrants pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: c9bc0e30171e826468e59f3ea1b6f087d8decc4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459741"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521227"
 ---
 # <a name="withinsizerange"></a>WithinSizeRange
 
-L’élément **WithinSizeRange** spécifie les tailles minimale et maximale que les messages entrants doivent être pour que la condition ou l’exception s’applique. 
+**L’élément WithinSizeRange** spécifie les tailles minimale et maximale des messages entrants pour que la condition ou l’exception s’applique. 
   
 ```XML
 <WithinSizeRange>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MinimumSize](minimumsize.md) <br/> |Spécifie la taille minimale qu’un message doit être pour que la condition ou l’exception s’applique.  <br/> |
-|[/M](maximumsize.md) <br/> |Spécifie la taille maximale qu’un message doit être pour que la condition ou l’exception s’applique.  <br/> |
+|[MinimumSize](minimumsize.md) <br/> |Spécifie la taille minimale d’un message pour que la condition ou l’exception s’applique.  <br/> |
+|[MaximumSize](maximumsize.md) <br/> |Spécifie la taille maximale d’un message pour que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

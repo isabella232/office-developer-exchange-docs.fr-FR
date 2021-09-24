@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0718d2cc-8b70-4569-9008-b3e19857327e
 description: L’élément Role spécifie une chaîne qui représente un rôle de gestion.
-ms.openlocfilehash: d7649d5b885d4d36ea0ee36dd3b17598e305c35f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dbc30cee18e88d00b54ba9f7a9f766cf3058e815
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460560"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525560"
 ---
 # <a name="role"></a>Role
 
-L’élément **role** spécifie une chaîne qui représente un rôle de gestion. 
+**L’élément Role** spécifie une chaîne qui représente un rôle de gestion. 
   
 ```XML
 <Role></Role>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **role** est le nom du rôle. 
+La valeur de texte de **l’élément Role** est le nom du rôle. 
   
 ## <a name="remarks"></a>Remarques
 

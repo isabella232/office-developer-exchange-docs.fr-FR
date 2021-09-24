@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolder
 api_type:
 - schema
 ms.assetid: c7233966-6c87-4a14-8156-b1610760176d
 description: L’opération MoveFolder déplace les dossiers d’un dossier spécifié et les place dans un autre dossier.
-ms.openlocfilehash: dc572130ca3b2f2b152abbb4a8b68cc6f67790e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e0b0e93bd070354d03c511382b6096f2d3a07508
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460581"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523858"
 ---
 # <a name="movefolder-operation"></a>Opération MoveFolder
 
@@ -25,13 +25,13 @@ L’opération MoveFolder déplace les dossiers d’un dossier spécifié et les
   
 ## <a name="remarks"></a>Remarques
 
-L’opération MoveFolder est similaire à l’opération CopyFolder. Vous ne pouvez pas déplacer des dossiers uniques. Vous pouvez déplacer plusieurs dossiers à la fois vers le dossier de destination.
+L’opération MoveFolder est similaire à l’opération CopyFolder. Vous ne pouvez pas déplacer de dossiers spécifiques. Vous pouvez déplacer plusieurs dossiers à la fois vers le dossier de destination.
   
 ## <a name="movefolder-request-example"></a>Exemple de requête MoveFolder
 
 ### <a name="description"></a>Description
 
-L’exemple de requête MoveFolder suivant montre comment créer une demande de déplacement d’un dossier identifié par le [FolderId](folderid.md) et placer le dossier dans le dossier unique du courrier indésirable. 
+L’exemple suivant d’une demande MoveFolder montre comment former une demande de déplacement d’un dossier identifié par [folderId](folderid.md) et placer le dossier dans le dossier de courrier indésirable. 
   
 ### <a name="code"></a>Code
 
@@ -57,9 +57,9 @@ L’exemple de requête MoveFolder suivant montre comment créer une demande de 
 > [!NOTE]
 > La valeur de l’attribut ID de l’élément [FolderId](folderid.md) a été raccourcie pour des raisons de lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-Cette requête MoveFolder inclut les éléments suivants :
+Cette requête MoveFolder inclut les éléments suivants :
   
 - [MoveFolder](movefolder.md)
     
@@ -71,12 +71,12 @@ Cette requête MoveFolder inclut les éléments suivants :
     
 - [FolderId](folderid.md)
     
-Consultez le schéma pour les éléments supplémentaires que vous pouvez utiliser pour former une requête MoveFolder.
+Consultez le schéma pour obtenir des éléments supplémentaires que vous pouvez utiliser pour former une demande MoveFolder.
   
 > [!NOTE]
-> L’emplacement par défaut du schéma se trouve dans le répertoire virtuel EWS de l’ordinateur sur lequel le rôle serveur d’accès au client est installé. 
+> L’emplacement par défaut du schéma se trouve dans le répertoire virtuel EWS sur l’ordinateur sur qui le rôle serveur d’accès au client est installé. 
   
-## <a name="successful-movefolder-response-example"></a>Exemple de réponse MoveFolder réussi
+## <a name="successful-movefolder-response-example"></a>Exemple de réponse MoveFolder réussie
 
 ### <a name="description"></a>Description
 
@@ -115,13 +115,13 @@ L’exemple suivant montre une réponse réussie à la demande MoveFolder.
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> L’ID de dossier et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’ID de dossier et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
 Le FolderId renvoyé dans la réponse représente le dossier déplacé vers le nouvel emplacement du dossier.
   
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
-La réponse MoveFolder comprend les éléments suivants :
+La réponse MoveFolder inclut les éléments suivants :
   
 - [MoveFolderResponse](movefolderresponse.md)
     
@@ -141,7 +141,7 @@ La réponse MoveFolder comprend les éléments suivants :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur qui se produit lorsque vous essayez de déplacer un dossier unique.
+L’exemple suivant illustre une réponse d’erreur qui se produit lorsque vous essayez de déplacer un dossier spécifique.
   
 ### <a name="code"></a>Code
 
@@ -173,7 +173,7 @@ L’exemple suivant montre une réponse d’erreur qui se produit lorsque vous e
 
 ### <a name="error-response-elements"></a>Éléments de réponse d’erreur
 
-La réponse d’erreur MoveFolder comprend les éléments suivants :
+La réponse d’erreur MoveFolder inclut les éléments suivants :
   
 - [MoveFolderResponse](movefolderresponse.md)
     
@@ -193,5 +193,5 @@ La réponse d’erreur MoveFolder comprend les éléments suivants :
 
 
 
-[CopyFolder, opération](copyfolder-operation.md)
+[Opération CopyFolder](copyfolder-operation.md)
 

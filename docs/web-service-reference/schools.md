@@ -1,23 +1,23 @@
 ---
-title: Établissements
+title: Schools
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 486a0340-3163-4905-abd5-1372995c9a3a
-description: L’élément Schools spécifie un tableau de noms scolaires et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: e24d5318a38aa0a902d4976d7b31a376399d2cfd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Schools spécifie un tableau de noms d’établissements scolaires et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 22c8242e0da906b75baa4cffe9c9ec4dd0e52cd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465267"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524503"
 ---
-# <a name="schools"></a>Établissements
+# <a name="schools"></a>Schools
 
-L’élément **Schools** spécifie un tableau de noms scolaires et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Schools** spécifie un tableau de noms d’établissements scolaires et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Schools>

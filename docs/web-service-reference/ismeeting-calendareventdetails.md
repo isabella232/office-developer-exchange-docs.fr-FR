@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeeting
 api_type:
 - schema
 ms.assetid: dd6900e4-e4a3-471a-909d-7240ebec501b
 description: L’élément IsMeeting indique si l’événement de calendrier est une réunion ou un rendez-vous.
-ms.openlocfilehash: b75dfba203177d6451f3847bf8d1f68014612e1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6d398397de9147e0c9c8b0977a8a9f46a9da3ebd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465995"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524160"
 ---
 # <a name="ismeeting-calendareventdetails"></a>IsMeeting (CalendarEventDetails)
 
-L’élément **IsMeeting** indique si l’événement de calendrier est une réunion ou un rendez-vous. 
+**L’élément IsMeeting** indique si l’événement de calendrier est une réunion ou un rendez-vous. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,15 +60,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé. 
+Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si [l’élément CalendarEventDetails](calendareventdetails.md) est utilisé. 
   
 ## <a name="remarks"></a>Remarques
 
-La différence entre une réunion et un rendez-vous est qu’une réunion est un élément de calendrier qui inclut des participants ; un rendez-vous est un élément de calendrier qui n’inclut pas de participants.
+La différence entre une réunion et un rendez-vous est qu’une réunion est un élément de calendrier qui inclut les participants ; un rendez-vous est un élément de calendrier qui n’inclut pas les participants.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

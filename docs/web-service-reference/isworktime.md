@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsWorkTime
 api_type:
 - schema
 ms.assetid: 5243dd19-3593-4a81-bb2d-90496e04cb98
-description: L’élément IsWorkTime indique si la date de la réunion suggérée se produit pendant les heures de travail prévues.
-ms.openlocfilehash: a3f3c73d585bee6f73863e2be64eea245be674f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsWorkTime indique si l’heure de réunion suggérée a lieu pendant les heures de travail prévues.
+ms.openlocfilehash: caa00221d36d67957fb20e9b245bac0c3b9e9c3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467577"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525028"
 ---
 # <a name="isworktime"></a>IsWorkTime
 
-L’élément **IsWorkTime** indique si la date de la réunion suggérée se produit pendant les heures de travail prévues. 
+**L’élément IsWorkTime indique** si l’heure de réunion suggérée a lieu pendant les heures de travail prévues. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **IsWorkTime** indique si la date de la réunion suggérée se pro
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [IsWorkTime](isworktime.md)
   
@@ -58,7 +58,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Suggérer](suggestion.md) <br/> |Représente une seule suggestion de temps de réunion.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
+|[Suggestion](suggestion.md) <br/> |Représente une suggestion d’heure de réunion unique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityResponse
 api_type:
 - schema
 ms.assetid: 6999510a-d60e-43da-8964-57b5fb3e9d11
-description: L’élément GetUserAvailabilityResponse est l’élément racine qui contient les propriétés qui définissent les informations de disponibilité de l’utilisateur ou les informations sur les heures de réunion suggérées.
-ms.openlocfilehash: ceb24bc8b31a7d7313add213c26bef5efd3c89ae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetUserAvailabilityResponse est l’élément racine qui contient les propriétés qui définissent les informations de disponibilité utilisateur ou les informations d’heure de réunion suggérées.
+ms.openlocfilehash: 16a6f79f6ccc930e3847867a560bc042657f12a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458214"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521907"
 ---
 # <a name="getuseravailabilityresponse"></a>GetUserAvailabilityResponse
 
-L’élément **GetUserAvailabilityResponse** est l’élément racine qui contient les propriétés qui définissent les informations de disponibilité de l’utilisateur ou les informations sur les heures de réunion suggérées. 
+**L’élément GetUserAvailabilityResponse** est l’élément racine qui contient les propriétés qui définissent les informations de disponibilité utilisateur ou les informations d’heure de réunion suggérées. 
   
 ```xml
 <GetUserAvailabilityResponse>
@@ -44,7 +44,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contient les informations de disponibilité des utilisateurs demandés et l’état de la réponse.  <br/> |
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contient des informations sur l’état de la réponse et des suggestions pour les suggestions de réunion demandées.  <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contient des informations sur l’état de réponse et des données de suggestion pour les suggestions de réunion demandées.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant de réponse GetUserAvailability indique une réponse à une demande GetUserAvailability.
+L’exemple suivant d’une réponse GetUserAvailability présente une réponse à une demande GetUserAvailability.
   
 ```
 <?xml version="1.0" encoding="utf-8" ?>
@@ -118,7 +118,7 @@ L’exemple suivant de réponse GetUserAvailability indique une réponse à une 
 </GetUserAvailabilityResponse>
 ```
 
-Le contenu de l’élément [ID](id.md) a été raccourci afin de préserver la lisibilité. 
+Le [contenu de l’élément ID](id.md) a été raccourci pour préserver la lisibilité. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -126,7 +126,7 @@ Le contenu de l’élément [ID](id.md) a été raccourci afin de préserver la 
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

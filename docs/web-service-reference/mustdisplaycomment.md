@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MustDisplayComment
 api_type:
 - schema
 ms.assetid: 11d4d3c3-4652-4ed4-9b29-a0b5f85b82b7
-description: L’élément MustDisplayComment indique si le commentaire du dossier géré doit être affiché.
-ms.openlocfilehash: e86b0c6e2c1d7c3cc00561c17c82b3be82d81242
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MustDisplayComment indique si le commentaire de dossier géré doit être affiché.
+ms.openlocfilehash: da1a5e01c1cf244385964db0a3c1a4be705cc25f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463208"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518126"
 ---
 # <a name="mustdisplaycomment"></a>MustDisplayComment
 
-L’élément **MustDisplayComment** indique si le commentaire du dossier géré doit être affiché. 
+**L’élément MustDisplayComment** indique si le commentaire de dossier géré doit être affiché. 
   
 ```xml
 <MustDisplayComment/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une valeur de type Boolean. La valeur **true** indique que le commentaire doit être affiché ; la valeur **false** indique que le commentaire ne doit pas être affiché. 
+La valeur de texte représente une valeur boolé américaine. La valeur **true** indique que le commentaire doit être affiché . Une valeur **false** indique que le commentaire n’a pas besoin d’être affiché. 
   
 ## <a name="remarks"></a>Remarques
 

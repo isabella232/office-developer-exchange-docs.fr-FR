@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c39f37bf-5cf5-47a7-8a2a-337b5e68f94f
 description: L’élément Address spécifie l’adresse d’un contact.
-ms.openlocfilehash: ffb13c8fed28dc1baee5002dc11f7acd7d4c3db5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 187a2f58b521cdeaba7c0703f33d71a9f8081756
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464909"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525393"
 ---
 # <a name="address-contacttype"></a>Address (ContactType)
 
-L’élément **Address** spécifie l’adresse d’un contact. 
+**L’élément Address** spécifie l’adresse d’un contact. 
   
 ```XML
 <Address></Address>
 ```
 
- **XS : String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Adresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Spécifie un tableau d’éléments **Address** .  <br/> |
+|[Addresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Spécifie un tableau d’éléments **Address.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Address** est l’adresse postale du contact. 
+La valeur texte de **l’élément Address** est l’adresse postale du contact. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

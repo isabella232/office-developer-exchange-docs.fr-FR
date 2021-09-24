@@ -1,27 +1,27 @@
 ---
-title: État
+title: Statut
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 80121e41-291b-4fc0-a55e-6f677d4b5fb5
 description: L’élément Status représente l’état d’un élément de tâche.
-ms.openlocfilehash: 5d022827990b96fd8790ae9566ef49028ebe404c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5ec50e3f0c06ad3ec8301ddbe8e7bd249b1e8fe9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525539"
 ---
-# <a name="status"></a>État
+# <a name="status"></a>Statut
 
-L’élément **Status** représente l’état d’un élément de tâche. 
+**L’élément Status** représente l’état d’un élément de tâche. 
   
 ```xml
 <Status/>
@@ -48,13 +48,13 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - NotStarted
     
 - InProgress
     
-- Achevé
+- Terminé
     
 - WaitingOnOthers
     
@@ -62,7 +62,7 @@ Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet �
     
 ## <a name="remarks"></a>Remarques
 
-La définition de l’option [Completed](completedate.md) a le même effet que celle de la valeur de [PourcentageAchevé](percentcomplete.md) sur 100 ou l' **État** **terminé**. Dans une demande qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si **le PourcentageAchevé** est 100 **, si** la valeur de l' **État** est 1/1/2007, si l’État est NotStarted et si les propriétés sont diffusées en continu dans cet ordre, l’effet est de définir l’état de la tâche sur NotStarted, l' **État** **terminé** sur **null**et le **PourcentageAchevé** sur 0. 
+La [définition de CompleteDate](completedate.md) a le même effet que la définition de [PercentComplete](percentcomplete.md) sur 100 ou **d’état** **sur Terminé**. Dans une requête qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si **PercentComplete** a la valeur 100, **CompleteDate** est 1/1/2007 et **status** is NotStarted et  que les propriétés sont diffusées dans cet ordre, l’effet est de définir l’état de la tâche sur NotStarted, **CompleteDate** sur **null** et **percentComplete** sur 0. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   

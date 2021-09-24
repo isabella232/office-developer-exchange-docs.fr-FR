@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e18f46fe-ab83-4df1-b1a5-9c8e73173ccf
-description: L’élément SpouseNames spécifie un tableau de noms de époux ou de partenaires et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 9b7960e7aee8652d16561f8dd2eb3d891fb8d694
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SpouseNames spécifie un tableau de noms de conjoint ou de partenaire et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 6856674db8ef1e636631c2b381f5b21bbc857495
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521304"
 ---
 # <a name="spousenames"></a>SpouseNames
 
-L’élément **SpouseNames** spécifie un tableau de noms de époux ou de partenaires et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément SpouseNames** spécifie un tableau de noms de conjoint ou de partenaire et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <SpouseNames>

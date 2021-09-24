@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4bc48bfb-a9ae-4e87-97a6-f3e0c9c89bc1
-description: L’élément PageItemCount spécifie le nombre de pages renvoyées dans une pagination de résultat de recherche.
-ms.openlocfilehash: e8e98168212c104763f5cf94847e06d5ec93534d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PageItemCount spécifie le nombre de pages renvoyées dans une pagination des résultats de recherche.
+ms.openlocfilehash: ab6665c6ff2f81b2889a91ccea77802a2c3783b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524643"
 ---
 # <a name="pageitemcount"></a>PageItemCount
 
-L’élément **PageItemCount** spécifie le nombre de pages renvoyées dans une pagination de résultat de recherche. 
+**L’élément PageItemCount** spécifie le nombre de pages renvoyées dans une pagination des résultats de recherche. 
   
 ```XML
 <PageItemCount></PageItemCount>
 ```
 
- **entier**
+ **integer**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PageItemCount** est le nombre de pages renvoyées dans une pagination de résultat de recherche. 
+La valeur de texte de **l’élément PageItemCount** est le nombre de pages renvoyées dans une pagination des résultats de recherche. 
   
 ## <a name="remarks"></a>Remarques
 

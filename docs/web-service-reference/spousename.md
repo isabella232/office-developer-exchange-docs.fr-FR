@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SpouseName
 api_type:
 - schema
 ms.assetid: 9aadecc3-54ba-4a25-b2b2-a5e2b63922f6
-description: L’élément SpouseName représente le nom du conjoint d’un contact ou d’un partenaire.
-ms.openlocfilehash: 53d08731653b9dd22af2d33a1f0ece0ad0305096
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SpouseName représente le nom du conjoint ou du partenaire d’un contact.
+ms.openlocfilehash: c8005526b329be57b0fd0d25e100ae7311bef195
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468207"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521332"
 ---
 # <a name="spousename"></a>SpouseName
 
-L’élément **SpouseName** représente le nom du conjoint d’un contact ou d’un partenaire. 
+**L’élément SpouseName** représente le nom du conjoint ou du partenaire d’un contact. 
   
 ```xml
 <SpouseName/>

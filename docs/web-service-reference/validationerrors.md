@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ValidationErrors
 api_type:
 - schema
 ms.assetid: 009526aa-22e7-4f5c-be88-079175aa9122
 description: L'élément ValidationErrors représente un tableau des erreurs de validation de règle sur chaque champ de règle qui comporte une erreur.
-ms.openlocfilehash: 0861425b04e03a3e2e54a47a5027d0a11264392d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9b771addfc99a4f7fadebc64aebc484a8ae6060e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530274"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522375"
 ---
 # <a name="validationerrors"></a>ValidationErrors
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

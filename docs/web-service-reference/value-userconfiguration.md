@@ -1,27 +1,27 @@
 ---
-title: Valeur (UserConfiguration)
+title: Value (UserConfiguration)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Value
 api_type:
 - schema
 ms.assetid: 4f3c54e9-df5e-4cf4-8171-91f1e1cb2dbd
-description: L’élément Value spécifie la valeur de l’objet Dictionary sous forme de chaîne.
-ms.openlocfilehash: ec1c06c5e730af8b40b5c868cc73efa481876591
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Value spécifie la valeur de l’objet dictionary en tant que chaîne.
+ms.openlocfilehash: 75e01ea175964ae8d948901af4d9551364fa52cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468060"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522417"
 ---
-# <a name="value-userconfiguration"></a>Valeur (UserConfiguration)
+# <a name="value-userconfiguration"></a>Value (UserConfiguration)
 
-L’élément **value** spécifie la valeur de l’objet Dictionary sous forme de chaîne. 
+**L’élément Value** spécifie la valeur de l’objet dictionary en tant que chaîne. 
   
 ```xml
 <Value/>
@@ -45,12 +45,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DictionaryKey](dictionarykey.md) <br/> |Spécifie la clé de dictionnaire pour une propriété de dictionnaire.  <br/> |
-|[DictionaryValue](dictionaryvalue.md) <br/> |Spécifie la valeur de dictionnaire pour une propriété de dictionnaire.  <br/> |
+|[DictionaryKey](dictionarykey.md) <br/> |Spécifie la clé de dictionnaire d’une propriété de dictionnaire.  <br/> |
+|[DictionaryValue](dictionaryvalue.md) <br/> |Spécifie la valeur de dictionnaire d’une propriété de dictionnaire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

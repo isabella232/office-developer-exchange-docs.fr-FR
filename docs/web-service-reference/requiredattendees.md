@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RequiredAttendees
 api_type:
 - schema
 ms.assetid: 422f8d44-b0eb-49ca-af0f-0e22b54c78d2
-description: L’élément RequiredAttendees représente les participants qui sont requis pour participer à une réunion.
-ms.openlocfilehash: a67800687f24dc323c3d80e4166ca9dd34dfc4fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RequiredAttendees représente les participants requis pour participer à une réunion.
+ms.openlocfilehash: 593ea08f9c3486360c4718e293164f37bae2830f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468291"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521731"
 ---
 # <a name="requiredattendees"></a>RequiredAttendees
 
-L’élément **RequiredAttendees** représente les participants qui sont requis pour participer à une réunion. 
+**L’élément RequiredAttendees** représente les participants requis pour participer à une réunion. 
   
 ```xml
 <RequiredAttendees>
@@ -42,14 +42,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Participant](attendee.md) <br/> |Représente les participants et les ressources d’une réunion.  <br/> |
+|[Attendee](attendee.md) <br/> |Représente les participants et les ressources d’une réunion.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

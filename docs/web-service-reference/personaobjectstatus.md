@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1354c86e-7740-42c4-9e63-b372b3906846
 description: L’élément PersonaObjectStatus spécifie si les informations du personnage associé sont complètes ou partielles.
-ms.openlocfilehash: 66dbe30cebb0aa5845d9580ad057d1cf5ab9b037
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: db50ea8e9b308e670f557e6bc162793a265a8855
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524587"
 ---
 # <a name="personaobjectstatus"></a>PersonaObjectStatus
 
-L’élément **PersonaObjectStatus** spécifie si les informations du personnage associé sont complètes ou partielles. 
+**L’élément PersonaObjectStatus** spécifie si les informations du personnage associé sont complètes ou partielles. 
   
 ```XML
 <PersonaObjectStatus></PersonaObjectStatus>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PersonaObjectStatus** indique si le personnage est complet ou partiel. 
+La valeur de texte de **l’élément PersonaObjectStatus** indique si le personnage est complet ou partiel. 
   
 ## <a name="remarks"></a>Remarques
 

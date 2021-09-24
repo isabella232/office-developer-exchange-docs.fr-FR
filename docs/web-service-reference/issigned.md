@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsSigned
 api_type:
 - schema
 ms.assetid: a4f90fe5-2834-4621-9aa3-b561f74d4674
 description: L’élément IsSigned indique si les messages entrants doivent être signés pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: fe8551d01e6f9e813da8936f15b0b7ba1d4ce56c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 556b5a723a3201721651000264274ebd0cd001e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524090"
 ---
 # <a name="issigned"></a>IsSigned
 
-L’élément **IsSigned** indique si les messages entrants doivent être signés pour que la condition ou l’exception s’applique. 
+**L’élément IsSigned** indique si les messages entrants doivent être signés pour que la condition ou l’exception s’applique. 
   
 ```XML
 <IsSigned>true | false</IsSigned>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être signé afin que la condition ou l’exception s’applique. Une valeur de texte **false** indique que le message ne doit pas être signé pour la condition ou l’exception à appliquer. 
+Une valeur de texte **true** indique que le message doit être signé pour que la condition ou l’exception s’applique. Une valeur de texte **false** indique que le message n’a pas besoin d’être signé pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

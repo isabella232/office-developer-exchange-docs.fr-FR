@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UploadItems
 api_type:
 - schema
 ms.assetid: a88cbe99-7968-454d-a545-4f92c330909f
-description: L’opération UploadItems télécharge un flux d’éléments dans une boîte aux lettres Exchange.
-ms.openlocfilehash: 57e722c7775baa090736875077781cee869c3b01
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération UploadItems télécharge un flux d’éléments dans une boîte Exchange aux lettres.
+ms.openlocfilehash: 333b72eb93395bb1fc0b97a90951ae68285794b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468501"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522424"
 ---
 # <a name="uploaditems-operation"></a>Opération UploadItems
 
-L’opération **UploadItems** télécharge un flux d’éléments dans une boîte aux lettres Exchange. 
+**L’opération UploadItems** télécharge un flux d’éléments dans une boîte aux lettres Exchange’utilisateur. 
   
 > [!IMPORTANT]
-> L’opération **UploadItems** est limitée dans MicrosoftExchange Server 2010 Service Pack 1 (SP1) à une charge utile d’importation maximale de 25 Mo de données codées en base64. Le paramètre peut être modifié dans le fichier Web. config. 
+> L’opération **UploadItems** est limitée dans MicrosoftExchange Server 2010 Service Pack 1 (SP1) à une charge utile d’importation maximale de 25 Mo de données codées en base 64. Le paramètre peut être modifié dans web.config fichier. 
   
 ## <a name="uploaditems-request-example"></a>Exemple de requête UploadItems
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **UploadItems** suivant montre comment télécharger deux éléments dans une boîte aux lettres. Le premier élément est un nouvel élément. Le deuxième élément est une version mise à jour d’un élément existant dans la boîte aux lettres. 
+L’exemple suivant **d’une demande UploadItems** montre comment charger deux éléments dans une boîte aux lettres. Le premier élément est un nouvel élément. Le deuxième élément est une version mise à jour d’un élément existant dans la boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -80,9 +80,9 @@ L’exemple de requête **UploadItems** suivant montre comment télécharger deu
 
 ### <a name="comments"></a>Commentaires
 
-Les identificateurs et les données d’élément ont été raccourcies afin de préserver la lisibilité.
+Les identificateurs et les données d’élément ont été raccourcis pour préserver la lisibilité.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -92,19 +92,19 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md)
     
-- [Élément (UploadItemType)](item-uploaditemtype.md)
+- [Item (UploadItemType)](item-uploaditemtype.md)
     
 - [ParentFolderId](parentfolderid.md)
     
-- [Données (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 - [ItemId](itemid.md)
     
-## <a name="successful-uploaditems-response-example"></a>Exemple de réponse UploadItems réussi
+## <a name="successful-uploaditems-response-example"></a>Exemple de réponse UploadItems réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **UploadItems** . 
+L’exemple suivant montre une réponse réussie à la **demande UploadItems.** 
   
 ### <a name="code"></a>Code
 
@@ -145,7 +145,7 @@ L’exemple suivant montre une réponse réussie à la demande **UploadItems** .
 
 Identificateurs d'éléments ont été raccourcies afin de préserver la lisibilité.
   
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -165,7 +165,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse à la demande **UploadItems** qui contient une erreur causée par une tentative de mise à jour d’un élément introuvable dans la boîte aux lettres. 
+L’exemple suivant montre une réponse à la demande **UploadItems** qui contient une erreur provoquée par une tentative de mise à jour d’un élément in trouver dans la boîte aux lettres. 
   
 ### <a name="code"></a>Code
 

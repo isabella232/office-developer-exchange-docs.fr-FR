@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentId
 api_type:
 - schema
 ms.assetid: 55a5fd77-60d1-40fa-8144-770600cedc6a
 description: L’élément AttachmentId identifie un élément ou une pièce jointe. Cet élément est utilisé dans les réponses CreateAttachment.
-ms.openlocfilehash: b5dc9299b615f0fc01b8afcbaabf0ec7996e53d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a6363fad4e7ef9f0c21377f2c1ea8c19c494cdef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522018"
 ---
 # <a name="attachmentid"></a>AttachmentId
 
-L’élément **attachmentid** identifie un élément ou une pièce jointe. Cet élément est utilisé dans les réponses CreateAttachment. 
+**L’élément AttachmentId** identifie un élément ou une pièce jointe. Cet élément est utilisé dans les réponses CreateAttachment. 
   
 ```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
@@ -37,8 +37,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 |**Attribut**|**Description**|
 |:-----|:-----|
 |**Id** <br/> |Identifie l’identificateur unique de la pièce jointe.  <br/> |
-|**RootItemId** <br/> |Identifie l’identificateur unique de l’élément de magasin racine auquel la pièce jointe est attachée.  <br/> |
-|**RootItemChangeKey** <br/> |Identifie la clé de modification de l’élément de magasin racine auquel la pièce jointe est attachée.  <br/> |
+|**RootItemId** <br/> |Identifie l’identificateur unique de l’élément de magasin racine auquel la pièce jointe est jointe.  <br/> |
+|**RootItemChangeKey** <br/> |Identifie la clé de modification de l’élément de magasin racine auquel la pièce jointe est jointe.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,13 +49,13 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Exchange store.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il est important de noter que lors de la création d’une pièce jointe, la clé de modification de l’élément racine est modifiée.
+Il est important de noter que lorsqu’une pièce jointe est créée, la clé de modification de l’élément racine est modifiée.
   
-L’élément [attachmentid (GetAttachment et DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) est utilisé dans les requêtes DeleteAttachment et GetAttachment. 
+[L’élément AttachmentId (GetAttachment et DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) est utilisé dans les demandes DeleteAttachment et GetAttachment. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

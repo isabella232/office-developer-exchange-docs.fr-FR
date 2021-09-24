@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SearchParameters
 api_type:
 - schema
 ms.assetid: 34602cb1-dc33-4552-a98c-3e77f614daa3
 description: L’élément SearchParameters représente les paramètres qui définissent un dossier de recherche.
-ms.openlocfilehash: cd9f255621b17d01113392e67a0301b01b70f326
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a6a421ea6e8cfa0a2453d5cc86f6780010b6f7de
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521626"
 ---
 # <a name="searchparameters"></a>SearchParameters
 
-L’élément **SearchParameters** représente les paramètres qui définissent un dossier de recherche. 
+**L’élément SearchParameters** représente les paramètres qui définissent un dossier de recherche. 
   
 ```xml
 <SearchParameters Traversal="">
@@ -39,14 +39,14 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Traversée** <br/> |Décrit comment un dossier de recherche parcourt la hiérarchie de dossiers. Les options sont pour une recherche **approfondie** ou **superficielle** .  <br/> |
+|**Traversée** <br/> |Décrit comment un dossier de recherche parcourt la hiérarchie des dossiers. Les options sont pour une **recherche** approfondie ou **superficiel.**  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Représente la restriction ou la requête qui est utilisée pour filtrer des éléments ou des dossiers dans les opérations FindItem/FindFolder et Search Folder.  <br/> |
-|[BaseFolderIds](basefolderids.md) <br/> |Représente la collection de dossiers qui seront extraites pour déterminer le contenu d’un dossier de recherche.  <br/> |
+|[Restriction](restriction.md) <br/> |Représente la restriction ou la requête utilisée pour filtrer des éléments ou des dossiers dans les opérations FindItem/FindFolder et des dossiers de recherche.  <br/> |
+|[BaseFolderIds](basefolderids.md) <br/> |Représente la collection de dossiers qui seront extraits pour déterminer le contenu d’un dossier de recherche.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

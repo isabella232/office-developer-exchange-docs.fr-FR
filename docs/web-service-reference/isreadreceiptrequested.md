@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsReadReceiptRequested
 api_type:
 - schema
 ms.assetid: 7ab6edd5-c7ed-4701-8de3-d7dc7ecfa9c2
-description: L’élément IsReadReceiptRequested indique si l’expéditeur d’un élément demande une confirmation de lecture.
-ms.openlocfilehash: ff0c512ef23b315d4de1194432408f5b408029d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsReadReceiptRequested indique si l’expéditeur d’un élément demande une réception de lecture.
+ms.openlocfilehash: 0ecc70116512103c252692295bd61fd102d7b5ea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457787"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524139"
 ---
 # <a name="isreadreceiptrequested"></a>IsReadReceiptRequested
 
-L’élément **IsReadReceiptRequested** indique si l’expéditeur d’un élément demande une confirmation de lecture. 
+**L’élément IsReadReceiptRequested** indique si l’expéditeur d’un élément demande une réception de lecture. 
   
 ```xml
 <IsReadReceiptRequested/>
@@ -47,7 +47,7 @@ Aucun.
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
@@ -60,11 +60,11 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique qu’une confirmation de lecture est demandée par le destinataire de l’élément. 
+Une valeur de texte **true** indique qu’une réception de lecture est demandée au destinataire de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 
-Si **IsReadReceiptRequested** est défini sur **true**, la définition de [IsRead](isread.md) sur **true** envoie une confirmation de lecture. Le destinataire peut supprimer les accusés de lecture en soumettant l’objet Response [SuppressReadReceipt](suppressreadreceipt.md) avant de définir la propriété **IsRead** . 
+Si **IsReadReceiptRequested** est **true,** le fait de définir [IsRead](isread.md) sur **true** envoie une réception de lecture. Le destinataire peut supprimer les reçus de lecture en envoyant l’objet de réponse [SuppressReadReceipt](suppressreadreceipt.md) avant de définir **la propriété IsRead.** 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

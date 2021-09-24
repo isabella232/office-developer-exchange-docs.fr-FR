@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47e42f5d-d3cb-4ee2-8370-1fd0539b6ee6
 description: L’élément ItemCount spécifie le nombre total d’éléments dans un résultat de recherche.
-ms.openlocfilehash: 9635d22356e729b770505d399e91218cf1581d6e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1f59cef2244bc2341cbc066187a5c2b9bfcdf658
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525007"
 ---
 # <a name="itemcount"></a>ItemCount
 
-L’élément **ItemCount** spécifie le nombre total d’éléments dans un résultat de recherche. 
+**L’élément ItemCount** spécifie le nombre total d’éléments dans un résultat de recherche. 
   
 ```XML
 <ItemCount></ItemCount>
 ```
 
- **plus**
+ **long**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ItemCount** identifie le nombre total d’éléments dans un résultat de recherche. 
+La valeur de texte de **l’élément ItemCount** identifie le nombre total d’éléments dans un résultat de recherche. 
   
 ## <a name="remarks"></a>Remarques
 

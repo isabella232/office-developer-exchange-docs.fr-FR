@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89650cd4-c790-4a37-b5e5-46a57501e100
 description: L’élément SyncState spécifie l’état de synchronisation d’une conversation.
-ms.openlocfilehash: 85c525176931b66354ebdd8873673f04c6a722f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e5096dd6f0fa9abfd92e725343d3f8f7fd08c103
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468137"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522577"
 ---
 # <a name="syncstate-base64binary"></a>SyncState (base64Binary)
 
-L’élément **SyncState** spécifie l’état de synchronisation d’une conversation. 
+**L’élément SyncState** spécifie l’état de synchronisation d’une conversation. 
   
 ```XML
 <SyncState></SyncState>
 ```
 
- **Au base64Binary**
+ **base64Binary**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SyncState** est l’état de synchronisation d’une conversation. 
+La valeur de texte de **l’élément SyncState** est l’état de synchronisation d’une conversation. 
   
 ## <a name="remarks"></a>Remarques
 

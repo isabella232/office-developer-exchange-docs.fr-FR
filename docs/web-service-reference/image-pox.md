@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c3dcabdb-8a29-42f8-8ab4-461bf17fb9f6
-description: L’élément image contient le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration.
-ms.openlocfilehash: 5e981c1bb4a6029108fd442556a68356b073059d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Image contient le chemin d’accès d’une image utilisée pour brander l’expérience de configuration.
+ms.openlocfilehash: 0dae8943569c32106dafc9084d08585c89657a05
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525797"
 ---
 # <a name="image-pox"></a>Image (POX)
 
-L’élément **image** contient le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration. 
+**L’élément Image** contient le chemin d’accès d’une image utilisée pour brander l’expérience de configuration. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Image (POX)](image-pox.md)
   
@@ -48,15 +48,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Compte (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte de l’utilisateur.  <br/> |
+|[Account (POX)](account-pox.md) <br/> |Spécifie les paramètres de compte de l’utilisateur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le chemin d’accès d’une image utilisée pour personnaliser l’expérience de configuration.
+La valeur de texte représente le chemin d’accès d’une image utilisée pour brander l’expérience de configuration.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

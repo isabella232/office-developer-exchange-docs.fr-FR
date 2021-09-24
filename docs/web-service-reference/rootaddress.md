@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RootAddress
 api_type:
 - schema
 ms.assetid: 1dbb130a-e4eb-4baf-ae07-2568a8375bff
 description: L’élément RootAddress représente la première adresse qui démarre l’événement pour un événement RecipientTrackingEvent.
-ms.openlocfilehash: e020ff07f271bdde6c2a4172141097dcba66f64e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8e9ad87889fa2cd02dee7b4b7c16d36862d4becd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525574"
 ---
 # <a name="rootaddress"></a>RootAddress
 
-L’élément **RootAddress** représente la première adresse qui démarre l’événement pour un événement [RecipientTrackingEvent](recipienttrackingevent.md) . 
+**L’élément RootAddress** représente la première adresse qui démarre l’événement pour un [événement RecipientTrackingEvent.](recipienttrackingevent.md) 
   
 ```xml
 <RootAddress/>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est l’adresse qui commence l’événement de suivi.
+La valeur de texte est l’adresse qui démarre l’événement de suivi.
   
 ## <a name="remarks"></a>Remarques
 

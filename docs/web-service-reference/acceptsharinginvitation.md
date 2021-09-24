@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AcceptSharingInvitation
 api_type:
 - schema
 ms.assetid: 3c2a47d6-490d-425b-8893-089a4f8882cd
-description: L’élément AcceptSharingInvitation est utilisé pour accepter une invitation qui autorise l’accès au calendrier ou aux données de contacts d’un autre utilisateur.
-ms.openlocfilehash: c8cdae707bd122e74fa0e284163d1540d857c3de
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AcceptSharingInvitation est utilisé pour accepter une invitation qui permet d’accéder aux données de calendrier ou de contacts d’un autre utilisateur.
+ms.openlocfilehash: 76b7bedccb4135a51104bea99d3844f384870db0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525434"
 ---
 # <a name="acceptsharinginvitation"></a>AcceptSharingInvitation
 
-L’élément **AcceptSharingInvitation** est utilisé pour accepter une invitation qui autorise l’accès au calendrier ou aux données de contacts d’un autre utilisateur. 
+**L’élément AcceptSharingInvitation** est utilisé pour accepter une invitation qui permet d’accéder aux données de calendrier ou de contacts d’un autre utilisateur. 
   
 ```xml
 <AcceptSharingInvitation>

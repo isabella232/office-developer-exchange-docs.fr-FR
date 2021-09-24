@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SIPResponseText
 api_type:
 - schema
 ms.assetid: 359a9085-50c0-4c94-8a12-216339ba2018
-description: L’élément SIPResponseText spécifie le texte de la réponse SIP.
-ms.openlocfilehash: 6249e4bb651ba62eb99537d0cdec5bea60670f61
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SIPResponseText spécifie le texte de réponse SIP.
+ms.openlocfilehash: 34ea11b91aef777c2e40d62946847be00eac0dc3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460462"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521360"
 ---
 # <a name="sipresponsetext"></a>SIPResponseText
 
-L’élément **SIPResponseText** spécifie le texte de la réponse SIP. 
+**L’élément SIPResponseText** spécifie le texte de réponse SIP. 
   
 ```xml
 <SIPResponseText/>
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’État pour un appel téléphonique.  <br/> |
+|[PhoneCallInformation](phonecallinformation.md) <br/> |Spécifie les informations d’état d’un appel téléphonique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Texte de la réponse SIP.
+Texte de réponse SIP.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur qui exécute Exchange Server et sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire /ews/ de l’ordinateur qui exécute Exchange Server avec le rôle serveur d’accès au client installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

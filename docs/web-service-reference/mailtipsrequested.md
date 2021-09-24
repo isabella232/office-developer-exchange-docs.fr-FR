@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailTipsRequested
 api_type:
 - schema
 ms.assetid: 8037bbe5-a37f-4f77-8209-27a94f9095ef
 description: L’élément MailTipsRequested contient les types de conseils de messagerie demandés par le service.
-ms.openlocfilehash: bcb2ebf15e628a04e8507f938d385cf113f2f2a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 14a463d3b00a9f8b3e2aa2e822209ff87a221f9b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465897"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524853"
 ---
 # <a name="mailtipsrequested"></a>MailTipsRequested
 
-L’élément **MailTipsRequested** contient les types de conseils de messagerie demandés par le service. 
+**L’élément MailTipsRequested** contient les types de conseils de messagerie demandés par le service. 
   
 ```XML
 <MailTipsRequested/>
@@ -44,23 +44,23 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |Contient les destinataires et les types de conseils de messagerie à récupérer.  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |Contient les destinataires et les types d’infos-courrier à récupérer.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **MailTipsRequested** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément MailTipsRequested.** 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Tous  <br/> |Représente tous les conseils de courrier disponibles.  <br/> |
-|OutOfOfficeMessage  <br/> |Représente le message absent (e) du bureau.  <br/> |
-|MailboxFullStatus  <br/> |Représente l’état d’une boîte aux lettres qui est saturée.  <br/> |
-|CustomMailTip  <br/> |Représente une info-bulle personnalisée.  <br/> |
+|Tous  <br/> |Représente tous les conseils de messagerie disponibles.  <br/> |
+|OutOfOfficeMessage  <br/> |Représente le message d’absence du Office (OOF).  <br/> |
+|MailboxFullStatus  <br/> |Représente l’état d’une boîte aux lettres pleine.  <br/> |
+|CustomMailTip  <br/> |Représente une info-courrier personnalisée.  <br/> |
 |ExternalMemberCount  <br/> |Représente le nombre de membres externes.  <br/> |
-|TotalMemberCount  <br/> |Représente le décompte de tous les membres.  <br/> |
-|MaxMessageSize  <br/> |Représente la taille maximale des messages qu’un destinataire peut accepter.  <br/> |
-|DeliveryRestriction  <br/> |Indique si les restrictions de remise empêchent le message de l’expéditeur d’atteindre le destinataire.  <br/> |
-|ModerationStatus  <br/> |Indique si le message de l’expéditeur est examiné par un modérateur.  <br/> |
+|TotalMemberCount  <br/> |Représente le nombre de tous les membres.  <br/> |
+|MaxMessageSize  <br/> |Représente la taille maximale de message qu’un destinataire peut accepter.  <br/> |
+|DeliveryRestriction  <br/> |Indique si les restrictions de remise empêcheront le message de l’expéditeur d’atteindre le destinataire.  <br/> |
+|ModerationStatus  <br/> |Indique si le message de l’expéditeur sera examiné par un modérateur.  <br/> |
 |InvalidRecipient  <br/> |Indique si le destinataire n’est pas valide.  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -73,7 +73,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

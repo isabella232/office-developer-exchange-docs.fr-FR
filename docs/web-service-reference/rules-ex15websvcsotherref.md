@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Rules
 api_type:
 - schema
 ms.assetid: 53f59054-8f68-4eaa-be9c-ccfc9383bcf2
 description: L’élément Rules contient un tableau de règles de protection.
-ms.openlocfilehash: d848abfe0c97d07836f28bc75806f506c5433d44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 492111e53c01a0848bd87c460670f35c524baf31
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517860"
 ---
-# <a name="rules"></a>Règles
+# <a name="rules"></a>Rules
 
-L’élément **Rules** contient un tableau de règles de protection. 
+**L’élément Rules** contient un tableau de règles de protection. 
   
 ```xml
 <Rules>   <Rule/></Rules>
@@ -46,11 +46,11 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ProtectionRulesConfiguration](protectionrulesconfiguration.md) <br/> |Contient la configuration du service des règles de protection.  <br/> |
+|[ProtectionRulesConfiguration](protectionrulesconfiguration.md) <br/> |Contient la configuration du service pour le service de règles de protection.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

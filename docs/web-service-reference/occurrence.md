@@ -1,27 +1,27 @@
 ---
-title: Réunions
+title: Occurrence
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Occurrence
 api_type:
 - schema
 ms.assetid: d292b99c-b896-40b7-be5d-2cb314c9481f
-description: L’élément occurrence représente une occurrence modifiée unique d’un élément de calendrier périodique.
-ms.openlocfilehash: c3a6bcce23f0bb1125dbd2a5bb86e9b20039a4e1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Occurrence représente une occurrence modifiée unique d’un élément de calendrier périodique.
+ms.openlocfilehash: 465c02263eadfc74629a8e21ebccf076206ec0d2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466317"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518091"
 ---
-# <a name="occurrence"></a>Réunions
+# <a name="occurrence"></a>Occurrence
 
-L’élément **occurrence** représente une occurrence modifiée unique d’un élément de calendrier périodique. 
+**L’élément Occurrence** représente une occurrence modifiée unique d’un élément de calendrier périodique. 
   
 ```xml
 <Occurrence>
@@ -47,15 +47,15 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Contient l’identificateur unique et la clé de modification d’une occurrence modifiée d’un élément de calendrier périodique.  <br/> |
-|[Démarrage](start.md) <br/> |Représente l’heure de début d’une occurrence modifiée d’un élément de calendrier périodique.  <br/> |
-|[Fin](end-ex15websvcsotherref.md) <br/> |Représente l’heure de fin d’une occurrence modifiée d’un élément de calendrier périodique.  <br/> |
+|[Start](start.md) <br/> |Représente l’heure de début d’une occurrence modifiée d’un élément de calendrier périodique.  <br/> |
+|[Fin ](end-ex15websvcsotherref.md) <br/> |Représente l’heure de fin d’une occurrence modifiée d’un élément de calendrier périodique.  <br/> |
 |[OriginalStart](originalstart.md) <br/> |Représente l’heure de début d’origine d’une occurrence modifiée d’un élément de calendrier périodique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ModifiedOccurrences](modifiedoccurrences.md) <br/> |Contient une collection d’occurrences de calendrier périodiques qui ont été modifiées afin qu’elles soient différentes de l’élément de masque de récurrence.  <br/> |
+|[ModifiedOccurrences](modifiedoccurrences.md) <br/> |Contient une collection d’occurrences d’éléments de calendrier périodiques qui ont été modifiées afin qu’elles soient différentes de l’élément maître de récurrence.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

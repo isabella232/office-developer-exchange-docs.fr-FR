@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateDelegate
 api_type:
 - schema
 ms.assetid: 03f618ac-ad1a-4772-9b81-c5bb0f12d6ab
 description: L’opération UpdateDelegate met à jour les autorisations déléguées sur la boîte aux lettres d’un principal.
-ms.openlocfilehash: b7cf5325d925f8d6588115a8657a2077e940f9d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0adf17e45490d9b3e8d498b7e95094497c451f80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468557"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522487"
 ---
 # <a name="updatedelegate-operation"></a>Opération UpdateDelegate
 
-L’opération **UpdateDelegate** met à jour les autorisations déléguées sur la boîte aux lettres d’un principal. 
+**L’opération UpdateDelegate met** à jour les autorisations déléguées sur la boîte aux lettres d’un principal. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **UpdateDelegate** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération UpdateDelegate peut** utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="updatedelegate-request-example"></a>Exemple de requête UpdateDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **UpdateDelegate** suivant montre comment mettre à jour les autorisations déléguées sur un compte utilisateur1. Utilisateur2 reçoit le niveau d’autorisation None pour le dossier tâches et dispose de l’autorisation d’afficher des éléments privés. L’util_3 dispose des autorisations de relecteur pour le dossier journal. Les demandes de réunion sont envoyées aux délégués, et les informations sur la demande sont envoyées à utilisateur1. 
+L’exemple suivant **d’une demande UpdateDelegate** vous montre comment mettre à jour les autorisations de délégué sur le compte de l’utilisateur 1. User2 se voir accorder le niveau d’autorisation Aucun pour le dossier Tâches et l’autorisation d’afficher les éléments privés. User3 se vu accorder des autorisations de réviseur pour le dossier Journal. Les demandes de réunion sont envoyées aux délégués et des informations sur la demande sont envoyées à User1. 
   
 ### <a name="code"></a>Code
 
@@ -82,13 +82,13 @@ L’exemple de requête **UpdateDelegate** suivant montre comment mettre à jour
 
 ### <a name="comments"></a>Commentaires
 
-La requête [UpdateDelegate](updatedelegate.md) n’exige pas que les mises à jour soient appliquées aux délégués. Les clients peuvent modifier uniquement le paramètre **DeliverMeetingMessage** . 
+La [demande UpdateDelegate](updatedelegate.md) ne nécessite pas que les mises à jour soient appliquées aux délégués. Les clients peuvent modifier uniquement **le paramètre DeliverMeetingMessage.** 
   
 ## <a name="updatedelegate-response-example"></a>Exemple de réponse UpdateDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une opération **UpdateDelegate** . 
+L’exemple suivant montre une réponse réussie à une **opération UpdateDelegate.** 
   
 ### <a name="code"></a>Code
 
@@ -145,7 +145,7 @@ L’exemple suivant montre une réponse réussie à une opération **UpdateDeleg
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande **UpdateDelegate** . L’erreur a été générée car le délégué n’existe pas dans la liste des délégués de l’entité de sécurité. 
+L’exemple suivant montre une réponse d’erreur à une **demande UpdateDelegate.** L’erreur a été générée car le délégué n’existe pas dans la liste des délégués du principal. 
   
 ### <a name="code"></a>Code
 

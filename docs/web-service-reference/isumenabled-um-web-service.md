@@ -1,26 +1,26 @@
 ---
-title: IsUMEnabled (service Web de messagerie unifiée)
+title: IsUMEnabled (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabled
 api_type:
 - schema
 ms.assetid: 33810bbd-837f-4a71-9ed9-cb4b8c52186d
 description: L’élément IsUMEnabled indique si une boîte aux lettres est activée pour la messagerie unifiée.
-ms.openlocfilehash: ea5bde677c62664acad8afd5c8142e96d82b7a74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 43632c28c5fb0c526dcf2ad936784953b00cc14a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458228"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524118"
 ---
-# <a name="isumenabled-um-web-service"></a>IsUMEnabled (service Web de messagerie unifiée)
+# <a name="isumenabled-um-web-service"></a>IsUMEnabled (service web de messagerie unifiée)
 
-L’élément **IsUMEnabled** indique si une boîte aux lettres est activée pour la messagerie unifiée. 
+**L’élément IsUMEnabled** indique si une boîte aux lettres est activée pour la messagerie unifiée. 
   
 ```xml
 <IsUMEnabled/>
@@ -45,11 +45,11 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur booléenne est requise si cet élément est inclus. La valeur **true** indique que la boîte aux lettres est activée pour la messagerie unifiée. La valeur **false** signifie que la boîte aux lettres n’est pas activée pour la messagerie unifiée. 
+Une valeur de texte qui représente une valeur boolé américaine est requise si cet élément est inclus. La valeur **true indique** que la boîte aux lettres est activée pour la messagerie unifiée. La valeur **false signifie** que la boîte aux lettres n’est pas activée pour la messagerie unifiée. 
   
 ## <a name="remarks"></a>Remarques
 
-Pour déterminer si une boîte aux lettres est activée pour la messagerie unifiée, utilisez l' [opération IsUMEnabled (service Web de messagerie unifiée)](isumenabled-operation-um-web-service.md).
+Pour déterminer si une boîte aux lettres est activée pour la messagerie unifiée, utilisez l’opération [IsUMEnabled (service web de messagerie unifiée).](isumenabled-operation-um-web-service.md)
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -57,15 +57,15 @@ Pour déterminer si une boîte aux lettres est activée pour la messagerie unifi
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération IsUMEnabled (service Web de messagerie unifiée)](isumenabled-operation-um-web-service.md)
+[Opération IsUMEnabled (service web de messagerie unifiée)](isumenabled-operation-um-web-service.md)
 
 
-[Éléments XML de service Web de messagerie unifiée pour Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
+[Éléments XML du service web de messagerie unifiée pour Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

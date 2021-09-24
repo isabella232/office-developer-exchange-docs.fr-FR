@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsNDR
 api_type:
 - schema
 ms.assetid: 194f5836-7793-463a-a090-4386d1c2487a
-description: L’élément IsNDR indique si les messages entrants doivent être des notifications d’échec de remise (NDR) afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 3476331ccece347686b7f98edf49df5d48b8562e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsNDR indique si les messages entrants doivent être des rapports de non-remise (NDR) pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 783cc003d0d3bb1cc233f617839ab292fb2916bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524146"
 ---
 # <a name="isndr"></a>IsNDR
 
-L’élément **IsNDR** indique si les messages entrants doivent être des notifications d’échec de remise (NDR) afin que la condition ou l’exception s’applique. 
+**L’élément IsNDR** indique si les messages entrants doivent être des rapports de non-remise (NDR) pour que la condition ou l’exception s’applique. 
   
 ```XML
 <IsNDR>true | false</IsNDR>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être un rapport de non-remise afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être un rapport de non-remise afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être une NDR pour que la condition ou l’exception s’applique. La valeur **false indique** que le message ne doit pas être une NDR pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

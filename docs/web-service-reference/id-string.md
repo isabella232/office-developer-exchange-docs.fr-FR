@@ -1,23 +1,23 @@
 ---
-title: ID (chaîne)
+title: ID (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3febe5b5-9c42-4074-b4d9-75b871b2f582
 description: L’élément ID spécifie l’identificateur d’une application.
-ms.openlocfilehash: 47d0a7d4a49c0d256640602f43df13c9ebca471e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 062833cd10947baed55c4801d219c33f8bcadca5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525035"
 ---
-# <a name="id-string"></a>ID (chaîne)
+# <a name="id-string"></a>ID (String)
 
-L’élément **ID** spécifie l’identificateur d’une application. 
+**L’élément ID** spécifie l’identificateur d’une application. 
   
 ```XML
 <ID></ID>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ID** est l’identificateur de l’application. 
+La valeur de texte de **l’élément ID** est l’identificateur de l’application. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

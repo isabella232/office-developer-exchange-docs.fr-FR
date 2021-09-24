@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaxRecipientsPerGetMailTipsRequest
 api_type:
 - schema
 ms.assetid: 8ff5df18-1989-4217-b4c0-599232911d0c
 description: L’élément MaxRecipientsPerGetMailTipsRequest indique le nombre maximal de destinataires qui peuvent être transmis à l’opération GetMailTips.
-ms.openlocfilehash: cec343182b364fce040d5e32928cbeb569a22124
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 27a67a5ff5a048dbd23bf5dc530a82f82b422e14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524678"
 ---
 # <a name="maxrecipientspergetmailtipsrequest"></a>MaxRecipientsPerGetMailTipsRequest
 
-L’élément **MaxRecipientsPerGetMailTipsRequest** indique le nombre maximal de destinataires qui peuvent être transmis à l' [opération GetMailTips](getmailtips-operation.md).
+**L’élément MaxRecipientsPerGetMailTipsRequest** indique le nombre maximal de destinataires qui peuvent être transmis à l’opération [GetMailTips](getmailtips-operation.md).
   
 ```XML
 <MaxRecipientsPerGetMailTipsRequest/>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service d’info-courrier.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente le nombre maximal de destinataires pouvant être transmis à l' [opération GetMailTips](getmailtips-operation.md).
+La valeur de texte est un nombre complet qui représente le nombre maximal de destinataires qui peuvent être transmis à [l’opération GetMailTips](getmailtips-operation.md).
   
 ## <a name="remarks"></a>Remarques
 

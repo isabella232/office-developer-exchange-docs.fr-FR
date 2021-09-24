@@ -1,24 +1,24 @@
 ---
-title: Serveur (SOAP)
+title: Server (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bd27f494-520a-459e-adcf-c3f505f27a69
-description: L’élément Server représente le serveur de boîtes aux lettres de substitution.
-ms.openlocfilehash: 12c5b85cf323e72a113420dac289a655143a4e22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Server représente l’autre serveur de boîtes aux lettres.
+ms.openlocfilehash: be21982941f2c69ec6822400336979d11d6e2ee3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462002"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521514"
 ---
-# <a name="server-soap"></a>Serveur (SOAP)
+# <a name="server-soap"></a>Server (SOAP)
 
-L’élément **Server** représente le serveur de boîtes aux lettres de substitution. 
+**L’élément Server** représente l’autre serveur de boîtes aux lettres. 
   
 ```XML
 <Server/>
@@ -41,11 +41,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Représente une boîte aux lettres de substitution.  <br/> |
+|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Représente une autre boîte aux lettres.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Server** est le nom du serveur de boîtes aux lettres de substitution. 
+La valeur textuelle de **l’élément Server** est le nom de l’autre serveur de boîtes aux lettres. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -53,7 +53,7 @@ La valeur de texte de l’élément **Server** est le nom du serveur de boîtes 
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

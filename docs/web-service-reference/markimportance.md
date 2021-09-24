@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MarkImportance
 api_type:
 - schema
 ms.assetid: 32b8b08f-65e9-4764-b40a-63245551f4a3
 description: L’élément MarkImportance spécifie l’importance à marquer sur les messages.
-ms.openlocfilehash: 051307c0943a22e0c46439410806d168603d8a69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3c0084423a690b2acf758bf6cd91ae65194020b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530880"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523978"
 ---
 # <a name="markimportance"></a>MarkImportance
 
-L’élément **MarkImportance** spécifie l’importance à marquer sur les messages. 
+**L’élément MarkImportance** spécifie l’importance à marquer sur les messages. 
   
 ```XML
 <MarkImportance/>
@@ -48,13 +48,13 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est restreinte à l’une des valeurs String suivantes :
+La valeur de texte de cet élément est limitée à l’une des valeurs de chaîne suivantes :
   
 - Faible
     
 - Normal
     
-- Importante
+- Élevé
     
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

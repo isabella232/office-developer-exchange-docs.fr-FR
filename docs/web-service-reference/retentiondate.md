@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c1df5e2-b56a-4947-a047-2b73b32e5fb7
 description: L’élément RetentionDate spécifie la dernière date à laquelle un élément doit être conservé.
-ms.openlocfilehash: a1b109414d02814f9ede74c59796d5a1ff042da5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d8c2b0af08f00d6363f30cf49a3bd84a33f9071b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517930"
 ---
 # <a name="retentiondate"></a>RetentionDate
 
-L’élément **RetentionDate** spécifie la dernière date à laquelle un élément doit être conservé. 
+**L’élément RetentionDate** spécifie la dernière date à laquelle un élément doit être conservé. 
   
 ```XML
 <RetentionDate></RetentionDate>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionDate** représente la date à laquelle un élément ne doit plus être conservé. 
+La valeur de texte de **l’élément RetentionDate** représente la date à laquelle un élément ne doit plus être conservé. 
   
 ## <a name="remarks"></a>Remarques
 

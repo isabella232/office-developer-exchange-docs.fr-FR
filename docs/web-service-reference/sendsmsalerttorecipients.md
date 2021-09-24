@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendSMSAlertToRecipients
 api_type:
 - schema
 ms.assetid: c4dd000b-11b6-4b7b-91e0-dbfeae11d770
 description: L'élément SendSMSAlertToRecipients indique les numéros de téléphone mobile auquel une alerte de Service SMS (Short Message) doit être envoyé.
-ms.openlocfilehash: ed17bf9ad20a51cbead4b86f385a53d19562fa64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ed53ef0cdd420eea53103c1579e8c53f334d0f3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521528"
 ---
 # <a name="sendsmsalerttorecipients"></a>SendSMSAlertToRecipients
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

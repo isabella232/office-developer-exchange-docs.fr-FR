@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AttachmentId
 api_type:
 - schema
 ms.assetid: 4bea1cb5-0a0f-4e14-9b09-f91af8cf9899
-description: L’élément AttachmentId identifie une pièce jointe unique.
-ms.openlocfilehash: 1096487490f6066f70d2da861b3015f0fbf5a68f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AttachmentId identifie une seule pièce jointe.
+ms.openlocfilehash: f36822ad4a3eeb5dcdbec5ef5b5f9f1fada9613c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525140"
 ---
 # <a name="attachmentid-getattachment-and-deleteattachment"></a>AttachmentId (GetAttachment et DeleteAttachment)
 
-L’élément **attachmentid** identifie une pièce jointe unique. 
+**L’élément AttachmentId** identifie une seule pièce jointe. 
   
 ```xml
 <AttachmentId Id="" />
@@ -46,7 +46,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttachmentIds](attachmentids.md) <br/> | Contient un tableau d’identificateurs de pièces jointes.<br/><br/>  Voici les expressions XPath de cet élément :<br/><br/>`/DeleteAttachment/AttachmentIds`<br/><br/>`/GetAttachment/AttachmentIds` <br/> |
+|[AttachmentIds](attachmentids.md) <br/> | Contient un tableau d’identificateurs de pièces jointes.<br/><br/>  Les expressions XPath de cet élément sont les suivantes :<br/><br/>`/DeleteAttachment/AttachmentIds`<br/><br/>`/GetAttachment/AttachmentIds` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

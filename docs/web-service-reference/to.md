@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - To
 api_type:
 - schema
 ms.assetid: d14e46da-14bd-4a33-a78e-8ee314d9c1d8
-description: L’élément to spécifie la cible de la transition de fuseau horaire. La cible est une période de fuseau horaire ou un groupe de transitions de fuseau horaire.
-ms.openlocfilehash: 8cce700eedd64035f2e21be4db6b517f3f85d98d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément To spécifie la cible de la transition de fuseau horaire. La cible est une période de fuseau horaire ou un groupe de transitions de fuseau horaire.
+ms.openlocfilehash: 64f3f3258fd7c2bad051eabb1b33617bb056ab39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468795"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522550"
 ---
 # <a name="to"></a>À
 
-L’élément **to** spécifie la cible de la transition de fuseau horaire. La cible est une période de fuseau horaire ou un groupe de transitions de fuseau horaire. 
+**L’élément To** spécifie la cible de la transition de fuseau horaire. La cible est une période de fuseau horaire ou un groupe de transitions de fuseau horaire. 
   
 ```xml
 <To Kind=""/>
@@ -36,13 +36,13 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Kind  <br/> |Indique si la cible de transition de fuseau horaire est une période de fuseau horaire ou un groupe de transitions de fuseau horaire.  <br/> |
+|Kind  <br/> |Indique si la cible de transition de fuseau horaire est une période de fuseau horaire ou d’un groupe de transitions de fuseau horaire.  <br/> |
    
-#### <a name="kind-attribute-values"></a>Valeurs de l’attribut kind
+#### <a name="kind-attribute-values"></a>Valeurs d’attribut kind
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Point  <br/> |Spécifie que la cible de transition de fuseau horaire est une période de fuseau horaire.  <br/> |
+|Period  <br/> |Spécifie que la cible de transition de fuseau horaire est une période de fuseau horaire.  <br/> |
 |Group  <br/> |Spécifie que la cible de transition de fuseau horaire est un groupe de transitions de fuseau horaire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -54,17 +54,17 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Représente une transition de fuseau horaire qui se produit à une date et à une heure spécifiques.  <br/> |
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit chaque année.  <br/> |
-|[RecurringDateTransition](recurringdatetransition.md) <br/> |Représente une transition de fuseau horaire qui se produit un jour de l’année donné.  <br/> |
-|[Bascul](transition.md) <br/> |Représente une transition de fuseau horaire.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit le même jour chaque année.  <br/> |
+|[RecurringDateTransition](recurringdatetransition.md) <br/> |Représente une transition de fuseau horaire qui se produit un jour de l’année spécifié.  <br/> |
+|[Transition](transition.md) <br/> |Représente une transition de fuseau horaire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une chaîne qui spécifie l’identificateur unique de la [période](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire. 
+La valeur de texte est une chaîne qui spécifie l’identificateur unique de period [ou](period.md) [transitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire. 
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

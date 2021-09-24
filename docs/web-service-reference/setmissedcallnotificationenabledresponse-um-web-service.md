@@ -1,28 +1,28 @@
 ---
-title: SetMissedCallNotificationEnabledResponse (service Web de messagerie unifiée)
+title: SetMissedCallNotificationEnabledResponse (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetMissedCallNotificationEnabledResponse
 api_type:
 - schema
 ms.assetid: 544e4cde-b0f2-4850-a7e4-e55fb4bdbfb4
-description: L’élément SetMissedCallNotificationEnabledResponse définit une réponse à une opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée).
-ms.openlocfilehash: 415c605269e750c5b166af21f378dfa53702f3fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetMissedCallNotificationEnabledResponse définit une réponse à une demande d’opération SetMissedCallNotificationEnabled (service web de um).
+ms.openlocfilehash: b21779ca6a41ddc167733bad374ad1513953412a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468711"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59521404"
 ---
-# <a name="setmissedcallnotificationenabledresponse-um-web-service"></a>SetMissedCallNotificationEnabledResponse (service Web de messagerie unifiée)
+# <a name="setmissedcallnotificationenabledresponse-um-web-service"></a>SetMissedCallNotificationEnabledResponse (service web de messagerie unifiée)
 
-L’élément **SetMissedCallNotificationEnabledResponse** définit une réponse à une [opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md) . 
+**L’élément SetMissedCallNotificationEnabledResponse** définit une réponse à une demande d’opération [SetMissedCallNotificationEnabled (service web](setmissedcallnotificationenabled-operation-um-web-service.md) de um). 
   
-[SetMissedCallNotificationEnabledResponse (service Web de messagerie unifiée)](setmissedcallnotificationenabledresponse-um-web-service.md)
+[SetMissedCallNotificationEnabledResponse (service web de messagerie unifiée)](setmissedcallnotificationenabledresponse-um-web-service.md)
   
 ```xml
 <SetMissedCallNotificationEnabledResponse />
@@ -55,12 +55,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md)
+[Opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

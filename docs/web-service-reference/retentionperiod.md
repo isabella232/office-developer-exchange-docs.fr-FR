@@ -1,29 +1,29 @@
 ---
-title: Période
+title: RetentionPeriod
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49db6a4f-4a20-4495-8f76-d756cc895b66
-description: L’élément RetentionPeriod spécifie le nombre de jours pendant lesquels la stratégie de rétention est en vigueur.
-ms.openlocfilehash: c9d049e2c1ed4e8abdec9faa7b8e365468d3d2ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RetentionPeriod spécifie le nombre de jours d’application de la stratégie de rétention.
+ms.openlocfilehash: e3e25926eca2551186f3b3b06e805d6da0d8b2d7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465190"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524594"
 ---
-# <a name="retentionperiod"></a>Période
+# <a name="retentionperiod"></a>RetentionPeriod
 
-L’élément **RetentionPeriod** spécifie le nombre de jours pendant lesquels la stratégie de rétention est en vigueur. 
+**L’élément RetentionPeriod** spécifie le nombre de jours d’application de la stratégie de rétention. 
   
 ```XML
 <RetentionPeriod></RetentionPeriod>
 ```
 
- **entier**
+ **integer**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionPeriod** est le nombre de jours pendant lesquels la stratégie de rétention est appliquée à un élément. 
+La valeur de texte de **l’élément RetentionPeriod** est le nombre de jours d’application de la stratégie de rétention pour un élément. 
   
 ## <a name="remarks"></a>Remarques
 

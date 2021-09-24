@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaxMessageSize
 api_type:
 - schema
 ms.assetid: bb98ac72-9409-4332-81bb-ee3bebb9a00e
-description: L’élément MaxMessageSize représente la taille maximale des messages qu’un destinataire peut accepter.
-ms.openlocfilehash: 727eed38a129800b7d38aa49c41cdacfa13e7a36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MaxMessageSize représente la taille maximale de message qu’un destinataire peut accepter.
+ms.openlocfilehash: a89d43ed5958a3e39ff0e5b5ab9e9d2c1dac660c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468410"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59524699"
 ---
 # <a name="maxmessagesize"></a>MaxMessageSize
 
-L’élément **MaxMessageSize** représente la taille maximale des messages qu’un destinataire peut accepter. 
+**L’élément MaxMessageSize** représente la taille maximale de message qu’un destinataire peut accepter. 
   
 ```XML
 <MaxMessageSize/>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de courrier.  <br/> |
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service d’info-courrier.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente la taille maximale des messages qu’un destinataire peut accepter. Cette valeur peut être mesurée en kilo-octets ou en mégaoctets.
+La valeur de texte est un nombre complet qui représente la taille maximale du message qu’un destinataire peut accepter. Cette valeur peut être mesurée en kilo-octets ou en mégaoctets.
   
 ## <a name="remarks"></a>Remarques
 

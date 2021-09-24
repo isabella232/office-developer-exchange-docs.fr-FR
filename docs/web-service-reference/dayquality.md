@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayQuality
 api_type:
 - schema
 ms.assetid: cd0eb239-6e7f-4a5a-b245-659f170550b7
-description: L’élément DayQuality représente la qualité du jour pour le temps de réunion suggéré pour la qualité.
-ms.openlocfilehash: 41cc8313dccb1a5172fefc167e6ed90a21109ec5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DayQuality représente la qualité de la journée pour contenir les heures de réunion suggérées de qualité.
+ms.openlocfilehash: 849ce4bef88c8c77223b03ce209ca31d857c906c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525119"
 ---
 # <a name="dayquality"></a>DayQuality
 
-L’élément **DayQuality** représente la qualité du jour pour le temps de réunion suggéré pour la qualité. 
+**L’élément DayQuality** représente la qualité de la journée pour contenir les heures de réunion suggérées de qualité. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [SuggestionsResponse](suggestionsresponse.md) 
@@ -51,15 +51,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour qui contient des heures de réunion suggérées.  <br/><br/>Voici l’expression XPath 2,0 pour cet élément :<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour unique qui contient des heures de réunion suggérées.  <br/><br/>Voici l’expression XPath 2.0 à cet élément :<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
   
 - **Excellente**   
 - **Good**    
-- **Beau**    
+- **Fair**    
 - **Mauvais**
     
 ## <a name="remarks"></a>Remarques

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RuleOperationError
 api_type:
 - schema
 ms.assetid: b447e610-d37c-40d3-9158-aa108a9f248e
 description: L’élément RuleOperationError représente une erreur d’opération de règle.
-ms.openlocfilehash: b5e0105a1fdb1564b3115a4c3a8411019f725483
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 39010d276dc24f966208c07b3d757fde166d82cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517852"
 ---
 # <a name="ruleoperationerror"></a>RuleOperationError
 
-L’élément **RuleOperationError** représente une erreur d’opération de règle. 
+**L’élément RuleOperationError représente** une erreur d’opération de règle. 
   
 ```XML
 <RuleOperationError>
@@ -43,14 +43,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[OperationIndex](operationindex.md) <br/> |Indique l’index de l’opération dans la demande qui a provoqué l’erreur d’opération de la règle.  <br/> |
-|[ValidationErrors](validationerrors.md) <br/> |Représente un tableau des erreurs de validation de règle sur chaque champ de règle qui comporte une erreur.  <br/> |
+|[OperationIndex](operationindex.md) <br/> |Indique l’index de l’opération dans la demande à l’origine de l’erreur d’opération de règle.  <br/> |
+|[ValidationErrors](validationerrors.md) <br/> |Représente un tableau d’erreurs de validation de règle sur chaque champ de règle qui a une erreur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RuleOperationErrors](ruleoperationerrors.md) <br/> |Représente un tableau des erreurs de validation de règle sur chaque champ de règle qui comporte une erreur.  <br/> |
+|[RuleOperationErrors](ruleoperationerrors.md) <br/> |Représente un tableau d’erreurs de validation de règle sur chaque champ de règle qui a une erreur.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AdditionalProperties
 api_type:
 - schema
 ms.assetid: 7a269aed-dcfd-4c3e-9e14-094e53828101
 description: L’élément AdditionalProperties identifie les propriétés supplémentaires à utiliser dans les requêtes GetItem, UpdateItem, CreateItem, FindItem ou FindFolder.
-ms.openlocfilehash: 90a307ba4d5ece10e15d2cec56cf5042c3d38685
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9a6fb98e9a88b1e40bd83559b1836d4122f0f125
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455813"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522200"
 ---
 # <a name="additionalproperties"></a>AdditionalProperties
 
-L’élément **AdditionalProperties** identifie les propriétés supplémentaires à utiliser dans les requêtes [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)ou [FindFolder](findfolder.md) . 
+**L’élément AdditionalProperties** identifie les propriétés supplémentaires à utiliser dans les requêtes [GetItem,](getitem.md) [UpdateItem,](updateitem.md) [CreateItem,](createitem.md) [FindItem](finditem.md)ou [FindFolder.](findfolder.md) 
   
 ```xml
 <AdditionalProperties>
@@ -45,20 +45,20 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues à obtenir, définir ou créer.  <br/> |
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
-|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les propriétés de dictionnaire fréquemment référencées par URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencés par URI.  <br/> |
+|[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les propriétés de dictionnaire fréquemment référencés par URI.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> | Identifie les propriétés de dossier à inclure dans une réponse [GetFolder](getfolder.md), [FindFolder](findfolder.md)ou [opérationsyncfolderhierarchy](syncfolderhierarchy.md) .<br/><br/>  Voici les expressions XPath de cet élément :<br/><br/>  `/FindFolder/FolderShape` <br/>  `/GetFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifie les propriétés d’élément et le contenu à inclure dans une réponse [GetItem](getitem.md), [FindItem](finditem.md)ou [SyncFolderItems](syncfolderitems.md) .<br/><br/>  Voici les expressions XPath de cet élément :<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
-|[AttachmentShape](attachmentshape.md) <br/> |Identifie les propriétés d’élément étendue supplémentaires à renvoyer dans une réponse à une demande [GetItem](getitem.md) .<br/><br/> Voici l’expression XPath de cet élément :<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[FolderShape](foldershape.md) <br/> | Identifie les propriétés de dossier à inclure dans une [réponse GetFolder,](getfolder.md) [FindFolder](findfolder.md)ou [SyncFolderHierarchy.](syncfolderhierarchy.md)<br/><br/>  Les expressions XPath de cet élément sont les suivantes :<br/><br/>  `/FindFolder/FolderShape` <br/>  `/GetFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifie les propriétés et le contenu de l’élément à inclure dans une [réponse GetItem,](getitem.md) [FindItem](finditem.md)ou [SyncFolderItems.](syncfolderitems.md)<br/><br/>  Les expressions XPath de cet élément sont les suivantes :<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> |Identifie d’autres propriétés d’élément étendu à renvoyer dans une réponse à [une demande GetItem.](getitem.md)<br/><br/> Voici l’expression XPath de cet élément :<br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Tous les éléments enfants ne peuvent pas être utilisés avec les requêtes [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md)ou [FindFolder](findfolder.md) . La propriété doit s’appliquer au dossier ou à l’élément auquel l’utilisateur accède. Utiliser les propriétés étendues pour accéder à d’autres propriétés. Si la propriété n’existe pas pour un élément donné, aucun élément correspondant n’est émis dans le code XML résultant. 
+Tous les éléments enfants ne peuvent pas être utilisés avec les requêtes [GetItem,](getitem.md) [UpdateItem,](updateitem.md) [CreateItem,](createitem.md) [FindItem](finditem.md)ou [FindFolder.](findfolder.md) La propriété doit être applicable au dossier ou à l’élément accessible. Utilisez des propriétés étendues pour accéder à d’autres propriétés. Si la propriété n’existe pas pour un élément donné, aucun élément correspondant n’est émis dans le XML résultant. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 
   
@@ -66,7 +66,7 @@ Cet élément est facultatif.
   
 ## <a name="example"></a>Exemple
 
-L’exemple de requête suivant montre comment obtenir un élément subject à l’aide de l’élément **AdditionalProperties** . 
+L’exemple de requête suivant montre comment obtenir un objet d’élément à l’aide de **l’élément AdditionalProperties.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

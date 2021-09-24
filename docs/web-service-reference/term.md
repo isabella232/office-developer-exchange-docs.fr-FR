@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a796535-7e83-4aa8-850a-d217059050f8
-description: L’élément term spécifie un terme mis en surbrillance dans une réponse FindConversation ou FindItem.
-ms.openlocfilehash: fb102e21d6e7866110735cacd60cd2c3c68a9675
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Term spécifie un terme mis en surbrillence dans une réponse FindConversation ou FindItem.
+ms.openlocfilehash: 12aba499ebfcad392a4e72b29a8cb3522a4f964f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522536"
 ---
 # <a name="term"></a>Terme
 
-L’élément **term** spécifie un terme mis en surbrillance dans une réponse **FindConversation** ou **FindItem** . 
+**L’élément Term** spécifie un terme mis en surbrillence dans une **réponse FindConversation** ou **FindItem.** 
   
 ```XML
 <Term>
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Étendue (HighlightTermType)](scope-highlighttermtype.md)  |  [Value (valeur](value.md) )
+[Scope (HighlightTermType)](scope-highlighttermtype.md)  |  [Valeur](value.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

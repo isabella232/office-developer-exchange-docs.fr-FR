@@ -5,32 +5,32 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteUserConfiguration
 api_type:
 - schema
 ms.assetid: 93e44690-be2d-4fdb-96a8-4ded3c193aed
 description: L’opération DeleteUserConfiguration supprime un objet de configuration utilisateur sur un dossier.
-ms.openlocfilehash: 064e1ace2c2f51783431ce42670b2a4fd8146b54
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4332515a91d9207f3ef8f9905edd2b9155042d65
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44451466"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510175"
 ---
 # <a name="deleteuserconfiguration-operation"></a>Opération DeleteUserConfiguration
 
-L’opération **DeleteUserConfiguration** supprime un objet de configuration utilisateur sur un dossier. 
+**L’opération DeleteUserConfiguration** supprime un objet de configuration utilisateur sur un dossier. 
   
 > [!IMPORTANT]
-> L’opération **DeleteUserConfiguration** déclenchera un événement Move pour le système de notification d’événements. L’objet de configuration utilisateur est déplacé vers la benne. 
+> **L’opération DeleteUserConfiguration** déclenche un événement de déplacement pour le système de notification d’événement. L’objet de configuration utilisateur sera déplacé vers la benne. 
   
 ## <a name="deleteuserconfiguration-request-example"></a>Exemple de requête DeleteUserConfiguration
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **DeleteUserConfiguration** suivant montre comment créer une demande de suppression d’un objet de configuration utilisateur dans le dossier Brouillons. 
+L’exemple suivant **d’une demande DeleteUserConfiguration** montre comment former une demande de suppression d’un objet de configuration utilisateur dans le dossier Brouillons. 
   
 ### <a name="code"></a>Code
 
@@ -58,7 +58,7 @@ L’exemple de requête **DeleteUserConfiguration** suivant montre comment crée
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **DeleteUserConfiguration** . 
+L’exemple suivant montre une réponse réussie à **la demande DeleteUserConfiguration.** 
   
 ### <a name="code"></a>Code
 

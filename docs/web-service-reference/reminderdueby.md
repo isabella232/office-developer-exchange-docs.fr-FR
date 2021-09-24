@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderDueBy
 api_type:
 - schema
 ms.assetid: e28a0485-86af-4a4e-a2ba-3ad2d4ebff6f
-description: L’élément ReminderDueBy représente la date et l’heure auxquelles l’événement se produit. Cet élément est utilisé par l'élément ReminderMinutesBeforeStart afin de déterminer quand le rappel s'affiche.
-ms.openlocfilehash: 206534da4498e871e99635b236e500dec573eb5a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReminderDueBy représente la date et l’heure de l’événement. Cet élément est utilisé par l'élément ReminderMinutesBeforeStart afin de déterminer quand le rappel s'affiche.
+ms.openlocfilehash: a94fd9507428fb588eff1b3610a572c858aa0de7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523615"
 ---
 # <a name="reminderdueby"></a>ReminderDueBy
 
-L’élément **ReminderDueBy** représente la date et l’heure auxquelles l’événement se produit. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche. 
+**L’élément ReminderDueBy** représente la date et l’heure de l’événement. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche. 
   
 ```xml
 <ReminderDueBy/>
@@ -50,7 +50,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -58,7 +58,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente la date et l’heure d’échéance d’un rappel.
+La valeur de texte représente la date et l’heure d’échéance d’un rappel.
   
 ## <a name="remarks"></a>Remarques
 

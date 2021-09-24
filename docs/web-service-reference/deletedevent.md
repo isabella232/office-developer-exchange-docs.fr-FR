@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeletedEvent
 api_type:
 - schema
 ms.assetid: c4565eb4-b537-466c-b1ff-11602533812b
 description: L’élément DeletedEvent représente un événement dans lequel un élément ou un dossier est supprimé.
-ms.openlocfilehash: 5eb0c947aacc592f81c595da2cc00bf4874f300b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 601b09273fb0fe52a40079e63952a50f592eaf5c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526941"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510266"
 ---
 # <a name="deletedevent"></a>DeletedEvent
 
-L’élément **DeletedEvent** représente un événement dans lequel un élément ou un dossier est supprimé. 
+**L’élément DeletedEvent** représente un événement dans lequel un élément ou un dossier est supprimé. 
   
 ```xml
 <DeletedEvent>
@@ -56,7 +56,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres.  <br/> |
-|[Dates](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres d’élément ou de dossier supprimé.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’timestamp d’un événement de boîte aux lettres d’élément ou de dossier supprimé.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier supprimé.  <br/> |
 |[ItemId](itemid.md) <br/> |Représente l’identificateur de l’élément supprimé.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent de l’élément ou du dossier supprimé avant la suppression.  <br/> |

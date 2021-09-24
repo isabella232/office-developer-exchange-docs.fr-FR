@@ -1,32 +1,32 @@
 ---
-title: Opération PlayOnPhone (service Web de messagerie unifiée)
+title: Opération PlayOnPhone (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhone
 api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
-description: L’opération PlayOnPhone effectue un appel sortant et lit un message spécifié sur le téléphone spécifié par l’élément DialString.
-ms.openlocfilehash: c5ff82bcd822aa2c659d1782ea4a1349d198bc80
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération PlayOnPhone effectue un appel sortant et lit un message spécifié par téléphone, spécifié par l’élément DialString.
+ms.openlocfilehash: 4d18727da18c36e6410c3cc6ab3bbf873993be72
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516563"
 ---
-# <a name="playonphone-operation-um-web-service"></a>Opération PlayOnPhone (service Web de messagerie unifiée)
+# <a name="playonphone-operation-um-web-service"></a>Opération PlayOnPhone (service web de messagerie unifiée)
 
-L’opération PlayOnPhone effectue un appel sortant et lit un message spécifié sur le téléphone spécifié par l’élément **DialString** . 
+L’opération PlayOnPhone effectue un appel sortant et lit un message spécifié par téléphone, spécifié par **l’élément DialString.** 
   
 ## <a name="playonphone-request-example"></a>Exemple de requête PlayOnPhone
 
 ### <a name="description"></a>Description
 
-L’exemple de requête PlayOnPhone suivant montre comment créer une demande pour passer un appel sortant et émettre un message.
+L’exemple suivant d’une demande PlayOnPhone montre comment former une demande pour passer un appel sortant et lire un message.
   
 ### <a name="code"></a>Code
 
@@ -42,11 +42,11 @@ L’exemple de requête PlayOnPhone suivant montre comment créer une demande po
 </soap:Envelope>
 ```
 
-## <a name="successful-playonphone-response-example"></a>Exemple de réponse PlayOnPhone réussi
+## <a name="successful-playonphone-response-example"></a>Exemple de réponse PlayOnPhone réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse PlayOnPhone indique une réponse à la demande PlayOnPhone.
+L’exemple suivant d’une réponse PlayOnPhone affiche une réponse à la demande PlayOnPhone.
   
 ### <a name="code"></a>Code
 
@@ -65,9 +65,9 @@ L’exemple suivant de réponse PlayOnPhone indique une réponse à la demande P
 
 
 
-[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md)
+[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md)
   
-[PlayOnPhoneResponse (service Web de messagerie unifiée)](playonphoneresponse-um-web-service.md)
+[PlayOnPhoneResponse (service web de messagerie unifiée)](playonphoneresponse-um-web-service.md)
   
-[Opération PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md)
+[Opération PlayOnPhoneGreeting (service web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md)
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeStamp
 api_type:
 - schema
 ms.assetid: c996c319-28f1-4bed-ab7a-4d0fc866e675
-description: L’élément DateTimeStamp indique la date et l’heure de création d’une instance d’un objet Calendar.
-ms.openlocfilehash: 96c3f005e0ffd403afe723bb8b274b7ac2abca1b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DateTimeStamp indique la date et l’heure de création d’une instance d’un objet calendrier.
+ms.openlocfilehash: c99e1ac53f0a9dcc367c9dc96dc517f2fa3662ca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535570"
 ---
 # <a name="datetimestamp"></a>DateTimeStamp
 
-L’élément **DateTimeStamp** indique la date et l’heure de création d’une instance d’un objet Calendar. 
+**L’élément DateTimeStamp** indique la date et l’heure de création d’une instance d’un objet calendrier. 
   
 ```xml
 <DateTimeStamp/>
@@ -47,7 +47,7 @@ Aucun.
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion.  <br/> |
    

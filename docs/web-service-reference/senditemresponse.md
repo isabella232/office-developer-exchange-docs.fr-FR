@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SendItemResponse
 api_type:
 - schema
 ms.assetid: 26ac41c7-57d9-473e-ab7a-bae93e1d2aba
 description: L’élément SendItemResponse définit une réponse à une demande SendItem.
-ms.openlocfilehash: dd90510547c3db8c3531663c23d05055bd774fab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bed5884ba60174203782a916f1ac3702ae8b0128
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462128"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523418"
 ---
 # <a name="senditemresponse"></a>SendItemResponse
 
-L’élément **SendItemResponse** définit une réponse à une demande SendItem. 
+**L’élément SendItemResponse** définit une réponse à une demande SendItem. 
   
 ```xml
 <SendItemResponse>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

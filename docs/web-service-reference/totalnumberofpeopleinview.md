@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f1037fef-628b-4e44-96e7-a701a9ca8404
-description: L’élément TotalNumberOfPeopleInView spécifie le nombre total de personnages renvoyés dans une réponse FindPeople.
-ms.openlocfilehash: d89aa65d595814a7277f85e569ca10f9058c6aac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TotalNumberOfPeopleInView spécifie le nombre total de personnage renvoyés dans une réponse FindPeople.
+ms.openlocfilehash: 350dcaf4a498a590350c7f2b72d542057ae6eb7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467507"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523278"
 ---
 # <a name="totalnumberofpeopleinview"></a>TotalNumberOfPeopleInView
 
-L’élément **TotalNumberOfPeopleInView** spécifie le nombre total de personnages renvoyés dans une réponse **FindPeople** . 
+**L’élément TotalNumberOfPeopleInView** spécifie le nombre total de personnage renvoyés dans une **réponse FindPeople.** 
   
 ```XML
 <TotalNumberOfPeopleInView></TotalNumberOfPeopleInView>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TotalNumberOfPeopleInView** est le nombre total de personnages renvoyés dans une réponse **FindPeople** . 
+La valeur de texte de **l’élément TotalNumberOfPeopleInView** est le nombre total de personnage renvoyés dans une **réponse FindPeople.** 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

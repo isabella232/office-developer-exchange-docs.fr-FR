@@ -1,23 +1,23 @@
 ---
-title: Enfants (ArrayOfStringArrayAttributedValuesType)
+title: Children (ArrayOfStringArrayAttributedValuesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d37b3fd5-63f1-4003-a6ec-54adfce23d52
-description: L’élément Children spécifie un tableau de noms et d’identificateurs enfants de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: f4217f8a444bfdb6d86ff7b912294cfad9cbdcdc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Children spécifie un tableau de noms d’enfants et d’identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 878f491af3047d313920cd0f3574de2daa8c21f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536973"
 ---
-# <a name="children-arrayofstringarrayattributedvaluestype"></a>Enfants (ArrayOfStringArrayAttributedValuesType)
+# <a name="children-arrayofstringarrayattributedvaluestype"></a>Children (ArrayOfStringArrayAttributedValuesType)
 
-L’élément **Children** spécifie un tableau de noms et d’identificateurs enfants de leurs attributions sources pour le personnage associé. 
+**L’élément Children** spécifie un tableau de noms d’enfants et d’identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Children>
@@ -38,13 +38,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |Spécifie une instance d’un tableau de données de type chaîne pour un élément Persona.  <br/> |
+|[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |Spécifie une instance d’un tableau de données de chaîne pour un élément persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

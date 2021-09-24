@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SubmitTime
 api_type:
 - schema
 ms.assetid: 97e4b71e-f45c-4bdb-80f9-805934916c0f
 description: L’élément SubmitTime représente l’heure à laquelle le message a été envoyé au serveur.
-ms.openlocfilehash: e4409d962988ee308e0c0b461f9448ef68067fe8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8a6a70da6a59942b13f5000666fd7581ce65bf37
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537381"
 ---
 # <a name="submittime"></a>SubmitTime
 
-L’élément **SubmitTime** représente l’heure à laquelle le message a été envoyé au serveur. 
+**L’élément SubmitTime** représente l’heure à laquelle le message a été envoyé au serveur. 
   
 ```XML
 <SubmitTime/>

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentToAddresses
 api_type:
 - schema
 ms.assetid: 086130d2-93b1-4de1-9553-10ec10322a0c
-description: L’élément SentToAddresses indique les adresses de messagerie auxquelles les messages entrants doivent avoir été envoyés pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: 9a901a93b666144092bf9cc8ebbf03222ac7bf6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SentToAddresses indique les adresses de messagerie à qui les messages entrants doivent avoir été envoyés afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 2b58b1771266a932c35dfda781d802ca6bb32bac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457416"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517804"
 ---
 # <a name="senttoaddresses"></a>SentToAddresses
 
-L’élément **SentToAddresses** indique les adresses de messagerie auxquelles les messages entrants doivent avoir été envoyés pour que la condition ou l’exception s’applique. 
+**L’élément SentToAddresses** indique les adresses de messagerie à qui les messages entrants doivent avoir été envoyés afin que la condition ou l’exception s’applique. 
   
 ```XML
 <SentToAddresses>
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

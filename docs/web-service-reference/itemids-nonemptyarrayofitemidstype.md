@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemIds
 api_type:
 - schema
 ms.assetid: e895782a-74fe-4216-8ac2-c3c88c4b232d
 description: L’élément ItemIds contient un tableau d’identificateurs d’éléments qui identifient les éléments à exporter à partir d’une boîte aux lettres.
-ms.openlocfilehash: 16c2633528e2ecbc863cfdde645e0f431b4c4297
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3009bf1f7012e62e21d019530cd7eac1bbbcb8a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468592"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522829"
 ---
 # <a name="itemids-nonemptyarrayofitemidstype"></a>ItemIds (NonEmptyArrayOfItemIdsType)
 
-L’élément **ItemIds** contient un tableau d’identificateurs d’éléments qui identifient les éléments à exporter à partir d’une boîte aux lettres. 
+**L’élément ItemIds** contient un tableau d’identificateurs d’éléments qui identifient les éléments à exporter à partir d’une boîte aux lettres. 
   
 [ExportItems](exportitems.md)
   
@@ -67,8 +67,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 51186691-46d2-4d5c-b8bc-4ee2bb20fbe7
-description: Trouvez des informations sur l’opération EWS GetImItems.
-ms.openlocfilehash: 960f4683dd478b0e5f8cf18fa8d1593b7433a249
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération GetImItems EWS.
+ms.openlocfilehash: fb9368d825880f5763ade8893585639e9b267540
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509853"
 ---
 # <a name="getimitems-operation"></a>Opération GetImItems
 
-Trouvez des informations sur l’opération EWS **GetImItems** . 
+Trouvez des informations sur **l’opération GetImItems** EWS. 
   
-L’opération **GetImItems** récupère les informations sur les groupes de messagerie instantanée et les personnages de contact de messagerie instantanée. 
+**L’opération GetImItems** récupère des informations sur les groupes de messagerie instantanée et les contacts de messagerie instantanée. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getimitems-operation"></a>Utilisation de l’opération GetImItems
 
-L’opération **GetImItems** accepte les identificateurs d’élément de contact et de groupe et renvoie un ensemble d’informations sur les groupes et les contacts. Les jeux de propriétés renvoyés dans la réponse sont identifiés par des propriétés étendues, par des identificateurs de contacts multiples, des identificateurs de groupe et des définitions de propriétés étendues comme arguments. 
+**L’opération GetImItems** accepte les identificateurs d’élément de groupe et de contact et renvoie un ensemble d’informations sur les groupes et les contacts. Les jeux de propriétés renvoyés dans la réponse sont identifiés par des propriétés étendues, plusieurs identificateurs de contact, des identificateurs de groupe et des définitions de propriété étendues en tant qu’arguments. 
   
-### <a name="getimitems-operation-soap-headers"></a>En-têtes SOAP d’opération GetImItems
+### <a name="getimitems-operation-soap-headers"></a>En-têtes SOAP de l’opération GetImItems
 
-L’opération **GetImItems** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetImItems peut** utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, « Balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>Exemple de requête d’opération GetImItems : obtenir des informations détaillées sur les contacts et les groupes de messagerie instantanée
+## <a name="getimitems-operation-request-example-get-detailed-information-about-im-contacts-and-groups"></a>Exemple de demande d’opération GetImItems : obtenir des informations détaillées sur les contacts et les groupes de messagerie instantanée
 
-L’exemple suivant de demande d’opération **GetImItems** indique comment demander des informations détaillées sur les contacts et les groupes de messagerie instantanée. Une opération **GetImItems** peut demander un ou plusieurs détails de contact ou de groupe. Vous pouvez également utiliser des propriétés étendues pour obtenir des propriétés personnalisées sur des groupes et des contacts. Si une propriété étendue demandée n’existe pas sur un élément, la réponse ignore la propriété demandée et renvoie la réponse pour le jeu de propriétés par défaut. Cet exemple montre comment obtenir le nom complet à l’aide de propriétés étendues. 
+L’exemple suivant **d’une demande d’opération GetImItems** montre comment demander des informations détaillées sur les contacts et les groupes de messagerie instantanée. Une **opération GetImItems peut** demander un ou plusieurs détails de contact ou de groupe. Vous pouvez également utiliser des propriétés étendues pour obtenir des propriétés personnalisées sur des groupes et des contacts. Si une propriété étendue demandée n’existe pas sur un élément, la réponse ignore la propriété demandée et retourne la réponse pour le jeu de propriétés par défaut. Cet exemple montre comment obtenir le nom complet à l’aide de propriétés étendues. 
   
 > [!NOTE]
-> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. Notez que les clés de changement sont ignorées par le service pour cette opération. 
+> Tous les identificateurs d’élément et les touches de modification de cet article ont été raccourcis pour préserver la lisibilité. Notez que les touches de modification sont ignorées par le service pour cette opération. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,7 +70,7 @@ L’exemple suivant de demande d’opération **GetImItems** indique comment dem
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [GetImItems](getimitems.md)
     
@@ -78,7 +78,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 - [ItemId](itemid.md)
     
-- [ID](groupids.md)
+- [GroupIds](groupids.md)
     
 - [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
     
@@ -86,7 +86,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-getimitems-operation-response"></a>Réponse de l’opération GetImItems réussie
 
-L’exemple suivant montre une réponse réussie à une demande **GetImItems** pour obtenir un contact et un groupe de messagerie instantanée. Le nom complet est demandé dans une propriété étendue. Les contacts de messagerie instantanée sont renvoyés sous la forme d’un personnage. 
+L’exemple suivant montre une réponse réussie à une **demande GetImItems** pour obtenir un contact et un groupe de messagerie instantanée. Le nom complet est demandé dans une propriété étendue. Les contacts de messagerie instantanée sont renvoyés sous la forme d’un personnage. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -189,7 +189,7 @@ L’exemple suivant montre une réponse réussie à une demande **GetImItems** p
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetImItemsResponse](getimitemsresponse.md)
     
@@ -197,9 +197,9 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [ImItemList](imitemlist.md)
     
-- [Groupes (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)
+- [Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)
     
-- [Imgroup](imgroup.md)
+- [ImGroup](imgroup.md)
     
 - [DisplayName (chaîne)](displayname-string.md)
     
@@ -215,7 +215,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
     
-- [Personnages](personas-ex15websvcsotherref.md)
+- [Personas](personas-ex15websvcsotherref.md)
     
 - [PersonaId](personaid.md)
     
@@ -231,7 +231,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [FileAsId](fileasid.md) FileAsId 
     
-- [IMAddress (String)](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
@@ -239,7 +239,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [ID (chaîne)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [SourceId](sourceid.md)
     
@@ -255,11 +255,11 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [ImAddresses](imaddresses.md)
     
-- [Valeur (ExtendedPropertyType)](value-extendedpropertytype.md)
+- [Value (ExtendedPropertyType)](value-extendedpropertytype.md)
     
 ## <a name="getimitems-operation-error-response"></a>Réponse d’erreur d’opération GetImItems
 
-L’opération **GetImItems** ne valide pas les identificateurs et ne renvoie pas la réponse d’erreur **ErrorInvalidImContactId** ou **ErrorInvalidImGroupId** attendue si un contact ou un identificateur de groupe non valide est fourni au service. 
+L’opération **GetImItems** ne valide pas les identificateurs et ne retourne pas la réponse d’erreur **ErrorInvalidImContactId** ou **ErrorInvalidImGroupId** attendue si un identificateur de groupe ou de contact non valide est fourni au service. 
   
 ## <a name="see-also"></a>Voir aussi
 

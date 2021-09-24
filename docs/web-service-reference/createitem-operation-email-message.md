@@ -1,33 +1,33 @@
 ---
-title: Opération CreateItem (message électronique)
+title: Opération CreateItem (courrier électronique)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1
-description: L’opération CreateItem permet de créer des messages électroniques.
-ms.openlocfilehash: 384ed8ff653029c2b7db0b36986d85842b0a06cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération CreateItem est utilisée pour créer des messages électroniques.
+ms.openlocfilehash: 74784d72ed14fa139c616cd11740a62efd17b338
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536467"
 ---
-# <a name="createitem-operation-email-message"></a>Opération CreateItem (message électronique)
+# <a name="createitem-operation-email-message"></a>Opération CreateItem (courrier électronique)
 
-L’opération CreateItem permet de créer des messages électroniques.
+L’opération CreateItem est utilisée pour créer des messages électroniques.
   
 ## <a name="createitem-request-example"></a>Exemple de requête CreateItem
 
 ### <a name="description"></a>Description
 
-L’exemple de requête CreateItem suivant montre comment créer un nouveau message électronique, envoyer le message et en enregistrer une copie dans le dossier Brouillons.
+L’exemple suivant d’une demande CreateItem montre comment créer un message électronique, envoyer le message et enregistrer une copie de celui-ci dans le dossier brouillons.
   
 ### <a name="code"></a>Code
 
@@ -58,7 +58,7 @@ L’exemple de requête CreateItem suivant montre comment créer un nouveau mess
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande : 
   
@@ -72,7 +72,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ItemClass](itemclass.md)
     
-- [Subject](subject.md)
+- [Sujet](subject.md)
     
 - [Corps](body.md)
     
@@ -84,7 +84,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [IsRead](isread.md)
     
-Pour rechercher d’autres options pour le message de demande de l’opération CreateItem, explorez la hiérarchie du schéma. Commencez par l’élément [CreateItem](createitem.md) . 
+Pour rechercher d’autres options pour le message de demande de l’opération CreateItem, explorez la hiérarchie de schéma. Commencez à [l’élément CreateItem.](createitem.md) 
   
 ## <a name="successful-createitem-response"></a>Réponse CreateItem réussie
 
@@ -119,7 +119,7 @@ L’exemple suivant montre une réponse réussie à la demande CreateItem.
 
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
-Les éléments suivants sont inclus dans la réponse : 
+Les éléments suivants sont inclus dans la réponse : 
   
 - [CreateItemResponse](createitemresponse.md)
     
@@ -131,9 +131,9 @@ Les éléments suivants sont inclus dans la réponse :
     
 - [Items](items.md)
     
-Pour rechercher d’autres options pour le message de réponse de l’opération CreateItem, explorez la hiérarchie du schéma. Commencez par l’élément [CreateItemResponse](createitemresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse de l’opération CreateItem, explorez la hiérarchie de schéma. Commencez à [l’élément CreateItemResponse.](createitemresponse.md) 
   
-## <a name="error-createitem-response"></a>Erreur de la réponse CreateItem
+## <a name="error-createitem-response"></a>Réponse CreateItem d’erreur
 
 ### <a name="description"></a>Description
 
@@ -184,7 +184,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [Items](items.md)
     
-Pour trouver d’autres options pour le message de réponse d’erreur de l’opération CreateItem, explorez la hiérarchie du schéma. Commencez par l’élément [CreateItemResponse](createitemresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse d’erreur de l’opération CreateItem, explorez la hiérarchie de schéma. Commencez à [l’élément CreateItemResponse.](createitemresponse.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

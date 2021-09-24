@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 994a9d2b-1501-4804-90f0-12bd914496ec
-description: L’opération de désinscription est utilisée pour mettre fin à un abonnement de notification par extraction. Utilisez cette opération au lieu de laisser un délai d’expiration d’abonnement. Cette opération est valide uniquement pour les notifications de type pull.
-ms.openlocfilehash: 054f89af1ba5c780c7de5016a6dfe34086c97f02
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération De désabonnement est utilisée pour mettre fin à un abonnement de notification de pull. Utilisez cette opération plutôt que de laisser un délai d’abonnement s’en sortir. Cette opération n’est valide que pour les notifications de pull.
+ms.openlocfilehash: 96d30bcd585b07a7ed0497a4a4c723485e8626ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517503"
 ---
 # <a name="unsubscribe-operation"></a>Opération de résiliation d’abonnement
 
-L’opération de désinscription est utilisée pour mettre fin à un abonnement de notification par extraction. Utilisez cette opération au lieu de laisser un délai d’expiration d’abonnement. Cette opération est valide uniquement pour les notifications de type pull.
+L’opération De désabonnement est utilisée pour mettre fin à un abonnement de notification de pull. Utilisez cette opération plutôt que de laisser un délai d’abonnement s’en sortir. Cette opération n’est valide que pour les notifications de pull.
   
-## <a name="unsubscribe-request-example"></a>Exemple de requête de désinscription
+## <a name="unsubscribe-request-example"></a>Exemple de demande de désabonnement
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre le message XML SOAP qui est envoyé pour annuler l’abonnement d’un client à partir du service de notification.
+L’exemple suivant montre le message XML SOAP envoyé pour désabonner un client du service de notification.
   
 ### <a name="code"></a>Code
 
@@ -43,7 +43,7 @@ L’exemple suivant montre le message XML SOAP qui est envoyé pour annuler l’
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-request-elements"></a>Éléments de requête de désinscription
+### <a name="unsubscribe-request-elements"></a>Désabonner les éléments de la demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -51,11 +51,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-## <a name="successful-unsubscribe-response-example"></a>Exemple de réponse de désinscription réussie
+## <a name="successful-unsubscribe-response-example"></a>Exemple de réponse de désabonnement réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande d’annulation d’abonnement.
+L’exemple suivant montre une réponse réussie à une demande de désabonnement.
   
 ### <a name="code"></a>Code
 
@@ -82,7 +82,7 @@ L’exemple suivant montre une réponse réussie à une demande d’annulation d
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-response-elements"></a>Éléments de réponse de désinscription
+### <a name="unsubscribe-response-elements"></a>Désabonner les éléments de réponse
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -96,11 +96,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-## <a name="unsubscribe-error-response-example"></a>Exemple de réponse d’erreur d’annulation d’abonnement
+## <a name="unsubscribe-error-response-example"></a>Exemple de réponse d’erreur de désabonnement
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse à une erreur d’annulation d’abonnement se produit en réponse à une tentative d’annulation d’abonnement à l’aide d’un identificateur d’abonnement introuvable dans la Banque d’informations Exchange.
+L’exemple suivant d’une réponse d’erreur de désabonnement se produit en réponse à une tentative de désabonnement à l’aide d’un identificateur d’abonnement qui ne peut pas se trouver dans la Exchange store.
   
 ### <a name="code"></a>Code
 
@@ -129,7 +129,7 @@ L’exemple suivant de réponse à une erreur d’annulation d’abonnement se p
 </soap:Envelope>
 ```
 
-### <a name="unsubscribe-error-response-elements"></a>Éléments de réponse d’erreur d’annulation d’abonnement
+### <a name="unsubscribe-error-response-elements"></a>Désabonner les éléments de réponse d’erreur
 
 Les éléments suivants sont utilisés dans la réponse d'erreur :
   
@@ -151,5 +151,5 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
 
 - [Opération d'abonnement](subscribe-operation.md)
 - [Opération de GetEvents](getevents-operation.md)
-- [Utilisation des abonnements extraits](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [Utilisation des abonnements Pull](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

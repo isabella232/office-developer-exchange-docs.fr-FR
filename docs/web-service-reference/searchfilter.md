@@ -1,23 +1,23 @@
 ---
-title: Unsearchfilter
+title: SearchFilter
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a7ee364-b7da-4197-aab2-57134537109a
-description: L’élément Unsearchfilter contient la chaîne de requête pour filtrer les boîtes aux lettres à renvoyer à partir d’une demande GetSearchableMailboxes.
-ms.openlocfilehash: 5bc7389ecc54dd6d1c97debdb97e6fce42517ef4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SearchFilter contient la chaîne de requête pour filtrer les boîtes aux lettres à retourner à partir d’une demande GetSearchableMailboxes.
+ms.openlocfilehash: 19bb3109942c9a3064cbeaae4a19380d97c94feb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467430"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509356"
 ---
-# <a name="searchfilter"></a>Unsearchfilter
+# <a name="searchfilter"></a>SearchFilter
 
-L’élément **unsearchfilter** contient la chaîne de requête pour filtrer les boîtes aux lettres à renvoyer à partir d’une demande **GetSearchableMailboxes** . 
+**L’élément SearchFilter** contient la chaîne de requête pour filtrer les boîtes aux lettres à retourner à partir d’une **demande GetSearchableMailboxes.** 
   
 ```XML
 <SearchFilter></SearchFilter>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **unsearchfilter** est une chaîne de requête qui permet de filtrer les boîtes aux lettres pour la recherche de découverte. 
+La valeur de texte de **l’élément SearchFilter** est une chaîne de requête pour filtrer les boîtes aux lettres pour la recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

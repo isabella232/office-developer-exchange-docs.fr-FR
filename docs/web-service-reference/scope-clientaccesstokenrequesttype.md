@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0370b1c0-b7e5-46e0-ac11-3fe801709fc8
-description: L’élément Scope (ClientAccessTokenRequestType) spécifie une portée de jeton.
-ms.openlocfilehash: 99700b032e6971a403f2bc87a6c73a01e53ab2c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Scope (ClientAccessTokenRequestType) spécifie une étendue de jeton.
+ms.openlocfilehash: 7443c80ecdad7c89238d3b9de8bbc7b45a317e22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466947"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522655"
 ---
 # <a name="scope-clientaccesstokenrequesttype"></a>Étendue (ClientAccessTokenRequestType)
 
-L’élément **Scope (ClientAccessTokenRequestType)** spécifie une portée de jeton. 
+**L’élément Scope (ClientAccessTokenRequestType)** spécifie une étendue de jeton. 
   
 ```XML
 <Scope/>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Scope (ClientAccessTokenRequestType)** est une portée de jeton. 
+La valeur de texte de **l’élément Scope (ClientAccessTokenRequestType)** est une étendue de jeton. 
   
 ## <a name="remarks"></a>Remarques
 

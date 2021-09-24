@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateRuleOperation
 api_type:
 - schema
 ms.assetid: e9f70726-db08-4089-839e-a41007d0a473
-description: L’élément CreateRuleOperation représente une opération de création d’une nouvelle règle de boîte de réception.
-ms.openlocfilehash: df857544e6d5840a3f738740114195e4c4bb5798
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CreateRuleOperation représente une opération de création d’une règle de boîte de réception.
+ms.openlocfilehash: cdd6c40ad1e6042d51d72e1ea6effb083bc1da17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460770"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536263"
 ---
 # <a name="createruleoperation"></a>CreateRuleOperation
 
-L’élément **CreateRuleOperation** représente une opération de création d’une nouvelle règle de boîte de réception. 
+**L’élément CreateRuleOperation** représente une opération de création d’une règle de boîte de réception. 
   
 [UpdateInboxRules](updateinboxrules.md)
   

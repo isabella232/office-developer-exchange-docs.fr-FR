@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fedc04e0-cfd2-4652-a2a8-51de859ae847
-description: L’élément HasIrm spécifie si au moins un message de la conversation et le dossier actif est un message protégé par IRM.
-ms.openlocfilehash: 1596610ed5f6b2bac353900624fbec9140aaa693
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément HasIrm spécifie si au moins un message dans la conversation et le dossier actuel est un message protégé par IRM.
+ms.openlocfilehash: ef194c045bfd2b416e382c12381afd68ba56dcf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462779"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516691"
 ---
 # <a name="hasirm"></a>HasIrm
 
-L’élément **HasIrm** spécifie si au moins un message de la conversation et le dossier actif est un message protégé par IRM. 
+**L’élément HasIrm** spécifie si au moins un message dans la conversation et le dossier actuel est un message protégé par IRM. 
   
 ```XML
 <HasIrm> true | false </HasIrm>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **HasIrm** est **true** si au moins un message de la conversation et le dossier actif a une gestion des droits relatifs à l’information (IRM). Sinon, la valeur est **false**.
+La valeur de texte de **l’élément HasIrm** est **true** si au moins un message de la conversation et le dossier en cours ont la gestion des erreurs. Sinon, la valeur est **false**.
   
 ## <a name="remarks"></a>Remarques
 

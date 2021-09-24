@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3aba59a0-f12a-48b5-842b-11cf4530dd51
-description: L’élément DeleteFromFolderStateDefinition spécifie l’État lorsqu’un élément est supprimé d’un dossier.
-ms.openlocfilehash: 0ea8c61a6839790869781d5d87ca81772b2e38d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DeleteFromFolderStateDefinition spécifie l’état lorsqu’un élément est supprimé d’un dossier.
+ms.openlocfilehash: 270edfc0b7abd70b74ff8c8b4353140ec5fbe27b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455722"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510238"
 ---
 # <a name="deletefromfolderstatedefinition"></a>DeleteFromFolderStateDefinition
 
-L’élément **DeleteFromFolderStateDefinition** spécifie l’État lorsqu’un élément est supprimé d’un dossier. 
+**L’élément DeleteFromFolderStateDefinition** spécifie l’état lorsqu’un élément est supprimé d’un dossier. 
   
 ```XML
 <DeleteFromFolderStateDefinition>
@@ -40,13 +40,13 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Occurrence (transition de fuseau horaire)](occurrence-time-zone-transition.md) <br/> |Spécifie la date de l’occurrence d’un élément de calendrier.  <br/> |
-|[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Spécifie une valeur de type Boolean qui indique si une occurrence de l’élément de calendrier est présente.  <br/> |
+|[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Spécifie une valeur de booléen qui indique si une occurrence de l’élément de calendrier est présente.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StateDefinition](statedefinition.md) <br/> |Spécifie une définition d’État.  <br/> |
+|[StateDefinition](statedefinition.md) <br/> |Spécifie une définition d’état.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b16170c-cb46-4ac5-9ce1-884f1b00b974
-description: L’élément Scope spécifie la chaîne à mettre en surbrillance.
-ms.openlocfilehash: 6cd8035831bae4f9e1e73ebe2238e5eb89b7d31c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Scope spécifie la chaîne à mettre en surbrill valeur.
+ms.openlocfilehash: 061c64b3fddee6db45ca4dbc44a039ce94549a89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530358"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509377"
 ---
 # <a name="scope-highlighttermtype"></a>Étendue (HighlightTermType)
 
-L’élément **scope** spécifie la chaîne à mettre en surbrillance. 
+**L’élément Scope** spécifie la chaîne à mettre en surbrill valeur. 
   
 ```XML
 <Scope></Scope>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **scope** est l’étendue d’un terme mis en surbrillance. 
+La valeur de texte de **l’élément Scope** est l’étendue d’un terme mis en surbrillant. 
   
 ## <a name="remarks"></a>Remarques
 

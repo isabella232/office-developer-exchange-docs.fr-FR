@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeSent
 api_type:
 - schema
 ms.assetid: 81784ef3-8912-4d63-8502-73419a906999
-description: L’élément DateTimeSent représente la date et l’heure auxquelles un élément d’une boîte aux lettres a été envoyé.
-ms.openlocfilehash: 550f067a698ffb149655e7c0368d2c44753d1f2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DateTimeSent représente la date et l’heure d’envoi d’un élément dans une boîte aux lettres.
+ms.openlocfilehash: 9f5c0c162ffe7e2f65b21f53109f5dd8e70f0c92
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458018"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535577"
 ---
 # <a name="datetimesent"></a>DateTimeSent
 
-L’élément **DateTimeSent** représente la date et l’heure auxquelles un élément d’une boîte aux lettres a été envoyé. 
+**L’élément DateTimeSent représente** la date et l’heure d’envoi d’un élément dans une boîte aux lettres. 
   
 ```xml
 <DateTimeSent/>
@@ -51,7 +51,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -59,7 +59,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente la date et l’heure d’envoi d’un élément.
+La valeur de texte représente la date et l’heure d’envoi d’un élément.
   
 ## <a name="remarks"></a>Remarques
 

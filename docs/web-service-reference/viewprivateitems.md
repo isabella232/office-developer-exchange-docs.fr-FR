@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ViewPrivateItems
 api_type:
 - schema
 ms.assetid: 80b949ac-440c-4a01-b428-ebafb5b1b802
-description: L’élément ViewPrivateItems indique si un utilisateur délégué ou une application cliente a l’autorisation d’afficher des éléments privés dans la boîte aux lettres de l’entité de sécurité.
-ms.openlocfilehash: 4e1375f7c4a3c660cc5de885deff8d094250ca7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ViewPrivateItems indique si un utilisateur délégué ou une application cliente est autorisé à afficher des éléments privés dans la boîte aux lettres du principal.
+ms.openlocfilehash: fcc63534603ea4cc6e5a7f91569a14c742b10a98
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44525968"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509314"
 ---
 # <a name="viewprivateitems"></a>ViewPrivateItems
 
-L’élément **ViewPrivateItems** indique si un utilisateur délégué ou une application cliente a l’autorisation d’afficher des éléments privés dans la boîte aux lettres de l’entité de sécurité. 
+**L’élément ViewPrivateItems** indique si un utilisateur délégué ou une application cliente est autorisé à afficher des éléments privés dans la boîte aux lettres du principal. 
   
 ```XML
 <ViewPrivateItems>true | false</ViewPrivateItems>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |Identifie un seul délégué à ajouter ou mettre à jour dans une boîte aux lettres.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Identifie un délégué unique à ajouter ou à mettre à jour dans une boîte aux lettres.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d'autorisation pour l'élément ou le dossier. Cet élément est en lecture seule.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur **true** indique que le délégué ou le client peuvent afficher des éléments privés dans la boîte aux lettres de l’entité de sécurité. La valeur **false** indique que les éléments privés ne sont pas visibles par un délégué ou un client. 
+La valeur **true indique** que le délégué ou le client peut afficher des éléments privés dans la boîte aux lettres du principal. La valeur **false indique** que les éléments privés ne sont pas visibles par un délégué ou un client. 
   
 ## <a name="remarks"></a>Remarques
 

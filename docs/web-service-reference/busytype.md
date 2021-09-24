@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BusyType
 api_type:
 - schema
 ms.assetid: 26d4fae0-8c78-4705-b5e8-d6033712c41e
-description: L’élément BusyType représente l’état de disponibilité défini pour un événement de calendrier.
-ms.openlocfilehash: 7c2d18c21156a8603d3caeeb796a56c5d8afcba5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément BusyType représente l’état de libre/occupé d’un événement de calendrier.
+ms.openlocfilehash: eedea1e98ec84342d79dda2107adb050c2216401
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459082"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537136"
 ---
 # <a name="busytype"></a>BusyType
 
-L’élément **BusyType** représente l’état de disponibilité défini pour un événement de calendrier. 
+**L’élément BusyType** représente l’état de libre/occupé d’un événement de calendrier. 
   
 ```xml
 <BusyType>Free or Tentative or Busy or OOF or NoData</BusyType>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |Contient le statut de disponibilité d’un utilisateur ou d’un contact pour une fenêtre de temps qui se produit en même temps que la réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
-|[CalendarEvent](calendarevent.md) <br/> |Représente une occurrence d’élément de calendrier unique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[IndividualAttendeeConflictData](individualattendeeconflictdata.md) <br/> |Contient l’état de libre/occupé d’un utilisateur ou d’un contact pour une période qui se produit en même temps que l’heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/IndividualAttendeeConflictData` <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |Représente une occurrence d’élément de calendrier unique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise pour cet élément. La valeur est un type de chaîne. Les valeurs possibles pour l’élément [BusyType](busytype.md) sont les suivantes : 
+Une valeur de texte est requise pour cet élément. La valeur est de type chaîne. Les valeurs possibles pour l’élément BusyType sont [les suivantes](busytype.md) : 
   
 - Gratuit
     
@@ -57,7 +57,7 @@ Une valeur de texte est requise pour cet élément. La valeur est un type de cha
     
 - Occupé(e)
     
-- Bureau
+- OOF
     
 - NoData
     

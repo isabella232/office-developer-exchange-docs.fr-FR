@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a53989e-eca6-45c4-afac-4d6ac19597d2
 description: L’élément SearchScope spécifie l’étendue d’une recherche.
-ms.openlocfilehash: df11c8db418ac90d1166030aeed3672c0b810052
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d4caa87cd552a633812b99d7e97f2419b156fb78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523398"
 ---
 # <a name="searchscope"></a>SearchScope
 
-L’élément **SearchScope** spécifie l’étendue d’une recherche. 
+**L’élément SearchScope** spécifie l’étendue d’une recherche. 
   
 ```XML
 <SearchScope> PrimaryOnly | ArchiveOnly | All </SearchScope>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SearchScope** indique le type de boîte aux lettres qui fait l’objet d’une recherche de découverte. Une valeur de texte de **PrimaryOnly** indique que la boîte aux lettres principale fait l’objet d’une recherche. Une valeur de texte de **ArchiveOnly** indique que la boîte aux lettres d’archivage est recherchée. Une valeur de texte de **All** indique que la recherche s’effectue dans les boîtes aux lettres principale et d’archivage. 
+La valeur texte de **l’élément SearchScope** indique le type de boîte aux lettres recherché pour une recherche de découverte. Une valeur de texte **PrimaryOnly indique** que la boîte aux lettres principale est recherché. La valeur texte **ArchiveOnly indique** que la boîte aux lettres d’archivage fait l’être. La valeur texte **All** indique que les boîtes aux lettres principale et d’archivage font l’être. 
   
 ## <a name="remarks"></a>Remarques
 

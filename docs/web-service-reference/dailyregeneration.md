@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DailyRegeneration
 api_type:
 - schema
 ms.assetid: cafb57e4-c518-45e0-b565-2babd0dab1df
 description: L’élément DailyRegeneration décrit la fréquence, en jours, de régénération d’une tâche.
-ms.openlocfilehash: 518e4666031131f4a5fc80cc72c28a2110b468c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7fbcb05e45a8700a3d23d1e8ed0d6f9e2ba75db2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535947"
 ---
 # <a name="dailyregeneration"></a>DailyRegeneration
 
-L’élément **DailyRegeneration** décrit la fréquence, en jours, de régénération d’une tâche. 
+**L’élément DailyRegeneration** décrit la fréquence, en jours, de régénération d’une tâche. 
   
 ```xml
 <DailyRegeneration>
@@ -43,13 +43,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |Définit l’intervalle, en jours, entre deux éléments périodiques consécutifs. La valeur doit être comprise entre 1 et 999.  <br/> |
+|[Interval](interval.md) <br/> |Définit l’intervalle, en jours, entre deux éléments périodiques consécutifs. La valeur doit être entre 1 et 999.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

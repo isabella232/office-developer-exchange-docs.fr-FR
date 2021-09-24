@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueSenders
 api_type:
 - schema
 ms.assetid: 1f55f2fe-b2f2-4169-83c1-fa5c752bd695
-description: L’élément UniqueSenders contient une liste de tous les expéditeurs d’éléments de conversation dans le dossier actif. Cet élément est en lecture seule.
-ms.openlocfilehash: 5c9a98a3083d02f3900cc263e0b99a570203b544
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UniqueSenders contient une liste de tous les expéditeurs d’éléments de conversation dans le dossier actuel. Cet élément est en lecture seule.
+ms.openlocfilehash: 805f76c5cf9c37496eb42b6e02a3f7f7ed685ff7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459874"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523213"
 ---
 # <a name="uniquesenders"></a>UniqueSenders
 
-L’élément **UniqueSenders** contient une liste de tous les expéditeurs d’éléments de conversation dans le dossier actif. Cet élément est en lecture seule. 
+**L’élément UniqueSenders** contient une liste de tous les expéditeurs d’éléments de conversation dans le dossier actuel. Cet élément est en lecture seule. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -50,7 +50,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Contient un seul expéditeur de conversation.  <br/> |
+|[String](string.md) <br/> |Contient un expéditeur de conversation unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

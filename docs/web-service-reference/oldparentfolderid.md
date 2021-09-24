@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldParentFolderId
 api_type:
 - schema
 ms.assetid: da1b8c88-c650-455d-b749-0cd160b012d8
 description: L’élément OldParentFolderId contient l’identificateur du dossier parent d’un élément ou d’un dossier qui a été copié ou déplacé.
-ms.openlocfilehash: ad787e95f95b551393878b15783461d93ac08481
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9cf7eb834c0c7b70f234df26b466977e8e11957a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537456"
 ---
 # <a name="oldparentfolderid"></a>OldParentFolderId
 
-L’élément **OldParentFolderId** contient l’identificateur du dossier parent d’un élément ou d’un dossier qui a été copié ou déplacé. 
+**L’élément OldParentFolderId** contient l’identificateur du dossier parent d’un élément ou d’un dossier qui a été copié ou déplacé. 
   
 ```xml
 <OldParentFolderId Id="" ChangeKey=""/>
@@ -36,8 +36,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
-|**ChangeKey** <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Exchange store. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

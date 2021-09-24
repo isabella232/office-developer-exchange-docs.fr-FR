@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67328dab-321b-45ad-929e-cd83e65ad87e
-description: L’élément SearchQueries contient la liste des boîtes aux lettres et les requêtes associées pour la recherche de découverte.
-ms.openlocfilehash: 66015d71238b4a1055a71aff539ca50150f2a247
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SearchQueries contient une liste des boîtes aux lettres et des requêtes associées pour la recherche de découverte.
+ms.openlocfilehash: db28c5cf461832447a9426dc8376c4326c1aa9ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523411"
 ---
 # <a name="searchqueries"></a>SearchQueries
 
-L’élément **SearchQueries** contient la liste des boîtes aux lettres et les requêtes associées pour la recherche de découverte. 
+**L’élément SearchQueries contient** une liste des boîtes aux lettres et des requêtes associées pour la recherche de découverte. 
   
 ```XML
 <SearchQueries>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

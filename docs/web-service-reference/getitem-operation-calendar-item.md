@@ -1,33 +1,33 @@
 ---
-title: Opération de GetItem (élément de calendrier)
+title: Opération GetItem (élément de calendrier)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8
-description: L’opération GetItem obtient des éléments de calendrier à partir de la Banque d’Exchange.
-ms.openlocfilehash: 09fe92af12f03ce4cebd1e98f4e01c087ace64f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetItem obtient les éléments de calendrier de la Exchange store.
+ms.openlocfilehash: ff118be17e3e084a11dd74a0434db3f6c0e8bd8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460616"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516964"
 ---
-# <a name="getitem-operation-calendar-item"></a>Opération de GetItem (élément de calendrier)
+# <a name="getitem-operation-calendar-item"></a>Opération GetItem (élément de calendrier)
 
-L’opération GetItem obtient des éléments de calendrier à partir de la Banque d’Exchange.
+L’opération GetItem obtient les éléments de calendrier de la Exchange store.
   
 ## <a name="getitem-request-example"></a>Exemple de requête GetItem
 
 ### <a name="description"></a>Description
 
-L’exemple de requête GetItem suivant montre comment créer une demande pour obtenir l’identité et l’objet d’un élément.
+L’exemple suivant d’une requête GetItem montre comment former une demande pour obtenir l’identité et l’objet d’un élément.
   
 ### <a name="code"></a>Code
 
@@ -51,7 +51,7 @@ L’exemple de requête GetItem suivant montre comment créer une demande pour o
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -72,16 +72,16 @@ Les éléments suivants sont utilisés dans la demande :
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 
   
-Pour rechercher d’autres options pour le message de demande de l’opération GetItem, explorez la hiérarchie du schéma. Commencez par l’élément [GetItem](getitem.md) . 
+Pour rechercher d’autres options pour le message de demande de l’opération GetItem, explorez la hiérarchie de schéma. Commencez à [l’élément GetItem.](getitem.md) 
   
 ## <a name="successful-getitem-response"></a>Réponse GetItem réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande GetItem. La demande qui a créé cette réponse utilisait le IdOnly BaseShape. Dans cet exemple, la réponse renvoie uniquement l’ID de l’élément. 
+L’exemple suivant montre une réponse réussie à la demande GetItem. La demande qui a créé cette réponse a utilisé la forme de base IdOnly. Dans cet exemple, la réponse renvoie uniquement l’ID de l’élément. 
   
 > [!NOTE]
-> L’ID d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’ID d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -115,10 +115,10 @@ L’exemple suivant montre une réponse réussie à la demande GetItem. La deman
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande GetItem. La demande qui a créé cette réponse utilisait le BaseShape par défaut. Dans cet exemple, la réponse renvoie la forme par défaut d’un élément de calendrier.
+L’exemple suivant montre une réponse réussie à la demande GetItem. La requête qui a créé cette réponse a utilisé la forme de base Par défaut. Dans cet exemple, la réponse renvoie la forme Par défaut d’un élément de calendrier.
   
 > [!NOTE]
-> L’ID d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’ID d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -166,7 +166,7 @@ L’exemple suivant montre une réponse réussie à la demande GetItem. La deman
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande GetItem. La demande qui a créé cette réponse utilisait le AllProperties BaseShape. Dans cet exemple, la réponse renvoie la forme AllProperties pour un élément de calendrier.
+L’exemple suivant montre une réponse réussie à la demande GetItem. La requête qui a créé cette réponse a utilisé la forme de base AllProperties. Dans cet exemple, la réponse renvoie la forme AllProperties d’un élément de calendrier.
   
 ### <a name="code"></a>Code
 
@@ -265,7 +265,7 @@ L’exemple suivant montre une réponse réussie à la demande GetItem. La deman
 
 ### <a name="comments"></a>Commentaires
 
-Pour rechercher d’autres options pour le message de réponse de l’opération GetItem, explorez la hiérarchie du schéma. Commencez par l’élément [GetItemResponse](getitemresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse de l’opération GetItem, explorez la hiérarchie de schéma. Commencez par [l’élément GetItemResponse.](getitemresponse.md) 
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -333,9 +333,9 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Culture](culture.md)
     
-- [Démarrage](start.md)
+- [Start](start.md)
     
-- [Fin](end-ex15websvcsotherref.md)
+- [Fin ](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
@@ -357,7 +357,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Boîte aux lettres](mailbox.md)
     
-- [Nom (EmailAddressType)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
@@ -369,11 +369,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ConflictingMeetings](conflictingmeetings.md)
     
-- [Emplacement](location.md)
+- [Location](location.md)
     
 - [Durée (éléments)](duration-items.md)
     
-- [TimeZone (élément)](timezone-item.md)
+- [TimeZone (Item)](timezone-item.md)
     
 - [AppointmentSequenceNumber](appointmentsequencenumber.md)
     

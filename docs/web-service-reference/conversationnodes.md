@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c8a35b8-a940-4b3e-8768-9ba95766fd79
-description: L’élément ConversationNodes spécifie une collection de nœuds de conversation.
-ms.openlocfilehash: 39ffb97f1004535e2fc70b58f8d56afe129e8ee2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ConversationNodes spécifie une collection de nodes de conversation.
+ms.openlocfilehash: 8bacbc83676d9642ae8f842affbc11338cbdff0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536623"
 ---
 # <a name="conversationnodes"></a>ConversationNodes
 
-L’élément **ConversationNodes** spécifie une collection de nœuds de conversation. 
+**L’élément ConversationNodes** spécifie une collection de nodes de conversation. 
   
 ```XML
 <ConversationNodes>
@@ -44,7 +44,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Conversation (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |Représente une conversation unique renvoyée dans une réponse **GetConversationItems** .  <br/> |
+|[Conversation (ConversationResponseType)](conversation-conversationresponsetype.md) <br/> |Représente une conversation unique renvoyée dans une **réponse GetConversationItems.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

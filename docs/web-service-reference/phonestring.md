@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
 description: L’élément PhoneString spécifie le numéro de téléphone d’un contact extrait.
-ms.openlocfilehash: cc528b74034d1fd76c19247e72bb5ac00e7734d9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 569522337c681ce445309182c1c8010d494564e3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516649"
 ---
 # <a name="phonestring"></a>PhoneString
 
-L’élément **PhoneString** spécifie le numéro de téléphone d’un contact extrait. 
+**L’élément PhoneString** spécifie le numéro de téléphone d’un contact extrait. 
   
 ```XML
 <PhoneString></PhoneString>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PhoneSting** est le numéro de téléphone d’un contact extrait. 
+La valeur texte de **l’élément PhoneSting** est le numéro de téléphone d’un contact extrait. 
   
 ## <a name="remarks"></a>Remarques
 

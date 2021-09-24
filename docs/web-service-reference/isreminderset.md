@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsReminderSet
 api_type:
 - schema
 ms.assetid: 6aea4cb7-ca14-4949-8e7f-660b565f6556
-description: L’élément IsReminderSet indique si un rappel a été défini pour l’événement de calendrier.
-ms.openlocfilehash: e2f5fa072b549bdaf636a15313e7dfe72172f768
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsReminderSet indique si un rappel a été définie pour l’événement de calendrier.
+ms.openlocfilehash: fb1af55c53d3328d00d80cf50cf3df3c9d029eda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509650"
 ---
 # <a name="isreminderset"></a>IsReminderSet
 
-L’élément **IsReminderSet** indique si un rappel a été défini pour l’événement de calendrier. 
+**L’élément IsReminderSet** indique si un rappel a été définie pour l’événement de calendrier. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,11 +60,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires sur un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires sur un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé, sauf si l’élément [IsPrivate](isprivate.md) est défini sur **true**.
+Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si [l’élément CalendarEventDetails est](calendareventdetails.md) utilisé, sauf si l’élément [IsPrivate](isprivate.md) est définie sur **true**.
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ServerVersionInfo
 api_type:
 - schema
 ms.assetid: c04a6872-ca27-432b-aac2-36b023d0afc6
-description: L’élément ServerVersionInfo représente le numéro de version de Microsoft Exchange Server.
-ms.openlocfilehash: 5bd1fbd8fdee584a9d272fa8ab82f2a31c1357fe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ServerVersionInfo représente le numéro Microsoft Exchange Server version.
+ms.openlocfilehash: 6907559e1ac98981028a017b64a38a343c36da70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517713"
 ---
 # <a name="serverversioninfo"></a>ServerVersionInfo
 
-L’élément **ServerVersionInfo** représente le numéro de version de Microsoft Exchange Server. 
+**L’élément ServerVersionInfo** représente le numéro Microsoft Exchange Server version. 
   
 ```xml
 <ServerVersionInfo MajorVersion="" MinorVersion="" MajorBuildNumber="" MinorBuildNumber="" Version="" />
@@ -35,11 +35,11 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|MajorVersion  <br/> |Décrit le numéro de version principale.  <br/> |
+|MajorVersion  <br/> |Décrit le numéro de version principal.  <br/> |
 |MinorVersion  <br/> |Décrit le numéro de version mineure.  <br/> |
 |MajorBuildNumber  <br/> |Décrit le numéro de build principal.  <br/> |
-|MinorBuildNumber  <br/> |Décrit le numéro de version mineure.  <br/> |
-|Version  <br/> |Décrit la version du schéma des services Web Exchange (EWS).  <br/> |
+|MinorBuildNumber  <br/> |Décrit le numéro de build mineur.  <br/> |
+|Version  <br/> |Décrit la version Exchange de schéma des services web (EWS).  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -51,9 +51,9 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est renvoyé dans l’en-tête SOAP d’un message de réponse des services Web Exchange.
+Cet élément est renvoyé dans l’en-tête SOAP d’Exchange message de réponse des services Web.
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé. 
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

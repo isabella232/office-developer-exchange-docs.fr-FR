@@ -1,23 +1,23 @@
 ---
-title: Emplacement (ReminderMessageDataType)
+title: Location (ReminderMessageDataType)
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 173148af-5dda-4322-8d0c-da3ba3780a43
-description: L’élément location (ReminderMessageDataType) spécifie l’emplacement de l’élément de calendrier pour lequel le rappel est destiné.
-ms.openlocfilehash: 16474c1b635a3e2337a89b98b6660293276774bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Location (ReminderMessageDataType) spécifie l’emplacement de l’élément de calendrier pour le rappel.
+ms.openlocfilehash: db6b8ab0ff5970d6d18af6c7baf4e6ba6609ccd7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433720"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509636"
 ---
-# <a name="location-remindermessagedatatype"></a>Emplacement (ReminderMessageDataType)
+# <a name="location-remindermessagedatatype"></a>Location (ReminderMessageDataType)
 
-L’élément **location (ReminderMessageDataType)** spécifie l’emplacement de l’élément de calendrier pour lequel le rappel est destiné. 
+**L’élément Location (ReminderMessageDataType)** spécifie l’emplacement de l’élément de calendrier pour le rappel. 
   
 ```xml
 <Location/>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **location** correspond à l’emplacement de l’élément de calendrier. 
+La valeur de texte de **l’élément Location** est l’emplacement de l’élément de calendrier. 
   
 ## <a name="remarks"></a>Remarques
 

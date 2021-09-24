@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsFolderVisible
 api_type:
 - schema
 ms.assetid: dd611fb5-9424-4ff9-bb27-c882c73c0c74
 description: L’élément IsFolderVisible indique si un utilisateur peut afficher un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 7efe7eef3c10027c38a3dad2dd3ec1d8684c322a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d107a49107c626f27d8abe22e99652fe6dc71728
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459299"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509741"
 ---
 # <a name="isfoldervisible"></a>IsFolderVisible
 
-L’élément **IsFolderVisible** indique si un utilisateur peut afficher un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément IsFolderVisible** indique si un utilisateur peut afficher un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <IsFolderVisible/>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que l’utilisateur peut afficher le dossier. La valeur **false** indique que l’utilisateur ne peut pas afficher le dossier. 
+Une valeur de texte **true** indique que l’utilisateur peut afficher le dossier. La valeur **false indique** que l’utilisateur ne peut pas afficher le dossier. 
   
 ## <a name="remarks"></a>Remarques
 

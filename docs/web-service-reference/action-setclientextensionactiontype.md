@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5624a87-3436-40ce-8d6b-cc01eecab64d
-description: L’élément action contient l’action que le serveur Exchange doit effectuer sur une application.
-ms.openlocfilehash: 29579e26377edacb5fb0bb8406144eeb116b8d15
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Action contient l’action que le serveur Exchange doit prendre sur une application.
+ms.openlocfilehash: a0f5c2743ef976db2faddbb7509a8a015ef4dd8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510378"
 ---
 # <a name="action-setclientextensionactiontype"></a>Action (SetClientExtensionActionType)
 
-L’élément **action** contient l’action que le serveur Exchange doit effectuer sur une application. 
+**L’élément Action** contient l’action que le serveur Exchange doit prendre sur une application. 
   
 ```XML
 <Action ActionId="" ExtensionId="">
@@ -43,19 +43,19 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 |:-----|:-----|
 |Configurer  <br/> |Indique une action de configuration.  <br/> |
 |Installer  <br/> |Indique une action d’installation.  <br/> |
-|Uninstall  <br/> |Indique une action de désinstallation.  <br/> |
+|Désinstaller  <br/> |Indique une action de désinstallation.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ClientExtension](clientextension.md) <br/> |Contient les informations d’utilisateur et de configuration relatives à une application.  <br/> |
+|[ClientExtension](clientextension.md) <br/> |Contient des informations utilisateur et de configuration sur une application.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md) <br/> |Spécifie un tableau d’éléments **action** .  <br/> |
+|[Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md) <br/> |Spécifie un tableau d’éléments **Action.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

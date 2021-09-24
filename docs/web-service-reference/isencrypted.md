@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsEncrypted
 api_type:
 - schema
 ms.assetid: 68a30e92-c2b1-4af5-bb16-ba38afb80c43
-description: L’élément IsEncrypted indique si les messages entrants doivent être chiffrés S/MIME afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 7470fa3163596f87badfda2ca698b096e02f1196
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsEncrypted indique si les messages entrants doivent être chiffrés S/MIME pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 54e0be5262ab14bac72152028091fe56b37f90a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509762"
 ---
 # <a name="isencrypted"></a>IsEncrypted
 
-L’élément **IsEncrypted** indique si les messages entrants doivent être chiffrés S/MIME afin que la condition ou l’exception s’applique. 
+**L’élément IsEncrypted** indique si les messages entrants doivent être chiffrés S/MIME afin que la condition ou l’exception s’applique. 
   
 ```XML
 <IsEncrypted>true | false</IsEncrypted>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être chiffré S/MIME afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être S/MIME afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être chiffré S/MIME afin que la condition ou l’exception s’applique. La valeur **false** indique que le message n’a pas besoin d’être S/MIME pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

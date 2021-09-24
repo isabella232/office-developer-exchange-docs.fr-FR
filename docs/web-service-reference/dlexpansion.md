@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DLExpansion
 api_type:
 - schema
 ms.assetid: 9e50278d-fe6a-45e2-a72b-0fb06809e128
 description: L’élément DLExpansion contient un tableau de boîtes aux lettres contenues dans une liste de distribution.
-ms.openlocfilehash: 079ad1c0f114d201f5d1b91c3fd9bb45b943cc1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7c214948b133ea2f30a47b2321c27b555b90e2fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456996"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517209"
 ---
 # <a name="dlexpansion"></a>DLExpansion
 
-L’élément **DLExpansion** contient un tableau de boîtes aux lettres contenues dans une liste de distribution. 
+**L’élément DLExpansion** contient un tableau de boîtes aux lettres contenues dans une liste de distribution. 
   
 - [ExpandDLResponse](expanddlresponse.md) 
 - [ResponseMessages](responsemessages.md) 
@@ -43,10 +43,10 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**IndexedPagingOffset** <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lorsque vous utilisez une vue de page indexée.  <br/> |
-|**NumeratorOffset** <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
-|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des affichages de page de fractions.  <br/> |
-|**IncludesLastItemInRange** <br/> |Indique si les résultats actuels contiennent le dernier élément de la requête afin de ne pas avoir besoin d’une pagination supplémentaire.  <br/> |
+|**IndexedPagingOffset** <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lorsque vous utilisez un affichage de page indexé.  <br/> |
+|**NumeratorOffset** <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la demande suivante lorsque vous utilisez des affichages de page de fraction.  <br/> |
+|**AbsoluteDenominator** <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lorsque vous utilisez des vues de page de fraction.  <br/> |
+|**IncludesLastItemInRange** <br/> |Indique si les résultats actuels contiennent le dernier élément de la requête afin que la pagination supplémentaire ne soit pas nécessaire.  <br/> |
 |**TotalItemsInView** <br/> |Représente le nombre total d’éléments dans l’affichage.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
@@ -59,7 +59,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande ExpandDL.  <br/> |
+|[ExpandDLResponseMessage](expanddlresponsemessage.md) <br/> |Contient l’état et le résultat d’une demande ExpandDL unique.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

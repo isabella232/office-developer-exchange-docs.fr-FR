@@ -5,47 +5,47 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9279c3ad-f7c8-4bbc-b0a7-2c78416cb39a
-description: Trouvez des informations sur l’opération EWS GetNonIndexableItemDetails.
-ms.openlocfilehash: a443e04b0622ddbaaeb1bc8c04bfd05679c6207e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération GetNonIndexableItemDetails EWS.
+ms.openlocfilehash: d494765d56bc06c2e7f90b99174622b00449116d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530210"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516971"
 ---
 # <a name="getnonindexableitemdetails-operation"></a>Opération GetNonIndexableItemDetails
 
-Trouvez des informations sur l’opération EWS **GetNonIndexableItemDetails** . 
+Trouvez des informations **sur l’opération GetNonIndexableItemDetails** EWS. 
   
-L’opération **GetNonIndexableItemDetails** récupère des détails sur les éléments qui ne peuvent pas être indexés. Cela inclut, sans s’y limiter, l’identificateur de l’élément, un code d’erreur, une description de l’erreur, lorsqu’une tentative d’indexation de l’élément est effectuée, ainsi que des informations supplémentaires sur le fichier. 
+**L’opération GetNonIndexableItemDetails** récupère des détails sur les éléments qui ne peuvent pas être indexés. Cela inclut, sans s’y limiter, l’identificateur de l’élément, un code d’erreur, une description d’erreur, lorsqu’une tentative d’indexation de l’élément a été tentée et des informations supplémentaires sur le fichier. 
   
 > [!NOTE]
-> Bien que le schéma indique que plusieurs boîtes aux lettres peuvent être recherchées, dans la version initiale d’Exchange 2013, le service prend uniquement en charge l’obtention des détails des éléments non indexables dans une seule boîte aux lettres. 
+> Bien que le schéma indique que plusieurs boîtes aux lettres peuvent faire l’objet d’une recherche, dans la version initiale d’Exchange 2013, le service prend uniquement en charge l’obtention des détails des éléments inexables dans une seule boîte aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getnonindexableitemdetails-operation"></a>Utilisation de l’opération GetNonIndexableItemDetails
 
-L’opération **GetNonIndexableItemDetails** identifie les éléments de boîte aux lettres qui ne peuvent pas être indexés et fournit des informations sur la raison pour laquelle les éléments ne peuvent pas être indexés. Les éléments qui ne peuvent pas être indexés ne sont pas recherchés lors d’une recherche de découverte. 
+**L’opération GetNonIndexableItemDetails** identifie les éléments de boîte aux lettres qui ne peuvent pas être indexés et fournit des informations sur les raisons pour lesquelles les éléments ne peuvent pas être indexés. Les éléments qui ne peuvent pas être indexés ne font pas l’objet d’une recherche pendant une recherche de découverte. 
   
-### <a name="getnonindexableitemdetails-operation-soap-headers"></a>En-têtes SOAP d’opération GetNonIndexableItemDetails
+### <a name="getnonindexableitemdetails-operation-soap-headers"></a>En-têtes SOAP de l’opération GetNonIndexableItemDetails
 
-L’opération **GetNonIndexableItemDetails** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetNonIndexableItemDetails** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour permettre à l’appelant d’effectuer la demande. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>Exemple de requête d’opération GetNonIndexableItemDetails : obtenir les détails d’un élément qui ne peut pas être indexé
+## <a name="getnonindexableitemdetails-operation-request-example-get-the-details-of-an-item-that-cannot-be-indexed"></a>Exemple de demande d’opération GetNonIndexableItemDetails : obtenir les détails d’un élément qui ne peut pas être indexé
 
-L’exemple suivant de demande d’opération **GetNonIndexableItemDetails** indique comment demander les détails pour les éléments qui ne peuvent pas être indexés pour une seule boîte aux lettres. La recherche est effectuée sur les boîtes aux lettres principale et d’archivage. 
+L’exemple suivant d’une demande d’opération **GetNonIndexableItemDetails** montre comment demander les détails des éléments qui ne peuvent pas être indexés pour une seule boîte aux lettres. La recherche est effectuée dans les boîtes aux lettres principale et d’archivage. 
   
 > [!NOTE]
-> Tous les noms de domaine hérités de cet exemple sont raccourcis pour conserver la lisibilité. 
+> Tous les noms de domaine hérités dans cet exemple ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -67,7 +67,7 @@ L’exemple suivant de demande d’opération **GetNonIndexableItemDetails** ind
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
     
@@ -79,7 +79,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-getnonindexableitemdetails-operation-response"></a>Réponse de l’opération GetNonIndexableItemDetails réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetNonIndexableItemDetails** afin d’obtenir des éléments qui ne peuvent pas être indexés pour une seule boîte aux lettres. L’élément dans cet exemple qui ne peut pas être indexé est le fichier BinaryFile. ABC, dont le format est inconnu. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetNonIndexableItemDetails** pour obtenir des éléments qui ne peuvent pas être indexés pour une seule boîte aux lettres. L’élément de cet exemple qui ne peut pas être indexé est le fichier binaryfile.abc, qui est d’un format inconnu. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -121,7 +121,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
@@ -139,7 +139,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [IsPartiallyIndexed](ispartiallyindexed.md)
     
-- [IsPermanentFailure](ispermanentfailure.md)
+- [Ispermanentfailure](ispermanentfailure.md)
     
 - [SortValue](sortvalue.md)
     
@@ -151,7 +151,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="getnonindexableitemdetails-operation-error-response"></a>Réponse d’erreur d’opération GetNonIndexableItemDetails
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetNonIndexableItemDetails** . Réponse à une demande d’obtention des détails de l’élément pour les éléments qui ne peuvent pas être indexés à partir de plusieurs boîtes aux lettres. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetNonIndexableItemDetails.** Il s’agit d’une réponse à une demande d’obtenir les détails des éléments qui ne peuvent pas être indexés à partir de plusieurs boîtes aux lettres. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -177,7 +177,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [GetNonIndexableItemDetailsResponse](getnonindexableitemdetailsresponse.md)
     
@@ -187,7 +187,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - References
 api_type:
 - schema
 ms.assetid: d78f9a48-cd24-452f-af65-4c01933227ce
 description: L’élément References représente l’en-tête Usenet utilisé pour associer les réponses aux messages d’origine.
-ms.openlocfilehash: c55cc194aa6dc9051c5fad6f5cb66f4352e20a0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a0889ed9ef7b96a2b2a78b9333b03f8efaafaf1f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456743"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523635"
 ---
 # <a name="references"></a>Références
 
-L’élément **References** représente l’en-tête Usenet utilisé pour associer les réponses aux messages d’origine. 
+**L’élément References** représente l’en-tête Usenet utilisé pour associer les réponses aux messages d’origine. 
   
 ```xml
 <References/>
@@ -47,7 +47,7 @@ Aucun.
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
@@ -57,11 +57,11 @@ Aucun.
 |[ReplyAllToItem](replyalltoitem.md) <br/> |Contient une réponse destinée à tous les destinataires identifiés d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |Contient un élément de la banque Exchange pour transférer à des destinataires.  <br/> |
 |[CancelCalendarItem](cancelcalendaritem.md) <br/> |Représente l'objet de réponse qui est utilisé pour annuler une réunion.  <br/> |
-|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément de publication dans la Exchange store. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente un en-tête Usenet.
+La valeur de texte représente un en-tête Usenet.
   
 ## <a name="remarks"></a>Remarques
 

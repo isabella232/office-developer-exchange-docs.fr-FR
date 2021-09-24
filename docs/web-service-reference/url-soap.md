@@ -1,24 +1,24 @@
 ---
-title: URL (SOAP)
+title: Url (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 12e8c9a4-61e5-41a5-a9ea-423ce6f464af
-description: L’élément URL contient l’URL d’un client Web.
-ms.openlocfilehash: 73d52107ede3fa951ab71e1706af51185b341b74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Url contient l’URL d’un client Web.
+ms.openlocfilehash: b2ca87be53b5a02a953b313ff2bd89c4e74b572d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468347"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517391"
 ---
-# <a name="url-soap"></a>URL (SOAP)
+# <a name="url-soap"></a>Url (SOAP)
 
-L’élément **URL** contient l’URL d’un client Web. 
+**L’élément Url** contient l’URL d’un client Web. 
   
 ```XML
 <Url/>
@@ -41,7 +41,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Représente l’URL d’un client Web Exchange.  <br/> |
+|[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Représente l’URL d’Exchange client Web.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -53,7 +53,7 @@ La valeur de texte est l’URL d’un client Web.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

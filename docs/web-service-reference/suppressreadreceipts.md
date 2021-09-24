@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
-description: L’élément SuppressReadReceipts indique si les confirmations de lecture doivent être supprimées.
-ms.openlocfilehash: aa604d4907582bd73727ba664958a589a222f9cb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SuppressReadReceipts indique si les reçus de lecture doivent être supprimés.
+ms.openlocfilehash: 1f63f46f4e74a3123661caba39b737910bc2ef30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517650"
 ---
 # <a name="suppressreadreceipts"></a>SuppressReadReceipts
 
-L’élément **SuppressReadReceipts** indique si les confirmations de lecture doivent être supprimées. 
+**L’élément SuppressReadReceipts** indique si les reçus de lecture doivent être supprimés. 
   
 ```XML
 <SuppressReadReceipts>true | false</SuppressReadReceipts>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **SuppressReadReciepts** indique que les confirmations de lecture sont supprimées. La valeur **false** indique que les confirmations de lecture seront envoyées à l’expéditeur. 
+Une valeur de texte **true pour** **l’élément SuppressReadReciepts** indique que les reçus de lecture sont supprimés. La valeur **false indique** que les reçus de lecture seront envoyés à l’expéditeur. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

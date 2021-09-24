@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
 - schema
 ms.assetid: dbe83857-c4f8-4d98-813f-e03c289697a1
-description: L’élément GetStreamingEvents représente l’opération utilisée par les clients pour demander des notifications de diffusion en continu à partir du serveur.
-ms.openlocfilehash: ec133ecd69c05a2208e95f925133570af0233cf2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetStreamingEvents représente l’opération utilisée par les clients pour demander des notifications de diffusion en continu du serveur.
+ms.openlocfilehash: 8a68b3edbb53b623e4dc709e0128c5b3ebc94f91
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523050"
 ---
 # <a name="getstreamingevents"></a>GetStreamingEvents
 
-L’élément **GetStreamingEvents** représente l’opération utilisée par les clients pour demander des notifications de diffusion en continu à partir du serveur. 
+**L’élément GetStreamingEvents** représente l’opération utilisée par les clients pour demander des notifications de diffusion en continu du serveur. 
   
 [GetStreamingEvents](getstreamingevents.md)
   
@@ -46,7 +46,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |Représente l’identificateur d’un abonnement interrogé pour les événements.  <br/> |
-|[ConnectionTimeout](connectiontimeout.md) <br/> |Représente le nombre de minutes pendant lesquelles une connexion doit rester ouverte.  <br/> |
+|[ConnectionTimeout](connectiontimeout.md) <br/> |Représente le nombre de minutes pendant le maintien d’une connexion ouverte.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Values
 api_type:
 - schema
 ms.assetid: 4b14c714-51fa-4225-82ad-83ba9f611824
-description: L’élément values contient une collection de valeurs pour une propriété étendue.
-ms.openlocfilehash: 2018f7a734725abe8d8e456492862d1142fda205
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Values contient une collection de valeurs pour une propriété étendue.
+ms.openlocfilehash: 405f558a17b3ec66c1e0427e1d17d2dcef310647
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465204"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510623"
 ---
 # <a name="values"></a>Values
 
-L’élément **values** contient une collection de valeurs pour une propriété étendue. 
+**L’élément Values** contient une collection de valeurs pour une propriété étendue. 
   
 ```xml
 <Values>

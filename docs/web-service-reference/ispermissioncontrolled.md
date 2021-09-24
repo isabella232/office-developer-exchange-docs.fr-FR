@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsPermissionControlled
 api_type:
 - schema
 ms.assetid: a2fd0340-f31f-4389-a1cd-7e93b40bb3c6
-description: L’élément IsPermissionControlled indique si les messages entrants doivent être contrôlés par des autorisations (protection RMS) afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 5fba06c1c56512f4a362f773f119ea346a4c0d2b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsPermissionControlled indique si les messages entrants doivent être contrôlés par des autorisations (protégées par RMS) pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: d43badedd3ee95b832357cca62937388bd24b751
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460385"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509747"
 ---
 # <a name="ispermissioncontrolled"></a>IsPermissionControlled
 
-L’élément **IsPermissionControlled** indique si les messages entrants doivent être contrôlés par des autorisations (protection RMS) afin que la condition ou l’exception s’applique. 
+**L’élément IsPermissionControlled** indique si les messages entrants doivent être contrôlés par des autorisations (protégées par RMS) pour que la condition ou l’exception s’applique. 
   
 ```XML
 <IsPermissionControlled>true | false</IsPermissionControlled>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être protégé par RMS afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être protégé par RMS afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être protégé par RMS afin que la condition ou l’exception s’applique. La valeur **false indique** que le message ne doit pas être protégé par RMS pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

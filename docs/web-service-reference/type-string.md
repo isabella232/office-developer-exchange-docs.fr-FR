@@ -1,23 +1,23 @@
 ---
-title: Type (chaîne)
+title: Type (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5eea7a8-c40d-42a6-8e0d-67f3252496cf
-description: L’élément type spécifie le type d’adresse postale ou de numéro de téléphone, par exemple, HomeorBusiness.
-ms.openlocfilehash: 83dd6576e8a365be61c4e6d2f3afc8a59aba92a6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Type spécifie le type d’adresse postale ou de numéro de téléphone, par exemple, HomeorBusiness.
+ms.openlocfilehash: 341c79758c3cbf5133bb79a6986a676903a48ef0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523207"
 ---
-# <a name="type-string"></a>Type (chaîne)
+# <a name="type-string"></a>Type (String)
 
-L’élément **type** spécifie le type d’adresse postale ou de numéro de téléphone, par exemple, « accueil » ou « entreprise ». 
+**L’élément Type** spécifie le type d’adresse postale ou de numéro de téléphone, par exemple, « Domicile » ou « Bureau ». 
   
 ```XML
 <Type></Type>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Téléphone](phone.md)  |  [PhoneNumber](phonenumber.md)  |  [Valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Téléphone](phone.md)  |  [PhoneNumber](phonenumber.md)  |  [Value (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **type** est le type d’une adresse postale ou d’un numéro de téléphone. Par exemple, les valeurs « Home » ou « Business » sont des valeurs attendues pour l’élément **type** . 
+La valeur texte de **l’élément Type** est le type d’adresse postale ou de numéro de téléphone. Par exemple, les valeurs « Home » ou « Business » sont des valeurs attendues pour **l’élément Type.** 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsResponseRequested
 api_type:
 - schema
 ms.assetid: 8cb874ed-a538-4de6-ab22-2631092dcdd0
 description: L’élément IsResponseRequested indique si une réponse à un élément est demandée.
-ms.openlocfilehash: 51bfda5ffa97baed6285a995b6877ec65183c2a2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7520f82c97e7aa21901ba3446b42a95a250b3fb1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509643"
 ---
 # <a name="isresponserequested"></a>IsResponseRequested
 
-L’élément **IsResponseRequested** indique si une réponse à un élément est demandée. 
+**L’élément IsResponseRequested** indique si une réponse à un élément est demandée. 
   
 ```xml
 <IsResponseRequested/>
@@ -47,7 +47,7 @@ Aucun.
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |

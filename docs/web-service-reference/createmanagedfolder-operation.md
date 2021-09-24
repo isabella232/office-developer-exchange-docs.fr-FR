@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateManagedFolder
 api_type:
 - schema
 ms.assetid: 60a668a2-b4e9-4db9-ac76-9b181e47b302
-description: L’opération CreateManagedFolder crée un dossier géré dans la Banque d’Exchange.
-ms.openlocfilehash: 779c730b55b9b441644108a6837f9e22d39cc2f4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération CreateManagedFolder crée un dossier géré dans la Exchange store.
+ms.openlocfilehash: 2b00691fbaba294950a091d5caafb8054f3e2073
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44444592"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536423"
 ---
 # <a name="createmanagedfolder-operation"></a>Opération CreateManagedFolder
 
-L’opération CreateManagedFolder crée un dossier géré dans la Banque d’Exchange.
+L’opération CreateManagedFolder crée un dossier géré dans la Exchange store.
   
 ## <a name="using-the-createmanagedfolder-operation"></a>Utilisation de l’opération CreateManagedFolder
 
-L’opération CreateManagedFolder ajoute un dossier personnalisé géré à la boîte aux lettres d’un utilisateur. Vous pouvez utiliser la cmdlet **Get-ManagedFolder** de l’environnement de commande Exchange Management Shell pour rechercher les dossiers gérés à ajouter. Bien que cette applet de commande renvoie les dossiers personnalisés gérés et les dossiers par défaut gérés, seuls les dossiers personnalisés gérés peuvent être ajoutés. Les dossiers personnalisés gérés sont identifiés par le type de dossier ManagedCustomFolder. L’espace de noms System. DirectoryServices inclut également des types qui peuvent être utilisés pour découvrir les noms des dossiers gérés disponibles. 
+L’opération CreateManagedFolder ajoute un dossier personnalisé géré à la boîte aux lettres d’un utilisateur. Vous pouvez utiliser la cmdlet Exchange Management Shell **Get-ManagedFolder** pour rechercher les dossiers gérés disponibles à ajouter. Bien que cette cmdlet renvoie des dossiers personnalisés gérés et des dossiers gérés par défaut, seuls les dossiers personnalisés gérés peuvent être ajoutés. Les dossiers personnalisés gérés sont identifiés par le type de dossier ManagedCustomFolder. L’espace de noms System.DirectoryServices inclut également des types qui peuvent être utilisés pour découvrir les noms des dossiers gérés disponibles. 
   
 > [!NOTE]
-> Vous ne pouvez pas utiliser les services Web Exchange pour rechercher les noms des dossiers gérés disponibles à ajouter à une boîte aux lettres. 
+> Vous ne pouvez pas utiliser Exchange Web Services pour rechercher les noms des dossiers gérés disponibles à ajouter à une boîte aux lettres. 
   
-Vous pouvez utiliser les opérations FindFolder et GetFolder pour accéder aux dossiers gérés. FindFolder permet de rechercher des dossiers dans un dossier parent spécifié. Cela peut être utilisé afin que les dossiers gérés puissent être découverts dans un dossier avant d’essayer d’ajouter un dossier personnalisé géré en double dans le même répertoire. GetFolder est utilisé après l’opération FindFolder pour obtenir plus d’informations sur un dossier personnalisé géré.
+Vous pouvez utiliser les opérations FindFolder et GetFolder pour accéder aux dossiers gérés. FindFolder permet de rechercher des dossiers dans un dossier parent spécifié. Cela permet de découvrir des dossiers gérés dans un dossier avant d’essayer d’ajouter un dossier personnalisé géré en double dans le même répertoire. GetFolder est utilisé après l’opération FindFolder pour obtenir plus d’informations sur un dossier personnalisé géré.
   
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur la configuration de la stratégie de gestion des enregistrements de messagerie (MRM), voir [comment créer une stratégie de boîte aux lettres de dossier géré](https://go.microsoft.com/fwlink/?LinkId=100975).
+Pour plus d’informations sur la façon de configurer la stratégie de gestion des enregistrements de messagerie (MRM), voir [How to Create a Managed Folder Mailbox Policy](https://go.microsoft.com/fwlink/?LinkId=100975).
   
-Pour plus d’informations sur la suppression de dossiers personnalisés gérés d’une boîte aux lettres, consultez la rubrique [Remove-ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976).
+Pour plus d’informations sur la suppression de dossiers personnalisés gérés d’une boîte aux lettres, voir [Remove-ManagedFolder](https://go.microsoft.com/fwlink/?LinkId=100976).
   
 ## <a name="createmanagedfolder-request-example"></a>Exemple de requête CreateManagedFolder
 
 ### <a name="description"></a>Description
 
-L’exemple de requête CreateManagedFolder suivant montre comment ajouter un dossier géré nommé test du dossier géré à une boîte aux lettres.
+L’exemple suivant d’une demande CreateManagedFolder montre comment ajouter un dossier géré nommé Dossier géré de test à une boîte aux lettres.
   
 > [!NOTE]
 > Vous pouvez également utiliser l’accès délégué pour ajouter des dossiers personnalisés gérés. 
@@ -65,7 +65,7 @@ L’exemple de requête CreateManagedFolder suivant montre comment ajouter un do
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -75,7 +75,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [FolderName](foldername.md)
     
-Pour trouver d’autres options pour le message de demande de l’opération CreateManagedFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CreateManagedFolder](createmanagedfolder.md) . 
+Pour rechercher d’autres options pour le message de demande de l’opération CreateManagedFolder, explorez la hiérarchie de schéma. Commencez à [l’élément CreateManagedFolder.](createmanagedfolder.md) 
   
 ## <a name="successful-createmanagedfolder-response"></a>Réponse CreateManagedFolder réussie
 
@@ -84,7 +84,7 @@ Pour trouver d’autres options pour le message de demande de l’opération Cre
 L’exemple de code suivant montre une réponse réussie à une demande CreateManagedFolder.
   
 > [!NOTE]
-> Les valeurs d’attribut **ID** et **ChangeKey** ont été raccourcies afin de préserver la lisibilité. 
+> Les **valeurs des** attributs ID et **ChangeKey** ont été raccourcies pour préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -134,7 +134,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [FolderId](folderid.md)
     
-Pour rechercher d’autres options pour les messages de réponse de l’opération CreateManagedFolder, explorez la hiérarchie du schéma. Commencez par l’élément [CreateManagedFolderResponse](createmanagedfolderresponse.md) . 
+Pour rechercher d’autres options pour les messages de réponse de l’opération CreateManagedFolder, explorez la hiérarchie de schéma. Commencez à [l’élément CreateManagedFolderResponse.](createmanagedfolderresponse.md) 
   
 ## <a name="createmanagedfolder-error-response"></a>Réponse d’erreur CreateManagedFolder
 

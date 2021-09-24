@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d33f557-c9d5-4f7f-82c0-d800412f8b7e
 description: L’élément Preview spécifie les 256 premiers caractères d’un élément à afficher.
-ms.openlocfilehash: 883a9b7ed45add423cbe942d1eabb90c53ac1ddf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f91423133cb0944e323680d905ed06486ec0d0b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468109"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534662"
 ---
 # <a name="preview"></a>Aperçu
 
-L’élément **preview** spécifie les 256 premiers caractères d’un élément à afficher. 
+**L’élément Preview** spécifie les 256 premiers caractères d’un élément à afficher. 
   
 ```XML
 <Preview></Preview>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément Preview est le premier caractère 256 de l’élément.
+La valeur de texte de l’élément Preview est les 256 premiers caractères de l’élément.
   
 ## <a name="remarks"></a>Remarques
 

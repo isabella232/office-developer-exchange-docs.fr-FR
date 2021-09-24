@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 4046821a-d6f3-4764-82be-4011221ce7a3
-description: L’élément port spécifie le port utilisé pour se connecter à la Banque.
-ms.openlocfilehash: 2da59e03a57b44fb12d14368d1b585ba845eacfe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Port spécifie le port utilisé pour se connecter au magasin.
+ms.openlocfilehash: 5c29a0f760d8228a6e21d2e9287e69072fca557e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516495"
 ---
 # <a name="port-pox"></a>Port (POX)
 
-L’élément **port** spécifie le port utilisé pour se connecter à la Banque. 
+**L’élément Port** spécifie le port utilisé pour se connecter au magasin. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,19 +50,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 où le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le port utilisé pour accéder au serveur Exchange.
+La valeur de texte représente le port utilisé pour accéder au Exchange serveur.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur **port** n’est pas utilisée si l’élément [Server (POX)](server-pox.md) contient une URL. 
+La **valeur Port** n’est pas utilisée si [l’élément Server (POX)](server-pox.md) contient une URL. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

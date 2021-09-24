@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15ff513d-f39e-44ed-a13f-ab3f86fa37e1
-description: L’élément HasChanged indique si la photo d’un utilisateur a été modifiée.
-ms.openlocfilehash: d777220f55d33cde548d8257cf249b57481a43f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément HasChanged indique si la photo d’un utilisateur a changé.
+ms.openlocfilehash: 456660272815aac27ea99919eb92a02f754fb4ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462786"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516789"
 ---
 # <a name="haschanged"></a>HasChanged
 
-L’élément **HasChanged** indique si la photo d’un utilisateur a été modifiée. 
+**L’élément HasChanged** indique si la photo d’un utilisateur a changé. 
   
 ```XML
 <HasChanged> true | false </HasChanged>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **HasChanged** indique que la photo a changé depuis son dernier renvoi. La valeur **false** indique que la photo n’a pas été modifiée depuis son dernier renvoi. 
+Une valeur de texte **true pour** l’élément **HasChanged** indique que la photo a changé depuis la dernière fois qu’elle a été renvoyée. La valeur **false indique** que la photo n’a pas changé depuis la dernière fois qu’elle a été renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 

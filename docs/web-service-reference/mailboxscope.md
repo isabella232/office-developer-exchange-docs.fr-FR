@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9778823-f290-4827-ba19-5f391ed4f877
-description: L’élément MailboxScope identifie si une recherche ou une récupération d’une conversation doit s’étendre sur la boîte aux lettres principale, la boîte aux lettres d’archivage ou les deux.
-ms.openlocfilehash: 92823c06d4fe186917c3cfb532eda821bd6a95a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxScope indique si une recherche ou une extraction d’une conversation doit s’étendre à la boîte aux lettres principale, à la boîte aux lettres d’archivage ou à la boîte aux lettres principale et d’archivage.
+ms.openlocfilehash: 705c72ae2aefbb16599f392eb712d080668490b0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455372"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522879"
 ---
 # <a name="mailboxscope"></a>MailboxScope
 
-L’élément **MailboxScope** identifie si une recherche ou une récupération d’une conversation doit s’étendre sur la boîte aux lettres principale, la boîte aux lettres d’archivage ou les deux. 
+**L’élément MailboxScope** indique si une recherche ou une extraction d’une conversation doit s’étendre à la boîte aux lettres principale, à la boîte aux lettres d’archivage ou à la boîte aux lettres principale et d’archivage. 
   
 ```XML
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
@@ -43,7 +43,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **MailboxScope** est la portée de la recherche ou de l’obtention d’éléments dans une conversation sur des boîtes aux lettres principales, des boîtes aux lettres d’archivage ou les boîtes aux lettres principales et d’archivage. Une valeur de texte de **PrimaryOnly** indique une étendue qui cible la boîte aux lettres principale d’un utilisateur. Une valeur de texte de **ArchiveOnly** indique une étendue qui cible la boîte aux lettres d’archivage d’un utilisateur. Une valeur de texte de **All** indique une étendue qui cible à la fois la boîte aux lettres principale et la boîte aux lettres d’archivage. 
+La valeur de texte de l’élément **MailboxScope** est l’étendue de recherche ou d’obtention d’éléments dans une conversation entre les boîtes aux lettres principales, les boîtes aux lettres d’archivage ou les boîtes aux lettres principales et d’archivage. Une valeur de texte **PrimaryOnly indique** une étendue qui cible la boîte aux lettres principale d’un utilisateur. La valeur texte **ArchiveOnly** indique une étendue qui cible la boîte aux lettres d’archivage d’un utilisateur. La valeur texte **All** indique une étendue qui cible à la fois la boîte aux lettres principale et la boîte aux lettres d’archivage. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

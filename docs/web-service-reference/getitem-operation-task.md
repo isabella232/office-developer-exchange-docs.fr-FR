@@ -5,33 +5,33 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 8265dd06-1752-4470-8074-5f0e3e970f52
-description: L’opération GetItem est utilisée pour obtenir des tâches à partir de la Banque d’Exchange.
-ms.openlocfilehash: 17a23d4c2a35761e831610f3514c980a5a67e12b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetItem est utilisée pour obtenir des tâches à partir de la Exchange store.
+ms.openlocfilehash: 36e7b5ecc37c05f64c3b6617f45396805be0e532
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463334"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509839"
 ---
 # <a name="getitem-operation-task"></a>Opération GetItem (tâche)
 
-L’opération GetItem est utilisée pour obtenir des tâches à partir de la Banque d’Exchange.
+L’opération GetItem est utilisée pour obtenir des tâches à partir de la Exchange store.
   
 ## <a name="remarks"></a>Remarques
 
-Le format de la demande de GetItem pour les tâches est le même que pour tout autre type d’élément. La seule différence réside dans le fait que des propriétés supplémentaires peuvent être demandées au sein de la forme de la réponse. Ces propriétés supplémentaires doivent être des propriétés relatives aux tâches ou des propriétés étendues.
+Le format de la demande GetItem pour les tâches est identique à GetItem pour tout autre type d’élément. La seule différence est la demande de propriétés supplémentaires dans la forme de réponse. Ces propriétés supplémentaires doivent être des propriétés liées aux tâches ou des propriétés étendues.
   
-## <a name="task-getitem-request-example"></a>Exemple de requête de la tâche GetItem
+## <a name="task-getitem-request-example"></a>Exemple de requête Task GetItem
 
 ### <a name="description"></a>Description
 
-L’exemple de requête GetItem suivant montre comment obtenir un élément de tâche.
+L’exemple suivant d’une requête GetItem montre comment obtenir un élément de tâche.
   
 ### <a name="code"></a>Code
 
@@ -58,9 +58,9 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -74,7 +74,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ItemId](itemid.md)
     
-## <a name="task-getitem-response-example"></a>Exemple de réponse de la tâche GetItem
+## <a name="task-getitem-response-example"></a>Exemple de réponse Task GetItem
 
 ### <a name="description"></a>Description
 
@@ -136,7 +136,7 @@ L’exemple suivant montre une réponse réussie à une demande GetItem.
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> Les identificateurs d’élément et de dossier et les clés de modification ont été raccourcies afin de préserver la lisibilité. 
+> Les identificateurs d’élément et de dossier et les touches de modification ont été raccourcis pour préserver la lisibilité. 
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -154,7 +154,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Items](items.md)
     
-- [Task](task.md)
+- [Tâche](task.md)
     
 - [ItemId](itemid.md)
     
@@ -162,7 +162,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ItemClass](itemclass.md)
     
-- [Subject](subject.md)
+- [Sujet](subject.md)
     
 - [Sensitivity](sensitivity.md)
     
@@ -200,7 +200,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [PercentComplete](percentcomplete.md)
     
-- [Status](status.md)
+- [État](status.md)
     
 - [StatusDescription](statusdescription.md)
     

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 616e9a88-afd2-4df3-aa3b-f126bdebfaec
-description: L’élément EndDate spécifie la date de fin de l’élément pour lequel la relance est destinée.
-ms.openlocfilehash: 37ebb31f4ff94e7e5eeacf218c9cbccdaf4f3ace
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EndDate spécifie la date de fin de l’élément pour le rappel.
+ms.openlocfilehash: 66c5a6b0b03ca2b240b469bd232d5b6b6487e15d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460154"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517097"
 ---
 # <a name="enddate-remindertype"></a>EndDate (ReminderType)
 
-L’élément **EndDate** spécifie la date de fin de l’élément pour lequel la relance est destinée. 
+**L’élément EndDate** spécifie la date de fin de l’élément pour le rappel. 
   
 ```XML
 <EndDate/>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EndDate** est la date de fin d’un élément. 
+La valeur de texte de **l’élément EndDate** est la date de fin d’un élément. 
   
 ## <a name="remarks"></a>Remarques
 

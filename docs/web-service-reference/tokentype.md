@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83c650eb-7ab8-480c-a7c9-df60072ee042
 description: L’élément TokenType spécifie le type de jeton.
-ms.openlocfilehash: a42849dce9ed0253c3c5d4d4e899367b8e105594
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a51ddfdd097a94370168077b9eca8be2e0581603
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459881"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523319"
 ---
 # <a name="tokentype"></a>TokenType
 
-L’élément **TokenType** spécifie le type de jeton. 
+**L’élément TokenType** spécifie le type de jeton. 
   
 ```XML
 <TokenType> CallerIdentity | ExtensionCallback | ScopedToken </TokenType>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[TokenRequest](tokenrequest.md)  |  [Jeton (Token](token.md) )
+[TokenRequest](tokenrequest.md)  |  [Jeton](token.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TokenType** est le type de jeton. La valeur de texte **CallerIdentity** indique que le jeton est un jeton d’identité de l’appelant. La valeur de texte **ExtensionCallback** indique que le jeton est destiné à un rappel d’extension. La valeur de texte **ScopedToken** indique que le jeton d’accès au client est un jeton d’étendue. 
+La valeur de texte de **l’élément TokenType** est le type de jeton. La valeur texte de **CallerIdentity indique** que le jeton est un jeton d’identité d’appelant. La valeur de texte **extensionCallback indique** que le jeton est pour un rappel d’extension. La valeur de texte **ScopedToken** indique que le jeton d’accès client est un jeton d’étendue. 
   
 ## <a name="remarks"></a>Remarques
 

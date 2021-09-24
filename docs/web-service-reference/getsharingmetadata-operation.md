@@ -1,42 +1,42 @@
 ---
-title: Opération de GetSharingMetadata
+title: Opération GetSharingMetadata
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetSharingMetadata
 api_type:
 - schema
 ms.assetid: eaf29427-ecf8-4a5e-9a54-db2e6414b35e
 description: L’opération GetSharingMetadata obtient un jeton d’authentification opaque qui identifie une invitation de partage.
-ms.openlocfilehash: 0390b9caa7b2e9847b1e8dcdc1b911a35e3c5864
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c7b2d021f618abe5e49022949e85aa212184800c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530182"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516901"
 ---
-# <a name="getsharingmetadata-operation"></a>Opération de GetSharingMetadata
+# <a name="getsharingmetadata-operation"></a>Opération GetSharingMetadata
 
-L’opération **GetSharingMetadata** obtient un jeton d’authentification opaque qui identifie une invitation de partage. 
+**L’opération GetSharingMetadata** obtient un jeton d’authentification opaque qui identifie une invitation de partage. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetSharingMetadata** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetSharingMetadata** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getsharingmetadata-request-example"></a>Exemple de requête GetSharingMetadata
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre comment créer une demande pour obtenir un jeton d’authentification opaque qui identifie une invitation de partage. Dans cet exemple, user1@contoso.com souhaite partager le dossier spécifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) avec user1@fabikam.com et User2@test.com. 
+L’exemple suivant montre comment créer une demande pour obtenir un jeton d’authentification opaque qui identifie une invitation de partage. Dans cet exemple, user1@contoso.com souhaite partager le dossier spécifié par l’élément [IdOfFolderToShare](idoffoldertoshare.md) avec user1@fabikam.com et user2@test.com. 
   
 ### <a name="code"></a>Code
 
@@ -65,13 +65,13 @@ L’exemple suivant montre comment créer une demande pour obtenir un jeton d’
 
 ### <a name="comments"></a>Commentaires
 
-L’élément [Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) contient un élément [SmtpAddress](smtpaddress.md) pour chaque destinataire prévu de l’invitation de partage. 
+[L’élément Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) contient un élément [SmtpAddress](smtpaddress.md) pour chaque destinataire prévu de l’invitation de partage. 
   
 ## <a name="successful-getsharingmetadata-response"></a>Réponse GetSharingMetadata réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **GetSharingMetadata** . Dans cet exemple, deux destinataires ont été spécifiés dans la requête **GetSharingMetadata** correspondante : user1@fabrikam.com et User2@test.com. 
+L’exemple suivant montre une réponse réussie à **une demande GetSharingMetadata.** Dans cet exemple, deux destinataires ont été spécifiés dans la demande **GetSharingMetadata** correspondante : user1@fabrikam.com et user2@test.com. 
   
 ### <a name="code"></a>Code
 
@@ -156,17 +156,17 @@ L’exemple suivant montre une réponse réussie à une demande **GetSharingMeta
 
 ### <a name="comments"></a>Commentaires
 
-La réponse contient un élément [EncryptedSharedFolderData](encryptedsharedfolderdata.md) pour chaque organisation représentée par des destinataires valides qui sont spécifiés dans la demande **GetSharingMetadata** . 
+La réponse contient un [élément EncryptedSharedFolderData](encryptedsharedfolderdata.md) pour chaque organisation représentée par des destinataires valides spécifiés dans la demande **GetSharingMetadata.** 
   
-La demande **GetSharingMetadata** réussit même si des destinataires non valides sont spécifiés dans la demande. L’élément [InvalidRecipients](invalidrecipients.md) contient des informations sur les destinataires non valides. Pour plus d’informations sur les raisons pour lesquelles un destinataire peut être non valide, voir [ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md).
+La **demande GetSharingMetadata** réussit même si des destinataires non valides sont spécifiés dans la demande. [L’élément InvalidRecipients contient](invalidrecipients.md) des informations sur les destinataires non valides. Pour plus d’informations sur les raisons pour lesquelles un destinataire peut être non valide, voir [ResponseCode (InvalidRecipientResponseCodeType).](responsecode-invalidrecipientresponsecodetype.md)
   
-Si tous les destinataires prévus ne sont pas valides, l’élément [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) est vide. 
+Si tous les destinataires prévus ne sont pas valides, l’élément [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) sera vide. 
   
 ## <a name="getsharingmetadata-error-response"></a>Réponse d’erreur GetSharingMetadata
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête **GetSharingMetadata** . 
+L’exemple suivant montre une réponse d’erreur à **une demande GetSharingMetadata.** 
   
 ### <a name="code"></a>Code
 

@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 211731a3-2470-49af-bda3-1ddfc15a8e46
-description: Trouvez des informations sur l’opération EWS DisableApp.
-ms.openlocfilehash: 8e1f3a257a70c042a01ed70da97cfa0573a2d454
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération DisableApp EWS.
+ms.openlocfilehash: 7a4d3a13351042cc1a192388416381ebe28206bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510154"
 ---
 # <a name="disableapp-operation"></a>Opération DisableApp
 
-Trouvez des informations sur l’opération EWS **DisableApp** . 
+Trouvez des informations sur **l’opération DisableApp** EWS. 
   
-L’opération **DisableApp** désactive une application de messagerie pour Outlook. 
+**L’opération DisableApp** désactive une application de messagerie pour Outlook. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-disableapp-operation"></a>Utilisation de l’opération DisableApp
 
-L’opération **DisableApp** prend deux arguments dans la demande qui identifie l’application de messagerie à désactiver et la raison pour laquelle elle a été désactivée. 
+**L’opération DisableApp** prend deux arguments dans la demande qui identifient l’application de messagerie à désactiver et la raison pour laquelle elle a été désactivée. 
   
 ### <a name="disableapp-operation-soap-headers"></a>En-têtes SOAP d’opération DisableApp
 
-L’opération **DisableApp** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération DisableApp** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="disableapp-operation-request-example-disable-a-mail-app-installed-in-a-mailbox"></a>Exemple de requête d’opération DisableApp : désactiver une application de messagerie installée dans une boîte aux lettres
+## <a name="disableapp-operation-request-example-disable-a-mail-app-installed-in-a-mailbox"></a>Exemple de demande d’opération DisableApp : désactiver une application de messagerie installée dans une boîte aux lettres
 
-L’exemple suivant de demande d’opération **DisableApp** montre comment désactiver une application de messagerie. L’identificateur de l’application se trouve dans le manifeste de l’application qui est renvoyé dans une réponse d' [opération GetAppManifests](getappmanifests-operation.md) . 
+L’exemple suivant **d’une demande d’opération DisableApp** montre comment désactiver une application de messagerie. L’identificateur d’application se trouve dans le manifeste de l’application qui est renvoyé dans une [réponse d’opération GetAppManifests.](getappmanifests-operation.md) 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,17 +61,17 @@ L’exemple suivant de demande d’opération **DisableApp** montre comment dés
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [DisableApp](disableapp.md)
     
-- [ID (chaîne)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [DisableReason](disablereason.md)
     
 ## <a name="successful-disableapp-operation-response"></a>Réponse de l’opération DisableApp réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **DisableApp** pour désactiver une application de messagerie. 
+L’exemple suivant montre une réponse réussie à une **demande d’opération DisableApp** pour désactiver une application de messagerie. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -97,7 +97,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [DisableAppResponse](disableappresponse.md)
     
@@ -105,7 +105,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="disableapp-operation-error-response"></a>Réponse d’erreur d’opération DisableApp
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **DisableApp** . Il s’agit d’une réponse à une demande de désactivation d’une application de messagerie qui n’est pas installée dans une boîte aux lettres. 
+L’exemple suivant montre une réponse d’erreur à **une demande d’opération DisableApp.** Il s’agit d’une réponse à une demande de désactivation d’une application de messagerie qui n’est pas installée dans une boîte aux lettres. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -123,7 +123,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [DisableAppResponse](disableappresponse.md)
     
@@ -133,7 +133,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

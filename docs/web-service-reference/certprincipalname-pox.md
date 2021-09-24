@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a24092c9-58be-4008-92c4-68ec5c6c0fa6
-description: L’élément CertPrincipalName spécifie le nom de principal du certificat SSL (Secure Sockets Layer) qui est requis pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL.
-ms.openlocfilehash: fb2a1c8577bce41945b669be56f2a94a2c4dca26
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CertPrincipalName spécifie le nom principal du certificat SSL (Secure Sockets Layer) requis pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL.
+ms.openlocfilehash: 69ee49cdad09032c269ffbbcc918044daf61cb9b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463341"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523250"
 ---
 # <a name="certprincipalname-pox"></a>CertPrincipalName (POX)
 
-L’élément **CertPrincipalName** spécifie le nom de principal du certificat SSL (Secure Sockets Layer) qui est requis pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL. 
+**L’élément CertPrincipalName** spécifie le nom principal du certificat SSL (Secure Sockets Layer) requis pour se connecter à l’organisation Microsoft Exchange Server 2007 à l’aide de SSL. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,21 +50,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Exchange 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Exchange 2007 où le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie le nom de principal du certificat SSL qui est requis pour se connecter à l’organisation Microsoft Exchange à l’aide de SSL.
+La valeur de texte spécifie le nom principal du certificat SSL requis pour se connecter à l’organisation Microsoft Exchange à l’aide de SSL.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’élément **CertPrincipalName** n’est pas spécifié, la valeur par défaut est définie sur msstd : serveur, où serveur est la valeur spécifiée dans l’élément [serveur (POX)](server-pox.md) . Par exemple, si le serveur est spécifié en tant que example.com et que la valeur de **CertPrincipalName** est laissée vide avec le [protocole SSL (POX)](ssl-pox.md) activé, la valeur par défaut de **CertPrincipalName** serait msstd :example. com. 
+Si **l’élément CertPrincipalName** n’est pas spécifié, la valeur par défaut est msstd:SERVER, où SERVER est la valeur spécifiée dans l’élément [Server (POX).](server-pox.md) Par exemple, si SERVER est spécifié en tant que example.com et que **CertPrincipalName** est laissé vide avec [SSL (POX)](ssl-pox.md) allumé, la valeur par défaut de **CertPrincipalName** sera msstd:example.com. 
   
-Si **aucune** valeur n’est spécifiée, Windows valide le nom de principal du certificat en fonction des informations figurant dans la rubrique [noms principaux](https://go.microsoft.com/fwlink/?LinkId=93417) sur MSDN. 
+Si **aucun n’est** spécifié, Windows valide le nom principal du certificat en fonction des informations de la rubrique [Noms](https://go.microsoft.com/fwlink/?LinkId=93417) principaux sur MSDN. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

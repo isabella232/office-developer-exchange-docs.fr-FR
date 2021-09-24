@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 387328ae-4dcc-4230-8e4b-01d7894bbce2
 description: L’élément VotingOptionData spécifie des informations sur chaque option de vote.
-ms.openlocfilehash: f4240dc5c5d88e4964087b80e9081b93b41eed94
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3fa7a8e3c5eeee520da8024006ac8c942a33a9e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468648"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510546"
 ---
 # <a name="votingoptiondata"></a>VotingOptionData
 
-L’élément **VotingOptionData** spécifie des informations sur chaque option de vote. 
+**L’élément VotingOptionData** spécifie des informations sur chaque option de vote. 
   
 ```XML
 <VotingOptionData>
@@ -41,7 +41,7 @@ Aucune.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Viennent](useroptions.md)
+[UserOptions](useroptions.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-[Viennent](useroptions.md)
+[UserOptions](useroptions.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

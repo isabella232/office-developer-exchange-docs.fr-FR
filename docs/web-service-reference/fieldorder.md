@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FieldOrder
 api_type:
 - schema
 ms.assetid: b9364842-bbe2-4221-afef-bf5022bc89ec
-description: L’élément FieldOrder représente un champ unique par lequel trier les résultats et indique le sens du tri.
-ms.openlocfilehash: 19dee7175d541dd99b53e004ea8ccd785b619184
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FieldOrder représente un seul champ par lequel trier les résultats et indique le sens du tri.
+ms.openlocfilehash: 9130e3ccb5319408399628d280f8101c9e1697aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510076"
 ---
 # <a name="fieldorder"></a>FieldOrder
 
-L’élément **FieldOrder** représente un champ unique par lequel trier les résultats et indique le sens du tri. 
+**L’élément FieldOrder** représente un seul champ par lequel trier les résultats et indique le sens du tri. 
   
 ```xml
 <FieldOrder Order="">
@@ -51,13 +51,13 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Order** <br/> | Décrit la direction de l’ordre de tri.<br/><br/> Les valeurs possibles sont les suivantes : <br/> <br/>-Croissant  <br/>-Descending  <br/> |
+|**Order** <br/> | Décrit le sens de l’ordre de tri.<br/><br/> Les valeurs possibles sont les suivantes : <br/> <br/>- Croissant  <br/>- Décroit  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencés par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’un dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI.  <br/> |
    
@@ -65,7 +65,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SortOrder](sortorder.md) <br/> |Définit le mode de tri des éléments dans une requête FindItem.  <br/> Voici l’expression XPath de cet élément :`/FindItem/SortOrder` <br/> |
+|[SortOrder](sortorder.md) <br/> |Définit la façon dont les éléments sont triés dans une requête FindItem.  <br/> Voici l’expression XPath de cet élément :  `/FindItem/SortOrder` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

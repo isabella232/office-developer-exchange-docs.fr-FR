@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CompanyName
 api_type:
 - schema
 ms.assetid: 5ebf0478-6d0e-4aa8-98ad-2d021ab74bc1
-description: L’élément CompanyName représente le nom de la société associée à un contact.
-ms.openlocfilehash: 35ce49303c1e6009ce6c12b00c51713b39b64ca0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CompanyName représente le nom de la société associé à un contact.
+ms.openlocfilehash: 17c98d3cc1e4a3ec59477e771c50a0e6b2fd5f23
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459054"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523187"
 ---
 # <a name="companyname"></a>CompanyName
 
-L’élément **CompanyName** représente le nom de la société associée à un contact. 
+**L’élément CompanyName** représente le nom de la société associé à un contact. 
   
 ```xml
 <CompanyName/>

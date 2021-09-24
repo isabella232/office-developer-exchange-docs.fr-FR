@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DailyRecurrence
 api_type:
 - schema
 ms.assetid: 0aaf265d-b723-49c6-8e9c-9ba60141e9ab
-description: L’élément DailyRecurrence décrit la fréquence, en jours, à laquelle un élément de calendrier ou une tâche se répète.
-ms.openlocfilehash: d18a04ced19c87996c3a092f6668ab00c5a3f006
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DailyRecurrence décrit la fréquence, en jours, de récursence d’un élément de calendrier ou d’une tâche.
+ms.openlocfilehash: 7f79b4f69571a1d3ea1c661831825fb2899ebcdb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462170"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535940"
 ---
 # <a name="dailyrecurrence"></a>DailyRecurrence
 
-L’élément **DailyRecurrence** décrit la fréquence, en jours, à laquelle un élément de calendrier ou une tâche se répète. 
+**L’élément DailyRecurrence** décrit la fréquence, en jours, de récursence d’un élément de calendrier ou d’une tâche. 
   
 ```xml
 <DailyRecurrence>
@@ -43,14 +43,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |Définit l’intervalle, en jours, entre deux éléments périodiques consécutifs. La valeur doit être comprise entre 1 et 999.  <br/> |
+|[Interval](interval.md) <br/> |Définit l’intervalle, en jours, entre deux éléments périodiques consécutifs. La valeur doit être dans la plage de 1 à 999.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
-|[Récurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité des éléments de calendrier et des demandes de réunion.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la tendance de récurrence des éléments de calendrier et des demandes de réunion.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

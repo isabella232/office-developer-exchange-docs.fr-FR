@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3488d56-a00d-4c41-a348-45aad4af6439
-description: L’élément OfficeLocations spécifie un tableau d’emplacements de bureau et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 57493c69288b3d6cfb5e2df311d8d311b87507cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OfficeLocations spécifie un tableau d’emplacements de bureau et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: baa9013e25177c3d2342669ccedbb78761e37e7b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467059"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509533"
 ---
 # <a name="officelocations"></a>OfficeLocations
 
-L’élément **OfficeLocations** spécifie un tableau d’emplacements de bureau et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément OfficeLocations** spécifie un tableau d’emplacements de bureau et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <OfficeLocations>   

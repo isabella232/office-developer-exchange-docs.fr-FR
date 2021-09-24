@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96103f15-a3e0-497c-af21-90adbf9a4b14
-description: L’élément TokenType identifie le type de jeton d’accès au client qui sera renvoyé dans la réponse GetClientAccessToken.
-ms.openlocfilehash: 49ba2973967b12396e0c7f56129c89c40ccbcf97
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TokenType identifie le type de jeton d’accès client qui sera renvoyé dans la réponse GetClientAccessToken.
+ms.openlocfilehash: 967d64796799147876ef6443b40b16154b55c01a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523355"
 ---
 # <a name="tokentype-clientaccesstokentype"></a>TokenType (ClientAccessTokenType)
 
-L’élément **TokenType** identifie le type de jeton d’accès au client qui sera renvoyé dans la réponse **GetClientAccessToken** . 
+**L’élément TokenType** identifie le type de jeton d’accès client qui sera renvoyé dans la réponse **GetClientAccessToken.** 
   
 ```XML
 <TokenType>CallerIdentity | ExtensionCallback | ScopedToken</TokenType>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[TokenRequest](tokenrequest.md)  |  [Jeton (ClientAccessTokenType)](token-clientaccesstokentype.md)
+[TokenRequest](tokenrequest.md)  |  [Token (ClientAccessTokenType)](token-clientaccesstokentype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **CallerIdentity** signifie qu’un jeton d’accès client d’identité de l’appelant est renvoyé. Une valeur de texte de **ExtensionCallback** indique qu’un jeton d’accès au client de rappel d’extension est renvoyé. Une valeur de texte de **ScopedToken** indique que le jeton d’accès au client est un jeton d’étendue. 
+Une valeur textuelle **CallerIdentity** signifie qu’un jeton d’accès client d’identité d’appelant est renvoyé. Une valeur de texte **ExtensionCallback** indique qu’un jeton d’accès client de rappel d’extension est renvoyé. Une valeur de texte **ScopedToken** indique que le jeton d’accès client est un jeton d’étendue. 
   
 ## <a name="remarks"></a>Remarques
 

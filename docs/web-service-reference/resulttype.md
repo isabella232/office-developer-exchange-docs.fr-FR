@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 488ee828-343f-4382-a5e8-eed1005f5dbc
 description: L’élément ResultType contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou aperçu uniquement.
-ms.openlocfilehash: 6617c8b4b64cd9b6728317d7247bcc5378e488f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 65227a8f79a7abd597653b646a7c3985c3e38ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509454"
 ---
 # <a name="resulttype"></a>ResultType
 
-L’élément **ResultType** contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou aperçu uniquement. 
+**L’élément ResultType** contient le type de recherche à effectuer. Le type de recherche peut être statistiques uniquement ou aperçu uniquement. 
   
 ```XML
 <ResultType>StatisticsOnly | PreviewOnly</ResultType>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ResultType** est le type de résultat renvoyé pour une recherche de découverte. Une valeur de texte de **StatisticsOnly** renverra les statistiques de la recherche. Une valeur de texte de **PreviewOnly** renverra des informations d’aperçu d’élément. 
+La valeur de texte de **l’élément ResultType** est le type de résultat renvoyé pour une recherche de découverte. Une valeur de texte **StatisticsOnly retourne** les statistiques de recherche. Une valeur de texte **PreviewOnly retourne des** informations d’aperçu d’élément. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

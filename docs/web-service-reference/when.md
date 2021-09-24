@@ -1,27 +1,27 @@
 ---
-title: Quand
+title: When
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - When
 api_type:
 - schema
 ms.assetid: c7df1333-a33d-4cc6-a08a-34b68843f47d
-description: L’élément when fournit des informations sur le moment où un calendrier ou un élément de réunion se produit.
-ms.openlocfilehash: 7c5f85184f966d909960bf1d79f5b8d33c67b51a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément When fournit des informations sur le moment où se produit un calendrier ou un élément de réunion.
+ms.openlocfilehash: 08c4b9e445a1050d8b2625abd019082739c3bac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461855"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510560"
 ---
-# <a name="when"></a>Quand
+# <a name="when"></a>When
 
-L’élément **When** fournit des informations sur le moment où un calendrier ou un élément de réunion se produit. 
+**L’élément When** fournit des informations sur le moment où se produit un calendrier ou un élément de réunion. 
   
 ```xml
 <When/>
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une chaîne qui décrit quand un élément de calendrier se produit.
+La valeur de texte est une chaîne qui décrit lorsqu’un élément de calendrier se produit.
   
 ## <a name="remarks"></a>Remarques
 

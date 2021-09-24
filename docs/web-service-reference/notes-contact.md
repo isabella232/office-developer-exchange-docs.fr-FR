@@ -5,17 +5,17 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e851914a-24be-431c-8d6c-cbedfc0652a9
 description: L'élément Notes contient des informations de contact supplémentaires.
-ms.openlocfilehash: bde0ec875e282e88ed4ba19153c758c4069d40cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bdaa02269358e19ad518566349c8073c120f768f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537558"
 ---
-# <a name="notes-contact"></a>Notes (contacts)
+# <a name="notes-contact"></a>Notes (Contact)
 
 Ce document peut contenir des informations liées aux fonctionnalités ou produits préliminaires qui sont sujettes à modifications avant la sortie de la version définitive. Ce document est fourni "tel quel" à titre indicatif et Microsoft exclut toute garantie, expresse ou implicite, en ce qui concerne ce document. L'élément **Notes** contient des informations de contact supplémentaires. 
   

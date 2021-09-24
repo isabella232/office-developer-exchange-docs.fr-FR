@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38f0b7f4-2338-4e90-af67-e0951e8edfa3
-description: L’élément RightsManagementLicenseData spécifie des informations sur la licence de gestion des droits pour un élément.
-ms.openlocfilehash: 892edfd6775838b1e6329e8db0ee9bb8e3c519ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RightsManagementLicenseData spécifie des informations sur la licence de gestion des droits d’un élément.
+ms.openlocfilehash: 8875e9bad425224f86b6de5149f87a36c2a2581e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463187"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523467"
 ---
 # <a name="rightsmanagementlicensedata"></a>RightsManagementLicenseData
 
-L’élément **RightsManagementLicenseData** spécifie des informations sur la licence de gestion des droits pour un élément. 
+**L’élément RightsManagementLicenseData** spécifie des informations sur la licence de gestion des droits d’un élément. 
   
 ```XML
 <RightsManagementLicenseData>
@@ -55,7 +55,7 @@ Aucune.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Élément](item.md)  |  [Message](message-ex15websvcsotherref.md)  |  [MeetingMessage](meetingmessage.md)  |  [Propriété meetingrequest](meetingrequest.md)  |  [MeetingResponse](meetingresponse.md)  |  [MeetingCancellation](meetingcancellation.md)  |  [Tâche](task.md)  |  [PostItem](postitem.md)  |  [CalendarItem](calendaritem.md)  |  [Contact](contact.md)  |  [DistributionList](distributionlist.md)
+[Élément](item.md)  |  [Message](message-ex15websvcsotherref.md)  |  [MeetingMessage](meetingmessage.md)  |  [MeetingRequest](meetingrequest.md)  |  [MeetingResponse](meetingresponse.md)  |  [MeetingCancellation](meetingcancellation.md)  |  [Tâche](task.md)  |  [PostItem](postitem.md)  |  [CalendarItem](calendaritem.md)  |  [Contact](contact.md)  |  [DistributionList](distributionlist.md)
   
 ## <a name="remarks"></a>Remarques
 

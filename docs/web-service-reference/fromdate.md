@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cbb1320c-479e-4bd3-a462-4ab14c24b1c5
-description: L’élément DateDébut spécifie la date à laquelle le message a été envoyé.
-ms.openlocfilehash: c08873a11915f4e82ad5b6f62423d0abdb9a429b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FromDate spécifie la date à laquelle le message a été envoyé.
+ms.openlocfilehash: 1749f92e70e081c554f412f21b8ae3d8cf2db1f2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463061"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509950"
 ---
 # <a name="fromdate"></a>FromDate
 
-L’élément **DateDébut** spécifie la date à laquelle le message a été envoyé. 
+**L’élément FromDate** spécifie la date à laquelle le message a été envoyé. 
   
 ```XML
 <FromDate></FromDate>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DateDébut** est la date et l’heure auxquelles un message a été envoyé. 
+La valeur de texte de **l’élément FromDate** est la date et l’heure d’envoi d’un message. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -55,8 +55,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

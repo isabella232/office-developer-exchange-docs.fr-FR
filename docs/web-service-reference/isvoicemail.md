@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsVoicemail
 api_type:
 - schema
 ms.assetid: 96d81d6e-4b75-43ad-b151-2dd4fd57db94
 description: L'élément IsVoicemail indique si les messages entrants doivent être des messages vocaux afin que l'exception ou la condition à appliquer.
-ms.openlocfilehash: 8c60513a54cbf2398fde4b71ab1fbcf8a5efb608
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: df7233f282d9b6b2e5a0833aef389cc50614d986
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458137"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522844"
 ---
 # <a name="isvoicemail"></a>IsVoicemail
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

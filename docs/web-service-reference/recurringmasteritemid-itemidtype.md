@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48d831cf-10d8-480b-86d2-f9c0b14b8167
-description: L’élément RecurringMasterItemId (ItemIdType) identifie un élément de la forme de base de récurrence en identifiant les identificateurs de l’un de ses éléments d’occurrence associés.
-ms.openlocfilehash: c725998ad3a728ef1f47ff6491592b461753b895
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RecurringMasterItemId (ItemIdType) identifie un élément maître de récurrence en identifiant les identificateurs de l’un de ses éléments d’occurrence associés.
+ms.openlocfilehash: 491bb6686ad6cc9ee8169144b659d828e3920e45
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522739"
 ---
 # <a name="recurringmasteritemid-itemidtype"></a>RecurringMasterItemId (ItemIdType)
 
-L’élément **RecurringMasterItemId (ItemIdType)** identifie un élément de la forme de base de récurrence en identifiant les identificateurs de l’un de ses éléments d’occurrence associés. 
+**L’élément RecurringMasterItemId (ItemIdType)** identifie un élément maître de récurrence en identifiant les identificateurs de l’un de ses éléments d’occurrence connexes. 
   
 ```XML
 <RecurringMasterItemId Id="" ChangeKey=""/>
@@ -34,8 +34,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |Identifie une seule occurrence d’un élément maître périodique. Cet attribut est obligatoire.  <br/> |
-|ChangeKey  <br/> |Identifie une version spécifique d’une occurrence d’un élément maître périodique. En outre, l’élément de gabarit périodique est également identifié, car il et la seule occurrence contiendront la même clé de modification. Cet attribut est facultatif.  <br/> |
+|ID  <br/> |Identifie une occurrence unique d’un élément principal périodique. Cet attribut est obligatoire.  <br/> |
+|ChangeKey  <br/> |Identifie une version spécifique d’une occurrence unique d’un élément principal périodique. En outre, l’élément maître périodique est également identifié car il et l’occurrence unique contiendra la même touche de modification. Cet attribut est facultatif.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

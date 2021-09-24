@@ -1,27 +1,27 @@
 ---
-title: ConnectionStatus Closed
+title: ConnectionStatus
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionStatus
 api_type:
 - schema
 ms.assetid: 4300f9d6-8bf9-48c2-9f07-d80197864e17
-description: L’élément ConnectionStatus Closed fournit une description textuelle de l’état d’un abonnement de diffusion en continu.
-ms.openlocfilehash: 928537201041950011ae06444e3c412228d252ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ConnectionStatus fournit une description textuelle de l’état d’un abonnement de diffusion en continu.
+ms.openlocfilehash: 05ff80ac3e6c3c8bf1341a179a14c9d052c9947f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462716"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536850"
 ---
-# <a name="connectionstatus"></a>ConnectionStatus Closed
+# <a name="connectionstatus"></a>ConnectionStatus
 
-L’élément **ConnectionStatus Closed** fournit une description textuelle de l’état d’un abonnement de diffusion en continu. 
+**L’élément ConnectionStatus** fournit une description textuelle de l’état d’un abonnement de diffusion en continu. 
   
 ```xml
 <ConnectionStatus>OK or Closed</ConnectionStatus>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’état et le résultat d’une [demande d’opération GetStreamingEvents](getstreamingevents-operation.md) unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - OK
     
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

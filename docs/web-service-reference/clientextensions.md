@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
 description: L’élément ClientExtensions contient un tableau d’informations utilisateur et de configuration sur les applications.
-ms.openlocfilehash: 016b4c910f3c21a20d72b926a1c568925aa9d37e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f9cd68ebdd0a376d57fe1e413ec094f8304c2cd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461456"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536888"
 ---
 # <a name="clientextensions"></a>ClientExtensions
 
-L’élément **ClientExtensions** contient un tableau d’informations utilisateur et de configuration sur les applications. 
+**L’élément ClientExtensions** contient un tableau d’informations utilisateur et de configuration sur les applications. 
   
 ```XML
 <ClientExtensions>
@@ -38,7 +38,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ClientExtension](clientextension.md) <br/> |Contient les informations d’utilisateur et de configuration relatives à une application.  <br/> |
+|[ClientExtension](clientextension.md) <br/> |Contient des informations utilisateur et de configuration sur une application.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

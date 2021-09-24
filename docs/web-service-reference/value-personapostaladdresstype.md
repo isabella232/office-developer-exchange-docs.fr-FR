@@ -1,23 +1,23 @@
 ---
-title: Valeur (PersonaPostalAddressType)
+title: Value (PersonaPostalAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be838fc2-cfcb-4856-b095-a8e5366bb6c6
 description: L’élément Value spécifie les informations associées à une adresse postale.
-ms.openlocfilehash: 2d644ff45fe89061ccd90279773f3a5a5b7fe7cc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2f017cfc513b9c22d65f8437565646506f3be1ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466471"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517342"
 ---
-# <a name="value-personapostaladdresstype"></a>Valeur (PersonaPostalAddressType)
+# <a name="value-personapostaladdresstype"></a>Value (PersonaPostalAddressType)
 
-L’élément **value** spécifie les informations associées à une adresse postale. 
+**L’élément Value** spécifie les informations associées à une adresse postale. 
   
 ```XML
 <Value>
@@ -51,7 +51,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Rue](street.md)  |  [Ville](city.md)  |  [État](state-ex15websvcsotherref.md)  |  [Pays](country.md)  |  [CodePostal](postalcode.md)  |  [PostOfficeBox](postofficebox.md)  |  [Type (chaîne)](type-string.md)  |  [Latitude](latitude.md)  |  [Longitude](longitude.md)  |  [Précision](accuracy.md)  |  [Altitude](altitude.md)  |  [AltitudeAccuracy](altitudeaccuracy.md)  |  [FormattedAddress](formattedaddress.md)  |  [LocationUri](locationuri.md)  |  [LocationSource](locationsource.md)
+[Street](street.md)  |  [Ville](city.md)  |  [État](state-ex15websvcsotherref.md)  |  [Pays](country.md)  |  [PostalCode](postalcode.md)  |  [PostOfficeBox](postofficebox.md)  |  [Type (chaîne)](type-string.md)  |  [Latitude](latitude.md)  |  [Longitude](longitude.md)  |  [Précision](accuracy.md)  |  [Altitude](altitude.md)  |  [AltitudeAccuracy](altitudeaccuracy.md)  |  [FormattedAddress](formattedaddress.md)  |  [LocationUri](locationuri.md)  |  [LocationSource](locationsource.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

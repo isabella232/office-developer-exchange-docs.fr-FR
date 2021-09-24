@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9435a2db-44b6-4176-8453-f684ae44b535
-description: L’élément GetFederatedDirectoryUser est destiné uniquement à un usage interne.
-ms.openlocfilehash: c1be390107d6c841b14384a0919387f2665e4a6c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetFederatedDirectoryUser est destiné à un usage interne uniquement.
+ms.openlocfilehash: 80e8b1e483aab054f413218c9d135e712b2122e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44506504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523103"
 ---
 # <a name="getfederateddirectoryuser"></a>GetFederatedDirectoryUser
 
-L’élément **GetFederatedDirectoryUser** est destiné uniquement à un usage interne. 
+**L’élément GetFederatedDirectoryUser est** destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

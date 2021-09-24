@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
-description: L’élément ReplyAllAllowed spécifie si une réponse tout est autorisée pour les données gérées par des droits.
-ms.openlocfilehash: 56dfe7670ed87581999bfe0a340bcc72c99d04ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReplyAllAllowed spécifie si une réponse est autorisée pour les données gérées par des droits.
+ms.openlocfilehash: 56b383e4273ca78ee291eeb658d69873109593f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523593"
 ---
 # <a name="replyallallowed"></a>ReplyAllAllowed
 
-L’élément **ReplyAllAllowed** spécifie si une réponse tout est autorisée pour les données gérées par des droits. 
+**L’élément ReplyAllAllowed spécifie** si une réponse est autorisée pour les données gérées par des droits. 
   
 ```XML
 <ReplyAllAllowed> true | false </ReplyAllAllowed>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ReplyAllAllowed** indique qu’une réponse tout est autorisée pour les données gérées par des droits. La valeur **false** indique qu’une réponse tous n’est pas autorisée. 
+Une valeur de texte **true pour** **l’élément ReplyAllAllowed** indique qu’une réponse à tous est autorisée pour les données gérées par des droits. La valeur **false indique** qu’une réponse n’est pas autorisée. 
   
 ## <a name="remarks"></a>Remarques
 

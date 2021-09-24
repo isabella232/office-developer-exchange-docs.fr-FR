@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsModerated
 api_type:
 - schema
 ms.assetid: a7562256-feb9-41a1-857e-b5d41cbed680
 description: L’élément IsModerated indique si la boîte aux lettres du destinataire est modéré.
-ms.openlocfilehash: 930d5a7e09712f35d22850a93462d051a34785a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e06e7e01e08cb8418adafaae09cae94ceb5c3b2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44435484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522900"
 ---
 # <a name="ismoderated"></a>IsModerated
 
-L’élément **IsModerated** indique si la boîte aux lettres du destinataire est modéré. 
+**L’élément IsModerated** indique si la boîte aux lettres du destinataire est modéré. 
   
 ```XML
 <IsModerated>true | false</IsModerated>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de courrier.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de messagerie.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est **true** si la boîte aux lettres du destinataire est modérée. La valeur est **false** si la boîte aux lettres du destinataire n’est pas modérée. 
+La valeur de texte de cet élément est **true** si la boîte aux lettres du destinataire est modéré. La valeur est **false si** la boîte aux lettres du destinataire n’est pas modéré. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersAvailable
 api_type:
 - schema
 ms.assetid: e367a278-1622-4b65-955f-2d4b2fc6e4d7
-description: L’élément NumberOfMembersAvailable représente le nombre de membres de la liste de distribution qui sont disponibles pour une heure de réunion suggérée. Cet élément représente les membres pour lesquels l’État est libre.
-ms.openlocfilehash: 947e1c133cc49fb7e322962e95e184fe77e09353
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément NumberOfMembersAvailable représente le nombre de membres de liste de distribution disponibles pour une heure de réunion suggérée. Cet élément représente les membres pour lesquels l’état est Gratuit.
+ms.openlocfilehash: 6c80080cb2205e46dfa72f8354dea3974d5c066e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462590"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509551"
 ---
 # <a name="numberofmembersavailable"></a>NumberOfMembersAvailable
 
-L’élément **NumberOfMembersAvailable** représente le nombre de membres de la liste de distribution qui sont disponibles pour une heure de réunion suggérée. Cet élément représente les membres pour lesquels l’État est **libre**.
+**L’élément NumberOfMembersAvailable** représente le nombre de membres de liste de distribution disponibles pour une heure de réunion suggérée. Cet élément représente les membres pour lesquels l’état est **Gratuit**.
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **NumberOfMembersAvailable** représente le nombre de membres de l
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -62,7 +62,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations sur les conflits d’agrégation concernant le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations de conflit agrégées sur le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData[i]` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

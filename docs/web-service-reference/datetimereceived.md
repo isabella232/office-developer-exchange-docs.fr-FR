@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DateTimeReceived
 api_type:
 - schema
 ms.assetid: 8f489bd4-2434-4d0a-91fe-1b5ba7eb5765
-description: L’élément DateTimeReceived représente la date et l’heure auxquelles un élément d’une boîte aux lettres a été reçu.
-ms.openlocfilehash: ad57af46b0ff22c42bfa327532d13e79280dd8b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DateTimeReceived représente la date et l’heure de réception d’un élément dans une boîte aux lettres.
+ms.openlocfilehash: 86c46d029476b9617a6a1086bddc76946e25068c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535685"
 ---
 # <a name="datetimereceived"></a>DateTimeReceived
 
-L’élément **DateTimeReceived** représente la date et l’heure auxquelles un élément d’une boîte aux lettres a été reçu. 
+**L’élément DateTimeReceived** représente la date et l’heure de réception d’un élément dans une boîte aux lettres. 
   
 ```xml
 <DateTimeReceived/>
@@ -51,7 +51,7 @@ Aucun.
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |

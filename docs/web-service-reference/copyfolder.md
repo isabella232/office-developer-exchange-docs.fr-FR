@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopyFolder
 api_type:
 - schema
 ms.assetid: 7d5cd08a-fe81-4cb6-a5a0-6dec2d3c93d4
-description: L’élément CopyFolder définit une demande de copie des dossiers dans une boîte aux lettres dans la Banque d’Exchange.
-ms.openlocfilehash: fa75272540169a96d5567181d27b8a8f056cce42
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CopyFolder définit une demande de copie des dossiers dans une boîte aux lettres dans Exchange store.
+ms.openlocfilehash: 85810ac0b2a2d805e91521a02c469383d40d86b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452509"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510341"
 ---
 # <a name="copyfolder"></a>CopyFolder
 
-L’élément **CopyFolder** définit une demande de copie des dossiers dans une boîte aux lettres dans la Banque d’Exchange. 
+**L’élément CopyFolder** définit une demande de copie des dossiers dans une boîte aux lettres dans la Exchange store. 
   
 ```xml
 <CopyFolder>
@@ -44,7 +44,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ToFolderId](tofolderid.md) <br/> |Représente le dossier de destination d’un dossier copié.  <br/> |
-|[FolderIds](folderids.md) <br/> |Contient un tableau de dossiers à copier dans le dossier identifié par l’élément [ToFolderId](tofolderid.md) .  <br/> |
+|[FolderIds](folderids.md) <br/> |Contient un tableau de dossiers à copier dans le dossier identifié par [l’élément ToFolderId.](tofolderid.md)  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -60,12 +60,12 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[CopyFolder, opération](copyfolder-operation.md)
+[Opération CopyFolder](copyfolder-operation.md)
 

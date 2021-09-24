@@ -1,27 +1,27 @@
 ---
-title: Auxquelles
+title: Daylight
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Daylight
 api_type:
 - schema
 ms.assetid: ea400839-fba8-4a5e-a5d1-9b677afc0ff9
-description: L’élément d’heure représente la date et l’heure auxquelles le temps passe de l’heure standard à l’heure d’été.
-ms.openlocfilehash: bf2041cb4677f837ddb5b399041f1c19a7b5f577
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Daylight représente la date et l’heure de passage de l’heure standard à l’heure d’été.
+ms.openlocfilehash: 750d7cb97d9e2967d3477a93ae833229d20619dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457458"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517216"
 ---
-# <a name="daylight"></a>Auxquelles
+# <a name="daylight"></a>Daylight
 
-L’élément d' **heure** représente la date et l’heure auxquelles le temps passe de l’heure standard à l’heure d’été. 
+**L’élément Daylight** représente la date et l’heure de passage de l’heure standard à l’heure d’été. 
   
 ```xml
 <Daylight TimeZoneName="">
@@ -55,10 +55,10 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Offset](offset.md) <br/> |Décrit le décalage par rapport à l' [BaseOffset](baseoffset.md). Le décalage de base en plus de ce décalage identifie le temps en fonction de l’heure standard ou de l’heure d’été.  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Décrit un modèle de périodicité annuelle relative pour un modèle de date de transition de fuseau horaire.  <br/> |
-|[AbsoluteDate](absolutedate.md) <br/> |Représente la date à laquelle le temps passe de standard ou de l’heure d’été.  <br/> |
-|[Heure (TimeChangeType)](time-timechangetype.md) <br/> |Décrit le moment où l’heure change entre l’heure standard et l’heure d’été.  <br/> |
+|[Offset](offset.md) <br/> |Décrit le décalage par rapport à [baseOffset](baseoffset.md). Le décalage de base en plus de ce décalage identifie l’heure selon qu’il s’agit de l’heure standard ou de l’heure d’été.  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Décrit une récurrence relative de l’année pour un modèle de date de transition de fuseau horaire.  <br/> |
+|[AbsoluteDate](absolutedate.md) <br/> |Représente la date à laquelle l’heure change à partir de l’heure standard ou de l’heure d’été.  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |Décrit l’heure à quel moment l’heure change entre l’heure standard et l’heure d’été.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

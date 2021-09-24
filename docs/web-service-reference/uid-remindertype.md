@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
 description: L’élément UID (ReminderType) identifie l’élément de calendrier associé à un rappel.
-ms.openlocfilehash: ab7e59725a87ff21bb2df052b5893abf6217f78a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e8abb5890bd82a78b019a9d9f66e008095384c1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530372"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517510"
 ---
 # <a name="uid-remindertype"></a>UID (ReminderType)
 
-L’élément **UID (ReminderType)** identifie l’élément de calendrier associé à un rappel. 
+**L’élément UID (ReminderType)** identifie l’élément de calendrier associé à un rappel. 
   
 ```XML
 <UID />
@@ -38,7 +38,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **UID (ReminderType)** identifie un élément de calendrier. 
+La valeur de texte de **l’élément UID (ReminderType)** identifie un élément de calendrier. 
   
 ## <a name="remarks"></a>Remarques
 

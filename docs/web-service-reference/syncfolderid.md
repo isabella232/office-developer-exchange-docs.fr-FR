@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderId
 api_type:
 - schema
 ms.assetid: 3645fa03-236d-4e5f-b8b9-5d98f7f35fa2
 description: L’élément SyncFolderId représente le dossier qui contient les éléments à synchroniser.
-ms.openlocfilehash: 35b66579116a00d27df722629ff980471ca0272e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 018d35ebdcb5afb3de2f1415bc792ecfbd910ffd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517545"
 ---
 # <a name="syncfolderid"></a>SyncFolderId
 
-L’élément **SyncFolderId** représente le dossier qui contient les éléments à synchroniser. 
+**L’élément SyncFolderId** représente le dossier qui contient les éléments à synchroniser. 
   
 ```xml
 <SyncFolderId>
@@ -50,18 +50,18 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par nom.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par leur nom.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Opérationsyncfolderhierarchy](syncfolderhierarchy.md) <br/> |Définit une demande de synchronisation d’une hiérarchie de dossiers dans une banque d’Exchange.  <br/> |
-|[SyncFolderItems](syncfolderitems.md) <br/> |Définit une demande de synchronisation des éléments dans un dossier de la Banque d’Exchange.  <br/> |
+|[SyncFolderHierarchy](syncfolderhierarchy.md) <br/> |Définit une demande de synchronisation d’une hiérarchie de dossiers dans une Exchange de données.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Définit une demande de synchronisation des éléments dans un Exchange de la boutique d’information.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

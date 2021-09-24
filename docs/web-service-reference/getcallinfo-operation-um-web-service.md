@@ -1,32 +1,32 @@
 ---
-title: Opération GetCallInfo (service Web de messagerie unifiée)
+title: Opération GetCallInfo (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetCallInfo
 api_type:
 - schema
 ms.assetid: 6bccd418-caf7-4eb9-8a6f-410e56a635c3
-description: L’opération GetCallInfo renvoie l’état de l’appel sortant spécifié par CallId (service Web de messagerie unifiée).
-ms.openlocfilehash: 6b5664dfe16f9c74cc7175098145141b815a6355
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetCallInfo renvoie l’état de l’appel sortant spécifié par CallId (service web de la um).
+ms.openlocfilehash: 0563190ab267b3a48d7ccacbdb1e136c6e3da0b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509943"
 ---
-# <a name="getcallinfo-operation-um-web-service"></a>Opération GetCallInfo (service Web de messagerie unifiée)
+# <a name="getcallinfo-operation-um-web-service"></a>Opération GetCallInfo (service web de messagerie unifiée)
 
-L’opération GetCallInfo renvoie l’état de l’appel sortant spécifié par [CallId (service Web de messagerie unifiée)](callid-um-web-service.md).
+L’opération GetCallInfo renvoie l’état de l’appel sortant spécifié par [CallId (service web de la um).](callid-um-web-service.md)
   
 ## <a name="getcallinfo-request-example"></a>Exemple de requête GetCallInfo
 
 ### <a name="description"></a>Description
 
-L’exemple de requête GetCallInfo suivant montre comment créer une demande pour obtenir des informations sur un appel sortant spécifié.
+L’exemple suivant d’une demande GetCallInfo montre comment former une demande pour obtenir des informations sur un appel sortant spécifié.
   
 ### <a name="code"></a>Code
 
@@ -41,11 +41,11 @@ L’exemple de requête GetCallInfo suivant montre comment créer une demande po
 </soap:Envelope>
 ```
 
-## <a name="successful-getcallinfo-response-example"></a>Exemple de réponse GetCallInfo réussi
+## <a name="successful-getcallinfo-response-example"></a>Exemple de réponse GetCallInfo réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse GetCallInfo indique une réponse à une demande GetCallInfo.
+L’exemple suivant d’une réponse GetCallInfo affiche une réponse à une demande GetCallInfo.
   
 ### <a name="code"></a>Code
 
@@ -67,13 +67,13 @@ L’exemple suivant de réponse GetCallInfo indique une réponse à une demande 
 
 
 
-[GetCallInfo (service Web de messagerie unifiée)](getcallinfo-um-web-service.md)
+[GetCallInfo (service web de messagerie unifiée)](getcallinfo-um-web-service.md)
   
-[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
   
-[CallId (service Web de messagerie unifiée)](callid-um-web-service.md)
+[CallId (service web de messagerie unifiée)](callid-um-web-service.md)
   
-[CallState (service Web de messagerie unifiée)](callstate-um-web-service.md)
+[CallState (service web de messagerie unifiée)](callstate-um-web-service.md)
   
-[EventCause (service Web de messagerie unifiée)](eventcause-um-web-service.md)
+[EventCause (service web de messagerie unifiée)](eventcause-um-web-service.md)
 

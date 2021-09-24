@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7dae4db5-28d3-4b81-b071-458c814c36b9
-description: L’élément VotingResponse, spécifie le vote soumis. Cet élément est présent uniquement sur les réponses aux messages de demande de vote, et non sur les réponses aux approbations.
-ms.openlocfilehash: ed7caff79d1ff2946800630c167350fe866e29dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément VotingResponse spécifie le vote soumis. Cet élément est uniquement présent sur les réponses aux messages de demande de vote, et non sur les réponses aux approbations.
+ms.openlocfilehash: 4d554cc3fc92911420b48b2da86d3ca3004018f7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510553"
 ---
 # <a name="votingresponse"></a>VotingResponse
 
-L’élément **VotingResponse,** spécifie le vote soumis. Cet élément est présent uniquement sur les réponses aux messages de demande de vote, et non sur les réponses aux approbations. 
+**L’élément VotingResponse** spécifie le vote soumis. Cet élément est uniquement présent sur les réponses aux messages de demande de vote, et non sur les réponses aux approbations. 
   
 ```XML
 <VotingResponse />
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **VotingResponse,** est le vote soumis. 
+La valeur de texte de **l’élément VotingResponse est** le vote soumis. 
   
 ## <a name="remarks"></a>Remarques
 

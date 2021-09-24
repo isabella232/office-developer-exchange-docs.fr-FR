@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d91aa89-9f9f-4877-846d-aaf48bbeec7c
 description: L’élément ReadFlag indique l’état de lecture à définir sur les éléments d’un dossier.
-ms.openlocfilehash: 1d3b9f3fe199ed2e63bdb632135120a5f89f4d1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ac079f6adbdb2686221dd52d748b05ac4141d6c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523649"
 ---
 # <a name="readflag"></a>ReadFlag
 
-L’élément **ReadFlag** indique l’état de lecture à définir sur les éléments d’un dossier. 
+**L’élément ReadFlag** indique l’état de lecture à définir sur les éléments d’un dossier. 
   
 ```XML
 <ReadFlag>true | false</ReadFlag>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ReadFlag** indique que les éléments dans le dossier seront marqués comme lus. La valeur **false** indique que les éléments du dossier seront marqués comme non lus. 
+Une valeur de texte **true pour** **l’élément ReadFlag** indique que les éléments du dossier seront marqués comme lus. La valeur **false indique** que les éléments du dossier seront marqués comme non lus. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

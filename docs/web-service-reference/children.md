@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Children
 api_type:
 - schema
 ms.assetid: ceaffddd-f9bc-43ea-b348-a20fdade738f
 description: L’élément Children contient les noms des enfants d’un contact.
-ms.openlocfilehash: de398c93590a4a9ae93b6aa46994c9295d051b84
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6090dc1a2b684ddff4ab0964de3308ceed25b876
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460224"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536905"
 ---
 # <a name="children"></a>Children
 
-L’élément **Children** contient les noms des enfants d’un contact. 
+**L’élément** Children contient les noms des enfants d’un contact. 
   
 ```xml
 <Children>
@@ -48,7 +48,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contact](contact.md) <br/> |Représente un contact dans la Banque d’Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Représente un contact dans le magasin Exchange de données.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

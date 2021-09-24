@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Date
 api_type:
 - schema
 ms.assetid: 3b684b12-3e43-4012-a8c9-8fb8c43387b4
-description: L’élément Date représente la date et l’heure auxquelles l’événement s’est produit.
-ms.openlocfilehash: 0851c0785072f24868b17a828f34a47861441d22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Date représente la date et l’heure à laquelle l’événement s’est produit.
+ms.openlocfilehash: 9ff6063b8dbe3e028013a9337cb65892162c1c84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535814"
 ---
 # <a name="date-messagetracking"></a>Date (MessageTracking)
 
-L’élément **Date** représente la date et l’heure auxquelles l’événement s’est produit. 
+**L’élément Date** représente la date et l’heure à laquelle l’événement s’est produit. 
   
 ```XML
 <Date/>

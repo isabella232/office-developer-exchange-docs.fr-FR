@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16409652-21e4-4bd3-9373-67e1882236b4
 description: L’élément PolicyTipsEnabled indique si les conseils de stratégie sont activés.
-ms.openlocfilehash: 26a527022d60dd4b98f70c2b3bf020b649066057
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de0fdc224f2e4a94d5270e0f1920eb28b0f29405
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468515"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516509"
 ---
 # <a name="policytipsenabled"></a>PolicyTipsEnabled
 
-L’élément **PolicyTipsEnabled** indique si les conseils de stratégie sont activés. 
+**L’élément PolicyTipsEnabled indique** si les conseils de stratégie sont activés. 
   
 ```XML
 <PolicyTipsEnabled> true | false </PolicyTipsEnabled>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **PolicyTipsEnabled** indique que les conseils de stratégie sont activés pour une boîte aux lettres. La valeur **false** indique que les conseils de stratégie ne sont pas activés pour une boîte aux lettres. 
+Une valeur de texte **true pour** l’élément **PolicyTipsEnabled** indique que les conseils de stratégie sont activés pour une boîte aux lettres. La valeur **false indique que** les conseils de stratégie ne sont pas activés pour une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 

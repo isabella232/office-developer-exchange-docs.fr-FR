@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TrackingPropertyType
 api_type:
 - schema
 ms.assetid: 1d0f219b-1063-4eaa-9d3b-da384a544f89
-description: L’élément TrackingPropertyType représente une paire nom/valeur de chaînes qui est utilisée pour créer des propriétés pour les rapports de suivi des messages.
-ms.openlocfilehash: 7812b52dd57fed0a9b6f1a8fc4e77660932a60dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TrackingPropertyType représente une paire nom/valeur de chaînes utilisée pour créer des propriétés pour les rapports de suivi des messages.
+ms.openlocfilehash: f26f2a2f512d0816ac34d801169972c670e5ff25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517538"
 ---
 # <a name="trackingpropertytype"></a>TrackingPropertyType
 
-L’élément **TrackingPropertyType** représente une paire nom/valeur de chaînes qui est utilisée pour créer des propriétés pour les rapports de suivi des messages. 
+**L’élément TrackingPropertyType** représente une paire nom/valeur de chaînes utilisée pour créer des propriétés pour les rapports de suivi des messages. 
   
-[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
+[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
   
 [TrackingPropertyType](trackingpropertytype.md)
   
@@ -47,14 +47,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (suivi des messages)](name-message-tracking.md) <br/> |Définit un nom pour la propriété de rapport de suivi des messages.  <br/> |
-|[Valeur (suivi des messages)](value-message-tracking.md) <br/> |Définit une valeur pour la propriété de rapport de suivi des messages. Cet élément est facultatif.  <br/> |
+|[Name (MessageTracking)](name-message-tracking.md) <br/> |Définit un nom pour la propriété du rapport de suivi des messages.  <br/> |
+|[Value (MessageTracking)](value-message-tracking.md) <br/> |Définit une valeur pour la propriété du rapport de suivi des messages. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

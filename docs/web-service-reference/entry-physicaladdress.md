@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Entry
 api_type:
 - schema
 ms.assetid: 9e5b6515-453e-4f4c-b55e-6ffefe23c31b
 description: L’élément Entry décrit une adresse physique unique pour un élément de contact.
-ms.openlocfilehash: 5e8343e9abebeeff8c2b81327b2e0f4ddcf45364
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b951c8c099a9653635e8fa95fe06204659b7d1fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459629"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517104"
 ---
 # <a name="entry-physicaladdress"></a>Entrée (PhysicalAddress)
 
-L’élément **entry** décrit une adresse physique unique pour un élément de contact. 
+**L’élément Entry** décrit une adresse physique unique pour un élément de contact. 
   
 ```xml
 <Entry Key="">
@@ -42,14 +42,14 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Key** <br/> | Identifie une adresse physique.<br/><br/> Les valeurs possibles pour cet attribut sont les suivantes :<br/>  <br/>-Business  <br/>-Accueil  <br/>-Autre  <br/> |
+|**Clé** <br/> | Identifie une adresse physique.<br/><br/> Les valeurs possibles pour cet attribut sont les suivantes :<br/>  <br/>- Entreprise  <br/>- Accueil  <br/>- Autre  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Street](street.md) <br/> |Représente l’adresse d’un contact.  <br/> |
-|[City](city.md) <br/> |Représente le nom de la ville qui est associé à un contact.  <br/> |
+|[Street](street.md) <br/> |Représente une adresse de rue pour un élément de contact.  <br/> |
+|[City](city.md) <br/> |Représente le nom de la ville associé à un contact.  <br/> |
 |[State](state-ex15websvcsotherref.md) <br/> |Représente l’état de résidence d’un élément de contact.  <br/> |
 |[CountryOrRegion](countryorregion.md) <br/> |Représente le pays ou la région d’une adresse physique donnée.  <br/> |
 |[PostalCode](postalcode.md) <br/> |Représente le code postal d’un élément de contact.  <br/> |

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7a3a16e-67a3-4083-be40-b5f72656b9ca
-description: L’élément PhotoUrl (FederatedDirectoryGroupType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: e7148ac706025f01809d0d3bc53fa8c31e9cfe71
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PhotoUrl (FederatedDirectoryGroupType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 98a5d259f5d096c061ad84d4af514ec16c07fb3a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459208"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516572"
 ---
 # <a name="photourl-federateddirectorygrouptype"></a>PhotoUrl (FederatedDirectoryGroupType)
 
-L’élément **PhotoUrl (FederatedDirectoryGroupType)** est destiné uniquement à un usage interne. 
+**L’élément PhotoUrl (FederatedDirectoryGroupType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

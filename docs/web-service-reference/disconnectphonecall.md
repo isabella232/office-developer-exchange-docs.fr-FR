@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisconnectPhoneCall
 api_type:
 - schema
 ms.assetid: f9252536-9852-4dd9-9ebc-91f5cf281171
 description: L’élément DisconnectPhoneCall représente une demande de déconnexion d’un appel.
-ms.openlocfilehash: 8d64ecb9dce1d8b7efcebc70686db8fcbf867217
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 587e18472ed3983631a19468a0a85d71e75cc6f2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529706"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523075"
 ---
 # <a name="disconnectphonecall"></a>DisconnectPhoneCall
 
-L’élément **DisconnectPhoneCall** représente une demande de déconnexion d’un appel. 
+**L’élément DisconnectPhoneCall** représente une demande de déconnexion d’un appel. 
   
 ```xml
 <DisconnectPhoneCall>
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

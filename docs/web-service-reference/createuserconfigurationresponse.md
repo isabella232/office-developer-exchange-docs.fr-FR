@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateUserConfigurationResponse
 api_type:
 - schema
 ms.assetid: 115d4a5d-0c90-45d5-a3a3-4e61d80df78a
-description: L’élément CreateUserConfigurationResponse définit une réponse à une requête CreateUserConfiguration unique.
-ms.openlocfilehash: d1b3e2a0ab156c5175f9c1e676866690c33ace9f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CreateUserConfigurationResponse définit une réponse à une demande CreateUserConfiguration unique.
+ms.openlocfilehash: 2d97628f4907cc7c05b5ba4dc3b3f0a22533e54f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463768"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536168"
 ---
 # <a name="createuserconfigurationresponse"></a>CreateUserConfigurationResponse
 
-L’élément **CreateUserConfigurationResponse** définit une réponse à une requête **CreateUserConfiguration** unique. 
+**L’élément CreateUserConfigurationResponse** définit une réponse à une **demande CreateUserConfiguration** unique. 
   
 ```xml
 <CreateUserConfigurationResponse>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

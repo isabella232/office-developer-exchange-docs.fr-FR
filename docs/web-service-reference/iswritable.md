@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4af8eee-7001-4a8e-b9bd-d14882f2406b
 description: L’élément IsWritable spécifie si le contact sous-jacent ou le destinataire Active Directory peut être écrit.
-ms.openlocfilehash: 96075adc1772027456f8829eee43bdc734644c09
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2663e18f2589516f304930b86a717455b6ab77c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467570"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516712"
 ---
 # <a name="iswritable"></a>IsWritable
 
-L’élément **isWritable** spécifie si le contact sous-jacent ou le destinataire Active Directory peut être écrit. 
+**L’élément IsWritable** spécifie si le contact sous-jacent ou le destinataire Active Directory peut être écrit. 
   
 ```XML
 <IsWritable> true | false </IsWritable>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **isWritable** indique que l’objet contact ou Active Directory est disponible pour l’accès en écriture. La valeur **false** indique que l’objet contact ou Active Directory n’est pas disponible pour l’accès en écriture. 
+Une valeur de texte **true** pour l’élément **IsWritable** indique que le contact ou l’objet Active Directory est disponible pour un accès en écriture. La valeur **false indique** que le contact ou l’objet Active Directory n’est pas disponible pour l’accès en écriture. 
   
 ## <a name="remarks"></a>Remarques
 

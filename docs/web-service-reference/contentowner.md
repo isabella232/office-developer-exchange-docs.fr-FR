@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
 description: L’élément ContentOwner spécifie le nom du propriétaire du contenu.
-ms.openlocfilehash: 08dafcac2f9ad4be19e0cb3ccd03249a997e0fa3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 94da97aad80318d9c70d1f871bc4c8e71d545aca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461477"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523131"
 ---
 # <a name="contentowner"></a>ContentOwner
 
-L’élément **ContentOwner** spécifie le nom du propriétaire du contenu. 
+**L’élément ContentOwner** spécifie le nom du propriétaire du contenu. 
   
 ```XML
 <ContentOwner></ContentOwner>
@@ -40,7 +40,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie les informations relatives à la licence de gestion des droits.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie des informations sur la licence de gestion des droits.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

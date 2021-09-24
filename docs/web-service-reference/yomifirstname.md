@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - YomiFirstName
 api_type:
 - schema
 ms.assetid: 86ef6012-2d3c-4058-9c43-5ddbea25f6ce
-description: L’élément YomiFirstName, représente le nom utilisé au Japon pour l’orthographe de recherche ou phonétique pour un prénom japonais.
-ms.openlocfilehash: b059059fde9d5a455ea32113fa454de254598d29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément YomiFirstName représente le nom utilisé au Japon pour l’orthographe phonétique ou phonétique d’un prénom japonais.
+ms.openlocfilehash: 3021f0a18cc38d139b7d2513ff0b6fde777aa363
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465127"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510588"
 ---
 # <a name="yomifirstname"></a>YomiFirstName
 
-L’élément **YomiFirstName,** représente le nom utilisé au Japon pour l’orthographe de recherche ou phonétique pour un prénom japonais. 
+**L’élément YomiFirstName** représente le nom utilisé au Japon pour l’orthographe phonétique ou phonétique d’un prénom japonais. 
   
 ```xml
 <YomiFirstName/>

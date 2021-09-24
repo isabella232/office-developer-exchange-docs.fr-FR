@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c610de4-3853-478f-860c-873c4c1bf6ca
-description: L’élément IsMember (FederatedDirectoryGroupType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: 36140b5cb9a7d6ad4224ea357d376bcaae5b333a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsMember (FederatedDirectoryGroupType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 13ebaa968a322d7f957d94afd6d05c4ba048faa9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459292"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522893"
 ---
 # <a name="ismember-federateddirectorygrouptype"></a>IsMember (FederatedDirectoryGroupType)
 
-L’élément **IsMember (FederatedDirectoryGroupType)** est destiné uniquement à un usage interne. 
+**L’élément IsMember (FederatedDirectoryGroupType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AbsoluteYearlyRecurrence
 api_type:
 - schema
 ms.assetid: 96f53e2c-3893-4f6e-a78a-ac179f45c5db
-description: L’élément AbsoluteYearlyRecurrence représente une périodicité annuelle.
-ms.openlocfilehash: 19b617dfd5c0a3d206d62439c880da084fd5f5f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AbsoluteYearlyRecurrence représente une périodité annuel.
+ms.openlocfilehash: b7aedae92900fcac724b3047470568036a40c49e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510392"
 ---
 # <a name="absoluteyearlyrecurrence"></a>AbsoluteYearlyRecurrence
 
-L’élément **AbsoluteYearlyRecurrence** représente une périodicité annuelle. 
+**L’élément AbsoluteYearlyRecurrence** représente une périodité annuel. 
   
 ```xml
 <AbsoluteYearlyRecurrence>
@@ -43,15 +43,15 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DayOfMonth](dayofmonth.md) <br/> |Décrit le jour d’un mois sur lequel un élément périodique se produit. La plage de valeurs de cette propriété est comprise entre 1 et 31. Si, pour un mois donné, cette valeur est supérieure au nombre de jours du mois, le dernier jour du mois est supposé pour cette propriété.  <br/> |
-|[Month (périodicité de l’élément)](month-item-recurrence.md) <br/> |Décrit le mois au cours duquel un élément périodique périodique se produit.  <br/> |
+|[DayOfMonth](dayofmonth.md) <br/> |Décrit le jour d’un mois au cours duquel un élément périodique se produit. La plage de valeurs de cette propriété est de 1 à 31. Si, pour un mois particulier, cette valeur est supérieure au nombre de jours du mois, le dernier jour du mois est supposé pour cette propriété.  <br/> |
+|[Month (périodicité d’élément)](month-item-recurrence.md) <br/> |Décrit le mois au cours duquel un élément périodique annuel se produit.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
-|[Récurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité des éléments de calendrier et des demandes de réunion.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la tendance de récurrence des éléments de calendrier et des demandes de réunion.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

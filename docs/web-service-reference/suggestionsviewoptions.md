@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionsViewOptions
 api_type:
 - schema
 ms.assetid: bb04ae38-e62d-4a69-a479-8ff326ca726e
-description: L’élément SuggestionsViewOptions contient les options permettant d’obtenir des informations sur les suggestions de réunion.
-ms.openlocfilehash: f584b19997f98760bd4e438dcd48a5c18cc63e4b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SuggestionsViewOptions contient les options pour obtenir des informations de suggestion de réunion.
+ms.openlocfilehash: ba3591b88e581d45c811100a53b0a74e4bb8e010
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433993"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522613"
 ---
 # <a name="suggestionsviewoptions"></a>SuggestionsViewOptions
 
-L’élément **SuggestionsViewOptions** contient les options permettant d’obtenir des informations sur les suggestions de réunion. 
+**L’élément SuggestionsViewOptions** contient les options pour obtenir des informations de suggestion de réunion. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -54,24 +54,24 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GoodThreshold](goodthreshold.md) <br/> |Spécifie le pourcentage de participants qui doivent avoir ouvert la période de temps pour la période considérée comme une heure de réunion recommandée.  <br/> |
-|[MaximumResultsByDay](maximumresultsbyday.md) <br/> |Indique le nombre de réunions suggérées par jour renvoyées dans la réponse.  <br/> |
-|[MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday.md) <br/> |Indique le nombre de résultats suggérés pour les heures de travail en dehors des heures ouvrées normales par jour.  <br/> |
+|[GoodThreshold](goodthreshold.md) <br/> |Spécifie le pourcentage de participants dont la période doit être ouverte pour la période afin d’être éligible en tant qu’heure de réunion suggérée.  <br/> |
+|[MaximumResultsByDay](maximumresultsbyday.md) <br/> |Spécifie le nombre de suggestions d’heures de réunion par jour renvoyées dans la réponse.  <br/> |
+|[MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday.md) <br/> |Spécifie le nombre de résultats suggérés pour les heures de réunion en dehors des heures de travail normales par jour.  <br/> |
 |[MeetingDurationInMinutes](meetingdurationinminutes.md) <br/> |Spécifie la durée de la réunion à suggérer.  <br/> |
-|[MinimumSuggestionQuality](minimumsuggestionquality.md) <br/> |Spécifie la qualité des suggestions de réunion à renvoyer dans la réponse.  <br/> |
-|[DetailedSuggestionsWindow](detailedsuggestionswindow.md) <br/> |Identifie l’intervalle de temps interrogé pour obtenir des informations détaillées sur les heures de réunion suggérées.  <br/> |
-|[CurrentMeetingTime](currentmeetingtime.md) <br/> |Représente l’heure de début d’une réunion que vous souhaitez mettre à jour avec les résultats de la réunion suggérés.  <br/> |
+|[MinimumSuggestionQuality](minimumsuggestionquality.md) <br/> |Spécifie la qualité des suggestions de réunion à retourner dans la réponse.  <br/> |
+|[DetailedSuggestionsWindow](detailedsuggestionswindow.md) <br/> |Identifie l’étendue de temps à interroger pour obtenir des informations détaillées sur les heures de réunion suggérées.  <br/> |
+|[CurrentMeetingTime](currentmeetingtime.md) <br/> |Représente l’heure de début d’une réunion que vous souhaitez mettre à jour avec les résultats de l’heure de réunion suggérés.  <br/> |
 |[GlobalObjectId](globalobjectid.md) <br/> |Cet élément n’est pas utilisé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément n’est pas obligatoire et ne peut se produire qu’une seule fois s’il est utilisé. Cette valeur peut être null si la valeur de l’élément [FreeBusyViewOptions](freebusyviewoptions.md) n’est pas null. 
+Cet élément n’est pas obligatoire et ne peut se produire qu’une seule fois s’il est utilisé. Cette valeur peut être null si la valeur de [l’élément FreeBusyViewOptions](freebusyviewoptions.md) n’est pas null. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemIds
 api_type:
 - schema
 ms.assetid: 6b82122b-5544-4adf-91b7-ef2db7d5046f
-description: L’élément ItemIds contient les identités uniques des éléments, des éléments d’occurrence et des éléments principaux périodiques qui sont utilisés pour supprimer, envoyer, obtenir, déplacer ou copier des éléments dans la Banque d’Exchange.
-ms.openlocfilehash: bbd594ce2610bd625b0e16a0383fda552ee9eb19
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ItemIds contient les identités uniques des éléments, des éléments d’occurrence et des éléments maîtres périodiques utilisés pour supprimer, envoyer, obtenir, déplacer ou copier des éléments dans la Exchange store.
+ms.openlocfilehash: 7341b8214b4d61564bd87707a9d8c76fbca07628
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460602"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522886"
 ---
 # <a name="itemids"></a>ItemIds
   
-L’élément **ItemIds** contient les identités uniques des éléments, des éléments d’occurrence et des éléments principaux périodiques qui sont utilisés pour supprimer, envoyer, obtenir, déplacer ou copier des éléments dans la Banque d’Exchange.
+**L’élément ItemIds** contient les identités uniques des éléments, des éléments d’occurrence et des éléments maîtres périodiques utilisés pour supprimer, envoyer, obtenir, déplacer ou copier des éléments dans la Exchange store.
   
 ```xml
 <ItemIds>
@@ -46,19 +46,19 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
-|[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifie une seule occurrence d’un élément périodique.  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifie un élément de la forme de base de récurrence en identifiant l’un de ses éléments d’occurrences associés.  <br/> |
+|[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifie une occurrence unique d’un élément périodique.  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifie un élément récurrence maître en identifiant l’un de ses identificateurs d’éléments d’occurrence associés.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
-|[DeleteItem](deleteitem.md) <br/> |Définit une demande de suppression d’éléments dans la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/DeleteItem` <br/> |
-|[SendItem](senditem.md) <br/> |Élément racine qui définit une demande d’envoi d’éléments dans la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SendItem` <br/> |
-|[GetItem](getitem.md) <br/> |Définit une demande d’obtention d’éléments à partir de la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetItem` <br/> |
-|[MoveItem](moveitem.md) <br/> |Définit une demande de déplacement d’éléments dans la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/MoveItem` <br/> |
-|[CopyItem](copyitem.md) <br/> |Définit une demande de copie des éléments dans la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/CopyItem` <br/> |
+|[DeleteItem](deleteitem.md) <br/> |Définit une demande de suppression d’éléments dans la Exchange store.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/DeleteItem` <br/> |
+|[SendItem](senditem.md) <br/> |Élément racine qui définit une demande d’envoi d’éléments dans Exchange store.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SendItem` <br/> |
+|[GetItem](getitem.md) <br/> |Définit une demande d’obtenir des éléments à partir de la Exchange store.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetItem` <br/> |
+|[MoveItem](moveitem.md) <br/> |Définit une demande de déplacement d’éléments dans la Exchange store.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/MoveItem` <br/> |
+|[CopyItem](copyitem.md) <br/> |Définit une demande de copie d’éléments dans la Exchange store.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/CopyItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

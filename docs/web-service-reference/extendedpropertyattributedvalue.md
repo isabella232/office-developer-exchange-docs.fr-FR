@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f3c5c5-f612-4e1b-b1f5-f92dd8524179
 description: L’élément ExtendedPropertyAttributedValue spécifie les propriétés étendues d’un personnage.
-ms.openlocfilehash: 5c2ad5918d7ac666d5e26af6597b2c4c3dde6202
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 338c2a12d89cd7b1305be2fc75692782b1b3a466
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460126"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535379"
 ---
 # <a name="extendedpropertyattributedvalue"></a>ExtendedPropertyAttributedValue
 
-L’élément **ExtendedPropertyAttributedValue** spécifie les propriétés étendues d’un personnage. 
+**L’élément ExtendedPropertyAttributedValue** spécifie les propriétés étendues d’un personnage. 
   
 ```XML
 <ExtendedPropertyAttributedValue>
@@ -39,8 +39,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Spécifie un tableau de propriétés étendues pour un personnage.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
+|[Value (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Spécifie un tableau de propriétés étendues pour un personnage.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau d’attributions pour son élément **Value** associé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

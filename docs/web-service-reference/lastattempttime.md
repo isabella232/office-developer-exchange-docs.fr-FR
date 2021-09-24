@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4ffdf0f-1210-429d-8eea-665db2aad3bb
-description: L’élément LastAttemptTime contient l’heure et la date de la dernière tentative d’indexation de l’élément.
-ms.openlocfilehash: 8ef7d8d436f7e12a5c1e6a1d0762fcf777a95d05
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LastAttemptTime contient l’heure et la date à laquelle la dernière tentative d’indexation de l’élément a été réalisée.
+ms.openlocfilehash: 7bc0ffa9a0b7b6fd0079ce2430689d1b5f5f2f35
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509629"
 ---
 # <a name="lastattempttime"></a>LastAttemptTime
 
-L’élément **LastAttemptTime** contient l’heure et la date de la dernière tentative d’indexation de l’élément. 
+**L’élément LastAttemptTime contient** l’heure et la date à laquelle la dernière tentative d’indexation de l’élément a été réalisée. 
   
 ```XML
 <LastAttemptTime></LastAttemptTime>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LastAttemptTime** représente une heure et une date de la dernière tentative d’indexation de l’élément. 
+La valeur de texte de **l’élément LastAttemptTime** représente l’heure et la date à laquelle la dernière tentative d’indexation de l’élément a été réalisée. 
   
 ## <a name="remarks"></a>Remarques
 

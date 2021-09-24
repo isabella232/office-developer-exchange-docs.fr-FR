@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegateUser
 api_type:
 - schema
 ms.assetid: aac4e74e-f69b-4c41-a0c9-489610330fbf
-description: L’élément DelegateUser identifie un délégué unique à ajouter ou mettre à jour dans une boîte aux lettres ou un délégué renvoyé dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 40d9dacbd544436a3edf3213cf078cd33f961a74
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DelegateUser identifie un délégué unique à ajouter ou à mettre à jour dans une boîte aux lettres ou un délégué renvoyé dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 1963bef64e32ff536f0544a03f019e7785bae4d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458802"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510254"
 ---
 # <a name="delegateuser"></a>DelegateUser
 
-L’élément **DelegateUser** identifie un délégué unique à ajouter ou mettre à jour dans une boîte aux lettres ou un délégué renvoyé dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément DelegateUser** identifie un délégué unique à ajouter ou à mettre à jour dans une boîte aux lettres ou un délégué renvoyé dans une réponse de gestion de délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DelegateUser>
@@ -47,16 +47,16 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[UserId](userid.md) <br/> |Identifie le délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indique si un délégué reçoit des copies des messages relatifs à la réunion adressés au principal. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[ViewPrivateItems](viewprivateitems.md) <br/> |Indique si un délégué dispose de l’autorisation d’afficher des éléments de calendrier privés dans la boîte aux lettres de l’entité de sécurité. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres du niveau d’autorisation délégué. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indique si un délégué reçoit des copies des messages de réunion adressés au principal. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[ViewPrivateItems](viewprivateitems.md) <br/> |Indique si un délégué est autorisé à afficher des éléments de calendrier privés dans la boîte aux lettres du principal. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegateUsers](delegateusers.md) <br/> |Contient les identités des délégués à ajouter ou mettre à jour dans une boîte aux lettres.  <br/> |
-|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contient des messages de réponse pour les opérations de gestion de délégués. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[DelegateUsers](delegateusers.md) <br/> |Contient les identités des délégués à ajouter ou à mettre à jour dans une boîte aux lettres.  <br/> |
+|[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contient des messages de réponse pour les opérations de gestion des délégués. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

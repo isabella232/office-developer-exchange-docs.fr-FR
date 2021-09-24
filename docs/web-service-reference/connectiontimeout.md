@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConnectionTimeout
 api_type:
 - schema
 ms.assetid: 14da68a0-bcca-4281-a774-47644baa4ee9
-description: L’élément ConnectionTimeout spécifie le nombre de minutes pendant lesquelles la connexion doit rester ouverte.
-ms.openlocfilehash: 671e3cf5466ee8b3543036811708bd7f54afdcce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ConnectionTimeout spécifie le nombre de minutes pendant le maintien d’une connexion ouverte.
+ms.openlocfilehash: 7ca7a0b0b71d40a4f7888b63663b7d1e0f81b449
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463852"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536826"
 ---
 # <a name="connectiontimeout"></a>ConnectionTimeout
 
-L’élément **ConnectionTimeout** spécifie le nombre de minutes pendant lesquelles la connexion doit rester ouverte. 
+**L’élément ConnectionTimeout** spécifie le nombre de minutes pendant le maintien d’une connexion ouverte. 
   
 [Opération de GetStreamingEvents](getstreamingevents-operation.md)
   
@@ -48,11 +48,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetStreamingEvents](getstreamingevents.md) <br/> |Définit une demande pour obtenir des notifications d’événement à partir d’une connexion de diffusion en continu.  <br/> |
+|[GetStreamingEvents](getstreamingevents.md) <br/> |Définit une demande d’obtenir des notifications d’événement à partir d’une connexion de diffusion en continu.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente un entier qui décrit le nombre maximal de minutes pendant lesquelles une connexion de diffusion en continu doit être conservée. La valeur doit être comprise entre 1 et 30 inclus.
+La valeur de texte représente un nombre complet qui décrit le nombre maximal de minutes pendant la durée d’ouverture d’une connexion de diffusion en continu. La valeur doit être entre 1 et 30 inclus.
   
 ## <a name="remarks"></a>Remarques
 

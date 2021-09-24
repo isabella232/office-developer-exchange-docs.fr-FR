@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllInternal
 api_type:
 - schema
 ms.assetid: b7e5072f-5d9f-4ee0-b58b-4d75d878ea1c
-description: L’élément AllInternal renvoie la valeur true si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur.
-ms.openlocfilehash: c5ffe15eca5d680994acb62913ebf5effacce214
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AllInternal est évalué à true si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur.
+ms.openlocfilehash: 5ccc484de19449bc47a39f170f691649ae4beb7f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523228"
 ---
 # <a name="allinternal"></a>AllInternal
 
-L’élément **AllInternal** renvoie la **valeur true** si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur. 
+**L’élément AllInternal** est évalué à **true** si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur. 
   
 ```xml
 <AllInternal/>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie action de la règle soit exécutée.  <br/> |
-|[Et (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour avoir la **valeur true**.  <br/> |
+|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie Action de la règle soit exécutée.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour être évalués sur **true**.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-L’élément **AllInternal** doit être vide. 
+**L’élément AllInternal** doit être vide. 
   
 ## <a name="remarks"></a>Remarques
 

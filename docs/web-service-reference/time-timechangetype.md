@@ -1,27 +1,27 @@
 ---
-title: Heure (TimeChangeType)
+title: Time (TimeChangeType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Time
 api_type:
 - schema
 ms.assetid: be12e41e-6871-4f6b-b2d4-3dfa404f9ea1
-description: L’élément Time décrit le moment où le temps change entre l’heure standard et l’heure d’été.
-ms.openlocfilehash: c25d0bc3394fdfab42a29eab8b370bc4263618ed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Time décrit l’heure à quel moment l’heure change entre l’heure standard et l’heure d’été.
+ms.openlocfilehash: 0c669340778496958ef6dff082e48b5b7f6209b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465736"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523306"
 ---
-# <a name="time-timechangetype"></a>Heure (TimeChangeType)
+# <a name="time-timechangetype"></a>Time (TimeChangeType)
 
-L’élément **Time** décrit le moment où le temps change entre l’heure standard et l’heure d’été. 
+**L’élément Time** décrit l’heure à quel moment l’heure change entre l’heure standard et l’heure d’été. 
   
 ```xml
 <Time/>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Auxquelles](daylight.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
-|[Standard](standard.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
+|[Daylight](daylight.md) <br/> |Représente la date et l’heure de passage de l’heure d’été à l’heure standard.  <br/> |
+|[Standard](standard.md) <br/> |Représente la date et l’heure de passage de l’heure d’été à l’heure standard.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente l’heure à laquelle le temps change entre l’heure standard et l’heure d’été.
+La valeur de texte représente l’heure à quel moment l’heure change entre l’heure standard et l’heure d’été.
   
 ## <a name="remarks"></a>Remarques
 

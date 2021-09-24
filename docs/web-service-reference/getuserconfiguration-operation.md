@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfiguration
 api_type:
 - schema
 ms.assetid: 71d50e3c-92bd-435f-8118-b28bb85f8138
-description: L’opération GetUserConfiguration obtient un objet de configuration utilisateur d’un dossier.
-ms.openlocfilehash: fb28e88d1a47b0ea8f63ed33b1efacae8538e1c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetUserConfiguration obtient un objet de configuration utilisateur à partir d’un dossier.
+ms.openlocfilehash: be6c662cf49a7c2441f94084dd909e86fe703e20
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458207"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516845"
 ---
 # <a name="getuserconfiguration-operation"></a>Opération GetUserConfiguration
 
-L’opération **GetUserConfiguration** obtient un objet de configuration utilisateur d’un dossier. 
+**L’opération GetUserConfiguration** obtient un objet de configuration utilisateur à partir d’un dossier. 
   
 ## <a name="getuserconfiguration-request-example"></a>Exemple de requête GetUserConfiguration
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **GetUserConfiguration** suivant montre comment créer une demande pour obtenir un objet de configuration utilisateur dans le dossier Brouillons. 
+L’exemple suivant **d’une demande GetUserConfiguration** montre comment former une demande pour obtenir un objet de configuration utilisateur dans le dossier Brouillons. 
   
 ### <a name="code"></a>Code
 
@@ -56,7 +56,7 @@ L’exemple de requête **GetUserConfiguration** suivant montre comment créer u
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **GetUserConfiguration** . 
+L’exemple suivant montre une réponse réussie à la **demande GetUserConfiguration.** 
   
 ### <a name="code"></a>Code
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetSharingFolder
 api_type:
 - schema
 ms.assetid: ed5bb61f-89c7-4baa-83ee-30f06a49ff9b
-description: L’élément GetSharingFolder définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié. Il s’agit de l’élément de base pour l’opération GetSharingFolder.
-ms.openlocfilehash: cb76c534d9b30d0a9d1b267396551eb2871e638a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetSharingFolder définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié. Il s’agit de l’élément de base de l’opération GetSharingFolder.
+ms.openlocfilehash: 5d6362dff3ff29b0dc5100780cc70b21ec9bee9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509769"
 ---
 # <a name="getsharingfolder"></a>GetSharingFolder
 
-L’élément **GetSharingFolder** définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié. Il s’agit de l’élément de base pour l' [opération GetSharingFolder](getsharingfolder-operation.md).
+**L’élément GetSharingFolder** définit une demande pour obtenir l’identificateur de dossier local d’un dossier partagé spécifié. Il s’agit de l’élément de base [pour l’opération GetSharingFolder](getsharingfolder-operation.md).
   
 ```xml
 <GetSharingFolder>   <SmtpAddress/>   <DataType/>   <SharedFolderId/></GetSharingFolder>
@@ -50,9 +50,9 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Un élément GetSharingFolder doit contenir un élément [SmtpAddress](smtpaddress.md) . Un élément GetSharingFolder doit également contenir un élément [DataType](datatype.md) ou un élément [SharedFolderId](sharedfolderid.md) , mais ne peut pas contenir les deux. 
+Un élément GetSharingFolder doit contenir un [élément SmtpAddress.](smtpaddress.md) Un élément GetSharingFolder doit également contenir un élément [DataType](datatype.md) ou [SharedFolderId,](sharedfolderid.md) mais ne peut pas contenir les deux. 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

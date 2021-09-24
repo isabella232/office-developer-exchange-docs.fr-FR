@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofState
 api_type:
 - schema
 ms.assetid: 3c486a38-06da-4382-ad20-664d067d76ac
-description: L’élément OofState est utilisé pour obtenir ou définir l’État absent (e) du Bureau de l’utilisateur.
-ms.openlocfilehash: 6aef7d989ee6978019a483f2673895e68a88a7c5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OofState est utilisé pour obtenir ou définir l’état hors Office de l’utilisateur.
+ms.openlocfilehash: 4d0d893e364fc85d36e37400538a336473832efd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459734"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509534"
 ---
 # <a name="oofstate"></a>OofState
 
-L’élément **OofState** est utilisé pour obtenir ou définir l’État absent (e) du Bureau de l’utilisateur. 
+**L’élément OofState** est utilisé pour obtenir ou définir l’état d’absence du Office (OOF) de l’utilisateur. 
   
 ```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
@@ -44,30 +44,30 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contient les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du travail.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contient les paramètres d’absence du travail.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise pour l’élément **OofState** . La liste suivante contient les valeurs possibles pour cet élément : 
+Une valeur de texte est requise pour **l’élément OofState.** La liste suivante contient les valeurs possibles pour cet élément : 
   
 - **Disabled**
     
 - **Enabled**
     
-- **Scheduled**
+- **Planification**
     
-Une valeur de **scheduled** indique que le statut OOF est défini sur **activé** pendant une période identifiée par l’élément [Duration (UserOofSettings)](duration-useroofsettings.md) . 
+La valeur **Scheduled** indique que l’état de l’absence du travail est défini sur **Activé** pendant une période identifiée par l’élément [Duration (UserOofSettings).](duration-useroofsettings.md) 
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est requis dans le message SetUsersOofSettingRequest et le message GetUserOofSettingResponse.
+Cet élément est requis dans les messages SetUsersOofSettingRequest et GetUserOofSettingResponse.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple de requête SetUserOofSettings suivant active l' **OofState**.
+L’exemple suivant d’une demande SetUserOofSettings active **OofState**.
   
 ```
 <?xml version="1.0" encoding="utf-8"?>

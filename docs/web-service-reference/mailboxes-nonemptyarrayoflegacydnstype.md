@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e44bc49-8c99-472c-a507-0b5c25db9322
-description: L’élément mailboxes spécifie un tableau de boîtes aux lettres identifiées par un nom unique hérité.
-ms.openlocfilehash: 7e84a0d1c9ff53e45f8e844136f61de66f6d0ab4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Mailboxes spécifie un tableau de boîtes aux lettres identifiées par un nom hérité.
+ms.openlocfilehash: 1b11798fc7de6f94bff733f73bda9f57864cc503
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509608"
 ---
 # <a name="mailboxes-nonemptyarrayoflegacydnstype"></a>Boîtes aux lettres (NonEmptyArrayOfLegacyDNsType)
 
-L’élément **mailboxes** spécifie un tableau de boîtes aux lettres identifiées par un nom unique hérité. 
+**L’élément Mailboxes** spécifie un tableau de boîtes aux lettres identifiées par un nom hérité. 
   
 ```XML
 <Mailboxes>
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

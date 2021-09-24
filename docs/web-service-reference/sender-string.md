@@ -1,23 +1,23 @@
 ---
-title: Sender (chaîne)
+title: Sender (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c4c94b7-2d81-4585-b7b5-38646f990594
-description: L’élément sender spécifie l’adresse de messagerie de la personne qui a envoyé un élément.
-ms.openlocfilehash: 530b875729e860d2b4f2069fb4e07fb5b3236d7a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Sender spécifie l’adresse de messagerie de la personne qui a envoyé un élément.
+ms.openlocfilehash: 064f5ec3bad13ed8dafc05501327014451fb6d15
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523400"
 ---
-# <a name="sender-string"></a>Sender (chaîne)
+# <a name="sender-string"></a>Sender (String)
 
-L’élément **sender** spécifie l’adresse de messagerie de la personne qui a envoyé un élément. 
+**L’élément Sender** spécifie l’adresse de messagerie de la personne qui a envoyé un élément. 
   
 ```XML
 <Sender></Sender>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **sender** est l’expéditeur d’un message électronique qui est trouvé en effectuant une recherche de découverte. 
+La valeur de texte de **l’élément Sender** est l’expéditeur d’un message électronique trouvé lors d’une recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 

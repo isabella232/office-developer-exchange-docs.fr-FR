@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfigurationName
 api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
-description: L’élément UserConfigurationName représente le nom d’un objet de configuration utilisateur. Le nom de l’objet de configuration de l’utilisateur est l’identificateur d’un objet de configuration utilisateur.
-ms.openlocfilehash: 020b55919f7f81602a5eb072652d82168607d306
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserConfigurationName représente le nom d’un objet de configuration utilisateur. Le nom de l’objet de configuration utilisateur est l’identificateur d’un objet de configuration utilisateur.
+ms.openlocfilehash: 7563435f25a5307aa908a64baceffb3c81138149
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466030"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517384"
 ---
 # <a name="userconfigurationname"></a>UserConfigurationName
 
-L’élément **UserConfigurationName** représente le nom d’un objet de configuration utilisateur. Le nom de l’objet de configuration de l’utilisateur est l’identificateur d’un objet de configuration utilisateur. 
+**L’élément UserConfigurationName représente** le nom d’un objet de configuration utilisateur. Le nom de l’objet de configuration utilisateur est l’identificateur d’un objet de configuration utilisateur. 
   
 ```XML
 <UserConfigurationName Name="">
@@ -45,21 +45,21 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Nom** <br/> |Contient une valeur de type String qui représente le nom d’un objet de configuration utilisateur. Cet attribut est obligatoire.  <br/> |
+|**Nom** <br/> |Contient une valeur de chaîne qui représente le nom d’un objet de configuration utilisateur. Cet attribut est obligatoire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Représente l’identificateur de dossier du dossier qui contient l’objet de configuration de l’utilisateur.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Représente un nom de dossier unique du dossier qui contient l’objet de configuration de l’utilisateur.  <br/> |
+|[FolderId](folderid.md) <br/> |Représente l’identificateur de dossier du dossier qui contient l’objet de configuration utilisateur.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Représente un nom de dossier spécifique du dossier qui contient l’objet de configuration utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[DeleteUserConfiguration](deleteuserconfiguration.md) <br/> |Représente une demande de suppression d’un objet de configuration utilisateur.  <br/> |
-|[GetUserConfiguration](getuserconfiguration.md) <br/> |Représente une demande d’obtention d’un objet de configuration utilisateur.  <br/> |
+|[GetUserConfiguration](getuserconfiguration.md) <br/> |Représente une demande d’obtenir un objet de configuration utilisateur.  <br/> |
 |[UserConfiguration](userconfiguration.md) <br/> |Définit un objet de configuration utilisateur unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte

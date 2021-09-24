@@ -1,27 +1,27 @@
 ---
-title: UserIds
+title: ID utilisateur
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserIds
 api_type:
 - schema
 ms.assetid: 78a09c3a-1646-4c55-95a2-1109fb11e1c6
-description: L’élément UserIds contient un tableau d’utilisateurs délégués à récupérer ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: de4661226c154ef0d2d5ac55c57405e20c4d2aee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserIds contient un tableau d’utilisateurs délégués à obtenir ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: c99c39a75060780974cb26546e3a9d2947a9dfb8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517357"
 ---
-# <a name="userids"></a>UserIds
+# <a name="userids"></a>ID utilisateur
 
-L’élément **userids** contient un tableau d’utilisateurs délégués à récupérer ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément UserIds** contient un tableau d’utilisateurs délégués à obtenir ou à supprimer de la boîte aux lettres d’un principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <UserIds>
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

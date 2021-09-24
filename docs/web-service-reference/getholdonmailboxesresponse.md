@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8af93c14-c4f0-4ec3-a1e6-4742a0a14eee
-description: L’élément GetHoldOnMailboxes contient la demande pour obtenir l’état de suspension d’une boîte aux lettres.
-ms.openlocfilehash: fee6cd4781533cb779a971ebba46707527623dcc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetHoldOnMailboxes contient la demande d’obtenir le statut de la boîte aux lettres en attente.
+ms.openlocfilehash: 36d183b2d3cb71d8767764821bda85aaad8f3ba6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516957"
 ---
 # <a name="getholdonmailboxesresponse"></a>GetHoldOnMailboxesResponse
 
-L’élément **GetHoldOnMailboxes** contient la demande pour obtenir l’état de suspension d’une boîte aux lettres. 
+**L’élément GetHoldOnMailboxes contient** la demande d’obtenir le statut de la boîte aux lettres en attente. 
   
 ```XML
 <GetHoldOnMailboxes>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

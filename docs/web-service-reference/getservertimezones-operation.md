@@ -5,39 +5,39 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServerTimeZones
 api_type:
 - schema
 ms.assetid: 680173e1-e916-466b-b573-5a3182316345
-description: L’opération GetServerTimeZones retourne des informations à partir des définitions de fuseau horaire qui sont disponibles sur un serveur Exchange.
-ms.openlocfilehash: 1afe7fe13501af4a14f72c731703fe41e1f33049
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetServerTimeZones renvoie des informations à partir des définitions de fuseau horaire disponibles sur un Exchange serveur.
+ms.openlocfilehash: f46222251729d5e82042f267d4b6293afb16de00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460539"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516950"
 ---
 # <a name="getservertimezones-operation"></a>Opération GetServerTimeZones
 
-L’opération **GetServerTimeZones** retourne des informations à partir des définitions de fuseau horaire qui sont disponibles sur un serveur Exchange. 
+**L’opération GetServerTimeZones** renvoie des informations à partir des définitions de fuseau horaire disponibles sur un Exchange serveur. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetServerTimeZones** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetServerTimeZones peut** utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getservertimezones-request-examples"></a>Exemples de requête GetServerTimeZones
 
 ### <a name="getting-the-name-and-identifier-of-each-time-zone"></a>Obtention du nom et de l’identificateur de chaque fuseau horaire
 
-L’exemple de code suivant montre comment récupérer le nom et l’identificateur pour les fuseaux horaires standard est et Pacifique.
+L’exemple de code suivant montre comment récupérer le nom et l’identificateur des fuseaux horaires Est standard et Pacifique.
   
 ### <a name="code"></a>Code
 
@@ -63,11 +63,11 @@ L’exemple de code suivant montre comment récupérer le nom et l’identificat
 
 ### <a name="comments"></a>Commentaires
 
-Chaque élément [ID (TimeZone)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire demandée. Pour demander des informations pour tous les fuseaux horaires, omettez l’élément [IDS](ids.md) de la demande. 
+Chaque [élément ID (TimeZone)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire demandée. Pour demander des informations pour tous les fuseaux horaires, omettez [l’élément Ids](ids.md) de la demande. 
   
 ### <a name="getting-the-full-definition-of-each-time-zone"></a>Obtention de la définition complète de chaque fuseau horaire
 
-L’exemple de code suivant montre comment récupérer la définition de fuseau horaire complète pour le fuseau horaire de l’est.
+L’exemple de code suivant montre comment récupérer la définition de fuseau horaire complet pour le fuseau horaire Standard de l’Est.
   
 ### <a name="code"></a>Code
 
@@ -92,13 +92,13 @@ L’exemple de code suivant montre comment récupérer la définition de fuseau 
 
 ### <a name="comments"></a>Commentaires
 
-Chaque élément [ID (TimeZone)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire demandée. Pour demander des informations pour tous les fuseaux horaires, omettez l’élément [IDS](ids.md) de la demande. 
+Chaque [élément ID (TimeZone)](id-timezone.md) contient l’identificateur d’une définition de fuseau horaire demandée. Pour demander des informations pour tous les fuseaux horaires, omettez [l’élément Ids](ids.md) de la demande. 
   
 ## <a name="getservertimezones-response-examples"></a>Exemples de réponse GetServerTimeZones
 
 ### <a name="receiving-the-time-zone-name-and-identifier-only"></a>Réception du nom et de l’identificateur du fuseau horaire uniquement
 
-L’exemple suivant de réponse **GetServerTimeZones** indique une réponse réussie à une requête **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été défini sur **false**. La réponse contient le nom et l’identificateur pour les fuseaux horaires standard est et Pacifique.
+L’exemple suivant d’une réponse **GetServerTimeZones** affiche une réponse réussie à une demande **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été définie sur **false**. La réponse contient le nom et l’identificateur des fuseaux horaires Standard Est et Pacifique.
   
 ### <a name="code"></a>Code
 
@@ -132,9 +132,9 @@ L’exemple suivant de réponse **GetServerTimeZones** indique une réponse réu
 </soap:Envelope>
 ```
 
-### <a name="receiving-a-full-time-zone-definition"></a>Réception d’une définition de fuseau horaire complète
+### <a name="receiving-a-full-time-zone-definition"></a>Réception d’une définition de fuseau horaire complet
 
-L’exemple suivant de réponse **GetServerTimeZones** indique une réponse réussie à une requête **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été défini sur **true**. La réponse contient la définition de fuseau horaire complète pour le fuseau horaire de l’est.
+L’exemple suivant d’une réponse **GetServerTimeZones** affiche une réponse réussie à une demande **GetServerTimeZones** dans laquelle l’attribut **ReturnFullTimeZoneData** a été définie sur **true**. La réponse contient la définition de fuseau horaire complet pour le fuseau horaire Standard de l’Est.
   
 ### <a name="code"></a>Code
 

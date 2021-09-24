@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 433f1bdd-2b96-465c-8e9e-e8427fdc2796
-description: L’élément KeepProperties est destiné uniquement à un usage interne.
-ms.openlocfilehash: a27e3ca9ced1f941f47f441b5089d02d9fd41f9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément KeepProperties est destiné à un usage interne uniquement.
+ms.openlocfilehash: f8f319ae721b51d3af1a9c9a3109db417bf0e032
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59522823"
 ---
 # <a name="keepproperties"></a>KeepProperties
 
-L’élément **KeepProperties** est destiné uniquement à un usage interne. 
+**L’élément KeepProperties est** destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
@@ -47,7 +47,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

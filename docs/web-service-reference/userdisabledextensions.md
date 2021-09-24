@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8294eee-6588-4e42-965d-c8261a4770c9
 description: L’élément UserDisabledExtensions répertorie les applications désactivées.
-ms.openlocfilehash: 42fd16f342e8c5a4f7a5526cb7513cf77ba8246f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e18eb1a7e53eab83c72fb6d974e25e7efbe2dd9c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517370"
 ---
 # <a name="userdisabledextensions"></a>UserDisabledExtensions
 
-L’élément **UserDisabledExtensions** répertorie les applications désactivées. 
+**L’élément UserDisabledExtensions** répertorie les applications désactivées. 
   
 ```XML
 <UserDisabledExtensions>

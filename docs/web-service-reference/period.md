@@ -1,27 +1,27 @@
 ---
-title: Point
+title: Period
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Period
 api_type:
 - schema
 ms.assetid: 2f9cf6af-c531-4d7d-90c9-1a1db504d890
-description: L’élément period définit le nom, le décalage temporel et l’identificateur unique pour une étape spécifique du fuseau horaire.
-ms.openlocfilehash: a7c36a9de01fd0484a7df75de3b5525992ef7ee7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Period définit le nom, le décalage horaire et l’identificateur unique d’une étape spécifique du fuseau horaire.
+ms.openlocfilehash: 7fa5bca6547f4e3120c60c2e2b69139f7bb12e93
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459720"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534734"
 ---
-# <a name="period"></a>Point
+# <a name="period"></a>Period
 
-L’élément **period** définit le nom, le décalage temporel et l’identificateur unique pour une étape spécifique du fuseau horaire. 
+**L’élément Period** définit le nom, le décalage horaire et l’identificateur unique d’une étape spécifique du fuseau horaire. 
   
 ```xml
 <Period Bias="" Name="" Id=""/>
@@ -36,9 +36,9 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|Bias  <br/> |Valeur XS : Duration qui représente le décalage horaire par rapport au temps universel coordonné (UTC) pour la période.  <br/> |
-|Nom  <br/> |Valeur de type String qui représente le nom descriptif de la période.  <br/> |
-|ID  <br/> |Valeur de type String qui représente l’identificateur de la période.  <br/> |
+|Bias  <br/> |Valeur xs:duration qui représente le décalage par rapport au temps universel coordonné (UTC) pour la période.  <br/> |
+|Nom  <br/> |Valeur de chaîne qui représente le nom descriptif du point.  <br/> |
+|ID  <br/> |Valeur de chaîne qui représente l’identificateur du point.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,7 +48,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Periods](periods.md) <br/> |Représente un tableau de périodes qui définissent le décalage temporel à différentes étapes du fuseau horaire.  <br/> |
+|[Periods](periods.md) <br/> |Représente un tableau de périodes qui définissent le décalage horaire à différentes étapes du fuseau horaire.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

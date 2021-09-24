@@ -1,23 +1,23 @@
 ---
-title: Surnoms
+title: Nicknames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
-description: L’élément NickNames spécifie un tableau de valeurs de surnom et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: c6b7de5e1c93797603a2950b4a9527c5d370f93d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Nicknames spécifie un tableau de valeurs de surnoms et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 38ae06233a6b6f9eb07881faec1e530f5c0cb559
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457773"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537623"
 ---
-# <a name="nicknames"></a>Surnoms
+# <a name="nicknames"></a>Nicknames
 
-L’élément **NickNames** spécifie un tableau de valeurs de surnom et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Nicknames** spécifie un tableau de valeurs de surnoms et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Nicknames>

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6942ac5-9942-4c68-876c-d02d049e7966
-description: L’élément TemplateName spécifie le nom du modèle de gestion des droits.
-ms.openlocfilehash: 211f5792ac29496557f5d69969195680e4fec950
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TemplateName spécifie le nom du modèle Rights Management.
+ms.openlocfilehash: 3ae69c811cf520930547da4d058eac1d3eefb3cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526766"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523313"
 ---
 # <a name="templatename"></a>TemplateName
 
-L’élément **TemplateName** spécifie le nom du modèle de gestion des droits. 
+**L’élément TemplateName** spécifie le nom du modèle Rights Management. 
   
 ```XML
 <TemplateName></TemplateName>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TemplateName** est le nom du modèle de gestion des droits appliqué à un élément. 
+La valeur de texte de **l’élément TemplateName** est le nom du modèle Rights Management appliqué à un élément. 
   
 ## <a name="remarks"></a>Remarques
 

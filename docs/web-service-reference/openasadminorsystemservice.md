@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OpenAsAdminOrSystemService
 api_type:
 - schema
 ms.assetid: fff7c928-da28-4864-9379-dc54c1bf048f
-description: L’élément OpenAsAdminOrSystemService est réservé à un usage interne. Cet élément n’est pas utilisé par les clients.
-ms.openlocfilehash: e4bd101b048bd5ac1af8d383d64519b9ed6f0041
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OpenAsAdminOrSystemService est à usage interne uniquement. Cet élément n’est pas utilisé par les clients.
+ms.openlocfilehash: 1ab1ae3f4e3c580c3b758d979eda1ba9b31c7325
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462506"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537449"
 ---
 # <a name="openasadminorsystemservice"></a>OpenAsAdminOrSystemService
 
-L’élément **OpenAsAdminOrSystemService** est réservé à un usage interne. Cet élément n’est pas utilisé par les clients. 
+**L’élément OpenAsAdminOrSystemService est** à usage interne uniquement. Cet élément n’est pas utilisé par les clients. 
   
 ```XML
 <OpenAsAdminOrSystemService LogonType="">
@@ -38,13 +38,13 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|LogonType  <br/> |Non destiné à être utilisé par le client.  <br/> |
+|LogonType  <br/> |Non destiné à une utilisation client.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|ConnectingSID  <br/> |Non destiné à être utilisé par le client.  <br/> |
+|ConnectingSID  <br/> |Non destiné à une utilisation client.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

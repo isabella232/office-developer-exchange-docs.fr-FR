@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalUniqueRecipients
 api_type:
 - schema
 ms.assetid: 67379c1c-85d9-4b11-8f17-ad9d24904788
 description: L'élément GlobalUniqueRecipients contient la liste des destinataires d'une conversation regroupée sur une boîte aux lettres.
-ms.openlocfilehash: 3481c43b99f75a05a8e7fbe5a288e04708290d83
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b7e4adf9a68aa7235db01ec6b8dcf40c988694e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456037"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516817"
 ---
 # <a name="globaluniquerecipients"></a>GlobalUniqueRecipients
 
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types. xsd  <br/> |
+|Fichier de validation  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

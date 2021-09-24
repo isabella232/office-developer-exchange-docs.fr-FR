@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ForwardAsAttachmentToRecipients
 api_type:
 - schema
 ms.assetid: 8649ea14-672f-43c9-b10a-a2b02efd5867
 description: L'élément ForwardAsAttachmentToRecipients indique les adresses de messagerie à laquelle les messages sont transmis en tant que pièces jointes.
-ms.openlocfilehash: bf8c3563460eea811602074bf16f9253b4610832
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3063ffd9080e29020520095d71b354f32ec63a54
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509929"
 ---
 # <a name="forwardasattachmenttorecipients"></a>ForwardAsAttachmentToRecipients
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

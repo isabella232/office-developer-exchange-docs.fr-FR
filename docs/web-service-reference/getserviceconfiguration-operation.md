@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetServiceConfiguration
 api_type:
 - schema
 ms.assetid: 070cbfe5-325a-4955-8e4a-8230ea0459a7
-description: L’opération GetServiceConfiguration obtient des informations de configuration pour le type de service spécifié. Cette opération peut retourner des paramètres de configuration pour la messagerie unifiée, les règles de protection et les services de messagerie.
-ms.openlocfilehash: b8ea2cef366a52765850dddcc8c1ef1e8fa68b22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetServiceConfiguration obtient les informations de configuration pour le type de service spécifié. Cette opération peut retourner les paramètres de configuration pour les services de messagerie unifiée, de règles de protection et de Astuces messagerie.
+ms.openlocfilehash: 29246e17313e4f3d9fb02532513eb3fbd033a86e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460910"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516929"
 ---
 # <a name="getserviceconfiguration-operation"></a>Opération GetServiceConfiguration
 
-L’opération **GetServiceConfiguration** obtient des informations de configuration pour le type de service spécifié. Cette opération peut retourner des paramètres de configuration pour la messagerie unifiée, les règles de protection et les services de messagerie. 
+**L’opération GetServiceConfiguration** obtient les informations de configuration pour le type de service spécifié. Cette opération peut retourner les paramètres de configuration pour les services de messagerie unifiée, de règles de protection et de Astuces messagerie. 
   
 ## <a name="getserviceconfiguration-request-example"></a>Exemple de requête GetServiceConfiguration
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **GetServiceConfiguration** suivant montre comment créer une demande pour obtenir des informations de configuration pour le service de messagerie unifiée. 
+L’exemple suivant **d’une demande GetServiceConfiguration** montre comment former une demande pour obtenir des informations de configuration pour le service de messagerie unifiée. 
   
 ### <a name="code"></a>Code
 
@@ -55,7 +55,7 @@ L’exemple de requête **GetServiceConfiguration** suivant montre comment crée
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **GetServiceConfiguration** . 
+L’exemple suivant montre une réponse réussie à la **demande GetServiceConfiguration.** 
   
 ### <a name="code"></a>Code
 
@@ -97,7 +97,7 @@ L’exemple suivant montre une réponse réussie à la demande **GetServiceConfi
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à la demande **GetServiceConfiguration** . Cette erreur est due à un nom de configuration incorrect. 
+L’exemple suivant montre une réponse d’erreur à **la demande GetServiceConfiguration.** Cette erreur est due à un nom de configuration incorrect. 
   
 ### <a name="code"></a>Code
 

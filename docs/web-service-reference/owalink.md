@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d217b6-d7c0-4b99-ada9-19c758ae4a5b
-description: L’élément OwaLink spécifie le lien permettant d’afficher un aperçu d’un élément dans Microsoft Outlook Web App.
-ms.openlocfilehash: 176484387d690bb8e0040507c11feffd6b4f4be5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OwaLink spécifie le lien pour afficher un aperçu d’un élément dans Microsoft Outlook Web App.
+ms.openlocfilehash: 38b90251cf5aa1b4d058d2be70d12f9fd4c25424
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467458"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534904"
 ---
 # <a name="owalink"></a>OwaLink
 
-L’élément **OwaLink** spécifie le lien permettant d’afficher un aperçu d’un élément dans Microsoft Outlook Web App. 
+**L’élément OwaLink** spécifie le lien pour afficher un aperçu d’un élément dans Microsoft Outlook Web App. 
   
 ```XML
 <OwaLink></OwaLink>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **OwaLink** est l’URL permettant d’afficher l’élément dans Outlook Web App. 
+La valeur de texte de **l’élément OwaLink** est l’URL qui permet d’afficher l’élément dans Outlook Web App. 
   
 ## <a name="remarks"></a>Remarques
 

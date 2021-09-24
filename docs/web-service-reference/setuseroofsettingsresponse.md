@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettingsResponse
 api_type:
 - schema
 ms.assetid: 8aa4025b-38df-4d63-a6a5-c3b932bec26e
 description: L’élément SetUserOofSettingsResponse contient le résultat d’une tentative de message SetUserOofSettingsRequest.
-ms.openlocfilehash: 9b02d905f82488965f5ae0514a52eb6062aaff7d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f0f3752cc0e356afcb7a60943aa6ba1a520171ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466128"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517692"
 ---
 # <a name="setuseroofsettingsresponse"></a>SetUserOofSettingsResponse
 
-L’élément **SetUserOofSettingsResponse** contient le résultat d’une tentative de message [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) . 
+**L’élément SetUserOofSettingsResponse** contient le résultat d’une tentative de message [SetUserOofSettingsRequest.](setuseroofsettingsrequest.md) 
   
 ```xml
 <SetUserOofSettingsResponse>
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

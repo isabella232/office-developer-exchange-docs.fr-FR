@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WorkingPeriod
 api_type:
 - schema
 ms.assetid: 3b4e48af-9880-42b9-a0dc-dae7ac43c264
-description: L’élément WorkingPeriod contient les jours et les heures de travail de l’utilisateur de la boîte aux lettres.
-ms.openlocfilehash: 5c217169fb193d4bb6dae4e18570873d55de6127
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément WorkingPeriod contient les jours et heures de travail de la semaine de l’utilisateur de boîte aux lettres.
+ms.openlocfilehash: 052d0e053b5a5c29da093bc63ddf5d2c9e640541
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537218"
 ---
 # <a name="workingperiod"></a>WorkingPeriod
 
-L’élément **WorkingPeriod** contient les jours et les heures de travail de l’utilisateur de la boîte aux lettres. 
+**L’élément WorkingPeriod contient** les jours et heures de travail de la semaine de l’utilisateur de boîte aux lettres. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -58,7 +58,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md) <br/> |Contient la liste des jours ouvrés planifiés pour l’utilisateur de la boîte aux lettres.  <br/> |
+|[DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md) <br/> |Contient la liste des jours ou travaillés prévus pour l’utilisateur de la boîte aux lettres.  <br/> |
 |[StartTimeInMinutes](starttimeinminutes.md) <br/> |Représente le début de la journée de travail pour un utilisateur de boîte aux lettres.  <br/> |
 |[EndTimeInMinutes](endtimeinminutes.md) <br/> |Représente la fin de la journée de travail pour un utilisateur de boîte aux lettres.  <br/> |
    
@@ -66,7 +66,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WorkingPeriodArray](workingperiodarray.md) <br/> |Contient des informations de période de travail pour l’utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
+|[WorkingPeriodArray](workingperiodarray.md) <br/> |Contient des informations de période de travail pour l’utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

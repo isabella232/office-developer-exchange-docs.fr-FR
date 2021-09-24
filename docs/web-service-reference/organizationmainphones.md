@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e69ae44-0e6d-4fb8-97c6-37cf23577c38
-description: L’élément OrganizationMainPhones spécifie un tableau de numéros de téléphone principaux de l’organisation et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 792cd20a361d038e797e64b461c565f85cada251
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OrganizationMainPhones spécifie un tableau de numéros de téléphone principaux de l’organisation et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: bdee726138ef6a433bfd0b9827f54eb6f89c1461
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534971"
 ---
 # <a name="organizationmainphones"></a>OrganizationMainPhones
 
-L’élément **OrganizationMainPhones** spécifie un tableau de numéros de téléphone principaux de l’organisation et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément OrganizationMainPhones** spécifie un tableau de numéros de téléphone principaux de l’organisation et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <OrganizationMainPhones>

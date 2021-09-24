@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDateTime
 api_type:
 - schema
 ms.assetid: 54d14e47-a8f7-400b-a859-c7ea7ce4c6a4
 description: L’élément EndDateTime spécifie la date et l’heure de fin d’une règle ou d’une recherche.
-ms.openlocfilehash: 9556e4c1ef405ae66a71d19d99d9a71a61f54efc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 19f2e64e37323f90f5c576acd5551675105f3bd3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460133"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517090"
 ---
 # <a name="enddatetime"></a>EndDateTime
 
-L’élément **EndDateTime** spécifie la date et l’heure de fin d’une règle ou d’une recherche. 
+**L’élément EndDateTime** spécifie la date et l’heure de fin d’une règle ou d’une recherche. 
   
 ```XML
 <EndDateTime/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contient des critères pour les types de messages à rechercher.  <br/> |
-|[WithinDateRange](withindaterange.md) <br/> |Spécifie la plage de dates au cours de laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |Spécifie la plage de dates dans laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConversationLastSyncTime
 api_type:
 - schema
 ms.assetid: 90f8f9e3-5fc6-4a6a-bdfb-fc91fa51f8a2
-description: L’élément ConversationLastSyncTime contient la date et l’heure de la dernière synchronisation d’une conversation. Cet élément doit être présent lors de la tentative de suppression de tous les éléments d’une conversation qui ont été reçus pendant la durée spécifiée.
-ms.openlocfilehash: f7cc6e205ab9936685d7b8c1f34129b799a53021
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ConversationLastSyncTime contient la date et l’heure de la dernière synchronisation d’une conversation. Cet élément doit être présent lors de la tentative de suppression de tous les éléments d’une conversation reçus jusqu’à l’heure spécifiée.
+ms.openlocfilehash: d71f455fa00226c84b157ba04b391b80df95f1bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461428"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536667"
 ---
 # <a name="conversationlastsynctime"></a>ConversationLastSyncTime
 
-L’élément **ConversationLastSyncTime** contient la date et l’heure de la dernière synchronisation d’une conversation. Cet élément doit être présent lors de la tentative de suppression de tous les éléments d’une conversation qui ont été reçus pendant la durée spécifiée. 
+**L’élément ConversationLastSyncTime contient** la date et l’heure de la dernière synchronisation d’une conversation. Cet élément doit être présent lors de la tentative de suppression de tous les éléments d’une conversation reçus jusqu’à l’heure spécifiée. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,7 +35,7 @@ L’élément **ConversationLastSyncTime** contient la date et l’heure de la d
 <ConversationLastSyncTime/>
 ```
 
- **XS : dateTime**
+ **xs:dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -52,11 +52,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte du **ConversationLastSyncTime** indique la date de la dernière synchronisation de la conversation. 
+La valeur de texte de **ConversationLastSyncTime** indique la dernière fois que la conversation a été synchronisée. 
   
 ## <a name="remarks"></a>Remarques
 

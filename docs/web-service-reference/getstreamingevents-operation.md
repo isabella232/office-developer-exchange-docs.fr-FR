@@ -1,35 +1,35 @@
 ---
-title: Opération de GetStreamingEvents
+title: Opération GetStreamingEvents
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
 - schema
 ms.assetid: 8da95423-72bc-4034-90a8-162eedcd059b
-description: Trouvez des informations sur l’opération EWS GetStreamingEvents.
-ms.openlocfilehash: 27744ec40d7c7cb551f35ed5f6fcb726f23d4865
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération GetStreamingEvents EWS.
+ms.openlocfilehash: 794407c2224e606be4f32cc610eff9f95e65a83b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530168"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523061"
 ---
-# <a name="getstreamingevents-operation"></a>Opération de GetStreamingEvents
+# <a name="getstreamingevents-operation"></a>Opération GetStreamingEvents
 
-Trouvez des informations sur l’opération EWS **GetStreamingEvents** . 
+Trouvez des informations **sur l’opération GetStreamingEvents** EWS. 
   
-L’opération **GetStreamingEvents** est utilisée par les clients d’abonnements de diffusion en continu pour demander des notifications à partir du serveur d’accès au client. La réponse **GetStreamingEvents** renvoie un tableau d’éléments et d’événements qui se sont produits dans une boîte aux lettres depuis la dernière notification. 
+**L’opération GetStreamingEvents est** utilisée par les clients d’abonnement de diffusion en continu pour demander des notifications au serveur d’accès au client. La **réponse GetStreamingEvents** renvoie un tableau d’éléments et d’événements qui se sont produits dans une boîte aux lettres depuis la dernière notification. 
   
 ## <a name="getstreamingevents-request-example"></a>Exemple de requête GetStreamingEvents
 
 ### <a name="description"></a>Description
 
-L’exemple suivant d’une opération **GetStreamingEvents** indique comment demander les événements et les éléments qui sont associés à un abonnement identifié par l’identificateur d’abonnement. 
+L’exemple suivant d’une opération **GetStreamingEvents** montre comment demander les événements et les éléments associés à un abonnement identifié par l’identificateur d’abonnement. 
   
 ### <a name="code"></a>Code
 
@@ -57,11 +57,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ConnectionTimeout](connectiontimeout.md)
     
-## <a name="successful-getstreamingevents-response-example"></a>Exemple de réponse GetStreamingEvents réussi
+## <a name="successful-getstreamingevents-response-example"></a>Exemple de réponse GetStreamingEvents réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse **GetStreamingEvents** indique les notifications envoyées au client lors de la réception d’un nouveau message électronique. Elle inclut des notifications pour les événements suivants : CreatedEvent, NewMail et ModifiedEvent. 
+L’exemple suivant **d’une réponse GetStreamingEvents** affiche les notifications envoyées au client lors de la réception d’un nouveau message électronique. Il inclut des notifications pour les événements suivants : CreatedEvent, NewMail et ModifiedEvent. 
   
 ### <a name="code"></a>Code
 
@@ -102,7 +102,7 @@ L’exemple suivant de réponse **GetStreamingEvents** indique les notifications
 </soap:Body>
 ```
 
-### <a name="getstreamingevents-response-elements"></a>Éléments Response GetStreamingEvents
+### <a name="getstreamingevents-response-elements"></a>Éléments de réponse GetStreamingEvents
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -118,13 +118,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)
     
-Pour trouver d’autres options pour le message de réponse de l’opération **GetStreamingEvents** , explorez la hiérarchie du schéma. Commencez par l’élément [notification](notification-ex15websvcsotherref.md) . 
+Pour rechercher d’autres options pour le message de réponse de l’opération **GetStreamingEvents,** explorez la hiérarchie de schéma. Commencez à [l’élément Notification.](notification-ex15websvcsotherref.md) 
   
 ## <a name="getstreamingevents-error-response-example"></a>Exemple de réponse d’erreur GetStreamingEvents
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête **GetStreamingEvents** . 
+L’exemple suivant montre une réponse d’erreur à **une demande GetStreamingEvents.** 
   
 ### <a name="code"></a>Code
 
@@ -155,21 +155,21 @@ L’exemple suivant montre une réponse d’erreur à une requête **GetStreamin
 
 ## <a name="remarks"></a>Remarques
 
-Lors du traitement d’une demande **GetStreamingEvents** , le serveur d’accès au client effectue les étapes suivantes : 
+Lors du traitement **d’une demande GetStreamingEvents,** le serveur d’accès au client effectue les étapes suivantes : 
   
-1. Le [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) de la demande est confirmé comme étant un abonnement valide hébergé sur le serveur d’accès au client. Si ce n’est pas le cas, l’appel **GetStreamingEvents** échoue. 
+1. [L’SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) de la demande est confirmé comme un abonnement valide hébergé sur le serveur d’accès au client. Si ce n’est pas le cas, **l’appel GetStreamingEvents** échoue. 
     
-2. L’adresse SMTP de l’utilisateur authentifié pour la demande est validée pour disposer des droits d’emprunt d’identité. Si ce n’est pas le cas, la demande **GetStreamingEvents** échoue. 
+2. L’adresse SMTP de l’utilisateur authentifié pour la demande est validée pour avoir des droits d’emprunt d’identité. Si ce n’est pas le cas, la **demande GetStreamingEvents** échoue. 
     
-3. La file d’attente d’abonnement est interrogée pour les événements qui attendent d’être envoyés au client. Si la file d’attente n’est pas vide, les premiers événements 50 de la file d’attente sont extraits de la file d’attente et codés dans une notification.
+3. La file d’attente des abonnements est interrogé pour les événements en attente d’envoi au client. Si la file d’attente n’est pas vide, les 50 premiers événements de la file d’attente sont retirés de la file d’attente et codés dans une notification.
     
-4. Si aucun événement n’est trouvé dans la file d’attente, une [StatusEvent](statusevent.md) est générée et codée dans une réponse de notification. 
+4. Si aucun événement n’est trouvé dans la file d’attente, [un événement StatusEvent](statusevent.md) est généré et codé dans une réponse de notification. 
     
 5. La réponse de notification est renvoyée au client.
     
-6. Les événements inclus dans la notification sont supprimés de la file d’attente d’abonnement et le dernier filigrane local du serveur d’accès au client pour l’abonnement est défini sur le filigrane du dernier événement renvoyé.
+6. Les événements inclus dans la notification sont supprimés de la file d’attente d’abonnement et le dernier filigrane local du serveur d’accès au client pour l’abonnement est définie sur le filigrane du dernier événement renvoyé.
     
-7. Le délai d’expiration de l’abonnement est réinitialisé.
+7. Le délai d’heure de l’abonnement est réinitialisé.
     
 ## <a name="see-also"></a>Voir aussi
 

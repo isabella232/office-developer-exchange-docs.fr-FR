@@ -5,53 +5,53 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47f8ff57-4835-4d2d-9136-44afb31a4cbe
 description: Trouvez des informations sur l’opération EWS GetSearchableMailboxes.
-ms.openlocfilehash: e893a66eb1b638479eeccc6bd7548cb020f37243
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 385a1e317069641c51249c9522cf404ecf961722
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530838"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523082"
 ---
 # <a name="getsearchablemailboxes-operation"></a>Opération GetSearchableMailboxes
 
 > [!IMPORTANT]
-> À partir du 1er avril 2020, l’opération GetSearchableMailboxes ne sera plus disponible dans Exchange Online. Cette opération ne sera pas affectée dans les versions locales d’Exchange Server. Pour plus d’informations, reportez-vous à la section [retraite des outils eDiscovery hérités dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
+> À compter du 1er avril 2020, l’opération GetSearchableMailboxes ne sera plus disponible dans Exchange Online. Cette opération ne sera pas affectée dans les versions sur site de Exchange Server. Pour plus d’informations, [voir Retrait des outils eDiscovery hérités dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
 
-Trouvez des informations sur l’opération EWS **GetSearchableMailboxes** . 
+Trouvez des informations sur l’opération EWS **GetSearchableMailboxes.** 
   
-L’opération **GetSearchableMailboxes** obtient un ensemble d’étendues de boîtes aux lettres pouvant faire l’objet d’une recherche pour les recherches de découverte. L’étendue des boîtes aux lettres pouvant faire l’objet d’une recherche renvoyée dans la réponse est déterminée par le filtre de recherche et par le fait que l’appartenance au groupe de distribution est développée ou non. 
+**L’opération GetSearchableMailboxes** obtient un ensemble de boîtes aux lettres utilisables dans une recherche pour les recherches de découverte. L’étendue des boîtes aux lettres utilisables dans une recherche renvoyée dans la réponse est déterminée par le filtre de recherche et par l’extension ou non de l’appartenance au groupe de distribution. 
 
 > [!NOTE] 
-> Cette opération est destinée à être utilisée avec le filtre de recherche et pour récupérer uniquement les quelques premières milliers ; elle n’est pas destinée à une extraction exhaustive.
+> Cette opération est destinée à être utilisée avec le filtre de recherche et à récupérer uniquement les premiers milliers ; Il n’est pas destiné à une récupération exhaustive.
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getsearchablemailboxes-operation"></a>Utilisation de l’opération GetSearchableMailboxes
 
-L’opération **GetSearchableMailboxes** obtient des informations sur les boîtes aux lettres pouvant faire l’objet d’une recherche. Les arguments suivants peuvent être transmis dans la demande : 
+**L’opération GetSearchableMailboxes obtient** des informations sur les boîtes aux lettres utilisables dans une recherche. Les arguments suivants peuvent être transmis dans la demande : 
   
-- [Unsearchfilter](searchfilter.md) -accepte un seul alias de courrier électronique en tant qu’argument. 
+- [SearchFilter](searchfilter.md) : accepte un alias de messagerie unique en tant qu’argument. 
     
-- [ExpandGroupMembership](expandgroupmembership.md) -indique si l’appartenance au groupe de distribution est développée dans les résultats renvoyés dans la réponse. 
+- [ExpandGroupMembership](expandgroupmembership.md) : indique si l’appartenance au groupe de distribution est étendue dans les résultats renvoyés dans la réponse. 
     
-Si le jeu d’alias de messagerie du filtre de recherche est un groupe de distribution et que l’appartenance au groupe de distribution n’est pas développée, la réponse contiendra les informations de boîte aux lettres du groupe de distribution. Si le jeu d’alias de messagerie du filtre de recherche est un groupe de distribution et que l’appartenance au groupe de distribution est étendue, la réponse contient les informations de boîte aux lettres de chaque boîte aux lettres membre du groupe de distribution. Si le filtre de recherche contient l’alias d’un seul utilisateur, la réponse contiendra les informations de boîte aux lettres de l’utilisateur. La réponse contiendra toutes les boîtes aux lettres pouvant faire l’objet d’une recherche si l’élément [GetSearchableMailboxes](getsearchablemailboxes.md) est vide. Cela revient à avoir un élément [unsearchfilter](searchfilter.md) vide et l’élément [ExpandGroupMembership](expandgroupmembership.md) définis sur **false**.
+Si l’alias de messagerie définie dans le filtre de recherche est un groupe de distribution et que l’appartenance au groupe de distribution n’est pas étendue, la réponse contient les informations de boîte aux lettres pour le groupe de distribution. Si l’alias de messagerie définie dans le filtre de recherche est un groupe de distribution et que l’appartenance au groupe de distribution est étendue, la réponse contient les informations de boîte aux lettres pour chaque boîte aux lettres membre du groupe de distribution. Si le filtre de recherche contient l’alias d’un seul utilisateur, la réponse contient les informations de boîte aux lettres de l’utilisateur unique. La réponse contient toutes les boîtes aux lettres utilisables dans une recherche si [l’élément GetSearchableMailboxes](getsearchablemailboxes.md) est vide. Cela est identique à la mise en place d’un [élément SearchFilter](searchfilter.md) vide et de [l’élément ExpandGroupMembership](expandgroupmembership.md) sur **false**.
   
-### <a name="getsearchablemailboxes-operation-soap-headers"></a>En-têtes SOAP d’opération GetSearchableMailboxes
+### <a name="getsearchablemailboxes-operation-soap-headers"></a>En-têtes SOAP de l’opération GetSearchableMailboxes
 
-L’opération **GetSearchableMailboxes** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetSearchableMailboxes peut** utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |Nom de l’en-tête|Élément|Description|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour permettre à l’appelant d’effectuer la demande. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getsearchablemailboxes-operation-request-example-request-information-about-a-distribution-group"></a>Exemple de requête d’opération GetSearchableMailboxes : demander des informations sur un groupe de distribution
+## <a name="getsearchablemailboxes-operation-request-example-request-information-about-a-distribution-group"></a>Exemple de demande d’opération GetSearchableMailboxes : demander des informations sur un groupe de distribution
 
-L’exemple suivant de demande d’opération **GetSearchableMailboxes** indique comment obtenir les informations de boîte aux lettres pour le groupe de distribution lolgroup. 
+L’exemple suivant d’une demande d’opération **GetSearchableMailboxes** montre comment obtenir les informations de boîte aux lettres pour le groupe de distributiongroup. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -71,15 +71,15 @@ L’exemple suivant de demande d’opération **GetSearchableMailboxes** indique
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [GetSearchableMailboxes](getsearchablemailboxes.md)   
-- [Unsearchfilter](searchfilter.md)    
+- [SearchFilter](searchfilter.md)    
 - [ExpandGroupMembership](expandgroupmembership.md)
     
-## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a>Réponse de l’opération GetSearchableMailboxes réussie : obtenir des informations sur un groupe de distribution
+## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-a-distribution-group"></a>Réponse de l’opération GetSearchableMailboxes réussie : obtenir des informations sur un groupe de distribution
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetSearchableMailboxes** afin d’obtenir les informations de découverte pour le groupe de distribution lolgroup. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetSearchableMailboxes** pour obtenir les informations de découverte du groupe de distribution de groupe de distribution. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -117,7 +117,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)   
 - [ResponseCode](responsecode.md)   
@@ -131,9 +131,9 @@ Le corps SOAP de réponse contient les éléments suivants :
 - [IsMembershipGroup](ismembershipgroup.md)    
 - [ReferenceId](referenceid.md)
     
-## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a>Réponse de l’opération GetSearchableMailboxes réussie : obtenir des informations sur un groupe de distribution étendu
+## <a name="successful-getsearchablemailboxes-operation-response-get-information-about-an-expanded-distribution-group"></a>Réponse de l’opération GetSearchableMailboxes réussie : obtenir des informations sur un groupe de distribution étendu
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetSearchableMailboxes** pour obtenir les informations de découverte sur les membres du groupe de distribution lolgroup étendu. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetSearchableMailboxes** pour obtenir les informations de découverte sur les membres du groupe de distribution de groupe de discussion développé. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -178,7 +178,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)    
 - [ResponseCode](responsecode.md)   
@@ -194,7 +194,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="getsearchablemailboxes-operation-error-response"></a>Réponse d’erreur d’opération GetSearchableMailboxes
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetSearchableMailboxes** . Réponse à une demande d’obtention de toutes les boîtes aux lettres pouvant faire l’objet d’une recherche lorsque l’argument **ExpandGroupMembership** est défini sur **true**. 
+L’exemple suivant montre une réponse d’erreur à **une demande d’opération GetSearchableMailboxes.** Il s’agit d’une réponse à une demande d’obtenir toutes les boîtes aux lettres utilisables dans une recherche lorsque l’argument **ExpandGroupMembership** est définie sur **true**. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -224,7 +224,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)  
 - [MessageText](messagetext.md)   
@@ -232,7 +232,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
 - [DescriptiveLinkKey](descriptivelinkkey.md) 
 - [SearchableMailboxes](searchablemailboxes.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

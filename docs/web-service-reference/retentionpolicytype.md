@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abce5b3e-971d-42fc-aeea-caa7202214de
 description: L’élément RetentionPolicyType spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation.
-ms.openlocfilehash: 3900718f10e1e11d5864ebf7e64a3e1e22aa45c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 961f72c35443e9f265e9313166fa77c8cd93d654
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462870"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509384"
 ---
 # <a name="retentionpolicytype"></a>RetentionPolicyType
 
-L’élément **RetentionPolicyType** spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation. 
+**L’élément RetentionPolicyType** spécifie le type de stratégie de rétention appliqué aux éléments d’une conversation. 
   
 ```XML
 <RetentionPolicyType> Delete | Archive </RetentionPolicyType>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionPolicyType** est le type de rétention appliqué aux éléments d’une conversation. La valeur texte de **Delete** indique que les éléments de la conversation sont supprimés lorsque le blocage de rétention expire. La valeur texte d' **Archive** indique que les éléments de la conversation sont déplacés vers la boîte aux lettres d’archivage lorsque le blocage de rétention expire. 
+La valeur de texte de **l’élément RetentionPolicyType** est le type de rétention appliqué aux éléments d’une conversation. La valeur de texte **Delete** indique que les éléments de la conversation sont supprimés à l’expiration de la conservation de rétention. La valeur de texte **Archive** indique que les éléments de la conversation sont déplacés vers la boîte aux lettres d’archivage à l’expiration de la conservation de rétention. 
   
 ## <a name="remarks"></a>Remarques
 

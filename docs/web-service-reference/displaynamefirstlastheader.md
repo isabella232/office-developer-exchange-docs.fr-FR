@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d482d226-457a-4dad-985f-54ee63de33cf
-description: L’élément DisplayNameFirstLastHeader spécifie l’en-tête pour le nom d’affichage, prénom en premier.
-ms.openlocfilehash: 1e7f5fbf56995e7e4f635f1b0fe693fdec8d8253
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisplayNameFirstLastHeader spécifie l’en-tête du nom complet, prénom en premier.
+ms.openlocfilehash: a40b8f80ff4000cd2eeb33db33d23f6640719773
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464104"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535525"
 ---
 # <a name="displaynamefirstlastheader"></a>DisplayNameFirstLastHeader
 
-L’élément **DisplayNameFirstLastHeader** spécifie l’en-tête pour le nom d’affichage, prénom en premier. 
+**L’élément DisplayNameFirstLastHeader** spécifie l’en-tête du nom complet, prénom en premier. 
   
 ```XML
 <DisplayNameFirstLastHeader></DisplayNameFirstLastHeader>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DisplayNameFirstLastHeader** est une valeur de type String qui spécifie l’en-tête. 
+La valeur de texte de **l’élément DisplayNameFirstLastHeader** est une valeur de chaîne qui spécifie l’en-tête. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PhysicalAddresses
 api_type:
 - schema
 ms.assetid: 5276c5f2-9e08-43af-a0b2-da4ff1dcae2d
 description: L’élément PhysicalAddresses contient une collection d’adresses physiques associées à un contact.
-ms.openlocfilehash: b609abed481359fa6562f41a551645eb613ddfa0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: be46555fde892ab3c52d190ea5112cf24421689b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468879"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516544"
 ---
 # <a name="physicaladdresses"></a>PhysicalAddresses
 
-L’élément **PhysicalAddresses** contient une collection d’adresses physiques associées à un contact. 
+**L’élément PhysicalAddresses** contient une collection d’adresses physiques associées à un contact. 
   
 ```xml
 <PhysicalAddresses>

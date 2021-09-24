@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 643f8663-1fab-4625-a7e9-5724e352972b
 description: L’élément FormattedAddress spécifie la valeur d’affichage mise en forme de l’adresse postale associée.
-ms.openlocfilehash: 9150a3bb5bc81f7afecdafbf0cc33fafff597578
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 379b02a4ed667ec1a01b54f26dd6d58c7f66fa89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59535104"
 ---
 # <a name="formattedaddress"></a>FormattedAddress
 
-L’élément **FormattedAddress** spécifie la valeur d’affichage mise en forme de l’adresse postale associée. 
+**L’élément FormattedAddress** spécifie la valeur d’affichage mise en forme de l’adresse postale associée. 
   
 ```XML
 <FormattedAddress></FormattedAddress>
@@ -40,12 +40,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md) <br/> |Spécifie les informations associées à une adresse postale.  <br/> |
+|[Value (PersonaPostalAddressType)](value-personapostaladdresstype.md) <br/> |Spécifie les informations associées à une adresse postale.  <br/> |
 |[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Spécifie l’adresse postale de l’emplacement.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **FormattedAddress** est une valeur de type String qui spécifie l’adresse mise en forme. 
+La valeur de texte de **l’élément FormattedAddress** est une valeur de chaîne qui spécifie l’adresse mise en forme. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f5fcbcb-05ed-462a-99cf-a6b112a4aef6
 description: L’élément GlobalParentFolderIds spécifie les identificateurs des dossiers parents globaux.
-ms.openlocfilehash: 11c520fa0f4a1ed6d6c9d694b407e39cd036b9cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7ab3d1ba627c5568b2c1f4579689c43c96624558
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459096"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516824"
 ---
 # <a name="globalparentfolderids"></a>GlobalParentFolderIds
 
-L’élément **GlobalParentFolderIds** spécifie les identificateurs des dossiers parents globaux. 
+**L’élément GlobalParentFolderIds** spécifie les identificateurs des dossiers parents globaux. 
   
 ```XML
 <GlobalParentFolderIds>
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

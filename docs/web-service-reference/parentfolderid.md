@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ParentFolderId
 api_type:
 - schema
 ms.assetid: 258f4b1f-367e-4c7d-9c29-eb775a2398c7
 description: L’élément ParentFolderId représente l’identificateur du dossier parent qui contient l’élément ou le dossier.
-ms.openlocfilehash: 3bad638aa21019472df8f487f1e065d2e725e750
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6075e7aade7a05aad965efb95b326a2f1effb4bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534829"
 ---
 # <a name="parentfolderid"></a>ParentFolderId
 
-L’élément **ParentFolderId** représente l’identificateur du dossier parent qui contient l’élément ou le dossier. 
+**L’élément ParentFolderId représente** l’identificateur du dossier parent qui contient l’élément ou le dossier. 
   
 ```XML
 <ParentFolderId Id="" ChangeKey=""/>
@@ -37,8 +37,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
-|**ChangeKey** <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut **ID** . Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Exchange store. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un dossier identifiée par **l’attribut ID.** Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -58,20 +58,20 @@ Aucun.
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution privée dans une boîte aux lettres.  <br/> |
 |[Folder](folder.md) <br/> |Représente un dossier dans une boîte aux lettres.  <br/> |
 |[Élément](item.md) <br/> |Représente un élément Exchange générique.  <br/> |
-|[Élément (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un élément unique à télécharger dans une boîte aux lettres.  <br/> |
+|[Item (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un élément unique à télécharger dans une boîte aux lettres.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans une boîte aux lettres.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion dans une boîte aux lettres.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans une boîte aux lettres.  <br/> |
-|[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans une boîte aux lettres.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans une boîte aux lettres.  <br/> |
+|[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse de réunion dans une boîte aux lettres.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique dans une boîte aux lettres.  <br/> |
 |[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est modifié.  <br/> |
 |[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |Représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |Représente un événement déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Représente un provisoire répond à une demande de réunion.  <br/> |
 |[DeclineItem](declineitem.md) <br/> |Représente une réponse de refus à une demande de réunion.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
-|[Task](task.md) <br/> |Représente un élément de tâche dans une boîte aux lettres.  <br/> |
+|[Tâche](task.md) <br/> |Représente un élément de tâche dans une boîte aux lettres.  <br/> |
 |[ReplyToItem](replytoitem.md) <br/> |Contient une réponse à l'auteur d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |Contient une réponse destinée à tous les destinataires identifiés d'un élément dans la banque d'informations Exchange.  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |Contient un élément de la banque Exchange pour transférer à des destinataires.  <br/> |

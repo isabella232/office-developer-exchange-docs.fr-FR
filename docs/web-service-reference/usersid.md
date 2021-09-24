@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserSid
 api_type:
 - schema
 ms.assetid: f8a0dcd9-8564-4e35-b307-c5d2761b48d8
-description: L’élément UserSid représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité de l’utilisateur dans un en-tête SOAP de contexte de sécurité sérialisé. La sérialisation de jetons n’est pas prise en charge.
-ms.openlocfilehash: b8ee51b1998546fc4ab14bd3666192ae63c8dba8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserSid représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité utilisateur dans un en-tête SOAP de contexte de sécurité sérialisé. La sérialisation des jetons n’est pas prise en charge.
+ms.openlocfilehash: b32c9fc8347fba07bff57b942adf6510d37ebf2f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462016"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517349"
 ---
 # <a name="usersid"></a>UserSid
 
-L’élément **UserSid** représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité de l’utilisateur dans un en-tête SOAP de contexte de sécurité sérialisé. La sérialisation de jetons n’est pas prise en charge. 
+**L’élément UserSid** représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité utilisateur dans un en-tête SOAP de contexte de sécurité sérialisé. La sérialisation des jetons n’est pas prise en charge. 
   
 ```xml
 <UserSid/>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Utilisé dans l’en-tête SOAP pour la sérialisation de jetons dans l’authentification de serveur à serveur.  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Utilisé dans l’en-tête SOAP pour la sérialisation des jetons dans l’authentification de serveur à serveur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente l’identificateur de sécurité d’un utilisateur.
+La valeur de texte représente l’identificateur de sécurité d’un utilisateur.
   
 ## <a name="remarks"></a>Remarques
 

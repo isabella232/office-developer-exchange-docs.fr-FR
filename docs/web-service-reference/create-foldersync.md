@@ -1,27 +1,27 @@
 ---
-title: Créer (FolderSync)
+title: Create (FolderSync)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Create
 api_type:
 - schema
 ms.assetid: 6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1
-description: L’élément Create identifie un dossier unique à créer dans le magasin client local.
-ms.openlocfilehash: 43f6a6b3c084c8ecae767c512181bbdf50c7e786
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Create identifie un dossier unique à créer dans le magasin de clients local.
+ms.openlocfilehash: 941fb580e3f10270cf213a7d9b78e4ef5b199d7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59536547"
 ---
-# <a name="create-foldersync"></a>Créer (FolderSync)
+# <a name="create-foldersync"></a>Create (FolderSync)
 
-L’élément **Create** identifie un dossier unique à créer dans le magasin client local. 
+**L’élément Create** identifie un dossier unique à créer dans le magasin de clients local. 
   
 [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
   
@@ -29,9 +29,9 @@ L’élément **Create** identifie un dossier unique à créer dans le magasin c
   
 [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
   
-[Changes (hiérarchie)](changes-hierarchy.md)
+[Modifications (hiérarchie)](changes-hierarchy.md)
   
-[Créer (FolderSync)](create-foldersync.md)
+[Create (FolderSync)](create-foldersync.md)
   
 ```xml
 <Create>
@@ -56,7 +56,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Folder](folder.md) <br/> |Définit le dossier à créer, obtenir, Rechercher, synchroniser ou mettre à jour.  <br/> |
+|[Folder](folder.md) <br/> |Définit le dossier à créer, obtenir, rechercher, synchroniser ou mettre à jour.  <br/> |
 |[CalendarFolder](calendarfolder.md) <br/> |Représente un dossier qui contient principalement des éléments de calendrier.  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts dans une boîte aux lettres.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche contenu dans une boîte aux lettres.  <br/> |
@@ -66,7 +66,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Changes (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau de séquence de types de modifications qui représentent le type de différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
+|[Modifications (hiérarchie)](changes-hierarchy.md) <br/> |Contient un tableau de séquences de types de modification qui représentent le type de différences entre les éléments sur le client et les éléments sur le Exchange serveur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

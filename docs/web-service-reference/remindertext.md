@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b429e55-6057-4dd7-8bb5-fa8a8c0cc223
 description: L’élément ReminderText spécifie le texte d’un message de rappel.
-ms.openlocfilehash: 019ba9efe83b596be67a670497eaa6f8db1b8549
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 37a1a11e9df18ec5145ad37ebc5d6394a7ca1748
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458480"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523670"
 ---
 # <a name="remindertext"></a>ReminderText
 
-L’élément **ReminderText** spécifie le texte d’un message de rappel. 
+**L’élément ReminderText** spécifie le texte d’un message de rappel. 
   
 ```XML
 <ReminderText/>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ReminderText** est le texte d’un message de rappel. 
+La valeur de texte de **l’élément ReminderText** est le texte d’un message de rappel. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -1,31 +1,31 @@
 ---
-title: Salle
+title: Room
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Room
 api_type:
 - schema
 ms.assetid: a2cde8b8-2d31-4ebf-8171-f4dfd650d079
 description: L’élément Room représente une salle de réunion.
-ms.openlocfilehash: 3d5d587853e435016fdff6b9d268892a35fea825
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 062b89652ba809f245c1ac3ccee1005cbf0eabbd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59523537"
 ---
-# <a name="room"></a>Salle
+# <a name="room"></a>Room
 
-L’élément **Room** représente une salle de réunion. 
+**L’élément Room** représente une salle de réunion. 
   
-[Salons](rooms.md)
+[Rooms](rooms.md)
   
-[Salle](room.md)
+[Room](room.md)
   
 ```XML
 <Room>
@@ -46,13 +46,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID (EmailAddressType)](id-emailaddresstype.md) <br/> |Identificateur qui contient une adresse de messagerie et un nom d’affichage qui représente la salle de réunion.  <br/> |
+|[Id (EmailAddressType)](id-emailaddresstype.md) <br/> |Identificateur qui contient une adresse e-mail et un nom complet qui représente la salle de réunion.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Salons](rooms.md) <br/> |Définit une liste des salles de réunion associées à une fonctionnalité commune, par exemple se situer dans le même bâtiment.  <br/> |
+|[Rooms](rooms.md) <br/> |Définit une liste des salles de réunion associées à une fonctionnalité commune, par exemple, situées dans le même bâtiment.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartDateTime
 api_type:
 - schema
 ms.assetid: 6fd41b7b-6c83-43b6-8b16-0bdb3d173d73
 description: L’élément StartDateTime spécifie la date et l’heure de début d’une règle ou d’une recherche.
-ms.openlocfilehash: 28b78fad87abb1148cfe49fee4f9bb98f822eae5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 524858a0b33a25defeae339f7780a7b47c4f21cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462842"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59517699"
 ---
 # <a name="startdatetime"></a>StartDateTime
 
-L’élément **StartDateTime** spécifie la date et l’heure de début d’une règle ou d’une recherche. 
+**L’élément StartDateTime** spécifie la date et l’heure de début d’une règle ou d’une recherche. 
   
 ```XML
 <StartDate/>
@@ -46,7 +46,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Spécifie les critères pour les types de messages à rechercher.  <br/> |
-|[WithinDateRange](withindaterange.md) <br/> |Spécifie la plage de dates au cours de laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.  <br/> |
+|[WithinDateRange](withindaterange.md) <br/> |Spécifie la plage de dates dans laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

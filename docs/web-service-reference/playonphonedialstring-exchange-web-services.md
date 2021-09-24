@@ -1,27 +1,27 @@
 ---
-title: PlayOnPhoneDialString (services Web Exchange)
+title: PlayOnPhoneDialString (Exchange Web Services)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: 02b77f6a-042d-49a9-9445-342885c43e99
-description: L’élément PlayOnPhoneDialString identifie la chaîne de numérotation lecture sur téléphone.
-ms.openlocfilehash: 310934895295af179e651b94c33dfb86d0f94e1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PlayOnPhoneDialString identifie la chaîne de numérotation Téléphone lecture sur place.
+ms.openlocfilehash: dba106f1de87efecb6a7d9b1ba5d378a29c2f2cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466219"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516530"
 ---
-# <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString (services Web Exchange)
+# <a name="playonphonedialstring-exchange-web-services"></a>PlayOnPhoneDialString (Exchange Web Services)
 
-L’élément **PlayOnPhoneDialString** identifie la chaîne de numérotation lecture sur téléphone. 
+**L’élément PlayOnPhoneDialString** identifie la chaîne de numérotation Play-on-Téléphone. 
   
 ```XML
 <PlayOnPhoneDialString/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est la chaîne de numérotation de lecture sur téléphone.
+La valeur de texte de cet élément est la chaîne de numérotation Téléphone lecture sur place.
   
 ## <a name="remarks"></a>Remarques
 

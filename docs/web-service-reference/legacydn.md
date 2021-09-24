@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72cec5ec-8485-431c-95b7-b9c2247669d6
-description: L’élément LegacyDN identifie une boîte aux lettres par son nom unique hérité.
-ms.openlocfilehash: b5eb23d285925f97cc25f53b56bca669bbbb5840
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LegacyDN identifie une boîte aux lettres par son nom hérité.
+ms.openlocfilehash: c40f76ec37407a0ac6db27bcccad0c5b9d5924b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59509621"
 ---
 # <a name="legacydn"></a>LegacyDN
 
-L’élément **LegacyDN** identifie une boîte aux lettres par son nom unique hérité. 
+**L’élément LegacyDN** identifie une boîte aux lettres par son nom hérité. 
   
 ```XML
 <LegacyDN></LegacyDN>
@@ -43,7 +43,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LegacyDN** est le nom unique hérité de la boîte aux lettres cible. 
+La valeur de texte de **l’élément LegacyDN** est le nom hérité de la boîte aux lettres cible. 
   
 ## <a name="remarks"></a>Remarques
 

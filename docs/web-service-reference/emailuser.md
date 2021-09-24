@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8133ff-c34e-4921-bb56-06e79aee0a8a
-description: L’élément EmailUser spécifie un destinataire de courrier électronique.
-ms.openlocfilehash: c090106a536f4f40908d364cc3c9c43f6fe42beb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EmailUser spécifie un destinataire d’e-mail.
+ms.openlocfilehash: d3c1657938f8b4b21123b2f7cb67252e31f3d7b2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456534"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538208"
 ---
 # <a name="emailuser"></a>EmailUser
 
-L’élément **EmailUser** spécifie un destinataire de courrier électronique. 
+**L’élément EmailUser** spécifie un destinataire d’e-mail. 
   
 ```XML
 <EmailUser>
@@ -39,7 +39,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (chaîne)](name-string.md) <br/> |Spécifie un nom de l’affinement de recherche ou une clé ou le nom d’un utilisateur de messagerie.  <br/> |
+|[Name (String)](name-string.md) <br/> |Spécifie un nom ou une clé d’affinement de recherche ou le nom d’un utilisateur de messagerie.  <br/> |
 |[UserId (String)](userid-string.md) <br/> |Spécifie l’identificateur d’utilisateur d’un utilisateur de messagerie.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

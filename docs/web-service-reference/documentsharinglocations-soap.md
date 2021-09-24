@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394f6015-721b-4800-9286-039d430f09b3
 description: L’élément DocumentSharingLocations contient une liste d’informations d’emplacement et de métadonnées pour un emplacement de partage de documents.
-ms.openlocfilehash: af8b076c7a3bd26355a53457a43f4a5f86bf517e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 179ad59e51b0519fa95b4031f5c9df52a44dba1a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457038"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538337"
 ---
 # <a name="documentsharinglocations-soap"></a>DocumentSharingLocations (SOAP)
 
-L’élément **DocumentSharingLocations** contient une liste d’informations d’emplacement et de métadonnées pour un emplacement de partage de documents. 
+**L’élément DocumentSharingLocations** contient une liste d’informations d’emplacement et de métadonnées pour un emplacement de partage de documents. 
   
 ```XML
 <DocumentSharingLocations>
@@ -43,7 +43,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DocumentSharingLocationCollectionSetting (SOAP)](documentsharinglocationcollectionsetting-soap.md) <br/> |Représente un paramètre utilisateur qui est une collection d’emplacements de partage de documentation et de métadonnées.  <br/> |
+|[DocumentSharingLocationCollectionSetting (SOAP)](documentsharinglocationcollectionsetting-soap.md) <br/> |Représente un paramètre utilisateur qui est une collection d’emplacements et de métadonnées de partage de documentation.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -51,7 +51,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a9bd2dc-f5b9-4b82-a6a0-f643d2951080
-description: L’élément IncludeUnsearchableItems spécifie s’il faut inclure les éléments qui ne peuvent pas être recherchés.
-ms.openlocfilehash: 19fe450f5b1647be2df75138dbe67dd9e1c05c21
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IncludeUnsearchableItems spécifie s’il faut inclure les éléments qui ne peuvent pas faire l’objet d’une recherche.
+ms.openlocfilehash: 3bffd68c20623aa4c63dd295d8b4619999c1d4a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465701"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533103"
 ---
 # <a name="includeunsearchableitems"></a>IncludeUnsearchableItems
 
-L’élément **IncludeUnsearchableItems** spécifie s’il faut inclure les éléments qui ne peuvent pas être recherchés. 
+**L’élément IncludeUnsearchableItems** spécifie s’il faut inclure les éléments qui ne peuvent pas faire l’objet d’une recherche. 
   
 ```XML
 <IncludeUnsearchableItems>true | false</IncludeUnsearchableItems>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **IncludeUnsearchableItems** indique que les statistiques ne sont pas incluses pour les éléments qui ne peuvent pas faire l’objet d’une recherche. La valeur **false** indique que les statistiques sont incluses pour les éléments qui ne peuvent pas faire l’objet d’une recherche. 
+Une valeur de texte **true** pour l’élément **IncludeUnsearchableItems** indique que les statistiques ne sont pas incluses pour les éléments qui ne peuvent pas faire l’objet d’une recherche. La valeur **false indique** que des statistiques sont incluses pour les éléments qui ne peuvent pas faire l’objet d’une recherche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,8 +57,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

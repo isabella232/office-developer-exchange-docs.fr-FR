@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Duration
 api_type:
 - schema
 ms.assetid: c6a9bafd-a15b-4b04-8070-6e0a693f9683
 description: L’élément Duration représente la durée d’un élément de calendrier.
-ms.openlocfilehash: 2434ae081fcdd0fa06f0ffbc016537691132a4cf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3bb466348e6f3d0442c3a4b88737ff719595f0d7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463551"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538317"
 ---
 # <a name="duration-items"></a>Durée (éléments)
 
-L’élément **Duration** représente la durée d’un élément de calendrier. 
+**L’élément Duration** représente la durée d’un élément de calendrier. 
   
 ```xml
 <Duration/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

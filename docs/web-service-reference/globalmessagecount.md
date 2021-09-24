@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalMessageCount
 api_type:
 - schema
 ms.assetid: e2ac4677-9645-4a1e-911c-17a5a08e2b21
 description: L’élément GlobalMessageCount contient le nombre total d’éléments de conversation dans la boîte aux lettres.
-ms.openlocfilehash: fd828970bddb2dcc4dedf429ac5eb6cf31f9fb57
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2730d4cb56ed63c64f298ba1b0b59e7ad3aed908
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459404"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519624"
 ---
 # <a name="globalmessagecount"></a>GlobalMessageCount
 
-L’élément **GlobalMessageCount** contient le nombre total d’éléments de conversation dans la boîte aux lettres. 
+**L’élément GlobalMessageCount contient** le nombre total d’éléments de conversation dans la boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ L’élément **GlobalMessageCount** contient le nombre total d’éléments de 
 <GlobalMessageCount/>
 ```
 
- **XS : int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -56,7 +56,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GlobalMessageCount** est le nombre total d’éléments de conversation dans une boîte aux lettres. 
+La valeur de texte de **l’élément GlobalMessageCount** est le nombre total d’éléments de conversation dans une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 

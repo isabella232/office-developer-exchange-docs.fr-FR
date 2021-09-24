@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
-description: L’élément TTL indique la valeur de durée de vie du jeton.
-ms.openlocfilehash: 0275e97ce02e41cc377f4003aee12c6fff0995e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TTL indique l’heure à la valeur réelle du jeton.
+ms.openlocfilehash: 9f8fa983a4cbe1fd7f9f1862eeca1030a7446916
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467388"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538743"
 ---
 # <a name="ttl-clientaccesstokentypetype"></a>TTL (ClientAccessTokenTypeType)
 
-L’élément **TTL** indique la valeur de durée de vie du jeton. 
+**L’élément TTL** indique l’heure à la valeur réelle du jeton. 
   
 ```XML
 <TTL></TTL>
 ```
 
- **entier**
+ **integer**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[TokenRequest](tokenrequest.md)  |  [Jeton (Token](token.md) )
+[TokenRequest](tokenrequest.md)  |  [Jeton](token.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TTL** indique la durée pendant laquelle le jeton reste valide. 
+La valeur de texte de **l’élément TTL** indique la durée de validité du jeton. 
   
 ## <a name="remarks"></a>Remarques
 

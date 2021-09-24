@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeetingResponse
 api_type:
 - schema
 ms.assetid: 85090943-81c6-4fbe-a2db-007dced6a4cf
-description: L’élément IsMeetngResponsequest indique si les messages entrants doivent être une réponse à une demande de réunion afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 40714b7e926768f55207d870b79f21f07163bb37
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsMeetngResponsequest indique si les messages entrants doivent être une réponse de réunion afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: ff6008eef7ae5198738e68db62303b06a619e41d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532750"
 ---
 # <a name="ismeetingresponse"></a>IsMeetingResponse
 
-L’élément **IsMeetngResponsequest** indique si les messages entrants doivent être une réponse à une demande de réunion afin que la condition ou l’exception s’applique. 
+**L’élément IsMeetngResponsequest** indique si les messages entrants doivent être une réponse de réunion afin que la condition ou l’exception s’applique. 
   
 ```XML
 <IsMeetingResponse/>true | false</IsMeetingResponse>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être une réponse à une demande de réunion afin que la condition ou l’exception s’applique. Une valeur de texte **false** indique que le message ne doit pas être une réponse de réunion afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être une réponse de réunion pour que la condition ou l’exception s’applique. Une valeur de texte **false** indique que le message ne doit pas être une réponse de réunion pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

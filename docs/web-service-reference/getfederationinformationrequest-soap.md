@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: df5bface-f070-49e0-8527-6129ed8e8095
-description: L’élément GetFederationInformationRequest représente les paramètres d’un appel à l’opération SOAP (GetFederationInformation Operation).
-ms.openlocfilehash: 1df0a88ed8fbc75eb5723d1390baeefd3ad73652
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetFederationInformationRequest représente les paramètres d’un appel à l’opération Soap (GetFederationInformation).
+ms.openlocfilehash: b4f2c9fa060bf0701072b462233b2d4217e8b8b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456583"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538078"
 ---
 # <a name="getfederationinformationrequest-soap"></a>GetFederationInformationRequest (SOAP)
 
-L’élément **GetFederationInformationRequest** représente les paramètres d’un appel à l’opération [SOAP (GetFederationInformation Operation)](getfederationinformation-operation-soap.md).
+**L’élément GetFederationInformationRequest** représente les paramètres d’un appel à l’opération [SOAP (GetFederationInformation).](getfederationinformation-operation-soap.md)
   
 ```XML
 <GetFederationInformationRequest>
@@ -40,7 +40,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Domaine (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Identifie le domaine qui a une approbation de Fédération.  <br/> |
+|[Domaine (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Identifie le domaine qui a une confiance de fédération.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,7 +56,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

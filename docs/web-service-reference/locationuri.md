@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0480b7f5-9312-4efe-bb37-9fffcd7e7a9d
 description: L’élément LocationUri contient une chaîne spécifiant un URI (Uniform Resource Identifier) de l’adresse postale associée.
-ms.openlocfilehash: 1cf857e29b67fdacdb73fc5bd921973d7dbd481e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 443df5d79fb958ebb9576f7fe169602a3be39f0e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467094"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513548"
 ---
 # <a name="locationuri"></a>LocationUri
 
-L’élément **LocationUri** contient une chaîne spécifiant un URI (Uniform Resource Identifier) de l’adresse postale associée. 
+**L’élément LocationUri** contient une chaîne spécifiant un URI (Uniform Resource Identifier) de l’adresse postale associée. 
   
 ```XML
 <LocationUri></LocationUri>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
+[Value (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LocationUri** est une chaîne qui spécifie un URI pour obtenir des informations sur une adresse postale. 
+La valeur de texte de **l’élément LocationUri** est une chaîne qui spécifie un URI pour les informations sur une adresse postale. 
   
 ## <a name="remarks"></a>Remarques
 

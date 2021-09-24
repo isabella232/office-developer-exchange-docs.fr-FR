@@ -1,27 +1,27 @@
 ---
-title: Timeout
+title: Délai d’expiration
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Timeout
 api_type:
 - schema
 ms.assetid: c2e1ca5a-6667-4f6f-aac4-89de33bddc54
-description: L’élément Timeout représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactif sans demande GetEvents du client.
-ms.openlocfilehash: 6f3228cd480bf0eaf259c4f321bc74d0845b9bba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Timeout représente la durée, en minutes, pendant qui l’abonnement peut rester inactif sans demande GetEvents du client.
+ms.openlocfilehash: d0b5945f5d116e0ebb7a24a23970e785761fb0c9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534166"
 ---
-# <a name="timeout"></a>Timeout
+# <a name="timeout"></a>Délai d’expiration
 
-L’élément **timeout** représente la durée, en minutes, pendant laquelle l’abonnement peut rester inactif sans demande GetEvents du client. 
+**L’élément Timeout** représente la durée, en minutes, pendant qui l’abonnement peut rester inactif sans demande GetEvents du client. 
   
 ```xml
 <Timeout/>
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur l’extraction.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur un pull.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un entier est requise si cet élément est utilisé. Les valeurs possibles de cet élément sont comprises entre 1 et 1440 inclus. Cet élément est obligatoire.
+Une valeur de texte qui représente un integer est requise si cet élément est utilisé. Les valeurs possibles pour cet élément sont de 1 à 1 440 inclus. Cet élément est obligatoire.
   
 ## <a name="remarks"></a>Remarques
 
-Le délai d’expiration de l’abonnement est réinitialisé par une demande GetEvents réussie.
+Le délai d’heure de l’abonnement est réinitialisé par une demande GetEvents réussie.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 
   

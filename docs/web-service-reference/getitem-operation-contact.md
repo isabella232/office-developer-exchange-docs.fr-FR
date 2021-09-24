@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 6b96dace-1260-4b83-869a-7c31c5583daa
 description: L'opération GetItem est utilisée pour obtenir des éléments de contact à partir de la banque d'informations Exchange.
-ms.openlocfilehash: 93e8dbe28e130ab64d4b8d12d2befde1f77ae8fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1a055791f1b6dd5085ae914c1f7b2ae7e97d6090
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460021"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520534"
 ---
 # <a name="getitem-operation-contact"></a>Opération de GetItem (contacts)
 
 L'opération GetItem est utilisée pour obtenir des éléments de contact à partir de la banque d'informations Exchange.
   
-## <a name="getitem-contact-request-example"></a>Exemple de requête GetItem (contact)
+## <a name="getitem-contact-request-example"></a>Exemple de requête GetItem (Contact)
 
 ### <a name="description"></a>Description
 
@@ -56,7 +56,7 @@ La demande pour obtenir un élément à partir de la banque d'informations Excha
 > [!NOTE]
 > [!REMARQUE] Identificateur de l'élément a été raccourcie afin de préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -251,7 +251,7 @@ Les éléments suivants sont utilisés dans la réponse à une demande de GetIte
     
 - [Surname](surname.md)
     
-## <a name="invalid-getitem-contact-request-example"></a>Exemple de requête GetItem (contact) non valide
+## <a name="invalid-getitem-contact-request-example"></a>Exemple de requête GetItem (Contact) non valide
 
 ### <a name="description"></a>Description
 
@@ -282,7 +282,7 @@ L'exemple de code suivant illustre une demande non valide.
 
 Identificateurs d'éléments ont été raccourcies afin de préserver la lisibilité.
   
-## <a name="getitem-contact-error-response"></a>Réponse d’erreur GetItem (contact)
+## <a name="getitem-contact-error-response"></a>Réponse d’erreur GetItem (Contact)
 
 ### <a name="description"></a>Description
 

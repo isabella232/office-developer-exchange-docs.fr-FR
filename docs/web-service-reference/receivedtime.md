@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f348e832-47a7-4c14-a5b9-2fc9b47d01e9
 description: L’élément ReceivedTime spécifie l’heure à laquelle un élément a été reçu.
-ms.openlocfilehash: 32f7148f8d717a51f831aa13d740f1342c943912
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 73942b5bdaf2aafbe931a2d6adc6382883285a42
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468214"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534534"
 ---
 # <a name="receivedtime"></a>ReceivedTime
 
-L’élément **ReceivedTime** spécifie l’heure à laquelle un élément a été reçu. 
+**L’élément ReceivedTime** spécifie l’heure à laquelle un élément a été reçu. 
   
 ```XML
 <ReceivedTime></ReceivedTime>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ReceivedTime** est la date et l’heure auxquelles un élément a été reçu. 
+La valeur de texte de **l’élément ReceivedTime** est la date et l’heure de réception d’un élément. 
   
 ## <a name="remarks"></a>Remarques
 

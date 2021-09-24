@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 409c7893-7b69-4b0b-9d5b-112a0dfacde7
-description: L’élément ErrorDescription décrit l’erreur qui est renvoyée dans les informations relatives à un élément qui ne peut pas être indexé.
-ms.openlocfilehash: d12e8b3dfc377097f649ef6f863bc59c1a59df9a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ErrorDescription décrit l’erreur renvoyée dans les informations sur un élément qui ne peut pas être indexé.
+ms.openlocfilehash: 22910f02bf31a85606ed2f68c3fadefa681b7691
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460070"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520653"
 ---
 # <a name="errordescription"></a>ErrorDescription
 
-L’élément **ErrorDescription** décrit l’erreur qui est renvoyée dans les informations relatives à un élément qui ne peut pas être indexé. 
+**L’élément ErrorDescription** décrit l’erreur renvoyée dans les informations sur un élément qui ne peut pas être indexé. 
   
 ```XML
 <ErrorDescription></ErrorDescription>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ErrorDescription** contient une description d’une erreur au niveau de l’élément. 
+La valeur de texte de **l’élément ErrorDescription** contient une description d’une erreur au niveau de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 

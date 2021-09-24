@@ -1,23 +1,23 @@
 ---
-title: Valeur (BodyContentType)
+title: Value (BodyContentType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53d86631-58b0-4cfd-8209-0ce65e259f16
 description: L’élément Value spécifie la valeur d’un élément BodyContentAttributedValue.
-ms.openlocfilehash: 7846302f0c2b3bad37cc55de752ca775e63b644b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: eb7f749cd6cd5613128b7b6652dfca1c6219a513
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467605"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538484"
 ---
-# <a name="value-bodycontenttype"></a>Valeur (BodyContentType)
+# <a name="value-bodycontenttype"></a>Value (BodyContentType)
 
-L’élément **value** spécifie la valeur d’un élément **BodyContentAttributedValue** . 
+**L’élément Value** spécifie la valeur d’un **élément BodyContentAttributedValue.** 
   
 ```XML
 <Value>
@@ -38,7 +38,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Value (valeur](value.md)  |  ) [BodyType](bodytype.md)
+[Valeur](value.md)  |  [BodyType](bodytype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

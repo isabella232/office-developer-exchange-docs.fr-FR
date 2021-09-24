@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RefreshSharingFolder
 api_type:
 - schema
 ms.assetid: 1b047e34-40f0-459f-ac9e-e9f8e7349479
-description: L’opération RefreshSharingFolder actualise le dossier local spécifié avec les données les plus récentes du dossier partagé.
-ms.openlocfilehash: dd7136ae82353841db09497d23eabe450c1c8b13
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération RefreshSharingFolder actualise le dossier local spécifié avec les dernières données du dossier partagé.
+ms.openlocfilehash: 4bf30132d84c4288123c91247afa8bd13a05348c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512536"
 ---
 # <a name="refreshsharingfolder-operation"></a>Opération RefreshSharingFolder
 
-L’opération **RefreshSharingFolder** actualise le dossier local spécifié avec les données les plus récentes du dossier partagé. 
+**L’opération RefreshSharingFolder** actualise le dossier local spécifié avec les dernières données du dossier partagé. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **RefreshSharingFolder** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération RefreshSharingFolder** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="refreshsharingfolder-request-example"></a>Exemple de requête RefreshSharingFolder
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre comment créer une demande pour actualiser le dossier local spécifié avec les données les plus récentes du dossier partagé. L’élément [SharingFolderId](sharingfolderid.md) spécifie l’identificateur du dossier local à actualiser. 
+L’exemple suivant montre comment créer une demande d’actualisation du dossier local spécifié avec les dernières données du dossier partagé. [L’élément SharingFolderId](sharingfolderid.md) spécifie l’identificateur du dossier local à actualiser. 
   
 ### <a name="code"></a>Code
 
@@ -58,7 +58,7 @@ L’exemple suivant montre comment créer une demande pour actualiser le dossier
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -72,7 +72,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **RefreshSharingFolder** . 
+L’exemple suivant montre une réponse réussie à **une demande RefreshSharingFolder.** 
   
 ### <a name="code"></a>Code
 
@@ -114,7 +114,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête **RefreshSharingFolder** . Dans cet exemple, la demande **RefreshSharingFolder** a échoué car un abonnement correspondant au dossier local spécifié est introuvable. 
+L’exemple suivant montre une réponse d’erreur à **une demande RefreshSharingFolder.** Dans cet exemple, la **demande RefreshSharingFolder** a échoué car aucun abonnement correspondant au dossier local spécifié n’a été trouvé. 
   
 ### <a name="code"></a>Code
 

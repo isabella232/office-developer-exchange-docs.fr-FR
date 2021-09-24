@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RelativeMonthlyRecurrence
 api_type:
 - schema
 ms.assetid: a76595db-7460-44ac-ac2a-53241caa33a7
-description: L’élément RelativeMonthlyRecurrence décrit un modèle de périodicité mensuelle relative.
-ms.openlocfilehash: 90aa0e43684bfb09a3e13cf86ec96f680e80a714
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RelativeMonthlyRecurrence décrit une périodité mensuelle relative.
+ms.openlocfilehash: 326e6581e55e64ffd2bcc9bdfa5108cf63089633
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457507"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513443"
 ---
 # <a name="relativemonthlyrecurrence"></a>RelativeMonthlyRecurrence
 
-L’élément **RelativeMonthlyRecurrence** décrit un modèle de périodicité mensuelle relative. 
+**L’élément RelativeMonthlyRecurrence** décrit une périodité mensuelle relative. 
   
 ```xml
 <RelativeMonthlyRecurrence>
@@ -44,16 +44,16 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Interval](interval.md) <br/> |Définit l’intervalle entre deux éléments de motif périodique mensuel consécutifs. La plage de cette valeur est comprise entre 1 et 99.  <br/> |
-|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |Décrit les jours de la semaine qui se trouvent dans le modèle de périodicité mensuelle relative.  <br/> |
-|[DayOfWeekIndex](dayofweekindex.md) <br/> |Décrit la semaine utilisée dans un modèle de périodicité mensuelle relative.  <br/> |
+|[Interval](interval.md) <br/> |Définit l’intervalle entre deux éléments périodiques mensuels consécutifs. La plage de cette valeur est de 1 à 99.  <br/> |
+|[DaysOfWeek (DayOfWeekType)](daysofweek-dayofweektype.md) <br/> |Décrit les jours de la semaine dans la récurrence mensuelle relative.  <br/> |
+|[DayOfWeekIndex](dayofweekindex.md) <br/> |Décrit la semaine utilisée dans une récurrence mensuelle relative.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Récurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la périodicité des éléments de calendrier et des demandes de réunion.  <br/> |
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (RecurrenceType)](recurrence-recurrencetype.md) <br/> |Contient la tendance de récurrence des éléments de calendrier et des demandes de réunion.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

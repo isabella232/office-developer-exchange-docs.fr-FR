@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeliverMeetingRequests
 api_type:
 - schema
 ms.assetid: 04b999af-0b27-4e6d-a8b1-400955a1afaa
-description: L’élément DeliverMeetingRequests définit la manière dont les demandes de réunion sont gérées entre le délégué et le principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 3998443613437bca2267678f7bc2c5584b779135
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DeliverMeetingRequests définit la façon dont les demandes de réunion sont gérées entre le délégué et le principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 8e61af87337cb1fc8936b4de7753fca2d6c1161e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463677"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519827"
 ---
 # <a name="delivermeetingrequests"></a>DeliverMeetingRequests
 
-L’élément **DeliverMeetingRequests** définit la manière dont les demandes de réunion sont gérées entre le délégué et le principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément DeliverMeetingRequests** définit la façon dont les demandes de réunion sont gérées entre le délégué et le principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```XML
 <DeliverMeetingRequests>DelegatesOnly or DelegatesAndMe or DelegatesAndSendInformationToMe or NoForward</DeliverMeetingRequests>
@@ -46,24 +46,24 @@ Aucun.
 |:-----|:-----|
 |[AddDelegate](adddelegate.md) <br/> |Définit une demande d’ajout de délégués à une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[UpdateDelegate](updatedelegate.md) <br/> |Définit une demande de mise à jour des délégués dans une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[GetDelegateResponse](getdelegateresponse.md) <br/> |Contient l’État et le résultat d’une demande GetDelegate. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[GetDelegateResponse](getdelegateresponse.md) <br/> |Contient l’état et le résultat d’une demande GetDelegate. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **DeliverMeetingRequests** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément DeliverMeetingRequests.** 
   
 **Valeurs de l’élément DeliverMeetingRequests**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|DelegatesOnly  <br/> |Les demandes de réunion sont transférées au délégué et déplacées vers le dossier éléments supprimés dans la boîte aux lettres du principal.  <br/> |
-|DelegatesAndMe  <br/> |Les demandes de réunion sont transmises au délégué et restent dans le dossier boîte de réception dans la boîte aux lettres principale.  <br/> |
-|DelegatesAndSendInformationToMe  <br/> |Les demandes de réunion sont transmises au délégué et restent dans le dossier boîte de réception dans la boîte aux lettres du principal, mais les boutons accepter, provisoire et refuser n’apparaissent pas dans le volet de lecture de Microsoft Office Outlook.  <br/> |
-|Noforward  <br/> |Les demandes de réunion ne sont pas transférées au délégué.  <br/> |
+|DelegatesOnly  <br/> |Les demandes de réunion sont transférés au délégué et déplacés vers le dossier Éléments supprimés de la boîte aux lettres du principal.  <br/> |
+|DelegatesAndMe  <br/> |Les demandes de réunion sont transmis au délégué et restent dans le dossier Boîte de réception de la boîte aux lettres du principal.  <br/> |
+|DelegatesAndSendInformationToMe  <br/> |Les demandes de réunion sont transmis au délégué et restent dans le dossier Boîte de réception de la boîte aux lettres du principal, mais les boutons Accepter, Provisoire et Refuser n’apparaissent pas dans le volet de lecture Microsoft Office Outlook.  <br/> |
+|NoForward  <br/> |Les demandes de réunion ne sont pas transmis au délégué.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le paramètre **DeliverMeetingRequests** affecte tous les délégués dans la boîte aux lettres d’un principal. 
+Le **paramètre DeliverMeetingRequests affecte** tous les délégués de la boîte aux lettres d’un principal. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -73,7 +73,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

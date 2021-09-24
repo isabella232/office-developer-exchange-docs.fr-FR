@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a3ab9bcf-7dab-44f0-9ab6-b06543c0fdc2
-description: L’élément PostOfficeBox spécifie thepost Office boxportion d’une adresse postale.
-ms.openlocfilehash: dede39a7b053172157858686f8287466f982c4ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PostOfficeBox spécifie la boîte de réception office de publication d’une adresse postale.
+ms.openlocfilehash: 850b0bdb2c7b8fd167415cc2883c82e1aee37dab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512603"
 ---
 # <a name="postofficebox"></a>PostOfficeBox
 
-L’élément **PostOfficeBox** spécifie la partie « boîte postale » d’une adresse postale. 
+**L’élément PostOfficeBox** spécifie la partie « boîte postale » d’une adresse postale. 
   
 ```XML
 <PostOfficeBox></PostOfficeBox>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)  |  [Valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md)
+[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)  |  [Value (PersonaPostalAddressType)](value-personapostaladdresstype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PostOfficeBox** est un identificateur de boîte de message Post Office. 
+La valeur de texte de **l’élément PostOfficeBox** est un identificateur de zone de publication. 
   
 ## <a name="remarks"></a>Remarques
 

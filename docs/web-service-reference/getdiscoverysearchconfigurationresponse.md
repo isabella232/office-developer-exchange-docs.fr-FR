@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d963e6c-e94d-462b-8c44-95d55c848fb2
 description: L’élément GetDiscoverySearchConfigurationResponse spécifie la réponse à une demande GetDiscoverySearchConfiguration.
-ms.openlocfilehash: 98393943434b5e3460485b7d75c2b5285983f597
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 978d3a8a2081da3837b9e58f1efab3e9d6afccd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512988"
 ---
 # <a name="getdiscoverysearchconfigurationresponse"></a>GetDiscoverySearchConfigurationResponse
 
-L’élément **GetDiscoverySearchConfigurationResponse** spécifie la réponse à une demande **GetDiscoverySearchConfiguration** . 
+**L’élément GetDiscoverySearchConfigurationResponse** spécifie la réponse à une **demande GetDiscoverySearchConfiguration.** 
   
 ```XML
 <GetDiscoverySearchConfigurationResponse>
@@ -40,7 +40,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)  |  [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)  |  [DiscoverySearchConfigurations](discoverysearchconfigurations.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

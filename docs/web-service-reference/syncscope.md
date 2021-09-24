@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncScope
 api_type:
 - schema
 ms.assetid: e0ca231f-0374-4844-8d4c-ada8da167920
-description: L’élément SyncScope spécifie si les éléments ou les éléments et les informations associés uniquement sont renvoyés dans une réponse de synchronisation.
-ms.openlocfilehash: 5ede26204c823a452189222075c784f24e98d188
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SyncScope spécifie si seuls les éléments ou les éléments et les informations associées au dossier sont renvoyés dans une réponse de synchronisation.
+ms.openlocfilehash: 5e5d19809cea1f8f244444c09615ee888fea05be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463033"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538897"
 ---
 # <a name="syncscope"></a>SyncScope
 
-L’élément **SyncScope** spécifie si les éléments ou les éléments et les informations associés uniquement sont renvoyés dans une réponse de synchronisation. 
+**L’élément SyncScope** spécifie si seuls les éléments ou les éléments et les informations associées au dossier sont renvoyés dans une réponse de synchronisation. 
   
 ```xml
 <SyncScope>NormalItems or NormalAndAssociatedItems</SyncScope>
@@ -44,22 +44,22 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Élément qui définit une demande de synchronisation des éléments dans un dossier de la Banque d’Exchange.  <br/> Voici l’expression XPath de cet élément :  <br/> /SyncFolderItems  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Élément qui définit une demande de synchronisation des éléments dans un Exchange de la boutique.  <br/> Voici l’expression XPath de cet élément :  <br/> /SyncFolderItems  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **SyncScope** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément SyncScope.** 
   
-**Valeurs de l’élément SyncScope**
+**Valeurs des éléments SyncScope**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
 |NormalItems  <br/> |Spécifie que seuls les éléments du dossier sont renvoyés dans une réponse de synchronisation.  <br/> |
-|NormalAndAssociatedItems  <br/> |Spécifie que les deux éléments dans les informations associées au dossier et au dossier sont renvoyés dans une réponse de synchronisation.  <br/> |
+|NormalAndAssociatedItems  <br/> |Spécifie que les éléments du dossier et les informations associées au dossier sont renvoyés dans une réponse de synchronisation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

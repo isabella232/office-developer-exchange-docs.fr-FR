@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
-description: L’élément ApprovalDecisionMaker spécifie le nom d’affichage de la personne qui a effectué la décision d’approbation.
-ms.openlocfilehash: d64b9d1816d4df99093ef4d60610e9946f3f98ec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ApprovalDecisionMaker spécifie le nom complet de la personne qui a pris la décision d’approbation.
+ms.openlocfilehash: e81bd3bd10febde73ebae50ec6b3c15413c31c86
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461645"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520058"
 ---
 # <a name="approvaldecisionmaker"></a>ApprovalDecisionMaker
 
-L’élément **ApprovalDecisionMaker** spécifie le nom d’affichage de la personne qui a effectué la décision d’approbation. 
+**L’élément ApprovalDecisionMaker** spécifie le nom complet de la personne qui a pris la décision d’approbation. 
   
 ```XML
 <ApprovalDecisionMaker />
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ApprovalDecisionMaker** est un nom complet. 
+La valeur de texte de **l’élément ApprovalDecisionMaker** est un nom complet. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22cb5a30-75d9-49a8-9d98-255f2e8a722d
 description: L’élément SendPrompt spécifie le type d’action autorisé pour une option de vote.
-ms.openlocfilehash: 98ffc69cdc94c3f7b9c325bee0c1ebaeb407ee96
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 32537210aadce91911d1fb5002fbafcaa70aa9ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462100"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532131"
 ---
 # <a name="sendprompt"></a>SendPrompt
 
-L’élément **SendPrompt** spécifie le type d’action autorisé pour une option de vote. 
+**L’élément SendPrompt** spécifie le type d’action autorisé pour une option de vote. 
   
 ```XML
 <SendPrompt> None | Send | VotingOption </SendPrompt>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SendPrompt** est une action d’option de vote. Le tableau suivant répertorie les valeurs possibles pour cet élément. 
+La valeur de texte de **l’élément SendPrompt** est une action d’option de vote. Le tableau suivant répertorie les valeurs possibles pour cet élément. 
   
 ****
 

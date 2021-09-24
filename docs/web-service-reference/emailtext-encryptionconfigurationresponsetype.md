@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10ee69ac-efce-40b7-9861-23779a5c4660
-description: L’élément EmailText (EncryptionConfigurationResponseType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: c5e639e8b8101c25ee9234d8e27583aeb623d997
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EmailText (EncryptionConfigurationResponseType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 85c9508f8a52217c79191a4a3c779a54a6d4c608
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519701"
 ---
 # <a name="emailtext-encryptionconfigurationresponsetype"></a>EmailText (EncryptionConfigurationResponseType)
 
-L’élément **EmailText (EncryptionConfigurationResponseType)** est destiné uniquement à un usage interne. 
+**L’élément EmailText (EncryptionConfigurationResponseType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

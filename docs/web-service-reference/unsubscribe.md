@@ -1,27 +1,27 @@
 ---
-title: Se désinscrire
+title: Unsubscribe
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Unsubscribe
 api_type:
 - schema
 ms.assetid: 5584db5f-553a-47ce-85fb-f9902c9990ab
-description: L’élément unsubscribe contient les propriétés utilisées pour annuler l’abonnement à un abonnement.
-ms.openlocfilehash: d3d9c3bf9ad97cc0fdabf574c6505c797583838a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Unsubscribe contient les propriétés utilisées pour se désabonner d’un abonnement.
+ms.openlocfilehash: 9d3c7c7067138c75297d9576f3c14b4c3c921265
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467213"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538631"
 ---
-# <a name="unsubscribe"></a>Se désinscrire
+# <a name="unsubscribe"></a>Unsubscribe
 
-L’élément **unsubscribe** contient les propriétés utilisées pour annuler l’abonnement à un abonnement. 
+**L’élément Unsubscribe** contient les propriétés utilisées pour se désabonner d’un abonnement. 
   
 [Se désabonner](unsubscribe.md)
   
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

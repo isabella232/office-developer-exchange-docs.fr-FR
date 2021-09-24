@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b676d5be-07f8-4b0b-80bc-28a79a4a7cf4
-description: L’élément ErrorMessage contient le message d’erreur qui décrit la raison pour laquelle un élément n’est pas indexé.
-ms.openlocfilehash: f476793d647554f7e4be2d8d2dd415717674597c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ErrorMessage contient le message d’erreur qui décrit pourquoi un élément n’est pas indexable.
+ms.openlocfilehash: dbad5f17b7e94bbafe3a819ef03dfec7281006c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460063"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520646"
 ---
 # <a name="errormessage-nonindexableitemstatistictype"></a>ErrorMessage (NonIndexableItemStatisticType)
 
-L’élément **ErrorMessage** contient le message d’erreur qui décrit la raison pour laquelle un élément n’est pas indexé. 
+**L’élément ErrorMessage** contient le message d’erreur qui décrit pourquoi un élément n’est pas indexable. 
   
 ```XML
 <ErrorMessage></ErrorMessage>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ErrorMessage** est un message d’erreur qui décrit la raison pour laquelle un élément n’est pas indexé. 
+La valeur de texte de **l’élément ErrorMessage** est un message d’erreur qui décrit pourquoi un élément n’est pas indexable. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 

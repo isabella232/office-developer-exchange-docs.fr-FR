@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalCount
 api_type:
 - schema
 ms.assetid: c48c6388-8449-4622-bc38-6f0e84293872
 description: L’élément TotalCount représente le nombre total d’éléments dans un dossier donné.
-ms.openlocfilehash: 3d068b558cddf73265b6bbff9fb0760738e54cec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d17e2c10fa1d542225f33ab61a934fdf832ad6fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467521"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538771"
 ---
 # <a name="totalcount"></a>TotalCount
 
-L’élément **totalCount** représente le nombre total d’éléments dans un dossier donné. 
+**L’élément TotalCount** représente le nombre total d’éléments dans un dossier donné. 
   
 ```xml
 <TotalCount/>
@@ -52,7 +52,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une valeur entière. Cette propriété est en lecture seule.
+La valeur de texte représente une valeur d’un chiffre. Cette propriété est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 

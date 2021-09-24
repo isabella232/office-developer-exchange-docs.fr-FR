@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DictionaryKey
 api_type:
 - schema
 ms.assetid: f331c8ac-f1c7-4248-a570-97701969d5bf
 description: L’élément DictionaryKey spécifie la clé de dictionnaire pour une propriété de dictionnaire.
-ms.openlocfilehash: 8d9d897c86eb5048068936433c6c0d77917ff777
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: feae35d292c212b41394f63c0840ec4d3c3b8800
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519778"
 ---
 # <a name="dictionarykey"></a>DictionaryKey
 
-L’élément **DictionaryKey** spécifie la clé de dictionnaire pour une propriété de dictionnaire. 
+**L’élément DictionaryKey** spécifie la clé de dictionnaire pour une propriété de dictionnaire. 
   
 ```xml
 <DictionaryKey>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Type (UserConfiguration)](type-userconfiguration.md) <br/> | Spécifie un type d’objet Dictionary.<br/><br/>Le type peut être l’une des valeurs String suivantes :<br/><br/>-DateTime  <br/>-Booléen  <br/>-Byte  <br/>-String  <br/>- Integer32  <br/>- UnsignedInteger32  <br/>- Integer64  <br/>- UnsignedInteger64  <br/>- StringArray  <br/>-ByteArray  <br/> |
-|[Valeur (UserConfiguration)](value-userconfiguration.md) <br/> |Spécifie la valeur de l’objet Dictionary sous forme de chaîne.  <br/> |
+|[Type (UserConfiguration)](type-userconfiguration.md) <br/> | Spécifie un type d’objet dictionnaire.<br/><br/>Le type peut être l’une des valeurs de chaîne suivantes :<br/><br/>- DateTime  <br/>- Boolean  <br/>- Byte  <br/>- Chaîne  <br/>- Integer32  <br/>- UnsignedInteger32  <br/>- Integer64  <br/>- UnsignedInteger64  <br/>- StringArray  <br/>- ByteArray  <br/> |
+|[Value (UserConfiguration)](value-userconfiguration.md) <br/> |Spécifie la valeur de l’objet dictionary en tant que chaîne.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

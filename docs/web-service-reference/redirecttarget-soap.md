@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f8162724-cf9a-4543-a1ad-5846c8b10bfa
 description: L’élément RedirectTarget (SOAP) contient la cible de l’URL de redirection ou de l’adresse de messagerie.
-ms.openlocfilehash: 092d575560379d43b12dd98a3efa155b59c31450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0e09529f62dfde66f1ef05875bb0b0a0886db452
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462198"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513541"
 ---
 # <a name="redirecttarget-soap"></a>RedirectTarget (SOAP)
 
-L’élément [RedirectTarget (SOAP)](redirecttarget-soap.md) contient la cible de l’URL de redirection ou de l’adresse de messagerie. 
+[L’élément RedirectTarget (SOAP)](redirecttarget-soap.md) contient la cible de l’URL de redirection ou de l’adresse de messagerie. 
   
 ```XML
 <RedirectTarget/>
@@ -46,7 +46,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte contient la cible de l’URL de redirection ou de l’adresse de messagerie à utiliser pour une requête GetUserSettings ou GetDomainSettings ultérieure.
+La valeur de texte contient la cible de l’URL ou de l’adresse de messagerie de redirection qui doit être utilisée pour une demande GetUserSettings ou GetDomainSettings ultérieure.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -54,7 +54,7 @@ La valeur texte contient la cible de l’URL de redirection ou de l’adresse de
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 

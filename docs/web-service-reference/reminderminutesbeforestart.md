@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReminderMinutesBeforeStart
 api_type:
 - schema
 ms.assetid: 65ea14bc-5f19-48cc-aef1-46227e06f5f5
-description: L’élément ReminderMinutesBeforeStart représente le nombre de minutes avant qu’un événement se produise lors de l’affichage d’un rappel.
-ms.openlocfilehash: 056ba06c5d8f878e13c72859746242f1694528e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReminderMinutesBeforeStart représente le nombre de minutes avant qu’un événement se produise lorsqu’un rappel est affiché.
+ms.openlocfilehash: d2020aa1602f01bca8b110ecd9579e9c4f929e3e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458543"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513415"
 ---
 # <a name="reminderminutesbeforestart"></a>ReminderMinutesBeforeStart
 
-L’élément **ReminderMinutesBeforeStart** représente le nombre de minutes avant qu’un événement se produise lors de l’affichage d’un rappel. 
+**L’élément ReminderMinutesBeforeStart** représente le nombre de minutes avant qu’un événement se produise lorsqu’un rappel est affiché. 
   
 ```xml
 <ReminderMinutesBeforeStart/>
@@ -50,7 +50,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -58,7 +58,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente, en minutes, l’heure avant laquelle un événement se produit lors de l’affichage d’un rappel.
+La valeur de texte représente, en minutes, la durée avant qu’un événement se produise lorsqu’un rappel est affiché.
   
 ## <a name="remarks"></a>Remarques
 

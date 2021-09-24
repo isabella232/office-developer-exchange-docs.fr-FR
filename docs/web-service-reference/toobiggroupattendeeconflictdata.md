@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TooBigGroupAttendeeConflictData
 api_type:
 - schema
 ms.assetid: 1512428d-ce22-4da9-b1c1-446b4bcd0a21
-description: L’élément TooBigGroupAttendeeConflictData représente un participant qui a été résolu en tant que liste de distribution, mais dont la liste de distribution était trop volumineuse pour être développée.
-ms.openlocfilehash: 407a4a49e5f32c81439063f47df2e131dd663a4f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TooBigGroupAttendeeConflictData représente un participant qui a été résolu en tant que liste de distribution, mais la liste de distribution était trop grande pour être étendue.
+ms.openlocfilehash: f91e7f31b26b7a7903ed96ba17afa53256996a89
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468599"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538806"
 ---
 # <a name="toobiggroupattendeeconflictdata"></a>TooBigGroupAttendeeConflictData
 
-L’élément **TooBigGroupAttendeeConflictData** représente un participant qui a été résolu en tant que liste de distribution, mais dont la liste de distribution était trop volumineuse pour être développée. 
+**L’élément TooBigGroupAttendeeConflictData** représente un participant qui a été résolu en tant que liste de distribution, mais la liste de distribution était trop grande pour être étendue. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **TooBigGroupAttendeeConflictData** représente un participant qui
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -60,11 +60,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données en conflit pour les participants identifiés dans le [GetUserAvailabilityRequest](getuseravailabilityrequest.md).  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données de conflit pour les participants identifiés dans [la getUserAvailabilityRequest](getuseravailabilityrequest.md).  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les listes de distribution contenant plus de 100 membres ne peuvent pas être développées.
+Les listes de distribution qui contiennent plus de 100 membres ne peuvent pas être étendues.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

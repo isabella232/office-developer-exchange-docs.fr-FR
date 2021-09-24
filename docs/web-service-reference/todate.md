@@ -1,23 +1,23 @@
 ---
-title: $
+title: ToDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15cdadfb-2636-44d6-84b7-d83ccad56fd7
-description: L’élément ToDate spécifie la date à laquelle le message a été reçu.
-ms.openlocfilehash: 1efff3d9484aa39562ad3d1e8ab01479999dda8a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ToDate spécifie la date de réception du message.
+ms.openlocfilehash: 2c51fff71592a3094a085082104b993c34ce4f57
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468781"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520373"
 ---
-# <a name="todate"></a>$
+# <a name="todate"></a>ToDate
 
-L’élément **ToDate** spécifie la date à laquelle le message a été reçu. 
+**L’élément ToDate** spécifie la date de réception du message. 
   
 ```XML
 <ToDate></ToDate>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ToDate** correspond à la date à laquelle le message a été reçu. 
+La valeur de texte de **l’élément ToDate** est la date de réception du message. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

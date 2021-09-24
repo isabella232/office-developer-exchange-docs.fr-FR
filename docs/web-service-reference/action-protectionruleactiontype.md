@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Action
 api_type:
 - schema
 ms.assetid: ca090dec-e2c5-49c8-a057-8d1f2409147f
-description: L’élément action identifie l’action qui doit être exécutée si la partie condition de la règle correspond.
-ms.openlocfilehash: 220a6fea16abb9ea823ae6239537b8c121702589
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Action identifie l’action à exécuter si la partie condition de la règle correspond.
+ms.openlocfilehash: 6ca051622bb05b2ae2690f6b32ee11662161a4c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527508"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534004"
 ---
 # <a name="action-protectionruleactiontype"></a>Action (ProtectionRuleActionType)
 
-L’élément **action** identifie l’action qui doit être exécutée si la partie condition de la règle correspond. 
+**L’élément Action** identifie l’action à exécuter si la partie condition de la règle correspond. 
   
 ```xml
 <Action Name="">
@@ -45,7 +45,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Argument](argument.md) <br/> |Spécifie les arguments de l’action. Cet élément ne se produira pas si l’action spécifiée ne nécessite pas que des arguments soient spécifiés. Cet élément peut apparaître une ou plusieurs fois si une action requiert un ou plusieurs arguments. L’action **RightsProtectMessage** contient un seul argument.  <br/> |
+|[Argument](argument.md) <br/> |Spécifie les arguments de l’action. Cet élément ne se produit pas si l’action spécifiée ne nécessite pas de spécifier d’arguments. Cet élément peut se produire une ou plusieurs fois si une action nécessite un ou plusieurs arguments. **L’action RightsProtectMessage** contient un seul argument.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

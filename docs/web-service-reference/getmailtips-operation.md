@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetMailTips
 api_type:
 - schema
 ms.assetid: 025483ec-a9f3-4735-8a95-d26e30ea7974
 description: L’opération GetMailTips obtient les informations de conseils de messagerie pour la boîte aux lettres spécifiée.
-ms.openlocfilehash: 41a4bb99ee7ae4e416ec8a106968bb7869e60345
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ec139f7a1a464aa8c30d8dd2043f441874231dc2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458655"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533793"
 ---
 # <a name="getmailtips-operation"></a>Opération GetMailTips
 
-L’opération **GetMailTips** obtient les informations de conseils de messagerie pour la boîte aux lettres spécifiée. 
+**L’opération GetMailTips obtient** les informations de conseils de messagerie pour la boîte aux lettres spécifiée. 
   
 ## <a name="getmailtips-request-example"></a>Exemple de requête GetMailTips
 
 ### <a name="description"></a>Description
 
-Le client construit le code XML de la demande et l’envoie au serveur. La demande identifie le client sous la forme, la boîte aux lettres pour laquelle vous souhaitez récupérer les conseils de courrier, ainsi que les conseils de messagerie demandés. Dans cet exemple, le client demande que tous les conseils de courrier soient renvoyés pour la boîte aux lettres sélectionnée.
+Le client construit le XML de demande et l’envoie au serveur. La demande identifie les destinataires du message envoyé par le client, la boîte aux lettres pour récupérer les conseils de messagerie et les conseils de courrier qui sont demandés. Dans cet exemple, le client demande que tous les infos-courrier soient renvoyés pour la boîte aux lettres sélectionnée.
   
 ### <a name="code"></a>Code
 
@@ -58,23 +58,23 @@ Le client construit le code XML de la demande et l’envoie au serveur. La deman
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-Les éléments suivants sont inclus dans la demande :
+Les éléments suivants sont inclus dans la demande :
   
 - [GetMailTips](getmailtips.md)
     
-- [Envoyeras](sendingas.md)
+- [SendingAs](sendingas.md)
     
-- [Destinataires (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md)
+- [Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md)
     
 - [MailTipsRequested](mailtipsrequested.md)
     
-## <a name="successful-getmailtips-response-example"></a>Exemple de réponse GetMailTips réussi
+## <a name="successful-getmailtips-response-example"></a>Exemple de réponse GetMailTips réussie
 
 ### <a name="description"></a>Description
 
-L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la demande **GetMailTips** . 
+L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la **demande GetMailTips.** 
   
 ### <a name="code"></a>Code
 
@@ -122,9 +122,9 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
-Les éléments suivants sont inclus dans la réponse :
+Les éléments suivants sont inclus dans la réponse :
   
 - [ResponseCode](responsecode.md)
     

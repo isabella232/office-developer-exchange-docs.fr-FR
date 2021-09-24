@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ShowExternalRecipientCount
 api_type:
 - schema
 ms.assetid: db28dbcb-d051-4e5c-a9c2-4b8d5149b4e1
-description: L’élément ShowExternalRecipientCount indique si les consommateurs de l’opération GetMailTips doivent afficher des conseils de courrier électronique qui indiquent le nombre de destinataires externes auxquels un message est adressé.
-ms.openlocfilehash: fc32e5c4a95f0e33b5532af9c77d31bd6446e641
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ShowExternalRecipientCount indique si les consommateurs de l’opération GetMailTips doivent afficher des conseils de messagerie qui indiquent le nombre de destinataires externes pour lesquels un message est adressé.
+ms.openlocfilehash: 30615dcb1091dff01cf13679e3e1ed68c8b25af9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539099"
 ---
 # <a name="showexternalrecipientcount"></a>ShowExternalRecipientCount
 
-L’élément **ShowExternalRecipientCount** indique si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) doivent afficher des conseils de courrier électronique qui indiquent le nombre de destinataires externes auxquels un message est adressé. 
+**L’élément ShowExternalRecipientCount** indique si les consommateurs de l’opération [GetMailTips](getmailtips-operation.md) doivent afficher des conseils de messagerie qui indiquent le nombre de destinataires externes pour lesquels un message est adressé. 
   
 ```XML
 <ShowExternalRecipientCount>true | false</ShowExternalRecipientCount>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service d’info-courrier.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte de cet élément est **true** si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) doivent afficher des conseils de courrier électronique qui indiquent le nombre de destinataires externes auxquels un message est adressé. La valeur est **false** si les consommateurs de l' [opération GetMailTips](getmailtips-operation.md) n’ont pas besoin d’afficher des conseils de courrier qui indiquent le nombre de destinataires externes auxquels un message est adressé. 
+La valeur textuelle de cet élément est **true** si les consommateurs de l’opération [GetMailTips](getmailtips-operation.md) doivent afficher des conseils de messagerie qui indiquent le nombre de destinataires externes pour lesquels un message est adressé. La valeur est **false** si les consommateurs de l’opération [GetMailTips](getmailtips-operation.md) n’ont pas besoin d’afficher des infos-courrier qui indiquent le nombre de destinataires externes pour lesquels un message est adressé. 
   
 ## <a name="remarks"></a>Remarques
 

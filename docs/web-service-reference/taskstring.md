@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f2c8e66-698c-4313-98d0-24d7298489f6
 description: L’élément TaskString contient une tâche suggérée.
-ms.openlocfilehash: a48a47917dd2ec47678b53f04f00c99887eec0b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 74bb36ac96803bbc2db0173f61af85442b95e576
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538903"
 ---
 # <a name="taskstring"></a>TaskString
 
-L’élément **TaskString** contient une tâche suggérée. 
+**L’élément TaskString** contient une tâche suggérée. 
   
 ```XML
 <TaskString></TaskString>
@@ -43,7 +43,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TaskString** est la tâche suggérée qui résulte d’une entité de tâche extraite d’un élément dans la boîte aux lettres. 
+La valeur de texte de **l’élément TaskString** est la tâche suggérée résultant d’une entité de tâche extraite d’un élément de la boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 

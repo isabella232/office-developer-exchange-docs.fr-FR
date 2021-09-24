@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 569eaca5-6761-4f5d-aa19-2bf3ac584ae3
 description: L’élément CreateFolderPathResponse est utilisé pour renvoyer un chemin d’accès de dossier.
-ms.openlocfilehash: 3cb8fb15e8850c4ae14082dfdc01c62225879a4a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f9539d794379ce54c6c7f13591b819d26890c618
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463789"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520926"
 ---
 # <a name="createfolderpathresponse"></a>CreateFolderPathResponse
 
-L’élément **CreateFolderPathResponse** est utilisé pour renvoyer un chemin d’accès de dossier. 
+**L’élément CreateFolderPathResponse est** utilisé pour renvoyer un chemin d’accès de dossier. 
   
 ```XML
 <CreateFolderPathResponse>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

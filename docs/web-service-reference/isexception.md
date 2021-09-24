@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsException
 api_type:
 - schema
 ms.assetid: e7bd8ae2-2643-411e-ae08-358bac445800
-description: L’élément IsException indique si une instance d’un élément de calendrier périodique est modifiée de la forme de base.
-ms.openlocfilehash: f2e45e0f1010449d4a494f5e15ecd0b22dc598e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsException indique si une instance d’un élément de calendrier périodique est modifiée à partir du maître.
+ms.openlocfilehash: 1c96808f061e9b7b807f2fb1cd16c487592d0f2b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457584"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520366"
 ---
 # <a name="isexception"></a>IsException
 
-L’élément **isException** indique si une instance d’un élément de calendrier périodique est modifiée de la forme de base. 
+**L’élément IsException** indique si une instance d’un élément de calendrier périodique est modifiée à partir du maître. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,11 +60,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires sur un événement de calendrier.  <br/> Voici l’expression XPath 2,0 pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires sur un événement de calendrier.  <br/> Voici l’expression XPath 2.0 à cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé. 
+Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si [l’élément CalendarEventDetails](calendareventdetails.md) est utilisé. 
   
 ## <a name="remarks"></a>Remarques
 

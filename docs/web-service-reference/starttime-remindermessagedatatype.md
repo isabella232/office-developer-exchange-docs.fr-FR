@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdfc4edd-463c-409b-9bef-6fb915d00b99
-description: L’élément StartTime (ReminderMessageDataType) spécifie l’heure de début de l’élément pour lequel le rappel est destiné.
-ms.openlocfilehash: bdd940656d5441a0a36cfcef8f4e0b5db1474a7a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément StartTime (ReminderMessageDataType) spécifie l’heure de début de l’élément pour le rappel.
+ms.openlocfilehash: 85bf86250c13239691e6b47d92390bc11eb8cbd6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458998"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539016"
 ---
 # <a name="starttime-remindermessagedatatype"></a>StartTime (ReminderMessageDataType)
 
-L’élément **StartTime (ReminderMessageDataType)** spécifie l’heure de début de l’élément pour lequel le rappel est destiné. 
+**L’élément StartTime (ReminderMessageDataType)** spécifie l’heure de début de l’élément pour le rappel. 
   
 ```XML
 <StartTime/>
@@ -43,7 +43,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **StartTime (ReminderMessageDataType)** est l’heure de début de l’élément pour lequel la relance est destinée. 
+La valeur de texte de l’élément **StartTime (ReminderMessageDataType)** est l’heure de début de l’élément pour le rappel. 
   
 ## <a name="remarks"></a>Remarques
 

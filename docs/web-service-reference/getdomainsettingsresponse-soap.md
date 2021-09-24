@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 43ebd17b-3a70-4878-9254-97a4c2c87b77
 description: L’élément GetDomainSettingsResponse représente la réponse à une opération GetDomainSettings (SOAP), qui renvoie les paramètres de domaine.
-ms.openlocfilehash: 94cb202948e6a0d5a34f5547132c052d1d1b6a40
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e723942ab2691d97729db24c0862af00843e3729
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538130"
 ---
 # <a name="getdomainsettingsresponse-soap"></a>GetDomainSettingsResponse (SOAP)
 
-L’élément **GetDomainSettingsResponse** représente la réponse à une [opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md), qui renvoie les paramètres de domaine.
+**L’élément GetDomainSettingsResponse** représente la réponse à une [opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)qui renvoie les paramètres de domaine.
   
 ```XML
 <GetDomainSettingsResponse>
@@ -59,7 +59,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

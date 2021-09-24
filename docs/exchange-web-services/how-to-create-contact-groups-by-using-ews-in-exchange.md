@@ -3,28 +3,28 @@ title: Créer des groupes de contacts à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acec6e73-c016-419d-be1a-8ec5d993addb
-description: Découvrez comment créer un groupe de contacts à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 1da876bbda72f5bea08fd9855aa3f554135d54aa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez comment créer un groupe de contacts à l’aide de l’API gérée EWS ou d’EWS dans Exchange.
+ms.openlocfilehash: ade7fa68b00b055268cd5f0c34a75e0abbdb18ee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528138"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513219"
 ---
 # <a name="create-contact-groups-by-using-ews-in-exchange"></a>Créer des groupes de contacts à l’aide d’EWS dans Exchange
 
-Découvrez comment créer un groupe de contacts à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment créer un groupe de contacts à l’aide de l’API gérée EWS ou d’EWS dans Exchange.
   
-Vous pouvez créer un groupe de contacts, qui est un [groupe de distribution](distribution-groups-and-ews-in-exchange.md)privé, à l’aide de l’API managée EWS ou d’EWS. Pour créer des groupes de contacts, utilisez les méthodes de la classe de l’API managée EWS [ContactGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) ou utilisez l’opération EWS de [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . 
+Vous pouvez créer un groupe de contacts, qui est un groupe de [distribution](distribution-groups-and-ews-in-exchange.md)privé, à l’aide de l’API gérée EWS ou d’EWS. Pour créer des groupes de contacts, utilisez les méthodes de la classe d’API gérée EWS [ContactGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) ou utilisez [l’opération CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. 
   
-Notez que vous ne pouvez pas utiliser l’API managée EWS ou EWS pour créer un groupe de distribution ou un groupe de sécurité universel. Pour créer un groupe de distribution universel ou un groupe de sécurité, vous pouvez utiliser la cmdlet [New-DistributionGroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx)[Exchange Management Shell](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx). 
+Notez que vous ne pouvez pas utiliser l’API gérée EWS ou EWS pour créer un groupe de distribution universel ou un groupe de sécurité. Pour créer un groupe de distribution universel ou un groupe de sécurité, vous pouvez utiliser la[cmdlet](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx) [New-DistributionGroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx)Exchange Management Shell . 
   
-## <a name="create-a-contact-group-by-using-the-ews-managed-api"></a>Créer un groupe de contacts à l’aide de l’API managée EWS
+## <a name="create-a-contact-group-by-using-the-ews-managed-api"></a>Créer un groupe de contacts à l’aide de l’API gérée EWS
 <a name="bk_EWSMA"> </a>
 
-Pour créer un groupe de contacts, vous avez besoin de quelques informations : un nom pour le groupe et les membres à ajouter au groupe. L’exemple suivant montre comment créer un groupe de contacts simple qui contient deux membres de groupe.
+Pour créer un groupe de contacts, il vous suffit de quelques informations : un nom pour le groupe et les membres à ajouter au groupe. L’exemple suivant montre comment créer un groupe de contacts simple qui contient quelques membres du groupe.
   
 ```cs
 // Create a new contact group object.
@@ -42,7 +42,7 @@ myContactGroup.Save();
 ## <a name="create-a-contact-group-by-using-ews"></a>Créer un groupe de contacts à l’aide d’EWS
 <a name="bk_EWSMA"> </a>
 
-Il peut prendre quelques lignes de code supplémentaires, mais vous pouvez créer un groupe de contacts à l’aide de l’opération EWS de [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) . L’exemple de requête XML suivant montre comment vous pouvez créer un groupe de contacts. Il s’agit également de la requête XML qui est envoyée lorsque vous [Utilisez l’API managée EWS pour créer un groupe de contacts](#bk_EWSMA).
+Cela peut prendre quelques lignes de code, mais vous pouvez créer un groupe de contacts à l’aide de l’opération [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) EWS. L’exemple de requête XML suivant montre comment créer un groupe de contacts. Il s’agit également de la demande XML qui est envoyée lorsque vous utilisez l’API gérée [EWS pour créer un groupe de contacts.](#bk_EWSMA)
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -74,7 +74,7 @@ MessageDisposition="SaveOnly">
    </CreateItem>
 ```
 
-Voici un exemple de réponse XML réussie à la demande. Notez que les valeurs renvoyées incluent un ID d’élément pour le nouveau groupe de contacts et une clé de modification que vous pouvez utiliser dans un autre code pour modifier le groupe de contacts ou développer le groupe pour afficher les membres. L’ID d’élément est raccourci pour des raisons de lisibilité.
+Voici un exemple de réponse XML réussie à la demande. Notez que les valeurs renvoyées incluent un ID d’élément pour le nouveau groupe de contacts et une clé de modification que vous pouvez utiliser dans un autre code pour modifier le groupe de contacts ou développer le groupe pour voir les membres. L’ID d’élément est raccourci pour des raisons de lisibilité.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -102,6 +102,6 @@ Voici un exemple de réponse XML réussie à la demande. Notez que les valeurs r
 
 - [Les groupes de distribution et EWS dans Exchange](distribution-groups-and-ews-in-exchange.md)
     
-- [Développer des groupes de distribution à l’aide d’EWS dans Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
+- [Développer des groupes de distribution à l’aide d’EWS Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
 

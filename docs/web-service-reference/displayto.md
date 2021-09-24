@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisplayTo
 api_type:
 - schema
 ms.assetid: 16a0b22d-063b-417c-8aba-efcf9490b072
-description: L’élément DisplayTo représente la chaîne d’affichage qui est utilisée pour le contenu de la zone à. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.
-ms.openlocfilehash: 3bc0b322d6a4f00388247bebcf8e3e7fb110da1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisplayTo représente la chaîne d’affichage utilisée pour le contenu de la zone À. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.
+ms.openlocfilehash: 19db4bed5f22f21fb4cf4094c9ec4b75e8d2af23
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461358"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520843"
 ---
 # <a name="displayto"></a>DisplayTo
 
-L’élément **DisplayTo** représente la chaîne d’affichage qui est utilisée pour le contenu de la zone à. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À. 
+**L’élément DisplayTo** représente la chaîne d’affichage utilisée pour le contenu de la zone À. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À. 
   
 ```xml
 <DisplayTo/>
@@ -50,14 +50,14 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente la chaîne d’affichage qui est utilisée pour le contenu de la zone à.
+La valeur de texte représente la chaîne d’affichage utilisée pour le contenu de la zone À.
   
 ## <a name="remarks"></a>Remarques
 

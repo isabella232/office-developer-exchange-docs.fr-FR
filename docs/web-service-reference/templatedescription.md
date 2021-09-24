@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95afb55b-a4e8-4b04-9b06-a3a882cb8af5
-description: L’élément TemplateDescription spécifie la description du modèle de gestion des droits.
-ms.openlocfilehash: 0f5443213fa75c5c05b4cba4609130bb1b3f371e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TemplateDescription spécifie la description du modèle Rights Management.
+ms.openlocfilehash: a6ce9b6fad5c00a74548e02bb11279b8ddb0db5f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459944"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520379"
 ---
 # <a name="templatedescription"></a>TemplateDescription
 
-L’élément **TemplateDescription** spécifie la description du modèle de gestion des droits. 
+**L’élément TemplateDescription** spécifie la description du modèle Rights Management. 
   
 ```XML
 <TemplateDescription></TemplateDescription>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TemplateDescription** est la description du modèle de gestion des droits appliqué à un élément. 
+La valeur de texte de **l’élément TemplateDescription** est la description du modèle Rights Management appliqué à un élément. 
   
 ## <a name="remarks"></a>Remarques
 

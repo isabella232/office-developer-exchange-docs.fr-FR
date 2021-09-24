@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsGreaterThanOrEqualTo
 api_type:
 - schema
 ms.assetid: 373cc954-314d-40e2-be03-cc08aefc0d5b
-description: L’élément IsGreaterThanOrEqualTo représente une expression de recherche qui compare une propriété à une valeur constante ou à une autre propriété et renvoie la valeur true si la première propriété est supérieure ou égale à la seconde.
-ms.openlocfilehash: a38877ad92d064a20efbe1eb13ea6cc56c90f818
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsGreaterThanOrEqualTo représente une expression de recherche qui compare une propriété avec une valeur constante ou une autre propriété et renvoie la valeur true si la première propriété est supérieure ou égale à la seconde.
+ms.openlocfilehash: 97ea04f60e5a7d03d4b495feb58dc2f597e2a4ea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526507"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532794"
 ---
 # <a name="isgreaterthanorequalto"></a>IsGreaterThanOrEqualTo
 
-L’élément **IsGreaterThanOrEqualTo** représente une expression de recherche qui compare une propriété à une valeur constante ou à une autre propriété et renvoie la **valeur true** si la première propriété est supérieure ou égale à la seconde. 
+**L’élément IsGreaterThanOrEqualTo** représente une expression de recherche qui compare une propriété avec une valeur constante ou une autre propriété et renvoie la valeur **true** si la première propriété est supérieure ou égale à la seconde. 
   
 ```xml
 <IsGreaterThanOrEqualTo>
@@ -58,7 +58,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencés par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’un dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI.  <br/> |
 |[FieldURIOrConstant](fielduriorconstant.md) <br/> |Représente une propriété ou une valeur constante à utiliser lors de la comparaison avec une autre propriété.  <br/> |
@@ -67,10 +67,10 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Représente la restriction ou la requête qui est utilisée pour filtrer des éléments ou des dossiers dans les opérations FindItem/FindFolder et Search Folder.  <br/> |
-|[Not](not.md) <br/> |Représente une expression de recherche qui nie la valeur booléenne de l’expression de recherche qu’elle contient.  <br/> |
-|[And](and.md) <br/> |Représente une expression de recherche qui vous permet d’effectuer une opération booléenne et une opération entre deux ou plusieurs expressions de recherche. Le résultat de l’opération and est **true** si toutes les expressions de recherche contenues dans le et sont **vraies**.  <br/> |
-|[Or](or.md) <br/> |Représente une expression de recherche qui effectue une ou logique sur l’expression de recherche qu’elle contient. [Ou](or.md) renverra true si l’un de ses enfants renvoie la valeur true. [Ou](or.md) il doit avoir au moins deux enfants.  <br/> |
+|[Restriction](restriction.md) <br/> |Représente la restriction ou la requête utilisée pour filtrer des éléments ou des dossiers dans les opérations FindItem/FindFolder et des dossiers de recherche.  <br/> |
+|[Not](not.md) <br/> |Représente une expression de recherche qui annule la valeur booléle de l’expression de recherche qu’elle contient.  <br/> |
+|[And](and.md) <br/> |Représente une expression de recherche qui vous permet d’effectuer une opération Boolean And entre deux ou plusieurs expressions de recherche. Le résultat de l’opération And est **true** si toutes les expressions de recherche contenues dans la et sont **vraies**.  <br/> |
+|[Or](or.md) <br/> |Représente une expression de recherche qui effectue un OR logique sur l’expression de recherche qu’elle contient. [Ou](or.md) retourne true si l’un de ses enfants retourne true. [Ou](or.md) doit avoir au moins deux enfants.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f7bcd0f-140c-4cbc-a5ed-daeffded1df1
-description: L’élément GetConversationItems définit une demande pour obtenir un ensemble d’éléments liés par le fait d’être dans la même conversation.
-ms.openlocfilehash: cde4bc2c39ccbc51b7436c87c4bc06e3b8d7e52c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetConversationItems définit une demande d’obtenir un ensemble d’éléments liés en étant dans la même conversation.
+ms.openlocfilehash: 0bd792553cbab0c03a6c2cd5bfdbc18dfeba4273
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457745"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538116"
 ---
 # <a name="getconversationitems"></a>GetConversationItems
 
-L’élément **GetConversationItems** définit une demande pour obtenir un ensemble d’éléments liés par le fait d’être dans la même conversation. 
+**L’élément GetConversationItems** définit une demande d’obtenir un ensemble d’éléments liés en étant dans la même conversation. 
   
 ```XML
 <GetConversationItems>
@@ -41,7 +41,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ItemShape](itemshape.md)  |  [FoldersToIgnore](folderstoignore.md)  |  [MaxItemsToReturn](maxitemstoreturn.md)  |  [OrdreTri (ConversationNodeSortOrder)](sortorder-conversationnodesortorder.md)  |  [MailboxScope](mailboxscope.md)  |  [Conversations](conversations-ex15websvcsotherref.md)
+[ItemShape](itemshape.md)  |  [FoldersToIgnore](folderstoignore.md)  |  [MaxItemsToReturn](maxitemstoreturn.md)  |  [SortOrder (ConversationNodeSortOrder)](sortorder-conversationnodesortorder.md)  |  [MailboxScope](mailboxscope.md)  |  [Conversations](conversations-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

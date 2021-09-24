@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: aa4a7c94-f668-4bd2-8079-c855f6ab17e1
-description: L’opération CreateItem crée des éléments de calendrier dans la Banque d’Exchange.
-ms.openlocfilehash: 535edf9fe567bc3063a5b853f01d604ea4c7eb95
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération CreateItem crée des éléments de calendrier dans Exchange store.
+ms.openlocfilehash: 4b2506dd4d5353c7670cab0ddb029e542d5861ba
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538421"
 ---
 # <a name="createitem-operation-calendar-item"></a>Opération CreateItem (élément de calendrier)
 
-L’opération CreateItem crée des éléments de calendrier dans la Banque d’Exchange.
+L’opération CreateItem crée des éléments de calendrier dans Exchange store.
   
 ## <a name="remarks"></a>Remarques
 
@@ -31,7 +31,7 @@ L’opération CreateItem crée des rendez-vous, des réunions et des demandes d
 
 ### <a name="description"></a>Description
 
-L’exemple de requête CreateItem suivant montre comment créer une réunion avec deux participants obligatoires. Cette demande enverra les demandes de réunion aux deux participants.
+L’exemple suivant d’une demande CreateItem montre comment créer une réunion avec deux participants obligatoires. Cette demande envoie les demandes de réunion aux deux participants.
   
 ### <a name="code"></a>Code
 
@@ -79,9 +79,9 @@ L’exemple de requête CreateItem suivant montre comment créer une réunion av
 
 ### <a name="comments"></a>Commentaires
 
-Pour obtenir un exemple de réponse à une demande de réunion, consultez la rubrique [opération CreateItem (demande de réunion)](createitem-operation-meeting-request.md) . 
+Pour obtenir un exemple de réponse à une demande de réunion, consultez la rubrique [CreateItem operation (meeting request).](createitem-operation-meeting-request.md) 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -95,7 +95,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [CalendarItem](calendaritem.md)
     
-- [Subject](subject.md)
+- [Sujet](subject.md)
     
 - [Corps](body.md)
     
@@ -103,19 +103,19 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ReminderMinutesBeforeStart](reminderminutesbeforestart.md)
     
-- [Démarrage](start.md)
+- [Start](start.md)
     
-- [Fin](end-ex15websvcsotherref.md)
+- [Fin ](end-ex15websvcsotherref.md)
     
 - [IsAllDayEvent](isalldayevent.md)
     
 - [LegacyFreeBusyStatus](legacyfreebusystatus.md)
     
-- [Emplacement](location.md)
+- [Location](location.md)
     
 - [RequiredAttendees](requiredattendees.md)
     
-- [Participant](attendee.md)
+- [Attendee](attendee.md)
     
 - [Boîte aux lettres](mailbox.md)
     
@@ -159,7 +159,7 @@ L’exemple suivant montre une réponse réussie à la demande CreateItem.
 
 ### <a name="comments"></a>Commentaires
 
-Les **attributs de l’élément** [ItemId](itemid.md) et **ChangeKey** ont été raccourcis pour conserver la lisibilité. 
+**L’ID d’élément** [ItemId](itemid.md) et les attributs **ChangeKey** ont été raccourcis pour préserver la lisibilité. 
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 

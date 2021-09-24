@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUnmodified
 api_type:
 - schema
 ms.assetid: bf09bf20-5c86-4335-b6e4-df41e9af52fd
 description: L’élément IsUnmodified indique si l’élément a été modifié.
-ms.openlocfilehash: c577d4344cf644ce1e3bb9650760d0ee294561a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 10d121894a2c560d9ccbcf9fa8387ac8660600aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458151"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519477"
 ---
 # <a name="isunmodified"></a>IsUnmodified
 
-L’élément **IsUnmodified** indique si l’élément a été modifié. 
+**L’élément IsUnmodified** indique si l’élément a été modifié. 
   
 ```xml
 <IsUnmodified/>
@@ -50,7 +50,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -58,7 +58,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que l’élément n’est pas modifié. Une valeur de texte **false** indique que l’élément a été modifié. 
+Une valeur de texte **true** indique que l’élément n’est pasmodifié. Une valeur de texte **false** indique que l’élément a été modifié. 
   
 ## <a name="remarks"></a>Remarques
 

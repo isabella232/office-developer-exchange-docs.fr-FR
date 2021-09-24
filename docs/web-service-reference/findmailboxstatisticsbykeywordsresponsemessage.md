@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d3835800-8887-43db-9a8a-fe3cfea7a863
 description: L’élément FindMailboxStatisticsByKeywordsResponseMessage spécifie le message de réponse pour une demande FindMailboxStatisticsByKeywords.
-ms.openlocfilehash: 704eebbf82db2871ab36be8e5b30c88c6959baa5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f41a44ebb90b59c7458162dffe445bbeba7c2ba0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44525975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513716"
 ---
 # <a name="findmailboxstatisticsbykeywordsresponsemessage"></a>FindMailboxStatisticsByKeywordsResponseMessage
 
-L’élément **FindMailboxStatisticsByKeywordsResponseMessage** spécifie le message de réponse pour une demande **FindMailboxStatisticsByKeywords** . 
+**L’élément FindMailboxStatisticsByKeywordsResponseMessage** spécifie le message de réponse pour une demande **FindMailboxStatisticsByKeywords.** 
   
 ```XML
 <FindMailboxStatisticsByKeywordsResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -38,7 +38,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ResponseClass  <br/> |Spécifie la classe Response.  <br/> |
+|ResponseClass  <br/> |Spécifie la classe de réponse.  <br/> |
    
 #### <a name="responseclass"></a>ResponseClass
 
@@ -54,8 +54,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 |:-----|:-----|
 |[MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md) <br/> |Spécifie le résultat d’une recherche de boîte aux lettres.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit des informations sur l’état de la demande.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit des informations d’état sur la demande.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé pour une utilisation ultérieure.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -75,8 +75,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

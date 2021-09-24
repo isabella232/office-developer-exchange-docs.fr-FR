@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZoneDefinition
 api_type:
 - schema
 ms.assetid: b005a80c-addb-4409-beff-e5162076752c
-description: L’élément TimeZoneDefinition spécifie les points et les transitions qui définissent un fuseau horaire.
-ms.openlocfilehash: 58d34556686bfc77244b5829798eada51a1df843
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TimeZoneDefinition spécifie les périodes et les transitions qui définissent un fuseau horaire.
+ms.openlocfilehash: 6f2b580d2c3e31826ca74034cfda938cff71ee53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538813"
 ---
 # <a name="timezonedefinition"></a>TimeZoneDefinition
 
-L’élément **TimeZoneDefinition** spécifie les points et les transitions qui définissent un fuseau horaire. 
+**L’élément TimeZoneDefinition** spécifie les périodes et les transitions qui définissent un fuseau horaire. 
   
 ```XML
 <TimeZoneDefinition Id="" Name="">
@@ -48,8 +48,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Periods](periods.md) <br/> |Représente un tableau d’éléments [period](period.md) qui définissent le décalage temporel à différentes étapes du fuseau horaire.  <br/> |
-|[TransitionsGroups](transitionsgroups.md) <br/> |Représente un tableau d’éléments [TransitionsGroup](transitionsgroup.md) qui spécifient des transitions de fuseau horaire.  <br/> |
+|[Periods](periods.md) <br/> |Représente un tableau d’éléments [Period](period.md) qui définissent le décalage horaire à différentes étapes du fuseau horaire.  <br/> |
+|[TransitionsGroups](transitionsgroups.md) <br/> |Représente un tableau d’éléments [TransitionsGroup](transitionsgroup.md) qui spécifient les transitions de fuseau horaire.  <br/> |
 |[Transitions](transitions.md) <br/> |Représente un tableau de transitions de fuseau horaire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -57,7 +57,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 |**Élément**|**Description**|
 |:-----|:-----|
 |[TimeZoneDefinitions](timezonedefinitions.md) <br/> |Représente un tableau de définitions de fuseau horaire.  <br/> |
-|[TimeZoneContext](timezonecontext.md) <br/> |Représente la définition de fuseau horaire par défaut qui doit être utilisée pour la portée des propriétés DateTime des objets créés, mis à jour et récupérés à l’aide des services Web Exchange (EWS).  <br/> |
+|[TimeZoneContext](timezonecontext.md) <br/> |Représente la définition de fuseau horaire par défaut à utiliser pour l’application des propriétés DateTime des objets créés, mis à jour et récupérés à l’aide des services web Exchange (EWS).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

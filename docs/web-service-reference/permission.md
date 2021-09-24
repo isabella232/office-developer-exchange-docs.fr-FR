@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Permission
 api_type:
 - schema
 ms.assetid: b8d0429a-0e58-4480-9847-4901970c7033
-description: L’élément permission définit l’accès d’un utilisateur à un dossier.
-ms.openlocfilehash: 0f7515dbb06f8423f8d4d95e1391496e8ac73653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Permission définit l’accès d’un utilisateur à un dossier.
+ms.openlocfilehash: bc3e140aaf7bd9ea7f1a4993c9bea1dcad8d39fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459257"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512666"
 ---
 # <a name="permission"></a>Autorisation
 
-L’élément **permission** définit l’accès d’un utilisateur à un dossier. 
+**L’élément Permission** définit l’accès d’un utilisateur à un dossier. 
   
 ```XML
 <Permission>
@@ -54,13 +54,13 @@ Aucune.
 |[CanCreateItems](cancreateitems.md) <br/> |Indique si un utilisateur est autorisé à créer des éléments dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[CanCreateSubFolders](cancreatesubfolders.md) <br/> |Indique si un utilisateur est autorisé à créer des sous-dossiers dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[DeleteItems](deleteitems.md) <br/> |Indique si un utilisateur est autorisé à supprimer des éléments dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[EditItems](edititems.md) <br/> |Indique si un utilisateur est autorisé à modifier les éléments d’un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[EditItems](edititems.md) <br/> |Indique si un utilisateur est autorisé à modifier des éléments dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[IsFolderContact](isfoldercontact.md) <br/> |Indique si un utilisateur est un contact pour un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[IsFolderOwner](isfolderowner.md) <br/> |Indique si un utilisateur est le propriétaire d’un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[IsFolderVisible](isfoldervisible.md) <br/> |Indique si un utilisateur peut afficher un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[PermissionLevel](permissionlevel.md) <br/> |Représente la combinaison d’autorisations dont dispose un utilisateur sur un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[ReadItems (PermissionType)](readitems-permissiontype.md) <br/> |Indique si un utilisateur est autorisé à lire des éléments dans un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[PermissionLevel](permissionlevel.md) <br/> |Représente la combinaison des autorisations dont dispose un utilisateur sur un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[ReadItems (PermissionType)](readitems-permissiontype.md) <br/> |Indique si un utilisateur est autorisé à lire les éléments d’un dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose d’autorisations d’accès aux dossiers. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -76,7 +76,7 @@ Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
   
 ### <a name="version-differences"></a>Différences entre les versions
 
-Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange à partir d’Exchange 2013, les autorisations de dossiers ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a une valeur de **AllProperties** dans la demande d’opération [GetFolder](getfolder-operation.md) . Pour récupérer les autorisations de dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément [AdditionalProperties](additionalproperties.md) dans la demande **GetFolder** . 
+Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre de Office 365 ou une version sur site de Exchange à partir de Exchange 2013, les autorisations de dossier ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a la valeur **AllProperties** dans [GetFolder](getfolder-operation.md) demande d’opération. Pour récupérer les autorisations de dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément [AdditionalProperties](additionalproperties.md) dans la **demande GetFolder.** 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

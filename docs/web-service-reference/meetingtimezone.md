@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingTimeZone
 api_type:
 - schema
 ms.assetid: 413b47d9-8126-462c-9a4f-4e771a5e8889
 description: L’élément MeetingTimeZone représente le fuseau horaire de l’emplacement où la réunion est hébergée.
-ms.openlocfilehash: aef4ac4e7571ded6920cbaf90e2895d421068f55
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5920e05b09ff02fafe58f38e94e3671a8234fd21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465470"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532447"
 ---
 # <a name="meetingtimezone"></a>MeetingTimeZone
 
-L’élément **MeetingTimeZone** représente le fuseau horaire de l’emplacement où la réunion est hébergée. 
+**L’élément MeetingTimeZone** représente le fuseau horaire de l’emplacement où la réunion est hébergée. 
   
 ```xml
 <MeetingTimeZone>
@@ -47,15 +47,15 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 |**Élément**|**Description**|
 |:-----|:-----|
 |[BaseOffset](baseoffset.md) <br/> |Représente le décalage horaire par rapport à l’heure UTC pour le fuseau horaire actuel.  <br/> |
-|[Standard](standard.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
-|[Auxquelles](daylight.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure standard à l’heure d’été.  <br/> |
+|[Standard](standard.md) <br/> |Représente la date et l’heure de passage de l’heure d’été à l’heure standard.  <br/> |
+|[Daylight](daylight.md) <br/> |Représente la date et l’heure de passage de l’heure standard à l’heure d’été.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

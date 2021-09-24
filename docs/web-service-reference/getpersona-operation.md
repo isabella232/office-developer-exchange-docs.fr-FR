@@ -5,41 +5,41 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2146df0-53d0-4caf-9758-b600bbc14b6a
-description: Trouvez des informations sur l’opération EWS GetPersona.
-ms.openlocfilehash: 2b335c694a85f87c96432ea6d7c1c674613d2f17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération GetPersona EWS.
+ms.openlocfilehash: 47713ee42b7d726693efe91a5bc29c10f3aea91c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460945"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533552"
 ---
 # <a name="getpersona-operation"></a>Opération GetPersona
 
-Trouvez des informations sur l’opération EWS **GetPersona** . 
+Trouvez des informations sur **l’opération GetPersona** EWS. 
   
-L’opération **GetPersona** renvoie un jeu de propriétés qui sont associées à un personnage. 
+**L’opération GetPersona** renvoie un ensemble de propriétés associées à un personnage. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getpersona-operation"></a>Utilisation de l’opération GetPersona
 
-L’opération **GetPersona** fournit l’accès aux informations de contact agrégées sous la forme d’un personnage. L’élément [PersonaId](personaid.md) dans la demande identifie le personnage à renvoyer dans la réponse. La réponse peut contenir un ensemble par défaut de propriétés de personnages ou un jeu de propriétés personnalisées. Nous vous recommandons de spécifier un jeu de propriétés personnalisées afin que les propriétés inutilisées ne soient pas traitées et envoyées du serveur au client. 
+**L’opération GetPersona permet** d’accéder à des informations de contact agrégées sous la forme d’un personnage. [L’élément PersonaId](personaid.md) dans la demande identifie le personnage à renvoyer dans la réponse. La réponse peut contenir un ensemble par défaut de propriétés persona ou un jeu de propriétés personnalisé. Nous vous recommandons de spécifier un jeu de propriétés personnalisé afin que les propriétés inutilisées ne soient pas traitées et envoyées du serveur au client. 
   
-### <a name="getpersona-operation-soap-headers"></a>En-têtes SOAP d’opération GetPersona
+### <a name="getpersona-operation-soap-headers"></a>En-têtes SOAP de l’opération GetPersona
 
-L’opération **GetPersona** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetPersona peut** utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>Exemple de requête d’opération GetPersona : renvoyer un ensemble de propriétés par défaut pour un personnage
+## <a name="getpersona-operation-request-example-return-a-default-set-of-properties-for-a-persona"></a>Exemple de demande d’opération GetPersona : renvoyer un jeu de propriétés par défaut pour un personnage
 
-L’exemple suivant de demande d’opération **GetPersona** indique comment renvoyer un ensemble de propriétés par défaut associées à un personnage. 
+L’exemple suivant **d’une demande d’opération GetPersona** montre comment renvoyer un ensemble par défaut de propriétés associées à un personnage. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -57,18 +57,18 @@ L’exemple suivant de demande d’opération **GetPersona** indique comment ren
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetPersona](getpersona.md)
     
 - [PersonaId](personaid.md)
     
-## <a name="successful-getpersona-operation-response"></a>Réponse de l’opération GetPersona réussie
+## <a name="successful-getpersona-operation-response"></a>Réponse réussie de l’opération GetPersona
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetPersona** . 
+L’exemple suivant montre une réponse réussie à une **demande d’opération GetPersona.** 
   
 > [!NOTE]
-> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. 
+> Tous les identificateurs d’élément et les touches de modification de cet article ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -180,7 +180,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - GetPersonaResponseMessage
     
@@ -214,9 +214,9 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [Attribution (String)](attribution-string.md)
     
-- [ID (chaîne)](id-string.md)
+- [ID (String)](id-string.md)
     
-- [SourceId](sourceid.md) ID 
+- [SourceId](sourceid.md) SourceId 
     
 - [DisplayName (chaîne)](displayname-string.md)
     
@@ -228,11 +228,11 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [FolderId](folderid.md)
     
-- [DisplayName](displaynames.md)
+- [DisplayNames](displaynames.md)
     
 - [StringAttributedValue](stringattributedvalue.md)
     
-- [Valeur (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
+- [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
     
 - [Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md)
     
@@ -244,13 +244,13 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [GivenNames](givennames.md)
     
-- [Nom](surnames.md)
+- [Surnames](surnames.md)
     
 - [MobilePhones](mobilephones.md)
     
 - [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
     
-- [Valeur (PersonaPhoneNumberType)](value-personaphonenumbertype.md)
+- [Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md)
     
 - [Number](number.md)
     
@@ -260,7 +260,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="getpersona-operation-error-response"></a>Réponse d’erreur d’opération GetPersona
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetPersona** . Il s’agit d’une réponse à une demande contenant un identificateur de personnage incorrectement spécifié. 
+L’exemple suivant montre une réponse d’erreur à **une demande d’opération GetPersona.** Il s’agit d’une réponse à une demande qui contient un identificateur de personnage spécifié de manière incorrecte. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -288,7 +288,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [GetPersonaResponseMessage](getpersonaresponsemessage.md)
     
@@ -298,7 +298,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

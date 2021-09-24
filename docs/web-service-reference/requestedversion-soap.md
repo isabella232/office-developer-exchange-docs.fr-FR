@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 962036c9-9b13-4669-bed2-2502c0f5aabe
-description: L’élément RequestedVersion spécifie la version de service minimale sur laquelle le client souhaite que la demande soit traitée.
-ms.openlocfilehash: ded276b3eb2c70b6edd39ca12289098de2b3faea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RequestedVersion spécifie la version de service minimale sur qui le client souhaite que la demande soit traitée.
+ms.openlocfilehash: 390dee362bf2e6c2bdeac4e0e5564ecbd59b7319
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459166"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513331"
 ---
 # <a name="requestedversion-soap"></a>RequestedVersion (SOAP)
 
-L’élément **RequestedVersion** spécifie la version de service minimale sur laquelle le client souhaite que la demande soit traitée. 
+**L’élément RequestedVersion** spécifie la version de service minimale sur qui le client souhaite que la demande soit traitée. 
   
 ```XML
 <RequestedVersion/>
@@ -41,8 +41,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Demande (SOAP)](request-soap.md) <br/> |Contient les paramètres de configuration demandés et les utilisateurs cibles.  <br/> |
-|[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Représente une demande d’obtention des paramètres de domaine.  <br/> |
+|[Request (SOAP)](request-soap.md) <br/> |Contient les paramètres de configuration demandés et les utilisateurs cibles.  <br/> |
+|[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Représente une demande d’obtenir les paramètres de domaine.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -50,7 +50,7 @@ La valeur de texte de l’élément **RequestedVersion** peut être Exchange2010
   
 ## <a name="remarks"></a>Remarques
 
-Si cet élément n’est pas présent, la version de service la plus récente est utilisée.
+Si cet élément n’est pas présent, la dernière version du service est utilisée.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -58,7 +58,7 @@ Si cet élément n’est pas présent, la version de service la plus récente es
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

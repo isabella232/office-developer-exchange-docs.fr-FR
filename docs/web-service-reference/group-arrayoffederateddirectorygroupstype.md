@@ -1,23 +1,23 @@
 ---
-title: Groupe (ArrayOfFederatedDirectoryGroupsType)
+title: Group (ArrayOfFederatedDirectoryGroupsType)
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
-description: L’élément Group (ArrayOfFederatedDirectoryGroupsType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: 7938b571f7cc48dd60b14429b8e21bad1eb26300
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Group (ArrayOfFederatedDirectoryGroupsType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 0e5d11b82fa14ab84043067a15da57a964723bfc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537925"
 ---
-# <a name="group-arrayoffederateddirectorygroupstype"></a>Groupe (ArrayOfFederatedDirectoryGroupsType)
+# <a name="group-arrayoffederateddirectorygroupstype"></a>Group (ArrayOfFederatedDirectoryGroupsType)
 
-L’élément **Group (ArrayOfFederatedDirectoryGroupsType)** est destiné uniquement à un usage interne. 
+**L’élément Group (ArrayOfFederatedDirectoryGroupsType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

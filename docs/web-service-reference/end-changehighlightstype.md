@@ -1,23 +1,23 @@
 ---
-title: Fin (ChangeHighlightsType)
+title: End (ChangeHighlightsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62b7d14c-8d71-4f28-b93e-8fe42d99022b
-description: L’élément End spécifie les modifications apportées à l’heure de fin d’une réunion lors de la mise à jour d’une réunion.
-ms.openlocfilehash: 61d8c46af1999a506258dfa0cebf3a712962772a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément End spécifie les modifications apportées à une heure de fin de réunion lorsqu’une mise à jour de réunion se produit.
+ms.openlocfilehash: 584ddbe4aea23e7940506fc4ce46ffa9e8cb5683
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526199"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520702"
 ---
-# <a name="end-changehighlightstype"></a>Fin (ChangeHighlightsType)
+# <a name="end-changehighlightstype"></a>End (ChangeHighlightsType)
 
-L’élément **end** spécifie les modifications apportées à l’heure de fin d’une réunion lors de la mise à jour d’une réunion. 
+**L’élément End** spécifie les modifications apportées à une heure de fin de réunion lorsqu’une mise à jour de réunion se produit. 
   
 ```XML
 <End></End>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément de **fin** est la nouvelle heure de fin d’une réunion. 
+La valeur de texte de **l’élément End** est la nouvelle heure de fin d’une réunion. 
   
 ## <a name="remarks"></a>Remarques
 

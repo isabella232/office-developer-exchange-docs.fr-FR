@@ -1,27 +1,27 @@
 ---
-title: TimeZone (disponibilité)
+title: TimeZone (Availability)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZone
 api_type:
 - schema
 ms.assetid: d662ffae-1f93-4c08-85a4-c69de2f7c681
 description: L’élément TimeZone contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été.
-ms.openlocfilehash: ba4b0a4805dba54450e01e89c5e9ef746404b716
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7ca6f0f2d9950770055d19c04adab9b76b95c295
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460273"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538841"
 ---
-# <a name="timezone-availability"></a>TimeZone (disponibilité)
+# <a name="timezone-availability"></a>TimeZone (Availability)
 
-L’élément **TimeZone** contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été. 
+**L’élément TimeZone** contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été. 
   
 ```xml
 <TimeZone>
@@ -45,23 +45,23 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Bias (UTC)](bias-utc.md) <br/> |Représente le décalage général par rapport au temps universel coordonné (UTC). Cette valeur est exprimée en minutes.  <br/> |
-|[StandardTime Element](standardtime.md) <br/> |Représente un décalage par rapport à l’heure par rapport à l’heure UTC représentée par l’élément [bias (UTC)](bias-utc.md) . Cet élément contient également des informations sur la transition vers l’heure standard à partir de l’heure d’été dans les régions où l’heure d’été est observée.  <br/> |
-|[DaylightTime](daylighttime.md) <br/> |Représente un décalage entre l’heure par rapport au temps universel coordonné et l’heure UTC représentée par l’élément [bias (UTC)](bias-utc.md) dans les régions où l’heure d’été est observée. Cet élément contient également des informations sur le moment où se produit la transition vers l’heure d’été à partir de l’heure standard.  <br/> |
+|[StandardTime](standardtime.md) <br/> |Représente un décalage par rapport à l’heure UTC représentée par l’élément [Bias (UTC).](bias-utc.md) Cet élément contient également des informations sur la transition vers l’heure standard à partir de l’heure d’été dans les régions où l’heure d’été est observée.  <br/> |
+|[DaylightTime](daylighttime.md) <br/> |Représente un décalage par rapport à l’heure UTC représentée par l’élément [Bias (UTC)](bias-utc.md) dans les régions où l’heure d’été est observée. Cet élément contient également des informations sur le moment où se produit la transition vers l’heure d’été à partir de l’heure standard.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> L’élément **TimeZone** dans le message GetUserAvailabilityRequest représente le fuseau horaire dans lequel les valeurs DateTime de la demande sont spécifiées. Les valeurs DateTime renvoyées par le service de disponibilité sont également dans ce fuseau horaire.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
-|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Représente les paramètres de fuseau horaire et les heures de travail de l’utilisateur de boîte aux lettres demandé.  <br/> L’élément **TimeZone** dans le message GetUserAvailabilityResponse représente les paramètres de fuseau horaire de l’utilisateur de boîte aux lettres demandé.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> **L’élément TimeZone** dans le message GetUserAvailabilityRequest représente le fuseau horaire dans lequel les valeurs DateTime dans la demande sont spécifiées. Les valeurs DateTime renvoyées par le service de disponibilité sont également dans ce fuseau horaire.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Représente les paramètres de fuseau horaire et les heures de travail de l’utilisateur de boîte aux lettres demandé.  <br/> **L’élément TimeZone** dans le message GetUserAvailabilityResponse représente les paramètres de fuseau horaire de l’utilisateur de boîte aux lettres demandé.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément est requis dans l’élément [GetUserAvailabilityRequest](getuseravailabilityrequest.md) . Cet élément se produit au plus une fois ou au moins zéro fois lorsque l’élément parent est l’élément [WorkingHours](workinghours-ex15websvcsotherref.md) . 
+Cet élément est requis dans [l’élément GetUserAvailabilityRequest.](getuseravailabilityrequest.md) Cet élément se produit au plus une fois ou au moins zéro fois lorsque l’élément parent est [l’élément WorkingHours.](workinghours-ex15websvcsotherref.md) 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre une partie d’une requête XML qui identifie un décalage par rapport à l’heure UTC de 8 heures dans l’application cliente.
+L’exemple suivant montre une partie d’une demande XML qui identifie un décalage par rapport à 8 heures UTC dans l’application cliente.
   
 ```XML
 <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">

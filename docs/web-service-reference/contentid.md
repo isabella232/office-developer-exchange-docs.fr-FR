@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContentId
 api_type:
 - schema
 ms.assetid: bc59100d-6079-414b-a6e0-7c15feaa3184
-description: L’élément ContentId représente un identificateur pour le contenu d’une pièce jointe. ContentId peut être défini sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser ContentId pour implémenter leurs propres mécanismes d’identification.
-ms.openlocfilehash: ca89c8790e839326412003f26b738ad1ee956211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ContentId représente un identificateur pour le contenu d’une pièce jointe. ContentId peut être définie sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser ContentId pour implémenter leurs propres mécanismes d’identification.
+ms.openlocfilehash: 786a76d312e4b8f276a9b5c7082754b873b0061c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529265"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519911"
 ---
 # <a name="contentid"></a>ContentId
 
-L’élément **contentid** représente un identificateur pour le contenu d’une pièce jointe. **Contentid** peut être défini sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser **contentid** pour implémenter leurs propres mécanismes d’identification. 
+**L’élément ContentId** représente un identificateur pour le contenu d’une pièce jointe. **ContentId peut** être définie sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser **ContentId** pour implémenter leurs propres mécanismes d’identification. 
   
 ```xml
 <ContentId/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

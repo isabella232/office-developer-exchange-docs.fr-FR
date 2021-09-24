@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Mileage
 api_type:
 - schema
 ms.assetid: 461ba447-1b04-4115-9919-dc378fd3bf24
-description: L’élément kilométrique représente le kilométrage d’une tâche ou d’un contact.
-ms.openlocfilehash: 20cbed08d41599a433f3e2aa6e4a662018fbdc48
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Mileage représente le kilométrage d’une tâche ou d’un élément de contact.
+ms.openlocfilehash: d16366eec875c1ea28241a942c35797280461d8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465778"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512895"
 ---
 # <a name="mileage"></a>Mileage
 
-L’élément **kilométrique** représente le kilométrage d’une tâche ou d’un contact. 
+**L’élément Mileage** représente le kilométrage d’une tâche ou d’un élément de contact. 
   
 ```xml
 <Mileage/>

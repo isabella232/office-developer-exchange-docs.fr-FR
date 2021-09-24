@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70399ab7-0530-4d22-9cfb-ffcc58588ef5
-description: L’élément AttemptCount représente le nombre de tentatives effectuées pour indexer l’élément.
-ms.openlocfilehash: 90ae6d7e095fcce54709e69c1d6d08075a791178
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AttemptCount représente le nombre de tentatives d’indexation de l’élément.
+ms.openlocfilehash: bc006bed33159ceda929b218d30a8f8aafba4b8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538442"
 ---
 # <a name="attemptcount"></a>AttemptCount
 
-L’élément **AttemptCount** représente le nombre de tentatives effectuées pour indexer l’élément. 
+**L’élément AttemptCount** représente le nombre de tentatives d’indexation de l’élément. 
   
 ```XML
 <AttemptCount></AttemptCount>
 ```
 
- **entier**
+ **integer**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de l’élément **AttemptCount** est le nombre de tentatives effectuées pour indexer un élément. 
+La valeur de **l’élément AttemptCount** est le nombre de tentatives d’indexation d’un élément. 
   
 ## <a name="remarks"></a>Remarques
 

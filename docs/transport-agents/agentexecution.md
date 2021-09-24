@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - agentExecution
 api_type:
 - schema
 ms.assetid: 600c4690-941c-45af-a906-5528748d09cd
-description: 'Dernière modification : 17 septembre 2015'
-ms.openlocfilehash: 457257e59fb37659daf2f91b0fa5dfced5c48c03
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Last modified: September 17, 2015'
+ms.openlocfilehash: 04a53e2698c66326943bcd083c775b53f5c6d5d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44446489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513058"
 ---
 # <a name="agentexecution"></a>agentExecution
   
-**S’applique à :** Exchange Server 2013 
+**S’applique à :** Exchange Server 2013 
   
-L’élément **agentExecution** définit le temps, en millisecondes, pendant lequel le serveur d’accès au client ou de boîtes aux lettres doit attendre qu’un agent renvoie à partir d’un événement avant d’écrire dans le journal des événements. 
+**L’élément agentExecution** définit le temps, en millisecondes, pendant que le serveur d’accès au client ou de boîtes aux lettres attend le retour d’un agent d’un événement avant d’écrire dans le journal des événements. 
   
 - [configuration](configuration.md)  
 - [surveillance](monitoring.md)
@@ -43,7 +43,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**timeLimitInMilliseconds** <br/> |Valeur entière positive qui spécifie le temps, en millisecondes, pendant lequel le serveur doit attendre qu’un agent renvoie à partir d’un événement avant d’écrire un avertissement dans le journal des événements. Les performances peuvent diminuer si cette valeur est trop petite. La valeur suggérée pour cet attribut est 300 000, ce qui équivaut à 5 minutes.  <br/> |
+|**timeLimitInMilliseconds** <br/> |Valeur d’un nombre réel positif qui spécifie le temps, en millisecondes, pendant que le serveur attend le retour d’un agent à partir d’un événement avant d’écrire un avertissement dans le journal des événements. Les performances peuvent diminuer si cette valeur est trop petite. La valeur suggérée pour cet attribut est 300 000, ce qui équivaut à 5 minutes.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,5 +66,5 @@ Aucun.
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier de configuration des agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Éléments de fichier de configuration des agents Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

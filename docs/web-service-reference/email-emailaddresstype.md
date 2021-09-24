@@ -1,32 +1,32 @@
 ---
-title: E-mail (EmailAddressType)
+title: Email (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Email
 api_type:
 - schema
 ms.assetid: dfffa1d5-2c3c-4f56-af63-5853df462e58
-description: L’élément email représente l’utilisateur de boîte aux lettres d’une requête GetUserAvailability.
-ms.openlocfilehash: 2ed8de9c011a385ec6c4ebd2f8d1d47304343a0e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Email représente l’utilisateur de boîte aux lettres pour une requête GetUserAvailability.
+ms.openlocfilehash: 1176eeaac47e27971683d025beec29c1710432a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459229"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513016"
 ---
-# <a name="email-emailaddresstype"></a>E-mail (EmailAddressType)
+# <a name="email-emailaddresstype"></a>Email (EmailAddressType)
 
-L’élément **email** représente l’utilisateur de boîte aux lettres d’une requête GetUserAvailability. 
+**L’élément Email** représente l’utilisateur de boîte aux lettres pour une requête GetUserAvailability. 
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)  
 - [MailboxDataArray](mailboxdataarray.md) 
 - [MailboxData](mailboxdata.md) 
-- [E-mail (EmailAddressType)](email-emailaddresstype.md)
+- [Email (EmailAddressType)](email-emailaddresstype.md)
   
 ```xml
 <Email>
@@ -49,19 +49,19 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (EmailAddress)](name-emailaddress.md) <br/> |Représente le nom complet de l’utilisateur de boîte aux lettres.  <br/> |
-|[Address (chaîne)](address-string.md) <br/> |Représente l’adresse de messagerie de l’utilisateur de boîte aux lettres.  <br/> |
-|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Représente le protocole de routage du message.  <br/> |
+|[Name (EmailAddress)](name-emailaddress.md) <br/> |Représente le nom complet de l’utilisateur de la boîte aux lettres.  <br/> |
+|[Address (String)](address-string.md) <br/> |Représente l’adresse de messagerie de l’utilisateur de la boîte aux lettres.  <br/> |
+|[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Représente le protocole de routage pour le message.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailboxData](mailboxdata.md) <br/> |Représente un utilisateur et des options de boîte aux lettres individuelle pour le type de données à renvoyer à propos de l’utilisateur de boîte aux lettres.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]/MailboxData` <br/> |
+|[MailboxData](mailboxdata.md) <br/> |Représente un utilisateur de boîte aux lettres individuel et des options pour le type de données à retourner sur l’utilisateur de la boîte aux lettres.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]/MailboxData` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur exécutant MicrosoftExchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire /EWS/ de l’ordinateur qui exécute MicrosoftExchange Server 2007 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

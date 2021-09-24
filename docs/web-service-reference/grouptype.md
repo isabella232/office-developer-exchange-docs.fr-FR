@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c31552f-22b8-4bf0-8cac-046fd92ac0d4
 description: L’élément GroupType spécifie la classe de groupe d’un groupe de messagerie instantanée.
-ms.openlocfilehash: b8790a23507c51dfffceaddf3641ce820223c366
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f54a78c5780d7d435531be0dc74e354594b754bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462800"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533137"
 ---
 # <a name="grouptype"></a>GroupType
 
-L’élément **GroupType** spécifie la classe de groupe d’un groupe de messagerie instantanée. 
+**L’élément GroupType** spécifie la classe de groupe d’un groupe de messagerie instantanée. 
   
 ```XML
 <GroupType></GroupType>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Imgroup](imgroup.md) <br/> |Représente un groupe de messagerie instantanée.  <br/> |
+|[ImGroup](imgroup.md) <br/> |Représente un groupe de messagerie instantanée.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GroupType** est une valeur de type String qui spécifie le type du groupe. 
+La valeur de texte de **l’élément GroupType** est une valeur de chaîne qui spécifie le type du groupe. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

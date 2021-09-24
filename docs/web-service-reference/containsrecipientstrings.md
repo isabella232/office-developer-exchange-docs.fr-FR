@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsRecipientStrings
 api_type:
 - schema
 ms.assetid: a7fd13ac-0f13-4610-ac9b-98e27ac3940b
 description: L’élément ContainsRecipientStrings indique les chaînes qui doivent apparaître dans les propriétés ToRecipients ou CcRecipients des messages entrants afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: ba717de6b3c53b37d12c4c0be8301083b2080c8b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9d4bb53e4963af6d25fd5e2aaf3819ac20a39479
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458984"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520933"
 ---
 # <a name="containsrecipientstrings"></a>ContainsRecipientStrings
 
-L’élément **ContainsRecipientStrings** indique les chaînes qui doivent apparaître dans les propriétés **ToRecipients** ou **CCRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
+**L’élément ContainsRecipientStrings** indique les chaînes qui doivent apparaître dans les **propriétés ToRecipients** ou **CcRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <ContainsRecipientStrings>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans les propriétés **ToRecipients** ou **CCRecipients** des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
+|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans les **propriétés ToRecipients** ou **CcRecipients** des messages entrants afin que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

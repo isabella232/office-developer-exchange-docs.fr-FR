@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 6eef2188-6194-48f1-ad7e-46104aecdf56
-description: L’élément ProtocolConnection représente la connexion de protocole du client Web de serveur.
-ms.openlocfilehash: b9df3febe36db53d7c5bf0610ba857f13aa96abc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ProtocolConnection représente la connexion de protocole du client Web serveur.
+ms.openlocfilehash: a4f48a12981a83206aff266700708745e9d3c1bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528859"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512582"
 ---
 # <a name="protocolconnection-soap"></a>ProtocolConnection (SOAP)
 
-L’élément **ProtocolConnection** représente la connexion de protocole du client Web de serveur. 
+**L’élément ProtocolConnection** représente la connexion de protocole du client Web serveur. 
   
 ```XML
 <ProtocolConnection>
@@ -41,9 +41,9 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom d’hôte (SOAP)](hostname-soap.md) <br/> |Représente la partie nom d’hôte du nom complet de l’ordinateur.  <br/> |
+|[Hostname (SOAP)](hostname-soap.md) <br/> |Représente la partie nom d’hôte du nom complet de l’ordinateur.  <br/> |
 |[Port (SOAP)](port-soap.md) <br/> |Représente le numéro de port à utiliser pour le protocole.  <br/> |
-|[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Représente la méthode de chiffrement utilisée pour les protocoles POP, IMAP et SMTP.  <br/> |
+|[EncryptionMethod](encryptionmethod-soap.md) <br/> |Représente la méthode de chiffrement utilisée pour les protocoles POP, IMAP et SMTP.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -61,7 +61,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

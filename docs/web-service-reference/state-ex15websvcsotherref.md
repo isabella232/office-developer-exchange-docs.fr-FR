@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - State
 api_type:
 - schema
 ms.assetid: bcce7b0e-d504-4a1f-a530-db80b207f201
-description: L’élément State représente l’état de résidence d’un contact.
-ms.openlocfilehash: 123aa0db83f58996924baadb0a87946db6934450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément State représente l’état de résidence d’un élément de contact.
+ms.openlocfilehash: 007751aca3671d75fb4257698733e47694a1249e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460000"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539002"
 ---
 # <a name="state"></a>État
 
-L’élément **State** représente l’état de résidence d’un contact. 
+**L’élément State** représente l’état de résidence d’un élément de contact. 
   
 ```xml
 <State/>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de type String qui représente le nom d’un État est requise si cet élément est utilisé.
+Une valeur de chaîne qui représente le nom d’un état est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 

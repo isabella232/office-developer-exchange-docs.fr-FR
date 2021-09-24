@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ModifiedOccurrences
 api_type:
 - schema
 ms.assetid: 552932fc-b3b4-486e-8d73-32c0bb10bd68
-description: L’élément ModifiedOccurrences contient un tableau d’occurrences d’éléments de calendrier périodiques qui ont été modifiées afin qu’elles soient différentes de l’élément de masque de récurrence.
-ms.openlocfilehash: d599e3d232bfffc5bedd37f3dae4d8b10a82ffde
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ModifiedOccurrences contient un tableau d’occurrences d’éléments de calendrier périodiques qui ont été modifiées afin qu’elles soient différentes de l’élément récurrence maître.
+ms.openlocfilehash: 0c6a6d873ce6b155d9f6f86a192d9b657b9119ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530421"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512909"
 ---
 # <a name="modifiedoccurrences"></a>ModifiedOccurrences
 
-L’élément **ModifiedOccurrences** contient un tableau d’occurrences d’éléments de calendrier périodiques qui ont été modifiées afin qu’elles soient différentes de l’élément de masque de récurrence. 
+**L’élément ModifiedOccurrences** contient un tableau d’occurrences d’éléments de calendrier périodiques qui ont été modifiées afin qu’elles soient différentes de l’élément récurrence maître. 
   
 ```xml
 <ModifiedOccurrences>
@@ -42,14 +42,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Réunions](occurrence.md) <br/> |Représente une occurrence modifiée unique d’un élément de calendrier périodique.  <br/> |
+|[Occurrence](occurrence.md) <br/> |Représente une occurrence modifiée unique d’un élément de calendrier périodique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

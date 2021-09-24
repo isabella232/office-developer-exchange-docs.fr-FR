@@ -1,23 +1,23 @@
 ---
-title: Imgroup
+title: ImGroup
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab7b884e-ecf1-4e58-86ec-856b13a95f2b
-description: L’élément imgroup représente un groupe de messagerie instantanée.
-ms.openlocfilehash: a0ff3fcb82e7f18837af5a6f5daa16e90043034d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ImGroup représente un groupe de messagerie instantanée.
+ms.openlocfilehash: 6bcf3a8c587ba1c14aadfaa792cbd2f9405c69ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460686"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533110"
 ---
-# <a name="imgroup"></a>Imgroup
+# <a name="imgroup"></a>ImGroup
 
-L’élément **imgroup** représente un groupe de messagerie instantanée. 
+**L’élément ImGroup** représente un groupe de messagerie instantanée. 
   
 ```XML
 <ImGroup>
@@ -45,7 +45,7 @@ Aucune.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Groupes (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)  |  [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)  |  [AddImGroupResponse](addimgroupresponse.md)
+[Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)  |  [AddDistributionGroupToImListResponse](adddistributiongrouptoimlistresponse.md)  |  [AddImGroupResponse](addimgroupresponse.md)
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

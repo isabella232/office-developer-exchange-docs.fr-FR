@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ade9ea3b-bdf1-4999-ac7d-44c6452cef36
-description: L’élément TaskSuggestion contient une suggestion de tâche qui résulte d’une entité extraite d’un élément.
-ms.openlocfilehash: 49564c246596dabbf7fbacf2924eeb877698ea1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TaskSuggestion contient une suggestion de tâche résultant d’une entité extraite d’un élément.
+ms.openlocfilehash: a7d74523b57825b97c6c6d9c2194d84af3f38d5b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468123"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538876"
 ---
 # <a name="tasksuggestion"></a>TaskSuggestion
 
-L’élément **TaskSuggestion** contient une suggestion de tâche qui résulte d’une entité extraite d’un élément. 
+**L’élément TaskSuggestion** contient une suggestion de tâche résultant d’une entité extraite d’un élément. 
   
 ```XML
 <TaskSuggestion>
@@ -39,7 +39,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Emplacement](position.md)  |  [TaskString](taskstring.md)  |  Personnes [affectées](assignees.md)
+[Position](position.md)  |  [TaskString](taskstring.md)  |  [Personnes assignées](assignees.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

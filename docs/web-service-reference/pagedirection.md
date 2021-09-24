@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 013947f3-cf3c-40b1-baf6-405f26bd375e
-description: L’élément PageDirection contient la direction de pagination dans le résultat de la recherche. La valeur est précédent ou suivant.
-ms.openlocfilehash: 22816ff73af49e0f029b5618fa3d45f8880d0f82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PageDirection contient le sens de pagination dans le résultat de la recherche. La valeur est Previous ou Next.
+ms.openlocfilehash: d6e0cd7b1654e5a8f371f3812ee21858662fcf9f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459727"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539152"
 ---
 # <a name="pagedirection"></a>PageDirection
 
-L’élément **PageDirection** contient la direction de pagination dans le résultat de la recherche. La valeur est précédent ou suivant. 
+**L’élément PageDirection** contient le sens de pagination dans le résultat de la recherche. La valeur est Previous ou Next. 
   
 ```XML
 <PageDirection> Previous | Next </PageDirection>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PageDirection** est la direction de la pagination des résultats de la recherche. 
+La valeur de texte de **l’élément PageDirection** est le sens de pagination des résultats de recherche. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

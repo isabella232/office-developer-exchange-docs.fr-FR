@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26c55228-184e-4340-bd80-f86be56f3e7a
-description: Les éléments TokenIssuers représentent la collection de TokenIssuer (SOAP).
-ms.openlocfilehash: 352487ad3fd9c1ee7de756a109fb98a49d0cdcd7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Les éléments TokenIssuers représentent la collection TokenIssuer (SOAP).
+ms.openlocfilehash: 68ff3ed515b346a84734596fae6fe127768b4476
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457073"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520401"
 ---
 # <a name="tokenissuers-soap"></a>TokenIssuers (SOAP)
 
-Les éléments **TokenIssuers** représentent la collection de [TokenIssuer (SOAP)](tokenissuer-soap.md) . 
+Les **éléments TokenIssuers** représentent la collection [TokenIssuer (SOAP).](tokenissuer-soap.md) 
   
 ```XML
 <TokenIssuers>
@@ -37,17 +37,17 @@ Aucun
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Spécifie l' [URI (SOAP)](uri-soap.md) et le [point de terminaison (SOAP)](endpoint-soap.md) pour le service d’émission de jeton de sécurité.  <br/> |
+|[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Spécifie [l’URI (SOAP)](uri-soap.md) et [le point de terminaison (SOAP)](endpoint-soap.md) pour le service de jeton de sécurité.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md) <br/> |Contient la réponse [SOAP (GetFederationInformation Operation)](getfederationinformation-operation-soap.md) .  <br/> |
+|[GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md) <br/> |Contient la [réponse SOAP (GetFederationInformation](getfederationinformation-operation-soap.md) operation).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le **TokenIssuers** représente une collection d’éléments [TokenIssuer (SOAP)](tokenissuer-soap.md) à utiliser dans le service de découverte automatique. 
+**TokenIssuers** représente une collection d’éléments [TokenIssuer (SOAP)](tokenissuer-soap.md) à utiliser dans la découverte automatique. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -55,7 +55,7 @@ Le **TokenIssuers** représente une collection d’éléments [TokenIssuer (SOAP
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

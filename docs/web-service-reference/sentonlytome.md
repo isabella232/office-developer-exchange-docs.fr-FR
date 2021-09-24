@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SentOnlyToMe
 api_type:
 - schema
 ms.assetid: b6d4dea5-812d-4b29-917d-071ebd7ddd92
 description: L’élément SentOnlyToMe indique si le propriétaire de la boîte aux lettres doit être le seul dans la propriété ToRecipients des messages entrants afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 3127550b09d6f5ccf5ba87ad34557afd047f8be0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c82989cbfc3725b1c8a4fea560d9f8ce30956ea5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458648"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534304"
 ---
 # <a name="sentonlytome"></a>SentOnlyToMe
 
-L’élément **SentOnlyToMe** indique si le propriétaire de la boîte aux lettres doit être le seul dans la propriété **ToRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
+**L’élément SentOnlyToMe** indique si le propriétaire de la boîte aux lettres doit être le seul dans la propriété **ToRecipients** des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <SentOnlyToMe/>true | false</SentOnlyToMe>
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

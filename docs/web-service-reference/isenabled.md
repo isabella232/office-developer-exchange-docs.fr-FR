@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsEnabled
 api_type:
 - schema
 ms.assetid: c7e3035e-a4ef-4c11-8cb0-214790a554ff
 description: L’élément IsEnabled indique si la règle est activée.
-ms.openlocfilehash: 7a150dc4a27cf4ff7da9825d1daae2b747088539
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 481b55aee6d2c4b591324caf6eeab947e2902da2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455309"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520506"
 ---
 # <a name="isenabled"></a>IsEnabled
 
-L’élément **IsEnabled** indique si la règle est activée. 
+**L’élément IsEnabled** indique si la règle est activée. 
   
 ```XML
 <IsEnabled/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que la règle est activée et peut être exécutée. La valeur **false** indique que la règle ne peut pas être exécutée. 
+Une valeur de texte **true** indique que la règle est activée et peut être exécutée. La valeur **false indique** que la règle ne peut pas être exécutée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

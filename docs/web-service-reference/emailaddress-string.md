@@ -1,23 +1,23 @@
 ---
-title: EmailAddress (chaîne)
+title: EmailAddress (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b847017-fa89-4094-bfa1-cc436b760207
-description: L’élément EmailAddress spécifie une adresse de messagerie unique.
-ms.openlocfilehash: b245611868d473e35f96e0d0b37f7cb4fbe9c94c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EmailAddress spécifie une seule adresse de messagerie.
+ms.openlocfilehash: 84e41d4346bc280e07587b0ed192de03e56ffab0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520802"
 ---
-# <a name="emailaddress-string"></a>EmailAddress (chaîne)
+# <a name="emailaddress-string"></a>EmailAddress (String)
 
-L’élément **EmailAddress** spécifie une adresse de messagerie unique. 
+**L’élément EmailAddress** spécifie une seule adresse de messagerie. 
   
 ```XML
 <EmailAddress></EmailAddress>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EmailAddress** est une valeur de type String qui spécifie l’adresse de messagerie. 
+La valeur de texte de **l’élément EmailAddress** est une valeur de chaîne qui spécifie l’adresse e-mail. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

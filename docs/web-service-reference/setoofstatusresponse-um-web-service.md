@@ -1,28 +1,28 @@
 ---
-title: SetOofStatusResponse (service Web de messagerie unifiée)
+title: SetOofStatusResponse (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetOofStatusResponse
 api_type:
 - schema
 ms.assetid: 8985e353-8d5e-48f6-bf1e-9a5ceadd3ce4
-description: L’élément SetOofStatusResponse définit une réponse à une opération SetOofStatus (service Web de messagerie unifiée).
-ms.openlocfilehash: 2a1db932c2b801f81216f1af57272ca458ab29d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetOofStatusResponse définit une réponse à une demande d’opération SetOofStatus (service web de um).
+ms.openlocfilehash: 3c550cf2408787ab3b5dfd4581f0ec3710f7760d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466786"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539072"
 ---
-# <a name="setoofstatusresponse-um-web-service"></a>SetOofStatusResponse (service Web de messagerie unifiée)
+# <a name="setoofstatusresponse-um-web-service"></a>SetOofStatusResponse (service web de messagerie unifiée)
 
-L’élément **SetOofStatusResponse** définit une réponse à une [opération SetOofStatus (service Web de messagerie unifiée)](setoofstatus-operation-um-web-service.md) . 
+**L’élément SetOofStatusResponse** définit une réponse à une demande d’opération [SetOofStatus (service web de](setoofstatus-operation-um-web-service.md) um). 
   
-[SetOofStatusResponse (service Web de messagerie unifiée)](setoofstatusresponse-um-web-service.md)
+[SetOofStatusResponse (service web de messagerie unifiée)](setoofstatusresponse-um-web-service.md)
   
 ```xml
 <SetOofStatusResponse />
@@ -55,12 +55,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetOofStatus (service Web de messagerie unifiée)](setoofstatus-operation-um-web-service.md)
+[Opération SetOofStatus (service web de messagerie unifiée)](setoofstatus-operation-um-web-service.md)
 

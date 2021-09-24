@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: e0ee8f30-529b-4d87-8bc0-b6616e75fb6b
-description: L’élément ApplyConversationAction définit une demande d’application d’actions à des éléments d’une conversation.
-ms.openlocfilehash: 659b3392778bb1a318c3942a0c8e314f12110c12
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ApplyConversationAction définit une demande d’application d’actions aux éléments d’une conversation.
+ms.openlocfilehash: 5d63f573d84c4a9ca3fc16983c4ef508214e0780
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461687"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520093"
 ---
 # <a name="applyconversationaction"></a>ApplyConversationAction
 
-L’élément **ApplyConversationAction** définit une demande d’application d’actions à des éléments d’une conversation. 
+**L’élément ApplyConversationAction** définit une demande d’application d’actions aux éléments d’une conversation. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

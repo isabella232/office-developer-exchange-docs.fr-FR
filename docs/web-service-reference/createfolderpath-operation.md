@@ -5,46 +5,46 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a10aa5e-3f25-4ec3-a0b9-284c30918a1f
-description: Trouvez des informations sur l’opération EWS CreateFolderPath.
-ms.openlocfilehash: a8d42cbef854d900c5fb6b72c730dd1e2b903aec
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération CreateFolderPath EWS.
+ms.openlocfilehash: cd4a96e5c16bc006c9202f224b2bdd677fb23a93
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458900"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538428"
 ---
 # <a name="createfolderpath-operation"></a>Opération CreateFolderPath
 
-Trouvez des informations sur l’opération EWS **CreateFolderPath** . 
+Trouvez des informations sur **l’opération CreateFolderPath** EWS. 
   
-L’opération **CreateFolderPath** crée une hiérarchie de dossiers. 
+**L’opération CreateFolderPath** crée une hiérarchie de dossiers. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-createfolderpath-operation"></a>Utilisation de l’opération CreateFolderPath
 
-La demande d’opération **CreateFolderPath** prend un tableau de dossiers et un identificateur de dossier parent et crée une hiérarchie de dossiers basée sur l’ordre des dossiers dans le tableau. 
+La **demande d’opération CreateFolderPath** prend un tableau de dossiers et un identificateur de dossier parent et crée une hiérarchie de dossiers en fonction de l’ordre des dossiers dans le tableau. 
   
-### <a name="createfolderpath-operation-soap-headers"></a>En-têtes SOAP d’opération CreateFolderPath
+### <a name="createfolderpath-operation-soap-headers"></a>En-têtes SOAP de l’opération CreateFolderPath
 
-L’opération **CreateFolderPath** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération CreateFolderPath** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, « Balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
-|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Identifie l’étendue du fuseau horaire pour les propriétés **DateTime** . Cet en-tête s’applique à une demande.  <br/> |
+|**TimeZoneContext** <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Identifie l’étendue du fuseau horaire pour les **propriétés DateTime.** Cet en-tête s’applique à une demande.  <br/> |
    
-## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>Exemple de requête d’opération CreateFolderPath : créer une hiérarchie de dossiers
+## <a name="createfolderpath-operation-request-example-create-a-folder-hierarchy"></a>Exemple de demande d’opération CreateFolderPath : créer une hiérarchie de dossiers
 
-L’exemple suivant de demande d’opération **CreateFolderPath** montre comment créer une hiérarchie de dossiers de trois dossiers dans le dossier boîte de réception par défaut. 
+L’exemple suivant d’une **demande d’opération CreateFolderPath** montre comment créer une hiérarchie de dossiers de trois dossiers au sein du dossier boîte de réception par défaut. 
   
 > [!NOTE]
-> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. 
+> Tous les identificateurs d’élément et les touches de modification de cet article ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -80,7 +80,7 @@ L’exemple suivant de demande d’opération **CreateFolderPath** montre commen
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [CreateFolderPath](createfolderpath.md)
     
@@ -96,7 +96,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-createfolderpath-operation-response"></a>Réponse de l’opération CreateFolderPath réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **CreateFolderPath** pour créer une hiérarchie de dossiers de trois dossiers en profondeur dans le dossier boîte de réception par défaut. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **CreateFolderPath** pour créer une hiérarchie de dossiers à trois dossiers au sein du dossier boîte de réception par défaut. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -159,7 +159,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [CreateFolderPathResponse](createfolderpathresponse.md)
     
@@ -185,7 +185,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="createfolderpath-operation-error-response"></a>Réponse d’erreur d’opération CreateFolderPath
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **CreateFolderPath** . Il s’agit d’une réponse à une demande de création de deux dossiers, dont le premier n’a pas de propriété de nom d’affichage définie. Le premier dossier de la hiérarchie ne peut pas être créé sans une propriété de nom d’affichage et le deuxième dossier ne peut pas être créé car le dossier parent dans la hiérarchie n’a pas été créé. 
+L’exemple suivant montre une réponse d’erreur à **une demande d’opération CreateFolderPath.** Il s’agit d’une réponse à une demande de création de deux dossiers, dont le premier n’a pas de propriété de nom d’affichage définie. Le premier dossier de la hiérarchie ne peut pas être créé sans propriété de nom d’affichage, et le second dossier ne peut pas être créé car le dossier parent dans la hiérarchie n’a pas été créé. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -227,7 +227,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [CreateFolderPathResponse](createfolderpathresponse.md)
     
@@ -247,7 +247,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [Dossiers](folders-ex15websvcsotherref.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

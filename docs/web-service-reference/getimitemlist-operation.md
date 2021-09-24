@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e31d14e1-0c1f-4b69-98b7-157d59c13698
-description: Trouvez des informations sur l’opération EWS GetImItemList.
-ms.openlocfilehash: aabe84054b93e7de8af6145942493a0224932e45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération GetImItemList EWS.
+ms.openlocfilehash: c16d3d84c1ede4ef05c70ec31806a91ddca10d9d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513597"
 ---
 # <a name="getimitemlist-operation"></a>Opération GetImItemList
 
-Trouvez des informations sur l’opération EWS **GetImItemList** . 
+Trouvez des informations sur **l’opération GetImItemList** EWS. 
   
 ## <a name="using-the-getimitemlist-operation"></a>Utilisation de l’opération GetImItemList
 
-L’opération **GetImItemList** récupère la liste des groupes de messagerie instantanée et des personnes de contact de messagerie instantanée dans une boîte aux lettres. L’opération **GetImItemList** ne prend aucun argument. 
+**L’opération GetImItemList** récupère la liste des groupes de messagerie instantanée et des contacts de messagerie instantanée dans une boîte aux lettres. **L’opération GetImItemList** ne prend aucun argument. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
-### <a name="getimitemlist-operation-soap-headers"></a>En-têtes SOAP d’opération GetImItemList
+### <a name="getimitemlist-operation-soap-headers"></a>En-têtes SOAP de l’opération GetImItemList
 
-L’opération **GetImItemList** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetImItemList** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, « Balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>Exemple de requête d’opération GetImItemList : demander votre liste d’éléments de messagerie instantanée
+## <a name="getimitemlist-operation-request-example-request-your-im-items-list"></a>Exemple de demande d’opération GetImItemList : demander votre liste d’éléments de messagerie instantanée
 
-L’exemple suivant de demande d’opération **GetImItemList** montre comment demander la liste des personnages de groupes de messagerie instantanée et de contacts de messagerie instantanée dans une boîte aux lettres. L’élément **GetImItemList** est l’unique option de l’élément dans le corps SOAP. 
+L’exemple suivant d’une demande d’opération **GetImItemList** montre comment demander la liste des groupes de messagerie instantanée et des contacts de messagerie instantanée dans une boîte aux lettres. **L’élément GetImItemList** est la seule option d’élément dans le corps SOAP. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -55,18 +55,18 @@ L’exemple suivant de demande d’opération **GetImItemList** montre comment d
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient l’élément suivant :
+Le corps SOAP de la requête contient l’élément suivant :
   
 - [GetImItemList](getimitemlist.md)
     
 ## <a name="successful-getimitemlist-operation-response"></a>Réponse de l’opération GetImItemList réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetImItemList** . La réponse contient quatre groupes de messagerie instantanée. Trois des groupes de messagerie instantanée (autres contacts, balises et favoris) sont des groupes par défaut dans la Banque d’Exchange. Le groupe MyCustomGroup2 est un groupe personnalisé créé par l’utilisateur. Les autres contacts et les groupes balisés n’ont pas de membres. Le groupe favoris a un seul membre de contact. Le MyCustomGroup2 a deux contacts membres. Les identificateurs d’élément sont fournis de sorte que les demandes **GetItem** suivantes puissent être effectuées pour obtenir plus d’informations sur les contacts de messagerie instantanée. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetImItemList.** La réponse contient quatre groupes de messagerie instantanée. Trois des groupes de messagerie instantanée (Autres contacts, Marqués et Favoris) sont des groupes par défaut dans le magasin Exchange messagerie instantanée. Le groupe MyCustomGroup2 est un groupe personnalisé créé par l’utilisateur. Les autres contacts et les groupes marqués n’ont pas de membres. Le groupe Favoris a un seul membre de contact. MyCustomGroup2 a deux contacts membres. Les identificateurs d’élément sont fournis afin que les demandes **GetItem** ultérieures soient effectuées pour obtenir plus d’informations sur les contacts de messagerie instantanée. 
   
-Cet exemple montre comment renvoyer deux personnages. Le premier personnage représente deux contacts : Anthony Smith et Tony Smith. Les informations de contact combinées sont renvoyées dans l’objet **Persona** . Le deuxième personnage représente un contact unique portant le nom d’affichage Terence Adams. 
+Cet exemple renvoie deux personnage. Le premier personnage représente deux éléments de contact : Tony Smith et Tony Smith. Les informations de contact combinées sont renvoyées dans **l’objet Persona.** Le deuxième personnage représente un contact unique avec le nom complet terence Adams. 
   
 > [!NOTE]
-> Les identificateurs de banque Exchange, les identificateurs d’élément, les identificateurs source, les identificateurs de dossier et les identificateurs de personnages ont été raccourcis pour conserver la lisibilité. 
+> Les Exchange, les identificateurs d’élément, les identificateurs source, les identificateurs de dossier et les identificateurs de personnage ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
@@ -348,7 +348,7 @@ Cet exemple montre comment renvoyer deux personnages. Le premier personnage repr
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetImItemListResponse](getimitemlistresponse.md)
     
@@ -366,7 +366,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [ItemId](itemid.md)
     
-- [Personnages](personas-ex15websvcsotherref.md)
+- [Personas](personas-ex15websvcsotherref.md)
     
 - [PersonaId](personaid.md)
     
@@ -388,13 +388,13 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-- [Nom (EmailAddressType)](name-emailaddresstype.md)
+- [Name (EmailAddressType)](name-emailaddresstype.md)
     
 - [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
 - [EmailAddresses (ArrayOfEmailAddressesType)](emailaddresses-arrayofemailaddressestype.md)
     
-- [IMAddress (String)](imaddress-string.md)
+- [ImAddress (String)](imaddress-string.md)
     
 - [RelevanceScore](relevancescore.md)
     
@@ -402,7 +402,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [ID (chaîne)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [SourceId](sourceid.md)
     
@@ -422,7 +422,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [GivenNames](givennames.md)
     
-- [Nom](surnames.md)
+- [Surnames](surnames.md)
     
 - [HomePhones](homephones.md)
     
@@ -436,11 +436,11 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [ImAddresses](imaddresses.md)
     
-- [Valeur (ExtendedPropertyType)](value-extendedpropertytype.md)
+- [Value (ExtendedPropertyType)](value-extendedpropertytype.md)
     
 ## <a name="getimitemlist-operation-error-response"></a>Réponse d’erreur d’opération GetImItemList
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetImItemList** . Il s’agit d’une réponse à une demande contenant une version de serveur demandée incorrecte dans l’en-tête SOAP. Cette réponse d’erreur est une erreur SOAP et n’est pas représentée dans le schéma EWS. 
+L’exemple suivant montre une réponse d’erreur à **une demande d’opération GetImItemList.** Il s’agit d’une réponse à une demande qui contient une version de serveur demandée incorrecte dans l’en-tête SOAP. Cette réponse d’erreur est une erreur SOAP et n’est pas représentée dans le schéma EWS. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

@@ -1,30 +1,30 @@
 ---
-title: CallState (service Web de messagerie unifiée)
+title: CallState (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CallState
 api_type:
 - schema
 ms.assetid: 88670707-12f7-41c5-ac81-dda0c354a2cb
 description: L’élément CallState contient une valeur qui indique l’état d’un appel.
-ms.openlocfilehash: 44614c460286ff49ebc2373263c1827c6be5cc08
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9435124e98cfb75beab5917c1e832096ca193e0c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454609"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519967"
 ---
-# <a name="callstate-um-web-service"></a>CallState (service Web de messagerie unifiée)
+# <a name="callstate-um-web-service"></a>CallState (service web de messagerie unifiée)
 
-L’élément **CallState** contient une valeur qui indique l’état d’un appel. 
+**L’élément CallState** contient une valeur qui indique l’état d’un appel. 
   
-[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
   
-[CallState (service Web de messagerie unifiée)](callstate-um-web-service.md)
+[CallState (service web de messagerie unifiée)](callstate-um-web-service.md)
   
 ```xml
 <CallState/>
@@ -47,17 +47,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md) <br/> |Définit une réponse à une [opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md).  <br/> |
+|[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md) <br/> |Définit une réponse à une [opération GetCallInfo (service web de um).](getcallinfo-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
 Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
   
-- Engrenage
+- Inactif
     
 - Connexion
     
-- Averti
+- Alerted
     
 - Connecté
     
@@ -65,9 +65,9 @@ Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
     
 - Entrant
     
-- Transférés
-    
 - Transfert
+    
+- Forwarding
     
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -75,14 +75,14 @@ Une valeur de texte est requise. Les valeurs possibles sont les suivantes :
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
+[Opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
   
-[GetCallInfoResponse (service Web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
+[GetCallInfoResponse (service web de messagerie unifiée)](getcallinforesponse-um-web-service.md)
 

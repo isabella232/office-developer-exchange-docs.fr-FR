@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54f45f8e-c02b-4ead-b15a-38b30872c362
 description: L’élément TokenRequest spécifie une demande de jeton unique.
-ms.openlocfilehash: 5d16a82a382cb7fc9996db84f775fe6230f512c3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9596db4857cbcaa106e23c6d1400f890b61dddda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468921"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520324"
 ---
 # <a name="tokenrequest"></a>TokenRequest
 
-L’élément **TokenRequest** spécifie une demande de jeton unique. 
+**L’élément TokenRequest** spécifie une demande de jeton unique. 
   
 ```XML
 <TokenRequest>

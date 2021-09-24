@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DiagnosticsLevel
 api_type:
 - schema
 ms.assetid: 66794226-f5e0-44f0-8a0e-1f194bb0ba0f
-description: L’élément DiagnosticsLevel représente les informations de temps et de performances qui seront utilisées pour dériver le rapport.
-ms.openlocfilehash: 3060d4f1b8449a5870d964bdfcdbf0d503905abc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DiagnosticsLevel représente les informations de minutage et de performances qui seront utilisées pour dériver le rapport.
+ms.openlocfilehash: c7e74f324385ca76a58872e2e735ea2c5d926a53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467829"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519799"
 ---
 # <a name="diagnosticslevel"></a>DiagnosticsLevel
 
-L’élément **DiagnosticsLevel** représente les informations de temps et de performances qui seront utilisées pour dériver le rapport. 
+**L’élément DiagnosticsLevel** représente les informations de minutage et de performances qui seront utilisées pour dériver le rapport. 
   
 ```XML
 <DiagnosticsLevel/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Contient des critères pour les types de messages à rechercher.  <br/> |
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) afin de récupérer le rapport de suivi complet des messages pour l’ID spécifié.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande de [l’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) pour récupérer le rapport de suivi des messages complet pour l’ID spécifié.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

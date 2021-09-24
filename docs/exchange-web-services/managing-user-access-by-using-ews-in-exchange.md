@@ -1,37 +1,37 @@
 ---
-title: Gestion de l’accès des utilisateurs à l’aide d’EWS dans Exchange
+title: Gestion de l’accès des utilisateurs à l’aide d’EWS Exchange
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48f0170c-8786-405f-86cb-568b7314a425
-description: Découvrez les options disponibles pour la gestion de l’accès aux comptes d’utilisateurs à votre serveur Exchange.
-ms.openlocfilehash: 476292d4db206f22cd84134ce2b46957e9fe85fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez les options disponibles pour gérer l’accès des comptes d’utilisateurs à Exchange serveur.
+ms.openlocfilehash: 431f61a0cbdfcc522eb1481399ffab1f31df9e62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456242"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520975"
 ---
-# <a name="managing-user-access-by-using-ews-in-exchange"></a>Gestion de l’accès des utilisateurs à l’aide d’EWS dans Exchange
+# <a name="managing-user-access-by-using-ews-in-exchange"></a>Gestion de l’accès des utilisateurs à l’aide d’EWS Exchange
 
-Découvrez les options disponibles pour la gestion de l’accès aux comptes d’utilisateurs à votre serveur Exchange.
+Découvrez les options disponibles pour gérer l’accès des comptes d’utilisateurs à Exchange serveur.
   
-Les services Web Exchange (EWS) et l’API managée EWS fournissent un nombre limité d’opérations que vous pouvez utiliser pour gérer les comptes sur Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version d’Exchange à partir d’Exchange 2013. Vous pouvez utiliser les opérations illustrées dans la figure suivante pour gérer les délégués et définir des autorisations d’accès aux dossiers pour d’autres comptes. 
+Exchange Les services web (EWS) et l’API gérée EWS fournissent un nombre limité d’opérations que vous pouvez utiliser pour gérer des comptes sur Exchange Online, Exchange Online dans le cadre de Office 365 ou une version de Exchange à partir de Exchange 2013. Vous pouvez utiliser les opérations indiquées dans la figure suivante pour gérer les délégués et définir des autorisations d’accès aux dossiers pour d’autres comptes. 
   
-**Opérations EWS pour l’accès aux délégués et aux dossiers**
+**Opérations EWS pour l’accès délégué et aux dossiers**
 
 ![Options de gestion des utilisateurs EWS.](media/Exchange_ManagingUserAccess_1.png)
   
-Si votre application a besoin d’un contrôle supplémentaire sur les comptes sur un serveur Exchange, vous pouvez utiliser les cmdlets Exchange Management Shell pour gérer les comptes. Vous pouvez appeler les cmdlets de l’environnement de commande Exchange Management Shell en effectuant l’une des opérations suivantes :
+Si votre application a besoin d’un contrôle supplémentaire sur les comptes sur un serveur Exchange, vous pouvez utiliser les cmdlets Exchange Management Shell pour gérer les comptes. Vous pouvez appeler les cmdlets Exchange Management Shell en faisant l’une des choses suivantes :
   
-- Écriture d’une application à l’aide de C# ou de Visual Basic qui appelle les cmdlets de l’environnement de commande Exchange Management Shell. Vous pouvez consulter l’exemple de code de la documentation de l’API de l’environnement de commande [Exchange Management Shell](../management/exchange-management-shell.md) pour savoir comment appeler une cmdlet. 
+- Écriture d’une application à l C# ou Visual Basic qui appelle les cmdlets Exchange Management Shell. Vous pouvez examiner l’exemple de code de la [documentation de l’API Exchange Management Shell](../management/exchange-management-shell.md) pour savoir comment appeler une cmdlet. 
     
-- Utilisation de scripts Windows PowerShell et Windows PowerShell pour appeler des applets de commande Exchange Management Shell. Vous trouverez une liste complète d' [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps), ainsi que des exemples qui montrent comment les utiliser. 
+- Utilisation Windows PowerShell et Windows PowerShell scripts pour appeler Exchange cmdlets Management Shell. Vous trouverez une liste complète des Exchange Server [PowerShell (Exchange Management Shell),](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)ainsi que des exemples qui montrent comment les utiliser. 
     
 ## <a name="see-also"></a>Voir aussi
 
 - [Configuration de votre application EWS](setting-up-your-ews-application.md)   
-- [Applets de commande Exchange 2013](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)  
+- [Exchange 2013](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)  
     
 

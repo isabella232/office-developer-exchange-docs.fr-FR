@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c228877b-5a0e-49b7-b82e-043bc786c80f
-description: L’élément AppMarketplaceUrl spécifie l’URL du Marketplace d’application.
-ms.openlocfilehash: 7e924edcf49d1716f4d9dc251c1294f595d27525
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AppMarketplaceUrl spécifie l’URL de l’application Marketplace.
+ms.openlocfilehash: 7f77272b44c1a06a5d3f5f3a7d5919b20a860dab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466037"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520065"
 ---
 # <a name="appmarketplaceurl"></a>AppMarketplaceUrl
 
-L’élément **AppMarketplaceUrl** spécifie l’URL du Marketplace d’application. 
+**L’élément AppMarketplaceUrl** spécifie l’URL de l’application Marketplace. 
   
 ```XML
 <AppMarketplaceUrl></AppMarketplaceUrl>
 ```
 
- **XS : String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md) <br/> |Spécifie le message de réponse pour une demande **GetAppMarketplaceUrl** .  <br/> |
+|[GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md) <br/> |Spécifie le message de réponse pour une **demande GetAppMarketplaceUrl.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **AppMarketplaceUrl** est l’URL du Marketplace d’application. 
+La valeur de texte de **l’élément AppMarketplaceUrl** est l’URL de l’application Marketplace. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,8 +57,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

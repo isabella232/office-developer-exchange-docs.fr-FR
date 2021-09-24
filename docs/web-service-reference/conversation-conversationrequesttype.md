@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0308b71c-d4ff-44a8-b9ca-d5965291ee1d
-description: L’élément conversation représente une conversation unique renvoyée dans une réponse GetConversationItems.
-ms.openlocfilehash: 925fd6fce83cad36f4a0e95bb6228ba65e4e9c43
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Conversation représente une conversation unique renvoyée dans une réponse GetConversationItems.
+ms.openlocfilehash: 9c7faf9c06c1476bca688e831f452e711a89f10f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466779"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533892"
 ---
 # <a name="conversation-conversationrequesttype"></a>Conversation (ConversationRequestType)
 
-L’élément **conversation** représente une conversation unique renvoyée dans une réponse **GetConversationItems** . 
+**L’élément Conversation** représente une conversation unique renvoyée dans une **réponse GetConversationItems.** 
   
 ```XML
 <Conversation>
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types. xsd  <br/> |
+|Fichier de validation  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

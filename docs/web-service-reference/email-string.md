@@ -1,23 +1,23 @@
 ---
-title: E-mail (chaîne)
+title: Email (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e0cfa14-cdfb-4b48-b2e9-b1d866bf2c0e
-description: L’élément email identifie l’adresse de messagerie de l’utilisateur dont la photo est demandée dans l’opération GetUserPhoto.
-ms.openlocfilehash: 28fc16cee4438f6a6a87924875e029184197a426
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Email identifie l’adresse de messagerie de l’utilisateur dont la photo est demandée dans l’opération GetUserPhoto.
+ms.openlocfilehash: a7ed2356f696ebc1e6cc938a7ed5588786d228fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538225"
 ---
-# <a name="email-string"></a>E-mail (chaîne)
+# <a name="email-string"></a>Email (String)
 
-L’élément **email** identifie l’adresse de messagerie de l’utilisateur dont la photo est demandée dans l’opération **GetUserPhoto** . 
+**L’élément Email** identifie l’adresse de messagerie de l’utilisateur dont la photo est demandée dans **l’opération GetUserPhoto.** 
   
 ```XML
 <Email></Email>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **email** est l’adresse de messagerie de l’utilisateur dont la photo est demandée dans l’opération GetUserPhoto. 
+La valeur de texte de **l’élément Email** est l’adresse e-mail de l’utilisateur dont la photo est demandée dans l’opération GetUserPhoto. 
   
 ## <a name="remarks"></a>Remarques
 

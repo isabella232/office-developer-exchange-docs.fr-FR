@@ -1,23 +1,23 @@
 ---
-title: IsPermanentFailure
+title: Ispermanentfailure
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18dc3a97-cc0a-4092-934e-a6e86f52e668
-description: L’élément IsPermanentFailure indique si une précédente tentative d’indexation de l’élément a échoué.
-ms.openlocfilehash: 48a13eebfa16c538c1b10d92f080d51f1b318d12
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsPermanentFailure indique si une tentative précédente d’indexer l’élément a échoué.
+ms.openlocfilehash: e5ed20de3c3de9c39d1487e3177c1b6ec358d990
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460392"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532719"
 ---
-# <a name="ispermanentfailure"></a>IsPermanentFailure
+# <a name="ispermanentfailure"></a>Ispermanentfailure
 
-L’élément **IsPermanentFailure** indique si une précédente tentative d’indexation de l’élément a échoué. 
+**L’élément IsPermanentFailure** indique si une tentative précédente d’indexer l’élément a échoué. 
   
 ```XML
 <IsPermanentFailure>true | false</IsPermanentFailure>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **IsPermanentFailure** indique qu’une tentative précédente d’indexation de l’élément de boîte aux lettres a échoué. La valeur **false** indique qu’une précédente tentative d’indexation de l’élément de boîte aux lettres a réussi. 
+Une valeur de texte **true** pour l’élément **IsPermanentFailure** indique qu’une tentative précédente d’indexation de l’élément de boîte aux lettres a échoué. La valeur **false indique** qu’une tentative précédente d’indexation de l’élément de boîte aux lettres a réussi. 
   
 ## <a name="remarks"></a>Remarques
 

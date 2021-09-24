@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MonthlyRegeneration
 api_type:
 - schema
 ms.assetid: 9a52ca97-a663-41fe-b61a-61d8c53833ca
-description: L’élément MonthlyRegeneration décrit la fréquence, en mois, de la régénération de la tâche.
-ms.openlocfilehash: c941bc2606790646d2797df27c854996901c0bc6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MonthlyRegeneration décrit la fréquence, en mois, de la tâche régénérée.
+ms.openlocfilehash: bd69c7fa03959e1fb6657ef8d94f61bcdf4e2b82
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520386"
 ---
 # <a name="monthlyregeneration"></a>MonthlyRegeneration
 
-L’élément **MonthlyRegeneration** décrit la fréquence, en mois, de la régénération de la tâche. 
+**L’élément MonthlyRegeneration** décrit la fréquence, en mois, de la tâche régénérée. 
   
 ```xml
 <MonthlyRegeneration>
@@ -48,7 +48,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -1,28 +1,28 @@
 ---
-title: IsUMEnabledResponse (service Web de messagerie unifiée)
+title: IsUMEnabledResponse (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabledResponse
 api_type:
 - schema
 ms.assetid: ecb47dd5-c888-47ab-a253-fc49765f5c72
-description: L’élément IsUMEnabledResponse définit une réponse à une opération IsUMEnabled (service Web de messagerie unifiée).
-ms.openlocfilehash: 5b9495faf93ee4b4cf7937e413ae560b60b8b402
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsUMEnabledResponse définit une réponse à une demande d’opération IsUMEnabled (service web de um).
+ms.openlocfilehash: d79cf6faf1140e86dc18dd50d8e0789a0b2ffbcf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458186"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532631"
 ---
-# <a name="isumenabledresponse-um-web-service"></a>IsUMEnabledResponse (service Web de messagerie unifiée)
+# <a name="isumenabledresponse-um-web-service"></a>IsUMEnabledResponse (service web de messagerie unifiée)
 
-L’élément **IsUMEnabledResponse** définit une réponse à une [opération IsUMEnabled (service Web de messagerie unifiée)](isumenabled-operation-um-web-service.md) . 
+**L’élément IsUMEnabledResponse** définit une réponse à une demande d’opération [IsUMEnabled (service web de](isumenabled-operation-um-web-service.md) um). 
   
-[IsUMEnabledResponse (service Web de messagerie unifiée)](isumenabledresponse-um-web-service.md)
+[IsUMEnabledResponse (service web de messagerie unifiée)](isumenabledresponse-um-web-service.md)
   
 ```xml
 <IsUMEnabledResponse/>
@@ -47,7 +47,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte boolén est requise. Les valeurs possibles sont les suivantes :
   
 - Vrai
     
@@ -59,12 +59,12 @@ Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivante
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération IsUMEnabled (service Web de messagerie unifiée)](isumenabled-operation-um-web-service.md)
+[Opération IsUMEnabled (service web de messagerie unifiée)](isumenabled-operation-um-web-service.md)
 

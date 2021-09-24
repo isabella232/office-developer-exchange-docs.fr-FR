@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EditItems
 api_type:
 - schema
 ms.assetid: 1cb14493-c999-4d66-b82c-ecb410dc1c00
-description: L’élément EditItems indique les éléments d’un dossier qu’un utilisateur est autorisé à modifier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 0c3800b4d242dccb7455e0d0dea74e766db22854
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EditItems indique quels éléments d’un dossier un utilisateur est autorisé à modifier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 51c038cf93d43fffe785b1946a52c8bcb5c1c302
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459250"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538260"
 ---
 # <a name="edititems"></a>EditItems
 
-L’élément **EditItems** indique les éléments d’un dossier qu’un utilisateur est autorisé à modifier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément EditItems** indique quels éléments d’un dossier un utilisateur est autorisé à modifier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <EditItems>None or Owned or All</EditItems>
@@ -49,14 +49,14 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **EditItems** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément EditItems.** 
   
 **Valeurs de texte de l’élément EditItems**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à modifier les éléments dans le dossier.  <br/> |
-|Appartien  <br/> |Indique que l’utilisateur est autorisé à modifier les éléments dont il est propriétaire dans le dossier.  <br/> |
+|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à modifier des éléments dans le dossier.  <br/> |
+|Owned  <br/> |Indique que l’utilisateur est autorisé à modifier les éléments dont il est propriétaire dans le dossier.  <br/> |
 |Tous  <br/> |Indique que l’utilisateur est autorisé à modifier tous les éléments du dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques

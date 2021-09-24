@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GoodThreshold
 api_type:
 - schema
 ms.assetid: 68f607f5-7271-46a6-8ffc-91878185a683
-description: L’élément GoodThreshold spécifie le pourcentage de participants qui doivent avoir la période de temps ouverte pour que la période puisse être considérée comme une heure de réunion recommandée.
-ms.openlocfilehash: 34ea433ad7315d61df8cf8e22bae1166d3210af3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GoodThreshold spécifie le pourcentage de participants dont la période doit être ouverte afin que la période soit éligible en tant qu’heure de réunion suggérée.
+ms.openlocfilehash: bec5159b46a350cb01f8d573c68e1925aeb40ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457311"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533219"
 ---
 # <a name="goodthreshold"></a>GoodThreshold
 
-L’élément **GoodThreshold** spécifie le pourcentage de participants qui doivent avoir la période de temps ouverte pour que la période puisse être considérée comme une heure de réunion recommandée. 
+**L’élément GoodThreshold** spécifie le pourcentage de participants dont la période doit être ouverte afin que la période soit éligible en tant qu’heure de réunion suggérée. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Les valeurs d’entier attendues sont comprises entre 0 et 50.
+Une valeur de texte est requise. Les valeurs d’unger attendues sont entre 0 et 50.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est requis si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. L’élément **GoodThreshold** détermine également les réunions considérées comme équitable. Si le pourcentage de participants avec des conflits est inférieur au seuil de bonne qualité et supérieur à 50%, la durée de réunion suggérée est considérée comme équitable. Le seuil de qualité plus 50 est égal au pourcentage qui définit le seuil correct/équitable. 
+Cet élément est requis si [l’élément SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. **L’élément GoodThreshold** détermine également quelles réunions sont considérées comme équitables. Il s’agit du pourcentage de participants en conflit inférieur au bon seuil et supérieur à 50 %, l’heure de réunion suggérée est qualifiée d’équitable. Le bon seuil plus 50 est égal au pourcentage qui définit le seuil Bon/Juste. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

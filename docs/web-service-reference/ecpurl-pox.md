@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cbd6076-9981-4c65-a296-5e57518671b5
-description: L’élément EcpUrl spécifie l’URL du panneau de configuration Exchange pour un utilisateur à extension messagerie.
-ms.openlocfilehash: b761147dc5912652bca2847bd5ec0d305e0624b3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EcpUrl spécifie l’URL du panneau de Exchange pour un utilisateur à messagerie.
+ms.openlocfilehash: b9f46dd7bcefde8e32c935dbb29f190c26799f5b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461274"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538288"
 ---
 # <a name="ecpurl-pox"></a>EcpUrl (POX)
 
-L’élément **EcpUrl** spécifie l’URL du panneau de configuration Exchange pour un utilisateur à extension messagerie. 
+**L’élément EcpUrl** spécifie l’URL du panneau de Exchange pour un utilisateur à messagerie. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente l’URL du panneau de configuration Exchange pour l’utilisateur.
+La valeur de texte représente l’URL du panneau de Exchange de contrôle de l’utilisateur.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **EcpUrl** est un élément enfant facultatif de l’élément **Protocol** . 
+**L’élément EcpUrl** est un élément enfant facultatif de l’élément **Protocol.** 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

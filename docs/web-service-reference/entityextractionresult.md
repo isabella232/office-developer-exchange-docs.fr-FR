@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 643b99ab-ff90-4411-864c-1077623028d6
 description: L’élément EntityExtractionResult spécifie la propriété EntityExtractionResult d’un élément.
-ms.openlocfilehash: f2f069717a5862adff3349090c35f95499d135f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b550953233999bfd9c4dc08a7f892e798029df3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520674"
 ---
 # <a name="entityextractionresult"></a>EntityExtractionResult
 
-L’élément **EntityExtractionResult** spécifie la propriété **EntityExtractionResult** d’un élément. 
+**L’élément EntityExtractionResult** spécifie la propriété **EntityExtractionResult** d’un élément. 
   
 ```XML
 <EntityExtractionResult>
@@ -44,9 +44,9 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Adresses (ArrayOfAddressEntitiesType)](addresses-arrayofaddressentitiestype.md) <br/> |Spécifie un tableau d’éléments **AddressEntity** .  <br/> |
-|[MeetingSuggestions](meetingsuggestions.md) <br/> |Spécifie un tableau d’éléments **MeetingSuggestion** .  <br/> |
-|[TaskSuggestions](tasksuggestions.md) <br/> |Spécifie un tableau d’éléments **TaskSuggestion** .  <br/> |
+|[Addresses (ArrayOfAddressEntitiesType)](addresses-arrayofaddressentitiestype.md) <br/> |Spécifie un tableau d’éléments **AddressEntity.**  <br/> |
+|[MeetingSuggestions](meetingsuggestions.md) <br/> |Spécifie un tableau **d’éléments MeetingSuggestion.**  <br/> |
+|[TaskSuggestions](tasksuggestions.md) <br/> |Spécifie un tableau **d’éléments TaskSuggestion.**  <br/> |
 |[EmailAddresses (ArrayOfEmailAddressEntitiesType)](emailaddresses-arrayofemailaddressentitiestype.md) <br/> |Spécifie un tableau d’entités d’adresse de messagerie.  <br/> |
 |[Contacts (ArrayOfContactsType)](contacts-arrayofcontactstype.md) <br/> |Spécifie un tableau de contacts.  <br/> |
 |[URL (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md) <br/> |Spécifie un tableau d’URL.  <br/> |
@@ -56,7 +56,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Item](item.md) <br/> |Représente un élément générique dans la Banque d’Exchange.  <br/> |
+|[Item](item.md) <br/> |Représente un élément générique dans le magasin Exchange de données.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

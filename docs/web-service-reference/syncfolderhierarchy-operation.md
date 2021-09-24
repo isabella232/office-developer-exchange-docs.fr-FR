@@ -1,36 +1,36 @@
 ---
-title: Opération Opérationsyncfolderhierarchy
+title: Opération SyncFolderHierarchy
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SyncFolderHierarchy
 api_type:
 - schema
 ms.assetid: b31916b1-bc6c-4451-a475-b7c5417f752d
-description: L’opération Opérationsyncfolderhierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.
-ms.openlocfilehash: 1c7ad2413064161ba54e8a7a30bfcd6f23f218bd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération SyncFolderHierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.
+ms.openlocfilehash: 43182d267d4c09d4626669746ac64af9b0f890b9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513303"
 ---
-# <a name="syncfolderhierarchy-operation"></a>Opération Opérationsyncfolderhierarchy
+# <a name="syncfolderhierarchy-operation"></a>Opération SyncFolderHierarchy
 
-L’opération Opérationsyncfolderhierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.
+L’opération SyncFolderHierarchy synchronise les dossiers entre l’ordinateur qui exécute Microsoft Exchange Server 2010 et le client.
   
 > [!NOTE]
-> L’opération Opérationsyncfolderhierarchy ne renvoie pas de dossiers lorsque les propriétés [UnreadCount](unreadcount.md) ou [totalCount](totalcount.md) ont été modifiées. 
+> L’opération SyncFolderHierarchy ne retourne pas les dossiers lorsque les propriétés [UnreadCount](unreadcount.md) ou [TotalCount](totalcount.md) ont été modifiées. 
   
-## <a name="syncfolderhierarchy-request-example"></a>Exemple de requête Opérationsyncfolderhierarchy
+## <a name="syncfolderhierarchy-request-example"></a>Exemple de requête SyncFolderHierarchy
 
 ### <a name="description"></a>Description
 
-L’exemple de requête Opérationsyncfolderhierarchy suivant montre comment synchroniser une hiérarchie de dossiers client avec le serveur Exchange. Cet exemple montre une hiérarchie de dossiers qui a déjà été synchronisée au moins une fois. L’élément [SyncState](syncstate-ex15websvcsotherref.md) n’est pas inclus dans la demande de la première tentative de synchronisation d’un client avec le serveur Exchange. La première demande renverra tous les dossiers de la boîte aux lettres. L’élément [SyncState](syncstate-ex15websvcsotherref.md) sera renvoyé dans le [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md). Cet élément est utilisé pour synchroniser l’état des demandes Opérationsyncfolderhierarchy suivantes.
+L’exemple suivant d’une demande SyncFolderHierarchy montre comment synchroniser une hiérarchie de dossiers clients avec Exchange serveur. Cet exemple montre une hiérarchie de dossiers qui a déjà été synchronisée au moins une fois. [L’élément SyncState](syncstate-ex15websvcsotherref.md) n’est pas inclus dans la demande de la première tentative de synchronisation d’un client avec Exchange serveur. La première demande retourne tous les dossiers de la boîte aux lettres. [L’élément SyncState](syncstate-ex15websvcsotherref.md) sera renvoyé dans [syncFolderHierarchyResponse](syncfolderhierarchyresponse.md). Cet élément est utilisé pour synchroniser l’état pour les demandes SyncFolderHierarchy suivantes.
   
 ### <a name="code"></a>Code
 
@@ -51,13 +51,13 @@ L’exemple de requête Opérationsyncfolderhierarchy suivant montre comment syn
 
 ### <a name="comments"></a>Commentaires
 
-L’élément [SyncState](syncstate-ex15websvcsotherref.md) les données codées en base64 ont été raccourcies afin de préserver la lisibilité. 
+Les [données codées](syncstate-ex15websvcsotherref.md) en base 64 de l’élément SyncState ont été raccourcies pour préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
-- [Opérationsyncfolderhierarchy](syncfolderhierarchy.md)
+- [SyncFolderHierarchy](syncfolderhierarchy.md)
     
 - [FolderShape](foldershape.md)
     
@@ -66,13 +66,13 @@ Les éléments suivants sont utilisés dans la demande :
 - [SyncState](syncstate-ex15websvcsotherref.md)
     
 > [!NOTE]
-> Le schéma qui décrit ces éléments se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute MicrosoftExchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé. 
+> Le schéma qui décrit ces éléments se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute MicrosoftExchange Server 2007 sur qui le rôle serveur d’accès au client est installé. 
   
-## <a name="successful-syncfolderhierarchy-response"></a>Réponse Opérationsyncfolderhierarchy réussie
+## <a name="successful-syncfolderhierarchy-response"></a>Réponse syncFolderHierarchy réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande Opérationsyncfolderhierarchy. Dans cet exemple, un nouveau dossier a été synchronisé.
+L’exemple suivant montre une réponse réussie à la demande SyncFolderHierarchy. Dans cet exemple, un nouveau dossier a été synchronisé.
   
 ### <a name="code"></a>Code
 
@@ -117,7 +117,7 @@ L’exemple suivant montre une réponse réussie à la demande Opérationsyncfol
 
 ### <a name="comments"></a>Commentaires
 
-L’élément [SyncState](syncstate-ex15websvcsotherref.md) données codées en base64 et les données de l’identificateur de dossier ont été raccourcies afin de préserver la lisibilité. 
+Les [données codées](syncstate-ex15websvcsotherref.md) en base 64 de l’élément SyncState et les données d’identificateur de dossier ont été raccourcies pour préserver la lisibilité. 
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -137,9 +137,9 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [IncludesLastFolderInRange](includeslastfolderinrange.md)
     
-- [Changes (hiérarchie)](changes-hierarchy.md)
+- [Modifications (hiérarchie)](changes-hierarchy.md)
     
-- [Créer (FolderSync)](create-foldersync.md)
+- [Create (FolderSync)](create-foldersync.md)
     
 - [Folder](folder.md)
     
@@ -157,11 +157,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [UnreadCount](unreadcount.md)
     
-## <a name="syncfolderhierarchy-error-response"></a>Réponse d’erreur Opérationsyncfolderhierarchy
+## <a name="syncfolderhierarchy-error-response"></a>Réponse d’erreur SyncFolderHierarchy
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête Opérationsyncfolderhierarchy. Cette erreur a été causée par un SyncState non valide.
+L’exemple suivant montre une réponse d’erreur à une demande SyncFolderHierarchy. Cette erreur a été causée par un SyncState non valide.
   
 ### <a name="code"></a>Code
 

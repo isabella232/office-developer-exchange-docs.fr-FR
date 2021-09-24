@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc04e44e-e6d1-4355-a2b1-feb6663dc647
 description: L’élément EndWallClock spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement où la réunion a lieu.
-ms.openlocfilehash: 48b762d0bfe367b966b6f1790230f6a2118c3fd6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e54999046fd586a755340f5a4597b750aa9a5baa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462970"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520688"
 ---
 # <a name="endwallclock"></a>EndWallClock
 
-L’élément **EndWallClock** spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement où la réunion a lieu. 
+**L’élément EndWallClock** spécifie l’heure de fin d’une réunion dans le fuseau horaire de l’emplacement où la réunion a lieu. 
   
 ```XML
 <EndWallClock></EndWallClock>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EndWallClock** est une valeur de type String qui spécifie l’identificateur du fuseau horaire. 
+La valeur de texte de **l’élément EndWallClock** est une valeur de chaîne qui spécifie l’identificateur de fuseau horaire. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

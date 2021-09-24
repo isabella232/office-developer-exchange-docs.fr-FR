@@ -1,28 +1,28 @@
 ---
-title: GetUMProperties (service Web de messagerie unifiée)
+title: GetUMProperties (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
-description: L’élément GetUMProperties définit une demande de GetUMProperties (service Web de messagerie unifiée).
-ms.openlocfilehash: 2cab45ec6b1058f459b65992cf7345f1be171ce7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetUMProperties définit une demande d’opération GetUMProperties (service web de um).
+ms.openlocfilehash: 3f13eeb445300dabe6ae3cafc8f89ba7d9cd5411
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459131"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538054"
 ---
-# <a name="getumproperties-um-web-service"></a>GetUMProperties (service Web de messagerie unifiée)
+# <a name="getumproperties-um-web-service"></a>GetUMProperties (service web de messagerie unifiée)
 
-L’élément **GetUMProperties** définit une demande de [GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) . 
+**L’élément GetUMProperties** définit une [demande d’opération GetUMProperties (service web de um).](getumproperties-operation-um-web-service.md) 
   
-[GetUMProperties (service Web de messagerie unifiée)](getumproperties-um-web-service.md)
+[GetUMProperties (service web de messagerie unifiée)](getumproperties-um-web-service.md)
   
 ```xml
 <GetUMProperties />
@@ -55,12 +55,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
+[Opération GetUMProperties (service web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
 

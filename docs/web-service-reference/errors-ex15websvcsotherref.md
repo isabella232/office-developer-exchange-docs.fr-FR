@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Errors
 api_type:
 - schema
 ms.assetid: ea37a2b5-e2d1-4089-960f-7014b9535a50
-description: L’élément Errors contient un conteneur de propriétés permettant de stocker les erreurs renvoyées via le service Web.
-ms.openlocfilehash: a2f888a81791fe0b57eee6123c4b0f5f609f3e75
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Errors contient un sac de propriétés pour stocker les erreurs renvoyées via le service Web.
+ms.openlocfilehash: 9a5aba212aefbddbd2a85377e61449d2da408368
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465904"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520569"
 ---
 # <a name="errors"></a>Erreurs
 
-L’élément **Errors** contient un conteneur de propriétés permettant de stocker les erreurs renvoyées via le service Web. 
+**L’élément Errors** contient un sac de propriétés pour stocker les erreurs renvoyées via le service Web. 
   
 [FindMessageTrackingReport](findmessagetrackingreport.md)
   
@@ -46,14 +46,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
+|[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contient une liste d’une ou plusieurs propriétés de suivi.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une demande d' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) unique.  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’état et le résultat d’une [demande d’opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) unique.  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une [demande d’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dcf69f-bf8d-4be6-a24c-03bbd13f4fe5
-description: L’élément GUID spécifie l’identificateur global unique de la boîte aux lettres.
-ms.openlocfilehash: 4db66b5ae2c67f64f75c69a3d77cfa2b587775be
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Guid spécifie l’identificateur global unique de la boîte aux lettres.
+ms.openlocfilehash: 093364e26d5c65127c1f23214e1d3d0aa85c95c2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530774"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519533"
 ---
 # <a name="guid"></a>Guid
 
-L’élément **GUID** spécifie l’identificateur global unique de la boîte aux lettres. 
+**L’élément Guid** spécifie l’identificateur global unique de la boîte aux lettres. 
   
 ```XML
 <Guid></Guid>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SearchableMailbox](searchablemailbox.md) <br/> |Spécifie une boîte aux lettres renvoyée à partir d’une demande **GetSearchableMailboxes** .  <br/> |
+|[SearchableMailbox](searchablemailbox.md) <br/> |Spécifie une boîte aux lettres renvoyée par une **demande GetSearchableMailboxes.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GUID** est une valeur GUID qui identifie de manière unique une boîte aux lettres. 
+La valeur de texte de **l’élément Guid** est une valeur GUID qui identifie de manière unique une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

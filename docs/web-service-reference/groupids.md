@@ -1,23 +1,23 @@
 ---
-title: ID
+title: GroupIds
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d32cb3b-eb84-4816-89cd-26dcf5131bc8
-description: L’élément ID identifie un tableau d’identificateurs de groupe de messagerie instantanée.
-ms.openlocfilehash: 7583a197413063289739f0f32d9410047fc2f23d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GroupIds identifie un tableau d’identificateurs de groupe de messagerie instantanée.
+ms.openlocfilehash: 102486512e9827688e4a70b9e02e0f1a4f6c2e98
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519561"
 ---
-# <a name="groupids"></a>ID
+# <a name="groupids"></a>GroupIds
 
-L’élément **ID** identifie un tableau d’identificateurs de groupe de messagerie instantanée. 
+**L’élément GroupIds** identifie un tableau d’identificateurs de groupe de messagerie instantanée. 
   
 ```XML
 <GroupIds>
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

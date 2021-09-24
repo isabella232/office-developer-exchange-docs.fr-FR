@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RoutingType
 api_type:
 - schema
 ms.assetid: 74d83198-0d9d-4c78-a2bc-9a671859ff37
 description: L’élément RoutingType représente le protocole de routage pour le destinataire.
-ms.openlocfilehash: 2193e72c38c687669f6e052b4d2526029aa89d89
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cc4d18ff9fa18f0ec2024f15cb6a3bd4199832de
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459033"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59534428"
 ---
 # <a name="routingtype-emailaddress"></a>RoutingType (EmailAddress)
 
-L’élément **RoutingType** représente le protocole de routage pour le destinataire. 
+**L’élément RoutingType** représente le protocole de routage pour le destinataire. 
   
 ```XML
 <RoutingType/>
@@ -44,8 +44,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[E-mail (EmailAddressType)](email-emailaddresstype.md) <br/> |Spécifie l’adresse de messagerie de l’objet MailboxData. Cet élément est utilisé dans l' [opération GetUserAvailability](getuseravailability-operation.md).  <br/><br/> Voici le XPath de cet élément :  <br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[Boîte aux lettres (disponibilité)](mailbox-availability.md) <br/> | Représente l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/><br/>  Voici les expressions XPath de cet élément : <br/> <br/>  `/GetUserOofSettingsRequest/Mailbox` <br/><br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |Spécifie l’adresse de messagerie de l’objet MailboxData. Cet élément est utilisé dans [l’opération GetUserAvailability](getuseravailability-operation.md).  <br/><br/> Voici le chemin d’accès XPath à cet élément :  <br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> | Représente l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/><br/>  Les expressions XPath de cet élément sont les suivantes : <br/> <br/>  `/GetUserOofSettingsRequest/Mailbox` <br/><br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -54,11 +54,11 @@ Une valeur de texte est facultative. Les valeurs possibles sont les suivantes :
 * SMTP
 * EX
 
-Si aucune valeur n’est fournie, la valeur par défaut SMTP est utilisée.
+Si aucune valeur n’est fournie, la valeur par défaut de SMTP est utilisée.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément peut apparaître au plus une fois dans l’élément [email (EmailAddressType)](email-emailaddresstype.md) . Cet élément n’est pas obligatoire. Cet élément existe pour l’inclusion des futurs protocoles. Un autre élément **RoutingType** est utilisé pour accéder aux éléments de la boîte aux lettres d’un utilisateur. 
+Cet élément peut se produire au plus une fois dans l’élément [Email (EmailAddressType).](email-emailaddresstype.md) Cet élément n’est pas requis. Cet élément existe pour l’inclusion de futurs protocoles. Un **autre élément RoutingType** est utilisé pour accéder aux éléments de la boîte aux lettres d’un utilisateur. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   

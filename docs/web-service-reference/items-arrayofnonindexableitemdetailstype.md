@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da795880-12b4-4341-bcb8-31616f4ba46f
-description: L’élément ITEMS contient un tableau de détails sur les éléments non indexables.
-ms.openlocfilehash: 81ca175933b0d23a939f6fdc45cb5a10e7157350
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Items contient un tableau de détails d’éléments pour les éléments non indexables.
+ms.openlocfilehash: 82553a704d60cb7398a678bc54e1622e3eb415b3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519421"
 ---
 # <a name="items-arrayofnonindexableitemdetailstype"></a>Items (ArrayOfNonIndexableItemDetailsType)
 
-L’élément **Items** contient un tableau de détails sur les éléments non indexables. 
+**L’élément Items** contient un tableau de détails d’éléments pour les éléments non indexables. 
   
 ```XML
 <Items>

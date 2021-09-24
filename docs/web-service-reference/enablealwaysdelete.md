@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EnableAlwaysDelete
 api_type:
 - schema
 ms.assetid: 7753aec5-3f93-4aeb-a28e-8b9b42ca7f9b
-description: L’élément EnableAlwaysDelete spécifie un indicateur qui active la suppression de tous les nouveaux éléments d’une conversation.
-ms.openlocfilehash: 14784d3a6ba52c76b64b81e15c0522d66d125cbf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EnableAlwaysDelete spécifie un indicateur qui permet la suppression de tous les nouveaux éléments d’une conversation.
+ms.openlocfilehash: 7b0704ebd7187ac06293589277aefd53f6bceaaa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526206"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520723"
 ---
 # <a name="enablealwaysdelete"></a>EnableAlwaysDelete
 
-L’élément **EnableAlwaysDelete** spécifie un indicateur qui active la suppression de tous les nouveaux éléments d’une conversation. 
+**L’élément EnableAlwaysDelete** spécifie un indicateur qui permet la suppression de tous les nouveaux éléments d’une conversation. 
   
 [ApplyConversationAction](applyconversationaction.md)
   
@@ -35,7 +35,7 @@ L’élément **EnableAlwaysDelete** spécifie un indicateur qui active la suppr
 <EnableAlwaysDelete/>
 ```
 
- **XS : Boolean**
+ **xs:boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -52,11 +52,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **EnableAlwaysDelete** est **true** pour permettre la suppression de tous les éléments dans la conversation ; Sinon, **false**.
+La valeur de texte de **l’élément EnableAlwaysDelete** est **true** pour activer la suppression de tous les éléments de la conversation . sinon, **false**.
   
 ## <a name="remarks"></a>Remarques
 

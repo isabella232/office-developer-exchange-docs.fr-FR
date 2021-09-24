@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReceivedRepresenting
 api_type:
 - schema
 ms.assetid: 1157b042-6dce-4cdc-9700-e22b749da39f
 description: L’élément ReceivedRepresenting identifie le principal dans un scénario d’accès délégué.
-ms.openlocfilehash: f444fb88be9c0df174f0c1490cf7c499cc0c0539
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4be5d6273534cab9537604b48b60a23baec82eea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468221"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532230"
 ---
 # <a name="receivedrepresenting"></a>ReceivedRepresenting
 
-L’élément **ReceivedRepresenting** identifie le principal dans un scénario d’accès délégué. 
+**L’élément ReceivedRepresenting** identifie le principal dans un scénario d’accès délégué. 
   
 ```xml
 <ReceivedRepresenting>
@@ -50,7 +50,7 @@ Aucune.
 |:-----|:-----|
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
@@ -63,17 +63,17 @@ Aucune.
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **ReceivedRepresenting** est utilisé avec les éléments **from** et **ReceivedBy** dans les scénarios d’accès délégué. Le tableau suivant répertorie les entités que ces éléments représentent dans un scénario d’accès délégué. 
+**L’élément ReceivedRepresenting est** utilisé avec les éléments **From** et **ReceivedBy** dans les scénarios d’accès délégué. Le tableau suivant répertorie les entités que ces éléments représentent dans un scénario d’accès délégué. 
   
 **Éléments dans un scénario d’accès délégué**
 
-|**Élément**|**Entité représentée par l’élément**|
+|**Élément**|**Entité que l’élément représente**|
 |:-----|:-----|
-|[From](from.md) <br/> |Tierce partie  <br/> |
+|[From](from.md) <br/> |ThirdParty  <br/> |
 |[ReceivedBy](receivedby.md) <br/> |Délégué  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Directeur  <br/> |
    
-Dans un scénario d’accès délégué, si un tierce partie envoie une demande de réunion à un responsable qui a un délégué, le délégué verra une nouvelle demande de réunion. Ces éléments permettent aux délégués de faire la distinction entre les messages qui leur sont envoyés directement et ceux qui leur sont envoyés en raison d’une règle de transfert de délégué.
+Dans un scénario d’accès délégué, si un tiers envoie une demande de réunion à un principal qui a un délégué, le délégué voit une nouvelle demande de réunion. Ces éléments permettent aux délégués de faire la distinction entre les messages qui leur sont envoyés directement et les messages qui leur sont envoyés en raison d’une règle de forwarding délégué.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   

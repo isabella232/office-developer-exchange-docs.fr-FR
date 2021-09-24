@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c55b7bf5-3702-4923-b7c9-b0928cde1de2
-description: L’élément UMUrl spécifie l’URL de la meilleure instance du service Web de messagerie unifiée pour un utilisateur à extension messagerie.
-ms.openlocfilehash: c80f874e13ac3909ee51bbc63dded100a1e41524
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UMUrl spécifie l’URL de la meilleure instance du service Web de messagerie unifiée pour un utilisateur à messagerie.
+ms.openlocfilehash: 9e4612d7c92ae7796d9f19573dbf096b3f4de250
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463026"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538694"
 ---
 # <a name="umurl-pox"></a>UMUrl (POX)
 
-L’élément **UMUrl** spécifie l’URL de la meilleure instance du service Web de messagerie unifiée pour un utilisateur à extension messagerie. 
+**L’élément UMUrl** spécifie l’URL de la meilleure instance du service Web de messagerie unifiée pour un utilisateur à messagerie. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 où le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie l’URL du serveur Exchange sur lequel le rôle serveur de messagerie unifiée est installé pour une topologie Exchange.
+La valeur de texte spécifie l’URL du serveur Exchange sur qui le rôle serveur de messagerie unifiée est installé pour une topologie Exchange de messagerie unifiée.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

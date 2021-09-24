@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueBody
 api_type:
 - schema
 ms.assetid: 06bc95d7-121c-433b-bd27-c2b0eb8c011f
 description: L’élément UniqueBody représente un fragment HTML ou du texte brut qui représente le corps unique de cette conversation.
-ms.openlocfilehash: 0a8d52c7d4eb8bda9fd41c4c25e448523185df93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 419247aaa952f1d15633fe431912f87ad4d6db85
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538672"
 ---
 # <a name="uniquebody"></a>UniqueBody
 
-L’élément **UniqueBody** représente un fragment HTML ou du texte brut qui représente le corps unique de cette conversation. 
+**L’élément UniqueBody** représente un fragment HTML ou du texte brut qui représente le corps unique de cette conversation. 
   
 ```XML
 <UniqueBody BodyType=""/>
@@ -36,14 +36,14 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**BodyType** <br/> |Indique comment le corps de l’élément est stocké dans l’élément.  <br/> |
+|**BodyType** <br/> |Décrit comment le corps de l’élément est stocké dans l’élément.  <br/> |
    
 #### <a name="bodytype-attribute"></a>Attribut BodyType
 
 |**Valeur**|**Description**|
 |:-----|:-----|
 |**HTML** <br/> |Convertit tous les corps au format HTML.  <br/> |
-|**Text** <br/> |Convertit tous les corps en texte brut.  <br/> |
+|**Text** <br/> |Convertit tous les corps en texte simple.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -59,10 +59,10 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément de publication dans la Exchange store.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    

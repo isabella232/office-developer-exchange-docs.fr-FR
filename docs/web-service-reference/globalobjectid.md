@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalObjectId
 api_type:
 - schema
 ms.assetid: ef5618d3-9b52-4a00-ab66-159dc1091e93
 description: L’élément GlobalObjectId n’est pas utilisé.
-ms.openlocfilehash: c5d9fa91709cf979fa2143b791fbb880425e2ccd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dfe8e0860143b059f5e00e35857f99085b607dc5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459376"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537993"
 ---
 # <a name="globalobjectid"></a>GlobalObjectId
 
-L’élément **GlobalObjectId** n’est pas utilisé. 
+**L’élément GlobalObjectId** n’est pas utilisé. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -51,7 +51,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 

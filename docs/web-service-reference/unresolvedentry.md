@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnresolvedEntry
 api_type:
 - schema
 ms.assetid: 5ac6116a-3b24-40f8-a877-dbe9a6935919
 description: L’élément UnresolvedEntry contient le nom d’un contact ou d’une liste de distribution à résoudre.
-ms.openlocfilehash: 0f157c1be6c327187456a795c4c1000b8c35b620
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 77074d5aed0a799d355fd176a8c9c06f2dffec5a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459839"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538666"
 ---
 # <a name="unresolvedentry"></a>UnresolvedEntry
 
-L’élément **UnresolvedEntry** contient le nom d’un contact ou d’une liste de distribution à résoudre. 
+**L’élément UnresolvedEntry** contient le nom d’un contact ou d’une liste de distribution à résoudre. 
   
 [ResolveNames](resolvenames.md)
   
@@ -56,13 +56,13 @@ La valeur de texte représente le nom d’un contact public ou d’une liste de 
   
 ## <a name="remarks"></a>Remarques
 
-La valeur de texte de cet élément est utilisée pour résoudre les noms par rapport aux champs suivants :
+La valeur de texte de cet élément est utilisée pour résoudre les noms par rapport aux champs suivants :
   
 - Prénom
     
 - Nom de famille
     
-- Nom unique (DN)
+- Nom d’affichage
     
 - Nom complet
     
@@ -72,7 +72,7 @@ La valeur de texte de cet élément est utilisée pour résoudre les noms par ra
     
 - Adresse SMTP
     
-Les adresses de messagerie avec des types de routage préfixés, tels que SMTP ou SIP, sont enregistrées dans un tableau à valeurs multiples. L' [opération ResolveNames](resolvenames-operation.md) effectue une correspondance partielle par rapport à chaque valeur de ce tableau lorsque vous ajoutez le type de routage au début du nom non résolu, tel que « SIP :User1@Contoso.com ». Si vous ne spécifiez pas de type de routage, l’opération **ResolveNames** prend par défaut le type de routage SMTP, le associe à une propriété d’adresse SMTP principale, et non à la recherche dans le tableau à valeurs multiples. 
+Les adresses de messagerie avec des types de routage préfixés, tels que smtp ou sip, sont enregistrées dans un tableau à valeurs multiples. [L’opération ResolveNames](resolvenames-operation.md) effectue une correspondance partielle avec chaque valeur de ce tableau lorsque vous ajoutez le type de routage au début du nom non résolu, tel que « sip:User1@Contoso.com ». Si vous ne spécifiez pas de type de routage, l’opération **ResolveNames** correspondra par défaut au type de routage smtp, la fera correspondre à une propriété d’adresse SMTP principale et ne recherchera pas dans le tableau à valeurs multiples. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
@@ -82,7 +82,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

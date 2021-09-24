@@ -1,27 +1,27 @@
 ---
-title: Domaine (suivi des messages)
+title: Domain (Message Tracking)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Domain
 api_type:
 - schema
 ms.assetid: 4e8e9efa-8885-4ca5-bf90-424e63768dc3
 description: L’élément Domain représente le domaine à rechercher.
-ms.openlocfilehash: 77da9028766881b9bc633e1b3318cd4d70c6b72f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ba07f452a096b9dc982f6a6088cd16cbf41ec8d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457024"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520854"
 ---
-# <a name="domain-message-tracking"></a>Domaine (suivi des messages)
+# <a name="domain-message-tracking"></a>Domain (Message Tracking)
 
-L’élément **Domain** représente le domaine à rechercher. 
+**L’élément Domain** représente le domaine à rechercher. 
   
 ```XML
 <Domain/>
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IndividualAttendeeConflictData
 api_type:
 - schema
 ms.assetid: d45d3c34-abe1-40da-afd3-23bc5c3ef474
-description: L’élément IndividualAttendeeConflictData contient le statut de disponibilité d’un utilisateur ou d’un contact pour une fenêtre de temps qui se produit en même temps que la réunion suggérée, identifiée dans l’élément de suggestion.
-ms.openlocfilehash: 55210230259b78e5ed9c4f0744aae003cf2e7ae5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IndividualAttendeeConflictData contient l’état de libre/occupé d’un utilisateur ou d’un contact pour une période qui se produit en même temps que l’heure de réunion suggérée identifiée dans l’élément Suggestion.
+ms.openlocfilehash: e7308ca951e906edf4e4606c058f5e0e7a61fd5c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532988"
 ---
 # <a name="individualattendeeconflictdata"></a>IndividualAttendeeConflictData
 
-L’élément **IndividualAttendeeConflictData** contient le statut de disponibilité d’un utilisateur ou d’un contact pour une fenêtre de temps qui se produit en même temps que la réunion suggérée, identifiée dans l’élément de [suggestion](suggestion.md) . 
+L’élément **IndividualAttendeeConflictData** contient l’état de libre/occupé d’un utilisateur ou d’un contact pour une période qui se produit en même temps que l’heure de réunion suggérée identifiée dans l’élément [Suggestion.](suggestion.md) 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **IndividualAttendeeConflictData** contient le statut de disponibi
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -58,13 +58,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[BusyType](busytype.md) <br/> |Représente l’état de disponibilité d’un utilisateur pour une suggestion de réunion.  <br/> |
+|[BusyType](busytype.md) <br/> |Représente l’état de libre/occupé d’un utilisateur pour une heure de réunion suggérée.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données en conflit pour les participants identifiés dans le [GetUserAvailabilityRequest](getuseravailabilityrequest.md).  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données de conflit pour les participants identifiés dans [la getUserAvailabilityRequest](getuseravailabilityrequest.md).  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

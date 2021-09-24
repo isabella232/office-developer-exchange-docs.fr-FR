@@ -1,23 +1,23 @@
 ---
-title: Groupes (ArrayOfImGroupType)
+title: Groups (ArrayOfImGroupType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
 description: L’élément Groups représente un tableau de groupes de messagerie instantanée.
-ms.openlocfilehash: ad866afdecbcac0e555978647e3a46a033361672
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 692d50deef065fc993e97efe61f532d4fe1549f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530070"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537894"
 ---
-# <a name="groups-arrayofimgrouptype"></a>Groupes (ArrayOfImGroupType)
+# <a name="groups-arrayofimgrouptype"></a>Groups (ArrayOfImGroupType)
 
-L’élément **groups** représente un tableau de groupes de messagerie instantanée. 
+**L’élément Groups** représente un tableau de groupes de messagerie instantanée. 
   
 ```XML
 <Groups>
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Imgroup](imgroup.md)
+[ImGroup](imgroup.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

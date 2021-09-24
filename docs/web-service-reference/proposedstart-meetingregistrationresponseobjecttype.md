@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c58cef7-bc43-493a-a323-ba4dc6a33704
-description: L’élément ProposedStart (MeetingRegistrationResponseObjectType) spécifie une nouvelle heure de début proposée par un participant à une réunion.
-ms.openlocfilehash: 6f105556c39fa6549b3bec2f7a6fee50d4049358
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ProposedStart (MeetingRegistrationResponseObjectType) spécifie la nouvelle heure de début proposée par un participant pour une réunion.
+ms.openlocfilehash: 98866001465083c924dc990c5a0199e4dbcc5d1f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465589"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532355"
 ---
 # <a name="proposedstart-meetingregistrationresponseobjecttype"></a>ProposedStart (MeetingRegistrationResponseObjectType)
 
-L’élément **ProposedStart (MeetingRegistrationResponseObjectType)** spécifie une nouvelle heure de début proposée par un participant à une réunion. 
+**L’élément ProposedStart (MeetingRegistrationResponseObjectType)** spécifie la nouvelle heure de début proposée par un participant pour une réunion. 
   
 ```XML
 <ProposedStart />

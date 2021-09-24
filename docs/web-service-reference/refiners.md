@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
-description: L’élément affinements spécifie une liste d’un ou plusieurs éléments d’affinement.
-ms.openlocfilehash: a89a18550355ccc9ef916637305a189276ee2224
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Refiners spécifie une liste d’un ou plusieurs éléments Refiner.
+ms.openlocfilehash: 1b22b7255e15227aaa6d9a53518c7120d20f67fd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513499"
 ---
 # <a name="refiners"></a>Affinements
 
-L’élément **affinements** spécifie une liste d’un ou plusieurs éléments d' **affinement** . 
+**L’élément Refiners** spécifie une liste d’un ou plusieurs **éléments Refiner.** 
   
 ```XML
 <Refiners>
@@ -36,7 +36,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Affinement](refiner.md)
+[Refiner](refiner.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

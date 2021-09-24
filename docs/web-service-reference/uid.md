@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UID
 api_type:
 - schema
 ms.assetid: b1c43c1e-b773-4dd1-9a32-32b3b8efeaf9
 description: L’élément UID identifie de manière unique un élément de calendrier.
-ms.openlocfilehash: c2eb8d9cbb238132bdce2eedf7a41f90fcd20460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b7dea52b3d21f6f15acc6f7f4bc3c758f68648d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455911"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538708"
 ---
 # <a name="uid"></a>UID
 
-L’élément **UID** identifie de manière unique un élément de calendrier. 
+**L’élément UID** identifie de manière unique un élément de calendrier. 
   
 ```xml
 <UID>   </UID>
@@ -46,13 +46,13 @@ Aucun.
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente un identificateur unique.
+La valeur de texte représente un identificateur unique.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

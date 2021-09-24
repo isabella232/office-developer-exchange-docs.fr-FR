@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayOfMonth
 api_type:
 - schema
 ms.assetid: 09b7504e-08d8-42f9-88cc-a2a37a2e2b8b
-description: L’élément DayOfMonth décrit le jour d’un mois pendant lequel un élément périodique se produit.
-ms.openlocfilehash: dc333a46283d5e8eba3a79f62f8c22c22f56e190
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DayOfMonth décrit le jour d’un mois où un élément périodique se produit.
+ms.openlocfilehash: 73b83b83a6d9522f4a92f8a845bee788fb8dee33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44442828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513001"
 ---
 # <a name="dayofmonth"></a>DayOfMonth
 
-L’élément **DayOfMonth** décrit le jour d’un mois pendant lequel un élément périodique se produit. 
+**L’élément DayOfMonth** décrit le jour d’un mois où un élément périodique se produit. 
   
 ```xml
 <DayOfMonth/>
@@ -50,7 +50,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un nombre entier compris entre 1 et 31 est requise. Si, pour un mois donné, cette valeur est supérieure au nombre de jours du mois, le dernier jour du mois est supposé.
+Une valeur de texte qui représente un nombre integer de la plage de 1 à 31 est requise. Si, pour un mois particulier, cette valeur est supérieure au nombre de jours du mois, le dernier jour du mois est supposé.
   
 ## <a name="remarks"></a>Remarques
 

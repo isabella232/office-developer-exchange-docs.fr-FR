@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 713a30fe-17ad-48a3-88a2-4f83da9db7a5
-description: L’élément MeetingString spécifie le nom de la réunion à la suite d’une extraction d’entité.
-ms.openlocfilehash: 1ad5d7a7d9b6f84a0ecc30129c9f1cd2ca3153f8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MeetingString spécifie le nom de la réunion en tant que résultat de l’extraction de l’entité.
+ms.openlocfilehash: 27976e0c67907e3228bb7f0de44ef868d03295e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466324"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532553"
 ---
 # <a name="meetingstring"></a>MeetingString
 
-L’élément **MeetingString** spécifie le nom de la réunion à la suite d’une extraction d’entité. 
+**L’élément MeetingString** spécifie le nom de la réunion en tant que résultat de l’extraction de l’entité. 
   
 ```XML
 <MeetingString></MeetingString>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte pour l’élément **MeetingString** est le nom de la réunion. 
+La valeur de texte de **l’élément MeetingString** est le nom de la réunion. 
   
 ## <a name="remarks"></a>Remarques
 

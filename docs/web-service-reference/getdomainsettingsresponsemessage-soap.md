@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: df6e06c3-094c-40ce-9c48-d3608f58542a
-description: L’élément GetDomainSettingsResponseMessage contient une réponse à une demande SOAP (GetDomainSettings Operation).
-ms.openlocfilehash: 4a48d2f496d6733bec67c581e0fc0ee7b1909c5e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetDomainSettingsResponseMessage contient une réponse à une demande d’opération GetDomainSettings (SOAP).
+ms.openlocfilehash: f359d4c39ec7d0dce8d5eda212f84f32689df8ef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513660"
 ---
 # <a name="getdomainsettingsresponsemessage-soap"></a>GetDomainSettingsResponseMessage (SOAP)
 
-L’élément **GetDomainSettingsResponseMessage** contient une réponse à une demande [SOAP (GetDomainSettings Operation)](getdomainsettings-operation-soap.md) . 
+**L’élément GetDomainSettingsResponseMessage** contient une réponse à une demande d’opération [GetDomainSettings (SOAP).](getdomainsettings-operation-soap.md) 
   
 ```XML
 <GetDomainSettingsResponseMessage>
@@ -38,11 +38,11 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Réponse (SOAP)](response-soap.md) <br/> |Contient la réponse à une demande d' [opération GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md) .  <br/> |
+|[Response (SOAP)](response-soap.md) <br/> |Contient la réponse à une [demande d’opération GetDomainSettings (SOAP).](getdomainsettings-operation-soap.md)  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
-Aucun. L’élément **GetDomainSettingsResponseMessage** est l’élément le plus haut au sein du corps SOAP. 
+Aucun. **L’élément GetDomainSettingsResponseMessage** est l’élément supérieur dans le corps SOAP. 
   
 ## <a name="text-value"></a>Valeur de texte
 
@@ -54,7 +54,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

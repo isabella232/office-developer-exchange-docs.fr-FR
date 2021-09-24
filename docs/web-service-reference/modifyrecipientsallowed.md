@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f25e673-0df0-4285-bf03-a083a395cdab
 description: L’élément ModifyRecipientsAllowed spécifie si la modification des destinataires est activée.
-ms.openlocfilehash: 3154ec3aceb2da7911002d505e0c452bf920d71f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4366f9ed0a6843f9a297718cb999fb8c3a02ee17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465694"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520394"
 ---
 # <a name="modifyrecipientsallowed"></a>ModifyRecipientsAllowed
 
-L’élément **ModifyRecipientsAllowed** spécifie si la modification des destinataires est activée. 
+**L’élément ModifyRecipientsAllowed** spécifie si la modification des destinataires est activée. 
   
 ```XML
 <ModifyRecipientsAllowed> true | false </ModifyRecipientsAllowed>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ModifyRecipientsAllowed** indique que la liste de destinataires d’élément est modifiable pour un élément sur lequel la gestion des droits est activée. La valeur **false** indique que la liste des destinataires n’est pas modifiable. 
+Une valeur de texte **true** pour l’élément **ModifyRecipientsAllowed** indique que la liste des destinataires de l’élément est modifiable pour un élément avec la gestion des droits activée. La valeur **false indique** que la liste des destinataires n’est pas modifiable. 
   
 ## <a name="remarks"></a>Remarques
 

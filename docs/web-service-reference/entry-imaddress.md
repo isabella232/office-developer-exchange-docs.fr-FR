@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Entry
 api_type:
 - schema
 ms.assetid: ee444170-7353-4e86-86c6-d7300a2f1777
-description: L’élément Entry représente une adresse de messagerie instantanée (IM) pour un contact.
-ms.openlocfilehash: b6cc37447eb0f231e9e852a6c3cd64d6e1f3a89f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Entry représente une adresse de messagerie instantanée pour un contact.
+ms.openlocfilehash: 76025f9ad47e1f62555f7a3e9d0222b86fc7b042
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520660"
 ---
 # <a name="entry-imaddress"></a>Entrée (IMAddress)
 
-L’élément **entry** représente une adresse de messagerie instantanée (im) pour un contact. 
+**L’élément Entry** représente une adresse de messagerie instantanée pour un contact. 
   
 ```xml
 <Entry Key=""/>
@@ -36,7 +36,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Key** <br/> | Identifie l’adresse de messagerie instantanée.<br/><br/>Les valeurs possibles pour cet attribut sont les suivantes :<br/><br/>- ImAddress1  <br/>- ImAddress2  <br/>- ImAddress3  <br/> |
+|**Clé** <br/> | Identifie l’adresse de messagerie instantanée.<br/><br/>Les valeurs possibles pour cet attribut sont les suivantes :<br/><br/>- ImAddress1  <br/>- ImAddress2  <br/>- ImAddress3  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

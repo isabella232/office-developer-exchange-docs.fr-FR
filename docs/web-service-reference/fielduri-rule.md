@@ -1,23 +1,23 @@
 ---
-title: FieldUri (règle)
+title: FieldUri (Rule)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cecdea78-de9c-48be-ae31-03877feafeec
-description: L’élément FieldURI spécifie l’URI vers le champ de règle à l’origine de l’erreur de validation.
-ms.openlocfilehash: 3d88efdf951af580f81b5e2e7a544dcdf70ea830
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FieldURI spécifie l’URI du champ de règle à l’origine de l’erreur de validation.
+ms.openlocfilehash: c1390f6643614216fa86053368ba012cd0883ff7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461246"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513730"
 ---
-# <a name="fielduri-rule"></a>FieldUri (règle)
+# <a name="fielduri-rule"></a>FieldUri (Rule)
 
-L’élément **FieldURI** spécifie l’URI vers le champ de règle à l’origine de l’erreur de validation. 
+**L’élément FieldURI** spécifie l’URI du champ de règle à l’origine de l’erreur de validation. 
   
 ```XML
 <FieldURI/>
@@ -40,183 +40,183 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Erreur](error.md) <br/> |Représente une seule erreur de validation sur une valeur de propriété de règle, une valeur de propriété de prédicat ou une valeur de propriété d’action particulière.  <br/> |
+|[Erreur](error.md) <br/> |Représente une erreur de validation unique sur une valeur de propriété de règle particulière, une valeur de propriété de prédicat ou une valeur de propriété d’action.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est restreinte à l’une des chaînes suivantes :
+La valeur de texte de cet élément est limitée à l’une des chaînes suivantes :
   
 - RuleId
     
 - DisplayName
     
-- Priority
+- Priorité
     
 - IsNotSupported
     
 - Actions
     
-- Condition : catégories
+- Condition:Categories
     
-- Condition : ContainsBodyStrings
+- Condition:ContainsBodyStrings
     
-- Condition : ContainsHeaderStrings
+- Condition:ContainsHeaderStrings
     
-- Condition : ContainsRecipientStrings
+- Condition:ContainsRecipientStrings
     
-- Condition : ContainsSenderStrings
+- Condition:ContainsSenderStrings
     
-- Condition : ContainsSubjectOrBodyStrings
+- Condition:ContainsSubjectOrBodyStrings
     
-- Condition : ContainsSubjectStrings
+- Condition:ContainsSubjectStrings
     
-- Condition : FlaggedForAction
+- Condition:FlaggedForAction
     
-- Condition : FromAddresses
+- Condition:FromAddresses
     
-- Condition : FromConnectedAccounts
+- Condition:FromConnectedAccounts
     
-- Condition : HasAttachments
+- Condition:HasAttachments
     
-- Condition : importance
+- Condition:Importance
     
-- Condition : IsApprovalRequest
+- Condition:IsApprovalRequest
     
-- Condition : IsAutomaticForward
+- Condition:IsAutomaticForward
     
-- Condition : IsAutomaticReply
+- Condition:IsAutomaticReply
     
-- Condition : IsEncrypted
+- Condition:IsEncrypted
     
-- Condition : IsMeetingRequest
+- Condition:IsMeetingRequest
     
-- Condition : IsMeetingResponse
+- Condition:IsMeetingResponse
     
-- Condition : IsNDR
+- Condition:IsNDR
     
-- Condition : IsPermissionControlled
+- Condition:IsPermissionControlled
     
-- Condition : IsReadReceipt
+- Condition:IsReadReceipt
     
-- Condition : IsSigned
+- Condition:IsSigned
     
-- Condition : IsVoicemail
+- Condition:IsVoicemail
     
-- Condition : ItemClasses
+- Condition:ItemClasses
     
-- Condition : MessageClassifications
+- Condition:MessageClassifications
     
-- Condition : NotSentToMe
+- Condition:NotSentToMe
     
-- Condition : SentCcMe
+- Condition:SentCcMe
     
-- Condition : SentOnlyToMe
+- Condition:SentOnlyToMe
     
-- Condition : SentToAddresses
+- Condition:SentToAddresses
     
-- Condition : SentToMe
+- Condition:SentToMe
     
-- Condition : SentToOrCcMe
+- Condition:SentToOrCcMe
     
-- Condition : sensibilité
+- Condition:Sensitivity
     
-- Condition : WithinDateRange
+- Condition:WithinDateRange
     
-- Condition : WithinSizeRange
+- Condition:WithinSizeRange
     
-- Exception : Categories
+- Exception:Categories
     
-- Exception : ContainsBodyStrings
+- Exception:ContainsBodyStrings
     
-- Exception : ContainsHeaderStrings
+- Exception:ContainsHeaderStrings
     
-- Exception : ContainsRecipientStrings
+- Exception:ContainsRecipientStrings
     
-- Exception : ContainsSenderStrings
+- Exception:ContainsSenderStrings
     
-- Exception : ContainsSubjectOrBodyStrings
+- Exception:ContainsSubjectOrBodyStrings
     
-- Exception : ContainsSubjectStrings
+- Exception:ContainsSubjectStrings
     
-- Exception : FlaggedForAction
+- Exception:FlaggedForAction
     
-- Exception : FromAddresses
+- Exception:FromAddresses
     
-- Exception : FromConnectedAccounts
+- Exception:FromConnectedAccounts
     
-- Exception : HasAttachments
+- Exception:HasAttachments
     
-- Exception : importance
+- Exception:Importance
     
-- Exception : IsApprovalRequest
+- Exception:IsApprovalRequest
     
-- Exception : IsAutomaticForward
+- Exception:IsAutomaticForward
     
-- Exception : IsAutomaticReply
+- Exception:IsAutomaticReply
     
-- Exception : IsEncrypted
+- Exception:IsEncrypted
     
-- Exception : IsMeetingRequest
+- Exception:IsMeetingRequest
     
-- Exception : IsMeetingResponse
+- Exception:IsMeetingResponse
     
-- Exception : IsNDR
+- Exception:IsNDR
     
-- Exception : IsPermissionControlled
+- Exception:IsPermissionControlled
     
-- Exception : IsReadReceipt
+- Exception:IsReadReceipt
     
-- Exception : IsSigned
+- Exception:IsSigned
     
-- Exception : IsVoicemail
+- Exception:IsVoicemail
     
-- Exception : ItemClasses
+- Exception:ItemClasses
     
-- Exception : MessageClassifications
+- Exception:MessageClassifications
     
-- Exception : NotSentToMe
+- Exception:NotSentToMe
     
-- Exception : SentCcMe
+- Exception:SentCcMe
     
-- Exception : SentOnlyToMe
+- Exception:SentOnlyToMe
     
-- Exception : SentToAddresses
+- Exception:SentToAddresses
     
-- Exception : SentToMe
+- Exception:SentToMe
     
-- Exception : SentToOrCcMe
+- Exception:SentToOrCcMe
     
-- Exception : Sensitivity
+- Exception:Sensitivity
     
-- Exception : WithinDateRange
+- Exception:WithinDateRange
     
-- Exception : WithinSizeRange
+- Exception:WithinSizeRange
     
-- Action : AssignCategories
+- Action:AssignCategories
     
-- Action : CopyToFolder,
+- Action:CopyToFolder
     
-- Action : supprimer
+- Action:Delete
     
-- Action : ForwardAsAttachmentToRecipients
+- Action:ForwardAsAttachmentToRecipients
     
-- Action : ForwardToRecipients
+- Action:ForwardToRecipients
     
-- Action : MarkImportance
+- Action:MarkImportance
     
-- Action : MarkAsRead
+- Action:MarkAsRead
     
-- Action : MoveToFolder
+- Action:MoveToFolder
     
-- Action : PermanentDelete
+- Action:PermanentDelete
     
-- Action : RedirectToRecipients
+- Action:RedirectToRecipients
     
-- Action : SendSMSAlertToRecipients
+- Action:SendSMSAlertToRecipients
     
-- Action : ServerReplyWithMessage
+- Action:ServerReplyWithMessage
     
-- Action : StopProcessingRules
+- Action:StopProcessingRules
     
 - IsEnabled
     
@@ -236,7 +236,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

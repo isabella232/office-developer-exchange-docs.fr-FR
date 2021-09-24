@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f7276aa-e354-40e4-b9cb-950fad46ac93
 description: L’élément UniqueBodyType spécifie si le corps unique est renvoyé au format texte ou HTML.
-ms.openlocfilehash: 7e6c4631ef589555ce4d5da747c200ffe956f3a1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a0149e41da24646fdf38a465434bfad3557ece22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459439"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520268"
 ---
 # <a name="uniquebodytype"></a>UniqueBodyType
 
-L’élément **UniqueBodyType** spécifie si le corps unique est renvoyé au format texte ou html. 
+**L’élément UniqueBodyType** spécifie si le corps unique est renvoyé au format texte ou HTML. 
   
 ```XML
 <UniqueBodyType> Best | HTML | Text </UniqueBodyType>
@@ -42,15 +42,15 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **UniqueBodyType** indique le format dans lequel le corps unique est renvoyé. Le tableau suivant répertorie les valeurs possibles pour cet élément. 
+La valeur de texte de **l’élément UniqueBodyType** indique que le corps unique est renvoyé au format. Le tableau suivant répertorie les valeurs possibles pour cet élément. 
   
 ****
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Idéale  <br/> |La réponse renverra le contenu disponible le plus riche du corps de texte. Ceci est utile s’il n’est pas connu si le contenu est du texte ou du code HTML.  <br/> Le corps renvoyé sera du texte si le corps stocké est en texte brut. Dans le cas contraire, la réponse renvoie HTML si le corps stocké est au format HTML ou RTF.  <br/> Il s’agit de la valeur par défaut.  <br/> |
-|HTML  <br/> |La réponse renverra un corps unique au format HTML.  <br/> |
-|Texte  <br/> |La réponse renverra un corps unique en tant que texte brut.  <br/> |
+|Idéale  <br/> |La réponse retourne le contenu disponible le plus riche du corps de texte. Cela est utile s’il est inconnu si le contenu est du texte ou du code HTML.  <br/> Le corps renvoyé sera du texte si le corps stocké est en texte simple. Sinon, la réponse retourne du code HTML si le corps stocké est au format HTML ou RTF.  <br/> Il s’agit de la valeur par défaut.  <br/> |
+|HTML  <br/> |La réponse retourne un corps unique au format HTML.  <br/> |
+|Texte  <br/> |La réponse retourne un corps unique sous forme de texte simple.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

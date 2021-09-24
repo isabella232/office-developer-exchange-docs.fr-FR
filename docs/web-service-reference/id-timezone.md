@@ -1,27 +1,27 @@
 ---
-title: ID (TimeZone)
+title: Id (TimeZone)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Id
 api_type:
 - schema
 ms.assetid: 4c7350b4-ffa1-4e7d-9433-80b4383bd0d2
-description: L’élément ID identifie une définition de fuseau horaire unique.
-ms.openlocfilehash: 18ded1c9c0b6f0219d6256ebe19b9b1f7173da2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Id identifie une définition de fuseau horaire unique.
+ms.openlocfilehash: 58ff0cf0302c961d743458f8b6c0f197e23d0278
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466135"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519470"
 ---
-# <a name="id-timezone"></a>ID (TimeZone)
+# <a name="id-timezone"></a>Id (TimeZone)
 
-L’élément **ID** identifie une définition de fuseau horaire unique. 
+**L’élément Id** identifie une définition de fuseau horaire unique. 
   
 ```xml
 <Id>...</Id>
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Codes](ids.md) <br/> |Contient un tableau d’identificateurs de définition de fuseau horaire.  <br/> |
+|[ID](ids.md) <br/> |Contient un tableau d’identificateurs de définition de fuseau horaire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. La valeur de texte représente l’identificateur unique de la définition du fuseau horaire.
+Une valeur de texte est requise. La valeur de texte représente l’identificateur unique pour la définition de fuseau horaire.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

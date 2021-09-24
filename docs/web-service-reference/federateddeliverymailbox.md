@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FederatedDeliveryMailbox
 api_type:
 - schema
 ms.assetid: cd56bcc0-d24a-4e8b-87bd-999bf69234b7
-description: L’élément FederatedDeliveryMailbox représente la boîte aux lettres à laquelle un message intersites a été envoyé.
-ms.openlocfilehash: d493ed81e82237b7257e8c469f4552d931b73aa6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FederatedDeliveryMailbox représente la boîte aux lettres à laquelle un message entre les locaux a été envoyé.
+ms.openlocfilehash: 41224f9d630bb0b98b27a2d969ec490c3379eee2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513737"
 ---
 # <a name="federateddeliverymailbox"></a>FederatedDeliveryMailbox
 
-L’élément **FederatedDeliveryMailbox** représente la boîte aux lettres à laquelle un message intersites a été envoyé. 
+**L’élément FederatedDeliveryMailbox représente** la boîte aux lettres à laquelle un message entre les locaux a été envoyé. 
   
 ```XML
 <FederatedDeliveryMailbox>
@@ -46,11 +46,11 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (EmailAddressType)](name-emailaddresstype.md) <br/> |Définit le nom de l’utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
+|[Name (EmailAddressType)](name-emailaddresstype.md) <br/> |Définit le nom de l’utilisateur de la boîte aux lettres. Cet élément est facultatif.  <br/> |
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Définit l’adresse SMTP (Simple Mail Transfer Protocol) d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Définit le routage utilisé pour la boîte aux lettres. La valeur par défaut est SMTP. Cet élément est facultatif.  <br/> |
 |[MailboxType](mailboxtype.md) <br/> |Définit le type de boîte aux lettres d’un utilisateur de boîte aux lettres. Cet élément est facultatif.  <br/> |
-|[ItemId](itemid.md) <br/> |Définit l’identificateur d’élément d’une liste de distribution privée ou de contact pour les destinataires à partir du dossier de contacts d’un utilisateur. Cet élément est facultatif.  <br/> |
+|[ItemId](itemid.md) <br/> |Définit l’identificateur d’élément d’un contact ou d’une liste de distribution privée pour les destinataires du dossier Contacts d’un utilisateur. Cet élément est facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

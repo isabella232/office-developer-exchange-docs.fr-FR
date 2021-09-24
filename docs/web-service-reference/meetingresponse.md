@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingResponse
 api_type:
 - schema
 ms.assetid: 9f798e79-dafd-4d4d-9967-95fd8e5c0502
 description: L’élément MeetingResponse représente une réponse de réunion dans le magasin Exchange de réunion.
-ms.openlocfilehash: 5f1e8b4c220f2b93d339d50541c266a11cb5262b
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: 7fa4c8d618291e69a668fcc2f9ddcd72e9ca28bc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532614"
 ---
 # <a name="meetingresponse"></a>MeetingResponse
 

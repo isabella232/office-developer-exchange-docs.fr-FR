@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fd465b4-6070-4cd0-9ac3-ed9d2bfd5951
-description: L’élément HasLocationChanged spécifie si la propriété Location d’une réunion a été modifiée.
-ms.openlocfilehash: 4f774adcf4a7666f40524931504f1172e15ba24d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément HasLocationChanged spécifie si la propriété d’emplacement d’une réunion a changé.
+ms.openlocfilehash: f59bca138d0baee87afd12470d9c50704edc75bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462443"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519547"
 ---
 # <a name="haslocationchanged"></a>HasLocationChanged
 
-L’élément **HasLocationChanged** spécifie si la propriété Location d’une réunion a été modifiée. 
+**L’élément HasLocationChanged** spécifie si la propriété d’emplacement d’une réunion a changé. 
   
 ```XML
 <HasLocationChanged> true | false </HasLocationChanged>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |Spécifie les modifications apportées entre deux versions d’un message de demande de réunion.  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |Spécifie ce qui a changé entre deux versions d’un message de demande de réunion.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **HasLocationChanged** indique que la propriété Location d’une réunion a changé. La valeur **false** indique que la propriété Location d’une réunion n’a pas été modifiée. 
+Une valeur de texte **true pour** **l’élément HasLocationChanged** indique que la propriété d’emplacement d’une réunion a changé. Une valeur **false** indique que la propriété d’emplacement d’une réunion n’a pas changé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

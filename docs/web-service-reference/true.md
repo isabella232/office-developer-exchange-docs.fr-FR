@@ -5,21 +5,21 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 96b4c288-c4d5-4378-8fc1-1a3ae98eedc9
-description: L’élément true spécifie une condition qui correspond toujours à.
-ms.openlocfilehash: 6ac0bc407c9c4cab23805d042e67d99359900137
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément True spécifie une condition qui correspond toujours.
+ms.openlocfilehash: 8dca53009dd6dd22db32a294324c5b9745de894a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520303"
 ---
 # <a name="true"></a>Vrai
 
-L’élément **true** spécifie une condition qui correspond toujours à. 
+**L’élément True** spécifie une condition qui correspond toujours. 
   
 ```xml
 <True/>
@@ -43,8 +43,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie action de la règle soit exécutée.  <br/> |
-|[Et (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour avoir la **valeur true**.  <br/> |
+|[Condition](condition.md) <br/> |Identifie la condition qui doit être remplie pour que la partie Action de la règle soit exécutée.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour être évalués sur **true**.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

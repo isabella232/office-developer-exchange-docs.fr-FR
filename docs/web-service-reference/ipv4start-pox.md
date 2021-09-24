@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3e3a47b8-22fa-4b07-a3ef-0b92ac69d36c
-description: L’élément IPv4Start identifie le début d’une plage d’adresses IP version 4 (IPv4) utilisées pour identifier un ordinateur sur un réseau.
-ms.openlocfilehash: 6bba98ce55e67aed7c301c87f98559688d41b5e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IPv4Start identifie le début d’une plage d’adresses IP de version 4 (IPv4) utilisées pour identifier un ordinateur sur un réseau.
+ms.openlocfilehash: c6b45ed6cca5c20a0de955286f9f058eb25e7164
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466408"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512974"
 ---
 # <a name="ipv4start-pox"></a>IPv4Start (POX)
 
-L’élément **IPv4Start** identifie le début d’une plage d’adresses IP version 4 (IPv4) utilisées pour identifier un ordinateur sur un réseau. 
+**L’élément IPv4Start** identifie le début d’une plage d’adresses IP de version 4 (IPv4) utilisées pour identifier un ordinateur sur un réseau. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -52,15 +52,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet (ISP) pour se connecter au serveur.  <br/> |
+|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contient les critères utilisés pour déterminer si l’ordinateur client se trouve sur un réseau qui répond aux exigences du fournisseur de services Internet (ISP) pour se connecter au serveur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente une adresse IPv4.
+La valeur de texte représente une adresse IPv4.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserOofSettings
 api_type:
 - schema
 ms.assetid: 153e4440-495b-4972-9811-2fbea740142a
-description: L’opération GetUserOofSettings obtient les messages et les paramètres d’absence du Bureau d’un utilisateur de boîte aux lettres.
-ms.openlocfilehash: 622faa622b0ea231a6331ff62631885d4252c1f5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetUserOofSettings obtient les paramètres et messages d’absence Office d’un utilisateur de boîte aux lettres.
+ms.openlocfilehash: 9298681bff1cce5be37e8bee978ddeb0431bacdc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457696"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59533409"
 ---
 # <a name="getuseroofsettings-operation"></a>Opération GetUserOofSettings
 
-L’opération **GetUserOofSettings** obtient les messages et les paramètres d’absence du Bureau d’un utilisateur de boîte aux lettres. 
+**L’opération GetUserOofSettings** obtient les paramètres et messages d’absence du Office d’un utilisateur de boîte aux lettres. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetUserOofSettings** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetUserOofSettings peut** utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="using-the-getuseroofsettings-operation"></a>Utilisation de l’opération GetUserOofSettings
 
-L’opération **GetUserOofSettings** permet d’accéder aux paramètres OOF d’un utilisateur. Un utilisateur est identifié par l’adresse e-mail de l’utilisateur. Si le message d’absence du Bureau est null et que le Bureau d’attente est activé, aucun message d’absence du Bureau n’est envoyé. 
+**L’opération GetUserOofSettings permet** d’accéder aux paramètres d’absence du service d’un utilisateur. Un utilisateur est identifié par son adresse de messagerie. Si le message d’absence du travail est null et qu’il est activé, aucun message d’absence du travail n’est envoyé. 
   
 > [!IMPORTANT]
-> Si les messages OOF sont définis par MicrosoftOfficeOutlook, cette opération renverra les messages OOF au format HTML. 
+> Si les messages d’absence du travail sont définies par MicrosoftOfficeOutlook, cette opération retourne les messages d’absence du travail au format HTML. 
   
 ## <a name="getuseroofsettings-request-example"></a>Exemple de requête GetUserOofSettings
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une requête **GetUserOofSettings** qui récupère les informations du Bureau d’veille d’un utilisateur unique. 
+L’exemple suivant illustre **une demande GetUserOofSettings** qui obtient les informations d’absence du travail d’un seul utilisateur. 
   
 ### <a name="code"></a>Code
 
@@ -62,21 +62,21 @@ L’exemple suivant montre une requête **GetUserOofSettings** qui récupère le
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
 - [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
     
-- [Boîte aux lettres (disponibilité)](mailbox-availability.md)
+- [Mailbox (Availability)](mailbox-availability.md)
     
-- [Address (chaîne)](address-string.md)
+- [Address (String)](address-string.md)
     
-## <a name="successful-getuseroofsettings-response-example"></a>Exemple de réponse GetUserOofSettings réussi
+## <a name="successful-getuseroofsettings-response-example"></a>Exemple de réponse GetUserOofSettings réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre un État OOF désactivé avec les messages OOF.
+L’exemple suivant montre un état d’absence du travail désactivé avec les messages d’absence du travail.
   
 ### <a name="code"></a>Code
 
@@ -114,7 +114,7 @@ L’exemple suivant montre un État OOF désactivé avec les messages OOF.
 </soap:Envelope>
 ```
 
-### <a name="successful-getuseroofsettings-response-elements"></a>Éléments Response GetUserOofSettings réussis
+### <a name="successful-getuseroofsettings-response-elements"></a>Éléments de réponse GetUserOofSettings réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -150,7 +150,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur causée par une tentative d’accès aux informations d’absence du Bureau d’un autre utilisateur.
+L’exemple suivant illustre une réponse d’erreur due à une tentative d’accès aux informations d’absence du travail d’un autre utilisateur.
   
 ### <a name="code"></a>Code
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21761cb0-4514-4adb-a659-59a3f2f0a6e1
-description: L’élément HomeCitySortKey représente la clé de tri pour la ville d’origine.
-ms.openlocfilehash: 8a6c96f7de8915259d1151fc4ddb9b6148a864b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément HomeCitySortKey représente la clé de tri de la ville d’origine.
+ms.openlocfilehash: bbb5cd196f595a042e5b2f62f41511a05f3b7edb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519540"
 ---
 # <a name="homecitysortkey"></a>HomeCitySortKey
 
-L’élément **HomeCitySortKey** représente la clé de tri pour la ville d’origine. 
+**L’élément HomeCitySortKey représente** la clé de tri de la ville d’origine. 
   
 ```XML
 <HomeCitySortKey></HomeCitySortKey>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **HomeCitySortKey** est la clé de tri pour le nom de la ville d’origine du personnage. 
+La valeur de texte de **l’élément HomeCitySortKey** est la clé de tri du nom de la ville d’origine du personnage. 
   
 ## <a name="remarks"></a>Remarques
 

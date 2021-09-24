@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAssociated
 api_type:
 - schema
 ms.assetid: 637f0798-6680-487f-bcbf-aaddc4a74186
 description: L’élément IsAssociated indique si l’élément est associé à un dossier.
-ms.openlocfilehash: 64a96a16d0303da3e0d8815fc51e6f5ffd342aa4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 39dbfd20b7d19f66bfe26a5587801c169cf148f0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466086"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512869"
 ---
 # <a name="isassociated"></a>IsAssociated
 
-L’élément **IsAssociated** indique si l’élément est associé à un dossier. 
+**L’élément IsAssociated** indique si l’élément est associé à un dossier. 
   
 ```XML
 <IsAssociated/>
@@ -50,16 +50,16 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément de publication dans la Exchange store.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que l’élément est associé à un dossier ; la valeur **false** indique que l’élément n’est pas associé à un dossier. 
+Une valeur de texte **true** indique que l’élément est associé à un dossier ; une valeur **false indique** que l’élément n’est pas associé à un dossier. 
   
 ## <a name="remarks"></a>Remarques
 

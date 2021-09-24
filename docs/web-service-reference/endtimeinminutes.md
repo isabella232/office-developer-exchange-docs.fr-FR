@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndTimeInMinutes
 api_type:
 - schema
 ms.assetid: ef05bdda-7a66-44db-bb73-a2ce8316c257
 description: L’élément EndTimeInMinutes représente la fin de la journée de travail pour un utilisateur de boîte aux lettres.
-ms.openlocfilehash: cb564f9de944848734749a30c813a94d6b5c4187
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 32d386969dd1f918de5f88c570f2e3e3bc97c82f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459650"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520681"
 ---
 # <a name="endtimeinminutes"></a>EndTimeInMinutes
 
-L’élément **EndTimeInMinutes** représente la fin de la journée de travail pour un utilisateur de boîte aux lettres. 
+**L’élément EndTimeInMinutes représente** la fin de la journée de travail pour un utilisateur de boîte aux lettres. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,13 +60,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et les heures de travail de la boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et heures de la semaine de travail de l’utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. La valeur de texte représente la fin du jour ouvré en nombre de minutes écoulées depuis le début du jour. Par exemple, une heure de fin de 18 heures. est représenté par 1080 minutes.
+Une valeur de texte est requise. La valeur de texte représente la fin de la journée de travail par le nombre de minutes écoulées depuis le début de la journée. Par exemple, l’heure de fin est de 18 heures. est représenté par 1 080 minutes.
   
-La plage de valeurs possibles pour cet élément est comprise entre 0 et 1440.
+La plage de valeurs possibles pour cet élément est de 0 à 1 440.
   
 ## <a name="remarks"></a>Remarques
 

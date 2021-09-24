@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationActionResponse
 api_type:
 - schema
 ms.assetid: 682d47a6-f9fe-4cc6-a56c-c5db835d5ec6
 description: L’élément ApplyConversationActionResponse définit une réponse à une demande d’opération ApplyConversationAction.
-ms.openlocfilehash: 22955378f8982c92b4cd0e9b8880b6907f47aa0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 99c86b791050691ab3b3b39a42af8e94acdc16f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461673"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520086"
 ---
 # <a name="applyconversationactionresponse"></a>ApplyConversationActionResponse
 
-L’élément **ApplyConversationActionResponse** définit une réponse à une demande d' [opération ApplyConversationAction](applyconversationaction-operation.md) . 
+**L’élément ApplyConversationActionResponse** définit une réponse à une demande d’opération [ApplyConversationAction.](applyconversationaction-operation.md) 
   
 [ApplyConversationActionResponse](applyconversationactionresponse.md)
   
@@ -44,7 +44,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -64,7 +64,7 @@ Cet élément est une nouveauté d’Exchange Server 2010 Service Pack 1 (SP
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

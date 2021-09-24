@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalFlagStatus
 api_type:
 - schema
 ms.assetid: 3ba300f3-3355-4cab-9e77-0dcc2902e712
-description: L’élément GlobalFlagStatus contient l’état de l’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres.
-ms.openlocfilehash: f9984a1bb7e8205a98dd3ef91f841b48a7ab9389
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GlobalFlagStatus contient l’état d’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres.
+ms.openlocfilehash: 2f9b0e05770eef497323150888c1302d5895f345
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459503"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519652"
 ---
 # <a name="globalflagstatus"></a>GlobalFlagStatus
 
-L’élément **GlobalFlagStatus** contient l’état de l’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres. 
+**L’élément GlobalFlagStatus** contient l’état d’indicateur agrégé pour tous les éléments de conversation dans une boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -56,13 +56,13 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GlobalFlagStatus** est l’état d’indicateur d’agrégation pour les éléments de conversation dans le dossier actif. Les valeurs possibles sont les suivantes : 
+La valeur de texte de **l’élément GlobalFlagStatus** est l’état d’indicateur agrégé pour les éléments de conversation dans le dossier actuel. Les valeurs de texte possibles sont les suivantes : 
   
-- **NotFlagged** -indique l’État sans indicateur. 
+- **NotFlagged** : indique l’état non marqué. 
     
-- **Indicateur** -indique l’état de l’indicateur. 
+- **Marqué :** indique l’état marqué. 
     
-- **Complete** -indique l’état complet de l’indicateur. 
+- **Complet** : indique l’état complet de l’indicateur. 
     
 ## <a name="remarks"></a>Remarques
 

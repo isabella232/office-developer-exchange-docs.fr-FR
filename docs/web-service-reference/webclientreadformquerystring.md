@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WebClientReadFormQueryString
 api_type:
 - schema
 ms.assetid: 13e8871a-32a6-4bb9-9493-864c4c07efff
-description: L’élément WebClientReadFormQueryString représente une URL à concaténer au point de terminaison d’Outlook Web App pour lire un élément dans Outlook Web App.
-ms.openlocfilehash: d7102ef288c0aafa6cdada09eda321b546edddb7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément WebClientReadFormQueryString représente une URL à concaténer au point de terminaison Outlook Web App pour lire un élément dans Outlook Web App.
+ms.openlocfilehash: 10035aa001c74926ae36e96e09b5b2995844cb68
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538470"
 ---
 # <a name="webclientreadformquerystring"></a>WebClientReadFormQueryString
 
-L’élément **WebClientReadFormQueryString** représente une URL à concaténer au point de terminaison d’Outlook Web App pour lire un élément dans Outlook Web App. 
+**L’élément WebClientReadFormQueryString** représente une URL à concaténer au point de terminaison Outlook Web App pour lire un élément dans Outlook Web App. 
   
 ```XML
 <WebClientReadFormQueryString/>
@@ -50,10 +50,10 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément de publication dans la Exchange store.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
    
@@ -63,15 +63,15 @@ Une valeur de texte qui représente une chaîne est requise si cet élément est
   
 ## <a name="remarks"></a>Remarques
 
-L’identificateur d’élément pour une URL d’Outlook Web App est l’identificateur EWS de l’élément. Vous pouvez encoder l’URL de l’identificateur d’élément EWS et l’ajouter à la chaîne de requête pour obtenir l’URL d’Outlook Web App pour un élément.
+L’identificateur d’élément Outlook URL Web App est l’identificateur EWS de l’élément. Vous pouvez coder l’identificateur d’élément EWS en URL et l’appendre à la chaîne de requête pour obtenir l’URL Outlook Web App pour un élément.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
 ### <a name="version-differences"></a>Différences entre les versions
 
-Les versions d’Exchange commençant par la version principale 15 et se terminant par Exchange Server 2013 Build 15.0.775.38 (CU3) et Exchange Online version 15.00.0775.009 ne renvoient pas un fragment de chaîne de requête correct dans l’élément **WebClientReadFormQueryString** . 
+Les versions de Exchange commençant par la version principale 15 et se terminant par Exchange Server 2013 build 15.0.775.38 (CU3) et Exchange Online version 15.00.0775.009 ne retournent pas un fragment de chaîne de requête correct dans l’élément **WebClientReadFormQueryString.** 
   
-Dans les versions d’Exchange antérieures à la version majeure 15, l’identificateur d’élément pour l’URL d’Outlook Web App est un identificateur Outlook Web App. Si vous ciblez une version d’Exchange antérieure à la version majeure 15, vous devez utiliser l' [opération ConvertId](convertid-operation.md) pour convertir l’identificateur. 
+Dans les versions Exchange antérieures à la version principale 15, l’identificateur d’élément pour les URL Outlook Web App est un identificateur web app Outlook. Si vous ciblez une version de Exchange antérieure à la version majeure 15, vous devez utiliser l’opération [ConvertId](convertid-operation.md) pour convertir l’identificateur. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

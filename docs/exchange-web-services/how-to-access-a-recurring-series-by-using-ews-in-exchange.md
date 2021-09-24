@@ -3,35 +3,35 @@ title: Accéder à une série périodique à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 196a5671-2836-4696-b734-d5ecfdbf8962
-description: Découvrez comment accéder aux éléments de calendrier dans une série périodique à l’aide de l’API managée EWS ou d’EWS dans Exchange.
-ms.openlocfilehash: dca41472b3b2f775f420b6654d7e43ef456b0583
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez comment accéder aux éléments de calendrier dans une série périodique à l’aide de l’API gérée EWS ou EWS dans Exchange.
+ms.openlocfilehash: 280affe532beb282bdd5cdb0c02a3dfaa62751e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456891"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513240"
 ---
 # <a name="access-a-recurring-series-by-using-ews-in-exchange"></a>Accéder à une série périodique à l’aide d’EWS dans Exchange
 
-Découvrez comment accéder aux éléments de calendrier dans une série périodique à l’aide de l’API managée EWS ou d’EWS dans Exchange.
+Découvrez comment accéder aux éléments de calendrier dans une série périodique à l’aide de l’API gérée EWS ou EWS dans Exchange.
   
-Une série périodique de rendez-vous ou de réunions est constituée d’une forme de base périodique, d’un nombre d’occurrences d’une série qui se répètent en fonction d’un modèle défini, et, éventuellement, de jeux d’occurrences qui ont été modifiés et qui ont été supprimés. Vous pouvez utiliser l’API managée EWS ou EWS pour accéder à des éléments de calendrier dans une série périodique. Cela vous permet d’effectuer les opérations suivantes :
+Une série périodique de rendez-vous ou de réunions est composé d’une forme de base périodique, d’un certain nombre d’occurrences d’une série qui se répètent selon un modèle d’ensemble et, éventuellement, d’ensembles d’occurrences qui ont été modifiées et qui ont été supprimées. Vous pouvez utiliser l’API gérée EWS ou EWS pour accéder aux éléments de calendrier d’une série périodique. Cela vous permet de :
   
-- Vérifiez si un élément de calendrier associé à un ID d’élément est une forme de base périodique, une occurrence dans une série ou une exception à une série.
+- Vérifiez si un élément de calendrier associé à un ID d’élément est un maître périodique, une occurrence d’une série ou une exception à une série.
     
-- Recherchez dans votre dossier de calendrier les rendez-vous périodiques.
+- Recherchez des rendez-vous de récurrence dans votre dossier de calendrier.
     
-- Obtenir des éléments de calendrier de récurrence associés
+- Obtenir les éléments de calendrier de récurrence associés
     
-- Parcourir les occurrences dans une série, des exceptions d’occurrences ou des suppressions d’occurrences.
+- Itérer les occurrences d’une série, les exceptions d’occurrence ou les suppressions d’occurrences.
     
-## <a name="get-a-collection-of-recurring-calendar-items-by-using-the-ews-managed-api"></a>Obtenir une collection d’éléments de calendrier périodique à l’aide de l’API managée EWS
+## <a name="get-a-collection-of-recurring-calendar-items-by-using-the-ews-managed-api"></a>Obtenir une collection d’éléments de calendrier périodiques à l’aide de l’API gérée EWS
 
-Si vous souhaitez récupérer une collection de rendez-vous, vous pouvez utiliser la méthode [ExchangeService. findappointmentspour](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) pour récupérer tous les rendez-vous entre une date de début et de fin donnée, puis ajouter tous les **éléments de calendrier** avec un type de rendez-vous ou une **exception** à une collection, comme illustré dans l’exemple suivant. 
+Si vous souhaitez récupérer une collection de rendez-vous, vous pouvez utiliser la méthode [ExchangeService.FindAppointments](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.findappointments%28v=exchg.80%29.aspx) pour récupérer tous les rendez-vous entre une date de début et de fin donnée, puis ajouter tous les éléments de calendrier dont le type de rendez-vous est **Occurrence** ou **Exception** à une collection, comme illustré dans l’exemple suivant. 
   
-Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService ](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. 
+Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. 
   
 ```cs
 public static Collection<Appointment> FindRecurringCalendarItems(ExchangeService service, 
@@ -66,9 +66,9 @@ public static Collection<Appointment> FindRecurringCalendarItems(ExchangeService
 
 ```
 
-Notez que les éléments de calendrier principal périodique ne sont pas renvoyés lors d’un appel à **findappointmentspour**. Si vous souhaitez récupérer des masques périodiques, ou si vous souhaitez une approche plus générale de la récupération des éléments de calendrier, vous devez utiliser [ExchangeService. FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx). Vous pouvez ensuite utiliser un filtre de recherche pour récupérer uniquement les éléments dont la date de début est supérieure ou égale à la date que vous choisissez et un affichage d’élément pour limiter le nombre d’éléments à renvoyer. Notez qu’un masque périodique dont la date de début est antérieure à la date de début de votre recherche ne sera pas trouvé, même si des occurrences se produisent dans cette plage.
+Notez que les éléments de calendrier principal périodiques ne sont pas renvoyés dans un appel **à FindAppointments**. Si vous souhaitez récupérer des maîtres périodiques ou une approche plus générale de la récupération des éléments de calendrier, vous devez utiliser [ExchangeService.FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx). Vous pouvez ensuite utiliser un filtre de recherche pour récupérer uniquement les éléments dont la date de début est supérieure ou égale à la date que vous choisissez, et un affichage d’élément pour limiter le nombre d’éléments à renvoyer. Notez qu’un récurrable maître dont la date de début est antérieure à la date de début de votre recherche est in found, même si des occurrences se produisent dans cette plage.
   
-Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService ](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. 
+Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. 
   
 ```cs
 public static Collection<Appointment> FindCalendarItemsByAppointmentType(ExchangeService service, 
@@ -102,21 +102,21 @@ public static Collection<Appointment> FindCalendarItemsByAppointmentType(Exchang
 
 ```
 
-## <a name="get-related-recurrence-calendar-items-by-using-the-ews-managed-api"></a>Obtenir des éléments de calendrier de récurrence associés à l’aide de l’API managée EWS
+## <a name="get-related-recurrence-calendar-items-by-using-the-ews-managed-api"></a>Obtenir les éléments de calendrier de récurrence associés à l’aide de l’API gérée EWS
 
-Parfois, vous avez un élément de puzzle, mais pour le résoudre, vous avez besoin des autres éléments. Si vous disposez de l’ID d’un élément de calendrier de périodicité, vous pouvez obtenir les autres éléments dont vous avez besoin à l’aide de l’une des différentes propriétés ou méthodes de l’API managée EWS.
+Parfois, vous avez une partie du puzzle, mais pour le résoudre, vous avez besoin du reste des pièces. Si vous avez l’ID d’élément pour un élément de calendrier de récurrence, vous pouvez obtenir les autres éléments dont vous avez besoin à l’aide de l’une des méthodes ou propriétés de l’API gérée EWS.
   
-**Tableau 1. Propriété ou méthode de l’API managée EWS à utiliser pour obtenir des éléments de calendrier de récurrence associés**
+**Tableau 1. Propriété ou méthode d’API gérée EWS à utiliser pour obtenir les éléments de calendrier de récurrence associés**
 
 |**Si vous avez l’ID d’élément pour...**|**Vous pouvez obtenir...**|**À l’aide de...**|
 |:-----|:-----|:-----|
-|Élément de calendrier principal périodique  <br/> | Première occurrence d’une série  <br/>  Dernière occurrence d’une série  <br/>  Les exceptions à une série  <br/>  Rendez-vous supprimés d’une série  <br/>  Toute occurrence (en fonction de son index)  <br/> |Propriété appointment [. FirstOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx)  <br/> Propriété appointment [. LastOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx)  <br/> Propriété appointment [. ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx)  <br/> Propriété appointment [. DeletedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx)  <br/> Méthode appointment [. BindToOccurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx)  <br/> |
-|Une seule occurrence dans une série  <br/> |Le masque périodique  <br/> |Méthode appointment [. BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx)  <br/> |
-|N’importe quel élément de calendrier (objet de [rendez-vous](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) )  <br/> |Valeur d’énumération du [type de rendez-vous](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointmenttype%28v=exchg.80%29.aspx)  <br/> |Propriété appointment [. AppointmentType](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.appointmenttype%28v=exchg.80%29.aspx)  <br/> |
+|Élément de calendrier principal périodique  <br/> | Première occurrence d’une série  <br/>  Dernière occurrence d’une série  <br/>  Les exceptions à une série  <br/>  Les rendez-vous supprimés d’une série  <br/>  Toute occurrence (en raison de son index)  <br/> |[Propriété Appointment.FirstOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx)  <br/> [Propriété Appointment.LastOccurrence](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx)  <br/> [Propriété Appointment.ModifiedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx)  <br/> [Propriété Appointment.DeletedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx)  <br/> [Méthode Appointment.BindToOccurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtooccurrence%28v=exchg.80%29.aspx)  <br/> |
+|Une occurrence unique dans une série  <br/> |Le maître périodique  <br/> |[Méthode Appointment.BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx)  <br/> |
+|Tout élément de calendrier (objet [Appointment)](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx)  <br/> |Valeur [d’éumération du type](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointmenttype%28v=exchg.80%29.aspx) de rendez-vous  <br/> |[Propriété Appointment.AppointmentType](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.appointmenttype%28v=exchg.80%29.aspx)  <br/> |
    
-L’exemple de code suivant montre comment obtenir une forme de base périodique, la première ou la dernière occurrence d’une série, ou une occurrence en fonction de son index.
+L’exemple de code suivant montre comment obtenir une forme de référence périodique, la première ou la dernière occurrence d’une série ou une occurrence en raison de son index.
   
-Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService ](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. 
+Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. 
   
 ```cs
 public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, ItemId itemId)
@@ -176,11 +176,11 @@ public static void GetRelatedRecurrenceCalendarItems(ExchangeService service, It
 
 ```
 
-## <a name="access-calendar-items-in-a-recurring-series-by-using-ews"></a>Accéder aux éléments de calendrier dans une série périodique à l’aide d’EWS
+## <a name="access-calendar-items-in-a-recurring-series-by-using-ews"></a>Accéder aux éléments de calendrier d’une série périodique à l’aide d’EWS
 
-L’accès aux éléments de calendrier dans une série périodique est très semblable à l’accès à des instances uniques d’éléments de calendrier. Vous utilisez une demande d’opération [GetItem](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) , en spécifiant les propriétés de votre choix, avec la [OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) de l’instance de rendez-vous dont vous avez besoin. L' [OccurrenceItemId](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) contient l' **ItemId** de la forme de base périodique de l’occurrence, ainsi que sa valeur d’index dans la série. 
+L’accès aux éléments de calendrier dans une série périodique est très similaire à l’accès à des instances d’éléments de calendrier. Vous utilisez une [demande d’opération GetItem,](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) en spécifiant les propriétés que vous souhaitez, avec l’OccurrenceItemId de l’instance de rendez-vous dont vous avez besoin. [](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) [L’OccurrenceItemId contient](https://msdn.microsoft.com/library/4a15bbc3-5b93-4193-b9ec-da32f0a9a552%28Office.15%29.aspx) **l’ItemID** de la forme de référence périodique de l’occurrence, ainsi que sa valeur d’index dans la série. 
   
-Le code XML suivant illustre la demande [GetItem](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) utilisée pour renvoyer une occurrence dans une série spécifiée par son index. Notez que l' **ItemId** de la forme de base périodique a été raccourcie pour des raisons de lisibilité. 
+Le XML suivant montre la [requête GetItem](https://msdn.microsoft.com/library/769df8eb-9c72-48b5-a49f-82c6b86bc5fc%28Office.15%29.aspx) utilisée pour renvoyer une occurrence dans une série spécifiée par son index. Notez que **l’ItemID** de la master périodique a été raccourci pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -208,7 +208,7 @@ Le code XML suivant illustre la demande [GetItem](https://msdn.microsoft.com/lib
 </soap:Envelope>
 ```
 
-Le serveur répond à la demande **GetItem** avec un message [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NOERROR**, ce qui indique que le message électronique a été créé avec succès, et l' [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) du nouveau message. 
+Le serveur répond à la demande **GetItem** avec un message [GetItemResponse](https://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) qui inclut une valeur [ResponseCode](https://msdn.microsoft.com/library/aa580757%28v=exchg.150%29.aspx) de **NoError**, qui indique que le message a été correctement créé, et l’ItemId du message nouvellement créé. [](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) 
   
 ## <a name="see-also"></a>Voir aussi
 

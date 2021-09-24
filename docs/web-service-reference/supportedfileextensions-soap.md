@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f73d18c-7bb1-4ab6-a23b-6d948e590b53
-description: L’élément SupportedFileExtensions répertorie les extensions de fichiers qui peuvent être stockées dans un emplacement de partage de documents.
-ms.openlocfilehash: d783b147a25ebbe3bff59c2142012b50bd80004e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SupportedFileExtensions répertorie les extensions de fichier qui peuvent être stockées dans un emplacement de partage de documents.
+ms.openlocfilehash: 0b0fd8bb36bf284155cbdad1da70f38b22a0a2b6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44433986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538960"
 ---
 # <a name="supportedfileextensions-soap"></a>SupportedFileExtensions (SOAP)
 
-L’élément **SupportedFileExtensions** répertorie les extensions de fichiers qui peuvent être stockées dans un emplacement de partage de documents. 
+**L’élément SupportedFileExtensions** répertorie les extensions de fichier qui peuvent être stockées dans un emplacement de partage de documents. 
   
 ```XML
 <SupportedFileExtensions /> 
@@ -49,7 +49,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

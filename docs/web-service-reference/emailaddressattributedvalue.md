@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebdf224d-3796-4179-aa0a-87942e7585ff
-description: L’élément EmailAddressAttributedValue spécifie une instance d’un tableau d’adresses de messagerie et les attributions associées.
-ms.openlocfilehash: 09fdd5921cef3d70a6da4b6d4d38f08834c5d482
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EmailAddressAttributedValue spécifie une instance d’un tableau d’adresses de messagerie et leurs attributions associées.
+ms.openlocfilehash: 2b5e9b431b6a62c63e815bfee190c923f454c867
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519764"
 ---
 # <a name="emailaddressattributedvalue"></a>EmailAddressAttributedValue
 
-L’élément **EmailAddressAttributedValue** spécifie une instance d’un tableau d’adresses de messagerie et les attributions associées. 
+**L’élément EmailAddressAttributedValue** spécifie une instance d’un tableau d’adresses de messagerie et leurs attributions associées. 
   
 ```XML
 <EmailAddressAttributedValue>
@@ -39,16 +39,16 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (EmailAddressType)](value-emailaddresstype.md) <br/> |Spécifie la valeur d’un **EmailAddress** associé à un tableau d’attributions.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
+|[Value (EmailAddressType)](value-emailaddresstype.md) <br/> |Spécifie la valeur d’un **emailAddress** associé à un tableau d’attributions.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau d’attributions pour son élément **Value** associé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Emails1](emails1.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions sources pour le personnage associé.  <br/> |
-|[Emails2](emails2.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions sources pour le personnage associé.  <br/> |
-|[Emails3](emails3.md) <br/> |Spécifie un tableau de valeurs de messagerie et les identificateurs de leurs attributions sources pour le personnage associé.  <br/> |
+|[Emails1](emails1.md) <br/> |Spécifie un tableau de valeurs de courrier électronique et les identificateurs de leurs attributions source pour le personnage associé.  <br/> |
+|[Emails2](emails2.md) <br/> |Spécifie un tableau de valeurs de courrier électronique et les identificateurs de leurs attributions source pour le personnage associé.  <br/> |
+|[Emails3](emails3.md) <br/> |Spécifie un tableau de valeurs de courrier électronique et les identificateurs de leurs attributions source pour le personnage associé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

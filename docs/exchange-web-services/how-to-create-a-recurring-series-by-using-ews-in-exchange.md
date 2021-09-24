@@ -3,40 +3,40 @@ title: Créer une série périodique à l’aide d’EWS dans Exchange
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ed6e87-25f7-4a54-83fa-d757a0ff2528
-description: Découvrez comment créer des réunions périodiques à l’aide de l’API managée EWS ou EWS dans Exchange.
-ms.openlocfilehash: 1d04bd48c56a1a0e94eb1368166f776b3dfeb23a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez comment créer des réunions périodiques à l’aide de l’API gérée EWS ou EWS dans Exchange.
+ms.openlocfilehash: 58dfa821774a06db540ed734f616d28f663be53d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456870"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513226"
 ---
 # <a name="create-a-recurring-series-by-using-ews-in-exchange"></a>Créer une série périodique à l’aide d’EWS dans Exchange
 
-Découvrez comment créer des réunions périodiques à l’aide de l’API managée EWS ou EWS dans Exchange.
+Découvrez comment créer des réunions périodiques à l’aide de l’API gérée EWS ou EWS dans Exchange.
   
-La création d’un rendez-vous ou d’une réunion périodique n’est pas très différente de [la création d’une réunion ou d’un rendez-vous unique d’instance](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md). Il vous suffit d’affecter des valeurs à quelques propriétés supplémentaires liées à la récurrence. Celles-ci sont définies sur un objet [rerecurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) de l’objet [ExchangeService.](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) Appointment (si vous utilisez l’API managée EWS) ou l’élément enfant de [récurrence](https://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) d’un élément [CalendarItem](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) (si vous utilisez EWS). L’un des éléments à prendre en compte lors de la création d’une réunion périodique, au lieu d’une réunion à instance unique, est que l’élément de calendrier que vous créez est le masque périodique d’une série. Un certain nombre de propriétés ne sont définies que sur un masque périodique ; ces propriétés peuvent vous aider à rechercher, modifier ou supprimer des instances individuelles dans une série. Pour cette raison, il peut être utile d’effectuer le suivi de l’ID de la forme de base périodique lorsque vous créez une série périodique. 
+La création d’un rendez-vous ou d’une réunion périodique n’est pas très différente de la création d’un rendez-vous ou d’une [réunion d’instance unique.](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md) Il vous suffit d’affecter des valeurs à quelques propriétés supplémentaires liées à la récurrence. Ceux-ci sont définies sur l’objet [Recurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) d’un objet [ExchangeService.Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) (si vous utilisez l’API gérée EWS) ou sur l’élément enfant [Recurrence](https://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) d’un élément [CalendarItem](https://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) (si vous utilisez EWS). Lorsque vous créez une réunion périodique plutôt qu’une réunion à instance unique, vous devez tenir compte du fait que l’élément de calendrier que vous créez est le maître périodique d’une série. Un certain nombre de propriétés sont définies uniquement sur une maître périodique ; Ces propriétés peuvent vous aider à rechercher, modifier ou supprimer des instances individuelles dans une série. Pour cette raison, il peut être utile d’assurer le suivi de l’ID de la maître périodique lorsque vous créez une série périodique. 
   
-**Tableau 1. Propriétés définies sur les éléments de calendrier principal périodiques**
+**Tableau 1. Propriétés définies sur les éléments périodiques du calendrier maître**
 
-|**Classe ou propriété de l’API managée EWS**|**Élément XML EWS**|**Description**|
+|**Propriété ou classe d’API gérée EWS**|**Élément XML EWS**|**Description**|
 |:-----|:-----|:-----|
-|[Classe de récurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) <br/> La classe **Recurrence** est la classe de base d’une classe de modèle dérivée, [IntervalPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.intervalpattern%28v=exchg.80%29.aspx), [RelativeYearlyPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx)ou [YearlyPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx).  <br/> |[Récurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) <br/> |Contient des informations relatives à la périodicité, dont le modèle de périodicité (quotidien, hebdomadaire, mensuel, etc.), la date de début et de fin, le nombre d’occurrences, etc.  <br/> |
-|[FirstOccurrence, propriété](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx) <br/> |[FirstOccurrence](https://msdn.microsoft.com/library/d6748860-ce0d-4d2e-b7e4-9ed834f1e45a%28Office.15%29.aspx) <br/> |Contient les heures de début et de fin et l’ID d’élément de la première réunion d’une série.  <br/> |
+|[Classe de récurrence](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence%28v=exchg.80%29.aspx) <br/> La **classe Recurrence** est la classe de base pour une classe de modèle dérivée, [IntervalPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.intervalpattern%28v=exchg.80%29.aspx), [RelativeYearlyPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.relativeyearlypattern%28v=exchg.80%29.aspx)ou [YearlyPattern](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.recurrence.yearlypattern%28v=exchg.80%29.aspx).  <br/> |[Recurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) <br/> |Contient des informations sur la récurrence, notamment la récurrence (quotidienne, hebdomadaire, mensuelle, etc.), la date de début et de fin, le nombre d’occurrences, etc.  <br/> |
+|[FirstOccurrence, propriété](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.firstoccurrence%28v=exchg.80%29.aspx) <br/> |[FirstOccurrence](https://msdn.microsoft.com/library/d6748860-ce0d-4d2e-b7e4-9ed834f1e45a%28Office.15%29.aspx) <br/> |Contient les heures de début et de fin et l’ID d’élément pour la première réunion d’une série.  <br/> |
 |[LastOccurrence, propriété](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.lastoccurrence%28v=exchg.80%29.aspx) <br/> |[LastOccurrence](https://msdn.microsoft.com/library/c9ef0fcb-4265-4e60-9986-fff0f211d00b%28Office.15%29.aspx) <br/> |Contient les heures de début et de fin et l’ID d’élément de la dernière réunion d’une série.  <br/> |
-|[ModifiedOccurrences, propriété](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) <br/> |[ModifiedOccurrences](https://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) <br/> |Contient le jeu de toutes les réunions de la série qui ont été modifiées à partir de la périodicité d’origine.  <br/> |
-|[DeletedOccurrences, propriété](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx) <br/> |[DeletedOccurrences](https://msdn.microsoft.com/library/736fb305-9528-4be8-ad37-65d7556edbf2%28Office.15%29.aspx) <br/> |Contient l’ensemble de toutes les réunions de la série qui ont été supprimées de la périodicité d’origine.  <br/> |
+|[ModifiedOccurrences, propriété](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.modifiedoccurrences%28v=exchg.80%29.aspx) <br/> |[ModifiedOccurrences](https://msdn.microsoft.com/library/552932fc-b3b4-486e-8d73-32c0bb10bd68%28Office.15%29.aspx) <br/> |Contient l’ensemble de toutes les réunions de la série qui ont été modifiées à partir de la récurrence d’origine.  <br/> |
+|[Propriété DeletedOccurrences](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.deletedoccurrences%28v=exchg.80%29.aspx) <br/> |[DeletedOccurrences](https://msdn.microsoft.com/library/736fb305-9528-4be8-ad37-65d7556edbf2%28Office.15%29.aspx) <br/> |Contient l’ensemble de toutes les réunions de la série qui ont été supprimées de la récurrence d’origine.  <br/> |
    
-Étant donné que les réunions sont essentiellement des rendez-vous qui incluent des participants, les exemples de code de cet article montrent comment créer des réunions périodiques. Si vous souhaitez créer un rendez-vous périodique, vous pouvez modifier les exemples en supprimant le code lié aux participants.
+Étant donné que les réunions sont essentiellement des rendez-vous qui incluent des participants, les exemples de code de cet article montrent comment créer des réunions périodiques. Si vous souhaitez créer un rendez-vous périodique, vous pouvez modifier les exemples en supprimant le code associé aux participants.
   
-## <a name="create-a-recurring-meeting-by-using-the-ews-managed-api"></a>Créer une réunion périodique à l’aide de l’API managée EWS
+## <a name="create-a-recurring-meeting-by-using-the-ews-managed-api"></a>Créer une réunion périodique à l’aide de l’API gérée EWS
 <a name="bk_CreateMtgEWSMA"> </a>
 
-L’exemple de code suivant montre comment créer une réunion périodique. Tout d’abord, affectez des valeurs aux propriétés d’un [objet de rendez-vous](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) utilisé pour créer une réunion, puis utilisez la méthode [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) pour enregistrer la série périodique dans votre dossier de calendrier et envoyer les demandes de réunion aux participants. Enfin, utilisez la méthode appointment [. bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) pour examiner les valeurs définies sur le masque périodique de la série périodique que vous venez de créer. 
+L’exemple de code suivant montre comment créer une réunion périodique. Tout d’abord, affectez des valeurs aux propriétés d’un objet [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) utilisé pour créer une réunion, puis utilisez la méthode [Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) pour enregistrer la série périodique dans votre dossier de calendrier et envoyer des demandes de réunion à vos participants. Enfin, utilisez la [méthode Appointment.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) pour examiner les valeurs définies sur le récurrent de la série périodique que vous avez créée. 
   
-Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService ](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. La méthode de cet exemple renvoie l' [ID d’élément](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) du masque périodique de la série périodique. 
+Cet exemple suppose que vous ont été authentifiés auprès d'un serveur Exchange et que vous avez acquis un [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. La méthode de cet exemple renvoie [l’ID d’élément](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.id%28v=exchg.80%29.aspx) du récurrent de la série périodique. 
   
 ```cs
 public static ItemId CreateARecurringMeeting(ExchangeService service)
@@ -93,7 +93,7 @@ public static ItemId CreateARecurringMeeting(ExchangeService service)
 ## <a name="create-a-recurring-meeting-by-using-ews"></a>Créer une réunion périodique à l’aide d’EWS
 <a name="bk_CreateMtgEWS"> </a>
 
-Les données XML de demande et de réponse dans les exemples suivants correspondent aux appels effectués pour [créer une réunion périodique à l’aide de l’API managée EWS](#bk_CreateMtgEWSMA). Notez qu’il n’est pas possible de définir des valeurs propres à la périodicité sur l’élément de [périodicité](https://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) , mais la demande est essentiellement identique à celle que vous utiliseriez pour créer un rendez-vous unique. L'exemple suivant présente le code XML de demande lors de l'utilisation de l'opération [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) pour créer une réunion. 
+Le XML de demande et de réponse dans les exemples suivants correspond aux appels effectués pour créer une réunion périodique à l’aide de [l’API gérée EWS](#bk_CreateMtgEWSMA). Notez qu’en plus de définir des valeurs propres à la récurrence sur l’élément [Recurrence,](https://msdn.microsoft.com/library/5f164e5b-47b6-4242-b6b9-8d650090a831%28Office.15%29.aspx) la demande est essentiellement la même que celle que vous utiliseriez pour créer un rendez-vous à instance unique. L'exemple suivant présente le code XML de demande lors de l'utilisation de l'opération [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) pour créer une réunion. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -203,7 +203,7 @@ Les données XML de demande et de réponse dans les exemples suivants correspond
 
  L'exemple suivant présente le code XML de réponse renvoyé par l'opération **CreateItem**. 
   
-Les attributs **ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
+Les **attributs ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -234,9 +234,9 @@ Les attributs **ItemId** et **ChangeKey** sont raccourcis pour des raisons de li
 
 ```
 
-L’exemple suivant montre le code XML de demande généré lorsque vous utilisez l’opération [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) et l' **ItemId** pour la série que vous avez créée, et les propriétés de requête définies uniquement sur une forme de base périodique pour confirmer que l' **ItemId** renvoyé par le serveur lors de la création d’une série périodique est destiné à une forme de base périodique. 
+L’exemple suivant montre le XML de requête qui est généré lorsque vous utilisez l’opération [GetItem](https://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) et **l’ItemId** pour la série que vous avez créée, et demande des propriétés définies uniquement sur un maître périodique pour confirmer que **l’ItemId** renvoyé par le serveur lors de la création d’une série périodique est pour un maître périodique. 
   
-Les attributs **ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
+Les **attributs ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -272,7 +272,7 @@ Les attributs **ItemId** et **ChangeKey** sont raccourcis pour des raisons de li
 
  L'exemple suivant présente le code XML de réponse renvoyé par l'opération **GetItem**. 
   
-Les attributs **ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
+Les **attributs ItemId** et **ChangeKey** sont raccourcis pour des raisons de lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -338,10 +338,10 @@ Les attributs **ItemId** et **ChangeKey** sont raccourcis pour des raisons de li
     
 - [Accéder à une série périodique à l’aide d’EWS dans Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [Supprimer des rendez-vous dans une série périodique à l’aide d’EWS dans Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
+- [Supprimer des rendez-vous dans une série périodique à l’aide d’EWS Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
     
 - [Mettre à jour une série périodique à l’aide d’EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [Mettre à jour une série périodique à l’aide d’EWS dans Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [Mettre à jour une série périodique à l’aide d’EWS Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
 

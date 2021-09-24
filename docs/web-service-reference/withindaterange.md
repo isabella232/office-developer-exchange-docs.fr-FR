@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - WithinDateRange
 api_type:
 - schema
 ms.assetid: 226aeb15-016f-45ca-992a-c137ba09ca08
-description: L’élément WithinDateRange spécifie la plage de dates au cours de laquelle des messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: ef5fb15b64ee4f7060f907818c4ebd4367ced5e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément WithinDateRange spécifie la plage de dates dans laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 15f370746b375b4f2b59ca351b3bd3c8defdd947
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461848"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538463"
 ---
 # <a name="withindaterange"></a>WithinDateRange
 
-L’élément **WithinDateRange** spécifie la plage de dates au cours de laquelle des messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique. 
+**L’élément WithinDateRange** spécifie la plage de dates dans laquelle les messages entrants doivent avoir été reçus afin que la condition ou l’exception s’applique. 
   
 ```XML
 <WithinDateRange>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StartDateTime](startdatetime.md) <br/> |Spécifie la période de la règle et indique que la condition de règle est remplie après cette valeur.  <br/> |
-|[EndDateTime](enddatetime.md) <br/> |Spécifie la période de la règle et indique que la condition de règle est remplie avant cette valeur.  <br/> |
+|[StartDateTime](startdatetime.md) <br/> |Spécifie la période de règle et indique que la condition de règle est remplie après cette valeur.  <br/> |
+|[EndDateTime](enddatetime.md) <br/> |Spécifie la période de règle et indique que la condition de règle est remplie avant cette valeur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

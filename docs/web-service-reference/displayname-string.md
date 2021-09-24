@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisplayName
 api_type:
 - schema
 ms.assetid: e7efbbe1-6629-4d11-bed1-ed899e3f9d77
 description: L’élément DisplayName définit le nom complet d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué, d’un emplacement ou d’une règle.
-ms.openlocfilehash: 9b566ec1938ec206e45cddf9c7f00083af2d8a9c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3fc0faca0425bc6de3f71c154926991d922c8a79
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463615"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520862"
 ---
 # <a name="displayname-string"></a>DisplayName (String)
 
-L’élément **DisplayName** définit le nom complet d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué, d’un emplacement ou d’une règle. 
+**L’élément DisplayName** définit le nom complet d’un dossier, d’un contact, d’une liste de distribution, d’un utilisateur délégué, d’un emplacement ou d’une règle. 
   
 ```XML
 <DisplayName/>
@@ -52,7 +52,7 @@ Aucun.
 |[Règle (RuleType)](rule-ruletype.md) <br/> |Représente une règle dans la boîte aux lettres d’un utilisateur.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche dans une boîte aux lettres.  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches dans une boîte aux lettres.  <br/> |
-|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier.  <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose d’autorisations d’accès aux dossiers.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
   
 ## <a name="example"></a>Exemple
 
-Cet exemple montre comment créer un nouveau dossier et définir le DisplayName du dossier sur « TestFolder ».
+Cet exemple montre comment créer un dossier et définir displayName du dossier sur « TestFolder ».
   
 ```cs
 FolderType folder = new FolderType();

@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: cd693f1e-fed4-4eb9-8297-178906f47050
-description: L’élément ReferralPort spécifie le port utilisé pour obtenir une référence à un annuaire.
-ms.openlocfilehash: 6b3968d7b2f252439d2dfbc647bd8337668cf818
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReferralPort spécifie le port utilisé pour obtenir une référence à un répertoire.
+ms.openlocfilehash: a2cafd0c634d48b1d4393ef69c31620036d8ad3b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456793"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513534"
 ---
 # <a name="referralport-pox"></a>ReferralPort (POX)
 
-L’élément **ReferralPort** spécifie le port utilisé pour obtenir une référence à un annuaire. 
+**L’élément ReferralPort** spécifie le port utilisé pour obtenir une référence à un répertoire. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,19 +50,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 où le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le port utilisé pour accéder au serveur Exchange.
+La valeur de texte représente le port utilisé pour accéder au Exchange serveur.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **ReferralPort** est utilisé uniquement lorsque l’élément [type (POX)](type-pox.md) est égal à Exch ou Expr. 
+**L’élément ReferralPort** est utilisé uniquement lorsque l’élément [Type (POX)](type-pox.md) est égal à EXCH ou EXPR. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

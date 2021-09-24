@@ -1,27 +1,27 @@
 ---
-title: Nom (AttachmentType)
+title: Name (AttachmentType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Name
 api_type:
 - schema
 ms.assetid: 8ee00842-2d59-4346-9659-fa105bee747b
 description: L’élément Name représente le nom de la pièce jointe.
-ms.openlocfilehash: ee4a273b753a3025f6e4b0bae17872981730ba0c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bcffb16bfe6d7b02e1488bdfc99f3d16a2dc9375
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463194"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59537714"
 ---
-# <a name="name-attachmenttype"></a>Nom (AttachmentType)
+# <a name="name-attachmenttype"></a>Name (AttachmentType)
 
-L’élément **Name** représente le nom de la pièce jointe. 
+**L’élément Name** représente le nom de la pièce jointe. 
   
 ```xml
 <Name/>
@@ -45,7 +45,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Exchange store.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte

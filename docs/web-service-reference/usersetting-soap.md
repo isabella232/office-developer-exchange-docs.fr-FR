@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: aac6dc31-edd2-49d7-b845-1df4d77da58c
 description: L’élément UserSetting (SOAP) représente un paramètre utilisateur unique.
-ms.openlocfilehash: 8b9bb41e460c0c9d15c9823acb509b0f837eef32
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e59f997f925f7d9885fab27df618d474269eacac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459769"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59538491"
 ---
 # <a name="usersetting-soap"></a>UserSetting (SOAP)
 
-L’élément [UserSetting (SOAP)](usersetting-soap.md) représente un paramètre utilisateur unique. 
+[L’élément UserSetting (SOAP)](usersetting-soap.md) représente un paramètre utilisateur unique. 
   
 ```XML
 <UserSetting>
@@ -39,7 +39,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (SOAP)](name-soap.md) <br/> |Représente le nom du paramètre utilisateur.  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |Représente le nom du paramètre utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,7 +57,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 

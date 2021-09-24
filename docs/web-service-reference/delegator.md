@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delegator
 api_type:
 - schema
 ms.assetid: d359f7e8-765f-40ba-a7a0-9ce428f84523
-description: L’élément de délégation contient le nom de la personne qui a affecté la tâche.
-ms.openlocfilehash: 63f97838d732c29e1e434783e7a12cf45e195e76
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Delegator contient le nom du délégant qui a affecté la tâche.
+ms.openlocfilehash: 29fa0d7bc773af83fb3d9969528729dbef04e317
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457360"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519855"
 ---
 # <a name="delegator"></a>Delegator
 
-L’élément de **délégation** contient le nom de la personne qui a affecté la tâche. 
+**L’élément Delegator** contient le nom du délégant qui a affecté la tâche. 
   
 ```xml
 <Delegator/>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le nom de la personne qui délègue.
+La valeur de texte représente le nom du délégant.
   
 ## <a name="remarks"></a>Remarques
 

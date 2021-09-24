@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e15dbfca-3b9d-463e-94ec-4f1b6115bee3
-description: L’élément GetDiscoverySearchConfiguration spécifie une demande de récupération de la configuration de recherche de découverte électronique.
-ms.openlocfilehash: 821c5e1429c160e326f6d99df3ff4fcc831b83d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetDiscoverySearchConfiguration spécifie une demande de récupération de la configuration de recherche eDiscovery.
+ms.openlocfilehash: ff84e648e14b79f64cf2a769c83aae28791790ef
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461001"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519687"
 ---
 # <a name="getdiscoverysearchconfiguration"></a>GetDiscoverySearchConfiguration
 
-L’élément **GetDiscoverySearchConfiguration** spécifie une demande de récupération de la configuration de recherche de découverte électronique. 
+**L’élément GetDiscoverySearchConfiguration** spécifie une demande de récupération de la configuration de recherche eDiscovery. 
   
 ```XML
 <GetDiscoverySearchConfiguration>
@@ -40,7 +40,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[SearchId](searchid.md) <br/> |Spécifie l’identificateur de la recherche.  <br/> |
-|[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contient une valeur de type Boolean qui indique s’il faut développer l’appartenance au groupe renvoyé à partir d’une demande **GetSearchableMailboxes** .  <br/> |
+|[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contient une valeur booléen qui indique s’il faut développer l’appartenance au groupe renvoyé par une **demande GetSearchableMailboxes.**  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,8 +57,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

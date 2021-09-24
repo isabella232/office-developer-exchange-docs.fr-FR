@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Diagnostics
 api_type:
 - schema
 ms.assetid: fecea440-970a-49da-9796-534ca470cbd6
-description: L’élément Diagnostics fournit des informations sur le temps et les performances utilisées pour la création de rapports dans un centre de données.
-ms.openlocfilehash: 9eb46ef7ceb877372aff9b029190af8c8d8115cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Diagnostics fournit des informations de minutage et de performances qui sont utilisées pour les rapports dans un centre de données.
+ms.openlocfilehash: 203df6a3856dcf54e17ce403053deb8631fe14db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467836"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519792"
 ---
 # <a name="diagnostics"></a>Diagnostics
 
-L’élément **Diagnostics** fournit des informations sur le temps et les performances utilisées pour la création de rapports dans un centre de données. 
+**L’élément Diagnostics** fournit des informations de minutage et de performances qui sont utilisées pour les rapports dans un centre de données. 
   
 ```XML
 <Diagnostics>
@@ -43,14 +43,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Contient une chaîne utilisée par des éléments, des contacts, des tâches et des conversations.  <br/> |
+|[String](string.md) <br/> |Contient une chaîne utilisée par les éléments, les contacts, les tâches et les conversations.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient la réponse pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’état et le résultat d’une [demande d’opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) unique.  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient la réponse pour [l’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

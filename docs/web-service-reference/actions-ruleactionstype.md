@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2afba70c-65f7-458c-a4e6-a2cd9bccc0f9
-description: L’élément actions contient une liste d’actions associées aux règles de boîte de réception.
-ms.openlocfilehash: fbef3b69b1688d7c612af018d6a19f9ec1728066
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Actions contient une liste d’actions associées aux règles de boîte de réception.
+ms.openlocfilehash: d91a76889778b363ea931afb98ae9817e3b7c3c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520177"
 ---
 # <a name="actions-ruleactionstype"></a>Actions (RuleActionsType)
 
-L’élément **actions** contient une liste d’actions associées aux règles de boîte de réception. 
+**L’élément Actions** contient une liste d’actions associées aux règles de boîte de réception. 
   
 ```XML
 <Actions>
@@ -48,7 +48,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[AssignCategories](assigncategories.md)  |  [CopyToFolder,](copytofolder.md)  |  [Supprimer](delete.md)  |  [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md)  |  [ForwardToRecipients](forwardtorecipients.md)  |  [MarkImportance](markimportance.md)  |  [MarkAsRead](markasread.md)  |  [MoveToFolder](movetofolder.md)  |  [PermanentDelete](permanentdelete.md)  |  [RedirectToRecipients](redirecttorecipients.md)  |  [SendSMSAlertToRecipients](sendsmsalerttorecipients.md)  |  [ServerReplyWithMessage](serverreplywithmessage.md)  |  [StopProcessingRules](stopprocessingrules.md)
+[AssignCategories](assigncategories.md)  |  [CopyToFolder](copytofolder.md)  |  [Supprimer](delete.md)  |  [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients.md)  |  [ForwardToRecipients](forwardtorecipients.md)  |  [MarkImportance](markimportance.md)  |  [MarkAsRead](markasread.md)  |  [MoveToFolder](movetofolder.md)  |  [PermanentDelete](permanentdelete.md)  |  [RedirectToRecipients](redirecttorecipients.md)  |  [SendSMSAlertToRecipients](sendsmsalerttorecipients.md)  |  [ServerReplyWithMessage](serverreplywithmessage.md)  |  [StopProcessingRules](stopprocessingrules.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

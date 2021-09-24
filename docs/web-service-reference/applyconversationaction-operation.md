@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ApplyConversationAction
 api_type:
 - schema
 ms.assetid: 73d7943d-d361-4f8b-9948-d85f886efa1a
-description: L’opération ApplyConversationAction définit une action de suivi unique ou ponctuelle sur tous les éléments d’une conversation. L’opération ApplyConversationAction vous permet de classer, déplacer, copier, supprimer et définir l’état de lecture sur tous les éléments d’une conversation. Les actions peuvent également être définies pour les nouveaux messages d’une conversation.
-ms.openlocfilehash: cdab239a5b0b1406d2ce31f4604e4737d037cd7e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération ApplyConversationAction définit une action de suivi ou une action de suivi à une seule heure sur tous les éléments d’une conversation. L’opération ApplyConversationAction vous permet de catégoriser, déplacer, copier, supprimer et définir l’état de lecture sur tous les éléments d’une conversation. Les actions peuvent également être définies pour les nouveaux messages d’une conversation.
+ms.openlocfilehash: ed3ed02dc045a095bcc86124b8d3e1c5a65dae84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463502"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59520100"
 ---
 # <a name="applyconversationaction-operation"></a>Opération de ApplyConversationAction
 
-L’opération **ApplyConversationAction** définit une action de suivi unique ou ponctuelle sur tous les éléments d’une conversation. L’opération **ApplyConversationAction** vous permet de classer, déplacer, copier, supprimer et définir l’état de lecture sur tous les éléments d’une conversation. Les actions peuvent également être définies pour les nouveaux messages d’une conversation. 
+**L’opération ApplyConversationAction** définit une action de suivi ou une action de suivi à une seule heure sur tous les éléments d’une conversation. **L’opération ApplyConversationAction** vous permet de catégoriser, déplacer, copier, supprimer et définir l’état de lecture sur tous les éléments d’une conversation. Les actions peuvent également être définies pour les nouveaux messages d’une conversation. 
   
 ## <a name="applyconversationaction-request-example"></a>Exemple de requête ApplyConversationAction
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **ApplyConversationAction** suivant montre comment déplacer les éléments de la conversation spécifiée dans un autre dossier. Les éléments ajoutés à la conversation seront également déplacés vers le dossier spécifié. 
+L’exemple suivant **d’une demande ApplyConversationAction** montre comment déplacer les éléments de la conversation spécifiée vers un autre dossier. Les éléments ajoutés à la conversation sont également déplacés vers le dossier spécifié. 
   
 ### <a name="code"></a>Code
 
@@ -59,13 +59,13 @@ L’exemple de requête **ApplyConversationAction** suivant montre comment dépl
 
 ### <a name="remarks"></a>Remarques
 
-Les identificateurs de dossier et de conversation ont été raccourcis pour conserver la lisibilité.
+Les identificateurs de conversation et de dossier ont été raccourcis pour préserver la lisibilité.
   
 ## <a name="applyconversationaction-response-example"></a>Exemple de réponse ApplyConversationAction
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **ApplyConversationAction** . 
+L’exemple suivant montre une réponse réussie à **une demande ApplyConversationAction.** 
   
 ### <a name="code"></a>Code
 

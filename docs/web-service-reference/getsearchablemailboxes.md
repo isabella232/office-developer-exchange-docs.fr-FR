@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 949871f7-0d10-498e-84aa-f0652f1193be
-description: L’élément GetSearchableMailboxes contient une demande pour obtenir la liste des boîtes aux lettres pour lesquelles le client est autorisé à effectuer une recherche de découverte électronique.
-ms.openlocfilehash: a327f8766e53e9f1fae6928179d5a4b8e3d044a8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetSearchableMailboxes contient une demande pour obtenir la liste des boîtes aux lettres que le client est autorisé à effectuer une recherche de découverte électronique.
+ms.openlocfilehash: 7c5902af3e0aa88c77a8e13d7c4ec521aa444d6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515844"
 ---
 # <a name="getsearchablemailboxes"></a>GetSearchableMailboxes
 
-L’élément **GetSearchableMailboxes** contient une demande pour obtenir la liste des boîtes aux lettres pour lesquelles le client est autorisé à effectuer une recherche de découverte électronique. 
+**L’élément GetSearchableMailboxes** contient une demande pour obtenir la liste des boîtes aux lettres que le client est autorisé à effectuer une recherche de découverte électronique. 
   
 ```XML
 <GetSearchableMailboxes>
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Unsearchfilter](searchfilter.md)  |  [ExpandGroupMembership](expandgroupmembership.md)
+[SearchFilter](searchfilter.md)  |  [ExpandGroupMembership](expandgroupmembership.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

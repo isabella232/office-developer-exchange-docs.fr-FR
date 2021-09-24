@@ -1,27 +1,27 @@
 ---
-title: Nom (EmailAddress)
+title: Name (EmailAddress)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Name
 api_type:
 - schema
 ms.assetid: c719c55f-d625-4e64-846f-50ac91881443
-description: L’élément Name représente le nom complet de l’utilisateur de boîte aux lettres.
-ms.openlocfilehash: 2c6b29f1b069f9cc72ac84e7aebfff99437e630a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Name représente le nom complet de l’utilisateur de la boîte aux lettres.
+ms.openlocfilehash: d62dc16beadd97aaa7b27db7d524507d14cef7bf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539296"
 ---
-# <a name="name-emailaddress"></a>Nom (EmailAddress)
+# <a name="name-emailaddress"></a>Name (EmailAddress)
 
-L’élément **Name** représente le nom complet de l’utilisateur de boîte aux lettres. 
+**L’élément Name** représente le nom complet de l’utilisateur de la boîte aux lettres. 
   
 ```xml
 <Name/>
@@ -45,8 +45,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[E-mail (EmailAddressType)](email-emailaddresstype.md) <br/> |Représente l’utilisateur de boîte aux lettres pour une requête GetUserAvailability.  <br/> <br/>Voici le XPath de cet élément :  <br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[Boîte aux lettres (disponibilité)](mailbox-availability.md) <br/> | Représente l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/><br/>  Voici les expressions XPath de cet élément :  <br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/><br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |Représente l’utilisateur de boîte aux lettres pour une requête GetUserAvailability.  <br/> <br/>Voici le chemin d’accès XPath à cet élément :  <br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> | Représente l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/><br/>  Les expressions XPath de cet élément sont les suivantes :  <br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/><br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -54,7 +54,7 @@ Une valeur de texte est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément peut apparaître au plus une fois dans l’élément [email (EmailAddressType)](email-emailaddresstype.md) . Cet élément n’est pas obligatoire. 
+Cet élément peut se produire au plus une fois dans l’élément [Email (EmailAddressType).](email-emailaddresstype.md) Cet élément n’est pas requis. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

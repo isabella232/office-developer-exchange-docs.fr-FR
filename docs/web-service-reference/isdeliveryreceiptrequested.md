@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsDeliveryReceiptRequested
 api_type:
 - schema
 ms.assetid: 97776b7e-942c-4663-8277-165d64364daa
 description: L’élément IsDeliveryReceiptRequested indique si l’expéditeur d’un élément demande un accusé de réception.
-ms.openlocfilehash: 94bcb79df16e5ef1d8128f2e2d1e8536d9c31603
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 10f07e5732c8bc87930337027fa59160617f438b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458179"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515564"
 ---
 # <a name="isdeliveryreceiptrequested"></a>IsDeliveryReceiptRequested
 
-L’élément **IsDeliveryReceiptRequested** indique si l’expéditeur d’un élément demande un accusé de réception. 
+**L’élément IsDeliveryReceiptRequested** indique si l’expéditeur d’un élément demande un accusé de réception. 
   
 ```xml
 <IsDeliveryReceiptRequested/>
@@ -47,7 +47,7 @@ Aucun.
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |
@@ -60,7 +60,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique qu’un accusé de réception est demandé à l’expéditeur de l’élément. 
+Une valeur de texte **true** indique qu’un accusé de réception est demandé au destinataire de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 

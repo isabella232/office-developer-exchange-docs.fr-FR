@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Content
 api_type:
 - schema
 ms.assetid: 24f8c54a-505f-4fc0-b7e7-93ad50b97070
-description: L’élément content contient le contenu encodé en base64 d’une pièce jointe.
-ms.openlocfilehash: 81f6acf69ff702bd0645663cb2e499ee5b45ea78
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Content contient le contenu codé en Base64 d’une pièce jointe.
+ms.openlocfilehash: ccea4412416575f9a1d56a4cde6ebbfd0df31101
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513821"
 ---
-# <a name="content"></a>Contenu
+# <a name="content"></a>Content
 
-L’élément **content** contient le contenu encodé en base64 d’une pièce jointe. 
+**L’élément Content** contient le contenu codé en Base64 d’une pièce jointe de fichier. 
   
 ```xml
 <Content/>
 ```
 
- **Au base64Binary**
+ **Base64Binary**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier t thattached à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier t qui est attaché à un élément dans la Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de chaîne représente les données binaires codées en base64 de la pièce jointe.
+La valeur de chaîne représente les données binaires codées en Base64 de la pièce jointe du fichier.
   
 ## <a name="remarks"></a>Remarques
 

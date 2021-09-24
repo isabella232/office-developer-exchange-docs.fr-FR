@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 060c0cf1-c632-484c-87f5-f577017a7090
-description: L’élément Initials spécifie un tableau de valeurs initiales et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 16133192fa1d9ef066e46a181f490248a8197e5b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Initials spécifie un tableau de valeurs d’initiales et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: fb7362d467a4de37ce65cbe52a2c1f549a4a6e6f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515599"
 ---
 # <a name="initials-arrayofstringattributedvaluestype"></a>Initiales (ArrayOfStringAttributedValuesType)
 
-L’élément **Initials** spécifie un tableau de valeurs initiales et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Initials** spécifie un tableau de valeurs d’initiales et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Initials>
@@ -38,13 +38,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

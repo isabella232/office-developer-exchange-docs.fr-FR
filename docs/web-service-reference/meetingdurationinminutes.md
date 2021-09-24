@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingDurationInMinutes
 api_type:
 - schema
 ms.assetid: bb86b275-9c29-4daf-8196-8d505b87a4f4
 description: L’élément MeetingDurationInMinutes spécifie la durée de la réunion à suggérer.
-ms.openlocfilehash: b41e234be40c2ad8b28047ae2e812edfd66af644
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: af2fa447ef278ec79b4215486368c7bbeceb4163
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467486"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539380"
 ---
 # <a name="meetingdurationinminutes"></a>MeetingDurationInMinutes
 
-L’élément **MeetingDurationInMinutes** spécifie la durée de la réunion à suggérer. 
+**L’élément MeetingDurationInMinutes spécifie** la durée de la réunion à suggérer. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. La valeur texte représente un entier.
+Une valeur de texte est requise. La valeur de texte représente un integer.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est requis si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
+Cet élément est requis si [l’élément SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

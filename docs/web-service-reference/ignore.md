@@ -1,27 +1,27 @@
 ---
-title: Ignorer
+title: Ignore
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Ignore
 api_type:
 - schema
 ms.assetid: 7789eec5-ceec-43f2-84d5-d0d15b734076
-description: L’élément ignore identifie les éléments à ignorer lors de la synchronisation.
-ms.openlocfilehash: b65d11d8c7655279dac0e7d3cbd13f8a9317540c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Ignore identifie les éléments à ignorer lors de la synchronisation.
+ms.openlocfilehash: 92501b2166647c80f8515a27f443b23af14c08dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458571"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514605"
 ---
-# <a name="ignore"></a>Ignorer
+# <a name="ignore"></a>Ignore
 
-L’élément **ignore** identifie les éléments à ignorer lors de la synchronisation. 
+**L’élément Ignore** identifie les éléments à ignorer lors de la synchronisation. 
   
 [SyncFolderItems](syncfolderitems.md)
   
@@ -52,7 +52,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderItems](syncfolderitems.md) <br/> |Définit une demande de synchronisation des éléments dans un dossier de la Banque d’Exchange.  <br/> |
+|[SyncFolderItems](syncfolderitems.md) <br/> |Définit une demande de synchronisation des éléments dans un Exchange de la boutique d’information.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

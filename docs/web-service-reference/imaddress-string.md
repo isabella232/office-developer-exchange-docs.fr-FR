@@ -1,23 +1,23 @@
 ---
-title: IMAddress (String)
+title: ImAddress (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa10fcdb-f947-4958-ad5a-afaed1661f52
-description: L’élément IMAddress contient l’adresse de messagerie instantanée principale d’un personnage.
-ms.openlocfilehash: 2cfb8c7e0ccf5454fd5a201819882acbe0924e4a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ImAddress contient l’adresse de messagerie instantanée principale d’un personnage.
+ms.openlocfilehash: df962c97faabaec2874136159abebd657b60719c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515697"
 ---
-# <a name="imaddress-string"></a>IMAddress (String)
+# <a name="imaddress-string"></a>ImAddress (String)
 
-L’élément **IMAddress** contient l’adresse de messagerie instantanée principale d’un personnage. 
+**L’élément ImAddress** contient l’adresse de messagerie instantanée principale d’un personnage. 
   
 ```XML
 <ImAddress></ImAddress>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **IMAddress** est l’adresse de messagerie instantanée principale d’un personnage. 
+La valeur de texte de **l’élément ImAddress** est l’adresse de messagerie instantanée principale d’un personnage. 
   
 ## <a name="remarks"></a>Remarques
 

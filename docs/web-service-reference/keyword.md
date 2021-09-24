@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1834b40-ab2a-4c67-a93a-eaadc9523fda
-description: L’élément Keyword spécifie un seul mot clé.
-ms.openlocfilehash: cdb944aa7b5a8335d840555400381f1d863ded82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Keyword spécifie un mot clé unique.
+ms.openlocfilehash: 62d993f0f36a3d02991f15f4e37435c6db19c24f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458102"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514430"
 ---
 # <a name="keyword"></a>Mot clé
 
-L’élément **Keyword** spécifie un seul mot clé. 
+**L’élément Keyword** spécifie un mot clé unique. 
   
 ```XML
 <Keyword></Keyword>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Keyword** est le nom d’un mot clé unique qui représente une statistique de mot clé unique. 
+La valeur de texte de **l’élément Keyword** est le nom d’un mot clé unique qui représente une statistique de mot clé unique. 
   
 ## <a name="remarks"></a>Remarques
 

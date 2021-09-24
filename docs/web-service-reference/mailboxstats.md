@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 022d6512-7e91-4b60-8a7b-3bcd571f3107
 description: L’élément MailboxStats spécifie une liste d’un ou plusieurs éléments MailboxStat.
-ms.openlocfilehash: 1f712aa10816f100ca8092c750abfb444354c4bb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e912b2db411a45521356b71a924c2cacc504b276
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44440546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540789"
 ---
 # <a name="mailboxstats"></a>MailboxStats
 
-L’élément **MailboxStats** spécifie une liste d’un ou plusieurs éléments **MailboxStat** . 
+**L’élément MailboxStats** spécifie une liste d’un ou plusieurs **éléments MailboxStat.** 
   
 ```XML
 <MailboxStats>

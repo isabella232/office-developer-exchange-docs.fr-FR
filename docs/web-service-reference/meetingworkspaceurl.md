@@ -1,27 +1,27 @@
 ---
-title: MeetingWorkspaceUrl,
+title: MeetingWorkspaceUrl
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingWorkspaceUrl
 api_type:
 - schema
 ms.assetid: 0ca942fe-8f57-4065-93ad-65790f9a04c3
-description: L’élément MeetingWorkspaceUrl, contient l’URL de l’espace de travail de réunion qui est inclus dans l’élément de calendrier. Un espace de travail de réunion est un site Web partagé qui permet de planifier la réunion et de suivre les résultats.
-ms.openlocfilehash: cd4396e590ab1471278bd44b9a4e0009fe326eaf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MeetingWorkspaceUrl contient l’URL de l’espace de travail de réunion qui est inclus dans l’élément de calendrier. Un espace de travail de réunion est un site Web partagé pour la planification de la réunion et le suivi des résultats.
+ms.openlocfilehash: c3d051d3529e9de9288c5ecaec2d601b317e2b0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466282"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540796"
 ---
-# <a name="meetingworkspaceurl"></a>MeetingWorkspaceUrl,
+# <a name="meetingworkspaceurl"></a>MeetingWorkspaceUrl
 
-L’élément **MeetingWorkspaceUrl,** contient l’URL de l’espace de travail de réunion qui est inclus dans l’élément de calendrier. Un espace de travail de réunion est un site Web partagé qui permet de planifier la réunion et de suivre les résultats. 
+**L’élément MeetingWorkspaceUrl** contient l’URL de l’espace de travail de réunion qui est inclus dans l’élément de calendrier. Un espace de travail de réunion est un site Web partagé pour la planification de la réunion et le suivi des résultats. 
   
 ```xml
 <MeetingWorkspaceUrl/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
@@ -53,7 +53,7 @@ Une valeur de texte qui représente une URL est requise si cet élément est uti
   
 ## <a name="remarks"></a>Remarques
 
-La propriété MeetingWorkspaceUrl, est accessible en lecture pour l’élément de calendrier de l’organisateur. Elle est en lecture seule pour les demandes de réunion et les éléments de calendrier des participants.
+La propriété MeetingWorkspaceUrl est accessible en lecture et en lecture pour l’élément de calendrier de l’organisateur. Il est en lecture seule pour les demandes de réunion et les éléments de calendrier des participants.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

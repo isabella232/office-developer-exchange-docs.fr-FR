@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EventData
 api_type:
 - schema
 ms.assetid: 74acdbad-d6ee-47e6-82fb-e45ecaaa0500
 description: L’élément EventData représente les données associées à l’étape de traitement de l’événement.
-ms.openlocfilehash: ef5da21a3300a6939c60d62584b46ca48b071853
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 68225076f07b4c9d79e5f4fbc1460b74732fd9d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526178"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514675"
 ---
 # <a name="eventdata"></a>EventData
 
-L’élément **EventData** représente les données associées à l’étape de traitement de l’événement. 
+**L’élément EventData** représente les données associées à l’étape de traitement de l’événement. 
   
 ```XML
 <EventData>
@@ -48,7 +48,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

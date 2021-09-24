@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GivenName
 api_type:
 - schema
 ms.assetid: 8efc46fd-6056-4439-9af3-fc9e13ee6d9a
-description: L’élément GivenName contient le prénom d’un contact.
-ms.openlocfilehash: a22c5ef99844b55fa75f60acb8667ee423420336
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GivenName contient le nom donné d’un contact.
+ms.openlocfilehash: b102c6137c597da15217e65bdc0a68fdac1cd305
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530133"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59525917"
 ---
 # <a name="givenname"></a>GivenName
 
-L’élément **GivenName** contient le prénom d’un contact. 
+**L’élément GivenName** contient le nom donné d’un contact. 
   
 ```xml
 <GivenName/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente le nom d’un contact donné est requise si cet élément est utilisé.
+Une valeur de texte qui représente le nom donné d’un contact est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 

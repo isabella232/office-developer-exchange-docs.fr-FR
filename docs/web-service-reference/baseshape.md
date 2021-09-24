@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseShape
 api_type:
 - schema
 ms.assetid: 42c04f3b-abaa-4197-a3d6-d21677ffb1c0
-description: L’élément BaseShape identifie le jeu de propriétés à renvoyer dans une réponse d’élément ou de dossier.
-ms.openlocfilehash: 9b3f00ff94fbfe6ad6373b16ad95eb9136f81c64
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément BaseShape identifie l’ensemble des propriétés à renvoyer dans une réponse d’élément ou de dossier.
+ms.openlocfilehash: b4e7f5c6d6520e7338f274b6275e371366b1bed5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514857"
 ---
 # <a name="baseshape"></a>BaseShape
 
-L’élément **BaseShape** identifie le jeu de propriétés à renvoyer dans une réponse d’élément ou de dossier. 
+**L’élément BaseShape** identifie l’ensemble des propriétés à renvoyer dans une réponse d’élément ou de dossier. 
   
 ```xml
 <BaseShape>IdOnly or Default or AllProperties</BaseShape>
@@ -44,8 +44,8 @@ Aucun
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> | Identifie les propriétés de dossier à inclure dans la réponse GetFolder, FindFolder ou Opérationsyncfolderhierarchy.<br/><br/>Voici les expressions XPath de cet élément :<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifie les propriétés d’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.<br/><br/>Voici les expressions XPath de cet élément :<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[FolderShape](foldershape.md) <br/> | Identifie les propriétés de dossier à inclure dans la réponse GetFolder, FindFolder ou SyncFolderHierarchy.<br/><br/>Les expressions XPath de cet élément sont les suivantes :<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifie les propriétés et le contenu de l’élément à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.<br/><br/>Les expressions XPath de cet élément sont les suivantes :<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -55,29 +55,29 @@ Une valeur de texte est requise. Le tableau suivant répertorie les valeurs de t
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|IdOnly  <br/> |Renvoie uniquement l’ID d’élément ou de dossier.  <br/> |
+|IdOnly  <br/> |Renvoie uniquement l’ID de l’élément ou du dossier.  <br/> |
 |Par défaut  <br/> |Renvoie un ensemble de propriétés qui sont définies comme valeur par défaut pour l’élément ou le dossier.  <br/> |
-|AllProperties  <br/> |Renvoie toutes les propriétés utilisées par la couche de logique métier Exchange pour créer un dossier.  <br/> |
+|AllProperties  <br/> |Renvoie toutes les propriétés utilisées par la couche Exchange Logique métier pour construire un dossier.  <br/> |
    
-Le tableau suivant répertorie les propriétés par défaut qui sont renvoyées pour une demande FindFolder. Tous les sous-dossiers d’un dossier donné sont renvoyés par nom.
+Le tableau suivant répertorie les propriétés par défaut renvoyées pour une demande FindFolder. Tous les sous-dossiers d’un dossier donné sont renvoyés dans l’ordre par nom.
   
 **Propriétés par défaut**
 
 |**Folder**|**Propriétés par défaut**|
 |:-----|:-----|
-|Boîte de réception  <br/> |FolderId, nom d’affichage, nombre de messages non lus, nombre total, nombre de sous-dossiers  <br/> |
+|Boîte de réception  <br/> |FolderId, nom d’affichage, nombre non lu, nombre total, nombre de sous-dossiers  <br/> |
 |Contacts  <br/> |FolderId, nom complet, nombre total, nombre de sous-dossiers  <br/> |
 |Calendrier  <br/> |FolderId, nom d’affichage, nombre de sous-dossiers  <br/> |
-|Brouillons  <br/> |FolderId, nom d’affichage, nombre de messages non lus, nombre total, nombre de sous-dossiers  <br/> |
-|Éléments supprimés  <br/> |FolderId, nom d’affichage, nombre de messages non lus, nombre total, nombre de sous-dossiers  <br/> |
-|Autres dossiers  <br/> |FolderId, nom d’affichage, nombre de messages non lus, nombre total, nombre de sous-dossiers  <br/> |
-|Boîte d'envoi  <br/> |FolderId, nom d’affichage, nombre de messages non lus, nombre total, nombre de sous-dossiers  <br/> |
-|Tâches  <br/> |FolderId, nom complet, nombre de retard, nombre total, nombre de sous-dossiers  <br/> |
-|Notes  <br/> |FolderId, nom complet, nombre total, nombre de sous-dossiers  <br/> |
+|Brouillons  <br/> |FolderId, nom d’affichage, nombre non lu, nombre total, nombre de sous-dossiers  <br/> |
+|Éléments supprimés  <br/> |FolderId, nom d’affichage, nombre non lu, nombre total, nombre de sous-dossiers  <br/> |
+|Autres dossiers  <br/> |FolderId, nom d’affichage, nombre non lu, nombre total, nombre de sous-dossiers  <br/> |
+|Boîte d’envoi  <br/> |FolderId, nom d’affichage, nombre non lu, nombre total, nombre de sous-dossiers  <br/> |
+|Tâches  <br/> |FolderId, nom complet, nombre d’échéances passées, nombre total, nombre de sous-dossiers  <br/> |
+|Remarques  <br/> |FolderId, nom complet, nombre total, nombre de sous-dossiers  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour renvoyer des propriétés en plus de celles identifiées par l’élément [BaseShape](baseshape.md) , utilisez l’élément [AdditionalProperties](additionalproperties.md) . 
+Pour renvoyer des propriétés en plus de celles identifiées par [l’élément BaseShape,](baseshape.md) utilisez [l’élément AdditionalProperties.](additionalproperties.md) 
   
 ## <a name="example"></a>Exemple
 

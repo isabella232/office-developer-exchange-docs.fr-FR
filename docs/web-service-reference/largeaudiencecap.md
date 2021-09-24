@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
 description: L’élément LargeAudienceCap spécifie le nombre maximal de destinataires pour un message électronique.
-ms.openlocfilehash: 932cac7ac1a62de7066573bbb2db3d0a338b2379
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 71644e297595273a8025c8efd6d685f5da2591df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514423"
 ---
 # <a name="largeaudiencecap"></a>LargeAudienceCap
 
-L’élément **LargeAudienceCap** spécifie le nombre maximal de destinataires pour un message électronique. 
+**L’élément LargeAudienceCap spécifie** le nombre maximal de destinataires pour un message électronique. 
   
 ```XML
 <LargeAudienceCap></LargeAudienceCap>
 ```
 
- **entier**
+ **integer**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LargeAudienceCap** est le nombre maximal de destinataires pouvant être traités dans un message électronique. 
+La valeur de texte de **l’élément LargeAudienceCap** est le nombre maximal de destinataires qui peuvent être adressés dans un message électronique. 
   
 ## <a name="remarks"></a>Remarques
 

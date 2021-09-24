@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd0c0bce-3e7c-47c7-af7f-5ee5f5ad9820
 description: L’élément TextBody spécifie le corps du texte.
-ms.openlocfilehash: c0002785fb990a251267218f7a5f232e521db41a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5dfc0aa76f0b0778d785e46fe12259c4a226b89f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515179"
 ---
 # <a name="textbody"></a>TextBody
 
-L’élément **TextBody** spécifie le corps du texte. 
+**L’élément TextBody** spécifie le corps du texte. 
   
 ```XML
 <TextBody BodyTypeType=" HTML | Text" IsTruncated=" true | false"></TextBody>
@@ -32,8 +32,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|BodyTypeType  <br/> |Indique le type de corps. La valeur de **Text** pour l’attribut **BodyTypeType** indique que le corps est en texte brut. La valeur de **HTML** pour l’attribut **BodyTypeType** indique que le corps est au format html. L’attribut **BodyTypeType** est obligatoire.  <br/> |
-|IsTruncated  <br/> |Indique que le contenu du corps a été tronqué. Une valeur de texte **false** pour l’attribut **IsTruncated** indique que le contenu du corps n’a pas été tronqué. Le corps normalisé est tronqué si la longueur du corps du texte est supérieure à la valeur définie dans l’élément [MaximumBodySize](maximumbodysize.md) .  <br/> |
+|BodyTypeType  <br/> |Indique le type de corps. La valeur de **Text pour** **l’attribut BodyTypeType** indique que le corps est en texte simple. La valeur html **de** **l’attribut BodyTypeType** indique que le corps est au format HTML. **L’attribut BodyTypeType** est obligatoire.  <br/> |
+|IsTruncated  <br/> |Indique que le contenu du corps a été tronqué. Une valeur de texte **false** pour l’attribut **IsTruncated** indique que le contenu du corps n’a pas été tronqué. Le corps normalisé est tronqué si la longueur du corps du texte est plus longue que la valeur définie dans l’élément [MaximumBodySize.](maximumbodysize.md)  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -45,7 +45,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **TextBody** est le corps de texte de l’élément. 
+La valeur de texte de **l’élément TextBody** est le corps du texte de l’élément. 
   
 ## <a name="remarks"></a>Remarques
 

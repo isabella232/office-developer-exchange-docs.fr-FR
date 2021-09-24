@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 064d73e4-45b7-4797-828e-9df590830db8
-description: L’élément ErrorCode contient le code d’erreur pour une réponse de découverte automatique d’erreur.
-ms.openlocfilehash: 9dcd681c00aefcfb88f1f8a58be3aa2ccd0bb72b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ErrorCode contient le code d’erreur d’une réponse de découverte automatique d’erreur.
+ms.openlocfilehash: e087860c5ca1e3d79c7bad34ae3754bdba6c9091
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460651"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539920"
 ---
 # <a name="errorcode-pox"></a>ErrorCode (POX)
 
-L’élément **ErrorCode** contient le code d’erreur pour une réponse de découverte automatique d’erreur. 
+**L’élément ErrorCode** contient le code d’erreur d’une réponse de découverte automatique d’erreur. 
   
 [Erreur (POX)](error-pox.md)
   
@@ -48,11 +48,11 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente le code d’erreur pour une réponse de découverte automatique d’erreur.
+La valeur de texte représente le code d’erreur d’une réponse de découverte automatique d’erreur.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

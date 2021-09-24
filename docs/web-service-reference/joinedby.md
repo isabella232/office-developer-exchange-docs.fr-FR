@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49c74470-fe11-4229-b4e5-1fc8588a44d7
-description: L’élément JoinedBy est destiné uniquement à un usage interne.
-ms.openlocfilehash: 61fa84923ccac77c1d6686e3bcc51c30d92bc3b4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément JoinedBy est destiné à un usage interne uniquement.
+ms.openlocfilehash: ccd6713c2b3b7a6ac53b7d1d836843445f666b21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529041"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540866"
 ---
 # <a name="joinedby"></a>JoinedBy
 
-L’élément **JoinedBy** est destiné uniquement à un usage interne. 
+**L’élément JoinedBy** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

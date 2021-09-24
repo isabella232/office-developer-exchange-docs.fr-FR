@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItemResponse
 api_type:
 - schema
 ms.assetid: 023b79b4-c675-4669-9112-d85499ec4fc4
 description: L’élément UpdateItemResponse définit une réponse à une demande UpdateItem.
-ms.openlocfilehash: f18bb6658bf7a68e2262ebee7ce86255ea527ac4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f4d1fbb09c4a7e1ad79c1cc9371c481a86a1d7d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467143"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514017"
 ---
 # <a name="updateitemresponse"></a>UpdateItemResponse
 
-L’élément **UpdateItemResponse** définit une réponse à une demande UpdateItem. 
+**L’élément UpdateItemResponse** définit une réponse à une demande UpdateItem. 
   
 ```xml
 <UpdateItemResponse>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

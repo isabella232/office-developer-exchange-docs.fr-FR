@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Location
 api_type:
 - schema
 ms.assetid: 3fcf7133-ae1c-47b4-a187-660045f71df0
-description: L’élément location représente l’emplacement d’une réunion, d’un rendez-vous ou d’un personnage.
-ms.openlocfilehash: 0063d5da23eb731835599f3e931e3c0cb2843ab7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Location représente l’emplacement d’une réunion, d’un rendez-vous ou d’un personnage.
+ms.openlocfilehash: 2848cac9b73f4ce99302e78f2d648de78a411ef8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458088"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515550"
 ---
 # <a name="location"></a>Emplacement
 
-L’élément **location** représente l’emplacement d’une réunion, d’un rendez-vous ou d’un personnage. 
+**L’élément Location** représente l’emplacement d’une réunion, d’un rendez-vous ou d’un personnage. 
   
 ```xml
 <Location/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

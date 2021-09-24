@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveToFolder
 api_type:
 - schema
 ms.assetid: 991673b9-b627-4848-bfba-59a187b8575f
 description: L’élément MoveToFolder spécifie l’identificateur du dossier vers lequel les éléments de courrier électronique peuvent être déplacés.
-ms.openlocfilehash: e323b2ac5390855b3db0b5495af667cdf2da5596
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 811184da8ba3513e94950b44cff15953f690cf70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530005"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515529"
 ---
 # <a name="movetofolder"></a>MoveToFolder
 
-L’élément **MoveToFolder** spécifie l’identificateur du dossier vers lequel les éléments de courrier électronique peuvent être déplacés. 
+**L’élément MoveToFolder** spécifie l’identificateur du dossier vers lequel les éléments de courrier électronique peuvent être déplacés. 
   
 ```XML
 <MoveToFolder>
@@ -43,14 +43,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderId](folderid.md) <br/> |Contient l’identificateur d’un dossier de destination pour un élément ou un dossier copié ou déplacé.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie un dossier de destination nommé pour un élément ou un dossier copié ou déplacé.  <br/> |
+|[FolderId](folderid.md) <br/> |Contient l’identificateur d’un dossier de destination pour un élément ou dossier copié ou déplacé.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie un dossier de destination nommé pour un élément ou dossier copié ou déplacé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Actions](actions.md) <br/> |Représente l’ensemble des actions pouvant être effectuées sur un message lorsque les conditions sont remplies..  <br/> |
+|[Actions](actions.md) <br/> |Représente l’ensemble des actions qui peuvent être prises sur un message lorsque les conditions sont remplies.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

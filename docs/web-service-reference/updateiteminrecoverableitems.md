@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c49816b1-dbb5-4716-86c7-30790e86f30e
 description: L’élément UpdateItemInRecoverableItems spécifie une demande de mise à jour d’un élément dans les éléments récupérables.
-ms.openlocfilehash: f3dae55097c613b84a80795185baad559e312b90
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8d3ffdd2d3f60e48514ae1a9d7cb4ca4e1bf06ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459783"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515017"
 ---
 # <a name="updateiteminrecoverableitems"></a>UpdateItemInRecoverableItems
 
-L’élément **UpdateItemInRecoverableItems** spécifie une demande de mise à jour d’un élément dans les éléments récupérables. 
+**L’élément UpdateItemInRecoverableItems** spécifie une demande de mise à jour d’un élément dans les éléments récupérables. 
   
 ```XML
 <UpdateItemInRecoverableItems>
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

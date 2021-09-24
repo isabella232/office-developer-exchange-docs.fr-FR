@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OutOfOffice
 api_type:
 - schema
 ms.assetid: fe1256ab-5c0f-467d-abb3-b38a2dc312ae
-description: L’élément OutOfOffice représente le message de réponse et la durée d’envoi du message de réponse.
-ms.openlocfilehash: 082a81b62e2b783b302b3e749e0066131a46d73e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OutOfOffice représente le message de réponse et une durée d’envoi du message de réponse.
+ms.openlocfilehash: f976da79fd0910c1d3bb2e3ba27e0cdd48f5cf01
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539219"
 ---
 # <a name="outofoffice"></a>OutOfOffice
 
-L’élément **OutOfOffice** représente le message de réponse et la durée d’envoi du message de réponse. 
+**L’élément OutOfOffice représente** le message de réponse et une durée d’envoi du message de réponse. 
   
 ```XML
 <OutOfOffice>
@@ -50,14 +50,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ReplyBody](replybody.md) <br/> |Contient un message d’absence du bureau et la langue utilisée pour le message.  <br/> |
-|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Contient la durée pendant laquelle le statut OOF est activé si l’élément [OofState](oofstate.md) est défini sur planifié.  <br/> |
+|[ReplyBody](replybody.md) <br/> |Contient un message hors Office (OOF) et la langue utilisée pour le message.  <br/> |
+|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Contient la durée pendant qui l’état d’absence du travail est activé si l’élément [OofState](oofstate.md) est définie sur Scheduled.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de courrier.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de messagerie.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

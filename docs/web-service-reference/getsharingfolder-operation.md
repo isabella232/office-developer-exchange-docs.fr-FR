@@ -5,36 +5,36 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetSharingFolder
 api_type:
 - schema
 ms.assetid: 75fee92a-a7f8-4a62-ad2b-17acbaada186
 description: L’opération GetSharingFolder obtient l’identificateur de dossier local d’un dossier partagé spécifié.
-ms.openlocfilehash: cf66eb390b0287e89bb8402f26a2e728868a2b18
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 20ee49b85d026ec2c14794599e0713b9939384eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515823"
 ---
 # <a name="getsharingfolder-operation"></a>Opération GetSharingFolder
 
-L’opération **GetSharingFolder** obtient l’identificateur de dossier local d’un dossier partagé spécifié. 
+**L’opération GetSharingFolder** obtient l’identificateur de dossier local d’un dossier partagé spécifié. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetSharingFolder** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetSharingFolder** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getsharingfolder-request-example"></a>Exemple de requête GetSharingFolder
 
-### <a name="getting-the-local-folder-identifier-by-specifying-the-sharedfolderid-element-of-the-folder-being-shared"></a>Obtention de l’identificateur de dossier local en spécifiant l’élément SharedFolderId du dossier en cours de partage
+### <a name="getting-the-local-folder-identifier-by-specifying-the-sharedfolderid-element-of-the-folder-being-shared"></a>Obtention de l’identificateur de dossier local en spécifiant l’élément SharedFolderId du dossier partagé
 
 L’exemple de code suivant montre comment créer une demande pour obtenir l’identificateur du dossier local qui correspond au dossier partagé. Le dossier partagé est identifié par l’adresse SMTP de la boîte aux lettres qui contient le dossier partagé et par l’élément [SharedFolderId](sharedfolderid.md) qui représente l’identificateur de ce dossier. Dans cet exemple, le dossier partagé appartient à user1@contoso.com. 
   
@@ -61,7 +61,7 @@ L’exemple de code suivant montre comment créer une demande pour obtenir l’i
 
 ### <a name="getting-the-local-folder-identifier-by-specifying-the-datatype-element-of-the-folder-being-shared"></a>Obtention de l’identificateur de dossier local en spécifiant l’élément DataType du dossier partagé
 
-L’exemple de code suivant montre comment créer une demande pour obtenir l’identificateur du dossier local qui correspond au dossier partagé. Le dossier partagé est identifié par l’adresse SMTP de la boîte aux lettres qui contient le dossier partagé et par l’élément [DataType](datatype.md) qui représente le type de données dans ce dossier. Dans cet exemple, le dossier partagé est le dossier contacts appartenant à user1@contoso.com. 
+L’exemple de code suivant montre comment créer une demande pour obtenir l’identificateur du dossier local qui correspond au dossier partagé. Le dossier partagé est identifié par l’adresse SMTP de la boîte aux lettres qui contient le dossier en cours de partage et par l’élément [DataType](datatype.md) qui représente le type de données dans ce dossier. Dans cet exemple, le dossier partagé est le dossier Contacts qui appartient à user1@contoso.com. 
   
 ### <a name="code"></a>Code
 
@@ -86,13 +86,13 @@ L’exemple de code suivant montre comment créer une demande pour obtenir l’i
 
 ### <a name="comments"></a>Commentaires
 
-Pour plus d’informations sur les valeurs possibles de l’élément **DataType** , voir [DataType](datatype.md).
+Pour plus d’informations sur les valeurs possibles de **l’élément DataType,** voir [DataType](datatype.md).
   
 ## <a name="successful-getsharingfolder-response"></a>Réponse GetSharingFolder réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **GetSharingFolder** . L’attribut **ID** de l’élément [SharingFolderId](sharingfolderid.md) représente l’identificateur du dossier local dans la relation de partage. 
+L’exemple suivant montre une réponse réussie à **une demande GetSharingFolder.** **L’attribut ID** de [l’élément SharingFolderId](sharingfolderid.md) représente l’identificateur du dossier local dans la relation de partage. 
   
 ### <a name="code"></a>Code
 
@@ -125,7 +125,7 @@ L’exemple suivant montre une réponse réussie à une demande **GetSharingFold
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête **GetSharingFolder** . Dans cet exemple, l’erreur s’est produite car la demande spécifiait les éléments [SharingFolderId](sharingfolderid.md) et [DataType](datatype.md) . Notez qu’un seul ou l’autre de ces deux éléments peut être spécifié, mais pas les deux. 
+L’exemple suivant montre une réponse d’erreur à **une demande GetSharingFolder.** Dans cet exemple, l’erreur s’est produite, car la demande spécifie à la fois les éléments [SharingFolderId](sharingfolderid.md) et [DataType.](datatype.md) Notez qu’un seul ou l’autre de ces deux éléments peut être spécifié, mais pas les deux. 
   
 ### <a name="code"></a>Code
 

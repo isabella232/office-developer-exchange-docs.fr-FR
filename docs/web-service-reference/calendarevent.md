@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarEvent
 api_type:
 - schema
 ms.assetid: 91958c01-1fcb-4ac0-8601-5e5b434c988a
 description: L’élément CalendarEvent représente une occurrence d’élément de calendrier unique.
-ms.openlocfilehash: 8bf37c907ed726e33dd2b1eff9add5d6235704da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fd57517595659f2081c82fe9f4665ce2c39059fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459075"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514822"
 ---
 # <a name="calendarevent"></a>CalendarEvent
 
-L’élément **CalendarEvent** représente une occurrence d’élément de calendrier unique. 
+**L’élément CalendarEvent** représente une occurrence d’élément de calendrier unique. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -59,14 +59,14 @@ Aucune.
 |:-----|:-----|
 |[StartTime](starttime.md) <br/> |Représente le début d’un événement de calendrier. Il s’agit d’un élément enfant obligatoire.  <br/> |
 |[EndTime](endtime.md) <br/> |Représente la fin d’un événement de calendrier. Il s’agit d’un élément enfant obligatoire.  <br/> |
-|[BusyType](busytype.md) <br/> |Représente l’état de disponibilité défini pour un événement de calendrier. Il s’agit d’un élément enfant obligatoire.  <br/> |
+|[BusyType](busytype.md) <br/> |Représente l’état de libre/occupé d’un événement de calendrier. Il s’agit d’un élément enfant obligatoire.  <br/> |
 |[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier. Il s’agit d’un élément enfant facultatif.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventArray](calendareventarray.md) <br/> |Contient un ensemble d’occurrences d’éléments de calendrier uniques qui représentent la disponibilité de l’utilisateur demandé.  <br/> Voici l’expression XPath 2,0 pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
+|[CalendarEventArray](calendareventarray.md) <br/> |Contient un ensemble d’occurrences d’éléments de calendrier uniques qui représentent la disponibilité de l’utilisateur demandé.  <br/> Voici l’expression XPath 2.0 à cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

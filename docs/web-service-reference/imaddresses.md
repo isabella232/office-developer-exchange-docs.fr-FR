@@ -1,27 +1,27 @@
 ---
-title: Adresses
+title: ImAddresses
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ImAddresses
 api_type:
 - schema
 ms.assetid: 29f614a7-7fe6-47fa-b5f2-8feff106aa99
-description: L’élément imaddresss représente une collection d’adresses de messagerie instantanée pour un contact.
-ms.openlocfilehash: 24ff74d29c918d71116e25e097878b6e4e0a8ead
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ImAddresses représente une collection d’adresses de messagerie instantanée pour un contact.
+ms.openlocfilehash: 83f2b79644e311eb3b7b21f215c7e00df7f1c420
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515690"
 ---
-# <a name="imaddresses"></a>Adresses
+# <a name="imaddresses"></a>ImAddresses
 
-L’élément **Imaddresss** représente une collection d’adresses de messagerie instantanée pour un contact. 
+**L’élément ImAddresses** représente une collection d’adresses de messagerie instantanée pour un contact. 
   
 ```xml
 <ImAddresses>

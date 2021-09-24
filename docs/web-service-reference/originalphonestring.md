@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02c42828-0d52-4007-bbed-e6571fd31cbe
 description: L’élément OriginalPhoneString spécifie le numéro de téléphone d’origine d’un contact ou d’un personnage.
-ms.openlocfilehash: 172a69ec088440ece80a2807b97171ebf81b97d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 58a9b16a0cd1c747c8d9034ec81f63d91318e4dd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467038"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514213"
 ---
 # <a name="originalphonestring"></a>OriginalPhoneString
 
-L’élément **OriginalPhoneString** spécifie le numéro de téléphone d’origine d’un contact ou d’un personnage. 
+**L’élément OriginalPhoneString** spécifie le numéro de téléphone d’origine d’un contact ou d’un personnage. 
   
 ```XML
 <OriginalPhoneString></OriginalPhoneString>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **OriginalPhoneString** est le numéro de téléphone d’origine d’un contact ou d’un personnage. 
+La valeur texte de **l’élément OriginalPhoneString** est le numéro de téléphone d’origine d’un contact ou d’un personnage. 
   
 ## <a name="remarks"></a>Remarques
 

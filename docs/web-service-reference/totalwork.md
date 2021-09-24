@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TotalWork
 api_type:
 - schema
 ms.assetid: 1348ffab-bd19-48fc-90dc-fd35e7031700
-description: L’élément TotalWork, contient une description du travail associé à une tâche.
-ms.openlocfilehash: 39abd8c670cd8365198d7ebb7b25b865ab8d5188
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TotalWork contient une description de la quantité de travail associée à une tâche.
+ms.openlocfilehash: 55dc2a3f27c52f0a4b33043a2e279faffcb0bdd5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515117"
 ---
 # <a name="totalwork"></a>TotalWork
 
-L’élément **TotalWork,** contient une description du travail associé à une tâche. 
+**L’élément TotalWork** contient une description de la quantité de travail associée à une tâche. 
   
 ```xml
 <TotalWork/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte correspond à un entier qui représente la quantité totale de travail associée à une tâche.
+La valeur de texte correspond à un nombre complet qui représente la quantité totale de travail associée à une tâche.
   
 ## <a name="remarks"></a>Remarques
 

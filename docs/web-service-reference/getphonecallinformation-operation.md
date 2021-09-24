@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetPhoneCallInformation
 api_type:
 - schema
 ms.assetid: 418bd6ca-39d9-49a9-841e-7a71ede1fa51
 description: L’opération GetPhoneCallInformation retourne des informations sur l’appel téléphonique spécifié.
-ms.openlocfilehash: 231b160713526f44433188e2b1e3bd98012370b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7cb9ecbb30e6cdd4d85b60215f40e0be5f4aaa84
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458312"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539956"
 ---
 # <a name="getphonecallinformation-operation"></a>Opération GetPhoneCallInformation
 
-L’opération **GetPhoneCallInformation** retourne des informations sur l’appel téléphonique spécifié. 
+**L’opération GetPhoneCallInformation retourne** des informations sur l’appel téléphonique spécifié. 
   
 ## <a name="getphonecallinformation-request-example"></a>Exemple de requête GetPhoneCallInformation
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **GetPhoneCallInformation** suivant montre comment créer une demande pour obtenir des informations sur un appel téléphonique spécifique. 
+L’exemple suivant **d’une demande GetPhoneCallInformation** montre comment former une demande pour obtenir des informations sur un appel téléphonique spécifique. 
   
 ### <a name="code"></a>Code
 
@@ -53,7 +53,7 @@ L’exemple de requête **GetPhoneCallInformation** suivant montre comment crée
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **GetPhoneCallInformation** . La réponse représente un appel téléphonique actuellement connecté. 
+L’exemple suivant montre une réponse réussie à la **demande GetPhoneCallInformation.** La réponse représente un appel téléphonique actuellement connecté. 
   
 ### <a name="code"></a>Code
 

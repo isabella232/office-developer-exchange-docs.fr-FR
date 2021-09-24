@@ -1,23 +1,23 @@
 ---
-title: Boîte aux lettres (PreviewItemMailboxType)
+title: Mailbox (PreviewItemMailboxType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e898d737-b6e4-4403-9c2c-aec52a48a83d
 description: L’élément Mailbox contient l’identificateur de boîte aux lettres et l’adresse SMTP (Simple Mail Transfer Protocol) principale de l’utilisateur.
-ms.openlocfilehash: 4dc5ee45c00945c30a699daa0158c96679189ab1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1a2dcc08d3e1595aede21e6982b36a60e6efafb5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514297"
 ---
-# <a name="mailbox-previewitemmailboxtype"></a>Boîte aux lettres (PreviewItemMailboxType)
+# <a name="mailbox-previewitemmailboxtype"></a>Mailbox (PreviewItemMailboxType)
 
-L’élément **Mailbox** contient l’identificateur de boîte aux lettres et l’adresse SMTP (Simple Mail Transfer Protocol) principale de l’utilisateur. 
+**L’élément Mailbox** contient l’identificateur de boîte aux lettres et l’adresse SMTP (Simple Mail Transfer Protocol) principale de l’utilisateur. 
   
 ```XML
 <Mailbox>
@@ -38,7 +38,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MailboxId](mailboxid.md)  |  [PrimarySmtpAddress (String)](primarysmtpaddress-string.md)
+[MailboxId](mailboxid.md)  |  [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InvalidRecipient
 api_type:
 - schema
 ms.assetid: 9e2d3433-22d7-444b-9883-e5649297d8fe
-description: L’élément InvalidRecipient contient l’adresse SMTP du destinataire non valide et des informations expliquant pourquoi le destinataire n’est pas valide.
-ms.openlocfilehash: f301b31c1054625151ce90e41fca5e3efc21f473
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément InvalidRecipient contient l’adresse SMTP du destinataire non valide et des informations sur la raison pour laquelle il n’est pas valide.
+ms.openlocfilehash: 507cdf23d42477e7b70258b674246463e10f975b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526549"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539534"
 ---
 # <a name="invalidrecipient"></a>InvalidRecipient
 
-L’élément **InvalidRecipient** contient l’adresse SMTP du destinataire non valide et des informations expliquant pourquoi le destinataire n’est pas valide. 
+**L’élément InvalidRecipient contient** l’adresse SMTP du destinataire non valide et des informations sur la raison pour laquelle il n’est pas valide. 
   
 ```XML
 <InvalidRecipient>

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Token
 api_type:
 - schema
 ms.assetid: 62b700e1-88c7-41ef-b431-d7af4a8b54a7
 description: L’élément Token contient des données chiffrées qui représentent le jeton d’identification pour les données partagées.
-ms.openlocfilehash: c2e80082f9b4ecb96defdca8c5f0223a945661ba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 20bc17032d17802bbdf58d0dcaf925e2866dd0c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458907"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515151"
 ---
 # <a name="token"></a>Jeton
 
-L’élément **Token** contient des données chiffrées qui représentent le jeton d’identification pour les données partagées. 
+**L’élément Token** contient des données chiffrées qui représentent le jeton d’identification pour les données partagées. 
   
 ```xml
 <Token/>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients.  <br/> |
+|[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de ses données de calendrier ou de contact avec d’autres clients.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

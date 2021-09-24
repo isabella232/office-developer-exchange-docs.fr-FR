@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UploadItems
 api_type:
 - schema
 ms.assetid: fd2b9545-7213-4427-95ae-71a155b75971
 description: L’élément UploadItems représente une demande de téléchargement d’éléments dans une boîte aux lettres.
-ms.openlocfilehash: 8fdb7253926e030085374b650e792349e598ee4a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cd45be853edc6abf447a446677850b7dbc11bace
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513996"
 ---
 # <a name="uploaditems"></a>UploadItems
 
-L’élément **UploadItems** représente une demande de téléchargement d’éléments dans une boîte aux lettres. 
+**L’élément UploadItems représente** une demande de téléchargement d’éléments dans une boîte aux lettres. 
   
 [UploadItems](uploaditems.md)
   
@@ -44,7 +44,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |Contient un tableau d’éléments à télécharger dans une boîte aux lettres.  <br/> |
+|[Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |Contient un tableau d’éléments à charger dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -63,8 +63,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

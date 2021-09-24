@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04a6968d-7fb5-47ee-b66e-dc99c35dbb63
 description: L’élément HasStartTimeChanged spécifie si l’heure de début d’une réunion a changé.
-ms.openlocfilehash: 1355917005d956d05064bfc095055fb72aa16c57
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7f04c4d34a081b91adbb0796019e93bc50bfb8ab
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539646"
 ---
 # <a name="hasstarttimechanged"></a>HasStartTimeChanged
 
-L’élément **HasStartTimeChanged** spécifie si l’heure de début d’une réunion a changé. 
+**L’élément HasStartTimeChanged** spécifie si l’heure de début d’une réunion a changé. 
   
 ```XML
 <HasStartTimeChanged> true | false </HasStartTimeChanged>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ChangeHighlights](changehighlights.md) <br/> |Spécifie les modifications apportées entre deux versions d’un message de demande de réunion.  <br/> |
+|[ChangeHighlights](changehighlights.md) <br/> |Spécifie ce qui a changé entre deux versions d’un message de demande de réunion.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **HasStartTimeChanged** indique que l’heure de début d’une réunion a changé. La valeur **false** indique que l’heure de début n’a pas changé. 
+Une valeur de texte **true pour** l’élément **HasStartTimeChanged** indique que l’heure de début d’une réunion a changé. La valeur **false indique** que l’heure de début n’a pas changé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

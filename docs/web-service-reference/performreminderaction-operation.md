@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c597bb0e-13b0-422e-9c23-970463e2a5c3
 description: Trouvez des informations sur l’opération EWS PerformReminderAction.
-ms.openlocfilehash: 4c069d541e9a42167c447a50c405399958d3608d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ca547c401100afdfd9d846ca3bfddf710efd2797
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462289"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515305"
 ---
 # <a name="performreminderaction-operation"></a>Opération PerformReminderAction
 
-Trouvez des informations sur l’opération EWS **PerformReminderAction** . 
+Trouvez des informations sur l’opération EWS **PerformReminderAction.** 
   
-L’opération **PerformReminderAction** les services Web Exchange (EWS) lance une action de rejet ou d’exécution répétée sur un rappel. 
+**L’opération PerformReminderAction** Exchange Web Services (EWS) lance un masvage ou une action de répétition sur un rappel. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-performreminderaction-operation"></a>Utilisation de l’opération PerformReminderAction
 
-Vous pouvez utiliser l’opération **PerformReminderAction** pour ignorer ou répéter les rappels renvoyés par l’opération [GetReminders](getreminders-operation.md) . Pour répéter un rappel, définissez le [ActionType](actiontype-reminderactiontype.md) sur **SNOOZE**et définissez la valeur [NewReminderTime](newremindertime.md) à une heure ultérieure à la [ReminderTime](remindertime.md)actuelle, sinon le **NewReminderTime** est ignoré par le serveur. Si le rappel est destiné à une occurrence d’une réunion périodique et que l’action de **répétition** est effectuée sur le rappel avec un **NewReminderTime** qui se trouve au-delà du rappel de l’occurrence suivante, le rappel est effectivement ignoré. 
+Vous pouvez utiliser **l’opération PerformReminderAction** pour ignorer ou répéter (retarder) les rappels renvoyés par [l’opération GetReminders.](getreminders-operation.md) Pour répéter un rappel, définissez [ActionType](actiontype-reminderactiontype.md) sur **Snooze** et définissez la valeur [NewReminderTime](newremindertime.md) sur une heure ultérieure à la valeur [ReminderTime](remindertime.md)actuelle, sinon **le NewReminderTime** est ignoré par le serveur. Si le rappel est pour une occurrence  d’une réunion périodique et que l’action de répétition est prise sur le rappel avec **un NewReminderTime** qui se trouve au-delà du rappel de l’occurrence suivante, le rappel est effectivement rejeté. 
   
-Pour faire disparaître un rappel, définissez le paramètre **ActionType** sur **faire disparaître**. Lorsque le serveur traite la demande, le serveur remplace la valeur [IsReminderSet](isreminderset.md) de l’élément **true** par **false**.
+Pour ignorer un rappel, définissez **ActionType** sur **Dismiss**. Lorsque le serveur traite la demande, le serveur modifie la valeur [IsReminderSet](isreminderset.md) de l’élément de **True** à **False**.
   
-### <a name="performreminderaction-operation-soap-headers"></a>En-têtes SOAP d’opération PerformReminderAction
+### <a name="performreminderaction-operation-soap-headers"></a>En-têtes SOAP de l’opération PerformReminderAction
 
-L’opération **PerformReminderAction** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération PerformReminderAction** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, « Balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="performreminderaction-operation-request-example"></a>Exemple de requête d’opération PerformReminderAction
+## <a name="performreminderaction-operation-request-example"></a>Exemple de demande d’opération PerformReminderAction
 
-L’exemple suivant de demande d’opération **PerformReminderAction** indique comment répéter un rappel actif et définir une nouvelle heure de rappel. Notez que vous devez inclure le **ChangeKey** pour l' [ItemId](itemid.md) et que le **NewReminderTime** doit être défini à une heure ultérieure à la **ReminderTime** renvoyée par l’opération [GetReminders](getreminders-operation.md) . 
+L’exemple suivant **d’une demande d’opération PerformReminderAction** montre comment répéter un rappel actuel et définir une nouvelle heure de rappel. Notez que vous devez inclure la clé **ChangeKey** pour [itemId](itemid.md) et que **NewReminderTime** doit être définie sur une heure ultérieure au **ReminderTime** renvoyé par l’opération [GetReminders.](getreminders-operation.md) 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -69,9 +69,9 @@ L’exemple suivant de demande d’opération **PerformReminderAction** indique 
 ```
 
 > [!NOTE]
-> La valeur **ItemId** a été raccourcie afin de préserver la lisibilité. 
+> La **valeur ItemId** a été raccourcie pour préserver la lisibilité. 
   
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [PerformReminderAction](performreminderaction.md)
     
@@ -87,7 +87,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-performreminderaction-operation-response"></a>Réponse de l’opération PerformReminderAction réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **PerformReminderAction** . L’élément **UpdatedItemIds** contient le **ItemIds** de l’élément de calendrier mis à jour. 
+L’exemple suivant montre une réponse réussie à **une demande d’opération PerformReminderAction.** **L’élément UpdatedItemIds** contient les **ItemIds** de l’élément de calendrier mis à jour. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -117,7 +117,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [PerformReminderActionResponse](performreminderactionresponse.md)
     
@@ -129,7 +129,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="performreminderaction-operation-error-response-example"></a>Exemple de réponse d’erreur d’opération PerformReminderAction
 
-L’exemple suivant montre une réponse à une demande d’opération **PerformReminderAction** lorsqu’aucune modification n’a été apportée sur le serveur. Il s’agit d’une réponse dans laquelle une demande a été envoyée, mais aucune **UpdatedItemIds** n’a été renvoyée, ce qui signifie qu’aucun rappel n’a été modifié. 
+L’exemple suivant montre une réponse à une **demande d’opération PerformReminderAction** lorsqu’aucune modification n’a été effectuée sur le serveur. Il s’agit d’une réponse dans laquelle une demande a été envoyée, mais aucun **UpdatedItemIds** n’a été renvoyé, ce qui signifie qu’aucun rappel n’a été modifié. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -156,7 +156,7 @@ L’exemple suivant montre une réponse à une demande d’opération **PerformR
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [PerformReminderActionResponse](performreminderactionresponse.md)
     
@@ -164,7 +164,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [UpdatedItemIds](updateditemids.md)
     
-Pour d’autres codes d’erreur qui sont génériques à EWS, consultez la rubrique [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

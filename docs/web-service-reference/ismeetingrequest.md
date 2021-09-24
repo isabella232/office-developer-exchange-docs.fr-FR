@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsMeetingRequest
 api_type:
 - schema
 ms.assetid: 72102a55-fd51-4ec9-abce-9a4ec45b86d2
 description: L’élément IsMeetngRequest indique si les messages entrants doivent être une demande de réunion afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 8b4969faaeb7dfa98edbf4fe8747e8b783808313
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ab9ce873a974b22a8944927e813b84d6d433dca
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539436"
 ---
 # <a name="ismeetingrequest"></a>IsMeetingRequest
 
-L’élément **IsMeetngRequest** indique si les messages entrants doivent être une demande de réunion afin que la condition ou l’exception s’applique. 
+**L’élément IsMeetngRequest** indique si les messages entrants doivent être une demande de réunion afin que la condition ou l’exception s’applique. 
   
 ```XML
 <IsMeetingRequest>true | false</IsMeetingRequest>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être une demande de réunion afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être une demande de réunion afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être une demande de réunion afin que la condition ou l’exception s’applique. La valeur **false indique que** le message ne doit pas être une demande de réunion pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

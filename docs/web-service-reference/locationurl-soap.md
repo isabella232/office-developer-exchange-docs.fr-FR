@@ -1,22 +1,22 @@
 ---
-title: Locationurl, (SOAP)
+title: LocationUrl (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2da25452-3111-489c-9d75-14337a5200e0
-description: L’élément Locationurl, représente l’URL d’un emplacement de partage de documents.
-ms.openlocfilehash: ba28ce4ded83c55f7b3f799c0bfe6f9509e375fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LocationUrl représente l’URL d’un emplacement de partage de documents.
+ms.openlocfilehash: 4e5815b7a1b6badf0ad30c6ad6e1eb95e513c334
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540845"
 ---
-# <a name="locationurl-soap"></a>Locationurl, (SOAP)
+# <a name="locationurl-soap"></a>LocationUrl (SOAP)
 
-L’élément **locationurl,** représente l’URL d’un emplacement de partage de documents. 
+**L’élément LocationUrl** représente l’URL d’un emplacement de partage de documents. 
   
 ```XML
 <LocationUrl />
@@ -43,7 +43,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **locationurl,** est l’URL d’un emplacement de partage de documents. 
+La valeur de texte de **l’élément LocationUrl** est l’URL d’un emplacement de partage de documents. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -51,7 +51,7 @@ La valeur de texte de l’élément **locationurl,** est l’URL d’un emplacem
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

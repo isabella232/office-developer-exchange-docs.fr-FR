@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LargeAudienceThreshold
 api_type:
 - schema
 ms.assetid: dacd9db7-b8f0-445d-a3d1-3356b8c2bcd1
-description: L’élément LargeAudienceThreshold représente le seuil d’audience important pour un client.
-ms.openlocfilehash: 6d85f9eaf8b7723713877d376876461befa92324
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LargeAudienceThreshold représente le seuil de large audience pour un client.
+ms.openlocfilehash: c342fa63b19d5af52fe49362ae46b9848addaa0b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466387"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540859"
 ---
 # <a name="largeaudiencethreshold"></a>LargeAudienceThreshold
 
-L’élément **LargeAudienceThreshold** représente le seuil d’audience important pour un client. 
+**L’élément LargeAudienceThreshold** représente le seuil de large audience pour un client. 
   
 ```XML
 <LargeAudienceThreshold/>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service d’info-courrier.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente le seuil d’audience qui indique que le message est destiné à plusieurs personnes.
+La valeur de texte est un nombre complet qui représente le seuil d’audience qui indique que le message va être envoyé à plusieurs personnes.
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItem
 api_type:
 - schema
 ms.assetid: 298fdd71-a83d-4407-9728-4f0a8e2d857c
 description: L'opération UpdateItem sert à mettre à jour les propriétés de l'élément de contact dans la banque d'informations Exchange.
-ms.openlocfilehash: 66e1b91ea3154d8a501339aed7b398970e8f5392
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3d9c42d941be45f9577efb53e30bc2c299370527
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459825"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515025"
 ---
 # <a name="updateitem-operation-contact"></a>Opération UpdateItem (contacts)
 
 L'opération UpdateItem sert à mettre à jour les propriétés de l'élément de contact dans la banque d'informations Exchange.
   
-## <a name="updateitem-contact-request-example"></a>Exemple de requête UpdateItem (contact)
+## <a name="updateitem-contact-request-example"></a>Exemple de requête UpdateItem (Contact)
 
 ### <a name="description"></a>Description
 
@@ -64,7 +64,7 @@ L'exemple de code suivant montre comment mettre à jour l'adresse de messagerie 
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -148,7 +148,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ItemId](itemid.md)
     
-## <a name="invalid-updateitem-contact-request-example"></a>Exemple de requête UpdateItem (contact) non valide
+## <a name="invalid-updateitem-contact-request-example"></a>Exemple de requête UpdateItem (Contact) non valide
 
 ### <a name="description"></a>Description
 
@@ -189,7 +189,7 @@ L'exemple de code suivant illustre une demande non valide.
 
 Identificateur de l'élément a été raccourcie afin de préserver la lisibilité.
   
-## <a name="updateitem-contact-error-response"></a>Réponse d’erreur UpdateItem (contact)
+## <a name="updateitem-contact-error-response"></a>Réponse d’erreur UpdateItem (Contact)
 
 ### <a name="description"></a>Description
 

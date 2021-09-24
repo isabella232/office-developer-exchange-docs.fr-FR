@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff1b6b1c-3557-41d4-8aa6-9528fdb3a21a
 description: L’élément NewReminderTime spécifie une nouvelle heure pour un rappel.
-ms.openlocfilehash: a10f7e481b474501f33dba4c09060766568952b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9e6cb75396f35f606bcd974e374f24957ee5d1ec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465953"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515445"
 ---
 # <a name="newremindertime"></a>NewReminderTime
 
-L’élément **NewReminderTime** spécifie une nouvelle heure pour un rappel. 
+**L’élément NewReminderTime** spécifie une nouvelle heure pour un rappel. 
   
 ```XML
 <NewReminderTime/>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **NewReminderTime** est une nouvelle heure pour le rappel. L’élément **NewReminderTime** est utilisé lorsque l’élément [ActionType](actiontype-reminderactiontype.md) est défini sur **SNOOZE**, afin de retarder le rappel. La valeur de **NewReminderTime** doit être supérieure à la [ReminderTime](remindertime.md) renvoyée par l' [opération GetReminders](getreminders-operation.md).
+La valeur de texte de **l’élément NewReminderTime** est une nouvelle heure pour le rappel. **L’élément NewReminderTime** est utilisé lorsque l’élément [ActionType](actiontype-reminderactiontype.md) est définie sur **Snooze**, afin de retarder le rappel. La valeur de **NewReminderTime doit** être supérieure à la [valeur ReminderTime](remindertime.md) renvoyée par l’opération [GetReminders](getreminders-operation.md).
   
 ## <a name="remarks"></a>Remarques
 

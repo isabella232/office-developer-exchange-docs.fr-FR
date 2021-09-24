@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserConfigurationProperties
 api_type:
 - schema
 ms.assetid: c143a6ec-62ad-4d48-b844-b1ad88054bc1
 description: L’élément UserConfigurationProperties spécifie les types de propriétés à obtenir dans une opération GetUserConfiguration.
-ms.openlocfilehash: af6bee64516a7410d96ecc7581e8e819f550ddc1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0aed3ffc680ac881410469fe762349739ba924a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515004"
 ---
 # <a name="userconfigurationproperties"></a>UserConfigurationProperties
 
-L’élément **UserConfigurationProperties** spécifie les types de propriétés à obtenir dans une opération GetUserConfiguration. 
+**L’élément UserConfigurationProperties** spécifie les types de propriétés à obtenir dans une opération GetUserConfiguration. 
   
 ```xml
 <UserConfigurationProperties>Id | Dictionary | XmlData | BinaryData | All</UserConfigurationProperties>
@@ -44,16 +44,16 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserConfiguration](getuserconfiguration.md) <br/> |Spécifie une demande d’obtention d’un objet de configuration utilisateur.  <br/> |
+|[GetUserConfiguration](getuserconfiguration.md) <br/> |Spécifie une demande d’obtenir un objet de configuration utilisateur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **UserConfigurationProperties** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément UserConfigurationProperties.** 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|ID  <br/> |Spécifie la propriété identifier.  <br/> |
-|Dictionary  <br/> |Spécifie les types de propriété de dictionnaire.  <br/> |
+|ID  <br/> |Spécifie la propriété d’identificateur.  <br/> |
+|Dictionary  <br/> |Spécifie les types de propriétés de dictionnaire.  <br/> |
 |XmlData  <br/> |Spécifie les types de propriétés de données XML.  <br/> |
 |BinaryData  <br/> |Spécifie les types de propriétés de données binaires.  <br/> |
 |Tous  <br/> |Spécifie l’identificateur, le dictionnaire, les données XML et les types de propriétés de données binaires.  <br/> |
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

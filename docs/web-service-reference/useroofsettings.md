@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UserOofSettings
 api_type:
 - schema
 ms.assetid: 0a95ca63-660e-4cc0-82e4-3f74fb4ae21c
-description: L’élément UserOofSettings spécifie les paramètres d’absence du bureau.
-ms.openlocfilehash: 417c3d5061a6229d41eb57f72e89f03213acf460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserOofSettings spécifie les paramètres hors Office (OOF).
+ms.openlocfilehash: 0fa550a97464414570faf391d3633243ff2e2144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461904"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513968"
 ---
 # <a name="useroofsettings"></a>UserOofSettings
 
-L’élément **UserOofSettings** spécifie les paramètres d’absence du bureau. 
+**L’élément UserOofSettings** spécifie les paramètres De Office (OOF). 
   
 [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
   
@@ -50,17 +50,17 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[OofState](oofstate.md) <br/> |Définit l’état d’absence du Bureau de l’utilisateur.  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |Définit ou contient une valeur qui détermine à qui les messages externes OOF sont envoyés.  <br/> |
-|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Spécifie la durée pendant laquelle le statut OOF est activé si l’élément [OofState](oofstate.md) est défini sur **Planifié**. Si l’élément [OofState](oofstate.md) est défini sur **Enabled** ou **Disabled**, la valeur de cet élément est ignorée.  <br/> |
-|[InternalReply](internalreply.md) <br/> |Contient la réponse OOF envoyée aux autres utilisateurs dans le domaine de l’utilisateur ou les domaines approuvés.  <br/> |
-|[ExternalReply](externalreply.md) <br/> |Contient la réponse OOF envoyée aux adresses en dehors du domaine du destinataire ou des domaines approuvés.  <br/> |
+|[OofState](oofstate.md) <br/> |Définit l’état d’absence du travail de l’utilisateur.  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |Définit ou contient une valeur qui détermine à qui les messages d’absence du système externes sont envoyés.  <br/> |
+|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Spécifie la durée pendant laquelle l’état d’absence du travail est activé si l’élément [OofState](oofstate.md) est définie sur **Scheduled**. Si [l’élément OofState](oofstate.md) est activé ou **désactivé,** la valeur de cet élément est ignorée.   <br/> |
+|[InternalReply](internalreply.md) <br/> |Contient la réponse OOF envoyée à d’autres utilisateurs dans le domaine ou les domaines de confiance de l’utilisateur.  <br/> |
+|[ExternalReply](externalreply.md) <br/> |Contient la réponse OOF envoyée aux adresses en dehors du domaine du destinataire ou des domaines de confiance.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contient les arguments utilisés pour définir les paramètres et les messages OOF d’un utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest` <br/> |
+|[SetUserOofSettingsRequest](setuseroofsettingsrequest.md) <br/> |Contient les arguments utilisés pour définir les paramètres et les messages d’absence du travail d’un utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple de requête SetUserOofSettings suivant définit le OoFState sur **activé**, définit la durée de l’absence du Bureau pour 10 jours et définit les messages OOF internes et externes.
+L’exemple suivant d’une demande SetUserOofSettings définit OoFState sur **Enabled,** définit la durée de l’absence du travail pendant 10 jours et définit les messages d’absence du travail internes et externes.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -105,7 +105,7 @@ L’exemple de requête SetUserOofSettings suivant définit le OoFState sur **ac
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5acceb42-a757-4c74-ab1c-b1abf7bf1e0a
 description: L’élément ExchangeStoreId spécifie l’identificateur de groupe de messagerie instantanée.
-ms.openlocfilehash: c1b1e1830987449eeb7ea186d00743ea9cc75a77
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dba2d97fa135583efd70ec6d555b71f356282728
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456989"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513800"
 ---
 # <a name="exchangestoreid"></a>ExchangeStoreId
 
-L’élément **ExchangeStoreId** spécifie l’identificateur de groupe de messagerie instantanée. 
+**L’élément ExchangeStoreId** spécifie l’identificateur de groupe de messagerie instantanée. 
   
 ```XML
 <ExchangeStoreId Id="" ChangeKey=""/>
@@ -32,8 +32,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |La valeur de texte de l’attribut **ID** est l’identificateur du groupe.  <br/> |
-|ChangeKey  <br/> |La valeur de texte de l’attribut **ChangeKey** est la clé de modification du groupe.  <br/> |
+|ID  <br/> |La valeur de texte de **l’attribut ID** est l’identificateur du groupe.  <br/> |
+|ChangeKey  <br/> |La valeur de texte de **l’attribut ChangeKey** est la clé de modification du groupe.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -43,7 +43,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Imgroup](imgroup.md) <br/> |Représente un groupe de messagerie instantanée.  <br/> |
+|[ImGroup](imgroup.md) <br/> |Représente un groupe de messagerie instantanée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

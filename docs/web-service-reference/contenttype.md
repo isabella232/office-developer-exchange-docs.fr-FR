@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContentType
 api_type:
 - schema
 ms.assetid: f91ff0df-0d8a-43ea-a188-d80f0e885f19
 description: L’élément ContentType décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu de la pièce jointe.
-ms.openlocfilehash: cb326bb761ea28e0e9f77501bf754c7c1f0318fb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3f00aaa2f3b93ab7a8a3ccc4905b1353dce6b083
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526650"
 ---
 # <a name="contenttype"></a>ContentType
 
-L’élément **ContentType** décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu de la pièce jointe. 
+**L’élément ContentType** décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu de la pièce jointe. 
   
 ```xml
 <ContentType/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

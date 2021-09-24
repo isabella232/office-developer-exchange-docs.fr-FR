@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExcludeConflicts
 api_type:
 - schema
 ms.assetid: ec33ef23-8537-41eb-8d89-7eb906a1fad7
-description: L’élément ExcludeConflicts spécifie s’il faut renvoyer les heures suggérées pour les heures de calendrier qui sont en conflit entre les participants.
-ms.openlocfilehash: d20c594ae600abf110681ea678b2d95a23bf7809
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ExcludeConflicts spécifie s’il faut renvoyer les heures suggérées pour les heures de calendrier en conflit entre les participants.
+ms.openlocfilehash: 6182ff8faed62cefc39015d3242bf7e669660b4a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539907"
 ---
 # <a name="excludeconflicts"></a>ExcludeConflicts
 
-L’élément **ExcludeConflicts** spécifie s’il faut renvoyer les heures suggérées pour les heures de calendrier qui sont en conflit entre les participants. 
+**L’élément ExcludeConflicts** spécifie s’il faut renvoyer les heures suggérées pour les heures de calendrier en conflit entre les participants. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -52,18 +52,18 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailboxData](mailboxdata.md) <br/> |Représente un utilisateur et des options de boîte aux lettres individuelle pour le type de données à renvoyer à propos de l’utilisateur de boîte aux lettres.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
+|[MailboxData](mailboxdata.md) <br/> |Représente un utilisateur de boîte aux lettres individuel et des options pour le type de données à retourner sur l’utilisateur de la boîte aux lettres.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Les valeurs possibles sont Boolean **true** ou **false**.
+Une valeur de texte est requise. Les valeurs possibles sont un **booléen vrai** ou **faux**.
   
 ## <a name="remarks"></a>Remarques
 
 Cet élément est obligatoire.
   
 > [!NOTE]
-> Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur exécutant MicrosoftExchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé. 
+> Le schéma qui décrit cet élément se trouve dans le répertoire /EWS/ de l’ordinateur qui exécute MicrosoftExchange Server 2007 sur qui le rôle serveur d’accès au client est installé. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

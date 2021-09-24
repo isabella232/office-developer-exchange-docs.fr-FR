@@ -1,27 +1,27 @@
 ---
-title: Nom (EmailAddressType)
+title: Name (EmailAddressType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Name
 api_type:
 - schema
 ms.assetid: 98c58c53-9acc-4e89-9fcf-03f1b05abee1
 description: L’élément Name représente le nom d’un utilisateur de boîte aux lettres.
-ms.openlocfilehash: db6eb547b5c848dc31bbaa377692989b16771673
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 096b5db4f7bc2de7d1d7355e4e0dba2684bd06d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466926"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515515"
 ---
-# <a name="name-emailaddresstype"></a>Nom (EmailAddressType)
+# <a name="name-emailaddresstype"></a>Name (EmailAddressType)
 
-L’élément **Name** représente le nom d’un utilisateur de boîte aux lettres. 
+**L’élément Name** représente le nom d’un utilisateur de boîte aux lettres. 
   
 ```xml
 <Name/>
@@ -54,7 +54,7 @@ Une valeur de texte qui représente une chaîne est requise si cet élément est
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est facultatif. L’élément **Name** existe dans les types **AttachmentType**, **EmailAddressType**et **EmailAddress** . L’élément **Name** dans le type **EmailAddress** est décrit dans la rubrique de l’élément [Name (EmailAddress)](name-emailaddress.md) . 
+Cet élément est facultatif. **L’élément Name** existe dans les types **AttachmentType,** **EmailAddressType** et **EmailAddress.** **L’élément Name** dans le type **EmailAddress** est décrit dans la rubrique [d’élément Name (EmailAddress).](name-emailaddress.md) 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   

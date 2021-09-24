@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Organizer
 api_type:
 - schema
 ms.assetid: 63892b57-3805-4d60-b9f7-20552a69c241
-description: L’élément organisateur représente l’organisateur d’une réunion.
-ms.openlocfilehash: c1188c9b3a894e86a08b8869045c3647e394f506
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Organizer représente l’organisateur d’une réunion.
+ms.openlocfilehash: 05a96b7c7dfa2802f67b65800bea217a4665871e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514227"
 ---
 # <a name="organizer"></a>Organisateur
 
-L’élément **organisateur** représente l’organisateur d’une réunion. 
+**L’élément Organizer** représente l’organisateur d’une réunion. 
   
 ```xml
 <Organizer>
@@ -50,7 +50,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

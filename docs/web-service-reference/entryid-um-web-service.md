@@ -1,30 +1,30 @@
 ---
-title: entryId (service Web de messagerie unifiée)
+title: entryId (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - entryId
 api_type:
 - schema
 ms.assetid: ce62eab5-0079-493b-be1f-52b62fdf35dc
-description: L’élément entryId contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une demande PlayOnPhone Operation (service Web de messagerie unifiée).
-ms.openlocfilehash: 5b0ad5c5af682f7589d94219955dde646cd2897a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément entryId contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une demande d’opération PlayOnPhone (service web de um).
+ms.openlocfilehash: faeaa9f4684214412c2fa0dd4d4efa22756b2320
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539942"
 ---
-# <a name="entryid-um-web-service"></a>entryId (service Web de messagerie unifiée)
+# <a name="entryid-um-web-service"></a>entryId (service web de messagerie unifiée)
 
-L’élément **EntryID** contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une demande [PlayOnPhone Operation (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md) . 
+**L’élément entryId** contient la valeur qui représente l’identificateur de l’élément à lire sur le téléphone dans une demande d’opération [PlayOnPhone (service web de](playonphone-operation-um-web-service.md) um). 
   
-[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md)
+[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md)
   
-[entryId (service Web de messagerie unifiée)](entryid-um-web-service.md)
+[entryId (service web de messagerie unifiée)](entryid-um-web-service.md)
   
 ```xml
 <PlayOnPhone>
@@ -49,7 +49,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md) <br/> |Définit une demande de lecture d’un élément sur un téléphone.  <br/> |
+|[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md) <br/> |Définit une demande de lecture d’un élément sur un téléphone.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -61,16 +61,16 @@ Une valeur de texte est requise.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération PlayOnPhone (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md)
+[Opération PlayOnPhone (service web de messagerie unifiée)](playonphone-operation-um-web-service.md)
   
-[PlayOnPhone (service Web de messagerie unifiée)](playonphone-um-web-service.md)
+[PlayOnPhone (service web de messagerie unifiée)](playonphone-um-web-service.md)
   
 [Opération FindItem](finditem-operation.md)
 

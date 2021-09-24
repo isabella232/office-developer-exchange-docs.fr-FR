@@ -1,23 +1,23 @@
 ---
-title: Loisirs
+title: Hobbies
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f771b066-e42e-4880-bf18-709ad033d2af
-description: L’élément Hobbi indique un tableau de loisirs et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: c76f4fc0463928814c61b8d1fb63e4255d6be63d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Loisirs spécifie un tableau de loisirs et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 5be8b65a7f24a9034da3b384fe63a42ff8b7fc19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460952"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514668"
 ---
-# <a name="hobbies"></a>Loisirs
+# <a name="hobbies"></a>Hobbies
 
-L’élément **Hobbi** indique un tableau de loisirs et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Loisirs** spécifie un tableau de loisirs et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Hobbies>
@@ -38,13 +38,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

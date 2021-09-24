@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
-description: L’élément assigner spécifie une chaîne utilisée pour identifier un attribut d’un personnage.
-ms.openlocfilehash: 9a3243904c02c3bdeea7e4a4e7dcb240d4ad3563
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Attribution spécifie une chaîne utilisée pour identifier un attribut d’un personnage.
+ms.openlocfilehash: ce0dff53d48b4b198c21a4bcb6099608abbae7eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513828"
 ---
 # <a name="attribution-string"></a>Attribution (String)
 
-L' **élément** assigner spécifie une chaîne utilisée pour identifier un attribut d’un personnage. 
+**L’élément Attribution** spécifie une chaîne utilisée pour identifier un attribut d’un personnage. 
   
 ```XML
 <Attribution></Attribution>
 ```
 
- **XS : String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau d’attributions pour son élément **Value** associé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de **l’élément** assertment est une valeur de type String qui attribut une valeur de propriété au contact source. 
+La valeur de texte de l’élément **d’attribution** est une valeur de chaîne qui attribue une valeur de propriété au contact source. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

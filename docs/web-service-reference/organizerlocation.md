@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c76bd1d-6099-4966-a93e-865437267e33
-description: L’élément OrganizerLocation est destiné uniquement à un usage interne.
-ms.openlocfilehash: cd60ea3e671037509df4f52c1e34e6bdbf9fadf8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OrganizerLocation est destiné à un usage interne uniquement.
+ms.openlocfilehash: 5bb1a993c6ce7b12d2b517151430e0301e61d744
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462387"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514220"
 ---
 # <a name="organizerlocation"></a>OrganizerLocation
 
-L’élément **OrganizerLocation** est destiné uniquement à un usage interne. 
+**L’élément OrganizerLocation** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 194f7ce3-8f6c-4da7-abc5-bf8283bdfb83
-description: L’élément LegacyDn (NonEmptyArrayOfLegacyDNsType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: d4daf06ea7d58224def4b2f2bea64637398532a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LegacyDn (NonEmptyArrayOfLegacyDNsType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: aeb388725341427b2cd354abcc3f61985777e2d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530760"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540852"
 ---
 # <a name="legacydn-nonemptyarrayoflegacydnstype"></a>LegacyDn (NonEmptyArrayOfLegacyDNsType)
 
-L’élément **LegacyDn (NonEmptyArrayOfLegacyDNsType)** est destiné uniquement à un usage interne. 
+**L’élément LegacyDn (NonEmptyArrayOfLegacyDNsType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Action
 api_type:
 - schema
 ms.assetid: 8bbc12f2-76c5-4fda-828f-56b2086a0454
-description: L’élément action contient l’action à effectuer sur la conversation spécifiée par l’élément ConversationId.
-ms.openlocfilehash: f97b04b98cdc29bee9aff5fa1fc6f37400b8314c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Action contient l’action à effectuer sur la conversation spécifiée par l’élément ConversationId.
+ms.openlocfilehash: e75d9d5df75894d1de9831b0022269e7ace4fa63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527543"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514892"
 ---
 # <a name="action-conversationactiontypetype"></a>Action (ConversationActionTypeType)
 
-L’élément **action** contient l’action à effectuer sur la conversation spécifiée par l’élément [ConversationId](conversationid.md) . 
+**L’élément Action** contient l’action à effectuer sur la conversation spécifiée par l’élément [ConversationId.](conversationid.md) 
   
 - [ApplyConversationAction](applyconversationaction.md)
   
@@ -52,27 +52,27 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **action** indique l’action à effectuer sur une conversation. Voici les valeurs de texte possibles et les actions correspondantes : 
+La valeur de texte de **l’élément Action** indique l’action à effectuer sur une conversation. Les valeurs de texte possibles et les actions correspondantes sont les suivantes : 
   
-- **AlwaysCategorize** : les éléments actifs et les nouveaux éléments de la conversation seront automatiquement définis avec les catégories identifiées dans l’élément [categories](categories-ex15websvcsotherref.md) . 
+- **AlwaysCategorize** : les éléments actuels et les nouveaux éléments de la conversation seront automatiquement défini avec les catégories identifiées dans [l’élément Categories.](categories-ex15websvcsotherref.md) 
     
-- **AlwaysDelete** : les éléments actifs et les nouveaux éléments de la conversation seront automatiquement supprimés. Le mode de suppression est défini par l’élément [DeleteType](deletetype.md) . 
+- **AlwaysDelete** : les éléments actuels et les nouveaux éléments de la conversation sont automatiquement supprimés. Le mode de suppression est définie par [l’élément DeleteType.](deletetype.md) 
     
-- **AlwaysMove** : les éléments actifs et les nouveaux éléments de la conversation seront automatiquement déplacés vers le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . 
+- **AlwaysMove** : les éléments actuels et les nouveaux éléments de la conversation sont automatiquement déplacés vers le dossier identifié par l’élément [DestinationFolderId.](destinationfolderid.md) 
     
-- **Supprimer** : les éléments actuels de la conversation seront supprimés. Les éléments suivants de la conversation ne seront pas supprimés. Le mode de suppression est défini par l’élément [DeleteType](deletetype.md) . 
+- **Supprimer** : les éléments actuels de la conversation seront supprimés. Les éléments suivants de la conversation ne seront pas supprimés. Le mode de suppression est définie par [l’élément DeleteType.](deletetype.md) 
     
-- **Move** : les éléments actuels de la conversation seront déplacés vers le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . Les éléments suivants de la conversation ne seront pas déplacés. 
+- **Move** : les éléments actuels de la conversation sont déplacés vers le dossier identifié par l’élément [DestinationFolderId.](destinationfolderid.md) Les éléments suivants de la conversation ne seront pas déplacés. 
     
-- **Copier** : les éléments actuels de la conversation seront copiés dans le dossier identifié par l’élément [DestinationFolderId](destinationfolderid.md) . Les éléments suivants de la conversation ne seront pas copiés. 
+- **Copier** : les éléments actuels de la conversation seront copiés dans le dossier identifié par l’élément [DestinationFolderId.](destinationfolderid.md) Les éléments suivants de la conversation ne seront pas copiés. 
     
-- **SetReadState** : l’état de lecture est défini pour les éléments actuels de la conversation. L’état de lecture est défini par l’élément [IsRead](isread.md) . 
+- **SetReadState** : l’état de lecture des éléments actuels de la conversation est réglé. L’état de lecture est définie par [l’élément IsRead.](isread.md) 
     
-- **Flag** : les éléments actuels de la conversation auront un indicateur défini par l’élément [Flag](flag.md) . 
+- **Indicateur** : les éléments actuels de la conversation auront un indicateur défini par [l’élément Flag.](flag.md) 
     
 ## <a name="remarks"></a>Remarques
 

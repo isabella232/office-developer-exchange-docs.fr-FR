@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnreadCount
 api_type:
 - schema
 ms.assetid: 53b22647-1453-4707-9ea0-6a8369748d56
 description: L’élément UnreadCount contient le nombre d’éléments non lus dans un dossier.
-ms.openlocfilehash: 72e5d47eac7618408e46ad11eb19eaebf9835502
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b4be48eae8037f5bbffaa120e71024102e7a108f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515032"
 ---
 # <a name="unreadcount"></a>UnreadCount
 
-L’élément **UnreadCount** contient le nombre d’éléments non lus dans un dossier. 
+**L’élément UnreadCount** contient le nombre d’éléments non lus dans un dossier. 
   
 ```XML
 <UnreadCount/>
 ```
 
- **XS : int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -52,7 +52,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une valeur entière. Cette propriété est en lecture seule.
+La valeur de texte représente une valeur d’un chiffre. Cette propriété est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 

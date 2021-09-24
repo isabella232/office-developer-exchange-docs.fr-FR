@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalUnreadCount
 api_type:
 - schema
 ms.assetid: 5e5ccf3e-2f95-4bf9-b915-8b7e59e807a5
-description: L’élément GlobalUnreadCount contient le décompte de tous les éléments de conversation non lus dans la boîte aux lettres.
-ms.openlocfilehash: 976067078908523936769b2856712e3e6908f0c4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GlobalUnreadCount contient le nombre de tous les éléments de conversation non lus dans la boîte aux lettres.
+ms.openlocfilehash: 438df5821f1b8c78253b2d328ab4f9e5616295ed
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539815"
 ---
 # <a name="globalunreadcount"></a>GlobalUnreadCount
 
-L’élément **GlobalUnreadCount** contient le décompte de tous les éléments de conversation non lus dans la boîte aux lettres. 
+**L’élément GlobalUnreadCount** contient le nombre de tous les éléments de conversation non lus dans la boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ L’élément **GlobalUnreadCount** contient le décompte de tous les éléments
 <GlobalUnreadCount/>
 ```
 
- **XS : int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -56,7 +56,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **GlobalUnreadCount** est une valeur entière qui représente le nombre de tous les éléments de conversation non lus dans la boîte aux lettres. 
+La valeur de texte de **l’élément GlobalUnreadCount** est une valeur de nombre complet qui représente le nombre de tous les éléments de conversation non lus dans la boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 

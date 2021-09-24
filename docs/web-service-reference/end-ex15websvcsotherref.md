@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - End
 api_type:
 - schema
 ms.assetid: 72329821-32ff-495d-b6e5-fdc011003c2e
 description: L’élément End représente la fin d’une durée.
-ms.openlocfilehash: d36f555d2ac9c0c1d82053029720ec17a53f2d92
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8f7fd448a873f82a82c6bd129fc16af9241d7f3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456142"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540090"
 ---
 # <a name="end"></a>End
 
-L’élément **end** représente la fin d’une durée. 
+**L’élément End** représente la fin d’une durée. 
   
 ```xml
 <End/>
@@ -47,8 +47,8 @@ Aucun.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[FirstOccurrence](firstoccurrence.md) <br/> |Représente la première occurrence d’un élément de calendrier périodique.  <br/> |
 |[LastOccurrence](lastoccurrence.md) <br/> |Représente la dernière occurrence d’un élément de calendrier périodique.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
-|[Réunions](occurrence.md) <br/> |Représente une occurrence modifiée unique d’un élément de calendrier périodique.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Occurrence](occurrence.md) <br/> |Représente une occurrence modifiée unique d’un élément de calendrier périodique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -56,9 +56,9 @@ La valeur de texte représente la fin d’une durée.
   
 ## <a name="remarks"></a>Remarques
 
-L’opération UpdateItem peut définir l’heure de [début](start.md) et de **fin** d’un élément de la banque Exchange. Dans une requête UpdateItem, vous pouvez définir l’heure de [début](start.md) sans définir également l’heure de **fin** . Cela peut entraîner une erreur si l’heure de [début](start.md) est postérieure à l’heure de **fin** . N’oubliez pas que les applications clientes doivent effectuer des ajustements à l’heure de **fin** lorsque cette heure de [début](start.md) est modifiée afin de conserver la durée. 
+L’opération UpdateItem peut  définir l’heure [de](start.md) début et de fin d’un Exchange magasin. Dans une demande UpdateItem, vous pouvez définir l’heure [de](start.md) début sans également définir **l’heure de** fin. Cela peut provoquer une erreur si l’heure [de](start.md) début est ultérieure à **l’heure de** fin. N’ignorez pas que les  applications clientes [](start.md) doivent effectuer des ajustements à l’heure de fin lorsque cette heure de début est modifiée afin de conserver la durée. 
   
- **Note** Les informations de décalage de fuseau horaire sont perdues si les dates de [début](start.md) et de **fin** de l’élément de gabarit périodique n’ont pas de date égale à la première occurrence d’une périodicité hebdomadaire. 
+ **Remarque** Les informations de décalage de [](start.md) fuseau horaire sont perdues si les **dates** de début et de fin de l’élément principal périodique ne sont pas égales à la première occurrence d’une fréquence hebdomadaire de récurrence. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   

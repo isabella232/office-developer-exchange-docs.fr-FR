@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7055c86f-c364-42d3-87b4-c741ccb15c57
 description: L’élément CreatedTime spécifie l’heure à laquelle l’élément a été créé.
-ms.openlocfilehash: 709e6021e48a9f2b4857b9283750306d5e513c72
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d1ad8a0bff805589aa8fb430a2287ea28abe5258
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44445313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515858"
 ---
 # <a name="createdtime"></a>CreatedTime
 
-L’élément **CreatedTime** spécifie l’heure à laquelle l’élément a été créé. 
+**L’élément CreatedTime** spécifie l’heure à laquelle l’élément a été créé. 
   
 ```xml
 <CreatedTime></CreatedTime>
@@ -40,7 +40,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SearchPreviewItem](searchpreviewitem.md) <br/> |Spécifie les 256 premiers caractères d’un élément de boîte aux lettres pour l’aperçu sans ouvrir l’élément.  <br/> |
+|[SearchPreviewItem](searchpreviewitem.md) <br/> |Spécifie les 256 premiers caractères d’un élément de boîte aux lettres à prévisualiser sans ouvrir l’élément.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

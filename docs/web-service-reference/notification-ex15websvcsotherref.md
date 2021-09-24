@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Notification
 api_type:
 - schema
 ms.assetid: c9070936-0930-438e-839c-91127256a6c8
-description: L’élément notification contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.
-ms.openlocfilehash: c4a5206c14985ec46cf40162a9ce4eaec68242ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Notification contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification.
+ms.openlocfilehash: affd44bb4c1f16029d6da92419908aeac3c26a44
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530386"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515410"
 ---
 # <a name="notification"></a>Notification
 
-L’élément **notification** contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification. 
+**L’élément Notification** contient des informations sur l’abonnement et les événements qui se sont produits depuis la dernière notification. 
   
 ```xml
 <Notification>
@@ -117,16 +117,16 @@ Aucune.
 |[DeletedEvent](deletedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est supprimé.  <br/> |
 |[ModifiedEvent](modifiedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est modifié.  <br/> |
 |[MovedEvent](movedevent.md) <br/> |Représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.  <br/> |
-|[NewMailEvent](newmailevent.md) <br/> |Représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
-|[StatusEvent](statusevent.md) <br/> |Représente une notification indiquant qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres.  <br/> |
-|[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Représente un événement dans lequel le temps de disponibilité d’un élément a été modifié.  <br/> |
+|[NewMailEvent](newmailevent.md) <br/> |Représente un événement déclenché par un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
+|[StatusEvent](statusevent.md) <br/> |Représente une notification vous avertissant qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres.  <br/> |
+|[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Représente un événement dans lequel les heures de libre/occupé d’un élément ont changé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande GetEvents unique.  <br/> |
-|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande SendNotification.  <br/> |
+|[GetEventsResponseMessage](geteventsresponsemessage.md) <br/> |Contient l’état et le résultat d’une demande GetEvents unique.  <br/> |
+|[SendNotificationResponseMessage](sendnotificationresponsemessage.md) <br/> |Contient l’état et le résultat d’une demande SendNotification unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

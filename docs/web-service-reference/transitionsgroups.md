@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TransitionsGroups
 api_type:
 - schema
 ms.assetid: ad0849f8-5158-4a23-9c36-a49f5be1d1e1
 description: L’élément TransitionsGroups représente un tableau de groupes de transition de fuseau horaire.
-ms.openlocfilehash: 35244e122ee31045359afd0833459bbb94fd0aa1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cd394d0ec333f639542c44cef6c992b24b69f65c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467409"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515122"
 ---
 # <a name="transitionsgroups"></a>TransitionsGroups
 
-L’élément **TransitionsGroups** représente un tableau de groupes de transition de fuseau horaire. 
+**L’élément TransitionsGroups** représente un tableau de groupes de transition de fuseau horaire. 
   
 ```XML
 <TransitionsGroups>
@@ -48,8 +48,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StartTimeZone](starttimezone.md) <br/> |Définit le fuseau horaire pour l’heure de début d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).  <br/> |
-|[EndTimeZone](endtimezone.md) <br/> |Définit le fuseau horaire pour l’heure de fin d’une [CalendarItem](calendaritem.md) ou d’un [propriété meetingrequest](meetingrequest.md).  <br/> |
+|[StartTimeZone](starttimezone.md) <br/> |Définit le fuseau horaire pour l’heure de début d’un [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
+|[EndTimeZone](endtimezone.md) <br/> |Définit le fuseau horaire pour l’heure de fin d’un [CalendarItem](calendaritem.md) ou [MeetingRequest](meetingrequest.md).  <br/> |
 |[TimeZoneDefinition](timezonedefinition.md) <br/> |Définit un fuseau horaire.  <br/> |
    
 ## <a name="remarks"></a>Remarques

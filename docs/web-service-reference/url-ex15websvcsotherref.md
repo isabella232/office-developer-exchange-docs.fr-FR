@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
-description: L’élément URL représente l’emplacement du service Web client pour les notifications de type transmission.
-ms.openlocfilehash: 62e139c441eef68db5cf13226d15a83f67135026
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Url représente l’emplacement du service Web client pour les notifications Push.
+ms.openlocfilehash: 322cae9e8924b0264909923286ecb22d4adcf070
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530929"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514997"
 ---
 # <a name="url"></a>Url
 
-L’élément **URL** représente l’emplacement du service Web client pour les notifications de type transmission. 
+**L’élément Url** représente l’emplacement du service Web client pour les notifications Push. 
   
 ```XML
 <Url></Url>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur un type de message.  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événements push.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte de l’élément **URL** correspond à l’emplacement du service Web client pour les notifications de type transmission. 
+La valeur de texte de **l’élément Url** est l’emplacement du service Web client pour les notifications Push. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c3c26063-9f3d-414d-84b7-4a2e12281157
-description: L’élément ContactString spécifie le nom d’affichage d’un contact.
-ms.openlocfilehash: cecb742c3ddfca5633c28b2018314394e3af12a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ContactString spécifie le nom complet d’un contact.
+ms.openlocfilehash: 7f2db935aeb7d35db21334b3cccb36b13af0faa1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513835"
 ---
 # <a name="contactstring"></a>ContactString
 
-L’élément **ContactString** spécifie le nom d’affichage d’un contact. 
+**L’élément ContactString** spécifie le nom complet d’un contact. 
   
 ```XML
 <ContactString></ContactString>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ContactString** est la valeur de chaîne qui spécifie le nom complet. 
+La valeur de texte de **l’élément ContactString** est la valeur de chaîne qui spécifie le nom complet. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

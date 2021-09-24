@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarEventDetails
 api_type:
 - schema
 ms.assetid: 2dca0192-b91b-4154-aa09-84da74e875e9
 description: L’élément CalendarEventDetails fournit des informations supplémentaires sur un événement de calendrier.
-ms.openlocfilehash: 3e1dbba00bce4a1fdc53f3330527764c516890ab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c332d17b1bb630b9635e64c484b4c5fd989f9845
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516089"
 ---
 # <a name="calendareventdetails"></a>CalendarEventDetails
 
-L’élément **CalendarEventDetails** fournit des informations supplémentaires sur un événement de calendrier. 
+**L’élément CalendarEventDetails fournit** des informations supplémentaires sur un événement de calendrier. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -65,26 +65,26 @@ Aucune.
 |:-----|:-----|
 |[ID](id.md) <br/> |Représente l’ID d’entrée de l’élément de calendrier.  <br/> |
 |[Subject (CalendarEventDetails)](subject-calendareventdetails.md) <br/> |Représente l’objet de l’élément de calendrier.  <br/> |
-|[Emplacement (CalendarEventDetails)](location-calendareventdetails.md) <br/> |Représente le champ d’emplacement de l’élément de calendrier.  <br/> |
+|[Location (CalendarEventDetails)](location-calendareventdetails.md) <br/> |Représente le champ d’emplacement de l’élément de calendrier.  <br/> |
 |[IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md) <br/> |Indique si l’événement de calendrier est une réunion ou un rendez-vous.  <br/> |
-|[IsRecurring (CalendarEventDetails)](isrecurring-calendareventdetails.md) <br/> |Indique si l’événement de calendrier est une instance d’un élément de calendrier périodique ou un élément de calendrier unique.  <br/> |
-|[IsException](isexception.md) <br/> |Indique si une instance d’un élément de calendrier périodique est modifiée à partir de la forme de base.  <br/> |
-|[IsReminderSet](isreminderset.md) <br/> |Indique si un rappel a été défini pour l’événement de calendrier.  <br/> |
+|[IsRecurring (CalendarEventDetails)](isrecurring-calendareventdetails.md) <br/> |Indique si l’événement de calendrier est une instance d’un élément de calendrier périodique ou d’un élément de calendrier unique.  <br/> |
+|[IsException](isexception.md) <br/> |Indique si une instance d’un élément de calendrier périodique est modifiée à partir du maître.  <br/> |
+|[IsReminderSet](isreminderset.md) <br/> |Indique si un rappel a été définie pour l’événement de calendrier.  <br/> |
 |[IsPrivate](isprivate.md) <br/> |Indique si l’élément de calendrier est privé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEvent](calendarevent.md) <br/> |Représente une occurrence d’élément de calendrier unique.  <br/> Voici l’expression XPath 2,0 pour cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
+|[CalendarEvent](calendarevent.md) <br/> |Représente une occurrence d’élément de calendrier unique.  <br/> Voici l’expression XPath 2.0 à cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Tous les éléments enfants sont répertoriés dans l’ordre dans lequel ils se produisent. 
   
-Si l’élément [IsPrivate](isprivate.md) est **true**, tous les autres éléments dans l’élément [CalendarEventDetails](calendareventdetails.md) ne sont pas renvoyés dans la réponse. 
+Si [l’élément IsPrivate](isprivate.md) est **vrai,** tous les autres éléments de l’élément [CalendarEventDetails](calendareventdetails.md) ne sont pas renvoyés dans la réponse. 
   
-L’opération GetUserAvailability ne retourne pas d’informations détaillées sur l’appelant sauf si l’appelant dispose d’un accès en lecture sur le calendrier de l’utilisateur cible. Vous pouvez définir les autorisations d’accès à l’aide de l’environnement de commande Exchange Management Shell.
+L’opération GetUserAvailability ne retourne pas d’informations détaillées sur l’appelant, sauf si l’appelant dispose d’un accès en lecture sur le calendrier de l’utilisateur cible. Vous pouvez définir des autorisations d’accès à l’aide Exchange Management Shell.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

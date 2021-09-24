@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b89d8a78-5c18-4547-aaf4-4b16a93190a7
-description: L’élément IsArchive spécifie une valeur de type Boolean qui indique si la boîte aux lettres est une boîte aux lettres d’archivage.
-ms.openlocfilehash: 6d0be0eb283de3f4d8f786ff96f4a0d4f49e2009
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsArchive spécifie une valeur booléque qui indique si la boîte aux lettres est une boîte aux lettres d’archivage.
+ms.openlocfilehash: 269cb614ad9402a266b2ed521c4f485b3f43b1fb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526514"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514563"
 ---
 # <a name="isarchive"></a>IsArchive
 
-L’élément **IsArchive** spécifie une valeur de type Boolean qui indique si la boîte aux lettres est une boîte aux lettres d’archivage. 
+**L’élément IsArchive** spécifie une valeur booléque qui indique si la boîte aux lettres est une boîte aux lettres d’archivage. 
   
 ```XML
 <IsArchive>true | false</IsArchive>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **IsArchive** indique que la boîte aux lettres cible est une boîte aux lettres d’archivage. La valeur **false** indique que la boîte aux lettres cible n’est pas une boîte aux lettres d’archivage. 
+Une valeur de texte **true pour** l’élément **IsArchive** indique que la boîte aux lettres cible est une boîte aux lettres d’archivage. La valeur **false indique que** la boîte aux lettres cible n’est pas une boîte aux lettres d’archivage. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

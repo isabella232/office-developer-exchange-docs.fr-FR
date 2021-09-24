@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a26d4c02-f1bd-40c4-9257-5db45e839f17
-description: L’élément NonIndexableItemDetail spécifie des informations détaillées sur un élément qui ne peuvent pas être indexées.
-ms.openlocfilehash: 4fc4324501570402d22aa303d6af2a60b50b3cc6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément NonIndexableItemDetail spécifie des informations détaillées sur un élément qui ne peuvent pas être indexés.
+ms.openlocfilehash: 2c3dae9276bee4800352c74acca37fe85ddbf223
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515438"
 ---
 # <a name="nonindexableitemdetail"></a>NonIndexableItemDetail
 
-L’élément **NonIndexableItemDetail** spécifie des informations détaillées sur un élément qui ne peuvent pas être indexées. 
+**L’élément NonIndexableItemDetail** spécifie des informations détaillées sur un élément qui ne peuvent pas être indexés. 
   
 ```XML
 <NonIndexableItemDetail>

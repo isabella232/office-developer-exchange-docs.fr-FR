@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 51f84364-9a5f-4ef2-ba82-f6ef7c65f7cb
-description: L’élément ProtocolConnectionCollectionSetting représente une collection de paramètres de connexion de protocole de serveur.
-ms.openlocfilehash: 59e082138b8a40d201791653103c79160765f2fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ProtocolConnectionCollectionSetting représente une collection de paramètres de connexion de protocole serveur.
+ms.openlocfilehash: 8e641e8f720d5dcf6b7af8b78c1804e0d8057f09
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462394"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515256"
 ---
 # <a name="protocolconnectioncollectionsetting-soap"></a>ProtocolConnectionCollectionSetting (SOAP)
 
-L’élément **ProtocolConnectionCollectionSetting** représente une collection de paramètres de connexion de protocole de serveur. 
+**L’élément ProtocolConnectionCollectionSetting représente** une collection de paramètres de connexion de protocole serveur. 
   
 ```XML
 <ProtocolConnectionCollectionSetting/>
@@ -40,7 +40,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (SOAP)](name-soap.md) <br/> |Représente le nom d’un paramètre.  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |Représente le nom d’un paramètre.  <br/> |
 |[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contient zéro ou plusieurs connexions de protocole.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -57,7 +57,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

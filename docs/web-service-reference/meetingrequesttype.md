@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingRequestType
 api_type:
 - schema
 ms.assetid: bcd5c97c-19aa-4b1d-a8e8-e8c4bd473dd9
 description: L’élément MeetingRequestType décrit le type de la demande de réunion.
-ms.openlocfilehash: e90c44dd4124d698ca5ef7655f6429a7167673e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1a8371331691bb9dee5595b0130ec0c3c75c47c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465785"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539373"
 ---
 # <a name="meetingrequesttype"></a>MeetingRequestType
 
-L’élément **MeetingRequestType** décrit le type de la demande de réunion. 
+**L’élément MeetingRequestType** décrit le type de la demande de réunion. 
   
 ```xml
 <MeetingRequestType/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -52,17 +52,17 @@ Une valeur de texte est requise. Le tableau suivant répertorie les valeurs de t
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|FullUpdate  <br/> |Identifie la demande de réunion en tant que mise à jour complète d’une demande existante. Une mise à jour complète a mis à jour le contenu horaire et informatif.  <br/> |
-|InformationalUpdate  <br/> |Identifie la demande de réunion uniquement avec le contenu informatif mis à jour.  <br/> |
+|FullUpdate  <br/> |Identifie la demande de réunion comme une mise à jour complète d’une demande existante. Une mise à jour complète a mis à jour le temps et le contenu d’information.  <br/> |
+|InformationalUpdate  <br/> |Identifie la demande de réunion comme contenant uniquement du contenu d’information mis à jour.  <br/> |
 |NewMeetingRequest  <br/> |Identifie la demande de réunion en tant que nouvelle demande de réunion.  <br/> |
 |Aucun  <br/> |Indique que le type de demande de réunion n’est pas défini.  <br/> |
-|Obsolètes  <br/> |Identifie la demande de réunion comme étant obsolète.  <br/> |
-|PrincipalWantsCopy  <br/> |Indique que la demande de réunion appartient à un principal qui a transféré des messages de réunion à un délégué et que ses copies sont marquées comme informations.  <br/> |
-|SilentUpdate  <br/> |Identifie la demande de réunion en tant que mise à jour silencieuse d’une réunion existante.  <br/> |
+|Obsolète  <br/> |Identifie la demande de réunion comme obsolète.  <br/> |
+|PrincipalWantsCopy  <br/> |Indique que la demande de réunion appartient à un principal qui a transmis des messages de réunion à un délégué et dont les copies sont marquées comme étant des informations.  <br/> |
+|SilentUpdate  <br/> |Identifie la demande de réunion comme une mise à jour silencieuse d’une réunion existante.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

@@ -1,29 +1,29 @@
 ---
-title: surveillance
+title: monitoring
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - monitoring
 api_type:
 - schema
 ms.assetid: 350d7b46-9260-41a7-8613-3cb8cc1b29a5
-description: 'Dernière modification : 17 septembre 2015'
-ms.openlocfilehash: 5614ac2c6428da9b6845769a9335486d3ded5754
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'Last modified: September 17, 2015'
+ms.openlocfilehash: 215737fb43e1dbef9b7dd11baea1d3f922df7d34
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540364"
 ---
-# <a name="monitoring"></a>surveillance
+# <a name="monitoring"></a>monitoring
   
-**S’applique à :** Exchange Server 2013
+**S’applique à :** Exchange Server 2013
   
-L’élément **Monitoring** contient des informations de configuration qui définissent comment et quand le service de transport frontal ou le service de transport surveille les agents installés. 
+**L’élément de** surveillance contient des informations de configuration qui définissent comment et quand le service de transport frontal ou le service de transport surveille les agents installés. 
   
 - [configuration](configuration.md)  
 - [mexRuntime](mexruntime.md)  
@@ -50,14 +50,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[agentExecution](agentexecution.md) <br/> |Définit le temps, en millisecondes, au-delà duquel le serveur d’accès au client ou de boîtes aux lettres doit attendre qu’un agent renvoie à partir d’un événement avant d’écrire dans le journal des événements.  <br/> |
-|[messageSnapshot](messagesnapshot.md) <br/> |Contient un attribut qui indique si la fonctionnalité de suivi de pipeline est activée pour le serveur d’accès au client ou de boîtes aux lettres.  <br/> |
+|[agentExecution](agentexecution.md) <br/> |Définit le temps, en millisecondes, pendant que le serveur d’accès au client ou de boîtes aux lettres attend le retour d’un agent d’un événement avant d’écrire dans le journal des événements.  <br/> |
+|[messageSnapshot](messagesnapshot.md) <br/> |Contient un attribut qui spécifie si la fonctionnalité de suivi du pipeline est activée pour l’accès au client ou le serveur de boîtes aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[mexRuntime](mexruntime.md) <br/> |Contient des éléments qui définissent les informations de configuration des informations de configuration et de surveillance de l’agent pour les agents SMTP et de routage installés.  <br/> |
+|[mexRuntime](mexruntime.md) <br/> |Contient des éléments qui définissent les informations de configuration pour la surveillance des agents et les informations de configuration pour SMTP et les agents de routage installés.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -70,5 +70,5 @@ Aucune.
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments du fichier de configuration des agents pour Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Éléments de fichier de configuration des agents Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

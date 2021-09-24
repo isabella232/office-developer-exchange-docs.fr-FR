@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserAvailabilityRequest
 api_type:
 - schema
 ms.assetid: 7906711b-80a1-42ae-8b33-26eeac036a5a
 description: L’élément GetUserAvailabilityRequest contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.
-ms.openlocfilehash: 6c2e2c5452b6379171e49cf6aea2d437152ecb9b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8c0e14dc27ce7a742aa052bb1d424706407de484
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459117"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515809"
 ---
 # <a name="getuseravailabilityrequest"></a>GetUserAvailabilityRequest
 
-L’élément **GetUserAvailabilityRequest** contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine. 
+**L’élément GetUserAvailabilityRequest** contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine. 
   
 ```xml
 <GetUserAvailabilityRequest>
@@ -45,10 +45,10 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TimeZone (disponibilité)](timezone-availability.md) <br/> |Contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été.  <br/> |
-|[MailboxDataArray](mailboxdataarray.md) <br/> |Contient la liste des boîtes aux lettres à interroger pour obtenir des informations de disponibilité.  <br/> |
-|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Spécifie le type d’informations de disponibilité renvoyées dans la réponse.  <br/> |
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> |Contient des éléments qui identifient les informations de fuseau horaire. Cet élément contient également des informations sur la transition entre l’heure standard et l’heure d’été.  <br/> |
+|[MailboxDataArray](mailboxdataarray.md) <br/> |Contient une liste de boîtes aux lettres à interroger pour obtenir des informations de disponibilité.  <br/> |
+|[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Spécifie le type d’informations de libre/occupé renvoyées dans la réponse.  <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,11 +56,11 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire /EWS/ de l’ordinateur exécutant Microsoft Exchange Server 2007 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre une demande d’informations de disponibilité.
+L’exemple suivant montre une demande d’informations de libre/occupé.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -116,7 +116,7 @@ L’exemple suivant montre une demande d’informations de disponibilité.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

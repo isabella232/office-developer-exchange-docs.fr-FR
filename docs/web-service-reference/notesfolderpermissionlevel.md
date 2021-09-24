@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NotesFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 76a2520c-f453-4fd7-b3eb-1c5f4666680a
 description: L’élément NotesFolderPermissionLevel contient les autorisations pour le dossier Notes par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 205802592a1fc01451b4fc497e9e0c4c66afd478
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c7dbcbad6213c9ceccbcdf03b8e684c8523627e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462625"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539261"
 ---
 # <a name="notesfolderpermissionlevel"></a>NotesFolderPermissionLevel
 
-L’élément **NotesFolderPermissionLevel** contient les autorisations pour le dossier Notes par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément NotesFolderPermissionLevel** contient les autorisations pour le dossier Notes par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <NotesFolderPermissionLevel>
@@ -46,7 +46,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -56,8 +56,8 @@ Le tableau suivant répertorie les valeurs de texte qui représentent les niveau
 
 |**Niveau d’autorisation**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |L’utilisateur délégué ne dispose pas des autorisations d’accès au dossier Notes.  <br/> |
-|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments dans le dossier Notes.  <br/> |
+|Aucun  <br/> |L’utilisateur délégué n’a aucune autorisation d’accès au dossier Notes.  <br/> |
+|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments du dossier Notes.  <br/> |
 |Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier Notes.  <br/> |
 |Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier Notes.  <br/> |
 |Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier Notes.  <br/> |

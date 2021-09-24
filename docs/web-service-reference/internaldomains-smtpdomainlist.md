@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternalDomains
 api_type:
 - schema
 ms.assetid: 0f2cbb05-338d-4302-8871-a06e78b33f98
 description: L’élément InternalDomains identifie la liste des domaines SMTP internes de l’organisation.
-ms.openlocfilehash: ec7ef2d72ae922c751f8f50b72ff7d6b31b212ca
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3aa879ae7f441f63520ab037f86a8da1056af4c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459965"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515571"
 ---
 # <a name="internaldomains-smtpdomainlist"></a>InternalDomains (SmtpDomainList)
 
-L’élément **InternalDomains** identifie la liste des domaines SMTP internes de l’organisation. 
+**L’élément InternalDomains** identifie la liste des domaines SMTP internes de l’organisation. 
   
 ```XML
 <InternalDomains>
@@ -48,7 +48,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service d’info-courrier.  <br/> |
 |[ProtectionRulesConfiguration](protectionrulesconfiguration.md) <br/> |Contient des informations de configuration de service pour le service de règles de protection.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte

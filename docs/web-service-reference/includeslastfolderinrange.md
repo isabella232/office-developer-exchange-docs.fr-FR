@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IncludesLastFolderInRange
 api_type:
 - schema
 ms.assetid: 95837904-17be-49b7-831c-de4fb20fccfb
 description: L’élément IncludesLastFolderInRange indique si le dernier élément à synchroniser a été inclus dans la réponse.
-ms.openlocfilehash: 9ba401cf639ef7988fa7a1437a64d09ff54c5960
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d581f8bfa7fc980c7c2ef0fb8ca580c40a26aa22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515655"
 ---
 # <a name="includeslastfolderinrange"></a>IncludesLastFolderInRange
 
-L’élément **IncludesLastFolderInRange** indique si le dernier élément à synchroniser a été inclus dans la réponse. 
+**L’élément IncludesLastFolderInRange** indique si le dernier élément à synchroniser a été inclus dans la réponse. 
   
 [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
   
@@ -52,7 +52,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande Opérationsyncfolderhierarchy.  <br/> |
+|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Contient l’état et le résultat d’une demande SyncFolderHierarchy.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -68,14 +68,14 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération Opérationsyncfolderhierarchy](syncfolderhierarchy-operation.md)
+[Opération SyncFolderHierarchy](syncfolderhierarchy-operation.md)
 
 
 [Référence EWS pour Exchange](ews-reference-for-exchange.md)

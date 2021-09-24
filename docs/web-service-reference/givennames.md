@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64d86c24-07b8-448d-ad37-47f104777df3
-description: L’élément GivenNames spécifie un tableau de valeurs de nom données et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: c76d69344b59fb56377a13b9ea4a588acc382013
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GivenNames spécifie un tableau de valeurs de nom donné et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 7da46685ec9ec44a81e0aca813969bd00cb858df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530126"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539984"
 ---
 # <a name="givennames"></a>GivenNames
 
-L’élément **GivenNames** spécifie un tableau de valeurs de nom données et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément GivenNames** spécifie un tableau de valeurs de nom donné et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```xml
 <GivenNames>
@@ -38,13 +38,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

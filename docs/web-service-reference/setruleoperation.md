@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetRuleOperation
 api_type:
 - schema
 ms.assetid: 2106a85b-58fe-49be-b71d-4ca6aa66e060
 description: L’élément SetRuleOperation représente une opération de mise à jour d’une règle existante.
-ms.openlocfilehash: 96fba2f229003b8c729c36614e69655852a3aa8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fd7cb0ad29e2c5146cc5bcedba078c08857afe7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540488"
 ---
 # <a name="setruleoperation"></a>SetRuleOperation
 
-L’élément **SetRuleOperation** représente une opération de mise à jour d’une règle existante. 
+**L’élément SetRuleOperation** représente une opération de mise à jour d’une règle existante. 
   
 [UpdateInboxRules](updateinboxrules.md)
   

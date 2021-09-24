@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateItem
 api_type:
 - schema
 ms.assetid: 5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4
-description: L’opération UpdateItem est utilisée pour modifier les propriétés d’un élément existant dans la Banque d’Exchange.
-ms.openlocfilehash: c001b7656862144023e9704cb04e6b4c0030f9df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération UpdateItem est utilisée pour modifier les propriétés d’un élément existant dans la Exchange store.
+ms.openlocfilehash: 6ac09c24c13efff8053fc605ec2c0e6cf2957429
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459390"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514059"
 ---
 # <a name="updateitem-operation"></a>Opération UpdateItem
 
-L’opération **UpdateItem** est utilisée pour modifier les propriétés d’un élément existant dans la Banque d’Exchange. 
+**L’opération UpdateItem** est utilisée pour modifier les propriétés d’un élément existant dans la Exchange store. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -30,25 +30,25 @@ Vous pouvez effectuer trois actions de mise à jour de base sur un élément. Le
 |**Action**|**Description**|
 |:-----|:-----|
 |Ajout  <br/> |Ajoute des données à une propriété existante. Cette action conserve les données actuelles. Append ne s’applique pas à toutes les propriétés.  <br/> |
-|Set  <br/> |Remplace les données d’une propriété si la propriété contient des données, ou crée la propriété et définit sa valeur si la propriété n’existe pas. L’action set n’est applicable qu’aux propriétés accessibles en écriture.  <br/> |
-|Supprimer  <br/> |Supprime une propriété d’un élément. Cela diffère de la définition d’une propriété sur une valeur vide. Lorsque cette action est terminée, la propriété n’existe pas pour l’élément. La méthode Delete n’est applicable qu’aux propriétés accessibles en écriture.  <br/> |
+|Set  <br/> |Remplace les données d’une propriété si la propriété contient des données, ou crée la propriété et définit sa valeur si la propriété n’existe pas. L’action de jeu s’applique uniquement aux propriétés accessibles en writable.  <br/> |
+|Supprimer  <br/> |Supprime une propriété d’un élément. Cela diffère de la définition d’une propriété sur une valeur vide. Lorsque cette action est terminée, la propriété n’existe pas pour l’élément. La suppression s’applique uniquement aux propriétés accessibles en writable.  <br/> |
    
-Un appel **UpdateItem** peut être utilisé pour modifier un ou plusieurs éléments, ainsi qu’une ou plusieurs propriétés sur chaque élément. L’élément [itemChanges](itemchanges.md) contient toutes les modifications qui doivent être effectuées dans le cadre de cet appel. L’élément [ItemChange,](itemchange.md) , enfant de l’élément [itemChanges](itemchanges.md) , représente les modifications à effectuer sur un seul élément. L’élément [ItemChange,](itemchange.md) contient un ensemble d’actions de mise à jour qui peuvent être effectuées sur un seul élément. Ces modifications sont contenues dans l’élément [Updates (élément)](updates-item.md) . L’élément [ItemId](itemid.md) identifie l’élément à mettre à jour. Pour mettre à jour plusieurs propriétés sur un élément, un [SetItemField](setitemfield.md), [AppendToItemField](appendtoitemfield.md)ou [DeleteItemField](deleteitemfield.md) doit être fourni pour chaque propriété nécessitant la mise à jour. 
+Un **appel UpdateItem** peut être utilisé pour modifier un ou plusieurs éléments et une ou plusieurs propriétés sur chaque élément. [L’élément ItemChanges](itemchanges.md) contient toutes les modifications qui doivent être effectuées dans le cadre de cet appel. [L’élément ItemChange,](itemchange.md) un enfant de l’élément [ItemChanges,](itemchanges.md) représente les modifications à effectuer sur un seul élément. [L’élément ItemChange](itemchange.md) contient un ensemble d’actions de mise à jour qui peuvent être effectuées sur un seul élément. Ces modifications sont contenues dans [l’élément Updates (Item).](updates-item.md) [L’élément ItemId](itemid.md) identifie l’élément à mettre à jour. Pour mettre à jour plusieurs propriétés sur un élément, un [élément SetItemField,](setitemfield.md) [AppendToItemField](appendtoitemfield.md)ou [DeleteItemField](deleteitemfield.md) doit être fourni pour chaque propriété nécessitant la mise à jour. 
   
 > [!NOTE]
 > Les actions de mise à jour sont appliquées dans l’ordre dans lequel elles sont spécifiées. 
   
-Pour chaque modification, vous devez spécifier le chemin d’accès de la propriété à modifier et une représentation de cet élément avec sa nouvelle valeur. L’action de suppression est légèrement différente dans la mesure où seul le chemin de la propriété à supprimer est requis. Pour les actions Set et Append, le chemin d’accès spécifié doit faire référence à la même propriété que celle définie dans la représentation de l’élément. Si elles diffèrent, une erreur est renvoyée.
+Pour chaque modification, vous devez spécifier le chemin d’accès de la propriété à modifier et une représentation de cet élément avec sa nouvelle valeur. L’action de suppression est légèrement différente dans la mesure où seul le chemin d’accès de la propriété à supprimer est requis. Pour les actions définies et d’application, le chemin d’accès spécifié doit faire référence à la propriété définie dans la représentation d’élément. Si elles diffèrent, une erreur est renvoyée.
   
-L’opération **UpdateItem** peut définir l’heure de [début](start.md) et de [fin](end-ex15websvcsotherref.md) d’un élément de la banque Exchange. Dans une requête **UpdateItem** , l’heure de [début](start.md) peut être définie sans définir également l’heure de [fin](end-ex15websvcsotherref.md) . Cela peut entraîner une erreur si l’heure de [début](start.md) est postérieure à l’heure de [fin](end-ex15websvcsotherref.md) . N’oubliez pas que les applications clientes doivent ajuster l’heure de [fin](end-ex15websvcsotherref.md) lorsque l’heure de [début](start.md) est modifiée afin de conserver la durée. 
+**L’opération UpdateItem peut** [](end-ex15websvcsotherref.md) définir l’heure [de](start.md) début et de fin d’un élément Exchange magasin. Dans une **demande UpdateItem,** l’heure [de](start.md) début peut être définie sans définir l’heure [de](end-ex15websvcsotherref.md) fin. Cela peut provoquer une erreur si l’heure [de](start.md) début est ultérieure à [l’heure de ](end-ex15websvcsotherref.md) fin. N’ignorez pas que les applications [](start.md) clientes doivent ajuster l’heure [de](end-ex15websvcsotherref.md) fin lorsque l’heure de début est modifiée afin de conserver la durée. 
   
-Lorsqu’un seul élément de calendrier est mis à jour pour devenir un élément de calendrier principal périodique, la propriété [MeetingTimeZone](meetingtimezone.md) doit être définie par l’opération **UpdateItem** afin de conserver le fuseau horaire d’origine de l’élément de calendrier. 
+Lorsqu’un élément de calendrier unique est mis à jour pour devenir un élément de calendrier principal périodique, la propriété [MeetingTimeZone](meetingtimezone.md) doit être définie par l’opération **UpdateItem** afin de conserver le fuseau horaire d’origine de l’élément de calendrier. 
   
 ## <a name="setitemfield-request-example"></a>Exemple de requête SetItemField
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **UpdateItem** suivant montre comment définir la propriété Sensitivity sur un élément. 
+L’exemple suivant **d’une requête UpdateItem** montre comment définir la propriété de sensibilité sur un élément. 
   
 ### <a name="code"></a>Code
 
@@ -81,7 +81,7 @@ L’exemple de requête **UpdateItem** suivant montre comment définir la propri
 
 ### <a name="comments"></a>Commentaires
 
-L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="setitemfield-request-elements"></a>Éléments de requête SetItemField
 
@@ -109,7 +109,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **UpdateItem** suivant montre comment ajouter du texte à la propriété Body sur un élément. 
+L’exemple suivant **d’une requête UpdateItem** montre comment appender du texte à la propriété body d’un élément. 
   
 ### <a name="code"></a>Code
 
@@ -142,15 +142,15 @@ L’exemple de requête **UpdateItem** suivant montre comment ajouter du texte �
 
 ### <a name="comments"></a>Commentaires
 
-Les propriétés suivantes prennent en charge l’action Append :
+Les propriétés suivantes prendre en charge l’action d’application :
   
-- **message : ReplyTo**
+- **message:ReplyTo**
     
-- **élément : Body**
+- **item:Body**
     
-- Toutes les propriétés du destinataire et de la collection de participants
+- Toutes les propriétés de la collection de destinataires et de participants
     
-L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="appendtoitemfield-request-elements"></a>Éléments de requête AppendToItemField
 
@@ -178,7 +178,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **UpdateItem** suivant montre comment supprimer une propriété sur un élément. 
+L’exemple suivant **d’une demande UpdateItem** montre comment supprimer une propriété sur un élément. 
   
 ### <a name="code"></a>Code
 
@@ -207,7 +207,7 @@ L’exemple de requête **UpdateItem** suivant montre comment supprimer une prop
 
 ### <a name="comments"></a>Commentaires
 
-L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="deleteitemfield-request-elements"></a>Éléments de requête DeleteItemField
 
@@ -231,7 +231,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **UpdateItem** . 
+L’exemple suivant montre une réponse réussie à une **demande UpdateItem.** 
   
 ### <a name="code"></a>Code
 
@@ -265,7 +265,7 @@ L’exemple suivant montre une réponse réussie à une demande **UpdateItem** .
 
 ### <a name="comments"></a>Commentaires
 
-L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -293,7 +293,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 [Opération UpdateItem (tâche)](updateitem-operation-task.md)
   
-[Opération UpdateItem (contact)](updateitem-operation-contact.md)
+[Opération UpdateItem (Contact)](updateitem-operation-contact.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

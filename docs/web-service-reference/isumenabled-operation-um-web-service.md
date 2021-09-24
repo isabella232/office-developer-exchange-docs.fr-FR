@@ -1,24 +1,24 @@
 ---
-title: Opération IsUMEnabled (service Web de messagerie unifiée)
+title: Opération IsUMEnabled (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsUMEnabled
 api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
 description: L’opération IsUMEnabled détermine si une boîte aux lettres est activée pour la messagerie unifiée.
-ms.openlocfilehash: b1478f5a113059251fe1b036ac7d77e5a4ab4f50
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2c637711fc34a1d1ccc484b14be3199632aaaaa3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458235"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514458"
 ---
-# <a name="isumenabled-operation-um-web-service"></a>Opération IsUMEnabled (service Web de messagerie unifiée)
+# <a name="isumenabled-operation-um-web-service"></a>Opération IsUMEnabled (service web de messagerie unifiée)
 
 L’opération IsUMEnabled détermine si une boîte aux lettres est activée pour la messagerie unifiée.
   
@@ -26,7 +26,7 @@ L’opération IsUMEnabled détermine si une boîte aux lettres est activée pou
 
 ### <a name="description"></a>Description
 
-L’exemple de requête IsUMEnabled suivant montre comment créer une demande pour déterminer si une boîte aux lettres est activée pour la messagerie unifiée.
+L’exemple suivant d’une demande IsUMEnabled montre comment former une demande pour déterminer si une boîte aux lettres est activée pour la messagerie unifiée.
   
 ### <a name="code"></a>Code
 
@@ -39,7 +39,7 @@ L’exemple de requête IsUMEnabled suivant montre comment créer une demande po
 </soap:Envelope>
 ```
 
-## <a name="successful-isumenabled-response-example"></a>Exemple de réponse IsUMEnabled réussi
+## <a name="successful-isumenabled-response-example"></a>Exemple de réponse IsUMEnabled réussie
 
 ### <a name="description"></a>Description
 
@@ -62,10 +62,10 @@ L’exemple suivant montre une réponse réussie à une demande IsUMEnabled.
 
 
 
-[IsUMEnabled (service Web de messagerie unifiée)](isumenabled-um-web-service.md)
+[IsUMEnabled (service web de messagerie unifiée)](isumenabled-um-web-service.md)
   
-[IsUMEnabledResponse (service Web de messagerie unifiée)](isumenabledresponse-um-web-service.md)
+[IsUMEnabledResponse (service web de messagerie unifiée)](isumenabledresponse-um-web-service.md)
 
 
-[Éléments XML de service Web de messagerie unifiée pour Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
+[Éléments XML du service web de messagerie unifiée pour Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

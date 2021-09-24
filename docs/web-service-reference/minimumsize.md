@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 841d229c-140c-48bd-b3a7-21478fcea2fb
-description: L’élément MinimumSize représente la taille minimale qu’un message doit être pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: b43a8b5916747c4e3e4ca9b66cf8b9d73f5f8942
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MinimumSize représente la taille minimale d’un message pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: c3f1284a5a82731093863b0a621bcf2f7f55cf22
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464202"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540649"
 ---
 # <a name="minimumsize"></a>MinimumSize
 
-L’élément **MinimumSize** représente la taille minimale qu’un message doit être pour que la condition ou l’exception s’applique. 
+**L’élément MinimumSize** représente la taille minimale d’un message pour que la condition ou l’exception s’applique. 
   
 ```XML
 <MinimumSize/>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WithinSizeRange](withinsizerange.md) <br/> |Spécifie les tailles minimale et maximale que les messages entrants doivent être pour que la condition ou l’exception s’applique.  <br/> |
+|[WithinSizeRange](withinsizerange.md) <br/> |Spécifie la taille minimale et maximale des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui identifie la taille minimale du message en octets.
+La valeur de texte est un nombre complet qui identifie la taille minimale du message en octets.
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,14 +56,14 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[/M](maximumsize.md)
+[MaximumSize](maximumsize.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

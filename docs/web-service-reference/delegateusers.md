@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegateUsers
 api_type:
 - schema
 ms.assetid: f30f80d9-20c8-41cc-afc7-a5eec1e0c5ea
-description: L’élément DelegateUsers contient les identités des délégués à ajouter à ou mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 69f5aab65634f41ec0f820da05dee79a300fb32e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DelegateUsers contient les identités des délégués à ajouter ou mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 7eae154297eb385903c57cbd8fe9b3feeb96c816
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457374"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540208"
 ---
 # <a name="delegateusers"></a>DelegateUsers
 
-L’élément **DelegateUsers** contient les identités des délégués à ajouter à ou mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément DelegateUsers** contient les identités des délégués à ajouter ou mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DelegateUsers>
@@ -43,7 +43,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |Identifie un seul délégué à ajouter à ou à mettre à jour dans une boîte aux lettres.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Identifie un délégué unique à ajouter à une boîte aux lettres ou à mettre à jour.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

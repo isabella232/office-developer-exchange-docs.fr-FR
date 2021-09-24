@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupSids
 api_type:
 - schema
 ms.assetid: ebb00653-83f0-4080-a902-c38df6719800
 description: L’élément GroupSids représente une collection d’identificateurs de sécurité d’objet de groupe de service d’annuaire Active Directory.
-ms.openlocfilehash: 40f36176fcaa3e2160237f269fb2dc3b12bf8af2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9dde1c87a82dbef2a9e1278de2cc202189f309c7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530063"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539674"
 ---
 # <a name="groupsids"></a>GroupSids
 
-L’élément **GroupSids** représente une collection d’identificateurs de sécurité d’objet de groupe de service d’annuaire Active Directory. 
+**L’élément GroupSids** représente une collection d’identificateurs de sécurité d’objet de groupe de service d’annuaire Active Directory. 
   
 ```xml
 <GroupSids>
@@ -42,13 +42,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupIdentifier](groupidentifier.md) <br/> |Représente un identificateur et un attribut de sécurité unique pour un groupe d’objets Active Directory dont le compte est membre.  <br/> |
+|[GroupIdentifier](groupidentifier.md) <br/> |Représente un identificateur de sécurité et un attribut uniques pour un groupe d’objets Active Directory dont le compte est membre.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Utilisé dans l’en-tête SOAP (Simple Object Access Protocol) pour la sérialisation des jetons dans l’authentification de serveur à serveur. La sérialisation de jetons n’est pas prise en charge.  <br/> |
+|[SerializedSecurityContext](serializedsecuritycontext.md) <br/> |Utilisé dans l’en-tête SOAP (Simple Object Access Protocol) pour la sérialisation des jetons dans l’authentification de serveur à serveur. La sérialisation des jetons n’est pas prise en charge.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

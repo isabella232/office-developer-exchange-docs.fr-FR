@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Offset
 api_type:
 - schema
 ms.assetid: dcbb9d85-d90c-4363-b4c9-d081ad03f407
-description: L’élément offset décrit le décalage par rapport à l’BaseOffset. Avec l’élément BaseOffset, l’élément offset identifie s’il s’agit de l’heure standard ou de l’heure d’été.
-ms.openlocfilehash: 74ad87026c2cb89f3b0c35218c91f81380029963
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Offset décrit le décalage par rapport à baseOffset. Avec l’élément BaseOffset, l’élément Offset identifie si l’heure est standard ou l’heure d’été.
+ms.openlocfilehash: af9a2f7a94ae0cd736a4fe6f11b8a5a77673bbe3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459755"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515389"
 ---
 # <a name="offset"></a>Offset
 
-L’élément **offset** décrit le décalage par rapport à l' [BaseOffset](baseoffset.md). Avec l’élément **BaseOffset** , l’élément **offset** identifie s’il s’agit de l’heure standard ou de l’heure d’été. 
+**L’élément Offset** décrit le décalage par rapport à [baseOffset](baseoffset.md). Avec **l’élément BaseOffset,** l’élément **Offset** identifie si l’heure est standard ou l’heure d’été. 
   
 ```xml
 <Offset/>
@@ -44,8 +44,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Auxquelles](daylight.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
-|[Standard](standard.md) <br/> |Représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.  <br/> |
+|[Daylight](daylight.md) <br/> |Représente la date et l’heure de passage de l’heure d’été à l’heure standard.  <br/> |
+|[Standard](standard.md) <br/> |Représente la date et l’heure de passage de l’heure d’été à l’heure standard.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

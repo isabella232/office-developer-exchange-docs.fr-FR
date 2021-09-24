@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetRooms
 api_type:
 - schema
 ms.assetid: 5501ddc0-3bfa-4da6-8e15-4223ca5499a3
-description: L’opération GetRooms obtient les salles au sein de la liste de salles spécifiée.
-ms.openlocfilehash: 4cb124b96637b9fcdca15595faebb2ce4d304de0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetRooms obtient les salles dans la liste de salles spécifiée.
+ms.openlocfilehash: dc5cf71ed0731d2674ecead1153447090b43bd9a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539913"
 ---
 # <a name="getrooms-operation"></a>Opération GetRooms
 
-L’opération **GetRooms** obtient les salles au sein de la liste de salles spécifiée. 
+**L’opération GetRooms** obtient les salles dans la liste de salles spécifiée. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetRooms** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetRooms** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getrooms-request-example"></a>Exemple de requête GetRooms
 
 ### <a name="description"></a>Description
 
-Voici un exemple de requête **GetRooms** qui obtient les salles associées à une liste de salles. 
+Voici un exemple de demande **GetRooms** qui obtient les salles associées à une liste de salles. 
   
 ### <a name="code"></a>Code
 
@@ -61,7 +61,7 @@ Voici un exemple de requête **GetRooms** qui obtient les salles associées à u
 
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -73,11 +73,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## <a name="successful-getrooms-response-example"></a>Exemple de réponse GetRooms réussi
+## <a name="successful-getrooms-response-example"></a>Exemple de réponse GetRooms réussie
 
 ### <a name="description"></a>Description
 
-La réponse suivante affiche les informations d’adresse de messagerie des salles associées à la liste de salles.
+La réponse suivante affiche les informations d’adresse de messagerie pour les salles associées à la liste des salles.
   
 ### <a name="code"></a>Code
 
@@ -113,7 +113,7 @@ La réponse suivante affiche les informations d’adresse de messagerie des sall
 </s:Envelope>
 ```
 
-### <a name="successful-getrooms-response-elements"></a>Éléments Response GetRooms réussis
+### <a name="successful-getrooms-response-elements"></a>Éléments de réponse GetRooms réussis
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -123,11 +123,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [Salons](rooms.md)
+- [Rooms](rooms.md)
     
-- [Salle](room.md)
+- [Room](room.md)
     
-- [Nom (EmailAddress)](name-emailaddress.md)
+- [Name (EmailAddress)](name-emailaddress.md)
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
@@ -139,7 +139,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur causée par une tentative d’obtention d’informations de salle pour une liste de salles inexistante.
+L’exemple suivant illustre une réponse d’erreur due à une tentative d’obtenir des informations sur les salles d’une liste de salles inexistante.
   
 ### <a name="code"></a>Code
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2866b1ec-64ba-4d18-9152-a09568d45aa7
 description: L’élément DisplayName (MasterMailboxType) est destiné à un usage interne uniquement.
-ms.openlocfilehash: 2026ad1cde13b11af9bcc2d8c81da5c8b23344e3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 301d27a4cf655fa53ed980dacd22963358fe98c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530718"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526480"
 ---
 # <a name="displayname-mastermailboxtype"></a>DisplayName (MasterMailboxType)
 
-L’élément **DisplayName (MasterMailboxType)** est destiné à un usage interne uniquement. 
+**L’élément DisplayName (MasterMailboxType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

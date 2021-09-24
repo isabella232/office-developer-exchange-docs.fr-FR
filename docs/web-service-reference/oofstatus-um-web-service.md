@@ -1,30 +1,30 @@
 ---
-title: OofStatus (service Web de messagerie unifiée)
+title: OofStatus (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofStatus
 api_type:
 - schema
 ms.assetid: 0ba4225a-784e-4e6e-bd20-be45f0f7597c
-description: L’élément OofStatus contient une valeur qui indicaties l’état de la messagerie unifiée pour l’utilisateur qui effectue une opération GetUMProperties (service Web de messagerie unifiée).
-ms.openlocfilehash: 80b1d5aa508579eec14637ed10c322b5fbb670da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OofStatus contient une valeur qui indique l’état de la messagerie unifiée hors Office pour l’utilisateur qui fait une demande d’opération GetUMProperties (service web de messagerie unifiée).
+ms.openlocfilehash: 4e899317defdb4ac4c27c3fdc17d7b7222dff6a7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539268"
 ---
-# <a name="oofstatus-um-web-service"></a>OofStatus (service Web de messagerie unifiée)
+# <a name="oofstatus-um-web-service"></a>OofStatus (service web de messagerie unifiée)
 
-L’élément **OofStatus** contient une valeur qui indicaties l’état de la messagerie unifiée pour l’utilisateur qui effectue une [opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) . 
+**L’élément OofStatus** contient une valeur qui indique l’état de la messagerie unifiée hors Office pour l’utilisateur qui fait une demande d’opération [GetUMProperties (service web](getumproperties-operation-um-web-service.md) de messagerie unifiée). 
   
-[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
   
-[OofStatus (service Web de messagerie unifiée)](oofstatus-um-web-service.md)
+[OofStatus (service web de messagerie unifiée)](oofstatus-um-web-service.md)
   
 ```xml
 <GetUMPropertiesResponse>
@@ -53,11 +53,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md) <br/> |Définit une réponse à une [opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) .  <br/> |
+|[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md) <br/> |Définit une réponse à une [demande d’opération GetUMProperties (service web de um).](getumproperties-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte boolén est requise. Les valeurs possibles sont les suivantes :
   
 - Vrai
     
@@ -69,14 +69,14 @@ Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivante
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
+[Opération GetUMProperties (service web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
   
-[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
 

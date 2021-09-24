@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailboxDataArray
 api_type:
 - schema
 ms.assetid: a14af788-beee-452c-b5d0-37bcb4ef02ff
-description: L’élément MailboxDataArray contient la liste des boîtes aux lettres dans lesquelles Rechercher les informations de disponibilité.
-ms.openlocfilehash: 894bf97a0d633d7eef0434331ccf1580fcba386e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxDataArray contient une liste de boîtes aux lettres à interroger pour obtenir des informations de disponibilité.
+ms.openlocfilehash: e6bd5bcffa776bb284d22a76d785637a7015adac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468193"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540774"
 ---
 # <a name="mailboxdataarray"></a>MailboxDataArray
 
-L’élément **MailboxDataArray** contient la liste des boîtes aux lettres dans lesquelles Rechercher les informations de disponibilité. 
+**L’élément MailboxDataArray contient** une liste de boîtes aux lettres à interroger pour obtenir des informations de disponibilité. 
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -49,17 +49,17 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailboxData](mailboxdata.md) <br/> |Représente un utilisateur et des options de boîte aux lettres individuelle pour le type de données à renvoyer à propos de l’utilisateur de boîte aux lettres.  <br/> |
+|[MailboxData](mailboxdata.md) <br/> |Représente un utilisateur de boîte aux lettres individuel et des options pour le type de données à retourner sur l’utilisateur de la boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft® Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft® Exchange Server 2007 où le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -67,7 +67,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

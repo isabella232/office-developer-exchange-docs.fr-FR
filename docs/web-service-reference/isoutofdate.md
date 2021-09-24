@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsOutOfDate
 api_type:
 - schema
 ms.assetid: 2b6005a6-56a9-4848-b998-32908c13e2e2
-description: L’élément IsOutOfDate indique si un message, une demande, une réponse ou une annulation de réunion est obsolète.
-ms.openlocfilehash: b50b021e48789ba63016582450404b5da3ff86e1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsOutOfDate indique si un message de réunion, une demande, une réponse ou une annulation est hors date.
+ms.openlocfilehash: 935055d12f96407a3e58a4f8d196187fece5d070
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466548"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514486"
 ---
 # <a name="isoutofdate"></a>IsOutOfDate
 
-L’élément **IsOutOfDate** indique si un message, une demande, une réponse ou une annulation de réunion est obsolète. 
+**L’élément IsOutOfDate** indique si un message de réunion, une demande, une réponse ou une annulation est hors date. 
   
 ```xml
 <IsOutOfDate/>
@@ -46,12 +46,12 @@ Aucun.
 |:-----|:-----|
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que l’élément de réunion est obsolète. 
+Une valeur de texte **true** indique que l’élément de réunion est hors date. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveFolderResponse
 api_type:
 - schema
 ms.assetid: e7dd2fb8-e362-42e5-a480-4d816813526d
 description: L’élément MoveFolderResponse définit une réponse à une demande MoveFolder.
-ms.openlocfilehash: 2019321dcb03ec5e63b47a6b7579c8bd46756391
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f09a9c320dce99fc7a0066f71332dfb9a4075b17
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461736"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540628"
 ---
 # <a name="movefolderresponse"></a>MoveFolderResponse
 
-L’élément **MoveFolderResponse** définit une réponse à une demande MoveFolder. 
+**L’élément MoveFolderResponse** définit une réponse à une demande MoveFolder. 
   
 ```xml
 <MoveFolderResponse>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

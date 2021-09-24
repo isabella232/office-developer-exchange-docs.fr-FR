@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9850a25-1560-4ed8-969c-dc3e59dde207
-description: L’élément WorkCity spécifie la ville où fonctionne le personnage associé.
-ms.openlocfilehash: 712544d60fde15b3d630ecd00b9b5dfbb16a7dd5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément WorkCity spécifie la ville où travaille le personnage associé.
+ms.openlocfilehash: c498c40d66b6bd57833f37bbe88c12bef85f9a99
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459713"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514955"
 ---
 # <a name="workcity"></a>WorkCity
 
-L’élément **WorkCity** spécifie la ville où fonctionne le personnage associé. 
+**L’élément WorkCity** spécifie la ville où travaille le personnage associé. 
   
 ```XML
 <WorkCity></WorkCity>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **WorkCity** est la ville dans laquelle le personnage associé travaille. 
+La valeur de texte de **l’élément WorkCity** est la ville dans laquelle travaille le personnage associé. 
   
 ## <a name="remarks"></a>Remarques
 

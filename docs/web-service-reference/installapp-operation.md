@@ -5,43 +5,43 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 596eae95-3e78-489a-8bb2-d2dd4a026405
-description: Trouvez des informations sur l’opération EWS InstallApp.
-ms.openlocfilehash: ae6aab7f7176aa827bafa9abf1aa67d458d309d2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération InstallApp EWS.
+ms.openlocfilehash: 87e6f1caddd6949d5dc98edc074acd365de818d9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465687"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515578"
 ---
 # <a name="installapp-operation"></a>Opération InstallApp
 
-Trouvez des informations sur l’opération EWS **InstallApp** . 
+Trouvez des informations sur **l’opération InstallApp** EWS. 
   
-L’opération **InstallApp** installe une application de messagerie pour Outlook dans une boîte aux lettres. 
+**L’opération InstallApp** installe une application de messagerie pour Outlook boîte aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-installapp-operation"></a>Utilisation de l’opération InstallApp
 
-L’opération **InstallApp** prend un seul argument qui identifie une application de messagerie à installer. L’argument contient le manifeste encodé en base64 pour une application de messagerie. 
+**L’opération InstallApp** prend un seul argument qui identifie une application de messagerie à installer. L’argument contient le manifeste codé en base 64 pour une application de messagerie. 
   
 ### <a name="installapp-operation-soap-headers"></a>En-têtes SOAP d’opération InstallApp
 
-L’opération **InstallApp** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération InstallApp** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>Exemple de requête d’opération InstallApp : installer une application de messagerie dans une boîte aux lettres
+## <a name="installapp-operation-request-example-install-a-mail-app-in-a-mailbox"></a>Exemple de demande d’opération InstallApp : installer une application de messagerie dans une boîte aux lettres
 
-L’exemple suivant de demande d’opération **InstallApp** indique comment installer une application de messagerie pour Outlook. Le manifeste de l’application peut être trouvé à l’aide de l' [opération GetAppManifests](getappmanifests-operation.md).
+L’exemple suivant **d’une demande d’opération InstallApp** montre comment installer une application de messagerie pour Outlook. Le manifeste de l’application se trouve à l’aide de [l’opération GetAppManifests](getappmanifests-operation.md).
   
 > [!NOTE]
-> Le manifeste d’application encodé en base64 a été tronqué de manière arbitraire afin de préserver la lisibilité et ne représente pas un manifeste valide. 
+> Le manifeste d’application codé en base 64 a été arbitrairement tronqué pour préserver la lisibilité et ne représente pas un manifeste valide. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -60,7 +60,7 @@ L’exemple suivant de demande d’opération **InstallApp** indique comment ins
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [InstallApp](installapp.md)
     
@@ -68,7 +68,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-installapp-operation-response"></a>Réponse de l’opération InstallApp réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **InstallApp** pour installer une application de messagerie. 
+L’exemple suivant montre une réponse réussie à une **demande d’opération InstallApp** pour installer une application de messagerie. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,7 +94,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [InstallAppResponse](installappresponse.md)
     
@@ -102,7 +102,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="installapp-operation-error-response"></a>Réponse d’erreur d’opération InstallApp
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **InstallApp** . Il s’agit d’une réponse à une demande contenant un manifeste non valide. 
+L’exemple suivant montre une réponse d’erreur à une **demande d’opération InstallApp.** Il s’agit d’une réponse à une demande qui contient un manifeste non valide. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -131,7 +131,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [InstallAppResponse](installappresponse.md)
     

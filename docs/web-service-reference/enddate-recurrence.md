@@ -1,27 +1,27 @@
 ---
-title: EndDate (récurrence)
+title: EndDate (Recurrence)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EndDate
 api_type:
 - schema
 ms.assetid: 16026595-26f8-4770-8a6d-0d3e4157effd
 description: L’élément EndDate représente la date de fin d’une tâche périodique ou d’un élément de calendrier qui a le type de modèle EndDateRecurrence.
-ms.openlocfilehash: 53d9b04faf1d8f740c858080b5fcbeadf577df0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c53d83a3fb2f3a6a841d7e16c94d20dd3c7a92a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540091"
 ---
-# <a name="enddate-recurrence"></a>EndDate (récurrence)
+# <a name="enddate-recurrence"></a>EndDate (Recurrence)
 
-L’élément **EndDate** représente la date de fin d’une tâche périodique ou d’un élément de calendrier qui a le type de modèle EndDateRecurrence. 
+**L’élément EndDate** représente la date de fin d’une tâche périodique ou d’un élément de calendrier qui a le type de modèle EndDateRecurrence. 
   
 ```xml
 <EndDate/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |Décrit la date de début et la date de fin d’une périodicité d’élément.  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |Décrit la date de début et la date de fin d’une récurrence d’élément.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

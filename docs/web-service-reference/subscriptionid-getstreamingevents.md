@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f86c178-2311-4844-82db-c2a0e469d116
 description: L’élément SubscriptionId représente l’identificateur d’un abonnement de diffusion en continu.
-ms.openlocfilehash: babf02c514e7fe8711f51ac52e425a18f3ab47f7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8931fda5087fa985c646da328a0cb27fa2c2a708
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457997"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540376"
 ---
 # <a name="subscriptionid-getstreamingevents"></a>SubscriptionId (GetStreamingEvents)
 
-L’élément **SubscriptionId** représente l’identificateur d’un abonnement de diffusion en continu. 
+**L’élément SubscriptionId** représente l’identificateur d’un abonnement de diffusion en continu. 
   
 ```XML
 <SubscriptionId/>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. La valeur texte est un GUID.
+Une valeur de texte est requise. La valeur de texte est un GUID.
   
 ## <a name="remarks"></a>Remarques
 

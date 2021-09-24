@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsNotSupported
 api_type:
 - schema
 ms.assetid: 4db469ae-1515-47ea-9905-6aabf199febd
-description: L’élément IsNotSupported indique si la règle ne peut pas être modifiée à l’aide des API avec code managé.
-ms.openlocfilehash: e2d0c506209978fd5e8702e0de6cddf2e9c4b7fa
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsNotSupported indique si la règle ne peut pas être modifiée à l’aide des API de code géré.
+ms.openlocfilehash: 4a123acbce3019d9ac5fcdb4cbfa2b60dd4529fe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514542"
 ---
 # <a name="isnotsupported"></a>IsNotSupported
 
-L’élément **IsNotSupported** indique si la règle ne peut pas être modifiée à l’aide des API avec code managé. 
+**L’élément IsNotSupported** indique si la règle ne peut pas être modifiée à l’aide des API de code géré. 
   
 ```XML
 <IsNotSupported/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que la règle ne peut pas être modifiée à l’aide des API avec code managé. La valeur **false** indique que la règle peut être modifiée à l’aide des API avec code managé. 
+Une valeur de texte **true** indique que la règle ne peut pas être modifiée à l’aide des API de code géré. La valeur **false indique** que la règle peut être modifiée à l’aide des API de code géré. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,23 +1,23 @@
 ---
-title: Jeton (chaîne)
+title: Token (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f77af99d-5c77-4f46-851e-261faa03f68a
 description: L’élément Token contient un jeton d’affinement de recherche.
-ms.openlocfilehash: b4a819be260e9ba4eecf329011241c9c2b89f332
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8a0e2db3fbb19296573224a97bd78dd524a4ef39
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515157"
 ---
-# <a name="token-string"></a>Jeton (chaîne)
+# <a name="token-string"></a>Token (String)
 
-L’élément **Token** contient un jeton d’affinement de recherche. 
+**L’élément Token** contient un jeton d’affinement de recherche. 
   
 ```XML
 <Token></Token>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Affinement](refiner.md)
+[Refiner](refiner.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Token** est un jeton d’affinement de recherche pour une recherche de découverte. 
+La valeur de texte de **l’élément Token** est un jeton d’affinement de recherche pour une recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 

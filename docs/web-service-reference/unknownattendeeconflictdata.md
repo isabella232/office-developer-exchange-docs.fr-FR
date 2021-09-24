@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownAttendeeConflictData
 api_type:
 - schema
 ms.assetid: 70e41268-c231-4587-9d23-e46927fe5272
 description: L’élément UnknownAttendeeConflictData représente un participant non résolu ou un participant qui n’est pas un utilisateur, une liste de distribution ou un contact.
-ms.openlocfilehash: b4362e0117e3939c21342a1ab8079d95512aec79
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e7aec79a2aa15cfd149e47affb1efb2b215497e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459867"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515088"
 ---
 # <a name="unknownattendeeconflictdata"></a>UnknownAttendeeConflictData
 
-L’élément **UnknownAttendeeConflictData** représente un participant non résolu ou un participant qui n’est pas un utilisateur, une liste de distribution ou un contact. 
+**L’élément UnknownAttendeeConflictData** représente un participant non résolu ou un participant qui n’est pas un utilisateur, une liste de distribution ou un contact. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **UnknownAttendeeConflictData** représente un participant non ré
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -60,11 +60,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données conflictuelles pour les participants interrogés identifiés dans l' [opération GetUserAvailability](getuseravailability-operation.md).  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
+|[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contient un tableau de données de conflit pour les participants interrogés identifiés dans [l’opération GetUserAvailability](getuseravailability-operation.md).  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un participant est inconnu s’il ne peut pas être résolu par rapport à un objet de service d’annuaire Active Directory. Un participant n’est pas résolu s’il ne peut pas être déterminé comme étant un utilisateur, un groupe ou un contact. Par exemple, un participant ne sera pas résolu s’il s’agit d’un dossier public à extension messagerie.
+Un participant est inconnu s’il ne peut pas être résolu par rapport à un objet de service d’annuaire Active Directory. Un participant n’est pas résolu s’il ne peut pas être déterminé comme un utilisateur, un groupe ou un contact. Par exemple, un participant ne sera pas résolu s’il s’agit d’un dossier public à messagerie.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

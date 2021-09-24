@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Groups
 api_type:
 - schema
 ms.assetid: 6b6b2d67-219d-4dfb-a4ed-d627b1cfb33f
 description: L’élément Groups contient une collection de groupes trouvés avec les critères de recherche et d’agrégation identifiés dans la demande d’opération FindItem.
-ms.openlocfilehash: 915d9dffd6d8cec1def6634e6b70642d563b5242
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f47ab4111137d2e5d98fcc6dcf40fadc073b7af9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530788"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539681"
 ---
 # <a name="groups"></a>Groupes
 
-L’élément **groups** contient une collection de groupes trouvés avec les critères de recherche et d’agrégation identifiés dans la demande d' [opération FindItem](finditem-operation.md) . 
+**L’élément Groups** contient une collection de groupes trouvés avec les critères de recherche et d’agrégation identifiés dans la demande d’opération [FindItem.](finditem-operation.md) 
   
 ```xml
 <Groups>
@@ -42,19 +42,19 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupedItems](groupeditems.md) <br/> |Représente une collection d’éléments qui sont le résultat d’un appel d' [opération FindItem](finditem-operation.md) groupé.  <br/> |
+|[GroupedItems](groupeditems.md) <br/> |Représente une collection d’éléments résultant d’un appel d’opération [FindItem groupé.](finditem-operation.md)  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |Contient les résultats d’une recherche d’un dossier racine unique pendant une opération d' [opération FindItem](finditem-operation.md) .  <br/> |
+|[RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md) <br/> |Contient les résultats d’une recherche d’un dossier racine unique au cours d’une [opération FindItem.](finditem-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une instance [GroupedItems](groupeditems.md) se produira pour chaque groupe distinct dans le résultat. 
+Une [instance GroupedItems se](groupeditems.md) produit pour chaque groupe distinct dans le résultat. 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

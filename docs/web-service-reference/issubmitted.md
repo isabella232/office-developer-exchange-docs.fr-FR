@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsSubmitted
 api_type:
 - schema
 ms.assetid: 2399e27e-bd8c-46b6-a3aa-674842e098c9
-description: L’élément IsSubmitted indique si un élément a été envoyé dans le dossier boîte d’envoi par défaut.
-ms.openlocfilehash: 4f28c1577a3586cf751804c51a28205bfda3ae0b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsSubmitted indique si un élément a été envoyé au dossier par défaut de la boîte d’envoi.
+ms.openlocfilehash: 4914064db10bb2cf9e865a3b1ca8cc65c41f6400
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514465"
 ---
 # <a name="issubmitted"></a>IsSubmitted
 
-L’élément **IsSubmitted** indique si un élément a été envoyé dans le dossier boîte d’envoi par défaut. 
+**L’élément IsSubmitted** indique si un élément a été envoyé au dossier par défaut de la boîte d’envoi. 
   
 ```xml
 <IsSubmitted/>
@@ -50,7 +50,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -58,7 +58,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que l’élément a été envoyé au dossier boîte d’envoi. 
+Une valeur de texte **true** indique que l’élément a été envoyé dans le dossier Boîte d’envoi. 
   
 ## <a name="remarks"></a>Remarques
 

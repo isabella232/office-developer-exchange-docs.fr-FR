@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Value
 api_type:
 - schema
 ms.assetid: 9a30cadd-909e-41b1-b4e9-291643dd89c6
-description: L’élément value contient la valeur d’une propriété étendue.
-ms.openlocfilehash: 5de1528dda6d58ea772d050e709c0720e389fae6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Value contient la valeur d’une propriété étendue.
+ms.openlocfilehash: dc9d81a17896e730a5140a097574faa7619576d1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513947"
 ---
 # <a name="value"></a>Valeur
 
-L’élément **value** contient la valeur d’une propriété étendue. 
+**L’élément Value** contient la valeur d’une propriété étendue. 
   
 ```xml
 <Value/>
@@ -50,11 +50,11 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte doit être compatible avec le type indiqué par l’attribut PropertyType de l’ExtendedFieldURI.
+La valeur de texte doit être compatible avec le type indiqué par l’attribut PropertyType de l’extendedFieldURI.
   
 ## <a name="remarks"></a>Remarques
 
-Un élément **value** peut se produire dans des instances de propriétés étendues à valeur unique ou à valeurs multiples. Pour les instances à valeur unique, elle existe en tant qu’enfant direct de l’élément [ExtendedProperty](extendedproperty.md) . Pour une instance à valeurs multiples, elle existe en tant qu’enfant direct de la collection **values** . 
+Un **élément Value** peut se produire dans les instances de propriétés étendues à valeurs multiples et à valeurs multiples. Pour les instances à valeur unique, il existe en tant qu’enfant direct de [l’élément ExtendedProperty.](extendedproperty.md) Pour l’instance à valeurs multiples, il existe en tant qu’enfant direct de la collection **Values.** 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

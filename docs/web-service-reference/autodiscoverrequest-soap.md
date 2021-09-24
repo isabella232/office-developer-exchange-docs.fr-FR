@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 3e403e81-290b-42f6-9e79-15135fc58c4b
 description: L’élément AutodiscoverRequest représente l’élément de base pour toutes les demandes de découverte automatique.
-ms.openlocfilehash: ed7d4095dafaba6a7800927f2d3ece412b57ae36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d7616bbc052427c43dd2d61fca901966ad72a9a8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466849"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514864"
 ---
 # <a name="autodiscoverrequest-soap"></a>AutodiscoverRequest (SOAP)
 
-L’élément **AutodiscoverRequest** représente l’élément de base pour toutes les demandes de découverte automatique. 
+**L’élément AutodiscoverRequest** représente l’élément de base pour toutes les demandes de découverte automatique. 
   
 ```XML
 <AutodiscoverRequest/>
@@ -47,7 +47,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément global **AutodiscoverRequest** n’est jamais utilisé. 
+**L’élément global AutodiscoverRequest** n’est jamais utilisé. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -55,7 +55,7 @@ L’élément global **AutodiscoverRequest** n’est jamais utilisé.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 

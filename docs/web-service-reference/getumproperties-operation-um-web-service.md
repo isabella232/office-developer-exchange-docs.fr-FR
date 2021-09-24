@@ -1,32 +1,32 @@
 ---
-title: Opération GetUMProperties (service Web de messagerie unifiée)
+title: Opération GetUMProperties (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUMProperties
 api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
-description: L’opération GetUMProperties obtient toutes les propriétés de messagerie unifiée pour la boîte aux lettres de l’utilisateur qui effectue la demande.
-ms.openlocfilehash: 42176d9cd0288af6515aeea616a4f216a419410c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetUMProperties obtient toutes les propriétés de messagerie unifiée de la boîte aux lettres de l’utilisateur qui fait la demande.
+ms.openlocfilehash: 8d051196e83e1f927692b517e1ab3e95bb0060db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462471"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515816"
 ---
-# <a name="getumproperties-operation-um-web-service"></a>Opération GetUMProperties (service Web de messagerie unifiée)
+# <a name="getumproperties-operation-um-web-service"></a>Opération GetUMProperties (service web de messagerie unifiée)
 
-L’opération GetUMProperties obtient toutes les propriétés de messagerie unifiée pour la boîte aux lettres de l’utilisateur qui effectue la demande.
+L’opération GetUMProperties obtient toutes les propriétés de messagerie unifiée de la boîte aux lettres de l’utilisateur qui fait la demande.
   
 ## <a name="getumproperties-request-example"></a>Exemple de requête GetUMProperties
 
 ### <a name="description"></a>Description
 
-L’exemple de requête GetUMProperties suivant montre comment créer une demande pour obtenir les propriétés de messagerie unifiée d’une boîte aux lettres.
+L’exemple suivant d’une demande GetUMProperties montre comment former une demande pour obtenir les propriétés de messagerie unifiée d’une boîte aux lettres.
   
 ### <a name="code"></a>Code
 
@@ -39,11 +39,11 @@ L’exemple de requête GetUMProperties suivant montre comment créer une demand
 </soap:Envelope>
 ```
 
-## <a name="successful-getumproperties-response-example"></a>Exemple de réponse GetUMProperties réussi
+## <a name="successful-getumproperties-response-example"></a>Exemple de réponse GetUMProperties réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse GetUMProperties indique une réponse à la demande GetUMProperties.
+L’exemple suivant d’une réponse GetUMProperties affiche une réponse à la demande GetUMProperties.
   
 ### <a name="code"></a>Code
 
@@ -68,7 +68,7 @@ L’exemple suivant de réponse GetUMProperties indique une réponse à la deman
 
 
 
-[GetUMProperties (service Web de messagerie unifiée)](getumproperties-um-web-service.md)
+[GetUMProperties (service web de messagerie unifiée)](getumproperties-um-web-service.md)
   
-[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
 

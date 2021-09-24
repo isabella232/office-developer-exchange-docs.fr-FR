@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsReadReceipt
 api_type:
 - schema
 ms.assetid: e60e525f-c136-469a-b68b-b3dc01f400a6
-description: L’élément IsReadReceipt indique si les messages entrants doivent être des accusés de lecture afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: e86a7776bc43204dae9fc92f21d4304255ddb888
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsReadReceipt indique si les messages entrants doivent être des reçus de lecture pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 65ed10e4bc3fa38aed0566e672d57ec720556b94
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463901"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514472"
 ---
 # <a name="isreadreceipt"></a>IsReadReceipt
 
-L’élément **IsReadReceipt** indique si les messages entrants doivent être des accusés de lecture afin que la condition ou l’exception s’applique. 
+**L’élément IsReadReceipt** indique si les messages entrants doivent être des reçus de lecture pour que la condition ou l’exception s’applique. 
   
 ```XML
 <IsReadReceipt> true | false</IsReadReceipt>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être une confirmation de lecture pour que la condition ou l’exception s’applique. Si le message ne doit pas être une confirmation de lecture pour la condition ou l’exception à appliquer, la valeur est **false**.
+Une valeur de texte **true** indique que le message doit être une réception de lecture pour que la condition ou l’exception s’applique. Si le message ne doit pas être un accusé de lecture pour la condition ou l’exception à appliquer, la valeur est **false**.
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

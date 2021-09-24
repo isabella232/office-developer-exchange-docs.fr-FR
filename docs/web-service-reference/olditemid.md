@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldItemId
 api_type:
 - schema
 ms.assetid: fb57deee-9cc3-4730-9805-ff34f39e3ab7
 description: L’élément OldItemId contient l’identificateur unique de l’élément qui a été copié ou déplacé.
-ms.openlocfilehash: 9fab14478ffbb2dd8ad013d59520af943584f2eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: de52f8082485c74de2049ce3adc1d4bd02754cf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467465"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539254"
 ---
 # <a name="olditemid"></a>OldItemId
 
-L’élément **OldItemId** contient l’identificateur unique de l’élément qui a été copié ou déplacé. 
+**L’élément OldItemId** contient l’identificateur unique de l’élément qui a été copié ou déplacé. 
   
 ```xml
 <OldItemId Id="" ChangeKey=""/>
@@ -36,8 +36,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Id** <br/> |Contient une chaîne qui identifie un élément dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
-|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un élément identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un élément est utilisée.  <br/> |
+|**Id** <br/> |Contient une chaîne qui identifie un élément dans la Exchange store. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un élément identifié par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un élément est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

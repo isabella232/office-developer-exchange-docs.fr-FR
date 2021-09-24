@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61f7ad65-9d40-4d3b-9e76-64b05bd59210
-description: L’élément PersonalHomePages spécifie un tableau de pages d’accueil et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 062fe0b4d62639604f0c923d37bd90fe1465163b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PersonalHomePages spécifie un tableau de pages d’accueil et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 27fa679d364c42356d7645e77eca5442a2330bf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465869"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515298"
 ---
 # <a name="personalhomepages"></a>PersonalHomePages
 
-L’élément **PersonalHomePages** spécifie un tableau de pages d’accueil et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément PersonalHomePages** spécifie un tableau de pages d’accueil et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <PersonalHomePages>

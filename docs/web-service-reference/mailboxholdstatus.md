@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92608b77-8aa4-403b-a4de-01e3a60af3e0
-description: L’élément MailboxHoldStatus spécifie l’état de conservation de la boîte aux lettres.
-ms.openlocfilehash: 2ac575275fc00d2e3ba38cb4ec7335567ee82da6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxHoldStatus spécifie l’état de la boîte aux lettres.
+ms.openlocfilehash: de63acb14862e9f8cefded7130318c7f8cbd685f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540768"
 ---
 # <a name="mailboxholdstatus"></a>MailboxHoldStatus
 
-L’élément **MailboxHoldStatus** spécifie l’état de conservation de la boîte aux lettres. 
+**L’élément MailboxHoldStatus** spécifie l’état de la boîte aux lettres. 
   
 ```XML
 <MailboxHoldStatus>
@@ -39,7 +39,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Mailbox (String)](mailbox-string.md)  |  [État (HoldStatusType)](status-holdstatustype.md)  |  [AdditionalInfo](additionalinfo.md)
+[Boîte aux lettres (chaîne)](mailbox-string.md)  |  [Status (HoldStatusType)](status-holdstatustype.md)  |  [AdditionalInfo](additionalinfo.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

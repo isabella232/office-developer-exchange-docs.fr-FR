@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UnknownEntry
 api_type:
 - schema
 ms.assetid: 3cb4c62e-052a-4326-8639-8c41dfd047b2
 description: L’élément UnknownEntry représente une entrée d’autorisation inconnue unique qui ne peut pas être résolue par rapport au service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 452857690f719ba3ee9dffa29e576ca4f3b2b945
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 62d006de35955e0fe495d8435dce6f199b46249a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459397"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515039"
 ---
 # <a name="unknownentry"></a>UnknownEntry
 
-L’élément **UnknownEntry** représente une entrée d’autorisation inconnue unique qui ne peut pas être résolue par rapport au service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément UnknownEntry** représente une entrée d’autorisation inconnue unique qui ne peut pas être résolue par rapport au service d’annuaire Active Directory. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <UnknownEntry/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une entrée d’autorisation qui ne peut pas être résolue par rapport à Active Directory. La valeur texte représente un identificateur de sécurité (SID).
+La valeur de texte représente une entrée d’autorisation qui ne peut pas être résolue par rapport à Active Directory. La valeur de texte représente un identificateur de sécurité (SID).
   
 ## <a name="remarks"></a>Remarques
 

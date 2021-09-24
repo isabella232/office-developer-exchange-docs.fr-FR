@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7232505a-bab0-4d78-87bc-6cc4b568937a
 description: L’élément PrintAllowed spécifie si l’impression est activée.
-ms.openlocfilehash: ac38491d563916160b4d00165b743c51cb29fe00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4de966d498914d78e385e482b500b3f0fac76144
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468746"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516411"
 ---
 # <a name="printallowed"></a>PrintAllowed
 
-L’élément **PrintAllowed** spécifie si l’impression est activée. 
+**L’élément PrintAllowed** spécifie si l’impression est activée. 
   
 ```XML
 <PrintAllowed> true | false </PrintAllowed>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **PrintAllowed** indique que l’impression du contenu est autorisée pour un élément géré par des droits. La valeur **false** indique que l’impression n’est pas autorisée. 
+Une valeur de texte **true pour** **l’élément PrintAllowed** indique que l’impression du contenu est autorisée pour un élément géré par des droits. La valeur **false indique** que l’impression n’est pas autorisée. 
   
 ## <a name="remarks"></a>Remarques
 

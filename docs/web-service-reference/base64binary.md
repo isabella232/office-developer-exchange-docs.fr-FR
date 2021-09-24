@@ -1,29 +1,29 @@
 ---
-title: Au base64Binary
+title: Base64Binary
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 37f0c542-7e4c-41b6-8629-537ef11b610b
-description: L’élément Base64Binary contient une valeur encodée en base64.
-ms.openlocfilehash: e3ccda98d23b05349a27711b5bff6b68744c9269
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Base64Binary contient une valeur codée en Base64.
+ms.openlocfilehash: 91957f199ab7c5e07899299a90292a7b44ea5793
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59516110"
 ---
-# <a name="base64binary"></a>Au base64Binary
+# <a name="base64binary"></a>Base64Binary
 
-L’élément **base64Binary** contient une valeur encodée en base64. 
+**L’élément Base64Binary** contient une valeur codée en Base64. 
   
 ```XML
 <Base64Binary/>
 ```
 
- **Au base64Binary**
+ **Base64Binary**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.

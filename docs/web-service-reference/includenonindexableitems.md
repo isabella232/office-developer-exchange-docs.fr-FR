@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af7f202b-2889-447e-bdeb-aaad18ce6b46
-description: L’élément IncludeNonIndexableItems contient une valeur booléenne indiquant s’il faut inclure des éléments qui ne peuvent pas être indexés.
-ms.openlocfilehash: eab559e938f0b949d79626ae5bf61b3d4a838924
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IncludeNonIndexableItems contient une valeur booléen pour indiquer s’il faut inclure les éléments qui ne peuvent pas être indexés.
+ms.openlocfilehash: 33ff8c59c3ef1d9a91f87870e0a876c5a39ce795
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460623"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514598"
 ---
 # <a name="includenonindexableitems"></a>IncludeNonIndexableItems
 
-L’élément **IncludeNonIndexableItems** contient une valeur **booléenne** indiquant s’il faut inclure des éléments qui ne peuvent pas être indexés. 
+**L’élément IncludeNonIndexableItems** contient une valeur **booléen** pour indiquer s’il faut inclure les éléments qui ne peuvent pas être indexés. 
   
 ```XML
 <IncludeNonIndexableItems>true | false</IncludeNonIndexableItems>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **IncludeNonIndexableItems** indique que les éléments qui ne peuvent pas être indexés sont inclus dans les conservations des boîtes aux lettres. La valeur **false** indique que les éléments qui ne peuvent pas être indexés ne sont pas inclus dans les conservations des boîtes aux lettres. 
+Une valeur de texte **true** pour l’élément **IncludeNonIndexableItems** indique que les éléments qui ne peuvent pas être indexés sont inclus dans les boîtes aux lettres. La valeur **false indique que** les éléments qui ne peuvent pas être indexés ne sont pas inclus dans les boîtes aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

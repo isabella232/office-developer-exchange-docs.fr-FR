@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyViewOptions
 api_type:
 - schema
 ms.assetid: c07f3ddb-874b-4d30-a60e-7e5c7793bb6f
-description: L’élément FreeBusyViewOptions spécifie le type d’informations de disponibilité renvoyées dans la réponse.
-ms.openlocfilehash: b67d3f461e0edaa82f074f75b0c1c54efc8af4d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FreeBusyViewOptions spécifie le type d’informations de libre/occupé renvoyées dans la réponse.
+ms.openlocfilehash: fc9b3e32dff5ae984d2921a3a46319a6f3e89da8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459573"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526220"
 ---
 # <a name="freebusyviewoptions"></a>FreeBusyViewOptions
 
-L’élément **FreeBusyViewOptions** spécifie le type d’informations de disponibilité renvoyées dans la réponse. 
+**L’élément FreeBusyViewOptions** spécifie le type d’informations de libre/occupé renvoyées dans la réponse. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -49,26 +49,26 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TimeWindow](timewindow.md) <br/> |Identifie la période interrogée pour les informations de disponibilité de l’utilisateur.  <br/> |
-|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Représente la différence de temps entre deux slots successifs dans la vue **FreeBusyMerged** .  <br/> |
-|[RequestedView](requestedview.md) <br/> |Définit le type d’informations de calendrier demandées par un client.  <br/> |
+|[TimeWindow](timewindow.md) <br/> |Identifie l’étendue de temps à interroger pour les informations de disponibilité de l’utilisateur.  <br/> |
+|[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Représente la différence de temps entre deux emplacements successifs dans la **vue FreeBusyMerged.**  <br/> |
+|[RequestedView](requestedview.md) <br/> |Définit le type d’informations de calendrier qu’un client demande.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
+|[GetUserAvailabilityRequest](getuseravailabilityrequest.md) <br/> |Contient les arguments utilisés pour obtenir les informations de disponibilité de l’utilisateur. Il s’agit d’un élément racine.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Cet élément n’est pas obligatoire et ne peut se produire qu’une seule fois s’il est utilisé. Cette valeur peut être null si la valeur de l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) n’est pas null. 
   
 > [!NOTE]
-> Le schéma qui décrit cet élément se trouve dans le répertoire/EPI/de l’ordinateur exécutant Microsoft® Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé. 
+> Le schéma qui décrit cet élément se trouve dans le répertoire /genre/ de l’ordinateur qui exécute Microsoft® Exchange Server 2007 où le rôle serveur d’accès au client est installé. 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant obtient une liste de réunions et un flux de disponibilité dans les intervalles de 60 minutes.
+L’exemple suivant obtient une liste de réunions et un flux de libre/occupé par intervalles de 60 minutes.
   
 ```
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 

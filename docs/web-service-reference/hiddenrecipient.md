@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HiddenRecipient
 api_type:
 - schema
 ms.assetid: a8209f75-0070-4424-8dcd-273cfd192728
 description: L’élément HiddenRecipient indique que le destinataire a été ajouté par une stratégie d’organisation qui doit être masquée pour les utilisateurs non privilégiés.
-ms.openlocfilehash: bfe57fabc02ff00c801672b71ccdb0bf1b916bd9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 24d7dcad5b8b744351804160ef8d9988b9e393a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457640"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539688"
 ---
 # <a name="hiddenrecipient"></a>HiddenRecipient
 
-L’élément **HiddenRecipient** indique que le destinataire a été ajouté par une stratégie d’organisation qui doit être masquée pour les utilisateurs non privilégiés. 
+**L’élément HiddenRecipient** indique que le destinataire a été ajouté par une stratégie d’organisation qui doit être masquée pour les utilisateurs non privilégiés. 
   
 ```XML
 <HiddenRecipient>true | false</HiddenRecipient>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Cet élément peut avoir la **valeur true** ou **false**. La valeur **true** indique que l’utilisateur a été ajouté par une stratégie d’organisation ; la valeur **false** indique que l’utilisateur n’a pas été ajouté par une stratégie d’organisation. 
+Cet élément peut être **vrai** ou **faux**. La valeur **true indique** que l’utilisateur a été ajouté par une stratégie d’organisation ; Une valeur false **indique** que l’utilisateur n’a pas été ajouté par une stratégie d’organisation. 
   
 ## <a name="remarks"></a>Remarques
 

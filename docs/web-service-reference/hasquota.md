@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HasQuota
 api_type:
 - schema
 ms.assetid: b6e4fef0-92a9-415f-81ae-0c5ecb7c12ad
 description: L’élément HasQuota indique si le dossier géré a un quota.
-ms.openlocfilehash: 6e32aa4c69943774be928339936cca5016c58d85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 86192ac5dd8d7e88531aaf9c3f165f01831436c1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539660"
 ---
 # <a name="hasquota"></a>HasQuota
 
-L’élément **HasQuota** indique si le dossier géré a un quota. 
+**L’élément HasQuota** indique si le dossier géré a un quota. 
   
 ```xml
 <HasQuota/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une valeur de type Boolean. La valeur **true** indique que le dossier a un quota ; la valeur **false** indique que le dossier ne possède pas de quota. 
+La valeur de texte représente une valeur boolé américaine. La valeur **true indique** que le dossier a un quota ; Une valeur **false indique** que le dossier n’a pas de quota. 
   
 ## <a name="remarks"></a>Remarques
 

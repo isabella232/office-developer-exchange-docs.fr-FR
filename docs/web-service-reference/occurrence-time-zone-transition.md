@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Occurrence
 api_type:
 - schema
 ms.assetid: 5c1142b1-c51f-42e1-bbb2-57e00cad0fdb
-description: L’élément occurrence représente l’occurrence du jour de la semaine du mois pendant lequel la transition de fuseau horaire a lieu.
-ms.openlocfilehash: 846f6b22f43bcda07b9408d768d0845a5acfe668
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Occurrence représente l’occurrence du jour de la semaine du mois où se produit la transition de fuseau horaire.
+ms.openlocfilehash: 9790b0e9541da0c22f2eac59850b8a361645c7b4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467976"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539276"
 ---
 # <a name="occurrence-time-zone-transition"></a>Occurrence (transition de fuseau horaire)
 
-L’élément **occurrence** représente l’occurrence du jour de la semaine du mois pendant lequel la transition de fuseau horaire a lieu. 
+**L’élément Occurrence** représente l’occurrence du jour de la semaine du mois où se produit la transition de fuseau horaire. 
   
 ```xml
 <Occurrence/>
@@ -45,26 +45,26 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit chaque année.  <br/> |
+|[RecurringDayTransition](recurringdaytransition.md) <br/> |Représente une transition de fuseau horaire qui se produit le même jour chaque année.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente l’occurrence du jour de la semaine du mois où la transition de fuseau horaire a lieu. Le tableau suivant répertorie les valeurs possibles.
+La valeur de texte est un nombre complet qui représente l’occurrence du jour de la semaine du mois où se produit la transition de fuseau horaire. Le tableau suivant répertorie les valeurs possibles.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0,1  <br/> |Première occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
-|n°2  <br/> |Deuxième occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
-|3  <br/> |Troisième occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
-|4   <br/> |Quatrième occurrence du jour de la semaine spécifié à partir du début du mois.  <br/> |
-|-1  <br/> |Première occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
-|-2  <br/> |Deuxième occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
-|-3  <br/> |Troisième occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
-|-4  <br/> |Quatrième occurrence du jour de la semaine spécifié à partir de la fin du mois.  <br/> |
+|1  <br/> |Première occurrence du jour spécifié de la semaine à partir du début du mois.  <br/> |
+|2  <br/> |Deuxième occurrence du jour spécifié de la semaine à partir du début du mois.  <br/> |
+|3  <br/> |Troisième occurrence du jour spécifié de la semaine à partir du début du mois.  <br/> |
+|4   <br/> |Quatrième occurrence du jour spécifié de la semaine à partir du début du mois.  <br/> |
+|-1  <br/> |Première occurrence du jour spécifié de la semaine à partir de la fin du mois.  <br/> |
+|-2  <br/> |Deuxième occurrence du jour spécifié de la semaine à partir de la fin du mois.  <br/> |
+|-3  <br/> |Troisième occurrence du jour spécifié de la semaine à partir de la fin du mois.  <br/> |
+|-4  <br/> |Quatrième occurrence du jour spécifié de la semaine à partir de la fin du mois.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

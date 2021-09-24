@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZoneContext
 api_type:
 - schema
 ms.assetid: 573c462b-aa1d-4ba0-8852-e3f48b26873b
-description: L’élément TimeZoneContext est utilisé dans l’en-tête SOAP (Simple Object Access Protocol) pour spécifier la définition du fuseau horaire à utiliser par défaut lors de l’affectation du fuseau horaire pour les propriétés DateTime des objets créés, mis à jour et récupérés à l’aide des services Web Exchange (EWS).
-ms.openlocfilehash: 26727317ccf34338e8d62ec92bd7a44d43a6cfdb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TimeZoneContext est utilisé dans l’en-tête SOAP (Simple Object Access Protocol) pour spécifier la définition de fuseau horaire à utiliser comme valeur par défaut lors de l’affectation du fuseau horaire pour les propriétés DateTime des objets créés, mis à jour et récupérés à l’aide de Exchange Web Services (EWS).
+ms.openlocfilehash: a628d4a094e70f1190f2cc0eda8cc4416bc37860
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460252"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515172"
 ---
 # <a name="timezonecontext"></a>TimeZoneContext
 
-L’élément **TimeZoneContext** est utilisé dans l’en-tête SOAP (Simple Object Access Protocol) pour spécifier la définition du fuseau horaire à utiliser par défaut lors de l’affectation du fuseau horaire pour les propriétés DateTime des objets créés, mis à jour et récupérés à l’aide des services Web Exchange (EWS). 
+L’élément **TimeZoneContext** est utilisé dans l’en-tête SOAP (Simple Object Access Protocol) pour spécifier la définition de fuseau horaire à utiliser comme valeur par défaut lors de l’affectation du fuseau horaire pour les propriétés DateTime des objets créés, mis à jour et récupérés à l’aide de Exchange Web Services (EWS). 
   
 ```xml
 <TimeZoneContext>
@@ -50,7 +50,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

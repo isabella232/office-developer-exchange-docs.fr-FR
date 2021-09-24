@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 178eefa1-995c-4bea-930b-e51293961191
-description: L’élément TTL spécifie la durée de vie, en heures, pendant laquelle les paramètres restent valides.
-ms.openlocfilehash: 9a17cbe4e669d1afe9f3ef4a24f2a9a2889a7d52
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TTL spécifie l’heure de vie, en heures, pendant laquelle les paramètres restent valides.
+ms.openlocfilehash: 6850f104fe90ae941f9d1d522fa3d3641e433c5f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467381"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515102"
 ---
 # <a name="ttl-pox"></a>TTL (POX)
 
-L’élément **TTL** spécifie la durée de vie, en heures, pendant laquelle les paramètres restent valides. 
+**L’élément TTL** spécifie l’heure de vie, en heures, pendant laquelle les paramètres restent valides. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,19 +50,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente la durée de vie, en heures, pendant laquelle les paramètres restent valides. La valeur zéro indique que la redécouverte n’est pas obligatoire. Si aucune valeur n’est spécifiée, la valeur par défaut de cet élément est 1 heure.
+La valeur de texte représente l’heure de vie, en heures, pendant laquelle les paramètres restent valides. La valeur zéro indique que la redécouverte n’est pas nécessaire. Si aucune valeur n’est spécifiée, la valeur par défaut de cet élément est 1 heure.
   
 ## <a name="remarks"></a>Remarques
 
-Une fois que le temps représenté par l’élément **TTL** s’est écoulé, les paramètres doivent être redécouverts à l’aide d’une demande de découverte automatique. 
+Une fois le temps représenté par l’élément **TTL** écoulé, les paramètres doivent être découverts à l’aide d’une demande de découverte automatique. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

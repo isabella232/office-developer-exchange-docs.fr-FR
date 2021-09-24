@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PostalCode
 api_type:
 - schema
 ms.assetid: 35935ca3-60d5-47f0-b16d-69ab2b8fdd49
 description: L’élément PostalCode représente le code postal d’un élément de contact.
-ms.openlocfilehash: edfb4590b7156229b5f6a893a96dca8d9fbea853
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5564cba2d638189fafd3aa0e4ece20d4fc050861
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457164"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515277"
 ---
 # <a name="postalcode"></a>PostalCode
 
-L’élément **PostalCode** représente le code postal d’un élément de contact. 
+**L’élément PostalCode** représente le code postal d’un élément de contact. 
   
 ```xml
 <PostalCode/>

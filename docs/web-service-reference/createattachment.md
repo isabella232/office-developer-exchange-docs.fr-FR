@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachment
 api_type:
 - schema
 ms.assetid: e33b403a-b7d3-48ee-8d24-6b7abf0d70bc
-description: L’élément CreateAttachment définit une demande de création d’une pièce jointe à un élément dans la Banque d’Exchange.
-ms.openlocfilehash: 4cba1b8865dae5da58b9617b249a29314c67331a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CreateAttachment définit une demande de création d’une pièce jointe à un élément dans Exchange store.
+ms.openlocfilehash: 6716a83b0d1ba9d7f39351da60f7009df04a3fa0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466436"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59515872"
 ---
 # <a name="createattachment"></a>CreateAttachment
 
-L’élément **CreateAttachment** définit une demande de création d’une pièce jointe à un élément dans la Banque d’Exchange. 
+**L’élément CreateAttachment** définit une demande de création d’une pièce jointe à un élément dans Exchange store. 
   
 ```xml
 <CreateAttachment>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ParentItemId](parentitemid.md) <br/> |Identifie l’élément de la banque Exchange parente qui contient la pièce jointe créée. L’élément [parentItemId](parentitemid.md) doit fournir l’ID d’un élément réel de la Banque d’identités Exchange. Les éléments de magasin réel peuvent être récupérés à l’aide de l' [opération GetItem](getitem-operation.md); les pièces jointes sont récupérées à l’aide de l' [opération GetAttachment](getattachment-operation.md). Une erreur se produit si l’ID d’une pièce jointe est transmis à [parentItemId](parentitemid.md) . Si le [parentItemId](parentitemid.md) représente l’ID d’une pièce jointe d’un élément existant, l' [opération CreateAttachment](createattachment-operation.md) ajoute la nouvelle pièce jointe à la pièce jointe existante.  <br/> Cet élément est requis pour l' [opération CreateAttachment](createattachment-operation.md).  <br/> |
-|[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments ou les fichiers à joindre à un élément dans la Banque d’Exchange.  <br/> |
+|[ParentItemId](parentitemid.md) <br/> |Identifie l’élément de Exchange parent qui contient la pièce jointe créée. [L’élément ParentItemId](parentitemid.md) doit fournir l’ID d’un élément Exchange magasin réel. Les éléments de la boutique réelle peuvent être récupérés à l’aide de [l’opération GetItem](getitem-operation.md); les pièces jointes sont récupérées à l’aide de [l’opération GetAttachment](getattachment-operation.md). Une erreur se produit si l’ID d’un fichier joint est transmis à [ParentItemId.](parentitemid.md) Si [l’élément ParentItemId](parentitemid.md) représente l’ID d’une pièce jointe d’élément existante, l’opération [CreateAttachment](createattachment-operation.md) ajoute la nouvelle pièce jointe à la pièce jointe existante.  <br/> Cet élément est requis pour [l’opération CreateAttachment](createattachment-operation.md).  <br/> |
+|[Pièces jointes](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments ou fichiers à joindre à un élément dans la Exchange store.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,11 +52,11 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Une pièce jointe d’élément n’existe pas en tant qu’élément de la boutique. Il existe uniquement en tant que pièce jointe à un élément ou à une autre pièce jointe. Les pièces jointes d’éléments ne peuvent être récupérées qu’à l’aide de la demande [GetAttachment](getattachment.md) . 
+Une pièce jointe d’élément n’existe pas en tant qu’élément de magasin. Il existe uniquement en tant que pièce jointe à un élément ou une autre pièce jointe. Les pièces jointes d’élément peuvent uniquement être récupérées à l’aide de [la demande GetAttachment.](getattachment.md) 
   
-Les pièces jointes d’éléments suivantes peuvent être créées :
+Les pièces jointes d’élément suivantes peuvent être créées :
   
-- Option
+- Item
     
 - Message
     
@@ -68,13 +68,13 @@ Les pièces jointes d’éléments suivantes peuvent être créées :
     
 - MeetingMessage
     
-- Propriété meetingrequest
+- MeetingRequest
     
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment créer et attacher un élément à un autre élément dans la Banque d’informations Exchange.
+L’exemple suivant montre comment créer et attacher un élément à un autre élément de la Exchange store.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,7 +107,7 @@ L’exemple suivant montre comment créer et attacher un élément à un autre �
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

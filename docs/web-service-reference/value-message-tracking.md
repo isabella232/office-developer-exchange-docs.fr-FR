@@ -1,27 +1,27 @@
 ---
-title: Valeur (suivi des messages)
+title: Value (MessageTracking)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Value
 api_type:
 - schema
 ms.assetid: cb2f228f-775a-4c7d-82e7-41c7c953c808
-description: L’élément Value représente la valeur de la propriété d’un rapport de suivi des messages.
-ms.openlocfilehash: 4f6b5cb9d82a35bbe010b36e409cdc9f3a70173d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Value représente la valeur de propriété d’un rapport de suivi des messages.
+ms.openlocfilehash: c8aa4f3cc41e76b633ee1b244371de2f5410c944
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465007"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59513961"
 ---
-# <a name="value-message-tracking"></a>Valeur (suivi des messages)
+# <a name="value-message-tracking"></a>Value (MessageTracking)
 
-L’élément **value** représente la valeur de la propriété d’un rapport de suivi des messages. 
+**L’élément Value** représente la valeur de propriété d’un rapport de suivi des messages. 
   
 ```xml
 <Value/>
@@ -45,15 +45,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TrackingPropertyType](trackingpropertytype.md) <br/> |Représente une paire nom/valeur de chaînes qui est utilisée pour créer des propriétés pour les rapports de suivi des messages.  <br/> |
+|[TrackingPropertyType](trackingpropertytype.md) <br/> |Représente une paire nom/valeur de chaînes utilisée pour créer des propriétés pour les rapports de suivi des messages.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte est facultative.
+La valeur de texte est facultative.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément peut apparaître au plus une fois dans l’élément [TrackingPropertyType](trackingpropertytype.md) . 
+Cet élément peut se produire au plus une fois dans [l’élément TrackingPropertyType.](trackingpropertytype.md) 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.Cet élément est une nouveauté d'Exchange Server 2010 Service Pack 1 (SP1).
   

@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57c6ff23-5c2c-42ee-824b-5a1b6dafab8c
-description: Trouvez des informations sur l’opération EWS GetUserRetentionPolicyTags.
-ms.openlocfilehash: 6505945f8ad110af714da1a3011c2d504acdc75f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Trouvez des informations sur l’opération GetUserRetentionPolicyTags EWS.
+ms.openlocfilehash: 9c030cb05e4adacf5eda9f046bdbb6c5c82b4975
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526133"
 ---
 # <a name="getuserretentionpolicytags-operation"></a>Opération GetUserRetentionPolicyTags
 
-Trouvez des informations sur l’opération EWS **GetUserRetentionPolicyTags** . 
+Trouvez des informations **sur l’opération GetUserRetentionPolicyTags** EWS. 
   
-L’opération **GetUserRetentionPolicyTags** obtient une liste de toutes les balises par défaut, dossier système et personnel qui sont associées à un utilisateur au moyen d’une stratégie système ou qui ont été appliquées par l’utilisateur. 
+L’opération **GetUserRetentionPolicyTags** obtient la liste de toutes les balises par défaut, dossier système et balises personnelles qui sont associées à un utilisateur au moyen d’une stratégie système ou qui ont été appliquées par l’utilisateur. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getuserretentionpolicytags-operation"></a>Utilisation de l’opération GetUserRetentionPolicyTags
 
-Cette opération renvoie le nom complet, l’ID de rétention, la période de rétention, le type de rétention, l’action de rétention et les balises de description, ainsi que les valeurs des propriétés **IsVisible**, **OptedInto**et **IsArchive** . 
+Cette opération renvoie le nom complet, l’ID de rétention, la période de rétention, le type de rétention, l’action de rétention et les balises de description, ainsi que les valeurs des propriétés **IsVisible,** **OptedInto** et **IsArchive.** 
   
-### <a name="getuserretentionpolicytags-operation-soap-headers"></a>En-têtes SOAP d’opération GetUserRetentionPolicyTags
+### <a name="getuserretentionpolicytags-operation-soap-headers"></a>En-têtes SOAP de l’opération GetUserRetentionPolicyTags
 
-L’opération **GetUserRetentionPolicyTags** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetUserRetentionPolicyTags** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Ceci s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Ceci s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Ceci s’applique à une réponse.  <br/> |
    
-## <a name="getuserretentionpolicytags-operation-request-example"></a>Exemple de requête d’opération GetUserRetentionPolicyTags
+## <a name="getuserretentionpolicytags-operation-request-example"></a>Exemple de demande d’opération GetUserRetentionPolicyTags
 
-L’exemple suivant de demande d’opération **GetUserRetentionPolicyTags** indique comment obtenir une liste de balises pour l’utilisateur actuel. 
+L’exemple suivant d’une demande d’opération **GetUserRetentionPolicyTags** montre comment obtenir une liste de balises pour l’utilisateur actuel. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
@@ -56,13 +56,13 @@ L’exemple suivant de demande d’opération **GetUserRetentionPolicyTags** ind
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient l’élément suivant :
+Le corps SOAP de la requête contient l’élément suivant :
   
 - [GetUserRetentionPolicyTags](getuserretentionpolicytags.md)
     
-## <a name="successful-getuserretentionpolicytags-operation-response"></a>Réponse de l’opération GetUserRetentionPolicyTags réussie
+## <a name="successful-getuserretentionpolicytags-operation-response"></a>Réponse réussie de l’opération GetUserRetentionPolicyTags
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetUserRetentionPolicyTags** . 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetUserRetentionPolicyTags.** 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -157,7 +157,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md)
     
@@ -171,7 +171,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [RetentionId](retentionid.md)
     
-- [Période](retentionperiod.md)
+- [RetentionPeriod](retentionperiod.md)
     
 - [Type (ElcFolderType)](type-elcfoldertype.md)
     
@@ -187,5 +187,5 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="getuserretentionpolicytags-operation-error-response"></a>Réponse d’erreur d’opération GetUserRetentionPolicyTags
 
-Pour les codes d’erreur qui sont génériques à EWS, voir [ResponseCode](responsecode.md).
+Pour les codes d’erreur génériques pour EWS, voir [ResponseCode](responsecode.md).
   

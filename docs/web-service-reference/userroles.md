@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
-description: L’élément UserRoles spécifie les rôles d’utilisateur que l’utilisateur appelant, ou l’utilisateur qui agit comme application partenaire, souhaite appliquer à l’appel actif.
-ms.openlocfilehash: 5155b82781321b16d1b58fdcaffe7b8cf2372717
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserRoles spécifie les rôles d’utilisateur que l’utilisateur appelant, ou l’utilisateur que l’application partenaire d’appel agit, souhaite appliquer à l’appel actuel.
+ms.openlocfilehash: c861cda9a010e909c9ecc5303ddc637a14bcb824
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467129"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59514976"
 ---
 # <a name="userroles"></a>UserRoles
 
-L’élément **UserRoles** spécifie les rôles d’utilisateur que l’utilisateur appelant, ou l’utilisateur qui agit comme application partenaire, souhaite appliquer à l’appel actif. 
+**L’élément UserRoles** spécifie les rôles d’utilisateur que l’utilisateur appelant, ou l’utilisateur que l’application partenaire d’appel agit, souhaite appliquer à l’appel actuel. 
   
 ```XML
 <UserRoles>

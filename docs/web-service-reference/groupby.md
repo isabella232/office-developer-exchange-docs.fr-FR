@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupBy
 api_type:
 - schema
 ms.assetid: 9728619b-4674-4b9d-9f6c-e75c6165966c
 description: L’élément GroupBy spécifie un regroupement arbitraire pour les requêtes FindItem.
-ms.openlocfilehash: 0d681e5376e4dd71921cc97f270211e49179db85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 15e2d818ceae81f08ad0c52d9bdc881f7c3e2579
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530098"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59539801"
 ---
 # <a name="groupby"></a>GroupBy
 
-L’élément **GroupBy** spécifie un regroupement arbitraire pour les requêtes FindItem. 
+**L’élément GroupBy** spécifie un regroupement arbitraire pour les requêtes FindItem. 
   
 - [FindItem](finditem.md)
 - [GroupBy](groupby.md)
@@ -57,20 +57,20 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Order** <br/> | Détermine l’ordre des groupes dans le tableau d’éléments groupés qui est retourné dans la réponse. Cet attribut est de type SortDirectionType.  <br/> |
+|**Order** <br/> | Détermine l’ordre des groupes dans le tableau d’éléments groupés qui est renvoyé dans la réponse. Cet attribut est de type SortDirectionType.  <br/> |
    
-#### <a name="order-attribute-values"></a>Trier les valeurs d’attribut
+#### <a name="order-attribute-values"></a>Valeurs d’attribut de commande
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Croissant  <br/> |Les groupes sont triés par ordre croissant.  <br/> |
-|Décroissant  <br/> |Les groupes sont triés dans l’ordre décroissant.  <br/> |
+|Croissant  <br/> |Les groupes sont triés dans l’ordre croissant.  <br/> |
+|Décroissant  <br/> |Les groupes sont organisés dans l’ordre décroit.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencés par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’un dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues à obtenir, définir ou créer.  <br/> |
 |[AggregateOn](aggregateon.md) <br/> |Représente le champ utilisé pour déterminer l’ordre des groupes dans une réponse.  <br/> |
@@ -79,11 +79,11 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.  <br/><br/> Voici l’expression XPath de cet élément :`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Définit une demande de recherche d’éléments dans une boîte aux lettres.  <br/><br/> Voici l’expression XPath de cet élément :  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La réponse FindItem contiendra une collection de groupes. Chaque groupe contiendra tous les éléments ayant des valeurs correspondantes pour la propriété **GroupBy** . La propriété qui détermine le regroupement est identifiée dans l’élément [FieldURI](fielduri.md), [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI](extendedfielduri.md) . 
+La réponse FindItem contient une collection de groupes. Chaque groupe contient tous les éléments dont les valeurs correspondent à la **propriété GroupBy.** La propriété qui détermine le regroupement est identifiée dans l’élément [FieldURI,](fielduri.md) [IndexedFieldURI](indexedfielduri.md)ou [ExtendedFieldURI.](extendedfielduri.md) 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -93,7 +93,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

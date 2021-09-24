@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemAttachment
 api_type:
 - schema
 ms.assetid: 089ee599-f45e-46f5-a18a-5cfb3d2851ff
-description: L’élément ItemAttachment représente un élément Exchange qui est attaché à un autre élément Exchange.
-ms.openlocfilehash: c3a07fa091c05654a03cbff58fb20204c26c9061
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ItemAttachment représente un élément Exchange joint à un autre élément Exchange’élément.
+ms.openlocfilehash: 09324e8f3cbd149cbe7cbd1a6291a703620e27fb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540881"
 ---
 # <a name="itemattachment"></a>ItemAttachment
 
-L’élément **ItemAttachment** représente un élément Exchange qui est attaché à un autre élément Exchange. 
+**L’élément ItemAttachment** représente un élément Exchange joint à un autre élément Exchange’élément. 
   
 ```xml
 <ItemAttachment>
@@ -164,20 +164,20 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AttachmentId](attachmentid.md) <br/> |Identifie la pièce jointe.  <br/> |
-|[Nom (AttachmentType)](name-attachmenttype.md) <br/> |Représente le nom de la pièce jointe.  <br/> |
-|[ContentType](contenttype.md) <br/> |Décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu des pièces jointes.  <br/> |
-|[ContentId](contentid.md) <br/> |Représente un identificateur du contenu de la pièce jointe. [Contentid](contentid.md) peut être défini sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser [contentid](contentid.md) pour implémenter leurs propres mécanismes d’identification.  <br/> |
+|[Name (AttachmentType)](name-attachmenttype.md) <br/> |Représente le nom de la pièce jointe.  <br/> |
+|[ContentType](contenttype.md) <br/> |Décrit le type MIME (Multipurpose Internet Mail Extensions) du contenu de la pièce jointe.  <br/> |
+|[ContentId](contentid.md) <br/> |Représente un identificateur du contenu de la pièce jointe. [ContentId peut](contentid.md) être définie sur n’importe quelle valeur de chaîne. Les applications peuvent utiliser [ContentId](contentid.md) pour implémenter leurs propres mécanismes d’identification.  <br/> |
 |[ContentLocation](contentlocation.md) <br/> |Contient l’URI (Uniform Resource Identifier) qui correspond à l’emplacement du contenu de la pièce jointe.  <br/> |
-|[Taille](size.md) <br/> |Représente la taille en octets de la pièce jointe.  <br/> |
+|[Taille](size.md) <br/> |Représente la taille en octets de la pièce jointe du fichier.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Représente la dernière modification de la pièce jointe.  <br/> |
-|[IsInline](isinline.md) <br/> |Indique si la pièce jointe s’affiche en ligne dans un élément.  <br/> |
-|[Élément](item.md) <br/> |Représente une pièce jointe d’élément Exchange générique.  <br/> |
-|[Message](message-ex15websvcsotherref.md) <br/> |Représente une pièce jointe de message électronique Exchange.  <br/> |
-|[CalendarItem](calendaritem.md) <br/> |Représente une pièce jointe d’un élément de calendrier Exchange.  <br/> |
-|[Contact](contact.md) <br/> |Représente une pièce jointe d’un élément de contact Exchange.  <br/> |
-|[Task](task.md) <br/> |Représente une pièce jointe de tâche Exchange.  <br/> |
+|[IsInline](isinline.md) <br/> |Représente si la pièce jointe apparaît en ligne dans un élément.  <br/> |
+|[Élément](item.md) <br/> |Représente une pièce jointe générique Exchange’élément.  <br/> |
+|[Message](message-ex15websvcsotherref.md) <br/> |Représente une pièce jointe Exchange message électronique.  <br/> |
+|[CalendarItem](calendaritem.md) <br/> |Représente une pièce jointe Exchange’élément de calendrier.  <br/> |
+|[Contact](contact.md) <br/> |Représente une pièce jointe Exchange contact.  <br/> |
+|[Tâche](task.md) <br/> |Représente une pièce jointe Exchange tâche.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
    
@@ -185,7 +185,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments et/ou les fichiers qui sont associés à un élément dans la Banque d’Exchange.  <br/> |
+|[Pièces jointes](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments et/ou fichiers joints à un élément dans la Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

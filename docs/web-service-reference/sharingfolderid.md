@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SharingFolderId
 api_type:
 - schema
 ms.assetid: 5ad37ceb-2922-4420-9051-c29d0d57c420
 description: L’élément SharingFolderId représente l’identificateur du dossier local dans une relation de partage.
-ms.openlocfilehash: 02780251639ee651ca65d8eadded43260852aaf8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9f26efa394341c8ead895a1d8e898cb48d9c2cb9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526577"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540439"
 ---
 # <a name="sharingfolderid"></a>SharingFolderId
 
-L’élément **SharingFolderId** représente l’identificateur du dossier local dans une relation de partage. 
+**L’élément SharingFolderId** représente l’identificateur du dossier local dans une relation de partage. 
   
 ```xml
 <SharingFolderId Id="" ChangeKey="" />
@@ -36,8 +36,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
-|ChangeKey  <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|ID  <br/> |Contient une chaîne qui identifie un dossier dans la Exchange store. Cet attribut est obligatoire.  <br/> |
+|ChangeKey  <br/> |Contient une chaîne qui identifie une version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -48,12 +48,12 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[RefreshSharingFolder](refreshsharingfolder.md) <br/> |Définit une demande d’actualisation du dossier local spécifié.  <br/> |
-|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Définit une réponse à une demande d' [opération GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
-|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération GetSharingFolder](getsharingfolder-operation.md) .  <br/> |
+|[GetSharingFolderResponse](getsharingfolderresponse.md) <br/> |Définit une réponse à une [demande d’opération GetSharingFolder.](getsharingfolder-operation.md)  <br/> |
+|[GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md) <br/> |Contient l’état et le résultat d’une [demande d’opération GetSharingFolder](getsharingfolder-operation.md) unique.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

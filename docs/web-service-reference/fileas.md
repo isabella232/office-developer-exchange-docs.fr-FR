@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FileAs
 api_type:
 - schema
 ms.assetid: df50524e-471c-49d2-89fe-b2d0f61a1365
-description: L’élément FileAs représente la manière dont un contact ou une liste de distribution est classé dans le dossier contacts.
-ms.openlocfilehash: be756d86d7608fcb758dd54f2ada9f03a04343e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FileAs représente le classement d’un contact ou d’une liste de distribution dans le dossier Contacts.
+ms.openlocfilehash: 1ebed8365396feb42f4bfceac646ae7692dd6579
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461197"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530575"
 ---
 # <a name="fileas"></a>FileAs
 
-L’élément **FileAs** représente la manière dont un contact ou une liste de distribution est classé dans le dossier contacts. 
+**L’élément FileAs représente** le classement d’un contact ou d’une liste de distribution dans le dossier Contacts. 
   
 ```xml
 <FileAs/>
@@ -53,7 +53,7 @@ Une valeur de texte qui représente une chaîne est requise si cet élément est
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **FileAs** sert à trier les contacts et les listes de distribution par un nom autre qu’un nom complet ou un nom de société. 
+**L’élément FileAs est** utilisé pour trier les contacts et les listes de distribution par un nom autre qu’un nom complet ou un nom de société. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

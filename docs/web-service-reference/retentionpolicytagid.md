@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4cf8b357-a58d-4837-994f-c2ba9b1eca4b
 description: L’élément RetentionPolicyTagId spécifie l’identificateur de la balise de stratégie de rétention.
-ms.openlocfilehash: 1ed2b3317251321d9593feb83d8ed4550425c3e9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f284dc5191e1eac5086caf3f1897f83012c165cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465134"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512351"
 ---
 # <a name="retentionpolicytagid"></a>RetentionPolicyTagId
 
-L’élément **RetentionPolicyTagId** spécifie l’identificateur de la balise de stratégie de rétention. 
+**L’élément RetentionPolicyTagId** spécifie l’identificateur de la balise de stratégie de rétention. 
   
 ```XML
 <RetentionPolicyTagId></RetentionPolicyTagId>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **RetentionPolicyTagId** est l’identificateur de la balise de stratégie appliqué aux éléments d’une conversation. 
+La valeur de texte de **l’élément RetentionPolicyTagId** est l’identificateur de balise de stratégie appliqué aux éléments d’une conversation. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b5d18516-a617-4daf-8baf-c7ce29c76f6b
-description: L’élément FoldersToIgnore identifie une liste de dossiers ignorés lors de l’obtention d’éléments dans une conversation. Tous les éléments de conversation dans les dossiers ignorés ne sont pas renvoyés dans une réponse GetConversationItems.
-ms.openlocfilehash: 07813a54a9a3afa3de23ae94f1c9b191d1cb6fac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FoldersToIgnore identifie une liste de dossiers qui sont ignorés lors de l’obtention d’éléments dans une conversation. Tous les éléments de conversation dans les dossiers ignorés ne sont pas renvoyés dans une réponse GetConversationItems.
+ms.openlocfilehash: c0102d12b24df2cadd5e307e80c5acda9a3c0589
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44453356"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528659"
 ---
 # <a name="folderstoignore"></a>FoldersToIgnore
 
-L’élément **FoldersToIgnore** identifie une liste de dossiers ignorés lors de l’obtention d’éléments dans une conversation. Tous les éléments de conversation dans les dossiers ignorés ne sont pas renvoyés dans une réponse **GetConversationItems** . 
+**L’élément FoldersToIgnore** identifie une liste de dossiers qui sont ignorés lors de l’obtention d’éléments dans une conversation. Tous les éléments de conversation dans les dossiers ignorés ne sont pas renvoyés dans une réponse **GetConversationItems.** 
   
 ```XML
 <FoldersToIgnore>

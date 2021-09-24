@@ -4,29 +4,29 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: c6666a42-a18f-4e4b-beb6-b25ff62cfcc5
-description: L’opération GetFederationInformation fournit des informations sur l’état de la Fédération de l’organisation, telles que l’URI cible à utiliser lors de la demande de jetons ciblés dans cette organisation, ainsi que sur les autres domaines que l’organisation a également fédérés.
-ms.openlocfilehash: 533b2f6d282e3287f4945df56b169f5bc93ff445
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetFederationInformation fournit des informations sur l’état de fédération de l’organisation, telles que l’URI cible à utiliser lors de la demande de jetons destinés à cette organisation, ainsi que les autres domaines que l’organisation a également fédérés.
+ms.openlocfilehash: 915498440e4bc3d7262ed3a55350f7d3723d47d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529953"
 ---
 # <a name="getfederationinformation-operation-soap"></a>Opération GetFederationInformation (SOAP)
 
-L’opération **GetFederationInformation** fournit des informations sur l’état de la Fédération de l’organisation, telles que l’URI cible à utiliser lors de la demande de jetons ciblés dans cette organisation, ainsi que sur les autres domaines que l’organisation a également fédérés. 
+L’opération **GetFederationInformation** fournit des informations sur l’état de fédération de l’organisation, telles que l’URI cible à utiliser lors de la demande de jetons destinés à cette organisation, ainsi que les autres domaines que l’organisation a également fédérés. 
   
-Seules les organisations fédérées peuvent partager du calendrier, des contacts et des messages avec des utilisateurs externes.
+Seules les organisations fédérées peuvent partager des calendriers, des contacts et des messages à des utilisateurs externes.
   
 ## <a name="getfederationinformation-request-example"></a>Exemple de requête GetFederationInformation
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de requête **GetFederationInformation** affiche une demande d’informations de Fédération d’un utilisateur. Le client envoie cette demande au serveur. 
+L’exemple suivant **d’une demande GetFederationInformation** affiche une demande pour les informations de fédération d’un utilisateur. Le client envoie cette demande au serveur. 
   
 ### <a name="code"></a>Code
 
@@ -60,13 +60,13 @@ L’exemple suivant de requête **GetFederationInformation** affiche une demande
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
 - [GetFederationInformationRequestMessage (SOAP)](getfederationinformationrequestmessage-soap.md)
     
-- [Demande (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
 - [Domaine (SOAP)](domain-soap.md)
     
@@ -74,7 +74,7 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **GetFederationInformation** que le serveur envoie au client. 
+L’exemple suivant montre une réponse réussie à la **demande GetFederationInformation** que le serveur envoie au client. 
   
 ### <a name="code"></a>Code
 
@@ -105,13 +105,13 @@ xmlns:a="http://www.w3.org/2005/08/addressing">
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
 Les éléments suivants sont utilisés dans la réponse :
   
 - [GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md)
     
-- [Réponse (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
 - [ErrorCode (SOAP)](errorcode-soap.md)
     

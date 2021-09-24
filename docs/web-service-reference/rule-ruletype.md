@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Rule
 api_type:
 - schema
 ms.assetid: 259a1f62-b235-4964-88bf-2d1f1c05a563
-description: L’élément rule contient une seule règle et représente une règle dans la boîte aux lettres d’un utilisateur.
-ms.openlocfilehash: cdbd21df235a62a9e201e1eaae1d82a8ac10cdd2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Rule contient une seule règle et représente une règle dans la boîte aux lettres d’un utilisateur.
+ms.openlocfilehash: 0e7d7284d561ea374f66106072df0c4f850c590c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527515"
 ---
 # <a name="rule-ruletype"></a>Règle (RuleType)
 
-L’élément **rule** contient une seule règle et représente une règle dans la boîte aux lettres d’un utilisateur. 
+**L’élément Rule** contient une seule règle et représente une règle dans la boîte aux lettres d’un utilisateur. 
   
 ```XML
 <Rule>
@@ -50,15 +50,15 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RuleId](ruleid.md) <br/> |Spécifie l’identificateur de la règle.  <br/> |
+|[RuleId](ruleid.md) <br/> |Spécifie l’identificateur de règle.  <br/> |
 |[DisplayName (chaîne)](displayname-string.md) <br/> |Contient le nom complet d’une règle.  <br/> |
-|[Priorité](priority.md) <br/> |Indique l’ordre dans lequel une règle doit être exécutée.  <br/> |
+|[Priorité](priority.md) <br/> |Indique l’ordre dans lequel une règle doit être exécuté.  <br/> |
 |[IsEnabled](isenabled.md) <br/> |Indique si la règle est activée.  <br/> |
-|[IsNotSupported](isnotsupported.md) <br/> |Indique si la règle ne peut pas être modifiée avec les API avec code managé.  <br/> |
+|[IsNotSupported](isnotsupported.md) <br/> |Indique si la règle ne peut pas être modifiée avec les API de code géré.  <br/> |
 |[IsInError](isinerror.md) <br/> |Indique si la règle se trouve dans une condition d’erreur.  <br/> |
-|[Conditions](conditions.md) <br/> |Identifie les conditions qui, lorsqu’elles sont remplies, déclencheront les actions de règle pour une règle.  <br/> |
+|[Conditions](conditions.md) <br/> |Identifie les conditions qui, lorsqu’elles sont remplies, déclenchent les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Identifie les exceptions qui représentent toutes les conditions d’exception de règle disponibles pour la règle de boîte de réception.  <br/> |
-|[Actions](actions.md) <br/> |Représente les actions à effectuer sur un message lorsque les conditions sont remplies.  <br/> |
+|[Actions](actions.md) <br/> |Représente les actions à prendre sur un message lorsque les conditions sont remplies.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

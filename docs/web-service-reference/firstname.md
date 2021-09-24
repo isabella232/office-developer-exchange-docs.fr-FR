@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstName
 api_type:
 - schema
 ms.assetid: 5a791c10-17fa-41db-a625-5b0f1b735237
 description: L’élément FirstName représente le prénom d’un contact.
-ms.openlocfilehash: 52072167e149950ef006b23d32ec3adf97df5cae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3fe15c6b729ee65c3e0ddec1db449cc68d1e1802
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466303"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530435"
 ---
 # <a name="firstname"></a>FirstName
 
-L’élément **FirstName** représente le prénom d’un contact. 
+**L’élément FirstName** représente le prénom d’un contact. 
   
 ```xml
 <FirstName/>

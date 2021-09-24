@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70946a1a-a121-4b47-8e67-ccbc1a25b0f1
-description: L’élément ServiceUrl représente l’URL d’un service Web de partage de documents.
-ms.openlocfilehash: 14b553f53c9af3f746a111d6e48a443ba33646dc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ServiceUrl représente l’URL d’un service web de partage de documents.
+ms.openlocfilehash: a193732878de94b7ed1a807ee3fb42149ab4b6cf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59532063"
 ---
 # <a name="serviceurl-soap"></a>ServiceUrl (SOAP)
 
-L’élément **ServiceUrl** représente l’URL d’un service Web de partage de documents. 
+**L’élément ServiceUrl** représente l’URL d’un service web de partage de documents. 
   
 ```XML
 <ServiceUrl />
@@ -43,7 +43,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ServiceUrl** est l’URL d’un service Web de partage de documents. 
+La valeur de texte de **l’élément ServiceUrl** est l’URL d’un service web de partage de documents. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -51,7 +51,7 @@ La valeur de texte de l’élément **ServiceUrl** est l’URL d’un service We
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

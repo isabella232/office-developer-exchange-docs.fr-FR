@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniquePathId
 api_type:
 - schema
 ms.assetid: 3c917100-907a-4aa1-a7d4-01c65f9a42e4
 description: L’élément UniquePathId représente une chaîne qui est différente pour chaque chemin d’accès dans un rapport de suivi.
-ms.openlocfilehash: c548619c49c617581f1510126385a6cf480460bb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 314a683ace9ac2c71f648428f29489ac58a2891b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468179"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512317"
 ---
 # <a name="uniquepathid"></a>UniquePathId
 
-L’élément **UniquePathId** représente une chaîne qui est différente pour chaque chemin d’accès dans un rapport de suivi. 
+**L’élément UniquePathId** représente une chaîne qui est différente pour chaque chemin d’accès dans un rapport de suivi. 
   
 ```XML
 <UniquePathId/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

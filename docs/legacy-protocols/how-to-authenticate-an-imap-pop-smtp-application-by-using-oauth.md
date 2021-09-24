@@ -4,12 +4,12 @@ description: Découvrez comment utiliser l’authentification OAuth avec vos app
 author: svpsiva
 ms.date: 07/08/2021
 ms.audience: Developer
-ms.openlocfilehash: 4a307a6e329d5320b2b304d17a78a61db6d111bd
-ms.sourcegitcommit: 357b882a02e37b380a23b8a45b15f9c006a40b02
+ms.openlocfilehash: cfc9de18a53ce4cfdd8535f26fe3b04aab9cde55
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58764587"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531322"
 ---
 # <a name="authenticate-an-imap-pop-or-smtp-connection-using-oauth"></a>Authentifier une connexion IMAP, POP ou SMTP à l’aide d’OAuth
 
@@ -17,7 +17,7 @@ Découvrez comment utiliser l’authentification OAuth pour vous connecter aux p
 
 > La prise en charge OAuth2 des protocoles IMAP, POP et SMTP comme décrit ci-dessous est prise en charge pour les utilisateurs Microsoft 365 (qui inclut Office sur le Web) et Outlook.com.
 
-Si vous n’êtes pas familiarisé avec le protocole OAuth 2.0, commencez par lire le protocole [OAuth 2.0 sur Plateforme d’identités Microsoft vue d’ensemble.](/azure/active-directory/develop/active-directory-v2-protocols) Pour en savoir plus sur microsoft Authentication Libariers (MSAL), qui implémente le protocole OAuth 2.0 pour authentifier les utilisateurs et accéder aux API sécurisées, lisez la vue d’ensemble de [MSAL.](/azure/active-directory/develop/msal-overview)
+Si vous n’êtes pas familiarisé avec le protocole OAuth 2.0, commencez par lire le protocole [OAuth 2.0 sur Plateforme d'identités Microsoft vue d’ensemble.](/azure/active-directory/develop/active-directory-v2-protocols) Pour en savoir plus sur les bibliothèques d’authentification Microsoft (MSAL), qui implémentent le protocole OAuth 2.0 pour authentifier les utilisateurs et accéder aux API sécurisées, lisez la vue d’ensemble de [MSAL.](/azure/active-directory/develop/msal-overview)
 
 Vous pouvez utiliser le service d’authentification OAuth fourni par Azure Active Directory pour permettre à votre application de se connecter aux protocoles IMAP, POP ou SMTP pour accéder aux Exchange Online dans Office 365. Pour utiliser OAuth avec votre application, vous devez :
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser le service d’authentification OAuth fourni par Azure Acti
 
 Pour utiliser OAuth, une application doit être inscrite auprès de Azure Active Directory.
 
-Suivez les instructions répertoriées dans Inscrire une application avec [le Plateforme d’identités Microsoft](/azure/active-directory/develop/quickstart-register-app) créer une application.
+Suivez les instructions répertoriées dans Inscrire une application avec [le Plateforme d'identités Microsoft](/azure/active-directory/develop/quickstart-register-app) créer une application.
 
 ## <a name="get-an-access-token"></a>Obtenir un jeton d’accès
 
@@ -51,7 +51,7 @@ Veillez à spécifier les étendues complètes, y compris Outlook URL de ressour
 | POP       | `https://outlook.office.com/POP.AccessAsUser.All`  |
 | SMTP AUTH | `https://outlook.office.com/SMTP.Send`             |
 
-En outre, vous pouvez demander une [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) étendue. Lorsqu’un utilisateur approuve l’offline_access, votre application peut recevoir des jetons d’actualisation à partir Plateforme d’identités Microsoft point de terminaison du jeton. Les jetons d’actualisation ont une durée de vie longue. Votre application peut obtenir de nouveaux jetons d’accès à mesure que les anciens expirent.
+En outre, vous pouvez demander une [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) étendue. Lorsqu’un utilisateur approuve l’offline_access, votre application peut recevoir des jetons d’actualisation à partir Plateforme d'identités Microsoft point de terminaison du jeton. Les jetons d’actualisation ont une durée de vie longue. Votre application peut obtenir de nouveaux jetons d’accès à mesure que les anciens expirent.
 
 ## <a name="authenticate-connection-requests"></a>Authentifier les demandes de connexion
 

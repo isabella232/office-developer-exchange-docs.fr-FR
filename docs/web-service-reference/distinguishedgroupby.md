@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DistinguishedGroupBy
 api_type:
 - schema
 ms.assetid: 6ff3ac48-02ba-40ec-a71b-c401bb2b127c
 description: L’élément DistinguishedGroupBy fournit des regroupements standard pour les requêtes FindItem.
-ms.openlocfilehash: 004613d55419a19f69e960203ae13d8d906b74c8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8b6001994603e49cd1c77288a93cfb9270d51e21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463138"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511835"
 ---
 # <a name="distinguishedgroupby"></a>DistinguishedGroupBy
 
-L’élément **DistinguishedGroupBy** fournit des regroupements standard pour les requêtes FindItem. 
+**L’élément DistinguishedGroupBy** fournit des regroupements standard pour les requêtes FindItem. 
   
 - [FindItem](finditem.md) 
 - [DistinguishedGroupBy](distinguishedgroupby.md)
@@ -45,17 +45,17 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StandardGroupBy](standardgroupby.md) <br/> |Représente le regroupement standard et les mécanismes d’agrégation pour une opération FindItem groupée.  <br/> |
+|[StandardGroupBy](standardgroupby.md) <br/> |Représente les mécanismes de regroupement et de regroupement standard pour une opération FindItem groupée.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.<br/><br/>Voici l’expression XPath de cet élément :`/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Définit une demande de recherche d’éléments dans une boîte aux lettres.<br/><br/>Voici l’expression XPath de cet élément :  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **DistinguishedGroupBy** peut être ajouté à une opération FindItem lorsque les résultats doivent être regroupés et lorsqu’un des groupes standard répond aux exigences de regroupement. Si ni l’élément **DistinguishedGroupBy** ni l’élément [GroupBy](groupby.md) ne sont spécifiés, les résultats de FindItem seront renvoyés non groupés. 
+**L’élément DistinguishedGroupBy** peut être ajouté à une opération FindItem lorsque les résultats doivent être regroupés et lorsqu’un des groupes standard répond aux exigences de regroupement. Si ni **l’élément DistinguishedGroupBy** ni l’élément [GroupBy](groupby.md) n’est spécifié, les résultats FindItem ne sont pas regroupés. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

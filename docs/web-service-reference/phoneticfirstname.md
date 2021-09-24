@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c66c28a5-1b2c-4913-b0c5-e3d9849aa4af
-description: L’élément PhoneticFirstName contient le prénom d’un contact, orthographié phonétiquement.
-ms.openlocfilehash: a72ae885473e670ab197134fcd44e5d82ce6e450
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PhoneticFirstName contient le prénom d’un contact, orthographé phonétiquement.
+ms.openlocfilehash: ec4623c6d44128366c9ef1b1c4bdfea53df7e060
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529944"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528199"
 ---
 # <a name="phoneticfirstname"></a>PhoneticFirstName
 
-L’élément **PhoneticFirstName** contient le prénom d’un contact, orthographié phonétiquement. 
+**L’élément PhoneticFirstName** contient le prénom d’un contact, orthographé phonétiquement. 
   
 ```XML
 <PhoneticFirstName/>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une chaîne qui représente le prénom d’un contact, orthographié phonétiquement.
+La valeur de texte est une chaîne qui représente le prénom d’un contact, orthographie phonétiquement.
   
 ## <a name="remarks"></a>Remarques
 

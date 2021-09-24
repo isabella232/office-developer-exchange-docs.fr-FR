@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e6fb89c-de19-48e7-af63-c41ebdf0b8e9
-description: L’élément ToRecipients spécifie une liste de destinataires à laquelle l’élément a été envoyé.
-ms.openlocfilehash: 09b2b1036d8553d4171819bb9e59bbbb01583cb6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ToRecipients spécifie une liste des destinataires auxquels l’élément a été envoyé.
+ms.openlocfilehash: ef6e1b78501e8fac3e5c18fe6ffeda17bf24ac00
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468578"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527257"
 ---
 # <a name="torecipients-arrayofsmtpaddresstype"></a>ToRecipients (ArrayOfSmtpAddressType)
 
-L’élément **ToRecipients** spécifie une liste de destinataires à laquelle l’élément a été envoyé. 
+**L’élément ToRecipients** spécifie une liste des destinataires auxquels l’élément a été envoyé. 
   
 ```XML
 <ToRecipients>

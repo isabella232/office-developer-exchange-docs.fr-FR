@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ac306c6-f72d-4403-ac6a-2c8beb245a17
-description: Élément CallerData dans destiné à un usage interne uniquement.
-ms.openlocfilehash: d23ae90faa63ccaaec1f0ebb036268950c07e8df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Élément CallerData destiné à un usage interne uniquement.
+ms.openlocfilehash: 31be6ed14d9f9e4ff285d3ef5e72990b77336dc5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458788"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518819"
 ---
 # <a name="callerdata"></a>CallerData
 
-Élément **CallerData** dans destiné à un usage interne uniquement. 
+Élément **CallerData** destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

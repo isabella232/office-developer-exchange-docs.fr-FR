@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsBodyStrings
 api_type:
 - schema
 ms.assetid: 70639472-64bb-456a-8b40-dce727542443
-description: L’élément ContainsBodyStrings indique les chaînes qui doivent apparaître dans le corps des messages entrants pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: 008261ab94b1bed33cc72cacf7abe7aa58927d1a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ContainsBodyStrings indique les chaînes qui doivent apparaître dans le corps des messages entrants afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: c34326db4dc1768758fb864535fa10d8994b00bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463803"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518693"
 ---
 # <a name="containsbodystrings"></a>ContainsBodyStrings
 
-L’élément **ContainsBodyStrings** indique les chaînes qui doivent apparaître dans le corps des messages entrants pour que la condition ou l’exception s’applique. 
+**L’élément ContainsBodyStrings** indique les chaînes qui doivent apparaître dans le corps des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <ContainsBodyStrings>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
+|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps des messages entrants afin que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5ee3299-1b2c-4a2a-9fe4-997febc7267a
-description: L’élément ManagementRole spécifie une liste de rôles de gestion des utilisateurs et des applications.
-ms.openlocfilehash: 4e4ac1b38869d3c5dabe142c63b2aac9477036fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ManagementRole spécifie une liste des rôles de gestion des utilisateurs et des applications.
+ms.openlocfilehash: 806b27c36eec3715e44db2dbc6762ba2472e7a09
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44450913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519344"
 ---
 # <a name="managementrole"></a>ManagementRole
 
-L’élément **ManagementRole** spécifie une liste de rôles de gestion des utilisateurs et des applications. 
+**L’élément ManagementRole** spécifie une liste des rôles de gestion des utilisateurs et des applications. 
   
 ```XML
 <ManagementRole>

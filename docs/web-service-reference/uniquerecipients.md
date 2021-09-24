@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UniqueRecipients
 api_type:
 - schema
 ms.assetid: 9f46ed05-5370-46ee-80f5-83f97224c76e
 description: L'élément UniqueRecipients contient la liste des destinataires d'une conversation dans un dossier spécifique. Cet élément est en lecture seule.
-ms.openlocfilehash: d7f6b0aa01aceb6a251fb0c46d89b34cad260acd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d611efa7d632a07e14740bd211c4bfa796173a68
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530725"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510791"
 ---
 # <a name="uniquerecipients"></a>UniqueRecipients
 
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

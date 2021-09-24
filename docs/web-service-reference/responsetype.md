@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseType
 api_type:
 - schema
 ms.assetid: cdc09dda-ce20-4504-880d-9da6025ca812
-description: L’élément ResponseType représente le type de réponse de destinataire reçue pour une réunion.
-ms.openlocfilehash: ef8183b71e267a20427873ca44b269b828686cbe
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ResponseType représente le type de réponse du destinataire reçu pour une réunion.
+ms.openlocfilehash: d986eff544dc55d257903a2114e87af16eefea97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518966"
 ---
 # <a name="responsetype"></a>ResponseType
 
-L’élément **responseType** représente le type de réponse de destinataire reçue pour une réunion. 
+**L’élément ResponseType** représente le type de réponse du destinataire reçu pour une réunion. 
   
 ```xml
 <ResponseType/>
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Participant](attendee.md) <br/> |Représente les participants et les ressources d’une réunion.  <br/> |
-|[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la Banque d’aide Exchange  <br/> |
-|[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion dans la Banque d’aide Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[Attendee](attendee.md) <br/> |Représente les participants et les ressources d’une réunion.  <br/> |
+|[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans le magasin Exchange de réunion  <br/> |
+|[MeetingMessage](meetingmessage.md) <br/> |Représente un message de réunion dans le magasin Exchange de réunion.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - Inconnu
     
@@ -62,7 +62,7 @@ Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet �
     
 - Accepter
     
-- Amortissement
+- Refuser
     
 - NoResponseReceived
     

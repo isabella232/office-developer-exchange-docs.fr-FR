@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindConversation
 api_type:
 - schema
 ms.assetid: 2384908a-c203-45b6-98aa-efd6a4c23aac
-description: L’opération FindConversation énumère une liste de conversations dans un dossier.
-ms.openlocfilehash: ef768807431ff3e02c6af7277c1c2a750607ed92
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération FindConversation é énumére une liste de conversations dans un dossier.
+ms.openlocfilehash: e3fed534127a976897e33bd266188d01aff6354c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530527"
 ---
 # <a name="findconversation-operation"></a>Opération FindConversation
 
-L’opération **FindConversation** énumère une liste de conversations dans un dossier. 
+**L’opération FindConversation** é énumére une liste de conversations dans un dossier. 
   
 ## <a name="findconversation-request-example"></a>Exemple de requête FindConversation
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **FindConversation** suivant indique comment créer une demande de recherche de la première conversation dans le dossier boîte de réception. 
+L’exemple suivant **d’une demande FindConversation** montre comment former une demande pour rechercher la première conversation dans le dossier Boîte de réception. 
   
 ### <a name="code"></a>Code
 
@@ -52,7 +52,7 @@ L’exemple de requête **FindConversation** suivant indique comment créer une 
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -66,11 +66,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-## <a name="successful-findconversation-response-example"></a>Exemple de réponse FindConversation réussi
+## <a name="successful-findconversation-response-example"></a>Exemple de réponse FindConversation réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **FindConversation** . 
+L’exemple suivant montre une réponse réussie à **une demande FindConversation.** 
   
 ### <a name="code"></a>Code
 
@@ -148,7 +148,7 @@ L’exemple suivant montre une réponse réussie à une demande **FindConversati
 
 ### <a name="comment"></a>Commentaire
 
-Les identificateurs d’élément et de conversation de l’exemple ont été raccourcies afin de préserver la lisibilité.
+Les identificateurs d’élément et de conversation de l’exemple ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -214,7 +214,7 @@ Les éléments suivants sont utilisés dans la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à la demande **FindConversation** causée par une erreur de validation de schéma. 
+L’exemple suivant montre une réponse d’erreur à la **demande FindConversation** qui a été causée par une erreur de validation de schéma. 
   
 ### <a name="code"></a>Code
 
@@ -247,7 +247,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - faultstring
     
-- detaille
+- detail
     
 - [ResponseCode](responsecode.md)
     

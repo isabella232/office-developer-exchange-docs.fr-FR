@@ -1,41 +1,41 @@
 ---
-title: Besoins de redistribution pour l'API managée EWS
+title: Configuration requise de redistribution pour l’API gérée EWS
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b206274-eaa4-40d3-b504-af27335c8f43
-description: Découvrez comment vous pouvez redistribuer les assemblys d’API managée EWS avec votre application.
-ms.openlocfilehash: e64b4cdb8938caa819ba30621112a25946ef0424
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez comment redistribuer les assemblys d’API gérées EWS avec votre application.
+ms.openlocfilehash: f43156838c735cfc17106deb7860329d3da6c07a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463824"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531329"
 ---
-# <a name="redistribution-requirements-for-the-ews-managed-api"></a>Besoins de redistribution pour l'API managée EWS
+# <a name="redistribution-requirements-for-the-ews-managed-api"></a>Configuration requise de redistribution pour l’API gérée EWS
 
-Découvrez comment vous pouvez redistribuer les assemblys d’API managée EWS avec votre application.
+Découvrez comment redistribuer les assemblys d’API gérées EWS avec votre application.
   
-Lors de la conception de votre application d’API managée EWS, vous devez également prendre en compte la manière dont vous allez la libérer pour vos utilisateurs. 
+Lorsque vous concevez votre application d’API gérée EWS, vous devez également prendre en compte la façon dont vous allez la publier pour vos utilisateurs. 
   
-## <a name="redistributing-your-ews-managed-api-application"></a>Redistribution de votre application d’API managée EWS
+## <a name="redistributing-your-ews-managed-api-application"></a>Redistribuer votre application API gérée EWS
 
-À moins que votre application se trouve sur le serveur Exchange, vous devrez redistribuer les assemblys de l’API managée EWS. Le téléchargement de l’API managée EWS contient deux assemblys que vous pouvez redistribuer : Microsoft. Exchange. WebServices. dll et Microsoft. Exchange. WebServices. auth. dll. Gardez les informations suivantes à l’esprit lors de la conception de votre application d’API managée EWS :
+À moins que votre application ne se trouve sur le serveur Exchange, vous devrez redistribuer les assemblys d’API gérée EWS. Le téléchargement de l’API gérée EWS contient deux assemblys que vous pouvez redistribuer : Microsoft.Exchange.WebServices.dll et Microsoft.Exchange.WebServices.Auth.dll. Gardez les informations suivantes à l’esprit lorsque vous concevez la façon dont vous allez publier votre application d’API gérée EWS :
   
-- L’API managée EWS a été conçue de sorte que vous pouvez la télécharger et la distribuer avec votre application qui cible un serveur Exchange. Par ailleurs, votre application peut télécharger l’API managée EWS.
+- L’API gérée EWS a été conçue de telle manière que vous pouvez la télécharger et la distribuer avec votre application qui cible un Exchange serveur. Sinon, votre application peut télécharger l’API gérée EWS.
     
-- Vous pouvez utiliser l’API managée EWS pour communiquer avec un serveur Exchange exécutant Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange à partir d’Exchange Server 2007.
+- Vous pouvez utiliser l’API gérée EWS pour communiquer avec un serveur Exchange exécutant Exchange Online, Exchange Online dans le cadre de Office 365 ou une version sur site de Exchange à partir de Exchange Server 2007.
     
-- Dans les versions de l’API managée EWS à partir de la version 2,1, vous pouvez installer l’API dans le global assembly cache (GAC). Le MSI ajoutera automatiquement la DLL au GAC et sera accessible par ordinateur, et non par utilisateur.
+- Dans les versions de l’API gérée EWS à partir de la version 2.1, vous pouvez installer l’API dans le Global Assembly Cache (GAC). Le MSI ajoute automatiquement la DLL au GAC et est accessible par ordinateur, et non par utilisateur.
     
-Les termes du contrat de licence sont inclus dans le téléchargement de l’API managée EWS. Passez en revue les termes des informations faisant autorité sur ce que vous pouvez faire avec l’API managée EWS.
+Les termes du contrat de licence sont inclus dans le téléchargement de l’API gérée EWS. Examinez les termes pour obtenir des informations faisant autorité sur ce que vous pouvez faire avec l’API gérée EWS.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 - [Vue d'ensemble de la conception client EWS pour Exchange](ews-client-design-overview-for-exchange.md)
     
-- [API managée EWS (téléchargement)](https://aka.ms/ews-managed-api-readme)
+- [API gérée EWS (téléchargement)](https://aka.ms/ews-managed-api-readme)
     
 

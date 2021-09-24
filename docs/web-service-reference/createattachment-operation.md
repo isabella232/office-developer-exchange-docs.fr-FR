@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachment
 api_type:
 - schema
 ms.assetid: e066db95-6963-4507-a8d0-8efad287f550
-description: L’opération CreateAttachment crée un élément ou une pièce jointe et l’attache à l’élément spécifié.
-ms.openlocfilehash: 8028c56aa306774b54b39e5ee1ac0382b9113fa0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération CreateAttachment crée un élément ou une pièce jointe de fichier et l’attache à l’élément spécifié.
+ms.openlocfilehash: 0c75e8c73bf4352e2703a6ca6ac06e261e8f37c9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456569"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511880"
 ---
 # <a name="createattachment-operation"></a>Opération CreateAttachment
 
-L’opération CreateAttachment crée un élément ou une pièce jointe et l’attache à l’élément spécifié.
+L’opération CreateAttachment crée un élément ou une pièce jointe de fichier et l’attache à l’élément spécifié.
   
 ## <a name="file-createattachment-request-example"></a>Exemple de requête CreateAttachment de fichier
 
 ### <a name="description"></a>Description
 
-L’exemple de requête CreateAttachment suivant montre comment créer une pièce jointe.
+L’exemple suivant d’une demande CreateAttachment montre comment créer une pièce jointe.
   
 ### <a name="code"></a>Code
 
@@ -54,12 +54,12 @@ L’exemple de requête CreateAttachment suivant montre comment créer une pièc
 
 ### <a name="comment"></a>Commentaire
 
-Un nom pour la pièce jointe doit être fourni.
+Un nom doit être fourni pour la pièce jointe.
   
 > [!NOTE]
-> L’identificateur de l’élément parent et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’identificateur de l’élément parent et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -67,15 +67,15 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ParentItemId](parentitemid.md)
     
-- [Attachments](attachments-ex15websvcsotherref.md)
+- [Pièces jointes](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     
-- [Nom (AttachmentType)](name-attachmenttype.md)
+- [Name (AttachmentType)](name-attachmenttype.md)
     
 - [Content](content.md)
     
-## <a name="successful-file-createattachment-response-example"></a>Exemple de réponse de CreateAttachment de fichier réussi
+## <a name="successful-file-createattachment-response-example"></a>Exemple de réponse CreateAttachment de fichier réussie
 
 ### <a name="description"></a>Description
 
@@ -113,7 +113,7 @@ L’exemple suivant montre une réponse réussie à la demande CreateAttachment.
 
 ### <a name="comment"></a>Commentaire
 
-La réponse contient l’identificateur du fichier joint. Il contient également l’identificateur et la clé de modification de l’élément racine. Les identificateurs d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+La réponse contient l’identificateur du fichier joint. Il contient également l’identificateur et la clé de modification de l’élément racine. Les identificateurs d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -129,17 +129,17 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [Attachments](attachments-ex15websvcsotherref.md)
+- [Pièces jointes](attachments-ex15websvcsotherref.md)
     
 - [FileAttachment](fileattachment.md)
     
 - [AttachmentId](attachmentid.md)
     
-## <a name="item-createattachment-request-example"></a>Exemple de requête CreateAttachment Item
+## <a name="item-createattachment-request-example"></a>Exemple de requête CreateAttachment d’élément
 
 ### <a name="description"></a>Description
 
-L’exemple de requête CreateAttachment suivant montre comment créer une pièce jointe d’un élément.
+L’exemple suivant d’une demande CreateAttachment montre comment créer une pièce jointe d’élément.
   
 ### <a name="code"></a>Code
 
@@ -168,11 +168,11 @@ L’exemple de requête CreateAttachment suivant montre comment créer une pièc
 
 ### <a name="comment"></a>Commentaire
 
-Un nom pour la pièce jointe doit être fourni.
+Un nom doit être fourni pour la pièce jointe.
   
- **Note** L’identificateur de l’élément parent et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+ **Remarque** L’identificateur de l’élément parent et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -180,17 +180,17 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ParentItemId](parentitemid.md)
     
-- [Attachments](attachments-ex15websvcsotherref.md)
+- [Pièces jointes](attachments-ex15websvcsotherref.md)
     
 - [ItemAttachment](itemattachment.md)
     
-- [Nom (AttachmentType)](name-attachmenttype.md)
+- [Name (AttachmentType)](name-attachmenttype.md)
     
 - [Message](message-ex15websvcsotherref.md)
     
-- [Subject](subject.md)
+- [Sujet](subject.md)
     
-## <a name="successful-item-createattachment-response-example"></a>Exemple de réponse de CreateAttachment d’élément réussi
+## <a name="successful-item-createattachment-response-example"></a>Exemple de réponse CreateAttachment d’élément réussi
 
 ### <a name="description"></a>Description
 
@@ -228,7 +228,7 @@ L’exemple suivant montre une réponse réussie à la demande CreateAttachment.
 
 ### <a name="comment"></a>Commentaire
 
-La réponse contient l’identificateur de la nouvelle pièce jointe. Il contient également l’identificateur et la clé de modification de l’élément racine. L’élément racine est l’élément qui contient la pièce jointe. Les identificateurs d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+La réponse contient l’identificateur de la nouvelle pièce jointe. Il contient également l’identificateur et la clé de modification de l’élément racine. L’élément racine est l’élément qui contient la pièce jointe. Les identificateurs d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 
@@ -244,7 +244,7 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-- [Attachments](attachments-ex15websvcsotherref.md)
+- [Pièces jointes](attachments-ex15websvcsotherref.md)
     
 - [ItemAttachment](itemattachment.md)
     
@@ -309,11 +309,11 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [ExceptionFieldURI](exceptionfielduri.md)
     
-- [Attachments](attachments-ex15websvcsotherref.md)
+- [Pièces jointes](attachments-ex15websvcsotherref.md)
     
 ## <a name="remarks"></a>Remarques
 
-Si plusieurs pièces jointes sont attachées à un élément en un seul aller-retour, le RootItemChangeKey dans le dernier message de réponse est celui qui représente la nouvelle clé de modification de l’élément qui contient les pièces jointes.
+Si plusieurs pièces jointes sont jointes à un élément dans un aller-retour unique, la clé RootItemChangeKey dans le dernier message de réponse est celle qui représente la nouvelle clé de modification de l’élément qui a les pièces jointes.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,37 +1,37 @@
 ---
-title: Opération de UpdateInboxRules
+title: Opération UpdateInboxRules
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateInboxRules
 api_type:
 - schema
 ms.assetid: f982a237-471e-45c5-a2b5-468cfc53150b
-description: L’opération UpdateInboxRules met à jour les règles de boîte de réception de l’utilisateur authentifié en appliquant les opérations spécifiées. UpdateInboxRules permet de créer une règle de boîte de réception, de définir une règle de boîte de réception ou de supprimer une règle de boîte de réception.
-ms.openlocfilehash: a6ced4be25c6fe4649ad649ba01194791548bf67
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération UpdateInboxRules met à jour les règles de boîte de réception de l’utilisateur authentifié en appliquant les opérations spécifiées. UpdateInboxRules est utilisé pour créer une règle de boîte de réception, pour définir une règle de boîte de réception ou pour supprimer une règle de boîte de réception.
+ms.openlocfilehash: 08f46219bcb01f5f1c9d69cfaa8b4934e82ff5bd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530999"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510714"
 ---
-# <a name="updateinboxrules-operation"></a>Opération de UpdateInboxRules
+# <a name="updateinboxrules-operation"></a>Opération UpdateInboxRules
 
-L’opération UpdateInboxRules met à jour les règles de boîte de réception de l’utilisateur authentifié en appliquant les opérations spécifiées. **UpdateInboxRules** permet de créer une règle de boîte de réception, de définir une règle de boîte de réception ou de supprimer une règle de boîte de réception. 
+L’opération UpdateInboxRules met à jour les règles de boîte de réception de l’utilisateur authentifié en appliquant les opérations spécifiées. **UpdateInboxRules est** utilisé pour créer une règle de boîte de réception, pour définir une règle de boîte de réception ou pour supprimer une règle de boîte de réception. 
   
-Lorsque vous utilisez l’opération **UpdateInboxRules** , les services Web Exchange suppriment les règles d’envoi côté client. Les règles d’envoi côté client sont stockées sur le client dans le message du dossier de la règle (FAI) et nulle part ailleurs. EWS supprime cette règle par défaut, en fonction de la prévision qu’Outlook va recréer. Toutefois, Outlook ne peut pas recréer des règles qui n’existent pas également en tant que règle étendue, et les règles d’envoi côté client n’existent pas en tant que règles étendues. Par conséquent, ces règles sont perdues. Nous vous suggérons de vous en prendre en compte lors de la conception de votre solution. 
+Lorsque vous utilisez **l’opération UpdateInboxRules,** Exchange Web Services supprime les règles d’envoi côté client. Les règles d’envoi côté client sont stockées sur le client dans le message FAI (Folder Associated Information) de la règle et en de toute autre nature. EWS supprime ce message FAI de règle par défaut, en fonction des attentes Outlook le recréera. Toutefois, Outlook ne peut pas recréer des règles qui n’existent pas également en tant que règle étendue, et les règles d’envoi côté client n’existent pas en tant que règles étendues. Par conséquent, ces règles sont perdues. Nous vous suggérons d’y penser lors de la conception de votre solution. 
   
-## <a name="updateinboxrules-create-rule-request-example"></a>Exemple de requête UpdateInboxRules (Create Rule)
+## <a name="updateinboxrules-create-rule-request-example"></a>Exemple de requête UpdateInboxRules (Créer une règle)
 
-Vous pouvez utiliser les services Web Exchange pour créer une règle de boîte de réception dans la boîte aux lettres d’un utilisateur dans la Banque d’aide Exchange. Utilisez l’élément [UpdateInboxRules](updateinboxrules.md) en association avec l’élément [CreateRuleOperation](createruleoperation.md) pour créer une règle. 
+Vous pouvez utiliser Exchange Web Services pour créer une règle de boîte de réception dans la boîte aux lettres d’un utilisateur dans Exchange store. Utilisez [l’élément UpdateInboxRules](updateinboxrules.md) conjointement avec [l’élément CreateRuleOperation](createruleoperation.md) pour créer une règle. 
   
 ### <a name="description"></a>Description
 
-Le client construit le code XML de la demande et l’envoie au serveur.
+Le client construit le XML de demande et l’envoie au serveur.
   
 ### <a name="code"></a>Code
 
@@ -75,11 +75,11 @@ Le client construit le code XML de la demande et l’envoie au serveur.
 
 ### <a name="comments"></a>Commentaires
 
-Cet exemple illustre la création d’une règle qui déplace un message électronique vers le dossier courrier indésirable si l’objet de l’e-mail contient une chaîne égale à « intéressante ».
+Cet exemple crée une règle qui déplace un message électronique vers le dossier Courrier indésirable si l’objet du message électronique contient une chaîne égale à « Interesting ».
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-La requête **UpdateInboxRules** inclut les éléments suivants : 
+La **demande UpdateInboxRules** inclut les éléments suivants : 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -87,9 +87,9 @@ La requête **UpdateInboxRules** inclut les éléments suivants :
     
 - [Operations](operations.md)
     
-L’élément [Operations](operations.md) contient l’élément [CreateRuleOperation](createruleoperation.md) pour créer une règle. 
+[L’élément Operations](operations.md) contient [l’élément CreateRuleOperation](createruleoperation.md) pour créer une règle. 
   
-## <a name="updateinboxrules-create-rule-response-example"></a>Exemple de réponse UpdateInboxRules (Create Rule)
+## <a name="updateinboxrules-create-rule-response-example"></a>Exemple de réponse UpdateInboxRules (Créer une règle)
 
 ### <a name="description"></a>Description
 
@@ -133,13 +133,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-## <a name="updateinboxrules-set-rule-request-example"></a>Exemple de requête UpdateInboxRules (Set Rule)
+## <a name="updateinboxrules-set-rule-request-example"></a>Exemple de requête UpdateInboxRules (Définir la règle)
 
-Vous pouvez utiliser les services Web Exchange pour modifier une règle de boîte de réception dans la boîte aux lettres d’un utilisateur dans la Banque d’aide Exchange. Utilisez l’élément [UpdateInboxRules](updateinboxrules.md) en association avec l’élément [SetRuleOperation](setruleoperation.md) pour modifier une règle. 
+Vous pouvez utiliser Exchange Web Services web pour modifier une règle de boîte de réception dans la boîte aux lettres d’un utilisateur dans Exchange store. Utilisez [l’élément UpdateInboxRules](updateinboxrules.md) conjointement avec l’élément [SetRuleOperation](setruleoperation.md) pour modifier une règle. 
   
 ### <a name="description"></a>Description
 
-Le client construit le code XML de la demande et l’envoie au serveur.
+Le client construit le XML de demande et l’envoie au serveur.
   
 ### <a name="code"></a>Code
 
@@ -183,14 +183,14 @@ Le client construit le code XML de la demande et l’envoie au serveur.
 
 ### <a name="comments"></a>Commentaires
 
-Cet exemple montre comment modifier le nom complet en « (modifié) This is junk ».
+Cet exemple modifie le nom complet en « (Modified) This is Junk ».
   
 > [!NOTE]
-> Les valeurs des attributs **ID** et **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour des raisons de lisibilité. 
+> Les valeurs des **attributs Id** et **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour des raisons de lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-La requête **UpdateInboxRules** inclut les éléments suivants : 
+La **demande UpdateInboxRules** inclut les éléments suivants : 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -198,9 +198,9 @@ La requête **UpdateInboxRules** inclut les éléments suivants :
     
 - [Operations](operations.md)
     
-L’élément [Operations](operations.md) contient l’élément [SetRuleOperation](setruleoperation.md) pour modifier une règle. 
+[L’élément Operations](operations.md) contient [l’élément SetRuleOperation](setruleoperation.md) pour modifier une règle. 
   
-## <a name="updateinboxrules-set-rule-response-example"></a>Exemple de réponse UpdateInboxRules (Set Rule)
+## <a name="updateinboxrules-set-rule-response-example"></a>Exemple de réponse UpdateInboxRules (Définir la règle)
 
 ### <a name="description"></a>Description
 
@@ -245,13 +245,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-## <a name="updateinboxrules-delete-rule-request-example"></a>Exemple de requête UpdateInboxRules (Delete Rule)
+## <a name="updateinboxrules-delete-rule-request-example"></a>Exemple de requête UpdateInboxRules (Règle de suppression)
 
-Vous pouvez utiliser les services Web Exchange pour supprimer une règle de boîte de réception dans la boîte aux lettres d’un utilisateur dans la Banque d’aide Exchange. Utilisez l' [UpdateInboxRules](updateinboxrules.md) en association avec l’élément [DeleteRuleOperation](deleteruleoperation.md) pour supprimer une règle. 
+Vous pouvez utiliser Exchange Web Services pour supprimer une règle de boîte de réception dans la boîte aux lettres d’un utilisateur dans Exchange store. Utilisez [UpdateInboxRules conjointement](updateinboxrules.md) avec [l’élément DeleteRuleOperation](deleteruleoperation.md) pour supprimer une règle. 
   
 ### <a name="description"></a>Description
 
-Le client construit le code XML de la demande et l’envoie au serveur.
+Le client construit le XML de demande et l’envoie au serveur.
   
 ### <a name="code"></a>Code
 
@@ -282,9 +282,9 @@ Le client construit le code XML de la demande et l’envoie au serveur.
 
 Cet exemple supprime la règle identifiée existante.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-La requête **UpdateInboxRules** inclut les éléments suivants : 
+La **demande UpdateInboxRules** inclut les éléments suivants : 
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
@@ -292,9 +292,9 @@ La requête **UpdateInboxRules** inclut les éléments suivants :
     
 - [Operations](operations.md)
     
-L’élément [Operations](operations.md) contient l’élément [DeleteRuleOperation](deleteruleoperation.md) pour supprimer une règle. 
+[L’élément Operations](operations.md) contient [l’élément DeleteRuleOperation](deleteruleoperation.md) pour supprimer une règle. 
   
-## <a name="updateinboxrules-delete-rule-response-example"></a>Exemple de réponse UpdateInboxRules (Delete Rule)
+## <a name="updateinboxrules-delete-rule-response-example"></a>Exemple de réponse UpdateInboxRules (Règle de suppression)
 
 ### <a name="description"></a>Description
 

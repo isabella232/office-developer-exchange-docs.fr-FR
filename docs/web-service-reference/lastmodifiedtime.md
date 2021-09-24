@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastModifiedTime
 api_type:
 - schema
 ms.assetid: 6db2cabc-e7f4-4d71-962b-789de6a192a4
 description: L’élément LastModifiedTime indique quand un élément a été modifié pour la dernière fois. Cet élément est en lecture seule.
-ms.openlocfilehash: 82130cbf211d5e8ac63ae8c290ea7a539582ccb7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: aa511b29072c8d3aa1401d7b9011854249c85d80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519399"
 ---
 # <a name="lastmodifiedtime"></a>LastModifiedTime
 
-L’élément **LastModifiedTime** indique quand un élément a été modifié pour la dernière fois. Cet élément est en lecture seule. 
+**L’élément LastModifiedTime** indique quand un élément a été modifié pour la dernière fois. Cet élément est en lecture seule. 
   
 ```xml
 <LastModifiedTime/>
@@ -47,17 +47,17 @@ Aucun.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Exchange store.  <br/> |
 |[Élément](item.md) <br/> |Représente un élément Exchange générique.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Tâche](task.md) <br/> |Représente une tâche dans la banque d'informations Exchange.  <br/> |
-|[PostItem](postitem.md) <br/> |Représente un élément post dans la Banque d’Exchange. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[PostItem](postitem.md) <br/> |Représente un élément de publication dans la Exchange store. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

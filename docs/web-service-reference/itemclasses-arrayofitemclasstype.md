@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 971784d1-6860-4833-bb26-0e930fa11c21
-description: L’élément ItemClasses contient la liste des classes d’éléments qui représentent toutes les classes d’éléments des éléments de conversation dans le dossier actif.
-ms.openlocfilehash: 39118bf845429bb198874ae4e6b424c6339b1964
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ItemClasses contient une liste de classes d’éléments qui représente toutes les classes d’éléments des éléments de conversation dans le dossier actuel.
+ms.openlocfilehash: 6193828cb6589c2c0225f894a196a5460a6bfb54
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511398"
 ---
 # <a name="itemclasses-arrayofitemclasstype"></a>ItemClasses (ArrayOfItemClassType)
 
-L’élément **ItemClasses** contient la liste des classes d’éléments qui représentent toutes les classes d’éléments des éléments de conversation dans le dossier actif. 
+**L’élément ItemClasses** contient une liste de classes d’éléments qui représente toutes les classes d’éléments des éléments de conversation dans le dossier actuel. 
   
 [FindConversationResponse](findconversationresponse.md)
   

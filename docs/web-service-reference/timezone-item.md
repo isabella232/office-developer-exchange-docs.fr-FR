@@ -1,27 +1,27 @@
 ---
-title: TimeZone (élément)
+title: TimeZone (Item)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeZone
 api_type:
 - schema
 ms.assetid: aa49074a-50ca-4959-bee2-6ab90ef2f26e
 description: L’élément TimeZone fournit une description textuelle d’un fuseau horaire.
-ms.openlocfilehash: ba5b006804c66b32781d3e48d88e95ab36c09617
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5a44e1abe7ef709803c49f3b8e43246a33ac681f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527285"
 ---
-# <a name="timezone-item"></a>TimeZone (élément)
+# <a name="timezone-item"></a>TimeZone (Item)
 
-L’élément **TimeZone** fournit une description textuelle d’un fuseau horaire. 
+**L’élément TimeZone** fournit une description textuelle d’un fuseau horaire. 
   
 ```xml
 <TimeZone/>
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte décrit un fuseau horaire. Cette propriété est en lecture seule.
+La valeur de texte décrit un fuseau horaire. Cette propriété est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RecurringDateTransition
 api_type:
 - schema
 ms.assetid: 52fe1e05-3c50-40a1-8752-5c3c64c9f1ed
 description: L’élément RecurringDateTransition représente une transition de fuseau horaire qui se produit à une date spécifique chaque année.
-ms.openlocfilehash: 2acbd3afb50a92d4e4f3d7b552eecb36fe59be8b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 864f3f539c5440fbfc539ca6c2042b3d9edca267
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461575"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529362"
 ---
 # <a name="recurringdatetransition"></a>RecurringDateTransition
 
-L’élément **RecurringDateTransition** représente une transition de fuseau horaire qui se produit à une date spécifique chaque année. 
+**L’élément RecurringDateTransition** représente une transition de fuseau horaire qui se produit à une date spécifique chaque année. 
   
 ```xml
 <RecurringDateTransition>
@@ -45,10 +45,10 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[To](to.md) <br/> |Spécifie le [point](period.md) ou [TransitionsGroup](transitionsgroup.md) qui est la cible de la transition de fuseau horaire.  <br/> |
+|[To](to.md) <br/> |Spécifie la période [ou](period.md) [TransitionsGroup qui](transitionsgroup.md) est la cible de la transition de fuseau horaire.  <br/> |
 |[TimeOffset](timeoffset.md) <br/> |Représente le décalage de durée par rapport au temps universel coordonné (UTC) pour la transition de fuseau horaire.  <br/> |
-|[Mois (transition de fuseau horaire)](month-time-zone-transition.md) <br/> |Représente le mois au cours duquel la transition de fuseau horaire a lieu.  <br/> |
-|[Day](day.md) <br/> |Représente le jour du mois où la transition de fuseau horaire a lieu.  <br/> |
+|[Month (transition de fuseau horaire)](month-time-zone-transition.md) <br/> |Représente le mois au cours duquel la transition de fuseau horaire a lieu.  <br/> |
+|[Day](day.md) <br/> |Représente le jour du mois au cours duquel la transition de fuseau horaire a lieu.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,9 +59,9 @@ Aucune.
    
 ## <a name="remarks"></a>Remarques
 
-Un exemple de transition de fuseau horaire pouvant être représentée par l’élément [RecurringDateTransition](recurringdatetransition.md) est une transition qui a lieu le 15 mars de chaque année. 
+Un exemple de transition de fuseau horaire qui pourrait être représentée par l’élément [RecurringDateTransition](recurringdatetransition.md) est une transition qui se produit le 15 mars de chaque année. 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

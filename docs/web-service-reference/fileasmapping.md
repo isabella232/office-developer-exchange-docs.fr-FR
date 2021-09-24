@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FileAsMapping
 api_type:
 - schema
 ms.assetid: 2c98e7c6-09b0-47b3-bbf7-8c4ef9510280
-description: L’élément FileAsMapping définit le mode de construction de l’affichage d’un contact.
-ms.openlocfilehash: d846c0af0fbad4df9ee800fe136a4ffcc74c8608
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FileAsMapping définit comment construire ce qui est affiché pour un contact.
+ms.openlocfilehash: 35397ebd5cb9235ad55093b43bde89eef466e672
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461036"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518504"
 ---
 # <a name="fileasmapping"></a>FileAsMapping
 
-L’élément **FileAsMapping** définit le mode de construction de l’affichage d’un contact. 
+**L’élément FileAsMapping** définit comment construire ce qui est affiché pour un contact. 
   
 ```xml
 <FileAsMapping/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est restreinte à l’une des valeurs String suivantes :
+La valeur de texte de cet élément est limitée à l’une des valeurs de chaîne suivantes :
   
 - Aucun
     
@@ -88,7 +88,7 @@ La valeur de texte de cet élément est restreinte à l’une des valeurs String
     
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

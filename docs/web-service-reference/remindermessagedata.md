@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04dd4987-baaf-4ebe-ae58-ad962c2f8fa1
 description: L’élément ReminderMessageData spécifie les données dans un message de rappel.
-ms.openlocfilehash: f2632062cd02581c426f7dbfa2a33d53e5594d72
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d916e1526f11795efa54cdf186d606bc293656e0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512449"
 ---
 # <a name="remindermessagedata"></a>ReminderMessageData
 
-L’élément **ReminderMessageData** spécifie les données dans un message de rappel. 
+**L’élément ReminderMessageData** spécifie les données dans un message de rappel. 
   
 ```XML
 <ReminderMessageData>
@@ -53,7 +53,7 @@ Cet élément est une nouveauté d'Exchange Server 2013 Service Pack 1 (SP1).
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
-Les versions d’Exchange commençant par le numéro de Build 15.00.0913.09 peuvent inclure l’élément **AssociatedCalendarItemId** en tant qu’élément enfant de l’élément **ReminderMessageData** . 
+Les versions de Exchange commençant par le numéro de build 15.00.0913.09 peuvent inclure l’élément **AssociatedCalendarItemId** en tant qu’élément enfant de l’élément **ReminderMessageData.** 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

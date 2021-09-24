@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aeef79e4-31e1-4213-b627-9bac676be018
-description: L’élément ReturnNewItemIds indique si les identificateurs d’élément de nouveaux éléments sont renvoyés dans la réponse.
-ms.openlocfilehash: 003676c4c034454aa551e42bf3af976183117b8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReturnNewItemIds indique si les identificateurs d’élément des nouveaux éléments sont renvoyés dans la réponse.
+ms.openlocfilehash: 93ff4e37c56c3583e81711ba7e3582706d9ef940
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512379"
 ---
 # <a name="returnnewitemids"></a>ReturnNewItemIds
 
-L’élément **ReturnNewItemIds** indique si les identificateurs d’élément de nouveaux éléments sont renvoyés dans la réponse. 
+**L’élément ReturnNewItemIds** indique si les identificateurs d’élément des nouveaux éléments sont renvoyés dans la réponse. 
   
 ```XML
 <ReturnNewItemIds/>
 ```
 
- **XS : Boolean**
+ **xs:boolean**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -40,12 +40,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CopyItem](copyitem.md) <br/> |Définit une demande de copie d’un élément dans une boîte aux lettres dans la Banque d’Exchange.  <br/> |
-|[MoveItem](moveitem.md) <br/> |Définit une demande de déplacement d’un élément dans la Banque d’Exchange.  <br/> |
+|[CopyItem](copyitem.md) <br/> |Définit une demande de copie d’un élément dans une boîte aux lettres dans la Exchange store.  <br/> |
+|[MoveItem](moveitem.md) <br/> |Définit une demande de déplacement d’un élément dans la Exchange store.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ReturnNewItemIds** indique que les nouveaux identificateurs d’élément sont renvoyés dans la réponse. La valeur **false** indique que les nouveaux identificateurs d’élément ne sont pas renvoyés dans la réponse. 
+Une valeur de texte **true** pour l’élément **ReturnNewItemIds** indique que les nouveaux identificateurs d’élément sont renvoyés dans la réponse. La valeur **false indique** que les nouveaux identificateurs d’élément ne sont pas renvoyés dans la réponse. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,8 +56,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 

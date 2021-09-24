@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BccRecipient
 api_type:
 - schema
 ms.assetid: 4ef0cff5-8a5a-4d76-9d2b-938774d8fc1b
-description: L’élément BccRecipient représente un destinataire pour recevoir une copie carbone invisible (CCI) d’un message électronique.
-ms.openlocfilehash: 8296af1d74338bdfb1f4cb7bc7449ad91a9cd531
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément BccRecipient représente un destinataire qui reçoit une copie carbone non voyante ( Bcc) d’un message électronique.
+ms.openlocfilehash: 178606d9c27becbf6fea5e7a9a694fb67feadc49
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526864"
 ---
 # <a name="bccrecipient"></a>BccRecipient
 
-L’élément **BccRecipient** représente un destinataire pour recevoir une copie carbone invisible (CCI) d’un message électronique. 
+**L’élément BccRecipient représente** un destinataire qui reçoit une copie carbone non voyante ( Bcc) d’un message électronique. 
   
 ```XML
 <BccRecipient>true | false</BccRecipient>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Cet élément peut avoir la **valeur true** ou **false**. La valeur **true** indique que le destinataire est copié en aveugle ; la valeur **false** indique que le destinataire n’est pas copié en mode carbone invisible. 
+Cet élément peut être **vrai** ou **faux**. La valeur **true indique** que le destinataire est en copie carbone non voyante ; Une valeur false **indique** que le destinataire n’est pas en copie carbone non voyante. 
   
 ## <a name="remarks"></a>Remarques
 

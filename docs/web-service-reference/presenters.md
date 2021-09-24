@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01057872-4f1a-4246-86ba-73d10ef854a0
-description: L’élément Presenters spécifie les présentateurs d’une réunion en ligne.
-ms.openlocfilehash: 0236457020dfc4684569e84d3d54e357af00d102
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Presenters spécifie les présentateurs pour une réunion en ligne.
+ms.openlocfilehash: 1c9bf9093450e675245b647c98d7b1d00101ce9e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529909"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519141"
 ---
 # <a name="presenters"></a>Présentateurs
 
-L’élément **Presenters** spécifie les présentateurs d’une réunion en ligne. 
+**L’élément Presenters** spécifie les présentateurs d’une réunion en ligne. 
   
 ```XML
 <Presenters> Disabled | Internal | Everyone </Presenters>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Presenters** est le type d’utilisateurs pouvant être présentateur pour une réunion en ligne. Les valeurs de texte de l’élément **Presenters** sont décrites dans le tableau suivant. 
+La valeur de texte **de l’élément Presenters** est le type d’utilisateurs qui peuvent être présentateurs d’une réunion en ligne. Les valeurs de texte de **l’élément Presenters** sont décrites dans le tableau suivant. 
   
 **Valeurs de texte de l’élément Presenters**
 
@@ -50,7 +50,7 @@ La valeur de texte de l’élément **Presenters** est le type d’utilisateurs 
 |:-----|:-----|
 |Désactivé  <br/> |Les présentateurs sont désactivés.  <br/> |
 |Interne  <br/> |Seuls les participants internes peuvent être présentateurs.  <br/> |
-|Tout le monde  <br/> |Tout participant peut être présentateur.  <br/> |
+|Tout le monde  <br/> |N’importe quel participant peut être présentateur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

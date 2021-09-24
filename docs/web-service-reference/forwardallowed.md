@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc32e0f4-61e9-4c9f-9a03-90a07eb51c53
-description: L’élément ForwardAllowed spécifie si les courriers électroniques de transfert sont activés.
-ms.openlocfilehash: 3c722809bf68239c7d776108cb60d98afbed6e93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ForwardAllowed spécifie si le forwarding e-mails est activé.
+ms.openlocfilehash: 8c9b2319ed6b3665e5d59d9f07b93fb78043042c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528664"
 ---
 # <a name="forwardallowed"></a>ForwardAllowed
 
-L’élément **ForwardAllowed** spécifie si les courriers électroniques de transfert sont activés. 
+**L’élément ForwardAllowed** spécifie si le forwarding e-mails est activé. 
   
 ```XML
 <ForwardAllowed>true | false</ForwardAllowed>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie les informations relatives à la licence de gestion des droits.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie des informations sur la licence de gestion des droits.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ForwardAllowed** indique que le transfert de courriers électroniques est autorisé. La valeur **false** indique que le transfert n’est pas autorisé. 
+Une valeur de texte **true pour** **l’élément ForwardAllowed** indique que le forwarding e-mails est autorisé. La valeur **false indique** que le forwarding n’est pas autorisé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

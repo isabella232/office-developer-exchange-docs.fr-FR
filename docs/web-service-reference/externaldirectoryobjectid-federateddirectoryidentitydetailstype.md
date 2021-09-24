@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f000b39-e5c8-4a2a-baae-f8cbea0688bc
-description: L’élément ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: 0076a348a6417e1d0768a8f72da0c4029e82a21b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType) est destiné à une utilisation interne uniquement.
+ms.openlocfilehash: e4cb8aa16b60374f29603c41b404630fdd3ef37b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530592"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530670"
 ---
 # <a name="externaldirectoryobjectid-federateddirectoryidentitydetailstype"></a>ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)
 
-L’élément **ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** est destiné uniquement à un usage interne. 
+**L’élément ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** est destiné à une utilisation interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

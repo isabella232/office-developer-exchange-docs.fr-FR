@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b9a1979-a364-4c8f-b013-4fc04c0eeb9c
-description: L’élément MailboxSearchScopes spécifie une liste d’une ou de plusieurs boîtes aux lettres et les étendues de recherche associées pour une recherche de découverte.
-ms.openlocfilehash: 172c9d1da46c8c9a8ac73224b3395a026d9e6551
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxSearchScopes spécifie une liste d’une ou plusieurs boîtes aux lettres et les étendues de recherche associées pour une recherche de découverte.
+ms.openlocfilehash: f85297f0e6459bbe842950839ae3c6858ce7b9df
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511470"
 ---
 # <a name="mailboxsearchscopes"></a>MailboxSearchScopes
 
-L’élément **MailboxSearchScopes** spécifie une liste d’une ou de plusieurs boîtes aux lettres et les étendues de recherche associées pour une recherche de découverte. 
+**L’élément MailboxSearchScopes** spécifie une liste d’une ou plusieurs boîtes aux lettres et les étendues de recherche associées pour une recherche de découverte. 
   
 ```XML
 <MailboxSearchScopes>

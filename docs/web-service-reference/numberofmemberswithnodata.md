@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembersWithNoData
 api_type:
 - schema
 ms.assetid: 7ca9c57c-9519-442c-a9f4-dca2b0309716
-description: L’élément NumberOfMembersWithNoData représente le nombre de membres de la liste de distribution qui n’ont pas de données de disponibilité publiées à comparer à une heure de réunion suggérée. Cet élément représente les membres d’une liste de distribution qui est trop grande ou dont les membres n’ont pas d’état de données.
-ms.openlocfilehash: df41adc14f4c35c0e24d0f3c54f74a63527859d6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément NumberOfMembersWithNoData représente le nombre de membres de la liste de distribution qui n’ont pas publié de données de libre/occupé à comparer à une heure de réunion suggérée. Cet élément représente les membres d’une liste de distribution trop grande ou les membres qui n’ont pas l’état Aucune donnée.
+ms.openlocfilehash: 4b021ce75a84eca3e1b5a66cf51f6b5d7adec86b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462548"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529684"
 ---
 # <a name="numberofmemberswithnodata"></a>NumberOfMembersWithNoData
 
-L’élément **NumberOfMembersWithNoData** représente le nombre de membres de la liste de distribution qui n’ont pas de données de disponibilité publiées à comparer à une heure de réunion suggérée. Cet élément représente les membres d’une liste de distribution qui est trop grande ou dont les membres n’ont pas d’état de **données** . 
+**L’élément NumberOfMembersWithNoData** représente le nombre de membres de la liste de distribution qui n’ont pas publié de données de libre/occupé à comparer à une heure de réunion suggérée. Cet élément représente les membres d’une liste de distribution trop grande ou les membres qui n’ont **pas l’état Aucune** donnée. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **NumberOfMembersWithNoData** représente le nombre de membres de 
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -62,15 +62,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations sur les conflits d’agrégation concernant le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations de conflit agrégées sur le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un contact dans un groupe qui n’a pas de boîte aux lettres est un exemple de membre de liste de distribution qui n’a pas de données de calendrier. Un contact peut également avoir un état de **données** pour les raisons suivantes : 
+Un contact d’un groupe qui n’a pas de boîte aux lettres est un exemple de membre de liste de distribution qui ne comprend pas de données de calendrier. Un contact peut également ne pas avoir **le statut Aucune** donnée pour les raisons suivantes : 
   
 - Les autorisations sont insuffisantes.
     
-- La liste de distribution est trop volumineuse pour être développée.
+- La liste de distribution est trop grande pour être étendue.
     
 - Le service d’annuaire Active Directory n’est pas disponible.
     

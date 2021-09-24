@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlaggedForAction
 api_type:
 - schema
 ms.assetid: 6a08c48a-7b32-4754-8940-adbda55e8133
-description: L’élément FlaggedForAction spécifie l’indicateur de la valeur d’action qui doit apparaître dans les messages entrants pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: f996dc4bcf30db32e1d73fb302ab137f0a6ad4d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FlaggedForAction spécifie l’indicateur pour la valeur d’action qui doit apparaître sur les messages entrants afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 978d10286785f341437e3213ddbd3c296c4621fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466240"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518378"
 ---
 # <a name="flaggedforaction"></a>FlaggedForAction
 
-L’élément **FlaggedForAction** spécifie l’indicateur de la valeur d’action qui doit apparaître dans les messages entrants pour que la condition ou l’exception s’applique. 
+**L’élément FlaggedForAction** spécifie l’indicateur pour la valeur d’action qui doit apparaître sur les messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <FlaggedForAction/>
@@ -49,9 +49,9 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
-- N'importe lequel
+- N’importe lequel
     
 - Appel
     
@@ -83,7 +83,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

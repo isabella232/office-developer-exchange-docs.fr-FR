@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachmentResponse
 api_type:
 - schema
 ms.assetid: cf6bd8bb-5317-4a03-bd75-297dd359b5da
 description: L’élément CreateAttachmentResponse définit une réponse à une demande CreateAttachment.
-ms.openlocfilehash: df2b0e37adaeaef32f845e5a28615ce874cb3447
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 507d7794c566331f7abf1de1f9016c6b20f1320b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528998"
 ---
 # <a name="createattachmentresponse"></a>CreateAttachmentResponse
 
-L’élément **CreateAttachmentResponse** définit une réponse à une demande CreateAttachment. 
+**L’élément CreateAttachmentResponse** définit une réponse à une demande CreateAttachment. 
   
 ```xml
 <CreateAttachmentResponse>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

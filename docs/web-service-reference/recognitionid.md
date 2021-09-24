@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09fdaf4e-9930-4342-97be-286d9e0165db
-description: L’élément RecognitionId est destiné uniquement à un usage interne.
-ms.openlocfilehash: 2d3cd7a1af4b3d2184af75efe1299882a6e7bf33
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RecognitionId est destiné à un usage interne uniquement.
+ms.openlocfilehash: b2549bb46463d9926437ad7727860415ed257d01
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468473"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529376"
 ---
 # <a name="recognitionid"></a>RecognitionId
 
-L’élément **RecognitionId** est destiné uniquement à un usage interne. 
+**L’élément RecognitionId** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

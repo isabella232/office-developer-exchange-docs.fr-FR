@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 967df8c0-ee95-4202-b037-0c4b9fbbf5ee
-description: L’élément ExternalAccessAllowed indique si un emplacement de partage de documents est disponible pour les connexions extérieures.
-ms.openlocfilehash: eb0ce0067a9ac9deea78b2778ce7f9e493ffb26f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ExternalAccessAllowed indique si un emplacement de partage de documents est disponible pour les connexions externes.
+ms.openlocfilehash: 1bbd1a40453f9692cc06daefa26ed1d1256bb6b5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541391"
 ---
 # <a name="externalaccessallowed-soap"></a>ExternalAccessAllowed (SOAP)
 
-L’élément **ExternalAccessAllowed** indique si un emplacement de partage de documents est disponible pour les connexions extérieures. 
+**L’élément ExternalAccessAllowed** indique si un emplacement de partage de documents est disponible pour les connexions externes. 
   
 ```XML
 <ExternalAccessAllowed /> 
@@ -43,7 +43,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur booléenne de l’élément **ExternalAccessAllowed** indique si l’emplacement de partage est disponible pour les connexions extérieures. 
+La valeur booléle de **l’élément ExternalAccessAllowed** indique si l’emplacement de partage est disponible pour les connexions externes. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -51,7 +51,7 @@ La valeur booléenne de l’élément **ExternalAccessAllowed** indique si l’e
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

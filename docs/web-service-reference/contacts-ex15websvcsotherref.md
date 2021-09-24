@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Contacts
 api_type:
 - schema
 ms.assetid: 0cc67cdf-9707-45e7-92c6-fa83a016cdbe
-description: L’élément contacts contient la liste des contacts associés à une tâche.
-ms.openlocfilehash: c2b7bbadd494081a3e47b7b6c489218fab31d574
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Contacts contient une liste de contacts associés à une tâche.
+ms.openlocfilehash: 457553347db88c2401c5e7b23a0232f53515e941
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458389"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518721"
 ---
 # <a name="contacts"></a>Contacts
 
-L’élément **contacts** contient la liste des contacts associés à une tâche. 
+**L’élément Contacts** contient une liste de contacts associés à une tâche. 
   
 ```xml
 <Contacts>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une liste de noms de contacts séparés par des virgules.  <br/> |
+|[String](string.md) <br/> |Représente une liste de noms de contact séparés par des virgules.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 542e7b90-eafe-4711-a9d7-71bbc30d9646
 description: L’élément IsPartiallyIndexed indique si l’élément est partiellement indexé.
-ms.openlocfilehash: 4bf0c3e5dd7b75a90ac087958fbceda334306af1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 3917f14bbdae13f4485edcbbcd595989c3cd907f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540985"
 ---
 # <a name="ispartiallyindexed"></a>IsPartiallyIndexed
 
-L’élément **IsPartiallyIndexed** indique si l’élément est partiellement indexé. 
+**L’élément IsPartiallyIndexed** indique si l’élément est partiellement indexé. 
   
 ```XML
 <IsPartiallyIndexed>true | false</IsPartiallyIndexed>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **IsPartiallyIndexed** indique que l’élément de boîte aux lettres est partiellement indexé. La valeur **false** indique que l’élément de boîte aux lettres n’est pas partiellement indexé. 
+Une valeur de texte **true** pour l’élément **IsPartiallyIndexed** indique que l’élément de boîte aux lettres est partiellement indexé. La valeur **false indique** que l’élément de boîte aux lettres n’est pas partiellement indexé. 
   
 ## <a name="remarks"></a>Remarques
 

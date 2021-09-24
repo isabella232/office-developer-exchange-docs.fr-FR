@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d392e138-a514-4bce-81b1-1f484e353d1c
-description: L’élément DisplayNameLastFirst spécifie le nom d’affichage du personnage associé au format, nom, prénom.
-ms.openlocfilehash: d569a87ce77a4f1840ed4f865e671399726ede78
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisplayNameLastFirst spécifie le nom complet du personnage associé au format,Nom,Prénom.
+ms.openlocfilehash: 36013d4cd62de3a229cee76be1594eadc9ac0ffd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463159"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511821"
 ---
 # <a name="displaynamelastfirst"></a>DisplayNameLastFirst
 
-L’élément **DisplayNameLastFirst** spécifie le nom d’affichage du personnage associé au format « Last Name », « First Name ». 
+**L’élément DisplayNameLastFirst** spécifie le nom complet du personnage associé au format « Nom », « Prénom ». 
   
 ```XML
 <DisplayNameLastFirst></DisplayNameLastFirst>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DisplayNameLastFirst** est une valeur de type String qui spécifie le nom complet, avec le nom d’abord. 
+La valeur de texte de **l’élément DisplayNameLastFirst** est une valeur de chaîne qui spécifie le nom complet, avec le nom de famille en premier. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

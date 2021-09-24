@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseMessages
 api_type:
 - schema
 ms.assetid: 00878187-fac2-45b9-ba1c-df7ffac71089
-description: L’élément ResponseMessages représente une liste de messages de réponse à des conseils de messagerie.
-ms.openlocfilehash: 2db58029ead9332b832006bc81d751d77df54b07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ResponseMessages représente une liste de messages de réponse de conseils de messagerie.
+ms.openlocfilehash: fda62e93c8cc0c6eee6f97e360695eb9a690ba3c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465449"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518973"
 ---
 # <a name="responsemessages-arrayofmailtipsresponsemessagetype"></a>ResponseMessages (ArrayOfMailTipsResponseMessageType)
 
-L’élément **ResponseMessages** représente une liste de messages de réponse à des conseils de messagerie. 
+**L’élément ResponseMessages** représente une liste de messages de réponse de conseils de messagerie. 
   
 ```XML
 <ResponseMessages>
@@ -48,7 +48,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Représente le message de réponse pour l' [opération GetMailTips](getmailtips-operation.md).  <br/> |
+|[GetMailTipsResponse](getmailtipsresponse.md) <br/> |Représente le message de réponse pour [l’opération GetMailTips](getmailtips-operation.md).  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

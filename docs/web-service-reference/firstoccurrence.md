@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstOccurrence
 api_type:
 - schema
 ms.assetid: d6748860-ce0d-4d2e-b7e4-9ed834f1e45a
 description: L’élément FirstOccurrence représente la première occurrence d’un élément de calendrier périodique.
-ms.openlocfilehash: 22ee9018df1e89a3783c4dfb56aaf065b2c8ea6c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e774e69f658479b1faab04eb9b91a2d24180e515
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466296"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518392"
 ---
 # <a name="firstoccurrence"></a>FirstOccurrence
 
-L’élément **FirstOccurrence** représente la première occurrence d’un élément de calendrier périodique. 
+**L’élément FirstOccurrence** représente la première occurrence d’un élément de calendrier périodique. 
   
 ```xml
 <FirstOccurrence>
@@ -46,8 +46,8 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Contient l’identificateur unique et la clé de modification de la première occurrence d’un élément de calendrier périodique.  <br/> |
-|[Démarrage](start.md) <br/> |Représente l’heure de début de la première occurrence d’un élément de calendrier périodique.  <br/> |
-|[Fin](end-ex15websvcsotherref.md) <br/> |Représente l’heure de fin de la première occurrence d’un élément de calendrier périodique.  <br/> |
+|[Start](start.md) <br/> |Représente l’heure de début de la première occurrence d’un élément de calendrier périodique.  <br/> |
+|[Fin ](end-ex15websvcsotherref.md) <br/> |Représente l’heure de fin de la première occurrence d’un élément de calendrier périodique.  <br/> |
 |[OriginalStart](originalstart.md) <br/> |Représente l’heure de début d’origine de la première occurrence d’un élément de calendrier périodique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -55,7 +55,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

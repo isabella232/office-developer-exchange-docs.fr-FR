@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c514f22f-be3e-4cad-ac56-bdff6bafcee6
-description: L’élément MSExchangeCertificate contient une valeur qui code le certificat Microsoft Exchange d’un contact.
-ms.openlocfilehash: 60bbcfb45e52dc92140d03cdd24a251ea84217b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MSExchangeCertificate contient une valeur qui code le certificat microsoft Exchange d’un contact.
+ms.openlocfilehash: 14993f2a1067334bba5c8980bc57eaff550f09d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465673"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529787"
 ---
 # <a name="msexchangecertificate"></a>MSExchangeCertificate
 
-L’élément **MSExchangeCertificate** contient une valeur qui code le certificat Microsoft Exchange d’un contact. 
+**L’élément MSExchangeCertificate** contient une valeur qui code le certificat microsoft Exchange d’un contact. 
   
 ```XML
 <MSExchangeCertificate/>
@@ -36,7 +36,7 @@ Aucune.
 
 |**Nom de l'élément**|**Description**|
 |:-----|:-----|
-|[Au base64Binary](base64binary.md) <br/> |Contient une valeur encodée en base 64.  <br/> |
+|[Base64Binary](base64binary.md) <br/> |Contient une valeur codée en Base64.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

@@ -1,27 +1,27 @@
 ---
-title: Count
+title: Nombre
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Count
 api_type:
 - schema
 ms.assetid: 68314b4a-1e17-4e21-9c2e-224d70ef7a32
 description: L’élément Count contient le nombre de conflits dans une réponse d’opération UpdateItem.
-ms.openlocfilehash: a43896a1b8b6a9d96ab02afe64f9e553639e478e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0504b0517e3337e0b985a8755a907ca460f90ccf
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511887"
 ---
-# <a name="count"></a>Count
+# <a name="count"></a>Nombre
 
-L’élément [Count](count.md) contient le nombre de conflits dans une réponse d' [opération UpdateItem](updateitem-operation.md) . 
+[L’élément Count](count.md) contient le nombre de conflits dans une réponse d’opération [UpdateItem.](updateitem-operation.md) 
   
 [UpdateItemResponse](updateitemresponse.md)
   
@@ -54,15 +54,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConflictResults](conflictresults.md) <br/> |Contient le nombre de conflits dans une réponse d' [opération UpdateItem](updateitem-operation.md) .  <br/> |
+|[ConflictResults](conflictresults.md) <br/> |Contient le nombre de conflits dans une réponse [d’opération UpdateItem.](updateitem-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est un entier qui représente le nombre de conflits dans une réponse d' [opération UpdateItem](updateitem-operation.md) . 
+La valeur de texte est un nombre total qui représente le nombre de conflits dans une réponse [d’opération UpdateItem.](updateitem-operation.md) 
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarView
 api_type:
 - schema
 ms.assetid: a4a953b8-0710-416c-95ef-59e51eba9982
-description: L’élément CalendarView définit une opération FindItem comme renvoyant des éléments de calendrier dans un jeu tel qu’ils apparaissent dans un calendrier.
-ms.openlocfilehash: e547a4b2db5c09ebefd9a072da6cc4733818002e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CalendarView définit une opération FindItem comme renvoyant des éléments de calendrier dans un ensemble tel qu’ils apparaissent dans un calendrier.
+ms.openlocfilehash: 5e0180bb5e8a6d9fcbe42380abbe32820117ae29
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462261"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518826"
 ---
 # <a name="calendarview"></a>CalendarView
 
-L’élément **CalendarView** définit une [opération FindItem](finditem-operation.md) comme renvoyant des éléments de calendrier dans un jeu tel qu’ils apparaissent dans un calendrier. 
+**L’élément CalendarView** définit une [opération FindItem](finditem-operation.md) comme renvoyant des éléments de calendrier dans un ensemble tel qu’ils apparaissent dans un calendrier. 
   
 [FindItem](finditem.md)
   
@@ -42,8 +42,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 |**Attribut**|**Description**|
 |:-----|:-----|
 |**MaxEntriesReturned** <br/> |Décrit le nombre maximal de résultats à renvoyer dans la réponse FindItem.  <br/> |
-|**StartDate** <br/> |Identifie le début d’un intervalle de temps interrogé pour les éléments de calendrier. Tous les éléments de calendrier dont l’heure de fin est antérieure à **StartDate** ne seront pas renvoyés. La valeur de **StartDate** peut être spécifiée au format UTC (Coordinated Universal Time), en 2006-01-02T12:00:00Z, ou dans un format où l’heure locale et le décalage du fuseau horaire sont spécifiés, comme indiqué en 2006-01-02T04:00:00-08:00.  <br/><br/>Cet attribut est obligatoire.  <br/> |
-|**EndDate** <br/> |Identifie la fin d’un intervalle de temps interrogé pour les éléments de calendrier. Tous les éléments de calendrier dont l’heure de début est identique ou **postérieure** à la date d’expiration ne sont pas renvoyés. La valeur de **EndDate** peut être spécifiée au format UTC, comme en 2006-02-02T12:00:00Z, ou dans un format où l’heure locale et le décalage du fuseau horaire sont spécifiés, comme indiqué en 2006-02-02T04:00:00-08:00.  <br/><br/>La date de **fin doit être** supérieure ou **égale à la**date de début ; Sinon, une erreur est renvoyée. Cet attribut est obligatoire.  <br/> |
+|**StartDate** <br/> |Identifie le début d’une période de temps pour les éléments de calendrier. Tous les éléments de calendrier dont l’heure de fin est avant **StartDate** ne sont pas renvoyés. La valeur de **StartDate** peut être spécifiée au format UTC (temps universel coordonné), comme dans 2006-01-02T12:00:00Z, ou dans un format où le décalage de l’heure locale et du fuseau horaire est spécifié, comme dans 2006-01-02T04:00:00-08:00.  <br/><br/>Cet attribut est obligatoire.  <br/> |
+|**EndDate** <br/> |Identifie la fin d’une période de temps pour les éléments de calendrier. Tous les éléments de calendrier dont l’heure de début est sur ou après **EndDate** ne sont pas renvoyés. La valeur de **EndDate** peut être spécifiée au format UTC, comme dans 2006-02-02T12:00:00Z, ou dans un format où l’heure locale et le décalage de fuseau horaire sont spécifiés, comme dans 2006-02-02T04:00:00-08:00.  <br/><br/>**EndDate doit** être supérieur ou égal à **StartDate**; Sinon, une erreur est renvoyée. Cet attribut est obligatoire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,17 +53,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.<br/><br/> Voici l’expression XPath de cet élément :  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Définit une demande de recherche d’éléments dans une boîte aux lettres.<br/><br/> Voici l’expression XPath de cet élément :  <br/>  `/FindItem` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si l’élément **CalendarView** est spécifié dans une demande FindItem, le service Web renvoie une liste d’éléments de calendrier uniques et d’occurrences d’éléments de calendrier périodiques dans la plage spécifiée par **StartDate** et **EndDate**.
+Si **l’élément CalendarView** est spécifié dans une demande FindItem, le service Web renvoie une liste d’éléments de calendrier et d’occurrences d’éléments de calendrier périodiques dans la plage spécifiée par **StartDate** et **EndDate**.
   
-Si l’élément **CalendarView** n’est pas spécifié dans une demande FindItem, le service Web renvoie une liste des éléments de calendrier uniques et des éléments de calendrier principal périodiques. Les occurrences de calendrier d’un élément de calendrier périodique ne sont pas développées. 
+Si **l’élément CalendarView** n’est pas spécifié dans une demande FindItem, le service Web renvoie une liste d’éléments de calendrier unique et d’éléments de calendrier principal périodiques. Les occurrences de calendrier d’un élément de calendrier périodique ne sont pas étendues. 
   
-Les requêtes CalendarView doivent uniquement utiliser les propriétés suivantes, car elles prennent en charge des requêtes de calendrier plus rapides.
+Les requêtes CalendarView doivent uniquement utiliser les propriétés suivantes, car elles peuvent prendre en charge des requêtes de calendrier plus rapides.
   
-### <a name="recurrence-blob-properties"></a>Propriétés de l’objet blob de récurrence
+### <a name="recurrence-blob-properties"></a>Propriétés blob de récurrence
   
 - MapiStartTime
     
@@ -95,7 +95,7 @@ Les requêtes CalendarView doivent uniquement utiliser les propriétés suivante
     
 - ChangeHighlight
     
-### <a name="calculated-from-the-primary-recurrence-blob-or-master"></a>Calculé à partir de l’objet blob de récurrence principale ou de la forme de base
+### <a name="calculated-from-the-primary-recurrence-blob-or-master"></a>Calculé à partir du blob ou de la récurrence principale
   
 - ItemId
     
@@ -121,9 +121,9 @@ Les requêtes CalendarView doivent uniquement utiliser les propriétés suivante
     
 - TimeZoneDefinitionEnd
     
-### <a name="master-calendar-item-properties"></a>Propriétés de l’élément de calendrier principal
+### <a name="master-calendar-item-properties"></a>Propriétés d’élément de calendrier master
   
-- Entrée
+- EntryId
     
 - ChangeKey
     
@@ -159,13 +159,13 @@ Les requêtes CalendarView doivent uniquement utiliser les propriétés suivante
     
 - MapiPREndDate
     
-- Catégories
+- Categories
     
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre une requête FindItem. Une demande réussie renvoie une réponse qui inclut des éléments de calendrier démarrés à 2006-05-18T00:00:00-08:00 ou après et s’est terminé avant 2006-05-19T00:00:00-08:00.
+L’exemple suivant illustre une demande FindItem. Une requête réussie renvoie une réponse qui inclut les éléments de calendrier qui ont commencé à 2006-05-18T00:00:00-08:00 ou après et se sont terminés avant 2006-05-19T00:00:00-08:00.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -198,7 +198,7 @@ L’exemple suivant montre une requête FindItem. Une demande réussie renvoie u
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

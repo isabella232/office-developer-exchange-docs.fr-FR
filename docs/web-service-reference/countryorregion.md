@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CountryOrRegion
 api_type:
 - schema
 ms.assetid: e978cd19-96ce-4ebf-81df-eadf2d775132
 description: L’élément Country représente le pays ou la région d’une adresse physique donnée.
-ms.openlocfilehash: 2e5b8ec40676123c17d6c7f987f139246dbd0493
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d29180568be12bc45eb0c38806f4acc5c0f69257
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518651"
 ---
 # <a name="countryorregion"></a>CountryOrRegion
 
-L’élément **Country** représente le pays ou la région d’une adresse physique donnée. 
+**L’élément Country** représente le pays ou la région d’une adresse physique donnée. 
   
 ```xml
 <Country/>

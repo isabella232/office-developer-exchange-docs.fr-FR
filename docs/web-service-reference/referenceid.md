@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ec106a5-82f7-4b28-a951-11936877e303
-description: L’élément ID spécifie l’identificateur de référence pour la boîte aux lettres.
-ms.openlocfilehash: 98dd9fabf645ea01646ec46ca12cb73b400d8c46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReferenceId spécifie l’identificateur de référence pour la boîte aux lettres.
+ms.openlocfilehash: 1550d2af105e4080bdb560f85a06ab3655cbf097
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468074"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529348"
 ---
 # <a name="referenceid"></a>ReferenceId
 
-L’élément **ID** spécifie l’identificateur de référence pour la boîte aux lettres. 
+**L’élément ReferenceId** spécifie l’identificateur de référence pour la boîte aux lettres. 
   
 ```XML
 <ReferenceId></ReferenceId>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ID** est l’identificateur de référence d’une boîte aux lettres. 
+La valeur de texte de **l’élément ReferenceId** est l’identificateur de référence d’une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 

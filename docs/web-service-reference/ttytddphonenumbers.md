@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
-description: L’élément TTYTDDPhoneNumbers spécifie un tableau de numéros de téléphone texte TTY ou TDD et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 2a68953537b2f1e1e9a60da8f41c98024451ea36
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TTYTDDPhoneNumbers spécifie un tableau de numéros de téléphone texte TTY ou TDD et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 087e3560515f65135cc6db84febb129e293f6386
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457066"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527226"
 ---
 # <a name="ttytddphonenumbers"></a>TTYTDDPhoneNumbers
 
-L’élément **TTYTDDPhoneNumbers** spécifie un tableau de numéros de téléphone texte TTY ou TDD et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément TTYTDDPhoneNumbers** spécifie un tableau de numéros de téléphone texte TTY ou TDD et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <TTYTDDPhoneNumbers>

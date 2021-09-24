@@ -1,27 +1,27 @@
 ---
-title: Dates
+title: TimeStamp
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TimeStamp
 api_type:
 - schema
 ms.assetid: 5eae859a-5a74-4bf6-b196-d1b2fd38501a
-description: L’élément timestamp représente l’horodatage d’un événement de boîte aux lettres.
-ms.openlocfilehash: f2280d4eab67b603963c4f0a7468bf35a2b63a88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Timestamp représente l’timestamp d’un événement de boîte aux lettres.
+ms.openlocfilehash: 87264f25cb8902d7306e1c8c42bef600520175be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459888"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531374"
 ---
-# <a name="timestamp"></a>Dates
+# <a name="timestamp"></a>TimeStamp
 
-L’élément **timestamp** représente l’horodatage d’un événement de boîte aux lettres. 
+**L’élément Timestamp** représente l’timestamp d’un événement de boîte aux lettres. 
   
 ```xml
 <TimeStamp/>
@@ -57,7 +57,7 @@ Cette propriété est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est principalement disponible pour être utilisé dans la détermination du client de la fréquence des événements. Cela n’est pas présent dans [StatusEvent](statusevent.md).
+Cet élément est principalement disponible pour la détermination de la fréquence des événements par le client. Ceci n’est pas présent [dans StatusEvent](statusevent.md).
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

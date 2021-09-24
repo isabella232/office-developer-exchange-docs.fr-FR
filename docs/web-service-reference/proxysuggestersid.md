@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ProxySuggesterSid
 api_type:
 - schema
 ms.assetid: e1229cf4-8957-4b4a-8b9d-3e956ff9fd7b
-description: L’élément ProxySuggesterSid est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 9aebb2a90a34745c2184c89b84f7378f1d4be406
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ProxySuggesterSid est utilisé par le proxy HTTP de l’ordinateur exécutant Microsoft Exchange Server 2007 sur qui le rôle serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 7bcb0f26b29befabc143671b1720214536d9bd7a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519120"
 ---
 # <a name="proxysuggestersid"></a>ProxySuggesterSid
 
-L’élément **ProxySuggesterSid** est utilisé par le proxy HTTP de l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services Web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément ProxySuggesterSid** est utilisé par le proxy HTTP de l’ordinateur exécutant Microsoft Exchange Server 2007 sur qui le rôle serveur d’accès au client est installé et qui n’est pas utilisé par les opérations des services web Exchange. Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ProxySuggesterSid/>

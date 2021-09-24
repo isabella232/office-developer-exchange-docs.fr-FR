@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb0f0eec-be1e-42cc-9426-d98a491debec
-description: L’élément SetEncryptionConfigurationResponseMessage est destiné uniquement à un usage interne.
-ms.openlocfilehash: ad32b7f1da07e6f22a15e2571ec2b1cc5533e499
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetEncryptionConfigurationResponseMessage est destiné à un usage interne uniquement.
+ms.openlocfilehash: 65bbf119421f8332953002a8d3cc8743428c100e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510875"
 ---
 # <a name="setencryptionconfigurationresponsemessage"></a>SetEncryptionConfigurationResponseMessage
 
-L’élément **SetEncryptionConfigurationResponseMessage** est destiné uniquement à un usage interne. 
+**L’élément SetEncryptionConfigurationResponseMessage** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

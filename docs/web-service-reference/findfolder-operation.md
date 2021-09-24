@@ -5,43 +5,43 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FindFolder
 api_type:
 - schema
 ms.assetid: 7a9855aa-06cc-45ba-ad2a-645c15b7d031
-description: L’opération FindFolder utilise les services Web Exchange pour rechercher des sous-dossiers d’un dossier identifié et renvoie un ensemble de propriétés qui décrivent le jeu de sous-dossiers.
-ms.openlocfilehash: f1cc199bdaf684d8d74687ed7f064eb66fee48ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération FindFolder utilise Exchange Web Services pour rechercher les sous-dossiers d’un dossier identifié et renvoie un ensemble de propriétés qui décrivent l’ensemble des sous-dossiers.
+ms.openlocfilehash: 8c2776a9d60244fe77b6012a09ffbad230d86f63
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462583"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518469"
 ---
 # <a name="findfolder-operation"></a>Opération FindFolder
 
-L’opération **FindFolder** utilise les services Web Exchange pour rechercher des sous-dossiers d’un dossier identifié et renvoie un ensemble de propriétés qui décrivent le jeu de sous-dossiers. 
+**L’opération FindFolder** utilise Exchange Web Services pour rechercher les sous-dossiers d’un dossier identifié et renvoie un ensemble de propriétés qui décrivent l’ensemble des sous-dossiers. 
   
 ## <a name="remarks"></a>Remarques
 
-FindFolder renvoie uniquement les premiers 512 octets de toutes les propriétés transmises en continu. Pour Unicode, elle renvoie les premiers caractères 255 à l’aide d’une chaîne Unicode terminée par un caractère null.
+FindFolder renvoie uniquement les 512 premiers octets d’une propriété streamable. Pour Unicode, elle renvoie les 255 premiers caractères à l’aide d’une chaîne Unicode terminée par null.
   
-Les requêtes de parcours approfondi ne peuvent pas être exécutées sur les dossiers publics.
+Les requêtes de traversée approfondies ne peuvent pas être effectuées sur des dossiers publics.
   
-Les restrictions sont autorisées et doivent utiliser uniquement les propriétés du dossier, pas les propriétés de l’élément. La fonctionnalité de tri n’est pas disponible pour les réponses **FindFolder** . Les requêtes regroupées ne sont pas disponibles pour les requêtes **FindFolder** . 
+Les restrictions sont autorisées et doivent utiliser uniquement les propriétés de dossier, et non les propriétés d’élément. La fonctionnalité de tri n’est pas disponible pour **les réponses FindFolder.** Les requêtes groupées ne sont pas disponibles **pour les requêtes FindFolder.** 
   
- **Note** L’opération **FindFolder** est également utilisée pour rechercher des dossiers gérés. 
+ **Remarque** **L’opération FindFolder** permet également de rechercher des dossiers gérés. 
   
 ### <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **FindFolder** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération FindFolder** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
 |TimeZoneContext  <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Identifie le fuseau horaire à utiliser pour toutes les réponses du serveur.  <br/> |
    
@@ -49,7 +49,7 @@ L’opération **FindFolder** peut utiliser les en-têtes SOAP répertoriés et 
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **FindFolder** suivant montre comment créer une requête pour rechercher tous les dossiers situés dans une boîte de réception. 
+L’exemple suivant **d’une requête FindFolder** montre comment former une demande pour rechercher tous les dossiers situés dans une boîte de réception. 
   
 ### <a name="code"></a>Code
 
@@ -72,11 +72,11 @@ L’exemple de requête **FindFolder** suivant montre comment créer une requêt
 
 ### <a name="comments"></a>Commentaires
 
-À l’aide de la valeur par défaut de l' [BaseShape](baseshape.md), la réponse renvoie le nom du dossier, l’ID du dossier, le nombre de sous-dossiers, le nombre de dossiers enfants trouvés dans le dossier et le nombre d’éléments non lus.
+À l’aide de la valeur Par défaut de la [forme](baseshape.md)de base, la réponse renvoie le nom du dossier, l’ID du dossier, le nombre de sous-dossiers, le nombre de dossiers enfants trouvés dans le dossier et le nombre d’éléments non lus.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-Cette requête **FindFolder** inclut les éléments suivants : 
+Cette **requête FindFolder inclut** les éléments suivants : 
   
 - [FindFolder](findfolder.md)
     
@@ -88,16 +88,16 @@ Cette requête **FindFolder** inclut les éléments suivants :
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
- Pour d’autres éléments de requête **FindFolder** , voir le schéma. 
+ Pour obtenir **d’autres éléments de requête FindFolder,** consultez le schéma. 
   
 ## <a name="findfolder-response-example"></a>Exemple de réponse FindFolder
 
 ### <a name="description"></a>Description
 
-L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la demande **FindFolder** . La réponse contient les éléments qui sont renvoyés lorsque la valeur par défaut de l' [BaseShape](baseshape.md) est utilisée. 
+L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la **demande FindFolder.** La réponse contient les éléments qui sont renvoyés lorsque la valeur Par défaut de [la forme de](baseshape.md) base est utilisée. 
   
 > [!NOTE]
-> L’ID de dossier et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’ID de dossier et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -135,9 +135,9 @@ L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une ré
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
-Les propriétés qui sont renvoyées dans la réponse sont déterminées par le [BaseShape](baseshape.md) et le [AdditionalProperties](additionalproperties.md) s’ils sont utilisés. Une réponse **FindFolder** réussie inclut les éléments suivants : 
+Les propriétés renvoyées dans la réponse sont déterminées par [baseshape](baseshape.md) et [AdditionalProperties si](additionalproperties.md) elles sont utilisées. Une réponse **FindFolder réussie inclut** les éléments suivants : 
   
 - [ServerVersionInfo](serverversioninfo.md)
     
@@ -167,13 +167,13 @@ Les propriétés qui sont renvoyées dans la réponse sont déterminées par le 
     
 ### <a name="comments"></a>Commentaires
 
- **FindFolder** les réponses à une requête avec la forme de réponse **AllProperties** ne renvoient pas les éléments [totalCount](totalcount.md) et [UnreadCount](unreadcount.md) pour les recherches de dossiers publics. 
+ **Les réponses FindFolder** à une demande avec la forme de réponse **AllProperties** ne retourneront pas les éléments [TotalCount](totalcount.md) et [UnreadCount](unreadcount.md) pour les recherches de dossiers publics. 
   
 ## <a name="findfolder-error-response-example"></a>Exemple de réponse d’erreur FindFolder
 
 ### <a name="description"></a>Description
 
-L’exemple de corps SOAP suivant montre une réponse d’erreur qui se produit lorsque vous recherchez un dossier identifié par un identificateur de dossier incorrect.
+L’exemple de corps SOAP suivant montre une réponse d’erreur qui se produit lorsque vous recherchez un dossier identifié par un identificateur de dossier malformé.
   
 ### <a name="code"></a>Code
 
@@ -204,7 +204,7 @@ L’exemple de corps SOAP suivant montre une réponse d’erreur qui se produit 
 
 ### <a name="error-response-elements"></a>Éléments de réponse d’erreur
 
-La réponse d’erreur **FindFolder** comprend les éléments suivants : 
+La **réponse d’erreur FindFolder** inclut les éléments suivants : 
   
 - [FindFolderResponse](findfolderresponse.md)
     
@@ -218,11 +218,11 @@ La réponse d’erreur **FindFolder** comprend les éléments suivants :
     
 ## <a name="additional-information"></a>Informations complémentaires
 
-- L’élément Folder [DisplayName (String)](displayname-string.md) est toujours inclus dans la forme par défaut. 
+- [L’élément DisplayName (string)](displayname-string.md) du dossier est toujours inclus dans la forme par défaut. 
     
-- L’élément [UnreadCount](unreadcount.md) est inclus dans les dossiers tâches et notes. 
+- [L’élément UnreadCount](unreadcount.md) est inclus dans les dossiers Tâches et Notes. 
     
-- Utilisez la valeur **PropertyTag** de 0x672D avec une propriété de type **Integer** pour identifier un dossier géré à l’aide de l’élément [ExtendedFieldURI](extendedfielduri.md) . 
+- Utilisez la **valeur PropertyTag** de 0x672D avec un type de propriété **Integer** pour identifier un dossier géré à l’aide de l’élément [ExtendedFieldURI.](extendedfielduri.md) 
     
 ## <a name="see-also"></a>Voir aussi
 

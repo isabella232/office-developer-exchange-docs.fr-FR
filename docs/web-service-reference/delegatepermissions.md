@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DelegatePermissions
 api_type:
 - schema
 ms.assetid: 292badc7-bab3-4368-9d7c-9a8b7edb279b
-description: L’élément DelegatePermissions contient les paramètres de niveau d’autorisation délégués pour un utilisateur. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 2cf8c9a8d3c5db8e13d43c207df173c12fca5acb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DelegatePermissions contient les paramètres de niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: a8c7e06ae0ad4e1d12d06b559ad7d9f9468c4ade
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457409"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528991"
 ---
 # <a name="delegatepermissions"></a>DelegatePermissions
 
-L’élément **DelegatePermissions** contient les paramètres de niveau d’autorisation délégués pour un utilisateur. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément DelegatePermissions** contient les paramètres de niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DelegatePermissions>
@@ -48,18 +48,18 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarFolderPermissionLevel](calendarfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier calendrier par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[TasksFolderPermissionLevel](tasksfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier de tâches par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[CalendarFolderPermissionLevel](calendarfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier Calendrier par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[TasksFolderPermissionLevel](tasksfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier Tâche par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[InboxFolderPermissionLevel](inboxfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier boîte de réception par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[ContactsFolderPermissionLevel](contactsfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier de contacts par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[ContactsFolderPermissionLevel](contactsfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier Contacts par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
 |[NotesFolderPermissionLevel](notesfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier Notes par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
-|[JournalFolderPermissionLevel](journalfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier journal par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[JournalFolderPermissionLevel](journalfolderpermissionlevel.md) <br/> |Contient les autorisations pour le dossier Journal par défaut. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegateUser](delegateuser.md) <br/> |Identifie un seul délégué à ajouter ou mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegateUser](delegateuser.md) <br/> |Identifie un délégué unique à ajouter ou à mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -4,19 +4,19 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1864182b-26f1-444e-b697-a654c2f68982
 description: L’élément FileExtension représente une extension de fichier.
-ms.openlocfilehash: a96a1eaa7339021188a768a980c13350be00e8ac
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 437ef854861009fdfd23b5f01649591aed6a5b78
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461008"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518490"
 ---
 # <a name="fileextension-soap"></a>FileExtension (SOAP)
 
-L’élément **FileExtension** représente une extension de fichier. 
+**L’élément FileExtension** représente une extension de fichier. 
   
 ```XML
 <FileExtension/>
@@ -39,11 +39,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SupportedFileExtensions (SOAP)](supportedfileextensions-soap.md) <br/> |Contient une liste d’extensions de fichier dans un emplacement de partage de documents.  <br/> |
+|[SupportedFileExtensions (SOAP)](supportedfileextensions-soap.md) <br/> |Contient une liste d’extensions de fichiers dans un emplacement de partage de documents.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **FileExtension** est une extension de fichier valide pour l’emplacement de partage de documents. 
+La valeur de texte de **l’élément FileExtension** est une extension de fichier valide pour l’emplacement de partage de documents. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -51,7 +51,7 @@ La valeur de texte de l’élément **FileExtension** est une extension de fichi
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

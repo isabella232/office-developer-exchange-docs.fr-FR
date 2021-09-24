@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17032a2d-05d7-4f44-8823-2538c38ba025
 description: L’élément IsDebug n’est pas utilisé.
-ms.openlocfilehash: 461e331644443bf2c2efd25b2efe92d9002e16e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f8ec73599df6df7c0fb41eded9459ae89d8386f6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455533"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540992"
 ---
 # <a name="isdebug"></a>IsDebug
 
-L’élément **IsDebug** n’est pas utilisé. 
+**L’élément IsDebug** n’est pas utilisé. 
   
 ```XML
 <IsDebug>true | false</IsDebug>
@@ -52,7 +52,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

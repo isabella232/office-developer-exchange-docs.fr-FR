@@ -1,27 +1,27 @@
 ---
-title: Terminé
+title: CompleteDate
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CompleteDate
 api_type:
 - schema
 ms.assetid: b2b53b87-6a0b-4a55-bcfc-3bf67d3c1700
-description: L’élément Completed représente la date à laquelle un élément a été terminé.
-ms.openlocfilehash: fff3d5d3105bf63c9cdd34cbcf828d57ca287b86
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CompleteDate représente la date à laquelle un élément a été terminé.
+ms.openlocfilehash: 07f6034b4fd91d22ad07167d931bcd02a74782f9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461421"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518777"
 ---
-# <a name="completedate"></a>Terminé
+# <a name="completedate"></a>CompleteDate
 
-L’élément **Completed** représente la date à laquelle un élément a été terminé. 
+**L’élément CompleteDate** représente la date à laquelle un élément a été terminé. 
   
 ```xml
 <CompleteDate/>
@@ -53,7 +53,7 @@ Une valeur de texte qui représente la date et l’heure est requise si cet él�
   
 ## <a name="remarks"></a>Remarques
 
-La définition de l’option **Completed** a le même effet que celle de la valeur de [PourcentageAchevé](percentcomplete.md) sur 100 ou l' [État](status.md) **terminé**. Dans une demande qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si [PercentComplete](percentcomplete.md) est 100, **recompleted** est le 1er janvier 2007 et [Status](status.md) est **NotStarted**, et que les propriétés sont diffusées dans cet ordre, l’effet est de définir l' [État](status.md) de la tâche sur **NotStarted**, la valeur de la propriété [Completed](completedate.md) sur **null**et [PercentComplete](percentcomplete.md) sur 0. 
+La **définition de CompleteDate** a le même effet que la définition de [PercentComplete](percentcomplete.md) sur 100 ou [d’état](status.md) **sur Terminé**. Dans une requête qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si [PercentComplete](percentcomplete.md) a la valeur 100, **CompleteDate** est le 1er janvier 2007 et [que l’état](status.md) [](status.md) est **NotStarted** et que les propriétés sont diffusées dans cet ordre, l’effet sera de définir l’état de la tâche sur **NotStarted,** [CompleteDate](completedate.md) sur **null** et [PercentComplete](percentcomplete.md) sur 0. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

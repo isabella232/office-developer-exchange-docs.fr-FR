@@ -1,23 +1,23 @@
 ---
-title: Courrier électronique (EmailAddress)
+title: Email (EmailAddress)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c40a6b6-e2d1-44ba-b439-5720490cbd43
-description: L’élément email identifie un participant à une réunion.
-ms.openlocfilehash: 9457ff735f4f87f59cd091b504fb8807e1aa8fa6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Email identifie un participant à une réunion.
+ms.openlocfilehash: 6a5c1c2fb11e1f428c75b5c41d58c62c7b5976a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528637"
 ---
-# <a name="email-emailaddress"></a>Courrier électronique (EmailAddress)
+# <a name="email-emailaddress"></a>Email (EmailAddress)
 
-L’élément **email** identifie un participant à une réunion. 
+**L’élément Email** identifie un participant à une réunion. 
   
 ```XML
 <Email></Email>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément email identifie un participant renvoyé dans une réponse d’opération **GetUserAvailability** . 
+La valeur de texte de l’élément Email identifie un participant renvoyé dans une réponse d’opération **GetUserAvailability.** 
   
 ## <a name="remarks"></a>Remarques
 

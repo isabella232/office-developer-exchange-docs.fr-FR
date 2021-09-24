@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageId
 api_type:
 - schema
 ms.assetid: 3b038ad5-7752-4ed8-9769-a9f1d86c8fef
 description: L’élément MessageId représente l’identification du message à rechercher.
-ms.openlocfilehash: 014c028c9625ff6b80ed16137df097071bcdb584
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 68c50f88d75ca7bf26d2c5766488cccd5b76770e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468683"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518231"
 ---
 # <a name="messageid"></a>MessageId
 
-L’élément **MessageID** représente l’identification du message à rechercher. 
+**L’élément MessageId** représente l’identification du message à rechercher. 
   
 ```XML
 <MessageId/>
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

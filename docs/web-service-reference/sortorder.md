@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SortOrder
 api_type:
 - schema
 ms.assetid: c2413f0b-8c03-46ae-9990-13338b3c53a6
-description: L’élément SortOrder définit le mode de tri des éléments dans une requête FindItem ou FindConversation.
-ms.openlocfilehash: b520bb3ca6daadc777e7235b2b7420a12e425048
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SortOrder définit la façon dont les éléments sont triés dans une demande FindItem ou FindConversation.
+ms.openlocfilehash: eefa10c4af32d550414d83f8f524b5b088fcfa7c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468368"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531700"
 ---
 # <a name="sortorder"></a>SortOrder
 
-L’élément **SortOrder** définit le mode de tri des éléments dans une requête **FindItem** ou **FindConversation** . 
+**L’élément SortOrder** définit la façon dont les éléments sont triés dans une **demande FindItem** ou **FindConversation.** 
   
 ```xml
 <SortOrder>
@@ -42,14 +42,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldOrder](fieldorder.md) <br/> |Représente un champ unique par lequel trier les résultats et indique le sens du tri. Un ou plusieurs de ces éléments peuvent être inclus. Les éléments [FieldOrder](fieldorder.md) sont appliqués dans l’ordre spécifié pour le tri.  <br/> |
+|[FieldOrder](fieldorder.md) <br/> |Représente un champ unique par lequel trier les résultats et indique le sens du tri. Un ou plusieurs de ces éléments peuvent être inclus. [Les éléments FieldOrder](fieldorder.md) sont appliqués dans l’ordre spécifié pour le tri.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Définit une requête pour rechercher des éléments dans une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :`/FindItem` <br/> |
-|[FindConversation](findconversation.md) <br/> |Définit une requête pour rechercher des conversations dans une boîte aux lettres.  <br/> |
+|[FindItem](finditem.md) <br/> |Définit une demande de recherche d’éléments dans une boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  `/FindItem` <br/> |
+|[FindConversation](findconversation.md) <br/> |Définit une demande de recherche de conversations dans une boîte aux lettres.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

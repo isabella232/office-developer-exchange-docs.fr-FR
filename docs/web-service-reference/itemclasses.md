@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ItemClasses
 api_type:
 - schema
 ms.assetid: f95430cc-2860-47c1-af2d-8c4156c9b281
-description: L’élément ItemClasses représente les classes d’éléments qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: 56b99cad2abef0a9953e1793e5b633acca83a9eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ItemClasses représente les classes d’éléments qui doivent être marqués sur les messages entrants afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: a04c773d40d199902de7a7963e02444ed1def4fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511426"
 ---
 # <a name="itemclasses"></a>ItemClasses
 
-L’élément **ItemClasses** représente les classes d’éléments qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique. 
+**L’élément ItemClasses** représente les classes d’éléments qui doivent être marqués sur les messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <ItemClasses>

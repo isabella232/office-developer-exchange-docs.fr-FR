@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContextFolderId
 api_type:
 - schema
 ms.assetid: 48de92aa-e124-42b5-89bc-cdce5e93d78b
-description: L’élément ContextFolderId indique le dossier ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, la suppression, le mouvement et la définition de l’état de lecture des éléments de conversation dans un dossier cible.
-ms.openlocfilehash: 60f1eaf3b45eee83632c7da6f453a1d09f54d9fd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ContextFolderId indique le dossier ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, de la suppression, du déplacement et de la définition de l’état de lecture sur les éléments de conversation dans un dossier cible.
+ms.openlocfilehash: f9b1a5d140bbdaf91b2feee724101be3884f6c99
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529258"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518672"
 ---
 # <a name="contextfolderid"></a>ContextFolderId
 
-L’élément **ContextFolderId** indique le dossier ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, la suppression, le mouvement et la définition de l’état de lecture des éléments de conversation dans un dossier cible. 
+**L’élément ContextFolderId** indique le dossier ciblé pour les actions qui utilisent des dossiers. Cet élément doit être présent lors de la copie, de la suppression, du déplacement et de la définition de l’état de lecture sur les éléments de conversation dans un dossier cible. 
   
 - [ApplyConversationAction](applyconversationaction.md) 
 - [ConversationActions](conversationactions.md)
@@ -62,7 +62,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

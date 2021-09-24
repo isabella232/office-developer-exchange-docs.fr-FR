@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Conversations
 api_type:
 - schema
 ms.assetid: 1d18f98c-6457-45e9-a934-32da20885ac6
-description: L’élément conversations contient un tableau de conversations qui sont renvoyées dans la réponse FindConversation.
-ms.openlocfilehash: 8af1023db51dd955c544422520ec5565f09f5372
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Conversations contient un tableau de conversations qui sont renvoyées dans la réponse FindConversation.
+ms.openlocfilehash: 7c1c4d4ad91317946b64db609d67cafa5f0e7283
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463796"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518665"
 ---
 # <a name="conversations"></a>Conversations
 
-L’élément **conversations** contient un tableau de conversations qui sont renvoyées dans la réponse **FindConversation** . 
+**L’élément Conversations** contient un tableau de conversations qui sont renvoyées dans la réponse **FindConversation.** 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -52,7 +52,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindConversationResponse](findconversationresponse.md) <br/> |Définit une réponse à une demande **FindConversation** .  <br/> |
+|[FindConversationResponse](findconversationresponse.md) <br/> |Définit une réponse à **une demande FindConversation.**  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -68,7 +68,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

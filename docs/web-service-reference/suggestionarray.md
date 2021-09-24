@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionArray
 api_type:
 - schema
 ms.assetid: c1c26008-7b14-4563-8db5-bceb0f475b1b
 description: L’élément SuggestionArray contient un tableau de suggestions de réunion.
-ms.openlocfilehash: ec982417c39569820beef82ae837eacbe316740c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 60b7f02915c609e108136957511dfe42717344f9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531575"
 ---
 # <a name="suggestionarray"></a>SuggestionArray
 
-L’élément **SuggestionArray** contient un tableau de suggestions de réunion. 
+**L’élément SuggestionArray** contient un tableau de suggestions de réunion. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -52,13 +52,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Suggérer](suggestion.md) <br/> |Représente une seule suggestion de réunion.  <br/> |
+|[Suggestion](suggestion.md) <br/> |Représente une suggestion de réunion unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour qui contient des heures de réunion suggérées.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) <br/> |Représente un jour unique qui contient des heures de réunion suggérées.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

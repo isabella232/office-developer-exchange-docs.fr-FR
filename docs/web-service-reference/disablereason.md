@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f41b5be6-9b79-4e83-8cdb-aa779e13cb3f
-description: L’élément DisableReason spécifie la raison pour laquelle vous désactivez une application.
-ms.openlocfilehash: 1406d69647bde5389dc9bb61adf7537a57d5adfc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisableReason spécifie la raison de la désactivation d’une application.
+ms.openlocfilehash: 8156dac17e81dd1c3f49575491924185b04d53e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463670"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528835"
 ---
 # <a name="disablereason"></a>DisableReason
 
-L’élément **DisableReason** spécifie la raison pour laquelle vous désactivez une application. 
+**L’élément DisableReason** spécifie la raison de la désactivation d’une application. 
   
 ```XML
 <DisableReason> NoReason | OutlookClientPerformance | OWAClientPerformance | MobileClientPerformance </DisableReason>
@@ -48,10 +48,10 @@ Aucun.
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Noreason  <br/> |Aucune raison donnée  <br/> |
-|OutlookClientPerformance  <br/> |Pour améliorer les performances des clients de messagerie.  <br/> |
-|OWAClientPerformance  <br/> |Pour améliorer les performances du client Web App.  <br/> |
-|MobileClientPerformance  <br/> |Pour améliorer les performances des clients mobiles.  <br/> |
+|NoReason  <br/> |Aucune raison n’est donnée  <br/> |
+|OutlookClientPerformance  <br/> |Pour améliorer les performances du client de messagerie.  <br/> |
+|OWAClientPerformance  <br/> |Pour améliorer les performances du client d’application Web.  <br/> |
+|MobileClientPerformance  <br/> |Pour améliorer les performances du client mobile.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c444f818-412b-41ac-9523-50246e50eae0
 description: L’élément ContactIds contient un tableau d’identificateurs d’élément de contact.
-ms.openlocfilehash: 5c3b5621808a6931760433148e0cfe3239cd75f1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 05c26af6dc1a5b826025e4145116d3df5eee8d62
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529216"
 ---
 # <a name="contactids"></a>ContactIds
 
-L’élément **ContactIds** contient un tableau d’identificateurs d’élément de contact. 
+**L’élément ContactIds** contient un tableau d’identificateurs d’élément de contact. 
   
 ```XML
 <ContactIds>
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types. xsd  <br/> |
+|Fichier de validation  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

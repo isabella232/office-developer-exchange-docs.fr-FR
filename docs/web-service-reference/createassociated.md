@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAssociated
 api_type:
 - schema
 ms.assetid: 742a6136-6015-4924-bae4-f3868127e966
-description: L’élément CreateAssociated indique si un client peut créer une table de contenu associée. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: e88d7670fd9ef848221dab8cc145395bcb11e5bf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CreateAssociated indique si un client peut créer une table des matières associée. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 5c260c04e537a020f0db39037acfadfd98d8c0c5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460791"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518637"
 ---
 # <a name="createassociated"></a>CreateAssociated
 
-L’élément **CreateAssociated** indique si un client peut créer une table de contenu associée. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément CreateAssociated** indique si un client peut créer une table des matières associée. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CreateAssociated>true or false</CreateAssociated>
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation de l’élément ou du dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation pour l’élément ou le dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique qu’un client peut créer une table de contenu associée. 
+Une valeur de texte **true** indique qu’un client peut créer une table des matières associée. 
   
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée uniquement sur les objets Folder.
+Cette propriété est utilisée uniquement sur les objets de dossier.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   

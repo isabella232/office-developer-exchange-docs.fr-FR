@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa4b1447-dc7b-47ad-a677-78fcee443dc6
-description: L’élément PolicyTag spécifie l’identificateur de rétention d’un élément ou d’un dossier.
-ms.openlocfilehash: ddc4d890d1e514586ba5ea7f6a8b541b2e4786c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PolicyTag spécifie l’identificateur de rétention sur un élément ou un dossier.
+ms.openlocfilehash: 16759748dded6978e68450a6b8d504dd378c04be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460896"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519253"
 ---
 # <a name="policytag"></a>PolicyTag
 
-L’élément **PolicyTag** spécifie l’identificateur de rétention d’un élément ou d’un dossier. 
+**L’élément PolicyTag** spécifie l’identificateur de rétention sur un élément ou un dossier. 
   
 ```xml
 <PolicyTag IsExplicit="true | false"></PolicyTag>
@@ -32,7 +32,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|IsExplicit  <br/> |Indique si une balise de stratégie a été définie explicitement sur un élément ou un dossier.  <br/> Une valeur de texte de **true** pour l’attribut **IsExplicit** indique que la balise de stratégie a été explicitement définie sur l’élément ou le dossier. Une valeur de type **false** indique que la balise de stratégie a été définie de manière implicite sur l’élément ou le dossier en fonction de la balise de stratégie de dossier parent.  <br/> |
+|IsExplicit  <br/> |Indique si une balise de stratégie a été explicitement définie sur un élément ou un dossier.  <br/> Une valeur de texte **true** pour l’attribut **IsExplicit** indique que la balise de stratégie a été explicitement définie sur l’élément ou le dossier. Une valeur de texte **false** indique que la balise de stratégie a été implicitement définie sur l’élément ou le dossier en fonction de la balise de stratégie de dossier parent.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -44,7 +44,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PolicyTag** est l’identificateur de la balise de stratégie. L’identificateur de la balise de stratégie est un GUID. 
+La valeur de texte de **l’élément PolicyTag** est l’identificateur de balise de stratégie. L’identificateur de balise de stratégie est un GUID. 
   
 ## <a name="remarks"></a>Remarques
 

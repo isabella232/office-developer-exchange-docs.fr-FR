@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad096246-113c-42ea-9e63-861b546003e8
-description: L’élément CarPhone spécifie un tableau de numéros de téléphone de voiture et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 41d0cc264da69ab17b8ebf109759139c4249719e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CarPhone spécifie un tableau de numéros de téléphone de voiture et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: dedcaa3403945c12c1717c1d7fb0f995cacaf267
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518811"
 ---
 # <a name="carphones"></a>CarPhones
 
-L’élément **CarPhone** spécifie un tableau de numéros de téléphone de voiture et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément CarPhone** spécifie un tableau de numéros de téléphone de voiture et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <CarPhones>
@@ -39,14 +39,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un numéro de téléphone et des informations de type et est associé à un ensemble d’attributions.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
+|[Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un numéro de téléphone et des informations de type et est associé à un ensemble d’attributions.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau d’attributions pour son élément **Value** associé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

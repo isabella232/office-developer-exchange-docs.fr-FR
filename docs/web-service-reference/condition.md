@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Condition
 api_type:
 - schema
 ms.assetid: 0790a3f2-cb31-4036-a757-7821aa0722cb
-description: L’élément condition identifie la condition qui doit être remplie pour que la partie action de la règle s’exécute.
-ms.openlocfilehash: 2aea11197f072a4dbe21292bb47075d6f273d31b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Condition identifie la condition qui doit être satisfaite pour que la partie Action de la règle soit exécutée.
+ms.openlocfilehash: 80efb2121e813a966faf419233cac4d23e971bc6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512006"
 ---
 # <a name="condition"></a>Condition
 
-L’élément **condition** identifie la condition qui doit être remplie pour que la partie action de la règle s’exécute. 
+**L’élément Condition** identifie la condition qui doit être satisfaite pour que la partie Action de la règle soit exécutée. 
   
 ```xml
 <Condition>
@@ -67,11 +67,11 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AllInternal](allinternal.md) <br/> |Renvoie la **valeur true** si tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur.  <br/> |
-|[Et (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour avoir la **valeur true**. Spécifie qu’il doit y avoir plus d’une condition de règle de protection enfant.  <br/> |
-|[Destinataireest](recipientis.md) <br/> |Spécifie que tout destinataire du message électronique correspond à l’un des destinataires spécifiés dans les éléments de [valeur enfant (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |Indique que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments de [valeur enfant (ProtectionRuleValueType)](value-protectionrulevaluetype.md) .  <br/> |
-|[True](true.md) <br/> |Spécifie une condition qui correspond toujours à.  <br/> |
+|[AllInternal](allinternal.md) <br/> |Renvoie la valeur **true si** tous les destinataires d’un message électronique sont internes à l’organisation de l’expéditeur.  <br/> |
+|[And (ProtectionRuleAndType)](and-protectionruleandtype.md) <br/> |Spécifie que tous les éléments enfants doivent correspondre pour être évalués sur **true**. Spécifie qu’il doit y avoir plusieurs conditions enfants de règle de protection.  <br/> |
+|[RecipientIs](recipientis.md) <br/> |Spécifie que n’importe quel destinataire du message électronique correspond à l’un des destinataires spécifiés dans les éléments [enfants Value (ProtectionRuleValueType).](value-protectionrulevaluetype.md)  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Spécifie que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments [Value enfant (ProtectionRuleValueType).](value-protectionrulevaluetype.md)  <br/> |
+|[True](true.md) <br/> |Spécifie une condition qui correspond toujours.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

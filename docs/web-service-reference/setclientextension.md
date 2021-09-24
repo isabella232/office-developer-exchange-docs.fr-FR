@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10d0739c-2591-4768-935c-b131b26e974d
-description: L’élément SetClientExtension contient une demande de définition d’une extension client.
-ms.openlocfilehash: a856cd6b7063f7399e584b9932fcaf7fdc53094e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetClientExtension contient une demande de définir une extension de client.
+ms.openlocfilehash: 9aa510e8e014f9e2b7bed941fef8cadf7f7fcea9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510860"
 ---
 # <a name="setclientextension"></a>SetClientExtension
 
-L’élément **SetClientExtension** contient une demande de définition d’une extension client. 
+**L’élément SetClientExtension** contient une demande de définir une extension de client. 
   
 ```XML
 <SetClientExtension>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

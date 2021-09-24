@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Items
 api_type:
 - schema
 ms.assetid: 402bfa6d-11d7-4547-b8bd-197e9922ab49
-description: L’élément ITEMS contient un tableau d’éléments à télécharger dans une boîte aux lettres.
-ms.openlocfilehash: 5c69134c1613b0a4595a6aa876fa09fde63043ea
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Items contient un tableau d’éléments à télécharger dans une boîte aux lettres.
+ms.openlocfilehash: 385197bd6b1bd4e8147869a3ffbc6ee7ea5c683f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44441547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519414"
 ---
 # <a name="items-nonemptyarrayofuploaditemstype"></a>Items (NonEmptyArrayOfUploadItemsType)
 
-L’élément **Items** contient un tableau d’éléments à télécharger dans une boîte aux lettres. 
+**L’élément Items** contient un tableau d’éléments à télécharger dans une boîte aux lettres. 
   
 [UploadItems](uploaditems.md)
   
@@ -46,7 +46,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Élément (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un élément unique à télécharger dans une boîte aux lettres.  <br/> |
+|[Item (UploadItemType)](item-uploaditemtype.md) <br/> |Représente un élément unique à télécharger dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -67,8 +67,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

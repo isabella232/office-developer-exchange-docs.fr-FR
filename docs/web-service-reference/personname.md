@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbd102b8-db70-4196-affe-d7ed66bf3371
-description: L’élément PersonName spécifie le nom d’une personne trouvée au moyen d’une extraction d’entité.
-ms.openlocfilehash: 7784cf1abb9098c181450baeb80468faf46c7d99
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PersonName spécifie le nom d’un individu trouvé au moyen de l’extraction d’entité.
+ms.openlocfilehash: a3525559d409c6c06f85637fa622350156f10e06
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44434084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528468"
 ---
 # <a name="personname"></a>PersonName
 
-L’élément **PersonName** spécifie le nom d’une personne trouvée au moyen d’une extraction d’entité. 
+**L’élément PersonName** spécifie le nom d’un individu trouvé au moyen de l’extraction d’entité. 
   
 ```XML
 <PersonName></PersonName>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **PersonName** est le nom d’une personne trouvée à la suite d’une extraction d’entité. 
+La valeur de texte de **l’élément PersonName** est le nom d’une personne trouvée suite à l’extraction de l’entité. 
   
 ## <a name="remarks"></a>Remarques
 

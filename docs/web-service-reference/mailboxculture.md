@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailboxCulture
 api_type:
 - schema
 ms.assetid: 105cc061-3c35-455f-b102-8023e2055632
-description: L’élément MailboxCulture indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se trouve dans l’en-tête SOAP.
-ms.openlocfilehash: 5760bac3b4589cdba599c5200db7d77b73855ca4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxCulture indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se produit dans l’en-tête SOAP.
+ms.openlocfilehash: f4626df58ea1e478765bb63f0a3e2c5af184b104
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467808"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519358"
 ---
 # <a name="mailboxculture"></a>MailboxCulture
 
-L’élément **MailboxCulture** indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se trouve dans l’en-tête SOAP. 
+**L’élément MailboxCulture** indique la culture à utiliser lors de l’ouverture d’une boîte aux lettres. Cet élément se produit dans l’en-tête SOAP. 
   
 ```xml
 <MailboxCulture/>
@@ -47,11 +47,11 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte indique la langue utilisée dans les opérations de service Web Exchange. Les valeurs possibles de cet élément sont décrites par la norme RFC 3066.
+La valeur de texte indique la langue utilisée dans les opérations Exchange service Web. Les valeurs possibles pour cet élément sont décrites par la RFC 3066.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server et sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server avec le rôle serveur d’accès au client installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

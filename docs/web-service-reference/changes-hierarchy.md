@@ -1,27 +1,27 @@
 ---
-title: Changes (hiérarchie)
+title: Modifications (hiérarchie)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Changes
 api_type:
 - schema
 ms.assetid: 918a0d1f-90a5-4eef-9592-07e15bef94e6
-description: L’élément changes contient un tableau séquencé de types de modifications qui représentent le type de différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007.
-ms.openlocfilehash: a296d87f23e85d42b4c8c858e92eddfb586a8324
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Changes contient un tableau séquentif de types de modifications qui représentent le type de différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007.
+ms.openlocfilehash: 1ecb43e37258ad5d8e12619436f14992cc2f788b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463271"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512120"
 ---
-# <a name="changes-hierarchy"></a>Changes (hiérarchie)
+# <a name="changes-hierarchy"></a>Modifications (hiérarchie)
 
-L’élément **changes** contient un tableau séquencé de types de modifications qui représentent le type de différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007. 
+L’élément **Changes** contient un tableau séquenquent des types de modifications qui représentent le type de différences entre les dossiers sur le client et les dossiers sur l’ordinateur qui exécute Microsoft Exchange Server 2007. 
   
 [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
   
@@ -29,7 +29,7 @@ L’élément **changes** contient un tableau séquencé de types de modificatio
   
 [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
   
-[Changes (hiérarchie)](changes-hierarchy.md)
+[Modifications (hiérarchie)](changes-hierarchy.md)
   
 ```xml
 <Changes>
@@ -52,15 +52,15 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Créer (FolderSync)](create-foldersync.md) <br/> |Identifie un dossier unique à créer dans le magasin de client local.  <br/> |
-|[Mise à jour (FolderSync)](update-foldersync.md) <br/> |Identifie un dossier unique à mettre à jour dans le magasin client local.  <br/> |
-|[Supprimer (FolderSync)](delete-foldersync.md) <br/> |Identifie un dossier unique à supprimer dans le magasin client local.  <br/> |
+|[Create (FolderSync)](create-foldersync.md) <br/> |Identifie un dossier unique à créer dans le magasin de client local.  <br/> |
+|[Update (FolderSync)](update-foldersync.md) <br/> |Identifie un dossier unique à mettre à jour dans le magasin de clients local.  <br/> |
+|[Delete (FolderSync)](delete-foldersync.md) <br/> |Identifie un dossier unique à supprimer dans le magasin de clients local.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande Opérationsyncfolderhierarchy.  <br/> |
+|[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md) <br/> |Contient l’état et le résultat d’une demande SyncFolderHierarchy.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -68,7 +68,7 @@ Une valeur de texte qui représente une valeur Boolean est requise.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur Exchange 2007 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur Exchange 2007 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -76,14 +76,14 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération Opérationsyncfolderhierarchy](syncfolderhierarchy-operation.md)
+[Opération SyncFolderHierarchy](syncfolderhierarchy-operation.md)
 
 
 [Référence EWS pour Exchange](ews-reference-for-exchange.md)

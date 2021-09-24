@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aadc1f90-e9ab-4411-b51f-2d43e5e22f2a
-description: L’élément AltitudeAccuracy spécifie la précision de la propriété altitude pour une adresse postale.
-ms.openlocfilehash: 3025982baae130421e5d48aa76ea8dc073f7a656
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AltitudeAccuracy spécifie la précision de la propriété altitude d’une adresse postale.
+ms.openlocfilehash: 75b56b0623de9c1a0945d9a569602e9863997498
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464748"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531275"
 ---
 # <a name="altitudeaccuracy"></a>AltitudeAccuracy
 
-L’élément **AltitudeAccuracy** spécifie la précision de la propriété altitude pour une adresse postale. 
+**L’élément AltitudeAccuracy** spécifie la précision de la propriété altitude d’une adresse postale. 
   
 ```XML
 <AltitudeAccuracy></AltitudeAccuracy>
 ```
 
- **XS : double**
+ **xs:double**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **AltitudeAccuracy** est l’estimation de la précision de la propriété altitude d’une adresse postale. 
+La valeur de texte de **l’élément AltitudeAccuracy** est l’estimation de précision de la propriété d’altitude d’une adresse postale. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

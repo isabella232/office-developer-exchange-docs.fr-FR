@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e924c66f-d17f-44e5-9e8e-e02d6117f431
-description: L’élément MiddleNames spécifie un tableau de valeurs de nom de milieu et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 08a2a4b1fafac6cdf25a745968a269b1c0ab6494
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MiddleNames spécifie un tableau de valeurs de deuxième prénom et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 088086eb0dc586b2f873d8a3864459526639ea04
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466268"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518217"
 ---
 # <a name="middlenames"></a>MiddleNames
 
-L’élément **MiddleNames** spécifie un tableau de valeurs de nom de milieu et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément MiddleNames** spécifie un tableau de valeurs de deuxième prénom et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <MiddleNames>

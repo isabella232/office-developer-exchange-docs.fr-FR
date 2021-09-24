@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95f016a9-002f-4be3-abd6-f5e3528afd44
 description: L’élément FindPeopleResponse spécifie la réponse à une demande FindPeople.
-ms.openlocfilehash: b969ac3f7bc2bbd3fc77bf753a15696c3b6d8216
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ce612b203ac30f51b2ea979dda3cf914606e0084
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466401"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518399"
 ---
 # <a name="findpeopleresponse"></a>FindPeopleResponse
 
-L’élément **FindPeopleResponse** spécifie la réponse à une demande **FindPeople** . 
+**L’élément FindPeopleResponse** spécifie la réponse à **une demande FindPeople.** 
   
 ```XML
 <FindPeopleResponse ResponseClass=" Success | Warning | Error ">
@@ -39,7 +39,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ResponseClass  <br/> |Spécifie la classe Response.  <br/> |
+|ResponseClass  <br/> |Spécifie la classe de réponse.  <br/> |
    
 #### <a name="responseclass"></a>ResponseClass
 
@@ -53,11 +53,11 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contacts](people.md) <br/> |Spécifie un tableau de données Persona renvoyées comme résultat d’une demande **FindPeople** .  <br/> |
-|[TotalNumberOfPeopleInView](totalnumberofpeopleinview.md) <br/> |Indique le nombre total de personnes qui sont stockées sur un serveur et qui sont renvoyées par une demande **FindPeople** .  <br/> |
+|[Contacts](people.md) <br/> |Spécifie un tableau de données de personnage renvoyée à la suite d’une **demande FindPeople.**  <br/> |
+|[TotalNumberOfPeopleInView](totalnumberofpeopleinview.md) <br/> |Spécifie le nombre total de personnes stockées sur un serveur qui sont renvoyées par une **demande FindPeople.**  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit des informations sur l’état de la demande.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit des informations d’état sur la demande.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé pour une utilisation ultérieure.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -77,8 +77,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

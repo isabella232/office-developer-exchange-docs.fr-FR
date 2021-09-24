@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c016fc3-0e13-4624-9a5b-d3e84577a860
 description: Trouvez des informations sur l’opération EWS GetAppMarketplaceUrl.
-ms.openlocfilehash: 6797af44c3aaa6653c440b3d53a282d8c90a4381
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f9dd41a43b92910ec596b95a0ce1e99a239ba01e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530089"
 ---
 # <a name="getappmarketplaceurl-operation"></a>Opération GetAppMarketplaceUrl
 
-Trouvez des informations sur l’opération EWS **GetAppMarketplaceUrl** . 
+Trouvez des informations sur l’opération EWS **GetAppMarketplaceUrl.** 
   
-L’opération **GetAppMarketplaceUrl** récupère l’URL du Marketplace d’application qu’un client peut visiter pour acquérir des applications à installer dans une boîte aux lettres. 
+**L’opération GetAppMarketplaceUrl** récupère l’URL de l’app marketplace qu’un client peut visiter pour acquérir des applications à installer dans une boîte aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getappmarketplaceurl-operation"></a>Utilisation de l’opération GetAppMarketplaceUrl
 
-L’opération **GetAppMarketplaceUrl** ne prend aucun argument pour demander l’URL pour la Marketplace à partir de laquelle un client peut installer des applications. La réponse contient une URL vers le Marketplace d’application. 
+**L’opération GetAppMarketplaceUrl** ne prend aucun argument pour demander l’URL de la place de marché à partir de laquelle un client peut installer des applications. La réponse contient une URL vers le marketplace de l’application. 
   
-### <a name="getappmarketplaceurl-operation-soap-headers"></a>En-têtes SOAP d’opération GetAppMarketplaceUrl
+### <a name="getappmarketplaceurl-operation-soap-headers"></a>En-têtes SOAP de l’opération GetAppMarketplaceUrl
 
-L’opération **GetAppMarketplaceUrl** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetAppMarketplaceUrl** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getappmarketplaceurl-operation-request-example-get-the-app-marketplace-url-for-a-mailbox"></a>Exemple de requête d’opération GetAppMarketplaceUrl : obtenir l’URL d’application Marketplace pour une boîte aux lettres
+## <a name="getappmarketplaceurl-operation-request-example-get-the-app-marketplace-url-for-a-mailbox"></a>Exemple de demande d’opération GetAppMarketplaceUrl : obtenir l’URL du marketplace d’application pour une boîte aux lettres
 
-L’exemple suivant de demande d’opération **GetAppMarketplaceUrl** indique comment obtenir l’URL d’application Marketplace pour une boîte aux lettres. 
+L’exemple suivant **d’une demande d’opération GetAppMarketplaceUrl** montre comment obtenir l’URL de l’application Marketplace pour une boîte aux lettres. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -62,7 +62,7 @@ L’exemple suivant de demande d’opération **GetAppMarketplaceUrl** indique c
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [GetAppMarketplaceUrl](getappmarketplaceurl.md)
     
@@ -72,10 +72,10 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-getappmarketplaceurl-operation-response"></a>Réponse de l’opération GetAppMarketplaceUrl réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **GetAppMarketplaceUrl** pour obtenir l’URL d’application Marketplace pour une boîte aux lettres. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **GetAppMarketplaceUrl** pour obtenir l’URL du marketplace d’application pour une boîte aux lettres. 
   
 > [!NOTE]
-> L’URL d’application Marketplace a été modifiée afin de préserver la lisibilité. 
+> L’URL du marketplace de l’application a été modifiée pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -103,7 +103,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md)
     
@@ -113,9 +113,9 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="getappmarketplaceurl-operation-error-response"></a>Réponse d’erreur d’opération GetAppMarketPlaceUrl
 
-Les erreurs renvoyées pour cette opération sont liées à une configuration de service incorrecte ou à des erreurs EWS génériques. Pour les codes d’erreur génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md). 
+Les erreurs renvoyées pour cette opération sont liées à une configuration de service incorrecte ou sont des erreurs EWS génériques. Pour les codes d’erreur qui sont génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md). 
   
-L’exemple suivant montre une réponse d’erreur renvoyée lorsque le panneau de configuration Exchange externe n’est pas configuré.
+L’exemple suivant montre une réponse d’erreur qui est renvoyée lorsque le Exchange de configuration externe (ECP) n’est pas configuré.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -143,7 +143,7 @@ L’exemple suivant montre une réponse d’erreur renvoyée lorsque le panneau 
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [GetAppMarketplaceUrlResponse](getappmarketplaceurlresponse.md)
     

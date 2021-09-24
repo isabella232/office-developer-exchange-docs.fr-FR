@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailTipsEnabled
 api_type:
 - schema
 ms.assetid: 737388b3-7b73-42af-94d3-3dbb0659718f
-description: L’élément MailTipsEnabled indique si le service de conseils de messagerie est disponible.
-ms.openlocfilehash: 6be923733f1cbd584010ce5f8ee5b96178d5c2c0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailTipsEnabled indique si le service d’infos-courrier est disponible.
+ms.openlocfilehash: 7444ba7218ebfed85b02dafb0358af9781b22059
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468011"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511144"
 ---
 # <a name="mailtipsenabled"></a>MailTipsEnabled
 
-L’élément **MailTipsEnabled** indique si le service de conseils de messagerie est disponible. 
+**L’élément MailTipsEnabled** indique si le service d’infos-courrier est disponible. 
   
 ```xml
 <MailTipsEnabled>true | false</MailTipsEnabled>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient les informations de configuration de service pour le service de conseils de messagerie.  <br/> |
+|[MailTipsConfiguration (MailTipsServiceConfiguration)](mailtipsconfiguration-mailtipsserviceconfiguration.md) <br/> |Contient des informations de configuration de service pour le service d’info-courrier.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément est **true** si le service de conseils de messagerie est disponible. La valeur est **false** si le service de conseils de messagerie n’est pas disponible. 
+La valeur textuelle de cet élément est **true** si le service d’infos-courrier est disponible. La valeur est **false si** le service d’infos-courrier n’est pas disponible. 
   
 ## <a name="remarks"></a>Remarques
 

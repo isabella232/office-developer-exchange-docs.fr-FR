@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NumberOfMembers
 api_type:
 - schema
 ms.assetid: 845fb877-de49-4e26-8885-6f026edd9ee9
 description: L’élément NumberOfMembers représente le nombre d’utilisateurs, de ressources et de salles dans une liste de distribution.
-ms.openlocfilehash: c91087f42d806afb0a0d3d607cc84f14a1a6c1b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d1a0f2afc1935f846dbe3d5ce1ba4385cf3cf8dd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529786"
 ---
 # <a name="numberofmembers"></a>NumberOfMembers
 
-L’élément **NumberOfMembers** représente le nombre d’utilisateurs, de ressources et de salles dans une liste de distribution. 
+**L’élément NumberOfMembers** représente le nombre d’utilisateurs, de ressources et de salles dans une liste de distribution. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -33,7 +33,7 @@ L’élément **NumberOfMembers** représente le nombre d’utilisateurs, de res
   
 [SuggestionArray](suggestionarray.md)
   
-[Suggérer](suggestion.md)
+[Suggestion](suggestion.md)
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
@@ -62,11 +62,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations sur les conflits d’agrégation concernant le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui n’ont pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
+|[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contient des informations de conflit agrégées sur le nombre d’utilisateurs disponibles, le nombre d’utilisateurs qui ont des conflits et le nombre d’utilisateurs qui ne disposent pas d’informations de disponibilité dans une liste de distribution pour une heure de réunion suggérée.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]/SuggestionArray/Suggestion[i]/AttendeeConflictDataArray/GroupAttendeeConflictData` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur maximale de l’élément **NumberOfMembers** est 100. 
+La valeur maximale de **l’élément NumberOfMembers** est 100. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

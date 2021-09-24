@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
-description: L’élément UnpinTeamMailboxResponse contient une réponse à une demande de désépinglage d’une boîte aux lettres de site.
-ms.openlocfilehash: ba1f61a7b5b5b4d5af6805c13d84ee15e3559751
-ms.sourcegitcommit: eeda51cb037aa25566adb293f25574674fdb2d9e
+description: L’élément UnpinTeamMailboxResponse contient une réponse à une demande de désépin d’une boîte aux lettres de site.
+ms.openlocfilehash: a1302992ec53b5765ff2d098c682fc780d3fa599
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510741"
 ---
 # <a name="unpinteammailboxresponse"></a>UnpinTeamMailboxResponse
 
-L’élément **UnpinTeamMailboxResponse** contient une réponse à une demande de désépinglage d’une boîte aux lettres de site. 
+**L’élément UnpinTeamMailboxResponse** contient une réponse à une demande de désépin d’une boîte aux lettres de site. 
   
 ```XML
 <UnpinTeamMailboxResponse>
@@ -39,7 +39,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [Messagexml](messagexml.md)
+[MessageText](messagetext.md)  |  [ResponseCode](responsecode.md)  |  [DescriptiveLinkKey](descriptivelinkkey.md)  |  [MessageXml](messagexml.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

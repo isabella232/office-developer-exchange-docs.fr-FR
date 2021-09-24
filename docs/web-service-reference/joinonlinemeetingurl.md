@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
-description: L’élément JoinOnlineMeetingUrl spécifie l’URL à laquelle participer à une réunion en ligne.
-ms.openlocfilehash: 57fb6c144d673f7e25b98e5450759f42312564a4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément JoinOnlineMeetingUrl spécifie l’URL pour participer à une réunion en ligne.
+ms.openlocfilehash: 5b9d07b82ecbb4ae719e142405d179deb2bb2a25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454126"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519407"
 ---
 # <a name="joinonlinemeetingurl"></a>JoinOnlineMeetingUrl
 
-L’élément **JoinOnlineMeetingUrl** spécifie l’URL à laquelle participer à une réunion en ligne. 
+**L’élément JoinOnlineMeetingUrl** spécifie l’URL pour participer à une réunion en ligne. 
   
 ```XML
 <JoinOnlineMeetingUrl></JoinOnlineMeetingUrl>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **JoinOnlineMeetingUrl** est l’URL de la réunion en ligne. 
+La valeur de texte de **l’élément JoinOnlineMeetingUrl** est l’URL de la réunion en ligne. 
   
 ## <a name="remarks"></a>Remarques
 

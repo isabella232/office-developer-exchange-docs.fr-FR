@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FolderClass
 api_type:
 - schema
 ms.assetid: 0041d135-2869-4612-89a5-d1aa86aa1093
 description: L’élément FolderClass représente la classe de dossier d’un dossier.
-ms.openlocfilehash: ee5d382251a66ab5fbcd8054e6b5cfac82b5f994
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: c94fd7aa889e9b4ba3fbd22df6c8593f4592a0d1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511740"
 ---
 # <a name="folderclass"></a>FolderClass
 
-L’élément **FolderClass** représente la classe de dossier d’un dossier. 
+**L’élément FolderClass** représente la classe de dossier d’un dossier. 
   
 ```xml
 <FolderClass/>
@@ -52,7 +52,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Les classes de dossier commencent généralement par « IPF ».
+Une valeur de texte est requise. Les classes de dossiers commencent généralement par « IPF ».
   
 ## <a name="remarks"></a>Remarques
 

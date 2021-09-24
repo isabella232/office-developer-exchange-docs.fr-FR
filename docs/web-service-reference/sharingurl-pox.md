@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d590188a-5aa6-46c6-ab5f-2a0dd6793109
 description: L’élément SharingUrl contient l’URL du serveur de partage utilisé pour le partage entre les organisations des calendriers et des contacts.
-ms.openlocfilehash: 9c793935808dbd20d2dc0631b82ee74db3f8a19f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f76f29133f81ff92a78c8ae84da5ad9f107a709d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465253"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531771"
 ---
 # <a name="sharingurl-pox"></a>SharingUrl (POX)
 
-L’élément **SharingUrl** contient l’URL du serveur de partage utilisé pour le partage entre les organisations des calendriers et des contacts. 
+**L’élément SharingUrl** contient l’URL du serveur de partage utilisé pour le partage entre les organisations des calendriers et des contacts. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -48,19 +48,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente l’URL du serveur de partage utilisé pour le partage entre les organisations des calendriers et des contacts.
+La valeur de texte représente l’URL du serveur de partage utilisé pour le partage entre les organisations des calendriers et des contacts.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **SharingUrl** est un élément enfant facultatif de l’élément **Protocol** . 
+**L’élément SharingUrl** est un élément enfant facultatif de l’élément **Protocol.** 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

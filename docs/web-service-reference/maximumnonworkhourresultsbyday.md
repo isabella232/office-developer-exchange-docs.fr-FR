@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MaximumNonWorkHourResultsByDay
 api_type:
 - schema
 ms.assetid: 9fb7314d-779c-4b1f-9d7c-b5cb092ed134
-description: L’élément MaximumNonWorkHourResultsByDay spécifie le nombre de résultats suggérés pour les heures de travail en dehors des heures ouvrées normales par jour.
-ms.openlocfilehash: 410d6bd84838d979af6bc53ca47f445ae55a09e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MaximumNonWorkHourResultsByDay spécifie le nombre de résultats suggérés pour les heures de réunion en dehors des heures de travail normales par jour.
+ms.openlocfilehash: e5fc7be91b8551215d14783d4d7640a722d50968
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511151"
 ---
 # <a name="maximumnonworkhourresultsbyday"></a>MaximumNonWorkHourResultsByDay
 
-L’élément **MaximumNonWorkHourResultsByDay** spécifie le nombre de résultats suggérés pour les heures de travail en dehors des heures ouvrées normales par jour. 
+**L’élément MaximumNonWorkHourResultsByDay** spécifie le nombre de résultats suggérés pour les heures de réunion en dehors des heures de travail normales par jour. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. La valeur texte représente un entier.
+Une valeur de texte est requise. La valeur de texte représente un integer.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément est requis si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
+Cet élément est requis si [l’élément SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

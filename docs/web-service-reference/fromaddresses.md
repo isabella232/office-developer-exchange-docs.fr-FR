@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FromAddresses
 api_type:
 - schema
 ms.assetid: b219f315-c20a-4633-af3e-94bd3e4526b6
-description: L’élément FromAddresses indique les adresses de messagerie à partir desquelles les messages entrants doivent être envoyés afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 4fbb44d02f5010c4395cf691cb6160da4dbb6930
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FromAddresses indique les adresses de messagerie à partir des lesquelles les messages entrants doivent être envoyés afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: b58f805b71329ea779c894427eb9fc73ef414902
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541272"
 ---
 # <a name="fromaddresses"></a>FromAddresses
 
-L’élément **FromAddresses** indique les adresses de messagerie à partir desquelles les messages entrants doivent être envoyés afin que la condition ou l’exception s’applique. 
+**L’élément FromAddresses** indique les adresses de messagerie à partir des lesquelles les messages entrants doivent être envoyés afin que la condition ou l’exception s’applique. 
   
 ```XML
 <FromAddresses>
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

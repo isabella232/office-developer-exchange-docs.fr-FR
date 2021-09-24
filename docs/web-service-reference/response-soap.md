@@ -1,24 +1,24 @@
 ---
-title: Réponse (SOAP)
+title: Response (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 4c2bcdeb-95ce-4ffa-bd83-118af53b534f
-description: L’élément Response contient la réponse à une demande d’opération GetUserSettings (SOAP), GetDomainSettings Operation (SOAP) ou GetFederationInformation Operation (SOAP).
-ms.openlocfilehash: 90cb29dd4ce4026211a5b592f149c8190dc81d29
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Response contient la réponse à une opération GetUserSettings (SOAP), à une opération GetDomainSettings (SOAP) ou à une demande d’opération GetFederationInformation (SOAP).
+ms.openlocfilehash: d42014991db8e93f88b80bed97970f043290cfb1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512358"
 ---
-# <a name="response-soap"></a>Réponse (SOAP)
+# <a name="response-soap"></a>Response (SOAP)
 
-L’élément **Response** contient la réponse à une demande d’opération [GetUserSettings (SOAP](getusersettings-operation-soap.md)), [GetDomainSettings Operation (SOAP)](getdomainsettings-operation-soap.md)ou [GetFederationInformation Operation (SOAP)](getfederationinformation-operation-soap.md) . 
+**L’élément Response** contient la réponse à une opération [GetUserSettings (SOAP),](getusersettings-operation-soap.md)à une opération [GetDomainSettings (SOAP)](getdomainsettings-operation-soap.md)ou à une demande d’opération [GetFederationInformation (SOAP).](getfederationinformation-operation-soap.md) 
   
 ```XML
 <Response>
@@ -43,15 +43,15 @@ Aucune.
 |:-----|:-----|
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Représente un code d’erreur renvoyé par le service de découverte automatique.  <br/> |
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Représente un message associé à un code d’erreur renvoyé par le service de découverte automatique.  <br/> |
-|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Contient les paramètres de configuration de chaque utilisateur demandé.  <br/> |
+|[UserResponses (SOAP)](userresponses-soap.md) <br/> |Contient les paramètres de configuration pour chaque utilisateur demandé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md) <br/> |Définit une réponse à une [GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |
-|[GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md) <br/> |Définit une réponse à un [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md).  <br/> |
-|[GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md) <br/> |Définit une réponse à un [GetFederationInformationRequest (SOAP)](getfederationinformationrequest-soap.md).  <br/> |
+|[GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md) <br/> |Définit une réponse à [une demande GetUserSettingsRequest (SOAP)](getusersettingsrequest-soap.md) <br/> |
+|[GetDomainSettingsResponseMessage (SOAP)](getdomainsettingsresponsemessage-soap.md) <br/> |Définit une réponse à [une demande GetDomainSettingsRequest (SOAP).](getdomainsettingsrequest-soap.md)  <br/> |
+|[GetFederationInformationResponseMessage (SOAP)](getfederationinformationresponsemessage-soap.md) <br/> |Définit une réponse à [une getFederationInformationRequest (SOAP)](getfederationinformationrequest-soap.md).  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -63,7 +63,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

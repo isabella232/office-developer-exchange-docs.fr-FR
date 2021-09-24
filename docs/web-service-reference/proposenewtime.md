@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d5977ac-484e-4e53-92ba-58a868eb3395
 description: L’élément ProposeNewTime spécifie un objet de réponse qui indique que le participant à la réunion peut proposer une nouvelle heure de réunion.
-ms.openlocfilehash: 76f590db760826aa2cd26938947a9b0e02a603f7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e8890029f9a6e3dacb59a9a4a23070ca0de6844c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519134"
 ---
 # <a name="proposenewtime"></a>ProposeNewTime
 
-L’élément **ProposeNewTime** spécifie un objet de réponse qui indique que le participant à la réunion peut proposer une nouvelle heure de réunion. 
+**L’élément ProposeNewTime** spécifie un objet de réponse qui indique que le participant à la réunion peut proposer une nouvelle heure de réunion. 
   
 ```XML
 <ProposeNewTime ObjectName=""></ProposeNewTime>
@@ -34,7 +34,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ObjectName  <br/> |Nom de l’objet de la réponse.  <br/> |
+|ObjectName  <br/> |Nom de l’objet de réponse.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90841617-3b83-4124-8125-0293c9470f4a
-description: L’élément IsUndecidedApprovalRequest spécifie si un message de demande d’approbation a été traité.
-ms.openlocfilehash: 0949cf64b8583c4b3fa5a1700475f01cc480f69f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsUndecidedApprovalRequest spécifie si un message de demande d’approbation a été pris en compte.
+ms.openlocfilehash: 5204793490015bd2999322c0f029445c7df91e02
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458172"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511412"
 ---
 # <a name="isundecidedapprovalrequest"></a>IsUndecidedApprovalRequest
 
-L’élément **IsUndecidedApprovalRequest** spécifie si un message de demande d’approbation a été traité. 
+**L’élément IsUndecidedApprovalRequest** spécifie si un message de demande d’approbation a été pris en compte. 
   
 ```XML
 <IsUndecidedApprovalRequest> true | false </IsUndecidedApprovalRequest>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **IsUndecidedApprovalRequest** est **true** si aucun message de demande d’approbation n’a été traité. La valeur **false** indique que la demande d’approbation a été décidée. 
+La valeur de texte de l’élément **IsUndecidedApprovalRequest** est **true** si un message de demande d’approbation n’a pas été pris en compte. La valeur **false indique** que la demande d’approbation a été décidée. 
   
 ## <a name="remarks"></a>Remarques
 

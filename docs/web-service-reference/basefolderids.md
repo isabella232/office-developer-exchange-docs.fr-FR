@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseFolderIds
 api_type:
 - schema
 ms.assetid: bdaa6093-f960-469a-b338-0e75aaa536c6
-description: L’élément BaseFolderIds représente la collection de dossiers qui seront extraites pour déterminer le contenu d’un dossier de recherche.
-ms.openlocfilehash: 97159ec1ded685e63aafedfaf90a06eff39adaab
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément BaseFolderIds représente la collection de dossiers qui seront extraits pour déterminer le contenu d’un dossier de recherche.
+ms.openlocfilehash: 3a108e6215c6a444117aa65c756352b9800f6948
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460266"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518945"
 ---
 # <a name="basefolderids"></a>BaseFolderIds
 
-L’élément **BaseFolderIds** représente la collection de dossiers qui seront extraites pour déterminer le contenu d’un dossier de recherche. 
+**L’élément BaseFolderIds** représente la collection de dossiers qui seront extraits pour déterminer le contenu d’un dossier de recherche. 
   
 ```xml
 <BaseFolderIds>
@@ -44,7 +44,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contient l’identificateur et la clé de modification d’un dossier.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par nom.  <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifie les dossiers MicrosoftExchange Server 2007 qui peuvent être référencés par leur nom.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -54,9 +54,9 @@ Aucune.
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **BaseFolderIds** doit contenir au moins un élément [FolderId](folderid.md) ou [DistinguishedFolderId](distinguishedfolderid.md) . 
+**L’élément BaseFolderIds doit** contenir au moins un [élément FolderId](folderid.md) ou [DistinguishedFolderId.](distinguishedfolderid.md) 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

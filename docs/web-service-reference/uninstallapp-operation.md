@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7707aa6a-381d-43f7-a454-54f6343ed127
 description: Trouvez des informations sur l’opération EWS UninstallApp.
-ms.openlocfilehash: 27931636ee13a251fb03fe804987d7b01a325230
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8a301360b2b4c38d85e8c5be2e80c79378d0fd97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467150"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527145"
 ---
 # <a name="uninstallapp-operation"></a>Opération UninstallApp
 
-Trouvez des informations sur l’opération EWS **UninstallApp** . 
+Trouvez des informations sur l’opération EWS **UninstallApp.** 
   
-L’opération **UninstallApp** désinstalle une application de messagerie pour Outlook. 
+**L’opération UninstallApp** désinstalle une application de messagerie pour Outlook. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-uninstallapp-operation"></a>Utilisation de l’opération UninstallApp
 
-L’opération **UninstallApp** prend un argument dans la demande qui identifie l’application de messagerie à désinstaller. 
+**L’opération UninstallApp** prend un argument dans la demande qui identifie l’application de messagerie à désinstaller. 
   
-### <a name="uninstallapp-operation-soap-headers"></a>En-têtes SOAP d’opération UninstallApp
+### <a name="uninstallapp-operation-soap-headers"></a>En-têtes SOAP de l’opération UninstallApp
 
-L’opération **UninstallApp** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération UninstallApp** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Exemple de requête d’opération UninstallApp : désinstaller une application de messagerie dans une boîte aux lettres
+## <a name="uninstallapp-operation-request-example-uninstall-a-mail-app-in-a-mailbox"></a>Exemple de demande d’opération UninstallApp : Désinstaller une application de messagerie dans une boîte aux lettres
 
-L’exemple suivant de demande d’opération **UninstallApp** montre comment désinstaller une application de messagerie à l’aide de l’identificateur d’application. L’identificateur de l’application se trouve dans le manifeste de l’application qui est renvoyé par l' [opération GetAppManifests](getappmanifests-operation.md).
+L’exemple suivant **d’une demande d’opération UninstallApp** montre comment désinstaller une application de messagerie à l’aide de l’identificateur d’application. L’identificateur d’application se trouve dans le manifeste de l’application qui est renvoyé par [l’opération GetAppManifests](getappmanifests-operation.md).
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -56,15 +56,15 @@ L’exemple suivant de demande d’opération **UninstallApp** montre comment d�
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [UninstallApp](uninstallapp.md)
     
-- [ID (chaîne)](id-string.md)
+- [ID (String)](id-string.md)
     
 ## <a name="successful-uninstallapp-operation-response"></a>Réponse de l’opération UninstallApp réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **UninstallApp** pour désinstaller une application de messagerie. 
+L’exemple suivant montre une réponse réussie à **une demande d’opération UninstallApp** pour désinstaller une application de messagerie. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -90,7 +90,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [UninstallAppResponse](uninstallappresponse.md)
     
@@ -98,7 +98,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="uninstallapp-operation-error-response"></a>Réponse d’erreur d’opération UninstallApp
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **UninstallApp** . Il s’agit d’une réponse à une demande de désinstallation d’une application de messagerie qui a déjà été désinstallée. 
+L’exemple suivant montre une réponse d’erreur à **une demande d’opération UninstallApp.** Il s’agit d’une réponse à une demande de désinstallation d’une application de messagerie qui a déjà été désinstallée. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -126,7 +126,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 </s:Envelope>
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [UninstallAppResponse](uninstallappresponse.md)
     
@@ -136,7 +136,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

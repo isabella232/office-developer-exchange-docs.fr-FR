@@ -1,27 +1,27 @@
 ---
-title: Option
+title: Item
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Item
 api_type:
 - schema
 ms.assetid: 4dfe8f48-e7b4-444d-bdf9-a34e180f598b
-description: L’élément item représente un élément générique dans la Banque d’Exchange.
-ms.openlocfilehash: 72d8b1344bea3bcd105a0e293365b17f37193ac3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Item représente un élément générique dans la Exchange store.
+ms.openlocfilehash: bf634949d440b5c8223aeb90c04e63825e1198e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59540943"
 ---
-# <a name="item"></a>Option
+# <a name="item"></a>Item
 
-L’élément **Item** représente un élément générique dans la Banque d’Exchange. 
+**L’élément Item** représente un élément générique dans la Exchange store. 
   
 ```xml
 <Item>
@@ -104,9 +104,9 @@ Aucune.
 |[ReminderDueBy](reminderdueby.md) <br/> |Indique la date et l'heure auxquelles l'événement se produit. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche.  <br/> |
 |[ReminderIsSet](reminderisset.md) <br/> |Indique si un rappel a été défini pour un élément dans la banque d'informations Exchange.  <br/> |
 |[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Représente le nombre de minutes avant un événement lors de l'affichage d'un rappel.  <br/> |
-|[DisplayCc](displaycc.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la zone CC. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires Cc.  <br/> |
-|[DisplayTo](displayto.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la zone à. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.  <br/> |
-|[HasAttachments](hasattachments.md) <br/> |Représente une propriété qui est définie sur **true** si un élément comporte des pièces jointes au moins une pièce jointe visible. Cette propriété est en lecture seule.  <br/> |
+|[DisplayCc](displaycc.md) <br/> |Représente la chaîne d’affichage utilisée pour le contenu de la zone Cc. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires Cc.  <br/> |
+|[DisplayTo](displayto.md) <br/> |Représente la chaîne d’affichage utilisée pour le contenu de la zone À. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.  <br/> |
+|[HasAttachments](hasattachments.md) <br/> |Représente une propriété définie sur **true** si un élément a des pièces jointes au moins une pièce jointe visible. Cette propriété est en lecture seule.  <br/> |
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues sur les dossiers et les éléments.  <br/> |
 |[Culture](culture.md) <br/> |Représente la culture d'un élément donné dans une boîte aux lettres.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d'autorisation pour l'élément ou le dossier. Cet élément est en lecture seule.  <br/> |
@@ -123,9 +123,9 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AdjacentMeetings](adjacentmeetings.md) <br/> |Décrit tous les éléments de calendrier qui sont adjacents à une heure de réunion.  <br/> |
-|[AppendToItemField](appendtoitemfield.md) <br/> |Identifie les données à ajouter à une propriété unique d’un élément ou d’un dossier lors d’une [opération UpdateItem](updateitem-operation.md).  <br/> |
-|[ConflictingMeetings](conflictingmeetings.md) <br/> |Identifie tous les éléments qui sont en conflit avec une heure de réunion.  <br/> |
-|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin client local.  <br/> |
+|[AppendToItemField](appendtoitemfield.md) <br/> |Identifie les données à appendre à une propriété unique d’un élément/dossier lors d’une [opération UpdateItem](updateitem-operation.md).  <br/> |
+|[ConflictingMeetings](conflictingmeetings.md) <br/> |Identifie tous les éléments qui entrent en conflit avec une heure de réunion.  <br/> |
+|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin de clients local.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[Items](items.md) <br/> |Contient un tableau d'éléments.  <br/> |
 |[Éléments (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contient un tableau d'éléments à créer dans le dossier qui est identifié par l'élément [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md).  <br/> |
@@ -138,9 +138,9 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Il est important de noter que **ItemType** est le type de base pour les [tâches](task.md), les [CalendarItem](calendaritem.md), les [contacts](contact.md), les [DistributionList](distributionlist.md)et les [messages](message-ex15websvcsotherref.md).
+Il est important de noter que **ItemType** est le type de base pour [Task](task.md), [CalendarItem](calendaritem.md), [Contact](contact.md), [DistributionList](distributionlist.md)et [Message](message-ex15websvcsotherref.md).
   
-Les éléments de [message](message-ex15websvcsotherref.md) représentent les messages électroniques et tous les autres éléments qui ne sont pas fortement typés par le schéma des services Web Exchange (EWS). Des éléments tels que IPM. Le partage et IPM. InfoPath sont renvoyés en tant qu’éléments **message** . Microsoft Exchange Server 2010 ne renvoie pas l’élément **élément** de base dans les réponses. 
+[Les](message-ex15websvcsotherref.md) éléments de message représentent les messages électroniques et tous les autres éléments qui ne sont pas fortement typés par le schéma Exchange Web Services (EWS). Éléments tels que IPM. Le partage et IPM.InfoPath sont renvoyés en tant **qu’éléments message.** Microsoft Exchange Server 2010 ne retourne pas l’élément **Item** de base dans les réponses. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   

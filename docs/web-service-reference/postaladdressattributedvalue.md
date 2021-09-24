@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f92aa41-1499-4d96-a973-24529ec64d24
 description: L’élément PostalAddressAttributedValue spécifie une instance d’un tableau d’adresses postales et leurs attributions associées.
-ms.openlocfilehash: bf5becca8ee0f143728010c5d0b1ed5a380838ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a4f89b7b2dd54aafe51e0b20da032cc28a90cfeb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519218"
 ---
 # <a name="postaladdressattributedvalue"></a>PostalAddressAttributedValue
 
-L’élément **PostalAddressAttributedValue** spécifie une instance d’un tableau d’adresses postales et leurs attributions associées. 
+**L’élément PostalAddressAttributedValue** spécifie une instance d’un tableau d’adresses postales et leurs attributions associées. 
   
 ```XML
 <PostalAddressAttributedValue>
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Valeur (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+[Value (PersonaPostalAddressType)](value-personapostaladdresstype.md)  |  [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

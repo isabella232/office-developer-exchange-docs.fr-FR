@@ -1,27 +1,27 @@
 ---
-title: Codes
+title: Ids
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Ids
 api_type:
 - schema
 ms.assetid: c54cdeaf-6761-4d1a-a329-fb279f0e2a64
-description: L’élément IDS contient un tableau d’identificateurs de définition de fuseau horaire.
-ms.openlocfilehash: 1c5a6974c8d3abc318ff122f3db09d8c3472dc65
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IDs contient un tableau d’identificateurs de définition de fuseau horaire.
+ms.openlocfilehash: a5ff1899a50b13213e07005210609194ece61542
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457619"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529784"
 ---
-# <a name="ids"></a>Codes
+# <a name="ids"></a>Ids
 
-L’élément **IDS** contient un tableau d’identificateurs de définition de fuseau horaire. 
+**L’élément IDs** contient un tableau d’identificateurs de définition de fuseau horaire. 
   
 ```XML
 <Ids>
@@ -42,13 +42,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ID (TimeZone)](id-timezone.md) <br/> |Élément qui identifie une définition de fuseau horaire unique.  <br/> |
+|[Id (TimeZone)](id-timezone.md) <br/> |Élément qui identifie une définition de fuseau horaire unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetServerTimeZones](getservertimezones.md) <br/> |Définit une demande de récupération des définitions de fuseau horaire à partir du serveur Exchange.  <br/> |
+|[GetServerTimeZones](getservertimezones.md) <br/> |Définit une demande de récupération des définitions de fuseau horaire à partir Exchange serveur.  <br/> |
    
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -56,7 +56,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38318ed6-3774-4342-b1bf-1d551ecf077c
-description: L’élément photo contient une valeur qui code la photo d’un contact.
-ms.openlocfilehash: 5e356982dc75d8cd4edb5f5d17f26a3dc2e93698
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Photo contient une valeur qui code la photo d’un contact.
+ms.openlocfilehash: 2af544124de6ec2bfaaec4671c0e4df5903a94cd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528128"
 ---
 # <a name="photo"></a>Photo
 
-L’élément **photo** contient une valeur qui code la photo d’un contact. 
+**L’élément Photo** contient une valeur qui code la photo d’un contact. 
   
 ```XML
 <Photo/>

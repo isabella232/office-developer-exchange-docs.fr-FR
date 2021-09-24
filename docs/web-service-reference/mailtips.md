@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailTips
 api_type:
 - schema
 ms.assetid: c1cba493-bccc-4b8e-be8e-bfa8a8b10882
-description: L’élément infos-courrier représente les valeurs de différents types de conseils de courrier.
-ms.openlocfilehash: 9bacdea7b4f3108f700ed102025445e01a73e69d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailTips représente les valeurs de différents types d’infos-courrier.
+ms.openlocfilehash: bf7ed542d51f2a8cb3172275be12cb72104bc5b2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44447595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511137"
 ---
 # <a name="mailtips"></a>MailTips
 
-L’élément **infos-courrier** représente les valeurs de différents types de conseils de courrier. 
+**L’élément MailTips** représente les valeurs de différents types d’infos-courrier. 
   
 ```XML
 <MailTips>
@@ -53,16 +53,16 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[RecipientAddress](recipientaddress.md) <br/> |Représente la boîte aux lettres du destinataire.  <br/> |
-|[PendingMailTips](pendingmailtips.md) <br/> |Indique que les conseils de messagerie de cet élément n’ont pas pu être évalués avant l’expiration du délai de traitement du serveur.  <br/> |
-|[OutOfOffice](outofoffice.md) <br/> |Représente le message de réponse et la durée d’envoi du message de réponse.  <br/> |
-|[MailboxFull](mailboxfull.md) <br/> |Indique si la boîte aux lettres du destinataire est complète.  <br/> |
-|[CustomMailTip](custommailtip.md) <br/> |Représente un message personnalisé de Conseil de messagerie.  <br/> |
-|[TotalMemberCount](totalmembercount.md) <br/> |Représente le décompte de tous les membres d’un groupe.  <br/> |
-|[ExternalMemberCount](externalmembercount.md) <br/> |Représente le nombre de membres externes d’un groupe.  <br/> |
-|[MaxMessageSize](maxmessagesize.md) <br/> |Représente la taille maximale des messages que le destinataire peut accepter.  <br/> |
-|[DeliveryRestricted](deliveryrestricted.md) <br/> |Indique si les restrictions de remise empêchent le message de l’expéditeur d’atteindre le destinataire.  <br/> |
-|[IsModerated](ismoderated.md) <br/> |Indique si la boîte aux lettres du destinataire est modérée.  <br/> |
-|[InvalidRecipient (infos-courrier)](invalidrecipient-mailtips.md) <br/> |Indique si le destinataire n’est pas valide.  <br/> |
+|[PendingMailTips](pendingmailtips.md) <br/> |Indique que les infos-courrier de cet élément n’ont pas pu être évaluées avant l’expiration du délai de traitement du serveur.  <br/> |
+|[OutOfOffice](outofoffice.md) <br/> |Représente le message de réponse et une durée pour l’envoi du message de réponse.  <br/> |
+|[MailboxFull](mailboxfull.md) <br/> |Indique si la boîte aux lettres du destinataire est pleine.  <br/> |
+|[CustomMailTip](custommailtip.md) <br/> |Représente un message d’info-courrier personnalisé.  <br/> |
+|[TotalMemberCount](totalmembercount.md) <br/> |Représente le nombre de tous les membres d’un groupe.  <br/> |
+|[ExternalMemberCount](externalmembercount.md) <br/> |Représente le nombre de membres externes dans un groupe.  <br/> |
+|[MaxMessageSize](maxmessagesize.md) <br/> |Représente la taille maximale du message que le destinataire peut accepter.  <br/> |
+|[DeliveryRestricted](deliveryrestricted.md) <br/> |Indique si les restrictions de remise empêcheront le message de l’expéditeur d’atteindre le destinataire.  <br/> |
+|[IsModerated](ismoderated.md) <br/> |Indique si la boîte aux lettres du destinataire est modéré.  <br/> |
+|[InvalidRecipient (MailTips)](invalidrecipient-mailtips.md) <br/> |Indique si le destinataire n’est pas valide.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -84,7 +84,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

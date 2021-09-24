@@ -1,29 +1,29 @@
 ---
-title: Commentaire
+title: Annotation
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
-description: L’élément annotation contient des remarques facultatives ajoutées par un utilisateur.
-ms.openlocfilehash: 291d875085f9bc13e92a14b844b66878f5e6eb2a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Annotation contient des notes facultatives ajoutées par un utilisateur.
+ms.openlocfilehash: c34f19190003de218baf9e3d8923688224b1f804
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466114"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531228"
 ---
-# <a name="annotation"></a>Commentaire
+# <a name="annotation"></a>Annotation
 
-L’élément **annotation** contient des remarques facultatives ajoutées par un utilisateur. 
+**L’élément Annotation** contient des notes facultatives ajoutées par un utilisateur. 
   
 ```XML
 <Annotation></Annotation>
 ```
 
- **XS : String**
+ **xs:string**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EnhancedLocation](enhancedlocation.md) <br/> |Spécifie les informations d’emplacement, telles que le nom, l’adresse et les notes facultatives relatives à un emplacement.  <br/> |
+|[EnhancedLocation](enhancedlocation.md) <br/> |Spécifie les informations d’emplacement telles que le nom, l’adresse et les notes facultatives sur un emplacement.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément annotation est une note ajoutée à un utilisateur à propos d’un emplacement.
+La valeur de texte de l’élément Annotation est une note ajoutée par l’utilisateur sur un emplacement.
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PercentComplete
 api_type:
 - schema
 ms.assetid: 58a67f8a-c4dc-42dc-97ae-a9e5cc672d2d
 description: L’élément PercentComplete décrit l’état d’achèvement d’une tâche.
-ms.openlocfilehash: b7dd2f18bd3ef6addeb6d3a7b004510f35b9cb3d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 48e6163377d51d64f63e966c525def48f930733e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519246"
 ---
 # <a name="percentcomplete"></a>PercentComplete
 
-L’élément **PercentComplete** décrit l’état d’achèvement d’une tâche. 
+**L’élément PercentComplete** décrit l’état d’achèvement d’une tâche. 
   
 ```xml
 <PercentComplete/>
 ```
 
- **fois**
+ **double**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -48,11 +48,11 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un entier compris entre 0 et 100 est requise.
+Une valeur de texte qui représente un integer entre 0 et 100 est requise.
   
 ## <a name="remarks"></a>Remarques
 
-La définition de **PercentComplete** sur 100 a le même effet que la définition de l’élément [Completed](completedate.md) , ou la définition de l’élément [Status](status.md) sur **Completed**. Dans une demande qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si **PercentComplete** a la valeur 100, [recompleted](completedate.md) est le 1er janvier 2007 et [Status](status.md) is NotStarted, et que les propriétés sont diffusées dans cet ordre, l’effet est de définir l' [État](status.md) de la tâche sur NotStarted, le paramètre [Completed](completedate.md) sur **null**et le **PourcentageAchevé** sur 0. 
+La **définition de PercentComplete** sur 100 a le même effet que la définition de l’élément [CompleteDate](completedate.md) ou la définition de l’élément [Status](status.md) sur **Completed**. Dans une requête qui définit au moins deux de ces propriétés, la dernière propriété traitée détermine la valeur définie pour ces éléments. Par exemple, si **PercentComplete** a la valeur 100, [CompleteDate](completedate.md) est le 1er janvier 2007 et [que l’état](status.md) [](status.md) est NotStarted et que les propriétés sont diffusées dans cet ordre, l’effet sera de définir l’état de la tâche sur NotStarted, [CompleteDate](completedate.md) sur **null** et **percentComplete** sur 0. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReplyToItem
 api_type:
 - schema
 ms.assetid: 35ee751a-41c0-4216-ad8b-78f7ada43a2f
-description: L’élément ReplyToItem contient une réponse à l’expéditeur d’un élément dans la Banque d’Exchange.
-ms.openlocfilehash: fc40335dc73327820c0b39cafa07168d1f27851d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReplyToItem contient une réponse à l’expéditeur d’un élément dans Exchange store.
+ms.openlocfilehash: 772627538046f5fd58cc4126505a6f34c7637fb2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529853"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512371"
 ---
 # <a name="replytoitem"></a>ReplyToItem
 
-L’élément **ReplyToItem** contient une réponse à l’expéditeur d’un élément dans la Banque d’Exchange. 
+**L’élément ReplyToItem** contient une réponse à l’expéditeur d’un élément dans Exchange store. 
   
 ```xml
 <ReplyToItem>
@@ -54,12 +54,12 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Subject](subject.md) <br/> |Représente la propriété Subject des éléments de la Banque d’Exchange.  <br/> |
+|[Subject](subject.md) <br/> |Représente la propriété d’objet des Exchange store.  <br/> |
 |[Body](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
 |[ToRecipients](torecipients.md) <br/> |Contient un tableau de destinataires d’un élément. Voici les principaux destinataires d'un élément.  <br/> |
 |[CcRecipients](ccrecipients.md) <br/> |Représente une collection de destinataires qui recevront une copie du message.  <br/> |
-|[BccRecipients](bccrecipients.md) <br/> |Représente une collection de destinataires qui reçoit une copie carbone invisible (CCI) d’un message électronique.  <br/> |
-|[IsReadReceiptRequested](isreadreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande une confirmation de lecture.  <br/> |
+|[BccRecipients](bccrecipients.md) <br/> |Représente une collection de destinataires pour recevoir une copie carbone non voyante ( Bcc) d’un message électronique.  <br/> |
+|[IsReadReceiptRequested](isreadreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande une réception de lecture.  <br/> |
 |[IsDeliveryReceiptRequested](isdeliveryreceiptrequested.md) <br/> |Indique si l’expéditeur d’un élément demande un accusé de réception.  <br/> |
 |[From](from.md) <br/> |Représente l’adresse à partir de laquelle le message a été envoyé.  <br/> |
 |[ReferenceItemId](referenceitemid.md) <br/> |Identifie l’élément auquel l’objet de réponse fait référence.  <br/> |
@@ -71,14 +71,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AdjacentMeetings](adjacentmeetings.md) <br/> | Décrit tous les éléments adjacents à une heure de réunion. <br/> <br/>  Voici quelques-unes des expressions XPath de cet élément : <br/> <br/>  `/CalendarItem/AdjacentMeetings` <br/>  `/MeetingRequest/AdjacentMeetings` <br/>  `/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/> |
-|[ConflictingMeetings](conflictingmeetings.md) <br/> | Décrit tous les éléments qui sont en conflit avec une heure de réunion. <br/> <br/>  Voici quelques-unes des expressions XPath de cet élément : <br/> <br/>  `/CalendarItem/ConflictingMeetings` <br/>  `/MeetingRequest/ConflictingMeetings` <br/>  `/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/> |
+|[AdjacentMeetings](adjacentmeetings.md) <br/> | Décrit tous les éléments adjacents à une heure de réunion. <br/> <br/>  Voici quelques expressions XPath à cet élément : <br/> <br/>  `/CalendarItem/AdjacentMeetings` <br/>  `/MeetingRequest/AdjacentMeetings` <br/>  `/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/AdjacentMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/AdjacentMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/AdjacentMeetings` <br/> |
+|[ConflictingMeetings](conflictingmeetings.md) <br/> | Décrit tous les éléments qui entrent en conflit avec une heure de réunion. <br/> <br/>  Voici quelques expressions XPath à cet élément : <br/> <br/>  `/CalendarItem/ConflictingMeetings` <br/>  `/MeetingRequest/ConflictingMeetings` <br/>  `/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/AcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/DeclineItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/TentativelyAcceptItem/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/SetItemField/CalendarItem/ConflictingMeetings` <br/>  `/UpdateItem/ItemChanges/ItemChange/Updates/AppendToItemField/CalendarItem/ConflictingMeetings` <br/>  `/CreateAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/>  `/GetAttachmentResponseMessage/Attachments/ItemAttachment/CalendarItem/ConflictingMeetings` <br/> |
 |[ResponseObjects](responseobjects.md) <br/> |Contient une collection de tous les objets de réponse associés à un élément dans la banque d'informations Exchange.  <br/> |
 |[Éléments (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contient un tableau d'éléments à créer dans le dossier qui est identifié par l'élément [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’élément [from](from.md) doit être défini sur l’adresse de messagerie du principal si un élément est une réponse d’un délégué. Si le délégué ne définit pas la propriété [from](from.md) , l’élément semble avoir été envoyé directement à partir de la boîte aux lettres du délégué. 
+[L’élément From](from.md) doit être définie sur l’adresse de messagerie du principal si un élément est une réponse d’un délégué. Si le délégué ne définisse pas la propriété [From,](from.md) l’élément semble avoir été envoyé directement à partir de la boîte aux lettres du délégué. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   

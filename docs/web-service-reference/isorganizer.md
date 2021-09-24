@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31ac268-5061-4272-a433-ffaea2fbcfa9
-description: L’élément IsOrganizer spécifie une valeur de type Boolean qui indique si cette personne est l’organisateur de la réunion.
-ms.openlocfilehash: 45b7a66068dc00f6e60b7380240bea6836282fd4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsOrganizer spécifie une valeur Boolean qui indique si cette personne est l’organisateur de la réunion.
+ms.openlocfilehash: a60485146e333e69391dc1771b2c72ef25043a8b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518266"
 ---
 # <a name="isorganizer"></a>IsOrganizer
 
-L’élément **IsOrganizer** spécifie une valeur de type Boolean qui indique si cette personne est l’organisateur de la réunion. 
+**L’élément IsOrganizer** spécifie une valeur Boolean qui indique si cette personne est l’organisateur de la réunion. 
   
 ```XML
 <IsOrganizer>true | false</IsOrganizer>
@@ -45,7 +45,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **IsOrganizer** indique que l’élément de calendrier ou le message de réunion a été créé par l’utilisateur. La valeur **false** indique que l’utilisateur ou le message de réunion n’a pas été créé. 
+Une valeur de texte **true pour** l’élément **IsOrganizer** indique que l’élément de calendrier ou le message de réunion a été créé par l’utilisateur. La valeur **false indique que** l’élément de calendrier ou le message de réunion n’a pas été créé. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

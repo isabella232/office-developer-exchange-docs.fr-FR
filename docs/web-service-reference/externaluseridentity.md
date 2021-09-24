@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExternalUserIdentity
 api_type:
 - schema
 ms.assetid: f2bc0a61-7c50-4b36-828e-358dfc5b9ae1
-description: L’élément ExternalUserIdentity identifie un utilisateur délégué externe ou un utilisateur externe qui dispose des autorisations d’accès au dossier.
-ms.openlocfilehash: b4432b29278b693b21e455a5245be0d96496ffe5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ExternalUserIdentity identifie un utilisateur délégué externe ou un utilisateur externe qui dispose d’autorisations d’accès aux dossiers.
+ms.openlocfilehash: cad0273d76a5eb4ff63325bcc6bfd761909482d6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518525"
 ---
 # <a name="externaluseridentity"></a>ExternalUserIdentity
 
-L’élément **ExternalUserIdentity** identifie un utilisateur délégué externe ou un utilisateur externe qui dispose des autorisations d’accès au dossier. 
+**L’élément ExternalUserIdentity** identifie un utilisateur délégué externe ou un utilisateur externe qui dispose d’autorisations d’accès aux dossiers. 
   
 ```xml
 <ExternalUserIdentity/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier.  <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose d’autorisations d’accès aux dossiers.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

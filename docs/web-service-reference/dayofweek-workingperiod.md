@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DayOfWeek
 api_type:
 - schema
 ms.assetid: 7a8a8cc1-392b-4db5-bb76-710477e31396
-description: L’élément DayOfWeek contient la liste des jours ouvrés planifiés pour l’utilisateur de la boîte aux lettres.
-ms.openlocfilehash: 06d4a7d5541b3b71fcbf9be9beb7512d06853283
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DayOfWeek contient la liste des jours ou travaillés programmés pour l’utilisateur de boîte aux lettres.
+ms.openlocfilehash: 97950d7f2d6db76ac76253979e9187bddc5c99e1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457444"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529005"
 ---
 # <a name="dayofweek-workingperiod"></a>DayOfWeek (WorkingPeriod)
 
-L’élément **DayOfWeek** contient la liste des jours ouvrés planifiés pour l’utilisateur de la boîte aux lettres. 
+**L’élément DayOfWeek** contient la liste des jours ou travaillés programmés pour l’utilisateur de boîte aux lettres. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
 - [FreeBusyResponseArray](freebusyresponsearray.md)  
@@ -54,13 +54,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et les heures de travail de la boîte aux lettres.<br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et heures de la semaine de travail de l’utilisateur de boîte aux lettres.<br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est renvoyée si l’utilisateur de la boîte aux lettres a défini des jours pour représenter la semaine de travail. Les valeurs possibles pour cet élément sont les suivantes :
+Une valeur texte est renvoyée si l’utilisateur de la boîte aux lettres a des jours pour représenter la semaine de travail. Les valeurs possibles pour cet élément sont les suivantes :
   
-- Warm    
+- Dimanche    
 - Lundi    
 - Mardi    
 - Mercredi    
@@ -72,7 +72,7 @@ Les valeurs de texte sont renvoyées dans cet ordre.
   
 ## <a name="remarks"></a>Remarques
 
-Il est important de noter que la différence entre cet élément et l’élément Availability [DayOfWeek (TimeZone)](dayofweek-timezone.md) est le type. 
+Il est important de noter que la différence entre cet élément et l’élément [Availability DayOfWeek (TimeZone)](dayofweek-timezone.md) est le type. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

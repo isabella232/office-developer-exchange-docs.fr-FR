@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ContainsSubjectOrBodyStrings
 api_type:
 - schema
 ms.assetid: 22aebf31-d9f4-4e03-bbff-c675409518d1
-description: L’élément ContainsSubjectOrBodyStrings indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: 6f9c7862912632e7e86a0b704e760c7fd0f5f14c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ContainsSubjectOrBodyStrings indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 95749ca89c2e4e21cc0f9956f8163f889a10fea4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511999"
 ---
 # <a name="containssubjectorbodystrings"></a>ContainsSubjectOrBodyStrings
 
-L’élément **ContainsSubjectOrBodyStrings** indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants pour que la condition ou l’exception s’applique. 
+**L’élément ContainsSubjectOrBodyStrings** indique les chaînes qui doivent apparaître dans le corps ou l’objet des messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <ContainsSubjectOrBodyStrings>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps ou l’objet des messages entrants pour que la condition ou l’exception s’applique.  <br/> |
+|[String](string.md) <br/> |Représente une chaîne qui doit apparaître dans le corps ou l’objet des messages entrants afin que la condition ou l’exception s’applique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e23c2a1-05d8-4fec-897c-f684a5b97e4c
-description: L’élément ReminderGroup spécifie si le rappel est destiné à un élément de calendrier ou à une tâche.
-ms.openlocfilehash: be6f4a7d7e9d495ed7b42ed40c60f016468e8c2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReminderGroup spécifie si le rappel est pour un élément de calendrier ou une tâche.
+ms.openlocfilehash: 7ec19505e9237680aee1b3a31332db7fdc4c0dd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529867"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512470"
 ---
 # <a name="remindergroup"></a>ReminderGroup
 
-L’élément **ReminderGroup** spécifie si le rappel est destiné à un élément de calendrier ou à une tâche. 
+**L’élément ReminderGroup** spécifie si le rappel est pour un élément de calendrier ou une tâche. 
   
 ```XML
 <ReminderGroup> Calendar | Task </ReminderGroup>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ReminderGroup** est le type de groupe du rappel. La valeur texte de **Calendar** spécifie que le rappel est destiné à un élément de calendrier. La valeur texte de **Task** spécifie que le rappel est destiné à un élément de tâche. 
+La valeur de texte de **l’élément ReminderGroup** est le type de groupe du rappel. La valeur de texte **Calendar** spécifie que le rappel est pour un élément de calendrier. La valeur de texte **de Task** spécifie que le rappel est pour un élément de tâche. 
   
 ## <a name="remarks"></a>Remarques
 

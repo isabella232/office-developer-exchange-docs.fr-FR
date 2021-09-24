@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MergedFreeBusy
 api_type:
 - schema
 ms.assetid: ea45590d-476e-4b68-9fe8-ae392feadfea
-description: L’élément MergedFreeBusy contient le flux de disponibilité de données fusionné.
-ms.openlocfilehash: a1483449534f0d886e3c97a23d28c5d78f865042
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MergedFreeBusy contient le flux de données de libre/occupé fusionné.
+ms.openlocfilehash: db451d6b2e67313836771604fae57b14b6b3db10
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468725"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511029"
 ---
 # <a name="mergedfreebusy"></a>MergedFreeBusy
 
-L’élément **MergedFreeBusy** contient le flux de disponibilité de données fusionné. 
+**L’élément MergedFreeBusy** contient le flux de données de libre/occupé fusionné. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -54,11 +54,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FreeBusyView](freebusyview.md) <br/> |Contient les informations de disponibilité d’un utilisateur spécifique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
+|[FreeBusyView](freebusyview.md) <br/> |Contient des informations de disponibilité pour un utilisateur spécifique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est fournie par le serveur si la valeur de l’élément [FreeBusyViewType](freebusyviewtype.md) est l’une des valeurs suivantes : 
+Une valeur de texte est fournie par le serveur si la valeur de l’élément [FreeBusyViewType](freebusyviewtype.md) est l’une des suivantes : 
   
 - DetailedMerged
     
@@ -66,21 +66,21 @@ Une valeur de texte est fournie par le serveur si la valeur de l’élément [Fr
     
 - MergedOnly
     
-La valeur de texte est un flux d’informations de disponibilité. 
+La valeur de texte est un flux d’informations de libre/occupé. 
   
 ## <a name="remarks"></a>Remarques
 
-Le flux de données fourni par cet élément est défini par les éléments [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) et [TimeWindow](timewindow.md) . L’élément [TimeWindow](timewindow.md) définit la période interrogée pour la disponibilité. L’élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) définit la manière dont l’heure de l’élément [TimeWindow](timewindow.md) est divisée en intervalles renvoyés dans l’élément **MergedFreeBusy** . Chaque nombre dans le flux **MergedFreeBusy** représente un intervalle unique défini par l’élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) . Le tableau suivant répertorie les valeurs possibles pour un intervalle individuel. 
+Le flux de données fourni par cet élément est défini par les éléments [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) et [TimeWindow.](timewindow.md) [L’élément TimeWindow](timewindow.md) définit l’étendue de temps pour la disponibilité. [L’élément MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) définit la façon dont l’heure de l’élément [TimeWindow](timewindow.md) est décomposée en intervalles renvoyés dans l’élément **MergedFreeBusy.** Chaque nombre dans le **flux MergedFreeBusy** représente un intervalle unique défini par l’élément [MergedFreeBusyIntervalInMinutes.](mergedfreebusyintervalinminutes.md) Le tableau suivant répertorie les valeurs possibles pour un intervalle individuel. 
   
-|**Numérique**|**Disponibilité**|
+|**Chiffre**|**Disponibilité**|
 |:-----|:-----|
 |0  <br/> |Gratuit  <br/> |
-|1   <br/> |Provisoire  <br/> |
-|n°2  <br/> |Occupé(e)  <br/> |
+|1  <br/> |Provisoire  <br/> |
+|2  <br/> |Occupé(e)  <br/> |
 |3  <br/> |Absent(e) du bureau  <br/> |
 |4   <br/> |Aucune donnée  <br/> |
    
-Par exemple, une demande de données de disponibilité inclut un élément [TimeWindow](timewindow.md) qui représente quatre heures et un élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) qui représente 60 minutes. Si le calendrier de l’utilisateur demandé est absent du Bureau pour les 60 premières minutes, occupé pour les 90 minutes suivantes et non planifié pendant les 90 minutes finales dans la fenêtre de temps, le flux **MergedFreeBusy** sera 3220. Si un intervalle contient plus d’une classification de disponibilité, le nombre le plus élevé est utilisé pour classer cet intervalle. 
+Par exemple, une demande de données de libre/occupé inclut un élément [TimeWindow](timewindow.md) qui représente quatre heures et un élément [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) qui représente 60 minutes. Si le calendrier de l’utilisateur demandé est en absence du bureau pendant les 60 premières minutes, occupé pendant les 90 minutes suivantes et non reporté pour les 90 dernières minutes dans la fenêtre de temps, le flux **MergedFreeBusy** sera 3220. Si un intervalle contient plusieurs classifications de disponibilité, le nombre le plus élevé est utilisé pour classer cet intervalle. 
   
 Le niveau de détail fourni par cet élément dépend des autorisations accordées au demandeur.
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6f7c824-1284-4a65-a459-9fc22b66e30a
-description: L’élément PolicyNudgeRulesConfiguration contient les données de configuration de la protection contre la perte de données.
-ms.openlocfilehash: dd801fe140dee66d153e388781f97254d1a2f2ef
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PolicyNudgeRulesConfiguration contient les données de configuration de protection contre la perte de données.
+ms.openlocfilehash: ad0bee85bb9b03a3584baa39a2436c8ad68b7e4d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527930"
 ---
 # <a name="policynudgerulesconfiguration"></a>PolicyNudgeRulesConfiguration
 
-L’élément **PolicyNudgeRulesConfiguration** contient les données de configuration de la protection contre la perte de données. 
+**L’élément PolicyNudgeRulesConfiguration** contient les données de configuration de protection contre la perte de données. 
   
 ```XML
 <PolicyNudgeRulesConfiguration></PolicyNudgeRulesConfiguration>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le contenu de l’élément **PolicyNudgeRulesConfiguration** n’est pas défini dans le schéma des services Web Exchange. 
+Le **contenu de l’élément PolicyNudgeRulesConfiguration** n’est pas défini Exchange schéma des services Web. 
   
 Cet élément est une nouveauté d'Exchange Server 2013.
   
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

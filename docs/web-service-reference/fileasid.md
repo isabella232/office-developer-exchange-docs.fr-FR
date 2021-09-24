@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7773f92c-cddc-44e5-9fd5-06b1dac355d8
 description: L’élément FileAsId spécifie l’identificateur FileAs.
-ms.openlocfilehash: f534dd9283608eefe94b02718a69ff60651d414a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a2f298123b4c92b17799141066b1ee459efbf785
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461050"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541349"
 ---
 # <a name="fileasid"></a>FileAsId
 
-L’élément **FileAsId** spécifie l’identificateur **FileAs** . 
+**L’élément FileAsId** spécifie l’identificateur **FileAs.** 
   
 ```XML
 <FileAsId></FileAsId
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **FileAsId** spécifie l’identificateur **FileAs** . 
+La valeur de texte de **l’élément FileAsId** spécifie **l’identificateur FileAs.** 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageTrackingReportId
 api_type:
 - schema
 ms.assetid: 9c604ca3-10fe-4760-b7fd-8b52f1a0c712
-description: L’élément MessageTrackingReportId représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie de manière unique le message.
-ms.openlocfilehash: d6e92593d55608e260634602c2aab694804d716d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MessageTrackingReportId représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie le message de manière unique.
+ms.openlocfilehash: 8ed8ddcfe20c9008a208035f2b101fb5241f432d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518259"
 ---
 # <a name="messagetrackingreportid"></a>MessageTrackingReportId
 
-L’élément **MessageTrackingReportId** représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie de manière unique le message. 
+**L’élément MessageTrackingReportId** représente le message par son ID de message, l’organisation où le message a été trouvé, le serveur sur lequel le message a été envoyé et un ID interne qui identifie le message de manière unique. 
   
 ```XML
 <MessageTrackingReportId/>
@@ -44,8 +44,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) afin de récupérer le rapport de suivi complet des messages pour l’ID spécifié.  <br/> |
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande de [l’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) pour récupérer le rapport de suivi des messages complet pour l’ID spécifié.  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique [pour un élément FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

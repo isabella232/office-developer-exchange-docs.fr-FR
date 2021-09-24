@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PhoneNumbers
 api_type:
 - schema
 ms.assetid: 6cb71be1-c4fe-4ce7-9604-11fc01956ee9
 description: L’élément PhoneNumbers représente une collection de numéros de téléphone pour un contact.
-ms.openlocfilehash: b64d811618176377048d9ba80d8d7573f2df034a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d49c7b43e38654139cbc251ab9af14e3ea2aefe8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44440231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528206"
 ---
 # <a name="phonenumbers"></a>PhoneNumbers
 
-L’élément **PhoneNumbers** représente une collection de numéros de téléphone pour un contact. 
+**L’élément PhoneNumbers** représente une collection de numéros de téléphone pour un contact. 
   
 ```xml
 <PhoneNumbers>

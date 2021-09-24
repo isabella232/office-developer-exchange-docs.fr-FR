@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarItemType
 api_type:
 - schema
 ms.assetid: 1feb0788-adf7-4a7c-830c-005214ad930f
 description: L’élément CalendarItemType représente le type d’un élément de calendrier.
-ms.openlocfilehash: 05e93b6db3ae574c03f6e43c5ebec2288edec3e5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fcb661bb219944e03479abc6bf1d579db58f29fb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527193"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59526772"
 ---
 # <a name="calendaritemtype"></a>CalendarItemType
 
-L’élément **CalendarItemType** représente le type d’un élément de calendrier. 
+**L’élément CalendarItemType** représente le type d’un élément de calendrier. 
   
 ```xml
 <CalendarItemType/>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise si cet élément est utilisé. Les valeurs possibles pour cet élément sont les suivantes :
+Une valeur de texte est requise si cet élément est utilisé. Les valeurs possibles pour cet élément sont les suivantes :
   
 - **Unique** L’élément n’est pas associé à un élément de calendrier périodique. 
     
@@ -57,7 +57,7 @@ Une valeur de texte est requise si cet élément est utilisé. Les valeurs possi
     
 - **Exception** L’élément est une exception à un élément de calendrier périodique. 
     
-- **RecurringMaster** L’élément est une forme de base pour un ensemble d’éléments de calendrier périodiques. 
+- **RecurringMaster** L’élément est maître pour un ensemble d’éléments de calendrier périodiques. 
     
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
-description: L’élément ProposedEnd spécifie l’heure de fin proposée d’une réunion.
-ms.openlocfilehash: 68ad4bb7c3a4d78695ccb88c0994cafd0956828f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ProposedEnd spécifie l’heure de fin proposée pour une réunion.
+ms.openlocfilehash: 13d74c1fda54fce028ea64d62dbbfbe9a076b234
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519155"
 ---
 # <a name="proposedend"></a>ProposedEnd
 
-L’élément **ProposedEnd** spécifie l’heure de fin proposée d’une réunion. 
+**L’élément ProposedEnd** spécifie l’heure de fin proposée pour une réunion. 
   
 ```XML
 <ProposedEnd></ProposedEnd>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ProposedEnd** est l’heure de fin proposée par un participant à l’organisateur de la réunion. 
+La valeur de texte de **l’élément ProposedEnd** est l’heure de fin proposée envoyée par un participant à l’organisateur de la réunion. 
   
 ## <a name="remarks"></a>Remarques
 

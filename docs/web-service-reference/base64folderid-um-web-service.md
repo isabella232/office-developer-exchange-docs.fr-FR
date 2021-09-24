@@ -1,30 +1,30 @@
 ---
-title: base64FolderId (service Web de messagerie unifiée)
+title: base64FolderId (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - base64FolderId
 api_type:
 - schema
 ms.assetid: 662f8f2f-49a7-4c7a-9065-98a02a49cfcd
-description: L’élément base64FolderId contient l’identificateur du dossier à spécifier comme dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lit les messages sur le téléphone dans une demande SetTelephoneAccessFolderEmail Operation (service Web de messagerie unifiée).
-ms.openlocfilehash: ea31c7a0f93188e563bf95c4a3e6e91f0866746c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément base64FolderId contient l’identificateur du dossier à spécifier comme dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lit les messages par téléphone dans une demande d’opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée).
+ms.openlocfilehash: 149ad55d0ab09f57b0dc3ace7eb0e17c96265e3f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458046"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518931"
 ---
-# <a name="base64folderid-um-web-service"></a>base64FolderId (service Web de messagerie unifiée)
+# <a name="base64folderid-um-web-service"></a>base64FolderId (service web de messagerie unifiée)
 
-L’élément **base64FolderId** contient l’identificateur du dossier à spécifier comme dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lit les messages sur le téléphone dans une demande [SetTelephoneAccessFolderEmail Operation (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md) . 
+L’élément **base64FolderId** contient l’identificateur du dossier à spécifier comme dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lit les messages par téléphone dans une demande d’opération [SetTelephoneAccessFolderEmail (service web](settelephoneaccessfolderemail-operation-um-web-service.md) de messagerie unifiée). 
   
-[SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
   
-[base64FolderId (service Web de messagerie unifiée)](base64folderid-um-web-service.md)
+[base64FolderId (service web de messagerie unifiée)](base64folderid-um-web-service.md)
   
 ```xml
 <base64FolderId/>
@@ -47,7 +47,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md) <br/> |Définit une demande de définition du dossier de messagerie d’accès téléphonique.  <br/> |
+|[SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md) <br/> |Définit la demande de définition du dossier de messagerie d’accès téléphonique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -55,7 +55,7 @@ Une valeur de texte est requise. La valeur de texte représente l’ID MAPI du d
   
 ## <a name="remarks"></a>Remarques
 
-Pour définir le dossier de messagerie d’accès téléphonique, utilisez l' [opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md).
+Pour définir le dossier de messagerie d’accès téléphonique, utilisez l’opération [SetTelephoneAccessFolderEmail (service web de messagerie unie).](settelephoneaccessfolderemail-operation-um-web-service.md)
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -63,16 +63,16 @@ Pour définir le dossier de messagerie d’accès téléphonique, utilisez l' [o
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
   
-[Opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
   
 [Opération FindFolder](findfolder-operation.md)
   

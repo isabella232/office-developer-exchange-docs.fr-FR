@@ -1,32 +1,32 @@
 ---
-title: Opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)
+title: Opération SetPlayOnPhoneDialString (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetPlayOnPhoneDialString
 api_type:
 - schema
 ms.assetid: a68479f2-d900-4dd8-a5ce-dbea8247e841
-description: L’opération SetPlayOnPhoneDialString définit la chaîne de numérotation à utiliser par défaut pour l’opération PlayOnPhone (service Web de messagerie unifiée) et l’opération PlayOnPhoneGreeting (service Web de messagerie unifiée).
-ms.openlocfilehash: 7df806eedc2d6d037394f31ec4ccbfe28aaf3372
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération SetPlayOnPhoneDialString définit la chaîne de numérotation à utiliser comme valeur par défaut pour l’opération PlayOnPhone (service web de um) et l’opération PlayOnPhoneGreeting (service web de um).
+ms.openlocfilehash: 89f83d7b0a1d56cb0adeccbf4fa0bb67f1197253
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458641"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531908"
 ---
-# <a name="setplayonphonedialstring-operation-um-web-service"></a>Opération SetPlayOnPhoneDialString (service Web de messagerie unifiée)
+# <a name="setplayonphonedialstring-operation-um-web-service"></a>Opération SetPlayOnPhoneDialString (service web de messagerie unifiée)
 
-L’opération SetPlayOnPhoneDialString définit la chaîne de numérotation à utiliser par défaut pour l' [opération PlayOnPhone (service Web de messagerie unifiée)](playonphone-operation-um-web-service.md) et l' [opération PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md).
+L’opération SetPlayOnPhoneDialString définit la chaîne de numérotation à utiliser comme valeur par défaut pour l’opération [PlayOnPhone (service web](playonphone-operation-um-web-service.md) de la um) et l’opération [PlayOnPhoneGreeting (service web](playonphonegreeting-operation-um-web-service.md)de um).
   
 ## <a name="setplayonphonedialstring-request-example"></a>Exemple de requête SetPlayOnPhoneDialString
 
 ### <a name="description"></a>Description
 
-L’exemple de requête SetPlayOnPhoneDialString suivant montre comment créer une demande de définition de la chaîne de numérotation par défaut pour une boîte aux lettres.
+L’exemple suivant d’une demande SetPlayOnPhoneDialString montre comment former une demande pour définir la chaîne de numérotation par défaut d’une boîte aux lettres.
   
 ### <a name="code"></a>Code
 
@@ -41,11 +41,11 @@ L’exemple de requête SetPlayOnPhoneDialString suivant montre comment créer u
 </soap:Envelope>
 ```
 
-## <a name="successful-setplayonphonedialstring-response-example"></a>Exemple de réponse SetPlayOnPhoneDialString réussi
+## <a name="successful-setplayonphonedialstring-response-example"></a>Exemple de réponse SetPlayOnPhoneDialString réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse SetPlayOnePhoneDialString indique une réponse à la demande SetPlayOnPhoneDialString.
+L’exemple suivant d’une réponse SetPlayOnePhoneDialString affiche une réponse à la demande SetPlayOnPhoneDialString.
   
 ### <a name="code"></a>Code
 
@@ -62,9 +62,9 @@ L’exemple suivant de réponse SetPlayOnePhoneDialString indique une réponse �
 
 
 
-[SetPlayOnPhoneDialString (service Web de messagerie unifiée)](setplayonphonedialstring-um-web-service.md)
+[SetPlayOnPhoneDialString (service web de messagerie unifiée)](setplayonphonedialstring-um-web-service.md)
   
-[SetPlayOnPhoneDialStringResponse (service Web de messagerie unifiée)](setplayonphonedialstringresponse-um-web-service.md)
+[SetPlayOnPhoneDialStringResponse (service web de messagerie unifiée)](setplayonphonedialstringresponse-um-web-service.md)
   
-[dialString (service Web de messagerie unifiée)](dialstring-um-web-service.md)
+[dialString (service web de messagerie unifiée)](dialstring-um-web-service.md)
 

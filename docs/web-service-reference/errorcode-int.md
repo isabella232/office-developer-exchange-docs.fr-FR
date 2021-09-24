@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65537d96-edf9-41ee-9ad5-91ffe37e2269
-description: L’élément ErrorCode spécifie le code d’erreur d’une recherche ayant échoué effectuée dans une boîte aux lettres.
-ms.openlocfilehash: 24170a56e5fa23c3811fcbd27f0240e6ba3c87b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ErrorCode spécifie le code d’erreur d’un échec de recherche effectué sur une boîte aux lettres.
+ms.openlocfilehash: 25a0b14ecefce76707a8dfa73f99d8b93b445af7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59530836"
 ---
 # <a name="errorcode-int"></a>ErrorCode (int)
 
-L’élément **ErrorCode** spécifie le code d’erreur d’une recherche ayant échoué effectuée dans une boîte aux lettres. 
+**L’élément ErrorCode** spécifie le code d’erreur d’un échec de recherche effectué sur une boîte aux lettres. 
   
 ```XML
 <ErrorCode></ErrorCode>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FailedMailbox](failedmailbox.md) <br/> |Spécifie l’état de conservation de la boîte aux lettres.  <br/> |
+|[FailedMailbox](failedmailbox.md) <br/> |Spécifie l’état de la boîte aux lettres en attente.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ErrorCode** est le code d’erreur renvoyé pour une recherche ayant échoué dans une boîte aux lettres. 
+La valeur de texte de **l’élément ErrorCode** est le code d’erreur renvoyé pour une recherche qui a échoué sur une boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

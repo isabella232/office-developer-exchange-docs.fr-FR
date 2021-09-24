@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateFolder
 api_type:
 - schema
 ms.assetid: 110bada1-517b-4bd6-870d-7086dc879e5d
-description: L’élément CreateFolder définit une demande de création d’un dossier dans la Banque d’Exchange.
-ms.openlocfilehash: c2a971a6b827553a1632c2a86e4d36e3b83a2de3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CreateFolder définit une demande de création d’un dossier dans la Exchange store.
+ms.openlocfilehash: 2d063f35ece2582e693365723ff7cfabbd3b8a06
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518609"
 ---
 # <a name="createfolder"></a>CreateFolder
 
-L’élément **CreateFolder** définit une demande de création d’un dossier dans la Banque d’Exchange. 
+**L’élément CreateFolder** définit une demande de création d’un dossier dans Exchange store. 
   
 ```xml
 <CreateFolder>
@@ -59,8 +59,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -70,5 +70,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 [Opération CreateFolder](createfolder-operation.md)
 
 
-[Création de dossiers (services Web Exchange)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+[Creating Folders (Exchange Web Services)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

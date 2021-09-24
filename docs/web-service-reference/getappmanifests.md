@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 689cd498-4ee0-4a41-8907-4f0d7137477e
-description: L’élément GetAppManifests est l’élément de base pour une demande de renvoi du manifeste pour les applications.
-ms.openlocfilehash: 067075741d5f4eca3f41e327d8bd17fc54450fdd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetAppManifests est l’élément de base pour une demande de retour du manifeste pour les applications.
+ms.openlocfilehash: 26ce82c5a0ac73644f75043589c576de857bd02a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462998"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541216"
 ---
 # <a name="getappmanifests"></a>GetAppManifests
 
-L’élément **GetAppManifests** est l’élément de base pour une demande de renvoi du manifeste pour les applications. 
+**L’élément GetAppManifests est** l’élément de base pour une demande de retour du manifeste pour les applications. 
   
 ```xml
 <GetAppManifests />
@@ -46,15 +46,15 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **GetAppManifests** est applicable pour les clients qui ciblent Exchange Online et les versions de Microsoft Exchange Server à partir d’Exchange 2013. 
+**L’élément GetAppManifests s’applique** aux clients qui ciblent Exchange Online et les versions de Microsoft Exchange Server à partir de Exchange 2013. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

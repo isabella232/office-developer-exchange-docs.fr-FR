@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MovedEvent
 api_type:
 - schema
 ms.assetid: 572f8b40-dfa8-47bc-b0c1-e1a7138506fd
 description: L’élément MovedEvent représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent.
-ms.openlocfilehash: 1f8fb57dba7edb769fe0dd658d89c032dccf8c5f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4e0795fc3f335139e22fb51a4cf215a870ec62c6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518133"
 ---
 # <a name="movedevent"></a>MovedEvent
 
-L’élément **MovedEvent** représente un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent. 
+**L’élément MovedEvent représente** un événement dans lequel un élément ou un dossier est déplacé d’un dossier parent vers un autre dossier parent. 
   
 ```xml
 <MovedEvent>
@@ -60,14 +60,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Représente un signet events dans la table des événements de boîte aux lettres.  <br/> |
-|[Dates](timestamp.md) <br/> |Représente l’horodatage d’un événement de boîte aux lettres de déplacement d’élément/dossier.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente un signet d’événements dans la table des événements de boîte aux lettres.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’timestamp d’un événement de boîte aux lettres d’élément de déplacement/dossier.  <br/> |
 |[FolderId](folderid.md) <br/> |Représente l’identificateur du dossier déplacé.  <br/> |
 |[ItemId](itemid.md) <br/> |Représente l’identificateur de l’élément déplacé.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier qui contient l’élément ou le dossier déplacé.  <br/> |
-|[OldFolderId](oldfolderid.md) <br/> |Contient l’identificateur de dossier du dossier d’origine avant son déplacement ou sa copie.  <br/> |
-|[OldItemId](olditemid.md) <br/> |Contient l’identificateur unique de l’élément d’origine avant qu’il ait été déplacé.  <br/> |
-|[OldParentFolderId](oldparentfolderid.md) <br/> |Contient l’identificateur du dossier parent d’origine d’un élément ou d’un dossier qui a été déplacé.  <br/> |
+|[OldFolderId](oldfolderid.md) <br/> |Contient l’identificateur de dossier du dossier d’origine avant son déplacer ou sa copie.  <br/> |
+|[OldItemId](olditemid.md) <br/> |Contient l’identificateur unique de l’élément d’origine avant qu’il ne soit déplacé.  <br/> |
+|[OldParentFolderId](oldparentfolderid.md) <br/> |Contient l’identificateur du dossier parent d’origine d’un élément ou d’un dossier déplacé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

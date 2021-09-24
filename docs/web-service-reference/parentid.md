@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb7aaa46-3a04-4197-aebb-8881ff10603f
-description: L’élément ParentId spécifie l’identificateur de l’élément parent dans un aperçu de la recherche.
-ms.openlocfilehash: e09b5f9e463c7ecdfc595c87a84584f69cab3f2c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ParentId spécifie l’identificateur de l’élément parent dans un aperçu de recherche.
+ms.openlocfilehash: cbef7b9419af8821f830a77a6f8e295375c975d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529020"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519267"
 ---
 # <a name="parentid"></a>ParentId
 
-L’élément **ParentId** spécifie l’identificateur de l’élément parent dans un aperçu de la recherche. 
+**L’élément ParentId** spécifie l’identificateur de l’élément parent dans un aperçu de recherche. 
   
 ```XML
 <ParentId Id="" ChangeKey=""/>
@@ -33,8 +33,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|ID  <br/> |La valeur de texte de l’attribut **ID** est l’identificateur de l’élément parent.  <br/> |
-|ChangeKey  <br/> |La valeur de texte de l’attribut **ChangeKey** est la clé de modification de l’élément parent.  <br/> |
+|ID  <br/> |La valeur de texte de **l’attribut ID** est l’identificateur de l’élément parent.  <br/> |
+|ChangeKey  <br/> |La valeur de texte de **l’attribut ChangeKey** est la clé de modification de l’élément parent.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

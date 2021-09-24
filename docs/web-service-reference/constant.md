@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Constant
 api_type:
 - schema
 ms.assetid: 340af0cd-9f12-44ab-b8f1-21d107c8d0c9
-description: L’élément constant identifie une valeur constante dans une restriction.
-ms.openlocfilehash: 6cb2eaa4227a8fd0985e8ff5a15d647c3bb1cd6a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Constant identifie une valeur constante dans une restriction.
+ms.openlocfilehash: 9d727b41d7d18537758eae7f144832b041757d4b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511978"
 ---
 # <a name="constant"></a>Constante
 
-L’élément **constant** identifie une valeur constante dans une restriction. 
+**L’élément Constant** identifie une valeur constante dans une restriction. 
   
 ```xml
 <Constant Value="" />
@@ -46,12 +46,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Contains](contains.md) <br/> |Représente une expression de recherche qui détermine si une propriété donnée contient la valeur de chaîne de constante fournie.  <br/> |
+|[Contains](contains.md) <br/> |Représente une expression de recherche qui détermine si une propriété donnée contient la valeur de chaîne constante fournie.  <br/> |
 |[FieldURIOrConstant](fielduriorconstant.md) <br/> |Représente une propriété ou une valeur constante à utiliser lors de la comparaison avec une autre propriété.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de chaîne dans l’attribut **value** doit pouvoir être forcée dans le type avec lequel vous essayez de comparer. Par exemple, si vous comparez une propriété de date/heure à une valeur de constante, la valeur de chaîne doit représenter une date/heure. 
+La valeur de chaîne dans **l’attribut Value** doit être forcé dans le type que vous essayez de comparer. Par exemple, si vous comparez une propriété date/heure à une valeur constante, la valeur de chaîne doit représenter une date/heure. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

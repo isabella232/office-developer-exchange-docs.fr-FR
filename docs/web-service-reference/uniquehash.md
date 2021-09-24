@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fa53810-d6ec-406b-bdde-ddf33f03600f
-description: L’élément UniqueHash spécifie une valeur de hachage unique utilisée pour la déduplication.
-ms.openlocfilehash: c0d7baefd5f1424a7d05f0264061662911b4e407
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UniqueHash spécifie une valeur de hachage unique utilisée pour la déplication.
+ms.openlocfilehash: 40de46c5247876628997a6caabb3b25d89ec1f36
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468186"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512322"
 ---
 # <a name="uniquehash"></a>UniqueHash
 
-L’élément **UniqueHash** spécifie une valeur de hachage unique utilisée pour la déduplication. 
+**L’élément UniqueHash** spécifie une valeur de hachage unique utilisée pour la déplication. 
   
 ```XML
 <UniqueHash></UniqueHash>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **UniqueHash** est une valeur de hachage utilisée pour la déduplication. 
+La valeur de texte de **l’élément UniqueHash** est une valeur de hachage utilisée pour la déplication. 
   
 ## <a name="remarks"></a>Remarques
 

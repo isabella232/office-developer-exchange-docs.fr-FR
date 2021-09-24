@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
 description: L’élément ServerVersion représente le numéro de version de l’ordinateur qui exécute Microsoft Exchange Server.
-ms.openlocfilehash: 3ef531a69d2dd00ee9784c9eb191684ce517e842
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: bc7f9daa62e628e41f7541a609550e90af211928
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527376"
 ---
 # <a name="serverversion-pox"></a>ServerVersion (POX)
 
-L’élément **ServerVersion** représente le numéro de version de l’ordinateur qui exécute Microsoft Exchange Server. 
+**L’élément ServerVersion** représente le numéro de version de l’ordinateur qui exécute Microsoft Exchange Server. 
   
-- [Découverte automatique (POX)](autodiscover-pox.md) 
-- [Réponse (POX)](response-pox.md)
-- [Compte (POX)](account-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
 - [Protocol (POX)](protocol-pox.md)
 - [ServerVersion (POX)](serverversion-pox.md)
   
@@ -46,19 +46,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange sur qui le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente le numéro de version d’Exchange Server.
+La valeur de texte représente le Exchange de version du serveur.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur **ServerVersion** est valide uniquement si l’élément [type (POX)](type-pox.md) est égal à Exch ou Expr. La valeur **ServerVersion** est un nombre hexadécimal qui contient les valeurs MajorVersion, MinorVersion et MajorBuildNumber du serveur. 
+La **valeur ServerVersion** n’est valide que si l’élément [Type (POX)](type-pox.md) est égal à EXCH ou EXPR. La **valeur ServerVersion** est un nombre hexadécimal qui contient les valeurs MajorVersion, MinorVersion et MajorBuildNumber du serveur. 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant permet d’extraire une valeur **ServerVersion** qui est renvoyée dans une réponse de découverte automatique pour obtenir et afficher les options MajorVersion, MinorVersion et MajorBuildNumber. Cet exemple vous permet d’entrer une valeur hexadécimale pour la valeur **ServerVersion** . Si aucune valeur **ServerVersion** n’est entrée, une valeur **ServerVersion** par défaut de 738180DA est utilisée. 
+L’exemple suivant couvre une valeur **ServerVersion** renvoyée dans une réponse de découverte automatique pour obtenir et afficher les valeurs MajorVersion, MinorVersion et MajorBuildNumber. Cet exemple vous permet d’entrer une valeur hexadécimale pour la **valeur ServerVersion.** Si aucune **valeur ServerVersion** n’est entrée, une valeur **ServerVersion** par défaut de 738180DA est utilisée. 
   
 ```csharp
 static void Main(string[] args)
@@ -105,5 +105,5 @@ static void Main(string[] args)
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

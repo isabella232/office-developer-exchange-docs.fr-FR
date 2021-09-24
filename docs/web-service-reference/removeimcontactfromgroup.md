@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a62b0640-9800-45a6-a297-2105ff36881e
 description: L’élément RemoveImContactFromGroup définit une demande de suppression d’un contact de messagerie instantanée d’un groupe de messagerie instantanée.
-ms.openlocfilehash: 379994ad5832b05e9f7da61d752f7660a6eec5ad
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 426129f6bb26b43374fcb706531af04aea3c1e20
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466961"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512407"
 ---
 # <a name="removeimcontactfromgroup"></a>RemoveImContactFromGroup
 
-L’élément **RemoveImContactFromGroup** définit une demande de suppression d’un contact de messagerie instantanée d’un groupe de messagerie instantanée. 
+**L’élément RemoveImContactFromGroup définit** une demande de suppression d’un contact de messagerie instantanée d’un groupe de messagerie instantanée. 
   
 ```XML
 <RemoveImContactFromGroup>
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ContactID](contactid.md)  |  [GroupID](groupid.md)
+[ContactId](contactid.md)  |  [GroupId](groupid.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

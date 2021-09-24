@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
-description: L’élément UserParameters contient la liste des extensions clientes activées et désactivées.
-ms.openlocfilehash: 76bf858adfb6d2ef76a25c234117131752c60d7b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserParameters contient une liste des extensions client activées et désactivées.
+ms.openlocfilehash: 1d93ec0f4e44b238fcb9aca23672c262795290a6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526752"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510728"
 ---
 # <a name="userparameters"></a>UserParameters
 
-L’élément **UserParameters** contient la liste des extensions clientes activées et désactivées. 
+**L’élément UserParameters** contient une liste des extensions client activées et désactivées. 
   
 ```XML
 <UserParameters UserId="" EnabledOnly="">
@@ -35,8 +35,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|UserId  <br/> |La valeur de texte de l’attribut **userid** est l’identificateur de l’utilisateur.  <br/> |
-|EnabledOnly  <br/> |La valeur de texte de la **EnabledOnly** indique si la réponse ne contient que les extensions activées.  <br/> |
+|UserId  <br/> |La valeur de texte de **l’attribut UserId** est l’identificateur de l’utilisateur.  <br/> |
+|EnabledOnly  <br/> |La valeur de texte **de EnabledOnly** indique si la réponse contient uniquement les extensions activées.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

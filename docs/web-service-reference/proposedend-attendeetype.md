@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc9c0a57-f8b0-440f-97dd-88af47840625
-description: L’élément ProposedEnd (AttendeeType) spécifie l’heure de fin proposée d’un participant à une réunion.
-ms.openlocfilehash: 892a80197a269f806fe7520d6660d09e1cfb38ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ProposedEnd (AttendeeType) spécifie l’heure de fin proposée par un participant pour une réunion.
+ms.openlocfilehash: 15a7673c49c0f2695323f437bda1011e2bff59b8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465568"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510918"
 ---
 # <a name="proposedend-attendeetype"></a>ProposedEnd (AttendeeType)
 
-L’élément **ProposedEnd (AttendeeType)** spécifie l’heure de fin proposée d’un participant à une réunion. 
+**L’élément ProposedEnd (AttendeeType)** spécifie l’heure de fin proposée par un participant pour une réunion. 
   
 ```XML
 <ProposedEnd/>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Participant](attendee.md)
+[Attendee](attendee.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ProposedEnd (AttendeeType)** est la date et l’heure de fin proposées pour une réunion. 
+La valeur de texte de **l’élément ProposedEnd (AttendeeType)** est la date et l’heure de fin proposées pour une réunion. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 
 
 
-[Participant](attendee.md)
+[Attendee](attendee.md)
 
 
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)

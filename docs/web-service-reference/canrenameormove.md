@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CanRenameOrMove
 api_type:
 - schema
 ms.assetid: fe0cdb04-5f2b-4f1d-9d12-7ace0883cd86
 description: L’élément CanRenameOrMove indique si un dossier géré peut être renommé ou déplacé par le client.
-ms.openlocfilehash: eb6aaeb8b0edcab5b67212c426a44daf32a0cf73
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7c452ed65860939e834d77894bdb5e913ecb36a8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463362"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518806"
 ---
 # <a name="canrenameormove"></a>CanRenameOrMove
 
-L’élément **CanRenameOrMove** indique si un dossier géré peut être renommé ou déplacé par le client. 
+**L’élément CanRenameOrMove** indique si un dossier géré peut être renommé ou déplacé par le client. 
   
 ```xml
 <CanRenameOrMove/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente une valeur de type Boolean. La valeur **true** indique que le dossier peut être renommé ou déplacé ; la valeur **false** indique que le dossier ne peut pas être renommé ou déplacé. 
+La valeur de texte représente une valeur boolé américaine. La valeur **true indique** que le dossier peut être renommé ou déplacé ; La valeur **false indique** que le dossier ne peut pas être renommé ou déplacé. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -1,27 +1,27 @@
 ---
-title: Intervalle
+title: Interval
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Interval
 api_type:
 - schema
 ms.assetid: d0c97a5f-96be-40c6-b7d4-abf4c3870adf
 description: L’élément Interval définit l’intervalle entre deux éléments périodiques consécutifs.
-ms.openlocfilehash: 70a41cfc438f057cbe11d792f0004d46d0abcc85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6df46865d7a89a0bfde9afc5f84ffdb78d956a30
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526563"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541027"
 ---
-# <a name="interval"></a>Intervalle
+# <a name="interval"></a>Interval
 
-L’élément **Interval** définit l’intervalle entre deux éléments périodiques consécutifs. 
+**L’élément Interval** définit l’intervalle entre deux éléments périodiques consécutifs. 
   
 ```xml
 <Interval/>
@@ -46,16 +46,16 @@ Aucun.
 |:-----|:-----|
 |[AbsoluteMonthlyRecurrence](absolutemonthlyrecurrence.md) <br/> |Représente une périodicité mensuelle.  <br/> |
 |[DailyRegeneration](dailyregeneration.md) <br/> |Décrit la fréquence, en jours, de régénération d’une tâche.  <br/> |
-|[DailyRecurrence](dailyrecurrence.md) <br/> |Décrit la fréquence, en jours, de récurrence d’une tâche.  <br/> |
+|[DailyRecurrence](dailyrecurrence.md) <br/> |Décrit la fréquence, en jours, de récursation d’une tâche.  <br/> |
 |[MonthlyRegeneration](monthlyregeneration.md) <br/> |Décrit la fréquence, en mois, de régénération d’une tâche.  <br/> |
 |[RelativeMonthlyRecurrence](relativemonthlyrecurrence.md) <br/> |Décrit un modèle mensuel relatif pour une tâche périodique.  <br/> |
-|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Décrit la fréquence, en semaines, et les jours de récurrence d’une tâche.  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Décrit la fréquence, en semaines, pendant laquelle et les jours pendant lesquels une tâche se reproduit.  <br/> |
 |[WeeklyRegeneration](weeklyregeneration.md) <br/> |Décrit la fréquence, en semaines, de régénération d’une tâche.  <br/> |
-|[YearlyRegeneration](yearlyregeneration.md) <br/> |Décrit la fréquence de régénération d’une tâche, exprimée en années.  <br/> |
+|[YearlyRegeneration](yearlyregeneration.md) <br/> |Décrit la fréquence, en années, de régénération d’une tâche.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un entier est requise.
+Une valeur de texte qui représente un integer est requise.
   
 ## <a name="remarks"></a>Remarques
 

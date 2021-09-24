@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseItemId
 api_type:
 - schema
 ms.assetid: c762e60e-08bb-430a-af5e-fa991f33a44f
-description: L’élément BaseItemId représente la classe de base pour les ID qui représentent les éléments d’une boîte aux lettres. Il s’agit d’une classe abstraite qui ne se produira donc pas dans un document d’instance.
-ms.openlocfilehash: d4f690bc044ed4a1bc0aa154bd3921a3078d6b45
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément BaseItemId représente la classe de base pour les ID qui représentent des éléments dans une boîte aux lettres. Il s’agit d’une classe abstraite qui, par conséquent, ne se produit pas dans un document d’instance.
+ms.openlocfilehash: 28c933947a582de4245dcb89d86142a3a92debad
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518917"
 ---
 # <a name="baseitemid"></a>BaseItemId
 
-L’élément **BaseItemId** représente la classe de base pour les ID qui représentent les éléments d’une boîte aux lettres. Il s’agit d’une classe abstraite qui ne se produira donc pas dans un document d’instance. 
+**L’élément BaseItemId représente** la classe de base pour les ID qui représentent des éléments dans une boîte aux lettres. Il s’agit d’une classe abstraite qui, par conséquent, ne se produit pas dans un document d’instance. 
   
 ```xml
 <BaseItemId/>

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f7119b7-f5b4-484d-a7de-fa74836d9aee
-description: L’élément contact spécifie un contact dans le magasin de contacts unifié.
-ms.openlocfilehash: e8ebc28456f8bfc26f5d790ac9ff278930041ea0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Contact spécifie un contact dans le magasin de contacts unifié.
+ms.openlocfilehash: e52573841f934a11c05a1da9e19f91146ed9c774
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511992"
 ---
 # <a name="contact-contacttype"></a>Contact (ContactType)
 
-L’élément **contact** spécifie un contact dans le magasin de contacts unifié. 
+**L’élément Contact** spécifie un contact dans le magasin de contacts unifié. 
   
 ```XML
 <Contact>
@@ -48,8 +48,8 @@ Aucune.
 |[PhoneNumbers](phonenumbers.md) <br/> |Représente une collection de numéros de téléphone pour un contact.  <br/> |
 |[URL](urls.md) <br/> |Spécifie un tableau d’URL pour un personnage.  <br/> |
 |[EmailAddresses (ArrayOfExtractedEmailAddresses)](emailaddresses-arrayofextractedemailaddresses.md) <br/> |Spécifie un tableau d’adresses de messagerie extraites.  <br/> |
-|[Adresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Spécifie un tableau d’éléments **Address** .  <br/> |
-|[ContactString](contactstring.md) <br/> |Spécifie le nom d’affichage d’un contact.  <br/> |
+|[Addresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Spécifie un tableau d’éléments **Address.**  <br/> |
+|[ContactString](contactstring.md) <br/> |Spécifie le nom complet d’un contact.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -69,7 +69,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

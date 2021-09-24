@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastName
 api_type:
 - schema
 ms.assetid: 814a81a4-d0d1-43ea-8bb8-652c3043358e
-description: L’élément LastName représente le nom de famille d’un contact.
-ms.openlocfilehash: fad1541a1a80f8446ed7d1aca6b565b4a3eb3f0d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LastName représente le nom d’un contact.
+ms.openlocfilehash: deb41e95ebf827391bec0c6ae47d6b0980a7dc74
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459818"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519379"
 ---
 # <a name="lastname"></a>LastName
 
-L’élément **LastName** représente le nom de famille d’un contact. 
+**L’élément LastName** représente le nom d’un contact. 
   
 ```xml
 <LastName/>

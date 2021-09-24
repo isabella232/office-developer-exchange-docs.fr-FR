@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 08c6c5a2-a67a-4141-a8bd-1b5d560b90a7
-description: La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL utilisées pour établir une liaison avec les services Web Exchange (EWS).
-ms.openlocfilehash: 0d903d9829fa6dc1273d8b25a1eeb0b68700d5da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL utilisées pour établir une liaison avec Exchange Web Services (EWS).
+ms.openlocfilehash: 42705856a28a1b5e595e55ab3f77f78089a1ee21
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462282"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59527899"
 ---
 # <a name="pox-autodiscover-response-for-exchange"></a>Réponse de découverte automatique POX pour Exchange
 
-La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL utilisées pour établir une liaison avec les services Web Exchange (EWS).
+La réponse de découverte automatique contient une réponse à une demande de découverte automatique qui inclut une liste d’URL utilisées pour établir une liaison avec Exchange Web Services (EWS).
   
 ## <a name="autodiscover-response-example"></a>Exemple de réponse de découverte automatique
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse de découverte automatique réussie.
+L’exemple suivant illustre une réponse de découverte automatique réussie.
   
 ### <a name="code"></a>Code
 
@@ -74,17 +74,17 @@ L’exemple suivant montre une réponse de découverte automatique réussie.
 
 ### <a name="comments"></a>Commentaires
 
-Pour établir une liaison avec les services Web Exchange, utilisez l’URL identifiée par l’élément [ASUrl (POX)](asurl-pox.md) . 
+Pour lier les Exchange web, utilisez l’URL identifiée par l’élément [ASUrl (POX).](asurl-pox.md) 
   
 ### <a name="response-element"></a>Response, élément
 
-Les éléments suivants sont utilisés dans le corps de la réponse :
+Les éléments suivants sont utilisés dans le corps de la réponse :
   
-- [Découverte automatique (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
     
-- [Réponse (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
     
-- [Utilisateur (POX)](user-pox.md)
+- [User (POX)](user-pox.md)
     
 - [DisplayName (POX)](displayname-pox.md)
     
@@ -92,7 +92,7 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
     
 - [DeploymentId (POX)](deploymentid-pox.md)
     
-- [Compte (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
     
 - [AccountType (POX)](accounttype-pox.md)
     
@@ -102,7 +102,7 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
     
 - [Type (POX)](type-pox.md)
     
-- [Serveur (POX)](server-pox.md)
+- [Server (POX)](server-pox.md)
     
 - [ServerDN (POX)](serverdn-pox.md)
     
@@ -118,7 +118,7 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
     
 - [OABUrl (POX)](oaburl-pox.md)
     
-- [Interne (POX)](internal-pox.md)
+- [Internal (POX)](internal-pox.md)
     
 - [OWAUrl (POX)](owaurl-pox.md)
     
@@ -126,7 +126,7 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur de découverte automatique.
+L’exemple suivant illustre une réponse d’erreur de découverte automatique.
   
 ### <a name="code"></a>Code
 
@@ -145,11 +145,11 @@ L’exemple suivant montre une réponse d’erreur de découverte automatique.
 
 ### <a name="error-response-element"></a>Élément de réponse d’erreur
 
-Les éléments suivants sont utilisés dans le corps de la réponse :
+Les éléments suivants sont utilisés dans le corps de la réponse :
   
-- [Découverte automatique (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
     
-- [Réponse (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
     
 - [Erreur (POX)](error-pox.md)
     
@@ -162,6 +162,6 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
 ## <a name="see-also"></a>Voir aussi
 
 - [Demande de découverte automatique POX pour Exchange](pox-autodiscover-request-for-exchange.md)
-- [Référence du service Web de découverte automatique POX pour Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
-- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Référence du service web de découverte automatique POX pour Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

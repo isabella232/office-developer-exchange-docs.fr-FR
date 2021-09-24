@@ -5,38 +5,38 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettings
 api_type:
 - schema
 ms.assetid: 36277ef0-18ee-4b35-9e6e-8c321d8f5433
-description: La méthode Web SetUserOofSettings définit les paramètres et les messages d’absence du Bureau d’un utilisateur de boîte aux lettres.
-ms.openlocfilehash: 88b5475dd2f0fe6d334bad51a0fe8d0beb767634
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: La méthode Web SetUserOofSettings définit les paramètres et le message d’absence du Office d’un utilisateur de boîte aux lettres.
+ms.openlocfilehash: 21a860b2a1ae4a660e08554d7d67049c1ae0d858
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463152"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59531873"
 ---
 # <a name="setuseroofsettings-operation"></a>Opération SetUserOofSettings
 
-La méthode Web **SetUserOofSettings** définit les paramètres et les messages d’absence du Bureau d’un utilisateur de boîte aux lettres. 
+La **méthode Web SetUserOofSettings** définit les paramètres et le message d’absence Office d’un utilisateur de boîte aux lettres. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **SetUserOofSettings** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération SetUserOofSettings** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="setuseroofsettings-request-example"></a>Exemple de requête SetUserOofSettings
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **SetUserOofSettings** suivant définit un paramètre OOF sur 10 jours. 
+L’exemple suivant **d’une demande SetUserOofSettings** définit un paramètre d’absence du travail pendant 10 jours. 
   
 ### <a name="code"></a>Code
 
@@ -69,17 +69,17 @@ L’exemple de requête **SetUserOofSettings** suivant définit un paramètre OO
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
 - [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
     
-- [Boîte aux lettres (disponibilité)](mailbox-availability.md)
+- [Mailbox (Availability)](mailbox-availability.md)
     
-- [Nom (EmailAddress)](name-emailaddress.md)
+- [Name (EmailAddress)](name-emailaddress.md)
     
-- [Address (chaîne)](address-string.md)
+- [Address (String)](address-string.md)
     
 - [RoutingType (EmailAddress)](routingtype-emailaddress.md)
     
@@ -97,15 +97,15 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [InternalReply](internalreply.md)
     
-- [Message (disponibilité)](message-availability.md)
+- [Message (Availability)](message-availability.md)
     
 - [ExternalReply](externalreply.md)
     
-## <a name="successful-setuseroofsettings-response-example"></a>Exemple de réponse SetUserOofSettings réussi
+## <a name="successful-setuseroofsettings-response-example"></a>Exemple de réponse SetUserOofSettings réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **SetUserOofSettings** . 
+L’exemple suivant montre une réponse réussie à la **demande SetUserOofSettings.** 
   
 ### <a name="code"></a>Code
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RootFolder
 api_type:
 - schema
 ms.assetid: 5089c815-663f-46be-bc59-aed9ee20f94a
-description: L’élément RootFolder contient les résultats d’une recherche d’un dossier racine unique pendant une opération FindFolder.
-ms.openlocfilehash: b5601d6abec67196c9991908e272a2122a201d69
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RootFolder contient les résultats d’une recherche d’un dossier racine unique au cours d’une opération FindFolder.
+ms.openlocfilehash: 582d4642bb4ecd2816beba6df863eb274762f804
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457136"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59512274"
 ---
 # <a name="rootfolder-findfolderresponsemessage"></a>RootFolder (FindFolderResponseMessage)
 
-L’élément **RootFolder** contient les résultats d’une recherche d’un dossier racine unique pendant une [opération FindFolder](findfolder-operation.md).
+**L’élément RootFolder** contient les résultats d’une recherche d’un dossier racine unique au cours d’une [opération FindFolder](findfolder-operation.md).
   
 ```xml
 <RootFolder IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
@@ -38,27 +38,27 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|IndexedPagingOffset  <br/> |Représente l’index suivant qui doit être utilisé pour la requête suivante lors de l’utilisation d’une vue de pagination indexée.  <br/> |
-|NumeratorOffset  <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la requête suivante lors de l’utilisation d’affichages de page fractionnaires.  <br/> |
-|AbsoluteDenominator  <br/> |Représente le dénominateur suivant à utiliser pour la requête suivante lors de la pagination fractionnée.  <br/> |
-|IncludesLastItemInRange  <br/> |Indique si les résultats actuels contiennent le dernier dossier de la requête, de sorte qu’aucune pagination supplémentaire n’est nécessaire.  <br/> |
-|TotalItemsInView  <br/> |Représente le nombre total de dossiers qui ont passé la restriction.  <br/> |
+|IndexedPagingOffset  <br/> |Représente l’index suivant qui doit être utilisé pour la demande suivante lors de l’utilisation d’une vue de pagination indexée.  <br/> |
+|NumeratorOffset  <br/> |Représente la nouvelle valeur de numérateur à utiliser pour la demande suivante lors de l’utilisation de vues de page fractionnaires.  <br/> |
+|AbsoluteDenominator  <br/> |Représente le dénominateur suivant à utiliser pour la demande suivante lors de la pagination fractionnaire.  <br/> |
+|IncludesLastItemInRange  <br/> |Indique si les résultats actuels contiennent le dernier dossier de la requête, de telles que la pagination supplémentaire n’est pas nécessaire.  <br/> |
+|TotalItemsInView  <br/> |Représente le nombre total de dossiers qui passent la restriction.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Contient un tableau de dossiers trouvés à l’aide de l' [opération FindFolder](findfolder-operation.md).  <br/> |
+|[Dossiers](folders-ex15websvcsotherref.md) <br/> |Contient un tableau de dossiers trouvés à l’aide de [l’opération FindFolder](findfolder-operation.md).  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Contient l’État et le résultat d’une demande d' [opération FindFolder](findfolder-operation.md) .  <br/> |
+|[FindFolderResponseMessage](findfolderresponsemessage.md) <br/> |Contient l’état et le résultat [d’une demande d’opération FindFolder.](findfolder-operation.md)  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,27 +1,27 @@
 ---
-title: Catégories
+title: Categories
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Categories
 api_type:
 - schema
 ms.assetid: d84d4927-b524-4e62-bf3d-1f12fec8c21a
-description: L’élément categories contient une collection de chaînes qui identifient les catégories auxquelles un élément de la boîte aux lettres appartient.
-ms.openlocfilehash: 0d9f7068aa81306a10436ed0ca0d45f6d3b2c3a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Categories contient une collection de chaînes qui identifient les catégories à laquelle un élément de la boîte aux lettres appartient.
+ms.openlocfilehash: a7d9b42b1ce6a5ec26de76c59c713279c134a15c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518784"
 ---
-# <a name="categories"></a>Catégories
+# <a name="categories"></a>Categories
 
-L’élément **categories** contient une collection de chaînes qui identifient les catégories auxquelles un élément de la boîte aux lettres appartient. 
+**L’élément Categories** contient une collection de chaînes qui identifient les catégories à laquelle un élément de la boîte aux lettres appartient. 
   
 ```XML
 <Categories>
@@ -55,14 +55,14 @@ Aucune.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
 |[Conditions](conditions.md) <br/> |Représente les conditions qui, lorsqu'elles sont remplies, vont déclencher les actions de règle pour une règle.  <br/> |
 |[Exceptions](exceptions.md) <br/> |Représente toutes les conditions d’exception de règle disponibles pour une règle de boîte de réception.  <br/> |
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

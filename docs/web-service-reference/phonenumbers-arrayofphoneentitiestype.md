@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ff6ae98-34a1-47f7-bde5-608251a789f7
 description: L’élément PhoneNumbers spécifie un tableau de numéros de téléphone extraits.
-ms.openlocfilehash: 857847a8bc202ba0d630915ac10f197264d840a3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fe0758536a27d24f181bb413a838943490bacb59
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461701"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528287"
 ---
 # <a name="phonenumbers-arrayofphoneentitiestype"></a>PhoneNumbers (ArrayOfPhoneEntitiesType)
 
-L’élément **PhoneNumbers** spécifie un tableau de numéros de téléphone extraits. 
+**L’élément PhoneNumbers** spécifie un tableau de numéros de téléphone extraits. 
   
 ```XML
 <PhoneNumbers>
@@ -36,7 +36,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Téléphone (PhoneEntityType)](phone-phoneentitytype.md)
+[Phone (PhoneEntityType)](phone-phoneentitytype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

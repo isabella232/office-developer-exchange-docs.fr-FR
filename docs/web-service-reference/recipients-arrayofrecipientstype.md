@@ -1,27 +1,27 @@
 ---
-title: Destinataires (ArrayOfRecipientsType)
+title: Recipients (ArrayOfRecipientsType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Recipients
 api_type:
 - schema
 ms.assetid: f4b71403-cbae-4176-8b2e-3597048c057b
 description: L’élément Recipients représente une collection de destinataires qui reçoivent une copie du message.
-ms.openlocfilehash: 0e18152a8143b888ad27f48137c06613694f5713
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 232dbb88f54cb551f4f8017ff9d18049a4984783
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529541"
 ---
-# <a name="recipients-arrayofrecipientstype"></a>Destinataires (ArrayOfRecipientsType)
+# <a name="recipients-arrayofrecipientstype"></a>Recipients (ArrayOfRecipientsType)
 
-L’élément **Recipients** représente une collection de destinataires qui reçoivent une copie du message. 
+**L’élément Recipients** représente une collection de destinataires qui reçoivent une copie du message. 
   
 ```XML
 <Recipients>
@@ -42,13 +42,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Boîte aux lettres](mailbox.md) <br/> |Identifie un objet Active Directory à extension messagerie.  <br/> |
+|[Boîte aux lettres](mailbox.md) <br/> |Identifie un objet Active Directory à messagerie.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetMailTips](getmailtips.md) <br/> |Contient les destinataires et les types de conseils de messagerie à récupérer.  <br/> |
+|[GetMailTips](getmailtips.md) <br/> |Contient les destinataires et les types d’infos-courrier à récupérer.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

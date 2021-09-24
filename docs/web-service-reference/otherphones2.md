@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2932d04-4427-4fc7-97a1-1c57cf736072
-description: L’élément OtherPhones2 spécifie un tableau de valeurs de téléphone et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 3b33005e4001fd675c2ea2b6f8446648db23c8d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OtherPhones2 spécifie un tableau de valeurs de téléphone et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: b0c24a8341445643cda6ddb0f3127e3f88e96b53
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462352"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529549"
 ---
 # <a name="otherphones2"></a>OtherPhones2
 
-L’élément **OtherPhones2** spécifie un tableau de valeurs de téléphone et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément OtherPhones2** spécifie un tableau de valeurs de téléphone et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <OtherPhones2>

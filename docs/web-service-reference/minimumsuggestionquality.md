@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MinimumSuggestionQuality
 api_type:
 - schema
 ms.assetid: 3725cbd4-9bc1-4f7d-8929-b2c68cb46114
-description: L’élément MinimumSuggestionQuality définit la qualité des suggestions de réunion à renvoyer dans la réponse.
-ms.openlocfilehash: c85cbf65a63ac0b09408c14e01889f97a05b27b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MinimumSuggestionQuality définit la qualité des suggestions de réunion à retourner dans la réponse.
+ms.openlocfilehash: c1126158f7a521fbefaf34fda906d60dd15c2af4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467479"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510931"
 ---
 # <a name="minimumsuggestionquality"></a>MinimumSuggestionQuality
 
-L’élément **MinimumSuggestionQuality** définit la qualité des suggestions de réunion à renvoyer dans la réponse. 
+**L’élément MinimumSuggestionQuality** définit la qualité des suggestions de réunion à retourner dans la réponse. 
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -50,22 +50,22 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Le tableau suivant répertorie les valeurs possibles pour cet élément :
+Une valeur de texte est requise. Le tableau suivant répertorie les valeurs possibles pour cet élément :
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**Excellente** <br/> |0% des participants ont un conflit avec l’heure de la réunion suggérée.  <br/> |
-|**Good** <br/> |Le pourcentage considéré comme approprié est défini à l’aide de l’élément [GoodThreshold](goodthreshold.md) .  <br/> |
-|**Beau** <br/> |Le pourcentage considéré comme équitable est défini à l’aide de l’élément [GoodThreshold](goodthreshold.md) .  <br/> |
-|**Mauvais** <br/> |50% ou plus des participants ont un conflit avec l’heure de la réunion suggérée.  <br/> |
+|**Excellente** <br/> |0 % des participants sont en conflit avec l’heure de réunion suggérée.  <br/> |
+|**Good** <br/> |Le pourcentage considéré comme étant bon est fixé à l’aide de [l’élément GoodThreshold.](goodthreshold.md)  <br/> |
+|**Fair** <br/> |Le pourcentage considéré comme juste est fixé à l’aide de [l’élément GoodThreshold.](goodthreshold.md)  <br/> |
+|**Mauvais** <br/> |50 % ou plus des participants sont en conflit avec l’heure de réunion suggérée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément est requis si l’élément [SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
+Cet élément est requis si [l’élément SuggestionsViewOptions](suggestionsviewoptions.md) est utilisé. 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

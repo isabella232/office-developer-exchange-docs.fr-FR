@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 7335b1c1-0b47-4452-a8cb-d19cddcfc281
-description: L’élément MajorBuildNumber représente le numéro de build principal pour le serveur.
-ms.openlocfilehash: 60a8cbeb4b689da85bbb72c2d93759799b913f2f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MajorBuildNumber représente le numéro de build principal du serveur.
+ms.openlocfilehash: da6431a1e97ab7d57e398eeffaa683e3cbb877d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59511102"
 ---
 # <a name="majorbuildnumber-soap"></a>MajorBuildNumber (SOAP)
 
-L’élément **MajorBuildNumber** représente le numéro de build principal pour le serveur. 
+**L’élément MajorBuildNumber** représente le numéro de build principal du serveur. 
   
 ```XML
 <MajorBuildNumber/>
 ```
 
- **XS : int**
+ **xs:int**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -41,11 +41,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Contient la version du serveur qui a traité la demande.  <br/> |
+|[ServerVersionInfo (SOAP)](serverversioninfo-soap.md) <br/> |Contient la version du serveur qui a traitée la demande.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément MajorBuildNumber est un entier qui représente le numéro de build principal du serveur qui a traité la demande.
+La valeur de texte de l’élément MajorBuildNumber est un nombre complet qui représente le numéro de build principal du serveur qui a traitée la demande.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -53,7 +53,7 @@ La valeur de texte de l’élément MajorBuildNumber est un entier qui représen
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

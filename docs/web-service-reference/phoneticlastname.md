@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d8cefc4-b16a-45d0-9ad7-543f83a8eb15
-description: L’élément PhoneticLastName contient le nom de famille d’un contact, orthographié phonétiquement.
-ms.openlocfilehash: b99262f54716af01ee4a07de91363058d05fbe88
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PhoneticLastName contient le nom de famille d’un contact, orthographé phonétiquement.
+ms.openlocfilehash: 39b7c5a05740071263002a1ddd33f5dd18400cbd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59528135"
 ---
 # <a name="phoneticlastname"></a>PhoneticLastName
 
-L’élément **PhoneticLastName** contient le nom de famille d’un contact, orthographié phonétiquement. 
+**L’élément PhoneticLastName** contient le nom de famille d’un contact, orthographé phonétiquement. 
   
 ```XML
 <PhoneticLastName/>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Nom de l'élément**|**Description**|
 |:-----|:-----|
-|[Contact](contact.md) <br/> |Représente un contact dans la Banque d’Exchange.  <br/> |
+|[Contact](contact.md) <br/> |Représente un contact dans le magasin Exchange de données.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une chaîne qui représente le nom de famille d’un contact, épelée phonétiquement.
+La valeur de texte est une chaîne qui représente le nom de famille d’un contact, orthographie phonétiquement.
   
 ## <a name="remarks"></a>Remarques
 

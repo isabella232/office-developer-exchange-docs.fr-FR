@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
 description: L’élément GetRemindersResponse spécifie la réponse à une demande GetReminders.
-ms.openlocfilehash: 4e4d6a662d2b734b8bb93e3dd4b325bf6e46a6fc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0ddabd8eb617713ada5aeef7bbc4aa504ba3cce3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458291"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518350"
 ---
 # <a name="getremindersresponse"></a>GetRemindersResponse
 
-L’élément **GetRemindersResponse** spécifie la réponse à une demande **GetReminders** . 
+**L’élément GetRemindersResponse** spécifie la réponse à **une demande GetReminders.** 
   
 ```XML
 <GetRemindersResponse>
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternalReply
 api_type:
 - schema
 ms.assetid: 1d784ded-b874-4eb1-8f6d-2e0e03330e1e
-description: L’élément InternalReply contient la réponse d’absence du Bureau envoyée aux autres utilisateurs dans le domaine ou les domaines approuvés de l’utilisateur.
-ms.openlocfilehash: 24c278ebd3acf83e87fbf72650eb3d5d438d5c22
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément InternalReply contient la réponse d’absence du bureau envoyée à d’autres utilisateurs dans le domaine ou les domaines de confiance de l’utilisateur.
+ms.openlocfilehash: bbf25d05330463e44d9c865749943ed45a64e157
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465582"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541104"
 ---
 # <a name="internalreply"></a>InternalReply
 
-L’élément **InternalReply** contient la réponse d’absence du Bureau envoyée aux autres utilisateurs dans le domaine ou les domaines approuvés de l’utilisateur. 
+**L’élément InternalReply** contient la réponse d’absence du bureau envoyée à d’autres utilisateurs dans le domaine ou les domaines de confiance de l’utilisateur. 
   
 ```XML
 <InternalReply>
@@ -38,20 +38,20 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|XML : lang  <br/> |Spécifie la langue utilisée dans le message **InternalReply** . Les valeurs possibles de cet attribut sont définies par IETF RFC 3066.  <br/> |
+|xml:lang  <br/> |Spécifie la langue utilisée dans le message **InternalReply.** Les valeurs possibles de cet attribut sont définies par la RFC 3066 de l’IETF.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Message (disponibilité)](message-availability.md) <br/> |Contient la réponse OOF.  <br/> |
+|[Message (Availability)](message-availability.md) <br/> |Contient la réponse OOF.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contient les paramètres OOF.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du travail.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contient les paramètres d’absence du travail.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
   
 ## <a name="example"></a>Exemple
 
-L’exemple de requête SetUserOofSettings suivant définit le [OofState](oofstate.md) sur **activé**, définit la durée de l’absence du Bureau pour 10 jours et définit les messages OOF internes et externes.
+L’exemple suivant d’une demande SetUserOofSettings définit [L’état](oofstate.md) d’absence du travail sur **Activé,** définit la durée de l’absence du travail pendant 10 jours et définit les messages d’absence du travail internes et externes.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

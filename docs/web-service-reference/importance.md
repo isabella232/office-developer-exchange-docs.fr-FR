@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Importance
 api_type:
 - schema
 ms.assetid: 1557f59a-41f2-43fb-9ded-88f3ec5c76cb
-description: L’élément importance décrit l’importance d’un élément ou l’importance agrégée de tous les éléments d’une conversation dans le dossier actif.
-ms.openlocfilehash: c49d6e84a41f1eb546eef19e2e7279fdb30b48e4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Importance décrit l’importance d’un élément ou l’importance agrégée de tous les éléments d’une conversation dans le dossier actuel.
+ms.openlocfilehash: 38dc05bd08a49d95b7cacd776dde6a07b1a92522
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464790"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541139"
 ---
 # <a name="importance"></a>Importance
 
-L’élément **importance** décrit l’importance d’un élément ou l’importance agrégée de tous les éléments d’une conversation dans le dossier actif. 
+**L’élément Importance** décrit l’importance d’un élément ou l’importance agrégée de tous les éléments d’une conversation dans le dossier actuel. 
   
 ```XML
 <Importance/>
@@ -53,7 +53,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -61,13 +61,13 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
   
 - Faible
     
 - Normal
     
-- Importante
+- Élevé
     
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ID
 api_type:
 - schema
 ms.assetid: 8caf922f-56bd-466a-a68f-d6cb236f2eec
 description: L’élément ID représente l’ID d’entrée de l’élément de calendrier.
-ms.openlocfilehash: 429413bbfb0206effc3ea97eb11527449c67211c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 75916d2598429362e238e645d33c474308b92535
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59529899"
 ---
 # <a name="id"></a>ID
 
-L’élément **ID** représente l’ID d’entrée de l’élément de calendrier. 
+**L’élément ID** représente l’ID d’entrée de l’élément de calendrier. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -60,11 +60,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
+|[CalendarEventDetails](calendareventdetails.md) <br/> |Fournit des informations supplémentaires pour un événement de calendrier.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/CalendarEventArray/CalendarEvent[i]/CalendarEventDetails` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si l’élément [CalendarEventDetails](calendareventdetails.md) est utilisé. 
+Une valeur de texte est requise si cet élément est renvoyé dans la réponse. Cet élément est requis si [l’élément CalendarEventDetails](calendareventdetails.md) est utilisé. 
   
 ## <a name="remarks"></a>Remarques
 

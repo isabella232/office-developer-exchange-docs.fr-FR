@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReadItems
 api_type:
 - schema
 ms.assetid: 0a11a802-28e2-436b-b5a9-30fd064675a6
 description: L’élément ReadItems indique si un utilisateur est autorisé à lire des éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: af6ef5107b5e4f2b3071c0bc9b4b528efea6dcca
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0252846235b17879b06ea9976e4ac1b539b7fd8c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468270"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59519078"
 ---
 # <a name="readitems-permissiontype"></a>ReadItems (PermissionType)
 
-L’élément **ReadItems** indique si un utilisateur est autorisé à lire des éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément ReadItems** indique si un utilisateur est autorisé à lire des éléments dans un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ReadItems>None or FullDetails</ReadItems>
@@ -48,14 +48,14 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **ReadItems** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément ReadItems.** 
   
 **Valeurs de texte de l’élément ReadItems**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à lire les éléments dans le dossier.  <br/> |
-|FullDetails  <br/> |Indique que l’utilisateur est autorisé à lire tous les éléments dans le dossier.  <br/> |
+|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à lire les éléments du dossier.  <br/> |
+|FullDetails  <br/> |Indique que l’utilisateur est autorisé à lire tous les éléments du dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

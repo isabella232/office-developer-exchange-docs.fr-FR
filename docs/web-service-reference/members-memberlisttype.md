@@ -1,27 +1,27 @@
 ---
-title: Membres (MemberListType)
+title: Members (MemberListType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Members
 api_type:
 - schema
 ms.assetid: cbd38049-2ef7-40bf-9bec-0469af0f58ec
 description: L’élément Members fournit la liste des membres d’une liste de distribution.
-ms.openlocfilehash: 2cdfb81dfbc223db365d49ed44d4893339eb4653
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 805e7e043db11a98e154524aa2649cea8257b160
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59518252"
 ---
-# <a name="members-memberlisttype"></a>Membres (MemberListType)
+# <a name="members-memberlisttype"></a>Members (MemberListType)
 
-L’élément **members** fournit la liste des membres d’une liste de distribution. 
+**L’élément Members** fournit la liste des membres d’une liste de distribution. 
   
 ```xml
 <Members>

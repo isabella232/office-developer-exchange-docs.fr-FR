@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb0a7897-c642-4c93-a238-be03128af54e
-description: L’élément SearchableMailboxes contient un tableau des boîtes aux lettres renvoyées à partir d’une demande GetSearchableMailboxes.
-ms.openlocfilehash: 5de15e1c2ae4a587052f836b189651450a1e7482
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SearchableMailboxes contient un tableau des boîtes aux lettres renvoyées par une demande GetSearchableMailboxes.
+ms.openlocfilehash: 5d8b1f19a4d4e2e78ab4d4a251d3c7538ccdd9ff
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467444"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59510840"
 ---
 # <a name="searchablemailboxes"></a>SearchableMailboxes
 
-L’élément **SearchableMailboxes** contient un tableau des boîtes aux lettres renvoyées à partir d’une demande **GetSearchableMailboxes** . 
+**L’élément SearchableMailboxes contient** un tableau des boîtes aux lettres renvoyées par une **demande GetSearchableMailboxes.** 
   
 ```XML
 <SearchableMailboxes>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f50449b9-e73b-43c5-af96-6433bf434dce
-description: L’élément ActionType indique le type d’action pour la suspension.
-ms.openlocfilehash: 8f2796df818dac2bd285b055aa44fbcecd0de5e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ActionType indique le type d’action pour la attente.
+ms.openlocfilehash: 30028da4df2a53a4cd0066823872de5e586020f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457857"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546839"
 ---
 # <a name="actiontype-holdactiontype"></a>ActionType (HoldActionType)
 
-L’élément **ActionType** indique le type d’action pour la suspension. 
+**L’élément ActionType** indique le type d’action pour la attente. 
   
 ```XML
 <ActionType> Create | Update | Remove </ActionType>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ActionType** correspond au type de suspension défini dans une boîte aux lettres. Une valeur de texte de **Create** indique qu’une conservation de boîte aux lettres est créée. Une valeur de texte de **mise à jour** indique qu’une conservation de boîte aux lettres est mise à jour. Une valeur de texte de **suppression** indique qu’une conservation de boîte aux lettres est supprimée. 
+La valeur de texte de **l’élément ActionType** est le type de mise en attente définie sur une boîte aux lettres. La valeur de texte **Create** indique qu’une boîte aux lettres sera créée. La valeur texte **Update** indique qu’une mise en attente de boîte aux lettres sera mise à jour. La valeur de texte **Remove** indique qu’une boîte aux lettres de la boîte aux lettres sera supprimée. 
   
 ## <a name="remarks"></a>Remarques
 

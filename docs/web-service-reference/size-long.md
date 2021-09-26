@@ -1,29 +1,29 @@
 ---
-title: Taille (long)
+title: Size (long)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96514301-9195-420f-ba17-5f512116ee46
 description: L’élément Size spécifie la taille totale d’un ou plusieurs éléments de boîte aux lettres.
-ms.openlocfilehash: 622752688dd41d6e42f1f405ea1dd389eff1ee98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a95c0c3963364edf74647b0a7e62efd9ffad6c8c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468032"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547000"
 ---
-# <a name="size-long"></a>Taille (long)
+# <a name="size-long"></a>Size (long)
 
-L’élément **Size** spécifie la taille totale d’un ou plusieurs éléments de boîte aux lettres. 
+**L’élément Size** spécifie la taille totale d’un ou plusieurs éléments de boîte aux lettres. 
   
 ```XML
 <Size></Size>
 ```
 
- **plus**
+ **long**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Size** correspond à la taille totale d’un ou de plusieurs éléments de boîte aux lettres. 
+La valeur de texte de **l’élément Size** est la taille totale d’un ou plusieurs éléments de boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 

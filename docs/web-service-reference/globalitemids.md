@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalItemIds
 api_type:
 - schema
 ms.assetid: b0f03ce0-a4c3-47de-9360-a880a3606e42
-description: L’élément GlobalItemIds contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans une boîte aux lettres.
-ms.openlocfilehash: aa656e7f2fb78dafe5bf6013c1f7ad14e2372ba1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GlobalItemIds contient la collection d’identificateurs d’éléments pour tous les éléments de conversation dans une boîte aux lettres.
+ms.openlocfilehash: 8422bb6824eae78f2a7c17553385a439c693e0dd
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459425"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547371"
 ---
 # <a name="globalitemids"></a>GlobalItemIds
 
-L’élément **GlobalItemIds** contient la collection d’identificateurs d’élément pour tous les éléments de conversation dans une boîte aux lettres. 
+**L’élément GlobalItemIds contient** la collection d’identificateurs d’éléments pour tous les éléments de conversation dans une boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -53,8 +53,8 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Contient l'identificateur unique et la clé de modification d'un élément dans la banque d'informations Exchange.  <br/> |
-|[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifie une seule occurrence d’un élément périodique.  <br/> |
-|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifie un élément de la forme de base de récurrence en identifiant l’un de ses éléments d’occurrences associés.  <br/> |
+|[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifie une occurrence unique d’un élément périodique.  <br/> |
+|[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifie un élément récurrence maître en identifiant l’un de ses identificateurs d’éléments d’occurrence associés.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

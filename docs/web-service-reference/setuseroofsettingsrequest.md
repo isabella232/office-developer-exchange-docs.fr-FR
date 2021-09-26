@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetUserOofSettingsRequest
 api_type:
 - schema
 ms.assetid: 628acf0b-3ebc-42f1-8ce2-7a02b4c8141f
-description: L’élément SetUserOofSettingsRequest contient les arguments utilisés pour définir les paramètres d’absence du Bureau (OOF) d’un utilisateur de boîte aux lettres.
-ms.openlocfilehash: 10edc9809fd72f80c316de1c6688eaedec4f93df
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetUserOofSettingsRequest contient les arguments utilisés pour définir les paramètres d’absence du Office d’un utilisateur de boîte aux lettres.
+ms.openlocfilehash: c6df61eb89e32e7d9b50a8d6ee2918d7283ce4cb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547077"
 ---
 # <a name="setuseroofsettingsrequest"></a>SetUserOofSettingsRequest
 
-L’élément **SetUserOofSettingsRequest** contient les arguments utilisés pour définir les paramètres d’absence du Bureau (OOF) d’un utilisateur de boîte aux lettres. 
+**L’élément SetUserOofSettingsRequest** contient les arguments utilisés pour définir les paramètres d’absence du Office d’un utilisateur de boîte aux lettres. 
   
 ```xml
 <SetUserOofSettingsRequest>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Boîte aux lettres (disponibilité)](mailbox-availability.md) <br/> |Identifie l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/> |
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifie l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du travail.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple de requête SetUserOofSettings suivant définit un paramètre OOF sur 10 jours.
+L’exemple suivant d’une demande SetUserOofSettings définit un paramètre d’absence du travail pendant dix jours.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -93,7 +93,7 @@ L’exemple de requête SetUserOofSettings suivant définit un paramètre OOF su
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ForwardToRecipients
 api_type:
 - schema
 ms.assetid: dd58fd72-591d-4891-b226-465bcf12c19b
 description: L'élément ForwardToRecipients indique les adresses de messagerie à laquelle les messages doivent être transférés.
-ms.openlocfilehash: d565fa9f59794a4e10e91b05a507354a2f6ef0c9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 8fcf93f01493fb558ed3c0a1982387dae101e598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458319"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546440"
 ---
 # <a name="forwardtorecipients"></a>ForwardToRecipients
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

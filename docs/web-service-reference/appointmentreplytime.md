@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppointmentReplyTime
 api_type:
 - schema
 ms.assetid: 7784468c-c863-488a-864b-ce4d6c671dbe
-description: L’élément AppointmentReplyTime représente la date et l’heure auxquelles un participant a répondu à une demande de réunion.
-ms.openlocfilehash: 188cd5fbaaefa52e4324143a2ee89ae8dbca7742
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AppointmentReplyTime représente la date et l’heure à laquelle un participant a répondu à une demande de réunion.
+ms.openlocfilehash: 27dee0034178487eadfcb35d0d2536f5111c38c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463495"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546713"
 ---
 # <a name="appointmentreplytime"></a>AppointmentReplyTime
 
-L’élément **AppointmentReplyTime** représente la date et l’heure auxquelles un participant a répondu à une demande de réunion. 
+**L’élément AppointmentReplyTime** représente la date et l’heure à laquelle un participant a répondu à une demande de réunion. 
   
 ```xml
 <AppointmentReplyTime/>
@@ -45,7 +45,7 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

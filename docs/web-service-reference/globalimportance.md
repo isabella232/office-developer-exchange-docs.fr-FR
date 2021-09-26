@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalImportance
 api_type:
 - schema
 ms.assetid: 8bcec699-e771-4f38-b7d9-61f324af1b4e
-description: L’élément GlobalImportance contient l’importance agrégée de tous les éléments de conversation d’une boîte aux lettres.
-ms.openlocfilehash: c760168afa3edac20ca0ae7bc677610d8456d178
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GlobalImportance contient l’importance agrégée pour tous les éléments de conversation dans une boîte aux lettres.
+ms.openlocfilehash: 52564ee9d3431ffcacf15fd1731d5d50f5323db7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459446"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547385"
 ---
 # <a name="globalimportance"></a>GlobalImportance
 
-L’élément **GlobalImportance** contient l’importance agrégée de tous les éléments de conversation d’une boîte aux lettres. 
+**L’élément GlobalImportance** contient l’importance agrégée pour tous les éléments de conversation dans une boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -56,13 +56,13 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
+Une valeur de texte est requise. Les valeurs possibles pour cet élément sont les suivantes :
   
 - Faible
     
 - Normal
     
-- Importante
+- Élevé
     
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GroupIndex
 api_type:
 - schema
 ms.assetid: 7a596ff7-6cc3-4626-a52c-538a92202337
-description: L’élément GroupIndex représente la valeur de propriété qui est utilisée pour regrouper des éléments pour le groupe d’éléments en cours dans un appel d’opération FindItem.
-ms.openlocfilehash: 05f303be92885a15dddf85c85251af04910d835c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GroupIndex représente la valeur de propriété utilisée pour grouper des éléments pour le groupe actuel d’éléments dans un appel d’opération FindItem.
+ms.openlocfilehash: 5e6e2c36e64edec1647c844209d86ceece840b05
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530267"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547343"
 ---
 # <a name="groupindex"></a>GroupIndex
 
-L’élément **GroupIndex** représente la valeur de propriété qui est utilisée pour regrouper des éléments pour le groupe d’éléments en cours dans un appel d' [opération FindItem](finditem-operation.md) . 
+**L’élément GroupIndex représente** la valeur de propriété utilisée pour grouper des éléments pour le groupe actuel d’éléments dans un appel d’opération [FindItem.](finditem-operation.md) 
   
 [FindItemResponse](finditemresponse.md)
   
@@ -31,7 +31,7 @@ L’élément **GroupIndex** représente la valeur de propriété qui est utilis
   
 [RootFolder (FindItemResponseMessage)](rootfolder-finditemresponsemessage.md)
   
-[Groups](groups.md)
+[Groupes](groups.md)
   
 [GroupedItems](groupeditems.md)
   
@@ -58,7 +58,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupedItems](groupeditems.md) <br/> |Représente une collection d’éléments qui sont le résultat d’un appel d' [opération FindItem](finditem-operation.md) groupé.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/FindItemResponse/ResponseMessages/FindItemResponseMessage/RootFolder/Groups/GroupedItems[i]` <br/> |
+|[GroupedItems](groupeditems.md) <br/> |Représente une collection d’éléments résultant d’un appel d’opération [FindItem groupé.](finditem-operation.md)  <br/> Voici l’expression XPath de cet élément :  <br/>  `/FindItemResponse/ResponseMessages/FindItemResponseMessage/RootFolder/Groups/GroupedItems[i]` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -66,9 +66,9 @@ Une valeur de texte est requise. Cette propriété est en lecture seule.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément ne se produit que dans une réponse d' [opération FindItem](finditem-operation.md) . 
+Cet élément se produit uniquement dans une [réponse d’opération FindItem.](finditem-operation.md) 
   
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SID
 api_type:
 - schema
 ms.assetid: 2f33b29b-163b-4106-a74d-6fb76ec38951
-description: L’élément SID représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité ou l’accès délégué.
-ms.openlocfilehash: 0e3f740e9a056f7c0042049d97757b5f2d3c441d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SID représente le formulaire SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité ou l’accès délégué.
+ms.openlocfilehash: 436f284b59d5146b481a25b7b0986db4aeee67ce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468046"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547056"
 ---
 # <a name="sid"></a>SID
 
-L’élément **sid** représente la forme SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité ou l’accès délégué. 
+L’élément **SID** représente le formulaire SDDL (Security Descriptor Definition Language) de l’identificateur de sécurité (SID) du compte à utiliser pour l’emprunt d’identité ou l’accès délégué. 
   
 ```xml
 <SID/>
@@ -44,16 +44,16 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConnectingSID](connectingsid.md) <br/> |Représente un compte dont l’identité est empruntée lors de l’utilisation de l’en-tête SOAP ExchangeImpersonation.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
-|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur disposant des autorisations d’accès au dossier.  <br/> |
+|[ConnectingSID](connectingsid.md) <br/> |Représente un compte à usurper lors de l’utilisation de l’en-tête SOAP ExchangeImpersonation.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/ExchangeImpersonation/ConnectingSID` <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur ayant des autorisations d’accès aux dossiers.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une représentation sous forme de chaîne d’un SID.
+La valeur de texte est une représentation sous la chaîne d’un SID.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server et sur lequel le rôle serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Exchange Server avec le rôle serveur d’accès au client installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

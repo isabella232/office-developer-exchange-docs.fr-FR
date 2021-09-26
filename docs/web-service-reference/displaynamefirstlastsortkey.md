@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18f8c676-0fc0-49ff-9a90-5fd43e7e7e39
-description: L’élément DisplayNameFirstLastSortKey contient la clé de tri pour un nom complet dans prénom, nom de famille.
-ms.openlocfilehash: 1cc0241f5e2d0b0d02bc14011e770c95bdc1d6e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisplayNameFirstLastSortKey contient la clé de tri pour un nom d’affichage dans le prénom, l’ordre de nom.
+ms.openlocfilehash: 94528e72af8b5f4a978ee0bcf2564b250d6195b7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546629"
 ---
 # <a name="displaynamefirstlastsortkey"></a>DisplayNameFirstLastSortKey
 
-L’élément **DisplayNameFirstLastSortKey** contient la clé de tri pour un nom complet dans prénom, nom de famille. 
+**L’élément DisplayNameFirstLastSortKey** contient la clé de tri pour un nom d’affichage dans le prénom, l’ordre de nom. 
   
 ```XML
 <DisplayNameFirstLastSortKey></DisplayNameFirstLastSortKey>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DisplayNameFirstLastSortKey** est la clé de tri du nom complet d’un personnage, dans prénom, nom de famille. 
+La valeur de texte de l’élément **DisplayNameFirstLastSortKey** est la clé de tri pour le nom d’affichage d’une personne, dans le prénom, l’ordre de nom. 
   
 ## <a name="remarks"></a>Remarques
 

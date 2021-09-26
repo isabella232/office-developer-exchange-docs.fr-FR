@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SubscriptionStatus
 api_type:
 - schema
 ms.assetid: 2d64ebb7-f26a-4d02-b7ef-d9d7da75f0c3
-description: L’élément SubscriptionStatus décrit l’état d’un abonnement envoyé.
-ms.openlocfilehash: 195ab229380f4386b39e5c3fd48208cf66e224f0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SubscriptionStatus décrit l’état d’un abonnement Push.
+ms.openlocfilehash: 6918a4965da2c075341c99581c3bd06c93da35fa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546930"
 ---
 # <a name="subscriptionstatus"></a>SubscriptionStatus
 
-L’élément **SubscriptionStatus** décrit l’état d’un abonnement envoyé. 
+**L’élément SubscriptionStatus** décrit l’état d’un abonnement Push. 
   
 ```xml
 <SubscriptionStatus>OK or Unsubscribe</SubscriptionStatus>
@@ -44,19 +44,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SendNotificationResult](sendnotificationresult.md) <br/> |Contient la réponse de l’application cliente à une notification de type transmission.  <br/> |
+|[SendNotificationResult](sendnotificationresult.md) <br/> |Contient la réponse de l’application cliente à une notification Push.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - OK
     
-- Se désinscrire
+- Unsubscribe
     
 ## <a name="remarks"></a>Remarques
 
-Cet élément décrit l’état de l’abonnement. L’application cliente d’abonnement poussé renvoie l’État à l’ordinateur qui exécute Exchange 2007 sur lequel le rôle de serveur d’accès au client est installé après chaque notification de transmission. Si la valeur **SubscriptionStatus** est **unsubscribe**, le serveur d’accès au client cesse d’envoyer des notifications et met fin à l’abonnement. Si la valeur **SubscriptionStatus** est définie sur **OK**, le serveur d’accès au client continuera à envoyer des notifications.
+Cet élément décrit l’état de l’abonnement. L’application cliente d’abonnement Push renvoie l’état à l’ordinateur exécutant Exchange 2007 sur qui le rôle serveur d’accès au client est installé après chaque notification Push. Si la **valeur SubscriptionStatus** est égale **à Unsubscribe,** le serveur d’accès au client cesse d’envoyer des notifications et termine l’abonnement. Si la **valeur SubscriptionStatus** est égale à **OK,** le serveur d’accès au client continue d’envoyer des notifications.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

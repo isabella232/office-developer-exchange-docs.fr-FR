@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppointmentSequenceNumber
 api_type:
 - schema
 ms.assetid: eb4c48bd-f905-48dc-ae16-53a080b9b025
 description: L’élément AppointmentSequenceNumber spécifie le numéro de séquence d’une version d’un rendez-vous.
-ms.openlocfilehash: daeea7a656c59923bcb6f2850539c7869d6eb181
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 48167786f1dde82b9aef546979be697f7b8811d5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546706"
 ---
 # <a name="appointmentsequencenumber"></a>AppointmentSequenceNumber
 
-L’élément **AppointmentSequenceNumber** spécifie le numéro de séquence d’une version d’un rendez-vous. 
+**L’élément AppointmentSequenceNumber spécifie** le numéro de séquence d’une version d’un rendez-vous. 
   
 ```xml
 <AppointmentSequenceNumber/>
@@ -45,11 +45,11 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente un numéro de version.
+La valeur de texte représente un numéro de version.
   
 ## <a name="remarks"></a>Remarques
 

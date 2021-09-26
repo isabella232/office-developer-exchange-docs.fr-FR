@@ -1,30 +1,30 @@
 ---
-title: État (service Web de messagerie unifiée-SetOofStatus)
+title: Statut (service web de messagerie unifiée - SetOofStatus)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 893bcff1-ccdc-493f-b366-ce8a68c813bd
-description: L’élément Status définit la valeur à utiliser dans une demande d’opération SetOofStatus (service Web de messagerie unifiée).
-ms.openlocfilehash: 865152baf28c22578664e16db2dcd5f82a04af98
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Status définit la valeur à utiliser dans une demande d’opération SetOofStatus (service web de um).
+ms.openlocfilehash: fc4806e4978ae51ec6113ff8fd45da7db223a071
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546937"
 ---
-# <a name="status-um-web-service---setoofstatus"></a>État (service Web de messagerie unifiée-SetOofStatus)
+# <a name="status-um-web-service---setoofstatus"></a>Statut (service web de messagerie unifiée - SetOofStatus)
 
-L’élément **Status** définit la valeur à utiliser dans une demande d' [opération SetOofStatus (service Web de messagerie unifiée)](setoofstatus-operation-um-web-service.md) . 
+**L’élément Status** définit la valeur à utiliser dans une demande d’opération [SetOofStatus (service web de um).](setoofstatus-operation-um-web-service.md) 
   
-[SetOofStatus (service Web de messagerie unifiée)](setoofstatus-um-web-service.md)
+[SetOofStatus (service web de messagerie unifiée)](setoofstatus-um-web-service.md)
   
-[État (service Web de messagerie unifiée-SetOofStatus)](status-um-web-servicesetoofstatus.md)
+[Statut (service web de messagerie unifiée - SetOofStatus)](status-um-web-servicesetoofstatus.md)
   
 ```xml
 <SetOofStatus>
@@ -49,11 +49,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SetOofStatus (service Web de messagerie unifiée)](setoofstatus-um-web-service.md) <br/> |Définit une demande de définition de l’état d’absence du Bureau de la messagerie unifiée pour l’utilisateur qui effectue la demande.  <br/> |
+|[SetOofStatus (service web de messagerie unifiée)](setoofstatus-um-web-service.md) <br/> |Définit une demande de définition de l’état d’absence du Office de messagerie unifiée pour l’utilisateur qui effectue la demande.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur booléenne est requise. Les valeurs possibles sont les suivantes :
+Une valeur boolé américaine est requise. Les valeurs possibles sont les suivantes :
   
 - Vrai
     
@@ -65,12 +65,12 @@ Une valeur booléenne est requise. Les valeurs possibles sont les suivantes :
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetOofStatus (service Web de messagerie unifiée)](setoofstatus-operation-um-web-service.md)
+[Opération SetOofStatus (service web de messagerie unifiée)](setoofstatus-operation-um-web-service.md)
 

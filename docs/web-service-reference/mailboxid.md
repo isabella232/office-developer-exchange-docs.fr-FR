@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bcef790d-094f-40ba-b4cf-8abd9c79cc7a
-description: L’élément MailboxId spécifie un identificateur pour la boîte aux lettres accédée par la recherche de découverte.
-ms.openlocfilehash: 7ec43492010dfb54f3e847d037425f9ed919559c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxId spécifie un identificateur pour la boîte aux lettres accessible par la recherche de découverte.
+ms.openlocfilehash: 5f9d39339e9d54476efa025622d117be0f8219a5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466366"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547133"
 ---
 # <a name="mailboxid"></a>MailboxId
 
-L’élément **MailboxId** spécifie un identificateur pour la boîte aux lettres accédée par la recherche de découverte. 
+**L’élément MailboxId** spécifie un identificateur pour la boîte aux lettres accessible par la recherche de découverte. 
   
 ```XML
 <MailboxId></MailboxId>
@@ -39,11 +39,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[MailboxStat](mailboxstat.md)  |  [Boîte aux lettres (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
+[MailboxStat](mailboxstat.md)  |  [Mailbox (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **MailboxId** est l’identificateur de la boîte aux lettres qui est utilisée pour la recherche de découverte. 
+La valeur texte de l’élément **MailboxId** est l’identificateur de boîte aux lettres d’une boîte aux lettres accessible pour la recherche de découverte. 
   
 ## <a name="remarks"></a>Remarques
 

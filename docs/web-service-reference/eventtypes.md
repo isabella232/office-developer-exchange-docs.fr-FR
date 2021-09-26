@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EventTypes
 api_type:
 - schema
 ms.assetid: 29ded9e5-f191-4aa3-bc3e-500de2fc8818
-description: L’élément EventTypes contient une collection de types de notification d’événement qui permettent de créer un abonnement.
-ms.openlocfilehash: 45ce1ed0699c8140029ae3fb7f667a5132f4731e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EventTypes contient une collection de types de notification d’événements utilisés pour créer un abonnement.
+ms.openlocfilehash: ef4cd0a4b115188d926628796629ba32dffc10eb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530627"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546531"
 ---
 # <a name="eventtypes"></a>EventTypes
 
-L’élément **EventTypes** contient une collection de types de notification d’événement qui permettent de créer un abonnement. 
+**L’élément EventTypes** contient une collection de types de notification d’événements utilisés pour créer un abonnement. 
   
 ```xml
 <EventTypes>
@@ -42,15 +42,15 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EventType](eventtype.md) <br/> |Représente un type de notification d’événement demandé qui est utilisé pour créer un abonnement.  <br/> |
+|[EventType](eventtype.md) <br/> |Représente un type de notification d’événement demandé utilisé pour créer un abonnement.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur l’extraction.  <br/> |
-|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur un type de message.  <br/> |
-|[StreamingSubscriptionRequest](streamingsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événements en continu.  <br/> |
+|[PullSubscriptionRequest](pullsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événement basé sur un pull.  <br/> |
+|[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement de notification d’événements push.  <br/> |
+|[StreamingSubscriptionRequest](streamingsubscriptionrequest.md) <br/> |Représente un abonnement à un abonnement à une notification d’événement de diffusion en continu.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

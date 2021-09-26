@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb2e8ad9-bcc9-4137-acbd-7b75a556e411
-description: L’élément InboxUrl (FederatedDirectoryGroupType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: 3030be5b4da798e58f696f23a8a22f296a3c638d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément InboxUrl (FederatedDirectoryGroupType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 0e92d7dfae0d17fa8a198681d76e764fa9273f14
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464860"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547224"
 ---
 # <a name="inboxurl-federateddirectorygrouptype"></a>InboxUrl (FederatedDirectoryGroupType)
 
-L’élément **InboxUrl (FederatedDirectoryGroupType)** est destiné uniquement à un usage interne. 
+**L’élément InboxUrl (FederatedDirectoryGroupType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

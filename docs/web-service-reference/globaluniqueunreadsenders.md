@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalUniqueUnreadSenders
 api_type:
 - schema
 ms.assetid: 490abe30-7608-407a-923b-a4b3ddbca610
-description: L’élément GlobalUniqueUnreadSenders spécifie une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation sur tous les dossiers de la boîte aux lettres.
-ms.openlocfilehash: 5a26053158a262d65993dba4be90888ee97f2112
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GlobalUniqueUnreadSenders spécifie une liste de toutes les personnes qui ont envoyé des messages actuellement non lus dans cette conversation dans tous les dossiers de la boîte aux lettres.
+ms.openlocfilehash: 4aa886fd817cc8bda7f9a8922b8303bf304e153b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547357"
 ---
 # <a name="globaluniqueunreadsenders"></a>GlobalUniqueUnreadSenders
 
-L’élément **GlobalUniqueUnreadSenders** spécifie une liste de toutes les personnes qui ont envoyé des messages non lus dans cette conversation sur tous les dossiers de la boîte aux lettres. 
+**L’élément GlobalUniqueUnreadSenders** spécifie une liste de toutes les personnes qui ont envoyé des messages actuellement non lus dans cette conversation dans tous les dossiers de la boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -50,7 +50,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Contient un seul expéditeur de conversation.  <br/> |
+|[String](string.md) <br/> |Contient un expéditeur de conversation unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

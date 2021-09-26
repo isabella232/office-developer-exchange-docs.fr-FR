@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - InternalId
 api_type:
 - schema
 ms.assetid: c179db1a-95c9-40da-bd3f-0bed548c0325
-description: L’élément InternalId représente une valeur entière pour l’identification de l’événement.
-ms.openlocfilehash: 66d5852e104de843911b46a225154ebd991e2220
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément InternalId représente une valeur integer pour l’identification d’événement.
+ms.openlocfilehash: 5a1f84fcaa599f5dc2cdf38dd3edeb3d32eb7388
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547140"
 ---
 # <a name="internalid"></a>InternalId
 
-L’élément **InternalId** représente une valeur entière pour l’identification de l’événement. 
+**L’élément InternalId** représente une valeur integer pour l’identification d’événement. 
   
 ```XML
 <InternalId/>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un entier est requise si cet élément est utilisé.
+Une valeur de texte qui représente un integer est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 

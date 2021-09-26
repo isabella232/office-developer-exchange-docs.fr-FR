@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItems
 api_type:
 - schema
 ms.assetid: a5898bfc-f5ae-451d-9713-3e55864c690c
 description: L’élément DeleteItems indique les éléments d’un dossier qu’un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: a0bbefc8b021d047bb2e001669c3e92a6e2536ce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d41e44c3cc0996ab5933eafaf1087cf30d7944a3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44454406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546671"
 ---
 # <a name="deleteitems"></a>DeleteItems
 
-L’élément **DeleteItems** indique les éléments d’un dossier qu’un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément DeleteItems** indique les éléments d’un dossier qu’un utilisateur est autorisé à supprimer. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DeleteItems>None or Owned or All</DeleteItems>
@@ -49,14 +49,14 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **DeleteItems** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément DeleteItems.** 
   
 **Valeurs de texte de l’élément DeleteItems**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Aucune  <br/> |Indique que l’utilisateur n’est pas autorisé à supprimer des éléments dans le dossier.  <br/> |
-|Appartien  <br/> |Indique que l’utilisateur est autorisé à supprimer les éléments dont il est propriétaire dans le dossier.  <br/> |
+|Aucun  <br/> |Indique que l’utilisateur n’est pas autorisé à supprimer des éléments dans le dossier.  <br/> |
+|Owned  <br/> |Indique que l’utilisateur est autorisé à supprimer les éléments dont il est propriétaire dans le dossier.  <br/> |
 |Tous  <br/> |Indique que l’utilisateur est autorisé à supprimer tous les éléments du dossier.  <br/> |
    
 ## <a name="remarks"></a>Remarques

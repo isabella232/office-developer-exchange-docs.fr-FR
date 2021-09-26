@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GlobalUniqueSenders
 api_type:
 - schema
 ms.assetid: 6bd9e9cb-19c8-45af-b211-dfb8a6003b1b
 description: L’élément GlobalUniqueSender contient une liste de tous les expéditeurs d’éléments de conversation dans la boîte aux lettres.
-ms.openlocfilehash: 0e85e201017e175a9ffc6b923976020d4157d5b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d4dd816c548e3b2f9009f6b6bc43e96fc9ccdd46
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547364"
 ---
 # <a name="globaluniquesenders"></a>GlobalUniqueSenders
 
-L’élément **GlobalUniqueSender** contient une liste de tous les expéditeurs d’éléments de conversation dans la boîte aux lettres. 
+**L’élément GlobalUniqueSender** contient une liste de tous les expéditeurs d’éléments de conversation dans la boîte aux lettres. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -50,7 +50,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[String](string.md) <br/> |Contient un seul expéditeur de conversation.  <br/> |
+|[String](string.md) <br/> |Contient un expéditeur de conversation unique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

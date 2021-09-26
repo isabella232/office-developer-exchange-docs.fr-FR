@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54f45774-00a0-4392-af1b-8c5f2208a53f
 description: L’élément InPlaceHoldIdentity spécifie l’identité d’une conservation qui conserve les éléments de boîte aux lettres.
-ms.openlocfilehash: a06f72e478e7dc5bd1a499dceefeb352b14d7362
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0a5f02b908adf49328461c6e3676dab3698879c3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466093"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547210"
 ---
 # <a name="inplaceholdidentity"></a>InPlaceHoldIdentity
 
-L’élément **InPlaceHoldIdentity** spécifie l’identité d’une conservation qui conserve les éléments de boîte aux lettres. 
+**L’élément InPlaceHoldIdentity** spécifie l’identité d’une conservation qui conserve les éléments de boîte aux lettres. 
   
 ```XML
 <InPlaceHoldIdentity></InPlaceHoldIdentity>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **InPlaceHoldIdentity** est l’identificateur de conservation de boîte aux lettres. 
+La valeur de texte de **l’élément InPlaceHoldIdentity** est l’identificateur de la boîte aux lettres de la boîte aux lettres. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

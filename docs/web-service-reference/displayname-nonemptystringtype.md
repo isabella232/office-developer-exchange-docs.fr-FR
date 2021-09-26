@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 283322f9-8022-4e8b-a7e2-d5521cda00f4
-description: L’élément DisplayName contient le nom d’affichage d’un nouveau contact de groupe de messagerie instantanée ou le nom d’affichage d’un nouveau groupe de messagerie instantanée.
-ms.openlocfilehash: 0b1dff63583c5b449980288134fb83c0256e2e8c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisplayName contient le nom complet d’un nouveau contact de groupe de messagerie instantanée ou le nom complet d’un nouveau groupe de messagerie instantanée.
+ms.openlocfilehash: 1fc82a7472e43c31d774bbcc260bdf9c96b908c8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547525"
 ---
 # <a name="displayname-nonemptystringtype"></a>DisplayName (NonEmptyStringType)
 
-L’élément **DisplayName** contient le nom d’affichage d’un nouveau contact de groupe de messagerie instantanée ou le nom d’affichage d’un nouveau groupe de messagerie instantanée. 
+**L’élément DisplayName** contient le nom complet d’un nouveau contact de groupe de messagerie instantanée ou le nom complet d’un nouveau groupe de messagerie instantanée. 
   
 ```XML
 <DisplayName></DisplayName>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[AddDistributionGroupToImList](adddistributiongrouptoimlist.md)  |  [AddImGroup](addimgroup.md)  |  [AddNewImContactToGroup](addnewimcontacttogroup.md)  |  [Imgroup](imgroup.md)
+[AddDistributionGroupToImList](adddistributiongrouptoimlist.md)  |  [AddImGroup](addimgroup.md)  |  [AddNewImContactToGroup](addnewimcontacttogroup.md)  |  [ImGroup](imgroup.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DisplayName** est le nom d’affichage d’un nouveau contact de groupe de messagerie instantanée ou le nom d’affichage d’un nouveau groupe de messagerie instantanée. 
+La valeur de texte de **l’élément DisplayName** est le nom complet d’un nouveau contact de groupe de messagerie instantanée ou le nom complet d’un nouveau groupe de messagerie instantanée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types. xsd  <br/> |
+|Fichier de validation  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

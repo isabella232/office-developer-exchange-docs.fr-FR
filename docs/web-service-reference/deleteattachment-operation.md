@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteAttachment
 api_type:
 - schema
 ms.assetid: 4d48e595-b98c-48e7-bbeb-cacf91d12a78
-description: L’opération DeleteAttachment est utilisée pour supprimer les pièces jointes d’un fichier et d’un élément d’un élément existant dans la Banque d’Exchange.
-ms.openlocfilehash: 1d34ce4c5ba1d955989a35dafb8ab3c5d229d505
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération DeleteAttachment permet de supprimer des fichiers et des pièces jointes d’un élément existant dans la Exchange store.
+ms.openlocfilehash: bd08776e1f4e75204819ef5463e297e3770a34a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546685"
 ---
 # <a name="deleteattachment-operation"></a>Opération DeleteAttachment
 
-L’opération DeleteAttachment est utilisée pour supprimer les pièces jointes d’un fichier et d’un élément d’un élément existant dans la Banque d’Exchange.
+L’opération DeleteAttachment permet de supprimer des fichiers et des pièces jointes d’un élément existant dans la Exchange store.
   
 ## <a name="remarks"></a>Remarques
 
@@ -31,7 +31,7 @@ Cette opération vous permet de supprimer une ou plusieurs pièces jointes par I
 
 ### <a name="description"></a>Description
 
-L’exemple de requête DeleteAttachment suivant montre comment supprimer une pièce jointe d’un élément.
+L’exemple suivant d’une demande DeleteAttachment montre comment supprimer une pièce jointe d’élément.
   
 ### <a name="code"></a>Code
 
@@ -54,9 +54,9 @@ L’exemple de requête DeleteAttachment suivant montre comment supprimer une pi
 
 ### <a name="comments"></a>Commentaires
 
-L’identificateur de pièce jointe a été raccourcie afin de préserver la lisibilité.
+L’identificateur de pièce jointe a été raccourci pour préserver la lisibilité.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -100,12 +100,12 @@ L’exemple suivant montre une réponse réussie à une demande DeleteAttachment
 
 ### <a name="comments"></a>Commentaires
 
-L’opération CreateAttachment renvoie un élément de type AttachmentIdType qui inclut un **RootItemId** et **RootItemChangeKey**. Ces attributs ne sont pas autorisés pour les identificateurs dans une demande DeleteAttachment. DeleteAttachment utilise des éléments de type RequestAttachmentIdType, qui n’incluent pas ces attributs.
+L’opération CreateAttachment renvoie un élément de type AttachmentIdType qui inclut **un RootItemId** et **RootItemChangeKey**. Ces attributs ne sont pas autorisés pour les identificateurs dans une demande DeleteAttachment. DeleteAttachment utilise des éléments de type RequestAttachmentIdType, qui n’incluent pas ces attributs.
   
-La réponse DeleteAttachment inclut l’ID de l’élément parent. Lorsque des pièces jointes sont supprimées d’un élément, la clé de modification de l’élément est modifiée. La nouvelle clé de modification d’élément peut être obtenue à partir de la réponse DeleteAttachment.
+La réponse DeleteAttachment inclut l’ID de l’élément parent. Lorsque des pièces jointes sont supprimées d’un élément, la touche de modification de l’élément est modifiée. La nouvelle clé de modification d’élément peut être obtenue à partir de la réponse DeleteAttachment.
   
 > [!NOTE]
-> L’identificateur [RootItemId](rootitemid.md) et ChangeKey ont été raccourcies afin de préserver la lisibilité. 
+> [L’identificateur RootItemId](rootitemid.md) et ChangeKey ont été raccourcis pour préserver la lisibilité. 
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 

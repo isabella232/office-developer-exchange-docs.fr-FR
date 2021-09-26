@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AdjacentMeetings
 api_type:
 - schema
 ms.assetid: 50a9c381-9166-476e-8421-29e51b94499b
 description: L’élément AdjacentMeetings identifie tous les éléments de calendrier adjacents à une heure de réunion.
-ms.openlocfilehash: 7c89095e24af799df22a848be06a0fd65d53be7f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9ce022da9cc9ca2c6a5d7866a20b749d72fb0537
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546777"
 ---
 # <a name="adjacentmeetings"></a>AdjacentMeetings
 
-L’élément **AdjacentMeetings** identifie tous les éléments de calendrier adjacents à une heure de réunion. 
+**L’élément AdjacentMeetings** identifie tous les éléments de calendrier adjacents à une heure de réunion. 
   
 ```xml
 <AdjacentMeetings>
@@ -49,14 +49,14 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 > [!NOTE]
-> Bien que des éléments enfants supplémentaires soient valides par schéma, l’élément [CalendarItem](calendaritem.md) est le seul élément enfant renvoyé par les services Web Exchange (EWS) à l’intérieur de l’élément **AdjacentMeetings** . Cette rubrique ne répertorie pas les éléments enfants qui sont valides par le schéma, mais qui ne sont pas renvoyés par EWS. 
+> Bien que des éléments enfants supplémentaires soient valides selon le schéma, l’élément [CalendarItem](calendaritem.md) est le seul élément enfant que les services web Exchange (EWS) retourneront dans l’élément **AdjacentMeetings.** Cette rubrique ne liste pas les éléments enfants qui sont valides par le schéma, mais qui ne sont pas renvoyés par EWS. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeBusyView
 api_type:
 - schema
 ms.assetid: cb18434f-5f41-4e05-a5ce-d921b2721a8c
-description: L’élément FreeBusyView contient les informations de disponibilité d’un utilisateur spécifique.
-ms.openlocfilehash: e5cc3bea6b57d5c400dd9be44bf9f9aaf9e43eb9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FreeBusyView contient des informations de disponibilité pour un utilisateur spécifique.
+ms.openlocfilehash: c662e8a44118f61b4c8be642d9ac862051c3a15d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44456100"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546412"
 ---
 # <a name="freebusyview"></a>FreeBusyView
 
-L’élément **FreeBusyView** contient les informations de disponibilité d’un utilisateur spécifique. 
+**L’élément FreeBusyView contient** des informations de disponibilité pour un utilisateur spécifique. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -53,8 +53,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FreeBusyViewType](freebusyviewtype.md) <br/> |Représente le type des informations de disponibilité demandées renvoyées dans la réponse.  <br/> |
-|[MergedFreeBusy](mergedfreebusy.md) <br/> |Contient le flux de données de disponibilité fusionné.  <br/> |
+|[FreeBusyViewType](freebusyviewtype.md) <br/> |Représente le type d’informations de libre/occupé demandées renvoyées dans la réponse.  <br/> |
+|[MergedFreeBusy](mergedfreebusy.md) <br/> |Contient le flux de données de la libre/occupé fusionnée.  <br/> |
 |[CalendarEventArray](calendareventarray.md) <br/> |Contient un ensemble d’occurrences d’éléments de calendrier uniques qui représentent la disponibilité de l’utilisateur demandé.  <br/> |
 |[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Représente les paramètres de fuseau horaire et les heures de travail de l’utilisateur de boîte aux lettres demandé.  <br/> |
    
@@ -62,7 +62,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FreeBusyResponse](freebusyresponse.md) <br/> |Contient les informations de disponibilité pour un utilisateur de boîte aux lettres unique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
+|[FreeBusyResponse](freebusyresponse.md) <br/> |Contient les informations de libre/occupé d’un utilisateur de boîte aux lettres unique.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -1,24 +1,24 @@
 ---
-title: EncryptionMethod (SOAP)
+title: EncryptionMethod
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
 description: L’élément EncryptionMethod représente la méthode de chiffrement utilisée pour les protocoles POP, IMAP et SMTP.
-ms.openlocfilehash: 26236d9b08eae1bcabfd9aac59f5b01714ba9841
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 40b9f7736502f8def5389c1a70fddb61e38973aa
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530655"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546594"
 ---
-# <a name="encryptionmethod-soap"></a>EncryptionMethod (SOAP)
+# <a name="encryptionmethod-soap"></a>EncryptionMethod
 
-L’élément **EncryptionMethod** représente la méthode de chiffrement utilisée pour les protocoles POP, IMAP et SMTP. 
+**L’élément EncryptionMethod** représente la méthode de chiffrement utilisée pour les protocoles POP, IMAP et SMTP. 
   
 ```XML
 <EncryptionMethod/>
@@ -41,7 +41,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Représente la connexion de protocole du client Web de serveur.  <br/> |
+|[ProtocolConnection (SOAP)](protocolconnection-soap.md) <br/> |Représente la connexion de protocole du client Web serveur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -53,7 +53,7 @@ La valeur de texte de cet élément est la méthode de chiffrement utilisée pou
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

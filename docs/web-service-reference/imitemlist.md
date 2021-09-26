@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 556457d5-a730-4131-853f-1198c27c5942
-description: L’élément ImItemList contient la liste des groupes de messagerie instantanée et des contacts de messagerie instantanée.
-ms.openlocfilehash: 976897fd999b61207a94a8b1dc60cc1b1308acd8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ImItemList contient une liste de groupes de messagerie instantanée et de contacts de messagerie instantanée.
+ms.openlocfilehash: fdd2865ceb1553a7f75d7059b08ea96ce89aa096
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460672"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547245"
 ---
 # <a name="imitemlist"></a>ImItemList
 
-L’élément **ImItemList** contient la liste des groupes de messagerie instantanée et des contacts de messagerie instantanée. 
+**L’élément ImItemList** contient une liste de groupes de messagerie instantanée et de contacts de messagerie instantanée. 
   
 ```XML
 <ImItemList>
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Groupes (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)  |  [Personnages](personas-ex15websvcsotherref.md)
+[Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md)  |  [Personas](personas-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

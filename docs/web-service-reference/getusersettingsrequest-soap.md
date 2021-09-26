@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 832a9211-d2d5-4a49-bcb3-1dc6dc3904ed
 description: L’élément GetUserSettingsRequest représente une demande de récupération des paramètres spécifiés pour un ou plusieurs utilisateurs.
-ms.openlocfilehash: 353facb5d0bbf922a23b33cbaf6f9d2e7d82bd6b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ccbcd67d4fdcb98be08acfecbf2ae066a91d65d2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547392"
 ---
 # <a name="getusersettingsrequest-soap"></a>GetUserSettingsRequest (SOAP)
 
-L’élément **GetUserSettingsRequest** représente une demande de récupération des paramètres spécifiés pour un ou plusieurs utilisateurs. 
+**L’élément GetUserSettingsRequest** représente une demande de récupération des paramètres spécifiés pour un ou plusieurs utilisateurs. 
   
 ```XML
 <GetUserSettingsRequest>
@@ -41,7 +41,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Utilisateurs (SOAP)](users-soap.md) <br/> |Représente une collection d’adresses de messagerie des utilisateurs dont les paramètres doivent être récupérés.  <br/> |
+|[Users (SOAP)](users-soap.md) <br/> |Représente une collection d’adresses de messagerie des utilisateurs pour lesquels les paramètres doivent être récupérés.  <br/> |
 |[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contient les noms des paramètres de configuration demandés.  <br/> |
 |[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |Spécifie la version du serveur spécifique que le fournisseur souhaite utiliser.  <br/> |
    
@@ -59,7 +59,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

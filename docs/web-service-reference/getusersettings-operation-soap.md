@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
-description: L’opération GetUserSettings contient une requête pour la configuration de l’accès au client de l’utilisateur.
-ms.openlocfilehash: e274fd4e1ca954ea25ea91a52e363c9a434b290a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetUserSettings contient une requête pour la configuration de l’accès client des utilisateurs.
+ms.openlocfilehash: 79e9d5827cbcc4885c99cf5a497868284dda4494
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466142"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547406"
 ---
 # <a name="getusersettings-operation-soap"></a>Opération GetUserSettings (SOAP)
 
-L’opération **GetUserSettings** contient une requête pour la configuration de l’accès au client de l’utilisateur. 
+**L’opération GetUserSettings** contient une requête pour la configuration de l’accès client des utilisateurs. 
   
 ## <a name="getusersettings-request-example"></a>Exemple de requête GetUserSettings
 
 ### <a name="description"></a>Description
 
-L’exemple de code XML suivant montre un corps de demande de découverte automatique qui demande le nom d’affichage, le nom unique, l’ID de déploiement, le serveur de boîtes aux lettres, le nom unique de la boîte aux lettres, le serveur Active Directory, la version du serveur d’accès au client et les schémas des services Web Exchange pris en charge.
+L’exemple XML suivant montre un corps de demande de découverte automatique qui demande le nom complet, le nom d’affichage, l’ID de déploiement, le serveur de boîtes aux lettres, le nom de boîte aux lettres, le serveur Active Directory, la version du serveur d’accès au client et les schémas des services web Exchange pris en charge.
   
 ### <a name="code"></a>Code
 
@@ -64,31 +64,31 @@ L’exemple de code XML suivant montre un corps de demande de découverte automa
 
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-Les éléments suivants sont utilisés dans le corps de la demande :
+Les éléments suivants sont utilisés dans le corps de la requête :
   
 - [GetUserSettingsRequestMessage (SOAP)](getusersettingsrequestmessage-soap.md)
     
-- [Boîte aux lettres (SOAP)](mailbox-soap.md)
+- [Mailbox (SOAP)](mailbox-soap.md)
     
-- [Demande (SOAP)](request-soap.md)
+- [Request (SOAP)](request-soap.md)
     
 - [RequestedServerVersion (SOAP)](requestedserverversion-soap.md)
     
 - [RequestedSettings (SOAP)](requestedsettings-soap.md)
     
-- [Paramètre (SOAP)](setting-soap.md)
+- [Setting (SOAP)](setting-soap.md)
     
-- [Utilisateur (SOAP)](user-soap.md)
+- [User (SOAP)](user-soap.md)
     
-- [Utilisateurs (SOAP)](users-soap.md)
+- [Users (SOAP)](users-soap.md)
     
 ## <a name="getusersettings-response-example"></a>Exemple de réponse GetUserSettings
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse **GetUserSettings** réussie. 
+L’exemple suivant montre une **réponse GetUserSettings** réussie. 
   
 ### <a name="code"></a>Code
 
@@ -150,9 +150,9 @@ L’exemple suivant montre une réponse **GetUserSettings** réussie.
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
-Les éléments suivants sont utilisés dans le corps de la réponse :
+Les éléments suivants sont utilisés dans le corps de la réponse :
   
 - [ErrorCode (SOAP)](errorcode-soap.md)
     
@@ -160,11 +160,11 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
     
 - [GetUserSettingsResponseMessage (SOAP)](getusersettingsresponsemessage-soap.md)
     
-- [Nom (SOAP)](name-soap.md)
+- [Name (SOAP)](name-soap.md)
     
 - [RedirectTarget (SOAP)](redirecttarget-soap.md)
     
-- [Réponse (SOAP)](response-soap.md)
+- [Response (SOAP)](response-soap.md)
     
 - [UserResponse (SOAP)](userresponse-soap.md)
     
@@ -176,7 +176,7 @@ Les éléments suivants sont utilisés dans le corps de la réponse :
     
 - [UserSettings (SOAP)](usersettings-soap.md)
     
-- [Valeur (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
     
 ## <a name="see-also"></a>Voir aussi
 

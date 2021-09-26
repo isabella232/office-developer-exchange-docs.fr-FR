@@ -1,27 +1,27 @@
 ---
-title: Systèmedescription
+title: EventDescription
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EventDescription
 api_type:
 - schema
 ms.assetid: 7642cb03-71b1-4773-9508-4fbe3a5dcdf4
-description: L’élément systèmedescription
-ms.openlocfilehash: 5f61a4eea945193d672afbcd2c693502ccf3e4e1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Élément EventDescription
+ms.openlocfilehash: 324bf763575c551d594873052c37335de63325e0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530634"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546552"
 ---
-# <a name="eventdescription"></a>Systèmedescription
+# <a name="eventdescription"></a>EventDescription
 
-L’élément **systèmedescription** 
+Élément **EventDescription** 
   
 ```xml
 <EventDescription/>
@@ -48,16 +48,16 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **systèmedescription** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément EventDescription.** 
   
-**Valeurs de l’élément systèmedescription**
+**Valeurs de l’élément EventDescription**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
 |Submitted  <br/> ||
 |Résolu  <br/> ||
 |Étendu  <br/> ||
-|Cmds  <br/> ||
+|Remis  <br/> ||
 |MovedToFolderByInboxRule  <br/> ||
 |RulesCc  <br/> ||
 |FailedGeneral  <br/> ||
@@ -67,8 +67,8 @@ Le tableau suivant répertorie les valeurs possibles pour l’élément **systè
 |SmtpSendCrossSite  <br/> ||
 |SmtpSendCrossForest  <br/> ||
 |SmtpReceive  <br/> ||
-|Renvoyé  <br/> ||
-|Pending  <br/> ||
+|Forwarded  <br/> ||
+|En attente  <br/> ||
 |PendingModeration  <br/> ||
 |ApprovedModeration  <br/> ||
 |QueueRetry  <br/> ||
@@ -78,12 +78,12 @@ Le tableau suivant répertorie les valeurs possibles pour l’élément **systè
 |TransferredToPartnerOrg  <br/> ||
 |TransferredToLegacyExchangeServer  <br/> ||
 |DelayedAfterTransferToPartnerOrg  <br/> ||
-|Lecture  <br/> ||
-|Nobande  <br/> ||
+|Lire  <br/> ||
+|NotRead  <br/> ||
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

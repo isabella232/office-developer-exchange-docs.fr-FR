@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetEvents
 api_type:
 - schema
 ms.assetid: 22d4da6b-d8a8-484f-82c4-3e4b8f5431cd
-description: L’élément GetEvents représente l’opération utilisée par les clients de type pull pour demander des notifications à partir du serveur.
-ms.openlocfilehash: 004f782ccd32b3c5e501080bfc59419a6e7d9ce4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetEvents représente l’opération utilisée par les clients pull pour demander des notifications au serveur.
+ms.openlocfilehash: c76672baf05efce0ce9c8221f4f2965a9bc922fc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547490"
 ---
 # <a name="getevents"></a>GetEvents
 
-L’élément **GetEvents** représente l’opération utilisée par les clients de type pull pour demander des notifications à partir du serveur. 
+**L’élément GetEvents** représente l’opération utilisée par les clients pull pour demander des notifications au serveur. 
   
 [GetEvents](getevents.md)
   
@@ -46,7 +46,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Représente l’identificateur d’un abonnement interrogé pour les événements.  <br/> |
-|[Watermark](watermark.md) <br/> |Représente le dernier filigrane renvoyé au client. Si GetEvents n’a pas été appelé pour cet abonnement, le client utilise le filigrane renvoyé à partir de la demande subscribe. Dans le cas contraire, le filigrane du dernier événement de la dernière réponse GetEvents est utilisé.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente le dernier filigrane renvoyé au client. Si GetEvents n’a pas été appelé pour cet abonnement, le client utilise le filigrane renvoyé par la demande d’abonnement. Sinon, le filigrane du dernier événement de la dernière réponse GetEvents est utilisé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

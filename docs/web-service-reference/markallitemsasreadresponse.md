@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07dedaa8-17aa-4553-b8e2-e3f82c40ae1e
 description: L’élément MarkAllItemsAsReadResponse spécifie la réponse à une demande MarkAllItemsAsRead.
-ms.openlocfilehash: 011aa34886b4f50542c68661d9b61be3a3ce3a1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1d2900938e63bff47f561646c0fc2a7c280c762e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547126"
 ---
 # <a name="markallitemsasreadresponse"></a>MarkAllItemsAsReadResponse
 
-L’élément **MarkAllItemsAsReadResponse** spécifie la réponse à une demande **MarkAllItemsAsRead** . 
+**L’élément MarkAllItemsAsReadResponse** spécifie la réponse à une **demande MarkAllItemsAsRead.** 
   
 ```XML
 <MarkAllItemsAsReadResponse>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

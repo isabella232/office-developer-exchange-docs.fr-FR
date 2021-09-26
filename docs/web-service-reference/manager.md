@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Manager
 api_type:
 - schema
 ms.assetid: 17a72bf0-8fa6-488e-966f-bcb03155d21f
 description: L’élément Manager représente le responsable d’un contact.
-ms.openlocfilehash: 978523833c857a1387ed2a27bbce2f3a0258c4ce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fd6124b951877f33824f1aaeb6d3e642943d83f7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530901"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547118"
 ---
 # <a name="manager"></a>Responsable
 
-L’élément **Manager** représente le responsable d’un contact. 
+**L’élément Manager** représente le responsable d’un contact. 
   
 ```xml
 <Manager/>

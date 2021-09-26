@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetUserConfiguration
 api_type:
 - schema
 ms.assetid: 4044c0a1-cd88-41ae-9cc4-a7cf2b279094
-description: L’élément GetUserConfiguration représente une demande d’obtention d’un objet de configuration utilisateur.
-ms.openlocfilehash: 46a2a5ebbabfc038692a5de83e0a960e05295061
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetUserConfiguration représente une demande d’obtenir un objet de configuration utilisateur.
+ms.openlocfilehash: 43c487edeffa358a222a111e5481eb85516a45db
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457710"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59547498"
 ---
 # <a name="getuserconfiguration"></a>GetUserConfiguration
 
-L’élément **GetUserConfiguration** représente une demande d’obtention d’un objet de configuration utilisateur. 
+**L’élément GetUserConfiguration** représente une demande d’obtenir un objet de configuration utilisateur. 
   
 ```XML
 <GetUserConfiguration>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserConfigurationName](userconfigurationname.md) <br/> |Représente le nom d’un objet de configuration utilisateur. Cet élément doit être présent dans une requête GetUserConfiguration.  <br/> |
-|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |Spécifie les types de propriétés de configuration de l’utilisateur à renvoyer. Cet élément doit être présent dans une requête GetUserConfiguration.  <br/> |
+|[UserConfigurationName](userconfigurationname.md) <br/> |Représente le nom d’un objet de configuration utilisateur. Cet élément doit être présent dans une demande GetUserConfiguration.  <br/> |
+|[UserConfigurationProperties](userconfigurationproperties.md) <br/> |Spécifie les types de propriétés de configuration utilisateur à renvoyer. Cet élément doit être présent dans une demande GetUserConfiguration.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

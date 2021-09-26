@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EncryptedSharedFolderData
 api_type:
 - schema
 ms.assetid: c1d4ca18-c5ce-41ff-bab4-f75e358c8b9f
-description: L’élément EncryptedSharedFolderData contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients.
-ms.openlocfilehash: 52e91eaf1ded31602b11e50c1b62159f72c101cd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EncryptedSharedFolderData contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de ses données de calendrier ou de contact avec d’autres clients.
+ms.openlocfilehash: c86f615e8936a379f465afab337a264d27238537
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530662"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546622"
 ---
 # <a name="encryptedsharedfolderdata"></a>EncryptedSharedFolderData
 
-L’élément **EncryptedSharedFolderData** contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients. 
+**L’élément EncryptedSharedFolderData** contient les données chiffrées qu’un client peut utiliser pour autoriser le partage de ses données de calendrier ou de contact avec d’autres clients. 
   
 ```xml
 <EncryptedSharedFolderData>   <Token/>   <Data/></EncryptedSharedFolderData>
@@ -47,11 +47,11 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) <br/> |Représente une collection de structures de données qu’un client peut utiliser pour autoriser le partage de son calendrier ou des données de contact avec d’autres clients.  <br/> |
+|[EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) <br/> |Représente une collection de structures de données qu’un client peut utiliser pour autoriser le partage de ses données de calendrier ou de contact avec d’autres clients.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

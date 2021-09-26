@@ -1,28 +1,28 @@
 ---
-title: GetCallInfo (service Web de messagerie unifiée)
+title: GetCallInfo (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetCallInfo
 api_type:
 - schema
 ms.assetid: 2758904d-ffb0-46ee-a134-e6394276996c
 description: L’élément GetCallInfo définit une demande pour obtenir des informations sur un appel.
-ms.openlocfilehash: 34e743b561aa56a9312a82bad4b504ed3870129d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: faf1d7493b96d6b979b1a3be94b6e98c79d4d965
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546377"
 ---
-# <a name="getcallinfo-um-web-service"></a>GetCallInfo (service Web de messagerie unifiée)
+# <a name="getcallinfo-um-web-service"></a>GetCallInfo (service web de messagerie unifiée)
 
-L’élément **GetCallInfo** définit une demande pour obtenir des informations sur un appel. 
+**L’élément GetCallInfo** définit une demande pour obtenir des informations sur un appel. 
   
-[GetCallInfo (service Web de messagerie unifiée)](getcallinfo-um-web-service.md)
+[GetCallInfo (service web de messagerie unifiée)](getcallinfo-um-web-service.md)
   
 ```xml
 <GetCallInfo>
@@ -43,7 +43,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[CallId (service Web de messagerie unifiée)](callid-um-web-service.md) <br/> |Contient l’identificateur de l’appel à propos duquel obtenir des informations.  <br/> |
+|[CallId (service web de messagerie unifiée)](callid-um-web-service.md) <br/> |Contient l’identificateur de l’appel sur lequel obtenir des informations.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,12 +59,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetCallInfo (service Web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
+[Opération GetCallInfo (service web de messagerie unifiée)](getcallinfo-operation-um-web-service.md)
 

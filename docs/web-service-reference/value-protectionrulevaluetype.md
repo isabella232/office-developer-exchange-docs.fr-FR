@@ -1,27 +1,27 @@
 ---
-title: Valeur (ProtectionRuleValueType)
+title: Value (ProtectionRuleValueType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Value
 api_type:
 - schema
 ms.assetid: b039bd6e-2198-47cf-9c78-a5e8b9d51c98
-description: L’élément Value identifie un service de destinataire ou d’expéditeur unique.
-ms.openlocfilehash: 908ea451800abc343fb6e4d4a4ed98d57223bd23
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Value identifie un seul service de destinataire ou d’expéditeur.
+ms.openlocfilehash: 2c4bbdcb3364f0ef8f608469f0dc1b289c4eeaf6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541622"
 ---
-# <a name="value-protectionrulevaluetype"></a>Valeur (ProtectionRuleValueType)
+# <a name="value-protectionrulevaluetype"></a>Value (ProtectionRuleValueType)
 
-L’élément **value** identifie un service de destinataire ou d’expéditeur unique. 
+**L’élément Value** identifie un seul service de destinataire ou d’expéditeur. 
   
 ```XML
 <Value/>
@@ -45,12 +45,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Destinataireest](recipientis.md) <br/> |Spécifie que tout destinataire du message électronique correspond à l’un des destinataires spécifiés dans les éléments de **valeur** enfants.  <br/> |
-|[SenderDepartments](senderdepartments.md) <br/> |Spécifie que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments de **valeur** enfants.  <br/> |
+|[RecipientIs](recipientis.md) <br/> |Spécifie que tout destinataire du message électronique correspond à l’un des destinataires spécifiés dans les éléments **Value** enfants.  <br/> |
+|[SenderDepartments](senderdepartments.md) <br/> |Spécifie que le service de l’expéditeur correspond à l’un des services spécifiés dans les éléments **Value** enfants.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Cet élément doit contenir une valeur de chaîne non vide.
+Cet élément doit contenir une valeur de chaîne nonempty.
   
 ## <a name="remarks"></a>Remarques
 

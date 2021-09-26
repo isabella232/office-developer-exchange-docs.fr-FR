@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - EventType
 api_type:
 - schema
 ms.assetid: 04b70f9e-c226-4130-958e-0db0275cf58b
-description: L’élément EventType est utilisé pour créer un abonnement et identifie un type d’événement à signaler dans une notification.
-ms.openlocfilehash: 58c7ce571434b6fb8ac0b1dc2a3f8cd4fd56ff17
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément EventType est utilisé pour créer un abonnement et identifie un type d’événement à signalé dans une notification.
+ms.openlocfilehash: 7378ba45b155281df9e00ad635b7c6970a270f2c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545215"
 ---
 # <a name="eventtype"></a>EventType
 
-L’élément **eventType** est utilisé pour créer un abonnement et identifie un type d’événement à signaler dans une notification. 
+**L’élément EventType** est utilisé pour créer un abonnement et identifie un type d’événement à signalé dans une notification. 
   
 ```xml
 <EventType/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EventTypes](eventtypes.md) <br/> |Contient une collection de types d’événements de notification d’événement qui permettent de créer un abonnement.  <br/> |
+|[EventTypes](eventtypes.md) <br/> |Contient une collection de types d’événements de notification d’événement qui sont utilisés pour créer un abonnement.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

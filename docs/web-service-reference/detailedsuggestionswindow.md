@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DetailedSuggestionsWindow
 api_type:
 - schema
 ms.assetid: 7b348d63-6a7d-45f4-9562-5c42243d63a5
-description: L’élément DetailedSuggestionsWindow identifie l’intervalle de temps interrogé pour obtenir des informations détaillées sur les heures de réunion suggérées.
-ms.openlocfilehash: 45d582f2642c0e3d8f6330b09946230c8842618d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DetailedSuggestionsWindow identifie l’étendue de temps qui est interrogé pour obtenir des informations détaillées sur les heures de réunion suggérées.
+ms.openlocfilehash: 56f66d9ee7be25de20a892823a02174c75b40601
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467843"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545334"
 ---
 # <a name="detailedsuggestionswindow"></a>DetailedSuggestionsWindow
 
-L’élément **DetailedSuggestionsWindow** identifie l’intervalle de temps interrogé pour obtenir des informations détaillées sur les heures de réunion suggérées. 
+**L’élément DetailedSuggestionsWindow** identifie l’étendue de temps qui est interrogé pour obtenir des informations détaillées sur les heures de réunion suggérées. 
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md) 
 - [SuggestionsViewOptions](suggestionsviewoptions.md) 
@@ -47,21 +47,21 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |Représente le début de la période interrogée pour obtenir des informations détaillées sur les heures de réunion suggérées.  <br/> |
-|[EndTime](endtime.md) <br/> |Représente la fin de la période interrogée pour obtenir des informations détaillées sur les heures de réunion suggérées.  <br/> |
+|[StartTime](starttime.md) <br/> |Représente le début de l’étendue de temps pour obtenir des informations détaillées sur les heures de réunion suggérées.  <br/> |
+|[EndTime](endtime.md) <br/> |Représente la fin de l’étendue de temps pour obtenir des informations détaillées sur les heures de réunion suggérées.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options permettant d’obtenir des informations sur les suggestions de réunion.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
+|[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contient les options pour obtenir des informations sur les suggestions de réunion.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/SuggestionViewOptions` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cet élément n’est pas obligatoire.
+Cet élément n’est pas requis.
   
 > [!NOTE]
-> Le schéma qui décrit cet élément se trouve dans le répertoire/EWS/de l’ordinateur exécutant MicrosoftExchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé. 
+> Le schéma qui décrit cet élément se trouve dans le répertoire /EWS/ de l’ordinateur qui exécute MicrosoftExchange Server 2007 sur qui le rôle serveur d’accès au client est installé. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

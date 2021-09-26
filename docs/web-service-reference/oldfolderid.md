@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OldFolderId
 api_type:
 - schema
 ms.assetid: da554a97-ab87-4950-9fc4-26b1972381bb
 description: L’élément OldFolderId contient l’identificateur d’origine d’un dossier déplacé ou copié.
-ms.openlocfilehash: a6713b9e0c47d68480724c3902086da6a8647dd7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 42260822870a0a9bac565c20447a5c29c3daccce
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458060"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541944"
 ---
 # <a name="oldfolderid"></a>OldFolderId
 
-L’élément **OldFolderId** contient l’identificateur d’origine d’un dossier déplacé ou copié. 
+**L’élément OldFolderId** contient l’identificateur d’origine d’un dossier déplacé ou copié. 
   
 ```xml
 <OldFolderId Id="" ChangeKey=""/>
@@ -36,8 +36,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Banque d’Exchange. Cet attribut est obligatoire.  <br/> |
-|**ChangeKey** <br/> |Contient une chaîne qui identifie la version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
+|**Id** <br/> |Contient une chaîne qui identifie un dossier dans la Exchange store. Cet attribut est obligatoire.  <br/> |
+|**ChangeKey** <br/> |Contient une chaîne qui identifie une version d’un dossier identifiée par l’attribut ID. Cet attribut est facultatif. Utilisez cet attribut pour vous assurer que la version correcte d’un dossier est utilisée.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

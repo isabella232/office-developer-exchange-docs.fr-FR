@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MoveItem
 api_type:
 - schema
 ms.assetid: dcf40fa7-7796-4a5c-bf5b-7a509a18d208
-description: L’opération MoveItem est utilisée pour déplacer un ou plusieurs éléments dans un seul dossier de destination.
-ms.openlocfilehash: 6a455e483ad2e5c84b91cfaa7562f4f1ec46a112
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération MoveItem est utilisée pour déplacer un ou plusieurs éléments vers un dossier de destination unique.
+ms.openlocfilehash: 2d86d06e522e0d42815971c92e754308224f5e8f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465680"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544849"
 ---
 # <a name="moveitem-operation"></a>Opération MoveItem
 
-L’opération **MoveItem** est utilisée pour déplacer un ou plusieurs éléments dans un seul dossier de destination. 
+**L’opération MoveItem** est utilisée pour déplacer un ou plusieurs éléments vers un dossier de destination unique. 
   
 ## <a name="moveitem-request-example"></a>Exemple de requête MoveItem
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **MoveItem** suivant montre comment déplacer un élément vers le dossier Brouillons. 
+L’exemple suivant **d’une demande MoveItem** montre comment déplacer un élément vers le dossier Brouillons. 
   
 ### <a name="code"></a>Code
 
@@ -36,10 +36,10 @@ L’exemple de requête **MoveItem** suivant montre comment déplacer un éléme
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <MoveItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <MoveItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <ToFolderId>
         <t:DistinguishedFolderId Id="drafts"/>
       </ToFolderId>
@@ -53,12 +53,12 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ### <a name="comments"></a>Commentaires
 
-L’élément [ToFolderId](tofolderid.md) spécifie le dossier vers lequel les éléments seront déplacés. Notez que tous les éléments figurant dans la collection [ItemIds](itemids.md) finissent dans le dossier de destination. Vous devez effectuer des appels **MoveItem** distincts pour placer des éléments dans différents dossiers de destination. 
+[L’élément ToFolderId](tofolderid.md) spécifie le dossier vers lequel les éléments seront déplacés. Notez que tous les éléments répertoriés dans la collection [ItemIds](itemids.md) se retrouveront dans le dossier de destination. Vous devez effectuer des appels **MoveItem distincts** pour placer des éléments dans différents dossiers de destination. 
   
 > [!NOTE]
-> L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -76,9 +76,9 @@ Les éléments suivants sont utilisés dans la demande :
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **MoveItem** . 
+L’exemple suivant montre une réponse réussie à **une demande MoveItem.** 
   
-L’identificateur d’élément du nouvel élément est renvoyé dans le message de réponse. Les identificateurs d’élément ne sont pas renvoyés dans les réponses pour les opérations entre boîtes aux lettres ou boîtes aux lettres dans les **MoveItem** de dossiers publics. 
+L’identificateur d’élément du nouvel élément est renvoyé dans le message de réponse. Les identificateurs d’élément ne sont pas renvoyés dans les réponses pour les opérations **MoveItem** de dossier public entre boîtes aux lettres ou de boîtes aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -89,12 +89,12 @@ L’identificateur d’élément du nouvel élément est renvoyé dans le messag
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <MoveItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -112,7 +112,7 @@ L’identificateur d’élément du nouvel élément est renvoyé dans le messag
 
 ### <a name="comments"></a>Commentaires
 
-L’opération **MoveItem** indique la réussite si le déplacement a réussi. 
+**L’opération MoveItem** indique si le déplacement a réussi. 
   
 ### <a name="successful-response-elements"></a>Éléments de réponse réussis
 

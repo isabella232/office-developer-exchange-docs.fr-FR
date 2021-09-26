@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65a7ef52-9992-49b1-b002-868fb2d3a6f6
-description: L’élément URLs spécifie un tableau d’URL pour un personnage.
-ms.openlocfilehash: 1278705df0c158e8d74e6fe38501114264787d00
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Urls spécifie un tableau d’URL pour un personnage.
+ms.openlocfilehash: 39502d885a2731df59042ca3aac276ceeb81bfda
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467675"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542630"
 ---
 # <a name="urls"></a>URL
 
-L’élément **URLs** spécifie un tableau d’URL pour un personnage. 
+**L’élément Urls** spécifie un tableau d’URL pour un personnage. 
   
 ```XML
 <Urls>
@@ -36,7 +36,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Adresse](url-ex15websvcsotherref.md)
+[URL ](url-ex15websvcsotherref.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

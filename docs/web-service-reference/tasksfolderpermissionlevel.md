@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TasksFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 0f70b79b-3443-4048-b410-692d4e2464fc
-description: L’élément TasksFolderPermissionLevel contient les autorisations pour le dossier tâches par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 6e3988698575f0c1f935922d1642829a1f1addf9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TasksFolderPermissionLevel contient les autorisations pour le dossier Tâches par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 991b13f9a9f95805b13312712b1f6c5941033c46
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543869"
 ---
 # <a name="tasksfolderpermissionlevel"></a>TasksFolderPermissionLevel
 
-L’élément **TasksFolderPermissionLevel** contient les autorisations pour le dossier tâches par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément TasksFolderPermissionLevel** contient les autorisations pour le dossier Tâches par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <TasksFolderPermissionLevel>
@@ -47,7 +47,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -57,11 +57,11 @@ Le tableau suivant répertorie les valeurs de texte qui représentent les niveau
 
 |**Niveau d’autorisation**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |L’utilisateur délégué ne dispose pas des autorisations d’accès au dossier tâches.  <br/> |
-|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments dans le dossier tâches.  <br/> |
-|Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier tâches.  <br/> |
-|Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier tâches.  <br/> |
-|Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier tâches.  <br/> |
+|Aucun  <br/> |L’utilisateur délégué n’a aucune autorisation d’accès au dossier Tâches.  <br/> |
+|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments du dossier Tâches.  <br/> |
+|Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier Tâches.  <br/> |
+|Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier Tâches.  <br/> |
+|Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier Tâches.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Task
 api_type:
 - schema
 ms.assetid: 7c84927e-db28-4c5d-b0b5-cbcc2b88d869
-description: L’élément Task représente une tâche dans la Banque d’Exchange.
-ms.openlocfilehash: 669f90dfa74cd085091e9836a1d31ca53bbf165e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Task représente une tâche dans le magasin Exchange données.
+ms.openlocfilehash: 1a9d44480ec92c9adf158e7e71cf3f928b20b64d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458942"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544520"
 ---
 # <a name="task"></a>Tâche
 
-L’élément **Task** représente une tâche dans la Banque d’Exchange. 
+**L’élément Task** représente une tâche dans le magasin Exchange de données. 
   
 ```xml
 <Task>
@@ -106,7 +106,7 @@ Aucune.
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l'identificateur du dossier parent qui contient l'élément ou le dossier.  <br/> |
 |[ItemClass](itemclass.md) <br/> |Représente la classe de message d'un élément.  <br/> |
 |[Objet](subject.md) <br/> |Représente l'objet des éléments de la banque d'informations Exchange et des objets de réponse.  <br/> |
-|[Sensitivity](sensitivity.md) <br/> |Contient l’état du critère de diffusion d’un élément.  <br/> |
+|[Sensitivity](sensitivity.md) <br/> |Contient l’état de sensibilité d’un élément.  <br/> |
 |[Body](body.md) <br/> |Représente le contenu réel du corps d'un message.  <br/> |
 |[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contient les éléments ou les fichiers joints à un élément dans la banque d'informations Exchange.  <br/> |
 |[DateTimeReceived](datetimereceived.md) <br/> |Indique la date et l'heure auxquelles un élément de boîte aux lettres a été reçu.  <br/> |
@@ -116,7 +116,7 @@ Aucune.
 |[InReplyTo](inreplyto.md) <br/> |Représente l'identificateur de l'élément dont cet élément est une réponse.  <br/> |
 |[IsSubmitted](issubmitted.md) <br/> |Indique si un élément a été envoyé dans le dossier par défaut de la boîte d'envoi.  <br/> |
 |[IsDraft](isdraft.md) <br/> |Indique si un élément n'a pas encore été envoyé.  <br/> |
-|[IsFromMe](isfromme.md) <br/> |Indique si un utilisateur s’est envoyé un élément à lui-même ou à lui-même.  <br/> |
+|[IsFromMe](isfromme.md) <br/> |Indique si un utilisateur lui a envoyé un élément.  <br/> |
 |[IsResend](isresend.md) <br/> |Indique si l'élément a déjà été envoyé.  <br/> |
 |[IsUnmodified](isunmodified.md) <br/> |Indique si l'élément a été modifié.  <br/> |
 |[InternetMessageHeaders](internetmessageheaders.md) <br/> |Représente la collection de tous les en-têtes de message Internet contenus dans un élément de boîte aux lettres.  <br/> |
@@ -126,34 +126,34 @@ Aucune.
 |[ReminderDueBy](reminderdueby.md) <br/> |Indique la date et l'heure auxquelles l'événement se produit. Cet élément est utilisé par l'élément [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) afin de déterminer quand le rappel s'affiche.  <br/> |
 |[ReminderIsSet](reminderisset.md) <br/> |Indique si un rappel a été défini pour un élément dans la banque d'informations Exchange.  <br/> |
 |[ReminderMinutesBeforeStart](reminderminutesbeforestart.md) <br/> |Représente le nombre de minutes avant un événement lors de l'affichage d'un rappel.  <br/> |
-|[DisplayCc](displaycc.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la zone CC. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires Cc.  <br/> |
-|[DisplayTo](displayto.md) <br/> |Représente la chaîne d’affichage qui est utilisée pour le contenu de la zone à. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.  <br/> |
+|[DisplayCc](displaycc.md) <br/> |Représente la chaîne d’affichage utilisée pour le contenu de la zone Cc. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires Cc.  <br/> |
+|[DisplayTo](displayto.md) <br/> |Représente la chaîne d’affichage utilisée pour le contenu de la zone À. Il s'agit de la chaîne concaténée de tous les noms d'affichage de destinataires À.  <br/> |
 |[HasAttachments](hasattachments.md) <br/> |Représente une propriété définie sur **true** si un élément comporte au moins une pièce jointe visible. Cette propriété est en lecture seule.  <br/> |
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifie les propriétés étendues sur les dossiers et les éléments.  <br/> |
 |[Culture](culture.md) <br/> |Représente la culture d'un élément donné dans une boîte aux lettres.  <br/> |
-|[ActualWork](actualwork.md) <br/> |Représente la durée réelle passée sur une tâche.  <br/> |
-|[AssignedTime](assignedtime.md) <br/> |Représente l’heure à laquelle une tâche est affectée à un contact.  <br/> |
+|[ActualWork](actualwork.md) <br/> |Représente le temps réel consacré à une tâche.  <br/> |
+|[AssignedTime](assignedtime.md) <br/> |Représente l’heure à quel moment une tâche est affectée à un contact.  <br/> |
 |[BillingInformation](billinginformation.md) <br/> |Contient les informations de facturation d’une tâche.  <br/> |
 |[ChangeCount](changecount.md) <br/> |Spécifie la version de la tâche.  <br/> |
-|[Companies](companies.md) <br/> |Représente la collection de sociétés associées à un contact ou une tâche.  <br/> |
-|[Terminé](completedate.md) <br/> |Représente la date à laquelle une tâche est terminée.  <br/> |
+|[Companies](companies.md) <br/> |Représente la collection d’entreprises associées à un contact ou à une tâche.  <br/> |
+|[CompleteDate](completedate.md) <br/> |Représente la date à laquelle une tâche est terminée.  <br/> |
 |[Contacts](contacts-ex15websvcsotherref.md) <br/> |Contient une liste de contacts associés à une tâche.  <br/> |
 |[DelegationState](delegationstate.md) <br/> |Représente l’état d’une tâche déléguée.  <br/> |
-|[Delegator](delegator.md) <br/> |Contient le nom de la personne qui a affecté la tâche.  <br/> |
+|[Delegator](delegator.md) <br/> |Contient le nom du délégant qui a affecté la tâche.  <br/> |
 |[DueDate](duedate.md) <br/> |Représente la date d’échéance d’un élément de tâche.  <br/> |
 |[IsAssignmentEditable](isassignmenteditable.md) <br/> |Indique si la tâche est modifiable ou non.  <br/> |
-|[IsComplete](iscomplete.md) <br/> |Indique si la tâche a été exécutée ou non.  <br/> |
+|[IsComplete](iscomplete.md) <br/> |Indique si la tâche est terminée ou non.  <br/> |
 |[IsRecurring](isrecurring.md) <br/> |Indique si une tâche fait partie d’un élément périodique. Cet élément est en lecture seule.  <br/> |
-|[IsTeamTask](isteamtask.md) <br/> |Indique si la tâche appartient à une équipe ou non.  <br/> |
+|[IsTeamTask](isteamtask.md) <br/> |Indique si la tâche appartient ou non à une équipe.  <br/> |
 |[Mileage](mileage.md) <br/> |Représente le kilométrage d’un élément de tâche.  <br/> |
 |[Owner](owner.md) <br/> |Représente le propriétaire d’une tâche.  <br/> |
 |[PercentComplete](percentcomplete.md) <br/> |Décrit l’état d’achèvement d’une tâche.  <br/> |
-|[Périodicité (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
+|[Recurrence (TaskRecurrenceType)](recurrence-taskrecurrencetype.md) <br/> |Contient des informations de récurrence pour les tâches périodiques.  <br/> |
 |[StartDate](startdate.md) <br/> |Représente la date de début d’un élément de tâche.  <br/> |
-|[Status](status.md) <br/> |Représente l’état d’un élément de tâche.  <br/> |
+|[État](status.md) <br/> |Représente l’état d’un élément de tâche.  <br/> |
 |[StatusDescription](statusdescription.md) <br/> |Contient une explication de l’état de la tâche.  <br/> |
-|[TotalWork](totalwork.md) <br/> |Contient une description de la proportion de travail qui est associée à un élément.  <br/> |
-|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation de l’élément ou du dossier. Cet élément est en lecture seule.  <br/> |
+|[TotalWork](totalwork.md) <br/> |Contient une description de la quantité de travail associée à un élément.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation pour l’élément ou le dossier. Cet élément est en lecture seule.  <br/> |
 |[LastModifiedName](lastmodifiedname.md) <br/> |Contient le nom d'affichage du dernier utilisateur ayant modifié un élément.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Indique quand un élément a été modifié pour la dernière fois.  <br/> |
 |[IsAssociated](isassociated.md) <br/> |Indique si l'élément est associé à un dossier.  <br/> |
@@ -167,9 +167,9 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[AdjacentMeetings](adjacentmeetings.md) <br/> |Décrit tous les éléments de calendrier qui sont adjacents à une heure de réunion.  <br/> |
-|[AppendToItemField](appendtoitemfield.md) <br/> |Identifie les données à ajouter à une propriété unique d’un élément ou d’un dossier lors d’une [opération UpdateItem](updateitem-operation.md).  <br/> |
-|[ConflictingMeetings](conflictingmeetings.md) <br/> |Identifie tous les éléments qui sont en conflit avec une heure de réunion.  <br/> |
-|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin client local.  <br/> |
+|[AppendToItemField](appendtoitemfield.md) <br/> |Identifie les données à appendre à une propriété unique d’un élément/dossier lors d’une [opération UpdateItem](updateitem-operation.md).  <br/> |
+|[ConflictingMeetings](conflictingmeetings.md) <br/> |Identifie tous les éléments qui entrent en conflit avec une heure de réunion.  <br/> |
+|[Créer (ItemSync)](create-itemsync.md) <br/> |Identifie un élément unique à créer dans le magasin de clients local.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[Items](items.md) <br/> |Contient un tableau d'éléments.  <br/> |
 |[SetItemField](setitemfield.md) <br/> |Représente une mise à jour d'une propriété unique d'un élément dans une [UpdateItem Operation](updateitem-operation.md).  <br/> |

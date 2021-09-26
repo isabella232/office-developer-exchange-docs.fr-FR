@@ -1,32 +1,32 @@
 ---
-title: Opération PlayOnPhoneGreeting (service Web de messagerie unifiée)
+title: Opération PlayOnPhoneGreeting (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreeting
 api_type:
 - schema
 ms.assetid: 6deafc40-290b-4bce-9914-b6bcc529f38a
-description: L’opération PlayOnPhoneGreeting effectue un appel sortant et joue l’un des deux messages de salutation sur le téléphone.
-ms.openlocfilehash: 3af120b9ac8d7a368742fad2850c924228488662
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération PlayOnPhoneGreeting effectue un appel sortant et lit l’un des deux messages d’accueil au téléphone.
+ms.openlocfilehash: 540cd44d35e70e2588446996aec19aeab17f83e9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543134"
 ---
-# <a name="playonphonegreeting-operation-um-web-service"></a>Opération PlayOnPhoneGreeting (service Web de messagerie unifiée)
+# <a name="playonphonegreeting-operation-um-web-service"></a>Opération PlayOnPhoneGreeting (service web de messagerie unifiée)
 
-L’opération PlayOnPhoneGreeting effectue un appel sortant et joue l’un des deux messages de salutation sur le téléphone.
+L’opération PlayOnPhoneGreeting effectue un appel sortant et lit l’un des deux messages d’accueil au téléphone.
   
 ## <a name="playonphonegreeting-request-example"></a>Exemple de requête PlayOnPhoneGreeting
 
 ### <a name="description"></a>Description
 
-L’exemple de requête PlayOnPhoneGreeting suivant montre comment créer une demande d’émission d’un appel sortant et lire le message d’accueil normal sur un téléphone.
+L’exemple suivant d’une demande PlayOnPhoneGreeting montre comment former une demande pour passer un appel sortant et lire le message d’accueil normal sur un téléphone.
   
 ### <a name="code"></a>Code
 
@@ -42,11 +42,11 @@ L’exemple de requête PlayOnPhoneGreeting suivant montre comment créer une de
 </soap:Envelope>
 ```
 
-## <a name="successful-playonphonegreeting-response-example"></a>Exemple de réponse PlayOnPhoneGreeting réussi
+## <a name="successful-playonphonegreeting-response-example"></a>Exemple de réponse PlayOnPhoneGreeting réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse PlayOnPhoneGreeting indique une réponse à la demande PlayOnPhoneGreeting.
+L’exemple suivant d’une réponse PlayOnPhoneGreeting affiche une réponse à la demande PlayOnPhoneGreeting.
   
 ### <a name="code"></a>Code
 
@@ -65,11 +65,11 @@ L’exemple suivant de réponse PlayOnPhoneGreeting indique une réponse à la d
 
 
 
-[PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting (service web de messagerie unifiée)](playonphonegreeting-um-web-service.md)
   
-[PlayOnPhoneGreetingResponse (service Web de messagerie unifiée)](playonphonegreetingresponse-um-web-service.md)
+[PlayOnPhoneGreetingResponse (service web de messagerie unifiée)](playonphonegreetingresponse-um-web-service.md)
   
-[GreetingType (service Web de messagerie unifiée)](greetingtype-um-web-service.md)
+[GreetingType (service web de messagerie unifiée)](greetingtype-um-web-service.md)
   
-[dialString (service Web de messagerie unifiée)](dialstring-um-web-service.md)
+[dialString (service web de messagerie unifiée)](dialstring-um-web-service.md)
 

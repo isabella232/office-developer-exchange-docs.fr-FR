@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Contact
 api_type:
 - schema
 ms.assetid: 66bfff50-7a91-4d81-b6a0-610b9962f677
 description: L'élément Contact représente un contact dans la banque d'informations Exchange.
-ms.openlocfilehash: b5b4af211815dbbd09449ca2f3c6b6b2dfba6f93
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a91d8cab7db0bfe0cc102aa75d51df5b60603a77
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44445649"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543540"
 ---
 # <a name="contact"></a>Contact
 

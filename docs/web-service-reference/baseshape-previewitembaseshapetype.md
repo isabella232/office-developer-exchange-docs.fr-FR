@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b9e2fdd-5678-4178-9297-7f12a3ca9d64
 description: L’élément BaseShape spécifie l’aperçu par défaut avec toutes les propriétés renvoyées ou un aperçu compact avec moins de propriétés renvoyées.
-ms.openlocfilehash: 29f008840d649f97dfb299fee8e7bf5aaa573404
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b30922a5f8e11200679ffe5aa813d3a0e5f4578e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527417"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545691"
 ---
 # <a name="baseshape-previewitembaseshapetype"></a>BaseShape (PreviewItemBaseShapeType)
 
-L’élément **BaseShape** spécifie l’aperçu par défaut avec toutes les propriétés renvoyées ou un aperçu compact avec moins de propriétés renvoyées. 
+**L’élément BaseShape spécifie** l’aperçu par défaut avec toutes les propriétés renvoyées ou un aperçu compact avec moins de propriétés renvoyées. 
   
 ```XML
 <BaseShape> Default | Compact</BaseShape>
@@ -63,7 +63,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

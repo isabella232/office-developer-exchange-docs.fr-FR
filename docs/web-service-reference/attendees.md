@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 837bb372-39eb-48ae-9c09-0d2552511f93
-description: L’élément participants spécifie les destinataires d’une invitation à une réunion.
-ms.openlocfilehash: 3a63bdf7e49309697ac503be5f4c95eb805b9635
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Attendees spécifie les destinataires d’une invitation à une réunion.
+ms.openlocfilehash: 2ac547ee56e5a001e08957265053265d69ded42e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460329"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545708"
 ---
 # <a name="attendees"></a>Participants
 
-L’élément **participants** spécifie les destinataires d’une invitation à une réunion. 
+**L’élément Attendees** spécifie les destinataires d’une invitation à une réunion. 
   
 ```XML
 <Attendees>
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

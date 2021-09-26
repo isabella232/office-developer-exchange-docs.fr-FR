@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetDelegate
 api_type:
 - schema
 ms.assetid: 849b2c9e-4685-4bd1-9adb-aba0fcc52650
 description: L’opération GetDelegate récupère les paramètres de délégué pour une boîte aux lettres spécifiée.
-ms.openlocfilehash: 400bf5d1cafcbb789aaa749c62c7a908622d4ddb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ce11838944d30021f65b51eae817a6b3543e3ae8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461064"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544977"
 ---
 # <a name="getdelegate-operation"></a>Opération GetDelegate
 
-L’opération **GetDelegate** récupère les paramètres de délégué pour une boîte aux lettres spécifiée. 
+**L’opération GetDelegate** récupère les paramètres de délégué pour une boîte aux lettres spécifiée. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **GetDelegate** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération GetDelegate peut** utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="getdelegate-request-example"></a>Exemple de requête GetDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple de code suivant montre comment récupérer les paramètres de délégué pour tous les délégués définis sur la boîte aux lettres user3's. Toutes les autorisations de chaque utilisateur sont renvoyées dans la réponse.
+L’exemple de code suivant montre comment récupérer les paramètres de délégué pour tous les délégués qui sont définies sur la boîte aux lettres de l’utilisateur 3. Toutes les autorisations de chaque utilisateur sont renvoyées dans la réponse.
   
 ### <a name="code"></a>Code
 
@@ -63,16 +63,16 @@ L’exemple de code suivant montre comment récupérer les paramètres de délé
 
 ### <a name="comments"></a>Commentaires
 
-Vous pouvez utiliser l’élément [userid](userid.md) pour spécifier des utilisateurs individuels au lieu de renvoyer tous les utilisateurs disposant d’autorisations d’accès délégué sur la boîte aux lettres. 
+Vous pouvez utiliser [l’élément UserId](userid.md) pour spécifier des utilisateurs individuels au lieu de retourner tous les utilisateurs qui ont des autorisations d’accès délégué sur la boîte aux lettres. 
   
 > [!NOTE]
-> Les services Web Exchange (EWS) ne prennent pas en charge la gestion des délégués de groupe. EWS renvoie une erreur si l’opération **GetDelegate** est appelée pour un principal qui a un délégué de groupe de sécurité. 
+> Exchange Les services web (EWS) ne gèrent pas la gestion des délégués de groupe. EWS retourne une erreur si l’opération **GetDelegate** est appelée pour un principal qui a un délégué de groupe de sécurité. 
   
 ## <a name="getdelegate-response-example"></a>Exemple de réponse GetDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse **GetDelegate** indique une réponse réussie à une demande **GetDelegate** . La réponse contient des informations sur les autorisations d’accès délégué, si le délégué peut afficher des éléments privés, si le délégué reçoit des copies de messages de réunion et à qui les demandes de réunion ont été remises. 
+L’exemple suivant **d’une réponse GetDelegate** affiche une réponse réussie à **une demande GetDelegate.** La réponse contient des informations sur les autorisations d’accès délégué, si le délégué peut afficher des éléments privés, si le délégué reçoit des copies des messages de réunion et à qui les demandes de réunion ont été remis. 
   
 ### <a name="code"></a>Code
 

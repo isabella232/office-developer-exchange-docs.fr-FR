@@ -5,44 +5,44 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ed077877-9d98-4434-b8b6-a4a905e7f7a6
 description: Trouvez des informations sur l’opération EWS GetNonIndexableItemStatistics.
-ms.openlocfilehash: c7d49f9e0d7b4191c7403cb4d1a20e70a96c3882
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e95cd016f73c92a75d9f366527e58045497363d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546237"
 ---
 # <a name="getnonindexableitemstatistics-operation"></a>Opération GetNonIndexableItemStatistics
 
-Trouvez des informations sur l’opération EWS **GetNonIndexableItemStatistics** . 
+Trouvez des informations **sur l’opération EWS GetNonIndexableItemStatistics.** 
   
-L’opération **GetNonIndexableItemStatistics** récupère le nombre d’éléments qui ne peuvent pas être indexés dans une boîte aux lettres. 
+**L’opération GetNonIndexableItemStatistics** récupère le nombre d’éléments qui ne peuvent pas être indexés dans une boîte aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-getnonindexableitemstatistics-operation"></a>Utilisation de l’opération GetNonIndexableItemStatistics
 
-L’opération **GetNonIndexableItemStatistics** compte les éléments de boîte aux lettres qui ne peuvent pas être indexés. Les éléments qui ne peuvent pas être indexés ne sont pas recherchés lors d’une recherche de découverte. 
+**L’opération GetNonIndexableItemStatistics** compte les éléments de boîte aux lettres qui ne peuvent pas être indexés. Les éléments qui ne peuvent pas être indexés ne font pas l’objet d’une recherche pendant une recherche de découverte. 
   
-### <a name="getnonindexableitemstatistics-operation-soap-headers"></a>En-têtes SOAP d’opération GetNonIndexableItemStatistics
+### <a name="getnonindexableitemstatistics-operation-soap-headers"></a>En-têtes SOAP de l’opération GetNonIndexableItemStatistics
 
-L’opération **GetNonIndexableItemStatistics** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération GetNonIndexableItemStatistics** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour permettre à l’appelant d’effectuer la demande. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a>Exemple de requête d’opération GetNonIndexableItemStatistics : obtenir le nombre d’éléments ne pouvant pas être indexés dans une boîte aux lettres
+## <a name="getnonindexableitemstatistics-operation-request-example-get-the-count-of-items-that-cannot-be-indexed-in-a-mailbox"></a>Exemple de demande d’opération GetNonIndexableItemStatistics : obtenir le nombre d’éléments qui ne peuvent pas être indexés dans une boîte aux lettres
 
-L’exemple suivant de demande d’opération **GetNonIndexableItemStatistics** indique comment demander le nombre d’éléments ne pouvant pas être indexés dans une boîte aux lettres. 
+L’exemple suivant d’une demande d’opération **GetNonIndexableItemStatistics** montre comment demander le nombre d’éléments qui ne peuvent pas être indexés dans une boîte aux lettres. 
   
 > [!NOTE]
-> Tous les noms de domaine hérités de cet exemple sont raccourcis pour conserver la lisibilité. 
+> Tous les noms de domaine hérités dans cet exemple ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -64,7 +64,7 @@ L’exemple suivant de demande d’opération **GetNonIndexableItemStatistics** 
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
     
@@ -74,7 +74,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 - [SearchArchiveOnly](searcharchiveonly.md)
     
-## <a name="successful-getnonindexableitemstatistics-operation-response"></a>Réponse de l’opération GetNonIndexableItemStatistics réussie
+## <a name="successful-getnonindexableitemstatistics-operation-response"></a>Réponse réussie à l’opération GetNonIndexableItemStatistics
 
 L’exemple suivant montre une réponse réussie à une demande d’opération **GetNonIndexableItemStatistics** pour obtenir le nombre d’éléments qui ne peuvent pas être indexés dans une boîte aux lettres. 
   
@@ -109,7 +109,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md)
     
@@ -125,7 +125,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="getnonindexableitemstatistics-operation-error-response"></a>Réponse d’erreur d’opération GetNonIndexableItemStatistics
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetNonIndexableItemStatistics** . Il s’agit d’une réponse à une demande pour obtenir le nombre d’éléments qui ne peuvent pas être indexés à partir de plusieurs boîtes aux lettres. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **GetNonIndexableItemStatistics.** Il s’agit d’une réponse à une demande d’obtenir le nombre d’éléments qui ne peuvent pas être indexés à partir de plusieurs boîtes aux lettres. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -154,7 +154,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md)
     
@@ -164,7 +164,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

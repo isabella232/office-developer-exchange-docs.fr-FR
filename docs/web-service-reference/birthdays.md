@@ -1,23 +1,23 @@
 ---
-title: Anniversaires
+title: Birthdays
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a84c19e-57cd-448e-af4f-c8005fd5f2a2
-description: L’élément birthdays spécifie un tableau d’anniversaires, stockés sous forme de chaînes et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: aa85febd84c32ae87e0822ce47fd99f445b6fe9e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Birthdays spécifie un tableau d’anniversaires, stocké en tant que chaînes, et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: a1ed3886d9492ba2819a93183c0042b74f1d364c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543603"
 ---
-# <a name="birthdays"></a>Anniversaires
+# <a name="birthdays"></a>Birthdays
 
-L’élément **birthdays** spécifie un tableau d’anniversaires, stockés sous forme de chaînes et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Birthdays** spécifie un tableau d’anniversaires, stocké en tant que chaînes, et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Birthdays>
@@ -38,13 +38,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseCode
 api_type:
 - schema
 ms.assetid: 582e9caa-d2bc-4be1-a460-739294f9ef18
 description: L’élément ResponseCode fournit des informations sur la raison pour laquelle le destinataire n’est pas valide.
-ms.openlocfilehash: d78de64de7725007ec51a55dad13d1cc892a25e6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 33cd05aca672e250f288aec72d876734132d2e36
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529720"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544807"
 ---
 # <a name="responsecode-invalidrecipientresponsecodetype"></a>ResponseCode (InvalidRecipientResponseCodeType)
 
-L’élément **ResponseCode** fournit des informations sur la raison pour laquelle le destinataire n’est pas valide. 
+**L’élément ResponseCode** fournit des informations sur la raison pour laquelle le destinataire n’est pas valide. 
   
 ```XML
 <ResponseCode>OtherError or RecipientOrganizationNotFederated or CannotObtainTokenFromSTS or SystemPolicyBlocksSharingWithThisRecipient or RecipientOrganizationFederatedWithUnknownTokenIssuer</ResponseCode>
@@ -48,15 +48,15 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **ResponseCode** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément ResponseCode.** 
   
 |**Code**|**Description**|
 |:-----|:-----|
 |OtherError  <br/> |Indique que l’erreur n’est pas spécifiée par un autre code de réponse d’erreur.  <br/> |
-|RecipientOrganizationNotFederated  <br/> |Indique qu’une relation de partage n’est pas disponible pour l’organisation spécifiée dans l’adresse de messagerie SMTP du destinataire.  <br/> |
-|CannotObtainTokenFromSTS  <br/> |Indique qu’un problème est survenu lors de l’obtention d’un jeton de sécurité à partir du serveur de jetons.  <br/> |
-|SystemPolicyBlocksSharingWithThisRecipient  <br/> |Indique que l’administrateur système a défini une stratégie système qui bloque le partage avec le destinataire spécifié.  <br/> |
-|RecipientOrganizationFederatedWithUnknownTokenIssuer  <br/> |Indique que le service d’émission de jeton de sécurité utilisé par le destinataire spécifié est inconnu.  <br/> |
+|RecipientOrganizationNotFederated  <br/> |Indique qu’une relation de partage n’est pas disponible avec l’organisation spécifiée dans l’adresse de messagerie SMTP du destinataire.  <br/> |
+|CannotObtainTokenFromSTS  <br/> |Indique qu’il y a eu un problème lors de l’obtention d’un jeton de sécurité à partir du serveur de jetons.  <br/> |
+|SystemPolicyBlocksSharingWithThisRecipient  <br/> |Indique que l’administrateur système a définie une stratégie système qui bloque le partage avec le destinataire spécifié.  <br/> |
+|RecipientOrganizationFederatedWithUnknownTokenIssuer  <br/> |Indique que le service de jeton sécurisé utilisé par le destinataire spécifié est inconnu.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

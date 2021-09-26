@@ -5,44 +5,44 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9015a0d8-3495-461b-aa79-797d23169585
 description: Trouvez des informations sur l’opération EWS SetHoldOnMailboxes.
-ms.openlocfilehash: 4d79ba9f616974b9415ae9eae23b8f5fdb0ab205
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d4774af88e94a14103aa883774f193e84338c9f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44448393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542786"
 ---
 # <a name="setholdonmailboxes-operation"></a>Opération SetHoldOnMailboxes
 
 > [!IMPORTANT]
-> À partir du 1er avril 2020, l’opération SetHoldOnMailboxes ne sera plus disponible dans Exchange Online. Cette opération ne sera pas affectée dans les versions locales d’Exchange Server. Pour plus d’informations, reportez-vous à la section [retraite des outils eDiscovery hérités dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
+> À compter du 1er avril 2020, l’opération SetHoldOnMailboxes ne sera plus disponible dans Exchange Online. Cette opération ne sera pas affectée dans les versions sur site de Exchange Server. Pour plus d’informations, [voir Retrait des outils eDiscovery hérités dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
 
-Trouvez des informations sur l’opération EWS **SetHoldOnMailboxes** . 
+Trouvez des informations sur l’opération EWS **SetHoldOnMailboxes.** 
   
-L’opération **SetHoldOnMailboxes** définit une stratégie de blocage de boîte aux lettres sur les boîtes aux lettres. 
+**L’opération SetHoldOnMailboxes** définit une stratégie de mise en attente de boîte aux lettres sur les boîtes aux lettres. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-setholdonmailboxes-operation"></a>Utilisation de l’opération SetHoldOnMailboxes
 
-L’opération **SetHoldOnMailboxes** définit la conservation d’une boîte aux lettres sur une ou plusieurs boîtes aux lettres. 
+**L’opération SetHoldOnMailboxes** définit une boîte aux lettres en attente sur une ou plusieurs boîtes aux lettres. 
   
-### <a name="setholdonmailboxes-operation-soap-headers"></a>En-têtes SOAP d’opération SetHoldOnMailboxes
+### <a name="setholdonmailboxes-operation-soap-headers"></a>En-têtes SOAP de l’opération SetHoldOnMailboxes
 
-L’opération **SetHoldOnMailboxes** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération SetHoldOnMailboxes peut** utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour que l’appelant effectue la demande. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifie les rôles serveur nécessaires pour permettre à l’appelant d’effectuer la demande. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>Exemple de requête d’opération SetHoldOnMailboxes : appliquer une conservation sur une boîte aux lettres
+## <a name="setholdonmailboxes-operation-request-example-apply-a-hold-on-a-mailbox"></a>Exemple de demande d’opération SetHoldOnMailboxes : appliquer une mise en attente à une boîte aux lettres
 
-L’exemple suivant de demande d’opération **SetHoldOnMailboxes** montre comment appliquer une conservation sur deux boîtes aux lettres. La conservation de la boîte aux lettres a été créée à l’aide de la commande [New-MailboxSearch](https://technet.microsoft.com/library/dd298064.aspx) . 
+L’exemple suivant **d’une demande d’opération SetHoldOnMailboxes** montre comment appliquer une mise en attente sur deux boîtes aux lettres. La boîte aux lettres a été créée à l’aide de [la commande New-MailboxSearch.](https://technet.microsoft.com/library/dd298064.aspx) 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -70,7 +70,7 @@ L’exemple suivant de demande d’opération **SetHoldOnMailboxes** montre comm
 
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [SetHoldOnMailboxes](setholdonmailboxes.md)
     
@@ -92,7 +92,7 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 ## <a name="successful-setholdonmailboxes-operation-response"></a>Réponse de l’opération SetHoldOnMailboxes réussie
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **SetHoldOnMailboxes** afin de mettre en attente deux boîtes aux lettres. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **SetHoldOnMailboxes** pour placer deux boîtes aux lettres en attente. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -135,7 +135,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
     
@@ -153,13 +153,13 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [Mailbox (String)](mailbox-string.md)
     
-- [État (HoldStatusType)](status-holdstatustype.md)
+- [Status (HoldStatusType)](status-holdstatustype.md)
     
 - [AdditionalInfo](additionalinfo.md)
     
 ## <a name="setholdonmailboxes-operation-error-response"></a>Réponse d’erreur d’opération SetHoldOnMailboxes
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **SetHoldOnMailboxes** . Il s’agit d’une réponse à une demande contenant un identificateur de boîte aux lettres spécifié de manière incorrecte. 
+L’exemple suivant montre une réponse d’erreur à une **demande d’opération SetHoldOnMailboxes.** Il s’agit d’une réponse à une demande qui contient un identificateur de boîte aux lettres incorrectement spécifié. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -188,7 +188,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [SetHoldOnMailboxesResponse](setholdonmailboxesresponse.md)
     
@@ -198,7 +198,7 @@ Le corps SOAP de la réponse d’erreur contient les éléments suivants :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour les autres codes d’erreur qui sont génériques à EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
+Pour obtenir des codes d’erreur supplémentaires génériques pour EWS et spécifiques à cette opération, voir [ResponseCode](responsecode.md).
   
 ## <a name="see-also"></a>Voir aussi
 

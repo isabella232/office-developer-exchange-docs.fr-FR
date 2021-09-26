@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AddDelegateResponse
 api_type:
 - schema
 ms.assetid: d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429
-description: L’élément AddDelegateResponse contient l’État et le résultat d’une demande d’opération AddDelegate.
-ms.openlocfilehash: 1c38563ab38facf89fd5eab119542374949244c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AddDelegateResponse contient l’état et le résultat d’une demande d’opération AddDelegate.
+ms.openlocfilehash: 2e630d42b004f6c7ccaf7cc2240369dcf312068b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466457"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544390"
 ---
 # <a name="adddelegateresponse"></a>AddDelegateResponse
 
-L’élément **AddDelegateResponse** contient l’État et le résultat d’une demande d' [opération AddDelegate](adddelegate-operation.md) . 
+**L’élément AddDelegateResponse** contient l’état et le résultat d’une demande [d’opération AddDelegate.](adddelegate-operation.md) 
   
 ```xml
 <AddDelegateResponse>
@@ -46,10 +46,10 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contient les messages de réponse pour une demande de gestion des délégués des services Web Exchange.  <br/> |
+|[ResponseMessages (ArrayOfDelegateUserResponseMessageType)](responsemessages-arrayofdelegateuserresponsemessagetype.md) <br/> |Contient les messages de réponse pour une demande Exchange de gestion des délégués des services Web.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Fournit un code d’erreur qui identifie l’erreur spécifique rencontrée par la demande.  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et est réservé à une utilisation ultérieure. Il contient une valeur de 0.  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure. Il contient la valeur 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -58,7 +58,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -66,7 +66,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

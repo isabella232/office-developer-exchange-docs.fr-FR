@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AddDelegate
 api_type:
 - schema
 ms.assetid: 646fb994-229e-4d90-8b95-6541191cb3ae
 description: L’élément AddDelegate définit une demande d’ajout de délégués à une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: a08b83ad6e114c194073716c82228ea20ae1d3b7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 147cefc1680fadda4d698dd5f0fa62bdc01f87b1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544380"
 ---
 # <a name="adddelegate"></a>AddDelegate
 
-L’élément **AddDelegate** définit une demande d’ajout de délégués à une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément AddDelegate** définit une demande d’ajout de délégués à une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <AddDelegate>
@@ -44,8 +44,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegateUsers](delegateusers.md) <br/> |Contient les identités des délégués à ajouter à ou à mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
-|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Définit la manière dont les demandes de réunion sont gérées entre le délégué et le principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[DelegateUsers](delegateusers.md) <br/> |Contient les identités des délégués à ajouter ou à mettre à jour dans une boîte aux lettres. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Définit la façon dont les demandes de réunion sont gérées entre le délégué et le principal. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[Boîte aux lettres](mailbox.md) <br/> |Identifie un objet de service d'annuaire à extension messagerie Active Directory.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
@@ -62,7 +62,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

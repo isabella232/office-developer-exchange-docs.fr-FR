@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a762128-8d5f-4774-8627-49f1dc8ba30d
 description: L’élément UninstallApp spécifie une demande de désinstallation d’une application par son identificateur.
-ms.openlocfilehash: 822a3cb2c0242111c857e50e3c49379b8ed95fe6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7742fe0250329fd0e3b0c030b1d2f255bdbf8f44
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458858"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541832"
 ---
 # <a name="uninstallapp"></a>UninstallApp
 
-L’élément **UninstallApp** spécifie une demande de désinstallation d’une application par son identificateur. 
+**L’élément UninstallApp** spécifie une demande de désinstallation d’une application par son identificateur. 
   
 ```XML
 <UninstallApp>
@@ -36,7 +36,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[ID (chaîne)](id-string.md)
+[ID (String)](id-string.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

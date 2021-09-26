@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - And
 api_type:
 - schema
 ms.assetid: 790246c2-37ad-49a8-91b9-6186d743b011
-description: L’élément and représente une expression de recherche qui vous permet d’effectuer une opération booléenne et une opération entre deux ou plusieurs expressions de recherche. Le résultat de l’opération AND est true si toutes les expressions de recherche contenues dans l’élément and sont true.
-ms.openlocfilehash: f5239f19c2b5a931eefa9ff4a9dd8ed9d775bae2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément And représente une expression de recherche qui vous permet d’effectuer une opération Boolean AND entre deux ou plusieurs expressions de recherche. Le résultat de l’opération AND est true si toutes les expressions de recherche contenues dans l’élément And sont vraies.
+ms.openlocfilehash: b6cf8ffbb19ea3aff917493e6ae4e324025c6ac9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464720"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541531"
 ---
 # <a name="and"></a>And
 
-L’élément **and** représente une expression de recherche qui vous permet d’effectuer une opération booléenne **et** une opération entre deux ou plusieurs expressions de recherche. Le résultat de l’opération **and** est **true** si toutes les expressions de recherche contenues dans l’élément **and** sont **true**.
+**L’élément And** représente une expression de recherche qui vous permet d’effectuer une opération **Boolean AND** entre deux ou plusieurs expressions de recherche. Le résultat de **l’opération AND** est **true** si toutes les expressions de recherche contenues dans l’élément **And** sont **vraies.**
   
 ```xml
 <And>
@@ -43,16 +43,16 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | Représente la classe de base pour les expressions dans une restriction. Il doit y avoir au moins deux expressions de recherche dans une opération and.<br/><br/>  L’un des éléments suivants doit être substitué à l’élément **SearchExpression** :<ul><li> [Exists](exists.md)</li><li>[Exclut](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[Not](not.md)</li><li>**And**</li><li>[Or](or.md) </li></ul> |
+|[SearchExpression](searchexpression.md) <br/> | Représente la classe de base pour les expressions au sein d’une restriction. Il doit y avoir au moins deux expressions de recherche dans une opération And.<br/><br/>  L’un des éléments suivants doit être remplacé par **l’élément SearchExpression** :<ul><li> [Exists](exists.md)</li><li>[Excludes](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[Not](not.md)</li><li>**And**</li><li>[Or](or.md) </li></ul> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Restriction](restriction.md) <br/> |Représente la restriction ou la requête qui est utilisée pour filtrer des éléments ou des dossiers dans les opérations FindItem/FindFolder et Search Folder.  <br/> |
-|[Not](not.md) <br/> |Représente une expression de recherche qui nie la valeur booléenne de l’expression de recherche qu’elle contient.  <br/> |
-|**And** <br/> |Représente une expression de recherche qui vous permet d’effectuer une opération booléenne **et** une opération entre deux ou plusieurs expressions de recherche. Le résultat de l’opération **and** est **true** si toutes les expressions de recherche contenues dans l’élément **and** sont **true**.  <br/> |
-|[Or](or.md) <br/> |Représente une expression de recherche qui effectue une opération **or** logique sur l’expression de recherche qu’elle contient. **Ou** renverra **true** si l’un de ses enfants renvoie la **valeur true**. **Ou** il doit avoir au moins deux enfants.  <br/> |
+|[Restriction](restriction.md) <br/> |Représente la restriction ou la requête utilisée pour filtrer des éléments ou des dossiers dans les opérations FindItem/FindFolder et des dossiers de recherche.  <br/> |
+|[Not](not.md) <br/> |Représente une expression de recherche qui annule la valeur booléle de l’expression de recherche qu’elle contient.  <br/> |
+|**And** <br/> |Représente une expression de recherche qui vous permet d’effectuer une opération **BOOlean AND** entre deux ou plusieurs expressions de recherche. Le résultat de **l’opération AND** est **true** si toutes les expressions de recherche contenues dans l’élément **And** sont **vraies.**  <br/> |
+|[Or](or.md) <br/> |Représente une expression de recherche qui effectue une opération **LOGIQUE OR** sur l’expression de recherche qu’elle contient. **Ou** retournera **true si** l’un de ses enfants retourne **true**. **Ou** doit avoir au moins deux enfants.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

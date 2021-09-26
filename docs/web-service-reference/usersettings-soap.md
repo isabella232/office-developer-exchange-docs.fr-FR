@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: ac3b827c-2e46-49ef-8c5a-f88084c0a12c
 description: L’élément UserSettings représente une collection de paramètres utilisateur.
-ms.openlocfilehash: 0e1627d4ef42db4e3bd2f4d841bea29fcf947a82
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4542c4ee8f5dbdc3ed20873ebd60ab626aee4a81
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542602"
 ---
 # <a name="usersettings-soap"></a>UserSettings (SOAP)
 
-L’élément **UserSettings** représente une collection de paramètres utilisateur. 
+**L’élément UserSettings** représente une collection de paramètres utilisateur. 
   
 ```XML
 <UserSettings>
@@ -57,7 +57,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

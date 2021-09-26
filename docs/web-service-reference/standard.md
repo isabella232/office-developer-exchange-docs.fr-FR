@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Standard
 api_type:
 - schema
 ms.assetid: d598f0a6-e296-423f-8ce5-3da57cfd8189
-description: L’élément standard représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard.
-ms.openlocfilehash: 1214a1debb53c9a31ca7c92a0c9e5c0722960d75
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Standard représente la date et l’heure de passage de l’heure d’été à l’heure standard.
+ms.openlocfilehash: 8e44bc458f109975acd3d48c80726654b70373e8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467563"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544667"
 ---
 # <a name="standard"></a>Standard
 
-L’élément **standard** représente la date et l’heure auxquelles l’heure passe de l’heure d’été à l’heure standard. 
+**L’élément Standard** représente la date et l’heure de passage de l’heure d’été à l’heure standard. 
   
 ```xml
 <Standard TimeZoneName="">
@@ -55,10 +55,10 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Offset](offset.md) <br/> |Décrit le décalage par rapport à l' [BaseOffset](baseoffset.md). Avec l’élément **BaseOffset** , l’élément **offset** identifie s’il s’agit de l’heure standard ou de l’heure d’été.  <br/> |
-|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Décrit un modèle de périodicité annuelle relative pour une date de transition de fuseau horaire.  <br/> |
-|[AbsoluteDate](absolutedate.md) <br/> |Représente la date à laquelle le temps passe de l’heure standard ou de l’heure d’été.  <br/> |
-|[Heure (TimeChangeType)](time-timechangetype.md) <br/> |Décrit le moment où l’heure change entre l’heure standard et l’heure d’été.  <br/> |
+|[Offset](offset.md) <br/> |Décrit le décalage par rapport à [baseOffset](baseoffset.md). Avec **l’élément BaseOffset,** l’élément **Offset** identifie si l’heure est l’heure standard ou l’heure d’été.  <br/> |
+|[RelativeYearlyRecurrence](relativeyearlyrecurrence.md) <br/> |Décrit une récurrence relative de l’année pour une date de transition de fuseau horaire.  <br/> |
+|[AbsoluteDate](absolutedate.md) <br/> |Représente la date à laquelle l’heure change à partir de l’heure standard ou de l’heure d’été.  <br/> |
+|[Time (TimeChangeType)](time-timechangetype.md) <br/> |Décrit l’heure à quel moment l’heure change entre l’heure standard et l’heure d’été.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

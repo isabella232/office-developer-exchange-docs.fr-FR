@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ff4e97e-c64c-4742-88ca-7cbe39e597e1
-description: L’élément actions identifie un tableau d’actions à effectuer sur une extension client.
-ms.openlocfilehash: 1790907f40bd839ffa56ad7ae45c0cc7f3fa412d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Actions identifie un tableau d’actions à effectuer sur une extension de client.
+ms.openlocfilehash: c5f136c58af0b43ba26fbd8a70b97965fbe1e773
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465071"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544401"
 ---
 # <a name="actions-arrayofsetclientextensionactionstype"></a>Actions (ArrayOfSetClientExtensionActionsType)
 
-L’élément **actions** identifie un tableau d’actions à effectuer sur une extension client. 
+**L’élément Actions** identifie un tableau d’actions à effectuer sur une extension de client. 
   
 ```XML
 <Actions>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

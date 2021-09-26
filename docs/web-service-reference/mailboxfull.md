@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailboxFull
 api_type:
 - schema
 ms.assetid: 38b28c9b-9da2-4d6a-9cda-9c393986575b
-description: L’élément MailboxFull indique si la boîte aux lettres du destinataire est complète.
-ms.openlocfilehash: f336f1eda122bb170aafb22a028e3faf84f4d782
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxFull indique si la boîte aux lettres du destinataire est pleine.
+ms.openlocfilehash: 919f05a69f1436dbc37e27f12e32b5099bd09028
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544856"
 ---
 # <a name="mailboxfull"></a>MailboxFull
 
-L’élément **MailboxFull** indique si la boîte aux lettres du destinataire est complète. 
+**L’élément MailboxFull** indique si la boîte aux lettres du destinataire est pleine. 
   
 ```XML
 <MailboxFull>true | false</MailboxFull>
@@ -45,11 +45,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de courrier.  <br/> |
+|[Infos-courrier](mailtips.md) <br/> |Représente les valeurs de différents types de conseils de messagerie.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Cet élément peut avoir la **valeur true** ou **false**. La valeur **true** indique que la boîte aux lettres a atteint sa capacité ; la valeur **false** indique qu’elle n’a pas atteint la capacité. 
+Cet élément peut être **vrai** ou **faux**. La valeur **true indique** que la boîte aux lettres a atteint sa capacité ; une valeur false **indique** qu’elle n’a pas atteint sa capacité. 
   
 ## <a name="remarks"></a>Remarques
 

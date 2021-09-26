@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9264e74-eba7-4279-b193-af7e5130268d
-description: L’élément ApiVersionSupported contient la version de l’API JavaScript pour Office prise en charge par le client.
-ms.openlocfilehash: 0129a33624b48d309ad0814af6eaa655b2c4e6f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ApiVersionSupported contient la version de l’API JavaScript Office prise en charge par le client.
+ms.openlocfilehash: 4b3034e05e294564b73d99f706d325d7d75b4f88
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466058"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543714"
 ---
 # <a name="apiversionsupported"></a>ApiVersionSupported
 
-L’élément **ApiVersionSupported** contient la version de l’API JavaScript pour Office prise en charge par le client. 
+**L’élément ApiVersionSupported** contient la version de l’API JavaScript Office prise en charge par le client. 
   
 ```XML
 <ApiVersionSupported />
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ApiVersionSupported** contient la version de l’API JavaScript pour Office prise en charge par le client. Cette valeur indique les manifestes d’application qui doivent être renvoyés au client dans la réponse. 
+La valeur de texte de **l’élément ApiVersionSupported** contient la version de l’API JavaScript Office prise en charge par le client. Cette valeur indique les manifestes d’application qui doivent être renvoyés au client dans la réponse. 
   
 ## <a name="remarks"></a>Remarques
 

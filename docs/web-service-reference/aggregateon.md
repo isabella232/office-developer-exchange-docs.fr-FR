@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AggregateOn
 api_type:
 - schema
 ms.assetid: 9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb
 description: L’élément AggregateOn représente la propriété utilisée pour déterminer l’ordre des éléments groupés pour un jeu de résultats FindItem groupé.
-ms.openlocfilehash: 04359c187ef11538d64f8f0d3ea2fe84bc3d048b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4fa46837cc794bc6c4b23a6b5627d95509d60d70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463565"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541552"
 ---
 # <a name="aggregateon"></a>AggregateOn
 
-L’élément **AggregateOn** représente la propriété utilisée pour déterminer l’ordre des éléments groupés pour un jeu de résultats FindItem groupé. 
+**L’élément AggregateOn** représente la propriété utilisée pour déterminer l’ordre des éléments groupés pour un jeu de résultats FindItem groupé. 
   
 - [FindItem](finditem.md)  
 - [GroupBy](groupby.md)
@@ -55,13 +55,13 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Aggregate** <br/> | Indique la valeur maximale ou minimale de la propriété identifiée par l’élément [FieldURI](fielduri.md) utilisé pour classer les groupes d’éléments.<br/><br/>Les valeurs possibles sont les suivantes :  <br/><br/>-Minimum  <br/>-Maximum  <br/> |
+|**Aggregate** <br/> | Indique la valeur maximale ou minimale de la propriété identifiée par l’élément [FieldURI](fielduri.md) utilisé pour l’ordre des groupes d’éléments.<br/><br/>Les valeurs possibles sont les suivantes :  <br/><br/>- Minimum  <br/>- Maximum  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FieldURI](fielduri.md) <br/> |Identifie les propriétés référencées fréquemment par URI.  <br/> |
+|[FieldURI](fielduri.md) <br/> |Identifie les propriétés fréquemment référencés par URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifie les membres individuels d’un dictionnaire.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifie les propriétés MAPI étendues à obtenir, définir ou créer.  <br/> |
    
@@ -69,25 +69,25 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GroupBy](groupby.md) <br/> |Spécifie des groupes arbitraires pour les requêtes FindItem.  <br/> Voici l’expression XPath de cet élément :`/FindItem/GroupBy` <br/> |
+|[GroupBy](groupby.md) <br/> |Spécifie les regroupements arbitraires pour les requêtes FindItem.  <br/> Voici l’expression XPath de cet élément :  `/FindItem/GroupBy` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L' [opération FindItem](finditem-operation.md) peut renvoyer des résultats groupés. Dans les résultats groupés, tous les éléments qui ont la même valeur pour une propriété de regroupement donnée sont rassemblés et présentés en tant qu’enfants de ce groupe. Par exemple, si vous regroupez par l’expéditeur, tous les messages électroniques sont organisés en groupes distincts selon qu’ils proviennent de l’expéditeur A, de l’expéditeur B, et ainsi de suite. Ces groupes sont les enfants du groupe expéditeur. 
+[L’opération FindItem peut](finditem-operation.md) renvoyer des résultats groupés. Dans les résultats groupés, tous les éléments qui ont la même valeur pour une propriété de regroupement donnée sont regroupés et présentés en tant qu’enfants de ce groupe. Par exemple, si vous groupez par expéditeur, tous les messages électroniques sont organisés en groupes distincts selon qu’ils sont issus de l’expéditeur A, de l’expéditeur B, etc. Ces groupes sont des enfants du groupe d’expéditeurs. 
   
-Chacun des groupes au sein du groupe d’expéditeurs contient une collection d’éléments, tels que les messages électroniques réels provenant de chaque expéditeur. Vous pouvez utiliser l’élément [SortOrder](sortorder.md) pour trier les éléments au sein d’un groupe. Toutefois, pour trier les groupes en fonction des valeurs de propriété d’un élément, vous devez utiliser l’agrégation. 
+Chacun des groupes au sein du groupe d’expéditeurs contient une collection d’éléments, tels que les messages électroniques réels provenant de chaque expéditeur. Vous pouvez utiliser [l’élément SortOrder](sortorder.md) pour trier les éléments d’un groupe. Toutefois, pour trier les groupes en fonction des valeurs de propriété d’un élément, vous devez utiliser l’agrégation. 
   
-Avec l’agrégation, l’ordre des groupes est basé sur une propriété spécifique des éléments au sein du groupe. Lorsque vous utilisez l’agrégation pour trier des éléments au sein d’un groupe, vous devez identifier une propriété représentative permettant de trier les groupes. Vous pouvez utiliser l’élément **AggregateOn** pour spécifier la propriété Representative. 
+Avec l’agrégation, l’ordre des groupes est basé sur une propriété spécifique des éléments au sein du groupe. Lorsque vous utilisez l’agrégation pour trier des éléments au sein d’un groupe, vous devez identifier une propriété représentative par laquelle trier les groupes. Vous pouvez utiliser **l’élément AggregateOn** pour spécifier la propriété représentative. 
   
-Lorsqu’une propriété représentative est identifiée, l’attribut **Aggregate** est utilisé pour indiquer si les groupes sont triés en fonction de la valeur maximale ou minimale de la propriété identifiée. Si l’attribut **Aggregate** est défini sur maximum, les groupes sont triés en commençant par la plus grande valeur pour la propriété **AggregateOn** . Si l’attribut **Aggregate** a la valeur minimum, les groupes sont triés en commençant par la plus petite valeur pour la propriété **AggregateOn** . 
+Lorsqu’une propriété représentative est identifiée, l’attribut **Aggregate** est utilisé pour indiquer si les groupes sont triés en fonction de la valeur maximale ou minimale de la propriété identifiée. Si **l’attribut Aggregate** est définie sur Maximum, les groupes sont triés en commençant par la plus grande valeur de la **propriété AggregateOn.** Si **l’attribut Aggregate** est définie sur Minimum, les groupes sont triés en commençant par la plus petite valeur de la **propriété AggregateOn.** 
   
-Par exemple, si vous souhaitez émettre une requête groupée FindItem, un regroupement par expéditeur, mais vous souhaitez ordonner les groupes afin que le groupe dont le message électronique est le plus récent se trouve en premier, vous pouvez regrouper par expéditeur et agréger sur date/heure de réception avec un attribut d' **agrégat** de maximum. 
+Par exemple, si vous souhaitez émettre une requête groupée FindItem, regroupée par expéditeur, mais que vous souhaitez commander les groupes de sorte que le groupe avec le message électronique le plus récent soit en haut, vous pouvez regrouper par expéditeur et agréger la date/l’heure reçue avec l’attribut **Aggregate** de Maximum. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre une requête FindItem groupée et une réponse. L’exemple illustre une demande de renvoi d’éléments groupés par la propriété **ConversationTopic** . Deux groupes, A et B, sont renvoyés dans l’ordre décroissant en fonction de la valeur maximale de la propriété [DateTimeReceived](datetimereceived.md) . 
+L’exemple suivant montre une requête et une réponse FindItem groupées. L’exemple montre une demande de retour d’éléments regroupés par la **propriété ConversationTopic.** Deux groupes, A et B, sont renvoyés dans l’ordre décroit en fonction de la valeur maximale de la [propriété DateTimeReceived.](datetimereceived.md) 
   
 ```XML
 <!-- EXAMPLE REQUEST -->
@@ -187,10 +187,10 @@ L’exemple suivant montre une requête FindItem groupée et une réponse. L’e
 </soap:Envelope>
 ```
 
-Pour trier les éléments d’un groupe, utilisez l’élément [OrdreTri](sortorder.md) . 
+Pour trier les éléments d’un groupe, utilisez [l’élément SortOrder.](sortorder.md) 
   
 > [!NOTE]
-> Les identificateurs d’élément et les clés de modification ont été raccourcies afin de préserver la lisibilité. 
+> Les identificateurs d’élément et les touches de modification ont été raccourcis pour préserver la lisibilité. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

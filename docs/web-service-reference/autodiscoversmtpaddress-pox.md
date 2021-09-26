@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
-description: L’élément AutoDiscoverSMTPAddress contient l’adresse SMTP de l’utilisateur qui est utilisée pour le processus de découverte automatique.
-ms.openlocfilehash: cd40fac8b7ab4eaa9ea50e82d6fc8bdbd4c3c7b1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AutoDiscoverSMTPAddress contient l’adresse SMTP de l’utilisateur utilisée pour le processus de découverte automatique.
+ms.openlocfilehash: cb5871eee3cf61d388ad83b53df2bad733722d4e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463950"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543680"
 ---
 # <a name="autodiscoversmtpaddress-pox"></a>AutoDiscoverSMTPAddress (POX)
 
-L’élément **AutoDiscoverSMTPAddress** contient l’adresse SMTP de l’utilisateur qui est utilisée pour le processus de découverte automatique. 
+**L’élément AutoDiscoverSMTPAddress** contient l’adresse SMTP de l’utilisateur utilisée pour le processus de découverte automatique. 
   
-- [Découverte automatique (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-- [Réponse (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-- [Utilisateur (POX)](user-pox.md)
+- [User (POX)](user-pox.md)
   
 - [AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
   
@@ -46,17 +46,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Utilisateur (POX)](user-pox.md) <br/> |Fournit des informations spécifiques à l’utilisateur.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Fournit des informations spécifiques à l’utilisateur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente l’adresse SMTP de l’utilisateur qui est utilisée pour le processus de découverte automatique.
+La valeur de texte représente l’adresse SMTP de l’utilisateur utilisée pour le processus de découverte automatique.
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **AutoDiscoverSMTPAddress** est un élément enfant facultatif de l’élément **User** . 
+**L’élément AutoDiscoverSMTPAddress** est un élément enfant facultatif de **l’élément User.** 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

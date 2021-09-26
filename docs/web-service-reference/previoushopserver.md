@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PreviousHopServer
 api_type:
 - schema
 ms.assetid: 74456709-1250-4943-bae0-11a3db44a684
 description: L’élément PreviousHopServer représente le nom de serveur précédent qui a accepté le message.
-ms.openlocfilehash: f85896107c720179d76e0cbeb31588e17c1f3d95
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 229d4ef66aeb70b1b4f83bae58ae268d411c5a1c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44528878"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543036"
 ---
 # <a name="previoushopserver"></a>PreviousHopServer
 
-L’élément **PreviousHopServer** représente le nom de serveur précédent qui a accepté le message. 
+**L’élément PreviousHopServer** représente le nom de serveur précédent qui a accepté le message. 
   
 ```XML
 <PreviousHopServer/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique [pour un élément FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Title
 api_type:
 - schema
 ms.assetid: 089c2e7c-38d1-4245-8d97-646b6a720d10
-description: L’élément title représente le titre d’un contact.
-ms.openlocfilehash: a9948d7a9d48e8cdb03d676992cad342861bb211
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Title représente le titre d’un contact.
+ms.openlocfilehash: 9894b32379760b3c6364c84bfee8f11b1a649c80
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468753"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545775"
 ---
 # <a name="title"></a>Titre
 
-L’élément **title** représente le titre d’un contact. 
+**L’élément Title** représente le titre d’un contact. 
   
 ```xml
 <Title/>

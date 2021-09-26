@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Department
 api_type:
 - schema
 ms.assetid: 1a5bca89-0769-4497-8ca0-4e6b908f8eaa
-description: L’élément Department représente le service du contact.
-ms.openlocfilehash: b9057f3ebfcb989eec188a0eba22ebfc0ecc24bd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Department représente le service du contact au travail.
+ms.openlocfilehash: 3978a8ca36f8e7c98dd5d05c7d485e0a9c2e3888
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542399"
 ---
 # <a name="department"></a>Service
 
-L’élément **Department** représente le service du contact. 
+**L’élément Department** représente le service du contact au travail. 
   
 ```xml
 <Department/>

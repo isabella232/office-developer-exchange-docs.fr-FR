@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SubmittedTime
 api_type:
 - schema
 ms.assetid: 45c8fa36-c539-42ca-99dc-1ac33cc54afc
-description: L’élément SubmittedTime représente l’heure à laquelle le message est entré sur le serveur.
-ms.openlocfilehash: bf9495aa700d2887d199eccb38289e0ebd2e8636
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SubmittedTime représente l’heure à l’entrée du message sur le serveur.
+ms.openlocfilehash: 68df76b7ace8c8d665eff87c995a2b658be7e61c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545852"
 ---
 # <a name="submittedtime"></a>SubmittedTime
 
-L’élément **SubmittedTime** représente l’heure à laquelle le message est entré sur le serveur. 
+**L’élément SubmittedTime** représente l’heure à l’entrée du message sur le serveur. 
   
 ```XML
 <SubmittedTime/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique [pour un élément FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 

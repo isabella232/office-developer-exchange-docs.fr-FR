@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BaseOffset
 api_type:
 - schema
 ms.assetid: 0ffad7a6-8e1b-452b-9d87-8e0f6c77f0a6
 description: L’élément BaseOffset représente le décalage horaire par rapport au temps universel coordonné (UTC) pour le fuseau horaire actuel.
-ms.openlocfilehash: 1e29f123dfac2e29807e0a2077d47adb14844f4e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e12eab618a57d3340358174de2b6b9d7bf94135a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460259"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543673"
 ---
 # <a name="baseoffset"></a>BaseOffset
 
-L’élément **BaseOffset** représente le décalage horaire par rapport au temps universel coordonné (UTC) pour le fuseau horaire actuel. 
+**L’élément BaseOffset** représente le décalage horaire par rapport au temps universel coordonné (UTC) pour le fuseau horaire actuel. 
   
 ```xml
 <BaseOffset/>

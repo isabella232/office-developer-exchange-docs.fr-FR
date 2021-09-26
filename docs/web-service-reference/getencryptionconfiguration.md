@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: faf0cea7-cdec-431d-ba8d-f1492fd6ae94
-description: L’élément GetEncryptionConfiguration est destiné uniquement à un usage interne.
-ms.openlocfilehash: 682d24ac8b0702723f9413a63ce42e81f1cdba6e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetEncryptionConfiguration est destiné à un usage interne uniquement.
+ms.openlocfilehash: 671cd7ba9aebc7818995df0855ace3f6713dc869
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543288"
 ---
 # <a name="getencryptionconfiguration"></a>GetEncryptionConfiguration
 
-L’élément **GetEncryptionConfiguration** est destiné uniquement à un usage interne. 
+**L’élément GetEncryptionConfiguration est** destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

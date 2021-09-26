@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StatusEvent
 api_type:
 - schema
 ms.assetid: d3901818-2640-4bed-aad8-21a61aee62a1
-description: L’élément StatusEvent représente une notification indiquant qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres.
-ms.openlocfilehash: 8158a47937a810be2ea22346384b4e61da56ac48
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément StatusEvent représente une notification qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres.
+ms.openlocfilehash: 777d5cd22e47fea6e7bf7432e58e5d58d1ef67a4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468256"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543974"
 ---
 # <a name="statusevent"></a>StatusEvent
 
-L’élément **StatusEvent** représente une notification indiquant qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres. 
+**L’élément StatusEvent** représente une notification qu’aucune nouvelle activité n’a eu lieu dans la boîte aux lettres. 
   
 ```xml
 <StatusEvent>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Watermark](watermark.md) <br/> |Représente le dernier filigrane valide d’un abonnement.  <br/> |
+|[Watermark](watermark.md) <br/> |Représente le dernier filigrane valide pour un abonnement.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -52,15 +52,15 @@ Aucune.
    
 ## <a name="remarks"></a>Remarques
 
-L’élément **StatusEvent** est renvoyé dans une notification pour l’une des raisons suivantes : 
+**L’élément StatusEvent** est renvoyé dans une notification pour l’une des raisons suivantes : 
   
-- Un client de réception émet une demande GetEvents sur un abonnement qui n’a aucune activité.
+- Un client pull émettra une demande GetEvents sur un abonnement qui n’a aucune activité.
     
-- Un client poussé n’a pas d’événements dans la file d’attente lorsque le [StatusFrequency](statusfrequency.md) est atteint. 
+- Un client Push n’a aucun événement dans la file d’attente lorsque [statusFrequency](statusfrequency.md) a été atteint. 
     
-Le **StatusEvent**[filigrane](watermark.md) StatusEvent est utilisé par une application cliente de la même manière que les autres filigranes de type d’événement. Toutefois, le filigrane de l' **StatusEvent** n’est pas le même que les filigranes utilisés pour d’autres événements. Par exemple, un abonnement comporte des événements avec les filigranes 1, 2 et 3 et ces événements ont été correctement communiqués dans une notification. Une période d’inactivité se produit et une demande **GetEvents** est envoyée. Le serveur d’accès au client (CAS) renvoie un événement d’État et inclut le dernier filigrane, 3, à la fois [PreviousWatermark](previouswatermark.md) et le [filigrane](watermark.md)actuel.
+Le **filigrane StatusEvent**[est](watermark.md) utilisé par une application cliente de la même manière que les autres filigranes de type d’événement. Toutefois, le filigrane de **StatusEvent** n’est pas identique aux filigranes utilisés pour d’autres événements. Par exemple, un abonnement a des événements avec des filigranes 1, 2 et 3 et ces événements ont été correctement communiqué dans une notification. Une période d’inactivité se produit et une **demande GetEvents** est envoyée. Le serveur d’accès au client (CAS) renvoie un événement d’état et inclut le dernier filigrane, 3, en tant que [PreviousMark](previouswatermark.md) et [le filigrane actuel.](watermark.md)
   
-Le filigrane ne reste pas le même dans tous les cas. Les entrées d’événement sont conservées pendant 30 jours. Pour maintenir un abonnement actif, le CAS met régulièrement à jour les filigranes pour les files d’attente des abonnements. Les filigranes mis à jour sont envoyés aux clients pour maintenir un abonnement actif.
+Le filigrane ne restera pas le même dans tous les cas. Les entrées d’événement sont conservées pendant 30 jours. Pour conserver un abonnement actif, le CAS met régulièrement à jour les filigranes des files d’attente d’abonnement. Les filigranes mis à jour sont envoyés aux clients pour conserver un abonnement actif.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

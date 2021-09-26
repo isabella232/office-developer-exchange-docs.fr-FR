@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DistinguishedUser
 api_type:
 - schema
 ms.assetid: 9362699d-666a-4acf-8fa1-c6669f0a2ae5
-description: L’élément DistinguishedUser identifie les comptes d’utilisateur anonymes et par défaut pour l’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 922c36251290d7090cdafbed9e570144593ca97e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DistinguishedUser identifie les comptes d’utilisateur anonyme et par défaut pour l’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: ce59b5775f6f0516c469c7ee8bc4546780ce86d0
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544240"
 ---
 # <a name="distinguisheduser"></a>DistinguishedUser
 
-L’élément **DistinguishedUser** identifie les comptes d’utilisateur anonymes et par défaut pour l’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément DistinguishedUser** identifie les comptes d’utilisateur anonyme et par défaut pour l’accès délégué. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <DistinguishedUser>Default or Anonymous</DistinguishedUser>
@@ -44,11 +44,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose des autorisations d’accès au dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[UserId](userid.md) <br/> |Identifie un utilisateur délégué ou un utilisateur qui dispose d’autorisations d’accès aux dossiers. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **par défaut** décrit le paramètre par défaut pour les utilisateurs délégués ajoutés à la boîte aux lettres du principal. Une valeur de texte **anonyme** décrit les paramètres d’accès délégué dont disposent les utilisateurs anonymes sur la boîte aux lettres de l’entité. 
+La valeur de texte **Par** défaut décrit le paramètre par défaut pour les utilisateurs délégués qui sont ajoutés à la boîte aux lettres du principal. La valeur texte **Anonyme** décrit les paramètres d’accès délégué dont les utilisateurs anonymes ont sur la boîte aux lettres du principal. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
 description: L’élément ExportAllowed spécifie si l’exportation est activée.
-ms.openlocfilehash: f5a9aa3040c45d535ef338010bb37bcedb797ffc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5f7193fa8065124281b96b329105bbc6a0933e58
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460630"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545145"
 ---
 # <a name="exportallowed"></a>ExportAllowed
 
-L’élément **ExportAllowed** spécifie si l’exportation est activée. 
+**L’élément ExportAllowed** spécifie si l’exportation est activée. 
   
 ```XML
 <ExportAllowed>true | false</ExportAllowed>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie les informations relatives à la licence de gestion des droits.  <br/> |
+|[RightsManagementLicenseData](rightsmanagementlicensedata.md) <br/> |Spécifie des informations sur la licence de gestion des droits.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **ExportAllowed** indique que l’exportation est autorisée. La valeur **false** indique que l’exportation n’est pas autorisée. 
+Une valeur de texte **true pour** **l’élément ExportAllowed** indique que l’exportation est autorisée. La valeur **false indique** que l’exportation n’est pas autorisée. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

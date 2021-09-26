@@ -1,27 +1,27 @@
 ---
-title: Composé
+title: Bitmask
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Bitmask
 api_type:
 - schema
 ms.assetid: fc7eeac2-555f-4cbc-8b48-26d9ed67748a
-description: L’élément masque binaire représente un masque hexadécimal ou décimal à utiliser pendant une opération de restriction exclusions.
-ms.openlocfilehash: f05be466d05b13f8f362afb5fc0552653a532475
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Bitmask représente un masque hexadécimal ou décimal à utiliser lors d’une opération de restriction Excludes.
+ms.openlocfilehash: 83307fc7f5ba328c5d6f7574a8b3be1ea25595f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543589"
 ---
-# <a name="bitmask"></a>Composé
+# <a name="bitmask"></a>Bitmask
 
-L’élément **masque binaire** représente un masque hexadécimal ou décimal à utiliser pendant une opération de restriction [exclusions](excludes.md) . 
+**L’élément Bitmask** représente un masque hexadécimal ou décimal à utiliser lors d’une opération de restriction [Excludes.](excludes.md) 
   
 ```xml
 <Bitmask Value="" />
@@ -37,7 +37,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Valeur** | Représente un masque de réfixe décimal ou hexadécimal. La valeur est représentée par l’expression régulière suivante :<br/>`((0x|0X)[0-9A-Fa-f]*)|([0-9]*)`.<br/><br/>Voici des exemples de valeurs hexadécimales pour cet attribut :<br/>- 0x12AF<br/>- 0X334AE<br/><br/>Voici des exemples de valeurs décimales pour cet attribut :<br/>-10<br/>-255<br/>-4562 |
+|**Valeur** | Représente un masque de bits décimal ou hexadécimal. La valeur est représentée par l’expression régulière suivante :<br/>`((0x|0X)[0-9A-Fa-f]*)|([0-9]*)`.<br/><br/>Voici des exemples de valeurs hexadécimales pour cet attribut :<br/>- 0x12AF<br/>- 0X334AE<br/><br/>Voici des exemples de valeurs décimales pour cet attribut :<br/>- 10<br/>- 255<br/>- 4562 |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -47,11 +47,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Exclut](excludes.md) <br/> |Effectue un masque de bits des propriétés.  <br/> |
+|[Excludes](excludes.md) <br/> |Effectue un masque de propriétés au sens du bit.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs hexadécimales doivent avoir un préfixe 0x ou 0X. Si ce préfixe n’existe pas, la valeur est supposée être un nombre décimal.
+Les valeurs hexadécimales doivent avoir un préfixe de 0x ou 0X. Si ce préfixe n’existe pas, la valeur est supposée être un nombre décimal.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

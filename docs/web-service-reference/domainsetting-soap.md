@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bad5399c-0762-4979-9c15-58cf4b7b6278
-description: L’élément DomainSetting contient les paramètres de domaine qui sont renvoyés par la demande d’opération SOAP (GetDomainSettings Operation).
-ms.openlocfilehash: 54441dd7cfcf7372807a1e6bfd8ea5d26805bffc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DomainSetting contient les paramètres de domaine renvoyés par la demande d’opération SOAP (GetDomainSettings operation).
+ms.openlocfilehash: 19c88e6f3f517d012a5c51f548da3d3776770444
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541447"
 ---
 # <a name="domainsetting-soap"></a>DomainSetting (SOAP)
 
-L’élément **DomainSetting** contient les paramètres de domaine qui sont renvoyés par la demande d’opération [SOAP (GetDomainSettings Operation)](getdomainsettings-operation-soap.md) . 
+**L’élément DomainSetting** contient les paramètres de domaine renvoyés par la demande d’opération [SOAP (GetDomainSettings](getdomainsettings-operation-soap.md) operation). 
   
 ```XML
 <DomainSetting>
@@ -39,7 +39,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Nom (SOAP)](name-soap.md) <br/> |Représente le nom d’un paramètre.  <br/> |
+|[Name (SOAP)](name-soap.md) <br/> |Représente le nom d’un paramètre.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,7 +57,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -1,27 +1,27 @@
 ---
-title: État (MemberStatusType)
+title: Status (MemberStatusType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Status
 api_type:
 - schema
 ms.assetid: 4f8a860b-0a48-4a0d-9a7a-69a0304aa747
-description: L’élément Status fournit des informations sur l’état d’un membre de la liste de distribution sur le serveur.
-ms.openlocfilehash: bfa0c349d6af51c1b2238c9749d2656541d31906
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Status fournit des informations sur l’état d’un membre de liste de distribution sur le serveur.
+ms.openlocfilehash: 0142ac1fa88c4cc4e513f23bbfad2869e7df32e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544597"
 ---
-# <a name="status-memberstatustype"></a>État (MemberStatusType)
+# <a name="status-memberstatustype"></a>Status (MemberStatusType)
 
-L’élément **Status** fournit des informations sur l’état d’un membre de la liste de distribution sur le serveur. 
+**L’élément Status** fournit des informations sur l’état d’un membre de liste de distribution sur le serveur. 
   
 ```
 <Status>Unrecognized or Normal or Demoted</Status>
@@ -48,19 +48,19 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **Status** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément Status.** 
   
-**Valeurs de l’élément Status**
+**Valeurs des éléments d’état**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
 |Non reconnu  <br/> |Les informations de membre ne sont pas valides ou ne sont pas reconnues.  <br/> |
-|Normal  <br/> |Les informations sur les membres d’une liste de distribution sont synchronisées avec l’objet référencé.  <br/> |
+|Normal  <br/> |Les informations de membre d’une liste de distribution sont synchronisées avec l’objet référencé.  <br/> |
 |Rétrogradé  <br/> |L’objet référencé n’est pas disponible.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

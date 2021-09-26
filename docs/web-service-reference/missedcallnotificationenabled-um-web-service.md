@@ -1,30 +1,30 @@
 ---
-title: MissedCallNotificationEnabled (service Web de messagerie unifiée)
+title: MissedCallNotificationEnabled (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MissedCallNotificationEnabled
 api_type:
 - schema
 ms.assetid: 8e6bf0b1-ff76-474c-ac0f-621b6ab89212
-description: L’élément MissedCallNotificationEnabled contient une valeur qui indique si une notification d’appel manqué est activée dans une réponse à une opération GetUMProperties (service Web de messagerie unifiée).
-ms.openlocfilehash: e2f18027c56be1408c27d5f687fe90f8ffd724db
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MissedCallNotificationEnabled contient une valeur qui indique si une notification d’appel en manqué est activée en réponse à une demande d’opération GetUMProperties (service web de um).
+ms.openlocfilehash: 0566312db672b3795e5f163a35e4c31ae6b26af4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468655"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542042"
 ---
-# <a name="missedcallnotificationenabled-um-web-service"></a>MissedCallNotificationEnabled (service Web de messagerie unifiée)
+# <a name="missedcallnotificationenabled-um-web-service"></a>MissedCallNotificationEnabled (service web de messagerie unifiée)
 
-L’élément **MissedCallNotificationEnabled** contient une valeur qui indique si une notification d’appel manqué est activée dans une réponse à une [opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) . 
+**L’élément MissedCallNotificationEnabled** contient une valeur qui indique si une notification d’appel en manqué est activée en réponse à une demande d’opération [GetUMProperties (service web](getumproperties-operation-um-web-service.md) de um). 
   
-[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
   
-[MissedCallNotificationEnabled (service Web de messagerie unifiée)](missedcallnotificationenabled-um-web-service.md)
+[MissedCallNotificationEnabled (service web de messagerie unifiée)](missedcallnotificationenabled-um-web-service.md)
   
 ```xml
 <MissedCallNotificationEnabled/>
@@ -47,11 +47,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md) <br/> |Définit une réponse à une [opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) .  <br/> |
+|[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md) <br/> |Définit une réponse à une [demande d’opération GetUMProperties (service web de um).](getumproperties-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivantes :
+Une valeur de texte boolén est requise. Les valeurs possibles sont les suivantes :
   
 - Vrai
     
@@ -63,14 +63,14 @@ Une valeur de texte Boolean est requise. Les valeurs possibles sont les suivante
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
+[Opération GetUMProperties (service web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
   
-[Opération SetMissedCallNotificationEnabled (service Web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md)
+[Opération SetMissedCallNotificationEnabled (service web de messagerie unifiée)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

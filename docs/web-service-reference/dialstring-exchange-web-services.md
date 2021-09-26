@@ -1,27 +1,27 @@
 ---
-title: DialString (services Web Exchange)
+title: DialString (Exchange Web Services)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DialString
 api_type:
 - schema
 ms.assetid: 077501f6-b3a8-4799-8c37-09e77af49ddb
-description: L’élément DialString représente la chaîne de numérotation du numéro de téléphone qui est appelé pour lire un élément par téléphone. Cet élément est obligatoire.
-ms.openlocfilehash: c944c9f6b99f7f8d45f7e08442a7dfb55a5fe9f3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DialString représente la chaîne de numéro de téléphone appelée pour lire un élément par téléphone. Cet élément est obligatoire.
+ms.openlocfilehash: b0d8855049748cdf76711a71c4863def16903860
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458746"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542371"
 ---
-# <a name="dialstring-exchange-web-services"></a>DialString (services Web Exchange)
+# <a name="dialstring-exchange-web-services"></a>DialString (Exchange Web Services)
 
-L’élément **DialString** représente la chaîne de numérotation du numéro de téléphone qui est appelé pour lire un élément par téléphone. Cet élément est obligatoire. 
+**L’élément DialString** représente la chaîne de numéro de téléphone appelée pour lire un élément par téléphone. Cet élément est obligatoire. 
   
 ```xml
 <DialString/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[PlayOnPhone (services Web Exchange)](playonphone-exchange-web-services.md) <br/> |Représente une demande de lecture d’un élément sur un téléphone.  <br/> |
+|[PlayOnPhone (Exchange Web Services)](playonphone-exchange-web-services.md) <br/> |Représente une demande de lecture d’un élément sur un téléphone.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

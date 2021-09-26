@@ -1,23 +1,23 @@
 ---
-title: DisplayName
+title: DisplayNames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dedd43c8-c1d6-4671-89c5-ce7ab3979fda
-description: L’élément DisplayNames spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 7d0c528b5b7f9adae271a42380550115fbcf94d0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DisplayNames spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: 7117fa30add835c204a03159123daf9118dc564b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542343"
 ---
-# <a name="displaynames"></a>DisplayName
+# <a name="displaynames"></a>DisplayNames
 
-L’élément **DisplayNames** spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément DisplayNames** spécifie un tableau de noms d’affichage et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```xml
 <DisplayNames>
@@ -38,13 +38,13 @@ Aucun
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément Persona.  <br/> |
+|[StringAttributedValue](stringattributedvalue.md) <br/> |Spécifie une instance dans un tableau d’attributs associés à un élément persona.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

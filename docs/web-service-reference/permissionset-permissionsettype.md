@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PermissionSet
 api_type:
 - schema
 ms.assetid: 6ac1bd17-a089-46bb-b9e6-f5b1dfe1076d
 description: L’élément PermissionSet contient toutes les autorisations configurées pour un dossier.
-ms.openlocfilehash: 5639ee8ba64742f39c0274f4e3aaa76d75bea42b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: b18fef33d3be6cb8c525f731a264860c3a83afdc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543141"
 ---
 # <a name="permissionset-permissionsettype"></a>PermissionSet (PermissionSetType)
 
-L’élément **PermissionSet** contient toutes les autorisations configurées pour un dossier. 
+**L’élément PermissionSet** contient toutes les autorisations configurées pour un dossier. 
   
 ```XML
 <PermissionSet>
@@ -50,10 +50,10 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Folder](folder.md) <br/> |Définit un dossier à créer, obtenir, Rechercher, synchroniser ou mettre à jour.  <br/> |
+|[Folder](folder.md) <br/> |Définit un dossier à créer, obtenir, rechercher, synchroniser ou mettre à jour.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Représente un dossier de recherche contenu dans une boîte aux lettres.  <br/> |
 |[ContactsFolder](contactsfolder.md) <br/> |Représente un dossier de contacts contenu dans une boîte aux lettres.  <br/> |
-|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier tâches contenu dans une boîte aux lettres.  <br/> |
+|[TasksFolder](tasksfolder.md) <br/> |Représente un dossier de tâches contenu dans une boîte aux lettres.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -63,7 +63,7 @@ Cet élément a été introduit dans Exchange Server 2007 Service Pack 1 (SP1).
   
 ### <a name="version-differences"></a>Différences entre les versions
 
-Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre d’Office 365 ou une version locale d’Exchange à partir d’Exchange 2013, les autorisations de dossiers ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a une valeur de **AllProperties** dans la demande d’opération [GetFolder](getfolder-operation.md) . Pour récupérer les autorisations de dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément [AdditionalProperties](additionalproperties.md) dans la demande **GetFolder** . 
+Pour les applications qui ciblent Exchange Online, Exchange Online dans le cadre de Office 365 ou une version sur site de Exchange à partir de Exchange 2013, les autorisations de dossier ne sont pas renvoyées lorsque l’élément [BaseShape](baseshape.md) a la valeur **AllProperties** dans [GetFolder](getfolder-operation.md) demande d’opération. Pour récupérer les autorisations de dossier, ajoutez l’élément [PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) à l’élément [AdditionalProperties](additionalproperties.md) dans la **demande GetFolder.** 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

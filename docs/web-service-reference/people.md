@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65312428-548c-4fe9-971a-d0dab3be5ddf
-description: L’élément People spécifie un tableau de données Persona renvoyées comme résultat d’une demande FindPeople.
-ms.openlocfilehash: b3920ca5cdf1d219c5fe119caeaaaf4965c39794
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément People spécifie un tableau de données de personnage renvoyée à la suite d’une demande FindPeople.
+ms.openlocfilehash: 35af1da4e72829004ec054b27a5304012ebb996c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467185"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543148"
 ---
 # <a name="people"></a>Personnes
 
-L’élément **People** spécifie un tableau de données Persona renvoyées comme résultat d’une demande **FindPeople** . 
+**L’élément People** spécifie un tableau de données de personnage renvoyée à la suite d’une **demande FindPeople.** 
   
 ```XML
 <People>
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

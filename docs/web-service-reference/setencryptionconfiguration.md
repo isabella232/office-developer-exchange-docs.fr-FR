@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8beccc00-3515-4ecd-85f0-c0f2b03e8f7d
-description: L’élément SetEncryptionConfiguration est destiné uniquement à un usage interne.
-ms.openlocfilehash: a4f0d2118fbefb5ed345a96b4760e5eb152a604e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetEncryptionConfiguration est destiné à un usage interne uniquement.
+ms.openlocfilehash: 9edb92e4bdabf895b67d1510f2dd77d99f89395c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459019"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541846"
 ---
 # <a name="setencryptionconfiguration"></a>SetEncryptionConfiguration
 
-L’élément **SetEncryptionConfiguration** est destiné uniquement à un usage interne. 
+**L’élément SetEncryptionConfiguration est** destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

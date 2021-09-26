@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f271894-01cb-4ee3-ba2f-6464e19518ac
 description: L’élément GetConversationItemsResponse définit une réponse à une demande GetConversationItems.
-ms.openlocfilehash: 8c1663ef757148ecb6ebda059412b4fbdc503d07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: cd5a4985e10adb2e5c593aebb5cf8c3b49389492
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546328"
 ---
 # <a name="getconversationitemsresponse"></a>GetConversationItemsResponse
 
-L’élément **GetConversationItemsResponse** définit une réponse à une demande **GetConversationItems** . 
+**L’élément GetConversationItemsResponse** définit une réponse à une **demande GetConversationItems.** 
   
 ```XML
 <GetConversationItemsResponse>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

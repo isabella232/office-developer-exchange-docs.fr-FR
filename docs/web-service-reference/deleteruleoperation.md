@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteRuleOperation
 api_type:
 - schema
 ms.assetid: c5e251af-f795-43cc-baaf-95d84475677c
 description: L’élément DeleteRuleOperation contient une opération de suppression d’une règle de boîte de réception existante.
-ms.openlocfilehash: 6b17f7f99f1fd9b9889db00fdf55fba5eef5aba8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 089b888f57b5d8048db0dfb0193d7f4c0804e81e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542441"
 ---
 # <a name="deleteruleoperation"></a>DeleteRuleOperation
 
-L’élément **DeleteRuleOperation** contient une opération de suppression d’une règle de boîte de réception existante. 
+**L’élément DeleteRuleOperation** contient une opération de suppression d’une règle de boîte de réception existante. 
   
 - [UpdateInboxRules](updateinboxrules.md)
 - [Operations](operations.md)

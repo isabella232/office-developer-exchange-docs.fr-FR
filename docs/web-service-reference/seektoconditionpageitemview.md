@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
-description: L’élément SeekToConditionPageItemView identifie la condition qui est utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, les entrées maximales à renvoyer et les instructions de recherche pour une recherche FindItem ou FindConversation.
-ms.openlocfilehash: dbb073263740ccdf75367f85f672b7d5ec78f7a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SeekToConditionPageItemView identifie la condition utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, le nombre maximal d’entrées à renvoyer et les instructions de recherche pour une recherche FindItem ou FindConversation.
+ms.openlocfilehash: 6f4797a6b90456a50922db1c829757711816273e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546104"
 ---
 # <a name="seektoconditionpageitemview"></a>SeekToConditionPageItemView
 
-L’élément **SeekToConditionPageItemView** identifie la condition qui est utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, les entrées maximales à renvoyer et les instructions de recherche pour une recherche **FindItem** ou **FindConversation** . 
+L’élément **SeekToConditionPageItemView** identifie la condition utilisée pour identifier la fin d’une recherche, l’index de départ d’une recherche, le nombre maximal d’entrées à renvoyer et les instructions de recherche pour une recherche **FindItem** ou **FindConversation.** 
   
 ```XML
 <SeekToConditionPageItemView BasePoint="" MaxEntriesReturned="">
@@ -34,8 +34,8 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|BasePoint  <br/> |La valeur de texte de l’attribut **BasePoint** est le point de base de l’emplacement de démarrage de la recherche. Une valeur de **départ** indique que la recherche commence au début du jeu de résultats. Une valeur de **fin** indique que la recherche commence à la fin du jeu de résultats.  <br/> |
-|MaxEntriesReturned  <br/> |La valeur de texte de l’attribut **MaxEntriesReturned** est le nombre maximal d’éléments qui peuvent être renvoyés dans un jeu de résultats.  <br/> |
+|BasePoint  <br/> |La valeur de texte de **l’attribut BasePoint** est le point de base à partir de laquelle la recherche va commencer. Une valeur de texte **de Début** indique que la recherche commence au début du jeu de résultats. Une valeur de texte **End** indique que la recherche démarrera à la fin du jeu de résultats.  <br/> |
+|MaxEntriesReturned  <br/> |La valeur de texte de **l’attribut MaxEntriesReturned** est le nombre maximal d’éléments qui peuvent être renvoyés dans un jeu de résultats.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

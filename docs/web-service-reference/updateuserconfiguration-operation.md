@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateUserConfiguration
 api_type:
 - schema
 ms.assetid: eda73b62-6a3a-43ae-8fd9-f30892811f27
 description: L’opération UpdateUserConfiguration met à jour un objet de configuration utilisateur sur un dossier.
-ms.openlocfilehash: 95fe6518fa30104463ec7f0aec8f786183eb513b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 18caad56d3add618c4f426af824e61ce54c15bc7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468543"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541699"
 ---
 # <a name="updateuserconfiguration-operation"></a>Opération UpdateUserConfiguration
 
-L’opération **UpdateUserConfiguration** met à jour un objet de configuration utilisateur sur un dossier. 
+**L’opération UpdateUserConfiguration** met à jour un objet de configuration utilisateur sur un dossier. 
   
 ## <a name="updateuserconfiguration-request-example"></a>Exemple de requête UpdateUserConfiguration
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **UpdateUserConfiguration** suivant montre comment créer une demande de mise à jour d’un objet de configuration utilisateur dans le dossier Brouillons. 
+L’exemple suivant d’une **demande UpdateUserConfiguration** montre comment former une demande de mise à jour d’un objet de configuration utilisateur dans le dossier Brouillons. 
   
 ### <a name="code"></a>Code
 
@@ -69,7 +69,7 @@ L’exemple de requête **UpdateUserConfiguration** suivant montre comment crée
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **UpdateUserConfiguration** . 
+L’exemple suivant montre une réponse réussie à la **demande UpdateUserConfiguration.** 
   
 ### <a name="code"></a>Code
 

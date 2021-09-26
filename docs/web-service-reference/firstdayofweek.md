@@ -1,27 +1,27 @@
 ---
-title: Premierjoursem
+title: FirstDayOfWeek
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FirstDayOfWeek
 api_type:
 - schema
 ms.assetid: d6cf1bd3-a19b-4d5f-9e25-8e337a4939e0
 description: L’élément FirstDayOfWeek spécifie le premier jour de la semaine.
-ms.openlocfilehash: 1b4aee8e1ce2548cd6b0047623b0bcda47ad316b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1b983cfc27d0e818a0487625b9af8c9e6b0afd93
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545089"
 ---
-# <a name="firstdayofweek"></a>Premierjoursem
+# <a name="firstdayofweek"></a>FirstDayOfWeek
 
-L’élément **FirstDayOfWeek** spécifie le premier jour de la semaine. 
+**L’élément FirstDayOfWeek** spécifie le premier jour de la semaine. 
   
 ```XML
 <FirstDayOfWeek> Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday</FirstDayOfWeek>
@@ -44,13 +44,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Décrit une périodicité hebdomadaire.  <br/> |
+|[WeeklyRecurrence](weeklyrecurrence.md) <br/> |Décrit une récurrence hebdomadaire.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **FirstDayOfWeek** indique le jour de la semaine utilisé comme premier jour de la semaine. Les valeurs possibles sont les suivantes : 
+La valeur de texte de **l’élément FirstDayOfWeek** indique quel jour de la semaine est utilisé comme premier jour de la semaine. Les valeurs de texte possibles sont les suivantes : 
   
-- Warm
+- Dimanche
     
 - Lundi
     

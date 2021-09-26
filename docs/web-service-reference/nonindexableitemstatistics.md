@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12f2934a-008c-4236-b8b3-7c7b6b5707e2
 description: L’élément NonIndexableItemStatistics contient un tableau de statistiques pour les éléments qui n’ont pas pu être indexés.
-ms.openlocfilehash: 5a11bd4d7ef0c574f26580613063a885530176f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 29551d5f7f9b4cbdd54a1ee26920eff4fcb11f25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541965"
 ---
 # <a name="nonindexableitemstatistics"></a>NonIndexableItemStatistics
 
-L’élément **NonIndexableItemStatistics** contient un tableau de statistiques pour les éléments qui n’ont pas pu être indexés. 
+**L’élément NonIndexableItemStatistics** contient un tableau de statistiques pour les éléments qui n’ont pas pu être indexés. 
   
 ```XML
 <NonIndexableItemStatistics>
@@ -54,7 +54,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

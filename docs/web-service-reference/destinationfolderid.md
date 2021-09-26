@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DestinationFolderId
 api_type:
 - schema
 ms.assetid: 77d2d222-320b-4aab-88e4-934ef177f55c
 description: L’élément DestinationFolderId indique le dossier de destination pour les actions de copie et de déplacement.
-ms.openlocfilehash: dbfd25084dbd4ea9d5f4ddf98b256d02e71139d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: abdb91dd8b9b005d0721f4dcf38766c280effe97
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542385"
 ---
 # <a name="destinationfolderid"></a>DestinationFolderId
 
-L’élément **DestinationFolderId** indique le dossier de destination pour les actions de copie et de déplacement. 
+**L’élément DestinationFolderId** indique le dossier de destination pour les actions de copie et de déplacement. 
   
 - [ApplyConversationAction](applyconversationaction.md)  
 - [ConversationActions](conversationactions.md) 
@@ -61,7 +61,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 

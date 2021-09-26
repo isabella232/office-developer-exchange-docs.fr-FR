@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ead22eab-f1e7-48b4-a165-db0e49fe86a8
 description: L’élément AddressEntity spécifie une entité d’adresse unique.
-ms.openlocfilehash: c597557fe02a9c0ff7ed3c9862e1662cfbae596a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 35fc5012e648494d2a1c0ddaf5a137164d33a842
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466905"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543750"
 ---
 # <a name="addressentity"></a>AddressEntity
 
-L’élément **AddressEntity** spécifie une entité d’adresse unique. 
+**L’élément AddressEntity** spécifie une entité d’adresse unique. 
   
 ```XML
 <AddressEntity>
@@ -39,14 +39,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Address (chaîne)](address-string.md) <br/> |Spécifie une adresse.  <br/> |
-|[Position](position.md) <br/> |Indique la position dans un message électronique.  <br/> |
+|[Address (String)](address-string.md) <br/> |Spécifie une adresse.  <br/> |
+|[Position](position.md) <br/> |Spécifie la position dans un message électronique.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Adresses (ArrayOfAddressEntitiesType)](addresses-arrayofaddressentitiestype.md) <br/> |Spécifie un tableau d’éléments **AddressEntity** .  <br/> |
+|[Addresses (ArrayOfAddressEntitiesType)](addresses-arrayofaddressentitiestype.md) <br/> |Spécifie un tableau d’éléments **AddressEntity.**  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: abb175c5-4f38-4dcc-81e3-b511686862eb
-description: L’élément UserSettingError représente une erreur qui est renvoyée suite à une tentative d’obtention d’un paramètre utilisateur.
-ms.openlocfilehash: 61603038ce93780f690d72226b1356b239d2002d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UserSettingError représente une erreur renvoyée suite à une tentative d’obtenir un paramètre utilisateur.
+ms.openlocfilehash: 6ae3bd62e886df0b8641daa1aeb94fa7a10a7851
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468606"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542609"
 ---
 # <a name="usersettingerror-soap"></a>UserSettingError (SOAP)
 
-L’élément **UserSettingError** représente une erreur qui est renvoyée suite à une tentative d’obtention d’un paramètre utilisateur. 
+**L’élément UserSettingError** représente une erreur renvoyée suite à une tentative d’obtenir un paramètre utilisateur. 
   
 ```XML
 <UserSettingError>
@@ -42,8 +42,8 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Représente un code d’erreur renvoyé par le service de découverte automatique.  <br/> |
-|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Représenté par un message associé à un code d’erreur renvoyé par le service de découverte automatique.  <br/> |
-|[Propriétés SettingName (SOAP)](settingname-soap.md) <br/> |Représente le nom d’un paramètre utilisateur.  <br/> |
+|[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Respresents a message associated with an error code that is returned by the Autodiscover service.  <br/> |
+|[SettingName (SOAP)](settingname-soap.md) <br/> |Représente le nom d’un paramètre utilisateur.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -61,7 +61,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

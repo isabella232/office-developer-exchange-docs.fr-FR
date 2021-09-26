@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageClassifications
 api_type:
 - schema
 ms.assetid: 041b3d48-8f43-47f3-869f-72b66bef372a
-description: L’élément MessageClassifications représente les classifications de message qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique.
-ms.openlocfilehash: 63481aa8903c4e9637870130eb9154118471c3b0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MessageClassifications représente les classifications de messages qui doivent être marqués sur les messages entrants afin que la condition ou l’exception s’applique.
+ms.openlocfilehash: 88ccd4be40d66de2fec859de67aa0e365f451bd4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467969"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542084"
 ---
 # <a name="messageclassifications"></a>MessageClassifications
 
-L’élément **MessageClassifications** représente les classifications de message qui doivent être marquées sur les messages entrants pour que la condition ou l’exception s’applique. 
+**L’élément MessageClassifications** représente les classifications de messages qui doivent être marqués sur les messages entrants afin que la condition ou l’exception s’applique. 
   
 ```XML
 <MessageClassifications>
@@ -65,7 +65,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

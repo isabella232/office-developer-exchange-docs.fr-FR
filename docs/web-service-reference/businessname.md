@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54fcd4ab-bfab-4b69-9841-d2ac827f4d45
 description: L’élément BusinessName spécifie le nom d’une entreprise.
-ms.openlocfilehash: cea37d61b9614084db7cf9532e5e55ec4f438554
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 71f9942e8dbe872168d0f5001ca2e9f1f468cb64
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545593"
 ---
 # <a name="businessname"></a>BusinessName
 
-L’élément **BusinessName** spécifie le nom d’une entreprise. 
+**L’élément BusinessName** spécifie le nom d’une entreprise. 
   
 ```XML
 <BusinessName></BusinessName>
@@ -44,7 +44,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **BusinessName** est le nom d’une entreprise. 
+La valeur de texte de **l’élément BusinessName** est le nom d’une entreprise. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

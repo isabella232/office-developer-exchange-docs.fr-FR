@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Delete
 api_type:
 - schema
 ms.assetid: aa45f0c1-a80d-4b6c-8a85-375b6de515f4
-description: L’élément delete indique si un client peut supprimer un dossier ou un élément.
-ms.openlocfilehash: 5460f9e49b126ca6b039c6f11aaa3c6eb4a40544
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Delete indique si un client peut supprimer un dossier ou un élément.
+ms.openlocfilehash: e1ecbfbcb11be04e39dc8353140653e6b5ca1c3b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457353"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542490"
 ---
 # <a name="delete"></a>Supprimer
 
-L’élément **Delete** indique si un client peut supprimer un dossier ou un élément. 
+**L’élément Delete** indique si un client peut supprimer un dossier ou un élément. 
   
 ```XML
 <Delete>true or false</Delete>
@@ -45,12 +45,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation de l’élément ou du dossier.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation pour l’élément ou le dossier.  <br/> |
 |[Actions](actions.md) <br/> |Représente l'ensemble des actions qui sont disponibles pour être effectuées sur un message lorsque les conditions sont remplies.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique qu’un client peut supprimer un élément ou un dossier. La valeur **false** indique qu’un client ne peut pas supprimer un élément ou un dossier. 
+Une valeur de texte **true** indique qu’un client peut supprimer un élément ou un dossier. La valeur **false indique** qu’un client ne peut pas supprimer un élément ou un dossier. 
   
 ## <a name="remarks"></a>Remarques
 

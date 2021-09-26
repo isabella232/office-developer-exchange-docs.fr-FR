@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - LastDeliveryTime
 api_type:
 - schema
 ms.assetid: 23d02ceb-f28e-40f2-8f63-673723a50e2a
-description: L’élément LastDeliveryTime contient le délai de remise du message qui a été reçu en dernier dans cette conversation dans le dossier actif.
-ms.openlocfilehash: 77147693a9394e983575afa6fcfda242f8f76ae3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément LastDeliveryTime contient l’heure de remise du message reçu pour la dernière fois dans cette conversation dans le dossier actuel.
+ms.openlocfilehash: bb0ad41272d26efecf36113d9c82a647c237ac47
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458109"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546174"
 ---
 # <a name="lastdeliverytime"></a>LastDeliveryTime
 
-L’élément **LastDeliveryTime** contient le délai de remise du message qui a été reçu en dernier dans cette conversation dans le dossier actif. 
+**L’élément LastDeliveryTime** contient l’heure de remise du message reçu pour la dernière fois dans cette conversation dans le dossier actuel. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -35,7 +35,7 @@ L’élément **LastDeliveryTime** contient le délai de remise du message qui a
 <LastDeliveryTime/>
 ```
 
- **XS : dateTime**
+ **xs:dateTime**
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 
 Les sections suivantes décrivent les attributs, les éléments enfants et les éléments parents.
@@ -56,7 +56,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **LastDeliveryTime** est la date et l’heure du dernier message reçu dans cette conversation dans le dossier actif. 
+La valeur de texte de **l’élément LastDeliveryTime** est la date et l’heure du dernier message reçu dans cette conversation dans le dossier actuel. 
   
 ## <a name="remarks"></a>Remarques
 

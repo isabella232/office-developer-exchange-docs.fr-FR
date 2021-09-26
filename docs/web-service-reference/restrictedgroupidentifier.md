@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - RestrictedGroupIdentifier
 api_type:
 - schema
 ms.assetid: a3ea3c81-9f99-4836-8cb4-2384ea63f093
-description: L’élément RestrictGroupIdentifier représente l’identificateur de sécurité (SID) de groupe et les attributs d’un groupe restreint au sein d’un jeton utilisateur.
-ms.openlocfilehash: c95af4e09324e96f4551a05490dc200aec0cbd46
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément RestrictGroupIdentifier représente l’identificateur de sécurité de groupe (SID) et les attributs d’un groupe restreint dans un jeton d’utilisateur.
+ms.openlocfilehash: 65b356f4a8195979d751a3f5288940b391f51939
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465365"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544779"
 ---
 # <a name="restrictedgroupidentifier"></a>RestrictedGroupIdentifier
 
-L’élément **RestrictGroupIdentifier** représente l’identificateur de sécurité (SID) de groupe et les attributs d’un groupe restreint au sein d’un jeton utilisateur. 
+**L’élément RestrictGroupIdentifier** représente l’identificateur de sécurité de groupe (SID) et les attributs d’un groupe restreint dans un jeton d’utilisateur. 
   
 ```xml
 <RestrictedGroupIdentifier Attributes="">
@@ -38,19 +38,19 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Attributs** <br/> |Contient les attributs de groupe.  <br/> |
+|**Attributs** <br/> |Contient des attributs de groupe.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SecurityIdentifier](securityidentifier.md) <br/> |Représente la forme SDDL (Security Descriptor Definition Language) d’un identificateur de sécurité.  <br/> |
+|[SecurityIdentifier](securityidentifier.md) <br/> |Représente le formulaire SDDL (Security Descriptor Definition Language) d’un identificateur de sécurité.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[RestrictedGroupSids](restrictedgroupsids.md) <br/> |Représente une collection de groupes restreints au sein d’un jeton utilisateur. La sérialisation de jetons n’est pas prise en charge.  <br/> |
+|[RestrictedGroupSids](restrictedgroupsids.md) <br/> |Représente une collection de groupes restreints dans un jeton d’utilisateur. La sérialisation des jetons n’est pas prise en charge.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

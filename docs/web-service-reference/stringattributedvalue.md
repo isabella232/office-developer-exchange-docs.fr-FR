@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 911fec52-bde7-44a3-9231-04f327a42107
-description: L’élément StringAttributedValue spécifie une instance dans un tableau d’attributs associés à un élément Persona.
-ms.openlocfilehash: bf4f5cd67bb254bd61f293cbef3699e588c6075b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément StringAttributedValue spécifie une instance dans un tableau d’attributs associés à un élément persona.
+ms.openlocfilehash: 197e1f93a6ae3087cdbb399d718e6c5f770859e4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463082"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543967"
 ---
 # <a name="stringattributedvalue"></a>StringAttributedValue
 
-L’élément **StringAttributedValue** spécifie une instance dans un tableau d’attributs associés à un élément Persona. 
+**L’élément StringAttributedValue** spécifie une instance dans un tableau d’attributs associés à un élément persona. 
   
 ```XML
 <StringAttributedValue>
@@ -37,11 +37,11 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Value (valeur](value.md)  |  ) [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
+[Valeur](value.md)  |  [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[DisplayName](displaynames.md)  |  [FileAses](fileases.md)  |  [FileAsIds](fileasids.md)  |  [DisplayNamePrefixes](displaynameprefixes.md)  |  [GivenNames](givennames.md)  |  [MiddleNames](middlenames.md)  |  [Nom](surnames.md)  |  [Générations](generations.md)  |  [Surnoms](nicknames.md)  |  [Initiales](initials.md)  |  [YomiCompanyNames](yomicompanynames.md)  |  [YomiFirstNames](yomifirstnames.md)  |  [YomiLastNames](yomilastnames.md)  |  [BusinessHomePages](businesshomepages.md)  |  [PersonalHomePages](personalhomepages.md)  |  [OfficeLocations](officelocations.md)  |  [Adresses](imaddresses.md)  |  [ImAddresses2](imaddresses2.md)  |  [ImAddresses3](imaddresses3.md)  |  [Titres](titles.md)  |  [Services](departments.md)  |  [CompanyNames](companynames.md)  |  [Gestionnaires](managers.md)  |  [AssistantNames](assistantnames.md)  |  [Professions](professions.md)  |  [SpouseNames](spousenames.md)  |  [Établissements scolaires](schools.md)  |  [Loisirs](hobbies.md)  |  [WeddingAnniversaries](weddinganniversaries.md)  |  [Anniversaires](birthdays.md)  |  [Emplacements](locations.md)
+[DisplayNames](displaynames.md)  |  [FileAses](fileases.md)  |  [FileAsIds](fileasids.md)  |  [DisplayNamePrefixes](displaynameprefixes.md)  |  [GivenNames](givennames.md)  |  [MiddleNames](middlenames.md)  |  [Surnames](surnames.md)  |  [Générations](generations.md)  |  [Nicknames](nicknames.md)  |  [Initiales](initials.md)  |  [YomiCompanyNames](yomicompanynames.md)  |  [YomiFirstNames](yomifirstnames.md)  |  [YomiLastNames](yomilastnames.md)  |  [BusinessHomePages](businesshomepages.md)  |  [PersonalHomePages](personalhomepages.md)  |  [OfficeLocations](officelocations.md)  |  [ImAddresses](imaddresses.md)  |  [ImAddresses2](imaddresses2.md)  |  [ImAddresses3](imaddresses3.md)  |  [Titres](titles.md)  |  [Services](departments.md)  |  [CompanyNames](companynames.md)  |  [Responsables](managers.md)  |  [AssistantNames](assistantnames.md)  |  [Professions](professions.md)  |  [SpouseNames](spousenames.md)  |  [Écoles](schools.md)  |  [Loisirs](hobbies.md)  |  [Anniversaries](weddinganniversaries.md)  |  [Anniversaires](birthdays.md)  |  [Emplacements](locations.md)
   
 ## <a name="remarks"></a>Remarques
 

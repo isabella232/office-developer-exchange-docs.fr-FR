@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeletedOccurrence
 api_type:
 - schema
 ms.assetid: ff24ea15-0cd7-407d-a378-73ec16451870
 description: L’élément DeletedOccurrence représente une occurrence supprimée d’un élément de calendrier périodique.
-ms.openlocfilehash: 814a81934786963ae5e7ea3a40406834c27b64ce
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 69e77f86097fe7037fc217806e4ef1b33b99c549
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457836"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542483"
 ---
 # <a name="deletedoccurrence"></a>DeletedOccurrence
 
-L’élément **DeletedOccurrence** représente une occurrence supprimée d’un élément de calendrier périodique. 
+**L’élément DeletedOccurrence** représente une occurrence supprimée d’un élément de calendrier périodique. 
   
 ```xml
 <DeletedOccurrence>

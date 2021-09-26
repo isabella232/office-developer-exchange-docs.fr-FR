@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ExportItems
 api_type:
 - schema
 ms.assetid: e2846abb-0b16-4732-bbd8-038a674672f6
-description: L’opération ExportItems exporte les éléments hors d’une boîte aux lettres.
-ms.openlocfilehash: 547a490a27d2414d2eda1d89cdac036a34eddccd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération ExportItems exporte des éléments hors d’une boîte aux lettres.
+ms.openlocfilehash: b53761f91b15053b0fb79a3c1068a50bce665a67
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526045"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542329"
 ---
 # <a name="exportitems-operation"></a>Opération ExportItems
 
-L’opération **ExportItems** exporte les éléments hors d’une boîte aux lettres. 
+**L’opération ExportItems** exporte des éléments hors d’une boîte aux lettres. 
   
 ## <a name="exportitems-request-example"></a>Exemple de requête ExportItems
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **ExportItems** suivant montre comment créer une demande pour obtenir trois éléments exportés à partir d’une boîte aux lettres. 
+L’exemple suivant **d’une demande ExportItems** montre comment former une demande pour obtenir trois éléments exportés à partir d’une boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -55,9 +55,9 @@ L’exemple de requête **ExportItems** suivant montre comment créer une demand
 
 ### <a name="comment"></a>Commentaire
 
-Les identificateurs d’élément de l’exemple ont été raccourcies afin de préserver la lisibilité.
+Les identificateurs d’élément de l’exemple ont été raccourcis pour préserver la lisibilité.
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -69,11 +69,11 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ItemId](itemid.md)
     
-## <a name="successful-exportitems-response-example"></a>Exemple de réponse ExportItems réussi
+## <a name="successful-exportitems-response-example"></a>Exemple de réponse ExportItems réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **ExportItems** . 
+L’exemple suivant montre une réponse réussie à une **demande ExportItems.** 
   
 ### <a name="code"></a>Code
 
@@ -149,9 +149,9 @@ L’exemple suivant montre une réponse réussie à une demande **ExportItems** 
 
 ### <a name="comment"></a>Commentaire
 
-Les identificateurs d’élément et les clés de modification de l’exemple ont été raccourcis pour conserver la lisibilité.
+Les identificateurs d’élément et les touches de modification de l’exemple ont été raccourcis pour préserver la lisibilité.
   
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -167,13 +167,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ItemId](itemid.md)
     
-- [Données (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 ## <a name="exportitems-error-response-example"></a>Exemple de réponse d’erreur ExportItems
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse à la requête **ExportItems** qui contient deux erreurs et un élément exporté avec succès. Le premier élément de l’exemple est correctement exporté. Le deuxième élément contient une clé de modification incorrecte. Le troisième élément représente une tentative d’exportation d’un élément à partir d’une boîte aux lettres incorrecte. 
+L’exemple suivant montre une réponse à la **demande ExportItems** qui contient deux erreurs et un élément exporté avec succès. Le premier élément de l’exemple est exporté avec succès. Le deuxième élément contient une touche de modification incorrecte. Le troisième élément représente une tentative d’exportation d’un élément à partir de la mauvaise boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -229,7 +229,7 @@ L’exemple suivant montre une réponse à la requête **ExportItems** qui conti
 
 ### <a name="comments"></a>Commentaires
 
-Les identificateurs d’élément, les clés de modification et les données de l’exemple ont été raccourcies afin de préserver la lisibilité.
+Les identificateurs d’élément, les clés de modification et les données de l’exemple ont été raccourcis pour préserver la lisibilité.
   
 ### <a name="error-response-elements"></a>Éléments de réponse d’erreur
 
@@ -247,7 +247,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [ItemId](itemid.md)
     
-- [Données (base64Binary)](data-base64binary.md)
+- [Data (base64Binary)](data-base64binary.md)
     
 - [MessageText](messagetext.md)
     
@@ -258,7 +258,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
 - **Valeur**
     
 > [!NOTE]
-> L’élément **value** n’existe pas dans le schéma. Cet élément est valide car l’élément [messagexml](messagexml.md) , dans lequel l’élément instance de la **valeur** se produit, peut contenir n’importe quel code XML bien formé. 
+> **L’élément Value** n’existe pas dans le schéma. Cet élément est valide car [l’élément MessageXml,](messagexml.md) dans lequel l’élément **d’instance Value** se produit, peut contenir n’importe quel XML bien formé. 
   
 ## <a name="see-also"></a>Voir aussi
 

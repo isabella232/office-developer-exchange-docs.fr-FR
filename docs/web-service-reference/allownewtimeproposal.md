@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AllowNewTimeProposal
 api_type:
 - schema
 ms.assetid: afdb4ec9-2daf-48a1-a0bb-a7f647f212f2
 description: L’élément AllowNewTimeProposal indique si une nouvelle heure de réunion peut être proposée pour une réunion par un participant.
-ms.openlocfilehash: b3f2c569bced08c66144680a4fddd6e8bac0cecf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 1acb95189e1949204a25f97a82770b88590df776
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543729"
 ---
 # <a name="allownewtimeproposal"></a>AllowNewTimeProposal
 
-L’élément **AllowNewTimeProposal** indique si une nouvelle heure de réunion peut être proposée pour une réunion par un participant. 
+**L’élément AllowNewTimeProposal** indique si une nouvelle heure de réunion peut être proposée pour une réunion par un participant. 
   
 ```xml
 <AllowNewTimeProposal/>
@@ -44,21 +44,21 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une valeur Boolean est requise. La valeur **true** indique qu’une nouvelle proposition pour l’heure de la réunion peut être créée ; la valeur **false** indique que les propositions de nouvelles heures ne sont pas autorisées. L’organisateur définit cette valeur dans la demande de réunion. 
+Une valeur de texte qui représente une valeur Boolean est requise. La valeur **true indique** qu’une nouvelle proposition pour l’heure de réunion peut être créée . La valeur **false indique** que les nouvelles propositions d’heure ne sont pas autorisées. L’organisateur définit cette valeur dans la demande de réunion. 
   
 ## <a name="remarks"></a>Remarques
 
-La propriété AllowNewTimeProposal est accessible en lecture pour l’élément de calendrier de l’organisateur. Elle est en lecture seule pour les demandes de réunion et les éléments de calendrier des participants.
+La propriété AllowNewTimeProposal est accessible en lecture et en lecture pour l’élément de calendrier de l’organisateur. Il est en lecture seule pour les demandes de réunion et les éléments de calendrier des participants.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   
 > [!NOTE]
-> Les services Web Exchange ne prennent pas en charge les nouveaux messages de proposition de temps. Pour obtenir les propriétés liées aux nouveaux messages de proposition d’heure, utilisez les propriétés étendues. 
+> Exchange Les services web ne prend pas en charge les nouveaux messages de proposition d’heure. Pour obtenir les propriétés liées aux nouveaux messages de proposition d’heure, utilisez des propriétés étendues. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 

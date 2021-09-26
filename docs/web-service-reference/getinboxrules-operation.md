@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetInboxRules
 api_type:
 - schema
 ms.assetid: b4b2701a-4a23-4acc-8c75-19f7955ad7ae
-description: L’opération GetInboxRules utilise les services Web Exchange pour récupérer les règles de boîte de réception dans la boîte aux lettres de l’utilisateur identifié.
-ms.openlocfilehash: f4c4c03f55c9f32be4a067024f4387888edd5fe9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération GetInboxRules utilise Exchange Web Services pour récupérer les règles de boîte de réception dans la boîte aux lettres de l’utilisateur identifié.
+ms.openlocfilehash: 3e312ed08494b92c212595d081454b5f2ca6117e
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457934"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546251"
 ---
 # <a name="getinboxrules-operation"></a>Opération de GetInboxRules
 
-L’opération **GetInboxRules** utilise les services Web Exchange pour récupérer les règles de boîte de réception dans la boîte aux lettres de l’utilisateur identifié. 
+**L’opération GetInboxRules** utilise Exchange Web Services pour récupérer les règles de boîte de réception dans la boîte aux lettres de l’utilisateur identifié. 
   
 ## <a name="getinboxrules-request-example"></a>Exemple de requête GetInboxRules
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre le code XML de la demande que le client envoie au serveur. La requête identifie l’utilisateur dans l’élément [MailboxSmtpAddress](mailboxsmtpaddress.md) . Toutes les règles de boîte de réception de l’utilisateur identifié doivent être renvoyées dans la réponse. 
+L’exemple suivant montre le XML de requête que le client envoie au serveur. La requête identifie l’utilisateur dans [l’élément MailboxSmtpAddress.](mailboxsmtpaddress.md) Toutes les règles de boîte de réception de l’utilisateur identifié doivent être renvoyées dans la réponse. 
   
 ### <a name="code"></a>Code
 
@@ -48,20 +48,20 @@ L’exemple suivant montre le code XML de la demande que le client envoie au ser
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
-La demande inclut l’élément facultatif suivant :
+La requête inclut l’élément facultatif suivant :
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## <a name="successful-getinboxrules-response-example"></a>Exemple de réponse GetInboxRules réussi
+## <a name="successful-getinboxrules-response-example"></a>Exemple de réponse GetInboxRules réussie
 
 ### <a name="description"></a>Description
 
-L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la demande **GetInboxRules** . Dans cet exemple, la réponse inclut une règle. 
+L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une réponse réussie à la **demande GetInboxRules.** Dans cet exemple, la réponse inclut une règle. 
   
 > [!NOTE]
-> Les valeurs des attributs **ID** et **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies afin de préserver la lisibilité. 
+> Les valeurs de **l’ID et** des attributs **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -107,9 +107,9 @@ L’exemple de corps SOAP (Simple Object Access Protocol) suivant montre une ré
 </s:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
-Les éléments suivants sont inclus dans la réponse :
+Les éléments suivants sont inclus dans la réponse :
   
 - [GetInboxRulesResponse](getinboxrulesresponse.md)
     

@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b0124b70-28ab-4484-ac81-465a42f42776
-description: L’élément message contient le message d’erreur pour une réponse de découverte automatique d’erreur.
-ms.openlocfilehash: 5e2f9d5b2f9ad45359f180f1121a34ccf9cd89cc
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Message contient le message d’erreur pour une réponse de découverte automatique d’erreur.
+ms.openlocfilehash: 1b15bce5c052205b0953bbdd686ead32f32ea743
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467990"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542161"
 ---
 # <a name="message-pox"></a>Message (POX)
 
-L’élément **message** contient le message d’erreur pour une réponse de découverte automatique d’erreur. 
+**L’élément Message** contient le message d’erreur pour une réponse de découverte automatique d’erreur. 
   
 [Erreur (POX)](error-pox.md)
   
@@ -48,11 +48,11 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente le message d’erreur pour la réponse de découverte automatique d’erreur.
+La valeur de texte représente le message d’erreur pour la réponse de découverte automatique d’erreur.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

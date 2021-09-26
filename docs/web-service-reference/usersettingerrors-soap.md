@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a9b94bae-cab9-412d-a811-801e849ed6c5
 description: L’élément UserSettingErrors représente une collection d’informations sur les paramètres qui n’ont pas pu être renvoyés.
-ms.openlocfilehash: a6cc0fe114bd511dc4136532986b552c28b0d5c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: dfcd2a0475857d95d1a7dadb3cb65b544e0f2c5d
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467122"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541685"
 ---
 # <a name="usersettingerrors-soap"></a>UserSettingErrors (SOAP)
 
-L’élément **UserSettingErrors** représente une collection d’informations sur les paramètres qui n’ont pas pu être renvoyés. 
+**L’élément UserSettingErrors** représente une collection d’informations sur les paramètres qui n’ont pas pu être renvoyés. 
   
 ```XML
 <UserSettingErrors>
@@ -57,7 +57,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

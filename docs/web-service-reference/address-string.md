@@ -1,27 +1,27 @@
 ---
-title: Address (chaîne)
+title: Address (String)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Address
 api_type:
 - schema
 ms.assetid: a3cdfcbd-d0c5-46d6-8daa-52405fc63ff0
 description: L’élément Address représente l’adresse de messagerie de l’utilisateur de boîte aux lettres.
-ms.openlocfilehash: 839107050f22df5c00cb4dea9c531563df52933d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: a3648246b6be8c4f7d6421fc979a57e782ef3598
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463642"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543799"
 ---
-# <a name="address-string"></a>Address (chaîne)
+# <a name="address-string"></a>Address (String)
 
-L’élément **Address** représente l’adresse de messagerie de l’utilisateur de boîte aux lettres. 
+**L’élément Address** représente l’adresse de messagerie de l’utilisateur de boîte aux lettres. 
   
 ```xml
 <Address>...</Address>
@@ -44,8 +44,8 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[E-mail (EmailAddressType)](email-emailaddresstype.md) <br/> |Spécifie l’adresse de messagerie de l’objet MailboxData. Cet élément est utilisé dans l' [opération GetUserAvailability](getuseravailability-operation.md).<br/><br/> Voici le XPath de cet élément :<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[Boîte aux lettres (disponibilité)](mailbox-availability.md) <br/> | Représente l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.<br/><br/>  Voici les expressions XPath de cet élément :<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |Spécifie l’adresse de messagerie de l’objet MailboxData. Cet élément est utilisé dans [l’opération GetUserAvailability](getuseravailability-operation.md).<br/><br/> Voici le chemin d’accès XPath à cet élément :<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> | Représente l’utilisateur de boîte aux lettres pour une demande SetUserOofSettings ou GetUserOofSettings.<br/><br/>  Les expressions XPath de cet élément sont les suivantes :<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -53,7 +53,7 @@ Une valeur de texte est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 
-Cet élément peut apparaître au plus une fois dans l’élément [email (EmailAddressType)](email-emailaddresstype.md) et l’élément [Mailbox (Availability)](mailbox-availability.md) . 
+Cet élément peut se produire au plus une fois dans l’élément [Email (EmailAddressType)](email-emailaddresstype.md) et l’élément [Mailbox (Availability).](mailbox-availability.md) 
   
 > [!NOTE]
 > Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé. 

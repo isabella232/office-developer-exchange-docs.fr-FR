@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c228f7e7-6dc8-476d-9b8c-99cd5b6f9f0c
-description: L’élément DraftItemIds contient un tableau d’identificateurs d’élément pour les éléments de brouillon d’une conversation.
-ms.openlocfilehash: 5e635e354c9d2d768bab5efaafafde272fe568d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DraftItemIds contient un tableau d’identificateurs d’éléments pour les éléments de brouillon dans une conversation.
+ms.openlocfilehash: 9c114e509418138d442ae2cf20278cda410bf9dc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463572"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541440"
 ---
 # <a name="draftitemids"></a>DraftItemIds
 
-L’élément **DraftItemIds** contient un tableau d’identificateurs d’élément pour les éléments de brouillon d’une conversation. 
+**L’élément DraftItemIds** contient un tableau d’identificateurs d’éléments pour les éléments de brouillon dans une conversation. 
   
 ```XML
 <DraftItemIds>

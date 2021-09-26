@@ -4,25 +4,25 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
-description: L’élément DeploymentId identifie de manière unique la forêt Microsoft Exchange Server 2007.
-ms.openlocfilehash: 4986a3404763e88fb3e84d52a5d30d54c810f93a
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DeploymentId identifie de manière unique Microsoft Exchange Server forêt 2007.
+ms.openlocfilehash: 37d66eadb38f02e75a35d0516b36aff07dfdafa6
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545355"
 ---
 # <a name="deploymentid-pox"></a>DeploymentId (POX)
 
-L’élément **deploymentId** identifie de manière unique la forêt Microsoft Exchange Server 2007. 
+**L’élément DeploymentId** identifie de manière unique Microsoft Exchange Server forêt 2007. 
   
-- [Découverte automatique (POX)](autodiscover-pox.md)  
-- [Réponse (POX)](response-pox.md) 
-- [Utilisateur (POX)](user-pox.md)  
+- [AutoDiscover (POX)](autodiscover-pox.md)  
+- [Response (POX)](response-pox.md) 
+- [User (POX)](user-pox.md)  
 - [DeploymentId (POX)](deploymentid-pox.md)
   
 ```xml
@@ -45,17 +45,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Utilisateur (POX)](user-pox.md) <br/> |Fournit des informations spécifiques à l’utilisateur.  <br/> |
+|[User (POX)](user-pox.md) <br/> |Fournit des informations spécifiques à l’utilisateur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur Text identifie de manière unique la forêt Exchange 2007 au format GUID.
+La valeur de texte identifie de manière unique la forêt Exchange 2007 au format GUID.
   
 ## <a name="remarks"></a>Remarques
 
-Si vous désinstallez, puis réinstallez Exchange 2007 et que vous utilisez le même nom de serveur, la valeur **deploymentId** change. 
+Si vous désinstallez puis réinstallez Exchange 2007 et que vous utilisez le même nom de serveur, la valeur **DeploymentId** change. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

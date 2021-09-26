@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteType
 api_type:
 - schema
 ms.assetid: 6e3136cd-9cb4-493a-aa85-9678f719002d
-description: L’élément DeleteType indique le mode de suppression des éléments d’une conversation.
-ms.openlocfilehash: 199f7afc29fe866865509d2fb90d24944113d5c0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DeleteType indique comment les éléments d’une conversation sont supprimés.
+ms.openlocfilehash: 828950e72179c17cd3efaa78df677bb7f15789c2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44442632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543400"
 ---
 # <a name="deletetype"></a>DeleteType
 
-L’élément **DeleteType** indique le mode de suppression des éléments d’une conversation. 
+**L’élément DeleteType** indique comment les éléments d’une conversation sont supprimés. 
   
 - [ApplyConversationAction](applyconversationaction.md)  
 - [ConversationActions](conversationactions.md)  
@@ -49,17 +49,17 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une conversation unique.  <br/> |
+|[ConversationAction](conversationaction.md) <br/> |Contient une seule action à appliquer à une seule conversation.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **DeleteType** indique le mode de suppression des éléments d’une conversation. Les valeurs possibles sont les suivantes : 
+La valeur de texte de **l’élément DeleteType** indique la façon dont les éléments d’une conversation sont supprimés. Les valeurs de texte possibles sont les suivantes : 
   
-- HardDelete : indique que les éléments d’une conversation sont définitivement supprimés de la base de données de boîtes aux lettres.
+- HardDelete : indique que les éléments d’une conversation sont définitivement supprimés de la base de données de boîtes aux lettres.
     
-- MoveToDeleteItems : indique que les éléments d’une conversation sont déplacés vers le dossier éléments supprimés.
+- MoveToDeleteItems : indique que les éléments d’une conversation sont déplacés vers le dossier Éléments supprimés.
     
-- SoftDelete : indique que les éléments d’une conversation sont déplacés vers la benne si la benne est activée.
+- SoftDelete : indique que les éléments d’une conversation sont déplacés vers la benne si la benne est activée.
     
 ## <a name="remarks"></a>Remarques
 

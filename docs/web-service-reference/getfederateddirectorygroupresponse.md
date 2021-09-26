@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a255edd9-9904-4fd7-8be6-db692c74202d
-description: L’élément GetFederatedDirectoryGroupResponse est destiné uniquement à un usage interne.
-ms.openlocfilehash: 10453322db2e94788115bd6d363c936044d53d49
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetFederatedDirectoryGroupResponse est destiné à un usage interne uniquement.
+ms.openlocfilehash: 38cbd8e8d846c1dcccae643692b7509027e7d400
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466177"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542294"
 ---
 # <a name="getfederateddirectorygroupresponse"></a>GetFederatedDirectoryGroupResponse
 
-L’élément **GetFederatedDirectoryGroupResponse** est destiné uniquement à un usage interne. 
+**L’élément GetFederatedDirectoryGroupResponse** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

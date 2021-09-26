@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bf12f857-5a2e-48fc-83a5-096a44204fd8
-description: L’élément type représente le type de boîte aux lettres de substitution.
-ms.openlocfilehash: b94ab77b384fbc0658678225d1116568a63c73c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Type représente le type de boîte aux lettres de remplacement.
+ms.openlocfilehash: b1d27e9749a8cb1aeefc482976c9f9b409047e5c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545713"
 ---
 # <a name="type-soap"></a>Type (SOAP)
 
-L’élément **type** représente le type de boîte aux lettres de substitution. 
+**L’élément Type** représente le type de boîte aux lettres de remplacement. 
   
 ```XML
 <Type/>
@@ -41,11 +41,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Représente une boîte aux lettres de substitution.  <br/> |
+|[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Représente une autre boîte aux lettres.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **type** est l’autre type de boîte aux lettres. 
+La valeur de texte de **l’élément Type** est le type de boîte aux lettres de remplacement. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -53,7 +53,7 @@ La valeur de texte de l’élément **type** est l’autre type de boîte aux le
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

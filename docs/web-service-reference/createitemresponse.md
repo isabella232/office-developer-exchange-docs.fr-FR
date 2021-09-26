@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItemResponse
 api_type:
 - schema
 ms.assetid: 742a46a0-2475-45a0-b44f-90639a3f5a43
 description: L’élément CreateItemResponse définit une réponse à une demande CreateItem.
-ms.openlocfilehash: af7349888a2f194a8f4ff1043ec8c38a90b3dfff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 2241341e5fa9643f06b23c827d4b118b401864bc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458844"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544253"
 ---
 # <a name="createitemresponse"></a>CreateItemResponse
 
-L’élément **CreateItemResponse** définit une réponse à une demande CreateItem. 
+**L’élément CreateItemResponse** définit une réponse à une demande CreateItem. 
   
 ```xml
 <CreateItemResponse>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande des services Web Exchange.  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange services Web.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

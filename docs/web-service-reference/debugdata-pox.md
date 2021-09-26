@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: bf614551-f5b0-4f80-bdac-628f685faee9
 description: L’élément DebugData contient les données de débogage pour une réponse d’erreur de découverte automatique.
-ms.openlocfilehash: 79b5f4d3fa1379b7052dcd03053bc8bac6430017
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ff339e6e92eb8dd9d3d0c1b96c0e4f733a383dc3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543414"
 ---
 # <a name="debugdata-pox"></a>DebugData (POX)
 
-L’élément **DebugData** contient les données de débogage pour une réponse d’erreur de découverte automatique. 
+**L’élément DebugData** contient les données de débogage pour une réponse d’erreur de découverte automatique. 
   
 - [Erreur (POX)](error-pox.md) 
 - [DebugData (POX)](debugdata-pox.md)
@@ -47,9 +47,9 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte représente les données de débogage pour une réponse d’erreur de découverte automatique.
+La valeur de texte représente les données de débogage d’une réponse d’erreur de découverte automatique.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

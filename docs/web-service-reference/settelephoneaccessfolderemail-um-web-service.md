@@ -1,28 +1,28 @@
 ---
-title: SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)
+title: SetTelephoneAccessFolderEmail (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetTelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 90759da7-6dba-499e-b8c8-e44a016b3198
-description: L’élément SetTelephoneAccessFolderEmail définit une demande de définition du dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lira les messages par téléphone.
-ms.openlocfilehash: 806bdb1f0c7930a9e89555192aa32ad997716e7e
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SetTelephoneAccessFolderEmail définit une demande de définition du dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lit les messages par téléphone.
+ms.openlocfilehash: 4b10833cb98c2623e343baeeb7afee4524a03945
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544702"
 ---
-# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)
+# <a name="settelephoneaccessfolderemail-um-web-service"></a>SetTelephoneAccessFolderEmail (service web de messagerie unifiée)
 
-L’élément **SetTelephoneAccessFolderEmail** définit une demande de définition du dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lira les messages par téléphone. 
+**L’élément SetTelephoneAccessFolderEmail** définit une demande de définition du dossier de messagerie électronique par défaut à partir duquel la messagerie unifiée lit les messages par téléphone. 
   
-[SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <SetTelephoneAccessFolderEmail>
@@ -43,7 +43,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[base64FolderId (service Web de messagerie unifiée)](base64folderid-um-web-service.md) <br/> |Identificateur du dossier de messagerie.  <br/> |
+|[base64FolderId (service web de messagerie unifiée)](base64folderid-um-web-service.md) <br/> |Identificateur du dossier de messagerie.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,12 +59,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

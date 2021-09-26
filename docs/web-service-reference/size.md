@@ -1,27 +1,27 @@
 ---
-title: Taille
+title: Size
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Size
 api_type:
 - schema
 ms.assetid: 966f4daf-c20e-49f8-aeb6-965f3e2da7c3
-description: L’élément Size représente la taille en octets d’un élément ou tous les éléments d’une conversation dans le dossier actif. Cette propriété est en lecture seule.
-ms.openlocfilehash: 406271c80db6bbb797592dae22e50ebe7c42ee85
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Size représente la taille en octets d’un élément ou de tous les éléments d’une conversation dans le dossier actuel. Cette propriété est en lecture seule.
+ms.openlocfilehash: efa841732ca03b410e0a5979ff7e282cf2c7dde9
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467290"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545922"
 ---
-# <a name="size"></a>Taille
+# <a name="size"></a>Size
 
-L’élément **Size** représente la taille en octets d’un élément ou tous les éléments d’une conversation dans le dossier actif. Cette propriété est en lecture seule. 
+**L’élément Size** représente la taille en octets d’un élément ou de tous les éléments d’une conversation dans le dossier actuel. Cette propriété est en lecture seule. 
   
 ```XML
 <Size/>
@@ -48,12 +48,12 @@ Aucun.
 |[Contact](contact.md) <br/> |Représente un élément de contact Exchange.  <br/> |
 |[Conversation (ConversationType)](conversation-conversationtype.md) <br/> |Représente une conversation unique.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
-|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Banque d’Exchange.  <br/> |
+|[FileAttachment](fileattachment.md) <br/> |Représente un fichier joint à un élément dans la Exchange store.  <br/> |
 |[Élément](item.md) <br/> |Représente un élément dans la banque d'informations Exchange.  <br/> |
 |[ItemAttachment](itemattachment.md) <br/> |Représente un élément Exchange qui est joint à un autre élément Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -61,7 +61,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte est une valeur entière qui identifie la taille de l’élément en octets.
+La valeur de texte est un nombre complet qui identifie la taille de l’élément en octets.
   
 ## <a name="remarks"></a>Remarques
 

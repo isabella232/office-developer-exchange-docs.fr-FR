@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateHierarchy
 api_type:
 - schema
 ms.assetid: 630b5610-1c19-4d4a-a5df-8cebb9afd2f4
-description: L’élément CreateHierarchy indique si un client peut créer une table de hiérarchie. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: 3fb0c34a8a148cc8336c70d643a21ecb6fef30b5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CreateHierarchy indique si un client peut créer une table hiérarchique. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: d83b9b7cce6b1cada151347a6dd4266c5e206e1f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457521"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544247"
 ---
 # <a name="createhierarchy"></a>CreateHierarchy
 
-L’élément **CreateHierarchy** indique si un client peut créer une table de hiérarchie. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément CreateHierarchy** indique si un client peut créer une table hiérarchique. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CreateHierarchy>true or false</CreateHierarchy>
@@ -44,15 +44,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation de l’élément ou du dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[EffectiveRights](effectiverights.md) <br/> |Contient les droits du client en fonction des paramètres d’autorisation pour l’élément ou le dossier. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique qu’un client peut créer une table de hiérarchie. 
+Une valeur de texte **true** indique qu’un client peut créer une table hiérarchique. 
   
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée uniquement sur les objets Folder.
+Cette propriété est utilisée uniquement sur les objets de dossier.
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d'accès au client est installé.
   

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40238799-25f0-431c-91be-34b915110f03
-description: L’élément InlineImageUrlTemplate spécifie un modèle pour une URL d’image incorporée.
-ms.openlocfilehash: 2cb9cd31d1adf0c6fecf803a8b42bc88330a14d1
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément InlineImageUrlTemplate spécifie un modèle pour une URL d’image en ligne.
+ms.openlocfilehash: a209d030f9f6ede56dd790731f6d1b36c8f886ac
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468732"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542203"
 ---
 # <a name="inlineimageurltemplate"></a>InlineImageUrlTemplate
 
-L’élément **InlineImageUrlTemplate** spécifie un modèle pour une URL d’image incorporée. 
+**L’élément InlineImageUrlTemplate** spécifie un modèle pour une URL d’image en ligne. 
   
 ```XML
 <InlineImageUrlTemplate></InlineImageUrlTemplate>
@@ -40,11 +40,11 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |Identifie un jeu de propriétés à renvoyer dans une opération [GetItem](getitem-operation.md), une [opération FindItem](finditem-operation.md)ou une réponse de l' [opération SyncFolderItems](syncfolderitems-operation.md) .  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifie un ensemble de propriétés à renvoyer dans une [opération GetItem,](getitem-operation.md)Une opération [FindItem](finditem-operation.md)ou une réponse [d’opération SyncFolderItems.](syncfolderitems-operation.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **InlineImageUrlTemplate** spécifie un modèle pour une URL d’image incorporée. 
+La valeur de texte de l’élément **InlineImageUrlTemplate** spécifie un modèle pour une URL d’image inline. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

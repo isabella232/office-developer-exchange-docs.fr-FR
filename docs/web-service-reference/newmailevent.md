@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NewMailEvent
 api_type:
 - schema
 ms.assetid: 45057945-a3ec-4dac-92db-f0dc5fcfc34d
-description: L’élément NewMailEvent représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres.
-ms.openlocfilehash: aa562b60a7299543af8653bbc767edf329075644
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément NewMailEvent représente un événement déclenché par un nouvel élément de courrier dans une boîte aux lettres.
+ms.openlocfilehash: 9116ff7b1a01c7d31e52565759443afd7b63860a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466814"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541972"
 ---
 # <a name="newmailevent"></a>NewMailEvent
 
-L’élément **NewMailEvent** représente un événement qui est déclenché par un nouvel élément de courrier dans une boîte aux lettres. 
+**L’élément NewMailEvent** représente un événement déclenché par un nouvel élément de courrier dans une boîte aux lettres. 
   
 ```xml
 <NewMailEvent>
@@ -46,7 +46,7 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Watermark](watermark.md) <br/> |Représente un signet d’événement dans la table des événements de boîte aux lettres.  <br/> |
-|[Dates](timestamp.md) <br/> |Représente l’horodatage de l’arrivée d’un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
+|[TimeStamp](timestamp.md) <br/> |Représente l’timestamp de l’arrivée d’un nouvel élément de courrier dans une boîte aux lettres.  <br/> |
 |[ItemId](itemid.md) <br/> |Représente l’identificateur d’un nouvel élément de courrier.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Représente l’identificateur du dossier parent du nouvel élément de courrier.  <br/> |
    

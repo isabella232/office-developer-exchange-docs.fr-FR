@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 2dff4e8f-4812-4fcf-8915-d64a69c89120
-description: L’élément IPv4End identifie la fin d’une plage d’adresses IP version 4 (IPv4) utilisées pour identifier un ordinateur sur le réseau.
-ms.openlocfilehash: 296ea87436364b71e541f97c687a8f25e7f353a7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IPv4End identifie la fin d’une plage d’adresses IP de version 4 (IPv4) utilisées pour identifier un ordinateur sur le réseau.
+ms.openlocfilehash: 82990e8bb054833097a29ad3ee826cd0270ed277
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542209"
 ---
 # <a name="ipv4end-pox"></a>IPv4End (POX)
 
-L’élément **IPv4End** identifie la fin d’une plage d’adresses IP version 4 (IPv4) utilisées pour identifier un ordinateur sur le réseau. 
+**L’élément IPv4End** identifie la fin d’une plage d’adresses IP de version 4 (IPv4) utilisées pour identifier un ordinateur sur le réseau. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -52,15 +52,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contient les critères utilisés pour déterminer si l’ordinateur client est sur un réseau qui répond aux exigences du fournisseur de services Internet (ISP) pour se connecter au serveur.  <br/> |
+|[NetworkRequirements (POX)](networkrequirements-pox.md) <br/> |Contient les critères utilisés pour déterminer si l’ordinateur client se trouve sur un réseau qui répond aux exigences du fournisseur de services Internet (ISP) pour se connecter au serveur.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte représente une adresse IPv4.
+La valeur de texte représente une adresse IPv4.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

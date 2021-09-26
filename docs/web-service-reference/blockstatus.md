@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08556ee9-0923-437c-99a4-bb630f04e973
 description: L’élément BlockStatus spécifie l’état de blocage d’un élément.
-ms.openlocfilehash: e88236274bfa70216e872025c2a94231f837df1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: e26562ddaecaf49102f6646f004d86b07383888b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462275"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545607"
 ---
 # <a name="blockstatus"></a>BlockStatus
 
-L’élément **BlockStatus** spécifie l’état de blocage d’un élément. 
+**L’élément BlockStatus** spécifie l’état de blocage d’un élément. 
   
 ```XML
 <BlockStatus> true | false </BlockStatus
@@ -43,11 +43,11 @@ Aucun.
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
 |[Contact](contact.md) <br/> |Représente un élément de contact dans la banque d'informations Exchange.  <br/> |
 |[DistributionList](distributionlist.md) <br/> |Représente une liste de distribution.  <br/> |
-|[Élément](item.md) <br/> |Représente un élément générique dans la Banque d’Exchange.  <br/> |
+|[Élément](item.md) <br/> |Représente un élément générique dans le magasin Exchange de données.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **BlockStatus** indique qu’un élément est bloqué. La valeur **false** indique qu’un élément n’est pas bloqué. 
+Une valeur de texte **true pour** **l’élément BlockStatus** indique qu’un élément est bloqué. La valeur **false indique** qu’un élément n’est pas bloqué. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

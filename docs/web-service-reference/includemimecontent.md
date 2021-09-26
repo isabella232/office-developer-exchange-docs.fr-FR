@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IncludeMimeContent
 api_type:
 - schema
 ms.assetid: 3f3c2300-55cd-41c0-900e-b470b290d52f
 description: L’élément IncludeMimeContent spécifie si le contenu MIME (Multipurpose Internet Mail Extensions) d’un élément ou d’une pièce jointe est renvoyé dans la réponse.
-ms.openlocfilehash: 6198e4bef2dc59e6e56a8d3cbe463dad13e544e8
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 04d015ea450907f3968200dcbb6f411eb6343681
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542175"
 ---
 # <a name="includemimecontent"></a>IncludeMimeContent
 
-L’élément **IncludeMimeContent** spécifie si le contenu MIME (Multipurpose Internet Mail Extensions) d’un élément ou d’une pièce jointe est renvoyé dans la réponse. 
+**L’élément IncludeMimeContent** spécifie si le contenu MIME (Multipurpose Internet Mail Extensions) d’un élément ou d’une pièce jointe est renvoyé dans la réponse. 
   
 ```xml
 <IncludeMimeContent>true or false</IncludeMimeContent>
@@ -44,12 +44,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> | Identifie les propriétés supplémentaires à renvoyer dans une réponse à une demande [GetAttachment](getattachment.md) .  <br/> <br/> Voici l’expression XPath de cet élément :  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifie les propriétés d’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> <br/> Voici les expressions XPath de cet élément :<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | Identifie les propriétés supplémentaires à renvoyer en réponse à une [demande GetAttachment.](getattachment.md)  <br/> <br/> Voici l’expression XPath de cet élément :  <br/><br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifie les propriétés et le contenu de l’élément à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> <br/> Les expressions XPath de cet élément sont les suivantes :<br/>  <br/>  `/GetItem/ItemShape` <br/><br/>  `/FindItem/ItemShape` <br/><br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Cet élément peut avoir la **valeur true** ou **false**. La valeur par défaut est **false**. Il s’agit d’un type de données booléen.
+Cet élément peut être **vrai** ou **faux**. La valeur par défaut est **false**. Il s’agit d’un type de données booléen.
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
   
 ## <a name="example"></a>Exemple
 
-L’exemple de requête suivant illustre une procédure de définition de l’élément **IncludeMimeContent** . 
+L’exemple suivant d’une requête montre comment définir **l’élément IncludeMimeContent.** 
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -82,7 +82,7 @@ L’exemple de requête suivant illustre une procédure de définition de l’é
 </soap:Envelope>
 ```
 
-L’attribut ID de pièce jointe est tronqué pour conserver la lisibilité.
+L’attribut id de pièce jointe est tronqué pour préserver la lisibilité.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

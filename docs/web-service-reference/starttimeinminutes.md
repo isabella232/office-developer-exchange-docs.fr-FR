@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartTimeInMinutes
 api_type:
 - schema
 ms.assetid: 0fb60a78-6e79-4601-8e2f-5bd245c46d69
 description: L’élément StartTimeInMinutes représente le début de la journée de travail pour un utilisateur de boîte aux lettres.
-ms.openlocfilehash: b33cb12299a146b577dd17939a0585a15d50fb07
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0d6d5d89506a081814a0f5143bdc7809a0ca3520
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458529"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544646"
 ---
 # <a name="starttimeinminutes"></a>StartTimeInMinutes
 
-L’élément **StartTimeInMinutes** représente le début de la journée de travail pour un utilisateur de boîte aux lettres. 
+**L’élément StartTimeInMinutes représente** le début de la journée de travail pour un utilisateur de boîte aux lettres. 
   
 - [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -61,13 +61,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et les heures de travail de la boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contient les jours et heures de la semaine de travail de l’utilisateur de boîte aux lettres.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod` <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. La valeur de texte représente le début du jour ouvré en nombre de minutes écoulées depuis le début du jour. Par exemple, une heure de début de 8 h 00. est représenté par 480 minutes.
+Une valeur de texte est requise. La valeur de texte représente le début de la journée de travail par le nombre de minutes écoulées depuis le début de la journée. Par exemple, l’heure de début est de 8 h 00. est représenté par 480 minutes.
   
-La plage de valeurs possibles pour cet élément est comprise entre 0 et 1440.
+La plage de valeurs possibles pour cet élément est de 0 à 1 440.
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetInboxRules
 api_type:
 - schema
 ms.assetid: 7a54992d-03a6-4afc-a2e4-dcdc9ce54194
 description: L'élément GetInboxRules définit une requête pour obtenir les règles de boîte de réception sur une boîte aux lettres dans le magasin du serveur.
-ms.openlocfilehash: 890592fd3f87fc5592a618a2febf28e4daf0dbe4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 5e93248cf074e9b57c33a3873cc8bef18a6f2009
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457927"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546244"
 ---
 # <a name="getinboxrules"></a>GetInboxRules
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

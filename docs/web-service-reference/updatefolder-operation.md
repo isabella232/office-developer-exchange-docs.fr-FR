@@ -5,27 +5,27 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - UpdateFolder
 api_type:
 - schema
 ms.assetid: 3494c996-b834-4813-b1ca-d99642d8b4e7
-description: 'L’opération UpdateFolder est utilisée pour modifier les propriétés d’un élément existant dans la Banque d’Exchange. Chaque opération UpdateFolder comprend les éléments suivants :'
-ms.openlocfilehash: fb894d9f42358b67f81e9fe8ae41ba61e6f46460
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: 'L’opération UpdateFolder est utilisée pour modifier les propriétés d’un élément existant dans la Exchange store. Chaque opération UpdateFolder se compose des opérations suivantes :'
+ms.openlocfilehash: be8e39e13681cea34e312158c348c60a94374bec
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467360"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541762"
 ---
 # <a name="updatefolder-operation"></a>Opération UpdateFolder
 
-L’opération UpdateFolder est utilisée pour modifier les propriétés d’un élément existant dans la Banque d’Exchange. Chaque opération UpdateFolder comprend les éléments suivants :
+L’opération UpdateFolder est utilisée pour modifier les propriétés d’un élément existant dans la Exchange store. Chaque opération UpdateFolder se compose des opérations suivantes :
   
 - Élément [FolderId](folderid.md) qui spécifie un dossier à mettre à jour. 
     
-- Chemin d’accès interne d’un élément dans le dossier, tel que spécifié par la forme Folder, qui spécifie les données à mettre à jour.
+- Chemin d’accès interne d’un élément dans le dossier, tel que spécifié par la forme du dossier, qui spécifie les données à mettre à jour.
     
 - Dossier qui contient la nouvelle valeur du champ mis à jour, si la mise à jour n’est pas une suppression.
     
@@ -35,15 +35,15 @@ Trois actions de mise à jour de base peuvent être effectuées sur un élément
   
 |**Action**|**Description**|
 |:-----|:-----|
-|Ajout  <br/> |L’action Append ajoute des données à une propriété existante. Il conserve les données qui s’y trouvent actuellement. Append n’est pas applicable à toutes les propriétés.  <br/> |
-|Set  <br/> |L’action Set remplace les données d’une propriété si celle-ci contient des données, ou crée la propriété et définit sa valeur si elle n’existe pas. L’action set n’est applicable qu’aux propriétés accessibles en écriture.  <br/> |
-|Supprimer  <br/> |L’action Supprimer supprime une propriété d’un dossier. Elle est différente de la définition d’une valeur vide. Lorsque vous avez terminé, la propriété n’existe pas pour le dossier. La méthode Delete n’est applicable qu’aux propriétés accessibles en écriture.  <br/> |
+|Ajout  <br/> |L’action Ajouter ajoute des données à une propriété existante. Il conserve les données qui sont actuellement là. Append n’est pas applicable à toutes les propriétés.  <br/> |
+|Set  <br/> |L’action de jeu remplace les données d’une propriété si elle contient des données, ou crée la propriété et définit sa valeur si elle n’existe pas. L’action définie s’applique uniquement aux propriétés accessibles en writable.  <br/> |
+|Supprimer  <br/> |L’action de suppression supprime une propriété d’un dossier. Cela est différent de la définition d’une valeur vide. Lorsque vous avez terminé, la propriété n’existe pas pour le dossier. La suppression s’applique uniquement aux propriétés accessibles en writable.  <br/> |
    
 ## <a name="updatefolder-request-example"></a>Exemple de requête UpdateFolder
 
 ### <a name="description"></a>Description
 
-L’exemple de requête UpdateFolder suivant montre comment mettre à jour le nom d’affichage d’un dossier. 
+L’exemple suivant d’une demande UpdateFolder montre comment mettre à jour un nom complet de dossier. 
   
 ### <a name="code"></a>Code
 
@@ -74,12 +74,12 @@ L’exemple de requête UpdateFolder suivant montre comment mettre à jour le no
 
 ### <a name="comments"></a>Commentaires
 
-Cet exemple montre comment modifier le nom d’affichage du dossier en NewFolderName.
+Cet exemple modifie le nom complet du dossier en NewFolderName.
   
 > [!NOTE]
-> Les valeurs des attributs **ID** et **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour des raisons de lisibilité. 
+> Les valeurs des **attributs Id** et **ChangeKey** de l’élément [FolderId](folderid.md) ont été raccourcies pour des raisons de lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -91,7 +91,7 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [FolderId](folderid.md)
     
-- [Mises à jour (dossier)](updates-folder.md)
+- [Updates (Folder)](updates-folder.md)
     
 - [SetFolderField](setfolderfield.md)
     
@@ -101,16 +101,16 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [DisplayName (chaîne)](displayname-string.md)
     
-Consultez le schéma pour les éléments supplémentaires que vous pouvez utiliser pour former une requête UpdateFolder.
+Consultez le schéma pour obtenir des éléments supplémentaires que vous pouvez utiliser pour former une demande UpdateFolder.
   
 > [!NOTE]
-> L’emplacement par défaut du schéma se trouve dans le répertoire virtuel EWS de l’ordinateur sur lequel le rôle serveur d’accès au client est installé. 
+> L’emplacement par défaut du schéma se trouve dans le répertoire virtuel EWS sur l’ordinateur sur qui le rôle serveur d’accès au client est installé. 
   
 ## <a name="updatefolder-response-example"></a>Exemple de réponse UpdateFolder
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande UpdateFolder. Dans cet exemple, la nouvelle clé de modification est renvoyée pour refléter l’État mis à jour du dossier.
+L’exemple suivant montre une réponse réussie à la demande UpdateFolder. Dans cet exemple, la nouvelle touche de modification est renvoyée pour refléter l’état mis à jour du dossier.
   
 ### <a name="code"></a>Code
 
@@ -145,7 +145,7 @@ L’exemple suivant montre une réponse réussie à la demande UpdateFolder. Dan
 ### <a name="comments"></a>Commentaires
 
 > [!NOTE]
-> L’ID de dossier et la clé de modification ont été raccourcies afin de préserver la lisibilité. 
+> L’ID de dossier et la touche de modification ont été raccourcis pour préserver la lisibilité. 
   
 L’ID de dossier renvoyé dans la réponse représente le dossier mis à jour.
   

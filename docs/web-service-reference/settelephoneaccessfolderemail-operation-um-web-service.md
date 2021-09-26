@@ -1,32 +1,32 @@
 ---
-title: Opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)
+title: Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SetTelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 2c92d914-bdee-4337-b3ea-0655fdb658e9
-description: L’opération SetTelephoneAccessFolderEmail définit le dossier à partir duquel la messagerie unifiée lira les messages à l’utilisateur par téléphone.
-ms.openlocfilehash: a2bb630f812ca811b4cbe68db1308dc18e5d3ba0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération SetTelephoneAccessFolderEmail définit le dossier à partir duquel la messagerie unifiée lit les messages à l’utilisateur par téléphone.
+ms.openlocfilehash: cf8e80e021d6467ba3a724cc0d04e165e00e8397
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544716"
 ---
-# <a name="settelephoneaccessfolderemail-operation-um-web-service"></a>Opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)
+# <a name="settelephoneaccessfolderemail-operation-um-web-service"></a>Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)
 
-L’opération SetTelephoneAccessFolderEmail définit le dossier à partir duquel la messagerie unifiée lira les messages à l’utilisateur par téléphone.
+L’opération SetTelephoneAccessFolderEmail définit le dossier à partir duquel la messagerie unifiée lit les messages à l’utilisateur par téléphone.
   
 ## <a name="settelephoneaccessfolderemail-request-example"></a>Exemple de requête SetTelephoneAccessFolderEmail
 
 ### <a name="description"></a>Description
 
-L’exemple de requête SetTelephoneAccessFolderEmail suivant montre comment créer une demande de définition du dossier à partir duquel la messagerie unifiée sera lue vers l’utilisateur par téléphone.
+L’exemple suivant d’une demande SetTelephoneAccessFolderEmail montre comment former une demande pour définir le dossier à partir duquel la messagerie unifiée sera lue à l’utilisateur par téléphone.
   
 ### <a name="code"></a>Code
 
@@ -41,11 +41,11 @@ L’exemple de requête SetTelephoneAccessFolderEmail suivant montre comment cr�
 </soap:Envelope>
 ```
 
-## <a name="successful-settelephoneaccessfolderemail-response-example"></a>Exemple de réponse SetTelephoneAccessFolderEmail réussi
+## <a name="successful-settelephoneaccessfolderemail-response-example"></a>Exemple de réponse SetTelephoneAccessFolderEmail réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse SetTelephoneAccessFolderEmail indique une réponse à la demande SetTelephoneAccessFolderEmail.
+L’exemple suivant d’une réponse SetTelephoneAccessFolderEmail affiche une réponse à la demande SetTelephoneAccessFolderEmail.
   
 ### <a name="code"></a>Code
 
@@ -62,9 +62,9 @@ L’exemple suivant de réponse SetTelephoneAccessFolderEmail indique une répon
 
 
 
-[SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
+[SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-um-web-service.md)
   
-[SetTelephoneAccessFolderEmailResponse (service Web de messagerie unifiée)](settelephoneaccessfolderemailresponse-um-web-service.md)
+[SetTelephoneAccessFolderEmailResponse (service web de messagerie unifiée)](settelephoneaccessfolderemailresponse-um-web-service.md)
   
-[base64FolderId (service Web de messagerie unifiée)](base64folderid-um-web-service.md)
+[base64FolderId (service web de messagerie unifiée)](base64folderid-um-web-service.md)
 

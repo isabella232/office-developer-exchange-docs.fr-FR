@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Entry
 api_type:
 - schema
 ms.assetid: e3d0a4d5-8af8-4607-aa2e-ef3111b63b55
 description: L’élément Entry représente un numéro de téléphone pour un contact.
-ms.openlocfilehash: 62f7091bb750dc7ca74b1e5637a437e2cdad4f1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f9f8f08c8d167614bfc5772d6d74ebee77234c70
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44459636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545243"
 ---
 # <a name="entry-phonenumber"></a>Entrée (PhoneNumber)
 
-L’élément **entry** représente un numéro de téléphone pour un contact. 
+**L’élément Entry** représente un numéro de téléphone pour un contact. 
   
 ```xml
 <Entry Key=""/>
@@ -36,7 +36,7 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**Key** <br/> | Identifie le numéro de téléphone. L’attribut key est de type **PhoneNumberKeyType**.<br/><br/> Les valeurs possibles pour cet attribut sont les suivantes :<br/><br/>- AssistantPhone  <br/>- BusinessFax  <br/>- BusinessPhone  <br/>- BusinessPhone2  <br/>-Callback  <br/>- CarPhone  <br/>- CompanyMainPhone  <br/>- HomeFax  <br/>-HomePhone  <br/>- HomePhone2  <br/>-RNIS  <br/>-MobilePhone  <br/>-OtherFax  <br/>-OtherTelephone  <br/>-Récepteur de radiomessagerie  <br/>- PrimaryPhone  <br/>-Radiotéléphone  <br/>-Télex  <br/>- TtyTddPhone  <br/> |
+|**Clé** <br/> | Identifie le numéro de téléphone. L’attribut Key est de type **PhoneNumberKeyType**.<br/><br/> Les valeurs possibles pour cet attribut sont les suivantes :<br/><br/>- AssistantPhone  <br/>- BusinessFax  <br/>- BusinessPhone  <br/>- BusinessPhone2  <br/>- Rappel  <br/>- CarPhone  <br/>- CompanyMainPhone  <br/>- HomeFax  <br/>- HomePhone  <br/>- HomePhone2  <br/>- Isdn  <br/>- MobilePhone  <br/>- OtherFax  <br/>- OtherTelephone  <br/>- Pager  <br/>- PrimaryPhone  <br/>- RadioPhone  <br/>- Telex  <br/>- TtyTddPhone  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,7 +50,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente un numéro de téléphone est requise si cet élément est utilisé.
+Une valeur texte qui représente un numéro de téléphone est requise si cet élément est utilisé.
   
 ## <a name="remarks"></a>Remarques
 

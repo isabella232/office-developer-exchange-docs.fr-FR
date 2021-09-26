@@ -5,35 +5,35 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteItem
 api_type:
 - schema
 ms.assetid: 3e26c416-fa12-476e-bfd2-5c1f4bb7b348
-description: L’opération DeleteItem supprime des éléments dans la Banque d’Exchange.
-ms.openlocfilehash: f068e08ef0d0f590c9ed8274f77d4dae9f942995
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération DeleteItem supprime les éléments de la Exchange store.
+ms.openlocfilehash: b62655b9046678d27ed0f24bc92d1840f3e3b343
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526934"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545411"
 ---
 # <a name="deleteitem-operation"></a>Opération DeleteItem
 
-L’opération **DeleteItem** supprime des éléments dans la Banque d’Exchange. 
+**L’opération DeleteItem** supprime les éléments de la Exchange store. 
   
 > [!NOTE]
-> Une réponse d’erreur qui inclut le code d’erreur ErrorCannotDeleteObject est renvoyée pour une opération **DeleteItem** lorsqu’un délégué tente de supprimer un élément dans la boîte aux lettres de l’entité en définissant l’DisposalType sur MoveToDeletedItems. Pour supprimer un élément en le déplacant vers le dossier éléments supprimés, un délégué doit utiliser l' [opération MoveItem](moveitem-operation.md). 
+> Une réponse d’erreur qui inclut le code d’erreur ErrorCannotDeleteObject est renvoyée pour une opération **DeleteItem** lorsqu’un délégué tente de supprimer un élément dans la boîte aux lettres du principal en délégant le paramètre DisposalType sur MoveToDeletedItems. Pour supprimer un élément en le déplaçant vers le dossier Éléments supprimés, un délégué doit utiliser [l’opération MoveItem](moveitem-operation.md). 
   
 ## <a name="deleteitem-request-example"></a>Exemple de requête DeleteItem
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **DeleteItem** suivant montre comment effectuer une suppression définitive d’un élément d’une boîte aux lettres. 
+L’exemple suivant **d’une demande DeleteItem** montre comment effectuer une suppression d’un élément d’une boîte aux lettres. 
   
 > [!NOTE]
-> L’ID de l’élément a été raccourcie afin de préserver la lisibilité. 
+> L’ID d’élément a été raccourci pour préserver la lisibilité. 
   
 ### <a name="code"></a>Code
 
@@ -51,7 +51,7 @@ L’exemple de requête **DeleteItem** suivant montre comment effectuer une supp
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -61,13 +61,13 @@ Les éléments suivants sont utilisés dans la demande :
     
 - [ItemId](itemid.md)
     
-Pour rechercher d’autres options pour le message de demande de l’opération **DeleteItem** , explorez la hiérarchie du schéma. Commencez par l’élément [DeleteItem](deleteitem.md) . 
+Pour rechercher d’autres options pour le message de demande de **l’opération DeleteItem,** explorez la hiérarchie de schéma. Commencez à [l’élément DeleteItem.](deleteitem.md) 
   
 ## <a name="successful-deleteitem-response"></a>Réponse DeleteItem réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **DeleteItem** . 
+L’exemple suivant montre une réponse réussie à **la demande DeleteItem.** 
   
 ### <a name="code"></a>Code
 
@@ -100,7 +100,7 @@ Les éléments suivants sont utilisés dans la réponse :
   
 - [ServerVersionInfo](serverversioninfo.md)
     
-- [Updateitemresponse](deleteitemresponse.md)
+- [DeleteItemResponse](deleteitemresponse.md)
     
 - [ResponseMessages](responsemessages.md)
     
@@ -108,13 +108,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-Pour rechercher d’autres options pour le message de réponse de l’opération **DeleteItem** , explorez la hiérarchie du schéma. Commencez par l’élément [updateitemresponse](deleteitemresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse de **l’opération DeleteItem,** explorez la hiérarchie de schéma. Commencez par [l’élément DeleteItemResponse.](deleteitemresponse.md) 
   
 ## <a name="deleteitem-error-response"></a>Réponse d’erreur DeleteItem
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande **DeleteItem** . L’erreur a été créée car l’opération a tenté de supprimer un élément qui n’a pas été trouvé dans la Banque d’Exchange. 
+L’exemple suivant montre une réponse d’erreur à **une demande DeleteItem.** L’erreur a été créée car l’opération a tenté de supprimer un élément qui n’a pas été trouvé dans Exchange store. 
   
 ### <a name="code"></a>Code
 
@@ -149,7 +149,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
   
 - [ServerVersionInfo](serverversioninfo.md)
     
-- [Updateitemresponse](deleteitemresponse.md)
+- [DeleteItemResponse](deleteitemresponse.md)
     
 - [ResponseMessages](responsemessages.md)
     
@@ -161,7 +161,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour rechercher d’autres options pour le message d’erreur de réponse de l’opération **DeleteItem** , explorez la hiérarchie du schéma. Commencez par l’élément [updateitemresponse](deleteitemresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse d’erreur de **l’opération DeleteItem,** explorez la hiérarchie du schéma. Commencez par [l’élément DeleteItemResponse.](deleteitemresponse.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

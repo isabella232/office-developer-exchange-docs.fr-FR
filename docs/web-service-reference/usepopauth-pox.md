@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 28f552d8-6bb8-49b4-a45c-b2053670f1cc
-description: L’élément UsePOPAuth indique si les informations d’authentification fournies pour un type de compte POP3 sont également utilisées pour le protocole SMTP (Simple Mail Transfer Protocol).
-ms.openlocfilehash: 8d5bfffaab31c382ad43915e18b8a7a2b2737c21
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément UsePOPAuth indique si les informations d’authentification fournies pour un type de compte POP3 sont également utilisées pour SMTP (Simple Mail Transfer Protocol).
+ms.openlocfilehash: 354c027bf40ddf30cda472eb4ca0d018dca64f9c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466506"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542623"
 ---
 # <a name="usepopauth-pox"></a>UsePOPAuth (POX)
 
-L’élément **UsePOPAuth** indique si les informations d’authentification fournies pour un type de compte POP3 sont également utilisées pour le protocole SMTP (Simple Mail Transfer Protocol). 
+**L’élément UsePOPAuth** indique si les informations d’authentification fournies pour un type de compte POP3 sont également utilisées pour SMTP (Simple Mail Transfer Protocol). 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,19 +50,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 où le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur Text indique si les informations d’authentification fournies pour un type de compte POP3 sont également utilisées pour SMTP. Les valeurs possibles sont **on** et **off**.
+La valeur texte indique si les informations d’authentification fournies pour un type de compte POP3 sont également utilisées pour SMTP. Les valeurs possibles sont **en cours** et **hors.**
   
 ## <a name="remarks"></a>Remarques
 
-L’élément **UsePOPAuth** est utilisé uniquement lorsque [type (POX)](type-pox.md) est SMTP. 
+**L’élément UsePOPAuth** est utilisé uniquement lorsque [type (POX)](type-pox.md) est SMTP. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

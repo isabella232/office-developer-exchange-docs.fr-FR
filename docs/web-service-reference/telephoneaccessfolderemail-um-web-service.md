@@ -1,30 +1,30 @@
 ---
-title: TelephoneAccessFolderEmail (service Web de messagerie unifiée)
+title: TelephoneAccessFolderEmail (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - TelephoneAccessFolderEmail
 api_type:
 - schema
 ms.assetid: 5d32ae22-bb9f-4352-a251-d516b66ff35b
-description: L’élément TelephoneAccessFolderEmail contient une valeur qui correspond à l’identificateur du dossier de messagerie à partir duquel la messagerie unifiée lira les messages sur un téléphone, comme contenu dans une réponse à une opération GetUMProperties (service Web de messagerie unifiée).
-ms.openlocfilehash: 8da4065921b736313d4bbf5bb96edb51761a4bdb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément TelephoneAccessFolderEmail contient une valeur qui contient l’identificateur du dossier de messagerie à partir duquel la messagerie unifiée lit les messages par téléphone, comme contenu dans une réponse à une demande d’opération GetUMProperties (service web de messagerie unifiée).
+ms.openlocfilehash: 2db1ca43168585d791d0d09a4042cf5af7a578e7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468627"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544506"
 ---
-# <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail (service Web de messagerie unifiée)
+# <a name="telephoneaccessfolderemail-um-web-service"></a>TelephoneAccessFolderEmail (service web de messagerie unifiée)
 
-L’élément **TelephoneAccessFolderEmail** contient une valeur qui correspond à l’identificateur du dossier de messagerie à partir duquel la messagerie unifiée lira les messages sur un téléphone, comme contenu dans une réponse à une [opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) . 
+**L’élément TelephoneAccessFolderEmail** contient une valeur qui contient l’identificateur du dossier de messagerie à partir duquel la messagerie unifiée lit les messages par téléphone, comme contenu dans une réponse à une demande d’opération [GetUMProperties (service web](getumproperties-operation-um-web-service.md) de messagerie unifiée). 
   
-[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
+[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md)
   
-[TelephoneAccessFolderEmail (service Web de messagerie unifiée)](telephoneaccessfolderemail-um-web-service.md)
+[TelephoneAccessFolderEmail (service web de messagerie unifiée)](telephoneaccessfolderemail-um-web-service.md)
   
 ```xml
 <TelephoneAccessFolderEmail/>
@@ -47,7 +47,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUMPropertiesResponse (service Web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md) <br/> |Définit une réponse à une [opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md) .  <br/> |
+|[GetUMPropertiesResponse (service web de messagerie unifiée)](getumpropertiesresponse-um-web-service.md) <br/> |Définit une réponse à une [demande d’opération GetUMProperties (service web de um).](getumproperties-operation-um-web-service.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -59,14 +59,14 @@ Une valeur de texte est requise.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération GetUMProperties (service Web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
+[Opération GetUMProperties (service web de messagerie unifiée)](getumproperties-operation-um-web-service.md)
   
-[Opération SetTelephoneAccessFolderEmail (service Web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
+[Opération SetTelephoneAccessFolderEmail (service web de messagerie unifiée)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

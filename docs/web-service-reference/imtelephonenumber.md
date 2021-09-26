@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78ed7503-7d65-45e8-b1b0-d26534217058
-description: L’élément ImTelephoneNumber représente le numéro de téléphone d’un contact qui est ajouté à un groupe de messagerie instantanée.
-ms.openlocfilehash: df2f089b6aef9dfe6cc8aa8f3a1748029b1a37d3
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ImTelephoneNumber représente le numéro de téléphone d’un contact ajouté à un groupe de messagerie instantanée.
+ms.openlocfilehash: e969ea2fbf5dd16e98ae5b9714980627ceeea5f1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542189"
 ---
 # <a name="imtelephonenumber"></a>ImTelephoneNumber
 
-L’élément **ImTelephoneNumber** représente le numéro de téléphone d’un contact qui est ajouté à un groupe de messagerie instantanée. 
+**L’élément ImTelephoneNumber** représente le numéro de téléphone d’un contact ajouté à un groupe de messagerie instantanée. 
   
 ```XML
 <ImTelephoneNumber></ImTelephoneNumber>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **ImTelephoneNumber** est le numéro de téléphone d’un contact. 
+La valeur texte de **l’élément ImTelephoneNumber** est le numéro de téléphone d’un contact. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 

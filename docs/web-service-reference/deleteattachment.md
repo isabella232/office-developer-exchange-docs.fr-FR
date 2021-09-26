@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteAttachment
 api_type:
 - schema
 ms.assetid: 43d0c1cb-92ca-4399-9b3a-acb2b5c22624
-description: L’élément DeleteAttachment est l’élément racine dans une demande de suppression d’une pièce jointe de la Banque d’Exchange.
-ms.openlocfilehash: ae8dd5abc1dced2645e579a62f1f57a66cbc9877
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément DeleteAttachment est l’élément racine d’une demande de suppression d’une pièce jointe du Exchange store.
+ms.openlocfilehash: 803bd748020dd459e7629825fb572d990adadf71
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457346"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545460"
 ---
 # <a name="deleteattachment"></a>DeleteAttachment
 
-L’élément **DeleteAttachment** est l’élément racine dans une demande de suppression d’une pièce jointe de la Banque d’Exchange. 
+**L’élément DeleteAttachment** est l’élément racine d’une demande de suppression d’une pièce jointe de la Exchange store. 
   
 ```xml
 <DeleteAttachment>
@@ -43,7 +43,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[AttachmentIds](attachmentids.md) <br/> |Contient un tableau d’identificateurs de pièces jointes qui sont utilisés pour supprimer les pièces jointes.  <br/> |
+|[AttachmentIds](attachmentids.md) <br/> |Contient un tableau d’identificateurs de pièces jointes utilisés pour supprimer les pièces jointes.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

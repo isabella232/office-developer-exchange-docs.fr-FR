@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 183f4a06-c056-4770-b00b-ad850b97e03d
-description: L’élément PreviewItemResponseShape contient le jeu de propriétés demandé à renvoyer dans une recherche de découverte.
-ms.openlocfilehash: 6f00849cdd564a45084b64704e36a6cd09c698f9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PreviewItemResponseShape contient le jeu de propriétés demandé à retourner dans une recherche de découverte.
+ms.openlocfilehash: 1ec65d40dc7ad70db3d488fa899877360bbba3f8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543050"
 ---
 # <a name="previewitemresponseshape"></a>PreviewItemResponseShape
 
-L’élément **PreviewItemResponseShape** contient le jeu de propriétés demandé à renvoyer dans une recherche de découverte. 
+**L’élément PreviewItemResponseShape** contient le jeu de propriétés demandé à retourner dans une recherche de découverte. 
   
 ```XML
 <PreviewItemResponseShape>
@@ -55,7 +55,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

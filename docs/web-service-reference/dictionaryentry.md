@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DictionaryEntry
 api_type:
 - schema
 ms.assetid: 531ea96a-d411-43e6-9fec-11fa2c959a30
 description: L’élément DictionaryEntry spécifie le contenu d’une propriété d’entrée de dictionnaire unique.
-ms.openlocfilehash: 4c5d4c037f0c97b26d518d2f1386f71b31fa2d1f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 4a9e481f3b9d6fc2d0ef739031042354ed717bee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545320"
 ---
 # <a name="dictionaryentry"></a>DictionaryEntry
 
-L’élément **DictionaryEntry** spécifie le contenu d’une propriété d’entrée de dictionnaire unique. 
+**L’élément DictionaryEntry** spécifie le contenu d’une propriété d’entrée de dictionnaire unique. 
   
 ```xml
 <DictionaryEntry>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DictionaryKey](dictionarykey.md) <br/> |Spécifie la clé de dictionnaire pour une propriété de dictionnaire.  <br/> |
-|[DictionaryValue](dictionaryvalue.md) <br/> |Spécifie la valeur de dictionnaire pour une propriété de dictionnaire.  <br/> |
+|[DictionaryKey](dictionarykey.md) <br/> |Spécifie la clé de dictionnaire d’une propriété de dictionnaire.  <br/> |
+|[DictionaryValue](dictionaryvalue.md) <br/> |Spécifie la valeur de dictionnaire d’une propriété de dictionnaire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 

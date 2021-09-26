@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OptionalAttendees
 api_type:
 - schema
 ms.assetid: e7c80c4d-3794-45e9-986f-6a8a687df0a4
 description: L’élément OptionalAttendees représente les participants qui ne sont pas tenus de participer à une réunion.
-ms.openlocfilehash: 9eeff7151042f26fe5b00b43ec16a27946680a9f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 66ccaf560d251be7a314d6abb9f9635c03a2a373
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468172"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543155"
 ---
 # <a name="optionalattendees"></a>OptionalAttendees
 
-L’élément **OptionalAttendees** représente les participants qui ne sont pas tenus de participer à une réunion. 
+**L’élément OptionalAttendees** représente les participants qui ne sont pas tenus de participer à une réunion. 
   
 ```xml
 <OptionalAttendees>
@@ -42,14 +42,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Participant](attendee.md) <br/> |Représente les participants et les ressources d’une réunion.  <br/> |
+|[Attendee](attendee.md) <br/> |Représente les participants et les ressources d’une réunion.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

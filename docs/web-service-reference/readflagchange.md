@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReadFlagChange
 api_type:
 - schema
 ms.assetid: 527bfe90-63d0-4b2f-97f7-7875b3a516b2
-description: L’élément ReadFlagChange est renvoyé dans les réponses à une opération SyncFolderItems lorsqu’un élément a été lu. Cette propriété est en lecture seule.
-ms.openlocfilehash: 354f8085a6ea5b738d8619e2ffeb0fbccefd51da
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReadFlagChange est renvoyé dans les réponses de l’opération SyncFolderItems lorsqu’un élément a été lu. Cette propriété est en lecture seule.
+ms.openlocfilehash: 8a03f32a54b2e9dd7e84bf77a01092f6bb3cbf19
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468305"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542910"
 ---
 # <a name="readflagchange"></a>ReadFlagChange
 
-L’élément **ReadFlagChange** est renvoyé dans les réponses à une [opération SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule. 
+**L’élément ReadFlagChange est** renvoyé dans les réponses de l’opération [SyncFolderItems](syncfolderitems-operation.md) lorsqu’un élément a été lu. Cette propriété est en lecture seule. 
   
 ```xml
 <ReadFlagChange>
@@ -44,17 +44,17 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Identifie l’élément pour lequel l’indicateur de lecture a été modifié.  <br/> |
-|[IsRead](isread.md) <br/> |Indique si l’indicateur de lecture a été défini sur **true**.  <br/> |
+|[IsRead](isread.md) <br/> |Indique si l’indicateur de lecture a été définie sur **true**.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Changes (éléments)](changes-items.md) <br/> |Contient un tableau de séquence de types de modifications qui représentent les types de différences entre les éléments sur le client et les éléments sur le serveur Exchange.  <br/> |
+|[Modifications (éléments)](changes-items.md) <br/> |Contient un tableau de séquences de types de modification qui représentent les types de différences entre les éléments sur le client et les éléments sur Exchange serveur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 

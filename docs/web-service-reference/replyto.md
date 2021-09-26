@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ReplyTo
 api_type:
 - schema
 ms.assetid: 6b6ae792-e2c4-4aa0-95cb-b49b446f1e08
-description: L’élément ReplyTo identifie un tableau d’adresses auxquelles les réponses doivent être envoyées.
-ms.openlocfilehash: 08f9edce76fd01111922a2a07d1a63e288a0c1ee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ReplyTo identifie un tableau d’adresses à laquelle les réponses doivent être envoyées.
+ms.openlocfilehash: 6121b545f252c4cc6668775e7219344309875027
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468326"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542818"
 ---
 # <a name="replyto"></a>ReplyTo
 
-L’élément **ReplyTo** identifie un tableau d’adresses auxquelles les réponses doivent être envoyées. 
+**L’élément ReplyTo** identifie un tableau d’adresses à laquelle les réponses doivent être envoyées. 
   
 ```xml
 <ReplyTo>
@@ -42,7 +42,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Boîte aux lettres](mailbox.md) <br/> |Identifie un objet de service d’annuaire Active Directory à extension messagerie auquel une réponse est envoyée.  <br/> |
+|[Boîte aux lettres](mailbox.md) <br/> |Identifie un objet de service d’annuaire Active Directory à messagerie auquel une réponse est envoyée.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -51,7 +51,7 @@ Aucune.
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[AcceptItem](acceptitem.md) <br/> |Représente une réponse à accepter à une demande de réunion.  <br/> |

@@ -5,40 +5,40 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AddDelegate
 api_type:
 - schema
 ms.assetid: 012d8cc5-648c-4ba0-a155-15c422b1e994
 description: L’opération AddDelegate ajoute un ou plusieurs délégués à la boîte aux lettres d’un principal et définit des autorisations d’accès spécifiques.
-ms.openlocfilehash: 80adbe71d69be1025dc9593c6a9002bc68fdcb76
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 687080c58a0dbde2ddb0f0049b96d543204c6018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543813"
 ---
 # <a name="adddelegate-operation"></a>Opération AddDelegate
 
-L’opération **AddDelegate** ajoute un ou plusieurs délégués à la boîte aux lettres d’un principal et définit des autorisations d’accès spécifiques. 
+**L’opération AddDelegate ajoute** un ou plusieurs délégués à la boîte aux lettres d’un principal et définit des autorisations d’accès spécifiques. 
   
 ## <a name="soap-headers"></a>En-têtes SOAP
 
-L’opération **AddDelegate** peut utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
+**L’opération AddDelegate peut** utiliser les en-têtes SOAP répertoriés et décrits dans le tableau suivant. 
   
 |**Header**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente.  <br/> |
+|Emprunt d’identité  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité.  <br/> |
 |MailboxCulture  <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture RFC3066 à utiliser pour accéder à la boîte aux lettres.  <br/> |
-|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération.  <br/> |
+|RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande.  <br/> |
    
 ## <a name="adddelegate-request-example"></a>Exemple de requête AddDelegate
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **AddDelegate** suivant montre une tentative d’octroi d’autorisations déléguées à user1 sur les dossiers appartenant à l’utilisateur 2. Utilisateur1 dispose d’autorisations au niveau de l’auteur pour user2's les autorisations de dossier de calendrier et de relecteur sur user2's dossier de contacts. Utilisateur1 ne reçoit pas de copies des messages de réunion et ne sera pas en mesure d’afficher les éléments privés dans la boîte aux lettres user2's. Les demandes de réunion seront envoyées à User1 et à utilisateur2. 
+L’exemple suivant d’une **demande AddDelegate** illustre une tentative d’accorder à l’utilisateur 1 des autorisations de délégué sur les dossiers dont est propriétaire user2. User1 se voir donner des autorisations au niveau de l’auteur sur le dossier Calendrier de l’utilisateur2 et des autorisations au niveau du réviseur sur le dossier Contacts de l’utilisateur2. User1 ne recevra pas de copies des messages de réunion et ne pourra pas afficher les éléments privés dans la boîte aux lettres de l’utilisateur 2. Les demandes de réunion sont envoyées à user1 et user2. 
   
 ### <a name="code"></a>Code
 
@@ -77,7 +77,7 @@ L’exemple de requête **AddDelegate** suivant montre une tentative d’octroi 
 
 ### <a name="description"></a>Description
 
-L’exemple suivant de réponse **AddDelegate** indique une réponse réussie à une demande **AddDelegate** . 
+L’exemple suivant **d’une réponse AddDelegate** affiche une réponse réussie à **une demande AddDelegate.** 
   
 ### <a name="code"></a>Code
 
@@ -122,7 +122,7 @@ L’exemple suivant de réponse **AddDelegate** indique une réponse réussie à
 
 ### <a name="description"></a>Description
 
-L’exemple suivant illustre la réponse à une demande d’ajout d’un délégué qui a déjà été ajouté à la boîte aux lettres de l’entité.
+L’exemple suivant montre la réponse à une demande d’ajout d’un délégué qui a déjà été ajouté à la boîte aux lettres du principal.
   
 ### <a name="code"></a>Code
 
@@ -158,7 +158,7 @@ L’exemple suivant illustre la réponse à une demande d’ajout d’un délég
 
 ### <a name="comments"></a>Commentaires
 
-Si le code de réponse ErrorDelegateAlreadyExists est renvoyé lorsque vous essayez d’ajouter un délégué, utilisez l' [opération GetDelegate](getdelegate-operation.md) pour obtenir toutes les autorisations actuelles pour le délégué, puis utilisez l' [opération UpdateDelegate](updatedelegate-operation.md) pour définir les nouvelles autorisations. 
+Si le code de réponse ErrorDelegateAlreadyExists est renvoyé lorsque vous essayez d’ajouter un délégué, utilisez l’opération [GetDelegate](getdelegate-operation.md) pour obtenir toutes les autorisations actuelles pour le délégué, puis utilisez l’opération [UpdateDelegate](updatedelegate-operation.md) pour définir les nouvelles autorisations. 
   
 ## <a name="see-also"></a>Voir aussi
 

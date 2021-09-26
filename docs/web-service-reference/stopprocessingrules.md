@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StopProcessingRules
 api_type:
 - schema
 ms.assetid: 5b89a2cb-ab26-444d-b3dd-2b3858872d63
 description: L'élément StopProcessingRules indique si les règles suivantes doivent être évaluées.
-ms.openlocfilehash: 9f068fd6290a39bbab6e3c1e29066c4fefefc64b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 21eaed44f6a599583e67d770cd783a479e612f87
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467899"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545845"
 ---
 # <a name="stopprocessingrules"></a>StopProcessingRules
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

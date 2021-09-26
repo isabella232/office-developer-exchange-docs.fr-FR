@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 417e994b-0a17-4c24-9527-04796b80b029
 description: L'opération de la méthode CreateItem permet de créer des contacts dans la banque d'informations Exchange.
-ms.openlocfilehash: e1d78392b94d328cf687655cd93e6c9568f6274f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: ced103046214830db868f4c62583e73297146d25
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457122"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545502"
 ---
 # <a name="createitem-operation-contact"></a>Opération CreateItem (contacts)
 
@@ -74,7 +74,7 @@ Une demande CreateItem SOAP valide l'exemple suivant montre comment créer un co
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -206,7 +206,7 @@ L'exemple suivant montre une requête qui contient le XML valides, mais les inst
 </soap:Envelope>
 ```
 
-## <a name="createitem-contact-error-response"></a>Réponse d’erreur CreateItem (contact)
+## <a name="createitem-contact-error-response"></a>Réponse d’erreur CreateItem (Contact)
 
 ### <a name="description"></a>Description
 

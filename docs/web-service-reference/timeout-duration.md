@@ -1,23 +1,23 @@
 ---
-title: Délai d’expiration (durée)
+title: Timeout (Duration)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb15f9a7-8ea5-4765-9877-762c3f98bf50
-description: L’élément Timeout spécifie la durée avant l’expiration d’un abonnement extrait par le serveur.
-ms.openlocfilehash: b5b0e77d794080cd8e0da1e14acf4cb059b80b08
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Timeout spécifie la durée avant le délai d’un abonnement pull par le serveur.
+ms.openlocfilehash: a5a9e094c25f609c0bcfa207ab96ae7f0877f43f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460280"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545768"
 ---
-# <a name="timeout-duration"></a>Délai d’expiration (durée)
+# <a name="timeout-duration"></a>Timeout (Duration)
 
-L’élément **timeout** spécifie la durée avant l’expiration d’un abonnement extrait par le serveur. 
+**L’élément Timeout** spécifie la durée avant le délai d’un abonnement pull par le serveur. 
   
 ```XML
 <Timeout></Timeout>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **timeout** est la durée, en minutes, avant qu’un abonnement extrait ne soit expiré par le serveur. La valeur minimale est 1 ; la valeur maximale est 1440. 
+La valeur texte de l’élément **Timeout** est la durée, en minutes, avant qu’un abonnement pull ne soit hors délai par le serveur. La valeur minimale est 1 ; la valeur maximale est 1 440. 
   
 ## <a name="remarks"></a>Remarques
 

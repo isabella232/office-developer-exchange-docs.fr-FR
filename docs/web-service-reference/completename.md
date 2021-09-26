@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CompleteName
 api_type:
 - schema
 ms.assetid: 22d30d1f-a84d-48bb-ad8f-ce13f8e76604
 description: L’élément CompleteName représente le nom complet d’un contact.
-ms.openlocfilehash: 9b5d2646ec37b41cd88d7de61573bfb4a8746cdf
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 873d372657089d21e86025cdf7812659ac505491
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527172"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543554"
 ---
 # <a name="completename"></a>CompleteName
 
-L’élément **CompleteName** représente le nom complet d’un contact. 
+**L’élément CompleteName** représente le nom complet d’un contact. 
   
 ```xml
 <CompleteName>
@@ -59,8 +59,8 @@ Aucune.
 |[Initials](initials.md) <br/> |Représente les initiales d'un contact.  <br/> |
 |[FullName](fullname.md) <br/> |Représente le nom complet d’un contact.  <br/> |
 |[Nickname](nickname.md) <br/> |Représente le surnom d'un contact.  <br/> |
-|[YomiFirstName](yomifirstname.md) <br/> |Représente le nom utilisé au Japon pour l’orthographe de recherche ou phonétique d’un prénom japonais.  <br/> |
-|[YomiLastName](yomilastname.md) <br/> |Représente le nom utilisé au Japon pour l’orthographe de recherche ou phonétique d’un nom de famille japonais.  <br/> |
+|[YomiFirstName](yomifirstname.md) <br/> |Représente le nom utilisé au Japon pour l’orthographe phonétique ou de recherche d’un prénom japonais.  <br/> |
+|[YomiLastName](yomilastname.md) <br/> |Représente le nom utilisé au Japon pour l’orthographe phonétique ou de recherche d’un nom japonais.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -70,7 +70,7 @@ Aucune.
    
 ## <a name="remarks"></a>Remarques
 
-La propriété CompleteName fait partie de la forme [par défaut](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Dans la version initiale de Microsoft Exchange Server 2007, la propriété CompleteName est renvoyée par l' [opération GetItem](getitem-operation.md), mais pas par l' [opération FindItem](finditem-operation.md). À partir d’Exchange Server 2007 Service Pack 1 (SP1), l' [opération FindItem](finditem-operation.md) renvoie également la propriété CompleteName avec la forme [par défaut](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) . Cette modification n’affecte pas le schéma. 
+La propriété CompleteName fait partie de la [forme Par](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) défaut. Dans la version initiale de Microsoft Exchange Server 2007, la propriété CompleteName est renvoyée par l’opération [GetItem,](getitem-operation.md)mais pas par [l’opération FindItem](finditem-operation.md). À partir Exchange Server 2007 Service Pack 1 (SP1), l’opération [FindItem](finditem-operation.md) renvoie également la propriété CompleteName avec la forme [Default.](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) Cette modification n’affecte pas le schéma. 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l'ordinateur qui exécute MicrosoftExchange Server 2007 pour lequel le rôle serveur d'accès au client est installé.
   

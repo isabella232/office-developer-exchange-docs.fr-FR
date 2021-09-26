@@ -5,19 +5,19 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
-description: L’élément VotingInformation spécifie les informations de vote sur un message de vote et un message de demande d’approbation whereApproveandRejectare les options de vote.
-ms.openlocfilehash: d946ba8c71d19c8cbb1befbe8c4e43e93590ccae
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément VotingInformation spécifie les informations de vote sur un message de vote et un message de demande d’approbation oùApproveandReject sont les options de vote.
+ms.openlocfilehash: 7e5aedddbfe97bba935aa56b3583e2fb8b081320
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467745"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543855"
 ---
 # <a name="votinginformation"></a>VotingInformation
 
-L’élément **VotingInformation** spécifie les informations de vote sur un message de vote et un message de demande d’approbation où « approuver » et « rejeter » sont les options de vote. 
+**L’élément VotingInformation** spécifie les informations de vote sur un message de vote et un message de demande d’approbation où « Approuver » et « Rejeter » sont les options de vote. 
   
 ```XML
 <VotingInformation
@@ -37,7 +37,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[UserOptions](useroptions.md)  |  [VotingResponse,](votingresponse.md)
+[UserOptions](useroptions.md)  |  [VotingResponse](votingresponse.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

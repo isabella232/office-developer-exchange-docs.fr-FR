@@ -1,23 +1,23 @@
 ---
-title: Nom
+title: Surnames
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87440a49-64e2-4d97-bb1d-443c04ad24e8
-description: L’élément surnames spécifie un tableau de valeurs de nom et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: 77c1278a5c7d946ded1eec9c11ffdba631f878b9
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Surnames spécifie un tableau de valeurs de nom de famille et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: bfc8bc93e08556796b5f34a9582273f9ef6587ea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545824"
 ---
-# <a name="surnames"></a>Nom
+# <a name="surnames"></a>Surnames
 
-L’élément **surnames** spécifie un tableau de valeurs de nom et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément Surnames** spécifie un tableau de valeurs de nom de famille et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <Surnames>

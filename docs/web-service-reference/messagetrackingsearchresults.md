@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MessageTrackingSearchResults
 api_type:
 - schema
 ms.assetid: 6bf36f37-c2b3-40c1-a4df-31573ed8642a
 description: L’élément MessageTrackingSearchResults contient une liste d’enregistrements qui correspondent aux critères de recherche.
-ms.openlocfilehash: 1e03cb135b7b2a125da1e29f7293d233f4e20ddb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: d478bec8a898e03a7f90c7aab4d89b13add14e0a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542063"
 ---
 # <a name="messagetrackingsearchresults"></a>MessageTrackingSearchResults
 
-L’élément **MessageTrackingSearchResults** contient une liste d’enregistrements qui correspondent aux critères de recherche. 
+**L’élément MessageTrackingSearchResults** contient une liste d’enregistrements qui correspondent aux critères de recherche. 
   
 ```XML
 <MessageTrackingSearchResults>
@@ -42,13 +42,13 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique [pour un élément FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’état et le résultat d’une [demande d’opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -64,7 +64,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

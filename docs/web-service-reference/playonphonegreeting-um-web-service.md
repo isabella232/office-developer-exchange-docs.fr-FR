@@ -1,28 +1,28 @@
 ---
-title: PlayOnPhoneGreeting (service Web de messagerie unifiée)
+title: PlayOnPhoneGreeting (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PlayOnPhoneGreeting
 api_type:
 - schema
 ms.assetid: 43eda596-3609-4e1b-8502-1db2636535cf
-description: L’élément PlayOnPhoneGreeting définit une demande de lecture d’un message d’accueil de la messagerie unifiée sur un téléphone.
-ms.openlocfilehash: 197e4ba671e1711b73b1e7c239339db589357581
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PlayOnPhoneGreeting définit une demande de lecture d’un message d’accueil de messagerie unifiée sur un téléphone.
+ms.openlocfilehash: e3b6a7720be6d046a379af460adbcc88725c0ea3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543120"
 ---
-# <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting (service Web de messagerie unifiée)
+# <a name="playonphonegreeting-um-web-service"></a>PlayOnPhoneGreeting (service web de messagerie unifiée)
 
-L’élément **PlayOnPhoneGreeting** définit une demande de lecture d’un message d’accueil de la messagerie unifiée sur un téléphone. 
+**L’élément PlayOnPhoneGreeting** définit une demande de lecture d’un message d’accueil de messagerie unifiée sur un téléphone. 
   
-[PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-um-web-service.md)
+[PlayOnPhoneGreeting (service web de messagerie unifiée)](playonphonegreeting-um-web-service.md)
   
 ```xml
 <PlayOnPhoneGreeting>
@@ -44,8 +44,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GreetingType (service Web de messagerie unifiée)](greetingtype-um-web-service.md) <br/> |Définit le type de message d’accueil à utiliser dans une demande d' [opération PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md) .  <br/> |
-|[dialString (service Web de messagerie unifiée)](dialstring-um-web-service.md) <br/> |Contient la valeur du numéro de téléphone à composer.  <br/> |
+|[GreetingType (service web de messagerie unifiée)](greetingtype-um-web-service.md) <br/> |Définit le type de message d’accueil à utiliser dans une [demande d’opération PlayOnPhoneGreeting (service web de um).](playonphonegreeting-operation-um-web-service.md)  <br/> |
+|[dialString (service web de messagerie unifiée)](dialstring-um-web-service.md) <br/> |Contient la valeur du numéro de téléphone à composer.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -61,12 +61,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération PlayOnPhoneGreeting (service Web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md)
+[Opération PlayOnPhoneGreeting (service web de messagerie unifiée)](playonphonegreeting-operation-um-web-service.md)
 

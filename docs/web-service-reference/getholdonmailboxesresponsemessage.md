@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f7d0d90-d418-4ce9-8cea-afe8f14728c3
 description: L’élément GetHoldOnMailboxesResponseMessage spécifie le message de réponse pour une demande GetHoldOnMailboxes.
-ms.openlocfilehash: 31832c11181bdca482e88419dd46ff1eacf77ea6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 124975139f901f6e54a29a447455b89fc0272aa7
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546279"
 ---
 # <a name="getholdonmailboxesresponsemessage"></a>GetHoldOnMailboxesResponseMessage
 
-L’élément **GetHoldOnMailboxesResponseMessage** spécifie le message de réponse pour une demande **GetHoldOnMailboxes** . 
+**L’élément GetHoldOnMailboxesResponseMessage** spécifie le message de réponse pour une **demande GetHoldOnMailboxes.** 
   
 ```XML
 <GetHoldOnMailboxesResponseMessage ResponseClass=" Success | Warning | Error ">
@@ -52,17 +52,17 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailboxHoldResult](mailboxholdresult.md) <br/> |Contient le résultat de la demande **GetHoldOnMailboxes** .  <br/> |
-|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé à une utilisation ultérieure.  <br/> |
+|[MailboxHoldResult](mailboxholdresult.md) <br/> |Contient le résultat de la **demande GetHoldOnMailboxes.**  <br/> |
+|[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Actuellement inutilisé et réservé pour une utilisation ultérieure.  <br/> |
 |[MessageText](messagetext.md) <br/> |Fournit une description textuelle de l’état de la réponse.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Fournit des informations supplémentaires sur la réponse aux erreurs.  <br/> |
-|[ResponseCode](responsecode.md) <br/> |Fournit des informations sur l’état de la demande.  <br/> |
+|[ResponseCode](responsecode.md) <br/> |Fournit des informations d’état sur la demande.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande de services Web Exchange (EWS).  <br/> |
+|[ResponseMessages](responsemessages.md) <br/> |Contient les messages de réponse pour une demande Exchange web services web (EWS).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -75,8 +75,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

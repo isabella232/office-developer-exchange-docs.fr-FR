@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FlagStatus
 api_type:
 - schema
 ms.assetid: d5907ec5-3a60-4d83-bf85-406c54f95eb7
-description: L’élément FlagStatus contient l’état de l’indicateur agrégé pour les éléments de conversation dans le dossier actif.
-ms.openlocfilehash: e65849c4909292c07450f8578fe7a7065c98ab44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément FlagStatus contient l’état d’indicateur agrégé pour les éléments de conversation dans le dossier actuel.
+ms.openlocfilehash: 08a37b8ecced5fa0bd2b5a5b2fd413b244d1b466
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545075"
 ---
 # <a name="flagstatus"></a>FlagStatus
 
-L’élément **FlagStatus** contient l’état de l’indicateur agrégé pour les éléments de conversation dans le dossier actif. 
+**L’élément FlagStatus** contient l’état d’indicateur agrégé pour les éléments de conversation dans le dossier actuel. 
   
 [FindConversationResponse](findconversationresponse.md)
   
@@ -56,13 +56,13 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **FlagStatus** est l’état d’indicateur d’agrégation pour les éléments de conversation dans le dossier actif. Les valeurs possibles sont les suivantes : 
+La valeur de texte de **l’élément FlagStatus** est l’état d’indicateur agrégé pour les éléments de conversation dans le dossier actuel. Les valeurs de texte possibles sont les suivantes : 
   
-- **NotFlagged** -indique l’État sans indicateur. 
+- **NotFlagged** : indique l’état non marqué. 
     
-- **Indicateur** -indique l’état de l’indicateur. 
+- **Marqué :** indique l’état marqué. 
     
-- **Complete** -indique l’état complet de l’indicateur. 
+- **Complet** : indique l’état complet de l’indicateur. 
     
 ## <a name="remarks"></a>Remarques
 

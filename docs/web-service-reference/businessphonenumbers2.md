@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f335ea74-9b5b-4224-9475-40ef33fe76bd
-description: L’élément BusinessPhoneNumbers2 spécifie un tableau d’éléments BusinessPhoneNumber2 et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: c8879e3f7ab996d7e761a72b7ce5f332a9006aed
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément BusinessPhoneNumbers2 spécifie un tableau d’éléments BusinessPhoneNumber2 et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: be4f2d80846f026b5f19eab1ae23fc4ad42fddc8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461603"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545600"
 ---
 # <a name="businessphonenumbers2"></a>BusinessPhoneNumbers2
 
-L’élément **BusinessPhoneNumbers2** spécifie un tableau d’éléments **BusinessPhoneNumber2** et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément BusinessPhoneNumbers2** spécifie un tableau d’éléments **BusinessPhoneNumber2** et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <BusinessPhoneNumbers2>
@@ -39,14 +39,14 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Valeur (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un numéro de téléphone et des informations de type et est associé à un ensemble d’attributions.  <br/> |
-|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau des attributions de l’élément **value** associé.  <br/> |
+|[Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md) <br/> |Spécifie un numéro de téléphone et des informations de type et est associé à un ensemble d’attributions.  <br/> |
+|[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Spécifie un tableau d’attributions pour son élément **Value** associé.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

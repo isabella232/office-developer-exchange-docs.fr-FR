@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsAutomaticForward
 api_type:
 - schema
 ms.assetid: 6876b849-a648-482e-8934-93eb5a0c465f
-description: L’élément IsAutomaticForward indique si les messages entrants doivent être des transferts automatiques afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 800d38bab30245d88b3c09609e6235e6de8fed25
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsAutomaticForward indique si les messages entrants doivent être des transferts automatiques pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: ca78a71b38e15f7444641979f67c5dbe23f288a1
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455575"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544942"
 ---
 # <a name="isautomaticforward"></a>IsAutomaticForward
 
-L’élément **IsAutomaticForward** indique si les messages entrants doivent être des transferts automatiques afin que la condition ou l’exception s’applique. 
+**L’élément IsAutomaticForward** indique si les messages entrants doivent être des transferts automatiques pour que la condition ou l’exception s’applique. 
   
 ```XML
 <IsAutomaticForward/> true | false</IsAutomaticForward>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être un transfert automatique afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être un transfert automatique afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être un avant automatique pour que la condition ou l’exception s’applique. La valeur **false indique** que le message ne doit pas être un avant automatique pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

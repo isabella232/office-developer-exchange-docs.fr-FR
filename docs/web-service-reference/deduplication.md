@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a38acc3d-29a8-4466-81a4-73cb30fe5e80
 description: L’élément Deduplication indique si le résultat de la recherche doit supprimer les éléments en double.
-ms.openlocfilehash: c39f980658aba7036cfabb3b51af5a41005f97b6
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 6178502d102b8c24b39d7276352c31740c62352c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543407"
 ---
 # <a name="deduplication"></a>Déduplication
 
-L’élément **Deduplication** indique si le résultat de la recherche doit supprimer les éléments en double. 
+**L’élément Deduplication** indique si le résultat de la recherche doit supprimer les éléments en double. 
   
 ```XML
 <Deduplication> true | false </Deduplication>
@@ -43,7 +43,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** pour l’élément Deduplication indique que les résultats de la recherche peuvent ne pas contenir d’éléments en double. La valeur **false** indique que les résultats de la recherche peuvent contenir des éléments en double. 
+Une valeur de texte **true pour** l’élément Deduplication indique que les résultats de la recherche peuvent ne pas contenir d’éléments en double. La valeur **false indique que** les résultats de la recherche peuvent contenir des éléments en double. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -57,7 +57,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma Types  <br/> |
-|Fichier de validation  <br/> |types. xsd  <br/> |
+|Fichier de validation  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> |false  <br/> |
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SuggestionDayResult
 api_type:
 - schema
 ms.assetid: 916b1cbb-f2e3-471d-84b0-e33467616652
-description: L’élément SuggestionDayResult représente un jour qui contient des heures de réunion suggérées.
-ms.openlocfilehash: af907b62acefb4913814907722b98d326bd0535b
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SuggestionDayResult représente un jour unique qui contient des heures de réunion suggérées.
+ms.openlocfilehash: fb24a8ce27b1f21448acc70a6c9b11927c77b8cc
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457990"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543960"
 ---
 # <a name="suggestiondayresult"></a>SuggestionDayResult
 
-L’élément **SuggestionDayResult** représente un jour qui contient des heures de réunion suggérées. 
+**L’élément SuggestionDayResult** représente un jour unique qui contient des heures de réunion suggérées. 
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
@@ -53,14 +53,14 @@ Aucune.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[Date](date.md) <br/> |Représente la date qui contient les heures de réunion suggérées.  <br/> |
-|[DayQuality](dayquality.md) <br/> |Représente la qualité du jour pour le temps de réunion suggéré.  <br/> |
+|[DayQuality](dayquality.md) <br/> |Représente la qualité de la journée pour contenir les heures de réunion suggérées de qualité.  <br/> |
 |[SuggestionArray](suggestionarray.md) <br/> |Contient un tableau de suggestions de réunion.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contient un tableau des suggestions de réunion organisées par date.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray` <br/> |
+|[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contient un tableau de suggestions de réunion organisées par date.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray` <br/> |
    
 ## <a name="remarks"></a>Remarques
 

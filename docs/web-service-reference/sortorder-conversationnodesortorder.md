@@ -1,23 +1,23 @@
 ---
-title: OrdreTri (ConversationNodeSortOrder)
+title: SortOrder (ConversationNodeSortOrder)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9c4295c-8089-4533-b92f-2051eae9afeb
 description: L’élément SortOrder spécifie l’ordre de tri utilisé pour le résultat d’une demande GetConversationItems.
-ms.openlocfilehash: 69d362b9f769749bcc9692825b64ff486e8b60a0
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 0091968f1359b0cf744525139b5c6a8cf1687d81
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530964"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544674"
 ---
-# <a name="sortorder-conversationnodesortorder"></a>OrdreTri (ConversationNodeSortOrder)
+# <a name="sortorder-conversationnodesortorder"></a>SortOrder (ConversationNodeSortOrder)
 
-L’élément **SortOrder** spécifie l’ordre de tri utilisé pour le résultat d’une demande **GetConversationItems** . 
+**L’élément SortOrder** spécifie l’ordre de tri utilisé pour le résultat d’une **demande GetConversationItems.** 
   
 ```XML
 <SortOrder>TreeOrderAscending | TreeOrderDescending | DateOrderAscending | DateOrderDescending</SortOrder>
@@ -42,7 +42,7 @@ Aucun.
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **SortOrder** est l’ordre dans lequel les conversations sont ordonnées. Une valeur de texte de **TreeOrderAscending** indique que les conversations sont classées en fonction de l’arborescence de conversation dans l’ordre croissant. Une valeur de texte de **TreeOrderDescending** indique que les conversations sont classées en fonction de l’arborescence de conversation dans l’ordre décroissant. Une valeur de texte de **DateOrderAscending** indique que les conversations sont classées en fonction de la date de conversation dans l’ordre croissant. Une valeur de texte de **DateOrderDescending** indique que les conversations sont classées en fonction de la date de conversation dans l’ordre décroissant. 
+La valeur de texte de **l’élément SortOrder** est l’ordre dans lequel les conversations sont triées. Une valeur de texte **TreeOrderAscending** indique que les conversations sont triées selon l’arborescence de conversation dans l’ordre croissant. Une valeur de texte **TreeOrderDescending** indique que les conversations sont ordonnées en fonction de l’arborescence de conversation dans l’ordre décroit. Une valeur de texte **DateOrderAscending** indique que les conversations sont triées par ordre croissant en fonction de la date de la conversation. Une valeur de texte **DateOrderDescending** indique que les conversations sont ordonnées en fonction de la date de conversation dans l’ordre décroit. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -56,7 +56,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PermissionLevel
 api_type:
 - schema
 ms.assetid: 87978600-3523-451e-a725-ef092c543e2a
-description: L’élément PermissionLevel représente le niveau d’autorisation dont dispose un utilisateur sur un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: e1e441c53b5c40c16051eb852a6b35a8af7476e2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément PermissionLevel représente le niveau d’autorisation d’un utilisateur sur un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 48b8db48afe6ced137acceeade2911a044298d75
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458039"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544835"
 ---
 # <a name="permissionlevel"></a>PermissionLevel
 
-L’élément **permissionLevel** représente le niveau d’autorisation dont dispose un utilisateur sur un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément PermissionLevel** représente le niveau d’autorisation d’un utilisateur sur un dossier. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <PermissionLevel>None or Owner or PublishingEditor or Editor or PublishingAuthor or Author or NoneditingAuthor or Reviewer or Contributor or Custom</PermissionLevel>
@@ -48,19 +48,19 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs possibles pour l’élément **permissionLevel** . 
+Le tableau suivant répertorie les valeurs possibles pour **l’élément PermissionLevel.** 
   
 **Valeurs de texte de l’élément PermissionLevel**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |Indique que l’utilisateur ne dispose pas d’autorisations sur le dossier.  <br/> |
-|Propriétaire  <br/> |Indique que l’utilisateur peut créer, lire, modifier et supprimer tous les éléments du dossier, et créer des sous-dossiers. L’utilisateur est le propriétaire du dossier et le contact du dossier.  <br/> |
+|Aucun  <br/> |Indique que l’utilisateur n’a pas d’autorisations sur le dossier.  <br/> |
+|Propriétaire  <br/> |Indique que l’utilisateur peut créer, lire, modifier et supprimer tous les éléments du dossier, et créer des sous-dossiers. L’utilisateur est à la fois le propriétaire du dossier et le contact du dossier.  <br/> |
 |PublishingEditor  <br/> |Indique que l’utilisateur peut créer, lire, modifier et supprimer tous les éléments du dossier, et créer des sous-dossiers.  <br/> |
 |Éditeur  <br/> |Indique que l’utilisateur peut créer, lire, modifier et supprimer tous les éléments du dossier.  <br/> |
-|PublishingAuthor  <br/> |Indique que l’utilisateur peut créer et lire tous les éléments du dossier, modifier et supprimer uniquement les éléments que l’utilisateur crée et créer des sous-dossiers.  <br/> |
+|PublishingAuthor  <br/> |Indique que l’utilisateur peut créer et lire tous les éléments du dossier, modifier et supprimer uniquement les éléments créés par l’utilisateur et créer des sous-dossiers.  <br/> |
 |Auteur  <br/> |Indique que l’utilisateur peut créer et lire tous les éléments du dossier, et modifier et supprimer uniquement les éléments créés par l’utilisateur.  <br/> |
-|Noneditingauthorcreateitems  <br/> |Indique que l’utilisateur peut créer et lire tous les éléments du dossier, et supprimer uniquement les éléments créés par l’utilisateur.  <br/> |
+|NoneditingAuthor  <br/> |Indique que l’utilisateur peut créer et lire tous les éléments du dossier et supprimer uniquement les éléments créés par l’utilisateur.  <br/> |
 |Relecteur  <br/> |Indique que l’utilisateur peut lire tous les éléments du dossier.  <br/> |
 |Collaborateur  <br/> |Indique que l’utilisateur peut créer des éléments dans le dossier. Le contenu du dossier n’apparaît pas.  <br/> |
 |Personnalisé  <br/> |Indique que l’utilisateur dispose d’autorisations d’accès personnalisées sur le dossier.  <br/> |

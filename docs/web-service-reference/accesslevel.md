@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09475586-00fa-4e82-a915-5ca263ab4d1c
-description: L’élément AccessLevel spécifie le niveau d’accès d’une réunion en ligne.
-ms.openlocfilehash: 3c1375ef37ea666c6c4fafce7daa46ae0d0a2696
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément AccessLevel spécifie le niveau d’accès pour une réunion en ligne.
+ms.openlocfilehash: f1c85579affe7d1142b22a890808bceeb8f82d38
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462338"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544415"
 ---
 # <a name="accesslevel"></a>AccessLevel
 
-L’élément **AccessLevel** spécifie le niveau d’accès d’une réunion en ligne. 
+**L’élément AccessLevel** spécifie le niveau d’accès pour une réunion en ligne. 
   
 ```XML
 <AccessLevel/>
@@ -40,19 +40,19 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[OnlineMeetingSettings](onlinemeetingsettings.md) <br/> |Spécifie les paramètres pour les réunions en ligne.  <br/> |
+|[OnlineMeetingSettings](onlinemeetingsettings.md) <br/> |Spécifie les paramètres des réunions en ligne.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Le tableau suivant répertorie les valeurs de texte de l’élément **AccessLevel** . 
+Le tableau suivant répertorie les valeurs de texte de **l’élément AccessLevel.** 
   
 **Valeurs de texte de l’élément AccessLevel**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
 |Tout le monde  <br/> |Le niveau d’accès est ouvert à tous.  <br/> |
-|Interne  <br/> |Le niveau d’accès est uniquement interne.  <br/> |
-|Vite  <br/> |Le niveau d’accès est invités uniquement.  <br/> |
+|Interne  <br/> |Le niveau d’accès est interne uniquement.  <br/> |
+|Invité  <br/> |Le niveau d’accès est invité uniquement pour les participants.  <br/> |
 |Verrouillé  <br/> |Le niveau d’accès est verrouillé.  <br/> |
    
 ## <a name="remarks"></a>Remarques

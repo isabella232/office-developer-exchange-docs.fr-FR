@@ -1,24 +1,24 @@
 ---
-title: Nom (SOAP)
+title: Name (SOAP)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: dce6d823-dc33-4a47-babe-6370a15ac7b4
 description: L’élément Name représente le nom d’un paramètre.
-ms.openlocfilehash: 74e6d6b59d972d7230c23b38cd3f4a8591401bbd
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 39bb2b6bbf7e29dedb13a9bf828f130c076dfb6b
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541993"
 ---
-# <a name="name-soap"></a>Nom (SOAP)
+# <a name="name-soap"></a>Name (SOAP)
 
-L’élément **Name** représente le nom d’un paramètre. 
+**L’élément Name** représente le nom d’un paramètre. 
   
 ```XML
 <Name/>
@@ -42,18 +42,18 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Contient les paramètres de domaine qui sont renvoyés par la demande [SOAP (GetDomainSettings Operation)](getdomainsettings-operation-soap.md) .  <br/> |
+|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Contient les paramètres de domaine renvoyés par la [demande d’opération GetDomainSettings (SOAP).](getdomainsettings-operation-soap.md)  <br/> |
 |[DomainStringSetting (SOAP)](domainstringsetting-soap.md) <br/> |Représente un paramètre de domaine dont la valeur est de type chaîne.  <br/> |
-|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Représente une liste de relations d’organisation pour une seule organisation.  <br/> |
+|[OrganizationRelationshipSettings (SOAP)](organizationrelationshipsettings-soap.md) <br/> |Représente une liste de relations organisationnelles pour une seule organisation.  <br/> |
 |[UserSetting (SOAP)](usersetting-soap.md) <br/> |Représente un paramètre utilisateur unique.  <br/> |
-|[ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |Représente une collection de paramètres de connexion de protocole de serveur.  <br/> |
-|[StringSetting (SOAP)](stringsetting-soap.md) <br/> |Représente un paramètre utilisateur qui définit la valeur de type String.  <br/> |
-|[WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md) <br/> |Représente un paramètre utilisateur qui est une collection d’URL de client Web Exchange.  <br/> |
-|[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |Contient une collection de paramètres de boîte aux lettres de substitution.  <br/> |
+|[ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md) <br/> |Représente une collection de paramètres de connexion de protocole serveur.  <br/> |
+|[StringSetting (SOAP)](stringsetting-soap.md) <br/> |Représente un utilisateur qui a pour valeur une chaîne de type.  <br/> |
+|[WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md) <br/> |Représente un paramètre utilisateur qui est une collection d’URL Exchange client Web.  <br/> |
+|[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md) <br/> |Contient une collection de paramètres de boîte aux lettres de remplacement.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **Name** est le nom d’un paramètre. 
+La valeur de texte de **l’élément Name** est le nom d’un paramètre. 
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -61,7 +61,7 @@ La valeur de texte de l’élément **Name** est le nom d’un paramètre.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

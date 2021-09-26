@@ -4,21 +4,21 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: f3d37f5a-c9ea-4ed9-a011-94d33bda64d1
 description: L’élément DomainSettings représente les paramètres de domaine qui ont été envoyés dans une demande de découverte automatique ou renvoyés par une réponse de découverte automatique.
-ms.openlocfilehash: 67e3753b0cf5c7c653664ff087f697ce7ae2b7a4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 9024421eed20b9a9e642b3b0147699c57fcaaa79
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544177"
 ---
 # <a name="domainsettings-soap"></a>DomainSettings (SOAP)
 
-L’élément **DomainSettings** représente les paramètres de domaine qui ont été envoyés dans une demande de découverte automatique ou renvoyés par une réponse de découverte automatique. 
+**L’élément DomainSettings** représente les paramètres de domaine qui ont été envoyés dans une demande de découverte automatique ou renvoyés par une réponse de découverte automatique. 
   
 ```XML
 <DomainSettings>
@@ -39,7 +39,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Contient les paramètres de domaine qui sont renvoyés par une demande [SOAP (GetDomainSettings Operation)](getdomainsettings-operation-soap.md) .  <br/> |
+|[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Contient les paramètres de domaine renvoyés par une [demande d’opération GetDomainSettings (SOAP).](getdomainsettings-operation-soap.md)  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -57,7 +57,7 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Nom du schéma  <br/> |Schéma de découverte automatique  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

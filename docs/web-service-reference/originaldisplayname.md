@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a5289b7-a631-4c24-ae46-b86dd72f15f9
-description: L’élément OriginalDisplayName contient le nom d’affichage d’origine associé à une adresse de messagerie.
-ms.openlocfilehash: 8808b9b45b0e0c009ff884129631f6aabde541e7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OriginalDisplayName contient le nom complet d’origine associé à une adresse de messagerie.
+ms.openlocfilehash: bcb1b22115bd9e7773f3f264dbf4cc7069fed383
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44462380"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544009"
 ---
 # <a name="originaldisplayname"></a>OriginalDisplayName
 
-L’élément **OriginalDisplayName** contient le nom d’affichage d’origine associé à une adresse de messagerie. 
+**L’élément OriginalDisplayName** contient le nom complet d’origine associé à une adresse de messagerie. 
   
 ```XML
 <OriginalDisplayName></OriginalDisplayName>
@@ -38,11 +38,11 @@ Aucun.
   
 ### <a name="parent-elements"></a>Éléments parents
 
-[Envoyeras](sendingas.md)  |  [Boîte aux lettres](mailbox.md)  |  [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [RoomList](roomlist.md)  |  [Actionas](actingas.md)  |  [Expéditeur (EmailAddressType)](sender-emailaddresstype.md)  |  [PurportedSender](purportedsender.md)  |  [Destinataire](recipient.md)  |  [FederatedDeliveryMailbox](federateddeliverymailbox.md)  |  [RecipientFilter](recipientfilter.md)  |  [Address (EmailAddressType)](address-emailaddresstype.md)  |  [ID (EmailAddressType)](id-emailaddresstype.md)  |  [Valeur (EmailAddressType)](value-emailaddresstype.md)
+[SendingAs](sendingas.md)  |  [Boîte aux lettres](mailbox.md)  |  [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)  |  [RoomList](roomlist.md)  |  [ActingAs](actingas.md)  |  [Sender (EmailAddressType)](sender-emailaddresstype.md)  |  [PurportedSender](purportedsender.md)  |  [Destinataire](recipient.md)  |  [FederatedDeliveryMailbox](federateddeliverymailbox.md)  |  [RecipientFilter](recipientfilter.md)  |  [Address (EmailAddressType)](address-emailaddresstype.md)  |  [ID (EmailAddressType)](id-emailaddresstype.md)  |  [Value (EmailAddressType)](value-emailaddresstype.md)
   
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de l’élément **OriginalDisplayName** est le nom d’affichage d’origine associé à une adresse de messagerie. 
+La valeur de texte de **l’élément OriginalDisplayName** est le nom complet d’origine associé à une adresse de messagerie. 
   
 ## <a name="remarks"></a>Remarques
 

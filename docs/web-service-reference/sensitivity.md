@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Sensitivity
 api_type:
 - schema
 ms.assetid: d872423a-c26e-4675-9028-23361fb4a43d
-description: L’élément Sensitivity indique le niveau de confidentialité d’un élément.
-ms.openlocfilehash: 92352e59da9b5f0e51b650d2a6fb36575f6542be
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Sensitivity indique le niveau de sensibilité d’un élément.
+ms.openlocfilehash: 302d88b949015fd007556f2150c1435b31c8506c
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466541"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546055"
 ---
 # <a name="sensitivity"></a>Niveau de confidentialité
 
-L’élément **Sensitivity** indique le niveau de confidentialité d’un élément. 
+**L’élément Sensitivity** indique le niveau de sensibilité d’un élément. 
   
 ```XML
 <Sensitivity/>
@@ -54,7 +54,7 @@ Aucun.
 |[Élément](item.md) <br/> |Représente un élément Exchange générique.  <br/> |
 |[MeetingCancellation](meetingcancellation.md) <br/> |Représente une annulation de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingMessage](meetingmessage.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une demande de réunion dans la banque d'informations Exchange.  <br/> |
 |[MeetingResponse](meetingresponse.md) <br/> |Représente une réponse à une réunion dans la banque d'informations Exchange.  <br/> |
 |[Message](message-ex15websvcsotherref.md) <br/> |Représente un message électronique Exchange.  <br/> |
 |[RemoveItem](removeitem.md) <br/> |Supprime un élément de la banque d'informations Exchange.  <br/> |
@@ -63,11 +63,11 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
+Une valeur de texte est requise. Voici les valeurs de texte possibles pour cet élément :
   
 - Normal
     
-- Personnelle
+- Personnel
     
 - Private
     

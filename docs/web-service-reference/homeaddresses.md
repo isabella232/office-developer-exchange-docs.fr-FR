@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57fb1b9d-2ba8-4359-ae79-35c0d56a2d0f
-description: L’élément HomeAddresses spécifie un tableau d’adresses personnelles et les identificateurs de leurs attributions sources pour le personnage associé.
-ms.openlocfilehash: d6a1808bf000ac8bca1e2ce7865aa099037c5a5d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément HomeAddresses spécifie un tableau d’adresses de base et les identificateurs de leurs attributions source pour le personnage associé.
+ms.openlocfilehash: e0a538b1aa7414adafcf0a388431a1690c4cda65
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44460889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542287"
 ---
 # <a name="homeaddresses"></a>HomeAddresses
 
-L’élément **HomeAddresses** spécifie un tableau d’adresses personnelles et les identificateurs de leurs attributions sources pour le personnage associé. 
+**L’élément HomeAddresses** spécifie un tableau d’adresses de base et les identificateurs de leurs attributions source pour le personnage associé. 
   
 ```XML
 <HomeAddresses>
@@ -44,7 +44,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Persona](persona.md) <br/> |Spécifie un ensemble de données Persona renvoyées par une demande **GetPersona** .  <br/> |
+|[Persona](persona.md) <br/> |Spécifie un ensemble de données de personnage renvoyées par une **demande GetPersona.**  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

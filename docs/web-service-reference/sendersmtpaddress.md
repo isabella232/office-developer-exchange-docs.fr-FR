@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - SenderSmtpAddress
 api_type:
 - schema
 ms.assetid: e39c7df7-4bfa-455f-b4bb-1f1d05398eec
 description: L’élément SenderSmtpAddress représente l’adresse de messagerie SMTP correspondant à la boîte aux lettres qui contient le dossier qui sera partagé.
-ms.openlocfilehash: 73047dcecfbccb55d74e373891c3154bc7baeeba
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 09a0c577850581c7c67c6fff241a5d848421ed71
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546090"
 ---
 # <a name="sendersmtpaddress"></a>SenderSmtpAddress
 
-L’élément **SenderSmtpAddress** représente l’adresse de messagerie SMTP correspondant à la boîte aux lettres qui contient le dossier qui sera partagé. 
+**L’élément SenderSmtpAddress** représente l’adresse de messagerie SMTP correspondant à la boîte aux lettres qui contient le dossier qui sera partagé. 
   
 ```xml
 <SenderSmtpAddress/>
@@ -44,7 +44,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetSharingMetadata](getsharingmetadata.md) <br/> |Définit une demande pour obtenir un jeton d’authentification opaque qui identifie l’invitation de partage.  <br/> |
+|[GetSharingMetadata](getsharingmetadata.md) <br/> |Définit une demande d’obtenir un jeton d’authentification opaque qui identifie l’invitation de partage.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -52,7 +52,7 @@ Une valeur de texte qui représente une adresse SMTP est requise.
   
 ## <a name="remarks"></a>Remarques
 
-Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services Web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur lequel le rôle de serveur d’accès au client est installé.
+Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange de l’ordinateur qui exécute Microsoft Exchange Server sur qui le rôle serveur d’accès au client est installé.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
@@ -60,7 +60,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

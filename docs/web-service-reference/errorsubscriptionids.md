@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ErrorSubscriptionIds
 api_type:
 - schema
 ms.assetid: e64e76ff-4d98-4082-9acc-a1114ae45f44
 description: L’élément ErrorSubscriptionIds contient un tableau d’ID d’abonnement non valides.
-ms.openlocfilehash: bdc5c86560800464d677a9043607bed3f7872e32
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 7a84a945991e0c002701586e21f5e8612c884334
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44526185"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545208"
 ---
 # <a name="errorsubscriptionids"></a>ErrorSubscriptionIds
 
-L’élément **ErrorSubscriptionIds** contient un tableau d’ID d’abonnement non valides. 
+**L’élément ErrorSubscriptionIds contient** un tableau d’ID d’abonnement non valides. 
   
 ```xml
 <ErrorSubscriptionIds>
@@ -48,7 +48,7 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération GetStreamingEvents](getstreamingevents-operation.md) .  <br/> |
+|[GetStreamingEventsResponseMessage](getstreamingeventsresponsemessage.md) <br/> |Contient l’état et le résultat d’une [demande d’opération GetStreamingEvents](getstreamingevents-operation.md) unique.  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -63,8 +63,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages et https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Nom du schéma  <br/> |Schéma des messages ; Schéma de types  <br/> |
-|Fichier de validation  <br/> |Messages. xsd ; Types. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages ; Schéma types  <br/> |
+|Fichier de validation  <br/> |Messages.xsd; Types.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

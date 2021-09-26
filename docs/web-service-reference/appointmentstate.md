@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - AppointmentState
 api_type:
 - schema
 ms.assetid: ab3f5d04-ace1-4a15-9107-cefa6c41abc7
 description: L’élément AppointmentState spécifie l’état du rendez-vous.
-ms.openlocfilehash: 8b0e827d02e9051f31d43199503dc286c50e2125
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: f984bbd5a1319a6051a3394ed04d56deabbb2c5a
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44463474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544281"
 ---
 # <a name="appointmentstate"></a>AppointmentState
 
-L’élément **AppointmentState** spécifie l’état du rendez-vous. 
+**L’élément AppointmentState** spécifie l’état du rendez-vous. 
   
 ```XML
 <AppointmentState/>
@@ -45,20 +45,20 @@ Aucun.
 |**Élément**|**Description**|
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Représente un élément de calendrier Exchange.  <br/> |
-|[Propriété meetingrequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
+|[MeetingRequest](meetingrequest.md) <br/> |Représente une réunion dans la banque d'informations Exchange.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Cet élément contient une valeur de texte qui représente Set bits. Il s’agit d’une forme entière. Cet élément est en lecture seule. Elle sera renvoyée uniquement dans une réponse.
+Cet élément contient une valeur de texte qui représente les bits de jeu. Il s’agit d’un formulaire de type integer. Cet élément est en lecture seule. Elle sera renvoyée uniquement dans une réponse.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur entière renvoyée représente le masque de binaire d’état de rendez-vous. Le tableau suivant décrit chaque bit.
+La valeur d’integer renvoyée représente le masque de bits de l’état du rendez-vous. Le tableau suivant décrit chaque bit.
   
-|**Name**|**Légèrement**|**Description**|
+|**Name**|**Bit**|**Description**|
 |:-----|:-----|:-----|
-|Aucun  <br/> |0x0000  <br/> |Aucun indicateur n’a été défini. Il est utilisé uniquement pour un rendez-vous qui n’inclut pas de participants.  <br/> |
-|Satisfaire  <br/> |0x0001  <br/> |Ce rendez-vous est une réunion.  <br/> |
+|Aucun  <br/> |0x0000  <br/> |Aucun indicateur n’a été définie. Cette fonction est utilisée uniquement pour un rendez-vous qui n’inclut pas de participants.  <br/> |
+|Réunion  <br/> |0x0001  <br/> |Ce rendez-vous est une réunion.  <br/> |
 |Received  <br/> |0x0002  <br/> |Ce rendez-vous a été reçu.  <br/> |
 |Annulé  <br/> |0x0004  <br/> |Ce rendez-vous a été annulé.  <br/> |
    

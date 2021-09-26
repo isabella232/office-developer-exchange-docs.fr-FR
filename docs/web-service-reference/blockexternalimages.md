@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c754dfc-a9e9-4272-9b5f-5fe3db537e62
 description: L’élément BlockExternalImages spécifie si les images externes sont bloquées dans les corps de texte HTML.
-ms.openlocfilehash: 73342316024ebe476a0e35f14157befc80edcf83
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 82ddb7e53f351324783fa39e3b76c9c0534b8193
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543582"
 ---
 # <a name="blockexternalimages"></a>BlockExternalImages
 
-L’élément **BlockExternalImages** spécifie si les images externes sont bloquées dans les corps de texte html. 
+**L’élément BlockExternalImages spécifie** si les images externes sont bloquées dans les corps de texte HTML. 
   
 ```XML
 <BlockExternalImages> true | false </BlockExternalImages>
@@ -40,12 +40,12 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> |Identifie les propriétés de dossier à inclure dans la réponse GetFolder, FindFolder ou Opérationsyncfolderhierarchy.  <br/> |
-|[ItemShape](itemshape.md) <br/> |Identifie les propriétés d’élément et le contenu à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> |
+|[FolderShape](foldershape.md) <br/> |Identifie les propriétés de dossier à inclure dans la réponse GetFolder, FindFolder ou SyncFolderHierarchy.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifie les propriétés et le contenu de l’élément à inclure dans une réponse GetItem, FindItem ou SyncFolderItems.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte de **true** pour l’élément **BlockExternalImages** indique que les images externes sont bloquées dans les corps HTML. La valeur **false** indique que les images externes sont autorisées. 
+Une valeur de texte **true pour** **l’élément BlockExternalImages** indique que les images externes sont bloquées dans les corps HTML. La valeur **false indique** que les images externes sont autorisées. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -59,7 +59,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Nom du schéma  <br/> |Schéma type  <br/> |
-|Validation File  <br/> |types. xsd  <br/> |
+|Validation File  <br/> |types.xsd  <br/> |
 |Peut être vide  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi

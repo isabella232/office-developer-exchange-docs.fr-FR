@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c39744ea-0cee-4954-8653-8279d6b10161
-description: L’élément URLs spécifie un tableau d’URL qui sont le résultat d’une extraction d’entité à partir d’un élément dans la boîte aux lettres.
-ms.openlocfilehash: 0d30c05c23f8d2c9617244c40dc36f6faa222312
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Urls spécifie un tableau d’URL qui sont le résultat de l’extraction d’entités à partir d’un élément de la boîte aux lettres.
+ms.openlocfilehash: 50f3af799afddc8af14f54d47856b19b0e0bfd33
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44466527"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542714"
 ---
 # <a name="urls-arrayofurlentitiestype"></a>URL (ArrayOfUrlEntitiesType)
 
-L’élément **URLs** spécifie un tableau d’URL qui sont le résultat d’une extraction d’entité à partir d’un élément dans la boîte aux lettres. 
+**L’élément Urls** spécifie un tableau d’URL qui sont le résultat de l’extraction d’entités à partir d’un élément de la boîte aux lettres. 
   
 ```XML
 <Urls>

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ConvertId
 api_type:
 - schema
 ms.assetid: 9684c22c-29d4-4f7f-befc-8cd41da56d38
 description: L’élément ConvertId définit une demande de conversion des identificateurs d’élément et de dossier entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: d421baf1f29fb59a8c6eb2b09e1fa0e8a38ffaa4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: fe7d46697ba72ba6458136541488f5cd498169f4
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44452537"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545558"
 ---
 # <a name="convertid"></a>ConvertId
 
-L’élément **ConvertId** définit une demande de conversion des identificateurs d’élément et de dossier entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément ConvertId** définit une demande de conversion des identificateurs d’élément et de dossier entre les formats Exchange pris en charge. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <ConvertId DestinationFormat="">
@@ -38,18 +38,18 @@ Les sections suivantes décrivent les attributs, les éléments enfants et les �
 
 |**Attribut**|**Description**|
 |:-----|:-----|
-|**DestinationFormat** <br/> |Décrit le format d’identificateur qui sera renvoyé pour tous les identificateurs convertis. Le DestinationFormat est décrit par le IdFormatType.  <br/> |
+|**DestinationFormat** <br/> |Décrit le format d’identificateur qui sera renvoyé pour tous les identificateurs convertis. DestinationFormat est décrit par IdFormatType.  <br/> |
    
 #### <a name="destinationformat-attribute"></a>Attribut DestinationFormat
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|**EwsLegacyId** <br/> |Représente le format d’identificateur utilisé pour les identificateurs de services Web Exchange fournis dans la version initiale d’Exchange 2007.  <br/> |
-|**EwsId** <br/> |Représente le format d’identificateur utilisé pour les identificateurs de services Web Exchange à partir d’Exchange Server 2007 SP1.  <br/> |
-|**Entrée** <br/> |Représente l’identificateur MAPI, comme dans la propriété PR_ENTRYID.  <br/> |
-|**HexEntryId** <br/> |Représente l’identificateur d’événement de calendrier de disponibilité. Il s’agit d’une représentation codée en hexadécimal de la propriété PR_ENTRYID.  <br/> |
-|**StoreId** <br/> |Représente l’identificateur de la banque Exchange.  <br/> |
-|**OwaId** <br/> |Représente le format d’identificateur d’Outlook Web Access.  <br/> |
+|**EwsLegacyId** <br/> |Représente le format d’identificateur utilisé pour les identificateurs Exchange Web Services fournis dans la version initiale de Exchange 2007.  <br/> |
+|**EwsId** <br/> |Représente le format d’identificateur utilisé pour les identificateurs Exchange Services Web à partir de Exchange Server 2007 SP1.  <br/> |
+|**EntryId** <br/> |Représente l’identificateur MAPI, comme dans la PR_ENTRYID propriété.  <br/> |
+|**HexEntryId** <br/> |Représente l’identificateur d’événement de calendrier de disponibilité. Il s’agit d’une représentation codée hexadécimale de la propriété PR_ENTRYID.  <br/> |
+|**StoreId** <br/> |Représente l’identificateur Exchange store.  <br/> |
+|**OwaId** <br/> |Représente le format Outlook’identificateur Web Access.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -71,7 +71,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |schéma des messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
@@ -84,5 +84,5 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 - [Éléments XML de EWS dans Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Conversion des identificateurs](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+[Conversion d’identificateurs](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

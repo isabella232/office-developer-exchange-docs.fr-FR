@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CalendarFolderPermissionLevel
 api_type:
 - schema
 ms.assetid: 2a5c9381-dc2c-4fc6-b9b5-893477d0970e
-description: L’élément CalendarFolderPermissionLevel contient les autorisations pour le dossier de calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
-ms.openlocfilehash: dcbd57da42b5e701d898c3756ce9bcc100c20af7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément CalendarFolderPermissionLevel contient les autorisations pour le dossier Calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1).
+ms.openlocfilehash: 1e8fe706a977d32516d4ed362c0924f81cba12f3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44461463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543561"
 ---
 # <a name="calendarfolderpermissionlevel"></a>CalendarFolderPermissionLevel
 
-L’élément **CalendarFolderPermissionLevel** contient les autorisations pour le dossier de calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+**L’élément CalendarFolderPermissionLevel** contient les autorisations pour le dossier Calendrier par défaut. Cet élément a été introduit dans Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
 ```xml
 <CalendarFolderPermissionLevel>
@@ -46,7 +46,7 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation de délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md) <br/> |Contient les paramètres de niveau d’autorisation délégué pour un utilisateur. Cet élément a été introduit dans Exchange 2007 SP1.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
@@ -56,11 +56,11 @@ Le tableau suivant répertorie les valeurs de texte qui représentent les niveau
 
 |**Niveau d’autorisation**|**Description**|
 |:-----|:-----|
-|Aucun  <br/> |L’utilisateur délégué ne dispose pas des autorisations d’accès au dossier calendrier.  <br/> |
-|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments dans le dossier calendrier.  <br/> |
-|Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier calendrier.  <br/> |
-|Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier calendrier.  <br/> |
-|Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier calendrier.  <br/> |
+|Aucun  <br/> |L’utilisateur délégué n’a aucune autorisation d’accès au dossier Calendrier.  <br/> |
+|Relecteur  <br/> |L’utilisateur délégué peut lire les éléments du dossier Calendrier.  <br/> |
+|Auteur  <br/> |L’utilisateur délégué peut lire et créer des éléments dans le dossier Calendrier.  <br/> |
+|Éditeur  <br/> |L’utilisateur délégué peut lire, créer et modifier des éléments dans le dossier Calendrier.  <br/> |
+|Personnalisé  <br/> |L’utilisateur délégué dispose d’autorisations d’accès personnalisées au dossier Calendrier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

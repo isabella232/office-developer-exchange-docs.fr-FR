@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteFolder
 api_type:
 - schema
 ms.assetid: b0f92682-4895-4bcf-a4a1-e4c2e8403979
-description: L’opération DeleteFolder supprime les dossiers d’une boîte aux lettres.
-ms.openlocfilehash: e9bb9199027c2af2cbbb664ef7ad4fa70b7ef718
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération DeleteFolder supprime des dossiers d’une boîte aux lettres.
+ms.openlocfilehash: fdd8519adbf9e0112f5fdd6a411dd6e7710f7d37
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44455743"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545432"
 ---
 # <a name="deletefolder-operation"></a>Opération DeleteFolder
 
-L’opération **DeleteFolder** supprime les dossiers d’une boîte aux lettres. 
+**L’opération DeleteFolder** supprime des dossiers d’une boîte aux lettres. 
   
 ## <a name="deletefolder-request-example"></a>Exemple de requête DeleteFolder
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **DeleteFolder** suivant montre comment créer une demande de suppression d’un dossier. 
+L’exemple suivant **d’une demande DeleteFolder** montre comment former une demande de suppression d’un dossier. 
   
 ### <a name="code"></a>Code
 
@@ -49,12 +49,12 @@ L’exemple de requête **DeleteFolder** suivant montre comment créer une deman
 
 ### <a name="comments"></a>Commentaires
 
-Cet exemple effectue une suppression définitive sur le dossier.
+Cet exemple effectue une suppression en dur sur le dossier.
   
 > [!NOTE]
-> L’ID de dossier a été raccourcie afin de préserver la lisibilité. 
+> L’ID de dossier a été raccourci pour préserver la lisibilité. 
   
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -65,15 +65,15 @@ Les éléments suivants sont utilisés dans la demande :
 - [FolderId](folderid.md)
     
 > [!NOTE]
-> Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur qui exécute Microsoft Exchange Server 2010 sur lequel le rôle de serveur d’accès au client est installé. 
+> Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Microsoft Exchange Server 2010 sur qui le rôle serveur d’accès au client est installé. 
   
-Pour trouver d’autres options pour le message de demande de l’opération **DeleteFolder** , explorez la hiérarchie du schéma. Commencez par l’élément [DeleteFolder](deletefolder.md) . 
+Pour rechercher d’autres options pour le message de demande de **l’opération DeleteFolder,** explorez la hiérarchie de schéma. Commencez à [l’élément DeleteFolder.](deletefolder.md) 
   
 ## <a name="successful-deletefolder-response"></a>Réponse DeleteFolder réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **DeleteFolder** . 
+L’exemple suivant montre une réponse réussie à **la demande DeleteFolder.** 
   
 ### <a name="code"></a>Code
 
@@ -100,7 +100,7 @@ L’exemple suivant montre une réponse réussie à la demande **DeleteFolder** 
 </soap:Envelope>
 ```
 
-### <a name="response-elements"></a>Éléments Response
+### <a name="response-elements"></a>Éléments de réponse
 
 Les éléments suivants sont utilisés dans la réponse :
   
@@ -114,13 +114,13 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [ResponseCode](responsecode.md)
     
-Pour trouver d’autres options pour le message de réponse de l’opération **DeleteFolder** , explorez la hiérarchie du schéma. Commencez par l’élément [DeleteFolderResponse](deletefolderresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse de **l’opération DeleteFolder,** explorez la hiérarchie de schéma. Commencez à [l’élément DeleteFolderResponse.](deletefolderresponse.md) 
   
 ## <a name="deletefolder-error-response"></a>Réponse d’erreur DeleteFolder
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une requête **DeleteFolder** . L’erreur a été causée par une demande de suppression d’un dossier qui n’était pas présent dans la boîte aux lettres. 
+L’exemple suivant montre une réponse d’erreur à **une demande DeleteFolder.** L’erreur est due à une demande de suppression d’un dossier qui n’était pas présent dans la boîte aux lettres. 
   
 ### <a name="code"></a>Code
 
@@ -151,7 +151,7 @@ L’exemple suivant montre une réponse d’erreur à une requête **DeleteFolde
 
 ### <a name="comments"></a>Commentaires
 
-L’opération **DeleteFolder** ne peut pas être utilisée sur des dossiers uniques. 
+**L’opération DeleteFolder** ne peut pas être utilisée sur des dossiers spécifiques. 
   
 ### <a name="error-response-elements"></a>Éléments de réponse d’erreur
 
@@ -171,7 +171,7 @@ Les éléments suivants sont utilisés dans la réponse d'erreur :
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-Pour rechercher d’autres options pour le message d’erreur de réponse de l’opération **DeleteFolder** , explorez la hiérarchie du schéma. Commencez par l’élément [DeleteFolderResponse](deletefolderresponse.md) . 
+Pour rechercher d’autres options pour le message de réponse d’erreur de **l’opération DeleteFolder,** explorez la hiérarchie de schéma. Commencez à [l’élément DeleteFolderResponse.](deletefolderresponse.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

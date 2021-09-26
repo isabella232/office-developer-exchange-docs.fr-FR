@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Duration
 api_type:
 - schema
 ms.assetid: 01d67af3-658e-4acd-93e3-441ae827fdd3
-description: L’élément Duration spécifie la durée pendant laquelle l’État absent (absent du bureau) est activé si l’élément OofState est défini sur planifié.
-ms.openlocfilehash: 0ba0f1ea7498781c0cccb072c7ea0fa05414764c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Duration spécifie la durée pendant qui l’état d’absence du bureau (OOF) est activé si l’élément OofState est définie sur Scheduled.
+ms.openlocfilehash: cb6529bfe3799ff41550d7fe3ce2c79b8a4197e2
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544156"
 ---
 # <a name="duration-useroofsettings"></a>Durée (UserOofSettings)
 
-L’élément **Duration** spécifie la durée pendant laquelle l’État absent (absent du bureau) est activé si l’élément [OofState](oofstate.md) est défini sur **planifié**.
+**L’élément Duration** spécifie la durée pendant qui l’état d’absence du bureau (OOF) est activé si l’élément [OofState](oofstate.md) est définie sur **Scheduled**.
   
 ```XML
 <Duration>
@@ -43,26 +43,26 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[StartTime](starttime.md) <br/> |Représente le début de l’intervalle de temps défini avec un statut OOF. Cet élément est obligatoire.  <br/> |
-|[EndTime](endtime.md) <br/> |Représente la fin de l’intervalle de temps défini avec un statut OOF. Cet élément est obligatoire.  <br/> |
+|[StartTime](starttime.md) <br/> |Représente le début de la période définie avec un état d’absence du travail. Cet élément est obligatoire.  <br/> |
+|[EndTime](endtime.md) <br/> |Représente la fin de la période définie avec un état d’absence du travail. Cet élément est obligatoire.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres OOF.  <br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contient les paramètres OOF.<br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
-|[OutOfOffice](outofoffice.md) <br/> |Définit le message de réponse d’absence du bureau et une durée d’envoi du message de réponse pour une boîte aux lettres.  <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Spécifie les paramètres d’absence du travail.  <br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contient les paramètres d’absence du travail.<br/><br/>Voici l’expression XPath de cet élément :<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[OutOfOffice](outofoffice.md) <br/> |Définit le message de réponse Office (OOF) et une durée d’envoi du message de réponse pour une boîte aux lettres.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le type de **durée** est également le type des éléments [DetailedSuggestionsWindow](detailedsuggestionswindow.md), [TimeWindow](timewindow.md)et [OutOfOffice](outofoffice.md) . 
+Le type **Duration** est également le type pour les éléments [DetailedSuggestionsWindow,](detailedsuggestionswindow.md) [TimeWindow](timewindow.md)et [OutOfOffice.](outofoffice.md) 
   
 Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS qui héberge les services web Exchange.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant de demande d' [opération SetUserOofSettings](setuseroofsettings-operation.md) définit le [OofState](oofstate.md) sur **Enabled**, les messages OOF internes et externes, et définit la durée du OOF pendant 10 jours.
+L’exemple suivant d’une demande d’opération [SetUserOofSettings](setuseroofsettings-operation.md) définit [L’état](oofstate.md) d’absence du travail sur **Activé,** les messages d’absence du travail internes et externes, et définit la durée de l’absence du service pendant 10 jours.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

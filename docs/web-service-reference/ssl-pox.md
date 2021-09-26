@@ -4,27 +4,27 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a7e2bdcd-a2f7-45a4-adcd-a03fe7fd4d9b
-description: L’élément SSL indique si la connexion sécurisée est requise.
-ms.openlocfilehash: f4e42153c25b34c99f2cad50fb56e8cad24534ff
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément SSL spécifie si une logonisation sécurisée est requise.
+ms.openlocfilehash: 4fbf5e9e8fe09e453b9946d48de5be7297f5ffea
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467612"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545908"
 ---
 # <a name="ssl-pox"></a>SSL (POX)
 
-L’élément **SSL** indique si la connexion sécurisée est requise. 
+**L’élément SSL** spécifie si une logonisation sécurisée est requise. 
   
-[Découverte automatique (POX)](autodiscover-pox.md)
+[AutoDiscover (POX)](autodiscover-pox.md)
   
-[Réponse (POX)](response-pox.md)
+[Response (POX)](response-pox.md)
   
-[Compte (POX)](account-pox.md)
+[Account (POX)](account-pox.md)
   
 [Protocol (POX)](protocol-pox.md)
   
@@ -50,15 +50,15 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications relatives à la connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 sur lequel le rôle de serveur d’accès au client est installé.  <br/> |
+|[Protocol (POX)](protocol-pox.md) <br/> |Contient les spécifications de connexion d’un client à l’ordinateur qui exécute Microsoft Exchange Server 2007 où le rôle serveur d’accès au client est installé.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur texte spécifie si la connexion sécurisée est requise. Si ce paramètre n’est pas spécifié, la valeur par défaut est définie **sur on**. Les valeurs possibles sont **on** et **off**.
+La valeur de texte spécifie si une logonisation sécurisée est requise. Si ce paramètre n’est pas spécifié, la valeur par défaut est définie sur **« on**». Les valeurs possibles sont **en cours** et **hors.**
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments XML de découverte automatique de la VARIOle pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+[Éléments XML de découverte automatique POX pour Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

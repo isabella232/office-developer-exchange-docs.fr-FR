@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StartDate
 api_type:
 - schema
 ms.assetid: bd65ac06-b3ac-4c9b-9568-3e4dc94378e7
-description: L’élément StartDate représente la date de début d’une tâche ou d’un élément de calendrier périodique.
-ms.openlocfilehash: 4514f126b1de31c64a2650b9e7cb6b7412a726c7
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément StartDate représente la date de début d’une tâche périodique ou d’un élément de calendrier.
+ms.openlocfilehash: 50f83e5c97d346cc3f7dfced1ee71aa3f9f38ed5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457206"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59545866"
 ---
 # <a name="startdate-recurrence"></a>StartDate (périodicité)
 
-L’élément **StartDate** représente la date de début d’une tâche ou d’un élément de calendrier périodique. 
+**L’élément StartDate** représente la date de début d’une tâche périodique ou d’un élément de calendrier. 
   
 ```xml
 <StartDate/>
@@ -45,13 +45,13 @@ Aucun.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[EndDateRecurrence](enddaterecurrence.md) <br/> |Décrit la date de début et la date de fin d’une périodicité d’élément.  <br/> |
-|[NoEndRecurrence](noendrecurrence.md) <br/> |Décrit la date de début d’un critère de périodicité d’élément qui n’a pas de date de fin définie.  <br/> |
+|[EndDateRecurrence](enddaterecurrence.md) <br/> |Décrit la date de début et la date de fin d’une récurrence d’élément.  <br/> |
+|[NoEndRecurrence](noendrecurrence.md) <br/> |Décrit la date de début d’une récurrence d’élément qui n’a pas de date de fin définie.  <br/> |
 |[NumberedRecurrence](numberedrecurrence.md) <br/> |Décrit la date de début et le nombre d’occurrences d’un élément périodique.  <br/> |
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte qui représente une date est requise si cet élément est utilisé. La valeur ne peut pas être inférieure à la valeur Apr, 1, 1601 00:00:00.
+Une valeur de texte qui représente une date est requise si cet élément est utilisé. La valeur ne peut pas être inférieure à avr, 1, 1601 00:00:00.
   
 ## <a name="remarks"></a>Remarques
 

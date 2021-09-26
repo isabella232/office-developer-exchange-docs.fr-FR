@@ -5,29 +5,29 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DisconnectPhoneCall
 api_type:
 - schema
 ms.assetid: b42fb512-2ae4-4072-906a-ccebb85edb84
-description: L’opération DisconnectPhoneCall termine l’appel téléphonique.
-ms.openlocfilehash: e337185bc2d5c4d2d4e010605816eacea8dfa0ee
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération DisconnectPhoneCall met fin à l’appel téléphonique.
+ms.openlocfilehash: 8f445b7e5c6f2f6343ad5b4d2fbff486ca1ab3d8
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44529062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542357"
 ---
 # <a name="disconnectphonecall-operation"></a>Opération DisconnectPhoneCall
 
-L’opération **DisconnectPhoneCall** termine l’appel téléphonique. 
+**L’opération DisconnectPhoneCall** met fin à l’appel téléphonique. 
   
 ## <a name="disconnectphonecall-request-example"></a>Exemple de requête DisconnectPhoneCall
 
 ### <a name="description"></a>Description
 
-L’exemple de requête **DisconnectPhoneCall** suivant indique comment créer une demande de déconnexion d’un appel téléphonique. 
+L’exemple suivant d’une **demande DisconnectPhoneCall** montre comment former une demande de déconnexion d’un appel téléphonique. 
   
 ### <a name="code"></a>Code
 
@@ -53,7 +53,7 @@ L’exemple de requête **DisconnectPhoneCall** suivant indique comment créer u
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à la demande **DisconnectPhoneCall** . 
+L’exemple suivant montre une réponse réussie à la **demande DisconnectPhoneCall.** 
   
 ### <a name="code"></a>Code
 

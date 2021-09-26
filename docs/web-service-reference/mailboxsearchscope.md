@@ -5,19 +5,19 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4a4203-61e5-46b8-9fa4-d1a10e785aa2
 description: L’élément MailboxSearchScope spécifie une boîte aux lettres et une étendue de recherche pour une recherche de découverte.
-ms.openlocfilehash: 20f528ddfb4812de8468af33bcb0b47d7d851f1d
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+ms.openlocfilehash: 832992e4e1dcf96029be4228906b2762f11f3fbe
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457185"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544121"
 ---
 # <a name="mailboxsearchscope"></a>MailboxSearchScope
 
-L’élément **MailboxSearchScope** spécifie une boîte aux lettres et une étendue de recherche pour une recherche de découverte. 
+**L’élément MailboxSearchScope** spécifie une boîte aux lettres et une étendue de recherche pour une recherche de découverte. 
   
 ```XML
 <MailboxSearchScope>
@@ -38,7 +38,7 @@ Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
-[Mailbox (String)](mailbox-string.md)  |  [SearchScope](searchscope.md)
+[Boîte aux lettres (chaîne)](mailbox-string.md)  |  [SearchScope](searchscope.md)
   
 ### <a name="parent-elements"></a>Éléments parents
 

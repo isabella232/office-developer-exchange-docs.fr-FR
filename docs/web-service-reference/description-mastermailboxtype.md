@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22d61562-a20e-40f1-a809-7e4c16757520
-description: L’élément Description (MasterMailboxType) est destiné uniquement à un usage interne.
-ms.openlocfilehash: a705dff1ed5b36376cee227ffb51d4de2aa500c2
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Description (MasterMailboxType) est destiné à un usage interne uniquement.
+ms.openlocfilehash: 97612b46c4b14721dbe7a9865ce7717e233ab727
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543379"
 ---
 # <a name="description-mastermailboxtype"></a>Description (MasterMailboxType)
 
-L’élément **Description (MasterMailboxType)** est destiné uniquement à un usage interne. 
+**L’élément Description (MasterMailboxType)** est destiné à un usage interne uniquement. 
 
 ## <a name="attributes-and-elements"></a>Attributs et éléments
 

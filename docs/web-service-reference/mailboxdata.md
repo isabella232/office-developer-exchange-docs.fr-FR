@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MailboxData
 api_type:
 - schema
 ms.assetid: e9e3f50c-5a7b-49c7-a9ea-117959c08352
-description: L’élément MailboxData représente un utilisateur de boîte aux lettres et des options individuelles pour le type de données à renvoyer à propos de l’utilisateur de boîte aux lettres.
-ms.openlocfilehash: bfcb8c01d40af81097c7d9868006fe9b7b5519d4
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément MailboxData représente un utilisateur de boîte aux lettres individuel et des options pour le type de données à retourner à propos de l’utilisateur de la boîte aux lettres.
+ms.openlocfilehash: 62c8c816fc0b0e0c6831d468d90e7303fb72d9be
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467248"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546132"
 ---
 # <a name="mailboxdata"></a>MailboxData
 
-L’élément **MailboxData** représente un utilisateur de boîte aux lettres et des options individuelles pour le type de données à renvoyer à propos de l’utilisateur de boîte aux lettres. 
+**L’élément MailboxData représente** un utilisateur de boîte aux lettres individuel et des options pour le type de données à retourner à propos de l’utilisateur de la boîte aux lettres. 
   
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
@@ -51,22 +51,22 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[E-mail (EmailAddressType)](email-emailaddresstype.md) <br/> |Représente l’utilisateur de boîte aux lettres pour une requête GetUserAvailability.  <br/> |
-|[AttendeeType](attendeetype.md) <br/> |Représente le type de participant identifié dans l’élément [email (EmailAddressType)](email-emailaddresstype.md) . Elle est utilisée dans les demandes de suggestions de réunion.  <br/> |
-|[ExcludeConflicts](excludeconflicts.md) <br/> |Spécifie s’il faut renvoyer les heures suggérées pour les heures de calendrier qui sont en conflit entre les participants.  <br/> |
+|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |Représente l’utilisateur de boîte aux lettres pour une requête GetUserAvailability.  <br/> |
+|[AttendeeType](attendeetype.md) <br/> |Représente le type de participant identifié dans l’élément [Email (EmailAddressType).](email-emailaddresstype.md) Il est utilisé dans les demandes de suggestions de réunion.  <br/> |
+|[ExcludeConflicts](excludeconflicts.md) <br/> |Spécifie s’il faut renvoyer les heures suggérées pour les heures de calendrier qui entrent en conflit entre les participants.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[MailboxDataArray](mailboxdataarray.md) <br/> |Contient la liste des boîtes aux lettres à interroger pour obtenir des informations de disponibilité.  <br/> Voici le XPath de cet élément :  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
+|[MailboxDataArray](mailboxdataarray.md) <br/> |Contient une liste de boîtes aux lettres à interroger pour obtenir des informations de disponibilité.  <br/> Voici le chemin d’accès XPath à cet élément :  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray[i]` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une application cliente peut définir un à plusieurs éléments **MailboxData** . 
+Une application cliente peut définir un à plusieurs **éléments MailboxData.** 
   
 > [!NOTE]
-> Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur lequel le rôle serveur d’accès au client est installé. 
+> Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS de l’ordinateur exécutant Exchange Server 2007 sur qui le rôle serveur d’accès au client est installé. 
   
 ## <a name="example"></a>Exemple
 

@@ -5,25 +5,25 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
 - schema
 ms.assetid: 710c893a-3037-4f04-b336-aefedd36c406
-description: L’opération CreateItem permet d’accepter une invitation pour partager le calendrier ou les données de contacts d’un autre utilisateur.
-ms.openlocfilehash: eda846b72f42fe886497b355d9cddade7c5f4044
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’opération CreateItem est utilisée pour accepter une invitation à partager le calendrier ou les données de contacts d’un autre utilisateur.
+ms.openlocfilehash: 37068657e77f4ceb35f9cb9601863fcae520c018
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44457514"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543430"
 ---
 # <a name="createitem-acceptsharinginvitation"></a>CreateItem (AcceptSharingInvitation)
 
-L’opération **CreateItem** permet d’accepter une invitation pour partager le calendrier ou les données de contacts d’un autre utilisateur. 
+**L’opération CreateItem** est utilisée pour accepter une invitation à partager le calendrier ou les données de contacts d’un autre utilisateur. 
   
-## <a name="accept-sharing-invitation-request-example"></a>Exemple de demande d’acceptation de partage
+## <a name="accept-sharing-invitation-request-example"></a>Exemple d’acceptation de demande d’invitation de partage
 
 ### <a name="description"></a>Description
 
@@ -47,7 +47,7 @@ L’exemple suivant montre comment accepter une invitation de partage.
 </soap:Envelope>
 ```
 
-### <a name="request-elements"></a>Demander des éléments
+### <a name="request-elements"></a>Éléments de demande
 
 Les éléments suivants sont utilisés dans la demande :
   
@@ -61,13 +61,13 @@ Les éléments suivants sont utilisés dans la demande :
     
 ### <a name="comments"></a>Commentaires
 
-L’identificateur d’élément et la clé de modification ont été raccourcies afin de préserver la lisibilité.
+L’identificateur d’élément et la touche de modification ont été raccourcis pour préserver la lisibilité.
   
-## <a name="successful-accept-sharing-invitation-response-example"></a>Exemple de réponse d’acceptation de partage réussi
+## <a name="successful-accept-sharing-invitation-response-example"></a>Exemple de réponse d’acceptation de partage réussie
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse réussie à une demande **CreateItem** . 
+L’exemple suivant montre une réponse réussie à **une demande CreateItem.** 
   
 ### <a name="code"></a>Code
 
@@ -115,11 +115,11 @@ Les éléments suivants sont utilisés dans la réponse :
     
 - [Items](items.md)
     
-## <a name="accept-sharing-invitation-error-response-example"></a>Exemple de réponse d’erreur d’acceptation de partage
+## <a name="accept-sharing-invitation-error-response-example"></a>Exemple de réponse d’erreur Accepter l’invitation de partage
 
 ### <a name="description"></a>Description
 
-L’exemple suivant montre une réponse d’erreur à une demande **CreateItem** . L’erreur est causée par une tentative d’acceptation d’une invitation de partage introuvable dans la Banque d’aide Exchange. 
+L’exemple suivant montre une réponse d’erreur à **une demande CreateItem.** L’erreur est due à une tentative d’acceptation d’une invitation de partage in found in the Exchange store. 
   
 ### <a name="code"></a>Code
 

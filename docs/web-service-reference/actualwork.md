@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ActualWork
 api_type:
 - schema
 ms.assetid: aa526166-4913-4e3d-ad82-b2b5cff367be
-description: L’élément ActualWork, représente le temps réel passé sur une tâche.
-ms.openlocfilehash: dda3c4b64f7de26fb8695f4f38f01d15329afb0f
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ActualWork représente le temps réel consacré à une tâche.
+ms.openlocfilehash: fb9c83d11241640bb2e8116a6b8a2b253e7f52e5
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44527459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544389"
 ---
 # <a name="actualwork"></a>ActualWork
 
-L’élément **ActualWork,** représente le temps réel passé sur une tâche. 
+**L’élément ActualWork** représente le temps réel consacré à une tâche. 
   
 ```xml
 <ActualWork/>
@@ -48,7 +48,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-La valeur de texte de cet élément représente un entier.
+La valeur de texte de cet élément représente un integer.
   
 ## <a name="remarks"></a>Remarques
 

@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IsApprovalRequest
 api_type:
 - schema
 ms.assetid: 293ed01b-f6a4-4459-819c-933bbfaa2dd7
-description: L’élément IsApprovalRequest indique si les messages entrants doivent être des demandes d’approbation afin que la condition ou l’exception s’applique.
-ms.openlocfilehash: 08ea36820b2680bb2c7e5695eb2dd481154c05eb
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément IsApprovalRequest indique si les messages entrants doivent être des demandes d’approbation pour que la condition ou l’exception s’applique.
+ms.openlocfilehash: 0547b476d1ec4515906204ba4937272f6c0bedf3
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44530013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544963"
 ---
 # <a name="isapprovalrequest"></a>IsApprovalRequest
 
-L’élément **IsApprovalRequest** indique si les messages entrants doivent être des demandes d’approbation afin que la condition ou l’exception s’applique. 
+**L’élément IsApprovalRequest** indique si les messages entrants doivent être des demandes d’approbation pour que la condition ou l’exception s’applique. 
   
 ```XML
 <IsApprovalRequest/>
@@ -49,7 +49,7 @@ Aucun.
    
 ## <a name="text-value"></a>Valeur texte
 
-Une valeur de texte **true** indique que le message doit être une demande d’approbation afin que la condition ou l’exception s’applique. La valeur **false** indique que le message ne doit pas être une demande d’approbation afin que la condition ou l’exception s’applique. 
+Une valeur de texte **true** indique que le message doit être une demande d’approbation pour que la condition ou l’exception s’applique. La valeur **false indique que** le message ne doit pas être une demande d’approbation pour que la condition ou l’exception s’applique. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

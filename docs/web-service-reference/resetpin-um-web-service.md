@@ -1,28 +1,28 @@
 ---
-title: ResetPIN (service Web de messagerie unifiée)
+title: ResetPIN (service web de messagerie unifiée)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResetPIN
 api_type:
 - schema
 ms.assetid: 383f0735-1caa-4675-a6e1-6dba6c5b1a28
-description: L’élément ResetPIN définit une demande de ResetPIN (service Web de messagerie unifiée).
-ms.openlocfilehash: de175797b202219df994708680ac8ab750b02880
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément ResetPIN définit une demande d’opération ResetPIN (service web de um).
+ms.openlocfilehash: 4a40d927bb93a7c539ce8cd4e7498c3aa0d601bb
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44468851"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59541839"
 ---
-# <a name="resetpin-um-web-service"></a>ResetPIN (service Web de messagerie unifiée)
+# <a name="resetpin-um-web-service"></a>ResetPIN (service web de messagerie unifiée)
 
-L’élément ResetPIN définit une demande de [ResetPIN (service Web de messagerie unifiée)](resetpin-operation-um-web-service.md) . 
+L’élément ResetPIN définit une demande [d’opération ResetPIN (service web de um).](resetpin-operation-um-web-service.md) 
   
-[ResetPIN (service Web de messagerie unifiée)](resetpin-um-web-service.md)
+[ResetPIN (service web de messagerie unifiée)](resetpin-um-web-service.md)
   
 ```xml
 <ResetPIN />
@@ -55,12 +55,12 @@ Aucune.
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |True  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Opération ResetPIN (service Web de messagerie unifiée)](resetpin-operation-um-web-service.md)
+[Opération ResetPIN (service web de messagerie unifiée)](resetpin-operation-um-web-service.md)
 

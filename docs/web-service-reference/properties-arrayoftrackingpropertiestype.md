@@ -1,31 +1,31 @@
 ---
-title: Propriétés (ArrayOfTrackingPropertiesType)
+title: Properties (ArrayOfTrackingPropertiesType)
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Properties
 api_type:
 - schema
 ms.assetid: 175566d2-fd62-45a2-8518-2827912cec88
-description: L’élément properties contient une liste d’une ou plusieurs propriétés de suivi.
-ms.openlocfilehash: 007a4dc14c84c47ea7af8ccacc554c134d563e44
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément Properties contient une liste d’une ou plusieurs propriétés de suivi.
+ms.openlocfilehash: 8232b94effe3aae5b07be12bdaf1b5e85331938f
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44465631"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59542980"
 ---
-# <a name="properties-arrayoftrackingpropertiestype"></a>Propriétés (ArrayOfTrackingPropertiesType)
+# <a name="properties-arrayoftrackingpropertiestype"></a>Properties (ArrayOfTrackingPropertiesType)
 
-L’élément **Properties** contient une liste d’une ou plusieurs propriétés de suivi. 
+**L’élément Properties** contient une liste d’une ou plusieurs propriétés de suivi. 
   
 - [FindMessageTrackingReport](findmessagetrackingreport.md)
   
-- [Propriétés (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
+- [Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
   
 ```xml
 <Properties>
@@ -47,19 +47,19 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[TrackingPropertyType](trackingpropertytype.md) <br/> |Représente une paire nom/valeur de chaînes qui est utilisée pour créer des propriétés pour les rapports de suivi des messages.  <br/> |
+|[TrackingPropertyType](trackingpropertytype.md) <br/> |Représente une paire nom/valeur de chaînes utilisée pour créer des propriétés pour les rapports de suivi des messages.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
 |[FindMessageTrackingReport](findmessagetrackingreport.md) <br/> |Spécifie les critères pour les types de messages à rechercher.  <br/> |
-|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’État et le résultat d’une seule demande d' [opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) .  <br/> |
-|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande pour l' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) afin de récupérer le rapport de suivi complet des messages pour l’ID spécifié.  <br/> |
-|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une demande d' [opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) unique.  <br/> |
-|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un seul événement pour un destinataire.  <br/> |
+|[FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) <br/> |Contient l’état et le résultat d’une [demande d’opération FindMessageTrackingReport](findmessagetrackingreport-operation.md) unique.  <br/> |
+|[GetMessageTrackingReport](getmessagetrackingreport.md) <br/> |Contient la demande de [l’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) pour récupérer le rapport de suivi des messages complet pour l’ID spécifié.  <br/> |
+|[GetMessageTrackingReportResponse](getmessagetrackingreportresponse.md) <br/> |Contient le résultat d’une [demande d’opération GetMessageTrackingReport](getmessagetrackingreport-operation.md) unique.  <br/> |
+|[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contient des informations pour un événement unique pour un destinataire.  <br/> |
 |[MessageTrackingReport](messagetrackingreport.md) <br/> |Contient un seul message renvoyé dans un [Opération de GetMessageTrackingReport](getmessagetrackingreport-operation.md).  <br/> |
-|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un seul résultat de message pour un élément [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) .  <br/> |
+|[MessageTrackingSearchResult](messagetrackingsearchresult.md) <br/> |Contient un résultat de message unique [pour un élément FindMessageTrackingReportResponse.](findmessagetrackingreportresponse.md)  <br/> |
    
 ## <a name="text-value"></a>Valeur de texte
 
@@ -75,7 +75,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel IIS q
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

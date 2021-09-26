@@ -5,45 +5,45 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9688ce8-2465-45bb-8bd2-94b32ed4885c
-description: Trouvez des informations sur l’utilisation de l’opération EWS AddNewTelUriContactToGroup.
-ms.openlocfilehash: 91228ec627ad928d2f1837c135af24846f811b1c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: Découvrez comment utiliser l’opération AddNewTelUriContactToGroup EWS.
+ms.openlocfilehash: 2ad0f55c044e92e2f18a1705ab53be467a804091
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44464944"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59544296"
 ---
 # <a name="addnewteluricontacttogroup-operation"></a>Opération AddNewTelUriContactToGroup
 
-Trouvez des informations sur l’utilisation de l’opération EWS **AddNewTelUriContactToGroup** . 
+Découvrez comment utiliser **l’opération AddNewTelUriContactToGroup** EWS. 
   
-L’opération **AddNewTelUriContactToGroup** ajoute un nouveau contact à un groupe en fonction du numéro de téléphone d’un contact. 
+**L’opération AddNewTelUriContactToGroup** ajoute un nouveau contact à un groupe en fonction du numéro de téléphone d’un contact. 
   
 Cette opération est une nouveauté d’Exchange Server 2013.
   
 ## <a name="using-the-addnewteluricontacttogroup-operation"></a>Utilisation de l’opération AddNewTelUriContactToGroup
 
-Une demande d’opération **AddNewTelUriContactToGroup** soumet l’URI tel d’un contact, l’URI SIP, le numéro de téléphone et le groupe auquel ajouter le contact. Une réponse d’opération **AddNewTelUriContactToGroup** crée un personnage pour le nouveau contact. Cette opération permet aux clients d’ajouter un nouveau contact même si le contact n’a pas de nom. 
+Une demande d’opération **AddNewTelUriContactToGroup** envoie l’URI TEL, l’URI SIP, le numéro de téléphone et le groupe d’un contact à ajouter au contact. Une **réponse d’opération AddNewTelUriContactToGroup** crée un personnage pour le nouveau contact. Cette opération permet aux clients d’ajouter un nouveau contact même si le contact n’a pas de nom. 
   
 ### <a name="addnewteluricontacttogroup-operation-soap-headers"></a>En-têtes SOAP d’opération AddNewTelUriContactToGroup
 
-L’opération **AddNewTelUriContactToGroup** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
+**L’opération AddNewTelUriContactToGroup** peut utiliser les en-têtes SOAP répertoriés dans le tableau suivant. 
   
 |**Nom de l'en-tête**|**Élément**|**Description**|
 |:-----|:-----|:-----|
-|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur qui emprunte l’identité de l’application cliente. Cet en-tête s’applique à une demande.  <br/> |
-|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la norme RFC 3066, « balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
-|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma de la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
+|**Emprunt d’identité** <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifie l’utilisateur dont l’application cliente usurpe l’identité. Cet en-tête s’applique à une demande.  <br/> |
+|**MailboxCulture** <br/> |[MailboxCulture](mailboxculture.md) <br/> |Identifie la culture, telle que définie dans la RFC 3066, « Balises pour l’identification des langues », à utiliser pour accéder à la boîte aux lettres. Cet en-tête s’applique à une demande.  <br/> |
+|**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifie la version de schéma pour la demande d’opération. Cet en-tête s’applique à une demande.  <br/> |
 |**ServerVersion** <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifie la version du serveur qui a répondu à la demande. Cet en-tête s’applique à une réponse.  <br/> |
    
-## <a name="addnewteluricontacttogroup-operation-request-example-add-a-new-contact-to-a-group"></a>Exemple de requête d’opération AddNewTelUriContactToGroup : ajouter un nouveau contact à un groupe
+## <a name="addnewteluricontacttogroup-operation-request-example-add-a-new-contact-to-a-group"></a>Exemple de demande d’opération AddNewTelUriContactToGroup : ajouter un nouveau contact à un groupe
 
-L’exemple suivant de demande d’opération **AddNewTelUriContactToGroup** indique comment créer un contact et ajouter le nouveau contact à un groupe de messagerie instantanée à l’aide des URI tel et SIP du contact. 
+L’exemple suivant d’une demande d’opération **AddNewTelUriContactToGroup** montre comment créer un contact et l’ajouter à un groupe de messagerie instantanée à l’aide des URI TEL et SIP du contact. 
   
 > [!NOTE]
-> Tous les identificateurs d’élément et clés de modification de cet article ont été raccourcies afin de préserver la lisibilité. 
+> Tous les identificateurs d’élément et les touches de modification de cet article ont été raccourcis pour préserver la lisibilité. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -65,7 +65,7 @@ L’exemple suivant de demande d’opération **AddNewTelUriContactToGroup** ind
 </soap:Envelope>
 ```
 
-Le corps SOAP de la demande contient les éléments suivants :
+Le corps SOAP de la requête contient les éléments suivants :
   
 - [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md)
     
@@ -77,9 +77,9 @@ Le corps SOAP de la demande contient les éléments suivants :
     
 - [GroupId](groupid.md)
     
-## <a name="successful-addnewteluricontacttogroup-operation-response"></a>Réponse de l’opération AddNewTelUriContactToGroup réussie
+## <a name="successful-addnewteluricontacttogroup-operation-response"></a>Réponse réussie à l’opération AddNewTelUriContactToGroup
 
-L’exemple suivant montre une réponse réussie à une demande d’opération **AddNewTelUriContactToGroup** pour créer un contact. La réponse contient l’identificateur de personnage associé au contact, le nom d’affichage du personnage, qui est, dans ce cas, basé sur le numéro de téléphone du contact et l’identificateur d’élément du contact, qui est affiché dans le cadre de l’attribution de l’identificateur source. 
+L’exemple suivant montre une réponse réussie à une demande d’opération **AddNewTelUriContactToGroup** pour créer un contact. La réponse contient l’identificateur de personnage associé pour le contact, le nom complet du personnage, qui dans ce cas est basé sur le numéro de téléphone du contact et l’identificateur d’élément du contact, qui est affiché dans le cadre de l’attribution de l’identificateur source. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -145,7 +145,7 @@ L’exemple suivant montre une réponse réussie à une demande d’opération *
 </s:Envelope>
 ```
 
-Le corps SOAP de réponse contient les éléments suivants :
+Le corps SOAP de la réponse contient les éléments suivants :
   
 - [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md)
     
@@ -175,7 +175,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 - [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
     
-- [ID (chaîne)](id-string.md)
+- [ID (String)](id-string.md)
     
 - [SourceId](sourceid.md)
     
@@ -213,7 +213,7 @@ Le corps SOAP de réponse contient les éléments suivants :
     
 ## <a name="addnewteluricontacttogroup-operation-error-response-example"></a>Exemple de réponse d’erreur d’opération AddNewTelUriContactToGroup
 
-L’exemple suivant montre une réponse d’erreur à une demande d’opération **AddNewTelUriContactToGroup** lorsque l’identificateur de groupe contient une valeur correctement formée qui n’identifie pas un groupe dans la boîte aux lettres. 
+L’exemple suivant montre une réponse d’erreur à une demande d’opération **AddNewTelUriContactToGroup** lorsque l’identificateur de groupe contient une valeur bien formée qui n’identifie pas un groupe dans la boîte aux lettres. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -242,7 +242,7 @@ L’exemple suivant montre une réponse d’erreur à une demande d’opération
 
 ```
 
-Le corps SOAP de la réponse d’erreur contient les éléments suivants :
+Le corps SOAP de réponse d’erreur contient les éléments suivants :
   
 - [AddNewTelUriContactToGroupResponse](addnewteluricontacttogroupresponse.md)
     

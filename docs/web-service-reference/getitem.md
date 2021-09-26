@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: 769df8eb-9c72-48b5-a49f-82c6b86bc5fc
-description: L’élément GetItem définit une demande pour obtenir un élément à partir d’une boîte aux lettres dans la Banque d’Exchange.
-ms.openlocfilehash: a02403ee84195a41387d5dbe1785ae6d12b47da5
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément GetItem définit une demande d’obtenir un élément à partir d’une boîte aux lettres dans Exchange store.
+ms.openlocfilehash: 7d5a7253db54fd67bb8e8772c2a5aedb86abdeee
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44458697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59546230"
 ---
 # <a name="getitem"></a>GetItem
 
-L’élément **GetItem** définit une demande pour obtenir un élément à partir d’une boîte aux lettres dans la Banque d’Exchange. 
+**L’élément GetItem** définit une demande d’obtenir un élément à partir d’une boîte aux lettres dans la Exchange store. 
   
 ```xml
 <GetItem>
@@ -43,8 +43,8 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> |Identifie les propriétés et le contenu de l’élément à inclure dans une réponse **GetItem** .  <br/> |
-|[ItemIds](itemids.md) <br/> |Contient les identités uniques des éléments, des éléments d’occurrence et des éléments principaux périodiques qui sont utilisés pour obtenir des éléments de la Banque d’Exchange. Ces éléments représentent des contacts, des tâches, des messages, des éléments de calendrier, des demandes de réunion et d’autres éléments valides dans une boîte aux lettres.  <br/> |
+|[ItemShape](itemshape.md) <br/> |Identifie les propriétés et le contenu de l’élément à inclure dans une **réponse GetItem.**  <br/> |
+|[ItemIds](itemids.md) <br/> |Contient les identités uniques des éléments, des éléments d’occurrence et des éléments maîtres périodiques utilisés pour obtenir des éléments à partir Exchange store. Ces éléments représentent des contacts, des tâches, des messages, des éléments de calendrier, des demandes de réunion et d’autres éléments valides dans une boîte aux lettres.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -59,8 +59,8 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |||
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
-|Nom du schéma  <br/> |Schéma de message  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Nom du schéma  <br/> |Schéma des messages  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

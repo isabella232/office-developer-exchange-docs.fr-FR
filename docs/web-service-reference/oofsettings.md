@@ -5,23 +5,23 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OofSettings
 api_type:
 - schema
 ms.assetid: 8f37d174-db11-427c-bbed-fdde754a60c7
-description: L’élément OofSettings contient les paramètres absent (absent (e) du bureau.
-ms.openlocfilehash: c1b214fd8bfab5b7a82d41a5187cf6e0fc4ba79c
-ms.sourcegitcommit: 88ec988f2bb67c1866d06b361615f3674a24e795
+description: L’élément OofSettings contient les paramètres De Office (OOF).
+ms.openlocfilehash: 0a612cacb69464dfda3c1f235c32f569d3e45775
+ms.sourcegitcommit: 54f6cd5a704b36b76d110ee53a6d6c1c3e15f5a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44467192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59543169"
 ---
 # <a name="oofsettings"></a>OofSettings
 
-L’élément **OofSettings** contient les paramètres absent (absent (e) du bureau. 
+**L’élément OofSettings** contient les paramètres De Office (OOF). 
   
 [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
@@ -50,17 +50,17 @@ Aucune.
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[OofState](oofstate.md) <br/> |Contient l’état d’absence du Bureau de l’utilisateur.  <br/> |
-|[ExternalAudience](externalaudience.md) <br/> |Contient une valeur qui détermine à qui les messages externes OOF sont envoyés.  <br/> |
-|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Contient la durée pendant laquelle l’état du Bureau d’absence est activé si l’élément [OofState](oofstate.md) est défini sur **Planifié**. Si l’élément [OofState](oofstate.md) est défini sur **Enabled** ou **Disabled**, la valeur de cet élément est ignorée.  <br/> |
-|[InternalReply](internalreply.md) <br/> |Contient la réponse OOF envoyée aux autres utilisateurs du domaine de l’utilisateur ou du domaine approuvé.  <br/> |
-|[ExternalReply](externalreply.md) <br/> |Contient la réponse OOF envoyée aux adresses en dehors du domaine du destinataire ou des domaines approuvés.  <br/> |
+|[OofState](oofstate.md) <br/> |Contient l’état d’absence du travail de l’utilisateur.  <br/> |
+|[ExternalAudience](externalaudience.md) <br/> |Contient une valeur qui détermine à qui les messages d’absence du système externes sont envoyés.  <br/> |
+|[Durée (UserOofSettings)](duration-useroofsettings.md) <br/> |Contient la durée pendant laquelle l’état d’absence du travail est activé si l’élément [OofState](oofstate.md) est définie sur **Scheduled**. Si [l’élément OofState](oofstate.md) est activé ou **désactivé,** la valeur de cet élément est ignorée.   <br/> |
+|[InternalReply](internalreply.md) <br/> |Contient la réponse OOF envoyée à d’autres utilisateurs dans le domaine ou le domaine approuvé de l’utilisateur.  <br/> |
+|[ExternalReply](externalreply.md) <br/> |Contient la réponse OOF envoyée aux adresses en dehors du domaine du destinataire ou des domaines de confiance.  <br/> |
    
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contient les résultats de la réponse et les paramètres OOF d’un utilisateur.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse` <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contient les résultats de la réponse et les paramètres d’absence du travail d’un utilisateur.  <br/> Voici l’expression XPath de cet élément :  <br/>  `/GetUserOofSettingsResponse` <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ Le schéma qui décrit cet élément se trouve dans le répertoire virtuel EWS d
 |:-----|:-----|
 |Espace de noms  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Nom du schéma  <br/> |Schéma Messages  <br/> |
-|Fichier de validation  <br/> |Messages. xsd  <br/> |
+|Fichier de validation  <br/> |Messages.xsd  <br/> |
 |Peut être vide  <br/> |False  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
